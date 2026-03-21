@@ -1116,61 +1116,34 @@ const chapters = {
 };
 
 function openChapter(id) {
-  const ch = chapters[id];
+  var ch = chapters[id];
   if (!ch) return;
-  const view = document.getElementById('chapter-view');
-  const list = document.getElementById('novel-list');
-
+  var view = document.getElementById('chapter-view');
+  var list = document.getElementById('novel-list');
   if (!ch.free) {
-    // 未登录或付费章节
-    if (!currentUser) {
-      showAuthModal('login');
-      return;
-    }
-    view.innerHTML = `
-      <div class="chapter-nav">
-        <button class="chapter-back" onclick="backToList()">← 返回目录</button>
-        <span class="chapter-title-bar">江湖传 · 第一季</span>
-      </div>
-      <div class="chapter-heading">${ch.title.replace('·', '·<em>')}em></div>
-      <div class="chapter-meta">${ch.subtitle} · ◆ ${ch.price} 灵石解锁</div>
-      <div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">
-        <div style="font-size:2rem;margin-bottom:16px">🔒</div>
-        <div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节</div>
-        <div style="font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);margin-bottom:24px">需要 ${ch.price} 灵石解锁</div>
-        <button class="btn-p" onclick="showPage('lingshi')">购买灵石</button>
-      </div>`;
-    list.style.display = 'none';
-    view.style.display = 'block';
-    return;
+    if (!currentUser) { showAuthModal('login'); return; }
+    var h = '<div class="chapter-nav"><button class="chapter-back" onclick="backToList()">← 返回目录</button></div>';
+    h += '<div class="chapter-heading">' + ch.title + '</div>';
+    h += '<div class="chapter-meta">' + ch.subtitle + ' · ' + ch.price + ' 灵石</div>';
+    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)"><div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
+    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · ' + ch.price + ' 灵石</div>';
+    h += '<button class="btn-p" onclick="showPage(this.dataset.p)" data-p="lingshi">购买灵石</button></div>';
+    view.innerHTML = h; list.style.display='none'; view.style.display='block'; return;
   }
-
-  const bodyHtml = ch.content.map(p => `<p>${p}</p>`).join('');
-  const nextId = id + 1;
-  const prevId = id - 1;
-
-  view.innerHTML = `
-    <div class="chapter-nav">
-      <button class="chapter-back" onclick="backToList()">← 返回目录</button>
-      <span class="chapter-title-bar">江湖传 · 第一季</span>
-    </div>
-    <div class="chapter-heading">${ch.title}</div>
-    <div class="chapter-meta">${ch.subtitle} · 免费阅读</div>
-    <div class="chapter-body">${bodyHtml}</div>
-    <div class="chapter-footer">
-      <div class="chapter-prev-next">
-        ${prevId >= 1 ? `<button class="chapter-back" onclick="openChapter(${prevId})">← 上一章</button>` : ''}
-        ${chapters[nextId] ? `<button class="chapter-back" onclick="openChapter(${nextId})">下一章 →</button>` : ''}
-      </div>
-      <span style="font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim)">${ch.content.length * 30} 字</span>
-    </div>`;
-
-  list.style.display = 'none';
-  view.style.display = 'block';
-  // 滚到顶部
+  var body = ''; ch.content.forEach(function(p){ body += '<p>' + p + '</p>'; });
+  var nextId = id+1; var prevId = id-1;
+  var h = '<div class="chapter-nav"><button class="chapter-back" onclick="backToList()">← 返回目录</button>';
+  h += '<span class="chapter-title-bar">江湖传 · 第一季</span></div>';
+  h += '<div class="chapter-heading">' + ch.title + '</div>';
+  h += '<div class="chapter-meta">' + ch.subtitle + ' · 免费阅读</div>';
+  h += '<div class="chapter-body">' + body + '</div>';
+  h += '<div class="chapter-footer"><div class="chapter-prev-next">';
+  if (prevId >= 1) h += '<button class="chapter-back" onclick="openChapter(' + prevId + ')">← 上一章</button>';
+  if (chapters[nextId]) h += '<button class="chapter-back" onclick="openChapter(' + nextId + ')">下一章 →</button>';
+  h += '</div><span style="font-size:.6rem;color:var(--text-dim)">' + (ch.content.length*30) + ' 字</span></div>';
+  view.innerHTML = h; list.style.display='none'; view.style.display='block';
   document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
 }
-
 function backToList() {
   document.getElementById('chapter-view').style.display = 'none';
   document.getElementById('novel-list').style.display = 'block';
@@ -1430,85 +1403,91 @@ const novelsData = [
 
 
 // ── 书库渲染 ──
-function renderLibrary(filter) {
-  var grid = document.querySelector('.books-list-grid');
-  if (!grid) return;
-  var filtered = filter ? novelsData.filter(function(n){ return n.genre === filter; }) : novelsData;
-  grid.innerHTML = filtered.map(function(n) {
-    var genreColor = {
-      '武侠江湖':'cg1','朝堂权谋':'cg4','市井奇情':'cg2','西域异域':'cg2','英文武侠':'cg3'
-    }[n.genre] || 'cg1';
-    return '<div class="book-card" onclick="openNovel(''+n.id+'')">'+
-      '<div class="book-cover '+genreColor+'">'+
-        '<span class="book-cover-char">'+n.coverChar+'</span>'+
-        '<span class="book-cover-badge '+(n.status==='serial'?'badge-new':'badge-hot')+'">'+(n.status==='serial'?'连载中':'完结')+'</span>'+
-        '<span class="book-cover-lock">◆ 付费</span>'+
-      '</div>'+
-      '<div class="book-info">'+
-        '<div class="book-genre">'+n.genre+'</div>'+
-        '<div class="book-title">'+n.title+'</div>'+
-        '<div class="book-author">'+n.author+'</div>'+
-        '<div class="book-meta">'+
-          '<span class="book-meta-item">📖 '+n.chapters.length+'章</span>'+
-          '<span class="book-price">◆ 8灵石/章</span>'+
-        '</div>'+
-      '</div>'+
-    '</div>';
-  }).join('');
+function getGenreColor(genre) {
+  var map = {"武侠江湖":"cg1","朝堂权谋":"cg4","市井奇情":"cg2","西域异域":"cg2","英文武侠":"cg3"};
+  return map[genre] || "cg1";
 }
 
-// ── 打开小说详情 ──
+function renderLibrary(filter) {
+  var grid = document.querySelector(".books-list-grid");
+  if (!grid) return;
+  var filtered = filter ? novelsData.filter(function(n){ return n.genre === filter; }) : novelsData;
+  var html = "";
+  filtered.forEach(function(n) {
+    var color = getGenreColor(n.genre);
+    var badge = n.status === "serial" ? "badge-new" : "badge-hot";
+    var badgeText = n.status === "serial" ? "连载中" : "完结";
+    html += "<div class='book-card' onclick='openNovel(this.dataset.n)' data-n='" + n.id + "'>";
+    html += "<div class='book-cover " + color + "'>";
+    html += "<span class='book-cover-char'>" + n.coverChar + "</span>";
+    html += "<span class='book-cover-badge " + badge + "'>" + badgeText + "</span>";
+    html += "<span class='book-cover-lock'>◆ 付费</span></div>";
+    html += "<div class='book-info'>";
+    html += "<div class='book-genre'>" + n.genre + "</div>";
+    html += "<div class='book-title'>" + n.title + "</div>";
+    html += "<div class='book-author'>" + n.author + "</div>";
+    html += "<div class='book-meta'><span class='book-meta-item'>📖 " + n.chapters.length + "章</span>";
+    html += "<span class='book-price'>◆ 8灵石/章</span></div></div></div>";
+  });
+  grid.innerHTML = html;
+}
+
 function openNovel(id) {
-  var novel = novelsData.find(function(n){ return n.id === id; });
+  var novel = null;
+  for (var i = 0; i < novelsData.length; i++) {
+    if (novelsData[i].id === id) { novel = novelsData[i]; break; }
+  }
   if (!novel) return;
-  // 切换到江湖传页面显示阅读器
-  showPage('jianghu');
-  // 更新章节列表
+  showPage("jianghu");
   setTimeout(function(){
-    var list = document.getElementById('novel-list');
+    var list = document.getElementById("novel-list");
     if (!list) return;
-    list.innerHTML = '<h2>'+novel.title.replace('·','·<em>')+'</em></h2>'+
-      '<div class="novel-list-sub">// '+novel.genre+' · '+novel.author+'</div>'+
-      novel.chapters.map(function(ch){
-        return '<div class="novel-item" onclick="openChapterFromNovel(''+id+'','+ch.num+')">'+
-          '<div class="novel-item-num">0'+ch.num+'</div>'+
-          '<div class="novel-item-body"><h3>第'+ch.num+'章 · '+ch.title+'</h3><p>'+ch.content[0]+'</p></div>'+
-          '<span class="novel-item-badge '+(ch.free?'badge-free-read':'badge-lock')+'">'+(ch.free?'免费阅读':'◆ 8灵石')+'</span>'+
-        '</div>';
-      }).join('');
-    list.style.display = 'block';
-    document.getElementById('chapter-view').style.display = 'none';
-    list.scrollIntoView({behavior:'smooth'});
+    var html = "<h2>" + novel.title + "</h2>";
+    html += "<div class='novel-list-sub'>// " + novel.genre + " · " + novel.author + "</div>";
+    novel.chapters.forEach(function(ch) {
+      var badgeClass = ch.free ? "badge-free-read" : "badge-lock";
+      var badgeText = ch.free ? "免费阅读" : "◆ 8灵石";
+      html += "<div class='novel-item' onclick='openChapterFromNovel(this.dataset.n," + ch.num + ")' data-n='" + id + "'>";
+      html += "<div class='novel-item-num'>0" + ch.num + "</div>";
+      html += "<div class='novel-item-body'><h3>第" + ch.num + "章 · " + ch.title + "</h3>";
+      html += "<p>" + ch.content[0] + "</p></div>";
+      html += "<span class='novel-item-badge " + badgeClass + "'>" + badgeText + "</span></div>";
+    });
+    list.innerHTML = html;
+    list.style.display = "block";
+    document.getElementById("chapter-view").style.display = "none";
+    list.scrollIntoView({behavior:"smooth"});
   }, 100);
 }
 
 function openChapterFromNovel(novelId, chNum) {
-  var novel = novelsData.find(function(n){ return n.id === novelId; });
+  var novel = null;
+  for (var i=0; i<novelsData.length; i++) { if (novelsData[i].id===novelId) { novel=novelsData[i]; break; } }
   if (!novel) return;
-  var ch = novel.chapters.find(function(c){ return c.num === chNum; });
+  var ch = null;
+  for (var i=0; i<novel.chapters.length; i++) { if (novel.chapters[i].num===chNum) { ch=novel.chapters[i]; break; } }
   if (!ch) return;
   var view = document.getElementById('chapter-view');
   var list = document.getElementById('novel-list');
   if (!ch.free && !currentUser) { showAuthModal('login'); return; }
   if (!ch.free) {
-    view.innerHTML = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button></div>'+
-      '<div class="chapter-heading">第'+ch.num+'章 · <em>'+ch.title+'</em></div>'+
-      '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">'+
-      '<div style="font-size:2rem;margin-bottom:16px">🔒</div>'+
-      '<div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · 8灵石</div>'+
-      '<button class="btn-p" onclick="showPage('lingshi')">购买灵石</button></div>';
-    list.style.display='none'; view.style.display='block'; return;
+    var h = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">← 返回目录</button></div>';
+    h += '<div class="chapter-heading">第' + ch.num + '章 · ' + ch.title + '</div>';
+    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)"><div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
+    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · 8灵石</div>';
+    h += '<button class="btn-p" onclick="showPage(this.dataset.p)" data-p="lingshi">购买灵石</button></div>';
+    view.innerHTML=h; list.style.display='none'; view.style.display='block'; return;
   }
-  var body = ch.content.map(function(p){ return '<p>'+p+'</p>'; }).join('');
-  view.innerHTML = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button><span class="chapter-title-bar">'+novel.title+'</span></div>'+
-    '<div class="chapter-heading">第'+ch.num+'章 · <em>'+ch.title+'</em></div>'+
-    '<div class="chapter-meta">'+novel.author+' · 免费阅读</div>'+
-    '<div class="chapter-body">'+body+'</div>'+
-    '<div class="chapter-footer"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button></div>';
-  list.style.display='none'; view.style.display='block';
+  var body=''; ch.content.forEach(function(p){ body+='<p>'+p+'</p>'; });
+  var h = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">← 返回目录</button>';
+  h += '<span class="chapter-title-bar">'+novel.title+'</span></div>';
+  h += '<div class="chapter-heading">第'+ch.num+'章 · '+ch.title+'</div>';
+  h += '<div class="chapter-meta">'+novel.author+' · 免费阅读</div>';
+  h += '<div class="chapter-body">'+body+'</div>';
+  h += '<div class="chapter-footer"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="'+novelId+'">← 返回目录</button></div>';
+  view.innerHTML=h; list.style.display='none'; view.style.display='block';
   document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
 }
-
 document.addEventListener('DOMContentLoaded', function(){
   renderLibrary();
 });
@@ -1590,11 +1569,6 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
 // ── SUPABASE CONFIG ──
 const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
-catch(e) {
-  console.error('Supabase init error:', e);
-  // fallback: stub so UI doesn't break
-  supabase = { auth: { getSession: async()=>({data:{session:null}}), onAuthStateChange:()=>{}, signInWithPassword: async()=>({error:{message:'服务暂时不可用'}}), signUp: async()=>({error:{message:'服务暂时不可用'}}), signOut: async()=>{}, signInWithOAuth: async()=>{} } };
-}
 
 // ── LANGUAGE SYSTEM ──
 let currentLang = 'zh';
