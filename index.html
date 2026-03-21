@@ -645,13 +645,13 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
     <aside class="sidebar">
       <div class="sidebar-sec">
         <div class="sidebar-title">题材分类</div>
-        <div class="filter-item active">全部作品 <span class="filter-count">2,341</span></div>
-        <div class="filter-item">武侠江湖 <span class="filter-count">856</span></div>
+        <div class="filter-item active" data-genre="">全部作品 <span class="filter-count" id="countAll">10</span></div>
+        <div class="filter-item" data-genre="武侠江湖">武侠江湖 <span class="filter-count">3</span></div>
         <div class="filter-item">修仙玄幻 <span class="filter-count">621</span></div>
-        <div class="filter-item">朝堂权谋 <span class="filter-count">312</span></div>
-        <div class="filter-item">市井奇情 <span class="filter-count">198</span></div>
-        <div class="filter-item">西域异域 <span class="filter-count">154</span></div>
-        <div class="filter-item">English Works <span class="filter-count">400</span></div>
+        <div class="filter-item" data-genre="朝堂权谋">朝堂权谋 <span class="filter-count">2</span></div>
+        <div class="filter-item" data-genre="市井奇情">市井奇情 <span class="filter-count">2</span></div>
+        <div class="filter-item" data-genre="西域异域">西域异域 <span class="filter-count">1</span></div>
+        <div class="filter-item" data-genre="英文武侠">English Works <span class="filter-count">2</span></div>
       </div>
       <div class="sidebar-sec">
         <div class="sidebar-title">更新状态</div>
@@ -1176,11 +1176,351 @@ function backToList() {
   document.getElementById('novel-list').style.display = 'block';
 }
 
+const novelsData = [
+
+// ══ 武侠江湖 ══
+{
+  id: 'jht', title: '江湖传·第一季', author: 'K1980 Studio',
+  genre: '武侠江湖', coverChar: '传', status: 'serial',
+  desc: '大夏王朝，京城听风堂。少年顾长安只为寻父死真相，却卷入三方棋局。',
+  chapters: [
+    { num:1, title:'听风堂', free:true, content:[
+      '顾长安第一次踏入京城。',
+      '城门很高，人很多，风很轻，茶很淡。',
+      '他在人群里站了很久，看着那些南来北往的人，每个人都好像藏着一个故事。',
+      '有人说，京城有一个地方，什么消息都能买到，什么秘密都藏不住。那个地方叫——听风堂。',
+      '顾长安背着包袱，沿着最热闹的那条街一路走过去。茶楼就在街的尽头，三层楼高，匾额上四个字：听风堂。',
+      '他深吸一口气，推门走了进去。',
+      '掌柜是个四十岁上下的文人，正在擦拭柜台，头也不抬地说了一句话：',
+      '"买消息，还是卖消息？"',
+      '顾长安停住脚步。"我想打听一个人的死因。"',
+      '"如果没有钱呢？"他补了一句。',
+      '沉默了片刻，掌柜放下手中的布，轻声说："那就用命换。"',
+    ]},
+    { num:2, title:'血影初现', free:true, content:[
+      '夜色之中，一道影子掠过屋顶。',
+      '他的代号是七十三，血影楼排名第七的刺客。任务很简单：取顾长安性命。',
+      '但七十三在暗处盯着那个少年看了整整一个时辰。少年走进包子铺，买了两个包子，坐在街边吃。神情平静，眼神干净。',
+      '七十三皱起眉头。他见过太多该死的人，也见过太多不该死的人。这个少年，像后者。',
+      '他收起刀，转身离去。今夜，不杀。',
+    ]},
+  ]
+},
+
+// ══ 武侠江湖 ══
+{
+  id: 'dao-hai', title: '刀海浮沉录', author: '游侠无风',
+  genre: '武侠江湖', coverChar: '刀', status: 'serial',
+  desc: '江湖第一镖局覆灭之夜，唯一幸存者踏上复仇之路，却发现真正的敌人藏在朝廷之内。',
+  chapters: [
+    { num:1, title:'镖局之殇', free:true, content:[
+      '大火是从后院烧起来的。',
+      '霍铁山从睡梦中惊醒时，整个顺风镖局已经火光冲天。',
+      '他摸出腰刀冲出房门，院子里全是黑衣人。兄弟们一个个倒下，没有人喊出声音。',
+      '这不是劫镖。这是灭口。',
+      '"总镖头。"一个声音从黑暗里传来，"你押的那趟货，不该接。"',
+      '霍铁山握紧刀柄。二十年镖局，今夜折在这里。',
+      '"是谁的命令？"他问。',
+      '黑衣人没有回答。刀光闪过——',
+      '霍铁山向侧面一滚，跌入后院的枯井。',
+      '火光渐渐远了，人声渐渐静了。',
+      '他在黑暗的井底，听着自己的心跳。',
+      '他还活着。但镖局没了。',
+      '兄弟们没了。',
+      '总有一天，他要查清楚这一切。',
+    ]},
+  ]
+},
+
+// ══ 武侠江湖 ══
+{
+  id: 'xia-ke', title: '侠客行·新纪元', author: '北风入云',
+  genre: '武侠江湖', coverChar: '侠', status: 'serial',
+  desc: '百年一遇的武林大会前夕，一块残缺的武学宝典现世，引发各方势力暗战。',
+  chapters: [
+    { num:1, title:'武林大会', free:true, content:[
+      '武林大会每百年举办一次，上一次是顾长安祖父那一代的事。',
+      '这一次，来的人太多，乱的程度也超出所有人的预期。',
+      '少林、武当、峨眉，三大门派的掌门在台上端坐，台下数百名江湖人交头接耳。',
+      '话题只有一个：半月前，陕西某古墓中出土了一块残缺的铁板，上面刻有前朝失传武学。',
+      '"谁得到了？"人群里有人问。',
+      '"不知道。"另一个人说，"但听说，为了那块铁板，已经死了十三个人。"',
+      '台上的少林方丈轻轻敲了一下禅杖，全场顿时安静。',
+      '"诸位。"他缓缓开口，"江湖不是乱局。有些东西，得到了不一定是福。"',
+      '话音未落，台下忽然一声惨叫。',
+      '所有人转头——一个年轻人倒在地上，背后插着一支羽箭。',
+      '大会，还没开始，已经见血了。',
+    ]},
+  ]
+},
+
+// ══ 朝堂权谋 ══
+{
+  id: 'chao-tang', title: '朝堂暗战录', author: '墨砚先生',
+  genre: '朝堂权谋', coverChar: '朝', status: 'serial',
+  desc: '皇帝驾崩之夜，三位皇子同时收到密诏，却内容各不相同。一场持续二十年的夺嫡之战由此展开。',
+  chapters: [
+    { num:1, title:'密诏之夜', free:true, content:[
+      '正和二十三年，秋，皇帝驾崩。',
+      '消息在深夜传出，仅一个时辰，京城三处宅邸同时来了传旨太监。',
+      '大皇子府，二皇子府，三皇子府。',
+      '三道密诏，三个太监，同时跪下宣读。',
+      '大皇子李承乾展开诏书，读完，脸色铁青。',
+      '二皇子李承泰读完，沉默良久，然后笑了。',
+      '三皇子李承和——年仅十四岁，读完之后，哭了。',
+      '没有人知道，三道密诏写的内容是否相同。',
+      '也没有人知道，哪一道才是真的。',
+      '或者，它们都是真的。',
+      '或者，都是假的。',
+      '皇帝这最后一局棋，从他闭上眼睛的那一刻起，才真正开始。',
+    ]},
+  ]
+},
+
+// ══ 朝堂权谋 ══
+{
+  id: 'huang-gong', title: '皇宫十二时辰', author: '长安旧梦',
+  genre: '朝堂权谋', coverChar: '宫', status: 'serial',
+  desc: '一名宫女在御膳房发现了一枚不属于任何人的玉佩，由此牵出一桩掩埋十五年的宫廷秘案。',
+  chapters: [
+    { num:1, title:'御膳房的秘密', free:true, content:[
+      '卯时，御膳房的炉火已经燃了两个时辰。',
+      '阿绣端着食盒穿过回廊，经过角落里的那口旧缸时，脚步顿了一下。',
+      '缸底有东西。',
+      '她左右看看，四下无人，俯身探手进去——摸到一枚玉佩。',
+      '温润，沉重，雕工极细。翻过来，背面刻着两个字：承安。',
+      '阿绣的手微微颤抖。',
+      '承安是先太子的封号。',
+      '先太子已经薨逝十五年。',
+      '他的遗物，怎么会出现在御膳房的旧缸里？',
+      '阿绣把玉佩塞入袖中，快步离开。她不知道自己捡到了什么，但她知道——',
+      '有些东西，捡到了，就不能轻易放下。',
+    ]},
+  ]
+},
+
+// ══ 市井奇情 ══
+{
+  id: 'chang-an-meng', title: '长安市井录', author: '茶馆说书人',
+  genre: '市井奇情', coverChar: '市', status: 'serial',
+  desc: '京城最热闹的东市，藏着最复杂的人情冷暖。一个说书人，记录下那些从不出现在史书里的故事。',
+  chapters: [
+    { num:1, title:'东市第一摊', free:true, content:[
+      '东市的早晨从豆腐摊开始。',
+      '老陈头的豆腐摊在东市摆了三十二年，风雨无阻。他的豆腐白嫩细腻，价格公道，周围邻摊都说，老陈头是东市的定海神针。',
+      '但没有人知道，老陈头年轻时，曾经是江湖上响当当的人物。',
+      '"老陈，来两块。"',
+      '"好嘞。"老陈头麻利地切豆腐，头也不抬，"今儿个早，有贵客。"',
+      '来人是个身着青衣的年轻公子，看起来不像东市的人。',
+      '"你就是陈无忌？"年轻人压低声音。',
+      '老陈头的手停了一下，然后继续切豆腐。',
+      '"陈无忌死了二十年了。我叫老陈头，卖豆腐的。"',
+      '"有人要你的命。"年轻人说。',
+      '老陈头把两块豆腐递过去，平静地说：',
+      '"两文钱。"',
+    ]},
+  ]
+},
+
+// ══ 市井奇情 ══
+{
+  id: 'yao-pu', title: '药铺奇谭', author: '杏林散人',
+  genre: '市井奇情', coverChar: '药', status: 'serial',
+  desc: '城南一家三代相传的老药铺，铺主是个从不行医的怪人。却有无数人在深夜叩响他的门。',
+  chapters: [
+    { num:1, title:'三更敲门声', free:true, content:[
+      '三更，有人敲门。',
+      '苏和明放下手中的医书，推开窗户往下看，是个年轻女子，怀里抱着一个孩子。',
+      '"大夫，求你救救我的孩子。"',
+      '苏和明叹了口气。他挂出去的牌子明明写着：不看诊，不抓药，只卖材料。',
+      '但每次有人来敲门，他还是会开。',
+      '孩子发高烧，已经两天。苏和明摸了摸额头，转身去取药。',
+      '"你们是从哪里来的？"他一边抓药，一边随口问。',
+      '"从北边。"女子说，"逃难来的。"',
+      '苏和明的手顿了一下。北边——那是说，战乱的地方。',
+      '"孩子父亲呢？"',
+      '女子没有回答。',
+      '苏和明不再问了。有些问题，不需要答案。',
+      '他把药包好，递过去。"三天，烧会退。"',
+      '"多少钱？"',
+      '"不要钱。"苏和明说，"但你以后不要再来了。"',
+      '女子愣了一下，抱紧孩子，深深鞠了一躬，转身离去。',
+      '苏和明关上门，回到桌边，继续看书。',
+      '他知道，明晚还会有人敲门。',
+    ]},
+  ]
+},
+
+// ══ 西域异域 ══
+{
+  id: 'xi-yu', title: '西域风沙志', author: '沙漠行者',
+  genre: '西域异域', coverChar: '域', status: 'serial',
+  desc: '大夏王朝最西边的边城，一个汉人商队首领和一位西域公主的相遇，牵出横跨三国的秘密。',
+  chapters: [
+    { num:1, title:'边城初遇', free:true, content:[
+      '敦煌城外，风沙遮天。',
+      '商队已经在城外等了三天，守城的士兵说，城内发生了命案，封城待查。',
+      '商队首领裴远舟站在沙丘上，望着城门，眉头紧皱。货物等不了太久，再耽误下去，丝绸会受潮，香料会变味。',
+      '这时，旁边有个声音用带着口音的汉话说：',
+      '"你是商人？"',
+      '裴远舟转过头——是个女子，穿着西域的服饰，面覆轻纱，只露出一双眼睛。',
+      '"是。"他说，"你呢？"',
+      '"我也是商人。"女子说。但她的眼神不像商人，太冷静，太锐利。',
+      '"城里出了什么事？"裴远舟问。',
+      '女子沉默片刻，说："死的人，是我要找的人。"',
+      '裴远舟看着她，没有说话。',
+      '风沙里，这个女子像一块石头，沉而稳。',
+      '"你认识死者？"',
+      '"认识。"她说，"他是杀我父亲的人。"',
+    ]},
+  ]
+},
+
+// ══ 英文武侠 ══
+{
+  id: 'iron-wind', title: 'Iron Wind Chronicles', author: 'Chen MingYu',
+  genre: '英文武侠', coverChar: '风', status: 'serial',
+  desc: 'A Western swordsman arrives in ancient China seeking the legendary Iron Wind technique. But the master he seeks has been dead for twenty years.',
+  chapters: [
+    { num:1, title:'The Stranger at the Gate', free:true, content:[
+      'The man arrived at Wudang\'s gate on a rainy morning in late autumn.',
+      "He was not Chinese. That much was clear from his height, his pale eyes, and the foreign-made sword at his hip.",
+      "The young monk at the gate stepped forward. This mountain is closed to outsiders.",
+      "I know, the man said. I have come to pay respects to Master Chen Feng.",
+      "The monk shifted. Master Chen Feng passed away. Twenty years ago.",
+      "The stranger was quiet for a moment. Rain fell between them.",
+      "I know that too, he said finally. He was my teacher.",
+      "The monk stared. Master Chen Feng had never taken foreign students.",
+      "Your name? the monk asked.",
+      "Marcus, the man said. Marcus Wei.",
+      "And what do you want here, Marcus Wei?",
+      "The stranger looked up at the mountain, at the mist curling around the ancient pines.",
+      "To finish what he started, he said. And to find out who killed him.",
+    ]},
+  ]
+},
+
+// ══ 英文武侠 ══
+{
+  id: 'dragon-throne', title: 'Shadow of the Dragon Throne', author: 'Lin Xiao',
+  genre: '英文武侠', coverChar: '龙', status: 'serial',
+  desc: 'A half-foreign imperial guard uncovers a conspiracy that reaches to the very heart of the emperor\'s court.',
+  chapters: [
+    { num:1, title:'The Emperor\'s Guard', free:true, content:[
+      "Lena was the only woman in the Imperial Guard, and the only one with foreign blood.",
+      "Both facts made her an outsider. She had learned to use that.",
+      "She stood at her post outside the emperors study, still as carved stone, listening to the conversation inside.",
+      "Two voices. The emperors slow, deliberate tone. And another - a minister, nervous, rushed.",
+      "Your Majesty, the information is confirmed. The northern ambassador carries a message not meant for your eyes.",
+      'Silence.',
+      "And yet, the emperor said, you bring it to me.",
+      "Because - the minister hesitated. Because someone paid me to.",
+      'More silence. Longer this time.',
+      "Lenas hand moved slightly toward her sword hilt.",
+      "Interesting, the emperor said finally. Do you know who?",
+      "No. But they knew things about you. Things only someone inside these walls could know.",
+      "The door opened suddenly. The minister walked out, pale, not looking at Lena.",
+      "Then the emperors voice came from inside:",
+      "Guard. Come in.",
+      "Lena stepped forward into the light.",
+    ]},
+  ]
+},
+];
+
+
+// ── 书库渲染 ──
+function renderLibrary(filter) {
+  var grid = document.querySelector('.books-list-grid');
+  if (!grid) return;
+  var filtered = filter ? novelsData.filter(function(n){ return n.genre === filter; }) : novelsData;
+  grid.innerHTML = filtered.map(function(n) {
+    var genreColor = {
+      '武侠江湖':'cg1','朝堂权谋':'cg4','市井奇情':'cg2','西域异域':'cg2','英文武侠':'cg3'
+    }[n.genre] || 'cg1';
+    return '<div class="book-card" onclick="openNovel(''+n.id+'')">'+
+      '<div class="book-cover '+genreColor+'">'+
+        '<span class="book-cover-char">'+n.coverChar+'</span>'+
+        '<span class="book-cover-badge '+(n.status==='serial'?'badge-new':'badge-hot')+'">'+(n.status==='serial'?'连载中':'完结')+'</span>'+
+        '<span class="book-cover-lock">◆ 付费</span>'+
+      '</div>'+
+      '<div class="book-info">'+
+        '<div class="book-genre">'+n.genre+'</div>'+
+        '<div class="book-title">'+n.title+'</div>'+
+        '<div class="book-author">'+n.author+'</div>'+
+        '<div class="book-meta">'+
+          '<span class="book-meta-item">📖 '+n.chapters.length+'章</span>'+
+          '<span class="book-price">◆ 8灵石/章</span>'+
+        '</div>'+
+      '</div>'+
+    '</div>';
+  }).join('');
+}
+
+// ── 打开小说详情 ──
+function openNovel(id) {
+  var novel = novelsData.find(function(n){ return n.id === id; });
+  if (!novel) return;
+  // 切换到江湖传页面显示阅读器
+  showPage('jianghu');
+  // 更新章节列表
+  setTimeout(function(){
+    var list = document.getElementById('novel-list');
+    if (!list) return;
+    list.innerHTML = '<h2>'+novel.title.replace('·','·<em>')+'</em></h2>'+
+      '<div class="novel-list-sub">// '+novel.genre+' · '+novel.author+'</div>'+
+      novel.chapters.map(function(ch){
+        return '<div class="novel-item" onclick="openChapterFromNovel(''+id+'','+ch.num+')">'+
+          '<div class="novel-item-num">0'+ch.num+'</div>'+
+          '<div class="novel-item-body"><h3>第'+ch.num+'章 · '+ch.title+'</h3><p>'+ch.content[0]+'</p></div>'+
+          '<span class="novel-item-badge '+(ch.free?'badge-free-read':'badge-lock')+'">'+(ch.free?'免费阅读':'◆ 8灵石')+'</span>'+
+        '</div>';
+      }).join('');
+    list.style.display = 'block';
+    document.getElementById('chapter-view').style.display = 'none';
+    list.scrollIntoView({behavior:'smooth'});
+  }, 100);
+}
+
+function openChapterFromNovel(novelId, chNum) {
+  var novel = novelsData.find(function(n){ return n.id === novelId; });
+  if (!novel) return;
+  var ch = novel.chapters.find(function(c){ return c.num === chNum; });
+  if (!ch) return;
+  var view = document.getElementById('chapter-view');
+  var list = document.getElementById('novel-list');
+  if (!ch.free && !currentUser) { showAuthModal('login'); return; }
+  if (!ch.free) {
+    view.innerHTML = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button></div>'+
+      '<div class="chapter-heading">第'+ch.num+'章 · <em>'+ch.title+'</em></div>'+
+      '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">'+
+      '<div style="font-size:2rem;margin-bottom:16px">🔒</div>'+
+      '<div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · 8灵石</div>'+
+      '<button class="btn-p" onclick="showPage('lingshi')">购买灵石</button></div>';
+    list.style.display='none'; view.style.display='block'; return;
+  }
+  var body = ch.content.map(function(p){ return '<p>'+p+'</p>'; }).join('');
+  view.innerHTML = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button><span class="chapter-title-bar">'+novel.title+'</span></div>'+
+    '<div class="chapter-heading">第'+ch.num+'章 · <em>'+ch.title+'</em></div>'+
+    '<div class="chapter-meta">'+novel.author+' · 免费阅读</div>'+
+    '<div class="chapter-body">'+body+'</div>'+
+    '<div class="chapter-footer"><button class="chapter-back" onclick="openNovel(''+novelId+'')">← 返回目录</button></div>';
+  list.style.display='none'; view.style.display='block';
+  document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
+}
+
+document.addEventListener('DOMContentLoaded', function(){
+  renderLibrary();
+});
+
 // Filter interaction
+
 document.querySelectorAll('.filter-item').forEach(item => {
   item.addEventListener('click', () => {
     item.closest('.sidebar-sec').querySelectorAll('.filter-item').forEach(i => i.classList.remove('active'));
     item.classList.add('active');
+    var genre = item.getAttribute('data-genre');
+    renderLibrary(genre || null);
   });
 });
 
@@ -1250,11 +1590,7 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
 // ── SUPABASE CONFIG ──
 const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
-let supabase;
-try {
-  supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-  console.log('Supabase OK');
-} catch(e) {
+catch(e) {
   console.error('Supabase init error:', e);
   // fallback: stub so UI doesn't break
   supabase = { auth: { getSession: async()=>({data:{session:null}}), onAuthStateChange:()=>{}, signInWithPassword: async()=>({error:{message:'服务暂时不可用'}}), signUp: async()=>({error:{message:'服务暂时不可用'}}), signOut: async()=>{}, signInWithOAuth: async()=>{} } };
