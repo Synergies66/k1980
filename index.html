@@ -840,8 +840,8 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
     <div class="jht-hero-sub">JIANGHU LEGEND</div>
     <p class="jht-hero-quote">有人的地方，就有江湖。<br>有江湖的地方，就有风声。<br>而风声，最终都会吹到一个地方——</p>
     <div class="jht-hero-btns">
-      <button class="btn-p">▶ 免费阅读第一集</button>
-      <button class="btn-s">查看全部剧情</button>
+      <button class="btn-p" onclick="scrollToNovelList()">▶ 免费阅读第一集</button>
+      <button class="btn-s" onclick="scrollToNovelList()">查看全部剧情</button>
     </div>
   </section>
 
@@ -1047,6 +1047,11 @@ function showPage(id) {
 
 
 // ── 小说阅读模块 ──
+function scrollToNovelList() {
+  var el = document.getElementById('novel-list');
+  if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+}
+
 const chapters = {
   1: {
     title: '第1章 · 听风堂',
