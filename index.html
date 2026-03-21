@@ -1664,7 +1664,7 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
 // ── SUPABASE CONFIG ──
 const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+const sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── STRIPE CONFIG ──
 const STRIPE_PK = 'pk_test_51TDKX6JFYB9fMpq2kdwhnTVndI6at1d2asejovgxOipMTgpV3doRS7GM6Lo06TGFAQ5WptjwYJCr7j4Pu53Dtq6T001t0bL9hc';
@@ -1683,7 +1683,7 @@ async function buyStones(priceId, stoneAmount) {
 
   try {
     // Call Edge Function to create Stripe Checkout session
-    const { data: { session: supaSession } } = await supabase.auth.getSession();
+    const { data: { session: supaSession } } = await sbClient.auth.getSession();
     const res = await fetch(SUPABASE_FUNCTIONS_URL + '/create-checkout', {
       method: 'POST',
       headers: {
@@ -1890,13 +1890,13 @@ let currentUser = null;
 let userProfile = null;
 
 async function initAuth() {
-  const { data: { session } } = await supabase.auth.getSession();
+  const { data: { session } } = await sbClient.auth.getSession();
   if (session?.user) {
     currentUser = session.user;
     await loadUserProfile(session.user.id);
     updateNavForUser();
   }
-  supabase.auth.onAuthStateChange(async (event, session) => {
+  sbClient.auth.onAuthStateChange(async (event, session) => {
     if (event === 'SIGNED_IN' && session?.user) {
       currentUser = session.user;
       await loadUserProfile(session.user.id);
@@ -1985,7 +1985,7 @@ async function handleLogin() {
   if (!email || !password) return showMsg('loginMsg', '请填写邮箱和密码', 'error');
   const btn = document.getElementById('loginBtn');
   btn.disabled = true; btn.textContent = '进入中...';
-  const { error } = await supabase.auth.signInWithPassword({ email, password });
+  const { error } = await sbClient.auth.signInWithPassword({ email, password });
   btn.disabled = false; btn.textContent = '▶ 进入江湖';
   if (error) showMsg('loginMsg', error.message === 'Invalid login credentials' ? '邮箱或密码错误' : error.message, 'error');
 }
@@ -1999,7 +1999,7 @@ async function handleRegister() {
   if (password.length < 8) return showMsg('registerMsg', '密码至少8位', 'error');
   const btn = document.getElementById('registerBtn');
   btn.disabled = true; btn.textContent = '加入中...';
-  const { data, error } = await supabase.auth.signUp({
+  const { data, error } = await sbClient.auth.signUp({
     email, password,
     options: { data: { username } }
   });
@@ -2013,7 +2013,7 @@ async function handleRegister() {
 
 // ── GOOGLE LOGIN ──
 async function handleGoogleLogin() {
-  await supabase.auth.signInWithOAuth({
+  await sbClient.auth.signInWithOAuth({
     provider: 'google',
     options: { redirectTo: 'https://k1980.app' }
   });
@@ -2021,7 +2021,7 @@ async function handleGoogleLogin() {
 
 // ── LOGOUT ──
 async function handleLogout() {
-  await supabase.auth.signOut();
+  await sbClient.auth.signOut();
   toggleUserMenu(true);
 }
 
