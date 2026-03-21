@@ -4,10 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>江湖传言 · K1980 — 听天下风声，辨江湖真假</title>
-<meta name="version" content="2.1">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Expires" content="0">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Serif+SC:wght@300;400;600;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
 :root {
@@ -385,63 +381,41 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
 .auth-google:hover{border-color:var(--teal);color:var(--teal)}
 
 /* ════════════════════════════════
-   创作者后台 DASHBOARD
+   小说阅读模块 NOVEL READER
 ════════════════════════════════ */
-.dash-layout{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 60px)}
-.dash-sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:32px 0;position:sticky;top:60px;height:calc(100vh - 60px);overflow-y:auto}
-.dash-sidebar-title{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.25em;text-transform:uppercase;padding:0 24px;margin-bottom:12px}
-.dash-nav-item{display:flex;align-items:center;gap:10px;padding:10px 24px;font-family:'Share Tech Mono',monospace;font-size:.68rem;color:var(--text-dim);cursor:pointer;transition:all .2s;letter-spacing:.05em;border-left:2px solid transparent}
-.dash-nav-item:hover{color:var(--teal);background:var(--teal-dim)}
-.dash-nav-item.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-dim)}
-.dash-nav-icon{font-size:.9rem;width:18px;text-align:center}
-.dash-main{padding:40px;overflow-y:auto}
-.dash-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px}
-.dash-title{font-family:'Noto Serif SC',serif;font-size:1.8rem;font-weight:900;color:var(--text)}
-.dash-title em{font-style:normal;color:var(--teal)}
-/* Stats */
-.dash-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:32px}
-.dash-stat{background:var(--bg2);border:1px solid var(--border);padding:20px 24px}
-.dash-stat-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px}
-.dash-stat-val{font-family:'Orbitron',monospace;font-size:1.8rem;font-weight:900;color:var(--teal);line-height:1}
-.dash-stat-sub{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);margin-top:4px}
-/* Novels list */
-.dash-section-title{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between}
-.dash-novel-list{display:flex;flex-direction:column;gap:2px;margin-bottom:32px}
-.dash-novel-item{background:var(--bg2);border:1px solid var(--border);padding:16px 20px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;cursor:pointer;transition:all .2s}
-.dash-novel-item:hover{border-color:var(--teal);background:var(--bg3)}
-.dash-novel-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
-.dash-novel-meta{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);display:flex;gap:12px}
-.dash-novel-status{font-family:'Share Tech Mono',monospace;font-size:.58rem;padding:3px 8px;border:1px solid}
-.status-draft{color:var(--text-dim);border-color:var(--border)}
-.status-published{color:var(--teal);border-color:rgba(45,212,191,.3)}
-.dash-novel-actions{display:flex;gap:8px}
-.dash-btn{font-family:'Share Tech Mono',monospace;font-size:.6rem;letter-spacing:.1em;padding:6px 12px;border:1px solid var(--border);background:var(--bg3);color:var(--text-dim);cursor:pointer;transition:all .2s}
-.dash-btn:hover{border-color:var(--teal);color:var(--teal)}
-.dash-btn.primary{background:var(--teal);color:var(--bg);border-color:var(--teal)}
-.dash-btn.primary:hover{background:#5eead4}
-/* Forms */
-.dash-form{background:var(--bg2);border:1px solid var(--border);padding:32px;margin-bottom:24px}
-.dash-form-title{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:900;color:var(--text);margin-bottom:24px}
-.dash-form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
-.dash-form-field{margin-bottom:16px}
-.dash-form-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px;display:block}
-.dash-form-input{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Noto Serif SC',serif;font-size:.9rem;padding:10px 14px;outline:none;transition:border-color .2s}
-.dash-form-input:focus{border-color:var(--teal)}
-.dash-form-textarea{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Noto Serif SC',serif;font-size:.9rem;padding:10px 14px;outline:none;min-height:200px;resize:vertical;transition:border-color .2s;line-height:1.8}
-.dash-form-textarea:focus{border-color:var(--teal)}
-.dash-form-select{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Share Tech Mono',monospace;font-size:.72rem;padding:10px 14px;outline:none;cursor:pointer}
-.dash-msg{font-family:'Share Tech Mono',monospace;font-size:.65rem;padding:8px 12px;margin-top:12px;display:none}
-.dash-msg.success{color:var(--teal);border:1px solid rgba(45,212,191,.3);background:rgba(45,212,191,.05);display:block}
-.dash-msg.error{color:var(--red);border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.05);display:block}
-/* Login gate */
-.dash-gate{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;gap:16px;text-align:center}
-.dash-gate-title{font-family:'Noto Serif SC',serif;font-size:2rem;font-weight:900;color:var(--text)}
-.dash-gate-title em{font-style:normal;color:var(--teal)}
-.dash-gate-desc{font-size:.9rem;color:var(--text-mid)}
-/* Empty state */
-.dash-empty{text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)}
-.dash-empty-icon{font-size:3rem;margin-bottom:12px;opacity:.3}
-.dash-empty-text{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em}
+.novel-read-sec{padding:0 80px 80px}
+#novel-list{max-width:860px;margin:0 auto}
+#novel-list h2{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:8px}
+#novel-list h2 em{font-style:normal;color:var(--teal)}
+.novel-list-sub{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);letter-spacing:.15em;margin-bottom:28px}
+.novel-item{background:var(--bg2);padding:20px 24px;margin-bottom:2px;cursor:pointer;border:1px solid var(--border);transition:all .2s;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px;position:relative;overflow:hidden}
+.novel-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:0;background:var(--teal);transition:width .2s}
+.novel-item:hover{background:var(--bg3);border-color:var(--teal)}
+.novel-item:hover::before{width:3px}
+.novel-item-num{font-family:'Orbitron',monospace;font-size:1.2rem;font-weight:900;color:rgba(45,212,191,.2);min-width:36px;text-align:center}
+.novel-item-body h3{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.novel-item-body p{font-size:.82rem;color:var(--text-dim);line-height:1.6}
+.novel-item-badge{font-family:'Share Tech Mono',monospace;font-size:.58rem;padding:3px 8px;border:1px solid;white-space:nowrap}
+.badge-free-read{color:#a78bfa;border-color:rgba(167,139,250,.3)}
+.badge-lock{color:var(--gold);border-color:rgba(245,158,11,.3)}
+
+/* 阅读视图 */
+#chapter-view{max-width:720px;margin:0 auto;display:none}
+.chapter-nav{display:flex;align-items:center;gap:12px;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.chapter-back{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);cursor:pointer;border:1px solid rgba(45,212,191,.3);padding:6px 14px;background:transparent;transition:all .2s;letter-spacing:.1em}
+.chapter-back:hover{background:var(--teal-dim)}
+.chapter-title-bar{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.15em}
+.chapter-heading{font-family:'Noto Serif SC',serif;font-size:1.8rem;font-weight:900;color:var(--text);margin-bottom:8px;line-height:1.2}
+.chapter-heading em{font-style:normal;color:var(--teal)}
+.chapter-meta{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.chapter-body{font-family:'Noto Serif SC',serif;font-size:1rem;line-height:2.2;color:var(--text-mid)}
+.chapter-body p{margin-bottom:1.5em;text-indent:2em}
+.chapter-body p:first-child{text-indent:0}
+.chapter-footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.chapter-prev-next{display:flex;gap:8px}
+@media(max-width:900px){
+  .novel-read-sec{padding-left:20px;padding-right:20px}
+}
 </style>
 </head>
 <body>
@@ -720,203 +694,35 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
 
 <!-- ═══ PAGE: CREATOR ═══ -->
 <div id="page-creator" class="page">
-  <!-- 未登录提示 -->
-  <div id="creatorGate" class="dash-gate" style="display:none">
-    <div class="dash-gate-title">创作者<em>后台</em></div>
-    <p class="dash-gate-desc">请先登录才能进入创作者后台</p>
-    <button class="btn-p" onclick="showAuthModal('login')">▶ 登入江湖</button>
-  </div>
+  <div class="creator-page">
+    <div class="creator-hero">
+      <div class="creator-hero-bg">创</div>
+      <h2>在江湖<em>留名</em><br>你的故事</h2>
+      <p>江湖传言是全球首个以东方江湖文化为主题的双语创作发布平台。你负责创作，平台负责变现。最高75%分成，AI写作助手加持，全球读者触达。</p>
+      <div style="display:flex;gap:12px;flex-wrap:wrap">
+        <button class="btn-p">立即注册创作者</button>
+        <button class="btn-s">查看创作者协议</button>
+      </div>
+    </div>
 
-  <!-- 已登录：创作者后台 -->
-  <div id="creatorDash" class="dash-layout" style="display:none">
-    <!-- 侧边栏 -->
-    <aside class="dash-sidebar">
-      <div class="dash-sidebar-title" style="margin-bottom:24px">创作者后台</div>
-      <div class="dash-nav-item active" onclick="showDashTab('overview')" id="dnav-overview">
-        <span class="dash-nav-icon">◈</span> 概览
-      </div>
-      <div class="dash-nav-item" onclick="showDashTab('novels')" id="dnav-novels">
-        <span class="dash-nav-icon">📚</span> 我的作品
-      </div>
-      <div class="dash-nav-item" onclick="showDashTab('new-novel')" id="dnav-new-novel">
-        <span class="dash-nav-icon">✦</span> 新建作品
-      </div>
-      <div class="dash-nav-item" onclick="showDashTab('chapters')" id="dnav-chapters">
-        <span class="dash-nav-icon">📝</span> 章节管理
-      </div>
-      <div class="dash-nav-item" onclick="showDashTab('new-chapter')" id="dnav-new-chapter">
-        <span class="dash-nav-icon">+</span> 上传章节
-      </div>
-      <div style="margin-top:32px;border-top:1px solid var(--border);padding-top:24px">
-        <div class="dash-nav-item" onclick="showPage('lingshi')">
-          <span class="dash-nav-icon">◆</span> 购买灵石
-        </div>
-        <div class="dash-nav-item" onclick="handleLogout()">
-          <span class="dash-nav-icon">⊗</span> 退出
-        </div>
-      </div>
-    </aside>
+    <div class="creator-benefits">
+      <div class="benefit-card"><div class="benefit-num">01</div><div class="benefit-icon">💰</div><div class="benefit-title">高比例分成</div><div class="benefit-desc">最高75%读者付费分成。新人起步50%，随收入成长提升。前1000名注册创作者享终身70%分成锁定。</div></div>
+      <div class="benefit-card"><div class="benefit-num">02</div><div class="benefit-icon">🤖</div><div class="benefit-title">AI写作助手</div><div class="benefit-desc">专为江湖世界训练的AI助手。支持续写、润色、人物设定生成、情节构建，大幅提升创作效率。</div></div>
+      <div class="benefit-card"><div class="benefit-num">03</div><div class="benefit-icon">🌐</div><div class="benefit-title">全球双语发行</div><div class="benefit-desc">平台覆盖全球华人及英文读者。优质作品可申请平台翻译支持，同步进入英文市场。</div></div>
+      <div class="benefit-card"><div class="benefit-num">04</div><div class="benefit-icon">⚔️</div><div class="benefit-title">江湖身份系统</div><div class="benefit-icon"></div><div class="benefit-desc">创作者拥有可见的江湖影响力排名。读者可加入你的"门派"，形成忠实粉丝社群。</div></div>
+      <div class="benefit-card"><div class="benefit-num">05</div><div class="benefit-icon">📊</div><div class="benefit-title">数据看板</div><div class="benefit-desc">实时查看阅读量、付费转化率、读者画像、收入明细。所有数据透明，无黑箱。</div></div>
+      <div class="benefit-card"><div class="benefit-num">06</div><div class="benefit-icon">🎯</div><div class="benefit-title">IP孵化通道</div><div class="benefit-desc">平台头部作品可申请IP孵化，获得影视/游戏改编对接机会。K1980提供品牌背书与资源支持。</div></div>
+    </div>
 
-    <!-- 主内容区 -->
-    <main class="dash-main">
-
-      <!-- 概览 -->
-      <div id="dtab-overview" class="dtab">
-        <div class="dash-header">
-          <div class="dash-title">你好，<em id="dashUserName">侠客</em></div>
-          <button class="dash-btn primary" onclick="showDashTab('new-novel')">✦ 新建作品</button>
-        </div>
-        <div class="dash-stats">
-          <div class="dash-stat">
-            <div class="dash-stat-label">作品总数</div>
-            <div class="dash-stat-val" id="statNovels">0</div>
-            <div class="dash-stat-sub">部作品</div>
-          </div>
-          <div class="dash-stat">
-            <div class="dash-stat-label">章节总数</div>
-            <div class="dash-stat-val" id="statChapters">0</div>
-            <div class="dash-stat-sub">个章节</div>
-          </div>
-          <div class="dash-stat">
-            <div class="dash-stat-label">灵石余额</div>
-            <div class="dash-stat-val" id="statStones">0</div>
-            <div class="dash-stat-sub">灵石</div>
-          </div>
-          <div class="dash-stat">
-            <div class="dash-stat-label">本月收入</div>
-            <div class="dash-stat-val">$0</div>
-            <div class="dash-stat-sub">持续更新中</div>
-          </div>
-        </div>
-        <div class="dash-section-title">
-          <span>最近作品</span>
-          <button class="dash-btn" onclick="showDashTab('novels')">查看全部</button>
-        </div>
-        <div id="overviewNovelList" class="dash-novel-list"></div>
+    <div class="tiers-section">
+      <h3>创作者分成等级</h3>
+      <div class="tiers-grid">
+        <div class="tier-card"><div class="tier-name">新人侠客</div><div class="tier-pct">50%</div><div class="tier-sub">STARTER</div><div class="tier-cond">注册即享<br>无门槛开始创作</div></div>
+        <div class="tier-card featured"><div class="tier-name">江湖游侠</div><div class="tier-pct">60%</div><div class="tier-sub">WANDERER</div><div class="tier-cond">月收入 <strong>$100+</strong><br>或平台签约</div></div>
+        <div class="tier-card"><div class="tier-name">一方宗师</div><div class="tier-pct">70%</div><div class="tier-sub">MASTER</div><div class="tier-cond">月收入 <strong>$1,000+</strong><br>或头部作者</div></div>
+        <div class="tier-card"><div class="tier-name">传说人物</div><div class="tier-pct">75%</div><div class="tier-sub">LEGEND</div><div class="tier-cond">平台深度签约<br><strong>专属运营支持</strong></div></div>
       </div>
-
-      <!-- 我的作品 -->
-      <div id="dtab-novels" class="dtab" style="display:none">
-        <div class="dash-header">
-          <div class="dash-title">我的<em>作品</em></div>
-          <button class="dash-btn primary" onclick="showDashTab('new-novel')">✦ 新建作品</button>
-        </div>
-        <div id="novelList" class="dash-novel-list"></div>
-      </div>
-
-      <!-- 新建作品 -->
-      <div id="dtab-new-novel" class="dtab" style="display:none">
-        <div class="dash-header">
-          <div class="dash-title">新建<em>作品</em></div>
-        </div>
-        <div class="dash-form">
-          <div class="dash-form-row">
-            <div class="dash-form-field">
-              <label class="dash-form-label">作品标题 *</label>
-              <input class="dash-form-input" id="novelTitle" placeholder="例：江湖传·第二季">
-            </div>
-            <div class="dash-form-field">
-              <label class="dash-form-label">题材分类</label>
-              <select class="dash-form-select" id="novelGenre">
-                <option value="武侠江湖">武侠江湖</option>
-                <option value="修仙玄幻">修仙玄幻</option>
-                <option value="朝堂权谋">朝堂权谋</option>
-                <option value="市井奇情">市井奇情</option>
-                <option value="西域异域">西域异域</option>
-                <option value="其他">其他</option>
-              </select>
-            </div>
-          </div>
-          <div class="dash-form-row">
-            <div class="dash-form-field">
-              <label class="dash-form-label">语言</label>
-              <select class="dash-form-select" id="novelLang">
-                <option value="zh">中文</option>
-                <option value="en">English</option>
-                <option value="both">中英双语</option>
-              </select>
-            </div>
-            <div class="dash-form-field">
-              <label class="dash-form-label">封面大字（单字）</label>
-              <input class="dash-form-input" id="novelCoverChar" placeholder="传" maxlength="1" style="font-size:1.5rem;text-align:center">
-            </div>
-          </div>
-          <div class="dash-form-field">
-            <label class="dash-form-label">作品简介</label>
-            <textarea class="dash-form-input" id="novelDesc" style="min-height:100px;resize:vertical" placeholder="用一段话介绍你的故事..."></textarea>
-          </div>
-          <div style="display:flex;gap:12px">
-            <button class="dash-btn primary" onclick="createNovel()">✦ 创建作品</button>
-            <button class="dash-btn" onclick="showDashTab('novels')">取消</button>
-          </div>
-          <div class="dash-msg" id="novelMsg"></div>
-        </div>
-      </div>
-
-      <!-- 章节管理 -->
-      <div id="dtab-chapters" class="dtab" style="display:none">
-        <div class="dash-header">
-          <div class="dash-title">章节<em>管理</em></div>
-          <button class="dash-btn primary" onclick="showDashTab('new-chapter')">+ 上传章节</button>
-        </div>
-        <div class="dash-form-field" style="margin-bottom:16px">
-          <label class="dash-form-label">选择作品</label>
-          <select class="dash-form-select" id="chapterNovelSelect" onchange="loadChapters(this.value)">
-            <option value="">-- 选择作品 --</option>
-          </select>
-        </div>
-        <div id="chapterList" class="dash-novel-list"></div>
-      </div>
-
-      <!-- 上传章节 -->
-      <div id="dtab-new-chapter" class="dtab" style="display:none">
-        <div class="dash-header">
-          <div class="dash-title">上传<em>章节</em></div>
-        </div>
-        <div class="dash-form">
-          <div class="dash-form-field">
-            <label class="dash-form-label">所属作品 *</label>
-            <select class="dash-form-select" id="chapterNovelId">
-              <option value="">-- 选择作品 --</option>
-            </select>
-          </div>
-          <div class="dash-form-row">
-            <div class="dash-form-field">
-              <label class="dash-form-label">章节标题 *</label>
-              <input class="dash-form-input" id="chapterTitle" placeholder="例：第一集 · 听风堂">
-            </div>
-            <div class="dash-form-field">
-              <label class="dash-form-label">章节序号</label>
-              <input class="dash-form-input" id="chapterNum" type="number" placeholder="1" min="1">
-            </div>
-          </div>
-          <div class="dash-form-row">
-            <div class="dash-form-field">
-              <label class="dash-form-label">价格（灵石，0=免费）</label>
-              <input class="dash-form-input" id="chapterPrice" type="number" placeholder="0" min="0" value="0">
-            </div>
-            <div class="dash-form-field">
-              <label class="dash-form-label">状态</label>
-              <select class="dash-form-select" id="chapterStatus">
-                <option value="draft">草稿</option>
-                <option value="published">发布</option>
-              </select>
-            </div>
-          </div>
-          <div class="dash-form-field">
-            <label class="dash-form-label">章节正文 *</label>
-            <textarea class="dash-form-textarea" id="chapterContent" placeholder="在这里输入章节内容...&#10;&#10;支持普通文本，每段之间空一行。"></textarea>
-          </div>
-          <div style="display:flex;gap:12px;align-items:center">
-            <button class="dash-btn primary" onclick="saveChapter('published')">▶ 立即发布</button>
-            <button class="dash-btn" onclick="saveChapter('draft')">存为草稿</button>
-            <span id="wordCount" style="font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim)">0 字</span>
-          </div>
-          <div class="dash-msg" id="chapterMsg"></div>
-        </div>
-      </div>
-
-    </main>
+    </div>
   </div>
 </div>
 
@@ -1164,6 +970,62 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
     </div>
   </section>
 
+
+  <!-- 小说阅读模块 -->
+  <section class="novel-read-sec">
+    <div id="novel-list">
+      <h2>江湖<em>小说</em> · 第一季</h2>
+      <div class="novel-list-sub">// JIANGHU LEGEND · SEASON ONE · 共12集</div>
+      
+      <div class="novel-item" onclick="openChapter(1)">
+        <div class="novel-item-num">01</div>
+        <div class="novel-item-body">
+          <h3>第1章 · 听风堂</h3>
+          <p>少年顾长安踏入京城，走进那座传说中的茶楼。</p>
+        </div>
+        <span class="novel-item-badge badge-free-read">免费阅读</span>
+      </div>
+
+      <div class="novel-item" onclick="openChapter(2)">
+        <div class="novel-item-num">02</div>
+        <div class="novel-item-body">
+          <h3>第2章 · 血影初现</h3>
+          <p>一个刺客接到任务——目标是顾长安。</p>
+        </div>
+        <span class="novel-item-badge badge-free-read">免费阅读</span>
+      </div>
+
+      <div class="novel-item" onclick="openChapter(3)">
+        <div class="novel-item-num">03</div>
+        <div class="novel-item-body">
+          <h3>第3章 · 静空间</h3>
+          <p>权力的漩涡里，静夫人注视着一切。</p>
+        </div>
+        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
+      </div>
+
+      <div class="novel-item" onclick="openChapter(4)">
+        <div class="novel-item-num">04</div>
+        <div class="novel-item-body">
+          <h3>第4章 · 疯和尚</h3>
+          <p>街边的疯和尚击败三个高手，他认识顾长安的父亲。</p>
+        </div>
+        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
+      </div>
+
+      <div class="novel-item" onclick="openChapter(5)">
+        <div class="novel-item-num">05</div>
+        <div class="novel-item-body">
+          <h3>第5章 · 天书残卷</h3>
+          <p>父亲押送的不是金银，而是一卷改变江湖的秘密。</p>
+        </div>
+        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
+      </div>
+    </div>
+
+    <div id="chapter-view"></div>
+  </section>
+
   <footer class="footer">
     <div class="f-brand"><div class="f-logo">K<span>1980</span></div><p>《江湖传》是K1980创作宇宙的旗舰IP<br>听天下风声，辨江湖真假</p><div class="f-domains"><span class="f-domain">k1980.app</span><span class="f-domain">k1980.com</span><span class="f-domain">k1980.ai</span></div></div>
     <div><div class="f-col-title">江湖传</div><ul class="f-links"><li><a onclick="showPage('jianghu')">世界观</a></li><li><a onclick="showPage('jianghu')">人物介绍</a></li><li><a onclick="showPage('jianghu')">第一季剧情</a></li><li><a>第二季预告</a></li></ul></div>
@@ -1181,7 +1043,132 @@ function showPage(id) {
   const map = {home:0, jianghu:1, library:2, creator:3, lingshi:4, about:5};
   document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
   window.scrollTo(0, 0);
-  if(id === 'creator') initCreatorDash();
+}
+
+
+// ── 小说阅读模块 ──
+const chapters = {
+  1: {
+    title: '第1章 · 听风堂',
+    subtitle: 'CHAPTER ONE · THE WIND HALL',
+    free: true,
+    content: [
+      '顾长安第一次踏入京城。',
+      '城门很高，人很多，风很轻，茶很淡。',
+      '他在人群里站了很久，看着那些南来北往的人，每个人都好像藏着一个故事。',
+      '有人说，京城有一个地方，什么消息都能买到，什么秘密都藏不住。',
+      '那个地方叫——听风堂。',
+      '顾长安背着包袱，沿着最热闹的那条街一路走过去。',
+      '茶楼就在街的尽头，三层楼高，匾额上四个字：听风堂。',
+      '他深吸一口气，推门走了进去。',
+      '掌柜是个四十岁上下的文人，正在擦拭柜台，头也不抬地说了一句话：',
+      '"买消息，还是卖消息？"',
+      '顾长安停住脚步，说："我想打听一个人的死因。"',
+      '掌柜终于抬起头，看了他一眼。',
+      '"如果没有钱呢？"顾长安补了一句。',
+      '沉默了片刻，掌柜放下手中的布，轻声说：',
+      '"那就用命换。"',
+    ]
+  },
+  2: {
+    title: '第2章 · 血影初现',
+    subtitle: 'CHAPTER TWO · SHADOW OF BLOOD',
+    free: true,
+    content: [
+      '夜色之中，一道影子掠过屋顶。',
+      '他的代号是七十三，血影楼排名第七的刺客。',
+      '任务很简单：找到一个叫顾长安的少年，取他性命。',
+      '委托人没有说理由，只给了一块令牌和一个地址。',
+      '七十三接过任务，没有问为什么。他从不问为什么。',
+      '但这一次，他在暗处盯着那个少年看了整整一个时辰。',
+      '少年走进一家包子铺，买了两个包子，坐在街边吃。',
+      '神情平静，眼神干净。',
+      '七十三皱起眉头。',
+      '他见过太多该死的人，也见过太多不该死的人。',
+      '这个少年，像后者。',
+      '他收起刀，转身离去。',
+      '今夜，不杀。',
+    ]
+  },
+  3: {
+    title: '第3章 · 静空间',
+    subtitle: 'CHAPTER THREE · THE QUIET PLACE',
+    free: false,
+    price: 8
+  },
+  4: {
+    title: '第4章 · 疯和尚',
+    subtitle: 'CHAPTER FOUR · THE MAD MONK',
+    free: false,
+    price: 8
+  },
+  5: {
+    title: '第5章 · 天书残卷',
+    subtitle: 'CHAPTER FIVE · THE LOST SCROLL',
+    free: false,
+    price: 8
+  }
+};
+
+function openChapter(id) {
+  const ch = chapters[id];
+  if (!ch) return;
+  const view = document.getElementById('chapter-view');
+  const list = document.getElementById('novel-list');
+
+  if (!ch.free) {
+    // 未登录或付费章节
+    if (!currentUser) {
+      showAuthModal('login');
+      return;
+    }
+    view.innerHTML = `
+      <div class="chapter-nav">
+        <button class="chapter-back" onclick="backToList()">← 返回目录</button>
+        <span class="chapter-title-bar">江湖传 · 第一季</span>
+      </div>
+      <div class="chapter-heading">${ch.title.replace('·', '·<em>')}em></div>
+      <div class="chapter-meta">${ch.subtitle} · ◆ ${ch.price} 灵石解锁</div>
+      <div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">
+        <div style="font-size:2rem;margin-bottom:16px">🔒</div>
+        <div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节</div>
+        <div style="font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);margin-bottom:24px">需要 ${ch.price} 灵石解锁</div>
+        <button class="btn-p" onclick="showPage('lingshi')">购买灵石</button>
+      </div>`;
+    list.style.display = 'none';
+    view.style.display = 'block';
+    return;
+  }
+
+  const bodyHtml = ch.content.map(p => `<p>${p}</p>`).join('');
+  const nextId = id + 1;
+  const prevId = id - 1;
+
+  view.innerHTML = `
+    <div class="chapter-nav">
+      <button class="chapter-back" onclick="backToList()">← 返回目录</button>
+      <span class="chapter-title-bar">江湖传 · 第一季</span>
+    </div>
+    <div class="chapter-heading">${ch.title}</div>
+    <div class="chapter-meta">${ch.subtitle} · 免费阅读</div>
+    <div class="chapter-body">${bodyHtml}</div>
+    <div class="chapter-footer">
+      <div class="chapter-prev-next">
+        ${prevId >= 1 ? `<button class="chapter-back" onclick="openChapter(${prevId})">← 上一章</button>` : ''}
+        ${chapters[nextId] ? `<button class="chapter-back" onclick="openChapter(${nextId})">下一章 →</button>` : ''}
+      </div>
+      <span style="font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim)">${ch.content.length * 30} 字</span>
+    </div>`;
+
+  list.style.display = 'none';
+  view.style.display = 'block';
+  // 滚到顶部
+  document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
+}
+
+function backToList() {
+  document.getElementById('chapter-view').style.display = 'none';
+  document.getElementById('novel-list').style.display = 'block';
 }
 
 // Filter interaction
@@ -1199,21 +1186,6 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
     btn.classList.add('active');
   });
 });
-
-// ── MODAL FUNCTIONS ──
-function showAuthModal(tab) {
-  var el = document.getElementById('authOverlay');
-  if (el) { el.style.display = 'flex'; }
-  if (typeof switchAuthTab === 'function') switchAuthTab(tab || 'login');
-}
-function closeAuthModal() {
-  var el = document.getElementById('authOverlay');
-  if (el) { el.style.display = 'none'; }
-  if (typeof clearAuthMsgs === 'function') clearAuthMsgs();
-}
-function closeAuthOnOverlay(e) {
-  if (e.target && e.target.id === 'authOverlay') closeAuthModal();
-}
 </script>
 
 <!-- AUTH MODAL -->
@@ -1267,83 +1239,149 @@ function closeAuthOnOverlay(e) {
   </div>
 </div>
 
-<!-- AUTH MODULE -->
-
+<!-- Supabase SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 <script>
-// ── K1980 AUTH MODULE ──
-const API_BASE = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
-const API_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
-
-// Auth客户端
-const sbAuth = {
-  async signUp(email, password, username) {
-    const r = await fetch(API_BASE + '/auth/v1/signup', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json','apikey':API_KEY},
-      body: JSON.stringify({email, password, data:{username}})
-    });
-    return r.json();
-  },
-  async signIn(email, password) {
-    const r = await fetch(API_BASE + '/auth/v1/token?grant_type=password', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json','apikey':API_KEY},
-      body: JSON.stringify({email, password})
-    });
-    return r.json();
-  },
-  async signOut(token) {
-    await fetch(API_BASE + '/auth/v1/logout', {
-      method: 'POST',
-      headers: {'apikey':API_KEY,'Authorization':'Bearer '+token}
-    });
-  },
-  saveSession(data) {
-    localStorage.setItem('k1980_token', data.access_token || '');
-    localStorage.setItem('k1980_user', JSON.stringify(data.user || {}));
-  },
-  getSession() {
-    const token = localStorage.getItem('k1980_token');
-    const user = JSON.parse(localStorage.getItem('k1980_user') || 'null');
-    return token ? {token, user} : null;
-  },
-  clearSession() {
-    localStorage.removeItem('k1980_token');
-    localStorage.removeItem('k1980_user');
-  }
-};
+// ── SUPABASE CONFIG ──
+const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
+const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
+let supabase;
+try {
+  supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+  console.log('Supabase OK');
+} catch(e) {
+  console.error('Supabase init error:', e);
+  // fallback: stub so UI doesn't break
+  supabase = { auth: { getSession: async()=>({data:{session:null}}), onAuthStateChange:()=>{}, signInWithPassword: async()=>({error:{message:'服务暂时不可用'}}), signUp: async()=>({error:{message:'服务暂时不可用'}}), signOut: async()=>{}, signInWithOAuth: async()=>{} } };
+}
 
 // ── LANGUAGE SYSTEM ──
 let currentLang = 'zh';
+const i18n = {
+  zh: {
+    login: '登入江湖', logout: '退出江湖', register: '加入江湖',
+    home: '首页', jianghu: '◆ 江湖传', library: '书库',
+    creator: '创作者', lingshi: '灵石', about: '关于',
+    stones: '灵石', buyStones: '购买灵石', creatorDash: '创作者后台',
+    enterJianghu: '▶ 进入江湖', joinJianghu: '▶ 加入江湖',
+  },
+  en: {
+    login: 'Sign In', logout: 'Sign Out', register: 'Join Now',
+    home: 'Home', jianghu: '◆ Legend', library: 'Library',
+    creator: 'Creator', lingshi: 'Crystals', about: 'About',
+    stones: 'Crystals', buyStones: 'Buy Crystals', creatorDash: 'Dashboard',
+    enterJianghu: '▶ Enter', joinJianghu: '▶ Join',
+  }
+};
+
 function toggleLang() {
   currentLang = currentLang === 'zh' ? 'en' : 'zh';
   document.getElementById('langZH').className = currentLang === 'zh' ? 'lang-active' : '';
   document.getElementById('langEN').className = currentLang === 'en' ? 'lang-active' : '';
+  applyLang();
+}
+
+function applyLang() {
+  const t = i18n[currentLang];
+  const tabs = document.querySelectorAll('.tab-btn');
+  const pages = ['home','jianghu','library','creator','lingshi','about'];
+  tabs.forEach((btn, i) => { if(t[pages[i]]) btn.textContent = t[pages[i]]; });
+  const loginBtn = document.getElementById('navLoginBtn');
+  if(loginBtn) loginBtn.textContent = t.login;
+  document.documentElement.lang = currentLang === 'zh' ? 'zh' : 'en';
 }
 
 // ── AUTH STATE ──
 let currentUser = null;
+let userProfile = null;
 
-function initAuth() {
-  const session = sbAuth.getSession();
-  if (session && session.user) {
+async function initAuth() {
+  const { data: { session } } = await supabase.auth.getSession();
+  if (session?.user) {
     currentUser = session.user;
-    updateNavForUser(session.user);
+    await loadUserProfile(session.user.id);
+    updateNavForUser();
   }
+  supabase.auth.onAuthStateChange(async (event, session) => {
+    if (event === 'SIGNED_IN' && session?.user) {
+      currentUser = session.user;
+      await loadUserProfile(session.user.id);
+      updateNavForUser();
+      closeAuthModal();
+    } else if (event === 'SIGNED_OUT') {
+      currentUser = null;
+      userProfile = null;
+      updateNavForGuest();
+    }
+  });
 }
 
-function updateNavForUser(user) {
-  const name = user.user_metadata?.username || user.email?.split('@')[0] || '侠客';
+async function loadUserProfile(userId) {
+  try {
+    const { data, error } = await supabase
+      .from('profiles')
+      .select('username, stones')
+      .eq('id', userId)
+      .single();
+    if (data) userProfile = data;
+  } catch(e) { console.log('Profile not found, will create on register'); }
+}
+
+function updateNavForUser() {
+  const name = userProfile?.username || currentUser?.email?.split('@')[0] || '侠客';
+  const stones = userProfile?.stones || 0;
   document.getElementById('navLoginBtn').style.display = 'none';
   document.getElementById('navUser').style.display = 'flex';
   document.getElementById('navUserName').textContent = name;
   document.getElementById('navStones').style.display = 'flex';
+  document.getElementById('navStoneCount').textContent = stones;
 }
 
 function updateNavForGuest() {
   document.getElementById('navLoginBtn').style.display = '';
   document.getElementById('navUser').style.display = 'none';
   document.getElementById('navStones').style.display = 'none';
+}
+
+// ── AUTH MODAL ──
+function showAuthModal(tab) {
+  tab = tab || 'login';
+  var overlay = document.getElementById('authOverlay');
+  overlay.style.display = 'flex';
+  overlay.classList.add('open');
+  switchAuthTab(tab);
+}
+
+function closeAuthModal() {
+  var overlay = document.getElementById('authOverlay');
+  overlay.style.display = 'none';
+  overlay.classList.remove('open');
+  clearAuthMsgs();
+}
+
+function closeAuthOnOverlay(e) {
+  if (e.target === document.getElementById('authOverlay')) closeAuthModal();
+}
+
+function switchAuthTab(tab) {
+  document.getElementById('formLogin').style.display = tab === 'login' ? 'block' : 'none';
+  document.getElementById('formRegister').style.display = tab === 'register' ? 'block' : 'none';
+  document.getElementById('tabLogin').className = 'auth-tab' + (tab === 'login' ? ' active' : '');
+  document.getElementById('tabRegister').className = 'auth-tab' + (tab === 'register' ? ' active' : '');
+  document.getElementById('authTitle').innerHTML = tab === 'login' ? '登入<em>江湖</em>' : '加入<em>江湖</em>';
+}
+
+function clearAuthMsgs() {
+  ['loginMsg','registerMsg'].forEach(id => {
+    const el = document.getElementById(id);
+    el.className = 'auth-msg'; el.textContent = '';
+  });
+}
+
+function showMsg(id, msg, type) {
+  const el = document.getElementById(id);
+  el.className = 'auth-msg ' + type;
+  el.textContent = msg;
 }
 
 // ── LOGIN ──
@@ -1353,20 +1391,9 @@ async function handleLogin() {
   if (!email || !password) return showMsg('loginMsg', '请填写邮箱和密码', 'error');
   const btn = document.getElementById('loginBtn');
   btn.disabled = true; btn.textContent = '进入中...';
-  try {
-    const data = await sbAuth.signIn(email, password);
-    if (data.error || !data.access_token) {
-      showMsg('loginMsg', data.error_description || data.msg || '邮箱或密码错误', 'error');
-    } else {
-      sbAuth.saveSession(data);
-      currentUser = data.user;
-      updateNavForUser(data.user);
-      closeAuthModal();
-    }
-  } catch(e) {
-    showMsg('loginMsg', '网络错误，请重试', 'error');
-  }
+  const { error } = await supabase.auth.signInWithPassword({ email, password });
   btn.disabled = false; btn.textContent = '▶ 进入江湖';
+  if (error) showMsg('loginMsg', error.message === 'Invalid login credentials' ? '邮箱或密码错误' : error.message, 'error');
 }
 
 // ── REGISTER ──
@@ -1378,282 +1405,51 @@ async function handleRegister() {
   if (password.length < 8) return showMsg('registerMsg', '密码至少8位', 'error');
   const btn = document.getElementById('registerBtn');
   btn.disabled = true; btn.textContent = '加入中...';
-  try {
-    const data = await sbAuth.signUp(email, password, username);
-    if (data.error) {
-      showMsg('registerMsg', data.msg || '注册失败，请重试', 'error');
-    } else {
-      showMsg('registerMsg', '✅ 注册成功！请检查邮箱点击验证链接后登录。', 'success');
-    }
-  } catch(e) {
-    showMsg('registerMsg', '网络错误，请重试', 'error');
-  }
+  const { data, error } = await supabase.auth.signUp({
+    email, password,
+    options: { data: { username } }
+  });
   btn.disabled = false; btn.textContent = '▶ 加入江湖';
+  if (error) {
+    showMsg('registerMsg', error.message.includes('already registered') ? '该邮箱已注册，请直接登录' : error.message, 'error');
+  } else {
+    showMsg('registerMsg', '注册成功！请检查邮箱验证链接后登录。', 'success');
+  }
 }
 
 // ── GOOGLE LOGIN ──
-function handleGoogleLogin() {
-  window.location.href = API_BASE + '/auth/v1/authorize?provider=google&redirect_to=https://k1980.app';
+async function handleGoogleLogin() {
+  await supabase.auth.signInWithOAuth({
+    provider: 'google',
+    options: { redirectTo: 'https://k1980.app' }
+  });
 }
 
 // ── LOGOUT ──
 async function handleLogout() {
-  const session = sbAuth.getSession();
-  if (session) await sbAuth.signOut(session.token);
-  sbAuth.clearSession();
-  currentUser = null;
-  updateNavForGuest();
+  await supabase.auth.signOut();
   toggleUserMenu(true);
 }
 
 // ── USER MENU ──
-function toggleUserMenu(forceClose) {
+function toggleUserMenu(forceClose = false) {
   const menu = document.getElementById('userMenu');
   if (forceClose) { menu.classList.remove('open'); return; }
   menu.classList.toggle('open');
 }
-document.addEventListener('click', function(e) {
+document.addEventListener('click', (e) => {
   if (!e.target.closest('#navUser')) toggleUserMenu(true);
 });
 
-// ── AUTH TABS ──
-function switchAuthTab(tab) {
-  document.getElementById('formLogin').style.display = tab === 'login' ? 'block' : 'none';
-  document.getElementById('formRegister').style.display = tab === 'register' ? 'block' : 'none';
-  document.getElementById('tabLogin').className = 'auth-tab' + (tab === 'login' ? ' active' : '');
-  document.getElementById('tabRegister').className = 'auth-tab' + (tab === 'register' ? ' active' : '');
-  document.getElementById('authTitle').innerHTML = tab === 'login' ? '登入<em>江湖</em>' : '加入<em>江湖</em>';
-}
-
-function clearAuthMsgs() {
-  ['loginMsg','registerMsg'].forEach(function(id) {
-    var el = document.getElementById(id);
-    if(el){ el.className = 'auth-msg'; el.textContent = ''; }
-  });
-}
-
-function showMsg(id, msg, type) {
-  var el = document.getElementById(id);
-  if(el){ el.className = 'auth-msg ' + type; el.textContent = msg; }
-}
-
-document.addEventListener('keydown', function(e) {
+// ── KEYBOARD ESC ──
+document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeAuthModal();
 });
 
-document.addEventListener('DOMContentLoaded', function() {
+// ── INIT ──
+document.addEventListener('DOMContentLoaded', () => {
   initAuth();
-  // 字数统计
-  var ta = document.getElementById('chapterContent');
-  if(ta) ta.addEventListener('input', function() {
-    var wc = this.value.replace(/\s/g,'').length;
-    var el = document.getElementById('wordCount');
-    if(el) el.textContent = wc + ' 字';
-  });
 });
-
-// ── 创作者后台 ──
-function initCreatorDash() {
-  if (!currentUser) {
-    document.getElementById('creatorGate').style.display = 'flex';
-    document.getElementById('creatorDash').style.display = 'none';
-  } else {
-    document.getElementById('creatorGate').style.display = 'none';
-    document.getElementById('creatorDash').style.display = 'grid';
-    var name = userProfile?.username || currentUser.email?.split('@')[0] || '侠客';
-    var el = document.getElementById('dashUserName');
-    if(el) el.textContent = name;
-    var stones = document.getElementById('statStones');
-    if(stones) stones.textContent = userProfile?.stones || 0;
-    loadMyNovels();
-  }
-}
-
-function showDashTab(tab) {
-  document.querySelectorAll('.dtab').forEach(function(el){ el.style.display='none'; });
-  document.querySelectorAll('.dash-nav-item').forEach(function(el){ el.classList.remove('active'); });
-  var el = document.getElementById('dtab-'+tab);
-  if(el) el.style.display = 'block';
-  var nav = document.getElementById('dnav-'+tab);
-  if(nav) nav.classList.add('active');
-  if(tab === 'novels' || tab === 'overview') loadMyNovels();
-  if(tab === 'chapters' || tab === 'new-chapter') loadNovelSelectOptions();
-}
-
-// 加载作品列表
-async function loadMyNovels() {
-  if(!currentUser) return;
-  try {
-    const r = await fetch(API_BASE + '/rest/v1/novels?author_id=eq.' + currentUser.id + '&order=created_at.desc', {
-      headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + sbAuth.getSession()?.token}
-    });
-    const novels = await r.json();
-    renderNovelList(novels, 'novelList');
-    renderNovelList(novels.slice(0,3), 'overviewNovelList');
-    var statEl = document.getElementById('statNovels');
-    if(statEl) statEl.textContent = novels.length;
-  } catch(e) { console.error('loadMyNovels:', e); }
-}
-
-function renderNovelList(novels, containerId) {
-  var el = document.getElementById(containerId);
-  if(!el) return;
-  if(!novels || novels.length === 0) {
-    el.innerHTML = '<div class="dash-empty"><div class="dash-empty-icon">📚</div><div class="dash-empty-text">还没有作品 · 点击「新建作品」开始创作</div></div>';
-    return;
-  }
-  el.innerHTML = novels.map(function(n) {
-    return '<div class="dash-novel-item" onclick="editNovel(''+n.id+'')">' +
-      '<div><div class="dash-novel-title">' + n.title + '</div>' +
-      '<div class="dash-novel-meta"><span>' + (n.genre||'未分类') + '</span><span>' + new Date(n.created_at).toLocaleDateString('zh') + '</span></div></div>' +
-      '<div class="dash-novel-actions">' +
-      '<span class="dash-novel-status status-'+n.status+'">' + (n.status==='published'?'已发布':'草稿') + '</span>' +
-      '<button class="dash-btn" onclick="event.stopPropagation();selectNovelForChapter(''+n.id+'')">+ 章节</button>' +
-      (n.status==='draft' ? '<button class="dash-btn primary" onclick="event.stopPropagation();publishNovel(''+n.id+'')">发布</button>' : '') +
-      '</div></div>';
-  }).join('');
-}
-
-// 加载作品选择器
-async function loadNovelSelectOptions() {
-  if(!currentUser) return;
-  try {
-    const r = await fetch(API_BASE + '/rest/v1/novels?author_id=eq.' + currentUser.id + '&order=created_at.desc', {
-      headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + sbAuth.getSession()?.token}
-    });
-    const novels = await r.json();
-    var opts = '<option value="">-- 选择作品 --</option>' + novels.map(function(n){
-      return '<option value="'+n.id+'">'+n.title+'</option>';
-    }).join('');
-    var s1 = document.getElementById('chapterNovelId');
-    var s2 = document.getElementById('chapterNovelSelect');
-    if(s1) s1.innerHTML = opts;
-    if(s2) s2.innerHTML = opts;
-  } catch(e) {}
-}
-
-// 新建作品
-async function createNovel() {
-  var title = document.getElementById('novelTitle').value.trim();
-  var desc = document.getElementById('novelDesc').value.trim();
-  var genre = document.getElementById('novelGenre').value;
-  var lang = document.getElementById('novelLang').value;
-  var coverChar = document.getElementById('novelCoverChar').value.trim() || '传';
-  if(!title) return showDashMsg('novelMsg', '请填写作品标题', 'error');
-  var session = sbAuth.getSession();
-  if(!session) return showDashMsg('novelMsg', '请先登录', 'error');
-  try {
-    const r = await fetch(API_BASE + '/rest/v1/novels', {
-      method: 'POST',
-      headers: {
-        'apikey': API_KEY,
-        'Authorization': 'Bearer ' + session.token,
-        'Content-Type': 'application/json',
-        'Prefer': 'return=representation'
-      },
-      body: JSON.stringify({title, description: desc, genre, language: lang, cover_char: coverChar, author_id: currentUser.id, status: 'draft'})
-    });
-    if(r.ok) {
-      showDashMsg('novelMsg', '✅ 作品创建成功！', 'success');
-      document.getElementById('novelTitle').value = '';
-      document.getElementById('novelDesc').value = '';
-      setTimeout(function(){ showDashTab('novels'); }, 1200);
-    } else {
-      var err = await r.json();
-      showDashMsg('novelMsg', '创建失败: ' + (err.message||'请重试'), 'error');
-    }
-  } catch(e) { showDashMsg('novelMsg', '网络错误', 'error'); }
-}
-
-// 发布作品
-async function publishNovel(id) {
-  var session = sbAuth.getSession();
-  if(!session) return;
-  await fetch(API_BASE + '/rest/v1/novels?id=eq.' + id, {
-    method: 'PATCH',
-    headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + session.token, 'Content-Type': 'application/json'},
-    body: JSON.stringify({status: 'published'})
-  });
-  loadMyNovels();
-}
-
-// 选择作品去上传章节
-function selectNovelForChapter(novelId) {
-  showDashTab('new-chapter');
-  setTimeout(function() {
-    var sel = document.getElementById('chapterNovelId');
-    if(sel) sel.value = novelId;
-  }, 100);
-}
-
-// 保存章节
-async function saveChapter(status) {
-  var novelId = document.getElementById('chapterNovelId').value;
-  var title = document.getElementById('chapterTitle').value.trim();
-  var content = document.getElementById('chapterContent').value.trim();
-  var num = parseInt(document.getElementById('chapterNum').value) || 1;
-  var price = parseInt(document.getElementById('chapterPrice').value) || 0;
-  if(!novelId) return showDashMsg('chapterMsg', '请选择所属作品', 'error');
-  if(!title) return showDashMsg('chapterMsg', '请填写章节标题', 'error');
-  if(!content) return showDashMsg('chapterMsg', '请填写章节内容', 'error');
-  var session = sbAuth.getSession();
-  if(!session) return showDashMsg('chapterMsg', '请先登录', 'error');
-  var wordCount = content.replace(/\s/g,'').length;
-  try {
-    const r = await fetch(API_BASE + '/rest/v1/chapters', {
-      method: 'POST',
-      headers: {
-        'apikey': API_KEY,
-        'Authorization': 'Bearer ' + session.token,
-        'Content-Type': 'application/json',
-        'Prefer': 'return=representation'
-      },
-      body: JSON.stringify({novel_id: novelId, title, content, chapter_number: num, price, status, word_count: wordCount})
-    });
-    if(r.ok) {
-      showDashMsg('chapterMsg', status==='published' ? '✅ 章节已发布！' : '✅ 草稿已保存！', 'success');
-      document.getElementById('chapterTitle').value = '';
-      document.getElementById('chapterContent').value = '';
-      document.getElementById('chapterNum').value = '';
-    } else {
-      var err = await r.json();
-      showDashMsg('chapterMsg', '保存失败: ' + (err.message||'请重试'), 'error');
-    }
-  } catch(e) { showDashMsg('chapterMsg', '网络错误', 'error'); }
-}
-
-// 加载章节列表
-async function loadChapters(novelId) {
-  if(!novelId || !currentUser) return;
-  var session = sbAuth.getSession();
-  const r = await fetch(API_BASE + '/rest/v1/chapters?novel_id=eq.' + novelId + '&order=chapter_number.asc', {
-    headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + session.token}
-  });
-  const chapters = await r.json();
-  var el = document.getElementById('chapterList');
-  if(!el) return;
-  if(!chapters || chapters.length === 0) {
-    el.innerHTML = '<div class="dash-empty"><div class="dash-empty-icon">📝</div><div class="dash-empty-text">还没有章节</div></div>';
-    return;
-  }
-  el.innerHTML = chapters.map(function(c) {
-    return '<div class="dash-novel-item">' +
-      '<div><div class="dash-novel-title">第'+c.chapter_number+'集 · '+c.title+'</div>' +
-      '<div class="dash-novel-meta"><span>'+c.word_count+'字</span><span>'+(c.price===0?'免费':c.price+'灵石')+'</span></div></div>' +
-      '<span class="dash-novel-status status-'+c.status+'">'+(c.status==='published'?'已发布':'草稿')+'</span>' +
-      '</div>';
-  }).join('');
-  var statEl = document.getElementById('statChapters');
-  if(statEl) statEl.textContent = chapters.length;
-}
-
-function showDashMsg(id, msg, type) {
-  var el = document.getElementById(id);
-  if(el){ el.className = 'dash-msg ' + type; el.textContent = msg; }
-}
-
-function editNovel(id) { console.log('edit novel:', id); }
-
 </script>
 
 </body>
