@@ -309,6 +309,13 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
 .ep-price{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--gold)}
 .ep-free{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:#a78bfa}
 
+/* ── READER TOOLBAR ── */
+.reader-toolbar{display:flex;align-items:center;gap:12px;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
+.reader-font-ctrl{display:flex;align-items:center;gap:8px;margin-left:auto}
+.reader-font-btn{font-family:'Orbitron',monospace;font-size:.6rem;color:var(--teal);background:transparent;border:1px solid rgba(45,212,191,.3);padding:4px 8px;cursor:pointer;transition:all .2s;letter-spacing:.05em}
+.reader-font-btn:hover{background:var(--teal-dim);border-color:var(--teal)}
+.reader-font-size{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);min-width:32px;text-align:center}
+
 /* ── COMMON ── */
 @keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
 
@@ -1460,33 +1467,121 @@ function openNovel(id) {
   }, 100);
 }
 
+// ── READER STATE ──
+var readerFontSize = parseInt(localStorage.getItem('k1980_fontSize') || '16', 10);
+var readerCurrentNovelId = null;
+var readerCurrentChNum = null;
+
 function openChapterFromNovel(novelId, chNum) {
   var novel = null;
-  for (var i=0; i<novelsData.length; i++) { if (novelsData[i].id===novelId) { novel=novelsData[i]; break; } }
+  for (var i = 0; i < novelsData.length; i++) { if (novelsData[i].id === novelId) { novel = novelsData[i]; break; } }
   if (!novel) return;
   var ch = null;
-  for (var i=0; i<novel.chapters.length; i++) { if (novel.chapters[i].num===chNum) { ch=novel.chapters[i]; break; } }
+  for (var i = 0; i < novel.chapters.length; i++) { if (novel.chapters[i].num === chNum) { ch = novel.chapters[i]; break; } }
   if (!ch) return;
+
   var view = document.getElementById('chapter-view');
   var list = document.getElementById('novel-list');
+
+  // Auth gate for paid chapters
   if (!ch.free && !currentUser) { showAuthModal('login'); return; }
+
+  // Locked paywall (no purchase check yet — Stripe to come)
   if (!ch.free) {
-    var h = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">← 返回目录</button></div>';
+    var t = i18n[currentLang];
+    var h = '<div class="chapter-nav">';
+    h += '<button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">' + t.readerBack + '</button>';
+    h += '</div>';
     h += '<div class="chapter-heading">第' + ch.num + '章 · ' + ch.title + '</div>';
-    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)"><div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
-    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · 8灵石</div>';
-    h += '<button class="btn-p" onclick="showPage(this.dataset.p)" data-p="lingshi">购买灵石</button></div>';
-    view.innerHTML=h; list.style.display='none'; view.style.display='block'; return;
+    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">';
+    h += '<div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
+    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">' + t.readerLocked + ' · 8灵石</div>';
+    h += '<button class="btn-p" onclick="showPage(\'lingshi\')">' + t.readerBuyBtn + '</button></div>';
+    view.innerHTML = h;
+    list.style.display = 'none';
+    view.style.display = 'block';
+    return;
   }
-  var body=''; ch.content.forEach(function(p){ body+='<p>'+p+'</p>'; });
-  var h = '<div class="chapter-nav"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">← 返回目录</button>';
-  h += '<span class="chapter-title-bar">'+novel.title+'</span></div>';
-  h += '<div class="chapter-heading">第'+ch.num+'章 · '+ch.title+'</div>';
-  h += '<div class="chapter-meta">'+novel.author+' · 免费阅读</div>';
-  h += '<div class="chapter-body">'+body+'</div>';
-  h += '<div class="chapter-footer"><button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="'+novelId+'">← 返回目录</button></div>';
-  view.innerHTML=h; list.style.display='none'; view.style.display='block';
-  document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
+
+  // Save progress
+  readerCurrentNovelId = novelId;
+  readerCurrentChNum = chNum;
+  saveReadingProgress(novelId, chNum);
+
+  // Build prev/next
+  var prevCh = null, nextCh = null;
+  for (var i = 0; i < novel.chapters.length; i++) {
+    if (novel.chapters[i].num === chNum - 1) prevCh = novel.chapters[i];
+    if (novel.chapters[i].num === chNum + 1) nextCh = novel.chapters[i];
+  }
+
+  var t = i18n[currentLang];
+  var wordCount = ch.content.join('').length;
+
+  // Toolbar
+  var h = '<div class="reader-toolbar">';
+  h += '<button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">' + t.readerBack + '</button>';
+  h += '<span class="chapter-title-bar" style="flex:1;text-align:center">' + novel.title + '</span>';
+  h += '<div class="reader-font-ctrl">';
+  h += '<button class="reader-font-btn" onclick="adjustFont(-1)" title="缩小字号">A-</button>';
+  h += '<span class="reader-font-size" id="readerFontDisplay">' + readerFontSize + 'px</span>';
+  h += '<button class="reader-font-btn" onclick="adjustFont(1)" title="放大字号">A+</button>';
+  h += '</div></div>';
+
+  // Chapter heading
+  h += '<div class="chapter-heading">第' + ch.num + '章 · <em>' + ch.title + '</em></div>';
+  h += '<div class="chapter-meta">' + novel.author + ' · ' + t.readerFree + ' · ' + wordCount + ' 字</div>';
+
+  // Body
+  var body = '';
+  ch.content.forEach(function(p) { body += '<p>' + p + '</p>'; });
+  h += '<div class="chapter-body" id="readerBody" style="font-size:' + readerFontSize + 'px">' + body + '</div>';
+
+  // Footer nav
+  h += '<div class="chapter-footer">';
+  h += '<div class="chapter-prev-next">';
+  if (prevCh) {
+    h += '<button class="chapter-back" onclick="openChapterFromNovel(\'' + novelId + '\',' + prevCh.num + ')">' + t.readerPrev + '</button>';
+  } else {
+    h += '<span></span>';
+  }
+  if (nextCh) {
+    h += '<button class="chapter-back" onclick="openChapterFromNovel(\'' + novelId + '\',' + nextCh.num + ')">' + t.readerNext + '</button>';
+  }
+  h += '</div>';
+  h += '<span style="font-size:.6rem;color:var(--text-dim)">' + wordCount + ' 字</span>';
+  h += '</div>';
+
+  view.innerHTML = h;
+  list.style.display = 'none';
+  view.style.display = 'block';
+  document.querySelector('.novel-read-sec').scrollIntoView({ behavior: 'smooth' });
+}
+
+// ── FONT SIZE CONTROL ──
+function adjustFont(delta) {
+  readerFontSize = Math.min(24, Math.max(13, readerFontSize + delta));
+  localStorage.setItem('k1980_fontSize', readerFontSize);
+  var body = document.getElementById('readerBody');
+  if (body) body.style.fontSize = readerFontSize + 'px';
+  var disp = document.getElementById('readerFontDisplay');
+  if (disp) disp.textContent = readerFontSize + 'px';
+}
+
+// ── READING PROGRESS ──
+function saveReadingProgress(novelId, chNum) {
+  try {
+    var progress = JSON.parse(localStorage.getItem('k1980_progress') || '{}');
+    progress[novelId] = { chNum: chNum, ts: Date.now() };
+    localStorage.setItem('k1980_progress', JSON.stringify(progress));
+  } catch(e) {}
+}
+
+function getReadingProgress(novelId) {
+  try {
+    var progress = JSON.parse(localStorage.getItem('k1980_progress') || '{}');
+    return progress[novelId] || null;
+  } catch(e) { return null; }
 }
 document.addEventListener('DOMContentLoaded', function(){
   renderLibrary();
@@ -1572,38 +1667,159 @@ const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
 
 // ── LANGUAGE SYSTEM ──
 let currentLang = 'zh';
+
 const i18n = {
   zh: {
-    login: '登入江湖', logout: '退出江湖', register: '加入江湖',
-    home: '首页', jianghu: '◆ 江湖传', library: '书库',
-    creator: '创作者', lingshi: '灵石', about: '关于',
-    stones: '灵石', buyStones: '购买灵石', creatorDash: '创作者后台',
-    enterJianghu: '▶ 进入江湖', joinJianghu: '▶ 加入江湖',
+    // Nav
+    navLogin: '登入江湖', navLogout: '退出江湖',
+    tab_home: '首页', tab_jianghu: '◆ 江湖传', tab_library: '书库',
+    tab_creator: '创作者', tab_lingshi: '灵石', tab_about: '关于',
+    navBuyStones: '购买灵石', navCreatorDash: '创作者后台',
+    navStonesUnit: '灵石',
+    // Hero
+    heroTag: '● 江湖传言 · 正式上线 · LIVE',
+    heroTitle1: '听天下风声', heroTitle2: '辨江湖真假',
+    heroDesc: '全球首个以东方江湖文化为主题的双语小说平台。创作者发布，读者付费，平台分成。每一个故事，都是一局江湖棋。',
+    heroBtn1: '进入书库', heroBtn2: '我要创作',
+    statCreators: '创作者', statWorks: '作品', statShare: '创作者分成', statLang: '双语运营',
+    // Sections
+    secFeaturedNum: '// 001 · FEATURED', secFeaturedName: '今日推荐', secFeaturedMore: '查看全部书库 →',
+    secRankNum: '// 002 · RANKING', secRankName: '江湖热榜', secRankMore: '本周榜单 →',
+    // Reader
+    readerBack: '← 返回目录', readerFree: '免费阅读', readerPrev: '← 上一章', readerNext: '下一章 →',
+    readerLocked: '付费章节', readerBuyBtn: '购买灵石',
+    // Auth modal
+    authLoginTitle: '登入<em>江湖</em>', authRegTitle: '加入<em>江湖</em>',
+    authTabLogin: 'LOGIN · 登录', authTabReg: 'REGISTER · 注册',
+    authEmailLabel: '邮箱 · Email', authPwLabel: '密码 · Password',
+    authUsernameLabel: '江湖名号 · Username',
+    authLoginBtn: '▶ 进入江湖', authRegBtn: '▶ 加入江湖',
+    authOr: '— 或 —', authGoogle: 'Google 登录',
+    authErrFields: '请填写邮箱和密码', authErrAllFields: '请填写所有字段',
+    authErrPwLen: '密码至少8位', authErrCreds: '邮箱或密码错误',
+    authErrExists: '该邮箱已注册，请直接登录',
+    authSuccessReg: '注册成功！请检查邮箱验证链接后登录。',
+    // Reader toolbar
+    readerFontLabel: '字号', readerProgressLabel: '阅读进度',
+    // Footer
+    footerCopy: '© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app',
+    footerSys: 'SYS.STATUS: ONLINE · USERS: 50,412',
   },
   en: {
-    login: 'Sign In', logout: 'Sign Out', register: 'Join Now',
-    home: 'Home', jianghu: '◆ Legend', library: 'Library',
-    creator: 'Creator', lingshi: 'Crystals', about: 'About',
-    stones: 'Crystals', buyStones: 'Buy Crystals', creatorDash: 'Dashboard',
-    enterJianghu: '▶ Enter', joinJianghu: '▶ Join',
+    // Nav
+    navLogin: 'Sign In', navLogout: 'Sign Out',
+    tab_home: 'Home', tab_jianghu: '◆ Legend', tab_library: 'Library',
+    tab_creator: 'Creator', tab_lingshi: 'Crystals', tab_about: 'About',
+    navBuyStones: 'Buy Crystals', navCreatorDash: 'Dashboard',
+    navStonesUnit: 'Crystals',
+    // Hero
+    heroTag: '● K1980 · Now Live · GLOBAL',
+    heroTitle1: 'Wind of the Jianghu', heroTitle2: 'Truth in Every Tale',
+    heroDesc: 'The world\'s first bilingual novel platform rooted in Eastern martial arts culture. Creators publish, readers pay, platform shares. Every story is a move on the Jianghu chessboard.',
+    heroBtn1: 'Browse Library', heroBtn2: 'Start Creating',
+    statCreators: 'Creators', statWorks: 'Works', statShare: 'Creator Share', statLang: 'Bilingual',
+    // Sections
+    secFeaturedNum: '// 001 · FEATURED', secFeaturedName: 'Featured Today', secFeaturedMore: 'View All →',
+    secRankNum: '// 002 · RANKING', secRankName: 'Hot List', secRankMore: 'Weekly Chart →',
+    // Reader
+    readerBack: '← Back to List', readerFree: 'Free Chapter', readerPrev: '← Previous', readerNext: 'Next →',
+    readerLocked: 'Paid Chapter', readerBuyBtn: 'Buy Crystals',
+    // Auth modal
+    authLoginTitle: 'Sign <em>In</em>', authRegTitle: 'Join <em>Now</em>',
+    authTabLogin: 'LOGIN', authTabReg: 'REGISTER',
+    authEmailLabel: 'Email', authPwLabel: 'Password',
+    authUsernameLabel: 'Username / Handle',
+    authLoginBtn: '▶ Enter', authRegBtn: '▶ Join',
+    authOr: '— or —', authGoogle: 'Continue with Google',
+    authErrFields: 'Please fill in email and password', authErrAllFields: 'Please fill in all fields',
+    authErrPwLen: 'Password must be at least 8 characters', authErrCreds: 'Invalid email or password',
+    authErrExists: 'Email already registered — please sign in',
+    authSuccessReg: 'Registered! Check your email to verify your account.',
+    // Reader toolbar
+    readerFontLabel: 'Font Size', readerProgressLabel: 'Progress',
+    // Footer
+    footerCopy: '© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app',
+    footerSys: 'SYS.STATUS: ONLINE · USERS: 50,412',
   }
 };
+
+// Elements keyed by i18n key → selector or getter
+const i18nBindings = [
+  // Nav tabs — in order matching DOM
+  { key: 'tab_home',     sel: '.tab-btn:nth-child(1)' },
+  { key: 'tab_jianghu', sel: '.tab-btn:nth-child(2)' },
+  { key: 'tab_library', sel: '.tab-btn:nth-child(3)' },
+  { key: 'tab_creator', sel: '.tab-btn:nth-child(4)' },
+  { key: 'tab_lingshi', sel: '.tab-btn:nth-child(5)' },
+  { key: 'tab_about',   sel: '.tab-btn:nth-child(6)' },
+  { key: 'navLogin',    sel: '#navLoginBtn' },
+  // Hero
+  { key: 'heroTitle1',  sel: '.hero-title .t1' },
+  { key: 'heroTitle2',  sel: '.hero-title .t2' },
+  { key: 'heroDesc',    sel: '.hero-desc' },
+  { key: 'heroBtn1',    sel: '.hero-btns .btn-p' },
+  { key: 'heroBtn2',    sel: '.hero-btns .btn-s' },
+  // Stats labels
+  { key: 'statCreators', sel: '.hero-stats .stat:nth-child(1) .stat-l' },
+  { key: 'statWorks',    sel: '.hero-stats .stat:nth-child(2) .stat-l' },
+  { key: 'statShare',    sel: '.hero-stats .stat:nth-child(3) .stat-l' },
+  { key: 'statLang',     sel: '.hero-stats .stat:nth-child(4) .stat-l' },
+  // Section headers
+  { key: 'secFeaturedMore', sel: '.sec:nth-of-type(1) .sec-more' },
+  // Auth modal
+  { key: 'authTabLogin', sel: '#tabLogin' },
+  { key: 'authTabReg',   sel: '#tabRegister' },
+  { key: 'authEmailLabel',    sel: '#formLogin .auth-label:nth-child(1)' },
+  { key: 'authPwLabel',       sel: '#formLogin .auth-label:nth-child(2)' },
+  { key: 'authLoginBtn',      sel: '#loginBtn' },
+  { key: 'authOr',            sel: '.auth-divider' },
+  { key: 'authGoogle',        sel: '.auth-google' },
+  { key: 'authRegBtn',        sel: '#registerBtn' },
+  // Footer
+  { key: 'footerCopy', sel: '.f-copy' },
+  { key: 'footerSys',  sel: '.f-sys'  },
+];
 
 function toggleLang() {
   currentLang = currentLang === 'zh' ? 'en' : 'zh';
   document.getElementById('langZH').className = currentLang === 'zh' ? 'lang-active' : '';
   document.getElementById('langEN').className = currentLang === 'en' ? 'lang-active' : '';
+  document.documentElement.lang = currentLang;
   applyLang();
 }
 
 function applyLang() {
   const t = i18n[currentLang];
-  const tabs = document.querySelectorAll('.tab-btn');
-  const pages = ['home','jianghu','library','creator','lingshi','about'];
-  tabs.forEach((btn, i) => { if(t[pages[i]]) btn.textContent = t[pages[i]]; });
-  const loginBtn = document.getElementById('navLoginBtn');
-  if(loginBtn) loginBtn.textContent = t.login;
-  document.documentElement.lang = currentLang === 'zh' ? 'zh' : 'en';
+  i18nBindings.forEach(({ key, sel }) => {
+    const el = document.querySelector(sel);
+    if (el && t[key] !== undefined) {
+      // Some strings contain <em> tags — use innerHTML
+      if (t[key].includes('<')) el.innerHTML = t[key];
+      else el.textContent = t[key];
+    }
+  });
+  // Auth modal title depends on which tab is active
+  const authTitleEl = document.getElementById('authTitle');
+  if (authTitleEl) {
+    const tab = document.getElementById('formLogin').style.display !== 'none' ? 'login' : 'register';
+    authTitleEl.innerHTML = tab === 'login' ? t.authLoginTitle : t.authRegTitle;
+  }
+  // Stones unit label
+  const stoneCountEl = document.getElementById('navStoneCount');
+  if (stoneCountEl && stoneCountEl.nextSibling) {
+    // The "灵石" text after the count — update via nav-stones container
+    const navStones = document.getElementById('navStones');
+    if (navStones) {
+      navStones.childNodes.forEach(n => {
+        if (n.nodeType === 3 && n.textContent.trim()) n.textContent = ' ' + t.navStonesUnit;
+      });
+    }
+  }
+  // User menu items
+  const menuItems = document.querySelectorAll('.user-menu-item');
+  if (menuItems[0]) menuItems[0].textContent = t.navBuyStones;
+  if (menuItems[1]) menuItems[1].textContent = t.navCreatorDash;
+  if (menuItems[3]) menuItems[3].textContent = t.navLogout;
 }
 
 // ── AUTH STATE ──
