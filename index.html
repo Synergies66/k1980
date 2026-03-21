@@ -1664,6 +1664,7 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
 // ── SUPABASE CONFIG ──
 const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
+const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── STRIPE CONFIG ──
 const STRIPE_PK = 'pk_test_51TDKX6JFYB9fMpq2kdwhnTVndI6at1d2asejovgxOipMTgpV3doRS7GM6Lo06TGFAQ5WptjwYJCr7j4Pu53Dtq6T001t0bL9hc';
