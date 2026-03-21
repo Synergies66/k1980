@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>江湖传言 · K1980 — 听天下风声，辨江湖真假</title>
+<meta name="version" content="2.1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Serif+SC:wght@300;400;600;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<style>
+:root {
+  --teal: #2dd4bf;
+  --teal-dark: #0d9488;
+  --teal-dim: rgba(45,212,191,0.12);
+  --gold: #f59e0b;
+  --gold-dim: rgba(245,158,11,0.15);
+  --red: #ef4444;
+  --bg: #060a0f;
+  --bg2: #0c1219;
+  --bg3: #111a24;
+  --bg4: #1a2535;
+  --text: #dde8f0;
+  --text-dim: #4a6a7a;
+  --text-mid: #8aacbc;
+  --border: rgba(45,212,191,0.15);
+  --scan: repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(45,212,191,0.012) 2px,rgba(45,212,191,0.012) 4px);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Noto Serif SC',serif;overflow-x:hidden;cursor:default}
+body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-events:none;z-index:9999;opacity:.5}
+
+/* ── TAB NAVIGATION ── */
+.tab-nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(6,10,15,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
+.tab-inner{display:flex;align-items:center;height:60px;padding:0 40px;gap:0}
+.tab-logo{font-family:'Orbitron',monospace;font-weight:900;font-size:1.1rem;color:var(--teal);letter-spacing:.1em;margin-right:40px;text-shadow:0 0 20px rgba(45,212,191,.4);white-space:nowrap}
+.tab-logo span{color:var(--gold)}
+.tabs{display:flex;gap:4px;flex:1}
+.tab-btn{font-family:'Share Tech Mono',monospace;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-dim);background:transparent;border:none;padding:8px 18px;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;position:relative;top:1px}
+.tab-btn:hover{color:var(--teal)}
+.tab-btn.active{color:var(--teal);border-bottom-color:var(--teal)}
+.tab-right{display:flex;gap:10px;align-items:center;margin-left:auto}
+.nav-stones{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--gold);border:1px solid rgba(245,158,11,.3);padding:5px 12px;display:flex;align-items:center;gap:6px}
+.nav-stones::before{content:'◆';font-size:.5rem}
+.nav-login{font-family:'Orbitron',monospace;font-size:.65rem;color:var(--bg);background:var(--teal);border:none;padding:7px 16px;cursor:pointer;letter-spacing:.1em;clip-path:polygon(0 0,calc(100% - 6px) 0,100% 6px,100% 100%,0 100%)}
+
+/* ── PAGES ── */
+.page{display:none;min-height:100vh;padding-top:60px}
+.page.active{display:block}
+
+/* ════════════════════════════════
+   PAGE 1: 首页 HOME
+════════════════════════════════ */
+/* Hero */
+.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;padding:0 80px;position:relative;overflow:hidden}
+.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,191,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,191,.05) 1px,transparent 1px);background-size:50px 50px;mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,black 30%,transparent 100%)}
+.hero-char{position:absolute;right:-60px;top:50%;transform:translateY(-50%);font-size:520px;font-weight:900;color:rgba(45,212,191,.03);line-height:1;pointer-events:none;font-family:'Noto Serif SC',serif;animation:charFloat 10s ease-in-out infinite}
+@keyframes charFloat{0%,100%{transform:translateY(-50%) rotate(-3deg)}50%{transform:translateY(-52%) rotate(3deg)}}
+.hero-tag{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);letter-spacing:.3em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:10px;animation:fadeUp .7s ease forwards;opacity:0}
+.hero-tag::before{content:'';width:30px;height:1px;background:var(--teal)}
+.blink{animation:blink 1.2s step-end infinite}
+@keyframes blink{50%{opacity:0}}
+.hero-title{font-size:clamp(3.5rem,9vw,8rem);font-weight:900;line-height:1;letter-spacing:-.02em;margin-bottom:6px;animation:fadeUp .7s .1s ease forwards;opacity:0}
+.hero-title .t1{color:var(--text);display:block}
+.hero-title .t2{color:var(--teal);display:block;text-shadow:0 0 80px rgba(45,212,191,.25)}
+.hero-en{font-family:'Orbitron',monospace;font-size:clamp(.8rem,1.5vw,1.1rem);color:var(--gold);letter-spacing:.2em;font-weight:700;margin-bottom:24px;animation:fadeUp .7s .15s ease forwards;opacity:0}
+.hero-desc{max-width:500px;font-size:.95rem;line-height:2;color:var(--text-mid);margin-bottom:40px;border-left:2px solid var(--teal-dark);padding-left:18px;animation:fadeUp .7s .2s ease forwards;opacity:0}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px;animation:fadeUp .7s .25s ease forwards;opacity:0}
+.btn-p{font-family:'Orbitron',monospace;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--bg);background:var(--teal);border:none;padding:13px 28px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));transition:all .2s}
+.btn-p:hover{background:#5eead4;box-shadow:0 0 30px rgba(45,212,191,.5);transform:translateY(-2px)}
+.btn-s{font-family:'Orbitron',monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);background:transparent;border:1px solid var(--teal);padding:13px 28px;cursor:pointer;transition:all .2s}
+.btn-s:hover{background:var(--teal-dim)}
+.hero-stats{display:flex;gap:48px;padding-top:28px;border-top:1px solid var(--border);animation:fadeUp .7s .3s ease forwards;opacity:0}
+.stat{display:flex;flex-direction:column;gap:3px}
+.stat-n{font-family:'Orbitron',monospace;font-size:1.6rem;font-weight:900;color:var(--teal);line-height:1}
+.stat-l{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.2em;text-transform:uppercase}
+
+/* Ticker */
+.ticker-w{background:rgba(45,212,191,.06);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:9px 0;overflow:hidden}
+.ticker{display:flex;gap:50px;animation:tick 25s linear infinite;white-space:nowrap}
+.tick-i{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);letter-spacing:.15em;text-transform:uppercase;flex-shrink:0;display:flex;align-items:center;gap:12px}
+.tick-i::before{content:'◆';font-size:.45rem;color:var(--gold)}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+
+/* Featured books grid */
+.sec{padding:80px 80px}
+.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px}
+.sec-title{display:flex;flex-direction:column;gap:6px}
+.sec-num{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--teal);letter-spacing:.25em}
+.sec-name{font-family:'Noto Serif SC',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:900;color:var(--text)}
+.sec-name em{font-style:normal;color:var(--teal)}
+.sec-more{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);letter-spacing:.1em;text-decoration:none;border-bottom:1px solid var(--text-dim);padding-bottom:1px;cursor:pointer;background:none;border-top:none;border-left:none;border-right:none;transition:all .2s}
+.sec-more:hover{color:var(--teal);border-bottom-color:var(--teal)}
+
+/* Book cards */
+.books-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.book-card{background:var(--bg2);position:relative;overflow:hidden;cursor:pointer;transition:background .2s}
+.book-card:hover{background:var(--bg3)}
+.book-cover{height:220px;background:var(--bg3);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.book-cover-char{font-size:120px;font-weight:900;color:rgba(45,212,191,.08);font-family:'Noto Serif SC',serif;position:absolute}
+.book-cover-badge{position:absolute;top:10px;left:10px;font-family:'Share Tech Mono',monospace;font-size:.58rem;letter-spacing:.1em;padding:3px 7px;border:1px solid}
+.badge-new{color:var(--teal);border-color:var(--teal);background:rgba(45,212,191,.1)}
+.badge-hot{color:var(--gold);border-color:var(--gold);background:rgba(245,158,11,.1)}
+.badge-free{color:#a78bfa;border-color:#a78bfa;background:rgba(167,139,250,.1)}
+.book-cover-lock{position:absolute;bottom:10px;right:10px;font-size:.7rem;color:var(--gold)}
+.book-info{padding:16px}
+.book-genre{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px}
+.book-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px;line-height:1.3}
+.book-author{font-size:.75rem;color:var(--text-dim);margin-bottom:10px}
+.book-meta{display:flex;gap:12px;align-items:center}
+.book-meta-item{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);display:flex;align-items:center;gap:4px}
+.book-price{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--gold);margin-left:auto;display:flex;align-items:center;gap:4px}
+
+/* Cover gradients */
+.cg1{background:linear-gradient(135deg,rgba(13,148,136,.3) 0%,var(--bg3) 60%)}
+.cg2{background:linear-gradient(135deg,rgba(245,158,11,.2) 0%,var(--bg3) 60%)}
+.cg3{background:linear-gradient(135deg,rgba(167,139,250,.2) 0%,var(--bg3) 60%)}
+.cg4{background:linear-gradient(135deg,rgba(239,68,68,.15) 0%,var(--bg3) 60%)}
+
+/* Rankings */
+.rank-list{display:flex;flex-direction:column;gap:1px}
+.rank-item{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:20px;padding:16px 24px;background:var(--bg2);cursor:pointer;transition:background .2s;position:relative;overflow:hidden}
+.rank-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:0;background:var(--teal);transition:width .2s}
+.rank-item:hover{background:var(--bg3)}
+.rank-item:hover::before{width:3px}
+.rank-pos{font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:900;text-align:center}
+.rank-pos.p1{color:var(--gold);text-shadow:0 0 10px rgba(245,158,11,.5)}
+.rank-pos.p2{color:#9ca3af}
+.rank-pos.p3{color:#92400e}
+.rank-pos.other{color:rgba(45,212,191,.2)}
+.rank-info .rank-title{font-family:'Noto Serif SC',serif;font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:2px}
+.rank-info .rank-by{font-size:.75rem;color:var(--text-dim)}
+.rank-num{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);text-align:right}
+.rank-num .rn-big{display:block;color:var(--teal);font-size:.9rem;font-weight:700}
+
+/* ════════════════════════════════
+   PAGE 2: 书库 LIBRARY
+════════════════════════════════ */
+.library-layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 60px)}
+.sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:32px 24px;position:sticky;top:60px;height:calc(100vh - 60px);overflow-y:auto}
+.sidebar-sec{margin-bottom:32px}
+.sidebar-title{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.25em;text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+.filter-item{font-family:'Noto Serif SC',serif;font-size:.85rem;color:var(--text-mid);padding:7px 12px;cursor:pointer;border-radius:2px;transition:all .2s;display:flex;justify-content:space-between;align-items:center}
+.filter-item:hover,.filter-item.active{color:var(--teal);background:var(--teal-dim)}
+.filter-count{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim)}
+.library-main{padding:40px}
+.lib-toolbar{display:flex;align-items:center;gap:16px;margin-bottom:32px;flex-wrap:wrap}
+.lib-sort{font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--text-dim);background:var(--bg2);border:1px solid var(--border);padding:7px 14px;cursor:pointer;transition:all .2s}
+.lib-sort:hover,.lib-sort.active{color:var(--teal);border-color:var(--teal);background:var(--teal-dim)}
+.lib-search{flex:1;max-width:320px;font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text);background:var(--bg2);border:1px solid var(--border);padding:8px 14px;outline:none;letter-spacing:.05em}
+.lib-search::placeholder{color:var(--text-dim)}
+.lib-search:focus{border-color:var(--teal)}
+.books-list-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+
+/* ════════════════════════════════
+   PAGE 3: 创作者 CREATOR
+════════════════════════════════ */
+.creator-page{padding:0 80px 80px;padding-top:40px}
+.creator-hero{background:linear-gradient(135deg,rgba(13,148,136,.15) 0%,rgba(245,158,11,.08) 50%,transparent 100%);border:1px solid var(--border);padding:60px;margin-bottom:60px;position:relative;overflow:hidden}
+.creator-hero-bg{position:absolute;right:-40px;bottom:-40px;font-size:280px;font-weight:900;color:rgba(45,212,191,.03);font-family:'Noto Serif SC',serif;line-height:1;pointer-events:none}
+.creator-hero h2{font-family:'Noto Serif SC',serif;font-size:2.8rem;font-weight:900;color:var(--text);margin-bottom:12px}
+.creator-hero h2 em{font-style:normal;color:var(--teal)}
+.creator-hero p{font-size:.95rem;color:var(--text-mid);line-height:1.9;max-width:540px;margin-bottom:32px}
+.creator-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:60px}
+.benefit-card{background:var(--bg2);border:1px solid var(--border);padding:28px;position:relative;overflow:hidden;transition:border-color .2s}
+.benefit-card:hover{border-color:var(--teal)}
+.benefit-icon{font-size:1.8rem;margin-bottom:12px}
+.benefit-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:8px}
+.benefit-desc{font-size:.82rem;color:var(--text-mid);line-height:1.8}
+.benefit-num{position:absolute;top:16px;right:16px;font-family:'Orbitron',monospace;font-size:2rem;font-weight:900;color:rgba(45,212,191,.06)}
+.tiers-section h3{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:32px}
+.tiers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
+.tier-card{background:var(--bg2);border:1px solid var(--border);padding:28px 20px;text-align:center;position:relative;overflow:hidden;transition:all .2s}
+.tier-card.featured{border-color:var(--teal);background:rgba(13,148,136,.08)}
+.tier-card.featured::before{content:'推荐';position:absolute;top:12px;right:-20px;background:var(--teal);color:var(--bg);font-family:'Share Tech Mono',monospace;font-size:.55rem;letter-spacing:.1em;padding:3px 28px;transform:rotate(45deg);transform-origin:center}
+.tier-name{font-family:'Noto Serif SC',serif;font-size:1.1rem;font-weight:700;color:var(--text-mid);margin-bottom:4px}
+.tier-pct{font-family:'Orbitron',monospace;font-size:2.8rem;font-weight:900;color:var(--teal);line-height:1;margin-bottom:4px}
+.tier-sub{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:16px}
+.tier-cond{font-size:.8rem;color:var(--text-mid);line-height:1.8}
+.tier-cond strong{color:var(--gold);font-style:normal}
+
+/* ════════════════════════════════
+   PAGE 4: 灵石 LINGSHI
+════════════════════════════════ */
+.lingshi-page{padding:40px 80px 80px}
+.lingshi-hero{text-align:center;padding:60px 0 48px}
+.lingshi-hero h2{font-family:'Noto Serif SC',serif;font-size:2.4rem;font-weight:900;color:var(--text);margin-bottom:8px}
+.lingshi-hero h2 em{font-style:normal;color:var(--gold)}
+.lingshi-hero p{font-size:.95rem;color:var(--text-mid)}
+.stones-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:60px}
+.stone-card{background:var(--bg2);border:1px solid var(--border);padding:32px 24px;text-align:center;cursor:pointer;position:relative;overflow:hidden;transition:all .2s}
+.stone-card.best-value{border-color:var(--gold)}
+.stone-card.best-value::after{content:'最超值';position:absolute;top:0;right:0;background:var(--gold);color:var(--bg);font-family:'Share Tech Mono',monospace;font-size:.55rem;padding:4px 10px;letter-spacing:.1em}
+.stone-card:hover{background:var(--bg3);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.3)}
+.stone-gem{font-size:2.5rem;margin-bottom:12px}
+.stone-amount{font-family:'Orbitron',monospace;font-size:2rem;font-weight:900;color:var(--gold);line-height:1}
+.stone-unit{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:12px}
+.stone-price{font-family:'Orbitron',monospace;font-size:1.4rem;font-weight:700;color:var(--teal);margin-bottom:4px}
+.stone-cpp{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.05em}
+.stone-btn{margin-top:16px;width:100%;font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--bg);background:var(--teal);border:none;padding:10px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 6px) 0,100% 6px,100% 100%,6px 100%,0 calc(100% - 6px));transition:all .2s}
+.stone-btn:hover{background:#5eead4;box-shadow:0 0 20px rgba(45,212,191,.4)}
+.faq-section h3{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:32px}
+.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
+.faq-item{background:var(--bg2);padding:24px;border:1px solid var(--border)}
+.faq-q{font-family:'Noto Serif SC',serif;font-size:.95rem;font-weight:700;color:var(--teal);margin-bottom:8px}
+.faq-a{font-size:.85rem;color:var(--text-mid);line-height:1.8}
+
+/* ════════════════════════════════
+   PAGE 5: 关于 ABOUT
+════════════════════════════════ */
+.about-page{padding:40px 80px 80px}
+.about-manifesto{border-left:3px solid var(--teal);padding:40px 48px;margin-bottom:60px;background:linear-gradient(90deg,rgba(13,148,136,.08),transparent)}
+.about-manifesto h2{font-family:'Noto Serif SC',serif;font-size:2.6rem;font-weight:900;color:var(--text);margin-bottom:20px;line-height:1.2}
+.about-manifesto h2 em{font-style:normal;color:var(--teal)}
+.about-manifesto p{font-size:1rem;line-height:2.1;color:var(--text-mid);max-width:620px}
+.domain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-bottom:60px}
+.domain-card{background:var(--bg2);border:1px solid var(--border);padding:24px;transition:border-color .2s}
+.domain-card:hover{border-color:var(--teal)}
+.domain-url{font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;color:var(--teal);margin-bottom:6px}
+.domain-desc{font-size:.82rem;color:var(--text-mid)}
+.timeline{position:relative;padding-left:40px}
+.timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,var(--teal),transparent)}
+.tl-item{position:relative;margin-bottom:36px}
+.tl-item::before{content:'';position:absolute;left:-36px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px rgba(45,212,191,.5)}
+.tl-date{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.2em;margin-bottom:4px}
+.tl-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.tl-desc{font-size:.83rem;color:var(--text-mid);line-height:1.8}
+
+/* ════════════════════════════════
+   江湖传 FEATURED BANNER
+════════════════════════════════ */
+.jht-banner{margin:0;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;overflow:hidden}
+.jht-banner::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(13,148,136,.12) 0%,rgba(245,158,11,.06) 40%,transparent 70%);pointer-events:none}
+.jht-inner{display:grid;grid-template-columns:1fr 1fr;min-height:460px}
+.jht-left{padding:64px 80px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:1}
+.jht-eyebrow{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.3em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:8px}
+.jht-eyebrow::before{content:'▶';font-size:.45rem;animation:blink 1.2s step-end infinite}
+.jht-title{font-family:'Noto Serif SC',serif;font-size:clamp(2.8rem,5vw,4.2rem);font-weight:900;line-height:1;color:var(--text);margin-bottom:8px}
+.jht-title em{font-style:normal;color:var(--teal);display:block}
+.jht-en{font-family:'Orbitron',monospace;font-size:.7rem;color:var(--gold);letter-spacing:.25em;font-weight:700;margin-bottom:20px}
+.jht-desc{font-size:.9rem;line-height:2;color:var(--text-mid);max-width:420px;margin-bottom:32px}
+.jht-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:32px}
+.jht-tag{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);border:1px solid rgba(45,212,191,.25);padding:4px 10px;letter-spacing:.1em}
+.jht-actions{display:flex;gap:12px;align-items:center}
+.jht-ep{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);letter-spacing:.1em}
+.jht-right{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.jht-right::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--bg2) 0%,transparent 30%)}
+.jht-chars{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:-20px}
+.jht-char-big{font-size:280px;font-weight:900;font-family:'Noto Serif SC',serif;line-height:1;position:absolute}
+.jht-char-big.c1{color:rgba(45,212,191,.07);right:-20px;top:50%;transform:translateY(-50%)}
+.jht-char-big.c2{color:rgba(245,158,11,.05);right:140px;top:50%;transform:translateY(-60%);font-size:180px}
+.jht-episodes{position:relative;z-index:1;padding:40px;display:flex;flex-direction:column;gap:10px;justify-content:center;width:100%}
+.jht-ep-card{background:rgba(6,10,15,.7);border:1px solid var(--border);padding:14px 18px;cursor:pointer;transition:all .2s;backdrop-filter:blur(4px)}
+.jht-ep-card:hover{border-color:var(--teal);background:rgba(45,212,191,.05)}
+.jht-ep-card.current{border-color:rgba(245,158,11,.4);background:rgba(245,158,11,.04)}
+.jht-ep-num{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.15em;margin-bottom:3px}
+.jht-ep-title{font-family:'Noto Serif SC',serif;font-size:.9rem;font-weight:700;color:var(--text);margin-bottom:2px}
+.jht-ep-desc{font-size:.72rem;color:var(--text-dim);line-height:1.5}
+.jht-ep-status{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--gold);margin-top:4px}
+
+/* ════════════════════════════════
+   PAGE 6: 江湖传 JIANGHU LEGEND
+════════════════════════════════ */
+.jht-page{padding-top:0}
+.jht-hero-full{min-height:70vh;display:flex;flex-direction:column;justify-content:flex-end;padding:80px;position:relative;overflow:hidden;background:linear-gradient(to bottom,var(--bg) 0%,rgba(13,148,136,.08) 50%,var(--bg) 100%)}
+.jht-hero-bg-char{position:absolute;font-size:600px;font-weight:900;font-family:'Noto Serif SC',serif;color:rgba(45,212,191,.04);right:-60px;top:50%;transform:translateY(-50%);line-height:1;pointer-events:none;animation:charFloat 12s ease-in-out infinite}
+.jht-hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,191,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,191,.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black,transparent)}
+.jht-hero-tag{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--gold);letter-spacing:.3em;text-transform:uppercase;margin-bottom:12px}
+.jht-hero-title{font-family:'Noto Serif SC',serif;font-size:clamp(4rem,10vw,9rem);font-weight:900;line-height:.9;color:var(--text);margin-bottom:12px}
+.jht-hero-title em{font-style:normal;color:var(--teal);text-shadow:0 0 60px rgba(45,212,191,.3)}
+.jht-hero-sub{font-family:'Orbitron',monospace;font-size:.85rem;color:var(--gold);letter-spacing:.25em;margin-bottom:20px}
+.jht-hero-quote{font-size:1rem;color:var(--text-mid);font-style:italic;border-left:2px solid var(--teal);padding-left:16px;max-width:500px;line-height:1.9;margin-bottom:36px}
+.jht-hero-btns{display:flex;gap:12px}
+
+/* World section */
+.jht-world{padding:80px}
+.jht-world-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px}
+.world-card{background:var(--bg2);border:1px solid var(--border);padding:32px;position:relative;overflow:hidden;cursor:pointer;transition:all .2s}
+.world-card:hover{border-color:var(--teal);background:var(--bg3)}
+.world-card-bg{position:absolute;bottom:-10px;right:-10px;font-size:100px;font-family:'Noto Serif SC',serif;font-weight:900;color:rgba(45,212,191,.04);line-height:1;pointer-events:none}
+.world-card-tag{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
+.world-card-name{font-family:'Noto Serif SC',serif;font-size:1.5rem;font-weight:900;color:var(--text);margin-bottom:8px}
+.world-card-desc{font-size:.83rem;color:var(--text-mid);line-height:1.9}
+.world-card-secret{margin-top:14px;font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--gold);letter-spacing:.1em;border-top:1px solid var(--border);padding-top:12px}
+
+/* Characters */
+.jht-chars-sec{padding:0 80px 80px}
+.chars-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:48px}
+.char-card{background:var(--bg2);border:1px solid var(--border);padding:28px 24px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden}
+.char-card:hover{border-color:var(--teal);background:var(--bg3)}
+.char-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--teal),transparent);opacity:0;transition:opacity .2s}
+.char-card:hover::after{opacity:1}
+.char-symbol{font-size:3rem;font-family:'Noto Serif SC',serif;font-weight:900;color:rgba(45,212,191,.15);margin-bottom:12px;line-height:1}
+.char-faction{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
+.char-name{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:900;color:var(--text);margin-bottom:4px}
+.char-role{font-size:.78rem;color:var(--gold);margin-bottom:10px;font-family:'Share Tech Mono',monospace;font-size:.62rem}
+.char-desc{font-size:.8rem;color:var(--text-dim);line-height:1.8}
+.char-quote{margin-top:12px;font-size:.78rem;color:var(--text-mid);font-style:italic;border-left:1px solid rgba(45,212,191,.2);padding-left:10px}
+
+/* Episodes */
+.jht-eps-sec{padding:0 80px 80px}
+.eps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px}
+.ep-card{background:var(--bg2);border:1px solid var(--border);padding:28px;cursor:pointer;transition:all .2s;position:relative}
+.ep-card:hover{border-color:var(--teal);background:var(--bg3)}
+.ep-card.locked::after{content:'🔒';position:absolute;top:16px;right:16px;font-size:.9rem;opacity:.5}
+.ep-num{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;margin-bottom:8px}
+.ep-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:900;color:var(--text);margin-bottom:8px}
+.ep-synopsis{font-size:.8rem;color:var(--text-dim);line-height:1.8;margin-bottom:12px}
+.ep-hook{font-size:.82rem;color:var(--text-mid);font-style:italic;border-left:2px solid rgba(45,212,191,.2);padding-left:10px}
+.ep-meta{margin-top:14px;display:flex;align-items:center;gap:12px;border-top:1px solid var(--border);padding-top:12px}
+.ep-price{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--gold)}
+.ep-free{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:#a78bfa}
+
+/* ── COMMON ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+
+/* Footer */
+.footer{background:var(--bg2);border-top:1px solid var(--border);padding:48px 80px 32px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-top:80px}
+.f-brand .f-logo{font-family:'Orbitron',monospace;font-weight:900;font-size:1.3rem;color:var(--teal);text-shadow:0 0 20px rgba(45,212,191,.3);margin-bottom:8px}
+.f-brand .f-logo span{color:var(--gold)}
+.f-brand p{font-size:.8rem;color:var(--text-dim);line-height:1.9;margin-bottom:16px}
+.f-domains{display:flex;flex-wrap:wrap;gap:6px}
+.f-domain{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal-dark);border:1px solid rgba(45,212,191,.15);padding:2px 7px}
+.f-col-title{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
+.f-links{list-style:none;display:flex;flex-direction:column;gap:8px}
+.f-links a{font-size:.83rem;color:var(--text-dim);text-decoration:none;cursor:pointer;transition:color .2s;font-family:'Noto Serif SC',serif}
+.f-links a:hover{color:var(--teal)}
+.f-bottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(45,212,191,.1);display:flex;justify-content:space-between;grid-column:1/-1}
+.f-copy,.f-sys{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);letter-spacing:.08em}
+.f-sys{color:rgba(45,212,191,.35)}
+
+/* Responsive */
+@media(max-width:900px){
+  .tab-inner{padding:0 16px}
+  .tabs .tab-btn{padding:8px 10px;font-size:.62rem}
+  .hero,.sec,.creator-page,.lingshi-page,.about-page{padding-left:20px;padding-right:20px}
+  .books-grid{grid-template-columns:repeat(2,1fr)}
+  .library-layout{grid-template-columns:1fr}
+  .sidebar{display:none}
+  .creator-benefits{grid-template-columns:1fr}
+  .tiers-grid,.stones-grid{grid-template-columns:repeat(2,1fr)}
+  .domain-grid{grid-template-columns:1fr 1fr}
+  .footer{grid-template-columns:1fr 1fr;padding:40px 20px 24px}
+}
+
+/* ── AUTH & LANG STYLES ── */
+.lang-switch{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);cursor:pointer;display:flex;align-items:center;gap:6px;padding:5px 10px;border:1px solid var(--border);transition:all .2s}
+.lang-switch:hover{border-color:var(--teal)}
+.lang-sep{color:var(--border)}
+.lang-active{color:var(--teal)}
+.nav-user{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);cursor:pointer;padding:5px 12px;border:1px solid rgba(45,212,191,.3);position:relative;display:flex;align-items:center;gap:4px}
+.user-menu{position:absolute;top:calc(100% + 8px);right:0;background:var(--bg3);border:1px solid var(--border);min-width:150px;z-index:1000;display:none}
+.user-menu.open{display:block}
+.user-menu-item{padding:10px 16px;font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-mid);cursor:pointer;letter-spacing:.05em;transition:all .2s}
+.user-menu-item:hover{color:var(--teal);background:var(--teal-dim)}
+.user-menu-divider{border-top:1px solid var(--border);margin:4px 0}
+.user-menu-logout{color:var(--red)!important}
+/* Auth Modal */
+.auth-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:2000;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.auth-overlay.open{display:flex!important}
+.auth-modal{background:var(--bg2);border:1px solid var(--border);width:440px;max-width:95vw;position:relative}
+.auth-modal-header{padding:28px 32px 0;display:flex;justify-content:space-between;align-items:center}
+.auth-modal-title{font-family:'Noto Serif SC',serif;font-size:1.4rem;font-weight:900;color:var(--text)}
+.auth-modal-title em{font-style:normal;color:var(--teal)}
+.auth-close{font-family:'Share Tech Mono',monospace;color:var(--text-dim);cursor:pointer;font-size:1rem;background:none;border:none;transition:color .2s}
+.auth-close:hover{color:var(--teal)}
+.auth-tabs{display:flex;gap:0;padding:20px 32px 0;border-bottom:1px solid var(--border)}
+.auth-tab{font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:var(--text-dim);cursor:pointer;padding:8px 16px;border-bottom:2px solid transparent;transition:all .2s;position:relative;bottom:-1px}
+.auth-tab.active{color:var(--teal);border-bottom-color:var(--teal)}
+.auth-body{padding:28px 32px 32px}
+.auth-field{margin-bottom:16px}
+.auth-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px;display:block}
+.auth-input{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Share Tech Mono',monospace;font-size:.8rem;padding:10px 14px;outline:none;transition:border-color .2s}
+.auth-input:focus{border-color:var(--teal)}
+.auth-submit{width:100%;font-family:'Orbitron',monospace;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--bg);background:var(--teal);border:none;padding:13px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));transition:all .2s;margin-top:8px}
+.auth-submit:hover{background:#5eead4;box-shadow:0 0 30px rgba(45,212,191,.4)}
+.auth-submit:disabled{opacity:.5;cursor:not-allowed}
+.auth-msg{font-family:'Share Tech Mono',monospace;font-size:.65rem;margin-top:12px;padding:8px 12px;display:none}
+.auth-msg.error{color:var(--red);border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.05);display:block}
+.auth-msg.success{color:var(--teal);border:1px solid rgba(45,212,191,.3);background:rgba(45,212,191,.05);display:block}
+.auth-divider{text-align:center;margin:16px 0;font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim)}
+.auth-google{width:100%;font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--text);background:var(--bg3);border:1px solid var(--border);padding:11px;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px}
+.auth-google:hover{border-color:var(--teal);color:var(--teal)}
+
+/* ════════════════════════════════
+   创作者后台 DASHBOARD
+════════════════════════════════ */
+.dash-layout{display:grid;grid-template-columns:220px 1fr;min-height:calc(100vh - 60px)}
+.dash-sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:32px 0;position:sticky;top:60px;height:calc(100vh - 60px);overflow-y:auto}
+.dash-sidebar-title{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.25em;text-transform:uppercase;padding:0 24px;margin-bottom:12px}
+.dash-nav-item{display:flex;align-items:center;gap:10px;padding:10px 24px;font-family:'Share Tech Mono',monospace;font-size:.68rem;color:var(--text-dim);cursor:pointer;transition:all .2s;letter-spacing:.05em;border-left:2px solid transparent}
+.dash-nav-item:hover{color:var(--teal);background:var(--teal-dim)}
+.dash-nav-item.active{color:var(--teal);border-left-color:var(--teal);background:var(--teal-dim)}
+.dash-nav-icon{font-size:.9rem;width:18px;text-align:center}
+.dash-main{padding:40px;overflow-y:auto}
+.dash-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:32px}
+.dash-title{font-family:'Noto Serif SC',serif;font-size:1.8rem;font-weight:900;color:var(--text)}
+.dash-title em{font-style:normal;color:var(--teal)}
+/* Stats */
+.dash-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:32px}
+.dash-stat{background:var(--bg2);border:1px solid var(--border);padding:20px 24px}
+.dash-stat-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px}
+.dash-stat-val{font-family:'Orbitron',monospace;font-size:1.8rem;font-weight:900;color:var(--teal);line-height:1}
+.dash-stat-sub{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);margin-top:4px}
+/* Novels list */
+.dash-section-title{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between}
+.dash-novel-list{display:flex;flex-direction:column;gap:2px;margin-bottom:32px}
+.dash-novel-item{background:var(--bg2);border:1px solid var(--border);padding:16px 20px;display:grid;grid-template-columns:1fr auto;align-items:center;gap:16px;cursor:pointer;transition:all .2s}
+.dash-novel-item:hover{border-color:var(--teal);background:var(--bg3)}
+.dash-novel-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
+.dash-novel-meta{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);display:flex;gap:12px}
+.dash-novel-status{font-family:'Share Tech Mono',monospace;font-size:.58rem;padding:3px 8px;border:1px solid}
+.status-draft{color:var(--text-dim);border-color:var(--border)}
+.status-published{color:var(--teal);border-color:rgba(45,212,191,.3)}
+.dash-novel-actions{display:flex;gap:8px}
+.dash-btn{font-family:'Share Tech Mono',monospace;font-size:.6rem;letter-spacing:.1em;padding:6px 12px;border:1px solid var(--border);background:var(--bg3);color:var(--text-dim);cursor:pointer;transition:all .2s}
+.dash-btn:hover{border-color:var(--teal);color:var(--teal)}
+.dash-btn.primary{background:var(--teal);color:var(--bg);border-color:var(--teal)}
+.dash-btn.primary:hover{background:#5eead4}
+/* Forms */
+.dash-form{background:var(--bg2);border:1px solid var(--border);padding:32px;margin-bottom:24px}
+.dash-form-title{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:900;color:var(--text);margin-bottom:24px}
+.dash-form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.dash-form-field{margin-bottom:16px}
+.dash-form-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px;display:block}
+.dash-form-input{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Noto Serif SC',serif;font-size:.9rem;padding:10px 14px;outline:none;transition:border-color .2s}
+.dash-form-input:focus{border-color:var(--teal)}
+.dash-form-textarea{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Noto Serif SC',serif;font-size:.9rem;padding:10px 14px;outline:none;min-height:200px;resize:vertical;transition:border-color .2s;line-height:1.8}
+.dash-form-textarea:focus{border-color:var(--teal)}
+.dash-form-select{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Share Tech Mono',monospace;font-size:.72rem;padding:10px 14px;outline:none;cursor:pointer}
+.dash-msg{font-family:'Share Tech Mono',monospace;font-size:.65rem;padding:8px 12px;margin-top:12px;display:none}
+.dash-msg.success{color:var(--teal);border:1px solid rgba(45,212,191,.3);background:rgba(45,212,191,.05);display:block}
+.dash-msg.error{color:var(--red);border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.05);display:block}
+/* Login gate */
+.dash-gate{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:60vh;gap:16px;text-align:center}
+.dash-gate-title{font-family:'Noto Serif SC',serif;font-size:2rem;font-weight:900;color:var(--text)}
+.dash-gate-title em{font-style:normal;color:var(--teal)}
+.dash-gate-desc{font-size:.9rem;color:var(--text-mid)}
+/* Empty state */
+.dash-empty{text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)}
+.dash-empty-icon{font-size:3rem;margin-bottom:12px;opacity:.3}
+.dash-empty-text{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);letter-spacing:.1em}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="tab-nav">
+  <div class="tab-inner">
+    <div class="tab-logo">K<span>1980</span> · 江湖传言</div>
+    <div class="tabs">
+      <button class="tab-btn active" onclick="showPage('home')">首页</button>
+      <button class="tab-btn" onclick="showPage('jianghu')" style="color:var(--gold)">◆ 江湖传</button>
+      <button class="tab-btn" onclick="showPage('library')">书库</button>
+      <button class="tab-btn" onclick="showPage('creator')">创作者</button>
+      <button class="tab-btn" onclick="showPage('lingshi')">灵石</button>
+      <button class="tab-btn" onclick="showPage('about')">关于</button>
+    </div>
+    <div class="tab-right">
+      <div class="lang-switch" id="langSwitch" onclick="toggleLang()">
+        <span id="langZH" class="lang-active">中文</span>
+        <span class="lang-sep">·</span>
+        <span id="langEN">EN</span>
+      </div>
+      <div class="nav-stones" id="navStones" style="display:none">◆ <span id="navStoneCount">0</span> 灵石</div>
+      <div class="nav-user" id="navUser" style="display:none" onclick="toggleUserMenu()">
+        <span id="navUserName"></span> ▾
+        <div class="user-menu" id="userMenu">
+          <div class="user-menu-item" onclick="showPage('lingshi')">购买灵石</div>
+          <div class="user-menu-item" onclick="showPage('creator')">创作者后台</div>
+          <div class="user-menu-divider"></div>
+          <div class="user-menu-item user-menu-logout" onclick="handleLogout()">退出江湖</div>
+        </div>
+      </div>
+      <button class="nav-login" id="navLoginBtn" onclick="showAuthModal('login')">登入江湖</button>
+    </div>
+  </div>
+</nav>
+
+<!-- ═══ PAGE: HOME ═══ -->
+<div id="page-home" class="page active">
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-char">湖</div>
+    <div class="hero-tag"><span class="blink">●</span> 江湖传言 · 正式上线 · LIVE</div>
+    <h1 class="hero-title">
+      <span class="t1">听天下风声</span>
+      <span class="t2">辨江湖真假</span>
+    </h1>
+    <div class="hero-en">K1980 · JIANGHU CHUANYAN · GLOBAL NOVEL PLATFORM</div>
+    <p class="hero-desc">全球首个以东方江湖文化为主题的双语小说平台。创作者发布，读者付费，平台分成。每一个故事，都是一局江湖棋。</p>
+    <div class="hero-btns">
+      <button class="btn-p" onclick="showPage('library')">进入书库</button>
+      <button class="btn-s" onclick="showPage('creator')">我要创作</button>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-n">500+</span><span class="stat-l">创作者</span></div>
+      <div class="stat"><span class="stat-n">2,000+</span><span class="stat-l">作品</span></div>
+      <div class="stat"><span class="stat-n">50%~75%</span><span class="stat-l">创作者分成</span></div>
+      <div class="stat"><span class="stat-n">中·英</span><span class="stat-l">双语运营</span></div>
+    </div>
+  </section>
+
+  <div class="ticker-w">
+    <div class="ticker">
+      <span class="tick-i">江湖传 · 第一季连载中</span>
+      <span class="tick-i">新人激励计划 · 前1000名创作者享70%分成</span>
+      <span class="tick-i">AI写作助手 · 即将上线</span>
+      <span class="tick-i">本周新书 · 《刀海浮沉录》</span>
+      <span class="tick-i">江湖热榜 · 《听风者》蝉联榜首</span>
+      <span class="tick-i">k1980.app · 全球中英双语平台</span>
+      <span class="tick-i">江湖传 · 第一季连载中</span>
+      <span class="tick-i">新人激励计划 · 前1000名创作者享70%分成</span>
+      <span class="tick-i">AI写作助手 · 即将上线</span>
+      <span class="tick-i">本周新书 · 《刀海浮沉录》</span>
+      <span class="tick-i">江湖热榜 · 《听风者》蝉联榜首</span>
+      <span class="tick-i">k1980.app · 全球中英双语平台</span>
+    </div>
+  </div>
+
+  <!-- 江湖传 FLAGSHIP BANNER -->
+  <div class="jht-banner">
+    <div class="jht-inner">
+      <div class="jht-left">
+        <div class="jht-eyebrow">K1980 旗舰IP · 第一季连载中</div>
+        <h2 class="jht-title">江湖<em>传</em></h2>
+        <div class="jht-en">JIANGHU LEGEND · SEASON ONE</div>
+        <p class="jht-desc">大夏王朝之内，有一座三层茶楼，名曰听风堂。天下风声，皆汇于此。一个少年来到京城，只问一句话——谁杀了我父亲？</p>
+        <div class="jht-tags">
+          <span class="jht-tag">武侠</span>
+          <span class="jht-tag">江湖</span>
+          <span class="jht-tag">情报战</span>
+          <span class="jht-tag">王朝博弈</span>
+          <span class="jht-tag">中英双语</span>
+        </div>
+        <div class="jht-actions">
+          <button class="btn-p" onclick="showPage('jianghu')">进入江湖</button>
+          <button class="btn-s" onclick="showPage('jianghu')">查看剧情</button>
+          <span class="jht-ep">第1集免费 · 共12集</span>
+        </div>
+      </div>
+      <div class="jht-right">
+        <div class="jht-chars">
+          <div class="jht-char-big c1">湖</div>
+          <div class="jht-char-big c2">风</div>
+        </div>
+        <div class="jht-episodes">
+          <div class="jht-ep-card current">
+            <div class="jht-ep-num">第01集 · 免费</div>
+            <div class="jht-ep-title">听风堂</div>
+            <div class="jht-ep-desc">少年顾长安踏入京城，走进那座传说中的茶楼。</div>
+            <div class="jht-ep-status">▶ 立即阅读</div>
+          </div>
+          <div class="jht-ep-card">
+            <div class="jht-ep-num">第02集 · 8灵石</div>
+            <div class="jht-ep-title">血影刺客</div>
+            <div class="jht-ep-desc">一个刺客接到任务——目标是顾长安。</div>
+          </div>
+          <div class="jht-ep-card">
+            <div class="jht-ep-num">第03集 · 8灵石</div>
+            <div class="jht-ep-title">静空间</div>
+            <div class="jht-ep-desc">权力的客厅里，静夫人说：京城是棋盘。</div>
+          </div>
+          <div class="jht-ep-card" style="opacity:.5">
+            <div class="jht-ep-num">第04-12集 · 连载更新中</div>
+            <div class="jht-ep-title">天书之谜 · 江湖棋局</div>
+            <div class="jht-ep-desc">父亲死亡的真相，藏在一卷天书里……</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Featured -->
+  <section class="sec">
+    <div class="sec-hd">
+      <div class="sec-title">
+        <span class="sec-num">// 001 · FEATURED</span>
+        <h2 class="sec-name">今日<em>推荐</em></h2>
+      </div>
+      <button class="sec-more" onclick="showPage('library')">查看全部书库 →</button>
+    </div>
+    <div class="books-grid">
+      <div class="book-card">
+        <div class="book-cover cg1"><span class="book-cover-char">江</span><span class="book-cover-badge badge-new">连载中</span><span class="book-cover-lock">◆ 付费</span></div>
+        <div class="book-info">
+          <div class="book-genre">武侠 · 江湖 · K1980</div>
+          <div class="book-title">江湖传 · 第一季</div>
+          <div class="book-author">K1980 Creative Studio</div>
+          <div class="book-meta">
+            <span class="book-meta-item">👁 12.4万</span>
+            <span class="book-meta-item">★ 4.9</span>
+            <span class="book-price">◆ 8灵石/章</span>
+          </div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cg2"><span class="book-cover-char">刀</span><span class="book-cover-badge badge-hot">热榜#1</span><span class="book-cover-lock">◆ 付费</span></div>
+        <div class="book-info">
+          <div class="book-genre">武侠 · 热血</div>
+          <div class="book-title">刀海浮沉录</div>
+          <div class="book-author">游侠无风</div>
+          <div class="book-meta">
+            <span class="book-meta-item">👁 8.2万</span>
+            <span class="book-meta-item">★ 4.7</span>
+            <span class="book-price">◆ 6灵石/章</span>
+          </div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cg3"><span class="book-cover-char">仙</span><span class="book-cover-badge badge-free">前10章免费</span></div>
+        <div class="book-info">
+          <div class="book-genre">修仙 · 玄幻</div>
+          <div class="book-title">The Immortal Wind Gate</div>
+          <div class="book-author">Chen MingYu</div>
+          <div class="book-meta">
+            <span class="book-meta-item">👁 5.6万</span>
+            <span class="book-meta-item">★ 4.8</span>
+            <span class="book-price">◆ 5灵石/章</span>
+          </div>
+        </div>
+      </div>
+      <div class="book-card">
+        <div class="book-cover cg4"><span class="book-cover-char">朝</span><span class="book-cover-badge badge-hot">英文新星</span></div>
+        <div class="book-info">
+          <div class="book-genre">朝堂 · 权谋</div>
+          <div class="book-title">Shadow of the Dragon Throne</div>
+          <div class="book-author">Lin Xiao</div>
+          <div class="book-meta">
+            <span class="book-meta-item">👁 3.1万</span>
+            <span class="book-meta-item">★ 4.6</span>
+            <span class="book-price">◆ 7灵石/章</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rankings -->
+  <section class="sec" style="padding-top:0">
+    <div class="sec-hd">
+      <div class="sec-title">
+        <span class="sec-num">// 002 · RANKING</span>
+        <h2 class="sec-name">江湖<em>热榜</em></h2>
+      </div>
+      <button class="sec-more">本周榜单 →</button>
+    </div>
+    <div class="rank-list">
+      <div class="rank-item"><div class="rank-pos p1">01</div><div class="rank-info"><div class="rank-title">刀海浮沉录</div><div class="rank-by">游侠无风 · 武侠</div></div><div class="rank-num"><span class="rn-big">82,341</span>本周阅读</div></div>
+      <div class="rank-item"><div class="rank-pos p2">02</div><div class="rank-info"><div class="rank-title">江湖传 · 第一季</div><div class="rank-by">K1980 Studio · 武侠江湖</div></div><div class="rank-num"><span class="rn-big">72,108</span>本周阅读</div></div>
+      <div class="rank-item"><div class="rank-pos p3">03</div><div class="rank-info"><div class="rank-title">The Immortal Wind Gate</div><div class="rank-by">Chen MingYu · 修仙</div></div><div class="rank-num"><span class="rn-big">56,204</span>本周阅读</div></div>
+      <div class="rank-item"><div class="rank-pos other">04</div><div class="rank-info"><div class="rank-title">Shadow of the Dragon Throne</div><div class="rank-by">Lin Xiao · 朝堂权谋</div></div><div class="rank-num"><span class="rn-big">31,455</span>本周阅读</div></div>
+      <div class="rank-item"><div class="rank-pos other">05</div><div class="rank-info"><div class="rank-title">侠客行·新纪元</div><div class="rank-by">北风入云 · 武侠</div></div><div class="rank-num"><span class="rn-big">28,990</span>本周阅读</div></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="f-brand"><div class="f-logo">K<span>1980</span></div><p>复古未来创作工作室<br>听天下风声，辨江湖真假<br>Retro-Futuristic Creative Studio</p><div class="f-domains"><span class="f-domain">k1980.com</span><span class="f-domain">k1980.app</span><span class="f-domain">k1980.ai</span><span class="f-domain">k1980.world</span><span class="f-domain">life1980.com</span><span class="f-domain">life-90.com</span></div></div>
+    <div><div class="f-col-title">创作者</div><ul class="f-links"><li><a>开始创作</a></li><li><a>分成说明</a></li><li><a>AI写作助手</a></li><li><a>创作者协议</a></li></ul></div>
+    <div><div class="f-col-title">读者</div><ul class="f-links"><li><a>书库</a></li><li><a>购买灵石</a></li><li><a>月卡会员</a></li><li><a>江湖身份</a></li></ul></div>
+    <div><div class="f-col-title">关于</div><ul class="f-links"><li><a>K1980品牌</a></li><li><a>《江湖传》IP</a></li><li><a>联系我们</a></li><li><a>投资者关系</a></li></ul></div>
+    <div class="f-bottom"><span class="f-copy">© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app</span><span class="f-sys">SYS.STATUS: ONLINE · USERS: 50,412</span></div>
+  </footer>
+</div>
+
+<!-- ═══ PAGE: LIBRARY ═══ -->
+<div id="page-library" class="page">
+  <div class="library-layout">
+    <aside class="sidebar">
+      <div class="sidebar-sec">
+        <div class="sidebar-title">题材分类</div>
+        <div class="filter-item active">全部作品 <span class="filter-count">2,341</span></div>
+        <div class="filter-item">武侠江湖 <span class="filter-count">856</span></div>
+        <div class="filter-item">修仙玄幻 <span class="filter-count">621</span></div>
+        <div class="filter-item">朝堂权谋 <span class="filter-count">312</span></div>
+        <div class="filter-item">市井奇情 <span class="filter-count">198</span></div>
+        <div class="filter-item">西域异域 <span class="filter-count">154</span></div>
+        <div class="filter-item">English Works <span class="filter-count">400</span></div>
+      </div>
+      <div class="sidebar-sec">
+        <div class="sidebar-title">更新状态</div>
+        <div class="filter-item">连载中 <span class="filter-count">1,204</span></div>
+        <div class="filter-item">已完结 <span class="filter-count">987</span></div>
+        <div class="filter-item">暂停更新 <span class="filter-count">150</span></div>
+      </div>
+      <div class="sidebar-sec">
+        <div class="sidebar-title">付费方式</div>
+        <div class="filter-item">包含免费章节</div>
+        <div class="filter-item">灵石付费</div>
+        <div class="filter-item">月卡可读</div>
+      </div>
+      <div class="sidebar-sec">
+        <div class="sidebar-title">语言</div>
+        <div class="filter-item">中文</div>
+        <div class="filter-item">English</div>
+        <div class="filter-item">双语</div>
+      </div>
+    </aside>
+    <main style="padding:40px">
+      <div class="lib-toolbar">
+        <button class="lib-sort active">最新</button>
+        <button class="lib-sort">最热</button>
+        <button class="lib-sort">完结</button>
+        <button class="lib-sort">新人推荐</button>
+        <input class="lib-search" placeholder="搜索书名、作者、标签…">
+      </div>
+      <div class="books-list-grid">
+        <div class="book-card"><div class="book-cover cg1" style="height:200px"><span class="book-cover-char">江</span><span class="book-cover-badge badge-new">连载</span></div><div class="book-info"><div class="book-genre">武侠·K1980</div><div class="book-title">江湖传·第一季</div><div class="book-author">K1980 Studio</div><div class="book-meta"><span class="book-price">◆ 8石/章</span></div></div></div>
+        <div class="book-card"><div class="book-cover cg2" style="height:200px"><span class="book-cover-char">刀</span><span class="book-cover-badge badge-hot">热榜</span></div><div class="book-info"><div class="book-genre">武侠·热血</div><div class="book-title">刀海浮沉录</div><div class="book-author">游侠无风</div><div class="book-meta"><span class="book-price">◆ 6石/章</span></div></div></div>
+        <div class="book-card"><div class="book-cover cg3" style="height:200px"><span class="book-cover-char">仙</span><span class="book-cover-badge badge-free">前10免费</span></div><div class="book-info"><div class="book-genre">修仙·英文</div><div class="book-title">Immortal Wind Gate</div><div class="book-author">Chen MingYu</div><div class="book-meta"><span class="book-price">◆ 5石/章</span></div></div></div>
+        <div class="book-card"><div class="book-cover cg4" style="height:200px"><span class="book-cover-char">朝</span><span class="book-cover-badge badge-hot">英文</span></div><div class="book-info"><div class="book-genre">权谋·英文</div><div class="book-title">Dragon Throne</div><div class="book-author">Lin Xiao</div><div class="book-meta"><span class="book-price">◆ 7石/章</span></div></div></div>
+        <div class="book-card"><div class="book-cover cg1" style="height:200px;background:linear-gradient(135deg,rgba(167,139,250,.25),var(--bg3))"><span class="book-cover-char">侠</span></div><div class="book-info"><div class="book-genre">武侠·奇侠</div><div class="book-title">侠客行·新纪元</div><div class="book-author">北风入云</div><div class="book-meta"><span class="book-price">◆ 5石/章</span></div></div></div>
+        <div class="book-card"><div class="book-cover cg2" style="height:200px;background:linear-gradient(135deg,rgba(239,68,68,.2),var(--bg3))"><span class="book-cover-char">血</span></div><div class="book-info"><div class="book-genre">江湖·暗影</div><div class="book-title">血影楼秘史</div><div class="book-author">暗夜刀客</div><div class="book-meta"><span class="book-price">◆ 6石/章</span></div></div></div>
+      </div>
+    </main>
+  </div>
+</div>
+
+<!-- ═══ PAGE: CREATOR ═══ -->
+<div id="page-creator" class="page">
+  <!-- 未登录提示 -->
+  <div id="creatorGate" class="dash-gate" style="display:none">
+    <div class="dash-gate-title">创作者<em>后台</em></div>
+    <p class="dash-gate-desc">请先登录才能进入创作者后台</p>
+    <button class="btn-p" onclick="showAuthModal('login')">▶ 登入江湖</button>
+  </div>
+
+  <!-- 已登录：创作者后台 -->
+  <div id="creatorDash" class="dash-layout" style="display:none">
+    <!-- 侧边栏 -->
+    <aside class="dash-sidebar">
+      <div class="dash-sidebar-title" style="margin-bottom:24px">创作者后台</div>
+      <div class="dash-nav-item active" onclick="showDashTab('overview')" id="dnav-overview">
+        <span class="dash-nav-icon">◈</span> 概览
+      </div>
+      <div class="dash-nav-item" onclick="showDashTab('novels')" id="dnav-novels">
+        <span class="dash-nav-icon">📚</span> 我的作品
+      </div>
+      <div class="dash-nav-item" onclick="showDashTab('new-novel')" id="dnav-new-novel">
+        <span class="dash-nav-icon">✦</span> 新建作品
+      </div>
+      <div class="dash-nav-item" onclick="showDashTab('chapters')" id="dnav-chapters">
+        <span class="dash-nav-icon">📝</span> 章节管理
+      </div>
+      <div class="dash-nav-item" onclick="showDashTab('new-chapter')" id="dnav-new-chapter">
+        <span class="dash-nav-icon">+</span> 上传章节
+      </div>
+      <div style="margin-top:32px;border-top:1px solid var(--border);padding-top:24px">
+        <div class="dash-nav-item" onclick="showPage('lingshi')">
+          <span class="dash-nav-icon">◆</span> 购买灵石
+        </div>
+        <div class="dash-nav-item" onclick="handleLogout()">
+          <span class="dash-nav-icon">⊗</span> 退出
+        </div>
+      </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="dash-main">
+
+      <!-- 概览 -->
+      <div id="dtab-overview" class="dtab">
+        <div class="dash-header">
+          <div class="dash-title">你好，<em id="dashUserName">侠客</em></div>
+          <button class="dash-btn primary" onclick="showDashTab('new-novel')">✦ 新建作品</button>
+        </div>
+        <div class="dash-stats">
+          <div class="dash-stat">
+            <div class="dash-stat-label">作品总数</div>
+            <div class="dash-stat-val" id="statNovels">0</div>
+            <div class="dash-stat-sub">部作品</div>
+          </div>
+          <div class="dash-stat">
+            <div class="dash-stat-label">章节总数</div>
+            <div class="dash-stat-val" id="statChapters">0</div>
+            <div class="dash-stat-sub">个章节</div>
+          </div>
+          <div class="dash-stat">
+            <div class="dash-stat-label">灵石余额</div>
+            <div class="dash-stat-val" id="statStones">0</div>
+            <div class="dash-stat-sub">灵石</div>
+          </div>
+          <div class="dash-stat">
+            <div class="dash-stat-label">本月收入</div>
+            <div class="dash-stat-val">$0</div>
+            <div class="dash-stat-sub">持续更新中</div>
+          </div>
+        </div>
+        <div class="dash-section-title">
+          <span>最近作品</span>
+          <button class="dash-btn" onclick="showDashTab('novels')">查看全部</button>
+        </div>
+        <div id="overviewNovelList" class="dash-novel-list"></div>
+      </div>
+
+      <!-- 我的作品 -->
+      <div id="dtab-novels" class="dtab" style="display:none">
+        <div class="dash-header">
+          <div class="dash-title">我的<em>作品</em></div>
+          <button class="dash-btn primary" onclick="showDashTab('new-novel')">✦ 新建作品</button>
+        </div>
+        <div id="novelList" class="dash-novel-list"></div>
+      </div>
+
+      <!-- 新建作品 -->
+      <div id="dtab-new-novel" class="dtab" style="display:none">
+        <div class="dash-header">
+          <div class="dash-title">新建<em>作品</em></div>
+        </div>
+        <div class="dash-form">
+          <div class="dash-form-row">
+            <div class="dash-form-field">
+              <label class="dash-form-label">作品标题 *</label>
+              <input class="dash-form-input" id="novelTitle" placeholder="例：江湖传·第二季">
+            </div>
+            <div class="dash-form-field">
+              <label class="dash-form-label">题材分类</label>
+              <select class="dash-form-select" id="novelGenre">
+                <option value="武侠江湖">武侠江湖</option>
+                <option value="修仙玄幻">修仙玄幻</option>
+                <option value="朝堂权谋">朝堂权谋</option>
+                <option value="市井奇情">市井奇情</option>
+                <option value="西域异域">西域异域</option>
+                <option value="其他">其他</option>
+              </select>
+            </div>
+          </div>
+          <div class="dash-form-row">
+            <div class="dash-form-field">
+              <label class="dash-form-label">语言</label>
+              <select class="dash-form-select" id="novelLang">
+                <option value="zh">中文</option>
+                <option value="en">English</option>
+                <option value="both">中英双语</option>
+              </select>
+            </div>
+            <div class="dash-form-field">
+              <label class="dash-form-label">封面大字（单字）</label>
+              <input class="dash-form-input" id="novelCoverChar" placeholder="传" maxlength="1" style="font-size:1.5rem;text-align:center">
+            </div>
+          </div>
+          <div class="dash-form-field">
+            <label class="dash-form-label">作品简介</label>
+            <textarea class="dash-form-input" id="novelDesc" style="min-height:100px;resize:vertical" placeholder="用一段话介绍你的故事..."></textarea>
+          </div>
+          <div style="display:flex;gap:12px">
+            <button class="dash-btn primary" onclick="createNovel()">✦ 创建作品</button>
+            <button class="dash-btn" onclick="showDashTab('novels')">取消</button>
+          </div>
+          <div class="dash-msg" id="novelMsg"></div>
+        </div>
+      </div>
+
+      <!-- 章节管理 -->
+      <div id="dtab-chapters" class="dtab" style="display:none">
+        <div class="dash-header">
+          <div class="dash-title">章节<em>管理</em></div>
+          <button class="dash-btn primary" onclick="showDashTab('new-chapter')">+ 上传章节</button>
+        </div>
+        <div class="dash-form-field" style="margin-bottom:16px">
+          <label class="dash-form-label">选择作品</label>
+          <select class="dash-form-select" id="chapterNovelSelect" onchange="loadChapters(this.value)">
+            <option value="">-- 选择作品 --</option>
+          </select>
+        </div>
+        <div id="chapterList" class="dash-novel-list"></div>
+      </div>
+
+      <!-- 上传章节 -->
+      <div id="dtab-new-chapter" class="dtab" style="display:none">
+        <div class="dash-header">
+          <div class="dash-title">上传<em>章节</em></div>
+        </div>
+        <div class="dash-form">
+          <div class="dash-form-field">
+            <label class="dash-form-label">所属作品 *</label>
+            <select class="dash-form-select" id="chapterNovelId">
+              <option value="">-- 选择作品 --</option>
+            </select>
+          </div>
+          <div class="dash-form-row">
+            <div class="dash-form-field">
+              <label class="dash-form-label">章节标题 *</label>
+              <input class="dash-form-input" id="chapterTitle" placeholder="例：第一集 · 听风堂">
+            </div>
+            <div class="dash-form-field">
+              <label class="dash-form-label">章节序号</label>
+              <input class="dash-form-input" id="chapterNum" type="number" placeholder="1" min="1">
+            </div>
+          </div>
+          <div class="dash-form-row">
+            <div class="dash-form-field">
+              <label class="dash-form-label">价格（灵石，0=免费）</label>
+              <input class="dash-form-input" id="chapterPrice" type="number" placeholder="0" min="0" value="0">
+            </div>
+            <div class="dash-form-field">
+              <label class="dash-form-label">状态</label>
+              <select class="dash-form-select" id="chapterStatus">
+                <option value="draft">草稿</option>
+                <option value="published">发布</option>
+              </select>
+            </div>
+          </div>
+          <div class="dash-form-field">
+            <label class="dash-form-label">章节正文 *</label>
+            <textarea class="dash-form-textarea" id="chapterContent" placeholder="在这里输入章节内容...&#10;&#10;支持普通文本，每段之间空一行。"></textarea>
+          </div>
+          <div style="display:flex;gap:12px;align-items:center">
+            <button class="dash-btn primary" onclick="saveChapter('published')">▶ 立即发布</button>
+            <button class="dash-btn" onclick="saveChapter('draft')">存为草稿</button>
+            <span id="wordCount" style="font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim)">0 字</span>
+          </div>
+          <div class="dash-msg" id="chapterMsg"></div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- ═══ PAGE: LINGSHI ═══ -->
+<div id="page-lingshi" class="page">
+  <div class="lingshi-page">
+    <div class="lingshi-hero">
+      <h2>购买<em>灵石</em></h2>
+      <p>灵石是江湖传言的通用货币。用于解锁付费章节，打赏创作者，兑换会员权益。</p>
+    </div>
+
+    <div class="stones-grid">
+      <div class="stone-card">
+        <div class="stone-gem">🔷</div>
+        <div class="stone-amount">100</div>
+        <div class="stone-unit">灵 石</div>
+        <div class="stone-price">$1.99</div>
+        <div class="stone-cpp">$0.020 / 石</div>
+        <button class="stone-btn">购买</button>
+      </div>
+      <div class="stone-card">
+        <div class="stone-gem">💎</div>
+        <div class="stone-amount">300</div>
+        <div class="stone-unit">灵 石</div>
+        <div class="stone-price">$4.99</div>
+        <div class="stone-cpp">$0.017 / 石</div>
+        <button class="stone-btn">购买</button>
+      </div>
+      <div class="stone-card best-value">
+        <div class="stone-gem">👑</div>
+        <div class="stone-amount">700</div>
+        <div class="stone-unit">灵 石</div>
+        <div class="stone-price">$9.99</div>
+        <div class="stone-cpp">$0.014 / 石</div>
+        <button class="stone-btn">购买</button>
+      </div>
+      <div class="stone-card">
+        <div class="stone-gem">⚡</div>
+        <div class="stone-amount">2000</div>
+        <div class="stone-unit">灵 石</div>
+        <div class="stone-price">$24.99</div>
+        <div class="stone-cpp">$0.012 / 石</div>
+        <button class="stone-btn">购买</button>
+      </div>
+    </div>
+
+    <div style="margin-bottom:48px;padding:24px 32px;background:var(--bg2);border:1px solid var(--gold-dim);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px">
+      <div>
+        <div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;font-weight:700;color:var(--gold);margin-bottom:6px">月卡会员 · 每月$5.99</div>
+        <div style="font-size:.85rem;color:var(--text-mid)">每月赠送200灵石 + 部分指定作品免费阅读 + 专属月卡徽章</div>
+      </div>
+      <button class="btn-p" style="background:var(--gold);clip-path:none">开通月卡</button>
+    </div>
+
+    <div class="faq-section">
+      <h3>常见问题</h3>
+      <div class="faq-grid">
+        <div class="faq-item"><div class="faq-q">灵石如何使用？</div><div class="faq-a">在阅读付费章节时，直接用灵石解锁即可。一般每章5-10灵石，相当于约$0.07-$0.14每章。</div></div>
+        <div class="faq-item"><div class="faq-q">灵石可以退款吗？</div><div class="faq-a">已购买但未使用的灵石可在30天内申请退款。已用于解锁章节的灵石不可退。</div></div>
+        <div class="faq-item"><div class="faq-q">支持哪些支付方式？</div><div class="faq-a">支持Stripe国际信用卡（全球）、支付宝、微信支付（中国大陆用户）。</div></div>
+        <div class="faq-item"><div class="faq-q">创作者什么时候收到分成？</div><div class="faq-a">每月15日结算上月收入，通过PayPal/银行转账/支付宝发放，最低提现门槛$10。</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ PAGE: ABOUT ═══ -->
+<div id="page-about" class="page">
+  <div class="about-page">
+    <div class="about-manifesto">
+      <h2>不只是<em>小说平台</em><br>这是一个宇宙</h2>
+      <p>K1980诞生于一个信念：东方江湖的智慧，可以用未来的语言重新讲述。<br><br>江湖传言不只是发布平台，它是K1980创作宇宙的基础设施。当足够多的创作者和故事在这里聚集，一个真正的数字江湖就会形成。<br><br>有人的地方，就有江湖。有江湖的地方，就有风声。</p>
+    </div>
+
+    <section class="sec" style="padding:0 0 60px 0">
+      <div class="sec-title" style="margin-bottom:32px">
+        <span class="sec-num">// K1980 域名矩阵</span>
+        <h2 class="sec-name">六大<em>据点</em></h2>
+      </div>
+      <div class="domain-grid">
+        <div class="domain-card"><div class="domain-url">k1980.app</div><div class="domain-desc">江湖传言主平台 · 小说发布与阅读</div></div>
+        <div class="domain-card"><div class="domain-url">k1980.ai</div><div class="domain-desc">AI创作助手 · 写作工具与引擎</div></div>
+        <div class="domain-card"><div class="domain-url">k1980.com</div><div class="domain-desc">K1980品牌官网 · 创作宇宙门户</div></div>
+        <div class="domain-card"><div class="domain-url">k1980.world</div><div class="domain-desc">江湖世界观 · IP宇宙扩展平台</div></div>
+        <div class="domain-card"><div class="domain-url">life1980.com</div><div class="domain-desc">生活方式内容 · LIFE 1980子品牌</div></div>
+        <div class="domain-card"><div class="domain-url">life-90.com</div><div class="domain-desc">复古文化创作 · 90年代美学延伸</div></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sec-title" style="margin-bottom:32px">
+        <span class="sec-num">// 发展路线图</span>
+        <h2 class="sec-name"><em>江湖</em>路线图</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item"><div class="tl-date">2026 Q1 · 现在</div><div class="tl-title">MVP上线</div><div class="tl-desc">基础发布平台 · 《江湖传》第一季上线 · 灵石支付系统 · 种子创作者招募</div></div>
+        <div class="tl-item"><div class="tl-date">2026 Q2</div><div class="tl-title">Beta版本</div><div class="tl-desc">AI写作助手 · 江湖身份系统 · 创作者后台数据看板 · 500位创作者</div></div>
+        <div class="tl-item"><div class="tl-date">2026 Q3</div><div class="tl-title">V1.0正式版</div><div class="tl-desc">双语全面上线 · 问道系统 · 才艺比试 · 月卡会员 · 5万注册用户</div></div>
+        <div class="tl-item"><div class="tl-date">2026 Q4</div><div class="tl-title">移动端 + 增长</div><div class="tl-desc">iOS/Android App · 推荐算法优化 · 品牌广告系统 · 10万用户</div></div>
+        <div class="tl-item"><div class="tl-date">2027</div><div class="tl-title">IP孵化 + 扩张</div><div class="tl-desc">影视/游戏改编通道 · 海外华人社区深耕 · 30万用户 · 月流水$200K+</div></div>
+      </div>
+    </section>
+  </div>
+</div>
+
+<!-- ═══ PAGE: 江湖传 ═══ -->
+<div id="page-jianghu" class="page jht-page">
+
+  <!-- Hero -->
+  <section class="jht-hero-full">
+    <div class="jht-hero-grid"></div>
+    <div class="jht-hero-bg-char">传</div>
+    <div class="jht-hero-tag">K1980 · FLAGSHIP IP · SEASON ONE · 2026</div>
+    <h1 class="jht-hero-title">江湖<em>传</em></h1>
+    <div class="jht-hero-sub">JIANGHU LEGEND</div>
+    <p class="jht-hero-quote">有人的地方，就有江湖。<br>有江湖的地方，就有风声。<br>而风声，最终都会吹到一个地方——</p>
+    <div class="jht-hero-btns">
+      <button class="btn-p">▶ 免费阅读第一集</button>
+      <button class="btn-s">查看全部剧情</button>
+    </div>
+  </section>
+
+  <!-- 三大势力 -->
+  <section class="jht-world">
+    <div class="sec-title">
+      <span class="sec-num">// 世界观 · WORLD</span>
+      <h2 class="sec-name">京城<em>三大暗局</em></h2>
+    </div>
+    <div class="jht-world-grid">
+      <div class="world-card">
+        <div class="world-card-bg">堂</div>
+        <div class="world-card-tag">// 情报中心</div>
+        <div class="world-card-name">听风堂</div>
+        <div class="world-card-desc">京城最热闹街上的三层茶楼。表面是喝茶听书的地方，实则是天下最大的情报汇集之所。门派恩怨、刺客交易、谁想造反——所有消息最终都流向这里。</div>
+        <div class="world-card-secret">幕后主人 · 慧宁公主</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-bg">静</div>
+        <div class="world-card-tag">// 权力客厅</div>
+        <div class="world-card-name">静空间</div>
+        <div class="world-card-desc">门口没有招牌，只有一个字——静。这里有茶、有香、有古琴，达官贵人在此谈生意、交换利益。没有刀剑，但这里的决定，往往能改变江湖格局。</div>
+        <div class="world-card-secret">幕后主人 · 吐蕃王室</div>
+      </div>
+      <div class="world-card">
+        <div class="world-card-bg">司</div>
+        <div class="world-card-tag">// 朝廷机构</div>
+        <div class="world-card-name">皇城司</div>
+        <div class="world-card-desc">朝廷秘密监视江湖的机构。他们相信江湖必须被控制。两百年前建立，始终在暗处注视着每一个江湖人物的动向。</div>
+        <div class="world-card-secret">他们相信 · 江湖必须被控制</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 核心人物 -->
+  <section class="jht-chars-sec">
+    <div class="sec-title">
+      <span class="sec-num">// 人物 · CHARACTERS</span>
+      <h2 class="sec-name">江湖<em>棋局</em>中的人</h2>
+    </div>
+    <div class="chars-grid">
+      <div class="char-card">
+        <div class="char-symbol">顾</div>
+        <div class="char-faction">// 听风堂 · 主角</div>
+        <div class="char-name">顾长安</div>
+        <div class="char-role">少年听风人</div>
+        <div class="char-desc">父亲是镖师，十六岁进京寻找父亲死亡真相。记忆力极强，能看懂江湖棋局。不是武功最强，但终将成为改变江湖的人。</div>
+        <div class="char-quote">"真相，比报仇更重要。"</div>
+      </div>
+      <div class="char-card">
+        <div class="char-symbol">沈</div>
+        <div class="char-faction">// 听风堂 · 掌堂人</div>
+        <div class="char-name">沈观山</div>
+        <div class="char-role">天下记忆第一人</div>
+        <div class="char-desc">听风堂掌柜，四十岁，文人气质，从不习武。但他知道天下所有人的名字和秘密。没人敢惹他，因为他知道你的一切。</div>
+        <div class="char-quote">"买消息，还是卖消息？"</div>
+      </div>
+      <div class="char-card">
+        <div class="char-symbol">静</div>
+        <div class="char-faction">// 静空间 · 主人</div>
+        <div class="char-name">静夫人</div>
+        <div class="char-role">阿卓央金 · 吐蕃公主</div>
+        <div class="char-desc">静空间表面管理者，优雅神秘。真实身份是吐蕃王室公主，来中原只为建立关系网。她知道，权力是最贵的商品。</div>
+        <div class="char-quote">"你不属于江湖，你属于棋盘。"</div>
+      </div>
+      <div class="char-card">
+        <div class="char-symbol">慧</div>
+        <div class="char-faction">// 皇室 · 风主</div>
+        <div class="char-name">慧宁公主</div>
+        <div class="char-role">听风堂真正主人</div>
+        <div class="char-desc">当今皇帝最小的妹妹，表面深居简出。实际掌控朝廷最大情报网络。她相信：想控制江湖，就要先听懂风声。</div>
+        <div class="char-quote">"棋局才刚开始。"</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 第一季剧情 -->
+  <section class="jht-eps-sec">
+    <div class="sec-title">
+      <span class="sec-num">// 剧情 · SEASON ONE</span>
+      <h2 class="sec-name">第一季 · <em>12集</em></h2>
+    </div>
+    <div class="eps-grid">
+      <div class="ep-card">
+        <div class="ep-num">第01集 · 免费阅读</div>
+        <div class="ep-title">《听风堂》</div>
+        <div class="ep-synopsis">顾长安来到京城，走进那座传说中知晓天下秘密的茶楼。他只问一句话：谁杀了我父亲？</div>
+        <div class="ep-hook">"买消息还是卖消息？如果没有钱——那就用命换。"</div>
+        <div class="ep-meta"><span class="ep-free">▶ 免费</span></div>
+      </div>
+      <div class="ep-card locked">
+        <div class="ep-num">第02集 · 8灵石</div>
+        <div class="ep-title">《血影刺客》</div>
+        <div class="ep-synopsis">编号七十三的刺客接到任务，目标是顾长安。但调查后，他开始怀疑这个任务背后的阴谋。</div>
+        <div class="ep-hook">刺客说：我本来是来杀你的。</div>
+        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
+      </div>
+      <div class="ep-card locked">
+        <div class="ep-num">第03集 · 8灵石</div>
+        <div class="ep-title">《静空间》</div>
+        <div class="ep-synopsis">顾长安调查父亲旧线索，第一次踏入那个门口只有一个字"静"的神秘庭院。</div>
+        <div class="ep-hook">静夫人说：京城不是江湖，是棋盘。</div>
+        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
+      </div>
+      <div class="ep-card locked">
+        <div class="ep-num">第04集 · 8灵石</div>
+        <div class="ep-title">《疯和尚》</div>
+        <div class="ep-synopsis">街边的疯和尚一直说"江湖要乱了"，无人理会。直到他一人击败三个高手，顾长安才发现——他认识自己的父亲。</div>
+        <div class="ep-hook">江湖要乱了……江湖要乱了……</div>
+        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
+      </div>
+      <div class="ep-card locked">
+        <div class="ep-num">第05-08集 · 连载中</div>
+        <div class="ep-title">《江湖第一剑》《听风堂的秘密》《刺客七十三》《静空间宴会》</div>
+        <div class="ep-synopsis">江湖最强剑客入京，顾长安发现听风堂的真相，刺客反过来保护他，京城权贵齐聚静空间的那个夜晚……</div>
+        <div class="ep-hook">每一局，都是棋。</div>
+        <div class="ep-meta"><span class="ep-price">◆ 每集8灵石</span></div>
+      </div>
+      <div class="ep-card locked" style="opacity:.6">
+        <div class="ep-num">第09-12集 · 即将上线</div>
+        <div class="ep-title">《天书线索》《听风堂风主》《江湖杀局》《棋局》</div>
+        <div class="ep-synopsis">天书被分成两半。慧宁公主第一次现身。三大势力同时出手。顾长安终于看懂了江湖……</div>
+        <div class="ep-hook">"江湖是人心。只要人心不灭，江湖就永远不会结束。"</div>
+        <div class="ep-meta"><span class="ep-price" style="color:var(--text-dim)">◆ 即将上线</span></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="f-brand"><div class="f-logo">K<span>1980</span></div><p>《江湖传》是K1980创作宇宙的旗舰IP<br>听天下风声，辨江湖真假</p><div class="f-domains"><span class="f-domain">k1980.app</span><span class="f-domain">k1980.com</span><span class="f-domain">k1980.ai</span></div></div>
+    <div><div class="f-col-title">江湖传</div><ul class="f-links"><li><a onclick="showPage('jianghu')">世界观</a></li><li><a onclick="showPage('jianghu')">人物介绍</a></li><li><a onclick="showPage('jianghu')">第一季剧情</a></li><li><a>第二季预告</a></li></ul></div>
+    <div><div class="f-col-title">平台</div><ul class="f-links"><li><a onclick="showPage('library')">书库</a></li><li><a onclick="showPage('creator')">创作者</a></li><li><a onclick="showPage('lingshi')">购买灵石</a></li></ul></div>
+    <div><div class="f-col-title">关于</div><ul class="f-links"><li><a onclick="showPage('about')">K1980品牌</a></li><li><a>联系我们</a></li><li><a>投资者关系</a></li></ul></div>
+    <div class="f-bottom"><span class="f-copy">© 2026 K1980 CREATIVE STUDIO · 《江湖传》IP版权所有 · k1980.app</span><span class="f-sys">有人的地方，就有江湖。</span></div>
+  </footer>
+</div>
+
+<script>
+function showPage(id) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + id).classList.add('active');
+  const map = {home:0, jianghu:1, library:2, creator:3, lingshi:4, about:5};
+  document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
+  window.scrollTo(0, 0);
+  if(id === 'creator') initCreatorDash();
+}
+
+// Filter interaction
+document.querySelectorAll('.filter-item').forEach(item => {
+  item.addEventListener('click', () => {
+    item.closest('.sidebar-sec').querySelectorAll('.filter-item').forEach(i => i.classList.remove('active'));
+    item.classList.add('active');
+  });
+});
+
+// Sort buttons
+document.querySelectorAll('.lib-sort').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.lib-sort').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  });
+});
+
+// ── MODAL FUNCTIONS ──
+function showAuthModal(tab) {
+  var el = document.getElementById('authOverlay');
+  if (el) { el.style.display = 'flex'; }
+  if (typeof switchAuthTab === 'function') switchAuthTab(tab || 'login');
+}
+function closeAuthModal() {
+  var el = document.getElementById('authOverlay');
+  if (el) { el.style.display = 'none'; }
+  if (typeof clearAuthMsgs === 'function') clearAuthMsgs();
+}
+function closeAuthOnOverlay(e) {
+  if (e.target && e.target.id === 'authOverlay') closeAuthModal();
+}
+</script>
+
+<!-- AUTH MODAL -->
+<div class="auth-overlay" id="authOverlay" onclick="closeAuthOnOverlay(event)">
+  <div class="auth-modal">
+    <div class="auth-modal-header">
+      <div class="auth-modal-title" id="authTitle">登入<em>江湖</em></div>
+      <button class="auth-close" onclick="closeAuthModal()">✕</button>
+    </div>
+    <div class="auth-tabs">
+      <div class="auth-tab active" id="tabLogin" onclick="switchAuthTab('login')">LOGIN · 登录</div>
+      <div class="auth-tab" id="tabRegister" onclick="switchAuthTab('register')">REGISTER · 注册</div>
+    </div>
+    <div class="auth-body">
+      <!-- Login Form -->
+      <div id="formLogin">
+        <div class="auth-field">
+          <label class="auth-label">邮箱 · Email</label>
+          <input class="auth-input" id="loginEmail" type="email" placeholder="your@email.com" autocomplete="email">
+        </div>
+        <div class="auth-field">
+          <label class="auth-label">密码 · Password</label>
+          <input class="auth-input" id="loginPassword" type="password" placeholder="••••••••" autocomplete="current-password">
+        </div>
+        <button class="auth-submit" id="loginBtn" onclick="handleLogin()">▶ 进入江湖</button>
+        <div class="auth-msg" id="loginMsg"></div>
+        <div class="auth-divider">— 或 —</div>
+        <button class="auth-google" onclick="handleGoogleLogin()">
+          <svg width="16" height="16" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
+          Google 登录
+        </button>
+      </div>
+      <!-- Register Form -->
+      <div id="formRegister" style="display:none">
+        <div class="auth-field">
+          <label class="auth-label">江湖名号 · Username</label>
+          <input class="auth-input" id="regUsername" type="text" placeholder="顾长安" autocomplete="nickname">
+        </div>
+        <div class="auth-field">
+          <label class="auth-label">邮箱 · Email</label>
+          <input class="auth-input" id="regEmail" type="email" placeholder="your@email.com" autocomplete="email">
+        </div>
+        <div class="auth-field">
+          <label class="auth-label">密码 · Password</label>
+          <input class="auth-input" id="regPassword" type="password" placeholder="至少8位" autocomplete="new-password">
+        </div>
+        <button class="auth-submit" id="registerBtn" onclick="handleRegister()">▶ 加入江湖</button>
+        <div class="auth-msg" id="registerMsg"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- AUTH MODULE -->
+
+<script>
+// ── K1980 AUTH MODULE ──
+const API_BASE = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
+const API_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
+
+// Auth客户端
+const sbAuth = {
+  async signUp(email, password, username) {
+    const r = await fetch(API_BASE + '/auth/v1/signup', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','apikey':API_KEY},
+      body: JSON.stringify({email, password, data:{username}})
+    });
+    return r.json();
+  },
+  async signIn(email, password) {
+    const r = await fetch(API_BASE + '/auth/v1/token?grant_type=password', {
+      method: 'POST',
+      headers: {'Content-Type':'application/json','apikey':API_KEY},
+      body: JSON.stringify({email, password})
+    });
+    return r.json();
+  },
+  async signOut(token) {
+    await fetch(API_BASE + '/auth/v1/logout', {
+      method: 'POST',
+      headers: {'apikey':API_KEY,'Authorization':'Bearer '+token}
+    });
+  },
+  saveSession(data) {
+    localStorage.setItem('k1980_token', data.access_token || '');
+    localStorage.setItem('k1980_user', JSON.stringify(data.user || {}));
+  },
+  getSession() {
+    const token = localStorage.getItem('k1980_token');
+    const user = JSON.parse(localStorage.getItem('k1980_user') || 'null');
+    return token ? {token, user} : null;
+  },
+  clearSession() {
+    localStorage.removeItem('k1980_token');
+    localStorage.removeItem('k1980_user');
+  }
+};
+
+// ── LANGUAGE SYSTEM ──
+let currentLang = 'zh';
+function toggleLang() {
+  currentLang = currentLang === 'zh' ? 'en' : 'zh';
+  document.getElementById('langZH').className = currentLang === 'zh' ? 'lang-active' : '';
+  document.getElementById('langEN').className = currentLang === 'en' ? 'lang-active' : '';
+}
+
+// ── AUTH STATE ──
+let currentUser = null;
+
+function initAuth() {
+  const session = sbAuth.getSession();
+  if (session && session.user) {
+    currentUser = session.user;
+    updateNavForUser(session.user);
+  }
+}
+
+function updateNavForUser(user) {
+  const name = user.user_metadata?.username || user.email?.split('@')[0] || '侠客';
+  document.getElementById('navLoginBtn').style.display = 'none';
+  document.getElementById('navUser').style.display = 'flex';
+  document.getElementById('navUserName').textContent = name;
+  document.getElementById('navStones').style.display = 'flex';
+}
+
+function updateNavForGuest() {
+  document.getElementById('navLoginBtn').style.display = '';
+  document.getElementById('navUser').style.display = 'none';
+  document.getElementById('navStones').style.display = 'none';
+}
+
+// ── LOGIN ──
+async function handleLogin() {
+  const email = document.getElementById('loginEmail').value.trim();
+  const password = document.getElementById('loginPassword').value;
+  if (!email || !password) return showMsg('loginMsg', '请填写邮箱和密码', 'error');
+  const btn = document.getElementById('loginBtn');
+  btn.disabled = true; btn.textContent = '进入中...';
+  try {
+    const data = await sbAuth.signIn(email, password);
+    if (data.error || !data.access_token) {
+      showMsg('loginMsg', data.error_description || data.msg || '邮箱或密码错误', 'error');
+    } else {
+      sbAuth.saveSession(data);
+      currentUser = data.user;
+      updateNavForUser(data.user);
+      closeAuthModal();
+    }
+  } catch(e) {
+    showMsg('loginMsg', '网络错误，请重试', 'error');
+  }
+  btn.disabled = false; btn.textContent = '▶ 进入江湖';
+}
+
+// ── REGISTER ──
+async function handleRegister() {
+  const username = document.getElementById('regUsername').value.trim();
+  const email = document.getElementById('regEmail').value.trim();
+  const password = document.getElementById('regPassword').value;
+  if (!username || !email || !password) return showMsg('registerMsg', '请填写所有字段', 'error');
+  if (password.length < 8) return showMsg('registerMsg', '密码至少8位', 'error');
+  const btn = document.getElementById('registerBtn');
+  btn.disabled = true; btn.textContent = '加入中...';
+  try {
+    const data = await sbAuth.signUp(email, password, username);
+    if (data.error) {
+      showMsg('registerMsg', data.msg || '注册失败，请重试', 'error');
+    } else {
+      showMsg('registerMsg', '✅ 注册成功！请检查邮箱点击验证链接后登录。', 'success');
+    }
+  } catch(e) {
+    showMsg('registerMsg', '网络错误，请重试', 'error');
+  }
+  btn.disabled = false; btn.textContent = '▶ 加入江湖';
+}
+
+// ── GOOGLE LOGIN ──
+function handleGoogleLogin() {
+  window.location.href = API_BASE + '/auth/v1/authorize?provider=google&redirect_to=https://k1980.app';
+}
+
+// ── LOGOUT ──
+async function handleLogout() {
+  const session = sbAuth.getSession();
+  if (session) await sbAuth.signOut(session.token);
+  sbAuth.clearSession();
+  currentUser = null;
+  updateNavForGuest();
+  toggleUserMenu(true);
+}
+
+// ── USER MENU ──
+function toggleUserMenu(forceClose) {
+  const menu = document.getElementById('userMenu');
+  if (forceClose) { menu.classList.remove('open'); return; }
+  menu.classList.toggle('open');
+}
+document.addEventListener('click', function(e) {
+  if (!e.target.closest('#navUser')) toggleUserMenu(true);
+});
+
+// ── AUTH TABS ──
+function switchAuthTab(tab) {
+  document.getElementById('formLogin').style.display = tab === 'login' ? 'block' : 'none';
+  document.getElementById('formRegister').style.display = tab === 'register' ? 'block' : 'none';
+  document.getElementById('tabLogin').className = 'auth-tab' + (tab === 'login' ? ' active' : '');
+  document.getElementById('tabRegister').className = 'auth-tab' + (tab === 'register' ? ' active' : '');
+  document.getElementById('authTitle').innerHTML = tab === 'login' ? '登入<em>江湖</em>' : '加入<em>江湖</em>';
+}
+
+function clearAuthMsgs() {
+  ['loginMsg','registerMsg'].forEach(function(id) {
+    var el = document.getElementById(id);
+    if(el){ el.className = 'auth-msg'; el.textContent = ''; }
+  });
+}
+
+function showMsg(id, msg, type) {
+  var el = document.getElementById(id);
+  if(el){ el.className = 'auth-msg ' + type; el.textContent = msg; }
+}
+
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeAuthModal();
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+  initAuth();
+  // 字数统计
+  var ta = document.getElementById('chapterContent');
+  if(ta) ta.addEventListener('input', function() {
+    var wc = this.value.replace(/\s/g,'').length;
+    var el = document.getElementById('wordCount');
+    if(el) el.textContent = wc + ' 字';
+  });
+});
+
+// ── 创作者后台 ──
+function initCreatorDash() {
+  if (!currentUser) {
+    document.getElementById('creatorGate').style.display = 'flex';
+    document.getElementById('creatorDash').style.display = 'none';
+  } else {
+    document.getElementById('creatorGate').style.display = 'none';
+    document.getElementById('creatorDash').style.display = 'grid';
+    var name = userProfile?.username || currentUser.email?.split('@')[0] || '侠客';
+    var el = document.getElementById('dashUserName');
+    if(el) el.textContent = name;
+    var stones = document.getElementById('statStones');
+    if(stones) stones.textContent = userProfile?.stones || 0;
+    loadMyNovels();
+  }
+}
+
+function showDashTab(tab) {
+  document.querySelectorAll('.dtab').forEach(function(el){ el.style.display='none'; });
+  document.querySelectorAll('.dash-nav-item').forEach(function(el){ el.classList.remove('active'); });
+  var el = document.getElementById('dtab-'+tab);
+  if(el) el.style.display = 'block';
+  var nav = document.getElementById('dnav-'+tab);
+  if(nav) nav.classList.add('active');
+  if(tab === 'novels' || tab === 'overview') loadMyNovels();
+  if(tab === 'chapters' || tab === 'new-chapter') loadNovelSelectOptions();
+}
+
+// 加载作品列表
+async function loadMyNovels() {
+  if(!currentUser) return;
+  try {
+    const r = await fetch(API_BASE + '/rest/v1/novels?author_id=eq.' + currentUser.id + '&order=created_at.desc', {
+      headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + sbAuth.getSession()?.token}
+    });
+    const novels = await r.json();
+    renderNovelList(novels, 'novelList');
+    renderNovelList(novels.slice(0,3), 'overviewNovelList');
+    var statEl = document.getElementById('statNovels');
+    if(statEl) statEl.textContent = novels.length;
+  } catch(e) { console.error('loadMyNovels:', e); }
+}
+
+function renderNovelList(novels, containerId) {
+  var el = document.getElementById(containerId);
+  if(!el) return;
+  if(!novels || novels.length === 0) {
+    el.innerHTML = '<div class="dash-empty"><div class="dash-empty-icon">📚</div><div class="dash-empty-text">还没有作品 · 点击「新建作品」开始创作</div></div>';
+    return;
+  }
+  el.innerHTML = novels.map(function(n) {
+    return '<div class="dash-novel-item" onclick="editNovel(''+n.id+'')">' +
+      '<div><div class="dash-novel-title">' + n.title + '</div>' +
+      '<div class="dash-novel-meta"><span>' + (n.genre||'未分类') + '</span><span>' + new Date(n.created_at).toLocaleDateString('zh') + '</span></div></div>' +
+      '<div class="dash-novel-actions">' +
+      '<span class="dash-novel-status status-'+n.status+'">' + (n.status==='published'?'已发布':'草稿') + '</span>' +
+      '<button class="dash-btn" onclick="event.stopPropagation();selectNovelForChapter(''+n.id+'')">+ 章节</button>' +
+      (n.status==='draft' ? '<button class="dash-btn primary" onclick="event.stopPropagation();publishNovel(''+n.id+'')">发布</button>' : '') +
+      '</div></div>';
+  }).join('');
+}
+
+// 加载作品选择器
+async function loadNovelSelectOptions() {
+  if(!currentUser) return;
+  try {
+    const r = await fetch(API_BASE + '/rest/v1/novels?author_id=eq.' + currentUser.id + '&order=created_at.desc', {
+      headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + sbAuth.getSession()?.token}
+    });
+    const novels = await r.json();
+    var opts = '<option value="">-- 选择作品 --</option>' + novels.map(function(n){
+      return '<option value="'+n.id+'">'+n.title+'</option>';
+    }).join('');
+    var s1 = document.getElementById('chapterNovelId');
+    var s2 = document.getElementById('chapterNovelSelect');
+    if(s1) s1.innerHTML = opts;
+    if(s2) s2.innerHTML = opts;
+  } catch(e) {}
+}
+
+// 新建作品
+async function createNovel() {
+  var title = document.getElementById('novelTitle').value.trim();
+  var desc = document.getElementById('novelDesc').value.trim();
+  var genre = document.getElementById('novelGenre').value;
+  var lang = document.getElementById('novelLang').value;
+  var coverChar = document.getElementById('novelCoverChar').value.trim() || '传';
+  if(!title) return showDashMsg('novelMsg', '请填写作品标题', 'error');
+  var session = sbAuth.getSession();
+  if(!session) return showDashMsg('novelMsg', '请先登录', 'error');
+  try {
+    const r = await fetch(API_BASE + '/rest/v1/novels', {
+      method: 'POST',
+      headers: {
+        'apikey': API_KEY,
+        'Authorization': 'Bearer ' + session.token,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=representation'
+      },
+      body: JSON.stringify({title, description: desc, genre, language: lang, cover_char: coverChar, author_id: currentUser.id, status: 'draft'})
+    });
+    if(r.ok) {
+      showDashMsg('novelMsg', '✅ 作品创建成功！', 'success');
+      document.getElementById('novelTitle').value = '';
+      document.getElementById('novelDesc').value = '';
+      setTimeout(function(){ showDashTab('novels'); }, 1200);
+    } else {
+      var err = await r.json();
+      showDashMsg('novelMsg', '创建失败: ' + (err.message||'请重试'), 'error');
+    }
+  } catch(e) { showDashMsg('novelMsg', '网络错误', 'error'); }
+}
+
+// 发布作品
+async function publishNovel(id) {
+  var session = sbAuth.getSession();
+  if(!session) return;
+  await fetch(API_BASE + '/rest/v1/novels?id=eq.' + id, {
+    method: 'PATCH',
+    headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + session.token, 'Content-Type': 'application/json'},
+    body: JSON.stringify({status: 'published'})
+  });
+  loadMyNovels();
+}
+
+// 选择作品去上传章节
+function selectNovelForChapter(novelId) {
+  showDashTab('new-chapter');
+  setTimeout(function() {
+    var sel = document.getElementById('chapterNovelId');
+    if(sel) sel.value = novelId;
+  }, 100);
+}
+
+// 保存章节
+async function saveChapter(status) {
+  var novelId = document.getElementById('chapterNovelId').value;
+  var title = document.getElementById('chapterTitle').value.trim();
+  var content = document.getElementById('chapterContent').value.trim();
+  var num = parseInt(document.getElementById('chapterNum').value) || 1;
+  var price = parseInt(document.getElementById('chapterPrice').value) || 0;
+  if(!novelId) return showDashMsg('chapterMsg', '请选择所属作品', 'error');
+  if(!title) return showDashMsg('chapterMsg', '请填写章节标题', 'error');
+  if(!content) return showDashMsg('chapterMsg', '请填写章节内容', 'error');
+  var session = sbAuth.getSession();
+  if(!session) return showDashMsg('chapterMsg', '请先登录', 'error');
+  var wordCount = content.replace(/\s/g,'').length;
+  try {
+    const r = await fetch(API_BASE + '/rest/v1/chapters', {
+      method: 'POST',
+      headers: {
+        'apikey': API_KEY,
+        'Authorization': 'Bearer ' + session.token,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=representation'
+      },
+      body: JSON.stringify({novel_id: novelId, title, content, chapter_number: num, price, status, word_count: wordCount})
+    });
+    if(r.ok) {
+      showDashMsg('chapterMsg', status==='published' ? '✅ 章节已发布！' : '✅ 草稿已保存！', 'success');
+      document.getElementById('chapterTitle').value = '';
+      document.getElementById('chapterContent').value = '';
+      document.getElementById('chapterNum').value = '';
+    } else {
+      var err = await r.json();
+      showDashMsg('chapterMsg', '保存失败: ' + (err.message||'请重试'), 'error');
+    }
+  } catch(e) { showDashMsg('chapterMsg', '网络错误', 'error'); }
+}
+
+// 加载章节列表
+async function loadChapters(novelId) {
+  if(!novelId || !currentUser) return;
+  var session = sbAuth.getSession();
+  const r = await fetch(API_BASE + '/rest/v1/chapters?novel_id=eq.' + novelId + '&order=chapter_number.asc', {
+    headers: {'apikey': API_KEY, 'Authorization': 'Bearer ' + session.token}
+  });
+  const chapters = await r.json();
+  var el = document.getElementById('chapterList');
+  if(!el) return;
+  if(!chapters || chapters.length === 0) {
+    el.innerHTML = '<div class="dash-empty"><div class="dash-empty-icon">📝</div><div class="dash-empty-text">还没有章节</div></div>';
+    return;
+  }
+  el.innerHTML = chapters.map(function(c) {
+    return '<div class="dash-novel-item">' +
+      '<div><div class="dash-novel-title">第'+c.chapter_number+'集 · '+c.title+'</div>' +
+      '<div class="dash-novel-meta"><span>'+c.word_count+'字</span><span>'+(c.price===0?'免费':c.price+'灵石')+'</span></div></div>' +
+      '<span class="dash-novel-status status-'+c.status+'">'+(c.status==='published'?'已发布':'草稿')+'</span>' +
+      '</div>';
+  }).join('');
+  var statEl = document.getElementById('statChapters');
+  if(statEl) statEl.textContent = chapters.length;
+}
+
+function showDashMsg(id, msg, type) {
+  var el = document.getElementById(id);
+  if(el){ el.className = 'dash-msg ' + type; el.textContent = msg; }
+}
+
+function editNovel(id) { console.log('edit novel:', id); }
+
+</script>
+
+</body>
+</html>
