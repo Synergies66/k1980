@@ -746,33 +746,33 @@ body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-ev
         <div class="stone-gem">🔷</div>
         <div class="stone-amount">100</div>
         <div class="stone-unit">灵 石</div>
-        <div class="stone-price">$1.99</div>
-        <div class="stone-cpp">$0.020 / 石</div>
-        <button class="stone-btn">购买</button>
+        <div class="stone-price">NZ$1.99</div>
+        <div class="stone-cpp">NZ$0.020 / 石</div>
+        <button class="stone-btn" onclick="buyStones('price_1TDKfBJFYB9fMpq2APn0mTAc', 100)">购买</button>
       </div>
       <div class="stone-card">
         <div class="stone-gem">💎</div>
         <div class="stone-amount">300</div>
         <div class="stone-unit">灵 石</div>
-        <div class="stone-price">$4.99</div>
-        <div class="stone-cpp">$0.017 / 石</div>
-        <button class="stone-btn">购买</button>
+        <div class="stone-price">NZ$4.99</div>
+        <div class="stone-cpp">NZ$0.017 / 石</div>
+        <button class="stone-btn" onclick="buyStones('price_1TDKfoJFYB9fMpq2dL4W5IWJ', 300)">购买</button>
       </div>
       <div class="stone-card best-value">
         <div class="stone-gem">👑</div>
-        <div class="stone-amount">700</div>
+        <div class="stone-amount">680</div>
         <div class="stone-unit">灵 石</div>
-        <div class="stone-price">$9.99</div>
-        <div class="stone-cpp">$0.014 / 石</div>
-        <button class="stone-btn">购买</button>
+        <div class="stone-price">NZ$9.99</div>
+        <div class="stone-cpp">NZ$0.015 / 石</div>
+        <button class="stone-btn" onclick="buyStones('price_1TDKg9JFYB9fMpq2B3pmvVO1', 680)">购买</button>
       </div>
       <div class="stone-card">
         <div class="stone-gem">⚡</div>
-        <div class="stone-amount">2000</div>
+        <div class="stone-amount">1500</div>
         <div class="stone-unit">灵 石</div>
-        <div class="stone-price">$24.99</div>
-        <div class="stone-cpp">$0.012 / 石</div>
-        <button class="stone-btn">购买</button>
+        <div class="stone-price">NZ$19.99</div>
+        <div class="stone-cpp">NZ$0.013 / 石</div>
+        <button class="stone-btn" onclick="buyStones('price_1TDKgUJFYB9fMpq2fyTP5xZB', 1500)">购买</button>
       </div>
     </div>
 
@@ -1665,6 +1665,68 @@ document.querySelectorAll('.lib-sort').forEach(btn => {
 const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
 const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
 
+// ── STRIPE CONFIG ──
+const STRIPE_PK = 'pk_test_51TDKX6JFYB9fMpq2kdwhnTVndI6at1d2asejovgxOipMTgpV3doRS7GM6Lo06TGFAQ5WptjwYJCr7j4Pu53Dtq6T001t0bL9hc';
+const SUPABASE_FUNCTIONS_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co/functions/v1';
+
+async function buyStones(priceId, stoneAmount) {
+  if (!currentUser) {
+    showAuthModal('login');
+    return;
+  }
+  // Show loading state
+  const btn = event.target;
+  const originalText = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = '跳转中...';
+
+  try {
+    // Call Edge Function to create Stripe Checkout session
+    const { data: { session: supaSession } } = await supabase.auth.getSession();
+    const res = await fetch(SUPABASE_FUNCTIONS_URL + '/create-checkout', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + supaSession.access_token,
+      },
+      body: JSON.stringify({
+        price_id: priceId,
+        stones: stoneAmount,
+        success_url: 'https://k1980.app/?payment=success&stones=' + stoneAmount,
+        cancel_url: 'https://k1980.app/?payment=cancelled',
+      }),
+    });
+    const data = await res.json();
+    if (data.url) {
+      window.location.href = data.url;
+    } else {
+      throw new Error(data.error || '创建支付失败');
+    }
+  } catch(err) {
+    alert('支付跳转失败：' + err.message);
+    btn.disabled = false;
+    btn.textContent = originalText;
+  }
+}
+
+// Handle return from Stripe
+function handlePaymentReturn() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('payment') === 'success') {
+    const stones = params.get('stones');
+    // Clean URL
+    window.history.replaceState({}, '', '/');
+    // Show success message after short delay (webhook may still be processing)
+    setTimeout(async () => {
+      await loadUserProfile(currentUser?.id);
+      updateNavForUser();
+      alert('✅ 支付成功！' + stones + '灵石已到账，稍后刷新余额。');
+    }, 2000);
+  } else if (params.get('payment') === 'cancelled') {
+    window.history.replaceState({}, '', '/');
+  }
+}
+
 // ── LANGUAGE SYSTEM ──
 let currentLang = 'zh';
 
@@ -1980,6 +2042,7 @@ document.addEventListener('keydown', (e) => {
 // ── INIT ──
 document.addEventListener('DOMContentLoaded', () => {
   initAuth();
+  handlePaymentReturn();
 });
 </script>
 
