@@ -1,0 +1,27 @@
+name: 🌏 旅游模块
+
+on:
+  schedule:
+    - cron: "30 */3 * * *"   # 每3小时+30分
+  workflow_dispatch:
+
+jobs:
+  run:
+    name: 旅游
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12", cache: "pip" }
+      - run: pip install -r requirements.txt
+      - name: 运行
+        env:
+          SUPABASE_URL:         ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ANTHROPIC_API_KEY:    ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONPATH:           ${{ github.workspace }}
+        run: python fetchers/fetch_travel.py
+      - if: failure()
+        uses: actions/upload-artifact@v4
+        with: { name: "err-travel-${{ github.run_id }}", path: "*.log", retention-days: 3 }
