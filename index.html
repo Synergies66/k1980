@@ -410,7 +410,97 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   vertical-align:middle;margin-left:5px;
 }
 
-/* ── 商业洞察模块 ────────────────────────────────────────── */
+/* ── 经纬专栏 ────────────────────────────────────────────── */
+.jw-item{
+  padding:12px 16px;border-bottom:1px solid var(--border);
+  cursor:pointer;transition:background .1s;
+}
+.jw-item:last-child{border-bottom:none}
+.jw-item:hover{background:var(--bg)}
+.jw-tag{
+  display:inline-block;font-size:10px;font-weight:700;
+  padding:1px 6px;border-radius:3px;margin-bottom:5px;
+  letter-spacing:.3px;
+}
+.jw-title{
+  font-size:13.5px;font-weight:600;line-height:1.5;
+  color:var(--ink);margin-bottom:4px;
+  display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical;overflow:hidden;
+  transition:color .12s;
+}
+.jw-item:hover .jw-title{color:var(--blue)}
+.jw-summary{
+  font-size:11.5px;color:var(--ink3);line-height:1.6;
+  display:-webkit-box;-webkit-line-clamp:2;
+  -webkit-box-orient:vertical;overflow:hidden;
+  margin-bottom:6px;
+}
+.jw-foot{
+  display:flex;align-items:center;justify-content:space-between;
+}
+.jw-meta{font-size:10.5px;color:var(--ink4);font-family:var(--fm)}
+.jw-read{font-size:11px;font-weight:600;color:var(--blue)}
+.jw-loading{
+  display:flex;flex-direction:column;align-items:center;
+  padding:24px;gap:8px;
+}
+.jw-ld{width:5px;height:5px;border-radius:50%;background:var(--blue);
+  animation:blink 1s infinite;display:inline-block;margin:0 2px}
+.jw-ld:nth-child(2){animation-delay:.2s}
+.jw-ld:nth-child(3){animation-delay:.4s}
+.jw-dots{display:flex;justify-content:center}
+.jw-loading-txt{font-size:11px;color:var(--ink4)}
+
+/* 经纬弹窗 */
+#jw-modal{
+  display:none;position:fixed;inset:0;z-index:500;
+  background:rgba(0,0,0,.5);
+  align-items:center;justify-content:center;padding:20px;
+}
+#jw-modal.on{display:flex}
+.jw-sheet{
+  background:#fff;border-radius:16px;
+  max-width:680px;width:100%;max-height:85vh;
+  overflow-y:auto;box-shadow:0 20px 60px rgba(0,0,0,.2);
+  scrollbar-width:thin;
+}
+.jw-sheet-hd{
+  padding:20px 24px 16px;
+  border-bottom:1px solid var(--border);
+  position:sticky;top:0;background:#fff;z-index:1;
+}
+.jw-sheet-tag{
+  font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;
+  margin-bottom:8px;display:inline-block;letter-spacing:.3px;
+}
+.jw-sheet-title{
+  font-family:var(--fd);font-size:20px;font-weight:700;
+  line-height:1.4;color:var(--ink);margin-bottom:6px;
+}
+.jw-sheet-meta{font-size:12px;color:var(--ink3)}
+.jw-sheet-close{
+  float:right;width:28px;height:28px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--ink3);transition:background .15s;cursor:pointer;
+  margin-left:8px;
+}
+.jw-sheet-close:hover{background:var(--bg)}
+.jw-sheet-body{
+  padding:20px 24px 28px;
+  font-size:15px;line-height:1.85;color:var(--ink2);
+}
+.jw-sheet-body p{margin-bottom:14px}
+.jw-sheet-body h3{
+  font-size:16px;font-weight:700;color:var(--ink);
+  margin:20px 0 8px;
+}
+.jw-disclaimer{
+  font-size:11px;color:var(--ink4);
+  border-top:1px solid var(--border);
+  padding:12px 24px;text-align:center;
+}
+
 #biz-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.1)}
 .biz-quick-tag{
   font-size:11px;padding:3px 8px;border-radius:4px;cursor:pointer;
@@ -739,10 +829,14 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   </main>
 
   <aside id="side">
-    <!-- 热门话题 -->
-    <div class="scard">
-      <div class="scard-hd"><span class="scard-dot" style="background:#d4271d"></span><span class="scard-title zh-only">热门话题</span><span class="scard-title en-only">Trending</span></div>
-      <div style="padding:6px 0 8px"><ol id="hotl"></ol></div>
+    <!-- 经纬专栏 -->
+    <div class="scard" id="jingwei-card">
+      <div class="scard-hd">
+        <span class="scard-dot" style="background:linear-gradient(135deg,#1a56db,#0d9488)"></span>
+        <span class="scard-title">经纬专栏</span>
+        <span style="margin-left:auto;font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:3px;background:rgba(26,86,219,.1);color:#1a56db">AI深度</span>
+      </div>
+      <div id="jingwei-list" style="padding:6px 0 4px"></div>
     </div>
     <!-- 本地要闻 -->
     <div class="scard" id="local-news-side" style="display:none">
@@ -931,6 +1025,22 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
 <div id="sdrop"><div id="sres"></div></div>
 
+<!-- 经纬专栏弹窗 -->
+<div id="jw-modal">
+  <div class="jw-sheet">
+    <div class="jw-sheet-hd">
+      <span class="jw-sheet-close" onclick="closeJW()">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </span>
+      <div class="jw-sheet-tag" id="jw-modal-tag"></div>
+      <div class="jw-sheet-title" id="jw-modal-title"></div>
+      <div class="jw-sheet-meta" id="jw-modal-meta"></div>
+    </div>
+    <div class="jw-sheet-body" id="jw-modal-body"></div>
+    <div class="jw-disclaimer">🤖 由 Claude AI 生成 · 仅供参考 · 不构成投资建议</div>
+  </div>
+</div>
+
 <!-- ══ FOOTER ══════════════════════════════════════════════ -->
 <footer id="site-footer">
   <div class="footer-in">
@@ -1105,10 +1215,12 @@ const CATS=['时事','移民','教育','财经','科技','生活','旅游'];
 const COLS={时事:'#1a56db',移民:'#16a34a',教育:'#0891b2',财经:'#c2410c',科技:'#7c3aed',生活:'#be185d',旅游:'#0d9488'};
 
 function renderHot(pool){
+  const hotl = $('#hotl');
+  if(!hotl) return;
   const src=S.live?pool:MOCK;
   const top=[...src].sort((a,b)=>(b.view_count||0)-(a.view_count||0)).slice(0,7);
-  $('#hotl').innerHTML=top.map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
-  $('#hotl').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>{
+  hotl.innerHTML=top.map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
+  hotl.querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>{
     const a=pool.find(x=>String(x.id)===el.dataset.id)||MOCK.find(x=>String(x.id)===el.dataset.id);
     openM(a);
   }));
@@ -1631,12 +1743,139 @@ document.addEventListener('DOMContentLoaded',()=>{
   // 商业洞察初始化
   initBizInsight();
 
+  // 经纬专栏初始化
+  initJingwei();
+
+  // 经纬弹窗背景点击关闭
+  document.getElementById('jw-modal').addEventListener('click', e => {
+    if (e.target === document.getElementById('jw-modal')) closeJW();
+  });
+
   // ── 导航拖拽排序 ────────────────────────────────────────
   initNavDrag();
   restoreNavOrder();
 });
 
-/* ══ 商业洞察 AI 模块 ════════════════════════════════════ */
+/* ══ 经纬专栏 ════════════════════════════════════════════ */
+
+const JW_TOPICS = [
+  {tag:'宏观经济', color:'#c2410c', bg:'rgba(194,65,12,.08)',
+   prompt:'写一篇深度分析：当前全球宏观经济形势对海外华人资产配置的影响。从美联储政策、汇率走势、通胀压力三个维度展开，最后给出具体的应对策略建议。风格要像《经济学人》，有数据、有观点、有温度，不超过600字。'},
+  {tag:'产业洞察', color:'#7c3aed', bg:'rgba(124,58,237,.08)',
+   prompt:'写一篇深度分析：AI浪潮下，哪些行业正在被颠覆，哪些隐形冠军正在崛起？重点分析对海外华人从业者和投资者的具体影响。风格要像《哈佛商业评论》特稿，有洞见、有案例、有结论，不超过600字。'},
+  {tag:'移民经济', color:'#0891b2', bg:'rgba(8,145,178,.08)',
+   prompt:'写一篇深度分析：新西兰、澳洲、加拿大移民政策收紧背景下，海外华人的职业发展和财富规划应该如何调整？结合最新政策变化，给出实际可操作的建议。风格犀利有料，不超过600字。'},
+];
+
+let jwArticles = [];
+let jwLoaded   = false;
+
+async function initJingwei() {
+  const list = document.getElementById('jingwei-list');
+  list.innerHTML = `
+    <div class="jw-loading">
+      <div class="jw-dots">
+        <div class="jw-ld"></div><div class="jw-ld"></div><div class="jw-ld"></div>
+      </div>
+      <div class="jw-loading-txt">AI 正在生成深度内容…</div>
+    </div>`;
+
+  // 先尝试加载每日生成的文章
+  try {
+    const resp = await fetch('data/jingwei.json?t=' + Date.now());
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data.articles && data.articles.length) {
+        jwArticles = data.articles;
+        renderJingwei();
+        return;
+      }
+    }
+  } catch(e) {}
+
+  // 实时生成
+  await generateJingwei();
+}
+
+async function generateJingwei() {
+  const list = document.getElementById('jingwei-list');
+  jwArticles  = [];
+
+  for (const topic of JW_TOPICS) {
+    try {
+      const resp = await fetch('https://k1980-ai.gwkgd6828n.workers.dev', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          model: 'claude-sonnet-4-20250514',
+          max_tokens: 1000,
+          messages: [{
+            role: 'user',
+            content: topic.prompt + '\n\n请用以下JSON格式返回，只返回JSON不含其他内容：{"title":"标题（20字内有冲击力）","summary":"导语（50字内，让人想继续读）","body":"正文（markdown格式，可用###小标题分段）","date":"今日日期"}'
+          }]
+        })
+      });
+      const data = await resp.json();
+      const raw  = data.content?.map(b => b.text||'').join('') || '';
+      const start = raw.indexOf('{');
+      const end   = raw.lastIndexOf('}') + 1;
+      const art   = JSON.parse(raw.slice(start, end));
+      jwArticles.push({...art, tag: topic.tag, color: topic.color, bg: topic.bg});
+    } catch(e) {
+      jwArticles.push({
+        tag: topic.tag, color: topic.color, bg: topic.bg,
+        title: '深度内容加载中…',
+        summary: '请刷新重试',
+        body: '',
+        date: new Date().toLocaleDateString('zh-CN')
+      });
+    }
+  }
+  renderJingwei();
+}
+
+function renderJingwei() {
+  const list = document.getElementById('jingwei-list');
+  if (!jwArticles.length) {
+    list.innerHTML = `<div style="padding:16px;text-align:center;font-size:12px;color:var(--ink4)">暂无内容</div>`;
+    return;
+  }
+  list.innerHTML = jwArticles.map((a, i) => `
+    <div class="jw-item" onclick="openJW(${i})">
+      <div class="jw-tag" style="color:${a.color};background:${a.bg}">${esc(a.tag)}</div>
+      <div class="jw-title">${esc(a.title)}</div>
+      <div class="jw-summary">${esc(a.summary)}</div>
+      <div class="jw-foot">
+        <span class="jw-meta">${esc(a.date||'今日')}</span>
+        <span class="jw-read">深度阅读 →</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+function openJW(idx) {
+  const a = jwArticles[idx];
+  if (!a) return;
+  document.getElementById('jw-modal-tag').textContent   = a.tag;
+  document.getElementById('jw-modal-tag').style.background = a.bg;
+  document.getElementById('jw-modal-tag').style.color      = a.color;
+  document.getElementById('jw-modal-title').textContent  = a.title;
+  document.getElementById('jw-modal-meta').textContent   = `经纬专栏 · ${a.date||'今日'} · AI深度报道`;
+
+  // 渲染 markdown 简单版
+  const body = (a.body||a.summary||'').replace(/###\s*(.+)/g, '<h3>$1</h3>').replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
+  document.getElementById('jw-modal-body').innerHTML = `<p>${body}</p>`;
+
+  document.getElementById('jw-modal').classList.add('on');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeJW() {
+  document.getElementById('jw-modal').classList.remove('on');
+  document.body.style.overflow = '';
+}
+
+
 
 const BIZ_QUICK = [
   {name:'苹果 Apple', emoji:'🍎'},
