@@ -1,25 +1,44 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-22T13:55:48.579437+00:00",
-  "total": 21,
+  "updated_at": "2026-03-22T14:56:55.085764+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "700f215fae",
+      "id": "9c646aa364",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE Will Deploy to Airports to Ease Long Lines, Border Czar Confirms",
+      "summary": "Tom Homan, President Trump’s chief border official, said plans were being drawn up to send immigration and customs agents to U.S. airports.",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22dc-homan-airports1-kvpl/22dc-homan-airports1-kvpl-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "21分前",
+      "pub_ts": 1774190116.0,
+      "hot": false
+    },
+    {
+      "id": "a3038b7cfa",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Inside a rare lab that's blazing a bold trail as it hunts for new drugs",
-      "summary": "A scientist from Zambia who loves — LOVES! — chemistry runs a lab in South Africa that is being hailed for \"extraordinary\" work.",
-      "link": "https://www.npr.org/2026/03/22/g-s1-114038/new-drugs-health-medicine-africa-tuberculosis-measles",
+      "title": "Politics",
+      "summary": "We look at President Trump's mixed messages on the war with Iran, plus the latest on Department of Homeland Security funding, which Congress has frozen over his immigration enforcement policies.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5753842/politics-chat-trumps-mixed-messages-on-the-iran-war-the-latest-on-dhs-funding",
       "image": null,
       "categories": [
-        "科技"
+        "移民"
       ],
-      "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1774185930.0,
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1774181071.0,
       "hot": false
     },
     {
@@ -36,8 +55,44 @@
         "政治"
       ],
       "score": 70,
-      "ago": "32分前",
-      "pub_ts": 1774185770.0,
+      "ago": "27分前",
+      "pub_ts": 1774189757.0,
+      "hot": false
+    },
+    {
+      "id": "34bfa3c395",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Is Finally Eyeing an Exit From Iran. But Will He Take It?",
+      "summary": "President Trump says he is considering “winding down” operations in Iran. But many of his original war goals remain unaccomplished.",
+      "link": "https://www.nytimes.com/2026/03/21/us/politics/trump-iran-offramp.html",
+      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21dc-assess-top-qtkg/21dc-assess-top-qtkg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1774189610.0,
+      "hot": false
+    },
+    {
+      "id": "9e027c2095",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This lab that's determined to discover new drugs isn't where you might expect",
+      "summary": "A scientist from Zambia who loves — LOVES! — chemistry runs a lab in South Africa that is being hailed for \"extraordinary\" work.",
+      "link": "https://www.npr.org/2026/03/22/g-s1-114038/new-drugs-health-medicine-africa-tuberculosis-measles",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774185930.0,
       "hot": false
     },
     {
@@ -54,15 +109,123 @@
         "移民"
       ],
       "score": 70,
-      "ago": "12小时前",
+      "ago": "13小时前",
       "pub_ts": 1774142419.0,
+      "hot": false
+    },
+    {
+      "id": "8fdce927a2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "An orthopedic surgeon explains the hand injury that has many MLB players on the bench",
+      "summary": "Baseball hitters are on a quest for power. But that quest comes at a cost. NPR's Ayesha Rascoe speaks to orthopedic surgeon Dr. Thomas DiLiberti about baseball players suffering hamate injuries.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5729148/an-orthopedic-surgeon-explains-the-hand-injury-that-has-many-mlb-players-on-the-bench",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774182191.0,
+      "hot": false
+    },
+    {
+      "id": "7a681d97d4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She cared for her mother for 14 years. She says she'd do it all over again",
+      "summary": "Kathy Barnes-Lou cared for her mother for 14 years before her death. She learned that caregiving can bring life's purpose into focus, even as it grinds you down.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5584133/she-cared-for-her-mother-for-14-years-she-says-shed-do-it-all-over-again",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774182190.0,
+      "hot": false
+    },
+    {
+      "id": "3798324e51",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Democrats who won big in last November's general election are grappling with reality",
+      "summary": "Some Democrats who were swept into office last November are grappling with the reality of governing. The new leader of Pennsylvania's Lehigh County says urgency is needed.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5730370/democrats-who-won-big-in-last-novembers-general-election-are-grappling-with-reality",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774181340.0,
+      "hot": false
+    },
+    {
+      "id": "c1f5d0cfa5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Iran war is impacting the global economy, and Asia is particularly vulnerable",
+      "summary": "NPR's Ayesha Rascoe talks with Martin Wolf, chief economics commentator for the Financial Times, about how the war on Iran is effecting the global economy.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5754732/the-iran-war-is-impacting-the-global-economy-and-asia-is-particularly-vulnerable",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774181074.0,
+      "hot": false
+    },
+    {
+      "id": "0e5b38a7e0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The effects of the Iran war on environmental and human health, according to an expert",
+      "summary": "As the war in Iran enters its fourth week, the costs are adding up. NPR's Ayesha Rascoe talks to Doug Weir, with the Conflict and War Observatory, about impacts to human health and the environment.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5753667/the-effects-of-the-iran-war-on-environmental-and-human-health-according-to-an-expert",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774181072.0,
+      "hot": false
+    },
+    {
+      "id": "e9204e7ca6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump threatens Iran's power plants as war enters fourth week with no end in sight",
+      "summary": "We have the latest on the U-S and Israeli war on Iran, where in the past 48 hours, Israel has struck one of Iran's nuclear facilities and Iran has responded with strikes in Israel.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5753005/trump-threatens-irans-power-plants-as-war-enters-fourth-week-with-no-end-in-sight",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774181069.0,
       "hot": false
     },
     {
       "id": "076ac46d40",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump threatens to 'obliterate' Iran's power plants as Iran strikes 2 Israeli cities",
       "summary": "Iran launched missiles at two southern Israeli cities that lie close to the country's main nuclear research center, while President Trump gave Iran 48 hours to reopen the Strait of Hormuz.",
@@ -72,7 +235,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "3小时前",
       "pub_ts": 1774178577.0,
       "hot": false
     },
@@ -80,7 +243,7 @@
       "id": "806a8d3b0a",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cortina d'Ampezzo mixes Olympic legacy with Alpine glamour",
       "summary": "Cortina d'Ampezzo, the \"Pearl of the Dolomites,\" is a blend of Olympic heritage with celebrity chic, fine dining and Alpine tradition, even as climate change and new tourism reshape the area.",
@@ -90,7 +253,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "4小时前",
       "pub_ts": 1774173600.0,
       "hot": false
     },
@@ -109,7 +272,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "4小时前",
+      "ago": "5小时前",
       "pub_ts": 1774170054.0,
       "hot": false
     },
@@ -128,7 +291,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "4小时前",
+      "ago": "5小时前",
       "pub_ts": 1774170053.0,
       "hot": false
     },
@@ -136,7 +299,7 @@
       "id": "e4bf9bb9ef",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cuba's power grid collapses leaving it without electricity for the 3rd time this month",
       "summary": "Cuba's power grid collapsed Saturday leaving the country without electricity for a third time in March as the communist government battles with a decaying infrastructure and a U.S.-imposed oil blockad",
@@ -145,8 +308,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774167146.0,
       "hot": false
     },
@@ -154,7 +317,7 @@
       "id": "d825af64ba",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A strike on a hospital in Sudan killed at least 64 people, WHO says",
       "summary": "At least 64 people were killed, including at least 13 children, in a strike on a hospital in Sudan's western Darfur region last week, the World Health Organization said Saturday.",
@@ -163,28 +326,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774166656.0,
-      "hot": false
-    },
-    {
-      "id": "7ea5beceaf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How one Minnesota school is bouncing back after the ICE surge",
-      "summary": "NPR spent time inside a Minnesota school talking with educators, parents, and children as it tries to help kids feel safe again after the ICE surge.",
-      "link": "https://www.npr.org/2026/03/22/nx-s1-5704351/minnesota-school-ice-surge-children-trauma",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774166400.0,
       "hot": false
     },
     {
@@ -201,26 +345,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "10小时前",
       "pub_ts": 1774154558.0,
-      "hot": false
-    },
-    {
-      "id": "34bfa3c395",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Is Finally Eyeing an Exit From Iran. But Will He Take It?",
-      "summary": "President Trump says he is considering “winding down” operations in Iran. But many of his original war goals remain unaccomplished.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/trump-iran-offramp.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21dc-assess-top-qtkg/21dc-assess-top-qtkg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774143279.0,
       "hot": false
     },
     {
@@ -237,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "14小时前",
       "pub_ts": 1774140153.0,
       "hot": false
     },
@@ -255,117 +381,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "17小时前",
       "pub_ts": 1774129668.0,
       "hot": false
     },
     {
-      "id": "1ae42c8f2f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Airport security lines are long. Here's what to know if you're flying",
-      "summary": "Travel experts say passengers need to be prepared, and patient, amid the government shutdown. Until a deal is reached, officials say airport disruptions and delays could get even worse.",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5755796/airport-security-tsa-lines-travel-tips",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774129243.0,
-      "hot": false
-    },
-    {
-      "id": "3115674154",
+      "id": "ac0b263bbc",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "How the U.S. oil blockade is taking a high toll on everyday Cubans",
-      "summary": "As tensions between Washington and Havana mount, what is life like for Cubans living through a weekslong oil blockade? NPR's Adrian Ma speaks to CNN's Havana Bureau Chief Patrick Oppmann about life on",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5753802/how-the-u-s-oil-blockade-is-taking-a-high-toll-on-everyday-cubans",
+      "title": "As the war in Iran expands, can diplomacy help end it?",
+      "summary": "After weeks of escalation, can diplomacy end the conflict between Iran, the US and Israel? NPR's Adrian Ma poses that question to former Iranian diplomat Hossein Mousavian.",
+      "link": "https://www.npr.org/2026/03/21/nx-s1-5753998/as-the-war-in-iran-expands-can-diplomacy-help-end-it",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774127908.0,
-      "hot": false
-    },
-    {
-      "id": "b4c0de6ca0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Corey Lewandowski Wielded Power Inside D.H.S.",
-      "summary": "While he was supposed to serve in a limited role as an adviser to Kristi Noem, Mr. Lewandowski had wide influence over contracts, personnel and operations inside the agency over the last year.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/corey-lewandowski-noem-dhs.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21dc-corey-01-lwmc/21dc-corey-01-lwmc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774122524.0,
-      "hot": false
-    },
-    {
-      "id": "21fff34035",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Robert Mueller, ex-FBI director who led 2016 Russia inquiry, dies at 81",
-      "summary": "Mueller's family told The New York Times in August that he had been diagnosed with Parkinson's disease.",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5755800/robert-s-mueller-iii-ex-fbi-director-who-led-2016-russia-inquiry-dead-at-81",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1774115876.0,
-      "hot": false
-    },
-    {
-      "id": "d091ac3d51",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iraqi Kurds mark Nowruz, celebrating light over darkness",
-      "summary": "In the Kurdish regions of the Middle East, Nowruz celebrations — honoring the arrival of spring — are a fundamental expression of Kurdish identity.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/03/21/nx-s1-5753923/nowruz-iraqi-kurds-photos",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1774112160.0,
-      "hot": false
-    },
-    {
-      "id": "fb1574e4b8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "End of an heir-a: The U.K. abolishes aristocrats' right to inherit Parliament seats",
-      "summary": "The British Parliament still has 92 unelected lawmakers who inherit seats by bloodline. They're all older white men. A new law now phases them out, for the first time in nearly 1,000 years.",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5137843/uk-parliament-abolishes-hereditary-lords",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774100052.0,
+      "ago": "17小时前",
+      "pub_ts": 1774127909.0,
       "hot": false
     },
     {
