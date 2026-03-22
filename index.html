@@ -1,2051 +1,1330 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-Hans" data-lang="zh">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>江湖传言 · K1980 — 听天下风声，辨江湖真假</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Serif+SC:wght@300;400;600;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>K1980 · 全球华人信息入口</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet"/>
 <style>
-:root {
-  --teal: #2dd4bf;
-  --teal-dark: #0d9488;
-  --teal-dim: rgba(45,212,191,0.12);
-  --gold: #f59e0b;
-  --gold-dim: rgba(245,158,11,0.15);
-  --red: #ef4444;
-  --bg: #060a0f;
-  --bg2: #0c1219;
-  --bg3: #111a24;
-  --bg4: #1a2535;
-  --text: #dde8f0;
-  --text-dim: #4a6a7a;
-  --text-mid: #8aacbc;
-  --border: rgba(45,212,191,0.15);
-  --scan: repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(45,212,191,0.012) 2px,rgba(45,212,191,0.012) 4px);
+/* ══ Design Tokens ══════════════════════════════════════════ */
+:root{
+  --bg:#f0f2f5;--surface:#fff;
+  --border:rgba(0,0,0,.07);--border2:rgba(0,0,0,.12);
+  --ink:#0a0a0b;--ink2:#444450;--ink3:#8a8a94;--ink4:#b8b8c0;
+  --red:#d4271d;--red-bg:rgba(212,39,29,.07);
+  --blue:#1a56db;--green:#16a34a;
+  --c-时事:#1a56db;--c-移民:#16a34a;--c-教育:#0891b2;
+  --c-财经:#c2410c;--c-科技:#7c3aed;--c-生活:#be185d;
+  --c-旅游:#0d9488;--c-游戏:#ea580c;--c-本地:#0d9488;
+  --hh:52px;--nh:42px;--rh:0px;--mw:1100px;  /* rh=0 区域条已隐藏 */
+  --r:10px;--r2:8px;
+  --sh:0 1px 2px rgba(0,0,0,.06),0 2px 6px rgba(0,0,0,.04);
+  --sh2:0 4px 20px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.06);
+  --f:'Noto Sans SC',-apple-system,'PingFang SC','Helvetica Neue',sans-serif;
+  --fd:'Noto Serif SC','Noto Sans SC',serif;
+  --fm:'SF Mono','Fira Mono',monospace;
 }
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:'Noto Serif SC',serif;overflow-x:hidden;cursor:default}
-body::before{content:'';position:fixed;inset:0;background:var(--scan);pointer-events:none;z-index:9999;opacity:.5}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{font-size:15px;scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--f);background:var(--bg);color:var(--ink);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit;border:none;background:none;cursor:pointer}
+input{font-family:inherit}
+ol,ul{list-style:none}
+svg{display:block;flex-shrink:0}
 
-/* ── TAB NAVIGATION ── */
-.tab-nav{position:fixed;top:0;left:0;right:0;z-index:900;background:rgba(6,10,15,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border)}
-.tab-inner{display:flex;align-items:center;height:60px;padding:0 40px;gap:0}
-.tab-logo{font-family:'Orbitron',monospace;font-weight:900;font-size:1.1rem;color:var(--teal);letter-spacing:.1em;margin-right:40px;text-shadow:0 0 20px rgba(45,212,191,.4);white-space:nowrap}
-.tab-logo span{color:var(--gold)}
-.tabs{display:flex;gap:4px;flex:1}
-.tab-btn{font-family:'Share Tech Mono',monospace;font-size:.7rem;letter-spacing:.15em;text-transform:uppercase;color:var(--text-dim);background:transparent;border:none;padding:8px 18px;cursor:pointer;border-bottom:2px solid transparent;transition:all .2s;position:relative;top:1px}
-.tab-btn:hover{color:var(--teal)}
-.tab-btn.active{color:var(--teal);border-bottom-color:var(--teal)}
-.tab-right{display:flex;gap:10px;align-items:center;margin-left:auto}
-.nav-stones{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--gold);border:1px solid rgba(245,158,11,.3);padding:5px 12px;display:flex;align-items:center;gap:6px}
-.nav-stones::before{content:'◆';font-size:.5rem}
-.nav-login{font-family:'Orbitron',monospace;font-size:.65rem;color:var(--bg);background:var(--teal);border:none;padding:7px 16px;cursor:pointer;letter-spacing:.1em;clip-path:polygon(0 0,calc(100% - 6px) 0,100% 6px,100% 100%,0 100%)}
+/* ── Header ─────────────────────────────────────────────── */
+#hdr{position:sticky;top:0;z-index:300;height:var(--hh);background:#fff;border-bottom:1px solid var(--border2)}
+.hdr-in{max-width:var(--mw);margin:0 auto;padding:0 20px;height:100%;display:flex;align-items:center;gap:14px}
 
-/* ── PAGES ── */
-.page{display:none;min-height:100vh;padding-top:60px}
-.page.active{display:block}
+.logo{display:flex;align-items:center;gap:9px;flex-shrink:0;cursor:pointer}
+.logo-k{font-family:var(--fd);font-size:22px;font-weight:700;color:var(--red);letter-spacing:-.5px;line-height:1}
+.logo-div{width:1.5px;height:18px;background:var(--border2);flex-shrink:0}
+.logo-sub{font-size:11px;font-weight:500;color:var(--ink3);letter-spacing:1px;text-transform:uppercase;white-space:nowrap}
+@media(max-width:520px){.logo-div,.logo-sub{display:none}}
 
-/* ════════════════════════════════
-   PAGE 1: 首页 HOME
-════════════════════════════════ */
-/* Hero */
-.hero{min-height:92vh;display:flex;flex-direction:column;justify-content:center;padding:0 80px;position:relative;overflow:hidden}
-.hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,191,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,191,.05) 1px,transparent 1px);background-size:50px 50px;mask-image:radial-gradient(ellipse 90% 90% at 50% 50%,black 30%,transparent 100%)}
-.hero-char{position:absolute;right:-60px;top:50%;transform:translateY(-50%);font-size:520px;font-weight:900;color:rgba(45,212,191,.03);line-height:1;pointer-events:none;font-family:'Noto Serif SC',serif;animation:charFloat 10s ease-in-out infinite}
-@keyframes charFloat{0%,100%{transform:translateY(-50%) rotate(-3deg)}50%{transform:translateY(-52%) rotate(3deg)}}
-.hero-tag{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);letter-spacing:.3em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:10px;animation:fadeUp .7s ease forwards;opacity:0}
-.hero-tag::before{content:'';width:30px;height:1px;background:var(--teal)}
-.blink{animation:blink 1.2s step-end infinite}
-@keyframes blink{50%{opacity:0}}
-.hero-title{font-size:clamp(3.5rem,9vw,8rem);font-weight:900;line-height:1;letter-spacing:-.02em;margin-bottom:6px;animation:fadeUp .7s .1s ease forwards;opacity:0}
-.hero-title .t1{color:var(--text);display:block}
-.hero-title .t2{color:var(--teal);display:block;text-shadow:0 0 80px rgba(45,212,191,.25)}
-.hero-en{font-family:'Orbitron',monospace;font-size:clamp(.8rem,1.5vw,1.1rem);color:var(--gold);letter-spacing:.2em;font-weight:700;margin-bottom:24px;animation:fadeUp .7s .15s ease forwards;opacity:0}
-.hero-desc{max-width:500px;font-size:.95rem;line-height:2;color:var(--text-mid);margin-bottom:40px;border-left:2px solid var(--teal-dark);padding-left:18px;animation:fadeUp .7s .2s ease forwards;opacity:0}
-.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:60px;animation:fadeUp .7s .25s ease forwards;opacity:0}
-.btn-p{font-family:'Orbitron',monospace;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--bg);background:var(--teal);border:none;padding:13px 28px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));transition:all .2s}
-.btn-p:hover{background:#5eead4;box-shadow:0 0 30px rgba(45,212,191,.5);transform:translateY(-2px)}
-.btn-s{font-family:'Orbitron',monospace;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);background:transparent;border:1px solid var(--teal);padding:13px 28px;cursor:pointer;transition:all .2s}
-.btn-s:hover{background:var(--teal-dim)}
-.hero-stats{display:flex;gap:48px;padding-top:28px;border-top:1px solid var(--border);animation:fadeUp .7s .3s ease forwards;opacity:0}
-.stat{display:flex;flex-direction:column;gap:3px}
-.stat-n{font-family:'Orbitron',monospace;font-size:1.6rem;font-weight:900;color:var(--teal);line-height:1}
-.stat-l{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.2em;text-transform:uppercase}
+.srch{flex:1;max-width:320px;position:relative;display:flex;align-items:center}
+.srch-ic{position:absolute;left:10px;width:14px;height:14px;color:var(--ink3);pointer-events:none}
+#si{width:100%;height:32px;background:var(--bg);border:1px solid var(--border2);border-radius:6px;padding:0 12px 0 30px;font-size:13px;color:var(--ink);outline:none;transition:border-color .15s,box-shadow .15s}
+#si::placeholder{color:var(--ink4)}
+#si:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.1)}
 
-/* Ticker */
-.ticker-w{background:rgba(45,212,191,.06);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:9px 0;overflow:hidden}
-.ticker{display:flex;gap:50px;animation:tick 25s linear infinite;white-space:nowrap}
-.tick-i{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);letter-spacing:.15em;text-transform:uppercase;flex-shrink:0;display:flex;align-items:center;gap:12px}
-.tick-i::before{content:'◆';font-size:.45rem;color:var(--gold)}
-@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.hdr-r{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
 
-/* Featured books grid */
-.sec{padding:80px 80px}
-.sec-hd{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:48px}
-.sec-title{display:flex;flex-direction:column;gap:6px}
-.sec-num{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--teal);letter-spacing:.25em}
-.sec-name{font-family:'Noto Serif SC',serif;font-size:clamp(1.8rem,3.5vw,2.6rem);font-weight:900;color:var(--text)}
-.sec-name em{font-style:normal;color:var(--teal)}
-.sec-more{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);letter-spacing:.1em;text-decoration:none;border-bottom:1px solid var(--text-dim);padding-bottom:1px;cursor:pointer;background:none;border-top:none;border-left:none;border-right:none;transition:all .2s}
-.sec-more:hover{color:var(--teal);border-bottom-color:var(--teal)}
+/* 区域切换器 */
+.region-picker{
+  position:relative;
+}
+.region-btn{
+  display:flex;align-items:center;gap:5px;
+  height:30px;padding:0 10px;
+  border-radius:var(--r2);border:1px solid var(--border2);
+  font-size:12.5px;font-weight:500;color:var(--ink2);
+  background:var(--surface);transition:all .15s;
+  white-space:nowrap;
+}
+.region-btn:hover{border-color:var(--red);color:var(--red)}
+.region-btn .flag{font-size:14px}
+.region-btn .arr{font-size:10px;color:var(--ink4);margin-left:2px;transition:transform .15s}
+.region-picker.open .arr{transform:rotate(180deg)}
+.region-drop{
+  display:none;position:absolute;top:calc(100% + 6px);right:0;
+  background:var(--surface);border:1px solid var(--border2);
+  border-radius:var(--r);box-shadow:var(--sh2);
+  min-width:170px;z-index:400;
+  max-height:70vh;overflow-y:auto;
+  scrollbar-width:thin;scrollbar-color:var(--border2) transparent;
+  animation:drop-in .15s ease;
+}
+@keyframes drop-in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+.region-picker.open .region-drop{display:block}
+.region-opt{
+  display:flex;align-items:center;gap:10px;
+  padding:9px 14px;font-size:13px;color:var(--ink2);
+  cursor:pointer;transition:background .1s;
+  border-bottom:1px solid var(--border);
+}
+.region-opt:last-child{border-bottom:none}
+.region-opt:hover{background:var(--bg)}
+.region-opt.active{color:var(--red);font-weight:600;background:var(--red-bg)}
+.region-opt .flag{font-size:16px}
 
-/* Book cards */
-.books-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
-.book-card{background:var(--bg2);position:relative;overflow:hidden;cursor:pointer;transition:background .2s}
-.book-card:hover{background:var(--bg3)}
-.book-cover{height:220px;background:var(--bg3);position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden}
-.book-cover-char{font-size:120px;font-weight:900;color:rgba(45,212,191,.08);font-family:'Noto Serif SC',serif;position:absolute}
-.book-cover-badge{position:absolute;top:10px;left:10px;font-family:'Share Tech Mono',monospace;font-size:.58rem;letter-spacing:.1em;padding:3px 7px;border:1px solid}
-.badge-new{color:var(--teal);border-color:var(--teal);background:rgba(45,212,191,.1)}
-.badge-hot{color:var(--gold);border-color:var(--gold);background:rgba(245,158,11,.1)}
-.badge-free{color:#a78bfa;border-color:#a78bfa;background:rgba(167,139,250,.1)}
-.book-cover-lock{position:absolute;bottom:10px;right:10px;font-size:.7rem;color:var(--gold)}
-.book-info{padding:16px}
-.book-genre{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.15em;text-transform:uppercase;margin-bottom:5px}
-.book-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px;line-height:1.3}
-.book-author{font-size:.75rem;color:var(--text-dim);margin-bottom:10px}
-.book-meta{display:flex;gap:12px;align-items:center}
-.book-meta-item{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);display:flex;align-items:center;gap:4px}
-.book-price{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--gold);margin-left:auto;display:flex;align-items:center;gap:4px}
+/* 语言切换 */
+.lang-btn{
+  display:flex;align-items:center;gap:4px;
+  height:30px;padding:0 10px;
+  border-radius:var(--r2);border:1px solid var(--border2);
+  font-size:12.5px;font-weight:500;color:var(--ink2);
+  background:var(--surface);transition:all .15s;
+}
+.lang-btn:hover{border-color:var(--blue);color:var(--blue)}
+.lang-btn.zh-active .zh-txt{font-weight:700;color:var(--ink)}
+.lang-btn.en-active .en-txt{font-weight:700;color:var(--ink)}
+.lang-sep{color:var(--ink4);font-size:11px;margin:0 2px}
 
-/* Cover gradients */
-.cg1{background:linear-gradient(135deg,rgba(13,148,136,.3) 0%,var(--bg3) 60%)}
-.cg2{background:linear-gradient(135deg,rgba(245,158,11,.2) 0%,var(--bg3) 60%)}
-.cg3{background:linear-gradient(135deg,rgba(167,139,250,.2) 0%,var(--bg3) 60%)}
-.cg4{background:linear-gradient(135deg,rgba(239,68,68,.15) 0%,var(--bg3) 60%)}
+.ic-btn{width:30px;height:30px;border-radius:var(--r2);display:flex;align-items:center;justify-content:center;color:var(--ink3);border:1px solid var(--border);transition:all .15s}
+.ic-btn:hover{background:var(--bg);color:var(--ink)}
+.ic-btn svg{width:14px;height:14px}
+.ic-btn.spin svg{animation:spin .5s linear}
+@keyframes spin{to{transform:rotate(360deg)}}
+.live-pill{display:flex;align-items:center;gap:5px;padding:4px 10px;border-radius:999px;background:rgba(22,163,74,.08);border:1px solid rgba(22,163,74,.2);font-size:11.5px;font-weight:600;color:var(--green)}
+.live-d{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;animation:blink 2s ease-in-out infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}
 
-/* Rankings */
-.rank-list{display:flex;flex-direction:column;gap:1px}
-.rank-item{display:grid;grid-template-columns:48px 1fr auto;align-items:center;gap:20px;padding:16px 24px;background:var(--bg2);cursor:pointer;transition:background .2s;position:relative;overflow:hidden}
-.rank-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:0;background:var(--teal);transition:width .2s}
-.rank-item:hover{background:var(--bg3)}
-.rank-item:hover::before{width:3px}
-.rank-pos{font-family:'Orbitron',monospace;font-size:1.1rem;font-weight:900;text-align:center}
-.rank-pos.p1{color:var(--gold);text-shadow:0 0 10px rgba(245,158,11,.5)}
-.rank-pos.p2{color:#9ca3af}
-.rank-pos.p3{color:#92400e}
-.rank-pos.other{color:rgba(45,212,191,.2)}
-.rank-info .rank-title{font-family:'Noto Serif SC',serif;font-size:.95rem;font-weight:600;color:var(--text);margin-bottom:2px}
-.rank-info .rank-by{font-size:.75rem;color:var(--text-dim)}
-.rank-num{font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text-dim);text-align:right}
-.rank-num .rn-big{display:block;color:var(--teal);font-size:.9rem;font-weight:700}
+/* ── 区域条（header 下方）──────────────────────────────── */
+#region-bar{display:none}  /* 区域选择已整合到 header 下拉，不需要独立条 */
+.rbar-in{
+  max-width:var(--mw);margin:0 auto;padding:0 20px;
+  height:100%;display:flex;align-items:center;gap:4px;
+  overflow-x:auto;scrollbar-width:none;
+}
+.rbar-in::-webkit-scrollbar{display:none}
+.rbar-label{font-size:11px;font-weight:600;color:var(--ink4);letter-spacing:.5px;text-transform:uppercase;flex-shrink:0;margin-right:4px}
+.rtab{
+  display:flex;align-items:center;gap:5px;
+  height:24px;padding:0 10px;border-radius:4px;
+  font-size:12px;color:var(--ink3);
+  transition:all .12s;white-space:nowrap;flex-shrink:0;
+}
+.rtab:hover{background:var(--bg);color:var(--ink)}
+.rtab.on{background:var(--red);color:#fff;font-weight:600}
+.rtab .flag{font-size:13px}
 
-/* ════════════════════════════════
-   PAGE 2: 书库 LIBRARY
-════════════════════════════════ */
-.library-layout{display:grid;grid-template-columns:240px 1fr;min-height:calc(100vh - 60px)}
-.sidebar{background:var(--bg2);border-right:1px solid var(--border);padding:32px 24px;position:sticky;top:60px;height:calc(100vh - 60px);overflow-y:auto}
-.sidebar-sec{margin-bottom:32px}
-.sidebar-title{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.25em;text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border)}
-.filter-item{font-family:'Noto Serif SC',serif;font-size:.85rem;color:var(--text-mid);padding:7px 12px;cursor:pointer;border-radius:2px;transition:all .2s;display:flex;justify-content:space-between;align-items:center}
-.filter-item:hover,.filter-item.active{color:var(--teal);background:var(--teal-dim)}
-.filter-count{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim)}
-.library-main{padding:40px}
-.lib-toolbar{display:flex;align-items:center;gap:16px;margin-bottom:32px;flex-wrap:wrap}
-.lib-sort{font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--text-dim);background:var(--bg2);border:1px solid var(--border);padding:7px 14px;cursor:pointer;transition:all .2s}
-.lib-sort:hover,.lib-sort.active{color:var(--teal);border-color:var(--teal);background:var(--teal-dim)}
-.lib-search{flex:1;max-width:320px;font-family:'Share Tech Mono',monospace;font-size:.7rem;color:var(--text);background:var(--bg2);border:1px solid var(--border);padding:8px 14px;outline:none;letter-spacing:.05em}
-.lib-search::placeholder{color:var(--text-dim)}
-.lib-search:focus{border-color:var(--teal)}
-.books-list-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:16px}
+/* ── 分类导航 ────────────────────────────────────────────── */
+#nav{
+  position:sticky;top:calc(var(--hh) + var(--rh));z-index:270;
+  height:var(--nh);background:#fff;border-bottom:2px solid var(--red);
+}
+.nav-in{max-width:var(--mw);margin:0 auto;padding:0 20px;height:100%;display:flex;align-items:center;gap:2px;overflow-x:auto;scrollbar-width:none}
+.nav-in::-webkit-scrollbar{display:none}
+.ctab{flex-shrink:0;height:32px;padding:0 14px;border-radius:var(--r2);font-size:13.5px;font-weight:400;color:var(--ink3);transition:all .15s;white-space:nowrap}
+.ctab:hover{background:var(--bg);color:var(--ink)}
+.ctab.on{background:var(--red);color:#fff;font-weight:600;box-shadow:0 1px 4px rgba(212,39,29,.3)}
+/* 游戏中心 tab：图标上、文字下 */
+.ctab-games{flex-direction:column;gap:2px;height:40px;padding:3px 12px;line-height:1}
+.ctab-games svg{flex-shrink:0}
+/* 游戏中心：图标+文字上下排列 */
+.ctab-games{flex-direction:column;gap:1px;height:38px;padding:4px 12px;font-size:11px}
+.ctab-games svg{width:14px;height:14px}
+/* 本地新闻 tab 特殊色 */
+.ctab.local-tab.on{background:var(--green)}
 
-/* ════════════════════════════════
-   PAGE 3: 创作者 CREATOR
-════════════════════════════════ */
-.creator-page{padding:0 80px 80px;padding-top:40px}
-.creator-hero{background:linear-gradient(135deg,rgba(13,148,136,.15) 0%,rgba(245,158,11,.08) 50%,transparent 100%);border:1px solid var(--border);padding:60px;margin-bottom:60px;position:relative;overflow:hidden}
-.creator-hero-bg{position:absolute;right:-40px;bottom:-40px;font-size:280px;font-weight:900;color:rgba(45,212,191,.03);font-family:'Noto Serif SC',serif;line-height:1;pointer-events:none}
-.creator-hero h2{font-family:'Noto Serif SC',serif;font-size:2.8rem;font-weight:900;color:var(--text);margin-bottom:12px}
-.creator-hero h2 em{font-style:normal;color:var(--teal)}
-.creator-hero p{font-size:.95rem;color:var(--text-mid);line-height:1.9;max-width:540px;margin-bottom:32px}
-.creator-benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:60px}
-.benefit-card{background:var(--bg2);border:1px solid var(--border);padding:28px;position:relative;overflow:hidden;transition:border-color .2s}
-.benefit-card:hover{border-color:var(--teal)}
-.benefit-icon{font-size:1.8rem;margin-bottom:12px}
-.benefit-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:8px}
-.benefit-desc{font-size:.82rem;color:var(--text-mid);line-height:1.8}
-.benefit-num{position:absolute;top:16px;right:16px;font-family:'Orbitron',monospace;font-size:2rem;font-weight:900;color:rgba(45,212,191,.06)}
-.tiers-section h3{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:32px}
-.tiers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px}
-.tier-card{background:var(--bg2);border:1px solid var(--border);padding:28px 20px;text-align:center;position:relative;overflow:hidden;transition:all .2s}
-.tier-card.featured{border-color:var(--teal);background:rgba(13,148,136,.08)}
-.tier-card.featured::before{content:'推荐';position:absolute;top:12px;right:-20px;background:var(--teal);color:var(--bg);font-family:'Share Tech Mono',monospace;font-size:.55rem;letter-spacing:.1em;padding:3px 28px;transform:rotate(45deg);transform-origin:center}
-.tier-name{font-family:'Noto Serif SC',serif;font-size:1.1rem;font-weight:700;color:var(--text-mid);margin-bottom:4px}
-.tier-pct{font-family:'Orbitron',monospace;font-size:2.8rem;font-weight:900;color:var(--teal);line-height:1;margin-bottom:4px}
-.tier-sub{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:16px}
-.tier-cond{font-size:.8rem;color:var(--text-mid);line-height:1.8}
-.tier-cond strong{color:var(--gold);font-style:normal}
+/* ── Layout ─────────────────────────────────────────────── */
+.layout{max-width:var(--mw);margin:0 auto;padding:20px 20px 0;display:grid;grid-template-columns:1fr 272px;gap:20px;align-items:start}
+@media(max-width:880px){.layout{grid-template-columns:1fr}#side{display:none}}
+@media(max-width:500px){.layout{padding:14px 14px 0}}
+.layout.hidden{display:none}
 
-/* ════════════════════════════════
-   PAGE 4: 灵石 LINGSHI
-════════════════════════════════ */
-.lingshi-page{padding:40px 80px 80px}
-.lingshi-hero{text-align:center;padding:60px 0 48px}
-.lingshi-hero h2{font-family:'Noto Serif SC',serif;font-size:2.4rem;font-weight:900;color:var(--text);margin-bottom:8px}
-.lingshi-hero h2 em{font-style:normal;color:var(--gold)}
-.lingshi-hero p{font-size:.95rem;color:var(--text-mid)}
-.stones-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-bottom:60px}
-.stone-card{background:var(--bg2);border:1px solid var(--border);padding:32px 24px;text-align:center;cursor:pointer;position:relative;overflow:hidden;transition:all .2s}
-.stone-card.best-value{border-color:var(--gold)}
-.stone-card.best-value::after{content:'最超值';position:absolute;top:0;right:0;background:var(--gold);color:var(--bg);font-family:'Share Tech Mono',monospace;font-size:.55rem;padding:4px 10px;letter-spacing:.1em}
-.stone-card:hover{background:var(--bg3);transform:translateY(-2px);box-shadow:0 8px 32px rgba(0,0,0,.3)}
-.stone-gem{font-size:2.5rem;margin-bottom:12px}
-.stone-amount{font-family:'Orbitron',monospace;font-size:2rem;font-weight:900;color:var(--gold);line-height:1}
-.stone-unit{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:12px}
-.stone-price{font-family:'Orbitron',monospace;font-size:1.4rem;font-weight:700;color:var(--teal);margin-bottom:4px}
-.stone-cpp{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.05em}
-.stone-btn{margin-top:16px;width:100%;font-family:'Orbitron',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--bg);background:var(--teal);border:none;padding:10px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 6px) 0,100% 6px,100% 100%,6px 100%,0 calc(100% - 6px));transition:all .2s}
-.stone-btn:hover{background:#5eead4;box-shadow:0 0 20px rgba(45,212,191,.4)}
-.faq-section h3{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:32px}
-.faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:2px}
-.faq-item{background:var(--bg2);padding:24px;border:1px solid var(--border)}
-.faq-q{font-family:'Noto Serif SC',serif;font-size:.95rem;font-weight:700;color:var(--teal);margin-bottom:8px}
-.faq-a{font-size:.85rem;color:var(--text-mid);line-height:1.8}
+/* ── 今日头条大卡 ────────────────────────────────────────── */
+#hero{background:var(--surface);border-radius:var(--r);box-shadow:var(--sh);padding:22px 24px;margin-bottom:3px;cursor:pointer;display:none;border-left:4px solid var(--red);transition:box-shadow .2s,transform .15s;position:relative}
+#hero::after{content:'今日头条';position:absolute;top:0;right:0;background:var(--red);color:#fff;font-size:10.5px;font-weight:700;padding:4px 10px;border-radius:0 var(--r) 0 8px;letter-spacing:1px}
+[data-lang="en"] #hero::after{content:'TOP STORY'}
+#hero:hover{box-shadow:var(--sh2);transform:translateY(-1px)}
+.hero-ey{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.hero-cat{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;letter-spacing:.5px}
+.hero-src{font-size:12px;color:var(--ink3)}
+.hero-time{font-size:12px;color:var(--ink4);margin-left:auto}
+.hero-title{font-family:var(--fd);font-size:20px;font-weight:700;line-height:1.4;letter-spacing:-.3px;color:var(--ink);margin-bottom:10px}
+.hero-sum{font-size:14px;color:var(--ink2);line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:14px}
+.hero-foot{display:flex;align-items:center;justify-content:space-between;padding-top:12px;border-top:1px solid var(--border)}
+.hero-tags{display:flex;gap:6px;flex-wrap:wrap}
+.hero-tag{font-size:11px;color:var(--ink3);padding:2px 8px;background:var(--bg);border-radius:4px;border:1px solid var(--border2)}
+.hero-rd{font-size:13px;font-weight:600;color:var(--red);display:flex;align-items:center;gap:4px;flex-shrink:0}
 
-/* ════════════════════════════════
-   PAGE 5: 关于 ABOUT
-════════════════════════════════ */
-.about-page{padding:40px 80px 80px}
-.about-manifesto{border-left:3px solid var(--teal);padding:40px 48px;margin-bottom:60px;background:linear-gradient(90deg,rgba(13,148,136,.08),transparent)}
-.about-manifesto h2{font-family:'Noto Serif SC',serif;font-size:2.6rem;font-weight:900;color:var(--text);margin-bottom:20px;line-height:1.2}
-.about-manifesto h2 em{font-style:normal;color:var(--teal)}
-.about-manifesto p{font-size:1rem;line-height:2.1;color:var(--text-mid);max-width:620px}
-.domain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-bottom:60px}
-.domain-card{background:var(--bg2);border:1px solid var(--border);padding:24px;transition:border-color .2s}
-.domain-card:hover{border-color:var(--teal)}
-.domain-url{font-family:'Orbitron',monospace;font-size:1rem;font-weight:700;color:var(--teal);margin-bottom:6px}
-.domain-desc{font-size:.82rem;color:var(--text-mid)}
-.timeline{position:relative;padding-left:40px}
-.timeline::before{content:'';position:absolute;left:8px;top:0;bottom:0;width:1px;background:linear-gradient(to bottom,var(--teal),transparent)}
-.tl-item{position:relative;margin-bottom:36px}
-.tl-item::before{content:'';position:absolute;left:-36px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px rgba(45,212,191,.5)}
-.tl-date{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.2em;margin-bottom:4px}
-.tl-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
-.tl-desc{font-size:.83rem;color:var(--text-mid);line-height:1.8}
+/* ── 控制栏 ─────────────────────────────────────────────── */
+.bar{display:flex;align-items:center;justify-content:space-between;padding:12px 2px 8px}
+.bar-lbl{font-size:12px;font-weight:700;color:var(--ink3);letter-spacing:.8px;text-transform:uppercase;display:flex;align-items:center;gap:6px}
+.bar-lbl::before{content:'';display:block;width:3px;height:13px;background:var(--red);border-radius:2px}
+.srt{display:flex;align-items:center;background:var(--bg);border:1px solid var(--border2);border-radius:var(--r2);padding:2px;gap:2px}
+.srt-btn{height:24px;padding:0 12px;border-radius:6px;font-size:12px;font-weight:400;color:var(--ink3);transition:all .12s}
+.srt-btn.on{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 1px 3px rgba(0,0,0,.1)}
 
-/* ════════════════════════════════
-   江湖传 FEATURED BANNER
-════════════════════════════════ */
-.jht-banner{margin:0;background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);position:relative;overflow:hidden}
-.jht-banner::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(13,148,136,.12) 0%,rgba(245,158,11,.06) 40%,transparent 70%);pointer-events:none}
-.jht-inner{display:grid;grid-template-columns:1fr 1fr;min-height:460px}
-.jht-left{padding:64px 80px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:1}
-.jht-eyebrow{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.3em;text-transform:uppercase;margin-bottom:16px;display:flex;align-items:center;gap:8px}
-.jht-eyebrow::before{content:'▶';font-size:.45rem;animation:blink 1.2s step-end infinite}
-.jht-title{font-family:'Noto Serif SC',serif;font-size:clamp(2.8rem,5vw,4.2rem);font-weight:900;line-height:1;color:var(--text);margin-bottom:8px}
-.jht-title em{font-style:normal;color:var(--teal);display:block}
-.jht-en{font-family:'Orbitron',monospace;font-size:.7rem;color:var(--gold);letter-spacing:.25em;font-weight:700;margin-bottom:20px}
-.jht-desc{font-size:.9rem;line-height:2;color:var(--text-mid);max-width:420px;margin-bottom:32px}
-.jht-tags{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:32px}
-.jht-tag{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);border:1px solid rgba(45,212,191,.25);padding:4px 10px;letter-spacing:.1em}
-.jht-actions{display:flex;gap:12px;align-items:center}
-.jht-ep{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);letter-spacing:.1em}
-.jht-right{position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
-.jht-right::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--bg2) 0%,transparent 30%)}
-.jht-chars{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;gap:-20px}
-.jht-char-big{font-size:280px;font-weight:900;font-family:'Noto Serif SC',serif;line-height:1;position:absolute}
-.jht-char-big.c1{color:rgba(45,212,191,.07);right:-20px;top:50%;transform:translateY(-50%)}
-.jht-char-big.c2{color:rgba(245,158,11,.05);right:140px;top:50%;transform:translateY(-60%);font-size:180px}
-.jht-episodes{position:relative;z-index:1;padding:40px;display:flex;flex-direction:column;gap:10px;justify-content:center;width:100%}
-.jht-ep-card{background:rgba(6,10,15,.7);border:1px solid var(--border);padding:14px 18px;cursor:pointer;transition:all .2s;backdrop-filter:blur(4px)}
-.jht-ep-card:hover{border-color:var(--teal);background:rgba(45,212,191,.05)}
-.jht-ep-card.current{border-color:rgba(245,158,11,.4);background:rgba(245,158,11,.04)}
-.jht-ep-num{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.15em;margin-bottom:3px}
-.jht-ep-title{font-family:'Noto Serif SC',serif;font-size:.9rem;font-weight:700;color:var(--text);margin-bottom:2px}
-.jht-ep-desc{font-size:.72rem;color:var(--text-dim);line-height:1.5}
-.jht-ep-status{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--gold);margin-top:4px}
+/* ── 文章卡片 ────────────────────────────────────────────── */
+#feed{display:flex;flex-direction:column;gap:2px}
+.item{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);padding:16px 18px;cursor:pointer;transition:box-shadow .15s,border-color .15s,transform .15s;animation:fu .25s ease both;display:flex;gap:14px;align-items:flex-start}
+.item:hover{box-shadow:var(--sh2);border-color:var(--border2);transform:translateY(-1px)}
+@keyframes fu{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.item-rk{font-family:var(--fm);font-size:12px;font-weight:700;min-width:20px;flex-shrink:0;color:var(--ink4);padding-top:2px;text-align:right;line-height:1.4}
+.item-rk.hi{color:var(--red)}
+.item-bd{flex:1;min-width:0}
+.item-top{display:flex;align-items:center;gap:6px;margin-bottom:6px;flex-wrap:wrap}
+.icat{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;flex-shrink:0;letter-spacing:.3px}
+.icat[data-c="时事"]{background:rgba(26,86,219,.09);color:var(--c-时事)}
+.icat[data-c="移民"]{background:rgba(22,163,74,.09);color:var(--c-移民)}
+.icat[data-c="教育"]{background:rgba(8,145,178,.09);color:var(--c-教育)}
+.icat[data-c="财经"]{background:rgba(194,65,12,.09);color:var(--c-财经)}
+.icat[data-c="科技"]{background:rgba(124,58,237,.09);color:var(--c-科技)}
+.icat[data-c="生活"]{background:rgba(190,24,93,.09);color:var(--c-生活)}
+.icat[data-c="旅游"]{background:rgba(13,148,136,.09);color:var(--c-旅游)}
+.icat[data-c="游戏"]{background:rgba(234,88,12,.09);color:var(--c-游戏)}
+.icat[data-c="本地"]{background:rgba(13,148,136,.09);color:var(--c-本地)}
+.isrc{font-size:11.5px;color:var(--ink3);flex-shrink:0}
+.isep{color:var(--ink4);font-size:11px}
+.itm{font-size:11.5px;color:var(--ink4);margin-left:auto;flex-shrink:0}
+.ititle{font-size:15px;font-weight:600;line-height:1.5;letter-spacing:-.1px;color:var(--ink);margin-bottom:5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;transition:color .12s}
+.item:hover .ititle{color:var(--red)}
+.isum{font-size:13px;color:var(--ink2);line-height:1.65;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.item-foot{display:flex;align-items:center;justify-content:space-between;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+.item-tags{display:flex;gap:5px;flex-wrap:wrap}
+.itag{font-size:10.5px;color:var(--ink3);padding:1.5px 6px;background:var(--bg);border-radius:3px;border:1px solid var(--border2)}
+.item-read{font-size:12px;font-weight:600;color:var(--blue);flex-shrink:0;opacity:.75}
+.item:hover .item-read{opacity:1}
 
-/* ════════════════════════════════
-   PAGE 6: 江湖传 JIANGHU LEGEND
-════════════════════════════════ */
-.jht-page{padding-top:0}
-.jht-hero-full{min-height:70vh;display:flex;flex-direction:column;justify-content:flex-end;padding:80px;position:relative;overflow:hidden;background:linear-gradient(to bottom,var(--bg) 0%,rgba(13,148,136,.08) 50%,var(--bg) 100%)}
-.jht-hero-bg-char{position:absolute;font-size:600px;font-weight:900;font-family:'Noto Serif SC',serif;color:rgba(45,212,191,.04);right:-60px;top:50%;transform:translateY(-50%);line-height:1;pointer-events:none;animation:charFloat 12s ease-in-out infinite}
-.jht-hero-grid{position:absolute;inset:0;background-image:linear-gradient(rgba(45,212,191,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(45,212,191,.04) 1px,transparent 1px);background-size:60px 60px;mask-image:radial-gradient(ellipse 80% 80% at 50% 50%,black,transparent)}
-.jht-hero-tag{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--gold);letter-spacing:.3em;text-transform:uppercase;margin-bottom:12px}
-.jht-hero-title{font-family:'Noto Serif SC',serif;font-size:clamp(4rem,10vw,9rem);font-weight:900;line-height:.9;color:var(--text);margin-bottom:12px}
-.jht-hero-title em{font-style:normal;color:var(--teal);text-shadow:0 0 60px rgba(45,212,191,.3)}
-.jht-hero-sub{font-family:'Orbitron',monospace;font-size:.85rem;color:var(--gold);letter-spacing:.25em;margin-bottom:20px}
-.jht-hero-quote{font-size:1rem;color:var(--text-mid);font-style:italic;border-left:2px solid var(--teal);padding-left:16px;max-width:500px;line-height:1.9;margin-bottom:36px}
-.jht-hero-btns{display:flex;gap:12px}
+/* ── 骨架屏 / 空态 / 更多 / 到底 ────────────────────────── */
+.sk-list{display:flex;flex-direction:column;gap:2px}
+.sk-card{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);padding:16px 18px}
+.sk{border-radius:4px;background:linear-gradient(90deg,#efefef 25%,#f8f8f8 50%,#efefef 75%);background-size:200% 100%;animation:sk 1.4s ease-in-out infinite}
+@keyframes sk{to{background-position:-200% 0}}
+.sk-m{height:11px;width:36%;margin-bottom:10px}.sk-t{height:17px;width:85%;margin-bottom:8px}.sk-b{height:12.5px;width:100%;margin-bottom:5px}.sk-b2{height:12.5px;width:55%}
+.empty{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);padding:56px 16px;text-align:center}
+.empty-ic{font-size:32px;opacity:.3;margin-bottom:10px}.empty-tx{font-size:13px;color:var(--ink3)}
+#more-wrap{margin-top:2px}
+.more-btn{display:block;width:100%;padding:13px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);font-size:13px;font-weight:600;color:var(--blue);text-align:center;transition:all .15s}
+.more-btn:hover{background:var(--bg);border-color:var(--border2);box-shadow:var(--sh)}
+.more-btn:disabled{color:var(--ink3);pointer-events:none}
+.fin{padding:20px 0;text-align:center;font-size:12px;color:var(--ink4)}
+.fin strong{color:var(--ink3)}
 
-/* World section */
-.jht-world{padding:80px}
-.jht-world-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px}
-.world-card{background:var(--bg2);border:1px solid var(--border);padding:32px;position:relative;overflow:hidden;cursor:pointer;transition:all .2s}
-.world-card:hover{border-color:var(--teal);background:var(--bg3)}
-.world-card-bg{position:absolute;bottom:-10px;right:-10px;font-size:100px;font-family:'Noto Serif SC',serif;font-weight:900;color:rgba(45,212,191,.04);line-height:1;pointer-events:none}
-.world-card-tag{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:10px}
-.world-card-name{font-family:'Noto Serif SC',serif;font-size:1.5rem;font-weight:900;color:var(--text);margin-bottom:8px}
-.world-card-desc{font-size:.83rem;color:var(--text-mid);line-height:1.9}
-.world-card-secret{margin-top:14px;font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--gold);letter-spacing:.1em;border-top:1px solid var(--border);padding-top:12px}
+/* ── 侧边栏 ─────────────────────────────────────────────── */
+#side{position:sticky;top:calc(var(--hh)+var(--rh)+var(--nh)+20px);display:flex;flex-direction:column;gap:14px}
+.scard{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--sh);overflow:hidden}
+.scard-hd{padding:12px 16px 10px;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:8px}
+.scard-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.scard-title{font-size:12.5px;font-weight:700;color:var(--ink);letter-spacing:.3px}
+.hot-item{display:flex;align-items:flex-start;gap:10px;padding:8px 16px;cursor:pointer;transition:background .1s}
+.hot-item:hover{background:var(--bg)}
+.hot-item:hover .ht{color:var(--red)}
+.hn{font-family:var(--fm);font-size:11.5px;font-weight:700;min-width:16px;flex-shrink:0;color:var(--ink4);margin-top:2px;line-height:1.3}
+.hn.a{color:var(--red)}.hn.b{color:var(--ink2)}.hn.c{color:var(--ink3)}
+.ht{font-size:13px;color:var(--ink2);line-height:1.5;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;transition:color .1s}
+.opp-item{display:flex;align-items:center;gap:10px;padding:9px 16px;cursor:pointer;transition:background .1s;border-bottom:1px solid var(--border)}
+.opp-item:last-child{border-bottom:none}
+.opp-item:hover{background:var(--bg)}
+.opp-ico{width:28px;height:28px;border-radius:6px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:13px;flex-shrink:0}
+.opp-info{flex:1;min-width:0}
+.opp-name{font-size:13px;font-weight:600;color:var(--ink);margin-bottom:1px}
+.opp-sub{font-size:11.5px;color:var(--ink3)}
+.badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px;flex-shrink:0}
+.badge-n{background:rgba(22,163,74,.1);color:var(--green)}
+.badge-h{background:rgba(212,39,29,.1);color:var(--red)}
+.sg{padding:8px 16px;display:flex;flex-direction:column;gap:7px}
+.sr{display:flex;align-items:center;justify-content:space-between}
+.sn{display:flex;align-items:center;gap:7px;font-size:13px;color:var(--ink2)}
+.sp{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.sc{font-family:var(--fm);font-size:12px;color:var(--ink3);font-weight:500}
+.srv-item{display:flex;align-items:center;justify-content:space-between;padding:9px 16px;cursor:pointer;transition:background .1s;border-bottom:1px solid var(--border)}
+.srv-item:last-child{border-bottom:none}
+.srv-item:hover{background:var(--bg)}
+.srv-l{display:flex;align-items:center;gap:10px}
+.srv-ico{width:28px;height:28px;border-radius:6px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:13px}
+.srv-name{font-size:13px;font-weight:500;color:var(--ink)}
+.srv-desc{font-size:11px;color:var(--ink3);margin-top:1px}
+.srv-arr{font-size:15px;color:var(--ink4);transition:transform .15s,color .15s}
+.srv-item:hover .srv-arr{color:var(--red);transform:translateX(2px)}
+.abt{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);padding:16px;text-align:center}
+.abt-k{font-family:var(--fd);font-size:22px;font-weight:700;color:var(--red);letter-spacing:-.5px;margin-bottom:6px}
+.abt-d{font-size:12px;color:var(--ink3);line-height:1.8;margin-bottom:6px}
+.abt-t{font-size:11px;color:var(--ink4);font-family:var(--fm)}
 
-/* Characters */
-.jht-chars-sec{padding:0 80px 80px}
-.chars-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:2px;margin-top:48px}
-.char-card{background:var(--bg2);border:1px solid var(--border);padding:28px 24px;cursor:pointer;transition:all .2s;position:relative;overflow:hidden}
-.char-card:hover{border-color:var(--teal);background:var(--bg3)}
-.char-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--teal),transparent);opacity:0;transition:opacity .2s}
-.char-card:hover::after{opacity:1}
-.char-symbol{font-size:3rem;font-family:'Noto Serif SC',serif;font-weight:900;color:rgba(45,212,191,.15);margin-bottom:12px;line-height:1}
-.char-faction{font-family:'Share Tech Mono',monospace;font-size:.55rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px}
-.char-name{font-family:'Noto Serif SC',serif;font-size:1.2rem;font-weight:900;color:var(--text);margin-bottom:4px}
-.char-role{font-size:.78rem;color:var(--gold);margin-bottom:10px;font-family:'Share Tech Mono',monospace;font-size:.62rem}
-.char-desc{font-size:.8rem;color:var(--text-dim);line-height:1.8}
-.char-quote{margin-top:12px;font-size:.78rem;color:var(--text-mid);font-style:italic;border-left:1px solid rgba(45,212,191,.2);padding-left:10px}
+/* ── 游戏中心面板 ────────────────────────────────────────── */
+#game-panel{display:none;max-width:var(--mw);margin:0 auto;padding:20px 20px 0}
+#game-panel.on{display:block}
+.game-subnav{display:flex;align-items:center;gap:4px;padding-bottom:14px;border-bottom:1px solid var(--border);margin-bottom:18px}
+.gstab{display:flex;align-items:center;gap:7px;height:32px;padding:0 16px;border-radius:var(--r2);font-size:13px;font-weight:400;color:var(--ink3);transition:all .15s;white-space:nowrap}
+.gstab svg{width:14px;height:14px}
+.gstab:hover{background:var(--bg);color:var(--ink)}
+.gstab.on{background:var(--c-游戏);color:#fff;font-weight:600;box-shadow:0 1px 5px rgba(234,88,12,.3)}
+.gsubnav-info{margin-left:auto;font-size:11.5px;color:var(--ink3);display:flex;align-items:center;gap:5px}
+.gsubnav-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;animation:blink 2s ease-in-out infinite}
+.gpanel{display:none}.gpanel.on{display:block}
+.gnews-layout{display:grid;grid-template-columns:1fr 272px;gap:20px;align-items:start}
+@media(max-width:860px){.gnews-layout{grid-template-columns:1fr}.gnews-side{display:none}}
+.gnews-side{position:sticky;top:calc(var(--hh)+var(--rh)+var(--nh)+20px);display:flex;flex-direction:column;gap:14px}
+.game-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px;margin-bottom:8px}
+.gc{background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;cursor:pointer;box-shadow:var(--sh);transition:box-shadow .18s,transform .15s,border-color .15s}
+.gc:hover{box-shadow:var(--sh2);transform:translateY(-2px);border-color:var(--border2)}
+.gc-cover{height:118px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.gc-cover-mj{background:radial-gradient(ellipse at 50% 40%,#0d3318 0%,#0a2810 60%,#06180a 100%)}
+.gc-cover-mj::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,.04) 3px,rgba(0,0,0,.04) 4px),repeating-linear-gradient(90deg,transparent,transparent 3px,rgba(0,0,0,.04) 3px,rgba(0,0,0,.04) 4px)}
+.gc-tile-main{position:relative;z-index:1;width:48px;height:66px;border-radius:4px;background:#fdf6e8;display:flex;flex-direction:column;align-items:center;justify-content:center;box-shadow:2px 4px 10px rgba(0,0,0,.5),inset 0 1px 0 rgba(255,255,255,.6);font-family:var(--fd)}
+.gc-tile-main .ch{font-size:22px;font-weight:900;color:#8b1a0c;line-height:1}
+.gc-tile-main .sub{font-size:9px;color:#888;line-height:1;margin-top:2px}
+.gc-tile-b{position:absolute;width:40px;height:56px;border-radius:3px;box-shadow:2px 3px 8px rgba(0,0,0,.4)}
+.gc-tile-b1{background:#eef8ee;top:18px;left:38px;transform:rotate(-12deg)}
+.gc-tile-b2{background:#eef0fc;top:20px;right:36px;transform:rotate(8deg)}
+.gc-cover-soon{background:linear-gradient(135deg,#f0f2f5,#e4e7eb);height:118px;display:flex;align-items:center;justify-content:center;font-size:40px;opacity:.35}
+.gc-info{padding:12px 14px 13px}
+.gc-name{font-size:14px;font-weight:700;color:var(--ink);margin-bottom:3px}
+.gc-desc{font-size:12px;color:var(--ink3);line-height:1.5;margin-bottom:8px}
+.gc-foot{display:flex;align-items:center;justify-content:space-between}
+.gc-tags{display:flex;gap:5px}
+.gc-tag{font-size:10px;font-weight:600;padding:2px 6px;border-radius:3px;background:rgba(234,88,12,.08);color:var(--c-游戏)}
+.gc-tag.free{background:rgba(22,163,74,.08);color:var(--green)}
+.gc-play{font-size:12px;font-weight:700;padding:5px 13px;border-radius:5px;background:var(--c-游戏);color:#fff;box-shadow:0 1px 4px rgba(234,88,12,.3);transition:opacity .12s}
+.gc-play:hover{opacity:.85}
+.gc-hint{font-size:10.5px;color:var(--ink4);text-align:right;margin-top:5px}
+.gc.coming{opacity:.52;cursor:default}
+.gc.coming:hover{transform:none;box-shadow:var(--sh);border-color:var(--border)}
+.gc-soon-badge{font-size:10px;font-weight:600;padding:2px 8px;border-radius:3px;background:rgba(0,0,0,.06);color:var(--ink4)}
 
-/* Episodes */
-.jht-eps-sec{padding:0 80px 80px}
-.eps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;margin-top:48px}
-.ep-card{background:var(--bg2);border:1px solid var(--border);padding:28px;cursor:pointer;transition:all .2s;position:relative}
-.ep-card:hover{border-color:var(--teal);background:var(--bg3)}
-.ep-card.locked::after{content:'🔒';position:absolute;top:16px;right:16px;font-size:.9rem;opacity:.5}
-.ep-num{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;margin-bottom:8px}
-.ep-title{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:900;color:var(--text);margin-bottom:8px}
-.ep-synopsis{font-size:.8rem;color:var(--text-dim);line-height:1.8;margin-bottom:12px}
-.ep-hook{font-size:.82rem;color:var(--text-mid);font-style:italic;border-left:2px solid rgba(45,212,191,.2);padding-left:10px}
-.ep-meta{margin-top:14px;display:flex;align-items:center;gap:12px;border-top:1px solid var(--border);padding-top:12px}
-.ep-price{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--gold)}
-.ep-free{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:#a78bfa}
+/* ── 弹窗 ────────────────────────────────────────────────── */
+#modal{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.45);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);padding:20px 16px;align-items:center;justify-content:center}
+#modal.on{display:flex}
+.msheet{background:#fff;border-radius:14px;box-shadow:var(--sh2);max-width:660px;width:100%;max-height:88vh;overflow-y:auto;padding:22px 24px 28px;scrollbar-width:thin;scrollbar-color:#e0e0e0 transparent;animation:si .2s cubic-bezier(.34,1.26,.64,1)}
+@keyframes si{from{opacity:0;transform:scale(.96) translateY(10px)}to{opacity:1;transform:none}}
+@media(max-width:500px){#modal{align-items:flex-end;padding:0}.msheet{border-radius:16px 16px 0 0;max-height:92vh;max-width:100%;padding:12px 18px 36px}.mgrip{display:block!important}}
+.mgrip{display:none;width:36px;height:4px;background:var(--border2);border-radius:2px;margin:0 auto 16px}
+.mhd{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+.mcat{font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px;letter-spacing:.3px}
+.mx{width:28px;height:28px;border-radius:50%;background:var(--bg);border:1px solid var(--border2);display:flex;align-items:center;justify-content:center;color:var(--ink3);transition:all .12s}
+.mx:hover{background:rgba(0,0,0,.06);color:var(--ink)}
+.mx svg{width:13px;height:13px}
+.mtitle{font-family:var(--fd);font-size:20px;font-weight:700;letter-spacing:-.3px;line-height:1.4;color:var(--ink);margin-bottom:10px;border-left:3px solid var(--red);padding-left:12px}
+.mmeta{font-size:12px;color:var(--ink3);padding-left:15px;margin-bottom:2px}
+.mhr{border:none;border-top:1px solid var(--border);margin:16px 0}
+.mbody{font-size:14.5px;line-height:1.9;color:var(--ink2);white-space:pre-line}
+.mtags{display:flex;flex-wrap:wrap;gap:6px;margin-top:16px}
+.mtag{font-size:11.5px;color:var(--ink3);padding:3px 10px;background:var(--bg);border-radius:4px;border:1px solid var(--border2)}
+.mlink{display:inline-flex;align-items:center;gap:5px;margin-top:16px;padding:8px 16px;background:var(--red);color:#fff;border-radius:6px;font-size:13px;font-weight:600;transition:opacity .12s}
+.mlink:hover{opacity:.85}
+.mlink svg{width:11px;height:11px}
 
-/* ── READER TOOLBAR ── */
-.reader-toolbar{display:flex;align-items:center;gap:12px;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.reader-font-ctrl{display:flex;align-items:center;gap:8px;margin-left:auto}
-.reader-font-btn{font-family:'Orbitron',monospace;font-size:.6rem;color:var(--teal);background:transparent;border:1px solid rgba(45,212,191,.3);padding:4px 8px;cursor:pointer;transition:all .2s;letter-spacing:.05em}
-.reader-font-btn:hover{background:var(--teal-dim);border-color:var(--teal)}
-.reader-font-size{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);min-width:32px;text-align:center}
+/* ── 搜索下拉 / 回顶 ─────────────────────────────────────── */
+#sdrop{display:none;position:fixed;top:calc(var(--hh)+10px);left:50%;transform:translateX(-50%);width:min(480px,92vw);z-index:400;background:#fff;border-radius:var(--r);box-shadow:var(--sh2);overflow:hidden;border:1px solid var(--border2)}
+.si-item{padding:10px 14px;border-bottom:1px solid var(--border);cursor:pointer;transition:background .1s}
+.si-item:last-child{border-bottom:none}
+.si-item:hover{background:var(--bg)}
+.si-t{font-size:13.5px;font-weight:500;margin-bottom:2px}
+.si-m{font-size:11px;color:var(--ink3)}
+.si-e{padding:16px;text-align:center;font-size:12.5px;color:var(--ink3)}
+mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0 1px}
+#bt{display:none;position:fixed;bottom:22px;right:22px;width:38px;height:38px;border-radius:50%;background:#fff;box-shadow:var(--sh2);border:1px solid var(--border2);align-items:center;justify-content:center;color:var(--ink2);z-index:300;transition:all .15s}
+#bt:hover{color:var(--red);border-color:rgba(212,39,29,.3)}
+#bt svg{width:13px;height:13px}
 
-/* ── COMMON ── */
-@keyframes fadeUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+/* ── 语言适配 ────────────────────────────────────────────── */
+[data-lang="en"] .zh-only{display:none!important}
+[data-lang="zh"] .en-only{display:none!important}
+/* 默认（zh）状态下 en-only 不显示 */
+.en-only{display:none}
+[data-lang="en"] .en-only{display:revert!important}
+[data-lang="en"] .en-only[style*="display:none"]{display:revert!important}
 
-/* Footer */
-.footer{background:var(--bg2);border-top:1px solid var(--border);padding:48px 80px 32px;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;margin-top:80px}
-.f-brand .f-logo{font-family:'Orbitron',monospace;font-weight:900;font-size:1.3rem;color:var(--teal);text-shadow:0 0 20px rgba(45,212,191,.3);margin-bottom:8px}
-.f-brand .f-logo span{color:var(--gold)}
-.f-brand p{font-size:.8rem;color:var(--text-dim);line-height:1.9;margin-bottom:16px}
-.f-domains{display:flex;flex-wrap:wrap;gap:6px}
-.f-domain{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal-dark);border:1px solid rgba(45,212,191,.15);padding:2px 7px}
-.f-col-title{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:14px}
-.f-links{list-style:none;display:flex;flex-direction:column;gap:8px}
-.f-links a{font-size:.83rem;color:var(--text-dim);text-decoration:none;cursor:pointer;transition:color .2s;font-family:'Noto Serif SC',serif}
-.f-links a:hover{color:var(--teal)}
-.f-bottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(45,212,191,.1);display:flex;justify-content:space-between;grid-column:1/-1}
-.f-copy,.f-sys{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim);letter-spacing:.08em}
-.f-sys{color:rgba(45,212,191,.35)}
+/* ── Footer ─────────────────────────────────────────────── */
+#site-footer{
+  background:#fff;border-top:1px solid var(--border2);
+  margin-top:40px;padding:24px 20px;
+}
+.footer-in{
+  max-width:var(--mw);margin:0 auto;
+  display:flex;flex-direction:column;align-items:center;
+  gap:8px;text-align:center;
+}
+.footer-logo{
+  font-family:var(--fd);font-size:18px;font-weight:700;
+  color:var(--red);letter-spacing:-.3px;
+}
+.footer-links{
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  justify-content:center;font-size:13px;
+}
+.footer-links a{color:var(--ink3);transition:color .15s}
+.footer-links a:hover{color:var(--red)}
+.footer-sep{color:var(--border2)}
+.footer-policy{
+  font-size:11.5px;color:var(--ink4);
+  max-width:600px;line-height:1.7;
+}
+.footer-copy{font-size:11px;color:var(--ink4)}
 
-/* Responsive */
-@media(max-width:900px){
-  .tab-inner{padding:0 16px}
-  .tabs .tab-btn{padding:8px 10px;font-size:.62rem}
-  .hero,.sec,.creator-page,.lingshi-page,.about-page{padding-left:20px;padding-right:20px}
-  .books-grid{grid-template-columns:repeat(2,1fr)}
-  .library-layout{grid-template-columns:1fr}
-  .sidebar{display:none}
-  .creator-benefits{grid-template-columns:1fr}
-  .tiers-grid,.stones-grid{grid-template-columns:repeat(2,1fr)}
-  .domain-grid{grid-template-columns:1fr 1fr}
-  .footer{grid-template-columns:1fr 1fr;padding:40px 20px 24px}
+/* ── 翻译状态指示 ────────────────────────────────────────── */
+.tx-loading .ititle::after,
+.tx-loading .isum::after{
+  content:'';display:inline-block;
+  width:8px;height:8px;border-radius:50%;
+  border:1.5px solid var(--ink4);border-top-color:var(--blue);
+  animation:spin .7s linear infinite;
+  margin-left:6px;vertical-align:middle;
+}
+/* 翻译完成后淡入 */
+.ititle,.isum,#htitle,#hsum,.ht,.mbody-text{
+  transition:opacity .25s;
+}
+/* EN 模式语言标识 */
+.lang-badge{
+  display:inline-flex;align-items:center;gap:4px;
+  font-size:10px;font-weight:700;
+  padding:1px 5px;border-radius:3px;
+  background:rgba(26,86,219,.08);color:var(--blue);
+  vertical-align:middle;margin-left:5px;
 }
 
-/* ── AUTH & LANG STYLES ── */
-.lang-switch{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--text-dim);cursor:pointer;display:flex;align-items:center;gap:6px;padding:5px 10px;border:1px solid var(--border);transition:all .2s}
-.lang-switch:hover{border-color:var(--teal)}
-.lang-sep{color:var(--border)}
-.lang-active{color:var(--teal)}
-.nav-user{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);cursor:pointer;padding:5px 12px;border:1px solid rgba(45,212,191,.3);position:relative;display:flex;align-items:center;gap:4px}
-.user-menu{position:absolute;top:calc(100% + 8px);right:0;background:var(--bg3);border:1px solid var(--border);min-width:150px;z-index:1000;display:none}
-.user-menu.open{display:block}
-.user-menu-item{padding:10px 16px;font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-mid);cursor:pointer;letter-spacing:.05em;transition:all .2s}
-.user-menu-item:hover{color:var(--teal);background:var(--teal-dim)}
-.user-menu-divider{border-top:1px solid var(--border);margin:4px 0}
-.user-menu-logout{color:var(--red)!important}
-/* Auth Modal */
-.auth-overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:2000;display:none;align-items:center;justify-content:center;backdrop-filter:blur(4px)}
-.auth-overlay.open{display:flex!important}
-.auth-modal{background:var(--bg2);border:1px solid var(--border);width:440px;max-width:95vw;position:relative}
-.auth-modal-header{padding:28px 32px 0;display:flex;justify-content:space-between;align-items:center}
-.auth-modal-title{font-family:'Noto Serif SC',serif;font-size:1.4rem;font-weight:900;color:var(--text)}
-.auth-modal-title em{font-style:normal;color:var(--teal)}
-.auth-close{font-family:'Share Tech Mono',monospace;color:var(--text-dim);cursor:pointer;font-size:1rem;background:none;border:none;transition:color .2s}
-.auth-close:hover{color:var(--teal)}
-.auth-tabs{display:flex;gap:0;padding:20px 32px 0;border-bottom:1px solid var(--border)}
-.auth-tab{font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:var(--text-dim);cursor:pointer;padding:8px 16px;border-bottom:2px solid transparent;transition:all .2s;position:relative;bottom:-1px}
-.auth-tab.active{color:var(--teal);border-bottom-color:var(--teal)}
-.auth-body{padding:28px 32px 32px}
-.auth-field{margin-bottom:16px}
-.auth-label{font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--teal);letter-spacing:.2em;text-transform:uppercase;margin-bottom:6px;display:block}
-.auth-input{width:100%;background:var(--bg3);border:1px solid var(--border);color:var(--text);font-family:'Share Tech Mono',monospace;font-size:.8rem;padding:10px 14px;outline:none;transition:border-color .2s}
-.auth-input:focus{border-color:var(--teal)}
-.auth-submit{width:100%;font-family:'Orbitron',monospace;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--bg);background:var(--teal);border:none;padding:13px;cursor:pointer;clip-path:polygon(0 0,calc(100% - 8px) 0,100% 8px,100% 100%,8px 100%,0 calc(100% - 8px));transition:all .2s;margin-top:8px}
-.auth-submit:hover{background:#5eead4;box-shadow:0 0 30px rgba(45,212,191,.4)}
-.auth-submit:disabled{opacity:.5;cursor:not-allowed}
-.auth-msg{font-family:'Share Tech Mono',monospace;font-size:.65rem;margin-top:12px;padding:8px 12px;display:none}
-.auth-msg.error{color:var(--red);border:1px solid rgba(239,68,68,.3);background:rgba(239,68,68,.05);display:block}
-.auth-msg.success{color:var(--teal);border:1px solid rgba(45,212,191,.3);background:rgba(45,212,191,.05);display:block}
-.auth-divider{text-align:center;margin:16px 0;font-family:'Share Tech Mono',monospace;font-size:.58rem;color:var(--text-dim)}
-.auth-google{width:100%;font-family:'Share Tech Mono',monospace;font-size:.65rem;letter-spacing:.1em;color:var(--text);background:var(--bg3);border:1px solid var(--border);padding:11px;cursor:pointer;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px}
-.auth-google:hover{border-color:var(--teal);color:var(--teal)}
-
-/* ════════════════════════════════
-   小说阅读模块 NOVEL READER
-════════════════════════════════ */
-.novel-read-sec{padding:0 80px 80px}
-#novel-list{max-width:860px;margin:0 auto}
-#novel-list h2{font-family:'Noto Serif SC',serif;font-size:1.6rem;font-weight:900;color:var(--text);margin-bottom:8px}
-#novel-list h2 em{font-style:normal;color:var(--teal)}
-.novel-list-sub{font-family:'Share Tech Mono',monospace;font-size:.62rem;color:var(--text-dim);letter-spacing:.15em;margin-bottom:28px}
-.novel-item{background:var(--bg2);padding:20px 24px;margin-bottom:2px;cursor:pointer;border:1px solid var(--border);transition:all .2s;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:20px;position:relative;overflow:hidden}
-.novel-item::before{content:'';position:absolute;left:0;top:0;bottom:0;width:0;background:var(--teal);transition:width .2s}
-.novel-item:hover{background:var(--bg3);border-color:var(--teal)}
-.novel-item:hover::before{width:3px}
-.novel-item-num{font-family:'Orbitron',monospace;font-size:1.2rem;font-weight:900;color:rgba(45,212,191,.2);min-width:36px;text-align:center}
-.novel-item-body h3{font-family:'Noto Serif SC',serif;font-size:1rem;font-weight:700;color:var(--text);margin-bottom:4px}
-.novel-item-body p{font-size:.82rem;color:var(--text-dim);line-height:1.6}
-.novel-item-badge{font-family:'Share Tech Mono',monospace;font-size:.58rem;padding:3px 8px;border:1px solid;white-space:nowrap}
-.badge-free-read{color:#a78bfa;border-color:rgba(167,139,250,.3)}
-.badge-lock{color:var(--gold);border-color:rgba(245,158,11,.3)}
-
-/* 阅读视图 */
-#chapter-view{max-width:720px;margin:0 auto;display:none}
-.chapter-nav{display:flex;align-items:center;gap:12px;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.chapter-back{font-family:'Share Tech Mono',monospace;font-size:.65rem;color:var(--teal);cursor:pointer;border:1px solid rgba(45,212,191,.3);padding:6px 14px;background:transparent;transition:all .2s;letter-spacing:.1em}
-.chapter-back:hover{background:var(--teal-dim)}
-.chapter-title-bar{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.15em}
-.chapter-heading{font-family:'Noto Serif SC',serif;font-size:1.8rem;font-weight:900;color:var(--text);margin-bottom:8px;line-height:1.2}
-.chapter-heading em{font-style:normal;color:var(--teal)}
-.chapter-meta{font-family:'Share Tech Mono',monospace;font-size:.6rem;color:var(--text-dim);letter-spacing:.1em;margin-bottom:32px;padding-bottom:20px;border-bottom:1px solid var(--border)}
-.chapter-body{font-family:'Noto Serif SC',serif;font-size:1rem;line-height:2.2;color:var(--text-mid)}
-.chapter-body p{margin-bottom:1.5em;text-indent:2em}
-.chapter-body p:first-child{text-indent:0}
-.chapter-footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
-.chapter-prev-next{display:flex;gap:8px}
-@media(max-width:900px){
-  .novel-read-sec{padding-left:20px;padding-right:20px}
-}
 </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav class="tab-nav">
-  <div class="tab-inner">
-    <div class="tab-logo">K<span>1980</span> · 江湖传言</div>
-    <div class="tabs">
-      <button class="tab-btn active" onclick="showPage('home')">首页</button>
-      <button class="tab-btn" onclick="showPage('jianghu')" style="color:var(--gold)">◆ 江湖传</button>
-      <button class="tab-btn" onclick="showPage('library')">书库</button>
-      <button class="tab-btn" onclick="showPage('creator')">创作者</button>
-      <button class="tab-btn" onclick="showPage('lingshi')">灵石</button>
-      <button class="tab-btn" onclick="showPage('about')">关于</button>
+<!-- ══ HEADER ══════════════════════════════════════════════ -->
+<header id="hdr">
+  <div class="hdr-in">
+    <div class="logo" onclick="goHome()">
+      <span class="logo-k">K1980</span>
+      <span class="logo-div"></span>
+      <span class="logo-sub zh-only">全球华人资讯</span>
+      <span class="logo-sub en-only">Global Chinese Media</span>
     </div>
-    <div class="tab-right">
-      <div class="lang-switch" id="langSwitch" onclick="toggleLang()">
-        <span id="langZH" class="lang-active">中文</span>
-        <span class="lang-sep">·</span>
-        <span id="langEN">EN</span>
-      </div>
-      <div class="nav-stones" id="navStones" style="display:none">◆ <span id="navStoneCount">0</span> 灵石</div>
-      <div class="nav-user" id="navUser" style="display:none" onclick="toggleUserMenu()">
-        <span id="navUserName"></span> ▾
-        <div class="user-menu" id="userMenu">
-          <div class="user-menu-item" onclick="showPage('lingshi')">购买灵石</div>
-          <div class="user-menu-item" onclick="showPage('creator')">创作者后台</div>
-          <div class="user-menu-divider"></div>
-          <div class="user-menu-item user-menu-logout" onclick="handleLogout()">退出江湖</div>
+
+    <div class="srch">
+      <svg class="srch-ic" width="14" height="14" viewBox="0 0 16 16" fill="none">
+        <circle cx="6.5" cy="6.5" r="4.5" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M10.5 10.5L14 14" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+      </svg>
+      <input id="si" type="text" autocomplete="off" spellcheck="false"/>
+    </div>
+
+    <div class="hdr-r">
+      <!-- 区域切换 -->
+      <div class="region-picker" id="region-picker">
+        <button class="region-btn" id="region-btn" onclick="toggleRegionDrop()">
+          <span class="flag" id="region-flag">🌐</span>
+          <span id="region-name-btn">全球</span>
+          <span class="arr">▾</span>
+        </button>
+        <div class="region-drop" id="region-drop">
+          <div class="region-opt active" data-region="global" onclick="setRegion('global',this)">
+            <span class="flag">🌐</span><span class="zh-only">全球</span><span class="en-only">Global</span>
+          </div>
+          <div class="region-opt" data-region="nz" onclick="setRegion('nz',this)">
+            <span class="flag">🇳🇿</span><span class="zh-only">新西兰</span><span class="en-only">New Zealand</span>
+          </div>
+          <div class="region-opt" data-region="au" onclick="setRegion('au',this)">
+            <span class="flag">🇦🇺</span><span class="zh-only">澳大利亚</span><span class="en-only">Australia</span>
+          </div>
+          <div class="region-opt" data-region="ca" onclick="setRegion('ca',this)">
+            <span class="flag">🇨🇦</span><span class="zh-only">加拿大</span><span class="en-only">Canada</span>
+          </div>
+          <div class="region-opt" data-region="us" onclick="setRegion('us',this)">
+            <span class="flag">🇺🇸</span><span class="zh-only">美国</span><span class="en-only">United States</span>
+          </div>
+          <div class="region-opt" data-region="gb" onclick="setRegion('gb',this)">
+            <span class="flag">🇬🇧</span><span class="zh-only">英国</span><span class="en-only">United Kingdom</span>
+          </div>
+          <div style="padding:5px 14px 4px;font-size:10px;font-weight:700;color:var(--ink4);letter-spacing:.8px;text-transform:uppercase;border-top:1px solid var(--border)">亚洲 · Asia</div>
+          <div class="region-opt" data-region="jp" onclick="setRegion('jp',this)">
+            <span class="flag">🇯🇵</span><span class="zh-only">日本</span><span class="en-only">Japan</span>
+          </div>
+          <div class="region-opt" data-region="kr" onclick="setRegion('kr',this)">
+            <span class="flag">🇰🇷</span><span class="zh-only">韩国</span><span class="en-only">South Korea</span>
+          </div>
+          <div class="region-opt" data-region="sg" onclick="setRegion('sg',this)">
+            <span class="flag">🇸🇬</span><span class="zh-only">新加坡</span><span class="en-only">Singapore</span>
+          </div>
+          <div class="region-opt" data-region="my" onclick="setRegion('my',this)">
+            <span class="flag">🇲🇾</span><span class="zh-only">马来西亚</span><span class="en-only">Malaysia</span>
+          </div>
+          <div class="region-opt" data-region="id" onclick="setRegion('id',this)">
+            <span class="flag">🇮🇩</span><span class="zh-only">印度尼西亚</span><span class="en-only">Indonesia</span>
+          </div>
         </div>
       </div>
-      <button class="nav-login" id="navLoginBtn" onclick="showAuthModal('login')">登入江湖</button>
+
+      <!-- 语言切换 -->
+      <button class="lang-btn zh-active" id="lang-btn" onclick="toggleLang()">
+        <span class="zh-txt">中</span>
+        <span class="lang-sep">/</span>
+        <span class="en-txt">EN</span>
+      </button>
+
+      <button class="ic-btn" id="rbtn" title="刷新">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+          <path d="M2.5 8a5.5 5.5 0 1 0 1-3.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          <path d="M2.5 3.5V8H7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <div class="live-pill"><span class="live-d"></span><span class="zh-only">实时</span><span class="en-only">Live</span></div>
+      <div class="live-pill en-only" id="tx-pill" style="background:rgba(26,86,219,.08);border-color:rgba(26,86,219,.2);color:var(--blue);display:none">
+        <span id="tx-status">⟳ AI翻译中</span>
+      </div>
     </div>
+  </div>
+</header>
+
+<!-- ══ 区域快捷条 ══════════════════════════════════════════ -->
+<div id="region-bar">
+  <div class="rbar-in">
+    <span class="rbar-label zh-only">地区</span>
+    <span class="rbar-label en-only">Region</span>
+    <button class="rtab on" data-region="global" onclick="setRegion('global',this)"><span class="flag">🌐</span><span class="zh-only">全球</span><span class="en-only">Global</span></button>
+    <button class="rtab" data-region="nz" onclick="setRegion('nz',this)"><span class="flag">🇳🇿</span><span class="zh-only">新西兰</span><span class="en-only">NZ</span></button>
+    <button class="rtab" data-region="au" onclick="setRegion('au',this)"><span class="flag">🇦🇺</span><span class="zh-only">澳洲</span><span class="en-only">AU</span></button>
+    <button class="rtab" data-region="ca" onclick="setRegion('ca',this)"><span class="flag">🇨🇦</span><span class="zh-only">加拿大</span><span class="en-only">CA</span></button>
+    <button class="rtab" data-region="us" onclick="setRegion('us',this)"><span class="flag">🇺🇸</span><span class="zh-only">美国</span><span class="en-only">US</span></button>
+    <button class="rtab" data-region="gb" onclick="setRegion('gb',this)"><span class="flag">🇬🇧</span><span class="zh-only">英国</span><span class="en-only">UK</span></button>
+    <span style="width:1px;height:14px;background:var(--border2);margin:0 4px;flex-shrink:0"></span>
+    <button class="rtab" data-region="jp" onclick="setRegion('jp',this)"><span class="flag">🇯🇵</span><span class="zh-only">日本</span><span class="en-only">JP</span></button>
+    <button class="rtab" data-region="kr" onclick="setRegion('kr',this)"><span class="flag">🇰🇷</span><span class="zh-only">韩国</span><span class="en-only">KR</span></button>
+    <button class="rtab" data-region="sg" onclick="setRegion('sg',this)"><span class="flag">🇸🇬</span><span class="zh-only">新加坡</span><span class="en-only">SG</span></button>
+    <button class="rtab" data-region="my" onclick="setRegion('my',this)"><span class="flag">🇲🇾</span><span class="zh-only">马来西亚</span><span class="en-only">MY</span></button>
+    <button class="rtab" data-region="id" onclick="setRegion('id',this)"><span class="flag">🇮🇩</span><span class="zh-only">印尼</span><span class="en-only">ID</span></button>
+  </div>
+</div>
+
+<!-- ══ 分类导航 ═══════════════════════════════════════════ -->
+<nav id="nav">
+  <div class="nav-in">
+    <button class="ctab on" data-c="all"><span class="zh-only">全部</span><span class="en-only">All</span></button>
+    <button class="ctab local-tab" data-c="local" id="local-tab" style="display:none"></button>
+    <button class="ctab" data-c="时事"><span class="zh-only">时事</span><span class="en-only">News</span></button>
+    <button class="ctab" data-c="移民"><span class="zh-only">移民</span><span class="en-only">Immigration</span></button>
+    <button class="ctab" data-c="教育"><span class="zh-only">教育</span><span class="en-only">Education</span></button>
+    <button class="ctab" data-c="财经"><span class="zh-only">财经</span><span class="en-only">Finance</span></button>
+    <button class="ctab" data-c="科技"><span class="zh-only">科技</span><span class="en-only">Tech</span></button>
+    <button class="ctab" data-c="生活"><span class="zh-only">生活</span><span class="en-only">Life</span></button>
+    <button class="ctab" data-c="旅游"><span class="zh-only">旅游</span><span class="en-only">Travel</span></button>
+    <button class="ctab ctab-games" data-c="games">
+      <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
+        <rect x="1" y="4" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.3"/>
+        <path d="M5 8.5h3M6.5 7v3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+        <circle cx="11" cy="8" r=".8" fill="currentColor"/><circle cx="13" cy="9.5" r=".8" fill="currentColor"/>
+      </svg>
+      <span class="zh-only">游戏</span><span class="en-only">Games</span>
+    </button>
   </div>
 </nav>
 
-<!-- ═══ PAGE: HOME ═══ -->
-<div id="page-home" class="page active">
-  <section class="hero">
-    <div class="hero-grid"></div>
-    <div class="hero-char">湖</div>
-    <div class="hero-tag"><span class="blink">●</span> 江湖传言 · 正式上线 · LIVE</div>
-    <h1 class="hero-title">
-      <span class="t1">听天下风声</span>
-      <span class="t2">辨江湖真假</span>
-    </h1>
-    <div class="hero-en">K1980 · JIANGHU CHUANYAN · GLOBAL NOVEL PLATFORM</div>
-    <p class="hero-desc">全球首个以东方江湖文化为主题的双语小说平台。创作者发布，读者付费，平台分成。每一个故事，都是一局江湖棋。</p>
-    <div class="hero-btns">
-      <button class="btn-p" onclick="showPage('library')">进入书库</button>
-      <button class="btn-s" onclick="showPage('creator')">我要创作</button>
-    </div>
-    <div class="hero-stats">
-      <div class="stat"><span class="stat-n">500+</span><span class="stat-l">创作者</span></div>
-      <div class="stat"><span class="stat-n">2,000+</span><span class="stat-l">作品</span></div>
-      <div class="stat"><span class="stat-n">50%~75%</span><span class="stat-l">创作者分成</span></div>
-      <div class="stat"><span class="stat-n">中·英</span><span class="stat-l">双语运营</span></div>
-    </div>
-  </section>
-
-  <div class="ticker-w">
-    <div class="ticker">
-      <span class="tick-i">江湖传 · 第一季连载中</span>
-      <span class="tick-i">新人激励计划 · 前1000名创作者享70%分成</span>
-      <span class="tick-i">AI写作助手 · 即将上线</span>
-      <span class="tick-i">本周新书 · 《刀海浮沉录》</span>
-      <span class="tick-i">江湖热榜 · 《听风者》蝉联榜首</span>
-      <span class="tick-i">k1980.app · 全球中英双语平台</span>
-      <span class="tick-i">江湖传 · 第一季连载中</span>
-      <span class="tick-i">新人激励计划 · 前1000名创作者享70%分成</span>
-      <span class="tick-i">AI写作助手 · 即将上线</span>
-      <span class="tick-i">本周新书 · 《刀海浮沉录》</span>
-      <span class="tick-i">江湖热榜 · 《听风者》蝉联榜首</span>
-      <span class="tick-i">k1980.app · 全球中英双语平台</span>
-    </div>
-  </div>
-
-  <!-- 江湖传 FLAGSHIP BANNER -->
-  <div class="jht-banner">
-    <div class="jht-inner">
-      <div class="jht-left">
-        <div class="jht-eyebrow">K1980 旗舰IP · 第一季连载中</div>
-        <h2 class="jht-title">江湖<em>传</em></h2>
-        <div class="jht-en">JIANGHU LEGEND · SEASON ONE</div>
-        <p class="jht-desc">大夏王朝之内，有一座三层茶楼，名曰听风堂。天下风声，皆汇于此。一个少年来到京城，只问一句话——谁杀了我父亲？</p>
-        <div class="jht-tags">
-          <span class="jht-tag">武侠</span>
-          <span class="jht-tag">江湖</span>
-          <span class="jht-tag">情报战</span>
-          <span class="jht-tag">王朝博弈</span>
-          <span class="jht-tag">中英双语</span>
-        </div>
-        <div class="jht-actions">
-          <button class="btn-p" onclick="showPage('jianghu')">进入江湖</button>
-          <button class="btn-s" onclick="showPage('jianghu')">查看剧情</button>
-          <span class="jht-ep">第1集免费 · 共12集</span>
-        </div>
+<!-- ══ 资讯布局 ════════════════════════════════════════════ -->
+<div class="layout" id="main-layout">
+  <main id="mc">
+    <div id="hero">
+      <div class="hero-ey">
+        <span class="hero-cat" id="hcat"></span>
+        <span class="hero-src" id="hsrc"></span>
+        <span class="hero-time" id="htm"></span>
       </div>
-      <div class="jht-right">
-        <div class="jht-chars">
-          <div class="jht-char-big c1">湖</div>
-          <div class="jht-char-big c2">风</div>
-        </div>
-        <div class="jht-episodes">
-          <div class="jht-ep-card current">
-            <div class="jht-ep-num">第01集 · 免费</div>
-            <div class="jht-ep-title">听风堂</div>
-            <div class="jht-ep-desc">少年顾长安踏入京城，走进那座传说中的茶楼。</div>
-            <div class="jht-ep-status">▶ 立即阅读</div>
-          </div>
-          <div class="jht-ep-card">
-            <div class="jht-ep-num">第02集 · 8灵石</div>
-            <div class="jht-ep-title">血影刺客</div>
-            <div class="jht-ep-desc">一个刺客接到任务——目标是顾长安。</div>
-          </div>
-          <div class="jht-ep-card">
-            <div class="jht-ep-num">第03集 · 8灵石</div>
-            <div class="jht-ep-title">静空间</div>
-            <div class="jht-ep-desc">权力的客厅里，静夫人说：京城是棋盘。</div>
-          </div>
-          <div class="jht-ep-card" style="opacity:.5">
-            <div class="jht-ep-num">第04-12集 · 连载更新中</div>
-            <div class="jht-ep-title">天书之谜 · 江湖棋局</div>
-            <div class="jht-ep-desc">父亲死亡的真相，藏在一卷天书里……</div>
-          </div>
+      <div class="hero-title" id="htitle"></div>
+      <div class="hero-sum" id="hsum"></div>
+      <div class="hero-foot">
+        <div class="hero-tags" id="htags"></div>
+        <div class="hero-rd">
+          <span class="zh-only">阅读全文</span><span class="en-only">Read More</span>
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M2 6h8M6 2l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Featured -->
-  <section class="sec">
-    <div class="sec-hd">
-      <div class="sec-title">
-        <span class="sec-num">// 001 · FEATURED</span>
-        <h2 class="sec-name">今日<em>推荐</em></h2>
-      </div>
-      <button class="sec-more" onclick="showPage('library')">查看全部书库 →</button>
-    </div>
-    <div class="books-grid">
-      <div class="book-card">
-        <div class="book-cover cg1"><span class="book-cover-char">江</span><span class="book-cover-badge badge-new">连载中</span><span class="book-cover-lock">◆ 付费</span></div>
-        <div class="book-info">
-          <div class="book-genre">武侠 · 江湖 · K1980</div>
-          <div class="book-title">江湖传 · 第一季</div>
-          <div class="book-author">K1980 Creative Studio</div>
-          <div class="book-meta">
-            <span class="book-meta-item">👁 12.4万</span>
-            <span class="book-meta-item">★ 4.9</span>
-            <span class="book-price">◆ 8灵石/章</span>
-          </div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cg2"><span class="book-cover-char">刀</span><span class="book-cover-badge badge-hot">热榜#1</span><span class="book-cover-lock">◆ 付费</span></div>
-        <div class="book-info">
-          <div class="book-genre">武侠 · 热血</div>
-          <div class="book-title">刀海浮沉录</div>
-          <div class="book-author">游侠无风</div>
-          <div class="book-meta">
-            <span class="book-meta-item">👁 8.2万</span>
-            <span class="book-meta-item">★ 4.7</span>
-            <span class="book-price">◆ 6灵石/章</span>
-          </div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cg3"><span class="book-cover-char">仙</span><span class="book-cover-badge badge-free">前10章免费</span></div>
-        <div class="book-info">
-          <div class="book-genre">修仙 · 玄幻</div>
-          <div class="book-title">The Immortal Wind Gate</div>
-          <div class="book-author">Chen MingYu</div>
-          <div class="book-meta">
-            <span class="book-meta-item">👁 5.6万</span>
-            <span class="book-meta-item">★ 4.8</span>
-            <span class="book-price">◆ 5灵石/章</span>
-          </div>
-        </div>
-      </div>
-      <div class="book-card">
-        <div class="book-cover cg4"><span class="book-cover-char">朝</span><span class="book-cover-badge badge-hot">英文新星</span></div>
-        <div class="book-info">
-          <div class="book-genre">朝堂 · 权谋</div>
-          <div class="book-title">Shadow of the Dragon Throne</div>
-          <div class="book-author">Lin Xiao</div>
-          <div class="book-meta">
-            <span class="book-meta-item">👁 3.1万</span>
-            <span class="book-meta-item">★ 4.6</span>
-            <span class="book-price">◆ 7灵石/章</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Rankings -->
-  <section class="sec" style="padding-top:0">
-    <div class="sec-hd">
-      <div class="sec-title">
-        <span class="sec-num">// 002 · RANKING</span>
-        <h2 class="sec-name">江湖<em>热榜</em></h2>
-      </div>
-      <button class="sec-more">本周榜单 →</button>
-    </div>
-    <div class="rank-list">
-      <div class="rank-item"><div class="rank-pos p1">01</div><div class="rank-info"><div class="rank-title">刀海浮沉录</div><div class="rank-by">游侠无风 · 武侠</div></div><div class="rank-num"><span class="rn-big">82,341</span>本周阅读</div></div>
-      <div class="rank-item"><div class="rank-pos p2">02</div><div class="rank-info"><div class="rank-title">江湖传 · 第一季</div><div class="rank-by">K1980 Studio · 武侠江湖</div></div><div class="rank-num"><span class="rn-big">72,108</span>本周阅读</div></div>
-      <div class="rank-item"><div class="rank-pos p3">03</div><div class="rank-info"><div class="rank-title">The Immortal Wind Gate</div><div class="rank-by">Chen MingYu · 修仙</div></div><div class="rank-num"><span class="rn-big">56,204</span>本周阅读</div></div>
-      <div class="rank-item"><div class="rank-pos other">04</div><div class="rank-info"><div class="rank-title">Shadow of the Dragon Throne</div><div class="rank-by">Lin Xiao · 朝堂权谋</div></div><div class="rank-num"><span class="rn-big">31,455</span>本周阅读</div></div>
-      <div class="rank-item"><div class="rank-pos other">05</div><div class="rank-info"><div class="rank-title">侠客行·新纪元</div><div class="rank-by">北风入云 · 武侠</div></div><div class="rank-num"><span class="rn-big">28,990</span>本周阅读</div></div>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="f-brand"><div class="f-logo">K<span>1980</span></div><p>复古未来创作工作室<br>听天下风声，辨江湖真假<br>Retro-Futuristic Creative Studio</p><div class="f-domains"><span class="f-domain">k1980.com</span><span class="f-domain">k1980.app</span><span class="f-domain">k1980.ai</span><span class="f-domain">k1980.world</span><span class="f-domain">life1980.com</span><span class="f-domain">life-90.com</span></div></div>
-    <div><div class="f-col-title">创作者</div><ul class="f-links"><li><a>开始创作</a></li><li><a>分成说明</a></li><li><a>AI写作助手</a></li><li><a>创作者协议</a></li></ul></div>
-    <div><div class="f-col-title">读者</div><ul class="f-links"><li><a>书库</a></li><li><a>购买灵石</a></li><li><a>月卡会员</a></li><li><a>江湖身份</a></li></ul></div>
-    <div><div class="f-col-title">关于</div><ul class="f-links"><li><a>K1980品牌</a></li><li><a>《江湖传》IP</a></li><li><a>联系我们</a></li><li><a>投资者关系</a></li></ul></div>
-    <div class="f-bottom"><span class="f-copy">© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app</span><span class="f-sys">SYS.STATUS: ONLINE · USERS: 50,412</span></div>
-  </footer>
-</div>
-
-<!-- ═══ PAGE: LIBRARY ═══ -->
-<div id="page-library" class="page">
-  <div class="library-layout">
-    <aside class="sidebar">
-      <div class="sidebar-sec">
-        <div class="sidebar-title">题材分类</div>
-        <div class="filter-item active" data-genre="">全部作品 <span class="filter-count" id="countAll">10</span></div>
-        <div class="filter-item" data-genre="武侠江湖">武侠江湖 <span class="filter-count">3</span></div>
-        <div class="filter-item">修仙玄幻 <span class="filter-count">621</span></div>
-        <div class="filter-item" data-genre="朝堂权谋">朝堂权谋 <span class="filter-count">2</span></div>
-        <div class="filter-item" data-genre="市井奇情">市井奇情 <span class="filter-count">2</span></div>
-        <div class="filter-item" data-genre="西域异域">西域异域 <span class="filter-count">1</span></div>
-        <div class="filter-item" data-genre="英文武侠">English Works <span class="filter-count">2</span></div>
-      </div>
-      <div class="sidebar-sec">
-        <div class="sidebar-title">更新状态</div>
-        <div class="filter-item">连载中 <span class="filter-count">1,204</span></div>
-        <div class="filter-item">已完结 <span class="filter-count">987</span></div>
-        <div class="filter-item">暂停更新 <span class="filter-count">150</span></div>
-      </div>
-      <div class="sidebar-sec">
-        <div class="sidebar-title">付费方式</div>
-        <div class="filter-item">包含免费章节</div>
-        <div class="filter-item">灵石付费</div>
-        <div class="filter-item">月卡可读</div>
-      </div>
-      <div class="sidebar-sec">
-        <div class="sidebar-title">语言</div>
-        <div class="filter-item">中文</div>
-        <div class="filter-item">English</div>
-        <div class="filter-item">双语</div>
-      </div>
-    </aside>
-    <main style="padding:40px">
-      <div class="lib-toolbar">
-        <button class="lib-sort active">最新</button>
-        <button class="lib-sort">最热</button>
-        <button class="lib-sort">完结</button>
-        <button class="lib-sort">新人推荐</button>
-        <input class="lib-search" placeholder="搜索书名、作者、标签…">
-      </div>
-      <div class="books-list-grid">
-        <div class="book-card"><div class="book-cover cg1" style="height:200px"><span class="book-cover-char">江</span><span class="book-cover-badge badge-new">连载</span></div><div class="book-info"><div class="book-genre">武侠·K1980</div><div class="book-title">江湖传·第一季</div><div class="book-author">K1980 Studio</div><div class="book-meta"><span class="book-price">◆ 8石/章</span></div></div></div>
-        <div class="book-card"><div class="book-cover cg2" style="height:200px"><span class="book-cover-char">刀</span><span class="book-cover-badge badge-hot">热榜</span></div><div class="book-info"><div class="book-genre">武侠·热血</div><div class="book-title">刀海浮沉录</div><div class="book-author">游侠无风</div><div class="book-meta"><span class="book-price">◆ 6石/章</span></div></div></div>
-        <div class="book-card"><div class="book-cover cg3" style="height:200px"><span class="book-cover-char">仙</span><span class="book-cover-badge badge-free">前10免费</span></div><div class="book-info"><div class="book-genre">修仙·英文</div><div class="book-title">Immortal Wind Gate</div><div class="book-author">Chen MingYu</div><div class="book-meta"><span class="book-price">◆ 5石/章</span></div></div></div>
-        <div class="book-card"><div class="book-cover cg4" style="height:200px"><span class="book-cover-char">朝</span><span class="book-cover-badge badge-hot">英文</span></div><div class="book-info"><div class="book-genre">权谋·英文</div><div class="book-title">Dragon Throne</div><div class="book-author">Lin Xiao</div><div class="book-meta"><span class="book-price">◆ 7石/章</span></div></div></div>
-        <div class="book-card"><div class="book-cover cg1" style="height:200px;background:linear-gradient(135deg,rgba(167,139,250,.25),var(--bg3))"><span class="book-cover-char">侠</span></div><div class="book-info"><div class="book-genre">武侠·奇侠</div><div class="book-title">侠客行·新纪元</div><div class="book-author">北风入云</div><div class="book-meta"><span class="book-price">◆ 5石/章</span></div></div></div>
-        <div class="book-card"><div class="book-cover cg2" style="height:200px;background:linear-gradient(135deg,rgba(239,68,68,.2),var(--bg3))"><span class="book-cover-char">血</span></div><div class="book-info"><div class="book-genre">江湖·暗影</div><div class="book-title">血影楼秘史</div><div class="book-author">暗夜刀客</div><div class="book-meta"><span class="book-price">◆ 6石/章</span></div></div></div>
-      </div>
-    </main>
-  </div>
-</div>
-
-<!-- ═══ PAGE: CREATOR ═══ -->
-<div id="page-creator" class="page">
-  <div class="creator-page">
-    <div class="creator-hero">
-      <div class="creator-hero-bg">创</div>
-      <h2>在江湖<em>留名</em><br>你的故事</h2>
-      <p>江湖传言是全球首个以东方江湖文化为主题的双语创作发布平台。你负责创作，平台负责变现。最高75%分成，AI写作助手加持，全球读者触达。</p>
-      <div style="display:flex;gap:12px;flex-wrap:wrap">
-        <button class="btn-p">立即注册创作者</button>
-        <button class="btn-s">查看创作者协议</button>
+    <div class="bar">
+      <span class="bar-lbl" id="blbl"></span>
+      <div class="srt">
+        <button class="srt-btn on" data-s="latest"><span class="zh-only">最新</span><span class="en-only">Latest</span></button>
+        <button class="srt-btn" data-s="hot"><span class="zh-only">最热</span><span class="en-only">Hot</span></button>
       </div>
     </div>
 
-    <div class="creator-benefits">
-      <div class="benefit-card"><div class="benefit-num">01</div><div class="benefit-icon">💰</div><div class="benefit-title">高比例分成</div><div class="benefit-desc">最高75%读者付费分成。新人起步50%，随收入成长提升。前1000名注册创作者享终身70%分成锁定。</div></div>
-      <div class="benefit-card"><div class="benefit-num">02</div><div class="benefit-icon">🤖</div><div class="benefit-title">AI写作助手</div><div class="benefit-desc">专为江湖世界训练的AI助手。支持续写、润色、人物设定生成、情节构建，大幅提升创作效率。</div></div>
-      <div class="benefit-card"><div class="benefit-num">03</div><div class="benefit-icon">🌐</div><div class="benefit-title">全球双语发行</div><div class="benefit-desc">平台覆盖全球华人及英文读者。优质作品可申请平台翻译支持，同步进入英文市场。</div></div>
-      <div class="benefit-card"><div class="benefit-num">04</div><div class="benefit-icon">⚔️</div><div class="benefit-title">江湖身份系统</div><div class="benefit-icon"></div><div class="benefit-desc">创作者拥有可见的江湖影响力排名。读者可加入你的"门派"，形成忠实粉丝社群。</div></div>
-      <div class="benefit-card"><div class="benefit-num">05</div><div class="benefit-icon">📊</div><div class="benefit-title">数据看板</div><div class="benefit-desc">实时查看阅读量、付费转化率、读者画像、收入明细。所有数据透明，无黑箱。</div></div>
-      <div class="benefit-card"><div class="benefit-num">06</div><div class="benefit-icon">🎯</div><div class="benefit-title">IP孵化通道</div><div class="benefit-desc">平台头部作品可申请IP孵化，获得影视/游戏改编对接机会。K1980提供品牌背书与资源支持。</div></div>
+    <div id="feed"></div>
+    <div id="more-wrap" style="display:none">
+      <button id="mbtn" class="more-btn"><span class="zh-only">显示更多文章</span><span class="en-only">Load More</span></button>
     </div>
-
-    <div class="tiers-section">
-      <h3>创作者分成等级</h3>
-      <div class="tiers-grid">
-        <div class="tier-card"><div class="tier-name">新人侠客</div><div class="tier-pct">50%</div><div class="tier-sub">STARTER</div><div class="tier-cond">注册即享<br>无门槛开始创作</div></div>
-        <div class="tier-card featured"><div class="tier-name">江湖游侠</div><div class="tier-pct">60%</div><div class="tier-sub">WANDERER</div><div class="tier-cond">月收入 <strong>$100+</strong><br>或平台签约</div></div>
-        <div class="tier-card"><div class="tier-name">一方宗师</div><div class="tier-pct">70%</div><div class="tier-sub">MASTER</div><div class="tier-cond">月收入 <strong>$1,000+</strong><br>或头部作者</div></div>
-        <div class="tier-card"><div class="tier-name">传说人物</div><div class="tier-pct">75%</div><div class="tier-sub">LEGEND</div><div class="tier-cond">平台深度签约<br><strong>专属运营支持</strong></div></div>
-      </div>
+    <div class="fin" id="fin" style="display:none">
+      <span class="zh-only">— 已加载全部 <strong id="ftotal">0</strong> 条 —</span>
+      <span class="en-only">— <strong id="ftotal-en">0</strong> articles loaded —</span>
     </div>
-  </div>
-</div>
+    <div style="height:4rem"></div>
+  </main>
 
-<!-- ═══ PAGE: LINGSHI ═══ -->
-<div id="page-lingshi" class="page">
-  <div class="lingshi-page">
-    <div class="lingshi-hero">
-      <h2>购买<em>灵石</em></h2>
-      <p>灵石是江湖传言的通用货币。用于解锁付费章节，打赏创作者，兑换会员权益。</p>
+  <aside id="side">
+    <div class="scard">
+      <div class="scard-hd"><span class="scard-dot" style="background:#d4271d"></span><span class="scard-title zh-only">热门话题</span><span class="scard-title en-only">Trending</span></div>
+      <div style="padding:6px 0 8px"><ol id="hotl"></ol></div>
     </div>
-
-    <div class="stones-grid">
-      <div class="stone-card">
-        <div class="stone-gem">🔷</div>
-        <div class="stone-amount">100</div>
-        <div class="stone-unit">灵 石</div>
-        <div class="stone-price">NZ$1.99</div>
-        <div class="stone-cpp">NZ$0.020 / 石</div>
-        <button class="stone-btn" onclick="buyStones('price_1TDKfBJFYB9fMpq2APn0mTAc', 100)">购买</button>
-      </div>
-      <div class="stone-card">
-        <div class="stone-gem">💎</div>
-        <div class="stone-amount">300</div>
-        <div class="stone-unit">灵 石</div>
-        <div class="stone-price">NZ$4.99</div>
-        <div class="stone-cpp">NZ$0.017 / 石</div>
-        <button class="stone-btn" onclick="buyStones('price_1TDKfoJFYB9fMpq2dL4W5IWJ', 300)">购买</button>
-      </div>
-      <div class="stone-card best-value">
-        <div class="stone-gem">👑</div>
-        <div class="stone-amount">680</div>
-        <div class="stone-unit">灵 石</div>
-        <div class="stone-price">NZ$9.99</div>
-        <div class="stone-cpp">NZ$0.015 / 石</div>
-        <button class="stone-btn" onclick="buyStones('price_1TDKg9JFYB9fMpq2B3pmvVO1', 680)">购买</button>
-      </div>
-      <div class="stone-card">
-        <div class="stone-gem">⚡</div>
-        <div class="stone-amount">1500</div>
-        <div class="stone-unit">灵 石</div>
-        <div class="stone-price">NZ$19.99</div>
-        <div class="stone-cpp">NZ$0.013 / 石</div>
-        <button class="stone-btn" onclick="buyStones('price_1TDKgUJFYB9fMpq2fyTP5xZB', 1500)">购买</button>
+    <div class="scard" id="local-news-side" style="display:none">
+      <div class="scard-hd"><span class="scard-dot" style="background:var(--green)"></span><span class="scard-title" id="local-side-title">本地要闻</span></div>
+      <div style="padding:6px 0 8px"><ol id="local-hot"></ol></div>
+    </div>
+    <div class="scard">
+      <div class="scard-hd"><span class="scard-dot" style="background:#1a56db"></span><span class="scard-title zh-only">今日机会</span><span class="scard-title en-only">Opportunities</span></div>
+      <div id="opp-list">
+        <div class="opp-item"><div class="opp-ico">💼</div><div class="opp-info"><div class="opp-name zh-only">奥克兰招聘产品经理</div><div class="opp-name en-only">Auckland PM Role</div><div class="opp-sub zh-only">科技公司 · 全职</div><div class="opp-sub en-only">Tech · Full-time</div></div><span class="badge badge-n">NEW</span></div>
+        <div class="opp-item"><div class="opp-ico">🛒</div><div class="opp-info"><div class="opp-name zh-only">跨境电商合作项目</div><div class="opp-name en-only">Cross-border E-commerce</div><div class="opp-sub zh-only">华人商业 · 合伙</div><div class="opp-sub en-only">Business · Partnership</div></div><span class="badge badge-h">HOT</span></div>
+        <div class="opp-item"><div class="opp-ico">🏠</div><div class="opp-info"><div class="opp-name zh-only">悉尼华人社区活动</div><div class="opp-name en-only">Sydney Community Event</div><div class="opp-sub zh-only">社区 · 本周六</div><div class="opp-sub en-only">Community · This Sat</div></div><span class="badge badge-n">NEW</span></div>
+        <div class="opp-item"><div class="opp-ico">📈</div><div class="opp-info"><div class="opp-name zh-only">海外华人投资社群</div><div class="opp-name en-only">Overseas Chinese Investors</div><div class="opp-sub zh-only">财经 · 免费加入</div><div class="opp-sub en-only">Finance · Free to join</div></div><span class="badge badge-h">HOT</span></div>
       </div>
     </div>
-
-    <div style="margin-bottom:48px;padding:24px 32px;background:var(--bg2);border:1px solid var(--gold-dim);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px">
+    <div class="scard">
+      <div class="scard-hd"><span class="scard-dot" style="background:#7c3aed"></span><span class="scard-title zh-only">今日更新</span><span class="scard-title en-only">Today's Update</span></div>
+      <div class="sg" id="sg"></div>
+    </div>
+    <div class="scard">
+      <div class="scard-hd"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
       <div>
-        <div style="font-family:'Noto Serif SC',serif;font-size:1.1rem;font-weight:700;color:var(--gold);margin-bottom:6px">月卡会员 · 每月$5.99</div>
-        <div style="font-size:.85rem;color:var(--text-mid)">每月赠送200灵石 + 部分指定作品免费阅读 + 专属月卡徽章</div>
+        <div class="srv-item"><div class="srv-l"><div class="srv-ico">✈️</div><div><div class="srv-name zh-only">移民咨询</div><div class="srv-name en-only">Immigration</div><div class="srv-desc zh-only">专业顾问一对一</div><div class="srv-desc en-only">Expert consultation</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item"><div class="srv-l"><div class="srv-ico">🎓</div><div><div class="srv-name zh-only">留学申请</div><div class="srv-name en-only">Study Abroad</div><div class="srv-desc zh-only">名校申请全程服务</div><div class="srv-desc en-only">University applications</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item"><div class="srv-l"><div class="srv-ico">⚖️</div><div><div class="srv-name zh-only">法律服务</div><div class="srv-name en-only">Legal Service</div><div class="srv-desc zh-only">海外华人法律援助</div><div class="srv-desc en-only">Overseas Chinese legal aid</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item"><div class="srv-l"><div class="srv-ico">💰</div><div><div class="srv-name zh-only">财税规划</div><div class="srv-name en-only">Tax Planning</div><div class="srv-desc zh-only">跨境税务申报</div><div class="srv-desc en-only">Cross-border tax services</div></div></div><span class="srv-arr">›</span></div>
       </div>
-      <button class="btn-p" style="background:var(--gold);clip-path:none">开通月卡</button>
     </div>
+    <div class="abt">
+      <div class="abt-k">K1980</div>
+      <div class="abt-d zh-only">全球华人信息入口<br>移民 · 财经 · 教育 · 科技</div>
+      <div class="abt-d en-only">Global Chinese Information Hub<br>Immigration · Finance · Education · Tech</div>
+      <div style="margin:8px 0 5px;display:flex;flex-direction:column;gap:4px">
+        <a href="https://www.k1980.app" target="_blank" rel="noopener"
+           style="font-size:12px;color:var(--red);font-weight:600;text-decoration:none">
+          🌐 www.k1980.app
+        </a>
+        <a href="mailto:hello@k1980.app"
+           style="font-size:12px;color:var(--ink3);text-decoration:none">
+          ✉️ hello@k1980.app
+        </a>
+      </div>
+      <div class="abt-t" id="utime"></div>
+    </div>
+  </aside>
+</div>
 
-    <div class="faq-section">
-      <h3>常见问题</h3>
-      <div class="faq-grid">
-        <div class="faq-item"><div class="faq-q">灵石如何使用？</div><div class="faq-a">在阅读付费章节时，直接用灵石解锁即可。一般每章5-10灵石，相当于约$0.07-$0.14每章。</div></div>
-        <div class="faq-item"><div class="faq-q">灵石可以退款吗？</div><div class="faq-a">已购买但未使用的灵石可在30天内申请退款。已用于解锁章节的灵石不可退。</div></div>
-        <div class="faq-item"><div class="faq-q">支持哪些支付方式？</div><div class="faq-a">支持Stripe国际信用卡（全球）、支付宝、微信支付（中国大陆用户）。</div></div>
-        <div class="faq-item"><div class="faq-q">创作者什么时候收到分成？</div><div class="faq-a">每月15日结算上月收入，通过PayPal/银行转账/支付宝发放，最低提现门槛$10。</div></div>
-      </div>
+<!-- ══ 游戏中心面板 ════════════════════════════════════════ -->
+<div id="game-panel">
+  <div class="game-subnav">
+    <button class="gstab on" data-gp="news">
+      <svg viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="3" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="7" width="8" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="11" width="10" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+      <span class="zh-only">游戏资讯</span><span class="en-only">Game News</span>
+    </button>
+    <button class="gstab" data-gp="play">
+      <svg viewBox="0 0 16 16" fill="none"><rect x="1" y="4" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M5 8.5h3M6.5 7v3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="11" cy="8" r=".8" fill="currentColor"/><circle cx="13" cy="9.5" r=".8" fill="currentColor"/></svg>
+      <span class="zh-only">小游戏</span><span class="en-only">Games</span>
+    </button>
+    <div class="gsubnav-info"><span class="gsubnav-dot"></span><span class="zh-only">每3小时更新</span><span class="en-only">Updated every 3h</span></div>
+  </div>
+  <div class="gpanel on" id="gpanel-news">
+    <div class="gnews-layout">
+      <main>
+        <div id="gnews-feed"></div>
+        <div id="gnews-more" style="display:none;margin-top:2px">
+          <button id="gnews-mbtn" class="more-btn"><span class="zh-only">显示更多</span><span class="en-only">Load More</span></button>
+        </div>
+        <div style="height:3rem"></div>
+      </main>
+      <aside class="gnews-side">
+        <div class="scard">
+          <div class="scard-hd"><span class="scard-dot" style="background:var(--c-游戏)"></span><span class="scard-title zh-only">热门游戏</span><span class="scard-title en-only">Trending Games</span></div>
+          <div style="padding:6px 0 8px"><ol id="ghot"></ol></div>
+        </div>
+        <div class="scard">
+          <div class="scard-hd"><span class="scard-dot" style="background:#7c3aed"></span><span class="scard-title zh-only">快速入口</span><span class="scard-title en-only">Quick Access</span></div>
+          <div>
+            <div class="opp-item" onclick="switchGamePanel('play')">
+              <div class="opp-ico">🀄</div>
+              <div class="opp-info"><div class="opp-name zh-only">福运麻将馆</div><div class="opp-name en-only">Mahjong</div><div class="opp-sub zh-only">四人麻将 · 立即开局</div><div class="opp-sub en-only">4-player · Play now</div></div>
+              <span style="font-size:12px;color:var(--ink4)">›</span>
+            </div>
+          </div>
+        </div>
+      </aside>
     </div>
+  </div>
+  <div class="gpanel" id="gpanel-play">
+    <div class="game-grid">
+      <div class="gc" onclick="openGame('mahjong_final.html')">
+        <div class="gc-cover gc-cover-mj"><span class="gc-tile-b gc-tile-b1"></span><span class="gc-tile-b gc-tile-b2"></span><div class="gc-tile-main"><span class="ch">中</span><span class="sub">红中</span></div></div>
+        <div class="gc-info">
+          <div class="gc-name zh-only">福运麻将馆</div><div class="gc-name en-only">Lucky Mahjong</div>
+          <div class="gc-desc zh-only">四人麻将 · AI对局 · 碰杠胡 · 七对子</div><div class="gc-desc en-only">4-player Mahjong · AI opponents</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag en-only">Single</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag free en-only">Free</span></div><button class="gc-play">▶ <span class="zh-only">开局</span><span class="en-only">Play</span></button></div>
+          <div class="gc-hint zh-only">↗ 新标签页全屏游玩</div><div class="gc-hint en-only">↗ Opens in new tab</div>
+        </div>
+      </div>
+      <div class="gc coming"><div class="gc-cover-soon">🃏</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)" data-zh="斗地主" data-en="Dou Di Zhu">斗地主</div><div class="gc-desc" style="color:var(--ink4)" data-zh="敬请期待" data-en="Coming soon">敬请期待</div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
+      <div class="gc coming"><div class="gc-cover-soon">♟️</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">中国象棋</span><span class="en-only">Chinese Chess</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
+      <div class="gc coming"><div class="gc-cover-soon">🎲</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">骰子游戏</span><span class="en-only">Dice Game</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
+    </div>
+    <div style="height:3rem"></div>
   </div>
 </div>
 
-<!-- ═══ PAGE: ABOUT ═══ -->
-<div id="page-about" class="page">
-  <div class="about-page">
-    <div class="about-manifesto">
-      <h2>不只是<em>小说平台</em><br>这是一个宇宙</h2>
-      <p>K1980诞生于一个信念：东方江湖的智慧，可以用未来的语言重新讲述。<br><br>江湖传言不只是发布平台，它是K1980创作宇宙的基础设施。当足够多的创作者和故事在这里聚集，一个真正的数字江湖就会形成。<br><br>有人的地方，就有江湖。有江湖的地方，就有风声。</p>
-    </div>
-
-    <section class="sec" style="padding:0 0 60px 0">
-      <div class="sec-title" style="margin-bottom:32px">
-        <span class="sec-num">// K1980 域名矩阵</span>
-        <h2 class="sec-name">六大<em>据点</em></h2>
-      </div>
-      <div class="domain-grid">
-        <div class="domain-card"><div class="domain-url">k1980.app</div><div class="domain-desc">江湖传言主平台 · 小说发布与阅读</div></div>
-        <div class="domain-card"><div class="domain-url">k1980.ai</div><div class="domain-desc">AI创作助手 · 写作工具与引擎</div></div>
-        <div class="domain-card"><div class="domain-url">k1980.com</div><div class="domain-desc">K1980品牌官网 · 创作宇宙门户</div></div>
-        <div class="domain-card"><div class="domain-url">k1980.world</div><div class="domain-desc">江湖世界观 · IP宇宙扩展平台</div></div>
-        <div class="domain-card"><div class="domain-url">life1980.com</div><div class="domain-desc">生活方式内容 · LIFE 1980子品牌</div></div>
-        <div class="domain-card"><div class="domain-url">life-90.com</div><div class="domain-desc">复古文化创作 · 90年代美学延伸</div></div>
-      </div>
-    </section>
-
-    <section>
-      <div class="sec-title" style="margin-bottom:32px">
-        <span class="sec-num">// 发展路线图</span>
-        <h2 class="sec-name"><em>江湖</em>路线图</h2>
-      </div>
-      <div class="timeline">
-        <div class="tl-item"><div class="tl-date">2026 Q1 · 现在</div><div class="tl-title">MVP上线</div><div class="tl-desc">基础发布平台 · 《江湖传》第一季上线 · 灵石支付系统 · 种子创作者招募</div></div>
-        <div class="tl-item"><div class="tl-date">2026 Q2</div><div class="tl-title">Beta版本</div><div class="tl-desc">AI写作助手 · 江湖身份系统 · 创作者后台数据看板 · 500位创作者</div></div>
-        <div class="tl-item"><div class="tl-date">2026 Q3</div><div class="tl-title">V1.0正式版</div><div class="tl-desc">双语全面上线 · 问道系统 · 才艺比试 · 月卡会员 · 5万注册用户</div></div>
-        <div class="tl-item"><div class="tl-date">2026 Q4</div><div class="tl-title">移动端 + 增长</div><div class="tl-desc">iOS/Android App · 推荐算法优化 · 品牌广告系统 · 10万用户</div></div>
-        <div class="tl-item"><div class="tl-date">2027</div><div class="tl-title">IP孵化 + 扩张</div><div class="tl-desc">影视/游戏改编通道 · 海外华人社区深耕 · 30万用户 · 月流水$200K+</div></div>
-      </div>
-    </section>
+<!-- ══ 弹窗 ════════════════════════════════════════════════ -->
+<div id="modal" role="dialog" aria-modal="true">
+  <div class="msheet">
+    <div class="mgrip"></div>
+    <div class="mhd"><span class="mcat" id="mcat"></span><button class="mx" id="mclose"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></button></div>
+    <h2 class="mtitle" id="mtitle"></h2>
+    <div class="mmeta" id="mmeta"></div>
+    <hr class="mhr"/>
+    <div class="mbody" id="mbody"></div>
+    <div class="mtags" id="mtags"></div>
+    <a class="mlink" id="mlink" href="#" target="_blank" rel="noopener" style="display:none">
+      <span class="zh-only">查看原文</span><span class="en-only">Source</span>
+      <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
   </div>
 </div>
 
-<!-- ═══ PAGE: 江湖传 ═══ -->
-<div id="page-jianghu" class="page jht-page">
+<div id="sdrop"><div id="sres"></div></div>
 
-  <!-- Hero -->
-  <section class="jht-hero-full">
-    <div class="jht-hero-grid"></div>
-    <div class="jht-hero-bg-char">传</div>
-    <div class="jht-hero-tag">K1980 · FLAGSHIP IP · SEASON ONE · 2026</div>
-    <h1 class="jht-hero-title">江湖<em>传</em></h1>
-    <div class="jht-hero-sub">JIANGHU LEGEND</div>
-    <p class="jht-hero-quote">有人的地方，就有江湖。<br>有江湖的地方，就有风声。<br>而风声，最终都会吹到一个地方——</p>
-    <div class="jht-hero-btns">
-      <button class="btn-p" onclick="scrollToNovelList()">▶ 免费阅读第一集</button>
-      <button class="btn-s" onclick="scrollToNovelList()">查看全部剧情</button>
+<!-- ══ FOOTER ══════════════════════════════════════════════ -->
+<footer id="site-footer">
+  <div class="footer-in">
+    <div class="footer-logo">K1980</div>
+    <div class="footer-links">
+      <a href="https://www.k1980.app" target="_blank" rel="noopener">🌐 www.k1980.app</a>
+      <span class="footer-sep">·</span>
+      <a href="mailto:hello@k1980.app">✉️ hello@k1980.app</a>
+      <span class="footer-sep">·</span>
+      <a href="admin.html">⚙️ <span class="zh-only">管理后台</span><span class="en-only">Admin</span></a>
     </div>
-  </section>
-
-  <!-- 三大势力 -->
-  <section class="jht-world">
-    <div class="sec-title">
-      <span class="sec-num">// 世界观 · WORLD</span>
-      <h2 class="sec-name">京城<em>三大暗局</em></h2>
+    <div class="footer-policy zh-only">
+      本站资讯仅供参考，不代表任何政治立场。涉及地区争议及政治人物的报道均客观呈现，不作评价。
     </div>
-    <div class="jht-world-grid">
-      <div class="world-card">
-        <div class="world-card-bg">堂</div>
-        <div class="world-card-tag">// 情报中心</div>
-        <div class="world-card-name">听风堂</div>
-        <div class="world-card-desc">京城最热闹街上的三层茶楼。表面是喝茶听书的地方，实则是天下最大的情报汇集之所。门派恩怨、刺客交易、谁想造反——所有消息最终都流向这里。</div>
-        <div class="world-card-secret">幕后主人 · 慧宁公主</div>
-      </div>
-      <div class="world-card">
-        <div class="world-card-bg">静</div>
-        <div class="world-card-tag">// 权力客厅</div>
-        <div class="world-card-name">静空间</div>
-        <div class="world-card-desc">门口没有招牌，只有一个字——静。这里有茶、有香、有古琴，达官贵人在此谈生意、交换利益。没有刀剑，但这里的决定，往往能改变江湖格局。</div>
-        <div class="world-card-secret">幕后主人 · 吐蕃王室</div>
-      </div>
-      <div class="world-card">
-        <div class="world-card-bg">司</div>
-        <div class="world-card-tag">// 朝廷机构</div>
-        <div class="world-card-name">皇城司</div>
-        <div class="world-card-desc">朝廷秘密监视江湖的机构。他们相信江湖必须被控制。两百年前建立，始终在暗处注视着每一个江湖人物的动向。</div>
-        <div class="world-card-secret">他们相信 · 江湖必须被控制</div>
-      </div>
+    <div class="footer-policy en-only">
+      Content is for reference only. We present news objectively without political commentary or editorial positions on territorial disputes or political figures.
     </div>
-  </section>
+    <div class="footer-copy">© 2025 K1980 · <span class="zh-only">全球华人信息入口</span><span class="en-only">Global Chinese Media</span></div>
+  </div>
+</footer>
 
-  <!-- 核心人物 -->
-  <section class="jht-chars-sec">
-    <div class="sec-title">
-      <span class="sec-num">// 人物 · CHARACTERS</span>
-      <h2 class="sec-name">江湖<em>棋局</em>中的人</h2>
-    </div>
-    <div class="chars-grid">
-      <div class="char-card">
-        <div class="char-symbol">顾</div>
-        <div class="char-faction">// 听风堂 · 主角</div>
-        <div class="char-name">顾长安</div>
-        <div class="char-role">少年听风人</div>
-        <div class="char-desc">父亲是镖师，十六岁进京寻找父亲死亡真相。记忆力极强，能看懂江湖棋局。不是武功最强，但终将成为改变江湖的人。</div>
-        <div class="char-quote">"真相，比报仇更重要。"</div>
-      </div>
-      <div class="char-card">
-        <div class="char-symbol">沈</div>
-        <div class="char-faction">// 听风堂 · 掌堂人</div>
-        <div class="char-name">沈观山</div>
-        <div class="char-role">天下记忆第一人</div>
-        <div class="char-desc">听风堂掌柜，四十岁，文人气质，从不习武。但他知道天下所有人的名字和秘密。没人敢惹他，因为他知道你的一切。</div>
-        <div class="char-quote">"买消息，还是卖消息？"</div>
-      </div>
-      <div class="char-card">
-        <div class="char-symbol">静</div>
-        <div class="char-faction">// 静空间 · 主人</div>
-        <div class="char-name">静夫人</div>
-        <div class="char-role">阿卓央金 · 吐蕃公主</div>
-        <div class="char-desc">静空间表面管理者，优雅神秘。真实身份是吐蕃王室公主，来中原只为建立关系网。她知道，权力是最贵的商品。</div>
-        <div class="char-quote">"你不属于江湖，你属于棋盘。"</div>
-      </div>
-      <div class="char-card">
-        <div class="char-symbol">慧</div>
-        <div class="char-faction">// 皇室 · 风主</div>
-        <div class="char-name">慧宁公主</div>
-        <div class="char-role">听风堂真正主人</div>
-        <div class="char-desc">当今皇帝最小的妹妹，表面深居简出。实际掌控朝廷最大情报网络。她相信：想控制江湖，就要先听懂风声。</div>
-        <div class="char-quote">"棋局才刚开始。"</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 第一季剧情 -->
-  <section class="jht-eps-sec">
-    <div class="sec-title">
-      <span class="sec-num">// 剧情 · SEASON ONE</span>
-      <h2 class="sec-name">第一季 · <em>12集</em></h2>
-    </div>
-    <div class="eps-grid">
-      <div class="ep-card">
-        <div class="ep-num">第01集 · 免费阅读</div>
-        <div class="ep-title">《听风堂》</div>
-        <div class="ep-synopsis">顾长安来到京城，走进那座传说中知晓天下秘密的茶楼。他只问一句话：谁杀了我父亲？</div>
-        <div class="ep-hook">"买消息还是卖消息？如果没有钱——那就用命换。"</div>
-        <div class="ep-meta"><span class="ep-free">▶ 免费</span></div>
-      </div>
-      <div class="ep-card locked">
-        <div class="ep-num">第02集 · 8灵石</div>
-        <div class="ep-title">《血影刺客》</div>
-        <div class="ep-synopsis">编号七十三的刺客接到任务，目标是顾长安。但调查后，他开始怀疑这个任务背后的阴谋。</div>
-        <div class="ep-hook">刺客说：我本来是来杀你的。</div>
-        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
-      </div>
-      <div class="ep-card locked">
-        <div class="ep-num">第03集 · 8灵石</div>
-        <div class="ep-title">《静空间》</div>
-        <div class="ep-synopsis">顾长安调查父亲旧线索，第一次踏入那个门口只有一个字"静"的神秘庭院。</div>
-        <div class="ep-hook">静夫人说：京城不是江湖，是棋盘。</div>
-        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
-      </div>
-      <div class="ep-card locked">
-        <div class="ep-num">第04集 · 8灵石</div>
-        <div class="ep-title">《疯和尚》</div>
-        <div class="ep-synopsis">街边的疯和尚一直说"江湖要乱了"，无人理会。直到他一人击败三个高手，顾长安才发现——他认识自己的父亲。</div>
-        <div class="ep-hook">江湖要乱了……江湖要乱了……</div>
-        <div class="ep-meta"><span class="ep-price">◆ 8灵石</span></div>
-      </div>
-      <div class="ep-card locked">
-        <div class="ep-num">第05-08集 · 连载中</div>
-        <div class="ep-title">《江湖第一剑》《听风堂的秘密》《刺客七十三》《静空间宴会》</div>
-        <div class="ep-synopsis">江湖最强剑客入京，顾长安发现听风堂的真相，刺客反过来保护他，京城权贵齐聚静空间的那个夜晚……</div>
-        <div class="ep-hook">每一局，都是棋。</div>
-        <div class="ep-meta"><span class="ep-price">◆ 每集8灵石</span></div>
-      </div>
-      <div class="ep-card locked" style="opacity:.6">
-        <div class="ep-num">第09-12集 · 即将上线</div>
-        <div class="ep-title">《天书线索》《听风堂风主》《江湖杀局》《棋局》</div>
-        <div class="ep-synopsis">天书被分成两半。慧宁公主第一次现身。三大势力同时出手。顾长安终于看懂了江湖……</div>
-        <div class="ep-hook">"江湖是人心。只要人心不灭，江湖就永远不会结束。"</div>
-        <div class="ep-meta"><span class="ep-price" style="color:var(--text-dim)">◆ 即将上线</span></div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- 小说阅读模块 -->
-  <section class="novel-read-sec">
-    <div id="novel-list">
-      <h2>江湖<em>小说</em> · 第一季</h2>
-      <div class="novel-list-sub">// JIANGHU LEGEND · SEASON ONE · 共12集</div>
-      
-      <div class="novel-item" onclick="openChapter(1)">
-        <div class="novel-item-num">01</div>
-        <div class="novel-item-body">
-          <h3>第1章 · 听风堂</h3>
-          <p>少年顾长安踏入京城，走进那座传说中的茶楼。</p>
-        </div>
-        <span class="novel-item-badge badge-free-read">免费阅读</span>
-      </div>
-
-      <div class="novel-item" onclick="openChapter(2)">
-        <div class="novel-item-num">02</div>
-        <div class="novel-item-body">
-          <h3>第2章 · 血影初现</h3>
-          <p>一个刺客接到任务——目标是顾长安。</p>
-        </div>
-        <span class="novel-item-badge badge-free-read">免费阅读</span>
-      </div>
-
-      <div class="novel-item" onclick="openChapter(3)">
-        <div class="novel-item-num">03</div>
-        <div class="novel-item-body">
-          <h3>第3章 · 静空间</h3>
-          <p>权力的漩涡里，静夫人注视着一切。</p>
-        </div>
-        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
-      </div>
-
-      <div class="novel-item" onclick="openChapter(4)">
-        <div class="novel-item-num">04</div>
-        <div class="novel-item-body">
-          <h3>第4章 · 疯和尚</h3>
-          <p>街边的疯和尚击败三个高手，他认识顾长安的父亲。</p>
-        </div>
-        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
-      </div>
-
-      <div class="novel-item" onclick="openChapter(5)">
-        <div class="novel-item-num">05</div>
-        <div class="novel-item-body">
-          <h3>第5章 · 天书残卷</h3>
-          <p>父亲押送的不是金银，而是一卷改变江湖的秘密。</p>
-        </div>
-        <span class="novel-item-badge badge-lock">◆ 8灵石</span>
-      </div>
-    </div>
-
-    <div id="chapter-view"></div>
-  </section>
-
-  <footer class="footer">
-    <div class="f-brand"><div class="f-logo">K<span>1980</span></div><p>《江湖传》是K1980创作宇宙的旗舰IP<br>听天下风声，辨江湖真假</p><div class="f-domains"><span class="f-domain">k1980.app</span><span class="f-domain">k1980.com</span><span class="f-domain">k1980.ai</span></div></div>
-    <div><div class="f-col-title">江湖传</div><ul class="f-links"><li><a onclick="showPage('jianghu')">世界观</a></li><li><a onclick="showPage('jianghu')">人物介绍</a></li><li><a onclick="showPage('jianghu')">第一季剧情</a></li><li><a>第二季预告</a></li></ul></div>
-    <div><div class="f-col-title">平台</div><ul class="f-links"><li><a onclick="showPage('library')">书库</a></li><li><a onclick="showPage('creator')">创作者</a></li><li><a onclick="showPage('lingshi')">购买灵石</a></li></ul></div>
-    <div><div class="f-col-title">关于</div><ul class="f-links"><li><a onclick="showPage('about')">K1980品牌</a></li><li><a>联系我们</a></li><li><a>投资者关系</a></li></ul></div>
-    <div class="f-bottom"><span class="f-copy">© 2026 K1980 CREATIVE STUDIO · 《江湖传》IP版权所有 · k1980.app</span><span class="f-sys">有人的地方，就有江湖。</span></div>
-  </footer>
-</div>
+<button id="bt"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 8l5-5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 
 <script>
-function showPage(id) {
-  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-  document.getElementById('page-' + id).classList.add('active');
-  const map = {home:0, jianghu:1, library:2, creator:3, lingshi:4, about:5};
-  document.querySelectorAll('.tab-btn')[map[id]].classList.add('active');
-  window.scrollTo(0, 0);
-}
 
+/* ══ 配置 ═══════════════════════════════════════════════ */
+const CFG={URL:'https://wioqkcrtkesntqnuzfkd.supabase.co',KEY:'YOUR_SUPABASE_ANON_KEY',PS:20,AR:10*60*1000};
 
-// ── 小说阅读模块 ──
-function scrollToNovelList() {
-  var el = document.getElementById('novel-list');
-  if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
-}
-
-const chapters = {
-  1: {
-    title: '第1章 · 听风堂',
-    subtitle: 'CHAPTER ONE · THE WIND HALL',
-    free: true,
-    content: [
-      '顾长安第一次踏入京城。',
-      '城门很高，人很多，风很轻，茶很淡。',
-      '他在人群里站了很久，看着那些南来北往的人，每个人都好像藏着一个故事。',
-      '有人说，京城有一个地方，什么消息都能买到，什么秘密都藏不住。',
-      '那个地方叫——听风堂。',
-      '顾长安背着包袱，沿着最热闹的那条街一路走过去。',
-      '茶楼就在街的尽头，三层楼高，匾额上四个字：听风堂。',
-      '他深吸一口气，推门走了进去。',
-      '掌柜是个四十岁上下的文人，正在擦拭柜台，头也不抬地说了一句话：',
-      '"买消息，还是卖消息？"',
-      '顾长安停住脚步，说："我想打听一个人的死因。"',
-      '掌柜终于抬起头，看了他一眼。',
-      '"如果没有钱呢？"顾长安补了一句。',
-      '沉默了片刻，掌柜放下手中的布，轻声说：',
-      '"那就用命换。"',
-    ]
-  },
-  2: {
-    title: '第2章 · 血影初现',
-    subtitle: 'CHAPTER TWO · SHADOW OF BLOOD',
-    free: true,
-    content: [
-      '夜色之中，一道影子掠过屋顶。',
-      '他的代号是七十三，血影楼排名第七的刺客。',
-      '任务很简单：找到一个叫顾长安的少年，取他性命。',
-      '委托人没有说理由，只给了一块令牌和一个地址。',
-      '七十三接过任务，没有问为什么。他从不问为什么。',
-      '但这一次，他在暗处盯着那个少年看了整整一个时辰。',
-      '少年走进一家包子铺，买了两个包子，坐在街边吃。',
-      '神情平静，眼神干净。',
-      '七十三皱起眉头。',
-      '他见过太多该死的人，也见过太多不该死的人。',
-      '这个少年，像后者。',
-      '他收起刀，转身离去。',
-      '今夜，不杀。',
-    ]
-  },
-  3: {
-    title: '第3章 · 静空间',
-    subtitle: 'CHAPTER THREE · THE QUIET PLACE',
-    free: false,
-    price: 8
-  },
-  4: {
-    title: '第4章 · 疯和尚',
-    subtitle: 'CHAPTER FOUR · THE MAD MONK',
-    free: false,
-    price: 8
-  },
-  5: {
-    title: '第5章 · 天书残卷',
-    subtitle: 'CHAPTER FIVE · THE LOST SCROLL',
-    free: false,
-    price: 8
-  }
+/* ══ 区域配置 ════════════════════════════════════════════ */
+const REGIONS={
+  global:{flag:'🌐', zh:'全球',    en:'Global',        localCat:null, tz:'UTC'},
+  // 英语区
+  nz:    {flag:'🇳🇿', zh:'新西兰',  en:'New Zealand',   localCat:'新西兰本地', tz:'Pacific/Auckland'},
+  au:    {flag:'🇦🇺', zh:'澳大利亚',en:'Australia',     localCat:'澳洲本地',   tz:'Australia/Sydney'},
+  ca:    {flag:'🇨🇦', zh:'加拿大',  en:'Canada',        localCat:'加拿大本地', tz:'America/Toronto'},
+  us:    {flag:'🇺🇸', zh:'美国',    en:'United States', localCat:'美国本地',   tz:'America/New_York'},
+  gb:    {flag:'🇬🇧', zh:'英国',    en:'United Kingdom',localCat:'英国本地',   tz:'Europe/London'},
+  // 亚洲区
+  jp:    {flag:'🇯🇵', zh:'日本',    en:'Japan',         localCat:'日本本地',   tz:'Asia/Tokyo'},
+  kr:    {flag:'🇰🇷', zh:'韩国',    en:'South Korea',   localCat:'韩国本地',   tz:'Asia/Seoul'},
+  sg:    {flag:'🇸🇬', zh:'新加坡',  en:'Singapore',     localCat:'新加坡本地', tz:'Asia/Singapore'},
+  my:    {flag:'🇲🇾', zh:'马来西亚',en:'Malaysia',      localCat:'马来西亚本地',tz:'Asia/Kuala_Lumpur'},
+  id:    {flag:'🇮🇩', zh:'印度尼西亚',en:'Indonesia',   localCat:'印尼本地',   tz:'Asia/Jakarta'},
 };
 
-function openChapter(id) {
-  var ch = chapters[id];
-  if (!ch) return;
-  var view = document.getElementById('chapter-view');
-  var list = document.getElementById('novel-list');
-  if (!ch.free) {
-    if (!currentUser) { showAuthModal('login'); return; }
-    var h = '<div class="chapter-nav"><button class="chapter-back" onclick="backToList()">← 返回目录</button></div>';
-    h += '<div class="chapter-heading">' + ch.title + '</div>';
-    h += '<div class="chapter-meta">' + ch.subtitle + ' · ' + ch.price + ' 灵石</div>';
-    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)"><div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
-    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">付费章节 · ' + ch.price + ' 灵石</div>';
-    h += '<button class="btn-p" onclick="showPage(this.dataset.p)" data-p="lingshi">购买灵石</button></div>';
-    view.innerHTML = h; list.style.display='none'; view.style.display='block'; return;
-  }
-  var body = ''; ch.content.forEach(function(p){ body += '<p>' + p + '</p>'; });
-  var nextId = id+1; var prevId = id-1;
-  var h = '<div class="chapter-nav"><button class="chapter-back" onclick="backToList()">← 返回目录</button>';
-  h += '<span class="chapter-title-bar">江湖传 · 第一季</span></div>';
-  h += '<div class="chapter-heading">' + ch.title + '</div>';
-  h += '<div class="chapter-meta">' + ch.subtitle + ' · 免费阅读</div>';
-  h += '<div class="chapter-body">' + body + '</div>';
-  h += '<div class="chapter-footer"><div class="chapter-prev-next">';
-  if (prevId >= 1) h += '<button class="chapter-back" onclick="openChapter(' + prevId + ')">← 上一章</button>';
-  if (chapters[nextId]) h += '<button class="chapter-back" onclick="openChapter(' + nextId + ')">下一章 →</button>';
-  h += '</div><span style="font-size:.6rem;color:var(--text-dim)">' + (ch.content.length*30) + ' 字</span></div>';
-  view.innerHTML = h; list.style.display='none'; view.style.display='block';
-  document.querySelector('.novel-read-sec').scrollIntoView({behavior:'smooth'});
-}
-function backToList() {
-  document.getElementById('chapter-view').style.display = 'none';
-  document.getElementById('novel-list').style.display = 'block';
-}
+/* ══ 本地 Mock 新闻（区域切换时显示，Supabase 无数据时兜底）*/
+const LOCAL_NEWS={
+  nz:[
+    {id:2001,category:'本地',title:'奥克兰市议会批准华人文化中心扩建计划，预算1500万纽币',summary:'奥克兰市议会以11:2票数通过了位于Howick的华人文化中心扩建项目，新增多功能厅和中文图书馆将于2026年底竣工。',content:'奥克兰市议会本周以11:2的票数正式批准了位于Howick区的华人文化中心扩建计划。这一耗资约1500万纽币的项目将新增一个可容纳800人的多功能表演厅、一座专业中文图书馆以及配套的社区厨房设施。\n\n新西兰华人社区联合会主席表示，这是奥克兰对华人社区重要性的正式认可，将极大改善华人社区活动空间不足的问题。\n\n新建设施预计于2026年底正式投入使用，建设期间原有部分设施将暂时关闭。',tags:['奥克兰','华人社区','文化中心'],source_name:'NZ Herald',original_url:'#',view_count:3200,created_at:new Date(Date.now()-3600000).toISOString()},
+    {id:2002,category:'本地',title:'新西兰移民局更新技术签证评估标准，IT职位加分调整',summary:'移民局宣布对技术移民评分中IT类别职业的加分标准进行调整，部分软件工程职位评分上调5分。',content:'新西兰移民局（Immigration NZ）发布最新公告，对技术移民快速通道（Skilled Migrant Category）中IT相关职业的评分标准进行了调整。\n\n主要变化包括：软件架构师和高级软件工程师职位评分上调5分；网络安全专家新增入列；部分初级IT支持职位从合格职业名单中移除。\n\n新规定将于下月1日起生效，在此之前已提交EOI的申请者不受影响。建议正在准备申请的华人IT从业者及时咨询移民顾问，评估对个人评分的影响。',tags:['移民','技术签证','IT','EOI'],source_name:'K1980资讯',original_url:'#',view_count:4100,created_at:new Date(Date.now()-7200000).toISOString()},
+    {id:2003,category:'本地',title:'惠灵顿华人商会举办年度商业论坛，500人出席创历史纪录',summary:'第十二届惠灵顿华人商业论坛本周末成功举办，超过500名华人商界人士出席，打破历届参与纪录。',content:'第十二届惠灵顿华人商业发展论坛于上周末在惠灵顿会议中心成功举办，本次活动吸引了超过500名来自新西兰各地的华人商界代表、政府官员和学术人士出席，参与人数创历届之最。\n\n论坛主题聚焦"新西兰华人经济在全球供应链重构中的机遇"，多位知名华人企业家分享了在新西兰创业和扩展业务的经验。\n\n新西兰贸易部副部长出席并发表主旨演讲，强调华人企业家对新西兰经济的重要贡献。',tags:['惠灵顿','商会','华人商业'],source_name:'华人商报',original_url:'#',view_count:1800,created_at:new Date(Date.now()-86400000).toISOString()},
+  ],
+  au:[
+    {id:3001,category:'本地',title:'悉尼Hurstville华人商业区即将迎来大规模改造升级',summary:'悉尼市南部Hurstville华人商业核心区将启动耗资2亿澳元的城市更新项目，增设多功能商业综合体。',content:'新南威尔士州政府宣布，悉尼南部华人聚居核心区Hurstville将启动耗资约2亿澳元的大规模城市更新项目。新项目将建设一座集零售、餐饮、文化展演于一体的多功能商业综合体，预计创造超过1500个就业岗位。\n\n悉尼华人商会表示欢迎，认为此举将进一步巩固Hurstville作为澳洲重要华人商业中心的地位。\n\n项目预计2025年底动工，2028年全面竣工开业。',tags:['悉尼','Hurstville','华人商业'],source_name:'澳洲日报',original_url:'#',view_count:2900,created_at:new Date(Date.now()-5400000).toISOString()},
+    {id:3002,category:'本地',title:'澳洲技术移民新配额公布：华人工程师和护士名额大幅增加',summary:'澳洲移民局公布2025-26财年技术移民配额，工程类和医疗类职业名额较上年分别增加22%和18%。',content:'澳洲内政部公布2025-26财年技术移民计划配额，总计划移民名额为19.5万，其中技能类别占约70%。\n\n对华人申请者影响较大的变化包括：工程类职业（包括土木、电气、软件工程）配额增加22%，护士及相关医疗职业配额增加18%，会计类职业配额维持不变。\n\n澳洲移民律师协会建议有意申请的华人尽早启动表达意愿（EOI）流程，新财年配额将于7月1日起正式生效。',tags:['澳洲','技术移民','配额','工程师'],source_name:'K1980资讯',original_url:'#',view_count:5200,created_at:new Date(Date.now()-10800000).toISOString()},
+  ],
+  ca:[
+    {id:4001,category:'本地',title:'温哥华里士满市长宣布设立华语市政服务热线',summary:'里士满市政府宣布将于下月起开通普通话和粤语市政服务热线，覆盖规划、建设许可等核心业务。',content:'加拿大不列颠哥伦比亚省里士满市长Anne Hartley宣布，市政府将于下月正式开通普通话和粤语双语市政服务热线，这将是大温哥华地区首条覆盖全部核心市政业务的中文服务热线。\n\n热线将覆盖包括规划申请、建设许可、税务查询、公共投诉等在内的23项主要市政服务，服务时间为工作日上午8时至下午6时。\n\n里士满市华裔居民比例约45%，是北美华裔居民占比最高的城市之一。',tags:['温哥华','里士满','华语服务','市政'],source_name:'星岛日报',original_url:'#',view_count:3800,created_at:new Date(Date.now()-3600000).toISOString()},
+    {id:4002,category:'本地',title:'加拿大Federal Skilled Worker新一轮邀请，最低分降至490',summary:'IRCC完成最新一轮联邦技术工人项目邀请，共发出3600份邀请函，CRS最低分490分创近两年新低。',content:'加拿大移民局（IRCC）本周完成最新一轮联邦技术工人（Federal Skilled Worker）项目邀请，共向490分及以上的申请者发出3600份邀请申请书（ITA），这是近两年来该项目的最低分数线。\n\n分析人士认为，分数持续走低反映出加拿大政府正在加大力度吸引技能型人才。\n\n对于已在Express Entry池中的华人申请者，建议立即核查档案完整性，并通过提升语言成绩、获取省提名等途径争取额外加分。',tags:['加拿大','Express Entry','移民','CRS'],source_name:'K1980资讯',original_url:'#',view_count:4600,created_at:new Date(Date.now()-14400000).toISOString()},
+  ],
+  us:[
+    {id:5001,category:'本地',title:'硅谷华人工程师协会年度报告：H1B续签等待时间缩短至8个月',summary:'美国公民及移民服务局发布最新数据，H1B续签平均处理时间从去年的14个月降至约8个月。',content:'美国公民及移民服务局（USCIS）最新统计数据显示，H1B签证续签的平均处理时间已从2023年的14个月大幅缩短至目前的约8个月，优先处理通道（Premium Processing）平均仅需15个工作日。\n\n硅谷华人工程师协会表示，这一改善对数万名持H1B签证的华人IT从业者意义重大，大幅减少了"断签"风险带来的职业不确定性。\n\n协会同时提醒：当前政策环境下，建议在签证到期前至少提前12个月启动续签程序。',tags:['H1B','硅谷','移民局','签证'],source_name:'世界日报',original_url:'#',view_count:6200,created_at:new Date(Date.now()-1800000).toISOString()},
+    {id:5002,category:'本地',title:'纽约法拉盛华人商业区租金上涨15%，部分老字号面临搬迁压力',summary:'2025年第一季度数据显示，纽约法拉盛核心商业区平均月租同比上涨近15%，多家经营逾20年的华人餐厅和商店面临续租压力。',content:'纽约法拉盛商业促进区（BID）最新报告显示，2025年第一季度核心商业区（Main Street至Roosevelt Ave段）商业地产平均月租金同比上涨14.8%，部分优质街铺涨幅超过20%。\n\n受此影响，至少有12家经营超过20年的华人老字号餐厅和商店表示难以承受续租压力。纽约华人工商总会正在协调业主与租户之间的谈判，并向市议会申请商业稳定立法。\n\n当地华裔市议员表示将推动相关立法保护小商业经营者权益。',tags:['纽约','法拉盛','华人商业','租金'],source_name:'侨报',original_url:'#',view_count:3400,created_at:new Date(Date.now()-21600000).toISOString()},
+  ],
+  gb:[
+    {id:6001,category:'本地',title:'伦敦唐人街改造计划正式启动，将新增华人文化博物馆',summary:'伦敦唐人街协会宣布历史性改造计划，包括建设英国首座永久性华人文化博物馆，预计投资3000万英镑。',content:'伦敦唐人街协会与威斯敏斯特市议会联合宣布，伦敦唐人街（Chinatown London）将启动历史上规模最大的一次改造升级计划，总投资约3000万英镑。\n\n改造计划核心包括：在Gerrard Street建设英国首座永久性华人文化历史博物馆；对唐人街牌楼及主要街道进行整体翻新；新增多处中英双语文化展示装置。\n\n英国华人参政计划负责人表示，这一计划标志着英国社会对华人历史贡献的正式认可，也将大幅提升伦敦作为全球文化之都的吸引力。',tags:['伦敦','唐人街','华人文化','博物馆'],source_name:'英中时报',original_url:'#',view_count:2800,created_at:new Date(Date.now()-7200000).toISOString()},
+    {id:6002,category:'本地',title:'英国签证新规：中国护照持有者技术工签申请流程简化',summary:'英国内政部宣布简化技术工签（Skilled Worker Visa）申请流程，部分职业类别审批时间从8周缩短至3周。',content:'英国内政部宣布对技术工签（Skilled Worker Visa）申请流程进行简化，涉及工程、医疗和IT三大领域的职业申请人将受益于加快审批通道。\n\n新流程下，合资格职业的标准申请处理时间从此前的8周缩短至约3周，优先处理申请最快可在5个工作日内完成审核。\n\n英国签证申请中心（UKVI）同时宣布，将在北京、上海、广州三地增设额外的签证面试名额，以应对持续增长的申请需求。在英华人若需要续签或转换签证类别，也可享受新的简化流程。',tags:['英国','技术工签','签证','移民'],source_name:'K1980资讯',original_url:'#',view_count:3900,created_at:new Date(Date.now()-43200000).toISOString()},
+  ],
+  // ─── 亚洲区域 ─────────────────────────────────────────────
+  jp:[
+    {id:7001,category:'本地',title:'东京华人商会举办2025年春季交流会，逾300名华人企业家出席',summary:'东京华人商工会议所主办的年度春季交流会吸引超过300名在日华人企业家参与，多位中日商界领袖发表演讲。',content:'东京华人商工会议所（TCCIA）年度春季交流会于上周末在东京丸之内举行，吸引超过300名来自制造业、IT、餐饮及贸易领域的在日华人企业家出席。\n\n日本中国商务协会会长指出，随着日元汇率走低，越来越多的华人投资者开始关注日本房地产和中小企业并购机会。\n\n活动现场还设有就业对接专区，多家日本知名企业寻求具有中文能力的双语人才。',tags:['东京','华人商会','日本'],source_name:'中文导报',original_url:'#',view_count:2400,created_at:new Date(Date.now()-7200000).toISOString()},
+    {id:7002,category:'本地',title:'日本放宽中国公民多次往返签证申请条件，年收入门槛下调',summary:'日本外务省宣布放宽中国公民申请多次往返签证的收入门槛要求，并扩大适用职业范围。',content:'日本外务省宣布对中国公民申请多次往返签证的审查标准进行调整，将年收入门槛从25万元人民币下调至20万元；扩大可直接申请5年多次往返签证的职业范围，新增IT工程师、医疗专业人员等类别。\n\n在日华人社区对此表示欢迎，认为这将大幅提升回国探亲和从事跨境商务的便利程度。\n\n签证顾问提醒：申请材料仍需通过日本领事馆指定的签证代办机构提交。',tags:['日本','签证','多次往返'],source_name:'K1980资讯',original_url:'#',view_count:5100,created_at:new Date(Date.now()-3600000).toISOString()},
+  ],
+  kr:[
+    {id:8001,category:'本地',title:'首尔大林洞华人商业街扩张，今年新开超40家华人商铺',summary:'首尔大林洞华人商业区今年已新开超过40家华人经营商铺，中国留学生和商务人士是主要客群。',content:'首尔大林洞华人商业区近年来发展迅猛，今年上半年已新开超过40家由华人经营的餐饮、零售和服务类商铺。当地华人社区协会负责人介绍，随着在韩中国留学生和商务人士数量持续增加，华人消费市场规模正在快速扩大。\n\n首尔市政府已将大林洞华人商业街纳入"多文化特色街区"发展规划，计划增加中文标识和文化元素。',tags:['首尔','大林洞','华人商业'],source_name:'韩国华报',original_url:'#',view_count:1700,created_at:new Date(Date.now()-10800000).toISOString()},
+    {id:8002,category:'本地',title:'韩国E-7工作签证新规：IT专业华人申请审批提速至4-6周',summary:'韩国出入境管理局更新特定活动签证（E-7）资格要求，软件开发和AI领域申请者获加快审批通道。',content:'韩国法务部宣布，将对特定活动签证（E-7）中技术类职业的审批流程进行优化，软件开发、人工智能、半导体设计领域的申请人获提供加快审批通道。\n\n新政策将使符合条件的华人工程师从递交申请到获批的时间从约3个月缩短至4-6周。申请人需具备相关领域学历或3年以上工作经验，并提供韩国雇主出具的雇用证明。',tags:['韩国','E-7签证','工作许可'],source_name:'K1980资讯',original_url:'#',view_count:2800,created_at:new Date(Date.now()-14400000).toISOString()},
+  ],
+  sg:[
+    {id:9001,category:'本地',title:'新加坡EP签证最低薪资2025年上调至5600新元，IT行业门槛6200元',summary:'人力部宣布就业准证（EP）最低薪资要求从5000新元上调至5600新元，金融和科技行业门槛更高。',content:'新加坡人力部（MOM）宣布，将就业准证（Employment Pass，EP）的基本最低薪资要求从每月5000新元上调至5600新元；金融和科技行业门槛则提高至6200新元。\n\n此次调整将影响在新加坡持EP工作的数万名外籍人士，其中中国籍持有者约占15%。具有新加坡本地认可学历或在顶尖跨国企业任职满3年的申请人可享受评估加分。',tags:['新加坡','EP签证','薪资'],source_name:'K1980资讯',original_url:'#',view_count:4200,created_at:new Date(Date.now()-1800000).toISOString()},
+    {id:9002,category:'本地',title:'新加坡牛车水春节庆典吸引逾百万游客，成东南亚最大华人节庆',summary:'2025年牛车水春节彩灯展吸引超过100万游客，成为东南亚规模最大的春节庆典活动之一。',content:'新加坡牛车水2025年春节彩灯展于元宵节后落幕，本届活动共吸引超过100万游客参观，创近五年最高纪录。\n\n今年主题彩灯以"蛇呈瑞意"为核心，主街道彩灯从牛车水地铁站延伸至宝塔街全长超过500米，彩灯数量较往年增加30%。活动不仅吸引本地华人家庭，也吸引了来自中国、马来西亚及印度尼西亚的游客专程前来。',tags:['新加坡','牛车水','春节'],source_name:'联合早报',original_url:'#',view_count:2200,created_at:new Date(Date.now()-259200000).toISOString()},
+  ],
+  my:[
+    {id:10001,category:'本地',title:'吉隆坡茨厂街改造完工，华人文化地标以全新面貌重新开放',summary:'耗时两年、投资3000万令吉的茨厂街整体改造工程竣工，成为马来西亚华人文化保护的标志性项目。',content:'马来西亚吉隆坡市政厅宣布，历时两年、耗资约3000万令吉的茨厂街（Petaling Street）综合改造项目正式竣工。\n\n此次改造新增约500平方米华人历史文化展览区、重修了具有百年历史的骑楼建筑群，并改善了街区基础设施。吉隆坡华人商会表示，改造后的茨厂街预计每年可吸引超过200万游客。',tags:['吉隆坡','茨厂街','华人文化'],source_name:'星洲日报',original_url:'#',view_count:2100,created_at:new Date(Date.now()-21600000).toISOString()},
+    {id:10002,category:'本地',title:'马来西亚华人新村申遗成功，联合国认定其独特历史价值',summary:'马来西亚华人新村文化遗产获联合国教科文组织批准列入《世界记忆名录》。',content:'联合国教科文组织（UNESCO）正式批准将马来西亚华人新村（Chinese New Village）文化遗产列入《世界记忆名录》。马来西亚现有452个华人新村，约有130万华裔居民居住其中。\n\n这次申遗成功被视为对马来西亚华人历史贡献的重要认可，将推动更多资源投入华人新村的历史档案整理和文化设施改善工作。',tags:['马来西亚','华人新村','UNESCO'],source_name:'中国报',original_url:'#',view_count:3300,created_at:new Date(Date.now()-43200000).toISOString()},
+  ],
+  id:[
+    {id:11001,category:'本地',title:'雅加达唐人街春节庆典创历史规模，超50万人次参与',summary:'2025年雅加达格罗多唐人街春节庆典吸引超过50万人次参与，成为近年来规模最大的多元文化节庆活动。',content:'雅加达格罗多（Glodok）唐人街2025年春节庆典吸引参与人次超过50万，不仅包括华裔市民，也吸引了大量其他族裔印尼人和外国游客。庆典活动包括舞龙舞狮、华人传统饮食展、中文书法体验以及大型烟火秀等。\n\n印尼华人社团联合总会主席表示，春节在印尼已成为真正意义上的全民节日，华人文化融入主流社会的程度日益深化。',tags:['雅加达','唐人街','春节'],source_name:'印华日报',original_url:'#',view_count:2500,created_at:new Date(Date.now()-32400000).toISOString()},
+    {id:11002,category:'本地',title:'印尼收紧工作许可审查，华人商务人士需注意签证合规',summary:'印尼劳工部宣布加强外籍工作许可（KITAS/KITAP）持有者合规审查，违规处罚力度大幅提升。',content:'印尼劳工部（Kemnaker）宣布启动为期6个月的外籍劳工专项检查行动，重点审查外籍工作许可持有者的岗位实际情况是否与申报内容一致。\n\n持商务签证（B211A）从事实际劳务活动属违规行为，最高可被处以驱逐出境并5年内禁止入境。印尼华商总会建议所有在印尼有实质性工作内容的华人尽快评估签证状态，必要时及时转换为合规工作许可类别。',tags:['印尼','工作签证','KITAS'],source_name:'K1980资讯',original_url:'#',view_count:3800,created_at:new Date(Date.now()-7200000).toISOString()},
+  ],
+};
 
-const novelsData = [
-
-// ══ 武侠江湖 ══
-{
-  id: 'jht', title: '江湖传·第一季', author: 'K1980 Studio',
-  genre: '武侠江湖', coverChar: '传', status: 'serial',
-  desc: '大夏王朝，京城听风堂。少年顾长安只为寻父死真相，却卷入三方棋局。',
-  chapters: [
-    { num:1, title:'听风堂', free:true, content:[
-      '顾长安第一次踏入京城。',
-      '城门很高，人很多，风很轻，茶很淡。',
-      '他在人群里站了很久，看着那些南来北往的人，每个人都好像藏着一个故事。',
-      '有人说，京城有一个地方，什么消息都能买到，什么秘密都藏不住。那个地方叫——听风堂。',
-      '顾长安背着包袱，沿着最热闹的那条街一路走过去。茶楼就在街的尽头，三层楼高，匾额上四个字：听风堂。',
-      '他深吸一口气，推门走了进去。',
-      '掌柜是个四十岁上下的文人，正在擦拭柜台，头也不抬地说了一句话：',
-      '"买消息，还是卖消息？"',
-      '顾长安停住脚步。"我想打听一个人的死因。"',
-      '"如果没有钱呢？"他补了一句。',
-      '沉默了片刻，掌柜放下手中的布，轻声说："那就用命换。"',
-    ]},
-    { num:2, title:'血影初现', free:true, content:[
-      '夜色之中，一道影子掠过屋顶。',
-      '他的代号是七十三，血影楼排名第七的刺客。任务很简单：取顾长安性命。',
-      '但七十三在暗处盯着那个少年看了整整一个时辰。少年走进包子铺，买了两个包子，坐在街边吃。神情平静，眼神干净。',
-      '七十三皱起眉头。他见过太多该死的人，也见过太多不该死的人。这个少年，像后者。',
-      '他收起刀，转身离去。今夜，不杀。',
-    ]},
-  ]
-},
-
-// ══ 武侠江湖 ══
-{
-  id: 'dao-hai', title: '刀海浮沉录', author: '游侠无风',
-  genre: '武侠江湖', coverChar: '刀', status: 'serial',
-  desc: '江湖第一镖局覆灭之夜，唯一幸存者踏上复仇之路，却发现真正的敌人藏在朝廷之内。',
-  chapters: [
-    { num:1, title:'镖局之殇', free:true, content:[
-      '大火是从后院烧起来的。',
-      '霍铁山从睡梦中惊醒时，整个顺风镖局已经火光冲天。',
-      '他摸出腰刀冲出房门，院子里全是黑衣人。兄弟们一个个倒下，没有人喊出声音。',
-      '这不是劫镖。这是灭口。',
-      '"总镖头。"一个声音从黑暗里传来，"你押的那趟货，不该接。"',
-      '霍铁山握紧刀柄。二十年镖局，今夜折在这里。',
-      '"是谁的命令？"他问。',
-      '黑衣人没有回答。刀光闪过——',
-      '霍铁山向侧面一滚，跌入后院的枯井。',
-      '火光渐渐远了，人声渐渐静了。',
-      '他在黑暗的井底，听着自己的心跳。',
-      '他还活着。但镖局没了。',
-      '兄弟们没了。',
-      '总有一天，他要查清楚这一切。',
-    ]},
-  ]
-},
-
-// ══ 武侠江湖 ══
-{
-  id: 'xia-ke', title: '侠客行·新纪元', author: '北风入云',
-  genre: '武侠江湖', coverChar: '侠', status: 'serial',
-  desc: '百年一遇的武林大会前夕，一块残缺的武学宝典现世，引发各方势力暗战。',
-  chapters: [
-    { num:1, title:'武林大会', free:true, content:[
-      '武林大会每百年举办一次，上一次是顾长安祖父那一代的事。',
-      '这一次，来的人太多，乱的程度也超出所有人的预期。',
-      '少林、武当、峨眉，三大门派的掌门在台上端坐，台下数百名江湖人交头接耳。',
-      '话题只有一个：半月前，陕西某古墓中出土了一块残缺的铁板，上面刻有前朝失传武学。',
-      '"谁得到了？"人群里有人问。',
-      '"不知道。"另一个人说，"但听说，为了那块铁板，已经死了十三个人。"',
-      '台上的少林方丈轻轻敲了一下禅杖，全场顿时安静。',
-      '"诸位。"他缓缓开口，"江湖不是乱局。有些东西，得到了不一定是福。"',
-      '话音未落，台下忽然一声惨叫。',
-      '所有人转头——一个年轻人倒在地上，背后插着一支羽箭。',
-      '大会，还没开始，已经见血了。',
-    ]},
-  ]
-},
-
-// ══ 朝堂权谋 ══
-{
-  id: 'chao-tang', title: '朝堂暗战录', author: '墨砚先生',
-  genre: '朝堂权谋', coverChar: '朝', status: 'serial',
-  desc: '皇帝驾崩之夜，三位皇子同时收到密诏，却内容各不相同。一场持续二十年的夺嫡之战由此展开。',
-  chapters: [
-    { num:1, title:'密诏之夜', free:true, content:[
-      '正和二十三年，秋，皇帝驾崩。',
-      '消息在深夜传出，仅一个时辰，京城三处宅邸同时来了传旨太监。',
-      '大皇子府，二皇子府，三皇子府。',
-      '三道密诏，三个太监，同时跪下宣读。',
-      '大皇子李承乾展开诏书，读完，脸色铁青。',
-      '二皇子李承泰读完，沉默良久，然后笑了。',
-      '三皇子李承和——年仅十四岁，读完之后，哭了。',
-      '没有人知道，三道密诏写的内容是否相同。',
-      '也没有人知道，哪一道才是真的。',
-      '或者，它们都是真的。',
-      '或者，都是假的。',
-      '皇帝这最后一局棋，从他闭上眼睛的那一刻起，才真正开始。',
-    ]},
-  ]
-},
-
-// ══ 朝堂权谋 ══
-{
-  id: 'huang-gong', title: '皇宫十二时辰', author: '长安旧梦',
-  genre: '朝堂权谋', coverChar: '宫', status: 'serial',
-  desc: '一名宫女在御膳房发现了一枚不属于任何人的玉佩，由此牵出一桩掩埋十五年的宫廷秘案。',
-  chapters: [
-    { num:1, title:'御膳房的秘密', free:true, content:[
-      '卯时，御膳房的炉火已经燃了两个时辰。',
-      '阿绣端着食盒穿过回廊，经过角落里的那口旧缸时，脚步顿了一下。',
-      '缸底有东西。',
-      '她左右看看，四下无人，俯身探手进去——摸到一枚玉佩。',
-      '温润，沉重，雕工极细。翻过来，背面刻着两个字：承安。',
-      '阿绣的手微微颤抖。',
-      '承安是先太子的封号。',
-      '先太子已经薨逝十五年。',
-      '他的遗物，怎么会出现在御膳房的旧缸里？',
-      '阿绣把玉佩塞入袖中，快步离开。她不知道自己捡到了什么，但她知道——',
-      '有些东西，捡到了，就不能轻易放下。',
-    ]},
-  ]
-},
-
-// ══ 市井奇情 ══
-{
-  id: 'chang-an-meng', title: '长安市井录', author: '茶馆说书人',
-  genre: '市井奇情', coverChar: '市', status: 'serial',
-  desc: '京城最热闹的东市，藏着最复杂的人情冷暖。一个说书人，记录下那些从不出现在史书里的故事。',
-  chapters: [
-    { num:1, title:'东市第一摊', free:true, content:[
-      '东市的早晨从豆腐摊开始。',
-      '老陈头的豆腐摊在东市摆了三十二年，风雨无阻。他的豆腐白嫩细腻，价格公道，周围邻摊都说，老陈头是东市的定海神针。',
-      '但没有人知道，老陈头年轻时，曾经是江湖上响当当的人物。',
-      '"老陈，来两块。"',
-      '"好嘞。"老陈头麻利地切豆腐，头也不抬，"今儿个早，有贵客。"',
-      '来人是个身着青衣的年轻公子，看起来不像东市的人。',
-      '"你就是陈无忌？"年轻人压低声音。',
-      '老陈头的手停了一下，然后继续切豆腐。',
-      '"陈无忌死了二十年了。我叫老陈头，卖豆腐的。"',
-      '"有人要你的命。"年轻人说。',
-      '老陈头把两块豆腐递过去，平静地说：',
-      '"两文钱。"',
-    ]},
-  ]
-},
-
-// ══ 市井奇情 ══
-{
-  id: 'yao-pu', title: '药铺奇谭', author: '杏林散人',
-  genre: '市井奇情', coverChar: '药', status: 'serial',
-  desc: '城南一家三代相传的老药铺，铺主是个从不行医的怪人。却有无数人在深夜叩响他的门。',
-  chapters: [
-    { num:1, title:'三更敲门声', free:true, content:[
-      '三更，有人敲门。',
-      '苏和明放下手中的医书，推开窗户往下看，是个年轻女子，怀里抱着一个孩子。',
-      '"大夫，求你救救我的孩子。"',
-      '苏和明叹了口气。他挂出去的牌子明明写着：不看诊，不抓药，只卖材料。',
-      '但每次有人来敲门，他还是会开。',
-      '孩子发高烧，已经两天。苏和明摸了摸额头，转身去取药。',
-      '"你们是从哪里来的？"他一边抓药，一边随口问。',
-      '"从北边。"女子说，"逃难来的。"',
-      '苏和明的手顿了一下。北边——那是说，战乱的地方。',
-      '"孩子父亲呢？"',
-      '女子没有回答。',
-      '苏和明不再问了。有些问题，不需要答案。',
-      '他把药包好，递过去。"三天，烧会退。"',
-      '"多少钱？"',
-      '"不要钱。"苏和明说，"但你以后不要再来了。"',
-      '女子愣了一下，抱紧孩子，深深鞠了一躬，转身离去。',
-      '苏和明关上门，回到桌边，继续看书。',
-      '他知道，明晚还会有人敲门。',
-    ]},
-  ]
-},
-
-// ══ 西域异域 ══
-{
-  id: 'xi-yu', title: '西域风沙志', author: '沙漠行者',
-  genre: '西域异域', coverChar: '域', status: 'serial',
-  desc: '大夏王朝最西边的边城，一个汉人商队首领和一位西域公主的相遇，牵出横跨三国的秘密。',
-  chapters: [
-    { num:1, title:'边城初遇', free:true, content:[
-      '敦煌城外，风沙遮天。',
-      '商队已经在城外等了三天，守城的士兵说，城内发生了命案，封城待查。',
-      '商队首领裴远舟站在沙丘上，望着城门，眉头紧皱。货物等不了太久，再耽误下去，丝绸会受潮，香料会变味。',
-      '这时，旁边有个声音用带着口音的汉话说：',
-      '"你是商人？"',
-      '裴远舟转过头——是个女子，穿着西域的服饰，面覆轻纱，只露出一双眼睛。',
-      '"是。"他说，"你呢？"',
-      '"我也是商人。"女子说。但她的眼神不像商人，太冷静，太锐利。',
-      '"城里出了什么事？"裴远舟问。',
-      '女子沉默片刻，说："死的人，是我要找的人。"',
-      '裴远舟看着她，没有说话。',
-      '风沙里，这个女子像一块石头，沉而稳。',
-      '"你认识死者？"',
-      '"认识。"她说，"他是杀我父亲的人。"',
-    ]},
-  ]
-},
-
-// ══ 英文武侠 ══
-{
-  id: 'iron-wind', title: 'Iron Wind Chronicles', author: 'Chen MingYu',
-  genre: '英文武侠', coverChar: '风', status: 'serial',
-  desc: 'A Western swordsman arrives in ancient China seeking the legendary Iron Wind technique. But the master he seeks has been dead for twenty years.',
-  chapters: [
-    { num:1, title:'The Stranger at the Gate', free:true, content:[
-      'The man arrived at Wudang\'s gate on a rainy morning in late autumn.',
-      "He was not Chinese. That much was clear from his height, his pale eyes, and the foreign-made sword at his hip.",
-      "The young monk at the gate stepped forward. This mountain is closed to outsiders.",
-      "I know, the man said. I have come to pay respects to Master Chen Feng.",
-      "The monk shifted. Master Chen Feng passed away. Twenty years ago.",
-      "The stranger was quiet for a moment. Rain fell between them.",
-      "I know that too, he said finally. He was my teacher.",
-      "The monk stared. Master Chen Feng had never taken foreign students.",
-      "Your name? the monk asked.",
-      "Marcus, the man said. Marcus Wei.",
-      "And what do you want here, Marcus Wei?",
-      "The stranger looked up at the mountain, at the mist curling around the ancient pines.",
-      "To finish what he started, he said. And to find out who killed him.",
-    ]},
-  ]
-},
-
-// ══ 英文武侠 ══
-{
-  id: 'dragon-throne', title: 'Shadow of the Dragon Throne', author: 'Lin Xiao',
-  genre: '英文武侠', coverChar: '龙', status: 'serial',
-  desc: 'A half-foreign imperial guard uncovers a conspiracy that reaches to the very heart of the emperor\'s court.',
-  chapters: [
-    { num:1, title:'The Emperor\'s Guard', free:true, content:[
-      "Lena was the only woman in the Imperial Guard, and the only one with foreign blood.",
-      "Both facts made her an outsider. She had learned to use that.",
-      "She stood at her post outside the emperors study, still as carved stone, listening to the conversation inside.",
-      "Two voices. The emperors slow, deliberate tone. And another - a minister, nervous, rushed.",
-      "Your Majesty, the information is confirmed. The northern ambassador carries a message not meant for your eyes.",
-      'Silence.',
-      "And yet, the emperor said, you bring it to me.",
-      "Because - the minister hesitated. Because someone paid me to.",
-      'More silence. Longer this time.',
-      "Lenas hand moved slightly toward her sword hilt.",
-      "Interesting, the emperor said finally. Do you know who?",
-      "No. But they knew things about you. Things only someone inside these walls could know.",
-      "The door opened suddenly. The minister walked out, pale, not looking at Lena.",
-      "Then the emperors voice came from inside:",
-      "Guard. Come in.",
-      "Lena stepped forward into the light.",
-    ]},
-  ]
-},
+/* ══ 全局 Mock（资讯）════════════════════════════════════ */
+const MOCK=[
+  {id:1,category:'移民',title:'新西兰技术移民分数线大幅调整，华人申请者影响几何？',summary:'移民局最新公告将 EOI 最低分从 160 分提升至 180 分，涉及 IT、工程、医疗三大类职业。持工签华人有 30 天窗口期递交申请。',content:'新西兰移民局本周宣布技术类移民政策重大调整，快速通道评分门槛由160分上调至180分，预计影响约2万名华人专业人士。\n\n受影响最大的职业包括IT软件工程师、土木工程师和注册护士。移民局同时宣布，现有EOI申请的有效期从6个月延长至12个月。\n\n签证律师建议：如果你的积分在160-179分之间，应在本月底前咨询持牌移民顾问，评估是否满足过渡期政策，争取在新规生效前提交申请。',tags:['新西兰','技术移民','EOI'],source_name:'K1980资讯',original_url:'#',view_count:1240,created_at:new Date(Date.now()-7200000).toISOString()},
+  {id:2,category:'科技',title:'OpenAI 发布 GPT-5，华人 AI 工程师：这会抢走多少工作？',summary:'GPT-5 代码生成能力提升40%，北美 AI 从业华人对职业前景看法两极分化，H1B 持有者尤为关注。',content:'OpenAI 本周正式发布 GPT-5，benchmark 测试中代码生成能力提升40%，中文理解准确率达到新高。\n\n在北美从事 AI 相关工作的华人工程师群体反应不一。部分资深工程师认为 AI 将替代初级编程任务，倒逼从业者向系统设计和 AI 应用方向转型。\n\n对于手持 H1B 签证的华人 IT 从业者来说，技能升级已成为当务之急。',tags:['GPT-5','AI','H1B'],source_name:'Reuters科技',original_url:'#',view_count:982,created_at:new Date(Date.now()-3600000).toISOString()},
+  {id:3,category:'财经',title:'美联储暗示年内不降息，持有美元的海外华人如何应对？',summary:'美联储会议纪要释放鹰派信号，人民币兑美元汇率承压，分析师建议华人投资者调整资产配置。',content:'美联储最新会议纪要显示，委员会普遍认为通胀尚未达到降息所需条件，年内降息预期从三次下调至一次。\n\n这一消息直接影响在海外生活的华人：汇款回国成本上升，人民币计价资产相对贬值，但美元定期存款收益仍维持高位。\n\n理财顾问建议：保留3-6个月紧急生活费在本地账户，其余美元资产可考虑短期国债 ETF，收益率目前约5.2%，流动性优于定存。',tags:['美联储','汇率','美元'],source_name:'Reuters财经',original_url:'#',view_count:756,created_at:new Date(Date.now()-5400000).toISOString()},
+  {id:4,category:'教育',title:'UC 系大学录取数据出炉：华裔申请人录取率三年连降',summary:'加州大学2025年度数据显示华裔学生录取率降至22%，但理工科专业仍保持较高录取比例。',content:'加州大学系统发布2025年秋季录取报告，华裔申请人整体录取率降至22.3%。其中 UCLA 和 UC Berkeley 竞争最为激烈，录取率分别为11%和14%。\n\n计算机科学和电气工程专业华裔学生占比仍超过30%，显示理工科赛道竞争力依然较强。',tags:['UC系','华裔','大学申请'],source_name:'K1980资讯',original_url:'#',view_count:1103,created_at:new Date(Date.now()-9000000).toISOString()},
+  {id:5,category:'时事',title:'中美关税谈判重启，对持双重身份华人意味着什么？',summary:'两国贸易代表将于下月恢复正式会谈，部分商品关税有望年内调整，跨境华人卖家高度关注。',content:'中美两国贸易代表确认将于下月在日内瓦举行新一轮正式谈判，这是自去年关税升级以来双方首次恢复高级别接触。\n\n对于在北美生活、同时在中国保有商业利益的华人群体，此次谈判结果将直接影响跨境贸易成本。',tags:['中美关系','关税','贸易'],source_name:'BBC中文',original_url:'#',view_count:2341,created_at:new Date(Date.now()-1800000).toISOString()},
+  {id:6,category:'生活',title:'奥克兰/悉尼/温哥华房租对比：2025年哪座城市性价比最高？',summary:'最新报告显示三大华人聚居城市平均租金涨幅均超8%，悉尼华人社区配套完善，综合性价比较高。',content:'CBRE 发布2025年第一季度报告，奥克兰平均月租金达 NZD 2850，同比上涨9.2%；悉尼两居室均价 AUD 3200，涨幅8.7%；温哥华则高达 CAD 3600，涨幅11.3%。',tags:['房租','奥克兰','悉尼','温哥华'],source_name:'K1980资讯',original_url:'#',view_count:889,created_at:new Date(Date.now()-14400000).toISOString()},
+  {id:7,category:'移民',title:'加拿大 Express Entry 最新抽签：CRS 分数线降至 491',summary:'本轮 EE 共发出4800份邀请，分数线连续第三次下降，综合类移民申请窗口进一步打开。',content:'加拿大移民局（IRCC）本周完成最新一轮 Express Entry 抽签，共发出4800份 ITA，CRS 分数线降至491分，为近两年最低水平。\n\n对于分数在490-510区间的申请者，建议立即核查 Profile 中所有加分项是否填写完整。',tags:['加拿大','Express Entry','CRS'],source_name:'K1980资讯',original_url:'#',view_count:1876,created_at:new Date(Date.now()-10800000).toISOString()},
+  {id:8,category:'旅游',title:'新西兰恢复对中国游客电子签，奥克兰直飞航班增至每周7班',summary:'新西兰移民局宣布恢复中国护照持有人的电子旅行授权（NZeTA），国航同步增加奥克兰至北京直航班次。',content:'新西兰移民局正式恢复对中国大陆护照持有者的电子旅行授权（NZeTA）在线申请渠道，申请费用约 23 新西兰元，审批时间通常为 72 小时以内。\n\n与此同时，中国国际航空宣布从下月起将奥克兰至北京直航班次从每周4班增至每周7班。',tags:['新西兰','签证','航班','旅游'],source_name:'K1980资讯',original_url:'#',view_count:1520,created_at:new Date(Date.now()-2700000).toISOString()},
 ];
 
+/* ══ 游戏 Mock ═══════════════════════════════════════════ */
+const GAME_MOCK=[
+  {id:101,category:'游戏',title:'米哈游《星穹铁道》新版本登顶全球收入榜，海外华人玩家贡献超30%',summary:'2.5版本首周全球收入突破1.2亿美元，北美、澳洲华人玩家消费占海外市场近三成。',content:'据游戏数据机构 Sensor Tower 报告，米哈游旗下《崩坏：星穹铁道》2.5版本上线首周全球累计收入突破1.2亿美元，稳居iOS全球游戏收入榜首位。\n\n值得关注的是，北美和澳洲市场的华人玩家群体表现尤为突出，贡献了海外收入的约28-32%。',tags:['米哈游','星穹铁道','手游'],source_name:'K1980资讯',original_url:'#',view_count:2108,created_at:new Date(Date.now()-4500000).toISOString()},
+  {id:102,category:'游戏',title:'腾讯《PUBG》电竞赛事奥克兰分区赛开启报名，华人战队来了',summary:'PUBG全球联赛大洋洲赛区开放报名，总奖金池5万美元，多支华人战队参赛。',content:'腾讯游戏旗下PUBG Corporation宣布，PGL 2025赛季大洋洲分区赛将于下月在奥克兰举行线下决赛，在线预选赛报名通道现已开放。',tags:['PUBG','电竞','奥克兰'],source_name:'K1980资讯',original_url:'#',view_count:1445,created_at:new Date(Date.now()-32400000).toISOString()},
+  {id:103,category:'游戏',title:'Steam春季特卖开始：这10款华人开发游戏值得关注',summary:'Steam春促已启动，多款国产独立游戏打折力度超50%，其中多款由华人团队开发。',content:'Steam 2025春季特卖正式启动。推荐关注：《戴森球计划》（-40%）、《太吾绘卷》（-50%）、《河洛群侠传》（-60%）、《鬼谷八荒》（-45%）等。',tags:['Steam','独立游戏','特卖'],source_name:'K1980资讯',original_url:'#',view_count:654,created_at:new Date(Date.now()-172800000).toISOString()},
+  {id:104,category:'游戏',title:'海外玩麻将新方式：《福运麻将馆》上线K1980游戏中心',summary:'K1980游戏中心正式上线首款游戏，四人麻将单机版，浏览器直接畅玩，无需下载。',content:'K1980游戏中心今日正式上线首款游戏——福运麻将馆。这是一款完整的四人麻将单机游戏，支持碰、杠、胡等标准操作，内置AI对手，无需下载任何程序。',tags:['麻将','K1980','单机'],source_name:'K1980游戏中心',original_url:'#',view_count:3200,created_at:new Date(Date.now()-1800000).toISOString()},
+];
 
-// ── 书库渲染 ──
-function getGenreColor(genre) {
-  var map = {"武侠江湖":"cg1","朝堂权谋":"cg4","市井奇情":"cg2","西域异域":"cg2","英文武侠":"cg3"};
-  return map[genre] || "cg1";
+/* ══ 状态 ════════════════════════════════════════════════ */
+const S={arts:[],cache:[],cat:'all',sort:'latest',page:1,total:0,busy:false,live:false};
+const GS={arts:[],page:1,total:0,busy:false};
+let currentRegion='global';
+let currentLang='zh';
+
+/* ══ Supabase ═══════════════════════════════════════════ */
+async function sbGet(cat,page,sort){
+  const off=(page-1)*CFG.PS,ord=sort==='hot'?'view_count':'created_at';
+  let u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=${ord}.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count`;
+  if(cat&&cat!=='all'&&cat!=='local')u+=`&category=eq.${encodeURIComponent(cat)}`;
+  const r=await fetch(u,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Prefer':'count=exact'}});
+  if(!r.ok)throw new Error(r.status);
+  return{data:await r.json(),total:parseInt(r.headers.get('Content-Range')?.split('/')[1]||'0',10)};
+}
+async function sbAll(){const r=await fetch(`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,summary,category,source_name,created_at,view_count`,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY}});if(r.ok)S.cache=await r.json();}
+function sbView(id){if(!S.live)return;fetch(`${CFG.URL}/rest/v1/rpc/increment_view_count`,{method:'POST',headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json'},body:JSON.stringify({article_id:id})});}
+
+/* ══ 工具 ════════════════════════════════════════════════ */
+function ago(iso){const d=(Date.now()-new Date(iso))/1000;if(d<60)return currentLang==='zh'?'刚刚':'Just now';if(d<3600)return Math.floor(d/60)+(currentLang==='zh'?'分钟前':' min ago');if(d<86400)return Math.floor(d/3600)+(currentLang==='zh'?'小时前':' hr ago');const dt=new Date(iso);return currentLang==='zh'?(dt.getMonth()+1)+'月'+dt.getDate()+'日':dt.toLocaleDateString('en-US',{month:'short',day:'numeric'});}
+const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function hl(t,q){if(!q)return esc(t);return esc(t).replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark>$1</mark>');}
+const $=s=>document.querySelector(s);
+function skel(n=5){return`<div class="sk-list">${Array.from({length:n},()=>`<div class="sk-card"><div class="sk sk-m"></div><div class="sk sk-t"></div><div class="sk sk-b"></div><div class="sk sk-b2"></div></div>`).join('')}</div>`;}
+
+/* ══ 渲染 ════════════════════════════════════════════════ */
+function card(a,i){
+  const tags=(a.tags||[]).slice(0,3).map(t=>`<span class="itag">${esc(t)}</span>`).join('');
+  const isLocal=a.category==='本地'||(LOCAL_NEWS[currentRegion]||[]).some(l=>l.id===a.id);
+  return`<div class="item" data-id="${a.id}" style="animation-delay:${Math.min(i*.04,.3)}s${isLocal?';border-left:3px solid var(--green)':''}">
+    <span class="item-rk${i<3?' hi':''}">${i+1}</span>
+    <div class="item-bd">
+      <div class="item-top">
+        <span class="icat" data-c="${esc(a.category)}">${esc(a.category)}</span>
+        <span class="isrc">${esc(a.source_name||'')}</span>
+        <span class="isep">·</span>
+        <span class="itm">${ago(a.created_at)}</span>
+      </div>
+      <div class="ititle">${esc(a.title)}</div>
+      <div class="isum">${esc(a.summary||'')}</div>
+      <div class="item-foot">
+        <div class="item-tags">${tags}</div>
+        <span class="item-read">${currentLang==='zh'?'阅读全文 →':'Read →'}</span>
+      </div>
+    </div>
+  </div>`;
 }
 
-function renderLibrary(filter) {
-  var grid = document.querySelector(".books-list-grid");
-  if (!grid) return;
-  var filtered = filter ? novelsData.filter(function(n){ return n.genre === filter; }) : novelsData;
-  var html = "";
-  filtered.forEach(function(n) {
-    var color = getGenreColor(n.genre);
-    var badge = n.status === "serial" ? "badge-new" : "badge-hot";
-    var badgeText = n.status === "serial" ? "连载中" : "完结";
-    html += "<div class='book-card' onclick='openNovel(this.dataset.n)' data-n='" + n.id + "'>";
-    html += "<div class='book-cover " + color + "'>";
-    html += "<span class='book-cover-char'>" + n.coverChar + "</span>";
-    html += "<span class='book-cover-badge " + badge + "'>" + badgeText + "</span>";
-    html += "<span class='book-cover-lock'>◆ 付费</span></div>";
-    html += "<div class='book-info'>";
-    html += "<div class='book-genre'>" + n.genre + "</div>";
-    html += "<div class='book-title'>" + n.title + "</div>";
-    html += "<div class='book-author'>" + n.author + "</div>";
-    html += "<div class='book-meta'><span class='book-meta-item'>📖 " + n.chapters.length + "章</span>";
-    html += "<span class='book-price'>◆ 8灵石/章</span></div></div></div>";
-  });
-  grid.innerHTML = html;
+function setHero(a){
+  const el=$('#hero');
+  if(!a||S.cat!=='all'){el.style.display='none';return;}
+  el.style.display='block';el.dataset.id=a.id;
+  const cv=getComputedStyle(document.documentElement).getPropertyValue('--c-'+a.category).trim()||'var(--red)';
+  const ce=$('#hcat');ce.textContent=a.category;ce.style.background=cv+'14';ce.style.color=cv;
+  $('#hsrc').textContent=a.source_name||'';
+  $('#htm').textContent=ago(a.created_at);
+  $('#htitle').textContent=a.title;
+  $('#hsum').textContent=a.summary||'';
+  $('#htags').innerHTML=(a.tags||[]).slice(0,3).map(t=>`<span class="hero-tag">${esc(t)}</span>`).join('');
 }
 
-function openNovel(id) {
-  var novel = null;
-  for (var i = 0; i < novelsData.length; i++) {
-    if (novelsData[i].id === id) { novel = novelsData[i]; break; }
-  }
-  if (!novel) return;
-  showPage("jianghu");
-  setTimeout(function(){
-    var list = document.getElementById("novel-list");
-    if (!list) return;
-    var html = "<h2>" + novel.title + "</h2>";
-    html += "<div class='novel-list-sub'>// " + novel.genre + " · " + novel.author + "</div>";
-    novel.chapters.forEach(function(ch) {
-      var badgeClass = ch.free ? "badge-free-read" : "badge-lock";
-      var badgeText = ch.free ? "免费阅读" : "◆ 8灵石";
-      html += "<div class='novel-item' onclick='openChapterFromNovel(this.dataset.n," + ch.num + ")' data-n='" + id + "'>";
-      html += "<div class='novel-item-num'>0" + ch.num + "</div>";
-      html += "<div class='novel-item-body'><h3>第" + ch.num + "章 · " + ch.title + "</h3>";
-      html += "<p>" + ch.content[0] + "</p></div>";
-      html += "<span class='novel-item-badge " + badgeClass + "'>" + badgeText + "</span></div>";
-    });
-    list.innerHTML = html;
-    list.style.display = "block";
-    document.getElementById("chapter-view").style.display = "none";
-    list.scrollIntoView({behavior:"smooth"});
-  }, 100);
+const CATS=['时事','移民','教育','财经','科技','生活','旅游'];
+const COLS={时事:'#1a56db',移民:'#16a34a',教育:'#0891b2',财经:'#c2410c',科技:'#7c3aed',生活:'#be185d',旅游:'#0d9488'};
+
+function renderHot(pool){
+  const src=S.live?pool:MOCK;
+  const top=[...src].sort((a,b)=>(b.view_count||0)-(a.view_count||0)).slice(0,7);
+  $('#hotl').innerHTML=top.map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
+  $('#hotl').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>{
+    const a=pool.find(x=>String(x.id)===el.dataset.id)||MOCK.find(x=>String(x.id)===el.dataset.id);
+    openM(a);
+  }));
 }
 
-// ── READER STATE ──
-var readerFontSize = parseInt(localStorage.getItem('k1980_fontSize') || '16', 10);
-var readerCurrentNovelId = null;
-var readerCurrentChNum = null;
+function renderLocalHot(){
+  const news=LOCAL_NEWS[currentRegion]||[];
+  const sideEl=$('#local-news-side');
+  if(!news.length||currentRegion==='global'){sideEl.style.display='none';return;}
+  sideEl.style.display='block';
+  const rg=REGIONS[currentRegion];
+  $('#local-side-title').textContent=currentLang==='zh'?rg.zh+'本地要闻':rg.en+' Local';
+  $('#local-hot').innerHTML=news.slice(0,3).map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
+  $('#local-hot').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>openM(news.find(a=>String(a.id)===el.dataset.id))));
+}
 
-function openChapterFromNovel(novelId, chNum) {
-  var novel = null;
-  for (var i = 0; i < novelsData.length; i++) { if (novelsData[i].id === novelId) { novel = novelsData[i]; break; } }
-  if (!novel) return;
-  var ch = null;
-  for (var i = 0; i < novel.chapters.length; i++) { if (novel.chapters[i].num === chNum) { ch = novel.chapters[i]; break; } }
-  if (!ch) return;
+function renderStats(pool){
+  const ct=Object.fromEntries(CATS.map(c=>[c,0]));
+  pool.forEach(a=>{if(ct[a.category]!==undefined)ct[a.category]++;});
+  $('#sg').innerHTML=CATS.map(c=>`<div class="sr"><span class="sn"><span class="sp" style="background:${COLS[c]}"></span>${c}</span><span class="sc">${ct[c]}</span></div>`).join('');
+}
 
-  var view = document.getElementById('chapter-view');
-  var list = document.getElementById('novel-list');
-
-  // Auth gate for paid chapters
-  if (!ch.free && !currentUser) { showAuthModal('login'); return; }
-
-  // Locked paywall (no purchase check yet — Stripe to come)
-  if (!ch.free) {
-    var t = i18n[currentLang];
-    var h = '<div class="chapter-nav">';
-    h += '<button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">' + t.readerBack + '</button>';
-    h += '</div>';
-    h += '<div class="chapter-heading">第' + ch.num + '章 · ' + ch.title + '</div>';
-    h += '<div style="text-align:center;padding:60px;background:var(--bg2);border:1px solid var(--border)">';
-    h += '<div style="font-size:2rem;margin-bottom:16px">&#128274;</div>';
-    h += '<div style="font-size:1.1rem;color:var(--text);margin-bottom:8px">' + t.readerLocked + ' · 8灵石</div>';
-    h += '<button class="btn-p" onclick="showPage(\'lingshi\')">' + t.readerBuyBtn + '</button></div>';
-    view.innerHTML = h;
-    list.style.display = 'none';
-    view.style.display = 'block';
-    return;
-  }
-
-  // Save progress
-  readerCurrentNovelId = novelId;
-  readerCurrentChNum = chNum;
-  saveReadingProgress(novelId, chNum);
-
-  // Build prev/next
-  var prevCh = null, nextCh = null;
-  for (var i = 0; i < novel.chapters.length; i++) {
-    if (novel.chapters[i].num === chNum - 1) prevCh = novel.chapters[i];
-    if (novel.chapters[i].num === chNum + 1) nextCh = novel.chapters[i];
-  }
-
-  var t = i18n[currentLang];
-  var wordCount = ch.content.join('').length;
-
-  // Toolbar
-  var h = '<div class="reader-toolbar">';
-  h += '<button class="chapter-back" onclick="openNovel(this.dataset.n)" data-n="' + novelId + '">' + t.readerBack + '</button>';
-  h += '<span class="chapter-title-bar" style="flex:1;text-align:center">' + novel.title + '</span>';
-  h += '<div class="reader-font-ctrl">';
-  h += '<button class="reader-font-btn" onclick="adjustFont(-1)" title="缩小字号">A-</button>';
-  h += '<span class="reader-font-size" id="readerFontDisplay">' + readerFontSize + 'px</span>';
-  h += '<button class="reader-font-btn" onclick="adjustFont(1)" title="放大字号">A+</button>';
-  h += '</div></div>';
-
-  // Chapter heading
-  h += '<div class="chapter-heading">第' + ch.num + '章 · <em>' + ch.title + '</em></div>';
-  h += '<div class="chapter-meta">' + novel.author + ' · ' + t.readerFree + ' · ' + wordCount + ' 字</div>';
-
-  // Body
-  var body = '';
-  ch.content.forEach(function(p) { body += '<p>' + p + '</p>'; });
-  h += '<div class="chapter-body" id="readerBody" style="font-size:' + readerFontSize + 'px">' + body + '</div>';
-
-  // Footer nav
-  h += '<div class="chapter-footer">';
-  h += '<div class="chapter-prev-next">';
-  if (prevCh) {
-    h += '<button class="chapter-back" onclick="openChapterFromNovel(\'' + novelId + '\',' + prevCh.num + ')">' + t.readerPrev + '</button>';
+function updateBarLabel(){
+  const rg=REGIONS[currentRegion];
+  if(S.cat==='local'){
+    $('#blbl').textContent=currentLang==='zh'?(rg.zh+'本地资讯'):(rg.en+' Local News');
+  } else if(S.cat==='all'){
+    $('#blbl').textContent=currentLang==='zh'?'最新资讯':'Latest News';
   } else {
-    h += '<span></span>';
+    $('#blbl').textContent=S.cat;
   }
-  if (nextCh) {
-    h += '<button class="chapter-back" onclick="openChapterFromNovel(\'' + novelId + '\',' + nextCh.num + ')">' + t.readerNext + '</button>';
-  }
-  h += '</div>';
-  h += '<span style="font-size:.6rem;color:var(--text-dim)">' + wordCount + ' 字</span>';
-  h += '</div>';
-
-  view.innerHTML = h;
-  list.style.display = 'none';
-  view.style.display = 'block';
-  document.querySelector('.novel-read-sec').scrollIntoView({ behavior: 'smooth' });
 }
 
-// ── FONT SIZE CONTROL ──
-function adjustFont(delta) {
-  readerFontSize = Math.min(24, Math.max(13, readerFontSize + delta));
-  localStorage.setItem('k1980_fontSize', readerFontSize);
-  var body = document.getElementById('readerBody');
-  if (body) body.style.fontSize = readerFontSize + 'px';
-  var disp = document.getElementById('readerFontDisplay');
-  if (disp) disp.textContent = readerFontSize + 'px';
-}
+function setTime(){const n=new Date();$('#utime').textContent=(currentLang==='zh'?'更新于 ':'Updated ')+String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0');}
 
-// ── READING PROGRESS ──
-function saveReadingProgress(novelId, chNum) {
-  try {
-    var progress = JSON.parse(localStorage.getItem('k1980_progress') || '{}');
-    progress[novelId] = { chNum: chNum, ts: Date.now() };
-    localStorage.setItem('k1980_progress', JSON.stringify(progress));
-  } catch(e) {}
-}
-
-function getReadingProgress(novelId) {
-  try {
-    var progress = JSON.parse(localStorage.getItem('k1980_progress') || '{}');
-    return progress[novelId] || null;
-  } catch(e) { return null; }
-}
-document.addEventListener('DOMContentLoaded', function(){
-  renderLibrary();
-});
-
-// Filter interaction
-
-document.querySelectorAll('.filter-item').forEach(item => {
-  item.addEventListener('click', () => {
-    item.closest('.sidebar-sec').querySelectorAll('.filter-item').forEach(i => i.classList.remove('active'));
-    item.classList.add('active');
-    var genre = item.getAttribute('data-genre');
-    renderLibrary(genre || null);
-  });
-});
-
-// Sort buttons
-document.querySelectorAll('.lib-sort').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.lib-sort').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-  });
-});
-</script>
-
-<!-- AUTH MODAL -->
-<div class="auth-overlay" id="authOverlay" onclick="closeAuthOnOverlay(event)">
-  <div class="auth-modal">
-    <div class="auth-modal-header">
-      <div class="auth-modal-title" id="authTitle">登入<em>江湖</em></div>
-      <button class="auth-close" onclick="closeAuthModal()">✕</button>
-    </div>
-    <div class="auth-tabs">
-      <div class="auth-tab active" id="tabLogin" onclick="switchAuthTab('login')">LOGIN · 登录</div>
-      <div class="auth-tab" id="tabRegister" onclick="switchAuthTab('register')">REGISTER · 注册</div>
-    </div>
-    <div class="auth-body">
-      <!-- Login Form -->
-      <div id="formLogin">
-        <div class="auth-field">
-          <label class="auth-label">邮箱 · Email</label>
-          <input class="auth-input" id="loginEmail" type="email" placeholder="your@email.com" autocomplete="email">
-        </div>
-        <div class="auth-field">
-          <label class="auth-label">密码 · Password</label>
-          <input class="auth-input" id="loginPassword" type="password" placeholder="••••••••" autocomplete="current-password">
-        </div>
-        <button class="auth-submit" id="loginBtn" onclick="handleLogin()">▶ 进入江湖</button>
-        <div class="auth-msg" id="loginMsg"></div>
-        <div class="auth-divider">— 或 —</div>
-        <button class="auth-google" onclick="handleGoogleLogin()">
-          <svg width="16" height="16" viewBox="0 0 24 24"><path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/><path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/><path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/><path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/></svg>
-          Google 登录
-        </button>
-      </div>
-      <!-- Register Form -->
-      <div id="formRegister" style="display:none">
-        <div class="auth-field">
-          <label class="auth-label">江湖名号 · Username</label>
-          <input class="auth-input" id="regUsername" type="text" placeholder="顾长安" autocomplete="nickname">
-        </div>
-        <div class="auth-field">
-          <label class="auth-label">邮箱 · Email</label>
-          <input class="auth-input" id="regEmail" type="email" placeholder="your@email.com" autocomplete="email">
-        </div>
-        <div class="auth-field">
-          <label class="auth-label">密码 · Password</label>
-          <input class="auth-input" id="regPassword" type="password" placeholder="至少8位" autocomplete="new-password">
-        </div>
-        <button class="auth-submit" id="registerBtn" onclick="handleRegister()">▶ 加入江湖</button>
-        <div class="auth-msg" id="registerMsg"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Supabase SDK -->
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
-<script>
-// ── SUPABASE CONFIG ──
-const SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co';
-const SUPABASE_KEY = 'sb_publishable_byVCLOtykYWQDJRbAwyDeg_kNracokE';
-const sbClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
-
-// ── STRIPE CONFIG ──
-const STRIPE_PK = 'pk_test_51TDKX6JFYB9fMpq2kdwhnTVndI6at1d2asejovgxOipMTgpV3doRS7GM6Lo06TGFAQ5WptjwYJCr7j4Pu53Dtq6T001t0bL9hc';
-const SUPABASE_FUNCTIONS_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co/functions/v1';
-
-async function buyStones(priceId, stoneAmount) {
-  if (!currentUser) {
-    showAuthModal('login');
-    return;
-  }
-  // Show loading state
-  const btn = event.target;
-  const originalText = btn.textContent;
-  btn.disabled = true;
-  btn.textContent = '跳转中...';
-
-  try {
-    // Call Edge Function to create Stripe Checkout session
-    const { data: { session: supaSession } } = await sbClient.auth.getSession();
-    const res = await fetch(SUPABASE_FUNCTIONS_URL + '/create-checkout', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer ' + supaSession.access_token,
-      },
-      body: JSON.stringify({
-        price_id: priceId,
-        stones: stoneAmount,
-        success_url: 'https://k1980.app/?payment=success&stones=' + stoneAmount,
-        cancel_url: 'https://k1980.app/?payment=cancelled',
-      }),
-    });
-    const data = await res.json();
-    if (data.url) {
-      window.location.href = data.url;
+/* ══ 主加载 ══════════════════════════════════════════════ */
+async function load(reset=true){
+  if(S.busy)return;S.busy=true;
+  const feed=$('#feed'),mw=$('#more-wrap'),fin=$('#fin'),rb=$('#rbtn');
+  if(reset){S.page=1;feed.innerHTML=skel(6);mw.style.display='none';fin.style.display='none';}
+  else{$('#mbtn').disabled=true;$('#mbtn').textContent=currentLang==='zh'?'加载中…':'Loading…';}
+  rb.classList.add('spin');
+  updateBarLabel();
+  try{
+    let arts,total;
+    // 本地新闻：先用 Mock，有 Supabase 数据后从数据库拉
+    if(S.cat==='local'){
+      arts=LOCAL_NEWS[currentRegion]||[];
+      total=arts.length;
     } else {
-      throw new Error(data.error || '创建支付失败');
+      const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY';
+      if(ok){const r=await sbGet(S.cat,S.page,S.sort);arts=r.data;total=r.total;S.live=true;}
+      else{let p=MOCK;if(S.cat!=='all')p=p.filter(a=>a.category===S.cat);if(S.sort==='hot')p=[...p].sort((a,b)=>(b.view_count||0)-(a.view_count||0));arts=p;total=p.length;}
     }
-  } catch(err) {
-    alert('支付跳转失败：' + err.message);
-    btn.disabled = false;
-    btn.textContent = originalText;
-  }
+    S.total=total;S.arts=reset?arts:[...S.arts,...arts];
+    if(reset){
+      if(!arts.length){feed.innerHTML=`<div class="empty"><div class="empty-ic">📭</div><div class="empty-tx">${currentLang==='zh'?'暂无资讯':'No articles found'}</div></div>`;setHero(null);}
+      else{feed.innerHTML=S.arts.map((a,i)=>card(a,i)).join('');setHero(S.cat==='all'?arts[0]:null);}
+    }else{
+      const base=S.arts.length-arts.length;
+      feed.insertAdjacentHTML('beforeend',arts.map((a,i)=>card(a,base+i)).join(''));
+    }
+    const more=S.arts.length<total;
+    mw.style.display=more?'block':'none';
+    fin.style.display=(!more&&S.arts.length>0)?'block':'none';
+    $('#ftotal').textContent=total;$('#ftotal-en').textContent=total;
+    if(more){$('#mbtn').disabled=false;$('#mbtn').textContent=currentLang==='zh'?'显示更多文章':'Load More';}
+    const sp=S.live?S.arts:MOCK;
+    renderHot(sp);renderStats(sp);renderLocalHot();setTime();
+    if(reset&&S.live&&!S.cache.length)sbAll();
+    if(reset&&!S.live)S.cache=MOCK;
+    bindCards();
+    // 加载完成后若为 EN 模式，立即开始翻译
+    if(currentLang==='en') enableTranslations();
+  }catch(e){
+    console.error(e);
+    if(reset){S.live=false;CFG.KEY='__mock__';S.busy=false;load(true);return;}
+  }finally{S.busy=false;rb.classList.remove('spin');}
 }
 
-// Handle return from Stripe
-function handlePaymentReturn() {
-  const params = new URLSearchParams(window.location.search);
-  if (params.get('payment') === 'success') {
-    const stones = params.get('stones');
-    // Clean URL
-    window.history.replaceState({}, '', '/');
-    // Show success message after short delay (webhook may still be processing)
-    setTimeout(async () => {
-      await loadUserProfile(currentUser?.id);
-      updateNavForUser();
-      alert('✅ 支付成功！' + stones + '灵石已到账，稍后刷新余额。');
-    }, 2000);
-  } else if (params.get('payment') === 'cancelled') {
-    window.history.replaceState({}, '', '/');
+/* ══ 区域切换 ════════════════════════════════════════════ */
+function setRegion(id,el){
+  currentRegion=id;
+  const rg=REGIONS[id];
+  // 更新 Header 区域按钮
+  $('#region-flag').textContent=rg.flag;
+  $('#region-name-btn').textContent=currentLang==='zh'?rg.zh:rg.en;
+  // 关闭下拉
+  $('#region-picker').classList.remove('open');
+  // 更新下拉选中态
+  document.querySelectorAll('.region-opt').forEach(o=>o.classList.toggle('active',o.dataset.region===id));
+  // 更新区域条选中态
+  document.querySelectorAll('.rtab').forEach(t=>t.classList.toggle('on',t.dataset.region===id));
+  // 显示/隐藏本地 tab
+  const localTab=$('#local-tab');
+  if(id==='global'){
+    localTab.style.display='none';
+    // 如果当前在本地 tab，切回全部
+    if(S.cat==='local'){S.cat='all';syncTabActive('all');}
+  } else {
+    localTab.style.display='';
+    localTab.innerHTML=`<span>${rg.flag}</span><span>${currentLang==='zh'?rg.zh+'本地':rg.en+' Local'}</span>`;
   }
+  renderLocalHot();
+  load(true);
 }
 
-// ── LANGUAGE SYSTEM ──
-let currentLang = 'zh';
+function toggleRegionDrop(){
+  $('#region-picker').classList.toggle('open');
+}
 
-const i18n = {
-  zh: {
-    // Nav
-    navLogin: '登入江湖', navLogout: '退出江湖',
-    tab_home: '首页', tab_jianghu: '◆ 江湖传', tab_library: '书库',
-    tab_creator: '创作者', tab_lingshi: '灵石', tab_about: '关于',
-    navBuyStones: '购买灵石', navCreatorDash: '创作者后台',
-    navStonesUnit: '灵石',
-    // Hero
-    heroTag: '● 江湖传言 · 正式上线 · LIVE',
-    heroTitle1: '听天下风声', heroTitle2: '辨江湖真假',
-    heroDesc: '全球首个以东方江湖文化为主题的双语小说平台。创作者发布，读者付费，平台分成。每一个故事，都是一局江湖棋。',
-    heroBtn1: '进入书库', heroBtn2: '我要创作',
-    statCreators: '创作者', statWorks: '作品', statShare: '创作者分成', statLang: '双语运营',
-    // Sections
-    secFeaturedNum: '// 001 · FEATURED', secFeaturedName: '今日推荐', secFeaturedMore: '查看全部书库 →',
-    secRankNum: '// 002 · RANKING', secRankName: '江湖热榜', secRankMore: '本周榜单 →',
-    // Reader
-    readerBack: '← 返回目录', readerFree: '免费阅读', readerPrev: '← 上一章', readerNext: '下一章 →',
-    readerLocked: '付费章节', readerBuyBtn: '购买灵石',
-    // Auth modal
-    authLoginTitle: '登入<em>江湖</em>', authRegTitle: '加入<em>江湖</em>',
-    authTabLogin: 'LOGIN · 登录', authTabReg: 'REGISTER · 注册',
-    authEmailLabel: '邮箱 · Email', authPwLabel: '密码 · Password',
-    authUsernameLabel: '江湖名号 · Username',
-    authLoginBtn: '▶ 进入江湖', authRegBtn: '▶ 加入江湖',
-    authOr: '— 或 —', authGoogle: 'Google 登录',
-    authErrFields: '请填写邮箱和密码', authErrAllFields: '请填写所有字段',
-    authErrPwLen: '密码至少8位', authErrCreds: '邮箱或密码错误',
-    authErrExists: '该邮箱已注册，请直接登录',
-    authSuccessReg: '注册成功！请检查邮箱验证链接后登录。',
-    // Reader toolbar
-    readerFontLabel: '字号', readerProgressLabel: '阅读进度',
-    // Footer
-    footerCopy: '© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app',
-    footerSys: 'SYS.STATUS: ONLINE · USERS: 50,412',
-  },
-  en: {
-    // Nav
-    navLogin: 'Sign In', navLogout: 'Sign Out',
-    tab_home: 'Home', tab_jianghu: '◆ Legend', tab_library: 'Library',
-    tab_creator: 'Creator', tab_lingshi: 'Crystals', tab_about: 'About',
-    navBuyStones: 'Buy Crystals', navCreatorDash: 'Dashboard',
-    navStonesUnit: 'Crystals',
-    // Hero
-    heroTag: '● K1980 · Now Live · GLOBAL',
-    heroTitle1: 'Wind of the Jianghu', heroTitle2: 'Truth in Every Tale',
-    heroDesc: 'The world\'s first bilingual novel platform rooted in Eastern martial arts culture. Creators publish, readers pay, platform shares. Every story is a move on the Jianghu chessboard.',
-    heroBtn1: 'Browse Library', heroBtn2: 'Start Creating',
-    statCreators: 'Creators', statWorks: 'Works', statShare: 'Creator Share', statLang: 'Bilingual',
-    // Sections
-    secFeaturedNum: '// 001 · FEATURED', secFeaturedName: 'Featured Today', secFeaturedMore: 'View All →',
-    secRankNum: '// 002 · RANKING', secRankName: 'Hot List', secRankMore: 'Weekly Chart →',
-    // Reader
-    readerBack: '← Back to List', readerFree: 'Free Chapter', readerPrev: '← Previous', readerNext: 'Next →',
-    readerLocked: 'Paid Chapter', readerBuyBtn: 'Buy Crystals',
-    // Auth modal
-    authLoginTitle: 'Sign <em>In</em>', authRegTitle: 'Join <em>Now</em>',
-    authTabLogin: 'LOGIN', authTabReg: 'REGISTER',
-    authEmailLabel: 'Email', authPwLabel: 'Password',
-    authUsernameLabel: 'Username / Handle',
-    authLoginBtn: '▶ Enter', authRegBtn: '▶ Join',
-    authOr: '— or —', authGoogle: 'Continue with Google',
-    authErrFields: 'Please fill in email and password', authErrAllFields: 'Please fill in all fields',
-    authErrPwLen: 'Password must be at least 8 characters', authErrCreds: 'Invalid email or password',
-    authErrExists: 'Email already registered — please sign in',
-    authSuccessReg: 'Registered! Check your email to verify your account.',
-    // Reader toolbar
-    readerFontLabel: 'Font Size', readerProgressLabel: 'Progress',
-    // Footer
-    footerCopy: '© 2026 K1980 CREATIVE STUDIO · ALL RIGHTS RESERVED · k1980.app',
-    footerSys: 'SYS.STATUS: ONLINE · USERS: 50,412',
-  }
+
+/* ══ AI 实时翻译引擎 ══════════════════════════════════════ */
+const TX = {
+  cache: {},      // id -> {title, summary, content}
+  pending: new Set(),
+  queue: [],
+  running: false,
 };
 
-// Elements keyed by i18n key → selector or getter
-const i18nBindings = [
-  // Nav tabs — in order matching DOM
-  { key: 'tab_home',     sel: '.tab-btn:nth-child(1)' },
-  { key: 'tab_jianghu', sel: '.tab-btn:nth-child(2)' },
-  { key: 'tab_library', sel: '.tab-btn:nth-child(3)' },
-  { key: 'tab_creator', sel: '.tab-btn:nth-child(4)' },
-  { key: 'tab_lingshi', sel: '.tab-btn:nth-child(5)' },
-  { key: 'tab_about',   sel: '.tab-btn:nth-child(6)' },
-  { key: 'navLogin',    sel: '#navLoginBtn' },
-  // Hero
-  { key: 'heroTitle1',  sel: '.hero-title .t1' },
-  { key: 'heroTitle2',  sel: '.hero-title .t2' },
-  { key: 'heroDesc',    sel: '.hero-desc' },
-  { key: 'heroBtn1',    sel: '.hero-btns .btn-p' },
-  { key: 'heroBtn2',    sel: '.hero-btns .btn-s' },
-  // Stats labels
-  { key: 'statCreators', sel: '.hero-stats .stat:nth-child(1) .stat-l' },
-  { key: 'statWorks',    sel: '.hero-stats .stat:nth-child(2) .stat-l' },
-  { key: 'statShare',    sel: '.hero-stats .stat:nth-child(3) .stat-l' },
-  { key: 'statLang',     sel: '.hero-stats .stat:nth-child(4) .stat-l' },
-  // Section headers
-  { key: 'secFeaturedMore', sel: '.sec:nth-of-type(1) .sec-more' },
-  // Auth modal
-  { key: 'authTabLogin', sel: '#tabLogin' },
-  { key: 'authTabReg',   sel: '#tabRegister' },
-  { key: 'authEmailLabel',    sel: '#formLogin .auth-label:nth-child(1)' },
-  { key: 'authPwLabel',       sel: '#formLogin .auth-label:nth-child(2)' },
-  { key: 'authLoginBtn',      sel: '#loginBtn' },
-  { key: 'authOr',            sel: '.auth-divider' },
-  { key: 'authGoogle',        sel: '.auth-google' },
-  { key: 'authRegBtn',        sel: '#registerBtn' },
-  // Footer
-  { key: 'footerCopy', sel: '.f-copy' },
-  { key: 'footerSys',  sel: '.f-sys'  },
-];
-
-function toggleLang() {
-  currentLang = currentLang === 'zh' ? 'en' : 'zh';
-  document.getElementById('langZH').className = currentLang === 'zh' ? 'lang-active' : '';
-  document.getElementById('langEN').className = currentLang === 'en' ? 'lang-active' : '';
-  document.documentElement.lang = currentLang;
-  applyLang();
-}
-
-function applyLang() {
-  const t = i18n[currentLang];
-  i18nBindings.forEach(({ key, sel }) => {
-    const el = document.querySelector(sel);
-    if (el && t[key] !== undefined) {
-      // Some strings contain <em> tags — use innerHTML
-      if (t[key].includes('<')) el.innerHTML = t[key];
-      else el.textContent = t[key];
-    }
-  });
-  // Auth modal title depends on which tab is active
-  const authTitleEl = document.getElementById('authTitle');
-  if (authTitleEl) {
-    const tab = document.getElementById('formLogin').style.display !== 'none' ? 'login' : 'register';
-    authTitleEl.innerHTML = tab === 'login' ? t.authLoginTitle : t.authRegTitle;
-  }
-  // Stones unit label
-  const stoneCountEl = document.getElementById('navStoneCount');
-  if (stoneCountEl && stoneCountEl.nextSibling) {
-    // The "灵石" text after the count — update via nav-stones container
-    const navStones = document.getElementById('navStones');
-    if (navStones) {
-      navStones.childNodes.forEach(n => {
-        if (n.nodeType === 3 && n.textContent.trim()) n.textContent = ' ' + t.navStonesUnit;
-      });
-    }
-  }
-  // User menu items
-  const menuItems = document.querySelectorAll('.user-menu-item');
-  if (menuItems[0]) menuItems[0].textContent = t.navBuyStones;
-  if (menuItems[1]) menuItems[1].textContent = t.navCreatorDash;
-  if (menuItems[3]) menuItems[3].textContent = t.navLogout;
-}
-
-// ── AUTH STATE ──
-let currentUser = null;
-let userProfile = null;
-
-async function initAuth() {
-  const { data: { session } } = await sbClient.auth.getSession();
-  if (session?.user) {
-    currentUser = session.user;
-    await loadUserProfile(session.user.id);
-    updateNavForUser();
-  }
-  sbClient.auth.onAuthStateChange(async (event, session) => {
-    if (event === 'SIGNED_IN' && session?.user) {
-      currentUser = session.user;
-      await loadUserProfile(session.user.id);
-      updateNavForUser();
-      closeAuthModal();
-    } else if (event === 'SIGNED_OUT') {
-      currentUser = null;
-      userProfile = null;
-      updateNavForGuest();
-    }
-  });
-}
-
-async function loadUserProfile(userId) {
+// 翻译单篇文章（title + summary + content），结果存入缓存
+async function translateArticle(a) {
+  if (TX.cache[a.id] || TX.pending.has(a.id)) return;
+  TX.pending.add(a.id);
   try {
-    const { data, error } = await supabase
-      .from('profiles')
-      .select('username, stones')
-      .eq('id', userId)
-      .single();
-    if (data) userProfile = data;
-  } catch(e) { console.log('Profile not found, will create on register'); }
-}
-
-function updateNavForUser() {
-  const name = userProfile?.username || currentUser?.email?.split('@')[0] || '侠客';
-  const stones = userProfile?.stones || 0;
-  document.getElementById('navLoginBtn').style.display = 'none';
-  document.getElementById('navUser').style.display = 'flex';
-  document.getElementById('navUserName').textContent = name;
-  document.getElementById('navStones').style.display = 'flex';
-  document.getElementById('navStoneCount').textContent = stones;
-}
-
-function updateNavForGuest() {
-  document.getElementById('navLoginBtn').style.display = '';
-  document.getElementById('navUser').style.display = 'none';
-  document.getElementById('navStones').style.display = 'none';
-}
-
-// ── AUTH MODAL ──
-function showAuthModal(tab) {
-  tab = tab || 'login';
-  var overlay = document.getElementById('authOverlay');
-  overlay.style.display = 'flex';
-  overlay.classList.add('open');
-  switchAuthTab(tab);
-}
-
-function closeAuthModal() {
-  var overlay = document.getElementById('authOverlay');
-  overlay.style.display = 'none';
-  overlay.classList.remove('open');
-  clearAuthMsgs();
-}
-
-function closeAuthOnOverlay(e) {
-  if (e.target === document.getElementById('authOverlay')) closeAuthModal();
-}
-
-function switchAuthTab(tab) {
-  document.getElementById('formLogin').style.display = tab === 'login' ? 'block' : 'none';
-  document.getElementById('formRegister').style.display = tab === 'register' ? 'block' : 'none';
-  document.getElementById('tabLogin').className = 'auth-tab' + (tab === 'login' ? ' active' : '');
-  document.getElementById('tabRegister').className = 'auth-tab' + (tab === 'register' ? ' active' : '');
-  document.getElementById('authTitle').innerHTML = tab === 'login' ? '登入<em>江湖</em>' : '加入<em>江湖</em>';
-}
-
-function clearAuthMsgs() {
-  ['loginMsg','registerMsg'].forEach(id => {
-    const el = document.getElementById(id);
-    el.className = 'auth-msg'; el.textContent = '';
-  });
-}
-
-function showMsg(id, msg, type) {
-  const el = document.getElementById(id);
-  el.className = 'auth-msg ' + type;
-  el.textContent = msg;
-}
-
-// ── LOGIN ──
-async function handleLogin() {
-  const email = document.getElementById('loginEmail').value.trim();
-  const password = document.getElementById('loginPassword').value;
-  if (!email || !password) return showMsg('loginMsg', '请填写邮箱和密码', 'error');
-  const btn = document.getElementById('loginBtn');
-  btn.disabled = true; btn.textContent = '进入中...';
-  const { error } = await sbClient.auth.signInWithPassword({ email, password });
-  btn.disabled = false; btn.textContent = '▶ 进入江湖';
-  if (error) showMsg('loginMsg', error.message === 'Invalid login credentials' ? '邮箱或密码错误' : error.message, 'error');
-}
-
-// ── REGISTER ──
-async function handleRegister() {
-  const username = document.getElementById('regUsername').value.trim();
-  const email = document.getElementById('regEmail').value.trim();
-  const password = document.getElementById('regPassword').value;
-  if (!username || !email || !password) return showMsg('registerMsg', '请填写所有字段', 'error');
-  if (password.length < 8) return showMsg('registerMsg', '密码至少8位', 'error');
-  const btn = document.getElementById('registerBtn');
-  btn.disabled = true; btn.textContent = '加入中...';
-  const { data, error } = await sbClient.auth.signUp({
-    email, password,
-    options: { data: { username } }
-  });
-  btn.disabled = false; btn.textContent = '▶ 加入江湖';
-  if (error) {
-    showMsg('registerMsg', error.message.includes('already registered') ? '该邮箱已注册，请直接登录' : error.message, 'error');
-  } else {
-    showMsg('registerMsg', '注册成功！请检查邮箱验证链接后登录。', 'success');
+    const texts = [a.title, a.summary||'', a.content||a.summary||''].join('\n|||SPLIT|||\n');
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 800,
+        messages: [{
+          role: 'user',
+          content: `Translate the following Chinese news text to natural English. Return ONLY the translated text in the same format, keeping the |||SPLIT||| separators exactly as-is. Do not add any explanation.\n\n${texts}`
+        }]
+      })
+    });
+    if (!resp.ok) return;
+    const data = await resp.json();
+    const raw = data.content?.[0]?.text || '';
+    const parts = raw.split('|||SPLIT|||').map(s => s.trim());
+    if (parts.length >= 2) {
+      TX.cache[a.id] = {
+        title:   parts[0] || a.title,
+        summary: parts[1] || a.summary,
+        content: parts[2] || a.content || a.summary,
+      };
+    }
+  } catch(e) {
+    // 翻译失败静默处理，保留原文
+  } finally {
+    TX.pending.delete(a.id);
   }
 }
 
-// ── GOOGLE LOGIN ──
-async function handleGoogleLogin() {
-  await sbClient.auth.signInWithOAuth({
-    provider: 'google',
-    options: { redirectTo: 'https://k1980.app' }
+// 批量翻译（并发最多3个，避免限流）
+async function translateBatch(arts) {
+  const todo = arts.filter(a => !TX.cache[a.id] && !TX.pending.has(a.id));
+  if (!todo.length) return;
+  const CONCURRENCY = 3;
+  for (let i = 0; i < todo.length; i += CONCURRENCY) {
+    const chunk = todo.slice(i, i + CONCURRENCY);
+    await Promise.all(chunk.map(a => translateArticle(a)));
+  }
+}
+
+// 把已翻译内容刷新到页面上（不重新渲染整个列表）
+function applyTranslationsToDOM() {
+  document.querySelectorAll('.item[data-id]').forEach(el => {
+    const id = Number(el.dataset.id);
+    const tx = TX.cache[id];
+    if (!tx) return;
+    const titleEl = el.querySelector('.ititle');
+    const sumEl   = el.querySelector('.isum');
+    if (titleEl) titleEl.textContent = tx.title;
+    if (sumEl)   sumEl.textContent   = tx.summary;
+  });
+  // 头条卡
+  const heroId = Number($('#hero')?.dataset.id);
+  if (heroId && TX.cache[heroId]) {
+    const tx = TX.cache[heroId];
+    const htEl = $('#htitle');
+    const hsEl = $('#hsum');
+    if (htEl) htEl.textContent = tx.title;
+    if (hsEl) hsEl.textContent = tx.summary;
+  }
+  // 热门话题
+  document.querySelectorAll('#hotl .hot-item').forEach(el => {
+    const id = Number(el.dataset.id);
+    if (TX.cache[id]) el.querySelector('.ht').textContent = TX.cache[id].title;
   });
 }
 
-// ── LOGOUT ──
-async function handleLogout() {
-  await sbClient.auth.signOut();
-  toggleUserMenu(true);
+// 切换到英文时触发翻译流程
+async function enableTranslations() {
+  if (!S.arts.length) return;
+  // 先刷新已有缓存（即时）
+  applyTranslationsToDOM();
+  // 再翻译缺失的（异步）
+  const toTranslate = S.arts.filter(a => !TX.cache[a.id]);
+  if (!toTranslate.length) return;
+
+  // 显示翻译中状态
+  const pill = document.getElementById('tx-pill');
+  const status = document.getElementById('tx-status');
+  if (pill) pill.style.display = 'flex';
+  let done = 0;
+
+  const BATCH = 3;
+  for (let i = 0; i < toTranslate.length; i += BATCH) {
+    const chunk = toTranslate.slice(i, i + BATCH);
+    await Promise.all(chunk.map(translateArticle));
+    done += chunk.length;
+    if (status) status.textContent = `⟳ ${done}/${toTranslate.length} 篇`;
+    if (currentLang === 'en') applyTranslationsToDOM();
+  }
+
+  // 翻译完成
+  if (pill) {
+    if (status) status.textContent = '✓ AI已翻译';
+    setTimeout(() => { if (currentLang === 'en' && pill) pill.style.display = 'none'; }, 2500);
+  }
 }
 
-// ── USER MENU ──
-function toggleUserMenu(forceClose = false) {
-  const menu = document.getElementById('userMenu');
-  if (forceClose) { menu.classList.remove('open'); return; }
-  menu.classList.toggle('open');
+// 弹窗内容翻译
+async function translateModalContent(a) {
+  if (!TX.cache[a.id]) await translateArticle(a);
+  return TX.cache[a.id] || {title: a.title, summary: a.summary, content: a.content};
 }
-document.addEventListener('click', (e) => {
-  if (!e.target.closest('#navUser')) toggleUserMenu(true);
-});
 
-// ── KEYBOARD ESC ──
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeAuthModal();
-});
+/* ══ 语言切换 ════════════════════════════════════════════ */
+function toggleLang(){
+  currentLang = currentLang==='zh'?'en':'zh';
+  document.documentElement.setAttribute('data-lang',currentLang);
+  const btn=$('#lang-btn');
+  btn.className='lang-btn '+(currentLang==='zh'?'zh-active':'en-active');
+  // 更新搜索框占位文字
+  $('#si').placeholder=currentLang==='zh'?'搜索资讯':'Search news';
+  // 更新区域按钮文字
+  const rg=REGIONS[currentRegion];
+  $('#region-name-btn').textContent=currentLang==='zh'?rg.zh:rg.en;
+  // 更新本地 tab 文字
+  if(currentRegion!=='global'){
+    const localTab=$('#local-tab');
+    localTab.innerHTML=`<span>${rg.flag}</span><span>${currentLang==='zh'?rg.zh+'本地':rg.en+' Local'}</span>`;
+  }
+  // 刷新侧边栏标题（zh-only/en-only 已通过 CSS 处理）
+  // 更新时间显示
+  setTime();updateBarLabel();
+  // 重新渲染文章时间显示
+  document.querySelectorAll('.itm').forEach((el,i)=>{
+    const a=S.arts[i];if(a)el.textContent=ago(a.created_at);
+  });
+  // AI 翻译：切 EN 时翻译内容，切 ZH 时还原原文
+  if (currentLang === 'en') {
+    // 先用缓存即时显示，再后台补全
+    enableTranslations();
+  } else {
+    // 还原中文原文
+    S.arts.forEach((a, i) => {
+      const el = document.querySelector(`.item[data-id="${a.id}"]`);
+      if (!el) return;
+      const titleEl = el.querySelector('.ititle');
+      const sumEl   = el.querySelector('.isum');
+      if (titleEl) titleEl.textContent = a.title;
+      if (sumEl)   sumEl.textContent   = a.summary || '';
+    });
+    // 还原头条
+    if ($('#hero')?.dataset.id) {
+      const a = S.arts.find(x => String(x.id) === $('#hero').dataset.id);
+      if (a) { $('#htitle').textContent = a.title; $('#hsum').textContent = a.summary || ''; }
+    }
+    // 还原热门话题
+    document.querySelectorAll('#hotl .hot-item').forEach(el => {
+      const a = (S.live ? S.arts : MOCK).find(x => String(x.id) === el.dataset.id)
+             || MOCK.find(x => String(x.id) === el.dataset.id);
+      if (a) el.querySelector('.ht').textContent = a.title;
+    });
+  }
+}
 
-// ── INIT ──
-document.addEventListener('DOMContentLoaded', () => {
-  initAuth();
-  handlePaymentReturn();
+/* ══ 游戏中心 ════════════════════════════════════════════ */
+async function loadGNews(reset=true){
+  if(GS.busy)return;GS.busy=true;
+  const feed=$('#gnews-feed'),mw=$('#gnews-more');
+  if(reset){GS.page=1;feed.innerHTML=skel(4);mw.style.display='none';}
+  else{$('#gnews-mbtn').disabled=true;}
+  try{
+    let arts,total;
+    const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY';
+    if(ok){
+      const off=(GS.page-1)*CFG.PS;
+      const u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&category=eq.游戏&order=created_at.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count`;
+      const r=await fetch(u,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Prefer':'count=exact'}});
+      arts=await r.json();total=parseInt(r.headers.get('Content-Range')?.split('/')[1]||'0',10);
+    } else {arts=GAME_MOCK;total=GAME_MOCK.length;}
+    GS.arts=reset?arts:[...GS.arts,...arts];
+    if(reset) feed.innerHTML=GS.arts.length?GS.arts.map((a,i)=>card(a,i)).join(''):'<div class="empty"><div class="empty-ic">🎮</div><div class="empty-tx">暂无游戏资讯</div></div>';
+    else{const base=GS.arts.length-arts.length;feed.insertAdjacentHTML('beforeend',arts.map((a,i)=>card(a,base+i)).join(''));}
+    const more=GS.arts.length<total;
+    mw.style.display=more?'block':'none';
+    if(more){$('#gnews-mbtn').disabled=false;}
+    const top=[...( ok?GS.arts:GAME_MOCK)].sort((a,b)=>(b.view_count||0)-(a.view_count||0)).slice(0,5);
+    $('#ghot').innerHTML=top.map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
+    $('#ghot').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>openM(GS.arts.find(a=>String(a.id)===el.dataset.id)||GAME_MOCK.find(a=>String(a.id)===el.dataset.id))));
+    $('#gnews-feed').querySelectorAll('.item:not([data-b])').forEach(el=>{el.dataset.b='1';el.addEventListener('click',()=>openM(GS.arts.find(a=>String(a.id)===el.dataset.id)));});
+  }catch(e){console.error(e);}finally{GS.busy=false;}
+}
+
+function switchGamePanel(id){
+  document.querySelectorAll('.gstab').forEach(b=>b.classList.remove('on'));
+  document.querySelector(`.gstab[data-gp="${id}"]`).classList.add('on');
+  document.querySelectorAll('.gpanel').forEach(p=>p.classList.remove('on'));
+  $(`#gpanel-${id}`).classList.add('on');
+  if(id==='news'&&GS.arts.length===0)loadGNews(true);
+}
+
+function openGame(src){window.open(src,'_blank','noopener');}
+
+function showGameMode(on){
+  $('#main-layout').classList.toggle('hidden',on);
+  $('#game-panel').classList.toggle('on',on);
+  if(on&&GS.arts.length===0)loadGNews(true);
+}
+
+/* ══ 弹窗 ════════════════════════════════════════════════ */
+async function openM(a){
+  if(!a)return;
+  const cv=getComputedStyle(document.documentElement).getPropertyValue('--c-'+a.category).trim()||'#888';
+  const mc=$('#mcat');mc.textContent=a.category;mc.style.background=cv+'14';mc.style.color=cv;
+  $('#mmeta').textContent=(a.source_name||'')+' · '+ago(a.created_at)+' · '+(currentLang==='zh'?'浏览 ':'Views: ')+(a.view_count||0);
+  const lk=$('#mlink');lk.style.display=(a.original_url&&a.original_url!=='#')?'inline-flex':'none';lk.href=a.original_url||'#';
+  $('#mtags').innerHTML=(a.tags||[]).map(t=>`<span class="mtag">#${esc(t)}</span>`).join('');
+  $('#modal').classList.add('on');document.body.style.overflow='hidden';sbView(a.id);
+
+  if(currentLang==='en'){
+    // EN 模式：先显示原文，异步替换为翻译
+    $('#mtitle').textContent=a.title;
+    $('#mbody').textContent=a.content||a.summary||'';
+    const tx=await translateModalContent(a);
+    if(currentLang==='en'){  // 仍是 EN（用户未切回）
+      $('#mtitle').textContent=tx.title;
+      $('#mbody').textContent=tx.content||tx.summary||'';
+    }
+  } else {
+    $('#mtitle').textContent=a.title;
+    $('#mbody').textContent=a.content||a.summary||'';
+  }
+}
+function closeM(){$('#modal').classList.remove('on');document.body.style.overflow='';}
+
+/* ══ 搜索 ════════════════════════════════════════════════ */
+let st;
+function doSearch(q){
+  const dr=$('#sdrop'),re=$('#sres');q=q.trim();
+  if(!q){dr.style.display='none';return;}
+  const pool=[...(S.cache.length?S.cache:MOCK),...(LOCAL_NEWS[currentRegion]||[])];
+  const ql=q.toLowerCase();
+  const hits=pool.filter(a=>a.title.toLowerCase().includes(ql)||(a.summary||'').toLowerCase().includes(ql)).slice(0,8);
+  re.innerHTML=hits.length?hits.map(a=>`<div class="si-item" data-id="${a.id}"><div class="si-t">${hl(a.title,q)}</div><div class="si-m">${esc(a.category)} · ${ago(a.created_at)}</div></div>`).join(''):`<div class="si-e">${currentLang==='zh'?'未找到相关资讯':'No results found'}</div>`;
+  re.querySelectorAll('.si-item').forEach(el=>el.addEventListener('click',()=>{
+    const ar=pool.find(a=>String(a.id)===el.dataset.id);
+    dr.style.display='none';$('#si').value='';openM(ar);
+  }));
+  dr.style.display='block';
+}
+
+/* ══ 工具函数 ════════════════════════════════════════════ */
+function goHome(){showGameMode(false);S.cat='all';S.sort='latest';syncTabActive('all');load(true);}
+
+function syncTabActive(cat){
+  document.querySelectorAll('button.ctab').forEach(b=>{
+    b.classList.toggle('on',b.dataset.c===cat);
+  });
+}
+
+function bindCards(){
+  $('#feed').querySelectorAll('.item:not([data-b])').forEach(el=>{
+    el.dataset.b='1';
+    el.addEventListener('click',()=>{
+      const a=S.arts.find(x=>String(x.id)===el.dataset.id);
+      openM(a);
+    });
+  });
+}
+
+/* ══ 初始化 ══════════════════════════════════════════════ */
+document.addEventListener('DOMContentLoaded',()=>{
+  // 初始化搜索框占位
+  $('#si').placeholder='搜索资讯';
+
+  // 分类 tab
+  document.querySelectorAll('button.ctab').forEach(b=>b.addEventListener('click',()=>{
+    const cat=b.dataset.c;
+    if(!cat)return;
+    document.querySelectorAll('button.ctab').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    if(cat==='games'){showGameMode(true);}
+    else{showGameMode(false);S.cat=cat;load(true);}
+  }));
+
+  // 排序
+  document.querySelectorAll('.srt-btn').forEach(b=>b.addEventListener('click',()=>{
+    document.querySelectorAll('.srt-btn').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');S.sort=b.dataset.s;load(true);
+  }));
+
+  // 更多
+  $('#mbtn').addEventListener('click',()=>{S.page++;load(false);});
+  $('#gnews-mbtn').addEventListener('click',()=>{GS.page++;loadGNews(false);});
+
+  // 刷新
+  $('#rbtn').addEventListener('click',()=>load(true));
+
+  // 头条卡
+  $('#hero').addEventListener('click',function(){if(this.dataset.id)openM(S.arts.find(a=>String(a.id)===this.dataset.id));});
+
+  // 游戏子导航
+  document.querySelectorAll('.gstab').forEach(b=>b.addEventListener('click',()=>switchGamePanel(b.dataset.gp)));
+
+  // 弹窗
+  $('#mclose').addEventListener('click',closeM);
+  $('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))closeM();});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeM();$('#sdrop').style.display='none';$('#region-picker').classList.remove('open');}});
+
+  // 搜索
+  const si=$('#si');
+  si.addEventListener('input',e=>{clearTimeout(st);st=setTimeout(()=>doSearch(e.target.value),200);});
+  si.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#sdrop').style.display='none';si.value='';si.blur();}});
+  document.addEventListener('click',e=>{
+    if(!e.target.closest('#si')&&!e.target.closest('#sdrop'))$('#sdrop').style.display='none';
+    if(!e.target.closest('#region-picker'))$('#region-picker').classList.remove('open');
+  });
+
+  // 回顶
+  const bt=$('#bt');
+  window.addEventListener('scroll',()=>{bt.style.display=window.scrollY>500?'flex':'none';},{passive:true});
+  bt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+  // 自动刷新
+  setInterval(()=>load(true),CFG.AR);
+
+  // 启动
+  load(true);
 });
 </script>
-
 </body>
 </html>
