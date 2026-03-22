@@ -1,9 +1,81 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-22T10:56:53.816142+00:00",
-  "total": 20,
+  "updated_at": "2026-03-22T13:55:48.579437+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "700f215fae",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Inside a rare lab that's blazing a bold trail as it hunts for new drugs",
+      "summary": "A scientist from Zambia who loves — LOVES! — chemistry runs a lab in South Africa that is being hailed for \"extraordinary\" work.",
+      "link": "https://www.npr.org/2026/03/22/g-s1-114038/new-drugs-health-medicine-africa-tuberculosis-measles",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1774185930.0,
+      "hot": false
+    },
+    {
+      "id": "067a2f6f52",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Israel Orders Military to Intensify Demolitions in Southern Lebanon",
+      "summary": "Defense Minister Israel Katz instructed troops to destroy more bridges and buildings in southern Lebanon, stoking worries that Israel could expand a military-controlled buffer zone there.",
+      "link": "https://www.nytimes.com/2026/03/22/world/middleeast/israel-lebanon-fighting-hezbollah.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22israel-iran-Lebanon-escalation-lhtm/22israel-iran-Lebanon-escalation-lhtm-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "32分前",
+      "pub_ts": 1774185770.0,
+      "hot": false
+    },
+    {
+      "id": "8ae2764390",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Mullin Explored Bipartisan Deal to Rein in Immigration Crackdown",
+      "summary": "The G.O.P. senator President Trump chose to lead the Department of Homeland Security privately discussed concessions the White House has repeatedly rejected.",
+      "link": "https://www.nytimes.com/2026/03/21/us/politics/markwayne-mullin-bipartisan-immigration-deal.html",
+      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-MULLIN-hglk/21DC-MULLIN-hglk-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "12小时前",
+      "pub_ts": 1774142419.0,
+      "hot": false
+    },
+    {
+      "id": "076ac46d40",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump threatens to 'obliterate' Iran's power plants as Iran strikes 2 Israeli cities",
+      "summary": "Iran launched missiles at two southern Israeli cities that lie close to the country's main nuclear research center, while President Trump gave Iran 48 hours to reopen the Strait of Hormuz.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5756308/trump-threatens-obliterate-irans-power-plants-iran-strikes-2-israeli-cities",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774178577.0,
+      "hot": false
+    },
     {
       "id": "806a8d3b0a",
       "type": "news",
@@ -17,8 +89,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "56分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774173600.0,
       "hot": false
     },
@@ -36,8 +108,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774170054.0,
       "hot": false
     },
@@ -55,27 +127,9 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774170053.0,
-      "hot": false
-    },
-    {
-      "id": "8ae2764390",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mullin Explored Bipartisan Deal to Rein in Immigration Crackdown",
-      "summary": "The G.O.P. senator President Trump chose to lead the Department of Homeland Security privately discussed concessions the White House has repeatedly rejected.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/markwayne-mullin-bipartisan-immigration-deal.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-MULLIN-hglk/21DC-MULLIN-hglk-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "9小时前",
-      "pub_ts": 1774142419.0,
       "hot": false
     },
     {
@@ -92,26 +146,8 @@
         "政治"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1774167146.0,
-      "hot": false
-    },
-    {
-      "id": "ecb60b65ed",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Beshear Criticizes Vance in Ohio, Stoking 2028 Presidential Tensions",
-      "summary": "Mr. Beshear, the Democratic governor of Kentucky, sharply criticized Mr. Vance as both angle for potential presidential runs.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/beshear-vance-2028-presidential-race.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/pol-beshear-vance-gcvw/pol-beshear-vance-gcvw-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774166758.0,
       "hot": false
     },
     {
@@ -128,7 +164,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1774166656.0,
       "hot": false
     },
@@ -147,7 +183,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1774166400.0,
       "hot": false
     },
@@ -165,7 +201,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774154558.0,
       "hot": false
     },
@@ -183,7 +219,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1774143279.0,
       "hot": false
     },
@@ -201,7 +237,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1774140153.0,
       "hot": false
     },
@@ -219,7 +255,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1774129668.0,
       "hot": false
     },
@@ -238,7 +274,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1774129243.0,
       "hot": false
     },
@@ -256,7 +292,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1774127908.0,
       "hot": false
     },
@@ -274,7 +310,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1774122524.0,
       "hot": false
     },
@@ -292,7 +328,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1774115876.0,
       "hot": false
     },
@@ -300,7 +336,7 @@
       "id": "d091ac3d51",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iraqi Kurds mark Nowruz, celebrating light over darkness",
       "summary": "In the Kurdish regions of the Middle East, Nowruz celebrations — honoring the arrival of spring — are a fundamental expression of Kurdish identity.",
@@ -310,7 +346,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "20小时前",
       "pub_ts": 1774112160.0,
       "hot": false
     },
@@ -318,7 +354,7 @@
       "id": "fb1574e4b8",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "End of an heir-a: The U.K. abolishes aristocrats' right to inherit Parliament seats",
       "summary": "The British Parliament still has 92 unelected lawmakers who inherit seats by bloodline. They're all older white men. A new law now phases them out, for the first time in nearly 1,000 years.",
@@ -327,27 +363,9 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774100052.0,
-      "hot": false
-    },
-    {
-      "id": "f59d6f5c28",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Meet the Dutch art detective who tracks down stolen masterpieces",
-      "summary": "For 20 years, Dutch art detective Arthur Brand has acted as an intermediary between the police and people who know where stolen artwork might be hiding. He says patience and trust are everything.",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5716061/dutch-art-detective-arthur-brand",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1774090800.0,
       "hot": false
     },
     {
