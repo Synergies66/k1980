@@ -4713,12 +4713,13 @@ async function publishGeneratedNews() {
   const targetSection = sectionTag ? sectionTag.dataset.s : 'auto';
   const now = new Date();
   const toInsert = approved.map((a, i) => ({
+    guid:         crypto.randomUUID ? crypto.randomUUID() : (Date.now().toString(36) + Math.random().toString(36).slice(2)),
     title:        a.title,
     summary:      a.summary,
     content:      a.content,
     category:     targetSection === 'auto' ? a.category : targetSection,
     source_name:  a.source_name || 'K1980资讯',
-    tags:         a.tags || [],
+    tags:         Array.isArray(a.tags) ? a.tags : (a.tags ? String(a.tags).split(',').map(t=>t.trim()) : []),
     original_url: '#',
     is_published: true,
     view_count:   a.view_count || Math.floor(Math.random() * 2000 + 200),
