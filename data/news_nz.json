@@ -1,134 +1,424 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-03-22T20:56:26.182875+00:00",
-  "total": 26,
+  "updated_at": "2026-03-22T22:56:43.824747+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "8466a60a7d",
+      "id": "c19072ce97",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Fonterra delivers strong half-year profit",
-      "summary": "It beat market expectations, while lifting its full year earnings outlook and forecast farmgate milk price.",
-      "link": "https://www.rnz.co.nz/news/business/590358/fonterra-delivers-strong-half-year-profit",
+      "title": "Prime Minister Manele holds firm as opposition claims majority in Solomon Islands",
+      "summary": "The Solomon Islands Prime Minister has doubled down on his decision not to convene parliament as he clings to power, following mass defections from his coalition.",
+      "link": "https://www.rnz.co.nz/international/pacific-news/590366/prime-minister-manele-holds-firm-as-opposition-claims-majority-in-solomon-islands",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1774219224.0,
+      "hot": false
+    },
+    {
+      "id": "f6382b1789",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Christopher Luxon says he's focused on fuel challenges not polls",
+      "summary": "After falling further in the RNZ-Reid Research poll, the prime minister says the government has more to do but many people feel \"things have got better\" with the economy.",
+      "link": "https://www.rnz.co.nz/news/political/590354/christopher-luxon-says-he-s-focused-on-fuel-challenges-not-polls",
+      "image": null,
+      "categories": [
+        "政治",
+        "经济"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1774219033.0,
+      "hot": false
+    },
+    {
+      "id": "0d7218bd37",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Live: Oil prices rise as fall out from Middle East crisis continues",
+      "summary": "The prospect of tit-for-tat strikes on energy facilities could deepen the regional crisis and rattle markets.",
+      "link": "https://www.rnz.co.nz/news/world/590353/live-oil-prices-rise-as-fall-out-from-middle-east-crisis-continues",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "11分前",
-      "pub_ts": 1774212257.0,
+      "ago": "19分前",
+      "pub_ts": 1774219032.0,
       "hot": false
     },
     {
-      "id": "4d2b8e9c0e",
+      "id": "09de66f3f3",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Middle East conflict live updates: Trump’s 48-hour Strait of Hormuz deadline looms,  Luxon says deci",
+      "summary": "Iran has threatened to destroy energy sites across the Middle East.",
+      "link": "https://www.nzherald.co.nz/world/middle-east-conflict-live-updates-trump-gives-iran-48-hours-to-open-strait-of-hormuz/LLMB7S5RFBBT3JZTXSF46SN6GY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/OQOFKXI5CFABBABOUFK3CQF5AM.jpg?auth=5c4ebec16da2df83db9d67fc68039ee8e47c7dbf9c51c19ad6b9f2eb39290efe&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "22分前",
+      "pub_ts": 1774218822.0,
+      "hot": false
+    },
+    {
+      "id": "9b86fded71",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cocaine use across New Zealand at record-breaking high new wastewater data shows",
+      "summary": "The Drug Foundation says the data shows our approach to drug use is not working.",
+      "link": "https://www.nzherald.co.nz/nz/wellington/cocaine-use-across-new-zealand-at-record-breaking-high-new-wastewater-data-shows/W7GMZ6QV4JGCXK6O35SKVEKI6M/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/EWOPEGWOTBCENFWTZOV4HOTJWU.jpg?auth=7a63ec1947ee6b494b7ff8c24720a9033a2fad741dfb6f9ad2b72a151ee871fd&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1774218181.0,
+      "hot": true
+    },
+    {
+      "id": "2474304590",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Can you still afford the school run with rising fuel costs? Tell us",
-      "summary": "What do you think? Are you struggling to get your kids to school? Vote in our poll and let us know in the comments.",
-      "link": "https://www.stuff.co.nz/nz-news/360954529/has-cost-fuel-affected-how-you-get-your-kids-school",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVHtNaEvTBOD+Vc1ERdV4fCc8BSIHhhvTJRtAmFbMwEVPeASVMhP963Y%2FRXvfYSPeaiqTaJfBwEK3wvpAhc%2F7lUTJJZMCZcaNHc2mJt9qu5bhZlmoyAe6YCuRuvyBiDD9LmNpc97ir3RTbac3bJ9Dyo=?resolution=1240x700",
+      "title": "How a farmer shooting a burglar led to a major conservation discovery",
+      "summary": "It's a conservation story unlike any other.",
+      "link": "https://www.stuff.co.nz/nz-news/360954616/strange-chain-events-leads-important-ecological-discovery-native-bats",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRvrYEefW95IVByopzA+zoHqGyuqBqmt5ZE+rnCer0prrgjY1skuYD9HFt3qI1tM2xYWtapzzx4Mb4y+3PHEH8v+jmnD29xK0rZA%2FQhtB4hY4NHzD4EyRwG2Kt8RWxpGt5tMymszB4+zrhFucRVdJhCmBiN4TPfVeOjPfBVlYmlDiOyoziX4kpR8rBkelw8182Vj6gNnn31lJnhIqvRY2N2ED46+3sl642YLY3pfM1zXxNIyzOTKRm0lGzCFV4sAWEeuApQ1wisgSDnSD92V1aVgI%2FFd0TXAE99rA1Wz5fOdU%2FKW4D1YTX3sU84O75OVGrH1bIphqE3EuY8MzuEJ5LsiSUVJ8OqhujQ6uplLO8MFiu1FjY8gNi4mLk%2FFAnTD9itQM1M7%2FbsSHibbFfdoXH0QXtgs81mHLBoQdvKGsc19LElJf2gV6vaipXjr2PmF4A==?resolution=1240x700",
       "categories": [
-        "教育"
+        "本地"
       ],
       "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1774211550.0,
+      "ago": "34分前",
+      "pub_ts": 1774218105.0,
       "hot": false
     },
     {
-      "id": "1bde7a2340",
+      "id": "28f48c26b3",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "NZ Herald",
       "lang": "en",
-      "title": "Greens offers votes for National Party crisis-relief package - with conditions",
-      "summary": "Transport authorities say they have capacity on buses, trains and ferries for people to travel and leave the car at home.",
-      "link": "https://www.rnz.co.nz/news/political/590334/greens-offers-votes-for-national-party-crisis-relief-package-with-conditions",
-      "image": null,
+      "title": "People injured after multi-vehicle crash blocked lanes on Auckland’s Southern Motorway",
+      "summary": "The injured motorists were taken to hospital with moderate injuries.",
+      "link": "https://www.nzherald.co.nz/nz/people-injured-after-multi-vehicle-crash-blocks-lanes-on-aucklands-southern-motorway/SNFAZAXVSFHVLBGZFHRUAJSHPQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/UWGGAGCCERCRZMT7MDOIS63FBU.jpg?auth=a28d5223ae578a3b20b8cf383354680259b6fa938bebfad8b07cda891028f992&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1774218045.0,
+      "hot": false
+    },
+    {
+      "id": "41c78bd0f6",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Two days of stormy weather to hit Northland as subtropical low brings heavy rain, strong winds",
+      "summary": "MetService has placed two days of watches for Northland beginning on Wednesday.",
+      "link": "https://www.nzherald.co.nz/nz/two-days-of-stormy-weather-to-hit-northland-as-subtropical-low-brings-heavy-rain-strong-winds/UXQM7KKBWVFWRA4GWC64HUJXLE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/RHVXPJABONHS3G6DLCAAETCDZQ.JPG?auth=6ebb607d2f3da0a503ea5bd2ebf00c734441441625c52555b0748cfa41404fb3&smart=true&width=300&height=300",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774211404.0,
+      "ago": "38分前",
+      "pub_ts": 1774217889.0,
       "hot": false
     },
     {
-      "id": "f74259111d",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Watch: 2026 Maadi Regatta at Lake Ruataniwha",
-      "summary": "Watch all the action from the Maadi Regatta via the official Rowing NZ livestream.",
-      "link": "https://www.stuff.co.nz/sport/360953189/watch-2026-maadi-regatta-lake-ruataniwha",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZBWdG8PBc7g7Ic3sv2v9ycwmoeNyRODYdw9TOHNIhxdYkhMZtmLVKOBqJerndpXf3K1RmIw6b24hTgu9UkeuTEtcPg+Z8phsB69NMV+zYBm5n+9KD7FJGTYn6xH5ENDbhIf1m37nnY3BozeQaf2br%2Fgq5Wb2XD6YEA7HGBbtrdl%2FwrCXMeMhfUnU9sUtD+QRXwOFItEVh0UKarRGx6+4kDRTzMIQnotESMhBZwkpXEl0MMOD8mLLBrhH32%2FbQtmV+6W60b4AojuoFTBFos5pwGwCrsOiQlq8zyY42TA8eqk8PNuvZpIFh6qL86XvRuAwMCg26ziQuqhBhj4kIPKiuA59H1D3MugEfqizMs%2F2Qs4x4TLPIZ5I1w3Oy49iryM93PQwMx%2FMDKOUDjDCykXIhn15G8yTv5P953bK3hJoSLZQNIQelJyu8cWrQY+mg1B3Q==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1774211312.0,
-      "hot": false
-    },
-    {
-      "id": "f5798448fd",
+      "id": "6675261e2d",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "RNZ-Reid Research poll: Bleak numbers for Luxon, but no obvious successors",
-      "summary": "Analysis: Voters say National and its leader are doing worse, according to a new poll. But they also aren't pointing to a clear alternative.",
-      "link": "https://www.rnz.co.nz/news/political/590348/rnz-reid-research-poll-bleak-numbers-for-luxon-but-no-obvious-successors",
+      "title": "Offenders armed with gun demand cash during alleged robbery",
+      "summary": "The police Eagle helicopter was deployed to search for the trio but they are yet to be found.",
+      "link": "https://www.rnz.co.nz/news/national/590363/offenders-armed-with-gun-demand-cash-during-alleged-robbery",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1774211091.0,
+      "ago": "41分前",
+      "pub_ts": 1774217722.0,
       "hot": false
     },
     {
-      "id": "023d8fe358",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "NZ Herald comments: The stories open for discussion today",
-      "summary": "Want to have your say on our stories? Here's how.",
-      "link": "https://www.nzherald.co.nz/nz/nz-herald-comments-the-stories-open-for-discussion-today/BETD7I6HSZCYDPI7QGKL3VCC2U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/BMV4ORAERVA5PQVITCXO6WOWDM.jpg?auth=ffbf4c420e009fa5dc27d4eb104f9ff7f74ed32a8bc4f96898bf6691edc7c770&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "40分前",
-      "pub_ts": 1774210516.0,
-      "hot": false
-    },
-    {
-      "id": "dd8fe5e505",
+      "id": "f973003dd0",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Gunmen flee with cash and items after Auckland home invasion",
-      "summary": "Three offenders entered a Gifford Avenue address armed with a firearm at approximately 10pm.",
-      "link": "https://www.stuff.co.nz/nz-news/360954533/gunmen-flee-cash-and-items-after-auckland-home-invasion",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYS33iBm3hCDUeehxMGfGjPwzd3PCzkFC7GuOCNoL0qYrBNdyNP5B6IXqy7oUwmtSnhzFUibatpljEmutl%2FGTXj29KXt8AXxzg3NZLit%2Fmjq%2FMVVNefJeD6+Sz%2FU7opx1VrTcqp504UvZiwKt1wGTfdtp9P6TwGrFfA9GfcaejRawFHOkI5kwXleYgT3MVMuUTEeMcK6uyxUi67COX9PQHLb9JDBytbhhDBAGHH181z03G0o%2Fhj+54WeWV2G8burso6Y4miUi8bdbNKvUDOpre7UuULBd2QGa5AqQ%2F6SkMEa%2F3TtojPI%2FMKEcDRcLYjj1x8XYQwC34EikzFNc%2FCIKqETFp6jEh3xnur4S51J+8gvtDFWjZazH4Sq1I5ZIDajtFShBMN6Ysou1da+YTQ0vjk%2FrwzFm1DKUNwZYwC9CV4W76mee20fpXqXtV7h0Dz%2FNW2MFi30mWz1urX81FsRcNPs=?resolution=1240x700",
+      "title": "Three taken to hospital after multi-car pile-up on Auckland motorway",
+      "summary": "Motorists are being advised to seek alternative routes and expect significant congestion.",
+      "link": "https://www.stuff.co.nz/nz-news/360954601/multi-vehicle-crash-auckland-motorway-causes-major-delays-near-otahuhu",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZY%2FSTy0nu7tnKaMiz9CO8SkKeHiVJ4nlvcrKi7uK2Ib%2FwW0T+UO9OY+0K+162cIUhFbxqwWXufMUD65dWy1+mET5jeeqtsrOk3Wvw3L0z63JfSEo1ZPhKTtzL7n2XCpY7lV0L5oszfpdBD4xkPnxpR%2F3VbW778x7+v6xCogANpnxz9D+cjuSZ%2FFOAVH157Evo9zJHzHjMLY71zQts2UMVKR715FF4u51vUwXKLkobx9hjyqIchu0Ty3E4cFdYKCbr6Mt2bStlyXaQKBlOMO0tP6TzeCUfAG+s2eN9xoiGPnASlijBzcwu0%2F2vq%2FQrZIq8t3WMjQ9491pNgmNWVrFNdz10pIXcBTu6xoXgmOymQOFZPvcm4LT%2Fobem0I5SA8qARe5q7yUDMr7u1Z7wKSoNa6UnxotgxCwGxmid5swBm8kJX87afQXmSZpS+BaEm0LA==?resolution=1240x700",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "42分前",
-      "pub_ts": 1774210437.0,
+      "ago": "45分前",
+      "pub_ts": 1774217456.0,
+      "hot": false
+    },
+    {
+      "id": "5b1c4a180a",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Plans for new $3.8 million animal shelter in Napier",
+      "summary": "A new multi-million-dollar animal shelter with 62 kennels has been announced for Napier.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/plans-for-new-38-million-animal-shelter-in-napier/premium/5UXQF4TNL5E57PHWXEQHBY2RP4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/M5O5MZMA6ZFX3LPIZLDBNC7RXY.jpg?auth=7a7fc940ecb0287f5965048ead838e713b061fe9c14efc873b3c3b00ccdadebb&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1774217367.0,
+      "hot": false
+    },
+    {
+      "id": "b2eddfed32",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Delays on Auckland's Southern Motorway after multi-vehicle crash",
+      "summary": "The crash happened on State Highway One near the Princes St off-ramp.",
+      "link": "https://www.rnz.co.nz/news/national/590361/delays-on-auckland-s-southern-motorway-after-multi-vehicle-crash",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1774217344.0,
+      "hot": false
+    },
+    {
+      "id": "7462c73e5f",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Powerball jackpot hits $23m after Rotorua Strike Four $700k Lotto win",
+      "summary": "Four players Bay of Plenty-wide cashed in over the weekend.",
+      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/powerball-jackpot-hits-23m-after-rotorua-strike-four-700k-lotto-win/R7X4RWOZ7RH7DHIYEI3ZKR63UY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/WG7S47SQJZAYVAR3NUL6ZBHU3Y.jpg?auth=a4ae8b82b4e22df375ca69f6ff94815324c1e301068adce61fd9dcecb63dba68&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1774217126.0,
+      "hot": false
+    },
+    {
+      "id": "72e266efa6",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "We’ll send price of oil soaring, vows Iran",
+      "summary": "Iran has threatened to destroy energy sites across the Middle East after Donald Trump gave the regime 48 hours to reopen the Strait of Hormuz.",
+      "link": "https://www.stuff.co.nz/world-news/360954614/well-send-price-oil-soaring-vows-iran",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVyOwYFaG22fV0D8hRbuyC0U7ke71pRsvVk4AXQYGqvRmncFkXJbfEWoF25CpIU1Dkx1VbdjvHVQCWAEF%2FgvOsXbSqycBKyZqlhZGqgWkyT%2F7O1Jd8VdyxL%2Frrn+DyFPlczTXUN8+nQ252oXL2sTRZCqlJTFAyYcDHLE2IlDIF2XOJcBj09rcnWpB67%2FOG5Bhj%2FS1WhxHZWtvh+X6AT5LS925qC0ptNOc2EJPPRScOV+KvTxcqLDZHveb0cA9eSavV1ymSn38s8PIlVAquoOZK0MntU0k2QaLXDNsoxoqfdQrBA49P9vPj8DC1sAAb+JEV8ORrBaOzJQQYRPVBKElQGQVOQB0luaHm%2Fa%2FvZ8pJkCen6DFVqCQ4Px7reaA2LEVqntj8M3wZ6X0bQH9ybGkRRWjRYb1%2FiDo3PsN8bjfDv2wRfNKMRQbW0lVQbGqL07104m0NLzlhe+mPKDfmU1Ufg=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774216952.0,
+      "hot": false
+    },
+    {
+      "id": "d654b3d8f7",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘Our military is always prepared’: The next country in Trump’s sights is ready for war",
+      "summary": "Cuba and the US have been in talks for weeks as an oil blockade has caused one of the worst energy crises on the island in decades.",
+      "link": "https://www.stuff.co.nz/world-news/360954613/cuba-prepares-us-military-action",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbW2BMWIBdbEYR0kBOSTpE1LEJxwDPWr2M0stNkKcCLlMDSNnpVELWDbArXo7HNgWFtzRiT0%2FnhVNiELU4eMVuoonBmh8ytbDm2qBuCnhKArMstIg3i79OFfIqnUQ%2F2S4GK7OP+XGLsYovtRTwl+cSJHD8828yDYQsyO9HReWHd5oVy5sxvtZzPjqBoHke%2FBeEKPnYxQUY34fAIbmKNlgPW+tEPCUxcn1lFO63tsm0OEW5%2FyJDxqAfUoMR6h4%2FKSGWtNWVsChKpRDTMp5%2FT06Q6ikP9gT1UyL6UVfeQfaBaStnCnMNFbZcP1JV0yOTd0ElV8bJTGPP7hVo0RrUHDqxptDXsafIfMPJ1BeUZ5kb6mrXjWRUdbOds+uBnqWteBDbSljAjJcnkhtRDwkL46SgUR07fxxcQitaiUQFY2qEMZ0jteNbiu3A8icN8nh0GZqXm+08ma8SNMaUQVkcnvlXQ=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774216476.0,
+      "hot": false
+    },
+    {
+      "id": "1eec9a88f0",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Two key names missing from Whitney Hansen's first Black Ferns squad",
+      "summary": "Five Black Ferns who have been playing in the UK have also been named in the squad.",
+      "link": "https://www.rnz.co.nz/news/sport/590360/two-key-names-missing-from-whitney-hansen-s-first-black-ferns-squad",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774215787.0,
+      "hot": false
+    },
+    {
+      "id": "0b472f90c3",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "South Island highway reopens after diesel spill closure",
+      "summary": "SH73 was shut between Castle Hill and Springfield in central Canterbury,  including Porters Pass.",
+      "link": "https://www.stuff.co.nz/nz-news/360954580/diesel-spill-shuts-south-island-state-highway",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZvVK1IpH2KX+oFtMNHRwLcNKk1dSfPR5wSWWj+harElkP8++c%2FS4m3hRKkckitGuWW0l3Z+PNSod0Zdn0qDLmnLQH8pz7mJuOScnQMJ2haAx2AX983HooqUIiQdJosv7g7si4CBZ3FNkERi7qTOSG8=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774215736.0,
+      "hot": false
+    },
+    {
+      "id": "df81b73821",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Air-mail: Police Eagle spots woman playing 'postie' in stolen hatchback",
+      "summary": "The 34-year-old was spotted by the Police Eagle helicopter attempting to give Sunnynook residents an unexpected 3am mail service, police say.",
+      "link": "https://www.stuff.co.nz/nz-news/360954609/3am-north-shore-mailbox-search-leads-high-speed-chase-and-charges",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVXVZRTkSdqsP781SI9rXyDSbY67rDDyZSnAvecM%2FgcD2FA%2FMCsYnAQu4GOMq%2FagFiU039ZT8N3kq2l8qPoitZ4cSYP03t1sec45Td4psuA40LkMIwop85ZXneM55QhIQ+wO+7KRSCaTD1XsZLx6zi9yIiHiqi0KbBh+9zevZXmk1GJz7+xf6yhhPGzDjMKA9FdwQlMA02zSZZsMqwMMZo6g1rlPZrg4rdN62S6NuuKUyFLG%2Feyq%2FCfRbJIjUwH%2F1i%2FpRk9ywDSzGtpff4LF3ta+bMUum6OTL5xwTjZQZttko0G%2F+K6YSjj6f%2Fd8ACC+KxEkChXcnZqL+BijOc6q1rNJR9+8gILc4atRMJ64UXE%2FbxUwtRmb29J71pgMhQANiVsUvSb5BlJtGOJUGgmQ8FfixEVKOhKjjzY9pLegqqKE2p8qo+IyWqo74w8n0Wfv1NDHfcPT+9TGPOD%2Fl0AYLtk=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214927.0,
+      "hot": false
+    },
+    {
+      "id": "e885e22eea",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Dame Lydia Ko signals retirement time frame",
+      "summary": "Dame Lydia Ko appears to be sticking to her word - that she will retire at the age of 30.",
+      "link": "https://www.stuff.co.nz/sport/360954594/dame-lydia-ko-signals-retirement-time-frame-lpga-tour",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRixlqSk%2FEFUrGcAqbS4jxOh0hkHjVhgH6SeHmAp9R4F6fZIdsSKJhysUT1rR1OZZMki8g4BZT7z2yPszXCYEvwtNx6iGWNlcBZC5LpRa3BfH4wpEMCasdx1zcvA2KPdT3t%2FV8eHGPJdk5Q7sAafJVxlHih0iMBttl3h5gxbGu67Ffu8M0i3laFqWRjivnMMV8aqw8fWX8yusG%2FBMZ6NlvAbM+jUJyOSf0kY54%2F3JYTdGVLTyL2h5zgWoJoD3%2FH1Ux7sn288elaxHFfywwt0jEb1rx2OfaMgUW6sQBGehFRqaUyIlhuKkYF3Afqr%2F048OoA1HDYQTdkTT0ytSvqJG5Y5CAehAeonoTEr5sYLWGHjSFZtgIUP+YphZ9%2FpWCFyqbMWwrohU%2FoFk2MkdZM3M3DZ57ra4qRXsupdoJzsZGoz52E16fPIlX5xZiyNCvIPmA==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214871.0,
+      "hot": false
+    },
+    {
+      "id": "244b49e74f",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "David Seymour to present grieving mum’s tougher sentences petition to Parliament",
+      "summary": "The petition urges tougher sentences when violent crimes result in death.",
+      "link": "https://www.nzherald.co.nz/kahu/david-seymour-to-present-grieving-mums-tougher-sentences-petition-to-parliament/VRR3X6ACGBGEXKXNDJB66I334U/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/BO43SUNCYRBCPFSSDAI3FKDYDQ.jpg?auth=16717d5cfa4b8b3d0939f9c291d45f3cf025c14222d92204ac0ef11691843687&smart=true&width=300&height=300",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214810.0,
+      "hot": false
+    },
+    {
+      "id": "c7bb7ad303",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Dog’s birthday video helps landlords win rental ruling against Lower Hutt couple",
+      "summary": "The carpet stunk of dog urine but the tenants tried to claim it was from a leak.",
+      "link": "https://www.nzherald.co.nz/nz/dogs-birthday-video-helps-landlord-win-3000-rental-damage-ruling-against-lower-hutt-couple/MOWR3Z7EZNDWJNJZJECW27QSJE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/NYL24CTL3JBP3JOLGPXDEZ6DPI.jpg?auth=3fbfbb335da646a103fe1413ba5de345b434c97603126dd80d9bcbb12601573c&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214428.0,
+      "hot": false
+    },
+    {
+      "id": "f3e397f22d",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Strange chain of events leads to important ecological discovery of native bats",
+      "summary": "It's a conservation story unlike any other.",
+      "link": "https://www.rnz.co.nz/news/national/590359/strange-chain-of-events-leads-to-important-ecological-discovery-of-native-bats",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214026.0,
+      "hot": false
+    },
+    {
+      "id": "7a515dfcff",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Proposed NZ20 league edges closer as NZ Cricket identifies preferred option",
+      "summary": "New Zealand Cricket says the move is necessary to modernise the 21-year-old domestic T20 format.",
+      "link": "https://www.stuff.co.nz/sport/360954597/nz20-named-preferred-option-new-zealands-domestic-t20-future",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYJId+hw5Mnun8C6xg8YyMIGLSEuVtjS7XPZ9BntwAE2wAo7LA55eslRES2dzOSerCu+qly4+ARg%2FBLfn5dmn1xpLJYfdk6iYaetvc1hJrU5zNkNpkmq7zNarlo5SOyzCCxUx7u6r470FLDzSWouT0mK8n0Y5YFgQ910GHWID7GsYWgeBCbE7r2k2F5f59zWbMh3j7yTh1fsk7zSCI8ud2CauVIa8ziXAg8tAJ1n81dVE+AU5fYiqWqpuLKwFuz17RsV%2FCWfXC9YW2oGt%2Fw%2F+PkVJmPyCLkJZwmy1oeRkeJJGT9uYTtJ63+VGqA29Q++A6Jmdrw6GLfIWnER2gmLm7+tPwgOHr9iZq64d%2FahAk6sBidrZvFQgcdyxfCA6SHL1bVNEpx2t8BHcVEYJ5GEZY9mnjxDzTWwRwvECDoBaLMD07d9i3dVbiBTp1yp6lNSrg==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774214001.0,
       "hot": false
     },
     {
@@ -147,174 +437,45 @@
         "科技"
       ],
       "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1774210260.0,
+      "ago": "1小时前",
+      "pub_ts": 1774213734.0,
       "hot": false
     },
     {
-      "id": "eb21f6371f",
+      "id": "b4c36e62b2",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
-      "title": "School attendance improves in some areas after truancy overhaul",
-      "summary": "Last year, the Ministry of Education signed 83 new contracts aimed at making providers more effective at tracking down the most serious truants.",
-      "link": "https://www.rnz.co.nz/news/national/590329/school-attendance-improves-in-some-areas-after-truancy-overhaul",
+      "title": "Greens offer votes for National Party crisis-relief package - with conditions",
+      "summary": "Transport authorities say they have capacity on buses, trains and ferries for people to travel and leave the car at home.",
+      "link": "https://www.rnz.co.nz/news/political/590334/greens-offer-votes-for-national-party-crisis-relief-package-with-conditions",
       "image": null,
       "categories": [
-        "教育",
+        "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1774210234.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774211404.0,
       "hot": false
     },
     {
-      "id": "09de66f3f3",
+      "id": "f5798448fd",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "RNZ 政治",
       "lang": "en",
-      "title": "Middle East conflict live updates: Trump’s 48-hour Strait of Hormuz deadline looms,  Luxon says deci",
-      "summary": "The Govt is planning for future scenarios where there could be a shortage of crude oil.",
-      "link": "https://www.nzherald.co.nz/world/middle-east-conflict-live-updates-trump-gives-iran-48-hours-to-open-strait-of-hormuz/LLMB7S5RFBBT3JZTXSF46SN6GY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/XN5VBN53GNFDBH3A6VOGLYGP6E.JPG?auth=dae7d9b9d554972921e64e740195b7cb33ba28e1aeeb51604b49c5e92192c679&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "48分前",
-      "pub_ts": 1774210072.0,
-      "hot": false
-    },
-    {
-      "id": "95b8c562c9",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Fonterra revenue surges to $13.9b as global dairy demand holds firm",
-      "summary": "Despite strong revenue, the dairy giant warned of ongoing volatility due to conflict in the Middle East.",
-      "link": "https://www.stuff.co.nz/business/360954528/tufffonterra-revenue-surges-139b-global-dairy-demand-holds-firm",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWpxsV62%2FnddshsSFBxSx6GEL6NPptkaorOUbaWZ+qkyh4Niabd2QmyLRU0a78eiRS%2FYbFzawURLzWNSfL5ZNoJaEdxHdd+Li%2FRMTkju7OSle1B2L4SySCjLqEdlfHpoUcLm9mvxckr8erzyXZNvQIzBWHKZc7rodTu6NHOMBnsqYRXfpAQQZpeLMZk0FpZaaY3Z%2FkFSP7R%2FNobQQO19qlQijYvmoOSLrZVyxzPfbSa6NikVPr36b%2FRiDE2lMA2auk9+XRbE0anI6RCcKsZ5Ho6Z%2Ft5uUig0cS67jE2HpyP5N%2FLtqRz1m6V6469G10mJ08g04Z4AwPYsgHjMuhh8SZr3h%2Fd5XiTqOex6z6RmdHNcxyEEGbQmuZcPMGhORA%2FE6VF4TbAlBfkwa0NAwzynDirNHwc8zYdvui0rHsAgNVsGP1mDoLDLs3I+jGDr5N7dUAMoDdaV+jApr2Z9GXtjYEg=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1774209900.0,
-      "hot": false
-    },
-    {
-      "id": "1575f2c17b",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Misinformation being spread on fuel price app,  but intentions unclear",
-      "summary": "With a massive uptake in usage, Gaspy has altered its features in an attempt to avoid errors and deliberate misinformation about current prices of petrol across the country.",
-      "link": "https://www.rnz.co.nz/news/business/590337/misinformation-being-spread-on-fuel-price-app-but-intentions-unclear",
+      "title": "RNZ-Reid Research poll: Bleak numbers for Luxon, but no obvious successors",
+      "summary": "Analysis: Voters say National and its leader are doing worse, according to a new poll. But they also aren't pointing to a clear alternative.",
+      "link": "https://www.rnz.co.nz/news/political/590348/rnz-reid-research-poll-bleak-numbers-for-luxon-but-no-obvious-successors",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "53分前",
-      "pub_ts": 1774209757.0,
-      "hot": false
-    },
-    {
-      "id": "e734a3e7fc",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Quiz: The Hard Word ... to debase by adding something inferior",
-      "summary": "One word, one clue, one minute. Can you solve today’s Hard Word?",
-      "link": "https://www.stuff.co.nz/quizzes/360943860/stuff-quiz-hard-word-march-23-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYUyGh%2FoAmyGDJQzT4w1t+8NUG7qpQR4UEyX3QiSvF5qB0fXtRL0U2LxTrtZ2oAQsZPeqOLEv9OcwY%2Fn3a0p628xsgLSB47ZjabNMCPbgLLV96JUJ8YkZyHVlFMTrh4JEDInqm%2FNdPg%2F4ORidk3+ofio6Y6ZKQmzJSMnHpnoJJjPOJIPQDz+yqltce%2F2MltENw9DIfuFsoX8EWX+XpH+k1FR51MlwahyAHdH4XIhIE5Cdb%2FCAlnZ7rnwrhDT%2Fvn0%2FiyyVRIsD7omUgkr8Q3k8al91Za+YVs88W5%2FYhhvFCvSN?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "56分前",
-      "pub_ts": 1774209600.0,
-      "hot": false
-    },
-    {
-      "id": "f6382b1789",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Christopher Luxon says he's focused on fuel challenges not polls",
-      "summary": "After falling further in the RNZ-Reid Research poll, the prime minister says the government has more to do but many people feel \"things have got better\" with the economy.",
-      "link": "https://www.rnz.co.nz/news/political/590354/christopher-luxon-says-he-s-focused-on-fuel-challenges-not-polls",
-      "image": null,
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774209343.0,
-      "hot": false
-    },
-    {
-      "id": "12d3d94e45",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Wallabies recruit former All Blacks defensive guru",
-      "summary": "Rugby Australia has recruited former All Black centre Scott McLeod as the Wallabies’ new defence coach, in the first key staffing appointment of incoming test coach Les Kiss.",
-      "link": "https://www.stuff.co.nz/sport/360954521/wallabies-turn-former-all-blacks-defensive-guru-bolster-coaching-staff",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVZYyX++gDFoSrIyL5h64rvnJsv1xgUfkkRwLaBz0agM4y0%2Fqmfos8BW+edfYJfFc0WCEWqXA3fCQqDl4kC2xfV5gX86Qg9OYa4Ol+I70kO6u79AQB+UngIl8zoJO3Ix647+K5NPmflo2N0BID%2FVEkcsExB4TnH%2FwSIK1zDkBVXURQmSKU71SkhhYNoYRxJXm60+yn4L8tjDeno4+OSjQfXPuZ%2F9MZNnbk9LZi+FoAW7LdYTwErVjEIHfp77nrVePj4PIml6U%2Fcdix%2FpqsyNdqHE8Q4FmiZsogB9oe9ka2jURWzUwmDCj%2FQqIVFlgtRTQuH3VL3HdL6b9SY0780Ks0voEGxV+fcHqrCO7SK3S%2FnrKRfkcO81gunsgPJcnfy3FtyYBuwx50ZS3hQFNuYD1j5jea+ZOeR3jKgUk6cwQNki66uP+uMXDGmHYyi3Ccmm9g==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774208831.0,
-      "hot": false
-    },
-    {
-      "id": "84e93dd0e6",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Six dead in 24 hours after multiple crashes around NZ",
-      "summary": "Six people have died in 24 hours in crashes in Waikato, Taranaki, Auckland, Waiohau and Southland.",
-      "link": "https://www.rnz.co.nz/news/national/590297/six-dead-in-24-hours-after-multiple-crashes-around-nz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774208730.0,
-      "hot": false
-    },
-    {
-      "id": "b57f79eaee",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Luxon points to Hamilton Saturday night to explain what matters most to Kiwis",
-      "summary": "The Prime Minister said that people want to know they’ve got a government growing the economy “so that we can lower the cost of living for them”.",
-      "link": "https://www.stuff.co.nz/nz-news/360954513/luxon-points-hamilton-saturday-night-explain-what-matters-most-kiwis",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbt4AXVXeXfnfRkQ7hlnUupZyZmV8CBVHskz8IGf9RiFYGpQLTDrsIDufk8budervv95L%2FaoRBOQxeGjakDizESTLY6o+nPEoke8IHECSIusZdYEWOfrTIzsVWrknIMLMIvvx1ELhcVcXrZdvR0jWaNQIMAGMPgLICuH5njV2xwyef4G2Th0EEOidZ7qrMwkwKdXfeFJDaoQ6Z%2Fd8Ey29DuKW6f0D8tEe65POGqCdZPePvttHlh9v9foyyoy57u%2FSNCkLFqSvreihLC%2F552y3ELralY7Rl7Ajm%2Fyqiem%2FZ0d3q9Bv2vCawGOjRX6bxSvTAZVFqp6MSb8MFIJHXikgK8yxP9M320UsXKNZdn6asGJ9W37my2nRjf8NH8egzTESNEoAPsoAbfLedSb3lNMNj8cyBVl1dUhhFCwyxZV69VcHD81kSdNjAmahSE4HObSRVMmudYXF7rmah%2Fhgjjysd8=?resolution=1240x700",
-      "categories": [
-        "政治",
-        "经济",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774208696.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774211091.0,
       "hot": false
     },
     {
@@ -330,8 +491,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774208594.0,
       "hot": false
     },
@@ -348,136 +509,28 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774208040.0,
       "hot": false
     },
     {
-      "id": "18cb6fb3e8",
+      "id": "e2cf90f849",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ 政治",
       "lang": "en",
-      "title": "Chappell Roan hits back after football star Jorginho alleges his step-daughter was mistreated",
-      "summary": "Grammy-winning singer Chappell Roan responded on Sunday to accusations made by Brazilian-Italian soccer star Jorginho that a security guard mistreated his 11-year-old stepdaughter after she recognized",
-      "link": "https://www.stuff.co.nz/culture/360954510/chappell-roan-pushes-back-after-soccer-star-jorginho-alleges",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQEvTRxNZI1ozReu2JxJrlMpXotraCZQfgNoXR3k6eAXXG9CsL8Rcq0IDPe5twA5p%2FyaQHqTmaTmODtee4C1lsBCyBUbPT2R8OYoN35gFDxKVvKw5ZneqySO2Urc+GSc37PhoAbRnrqT84G73zCMRqQThcKMxcBEOnp9UaoAOb8ZcX7CAZqevWKpt3GQ3CrApHO2GRWkE+z9uSjjaP7AwxXMLy2UKbLdOT0rXulNLp8%2FbRuTCEMmGwJ1TUnW8zlx38h0uz9Hb9zkus%2FKbSFobEQYNvb+a8jHyoVWEi9luGnP8rFd0gNvqla3qQmBInOvtjxPxW7kBf7VBGwRFV3ppdP3hMSJ46TP7Z5PmKvb7kcSBn1lEfRRMFLQdGgwAAKmWQ952INu1KuRzbJBmyTjLS39Bs0s%2FHrzBGWvphm8YuBrkjnbkZj4IgdNe6q8QPDg3w==?resolution=1240x700",
+      "title": "The Detail: Papatoetoe's election rerun",
+      "summary": "A community rallies to involve itself in democracy, but are tainted with accusations of fraud, when they win a seat at the table.",
+      "link": "https://www.rnz.co.nz/news/thedetail/590335/the-detail-papatoetoe-s-election-rerun",
+      "image": null,
       "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774207936.0,
-      "hot": false
-    },
-    {
-      "id": "9bcd3cabbf",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Prime Minister Chris Luxon says planning underway for fuel shortages, relief announcement ‘shortly’",
-      "summary": "PM says security of fuel supply is paramount with biggest impact on jobs and incomes.",
-      "link": "https://www.nzherald.co.nz/nz/finance-minister-nicola-willis-says-seven-weeks-worth-of-fuel-in-new-zealand-storage-but-we-are-not-relaxed/5RS7NEJ545FMFHAUDIKX6MHF3U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/BCZB4GBCMFFVJLZGZEULAYGC5M.JPG?auth=c4de3ac33032f70c5fdb8c36a66eebc4367281f0e41a62c57cc7d256da810d16&smart=true&width=300&height=300",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774207408.0,
-      "hot": false
-    },
-    {
-      "id": "23d5c9778e",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Grim reading for Luxon as National slips further behind Labour and NZ First climbs",
-      "summary": "If replicated on polling day, the numbers would leave the country in limbo.",
-      "link": "https://www.nzherald.co.nz/nz/grim-reading-for-luxon-as-national-slips-further-behind-labour-and-nz-first-climbs/VQPBUBDME5CEVE26XY65SX2LYQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/F55CUUHZT5AZVPRQ2UYDMPLERE.jpg?auth=7c52fa3155957a95ee6fc61938815e2df934707a3bdbf107c799494548e3dd3e&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774205371.0,
-      "hot": false
-    },
-    {
-      "id": "681eef417b",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "From the Dux to the Strip: Inside Christchurch’s iconic pubs now gone",
-      "summary": "Many once-iconic Garden City bars are now car parks, hotels, or empty lots.",
-      "link": "https://www.nzherald.co.nz/nz/from-the-dux-to-the-strip-inside-christchurchs-iconic-pubs-now-gone/premium/IJYDLYEM5ZGJZBOG56PJMODRJE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/RJ7BGFVOOFC3XNQXXNTFNEWHVI.jpg?auth=12c02e93c3203b9b5584aa24d90ae72444baf60ef2d094ace463b725310d0a25&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774204460.0,
-      "hot": false
-    },
-    {
-      "id": "50521f85a1",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "School support dogs helping anxious students cope and learn in class",
-      "summary": "Golden retriever Goose now works weekly in a shared counselling space.",
-      "link": "https://www.nzherald.co.nz/nz/school-support-dogs-helping-anxious-students-cope-and-learn-in-class/GD2GDDPZCNFNXIVADJ3QWWRPSQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/7P254UZNRRABPJNJEJFTMEVULA.jpg?auth=d6ac9c5cad72623ae75ae268b81a4adb36afc15eed6c230275a4f56e85c4fb28&smart=true&width=300&height=300",
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774203271.0,
-      "hot": false
-    },
-    {
-      "id": "12c8d7fa99",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Maadi Cup 2026: Can King’s College end 66-year wait?",
-      "summary": "The annual pinnacle of the NZ secondary schools’ rowing calendar starts today.",
-      "link": "https://www.nzherald.co.nz/sport/maadi-cup-2026-can-kings-college-end-66-year-wait/premium/G4FB26VHANANXIP2LW63ZKBQL4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/K4YJW2AWLINY6Z5FAHYJWW3SOE.jpg?auth=0334062b64b64c7931c0a9659161fd53fb99029c5b30d9e0ce016ea170b56e0d&smart=true&width=300&height=300",
-      "categories": [
-        "教育",
+        "政治",
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774203015.0,
-      "hot": false
-    },
-    {
-      "id": "22cd3514b8",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Serious two-truck crash closes State Highway 57 near Levin after six die on roads in past 48 hours",
-      "summary": "Emergency services were called to the serious crash around 2.30am.",
-      "link": "https://www.nzherald.co.nz/nz/serious-two-truck-crash-on-state-highway-57-near-levin-after-six-die-on-roads-in-past-48-hours/T3FBSESELREHVH4WSOTYMLHJ74/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/AGZFLFU35BARFDUHU5FMFOCSNQ.jpg?auth=87f3aeda27e730018d8f10365a7cbc20d861c998b067e1903780a0ac41f2ee24&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774200004.0,
+      "ago": "5小时前",
+      "pub_ts": 1774200120.0,
       "hot": false
     }
   ]
