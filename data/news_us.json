@@ -1,44 +1,45 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-22T16:59:07.507477+00:00",
-  "total": 23,
+  "updated_at": "2026-03-22T19:18:50.075227+00:00",
+  "total": 24,
   "articles": [
     {
-      "id": "e33f801d7d",
+      "id": "55190e6097",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "ICE to Help TSA at Airports Amid Partial Shutdown, Trump’s Border Czar Says",
-      "summary": "Tom Homan, President Trump’s chief border official, said plans were being drawn up to send immigration and customs agents to U.S. airports.",
-      "link": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22dc-homan-airports1-kvpl/22dc-homan-airports1-kvpl-mediumSquareAt3X.jpg",
+      "title": "ICE officers set to deploy to airports as delays mount, border czar Homan confirms",
+      "summary": "Border czar Tom Homan says ICE agents will help the Transportation Security Administration 'move those lines' while also enforcing immigration law.",
+      "link": "https://www.npr.org/2026/03/22/g-s1-114745/ice-tsa-airports-deployment-homan",
+      "image": null,
       "categories": [
         "移民",
         "科技"
       ],
       "score": 80,
       "ago": "1小时前",
-      "pub_ts": 1774191681.0,
+      "pub_ts": 1774200642.0,
       "hot": false
     },
     {
-      "id": "cc1bab0468",
+      "id": "7c53d62f04",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Politics chat: Trump's mixed messages on the Iran war, the latest on DHS funding",
-      "summary": "We look at President Trump's mixed messages on the war with Iran, plus the latest on Department of Homeland Security funding, which Congress has frozen over his immigration enforcement policies.",
-      "link": "https://www.npr.org/2026/03/22/nx-s1-5753842/politics-chat-trumps-mixed-messages-on-the-iran-war-the-latest-on-dhs-funding",
-      "image": null,
+      "title": "Israel Thought It Could Spur Rebellion Inside Iran. That Hasn’t Happened.",
+      "summary": "President Trump’s hopes that an Israeli plan to ignite an internal uprising against Iran’s theocratic government could bring the war to a swift end have so far been dashed.",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/iran-israel-trump-netanyahu-mossad.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22DC-IRAN-UPRISING1-zwqt/22DC-IRAN-UPRISING1-zwqt-mediumSquareAt3X.jpg",
       "categories": [
-        "移民"
+        "政治",
+        "科技"
       ],
-      "score": 75,
-      "ago": "4小时前",
-      "pub_ts": 1774181071.0,
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1774205345.0,
       "hot": false
     },
     {
@@ -56,8 +57,44 @@
         "科技"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1774197512.0,
+      "ago": "1小时前",
+      "pub_ts": 1774202569.0,
+      "hot": false
+    },
+    {
+      "id": "e33f801d7d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE to Help TSA at Airports Amid Partial Shutdown, Trump’s Border Czar Says",
+      "summary": "Tom Homan, President Trump’s chief border official, cast the operation largely as one to help ease long security lines that have been frustrating passengers at U.S. airports.",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22dc-homan-airports1-kvpl/22dc-homan-airports1-kvpl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774202332.0,
+      "hot": false
+    },
+    {
+      "id": "cc1bab0468",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Politics chat: Trump's mixed messages on the Iran war, the latest on DHS funding",
+      "summary": "We look at President Trump's mixed messages on the war with Iran, plus the latest on Department of Homeland Security funding, which Congress has frozen over his immigration enforcement policies.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5753842/politics-chat-trumps-mixed-messages-on-the-iran-war-the-latest-on-dhs-funding",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "7小时前",
+      "pub_ts": 1774181071.0,
       "hot": false
     },
     {
@@ -74,7 +111,7 @@
         "移民"
       ],
       "score": 70,
-      "ago": "15小时前",
+      "ago": "17小时前",
       "pub_ts": 1774142419.0,
       "hot": false
     },
@@ -93,26 +130,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1774191361.0,
-      "hot": false
-    },
-    {
-      "id": "34bfa3c395",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Is Finally Eyeing an Exit From Iran. But Will He Take It?",
-      "summary": "President Trump says he is considering “winding down” operations in Iran. But many of his original war goals remain unaccomplished.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/trump-iran-offramp.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21dc-assess-top-qtkg/21dc-assess-top-qtkg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774189610.0,
       "hot": false
     },
     {
@@ -129,7 +148,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1774185930.0,
       "hot": false
     },
@@ -146,8 +165,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774182191.0,
       "hot": false
     },
@@ -164,8 +183,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774182190.0,
       "hot": false
     },
@@ -182,8 +201,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774181340.0,
       "hot": false
     },
@@ -200,8 +219,8 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774181074.0,
       "hot": false
     },
@@ -218,8 +237,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774181072.0,
       "hot": false
     },
@@ -227,7 +246,7 @@
       "id": "e9204e7ca6",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump threatens Iran's power plants as war enters fourth week with no end in sight",
       "summary": "We have the latest on the U-S and Israeli war on Iran, where in the past 48 hours, Israel has struck one of Iran's nuclear facilities and Iran has responded with strikes in Israel.",
@@ -236,8 +255,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774181069.0,
       "hot": false
     },
@@ -254,8 +273,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774178577.0,
       "hot": false
     },
@@ -273,7 +292,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774173600.0,
       "hot": false
     },
@@ -291,7 +310,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774170095.0,
       "hot": false
     },
@@ -310,7 +329,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774170054.0,
       "hot": false
     },
@@ -328,7 +347,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1774167146.0,
       "hot": false
     },
@@ -346,7 +365,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1774166656.0,
       "hot": false
     },
@@ -364,8 +383,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774140153.0,
+      "ago": "18小时前",
+      "pub_ts": 1774140154.0,
       "hot": false
     },
     {
@@ -382,7 +401,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1774129668.0,
       "hot": false
     },
@@ -400,7 +419,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1774127909.0,
       "hot": false
     },
