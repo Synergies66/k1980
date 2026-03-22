@@ -4700,21 +4700,17 @@ async function publishGeneratedNews() {
   if (!WP.articles.length) return;
   const pubBtn = document.getElementById('wp-pub-btn');
   pubBtn.disabled = true;
-  pubBtn.innerHTML = '⏳ 发布中...';
+  pubBtn.innerHTML = '⏳ 写入数据库中...';
 
-  // 过滤掉审稿时删除的文章（null）
   const approved = WP.articles.filter(Boolean);
   if (!approved.length) {
     pubBtn.disabled = false;
     pubBtn.innerHTML = '✅ 审核通过 · 发布上线 <span id="wp-pub-count"></span>';
-    alert('没有待发布的文章，请先审稿。');
     return;
   }
 
-  // 读取投放板块
   const sectionTag = document.querySelector('#wp-section-row .wp-stag.on');
   const targetSection = sectionTag ? sectionTag.dataset.s : 'auto';
-
   const now = new Date();
   const toInsert = approved.map((a, i) => ({
     title:        a.title,
@@ -4730,6 +4726,8 @@ async function publishGeneratedNews() {
   }));
 
   let publishedCount = 0;
+  let dbError = '';
+
   try {
     const resp = await fetch(`${CFG.URL}/rest/v1/news_articles`, {
       method: 'POST',
@@ -4745,20 +4743,20 @@ async function publishGeneratedNews() {
       const inserted = await resp.json();
       publishedCount = inserted.length;
     } else {
-      throw new Error('DB write failed ' + resp.status);
+      // 读取真实错误信息
+      const errBody = await resp.json().catch(() => ({}));
+      dbError = `HTTP ${resp.status}${errBody.message ? ' · ' + errBody.message : ''}${errBody.code ? ' (' + errBody.code + ')' : ''}`;
+      throw new Error(dbError);
     }
   } catch (e) {
-    // 即使写入失败也注入当前页面（离线模式）
-    publishedCount = 0;
+    if (!dbError) dbError = e.message;
   }
 
-  // 注入当前页面（无论是否写入DB成功）
+  // 无论成败，注入当前页面（本次会话可见）
   const injected = toInsert.map((a, i) => ({
-    ...a,
-    id: 900000 + i,
+    ...a, id: 900000 + Date.now() + i,
     created_at: new Date(now - i * 3 * 60000).toISOString(),
   }));
-  // 前置插入到 S.arts
   S.arts = [...injected, ...S.arts];
   S.total = S.arts.length;
   const feed = document.getElementById('feed');
@@ -4768,22 +4766,52 @@ async function publishGeneratedNews() {
   bindCards();
   setTime();
 
-  // 显示完成
   pubBtn.classList.remove('on');
   const doneBox = document.getElementById('wp-done-box');
   doneBox.classList.add('on');
-  document.getElementById('wp-done-txt').textContent =
-    publishedCount > 0
-      ? `🎉 已成功写入数据库 ${publishedCount} 篇并上线！`
-      : `✅ 已注入当前页面 ${injected.length} 篇（数据库写入失败，刷新后消失）`;
-  document.getElementById('wp-done-sub').textContent =
-    publishedCount > 0
-      ? '文章已存入 Supabase，所有用户刷新后可见'
-      : '建议检查 Supabase 权限后重新操作';
 
-  WP.generating = false;
-  // 3秒后关闭面板
-  setTimeout(() => closeWritePanel(), 3000);
+  if (publishedCount > 0) {
+    // 成功：3秒关闭
+    document.getElementById('wp-done-txt').textContent = `🎉 写入数据库成功 ${publishedCount} 篇！`;
+    document.getElementById('wp-done-sub').textContent = '文章已永久保存，所有用户刷新后可见';
+    WP.generating = false;
+    setTimeout(() => closeWritePanel(), 3000);
+  } else {
+    // 失败：显示错误 + SQL修复指引，不自动关闭
+    document.getElementById('wp-done-txt').innerHTML = `⚠️ 数据库写入失败 · 文章已临时注入页面（刷新消失）`;
+    document.getElementById('wp-done-sub').innerHTML = `
+      <div style="margin-top:8px;font-size:11.5px;color:var(--red);background:rgba(212,39,29,.06);border:1px solid rgba(212,39,29,.2);border-radius:8px;padding:10px 12px;line-height:1.8;text-align:left">
+        <strong>错误：</strong>${esc(dbError)}<br><br>
+        <strong>最可能的原因：Supabase RLS 未允许 anon 写入</strong><br>
+        请在 Supabase → SQL Editor 执行：<br>
+        <code style="display:block;margin-top:6px;background:#0f1419;color:#79c0ff;padding:8px 10px;border-radius:6px;font-size:11px;line-height:1.9">
+          ALTER TABLE news_articles ENABLE ROW LEVEL SECURITY;<br>
+          CREATE POLICY "allow anon insert"<br>
+          ON news_articles FOR INSERT<br>
+          TO anon WITH CHECK (true);<br>
+          CREATE POLICY "allow anon update"<br>
+          ON news_articles FOR UPDATE<br>
+          TO anon USING (true);
+        </code>
+        <span style="font-size:11px;color:var(--ink3)">执行后回来点重新发布即可</span>
+      </div>
+      <button onclick="retryPublish()" style="margin-top:10px;width:100%;height:36px;border-radius:8px;background:var(--blue);color:#fff;border:none;font-size:13px;font-weight:700;cursor:pointer">🔄 重新写入数据库</button>`;
+    WP.generating = false;
+    // 不自动关闭，让用户看到错误
+  }
+}
+
+// 保留已审核文章，重新尝试写入DB
+async function retryPublish() {
+  const doneBox = document.getElementById('wp-done-box');
+  doneBox.classList.remove('on');
+  document.getElementById('wp-pub-btn').classList.add('on');
+  // 恢复已审核的文章（从当前页面注入的那批）
+  if (!WP.articles.filter(Boolean).length) {
+    // 尝试从 S.arts 里恢复刚注入的文章
+    WP.articles = S.arts.filter(a => a.id >= 900000).map(a => ({...a, _type:'deep'}));
+  }
+  publishGeneratedNews();
 }
 </script>
 </body>
