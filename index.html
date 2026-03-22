@@ -1995,7 +1995,7 @@ let currentLang='zh';
 /* ══ Supabase ═══════════════════════════════════════════ */
 async function sbGet(cat,page,sort){
   const off=(page-1)*CFG.PS,ord=sort==='hot'?'view_count':'created_at';
-  let u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=${ord}.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count,pinned_until`;
+  let u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=${ord}.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count`;
   if(cat&&cat!=='all'&&cat!=='local')u+=`&category=eq.${encodeURIComponent(cat)}`;
   const r=await fetch(u,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Prefer':'count=exact'}});
   if(!r.ok)throw new Error(r.status);
@@ -2006,7 +2006,7 @@ async function sbGet(cat,page,sort){
   const normal=data.filter(a=>!a.pinned_until||new Date(a.pinned_until)<=now);
   return{data:[...pinned,...normal],total:parseInt(r.headers.get('Content-Range')?.split('/')[1]||'0',10)};
 }
-async function sbAll(){const r=await fetch(`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,summary,category,source_name,created_at,view_count,pinned_until`,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY}});if(r.ok)S.cache=await r.json();}
+async function sbAll(){const r=await fetch(`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,summary,category,source_name,created_at,view_count`,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY}});if(r.ok)S.cache=await r.json();}
 function sbView(id){if(!S.live)return;fetch(`${CFG.URL}/rest/v1/rpc/increment_view_count`,{method:'POST',headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json'},body:JSON.stringify({article_id:id})});}
 
 /* ══ 工具 ════════════════════════════════════════════════ */
