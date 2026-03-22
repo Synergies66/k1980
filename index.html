@@ -1340,4 +1340,20 @@ document.addEventListener('DOMContentLoaded',()=>{
   si.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#sdrop').style.display='none';si.value='';si.blur();}});
   document.addEventListener('click',e=>{
     if(!e.target.closest('#si')&&!e.target.closest('#sdrop'))$('#sdrop').style.display='none';
-    if(!e.target.closest('#region-picker'))$('#region-picker').classList.remove(
+    if(!e.target.closest('#region-picker'))$('#region-picker').classList.remove('open');
+  });
+
+  // 回顶
+  const bt=$('#bt');
+  window.addEventListener('scroll',()=>{bt.style.display=window.scrollY>500?'flex':'none';},{passive:true});
+  bt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
+
+  // 自动刷新
+  setInterval(()=>load(true),CFG.AR);
+
+  // 启动
+  load(true);
+});
+</script>
+</body>
+</html>
