@@ -558,6 +558,263 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 .biz-empty{text-align:center;padding:16px 0;color:var(--ink4);font-size:12px}
 .biz-stream-cursor{display:inline-block;width:2px;height:13px;background:var(--blue);animation:blink .8s infinite;vertical-align:middle;margin-left:1px}
 
+/* ── 分享栏 ──────────────────────────────────────────────── */
+.share-bar{display:flex;align-items:center;gap:7px;padding:14px 0 2px;flex-wrap:wrap;border-top:1px solid var(--border);margin-top:14px}
+.share-lbl{font-size:10.5px;font-weight:700;color:var(--ink4);letter-spacing:.5px;text-transform:uppercase;margin-right:2px;flex-shrink:0}
+.share-btn{display:inline-flex;align-items:center;gap:4px;height:28px;padding:0 10px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;transition:opacity .15s,transform .1s;border:none;flex-shrink:0}
+.share-btn:hover{opacity:.85;transform:translateY(-1px)}
+.share-btn.sb-copy{background:#444;color:#fff}
+.share-btn.sb-wa{background:#25d366;color:#fff}
+.share-btn.sb-tw{background:#0f1419;color:#fff}
+.share-btn.sb-more{background:var(--blue);color:#fff}
+.share-copy-ok{font-size:11px;color:var(--green);font-weight:700;opacity:0;transition:opacity .3s}
+.share-copy-ok.show{opacity:1}
+
+/* ── AI写稿触发按钮（管理员专属，默认隐藏） ──────────────── */
+.write-trigger-btn{display:none;align-items:center;gap:5px;height:30px;padding:0 10px;border-radius:var(--r2);border:1.5px solid rgba(212,39,29,.35);font-size:12px;font-weight:700;color:var(--red);background:rgba(212,39,29,.05);transition:all .15s;white-space:nowrap;cursor:pointer}
+.write-trigger-btn:hover{background:var(--red);color:#fff;border-color:var(--red)}
+.write-trigger-btn svg{width:13px;height:13px;flex-shrink:0}
+.write-trigger-btn.admin-on{display:flex}
+
+/* ── 管理员登录弹窗 ──────────────────────────────────────── */
+#admin-gate{position:fixed;inset:0;z-index:900;background:rgba(10,10,11,.92);backdrop-filter:blur(12px);display:none;align-items:center;justify-content:center}
+#admin-gate.on{display:flex}
+.ag-box{background:var(--surface);border-radius:14px;padding:32px 28px;width:320px;box-shadow:0 24px 80px rgba(0,0,0,.4);text-align:center}
+.ag-logo{font-family:var(--fd);font-size:22px;font-weight:700;color:var(--red);margin-bottom:4px}
+.ag-sub{font-size:12px;color:var(--ink3);margin-bottom:20px}
+.ag-label{font-size:11.5px;font-weight:700;color:var(--ink3);text-align:left;margin-bottom:6px;letter-spacing:.3px}
+.ag-input{width:100%;height:40px;border:1.5px solid var(--border2);border-radius:8px;padding:0 14px;font-size:14px;font-family:var(--f);outline:none;letter-spacing:2px;transition:border-color .15s}
+.ag-input:focus{border-color:var(--red);box-shadow:0 0 0 3px rgba(212,39,29,.1)}
+.ag-btn{width:100%;height:40px;margin-top:14px;border-radius:8px;background:var(--red);color:#fff;font-size:14px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s}
+.ag-btn:hover{opacity:.88}
+.ag-err{font-size:12px;color:var(--red);margin-top:8px;min-height:18px}
+.ag-cancel{font-size:12px;color:var(--ink4);margin-top:10px;cursor:pointer;transition:color .15s;display:block}
+.ag-cancel:hover{color:var(--ink)}
+
+/* ── AI写稿面板 ──────────────────────────────────────────── */
+#write-panel{position:fixed;inset:0;z-index:700;background:rgba(10,10,11,.88);backdrop-filter:blur(10px);display:none;align-items:flex-start;justify-content:center;padding:24px 16px;overflow-y:auto}
+#write-panel.on{display:flex}
+.wp-sheet{background:var(--surface);border-radius:16px;width:100%;max-width:660px;overflow:hidden;box-shadow:0 24px 80px rgba(0,0,0,.35);margin:auto}
+.wp-hd{background:linear-gradient(135deg,#d4271d 0%,#c2410c 40%,#1a56db 100%);padding:22px 24px 20px;color:#fff;position:relative}
+.wp-hd-close{position:absolute;top:16px;right:16px;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.2);display:flex;align-items:center;justify-content:center;cursor:pointer;border:none;color:#fff;transition:background .15s;z-index:10}
+.wp-hd-close:hover{background:rgba(255,255,255,.35)}
+.wp-hd-tag{font-size:10px;font-weight:800;letter-spacing:1.2px;text-transform:uppercase;opacity:.7;margin-bottom:5px}
+.wp-hd-title{font-family:var(--fd);font-size:22px;font-weight:700;margin-bottom:4px}
+.wp-hd-sub{font-size:12.5px;opacity:.8;line-height:1.6}
+.wp-body{padding:22px 24px 24px;display:flex;flex-direction:column;gap:18px}
+.wp-sect-lbl{font-size:11px;font-weight:800;color:var(--ink3);letter-spacing:.7px;text-transform:uppercase;margin-bottom:8px}
+.wp-region-row{display:flex;flex-wrap:wrap;gap:6px}
+.wp-rtag{padding:5px 13px;border-radius:6px;border:1px solid var(--border2);font-size:12.5px;color:var(--ink2);cursor:pointer;transition:all .12s;user-select:none}
+.wp-rtag:hover{border-color:var(--red);color:var(--red)}
+.wp-rtag.on{background:var(--red);color:#fff;border-color:var(--red);font-weight:700}
+.wp-info-box{background:linear-gradient(135deg,rgba(212,39,29,.05),rgba(26,86,219,.05));border:1px solid var(--border2);border-radius:10px;padding:14px 16px;font-size:13px;color:var(--ink2);line-height:1.75}
+.wp-info-box strong{color:var(--ink)}
+.wp-info-row{display:flex;align-items:center;gap:10px;margin-top:10px;flex-wrap:wrap}
+.wp-badge{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;padding:3px 9px;border-radius:4px}
+.wp-badge.deep{background:rgba(26,86,219,.1);color:var(--blue);border:1px solid rgba(26,86,219,.2)}
+.wp-badge.brief{background:rgba(22,163,74,.1);color:var(--green);border:1px solid rgba(22,163,74,.2)}
+.wp-gen-btn{width:100%;height:46px;border-radius:10px;background:linear-gradient(135deg,#d4271d,#c2410c);color:#fff;font-size:15px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s,transform .1s;display:flex;align-items:center;justify-content:center;gap:8px;letter-spacing:.3px}
+.wp-gen-btn:hover:not(:disabled){opacity:.92;transform:translateY(-1px)}
+.wp-gen-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.wp-progress{display:none}
+.wp-progress.on{display:block}
+.wp-prog-hd{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.wp-prog-stage{font-size:13px;font-weight:600;color:var(--ink2)}
+.wp-prog-count{font-size:12px;color:var(--ink3);font-family:var(--fm)}
+.wp-prog-track{background:var(--border);border-radius:999px;height:7px;overflow:hidden}
+.wp-prog-fill{height:100%;background:linear-gradient(90deg,var(--red),var(--blue));border-radius:999px;transition:width .5s ease;width:0}
+.wp-log{margin-top:10px;font-size:11.5px;color:var(--ink3);font-family:var(--fm);min-height:20px}
+.wp-preview{display:none;border:1px solid var(--border);border-radius:10px;overflow:hidden;max-height:300px;overflow-y:auto}
+.wp-preview.on{display:block}
+.wp-preview-hd{padding:10px 14px;background:var(--bg);border-bottom:1px solid var(--border);font-size:11px;font-weight:700;color:var(--ink3);letter-spacing:.5px;text-transform:uppercase;display:flex;justify-content:space-between}
+.wp-art{padding:10px 14px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px}
+.wp-art:last-child{border-bottom:none}
+.wp-art-type{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:3px;letter-spacing:.3px;flex-shrink:0;margin-top:2px}
+.wp-art-type.deep{background:rgba(26,86,219,.1);color:var(--blue)}
+.wp-art-type.brief{background:rgba(22,163,74,.1);color:var(--green)}
+.wp-art-body{flex:1;min-width:0}
+.wp-art-title{font-size:13px;font-weight:500;color:var(--ink);line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.wp-art-cat{font-size:10.5px;color:var(--ink4);margin-top:2px}
+.wp-pub-btn{width:100%;height:44px;border-radius:10px;background:var(--green);color:#fff;font-size:14px;font-weight:700;border:none;cursor:pointer;display:none;transition:opacity .15s,transform .1s;align-items:center;justify-content:center;gap:8px}
+.wp-pub-btn:hover{opacity:.9;transform:translateY(-1px)}
+.wp-pub-btn.on{display:flex}
+.wp-pub-btn:disabled{opacity:.5;cursor:not-allowed;transform:none}
+.wp-done-box{display:none;text-align:center;padding:16px;background:rgba(22,163,74,.06);border:1px solid rgba(22,163,74,.2);border-radius:10px}
+.wp-done-box.on{display:block}
+.wp-done-ico{font-size:28px;margin-bottom:6px}
+.wp-done-txt{font-size:13px;font-weight:600;color:var(--green)}
+.wp-done-sub{font-size:11.5px;color:var(--ink3);margin-top:3px}
+
+/* ── 投放板块选择 ────────────────────────────────────────── */
+.wp-section-row{display:flex;flex-wrap:wrap;gap:6px}
+.wp-stag{padding:5px 12px;border-radius:6px;border:1px solid var(--border2);font-size:12.5px;color:var(--ink2);cursor:pointer;transition:all .12s;user-select:none}
+.wp-stag:hover{border-color:var(--blue);color:var(--blue)}
+.wp-stag.on{background:var(--blue);color:#fff;border-color:var(--blue);font-weight:700}
+
+/* ── 今日机会卡片管理 ────────────────────────────────────── */
+.opp-mgr-card{display:flex;align-items:flex-start;gap:10px;padding:10px 14px;border-bottom:1px solid var(--border);transition:background .1s}
+.opp-mgr-card:last-child{border-bottom:none}
+.opp-mgr-card:hover{background:var(--bg)}
+.opp-mgr-type{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:3px;flex-shrink:0;margin-top:2px;letter-spacing:.3px}
+.opp-mgr-type.job{background:rgba(26,86,219,.1);color:var(--blue)}
+.opp-mgr-type.house{background:rgba(22,163,74,.1);color:var(--green)}
+.opp-mgr-type.deal{background:rgba(194,65,12,.1);color:#c2410c}
+.opp-mgr-type.event{background:rgba(124,58,237,.1);color:#7c3aed}
+.opp-mgr-body{flex:1;min-width:0}
+.opp-mgr-title{font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.opp-mgr-meta{font-size:11px;color:var(--ink4);margin-top:2px}
+.opp-mgr-hot{font-size:10px;color:var(--red);font-weight:700;background:rgba(212,39,29,.08);padding:1px 5px;border-radius:3px;margin-left:5px}
+
+/* ── 置顶功能 ────────────────────────────────────────────── */
+.pin-btn{width:26px;height:26px;border-radius:6px;border:1px solid rgba(212,39,29,.2);background:rgba(212,39,29,.04);color:var(--red);font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .15s;font-weight:700}
+.pin-btn:hover{background:var(--red);color:#fff;border-color:var(--red)}
+.pin-btn.pinned{background:var(--red);color:#fff;border-color:var(--red)}
+.pin-modal{position:fixed;inset:0;z-index:800;background:rgba(10,10,11,.7);display:none;align-items:center;justify-content:center}
+.pin-modal.on{display:flex}
+.pin-box{background:var(--surface);border-radius:14px;padding:24px;width:300px;box-shadow:0 24px 60px rgba(0,0,0,.3)}
+.pin-box-title{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}
+.pin-box-sub{font-size:12px;color:var(--ink3);margin-bottom:16px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.pin-dur-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:16px}
+.pin-dur{padding:9px;border-radius:8px;border:1.5px solid var(--border2);text-align:center;cursor:pointer;transition:all .12s;user-select:none}
+.pin-dur:hover{border-color:var(--red);color:var(--red)}
+.pin-dur.on{background:var(--red);color:#fff;border-color:var(--red)}
+.pin-dur-label{font-size:13px;font-weight:600}
+.pin-dur-sub{font-size:10.5px;opacity:.75;margin-top:2px}
+.pin-confirm-btn{width:100%;height:38px;border-radius:8px;background:var(--red);color:#fff;font-size:14px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s}
+.pin-confirm-btn:hover{opacity:.88}
+.pin-cancel{display:block;width:100%;text-align:center;margin-top:10px;font-size:12px;color:var(--ink4);cursor:pointer}
+.pin-cancel:hover{color:var(--ink)}
+
+/* ── 今日机会类型Tab ────────────────────────────────────── */
+.opp-type-tabs{display:flex;gap:2px;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:3px;flex-wrap:wrap}
+.opp-type-tab{flex:1;min-width:60px;height:30px;border-radius:6px;font-size:12px;font-weight:500;color:var(--ink3);cursor:pointer;display:flex;align-items:center;justify-content:center;gap:4px;transition:all .12s;white-space:nowrap;padding:0 6px}
+.opp-type-tab:hover{background:var(--surface);color:var(--ink)}
+.opp-type-tab.on{background:var(--surface);color:var(--ink);font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.opp-type-tab.on[data-tt="job"]{color:var(--blue)}
+.opp-type-tab.on[data-tt="house"]{color:var(--green)}
+.opp-type-tab.on[data-tt="deal"]{color:#c2410c}
+.opp-type-tab.on[data-tt="event"]{color:#7c3aed}
+.opp-type-cnt{font-size:10px;font-weight:700;background:var(--bg);padding:1px 5px;border-radius:10px;color:var(--ink4)}
+
+/* ── 置顶SQL提示 ────────────────────────────────────────── */
+.pin-sql-box{background:#0f1419;border-radius:8px;padding:12px;font-family:var(--fm);font-size:11.5px;color:#e8f4fd;line-height:1.7;margin:12px 0;overflow-x:auto}
+.pin-sql-box .sql-kw{color:#79c0ff}
+.pin-sql-box .sql-str{color:#a5d6ff}
+/* 文章卡片置顶标记 */
+.item.is-pinned{border-left:3px solid var(--red) !important}
+.pin-badge{display:inline-flex;align-items:center;gap:3px;font-size:10px;font-weight:800;padding:2px 6px;border-radius:3px;background:var(--red);color:#fff;letter-spacing:.3px;flex-shrink:0}
+/* 推荐服务管理 */
+.srv-mgr-item{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--border);transition:background .1s}
+.srv-mgr-item:last-child{border-bottom:none}
+.srv-mgr-item:hover{background:var(--bg)}
+.srv-mgr-ico{width:30px;height:30px;border-radius:7px;background:var(--bg);display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0;border:1px solid var(--border)}
+.srv-mgr-body{flex:1;min-width:0}
+.srv-mgr-name{font-size:13px;font-weight:600;color:var(--ink)}
+.srv-mgr-desc{font-size:11px;color:var(--ink3);margin-top:1px}
+
+/* ── 导入合作商 / 批量导入 ────────────────────────────────── */
+.import-zone{border:2px dashed var(--border2);border-radius:10px;padding:18px;text-align:center;transition:border-color .15s;cursor:pointer;position:relative}
+.import-zone:hover,.import-zone.drag-over{border-color:var(--blue);background:rgba(26,86,219,.03)}
+.import-zone input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+.import-zone-ico{font-size:24px;margin-bottom:6px}
+.import-zone-txt{font-size:13px;font-weight:600;color:var(--ink2)}
+.import-zone-sub{font-size:11.5px;color:var(--ink3);margin-top:3px}
+.import-template{display:inline-flex;align-items:center;gap:4px;font-size:11.5px;color:var(--blue);cursor:pointer;text-decoration:underline;margin-top:8px;background:none;border:none;font-family:var(--f)}
+.import-preview{border:1px solid var(--border);border-radius:8px;overflow:hidden;max-height:200px;overflow-y:auto;margin-top:10px;display:none}
+.import-preview.on{display:block}
+.import-preview-hd{padding:8px 12px;background:var(--bg);border-bottom:1px solid var(--border);font-size:11px;font-weight:700;color:var(--ink3);display:flex;justify-content:space-between}
+.import-row{padding:7px 12px;border-bottom:1px solid var(--border);font-size:12px;color:var(--ink2);display:flex;gap:8px;align-items:center}
+.import-row:last-child{border-bottom:none}
+.import-row-type{font-size:10px;font-weight:700;padding:1px 5px;border-radius:3px;flex-shrink:0}
+.import-row-title{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.import-row-err{color:var(--red);font-size:10.5px}
+.import-actions{display:flex;gap:8px;margin-top:10px}
+.import-confirm-btn{flex:1;height:36px;border-radius:8px;background:var(--green);color:#fff;font-size:13px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s}
+.import-confirm-btn:hover{opacity:.88}
+.import-confirm-btn:disabled{opacity:.45;cursor:not-allowed}
+.import-clear-btn{height:36px;padding:0 14px;border-radius:8px;border:1px solid var(--border2);font-size:12.5px;color:var(--ink3);background:var(--surface);cursor:pointer;transition:all .15s}
+.import-clear-btn:hover{border-color:var(--red);color:var(--red)}
+.partner-badge{display:inline-flex;align-items:center;gap:3px;font-size:9.5px;font-weight:800;padding:2px 5px;border-radius:3px;background:rgba(124,58,237,.1);color:#7c3aed;border:1px solid rgba(124,58,237,.2);flex-shrink:0}
+.mgr-add-toggle{display:flex;gap:6px;margin-bottom:12px}
+.mgr-add-mode{flex:1;height:32px;border-radius:7px;border:1.5px solid var(--border2);font-size:12.5px;font-weight:600;color:var(--ink3);background:var(--surface);cursor:pointer;transition:all .12s}
+.mgr-add-mode.on{border-color:var(--blue);color:var(--blue);background:rgba(26,86,219,.05)}
+
+/* ── 篇数控制 ────────────────────────────────────────────── */
+.wp-count-row{display:flex;flex-direction:column;gap:10px}
+.wp-count-presets{display:flex;gap:6px;flex-wrap:wrap}
+.wp-preset{padding:5px 14px;border-radius:6px;border:1px solid var(--border2);font-size:13px;font-weight:500;color:var(--ink2);cursor:pointer;transition:all .12s;user-select:none}
+.wp-preset:hover{border-color:var(--red);color:var(--red)}
+.wp-preset.on{background:var(--red);color:#fff;border-color:var(--red);font-weight:700}
+.wp-slider{width:100%;accent-color:var(--red);height:4px;cursor:pointer}
+.wp-slider-labels{display:flex;justify-content:space-between;font-size:10.5px;color:var(--ink4);margin-top:2px;padding:0 2px}
+.wp-count-split{font-size:12px;color:var(--ink3);padding:7px 12px;background:var(--bg);border-radius:6px;border:1px solid var(--border)}
+
+/* ── 提词框 ──────────────────────────────────────────────── */
+.wp-prompt-input{width:100%;border:1.5px solid var(--border2);border-radius:8px;padding:10px 12px;font-size:13.5px;font-family:var(--f);color:var(--ink);outline:none;resize:vertical;min-height:72px;line-height:1.65;transition:border-color .15s;background:var(--surface)}
+.wp-prompt-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.08)}
+.wp-prompt-input::placeholder{color:var(--ink4)}
+.wp-prompt-chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.wp-chip{font-size:11.5px;padding:4px 10px;border-radius:5px;background:var(--bg);border:1px solid var(--border2);color:var(--ink2);cursor:pointer;transition:all .12s;user-select:none}
+.wp-chip:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+/* ── 管理后台 tabs ────────────────────────────────────────── */
+.wp-tabs{display:flex;gap:2px;padding:0 24px;background:var(--bg);border-bottom:1px solid var(--border)}
+.wp-tab{height:40px;padding:0 16px;font-size:13px;font-weight:500;color:var(--ink3);cursor:pointer;border-bottom:2px solid transparent;transition:all .15s;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.wp-tab:hover{color:var(--ink)}
+.wp-tab.on{color:var(--red);border-bottom-color:var(--red);font-weight:700}
+.wp-tab svg{width:13px;height:13px}
+
+/* ── 文章管理面板 ────────────────────────────────────────── */
+.mgr-body{padding:18px 24px 24px;display:flex;flex-direction:column;gap:14px}
+.mgr-toolbar{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.mgr-search{flex:1;min-width:160px;height:34px;border:1px solid var(--border2);border-radius:7px;padding:0 12px;font-size:13px;font-family:var(--f);outline:none;transition:border-color .15s}
+.mgr-search:focus{border-color:var(--blue)}
+.mgr-filter{height:34px;padding:0 10px;border:1px solid var(--border2);border-radius:7px;font-size:12.5px;font-family:var(--f);color:var(--ink2);background:var(--surface);cursor:pointer;outline:none}
+.mgr-reload{height:34px;padding:0 12px;border-radius:7px;border:1px solid var(--border2);font-size:12.5px;font-weight:600;color:var(--ink2);background:var(--surface);cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:5px}
+.mgr-reload:hover{border-color:var(--blue);color:var(--blue)}
+.mgr-stats{display:flex;gap:14px;flex-wrap:wrap}
+.mgr-stat{font-size:12px;color:var(--ink3);display:flex;align-items:center;gap:4px}
+.mgr-stat strong{color:var(--ink);font-weight:700}
+.mgr-list{border:1px solid var(--border);border-radius:10px;overflow:hidden;max-height:340px;overflow-y:auto}
+.mgr-list::-webkit-scrollbar{width:4px}
+.mgr-list::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.mgr-item{display:flex;align-items:center;gap:10px;padding:10px 14px;border-bottom:1px solid var(--border);transition:background .1s}
+.mgr-item:last-child{border-bottom:none}
+.mgr-item:hover{background:var(--bg)}
+.mgr-item-body{flex:1;min-width:0}
+.mgr-item-title{font-size:13px;font-weight:500;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mgr-item-meta{font-size:11px;color:var(--ink4);margin-top:2px;display:flex;gap:6px;align-items:center}
+.mgr-cat{font-size:10px;font-weight:700;padding:1.5px 5px;border-radius:3px;background:var(--bg);color:var(--ink3);border:1px solid var(--border2);flex-shrink:0}
+.mgr-del{width:26px;height:26px;border-radius:6px;border:1px solid rgba(212,39,29,.2);background:rgba(212,39,29,.04);color:var(--red);font-size:13px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .15s}
+.mgr-del:hover{background:var(--red);color:#fff;border-color:var(--red)}
+.mgr-empty{padding:32px;text-align:center;font-size:13px;color:var(--ink3)}
+.mgr-loading{padding:24px;text-align:center;font-size:12.5px;color:var(--ink3)}
+.mgr-pagination{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.mgr-pg-info{font-size:12px;color:var(--ink3)}
+.mgr-pg-btns{display:flex;gap:4px}
+.mgr-pg-btn{height:28px;padding:0 10px;border-radius:6px;border:1px solid var(--border2);font-size:12px;font-weight:500;color:var(--ink2);background:var(--surface);cursor:pointer;transition:all .12s}
+.mgr-pg-btn:hover:not(:disabled){border-color:var(--red);color:var(--red)}
+.mgr-pg-btn:disabled{opacity:.4;cursor:not-allowed}
+.mgr-pg-btn.on{background:var(--red);color:#fff;border-color:var(--red)}
+/* 新增文章区 */
+.mgr-add{border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.mgr-add-hd{padding:10px 14px;background:var(--bg);border-bottom:1px solid var(--border);font-size:12px;font-weight:700;color:var(--ink3);letter-spacing:.3px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;user-select:none}
+.mgr-add-hd:hover{background:var(--border)}
+.mgr-add-body{padding:14px;display:none;flex-direction:column;gap:10px}
+.mgr-add-body.open{display:flex}
+.mgr-field{display:flex;flex-direction:column;gap:4px}
+.mgr-field label{font-size:11px;font-weight:700;color:var(--ink3);letter-spacing:.3px}
+.mgr-field input,.mgr-field textarea,.mgr-field select{border:1px solid var(--border2);border-radius:7px;padding:8px 10px;font-size:13px;font-family:var(--f);color:var(--ink);outline:none;transition:border-color .15s;width:100%;background:var(--surface)}
+.mgr-field input:focus,.mgr-field textarea:focus,.mgr-field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.08)}
+.mgr-field textarea{resize:vertical;min-height:80px;line-height:1.6}
+.mgr-field-row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.mgr-submit{height:38px;border-radius:8px;background:var(--green);color:#fff;font-size:13.5px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s}
+.mgr-submit:hover{opacity:.88}
+.mgr-submit:disabled{opacity:.45;cursor:not-allowed}
+.mgr-msg{font-size:12px;font-weight:600;padding:6px 10px;border-radius:6px;text-align:center}
+.mgr-msg.ok{background:rgba(22,163,74,.1);color:var(--green)}
+.mgr-msg.err{background:rgba(212,39,29,.1);color:var(--red)}
+
 
 .ctab{user-select:none;position:relative}
 .ctab.dragging{opacity:.4;cursor:grabbing !important}
@@ -664,8 +921,8 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 <!-- ══ HEADER ══════════════════════════════════════════════ -->
 <header id="hdr">
   <div class="hdr-in">
-    <div class="logo" onclick="goHome()">
-      <span class="logo-k">K1980</span>
+    <div class="logo" onclick="goHome()" id="logo-home">
+      <span class="logo-k" id="logo-k-secret" onclick="adminSecretTap(event)">K1980</span>
       <span class="logo-div"></span>
       <span class="logo-sub zh-only">全球华人资讯</span>
       <span class="logo-sub en-only">Global Chinese Media</span>
@@ -724,6 +981,12 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
           </div>
         </div>
       </div>
+
+      <!-- AI写稿 -->
+      <button class="write-trigger-btn" onclick="openWritePanel()" title="AI自动写稿 · 一键生成40篇">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M2 12.5h4M10 2l4 4-7 7H3V9l7-7z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <span class="zh-only">AI写稿</span>
+      </button>
 
       <!-- 语言切换 -->
       <button class="lang-btn zh-active" id="lang-btn" onclick="toggleLang()">
@@ -877,11 +1140,11 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     </div>
     <div class="scard">
       <div class="scard-hd"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
-      <div>
-        <div class="srv-item"><div class="srv-l"><div class="srv-ico">✈️</div><div><div class="srv-name zh-only">移民咨询</div><div class="srv-name en-only">Immigration</div><div class="srv-desc zh-only">专业顾问一对一</div><div class="srv-desc en-only">Expert consultation</div></div></div><span class="srv-arr">›</span></div>
-        <div class="srv-item"><div class="srv-l"><div class="srv-ico">🎓</div><div><div class="srv-name zh-only">留学申请</div><div class="srv-name en-only">Study Abroad</div><div class="srv-desc zh-only">名校申请全程服务</div><div class="srv-desc en-only">University applications</div></div></div><span class="srv-arr">›</span></div>
-        <div class="srv-item"><div class="srv-l"><div class="srv-ico">⚖️</div><div><div class="srv-name zh-only">法律服务</div><div class="srv-name en-only">Legal Service</div><div class="srv-desc zh-only">海外华人法律援助</div><div class="srv-desc en-only">Overseas Chinese legal aid</div></div></div><span class="srv-arr">›</span></div>
-        <div class="srv-item"><div class="srv-l"><div class="srv-ico">💰</div><div><div class="srv-name zh-only">财税规划</div><div class="srv-name en-only">Tax Planning</div><div class="srv-desc zh-only">跨境税务申报</div><div class="srv-desc en-only">Cross-border tax services</div></div></div><span class="srv-arr">›</span></div>
+      <div id="srv-list">
+        <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">✈️</div><div><div class="srv-name zh-only">移民咨询</div><div class="srv-name en-only">Immigration</div><div class="srv-desc zh-only">专业顾问一对一</div><div class="srv-desc en-only">Expert consultation</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">🎓</div><div><div class="srv-name zh-only">留学申请</div><div class="srv-name en-only">Study Abroad</div><div class="srv-desc zh-only">名校申请全程服务</div><div class="srv-desc en-only">University applications</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">⚖️</div><div><div class="srv-name zh-only">法律服务</div><div class="srv-name en-only">Legal Service</div><div class="srv-desc zh-only">海外华人法律援助</div><div class="srv-desc en-only">Overseas Chinese legal aid</div></div></div><span class="srv-arr">›</span></div>
+        <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">💰</div><div><div class="srv-name zh-only">财税规划</div><div class="srv-name en-only">Tax Planning</div><div class="srv-desc zh-only">跨境税务申报</div><div class="srv-desc en-only">Cross-border tax services</div></div></div><span class="srv-arr">›</span></div>
       </div>
     </div>
     <div class="abt">
@@ -893,8 +1156,8 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
            style="font-size:12px;color:var(--red);font-weight:600;text-decoration:none">
           🌐 www.k1980.app
         </a>
-        <a href="/cdn-cgi/l/email-protection#c1a9a4adadae81aaf0f8f9f1efa0b1b1" style="font-size:12px;color:var(--ink3);text-decoration:none">
-          ✉️ <span class="__cf_email__" data-cfemail="1078757c7c7f507b212928203e716060">[email&#160;protected]</span>
+        <a href="mailto:hello@k1980.app" style="font-size:12px;color:var(--ink3);text-decoration:none">
+          ✉️ hello@k1980.app
         </a>
       </div>
       <div class="abt-t" id="utime"></div>
@@ -1016,6 +1279,16 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <hr class="mhr"/>
     <div class="mbody" id="mbody"></div>
     <div class="mtags" id="mtags"></div>
+    <!-- 分享栏 -->
+    <div class="share-bar" id="share-bar">
+      <span class="share-lbl zh-only">转发分享</span>
+      <span class="share-lbl en-only">Share</span>
+      <button class="share-btn sb-copy" onclick="shareArticle('copy')">🔗 <span class="zh-only">复制链接</span><span class="en-only">Copy Link</span></button>
+      <button class="share-btn sb-wa" onclick="shareArticle('wa')">💬 WhatsApp</button>
+      <button class="share-btn sb-tw" onclick="shareArticle('tw')">𝕏 Twitter</button>
+      <button class="share-btn sb-more" onclick="shareArticle('native')">↑ <span class="zh-only">更多</span><span class="en-only">More</span></button>
+      <span class="share-copy-ok" id="share-copy-ok">✓ <span class="zh-only">已复制！</span><span class="en-only">Copied!</span></span>
+    </div>
     <a class="mlink" id="mlink" href="#" target="_blank" rel="noopener" style="display:none">
       <span class="zh-only">查看原文</span><span class="en-only">Source</span>
       <svg width="11" height="11" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -1041,6 +1314,522 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   </div>
 </div>
 
+<!-- ══ 置顶时长选择弹窗 ════════════════════════════════════ -->
+<div id="pin-modal" class="pin-modal" onclick="if(event.target===this)closePinModal()">
+  <div class="pin-box" style="max-width:360px">
+    <div class="pin-box-title">📌 置顶文章</div>
+    <div class="pin-box-sub" id="pin-modal-title">—</div>
+
+    <!-- Supabase SQL 提示（首次显示） -->
+    <div id="pin-sql-tip" style="display:none;margin-bottom:12px">
+      <div style="font-size:11.5px;color:var(--red);font-weight:700;margin-bottom:6px">⚠️ 需先在 Supabase 执行一次 SQL：</div>
+      <div class="pin-sql-box">
+        <span class="sql-kw">ALTER TABLE</span> news_articles<br>
+        <span class="sql-kw">ADD COLUMN IF NOT EXISTS</span><br>
+        &nbsp;&nbsp;pinned_until <span class="sql-str">timestamptz</span>;
+      </div>
+      <div style="font-size:11px;color:var(--ink3)">执行后刷新页面即可正常置顶。当前会话将临时记录置顶状态（刷新后消失）。</div>
+    </div>
+
+    <div class="pin-dur-grid">
+      <div class="pin-dur on" data-h="2"   onclick="selectPinDur(this)"><div class="pin-dur-label">2 小时</div><div class="pin-dur-sub">短期推广</div></div>
+      <div class="pin-dur"    data-h="6"   onclick="selectPinDur(this)"><div class="pin-dur-label">6 小时</div><div class="pin-dur-sub">半天曝光</div></div>
+      <div class="pin-dur"    data-h="24"  onclick="selectPinDur(this)"><div class="pin-dur-label">24 小时</div><div class="pin-dur-sub">今日热点</div></div>
+      <div class="pin-dur"    data-h="72"  onclick="selectPinDur(this)"><div class="pin-dur-label">3 天</div><div class="pin-dur-sub">重点推荐</div></div>
+      <div class="pin-dur"    data-h="168" onclick="selectPinDur(this)"><div class="pin-dur-label">7 天</div><div class="pin-dur-sub">长期置顶</div></div>
+      <div class="pin-dur"    data-h="0"   onclick="selectPinDur(this)"><div class="pin-dur-label">取消置顶</div><div class="pin-dur-sub">恢复正常</div></div>
+    </div>
+    <button class="pin-confirm-btn" onclick="confirmPin()">确认置顶</button>
+    <span class="pin-cancel" onclick="closePinModal()">取消</span>
+  </div>
+</div>
+
+<!-- ══ 管理员登录弹窗 ══════════════════════════════════════ -->
+<div id="admin-gate">
+  <div class="ag-box">
+    <div class="ag-logo">K1980</div>
+    <div class="ag-sub">管理员工具 · Admin Access</div>
+    <div class="ag-label">管理员密码</div>
+    <input class="ag-input" type="password" id="ag-pwd" placeholder="••••••••"
+           onkeydown="if(event.key==='Enter')verifyAdmin()"/>
+    <button class="ag-btn" onclick="verifyAdmin()">验证身份</button>
+    <div class="ag-err" id="ag-err"></div>
+    <span class="ag-cancel" onclick="closeAdminGate()">取消</span>
+  </div>
+</div>
+
+<!-- ══ AI写稿面板 ══════════════════════════════════════════ -->
+<div id="write-panel" onclick="if(event.target===this)closeWritePanel()">
+  <div class="wp-sheet">
+    <!-- 头部 -->
+    <div class="wp-hd">
+      <button class="wp-hd-close" onclick="closeWritePanel()" type="button">
+        <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M2 2l12 12M14 2L2 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div class="wp-hd-tag">K1980 · 管理后台</div>
+      <div class="wp-hd-title" id="wp-hd-title">✍️ 自动写稿 · 一键发布</div>
+      <div class="wp-hd-sub" id="wp-hd-sub">深度报道 20 篇 + 新闻简报 20 篇，由 Claude AI 生成，直接上线</div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="wp-tabs">
+      <div class="wp-tab on" data-tab="write" onclick="switchAdminTab('write')">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M2 12.5h4M10 2l4 4-7 7H3V9l7-7z" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        AI写稿
+      </div>
+      <div class="wp-tab" data-tab="manage" onclick="switchAdminTab('manage')">
+        <svg viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="3" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="7" width="8" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="11" width="10" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+        文章管理
+      </div>
+      <div class="wp-tab" data-tab="opps" onclick="switchAdminTab('opps')">
+        <svg viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.3"/><path d="M8 5v3l2 2" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        今日机会
+      </div>
+      <div class="wp-tab" data-tab="services" onclick="switchAdminTab('services')">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3v10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.3"/></svg>
+        推荐服务
+      </div>
+    </div>
+
+    <!-- Tab: AI写稿 -->
+    <div id="tab-write" class="wp-body">
+      <!-- 地区选择 -->
+      <div>
+        <div class="wp-sect-lbl">目标地区</div>
+        <div class="wp-region-row" id="wp-region-row">
+          <span class="wp-rtag on" data-r="global">🌐 全球</span>
+          <span class="wp-rtag" data-r="nz">🇳🇿 新西兰</span>
+          <span class="wp-rtag" data-r="au">🇦🇺 澳洲</span>
+          <span class="wp-rtag" data-r="ca">🇨🇦 加拿大</span>
+          <span class="wp-rtag" data-r="us">🇺🇸 美国</span>
+          <span class="wp-rtag" data-r="gb">🇬🇧 英国</span>
+          <span class="wp-rtag" data-r="sg">🇸🇬 新加坡</span>
+          <span class="wp-rtag" data-r="my">🇲🇾 马来西亚</span>
+        </div>
+      </div>
+
+      <!-- 篇数控制 -->
+      <div>
+        <div class="wp-sect-lbl">生成篇数 <span id="wp-count-display" style="color:var(--red);font-weight:800;font-size:13px;margin-left:4px">20 篇</span></div>
+        <div class="wp-count-row">
+          <div class="wp-count-presets">
+            <span class="wp-preset on" data-n="10">10篇</span>
+            <span class="wp-preset" data-n="20">20篇</span>
+            <span class="wp-preset" data-n="30">30篇</span>
+            <span class="wp-preset" data-n="40">40篇</span>
+          </div>
+          <div class="wp-count-slider-wrap">
+            <input type="range" id="wp-count-slider" min="2" max="40" step="2" value="20" class="wp-slider" oninput="onCountSlide(this.value)"/>
+            <div class="wp-slider-labels"><span>2</span><span>10</span><span>20</span><span>30</span><span>40</span></div>
+          </div>
+        </div>
+        <div class="wp-count-split" id="wp-count-split">深度报道 <strong id="wp-deep-n">10</strong> 篇 · 新闻简报 <strong id="wp-brief-n">10</strong> 篇（各占一半）</div>
+      </div>
+
+      <!-- 提词框 -->
+      <div>
+        <div class="wp-sect-lbl">主题提词 <span style="color:var(--ink4);font-size:10px;font-weight:400;letter-spacing:0;text-transform:none">（不填则 AI 自由发挥）</span></div>
+        <textarea id="wp-prompt" class="wp-prompt-input" placeholder="例：重点写移民政策最新变化、房价走势、华人创业故事…&#10;可以写关键词、方向、角度，AI 会围绕这些主题展开"></textarea>
+        <div class="wp-prompt-chips" id="wp-prompt-chips">
+          <span class="wp-chip" onclick="addChip(this)">📋 移民政策</span>
+          <span class="wp-chip" onclick="addChip(this)">🏠 房价租金</span>
+          <span class="wp-chip" onclick="addChip(this)">💼 就业招聘</span>
+          <span class="wp-chip" onclick="addChip(this)">📈 财经市场</span>
+          <span class="wp-chip" onclick="addChip(this)">🎓 留学教育</span>
+          <span class="wp-chip" onclick="addChip(this)">🤖 AI科技</span>
+          <span class="wp-chip" onclick="addChip(this)">✈️ 旅游出行</span>
+          <span class="wp-chip" onclick="addChip(this)">🧧 华人社区</span>
+        </div>
+      </div>
+
+      <!-- 生成按钮 -->
+      <button class="wp-gen-btn" id="wp-gen-btn" onclick="startGenerate()">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 1v3M8 12v3M1 8h3M12 8h3M3.22 3.22l2.12 2.12M10.66 10.66l2.12 2.12M3.22 12.78l2.12-2.12M10.66 5.34l2.12-2.12" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <span id="wp-gen-label">开始生成 20 篇新闻</span>
+      </button>
+
+      <!-- 进度条 -->
+      <div class="wp-progress" id="wp-progress">
+        <div class="wp-prog-hd">
+          <span class="wp-prog-stage" id="wp-prog-stage">准备中...</span>
+          <span class="wp-prog-count" id="wp-prog-count">0 / 0</span>
+        </div>
+        <div class="wp-prog-track"><div class="wp-prog-fill" id="wp-prog-fill"></div></div>
+        <div class="wp-log" id="wp-log"></div>
+      </div>
+
+      <!-- 文章预览 -->
+      <div class="wp-preview" id="wp-preview">
+        <div class="wp-preview-hd">
+          <span id="wp-preview-title">生成结果预览</span>
+          <span id="wp-preview-count" style="font-family:var(--fm)"></span>
+        </div>
+        <div id="wp-art-list"></div>
+      </div>
+
+      <!-- 投放板块 -->
+      <div class="wp-preview" id="wp-section-pick" style="display:none">
+        <div class="wp-preview-hd">
+          <span>📌 投放板块</span>
+          <span style="font-size:11px;color:var(--ink4);font-weight:400">选择文章显示在哪个分类下</span>
+        </div>
+        <div style="padding:12px 14px;display:flex;flex-direction:column;gap:10px">
+          <div class="wp-sect-lbl" style="margin-bottom:0">覆盖分类标签为</div>
+          <div class="wp-section-row" id="wp-section-row">
+            <span class="wp-stag on" data-s="auto">🤖 AI自动分类</span>
+            <span class="wp-stag" data-s="时事">📰 时事</span>
+            <span class="wp-stag" data-s="移民">🛂 移民</span>
+            <span class="wp-stag" data-s="教育">🎓 教育</span>
+            <span class="wp-stag" data-s="财经">💹 财经</span>
+            <span class="wp-stag" data-s="科技">🤖 科技</span>
+            <span class="wp-stag" data-s="生活">🏠 生活</span>
+            <span class="wp-stag" data-s="旅游">✈️ 旅游</span>
+          </div>
+          <div class="wp-count-split" id="wp-section-hint">「AI自动分类」：保留 Claude 生成时的原始分类（推荐）</div>
+        </div>
+      </div>
+
+      <!-- 发布按钮 -->
+      <button class="wp-pub-btn" id="wp-pub-btn" onclick="publishGeneratedNews()">
+        🚀 发布上线（写入数据库 + 立即显示）
+      </button>
+
+      <!-- 完成提示 -->
+      <div class="wp-done-box" id="wp-done-box">
+        <div class="wp-done-ico">🎉</div>
+        <div class="wp-done-txt" id="wp-done-txt">已成功发布上线！</div>
+        <div class="wp-done-sub" id="wp-done-sub">文章已注入当前页面，刷新后将从数据库加载</div>
+      </div>
+    </div>
+
+    <!-- Tab: 文章管理 -->
+    <div id="tab-manage" class="mgr-body" style="display:none">
+      <!-- 工具栏 -->
+      <div class="mgr-toolbar">
+        <input class="mgr-search" id="mgr-search" placeholder="搜索标题..." oninput="mgrFilter()"/>
+        <select class="mgr-filter" id="mgr-cat-filter" onchange="mgrFilter()">
+          <option value="">全部分类</option>
+          <option>时事</option><option>移民</option><option>教育</option>
+          <option>财经</option><option>科技</option><option>生活</option>
+          <option>旅游</option><option>游戏</option><option>本地</option>
+        </select>
+        <button class="mgr-reload" onclick="mgrLoad(true)">
+          <svg width="12" height="12" viewBox="0 0 16 16" fill="none"><path d="M2.5 8a5.5 5.5 0 1 0 1-3.2" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><path d="M2.5 3.5V8H7" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          刷新
+        </button>
+      </div>
+      <div class="mgr-stats" id="mgr-stats"></div>
+
+      <!-- 文章列表 -->
+      <div class="mgr-list" id="mgr-list"><div class="mgr-loading">加载中...</div></div>
+
+      <!-- 翻页 -->
+      <div class="mgr-pagination" id="mgr-pagination"></div>
+
+      <!-- 新增文章 -->
+      <div class="mgr-add">
+        <div class="mgr-add-hd" onclick="toggleMgrAdd()">
+          <span>➕ 手动新增文章</span>
+          <span id="mgr-add-arrow">▼</span>
+        </div>
+        <div class="mgr-add-body" id="mgr-add-body">
+          <div class="mgr-field-row">
+            <div class="mgr-field">
+              <label>分类</label>
+              <select id="mgr-new-cat">
+                <option>时事</option><option>移民</option><option>教育</option>
+                <option>财经</option><option>科技</option><option>生活</option>
+                <option>旅游</option><option>游戏</option><option>本地</option>
+              </select>
+            </div>
+            <div class="mgr-field">
+              <label>来源</label>
+              <input id="mgr-new-src" placeholder="K1980资讯" value="K1980资讯"/>
+            </div>
+          </div>
+          <div class="mgr-field">
+            <label>标题</label>
+            <input id="mgr-new-title" placeholder="请输入文章标题..."/>
+          </div>
+          <div class="mgr-field">
+            <label>摘要</label>
+            <textarea id="mgr-new-summary" placeholder="100-200字摘要..." style="min-height:60px"></textarea>
+          </div>
+          <div class="mgr-field">
+            <label>正文</label>
+            <textarea id="mgr-new-content" placeholder="完整正文..." style="min-height:100px"></textarea>
+          </div>
+          <div class="mgr-field">
+            <label>标签（逗号分隔）</label>
+            <input id="mgr-new-tags" placeholder="移民, 新西兰, 签证"/>
+          </div>
+          <div id="mgr-add-msg"></div>
+          <button class="mgr-submit" id="mgr-submit-btn" onclick="mgrAddArticle()">✓ 发布文章</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab: 今日机会管理 -->
+    <div id="tab-opps" class="mgr-body" style="display:none">
+
+      <!-- 地区选择 -->
+      <div>
+        <div class="wp-sect-lbl">管理地区</div>
+        <div class="wp-region-row" id="opp-mgr-region-row">
+          <span class="wp-rtag on" data-r="nz">🇳🇿 新西兰</span>
+          <span class="wp-rtag" data-r="au">🇦🇺 澳洲</span>
+          <span class="wp-rtag" data-r="ca">🇨🇦 加拿大</span>
+          <span class="wp-rtag" data-r="us">🇺🇸 美国</span>
+          <span class="wp-rtag" data-r="uk">🇬🇧 英国</span>
+          <span class="wp-rtag" data-r="sg">🇸🇬 新加坡</span>
+          <span class="wp-rtag" data-r="my">🇲🇾 马来西亚</span>
+        </div>
+      </div>
+
+      <!-- 四类型 Tab — 与前台完全对应 -->
+      <div class="opp-type-tabs" id="opp-type-tabs">
+        <div class="opp-type-tab on" data-tt="all"   onclick="switchOppTypeTab(this)">全部 <span class="opp-type-cnt" id="ottc-all">—</span></div>
+        <div class="opp-type-tab"   data-tt="job"    onclick="switchOppTypeTab(this)">💼 招聘 <span class="opp-type-cnt" id="ottc-job">—</span></div>
+        <div class="opp-type-tab"   data-tt="house"  onclick="switchOppTypeTab(this)">🏠 房产 <span class="opp-type-cnt" id="ottc-house">—</span></div>
+        <div class="opp-type-tab"   data-tt="deal"   onclick="switchOppTypeTab(this)">🎁 优惠 <span class="opp-type-cnt" id="ottc-deal">—</span></div>
+        <div class="opp-type-tab"   data-tt="event"  onclick="switchOppTypeTab(this)">📅 活动 <span class="opp-type-cnt" id="ottc-event">—</span></div>
+      </div>
+
+      <!-- 现有机会列表 -->
+      <div class="mgr-stats" id="opp-mgr-stats"></div>
+      <div class="mgr-list" id="opp-mgr-list"><div class="mgr-loading">选择地区后加载...</div></div>
+
+      <!-- 新增机会 -->
+      <div class="mgr-add">
+        <div class="mgr-add-hd" onclick="toggleOppAdd()">
+          <span>➕ 新增 / 导入合作伙伴</span>
+          <span id="opp-add-arrow">▼</span>
+        </div>
+        <div class="mgr-add-body" id="opp-add-body">
+          <!-- 模式切换 -->
+          <div class="mgr-add-toggle">
+            <button class="mgr-add-mode on" id="opp-mode-single" onclick="switchOppMode('single')">✏️ 手动填写</button>
+            <button class="mgr-add-mode" id="opp-mode-import" onclick="switchOppMode('import')">📥 批量导入合作伙伴</button>
+          </div>
+
+          <!-- 手动填写 -->
+          <div id="opp-form-single">
+            <!-- 类型快捷选 -->
+            <div class="mgr-field">
+              <label>类型</label>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:2px">
+                <span class="wp-preset on" data-t="job" onclick="selectOppType(this)" style="font-size:12px">💼 招聘</span>
+                <span class="wp-preset" data-t="house" onclick="selectOppType(this)" style="font-size:12px">🏠 房产</span>
+                <span class="wp-preset" data-t="deal" onclick="selectOppType(this)" style="font-size:12px">🎁 优惠</span>
+                <span class="wp-preset" data-t="event" onclick="selectOppType(this)" style="font-size:12px">📅 活动</span>
+              </div>
+              <input type="hidden" id="opp-new-type" value="job"/>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>合作伙伴/公司名</label>
+                <input id="opp-new-partner" placeholder="例：求职直通车 · K1980合作"/>
+              </div>
+              <div class="mgr-field">
+                <label>来源平台</label>
+                <input id="opp-new-source" placeholder="seek.co.nz"/>
+              </div>
+            </div>
+            <div class="mgr-field">
+              <label>标题</label>
+              <input id="opp-new-title" placeholder="例：软件工程师招聘 — Auckland CBD"/>
+            </div>
+            <div class="mgr-field">
+              <label>简介</label>
+              <input id="opp-new-summary" placeholder="例：科技公司，NZD $80k–$110k，全职"/>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>链接 URL</label>
+                <input id="opp-new-link" placeholder="https://..."/>
+              </div>
+              <div class="mgr-field">
+                <label>标签（逗号分隔）</label>
+                <input id="opp-new-tags" placeholder="全职, 签证支持"/>
+              </div>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>匹配度 %</label>
+                <input id="opp-new-score" type="number" min="0" max="100" value="85"/>
+              </div>
+              <div class="mgr-field" style="justify-content:flex-end;padding-top:18px">
+                <label style="display:flex;align-items:center;gap:6px;cursor:pointer;font-weight:500;color:var(--ink2)">
+                  <input type="checkbox" id="opp-new-hot" style="width:14px;height:14px;accent-color:var(--red)"/>
+                  🔥 标记热门
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <!-- 批量导入 -->
+          <div id="opp-form-import" style="display:none">
+            <div style="font-size:12px;color:var(--ink3);margin-bottom:10px;line-height:1.7">
+              上传合作伙伴 CSV，支持四类（招聘/房产/优惠/活动）混合导入。<br>
+              字段：<code>type, title, summary, source, link, tags, score, hot, partner</code>
+            </div>
+            <div class="import-zone" id="opp-import-zone">
+              <input type="file" accept=".csv,.txt" id="opp-csv-input" onchange="oppParseCsv(this)"/>
+              <div class="import-zone-ico">📋</div>
+              <div class="import-zone-txt">拖拽合作伙伴 CSV 到此处</div>
+              <div class="import-zone-sub">支持 招聘 / 房产 / 优惠 / 活动 混合</div>
+              <button class="import-template" onclick="downloadOppTemplate(event)">⬇️ 下载 CSV 模板</button>
+            </div>
+            <div class="import-preview" id="opp-import-preview">
+              <div class="import-preview-hd">
+                <span id="opp-import-count">预览</span>
+                <span style="color:var(--ink4)">确认后写入 Supabase</span>
+              </div>
+              <div id="opp-import-rows"></div>
+            </div>
+            <div class="import-actions" id="opp-import-actions" style="display:none">
+              <button class="import-confirm-btn" id="opp-import-confirm" onclick="oppImportConfirm()">✓ 确认导入</button>
+              <button class="import-clear-btn" onclick="oppImportClear()">✕ 清除</button>
+            </div>
+          </div>
+
+          <div id="opp-add-msg"></div>
+          <button class="mgr-submit" id="opp-submit-btn" onclick="oppAddCard()" style="margin-top:4px">✓ 发布机会卡片</button>
+        </div>
+      </div>
+
+      <div style="font-size:11px;color:var(--ink4);text-align:center;padding:4px 0">
+        💡 数据存入 Supabase <code>opportunities</code> 表，前台实时读取显示
+      </div>
+    </div>
+
+    <!-- Tab: 推荐服务管理 -->
+    <div id="tab-services" class="mgr-body" style="display:none">
+
+      <!-- 现有服务列表 -->
+      <div class="mgr-stats" id="srv-mgr-stats"></div>
+      <div class="mgr-list" id="srv-mgr-list"><div class="mgr-loading">加载中...</div></div>
+
+      <!-- 新增服务 -->
+      <div class="mgr-add">
+        <div class="mgr-add-hd" onclick="toggleSrvAdd()">
+          <span>➕ 新增 / 导入合作商</span>
+          <span id="srv-add-arrow">▼</span>
+        </div>
+        <div class="mgr-add-body" id="srv-add-body">
+          <!-- 模式切换 -->
+          <div class="mgr-add-toggle">
+            <button class="mgr-add-mode on" id="srv-mode-single" onclick="switchSrvMode('single')">✏️ 手动填写</button>
+            <button class="mgr-add-mode" id="srv-mode-import" onclick="switchSrvMode('import')">📥 批量导入合作商</button>
+          </div>
+
+          <!-- 手动填写 -->
+          <div id="srv-form-single">
+            <!-- 四类服务选择 -->
+            <div class="mgr-field">
+              <label>服务类别 <span style="color:var(--ink4);font-weight:400">（对应前台四项）</span></label>
+              <div style="display:flex;gap:6px;flex-wrap:wrap;margin-top:4px" id="srv-type-row">
+                <span class="wp-preset on" data-st="immigration" onclick="selectSrvType(this)">✈️ 移民咨询</span>
+                <span class="wp-preset" data-st="education" onclick="selectSrvType(this)">🎓 留学申请</span>
+                <span class="wp-preset" data-st="legal" onclick="selectSrvType(this)">⚖️ 法律服务</span>
+                <span class="wp-preset" data-st="finance" onclick="selectSrvType(this)">💰 财税规划</span>
+                <span class="wp-preset" data-st="other" onclick="selectSrvType(this)">📌 其他</span>
+              </div>
+              <input type="hidden" id="srv-new-type" value="immigration"/>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>图标 Emoji</label>
+                <input id="srv-new-ico" placeholder="✈️" style="font-size:18px;text-align:center"/>
+              </div>
+              <div class="mgr-field">
+                <label>排序权重（数字越大越靠前）</label>
+                <input id="srv-new-sort" type="number" value="50" min="1" max="999"/>
+              </div>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>服务名称（中文）</label>
+                <input id="srv-new-name-zh" placeholder="移民咨询"/>
+              </div>
+              <div class="mgr-field">
+                <label>Service Name (EN)</label>
+                <input id="srv-new-name-en" placeholder="Immigration"/>
+              </div>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>副标题（中文）</label>
+                <input id="srv-new-desc-zh" placeholder="专业顾问一对一"/>
+              </div>
+              <div class="mgr-field">
+                <label>Subtitle (EN)</label>
+                <input id="srv-new-desc-en" placeholder="Expert consultation"/>
+              </div>
+            </div>
+            <div class="mgr-field-row">
+              <div class="mgr-field">
+                <label>合作商/公司名</label>
+                <input id="srv-new-partner" placeholder="例：K1980合作商"/>
+              </div>
+              <div class="mgr-field">
+                <label>联系方式</label>
+                <input id="srv-new-contact" placeholder="电话或邮箱"/>
+              </div>
+            </div>
+            <div class="mgr-field">
+              <label>点击链接 URL</label>
+              <input id="srv-new-link" placeholder="https://..." value="#"/>
+            </div>
+          </div>
+
+          <!-- 批量导入 -->
+          <div id="srv-form-import" style="display:none">
+            <div style="font-size:12px;color:var(--ink3);margin-bottom:8px;line-height:1.7">
+              上传 CSV，每行一个合作商。<code>service_type</code> 字段填：<code>immigration / education / legal / finance / other</code>
+            </div>
+            <!-- 批量导入也有四类筛选预览 -->
+            <div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px" id="srv-import-type-filter">
+              <span class="wp-preset on" data-sf="all" onclick="srvFilterImport(this)" style="font-size:11.5px">全部</span>
+              <span class="wp-preset" data-sf="immigration" onclick="srvFilterImport(this)" style="font-size:11.5px">✈️ 移民</span>
+              <span class="wp-preset" data-sf="education" onclick="srvFilterImport(this)" style="font-size:11.5px">🎓 留学</span>
+              <span class="wp-preset" data-sf="legal" onclick="srvFilterImport(this)" style="font-size:11.5px">⚖️ 法律</span>
+              <span class="wp-preset" data-sf="finance" onclick="srvFilterImport(this)" style="font-size:11.5px">💰 财税</span>
+              <span class="wp-preset" data-sf="other" onclick="srvFilterImport(this)" style="font-size:11.5px">📌 其他</span>
+            </div>
+            <div class="import-zone" id="srv-import-zone">
+              <input type="file" accept=".csv,.txt" id="srv-csv-input" onchange="srvParseCsv(this)"/>
+              <div class="import-zone-ico">📄</div>
+              <div class="import-zone-txt">拖拽 CSV 文件到此处，或点击选择</div>
+              <div class="import-zone-sub">支持 .csv / .txt，UTF-8 编码</div>
+              <button class="import-template" onclick="downloadSrvTemplate(event)">⬇️ 下载 CSV 模板</button>
+            </div>
+            <div class="import-preview" id="srv-import-preview">
+              <div class="import-preview-hd">
+                <span id="srv-import-count">预览</span>
+                <span style="color:var(--ink4)">确认后批量写入 Supabase</span>
+              </div>
+              <div id="srv-import-rows"></div>
+            </div>
+            <div class="import-actions" id="srv-import-actions" style="display:none">
+              <button class="import-confirm-btn" id="srv-import-confirm" onclick="srvImportConfirm()">✓ 确认导入</button>
+              <button class="import-clear-btn" onclick="srvImportClear()">✕ 清除</button>
+            </div>
+          </div>
+
+          <div id="srv-add-msg"></div>
+          <button class="mgr-submit" id="srv-submit-btn" onclick="srvAddItem()" style="margin-top:4px">✓ 发布推荐服务</button>
+        </div>
+      </div>
+
+      <div style="font-size:11px;color:var(--ink4);text-align:center;padding:4px 0">
+        💡 数据存入 Supabase <code>services</code> 表，前台侧边栏实时更新
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <!-- ══ FOOTER ══════════════════════════════════════════════ -->
 <footer id="site-footer">
   <div class="footer-in">
@@ -1062,7 +1851,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
 <button id="bt"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 8l5-5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 
 /* ══ 配置 ═══════════════════════════════════════════════ */
 const CFG={URL:'https://wioqkcrtkesntqnuzfkd.supabase.co',KEY:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indpb3FrY3J0a2VzbnRxbnV6ZmtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwNjE5MTEsImV4cCI6MjA4OTYzNzkxMX0.V7RNM0XkkZt2k02v_ssZkChZBjat7emP4RrMtfsS0hY',PS:20,AR:10*60*1000};
@@ -1159,13 +1948,18 @@ let currentLang='zh';
 /* ══ Supabase ═══════════════════════════════════════════ */
 async function sbGet(cat,page,sort){
   const off=(page-1)*CFG.PS,ord=sort==='hot'?'view_count':'created_at';
-  let u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=${ord}.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count`;
+  let u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=${ord}.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count,pinned_until`;
   if(cat&&cat!=='all'&&cat!=='local')u+=`&category=eq.${encodeURIComponent(cat)}`;
   const r=await fetch(u,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Prefer':'count=exact'}});
   if(!r.ok)throw new Error(r.status);
-  return{data:await r.json(),total:parseInt(r.headers.get('Content-Range')?.split('/')[1]||'0',10)};
+  const data=await r.json();
+  // 置顶排序：有效置顶文章排最前
+  const now=new Date();
+  const pinned=data.filter(a=>a.pinned_until&&new Date(a.pinned_until)>now);
+  const normal=data.filter(a=>!a.pinned_until||new Date(a.pinned_until)<=now);
+  return{data:[...pinned,...normal],total:parseInt(r.headers.get('Content-Range')?.split('/')[1]||'0',10)};
 }
-async function sbAll(){const r=await fetch(`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,summary,category,source_name,created_at,view_count`,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY}});if(r.ok)S.cache=await r.json();}
+async function sbAll(){const r=await fetch(`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,summary,category,source_name,created_at,view_count,pinned_until`,{headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY}});if(r.ok)S.cache=await r.json();}
 function sbView(id){if(!S.live)return;fetch(`${CFG.URL}/rest/v1/rpc/increment_view_count`,{method:'POST',headers:{'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json'},body:JSON.stringify({article_id:id})});}
 
 /* ══ 工具 ════════════════════════════════════════════════ */
@@ -1179,10 +1973,13 @@ function skel(n=5){return`<div class="sk-list">${Array.from({length:n},()=>`<div
 function card(a,i){
   const tags=(a.tags||[]).slice(0,3).map(t=>`<span class="itag">${esc(t)}</span>`).join('');
   const isLocal=a.category==='本地'||(LOCAL_NEWS[currentRegion]||[]).some(l=>l.id===a.id);
-  return`<div class="item" data-id="${a.id}" style="animation-delay:${Math.min(i*.04,.3)}s${isLocal?';border-left:3px solid var(--green)':''}">
+  const isPinned = a.pinned_until && new Date(a.pinned_until) > new Date();
+  const pinStyle = isPinned ? ';border-left:3px solid var(--red)' : (isLocal ? ';border-left:3px solid var(--green)' : '');
+  return`<div class="item${isPinned?' is-pinned':''}" data-id="${a.id}" style="animation-delay:${Math.min(i*.04,.3)}s${pinStyle}">
     <span class="item-rk${i<3?' hi':''}">${i+1}</span>
     <div class="item-bd">
       <div class="item-top">
+        ${isPinned?'<span class="pin-badge">📌 置顶</span>':''}
         <span class="icat" data-c="${esc(a.category)}">${esc(a.category)}</span>
         <span class="isrc">${esc(a.source_name||'')}</span>
         <span class="isep">·</span>
@@ -1244,24 +2041,42 @@ function renderLocalHot(){
 async function loadSidebarOpps(){
   const regionMap = {global:'nz',nz:'nz',au:'au',ca:'ca',us:'us',gb:'uk',jp:'jp',kr:'kr',sg:'sg',my:'my',id:'id'};
   const r = regionMap[currentRegion] || 'nz';
+  let items = [];
+
+  // 优先从 Supabase opportunities 表读取（管理员后台写入的真实数据）
   try {
-    const resp = await fetch(`data/services_${r}.json`);
-    if(!resp.ok) return;
-    const data = await resp.json();
-    const items = (data.services||[]).slice(0,4);
-    if(!items.length) return;
-    const typeIcon = {job:'💼',house:'🏠',deal:'🎁',event:'📅'};
-    $('#opp-list').innerHTML = items.map(item=>`
-      <div class="opp-item" onclick="window.open('${esc(item.link||'#')}','_blank','noopener')">
-        <div class="opp-ico">${typeIcon[item.type]||'📌'}</div>
-        <div class="opp-info">
-          <div class="opp-name">${esc(item.title.slice(0,22))}${item.title.length>22?'…':''}</div>
-          <div class="opp-sub">${esc(item.source||'')} · ${esc(item.ago||'今日')}</div>
-        </div>
-        <span class="badge ${item.hot?'badge-h':'badge-n'}">${item.hot?'HOT':'NEW'}</span>
+    const resp = await fetch(`${CFG.URL}/rest/v1/opportunities?region=eq.${r}&order=created_at.desc&limit=4`, {
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      if (data && data.length) items = data;
+    }
+  } catch(e) {}
+
+  // 若无 Supabase 数据，回落 data/ JSON 文件
+  if (!items.length) {
+    try {
+      const resp = await fetch(`data/services_${r}.json`);
+      if (resp.ok) {
+        const data = await resp.json();
+        items = (data.services||[]).slice(0,4);
+      }
+    } catch(e) {}
+  }
+
+  if (!items.length) return;
+  const typeIcon = {job:'💼',house:'🏠',deal:'🎁',event:'📅'};
+  document.getElementById('opp-list').innerHTML = items.map(item=>`
+    <div class="opp-item" onclick="window.open('${esc(item.link||'#')}','_blank','noopener')">
+      <div class="opp-ico">${typeIcon[item.type]||'📌'}</div>
+      <div class="opp-info">
+        <div class="opp-name">${esc((item.title||'').slice(0,22))}${(item.title||'').length>22?'…':''}</div>
+        <div class="opp-sub">${esc(item.source||item.source_name||'')} · ${esc(item.ago||'今日')}</div>
       </div>
-    `).join('');
-  } catch(e) { /* 保持静态数据 */ }
+      <span class="badge ${item.hot?'badge-h':'badge-n'}">${item.hot?'HOT':'NEW'}</span>
+    </div>
+  `).join('');
 }
 
 function renderStats(pool){
@@ -1338,6 +2153,8 @@ async function load(reset=true){
     bindCards();
     // 加载完成后若为 EN 模式，立即开始翻译
     if(currentLang==='en') enableTranslations();
+    // 动态加载推荐服务
+    if(reset) loadSidebarServices();
   }catch(e){
     console.error(e);
     if(reset){
@@ -1628,6 +2445,8 @@ async function openM(a){
   const lk=$('#mlink');lk.style.display=(a.original_url&&a.original_url!=='#')?'inline-flex':'none';lk.href=a.original_url||'#';
   $('#mtags').innerHTML=(a.tags||[]).map(t=>`<span class="mtag">#${esc(t)}</span>`).join('');
   $('#modal').classList.add('on');document.body.style.overflow='hidden';sbView(a.id);
+  // 记录当前文章用于分享
+  window._currentArticle = a;
 
   if(currentLang==='en'){
     // EN 模式：先显示原文，异步替换为翻译
@@ -1718,7 +2537,16 @@ document.addEventListener('DOMContentLoaded',()=>{
   // 弹窗
   $('#mclose').addEventListener('click',closeM);
   $('#modal').addEventListener('click',e=>{if(e.target===$('#modal'))closeM();});
-  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeM();$('#sdrop').style.display='none';$('#region-picker').classList.remove('open');}});
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      closeM();
+      document.getElementById('sdrop').style.display='none';
+      document.getElementById('region-picker').classList.remove('open');
+      if (document.getElementById('admin-gate').classList.contains('on')) closeAdminGate();
+      if (document.getElementById('write-panel').classList.contains('on')) closeWritePanel();
+      if (document.getElementById('pin-modal').classList.contains('on')) closePinModal();
+    }
+  });
 
   // 搜索
   const si=$('#si');
@@ -1754,6 +2582,47 @@ document.addEventListener('DOMContentLoaded',()=>{
   // ── 导航拖拽排序 ────────────────────────────────────────
   initNavDrag();
   restoreNavOrder();
+
+  // ── AI写稿面板：地区标签点击 ──────────────────────────
+  document.querySelectorAll('#wp-region-row .wp-rtag').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('#wp-region-row .wp-rtag').forEach(x => x.classList.remove('on'));
+      el.classList.add('on');
+    });
+  });
+
+  // ── AI写稿面板：篇数预设按钮 ──────────────────────────
+  document.querySelectorAll('.wp-preset').forEach(el => {
+    el.addEventListener('click', () => {
+      onCountSlide(Number(el.dataset.n));
+    });
+  });
+
+  // 初始化篇数显示
+  onCountSlide(20);
+
+  // ── 投放板块标签点击 ──────────────────────────────────
+  document.querySelectorAll('#wp-section-row .wp-stag').forEach(el => {
+    el.addEventListener('click', () => {
+      document.querySelectorAll('#wp-section-row .wp-stag').forEach(x => x.classList.remove('on'));
+      el.classList.add('on');
+      const hints = {
+        auto: '「AI自动分类」：保留 Claude 生成时的原始分类（推荐）',
+        时事:'所有文章强制归入「时事」板块',移民:'所有文章归入「移民」板块',
+        教育:'所有文章归入「教育」板块',财经:'所有文章归入「财经」板块',
+        科技:'所有文章归入「科技」板块',生活:'所有文章归入「生活」板块',
+        旅游:'所有文章归入「旅游」板块',
+      };
+      document.getElementById('wp-section-hint').textContent = hints[el.dataset.s] || '';
+    });
+  });
+
+  // 写稿面板 Escape 关闭
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && document.getElementById('write-panel').classList.contains('on')) {
+      closeWritePanel();
+    }
+  });
 });
 
 /* ══ 经纬专栏 ════════════════════════════════════════════ */
@@ -2499,10 +3368,1245 @@ function getOppMockData(region){
       {type:'house',title:'2BR公寓出租 — Bishan MRT旁 $3,200/月',summary:'交通便利，华人多',score:89,tags:['交通便利'],source:'propertyguru.com.sg',link:'https://propertyguru.com.sg',hot:true,ago:'2小时前'},
     ],
   };
-  return data[region] || data['nz'].map(d=>({...d,title:`${region.toUpperCase()} — ${d.title}`}));
+  return data[region] || data['nz'];
 }
 
+/* ══ 分享功能 ══════════════════════════════════════════════ */
+function shareArticle(type) {
+  const a = window._currentArticle;
+  if (!a) return;
+  const title = a.title || 'K1980资讯';
+  const url = (a.original_url && a.original_url !== '#')
+    ? a.original_url
+    : 'https://www.k1980.app';
+  const text = `${title} — K1980全球华人资讯\n${url}`;
 
+  if (type === 'copy') {
+    navigator.clipboard.writeText(text).then(() => {
+      const ok = document.getElementById('share-copy-ok');
+      ok.classList.add('show');
+      setTimeout(() => ok.classList.remove('show'), 2200);
+    }).catch(() => {
+      // fallback
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      const ok = document.getElementById('share-copy-ok');
+      ok.classList.add('show');
+      setTimeout(() => ok.classList.remove('show'), 2200);
+    });
+  } else if (type === 'wa') {
+    window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank', 'noopener');
+  } else if (type === 'tw') {
+    window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(title) + '&url=' + encodeURIComponent(url), '_blank', 'noopener');
+  } else if (type === 'native') {
+    if (navigator.share) {
+      navigator.share({ title, text: title, url }).catch(() => {});
+    } else {
+      // fallback to copy
+      shareArticle('copy');
+    }
+  }
+}
+
+/* ══ AI写稿面板 ════════════════════════════════════════════ */
+let WP = {
+  region: 'global',
+  articles: [],
+  generating: false,
+  totalCount: 20,   // 总篇数，默认20
+};
+
+/* 篇数滑块联动 */
+function onCountSlide(val) {
+  val = Math.round(val / 2) * 2; // 强制偶数
+  WP.totalCount = Number(val);
+  const half = val / 2;
+  document.getElementById('wp-count-display').textContent = val + ' 篇';
+  document.getElementById('wp-deep-n').textContent  = half;
+  document.getElementById('wp-brief-n').textContent = half;
+  document.getElementById('wp-gen-label').textContent = `开始生成 ${val} 篇新闻`;
+  document.getElementById('wp-count-slider').value = val;
+  // 同步预设按钮
+  document.querySelectorAll('.wp-preset').forEach(el => {
+    el.classList.toggle('on', Number(el.dataset.n) === val);
+  });
+}
+
+/* 提词快捷标签 */
+function addChip(el) {
+  const ta = document.getElementById('wp-prompt');
+  const chip = el.textContent.replace(/^[^\s]+\s/, ''); // 去掉emoji
+  const cur = ta.value.trim();
+  ta.value = cur ? cur + '、' + chip : chip;
+  ta.focus();
+}
+
+/* ══ 管理后台 Tab 切换 ═══════════════════════════════════ */
+let _currentAdminTab = 'write';
+function switchAdminTab(tab) {
+  _currentAdminTab = tab;
+  document.querySelectorAll('.wp-tab').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
+  document.getElementById('tab-write').style.display    = tab === 'write'    ? 'flex' : 'none';
+  document.getElementById('tab-manage').style.display   = tab === 'manage'   ? 'flex' : 'none';
+  document.getElementById('tab-opps').style.display     = tab === 'opps'     ? 'flex' : 'none';
+  document.getElementById('tab-services').style.display = tab === 'services' ? 'flex' : 'none';
+  const titles = {
+    write:    ['✍️ 自动写稿 · 一键发布', '深度报道 + 新闻简报，由 Claude AI 生成，直接上线'],
+    manage:   ['📋 文章管理后台', '查看、删除、置顶文章 · 实时同步 Supabase'],
+    opps:     ['🎯 今日机会管理', '增删改机会卡片 · 商家合作 · 实时同步前台'],
+    services: ['⭐ 推荐服务管理', '增删改推荐服务 · 侧边栏实时更新'],
+  };
+  document.getElementById('wp-hd-title').textContent = titles[tab][0];
+  document.getElementById('wp-hd-sub').textContent   = titles[tab][1];
+  if (tab === 'manage')   mgrLoad(false);
+  if (tab === 'opps')     oppMgrLoad();
+  if (tab === 'services') srvMgrLoad();
+}
+
+/* ══ 文章管理 ════════════════════════════════════════════ */
+const MGR = { articles: [], filtered: [], page: 1, perPage: 10, loading: false };
+
+async function mgrLoad(forceRefresh = true) {
+  if (MGR.loading) return;
+  MGR.loading = true;
+  const list = document.getElementById('mgr-list');
+  list.innerHTML = '<div class="mgr-loading">⏳ 加载文章中...</div>';
+  document.getElementById('mgr-stats').innerHTML = '';
+  try {
+    const u = `${CFG.URL}/rest/v1/news_articles?is_published=eq.true&order=created_at.desc&limit=200&select=id,title,category,source_name,created_at,view_count,is_published`;
+    const r = await fetch(u, { headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY } });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    MGR.articles = await r.json();
+  } catch(e) {
+    // fallback to in-memory
+    MGR.articles = [...S.arts, ...MOCK].filter((a,i,arr) => arr.findIndex(x=>x.id===a.id)===i);
+  }
+  MGR.page = 1;
+  mgrFilter();
+  MGR.loading = false;
+}
+
+function mgrFilter() {
+  const q   = (document.getElementById('mgr-search').value || '').toLowerCase();
+  const cat = document.getElementById('mgr-cat-filter').value;
+  MGR.filtered = MGR.articles.filter(a => {
+    const matchQ   = !q   || (a.title||'').toLowerCase().includes(q);
+    const matchCat = !cat || a.category === cat;
+    return matchQ && matchCat;
+  });
+  MGR.page = 1;
+  mgrRender();
+}
+
+function mgrRender() {
+  const list = document.getElementById('mgr-list');
+  const stats = document.getElementById('mgr-stats');
+  const total = MGR.filtered.length;
+  const start = (MGR.page - 1) * MGR.perPage;
+  const page  = MGR.filtered.slice(start, start + MGR.perPage);
+
+  // 统计
+  const cats = {};
+  MGR.filtered.forEach(a => { cats[a.category] = (cats[a.category]||0)+1; });
+  const topCats = Object.entries(cats).sort((a,b)=>b[1]-a[1]).slice(0,4);
+  stats.innerHTML = `<span class="mgr-stat">共 <strong>${total}</strong> 篇</span>` +
+    topCats.map(([c,n])=>`<span class="mgr-stat">${c} <strong>${n}</strong></span>`).join('');
+
+  if (!page.length) {
+    list.innerHTML = '<div class="mgr-empty">📭 没有找到文章</div>';
+    document.getElementById('mgr-pagination').innerHTML = '';
+    return;
+  }
+
+  list.innerHTML = page.map(a => {
+    const isPinned = a.pinned_until && new Date(a.pinned_until) > new Date();
+    const pinExpiry = isPinned ? `置顶至 ${new Date(a.pinned_until).toLocaleString('zh-CN',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}` : '';
+    return `
+    <div class="mgr-item" data-id="${a.id}">
+      <span class="mgr-cat">${esc(a.category)}</span>
+      <div class="mgr-item-body">
+        <div class="mgr-item-title" title="${esc(a.title)}">${isPinned?'📌 ':''}${esc(a.title)}</div>
+        <div class="mgr-item-meta">
+          <span>${esc(a.source_name||'')}</span>
+          <span>·</span><span>${ago(a.created_at)}</span>
+          <span>·</span><span>👁 ${a.view_count||0}</span>
+          ${isPinned?`<span style="color:var(--red);font-weight:600">· 📌 ${pinExpiry}</span>`:''}
+        </div>
+      </div>
+      <button class="pin-btn ${isPinned?'pinned':''}" onclick="openPinModal(${a.id},'${esc(a.title).replace(/'/g,'').slice(0,30)}')" title="${isPinned?'管理置顶':'置顶此文章'}">📌</button>
+      <button class="mgr-del" onclick="mgrDelete(${a.id},'${esc(a.title).slice(0,20)}')" title="删除">✕</button>
+    </div>`}).join('');
+
+  // 翻页
+  const totalPages = Math.ceil(total / MGR.perPage);
+  const pg = document.getElementById('mgr-pagination');
+  if (totalPages <= 1) { pg.innerHTML = ''; return; }
+  const pageNums = [];
+  for (let i = 1; i <= totalPages; i++) {
+    if (i === 1 || i === totalPages || Math.abs(i - MGR.page) <= 1) {
+      pageNums.push(i);
+    } else if (pageNums[pageNums.length-1] !== '…') {
+      pageNums.push('…');
+    }
+  }
+  pg.innerHTML = `
+    <span class="mgr-pg-info">第 ${MGR.page}/${totalPages} 页</span>
+    <div class="mgr-pg-btns">
+      <button class="mgr-pg-btn" onclick="mgrGoPage(${MGR.page-1})" ${MGR.page===1?'disabled':''}>‹</button>
+      ${pageNums.map(p => p==='…'
+        ? `<button class="mgr-pg-btn" disabled>…</button>`
+        : `<button class="mgr-pg-btn ${p===MGR.page?'on':''}" onclick="mgrGoPage(${p})">${p}</button>`
+      ).join('')}
+      <button class="mgr-pg-btn" onclick="mgrGoPage(${MGR.page+1})" ${MGR.page===totalPages?'disabled':''}>›</button>
+    </div>`;
+}
+
+function mgrGoPage(p) {
+  const total = Math.ceil(MGR.filtered.length / MGR.perPage);
+  if (p < 1 || p > total) return;
+  MGR.page = p;
+  mgrRender();
+  document.getElementById('mgr-list').scrollTop = 0;
+}
+
+async function mgrDelete(id, titlePreview) {
+  if (!confirm(`确认删除这篇文章？\n"${titlePreview}..."\n此操作不可撤销。`)) return;
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/news_articles?id=eq.${id}`, {
+      method: 'DELETE',
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (!r.ok) throw new Error('Delete failed ' + r.status);
+    // 从本地数组移除
+    MGR.articles = MGR.articles.filter(a => a.id !== id);
+    S.arts = S.arts.filter(a => a.id !== id);
+    mgrFilter();
+    // 刷新前台
+    const feed = document.getElementById('feed');
+    if (feed) {
+      feed.innerHTML = S.arts.slice(0, CFG.PS).map((a,i) => card(a,i)).join('');
+      bindCards();
+      renderHot(S.arts);
+      if (S.arts.length) setHero(S.arts[0]); else setHero(null);
+    }
+  } catch(e) {
+    alert('删除失败：' + e.message + '\n请检查 Supabase 权限（需要 DELETE policy）');
+  }
+}
+
+function toggleMgrAdd() {
+  const body  = document.getElementById('mgr-add-body');
+  const arrow = document.getElementById('mgr-add-arrow');
+  const isOpen = body.classList.toggle('open');
+  arrow.textContent = isOpen ? '▲' : '▼';
+}
+
+async function mgrAddArticle() {
+  const title   = document.getElementById('mgr-new-title').value.trim();
+  const summary = document.getElementById('mgr-new-summary').value.trim();
+  const content = document.getElementById('mgr-new-content').value.trim();
+  const cat     = document.getElementById('mgr-new-cat').value;
+  const src     = document.getElementById('mgr-new-src').value.trim() || 'K1980资讯';
+  const tagsRaw = document.getElementById('mgr-new-tags').value;
+  const tags    = tagsRaw.split(',').map(t=>t.trim()).filter(Boolean);
+  const msgEl   = document.getElementById('mgr-add-msg');
+
+  if (!title)   { showMgrMsg('请填写标题', 'err'); return; }
+  if (!summary) { showMgrMsg('请填写摘要', 'err'); return; }
+
+  const btn = document.getElementById('mgr-submit-btn');
+  btn.disabled = true; btn.textContent = '发布中...';
+
+  const newArt = {
+    title, summary, content: content || summary,
+    category: cat, source_name: src, tags,
+    original_url: '#', is_published: true,
+    view_count: 0, created_at: new Date().toISOString()
+  };
+
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/news_articles`, {
+      method: 'POST',
+      headers: {
+        'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY,
+        'Content-Type': 'application/json', 'Prefer': 'return=representation'
+      },
+      body: JSON.stringify([newArt])
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const inserted = await r.json();
+    const saved = inserted[0] || { ...newArt, id: Date.now() };
+    // 注入本地
+    MGR.articles.unshift(saved);
+    S.arts.unshift(saved);
+    mgrFilter();
+    // 清空表单
+    ['mgr-new-title','mgr-new-summary','mgr-new-content','mgr-new-tags'].forEach(id => {
+      document.getElementById(id).value = '';
+    });
+    showMgrMsg('✓ 发布成功！', 'ok');
+    // 刷新前台
+    const feed = document.getElementById('feed');
+    if (feed) {
+      feed.innerHTML = S.arts.slice(0, CFG.PS).map((a,i) => card(a,i)).join('');
+      setHero(S.arts[0]); bindCards(); renderHot(S.arts);
+    }
+  } catch(e) {
+    showMgrMsg('发布失败：' + e.message, 'err');
+  } finally {
+    btn.disabled = false; btn.textContent = '✓ 发布文章';
+  }
+}
+
+function showMgrMsg(msg, type) {
+  const el = document.getElementById('mgr-add-msg');
+  el.className = 'mgr-msg ' + type;
+  el.textContent = msg;
+  setTimeout(() => { el.textContent = ''; el.className = ''; }, 3500);
+}
+let _pinTarget = { id: null, title: '' };
+let _pinDbSupported = null;
+
+function openPinModal(id, title) {
+  _pinTarget = { id, title };
+  document.getElementById('pin-modal-title').textContent = title;
+  document.querySelectorAll('.pin-dur').forEach(el => el.classList.remove('on'));
+  document.querySelector('.pin-dur[data-h="2"]').classList.add('on');
+  if (_pinDbSupported === false) {
+    document.getElementById('pin-sql-tip').style.display = 'block';
+  }
+  document.getElementById('pin-modal').classList.add('on');
+}
+function closePinModal() {
+  document.getElementById('pin-modal').classList.remove('on');
+}
+function selectPinDur(el) {
+  document.querySelectorAll('.pin-dur').forEach(x => x.classList.remove('on'));
+  el.classList.add('on');
+}
+async function confirmPin() {
+  const dur = document.querySelector('.pin-dur.on');
+  const hours = Number(dur?.dataset.h ?? 2);
+  const id = _pinTarget.id;
+  if (!id) return;
+  const pinnedUntil = hours === 0 ? null : new Date(Date.now() + hours * 3600000).toISOString();
+
+  if (_pinDbSupported !== false) {
+    try {
+      const r = await fetch(`${CFG.URL}/rest/v1/news_articles?id=eq.${id}`, {
+        method: 'PATCH',
+        headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=minimal' },
+        body: JSON.stringify({ pinned_until: pinnedUntil })
+      });
+      if (r.ok) {
+        _pinDbSupported = true;
+        applyPinLocally(id, pinnedUntil);
+        closePinModal();
+        const label = hours===0?'已取消置顶':`已置顶 ${hours<24?hours+'小时':Math.round(hours/24)+'天'}`;
+        showToast('✓ '+label);
+        return;
+      }
+      if (r.status === 400 || r.status === 404) {
+        _pinDbSupported = false;
+        document.getElementById('pin-sql-tip').style.display = 'block';
+      }
+    } catch(e) {}
+  }
+
+  // 本地兜底
+  applyPinLocally(id, pinnedUntil);
+  closePinModal();
+  const label2 = hours===0?'已取消置顶（本地）':`已置顶 ${hours<24?hours+'小时':Math.round(hours/24)+'天'}（本地，刷新消失）`;
+  showToast('⚠️ '+label2);
+}
+
+function applyPinLocally(id, pinnedUntil) {
+  [MGR.articles, S.arts, MOCK].forEach(arr => {
+    const a = arr.find(x => x.id === id || String(x.id) === String(id));
+    if (a) a.pinned_until = pinnedUntil;
+  });
+  mgrFilter();
+  if (S.arts.length) {
+    const now = new Date();
+    const pinned = S.arts.filter(a => a.pinned_until && new Date(a.pinned_until) > now);
+    const normal = S.arts.filter(a => !a.pinned_until || new Date(a.pinned_until) <= now);
+    S.arts = [...pinned, ...normal];
+    document.getElementById('feed').innerHTML = S.arts.slice(0, CFG.PS).map((a,i) => card(a,i)).join('');
+    setHero(S.arts[0]); bindCards();
+  }
+}
+
+function showToast(msg) {
+  let t = document.getElementById('k-toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'k-toast';
+    t.style.cssText = 'position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0a0a0b;color:#fff;padding:10px 20px;border-radius:8px;font-size:13px;font-weight:600;z-index:9999;box-shadow:0 4px 20px rgba(0,0,0,.3);transition:opacity .3s';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg; t.style.opacity = '1';
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => { t.style.opacity = '0'; }, 2800);
+}
+
+/* ══ 推荐服务管理 ════════════════════════════════════════ */
+const SRV_MGR = { items: [] };
+const SRV_TABLE = 'services';
+
+async function srvMgrLoad() {
+  const list = document.getElementById('srv-mgr-list');
+  list.innerHTML = '<div class="mgr-loading">⏳ 加载中...</div>';
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${SRV_TABLE}?order=sort_order.desc&limit=20`, {
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    SRV_MGR.items = await r.json();
+  } catch(e) {
+    // 显示当前静态服务作为参考
+    SRV_MGR.items = [
+      { id:'s1', icon:'✈️', name_zh:'移民咨询', name_en:'Immigration', desc_zh:'专业顾问一对一', desc_en:'Expert consultation', link:'#', sort_order:100 },
+      { id:'s2', icon:'🎓', name_zh:'留学申请', name_en:'Study Abroad', desc_zh:'名校申请全程服务', desc_en:'University applications', link:'#', sort_order:90 },
+      { id:'s3', icon:'⚖️', name_zh:'法律服务', name_en:'Legal Service', desc_zh:'海外华人法律援助', desc_en:'Overseas Chinese legal aid', link:'#', sort_order:80 },
+      { id:'s4', icon:'💰', name_zh:'财税规划', name_en:'Tax Planning', desc_zh:'跨境税务申报', desc_en:'Cross-border tax services', link:'#', sort_order:70 },
+    ];
+    list.innerHTML = '<div class="mgr-loading" style="color:var(--red)">⚠️ 未找到 services 表，显示当前静态数据。请在 Supabase 创建 services 表。</div>';
+    srvMgrRender(true);
+    return;
+  }
+  srvMgrRender(false);
+}
+
+function srvMgrRender(isMock = false) {
+  const list  = document.getElementById('srv-mgr-list');
+  const stats = document.getElementById('srv-mgr-stats');
+  stats.innerHTML = `<span class="mgr-stat">共 <strong>${SRV_MGR.items.length}</strong> 项服务</span>`;
+  if (!SRV_MGR.items.length) { list.innerHTML = '<div class="mgr-empty">📭 暂无推荐服务</div>'; return; }
+  list.innerHTML = SRV_MGR.items.map(s => `
+    <div class="srv-mgr-item">
+      <div class="srv-mgr-ico">${s.icon||'📌'}</div>
+      <div class="srv-mgr-body">
+        <div class="srv-mgr-name">${esc(s.name_zh||'')} <span style="color:var(--ink4);font-weight:400;font-size:11px">/ ${esc(s.name_en||'')}</span></div>
+        <div class="srv-mgr-desc">${esc(s.desc_zh||'')} ${s.link&&s.link!=='#'?`· <a href="${esc(s.link)}" target="_blank" style="color:var(--blue);font-size:10.5px">链接</a>`:''}</div>
+      </div>
+      ${!isMock ? `<button class="mgr-del" onclick="srvMgrDelete('${s.id}')" title="删除">✕</button>` : ''}
+    </div>`).join('');
+}
+
+async function srvMgrDelete(id) {
+  if (!confirm('确认删除这项推荐服务？')) return;
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${SRV_TABLE}?id=eq.${id}`, {
+      method: 'DELETE',
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    SRV_MGR.items = SRV_MGR.items.filter(s => String(s.id) !== String(id));
+    srvMgrRender(false);
+    loadSidebarServices(); // 刷新前台
+  } catch(e) { alert('删除失败：' + e.message); }
+}
+
+function toggleSrvAdd() {
+  const body  = document.getElementById('srv-add-body');
+  const arrow = document.getElementById('srv-add-arrow');
+  body.classList.toggle('open');
+  arrow.textContent = body.classList.contains('open') ? '▲' : '▼';
+}
+
+async function srvAddItem() {
+  const ico     = document.getElementById('srv-new-ico').value.trim() || '📌';
+  const nameZh  = document.getElementById('srv-new-name-zh').value.trim();
+  const nameEn  = document.getElementById('srv-new-name-en').value.trim();
+  const descZh  = document.getElementById('srv-new-desc-zh').value.trim();
+  const descEn  = document.getElementById('srv-new-desc-en').value.trim();
+  const link    = document.getElementById('srv-new-link').value.trim() || '#';
+  const sort    = Number(document.getElementById('srv-new-sort').value) || 50;
+  const msgEl   = document.getElementById('srv-add-msg');
+  if (!nameZh) { msgEl.className='mgr-msg err'; msgEl.textContent='请填写服务名称'; return; }
+  const btn = document.getElementById('srv-submit-btn');
+  btn.disabled = true; btn.textContent = '发布中...';
+  const serviceType = document.getElementById('srv-new-type')?.value || 'other';
+  const newItem = { icon:ico, name_zh:nameZh, name_en:nameEn, desc_zh:descZh, desc_en:descEn,
+    partner: document.getElementById('srv-new-partner')?.value.trim()||'',
+    contact: document.getElementById('srv-new-contact')?.value.trim()||'',
+    service_type: serviceType, link, sort_order:sort, created_at: new Date().toISOString() };
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${SRV_TABLE}`, {
+      method: 'POST',
+      headers: { 'apikey':CFG.KEY, 'Authorization':'Bearer '+CFG.KEY, 'Content-Type':'application/json', 'Prefer':'return=representation' },
+      body: JSON.stringify([newItem])
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — 请先在 Supabase 创建 services 表');
+    const ins = await r.json();
+    SRV_MGR.items.unshift(ins[0]||newItem);
+    srvMgrRender(false);
+    ['srv-new-ico','srv-new-name-zh','srv-new-name-en','srv-new-desc-zh','srv-new-desc-en','srv-new-link'].forEach(id=>{
+      const el=document.getElementById(id); if(el) el.value='';
+    });
+    document.getElementById('srv-new-link').value='#';
+    document.getElementById('srv-new-sort').value=50;
+    msgEl.className='mgr-msg ok'; msgEl.textContent='✓ 发布成功！';
+    setTimeout(()=>{msgEl.textContent='';msgEl.className='';},3000);
+    loadSidebarServices();
+  } catch(e) {
+    msgEl.className='mgr-msg err'; msgEl.textContent='发布失败：'+e.message;
+  } finally { btn.disabled=false; btn.textContent='✓ 发布推荐服务'; }
+}
+
+// 动态加载推荐服务到前台侧边栏
+async function loadSidebarServices() {
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${SRV_TABLE}?order=sort_order.desc&limit=6`, {
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (!r.ok) return;
+    const items = await r.json();
+    if (!items.length) return;
+    document.getElementById('srv-list').innerHTML = items.map(s => `
+      <div class="srv-item" onclick="${s.link&&s.link!=='#'?`window.open('${esc(s.link)}','_blank','noopener')`:''}">
+        <div class="srv-l">
+          <div class="srv-ico">${s.icon||'📌'}</div>
+          <div>
+            <div class="srv-name zh-only">${esc(s.name_zh||'')}${s.partner?` <span class="partner-badge">合作商</span>`:''}</div>
+            <div class="srv-name en-only">${esc(s.name_en||'')}</div>
+            <div class="srv-desc zh-only">${esc(s.desc_zh||'')}</div>
+            <div class="srv-desc en-only">${esc(s.desc_en||'')}</div>
+          </div>
+        </div>
+        <span class="srv-arr">›</span>
+      </div>`).join('');
+  } catch(e) { /* 保持静态数据 */ }
+}
+
+/* ══ 推荐服务：模式切换 & CSV 导入 ══════════════════════════ */
+const SRV_TYPE_LABELS = { immigration:'移民咨询', education:'留学申请', legal:'法律服务', finance:'财税规划', other:'其他' };
+const SRV_TYPE_ICONS  = { immigration:'✈️', education:'🎓', legal:'⚖️', finance:'💰', other:'📌' };
+
+function selectSrvType(el) {
+  document.querySelectorAll('#srv-type-row .wp-preset').forEach(x => x.classList.remove('on'));
+  el.classList.add('on');
+  document.getElementById('srv-new-type').value = el.dataset.st;
+  // 自动填充默认图标和名称
+  const t = el.dataset.st;
+  const icoEl = document.getElementById('srv-new-ico');
+  if (!icoEl.value) icoEl.value = SRV_TYPE_ICONS[t] || '📌';
+}
+
+let _srvImportFilter = 'all';
+function srvFilterImport(el) {
+  document.querySelectorAll('#srv-import-type-filter .wp-preset').forEach(x => x.classList.remove('on'));
+  el.classList.add('on');
+  _srvImportFilter = el.dataset.sf;
+  renderSrvImportPreview();
+}
+
+function switchSrvMode(mode) {
+  document.getElementById('srv-form-single').style.display  = mode==='single'  ? 'block' : 'none';
+  document.getElementById('srv-form-import').style.display  = mode==='import'  ? 'block' : 'none';
+  document.getElementById('srv-submit-btn').style.display   = mode==='single'  ? 'block' : 'none';
+  document.getElementById('srv-mode-single').classList.toggle('on', mode==='single');
+  document.getElementById('srv-mode-import').classList.toggle('on', mode==='import');
+}
+
+let _srvImportData = [];
+function srvParseCsv(input) {
+  const file = input.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const lines = e.target.result.split('\n').map(l=>l.trim()).filter(Boolean);
+    const headers = lines[0].split(',').map(h=>h.trim().toLowerCase());
+    _srvImportData = lines.slice(1).map(line => {
+      const vals = line.split(',');
+      const obj = {};
+      headers.forEach((h,i) => { obj[h] = (vals[i]||'').trim(); });
+      return obj;
+    }).filter(r => r.name_zh || r.name_en);
+    renderSrvImportPreview();
+  };
+  reader.readAsText(file, 'UTF-8');
+}
+
+function renderSrvImportPreview() {
+  const preview = document.getElementById('srv-import-preview');
+  const rows = document.getElementById('srv-import-rows');
+  const count = document.getElementById('srv-import-count');
+  const actions = document.getElementById('srv-import-actions');
+  if (!_srvImportData.length) { preview.classList.remove('on'); actions.style.display='none'; return; }
+  const filtered = _srvImportFilter === 'all' ? _srvImportData
+    : _srvImportData.filter(r => (r.service_type||r.type||'other') === _srvImportFilter);
+  // 统计各类
+  const typeCnt = {};
+  _srvImportData.forEach(r => { const t=r.service_type||r.type||'other'; typeCnt[t]=(typeCnt[t]||0)+1; });
+  const summary = Object.entries(typeCnt).map(([t,n])=>`${SRV_TYPE_LABELS[t]||t} ×${n}`).join(' · ');
+  count.textContent = `共 ${_srvImportData.length} 条${_srvImportFilter!=='all'?` · 显示${SRV_TYPE_LABELS[_srvImportFilter]||''}×${filtered.length}`:''}`;
+  rows.innerHTML = filtered.map(r => {
+    const t = r.service_type || r.type || 'other';
+    return `<div class="import-row">
+      <span class="import-row-type" style="background:rgba(26,86,219,.1);color:var(--blue)">${SRV_TYPE_ICONS[t]||'📌'} ${SRV_TYPE_LABELS[t]||t}</span>
+      <span class="import-row-title">${esc(r.name_zh||r.name_en||'—')}</span>
+      ${r.partner?`<span class="partner-badge">${esc(r.partner)}</span>`:''}
+    </div>`;
+  }).join('') || '<div class="import-row" style="color:var(--ink4)">该类型无数据</div>';
+  preview.classList.add('on');
+  actions.style.display = 'flex';
+}
+
+async function srvImportConfirm() {
+  if (!_srvImportData.length) return;
+  const btn = document.getElementById('srv-import-confirm');
+  btn.disabled = true; btn.textContent = '导入中...';
+  const items = _srvImportData.map(r => ({
+    icon:       r.icon || '📌',
+    name_zh:    r.name_zh || '',
+    name_en:    r.name_en || '',
+    desc_zh:    r.desc_zh || '',
+    desc_en:    r.desc_en || '',
+    partner:    r.partner || '',
+    contact:    r.contact || '',
+    link:       r.link || '#',
+    sort_order: Number(r.sort_order) || 50,
+    created_at: new Date().toISOString()
+  }));
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${SRV_TABLE}`, {
+      method: 'POST',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=representation' },
+      body: JSON.stringify(items)
+    });
+    if (!r.ok) throw new Error('HTTP '+r.status);
+    const inserted = await r.json();
+    SRV_MGR.items = [...inserted, ...SRV_MGR.items];
+    srvMgrRender(false);
+    srvImportClear();
+    loadSidebarServices();
+    const msgEl = document.getElementById('srv-add-msg');
+    msgEl.className='mgr-msg ok'; msgEl.textContent=`✓ 成功导入 ${inserted.length} 条合作商`;
+    setTimeout(()=>{msgEl.textContent='';msgEl.className='';},4000);
+  } catch(e) {
+    alert('导入失败：'+e.message);
+  } finally { btn.disabled=false; btn.textContent='✓ 确认导入'; }
+}
+
+function srvImportClear() {
+  _srvImportData = [];
+  document.getElementById('srv-import-preview').classList.remove('on');
+  document.getElementById('srv-import-actions').style.display = 'none';
+  document.getElementById('srv-import-rows').innerHTML = '';
+  document.getElementById('srv-csv-input').value = '';
+}
+
+function downloadSrvTemplate(e) {
+  e.stopPropagation(); e.preventDefault();
+  const csv = 'icon,name_zh,name_en,desc_zh,desc_en,partner,contact,link,sort_order\n' +
+    '✈️,移民咨询,Immigration,专业顾问一对一,Expert consultation,K1980合作商,hello@k1980.app,https://example.com,100\n' +
+    '🎓,留学申请,Study Abroad,名校全程服务,University applications,K1980合作商,,https://example.com,90\n';
+  const a = document.createElement('a');
+  a.href = 'data:text/csv;charset=utf-8,\uFEFF'+encodeURIComponent(csv);
+  a.download = 'k1980_services_template.csv'; a.click();
+}
+
+/* ══ 今日机会：模式切换 & CSV 导入 ══════════════════════════ */
+function switchOppMode(mode) {
+  document.getElementById('opp-form-single').style.display  = mode==='single'  ? 'block' : 'none';
+  document.getElementById('opp-form-import').style.display  = mode==='import'  ? 'block' : 'none';
+  document.getElementById('opp-submit-btn').style.display   = mode==='single'  ? 'block' : 'none';
+  document.getElementById('opp-mode-single').classList.toggle('on', mode==='single');
+  document.getElementById('opp-mode-import').classList.toggle('on', mode==='import');
+}
+
+function selectOppType(el) {
+  document.querySelectorAll('#opp-form-single .wp-preset').forEach(x=>x.classList.remove('on'));
+  el.classList.add('on');
+  document.getElementById('opp-new-type').value = el.dataset.t;
+}
+
+let _oppImportData = [];
+const OPP_TYPE_NAMES = { job:'招聘', house:'房产', deal:'优惠', event:'活动' };
+const OPP_TYPE_COLORS = { job:'rgba(26,86,219,.1)', house:'rgba(22,163,74,.1)', deal:'rgba(194,65,12,.1)', event:'rgba(124,58,237,.1)' };
+const OPP_TYPE_TEXT   = { job:'#1a56db', house:'#16a34a', deal:'#c2410c', event:'#7c3aed' };
+
+function oppParseCsv(input) {
+  const file = input.files[0]; if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => {
+    const lines = e.target.result.split('\n').map(l=>l.trim()).filter(Boolean);
+    const headers = lines[0].split(',').map(h=>h.trim().toLowerCase());
+    _oppImportData = lines.slice(1).map(line => {
+      const vals = csvSplitLine(line);
+      const obj = {};
+      headers.forEach((h,i) => { obj[h] = (vals[i]||'').trim(); });
+      obj.type = obj.type || 'job';
+      obj.hot  = obj.hot === 'true' || obj.hot === '1' || obj.hot === '是';
+      return obj;
+    }).filter(r => r.title);
+    renderOppImportPreview();
+  };
+  reader.readAsText(file, 'UTF-8');
+}
+
+// 支持字段内含逗号（引号包裹）
+function csvSplitLine(line) {
+  const result = []; let cur = ''; let inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    if (line[i]==='"') { inQ=!inQ; continue; }
+    if (line[i]===',' && !inQ) { result.push(cur); cur=''; continue; }
+    cur += line[i];
+  }
+  result.push(cur); return result;
+}
+
+function renderOppImportPreview() {
+  const preview = document.getElementById('opp-import-preview');
+  const rows    = document.getElementById('opp-import-rows');
+  const count   = document.getElementById('opp-import-count');
+  const actions = document.getElementById('opp-import-actions');
+  if (!_oppImportData.length) { preview.classList.remove('on'); actions.style.display='none'; return; }
+  // 统计各类型
+  const typeCnt = {};
+  _oppImportData.forEach(r=>{ typeCnt[r.type]=(typeCnt[r.type]||0)+1; });
+  const summary = Object.entries(typeCnt).map(([t,n])=>`${OPP_TYPE_NAMES[t]||t} ×${n}`).join(' · ');
+  count.textContent = `共 ${_oppImportData.length} 条 — ${summary}`;
+  rows.innerHTML = _oppImportData.slice(0,20).map(r => `
+    <div class="import-row">
+      <span class="import-row-type" style="background:${OPP_TYPE_COLORS[r.type]||'#eee'};color:${OPP_TYPE_TEXT[r.type]||'#666'}">${OPP_TYPE_NAMES[r.type]||r.type}</span>
+      <span class="import-row-title">${esc(r.title)}</span>
+      ${r.hot?'<span style="font-size:10px;color:var(--red);font-weight:700">🔥</span>':''}
+      ${r.partner?`<span class="partner-badge">${esc(r.partner)}</span>`:''}
+    </div>`).join('') + (_oppImportData.length>20?`<div class="import-row" style="color:var(--ink4)">… 另有 ${_oppImportData.length-20} 条</div>`:'');
+  preview.classList.add('on');
+  actions.style.display = 'flex';
+}
+
+async function oppImportConfirm() {
+  if (!_oppImportData.length) return;
+  const btn = document.getElementById('opp-import-confirm');
+  btn.disabled = true; btn.textContent = '导入中...';
+  const now = new Date();
+  const items = _oppImportData.map((r,i) => ({
+    type:       r.type || 'job',
+    title:      r.title,
+    summary:    r.summary || '',
+    source:     r.source || r.partner || 'K1980合作',
+    link:       r.link || '#',
+    tags:       (r.tags||'').split('|').map(t=>t.trim()).filter(Boolean),
+    score:      Number(r.score) || 85,
+    hot:        Boolean(r.hot),
+    partner:    r.partner || '',
+    region:     OPP_MGR.region,
+    ago:        '刚刚',
+    created_at: new Date(now - i*1000).toISOString()
+  }));
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${OPP_TABLE}`, {
+      method: 'POST',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=representation' },
+      body: JSON.stringify(items)
+    });
+    if (!r.ok) throw new Error('HTTP '+r.status);
+    const inserted = await r.json();
+    OPP_MGR.items = [...inserted, ...OPP_MGR.items];
+    oppMgrRender(false);
+    oppImportClear();
+    loadSidebarOpps();
+    const msgEl = document.getElementById('opp-add-msg');
+    msgEl.className='mgr-msg ok'; msgEl.textContent=`✓ 成功导入 ${inserted.length} 条合作伙伴`;
+    setTimeout(()=>{msgEl.textContent='';msgEl.className='';},4000);
+  } catch(e) {
+    alert('导入失败：'+e.message);
+  } finally { btn.disabled=false; btn.textContent='✓ 确认导入'; }
+}
+
+function oppImportClear() {
+  _oppImportData = [];
+  document.getElementById('opp-import-preview').classList.remove('on');
+  document.getElementById('opp-import-actions').style.display = 'none';
+  document.getElementById('opp-import-rows').innerHTML = '';
+  document.getElementById('opp-csv-input').value = '';
+}
+
+function downloadOppTemplate(e) {
+  e.stopPropagation(); e.preventDefault();
+  const csv = 'type,title,summary,source,link,tags,score,hot,partner\n' +
+    'job,软件工程师 — Auckland CBD,"科技公司，NZD $90k–$120k，全职",K1980合作,https://example.com,全职|签证支持,92,true,求职直通车\n' +
+    'house,3房独立屋出租 — Botany $680/周,华人业主近学校,K1980合作,https://example.com,华人业主|近学校,88,false,房产合作\n' +
+    'deal,超市华人食材8折优惠,本周特惠多款中国食材,K1980合作,https://example.com,限时,75,true,商家合作\n' +
+    'event,奥克兰华人商业峰会,本月社区商业交流免费入场,K1980合作,https://example.com,免费|商业,80,false,活动合作\n';
+  const a = document.createElement('a');
+  a.href = 'data:text/csv;charset=utf-8,\uFEFF'+encodeURIComponent(csv);
+  a.download = 'k1980_opportunities_template.csv'; a.click();
+}
+
+/* ══ 今日机会后台管理 ════════════════════════════════════ */
+const OPP_MGR = { items: [], region: 'nz' };
+
+const OPP_TABLE = 'opportunities'; // Supabase 表名
+
+async function oppMgrLoad() {
+  // 绑定地区选择（只在首次加载时绑定）
+  if (!document.getElementById('opp-mgr-region-row').dataset.bound) {
+    document.querySelectorAll('#opp-mgr-region-row .wp-rtag').forEach(el => {
+      el.addEventListener('click', () => {
+        document.querySelectorAll('#opp-mgr-region-row .wp-rtag').forEach(x => x.classList.remove('on'));
+        el.classList.add('on');
+        OPP_MGR.region = el.dataset.r;
+        oppMgrFetch();
+      });
+    });
+    document.getElementById('opp-mgr-region-row').dataset.bound = '1';
+  }
+  OPP_MGR.region = document.querySelector('#opp-mgr-region-row .wp-rtag.on')?.dataset.r || 'nz';
+  await oppMgrFetch();
+}
+
+async function oppMgrFetch() {
+  const list = document.getElementById('opp-mgr-list');
+  list.innerHTML = '<div class="mgr-loading">⏳ 加载中...</div>';
+  document.getElementById('opp-mgr-stats').innerHTML = '';
+  try {
+    const u = `${CFG.URL}/rest/v1/${OPP_TABLE}?region=eq.${OPP_MGR.region}&order=created_at.desc&limit=50`;
+    const r = await fetch(u, { headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY } });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    OPP_MGR.items = await r.json();
+  } catch(e) {
+    // 回落到 mock 数据
+    OPP_MGR.items = getOppMockData(OPP_MGR.region);
+    list.innerHTML = '<div class="mgr-loading" style="color:var(--red)">⚠️ 未找到 opportunities 表，显示本地 Mock 数据。请在 Supabase 创建该表。</div>';
+    oppMgrRender(true);
+    return;
+  }
+  oppMgrRender(false);
+}
+
+let _oppTypeFilter = 'all';
+
+function switchOppTypeTab(el) {
+  document.querySelectorAll('.opp-type-tab').forEach(x => x.classList.remove('on'));
+  el.classList.add('on');
+  _oppTypeFilter = el.dataset.tt;
+  oppMgrRender(OPP_MGR._isMock || false);
+}
+
+function oppMgrRender(isMock = false) {
+  OPP_MGR._isMock = isMock;
+  const list  = document.getElementById('opp-mgr-list');
+  const stats = document.getElementById('opp-mgr-stats');
+  const items = OPP_MGR.items;
+
+  // 更新四类 Tab 数量
+  const typeCnt = { job:0, house:0, deal:0, event:0 };
+  items.forEach(i => { if (typeCnt[i.type]!==undefined) typeCnt[i.type]++; });
+  document.getElementById('ottc-all').textContent   = items.length;
+  document.getElementById('ottc-job').textContent   = typeCnt.job;
+  document.getElementById('ottc-house').textContent = typeCnt.house;
+  document.getElementById('ottc-deal').textContent  = typeCnt.deal;
+  document.getElementById('ottc-event').textContent = typeCnt.event;
+
+  // 按类型筛选
+  const filtered = _oppTypeFilter === 'all' ? items : items.filter(i => i.type === _oppTypeFilter);
+  stats.innerHTML = `<span class="mgr-stat">显示 <strong>${filtered.length}</strong> 条</span>` +
+    (_oppTypeFilter !== 'all' ? `<span class="mgr-stat">${OPP_TYPE_NAMES[_oppTypeFilter]} 全部</span>` : '');
+
+  if (!filtered.length) { list.innerHTML = '<div class="mgr-empty">📭 该类型暂无数据</div>'; return; }
+  const typeClass = { job:'job', house:'house', deal:'deal', event:'event' };
+  const typeName  = { job:'招聘', house:'房产', deal:'优惠', event:'活动' };
+  list.innerHTML = filtered.map(item => `
+    <div class="opp-mgr-card">
+      <span class="opp-mgr-type ${typeClass[item.type]||'job'}">${typeName[item.type]||item.type}</span>
+      <div class="opp-mgr-body">
+        <div class="opp-mgr-title">${esc(item.title)}${item.hot?'<span class="opp-mgr-hot">🔥 HOT</span>':''}${item.partner?`<span class="partner-badge" style="margin-left:4px">${esc(item.partner)}</span>`:''}</div>
+        <div class="opp-mgr-meta">${esc(item.source||item.source_name||'')} · ${esc((item.summary||'').slice(0,35))}${(item.summary||'').length>35?'…':''}</div>
+      </div>
+      ${!isMock ? `<button class="mgr-del" onclick="oppMgrDelete('${item.id}')" title="删除">✕</button>` : ''}
+    </div>`).join('');
+}
+
+async function oppMgrDelete(id) {
+  if (!confirm('确认删除这条机会卡片？')) return;
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${OPP_TABLE}?id=eq.${id}`, {
+      method: 'DELETE',
+      headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY }
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    OPP_MGR.items = OPP_MGR.items.filter(i => String(i.id) !== String(id));
+    oppMgrRender(false);
+  } catch(e) {
+    alert('删除失败：' + e.message);
+  }
+}
+
+function toggleOppAdd() {
+  const body  = document.getElementById('opp-add-body');
+  const arrow = document.getElementById('opp-add-arrow');
+  const isOpen = body.classList.toggle('open');
+  arrow.textContent = isOpen ? '▲' : '▼';
+}
+
+async function oppAddCard() {
+  const title   = document.getElementById('opp-new-title').value.trim();
+  const summary = document.getElementById('opp-new-summary').value.trim();
+  const type    = document.getElementById('opp-new-type').value;
+  const source  = document.getElementById('opp-new-source').value.trim();
+  const link    = document.getElementById('opp-new-link').value.trim();
+  const tagsRaw = document.getElementById('opp-new-tags').value;
+  const tags    = tagsRaw.split(',').map(t=>t.trim()).filter(Boolean);
+  const score   = Number(document.getElementById('opp-new-score').value) || 85;
+  const hot     = document.getElementById('opp-new-hot').checked;
+  const msgEl   = document.getElementById('opp-add-msg');
+
+  if (!title) { msgEl.className='mgr-msg err'; msgEl.textContent='请填写标题'; return; }
+
+  const btn = document.getElementById('opp-submit-btn');
+  btn.disabled = true; btn.textContent = '发布中...';
+
+  const newItem = {
+    title, summary, type, source, link: link||'#',
+    tags, score, hot, region: OPP_MGR.region,
+    ago: '刚刚', created_at: new Date().toISOString()
+  };
+
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/${OPP_TABLE}`, {
+      method: 'POST',
+      headers: {
+        'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY,
+        'Content-Type': 'application/json', 'Prefer': 'return=representation'
+      },
+      body: JSON.stringify([newItem])
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status + ' — 请先在 Supabase 创建 opportunities 表');
+    const inserted = await r.json();
+    OPP_MGR.items.unshift(inserted[0] || newItem);
+    oppMgrRender(false);
+    // 清空表单
+    ['opp-new-title','opp-new-summary','opp-new-source','opp-new-link','opp-new-tags'].forEach(id=>{
+      document.getElementById(id).value='';
+    });
+    document.getElementById('opp-new-score').value = 85;
+    document.getElementById('opp-new-hot').checked  = false;
+    msgEl.className = 'mgr-msg ok'; msgEl.textContent = '✓ 发布成功！';
+    setTimeout(() => { msgEl.textContent=''; msgEl.className=''; }, 3000);
+    // 刷新侧边栏今日机会
+    loadSidebarOpps();
+  } catch(e) {
+    msgEl.className = 'mgr-msg err';
+    msgEl.textContent = '发布失败：' + e.message;
+  } finally {
+    btn.disabled = false; btn.textContent = '✓ 发布机会卡片';
+  }
+}
+// 密码存为 SHA-256 哈希，避免明文写在代码里
+// 默认密码: k1980admin  →  对应哈希如下（可替换）
+const ADMIN_PWD_HASH = 'a8f5f167f44f4964e6c998dee827110c8e8f25a0c1b98c7e7b7c7bb4f6e5e0a1';
+
+let _adminTaps = 0, _adminTimer = null;
+let _adminUnlocked = false;
+
+function adminSecretTap(e) {
+  e.stopPropagation(); // 不触发 goHome
+  _adminTaps++;
+  clearTimeout(_adminTimer);
+  if (_adminTaps >= 5) {
+    _adminTaps = 0;
+    // 连点5次 logo "K1980" → 弹出管理员验证
+    if (_adminUnlocked) {
+      // 已验证过，直接开面板
+      _openWritePanelDirect();
+    } else {
+      document.getElementById('admin-gate').classList.add('on');
+      document.body.style.overflow = 'hidden';
+      setTimeout(() => document.getElementById('ag-pwd').focus(), 100);
+    }
+  } else {
+    _adminTimer = setTimeout(() => { _adminTaps = 0; }, 1500);
+  }
+}
+
+async function sha256(str) {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(str));
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2,'0')).join('');
+}
+
+async function verifyAdmin() {
+  const pwd = document.getElementById('ag-pwd').value;
+  const err = document.getElementById('ag-err');
+  if (!pwd) { err.textContent = '请输入密码'; return; }
+  const hash = await sha256(pwd);
+  // 支持两种验证：哈希匹配 或 直接明文（开发模式）
+  const PLAIN_FALLBACK = 'k1980admin'; // ← 在此修改管理员密码
+  if (hash === ADMIN_PWD_HASH || pwd === PLAIN_FALLBACK) {
+    _adminUnlocked = true;
+    closeAdminGate();
+    // 显示 AI写稿 按钮（本次会话保持可见）
+    document.querySelector('.write-trigger-btn').classList.add('admin-on');
+    _openWritePanelDirect();
+  } else {
+    err.textContent = '密码错误，请重试';
+    document.getElementById('ag-pwd').value = '';
+    document.getElementById('ag-pwd').focus();
+  }
+}
+
+function closeAdminGate() {
+  document.getElementById('admin-gate').classList.remove('on');
+  document.getElementById('ag-pwd').value = '';
+  document.getElementById('ag-err').textContent = '';
+  if (!document.getElementById('write-panel').classList.contains('on')) {
+    document.body.style.overflow = '';
+  }
+}
+
+function openWritePanel() {
+  // 公开入口检查权限
+  if (!_adminUnlocked) {
+    document.getElementById('admin-gate').classList.add('on');
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => document.getElementById('ag-pwd').focus(), 100);
+    return;
+  }
+  _openWritePanelDirect();
+}
+
+function _openWritePanelDirect() {
+  document.getElementById('write-panel').classList.add('on');
+  document.body.style.overflow = 'hidden';
+  // 重置状态
+  resetWritePanel();
+}
+
+function closeWritePanel() {
+  document.getElementById('write-panel').classList.remove('on');
+  document.body.style.overflow = '';
+}
+
+function resetWritePanel() {
+  WP.articles = [];
+  WP.generating = false;
+  const genBtn = document.getElementById('wp-gen-btn');
+  genBtn.disabled = false;
+  const n = WP.totalCount || 20;
+  document.getElementById('wp-gen-label').textContent = `开始生成 ${n} 篇新闻`;
+  document.getElementById('wp-progress').classList.remove('on');
+  document.getElementById('wp-preview').classList.remove('on');
+  document.getElementById('wp-art-list').innerHTML = '';
+  const pubBtn = document.getElementById('wp-pub-btn');
+  pubBtn.classList.remove('on'); pubBtn.disabled = false;
+  pubBtn.innerHTML = '🚀 发布上线（写入数据库 + 立即显示）';
+  document.getElementById('wp-done-box').classList.remove('on');
+  document.getElementById('wp-prog-fill').style.width = '0';
+  document.getElementById('wp-prog-count').textContent = `0 / ${n}`;
+  document.getElementById('wp-prog-stage').textContent = '准备中...';
+  document.getElementById('wp-log').textContent = '';
+}
+
+function wpSetProgress(done, stage, log) {
+  const total = WP.totalCount || 20;
+  const pct = Math.round((done / total) * 100);
+  document.getElementById('wp-prog-fill').style.width = pct + '%';
+  document.getElementById('wp-prog-count').textContent = done + ' / ' + total;
+  if (stage) document.getElementById('wp-prog-stage').textContent = stage;
+  if (log)   document.getElementById('wp-log').textContent = log;
+}
+
+function wpAddArticlePreview(art) {
+  const list = document.getElementById('wp-art-list');
+  const isDeep = art._type === 'deep';
+  const div = document.createElement('div');
+  div.className = 'wp-art';
+  div.innerHTML = `
+    <span class="wp-art-type ${isDeep ? 'deep' : 'brief'}">${isDeep ? '深度' : '简报'}</span>
+    <div class="wp-art-body">
+      <div class="wp-art-title">${esc(art.title)}</div>
+      <div class="wp-art-cat">${esc(art.category)} · ${esc(art.source_name || 'K1980 AI')}</div>
+    </div>`;
+  list.appendChild(div);
+}
+
+// 生成一批新闻（调用 Cloudflare Worker → Claude API）
+async function generateBatch(type, count, regionLabel, userPrompt) {
+  const isDeep = type === 'deep';
+  const topicLine = userPrompt
+    ? `\n重点主题方向（请围绕这些展开，但可适当扩展）：${userPrompt}\n`
+    : '';
+  const prompt = isDeep
+    ? `你是K1980全球华人资讯平台的首席编辑。请为"${regionLabel}"地区的海外华人读者，生成${count}篇高质量深度新闻报道。${topicLine}
+要求：
+- 每篇 500-800字，有背景、有分析、有对华人的实际影响和建议
+- 覆盖多个类别，从以下选择：时事、移民、教育、财经、科技、生活、旅游
+- 标题要吸引人，有数据或具体细节
+- 来源标注"K1980资讯"或相关媒体名
+- 内容真实可信，不要编造具体人名或机构名
+
+请严格返回以下JSON格式（不要加任何说明或markdown代码块）：
+{"articles":[{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}]}
+
+tags每篇3-5个，view_count在500-5000之间随机。`
+    : `你是K1980全球华人资讯平台的编辑。请为"${regionLabel}"地区的海外华人读者，生成${count}篇简明新闻简报。${topicLine}
+要求：
+- 每篇 summary 100-150字，content 150-200字，简洁精准
+- 覆盖多个类别，从以下选择：时事、移民、教育、财经、科技、生活、旅游
+- 标题简短有力，10-20字
+- 来源标注"K1980资讯"或相关媒体名
+
+请严格返回以下JSON格式（不要加任何说明或markdown代码块）：
+{"articles":[{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}]}
+
+tags每篇2-3个，view_count在200-2000之间随机。`;
+
+  const resp = await fetch('https://k1980-ai.gwkgd6828n.workers.dev', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'claude-sonnet-4-20250514',
+      max_tokens: isDeep ? 8000 : 5000,
+      messages: [{ role: 'user', content: prompt }]
+    })
+  });
+  if (!resp.ok) throw new Error('API error ' + resp.status);
+  const data = await resp.json();
+  const raw = (data.content?.[0]?.text || '').replace(/```json|```/g, '').trim();
+  const parsed = JSON.parse(raw);
+  return (parsed.articles || []).map(a => ({ ...a, _type: type }));
+}
+
+async function startGenerate() {
+  if (WP.generating) return;
+  WP.generating = true;
+
+  // 读取篇数（偶数，各一半）
+  const total = WP.totalCount || 20;
+  const half  = Math.floor(total / 2);
+
+  // 读取地区
+  const rTag = document.querySelector('#wp-region-row .wp-rtag.on');
+  WP.region = rTag ? rTag.dataset.r : 'global';
+  const regionLabels = {
+    global:'全球华人', nz:'新西兰', au:'澳大利亚',
+    ca:'加拿大', us:'美国', gb:'英国', sg:'新加坡', my:'马来西亚'
+  };
+  const regionLabel = regionLabels[WP.region] || '全球华人';
+
+  // 读取提词
+  const userPrompt = (document.getElementById('wp-prompt').value || '').trim();
+
+  const genBtn = document.getElementById('wp-gen-btn');
+  genBtn.disabled = true;
+  document.getElementById('wp-gen-label').textContent = '⏳ 生成中...';
+
+  document.getElementById('wp-progress').classList.add('on');
+  document.getElementById('wp-art-list').innerHTML = '';
+
+  try {
+    // 第1批：深度报道
+    wpSetProgress(0, `✍️ 正在生成深度报道 ${half} 篇...`, '调用 Claude AI 撰写深度分析，请稍候（约30-60秒）');
+    const deepArts = await generateBatch('deep', half, regionLabel, userPrompt);
+    deepArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a); });
+    document.getElementById('wp-preview').classList.add('on');
+    document.getElementById('wp-preview-count').textContent = `${WP.articles.length} / ${total} 篇`;
+    wpSetProgress(deepArts.length, `⚡ 正在生成简报 ${half} 篇...`, `深度报道 ${deepArts.length} 篇完成，现在生成简报...`);
+
+    // 第2批：新闻简报
+    const briefArts = await generateBatch('brief', half, regionLabel, userPrompt);
+    briefArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a); });
+    document.getElementById('wp-preview-count').textContent = `${WP.articles.length} / ${total} 篇`;
+    wpSetProgress(total, '✅ 生成完成！', `共生成 ${WP.articles.length} 篇：深度 ${deepArts.length} + 简报 ${briefArts.length}`);
+
+    // 显示投放板块选择器 + 发布按钮
+    document.getElementById('wp-section-pick').style.display = 'block';
+    document.getElementById('wp-pub-btn').classList.add('on');
+  } catch(e) {
+    wpSetProgress(WP.articles.length, '❌ 生成出错', '错误：' + e.message + '。请检查网络后重试。');
+    genBtn.disabled = false;
+    document.getElementById('wp-gen-label').textContent = '🔄 重新生成';
+    WP.generating = false;
+  }
+}
+
+// 发布到 Supabase + 注入当前页面
+async function publishGeneratedNews() {
+  if (!WP.articles.length) return;
+  const pubBtn = document.getElementById('wp-pub-btn');
+  pubBtn.disabled = true;
+  pubBtn.innerHTML = '⏳ 发布中...';
+
+  // 读取投放板块
+  const sectionTag = document.querySelector('#wp-section-row .wp-stag.on');
+  const targetSection = sectionTag ? sectionTag.dataset.s : 'auto';
+
+  const now = new Date();
+  const toInsert = WP.articles.map((a, i) => ({
+    title:        a.title,
+    summary:      a.summary,
+    content:      a.content,
+    category:     targetSection === 'auto' ? a.category : targetSection,
+    source_name:  a.source_name || 'K1980资讯',
+    tags:         a.tags || [],
+    original_url: '#',
+    is_published: true,
+    view_count:   a.view_count || Math.floor(Math.random() * 2000 + 200),
+    created_at:   new Date(now - i * 3 * 60000).toISOString(),
+  }));
+
+  let publishedCount = 0;
+  try {
+    const resp = await fetch(`${CFG.URL}/rest/v1/news_articles`, {
+      method: 'POST',
+      headers: {
+        'apikey': CFG.KEY,
+        'Authorization': 'Bearer ' + CFG.KEY,
+        'Content-Type': 'application/json',
+        'Prefer': 'return=representation'
+      },
+      body: JSON.stringify(toInsert)
+    });
+    if (resp.ok) {
+      const inserted = await resp.json();
+      publishedCount = inserted.length;
+    } else {
+      throw new Error('DB write failed ' + resp.status);
+    }
+  } catch (e) {
+    // 即使写入失败也注入当前页面（离线模式）
+    publishedCount = 0;
+  }
+
+  // 注入当前页面（无论是否写入DB成功）
+  const injected = toInsert.map((a, i) => ({
+    ...a,
+    id: 900000 + i,
+    created_at: new Date(now - i * 3 * 60000).toISOString(),
+  }));
+  // 前置插入到 S.arts
+  S.arts = [...injected, ...S.arts];
+  S.total = S.arts.length;
+  const feed = document.getElementById('feed');
+  feed.innerHTML = S.arts.slice(0, CFG.PS).map((a, i) => card(a, i)).join('');
+  setHero(S.arts[0]);
+  renderHot(S.arts);
+  bindCards();
+  setTime();
+
+  // 显示完成
+  pubBtn.classList.remove('on');
+  const doneBox = document.getElementById('wp-done-box');
+  doneBox.classList.add('on');
+  document.getElementById('wp-done-txt').textContent =
+    publishedCount > 0
+      ? `🎉 已成功写入数据库 ${publishedCount} 篇并上线！`
+      : `✅ 已注入当前页面 ${injected.length} 篇（数据库写入失败，刷新后消失）`;
+  document.getElementById('wp-done-sub').textContent =
+    publishedCount > 0
+      ? '文章已存入 Supabase，所有用户刷新后可见'
+      : '建议检查 Supabase 权限后重新操作';
+
+  WP.generating = false;
+  // 3秒后关闭面板
+  setTimeout(() => closeWritePanel(), 3000);
+}
 </script>
 </body>
 </html>
