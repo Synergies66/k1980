@@ -221,6 +221,15 @@ svg{display:block;flex-shrink:0}
 .item-read{font-size:12px;font-weight:600;color:var(--blue);flex-shrink:0;opacity:.75}
 .item:hover .item-read{opacity:1}
 
+/* ── AI 内容渲染 ─────────────────────────────────────────── */
+.ai-badge{font-size:9.5px;font-weight:800;padding:1.5px 5px;border-radius:3px;background:linear-gradient(135deg,rgba(124,58,237,.15),rgba(26,86,219,.15));color:#5b4ecb;border:1px solid rgba(124,58,237,.25);letter-spacing:.5px;flex-shrink:0}
+.ai-insight-inline{font-size:13px;color:var(--ink2);line-height:1.65;padding:8px 10px;background:linear-gradient(135deg,rgba(124,58,237,.04),rgba(26,86,219,.04));border-radius:6px;border-left:2px solid rgba(124,58,237,.3);margin-top:4px}
+.ai-insight-inline ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:3px}
+.ai-insight-inline li{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden}
+.modal-ai-insight{background:linear-gradient(135deg,rgba(124,58,237,.05),rgba(26,86,219,.05));border:1px solid rgba(124,58,237,.18);border-radius:10px;padding:14px 16px;margin-bottom:2px}
+.modal-ai-insight ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
+.modal-ai-insight li{font-size:14px;line-height:1.7;color:var(--ink2);padding-left:4px}
+
 /* ── 骨架屏 / 空态 / 更多 / 到底 ────────────────────────── */
 .sk-list{display:flex;flex-direction:column;gap:2px}
 .sk-card{background:var(--surface);border-radius:var(--r);border:1px solid var(--border);padding:16px 18px}
@@ -1971,10 +1980,15 @@ function skel(n=5){return`<div class="sk-list">${Array.from({length:n},()=>`<div
 
 /* ══ 渲染 ════════════════════════════════════════════════ */
 function card(a,i){
-  const tags=(a.tags||[]).slice(0,3).map(t=>`<span class="itag">${esc(t)}</span>`).join('');
+  const tags=(a.tags ? (Array.isArray(a.tags)?a.tags:a.tags.split(',').map(t=>t.trim())) : []).slice(0,3).map(t=>`<span class="itag">${esc(t)}</span>`).join('');
   const isLocal=a.category==='本地'||(LOCAL_NEWS[currentRegion]||[]).some(l=>l.id===a.id);
   const isPinned = a.pinned_until && new Date(a.pinned_until) > new Date();
   const pinStyle = isPinned ? ';border-left:3px solid var(--red)' : (isLocal ? ';border-left:3px solid var(--green)' : '');
+  const title   = a.ai_title   || a.title;
+  const summary = a.ai_insight
+    ? `<div class="isum ai-insight-inline">${a.ai_insight}</div>`
+    : `<div class="isum">${esc(a.summary||'')}</div>`;
+  const hasAI = !!(a.ai_title || a.ai_insight);
   return`<div class="item${isPinned?' is-pinned':''}" data-id="${a.id}" style="animation-delay:${Math.min(i*.04,.3)}s${pinStyle}">
     <span class="item-rk${i<3?' hi':''}">${i+1}</span>
     <div class="item-bd">
@@ -1984,9 +1998,10 @@ function card(a,i){
         <span class="isrc">${esc(a.source_name||'')}</span>
         <span class="isep">·</span>
         <span class="itm">${ago(a.created_at)}</span>
+        ${hasAI?'<span class="ai-badge">AI</span>':''}
       </div>
-      <div class="ititle">${esc(a.title)}</div>
-      <div class="isum">${esc(a.summary||'')}</div>
+      <div class="ititle">${esc(title)}</div>
+      ${summary}
       <div class="item-foot">
         <div class="item-tags">${tags}</div>
         <span class="item-read">${currentLang==='zh'?'阅读全文 →':'Read →'}</span>
@@ -2003,7 +2018,7 @@ function setHero(a){
   const ce=$('#hcat');ce.textContent=a.category;ce.style.background=cv+'14';ce.style.color=cv;
   $('#hsrc').textContent=a.source_name||'';
   $('#htm').textContent=ago(a.created_at);
-  $('#htitle').textContent=a.title;
+  $('#htitle').textContent=a.ai_title||a.title;
   $('#hsum').textContent=a.summary||'';
   $('#htags').innerHTML=(a.tags||[]).slice(0,3).map(t=>`<span class="hero-tag">${esc(t)}</span>`).join('');
 }
@@ -2135,8 +2150,21 @@ async function load(reset=true){
     }
     S.total=total;S.arts=reset?arts:[...S.arts,...arts];
     if(reset){
-      if(!arts.length){feed.innerHTML=`<div class="empty"><div class="empty-ic">📭</div><div class="empty-tx">${currentLang==='zh'?'暂无资讯':'No articles found'}</div></div>`;setHero(null);}
-      else{feed.innerHTML=S.arts.map((a,i)=>card(a,i)).join('');setHero(S.cat==='all'?arts[0]:null);}
+      // Supabase 无该分类数据时，回落 Mock 兜底（避免分类 tab 显示空）
+      if(!arts.length && S.cat!=='all' && S.cat!=='local'){
+        const mockFall=MOCK.filter(a=>a.category===S.cat);
+        if(mockFall.length){
+          S.arts=mockFall;S.total=mockFall.length;
+          feed.innerHTML=mockFall.map((a,i)=>card(a,i)).join('');
+          setHero(null);
+        } else {
+          feed.innerHTML=`<div class="empty"><div class="empty-ic">📭</div><div class="empty-tx">${currentLang==='zh'?'暂无资讯':'No articles found'}</div></div>`;setHero(null);
+        }
+      } else if(!arts.length){
+        feed.innerHTML=`<div class="empty"><div class="empty-ic">📭</div><div class="empty-tx">${currentLang==='zh'?'暂无资讯':'No articles found'}</div></div>`;setHero(null);
+      } else {
+        feed.innerHTML=S.arts.map((a,i)=>card(a,i)).join('');setHero(S.cat==='all'?arts[0]:null);
+      }
     }else{
       const base=S.arts.length-arts.length;
       feed.insertAdjacentHTML('beforeend',arts.map((a,i)=>card(a,base+i)).join(''));
@@ -2449,17 +2477,20 @@ async function openM(a){
   window._currentArticle = a;
 
   if(currentLang==='en'){
-    // EN 模式：先显示原文，异步替换为翻译
     $('#mtitle').textContent=a.title;
-    $('#mbody').textContent=a.content||a.summary||'';
+    $('#mbody').innerHTML=a.ai_insight?`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/><div>${esc(a.content||a.summary||'')}</div>`:(a.content||a.summary||'');
     const tx=await translateModalContent(a);
-    if(currentLang==='en'){  // 仍是 EN（用户未切回）
+    if(currentLang==='en'){
       $('#mtitle').textContent=tx.title;
       $('#mbody').textContent=tx.content||tx.summary||'';
     }
   } else {
-    $('#mtitle').textContent=a.title;
-    $('#mbody').textContent=a.content||a.summary||'';
+    $('#mtitle').textContent=a.ai_title||a.title;
+    if(a.ai_insight){
+      $('#mbody').innerHTML=`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/><p>${esc(a.content||a.summary||'')}</p>`;
+    } else {
+      $('#mbody').textContent=a.content||a.summary||'';
+    }
   }
 }
 function closeM(){$('#modal').classList.remove('on');document.body.style.overflow='';}
