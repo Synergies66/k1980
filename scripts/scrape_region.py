@@ -216,6 +216,12 @@ def time_ago(pub):
     if age_h < 48:  return '昨日'
     return f'{int(age_h/24)}天前'
 
+def is_within_3days(pub):
+    """只保留3天内的内容"""
+    if not pub: return True  # 没有时间戳的保留
+    age_h = (time.time() - time.mktime(pub)) / 3600
+    return age_h <= 72
+
 def extract_image(entry):
     if entry.get('media_content'):    return entry['media_content'][0].get('url')
     if entry.get('media_thumbnail'):  return entry['media_thumbnail'][0].get('url')
@@ -292,6 +298,9 @@ def scrape(region):
             if not title: continue
             summary = BeautifulSoup(e.get('summary', e.get('description','')), 'html.parser').get_text()[:200].strip()
             pub     = e.get('published_parsed') or e.get('updated_parsed')
+            # 只保留3天内的新闻
+            if not is_within_3days(pub):
+                continue
             news.append({
                 'id':         hashlib.md5((e.get('link','') + title).encode()).hexdigest()[:10],
                 'type':       'news',
@@ -322,6 +331,9 @@ def scrape(region):
             if not title: continue
             summary = BeautifulSoup(e.get('summary', e.get('description','')), 'html.parser').get_text()[:150].strip()
             pub     = e.get('published_parsed') or e.get('updated_parsed')
+            # 只保留3天内的服务信息
+            if not is_within_3days(pub):
+                continue
             type_label = {'job':'招聘','house':'房产','deal':'优惠','event':'活动'}.get(src['type'], src['type'])
             svcs.append({
                 'id':          hashlib.md5((e.get('link','') + title).encode()).hexdigest()[:10],
