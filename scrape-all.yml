@@ -1,0 +1,35 @@
+name: K1980 全合一抓取 — 新闻 + 本地服务
+
+on:
+  schedule:
+    # 每2小时运行一次，保持内容新鲜
+    - cron: '0 */2 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  scrape-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser beautifulsoup4 requests
+
+      - name: 运行全合一抓取器
+        run: python scripts/scrape_all.py
+
+      - name: 提交数据文件
+        run: |
+          git config --global user.name  "K1980 Bot"
+          git config --global user.email "bot@k1980.app"
+          git add data/news_*.json data/services_*.json data/meta.json
+          git diff --staged --quiet || git commit -m "🤖 数据更新 $(date +'%Y-%m-%d %H:%M UTC') — 新闻+服务"
+          git push
