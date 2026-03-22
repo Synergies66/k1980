@@ -1472,7 +1472,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <!-- 提词框 -->
       <div>
         <div class="wp-sect-lbl">主题提词 <span style="color:var(--ink4);font-size:10px;font-weight:400;letter-spacing:0;text-transform:none">（不填则 AI 自由发挥）</span></div>
-        <textarea id="wp-prompt" class="wp-prompt-input" placeholder="例：重点写移民政策最新变化、房价走势、华人创业故事…&#10;可以写关键词、方向、角度，AI 会围绕这些主题展开"></textarea>
+        <textarea id="wp-prompt" class="wp-prompt-input" placeholder="例：移民政策变化、AI科技趋势、华人创业…&#10;填关键词或方向即可，AI会展开&#10;⚠️ 不要要求单篇超1000字，会超时失败"></textarea>
         <div class="wp-prompt-chips" id="wp-prompt-chips">
           <span class="wp-chip" onclick="addChip(this)">📋 移民政策</span>
           <span class="wp-chip" onclick="addChip(this)">🏠 房价租金</span>
@@ -4551,61 +4551,82 @@ function wpUpdatePubCount() {
 }
 
 // 生成一批新闻（调用 Cloudflare Worker → Claude API）
-async function generateBatch(type, count, regionLabel, userPrompt) {
+// 生成单篇文章（每次只生成1篇，避免 CF Worker 30秒超时）
+async function generateOne(type, regionLabel, userPrompt, index, total) {
   const isDeep = type === 'deep';
   const topicLine = userPrompt
-    ? `\n重点主题方向（请围绕这些展开，但可适当扩展）：${userPrompt}\n`
+    ? `\n重点主题方向：${userPrompt}\n`
     : '';
+  // 让每篇分类不同，避免全是同一类
+  const cats = ['时事','移民','教育','财经','科技','生活','旅游'];
+  const suggestCat = cats[index % cats.length];
+
   const prompt = isDeep
-    ? `你是K1980全球华人资讯平台的首席编辑。请为"${regionLabel}"地区的海外华人读者，生成${count}篇高质量深度新闻报道。${topicLine}
+    ? `你是K1980全球华人资讯平台的首席编辑。请为"${regionLabel}"地区的海外华人读者，生成1篇高质量深度新闻报道。${topicLine}
+建议分类：${suggestCat}（可根据主题适当调整）
 要求：
-- 每篇 500-800字，有背景、有分析、有对华人的实际影响和建议
-- 覆盖多个类别，从以下选择：时事、移民、教育、财经、科技、生活、旅游
-- 标题要吸引人，有数据或具体细节
+- 500-800字，有背景、有分析、有对华人的实际影响和建议
+- 标题吸引人，有数据或具体细节，不超过25字
 - 来源标注"K1980资讯"或相关媒体名
-- 内容真实可信，不要编造具体人名或机构名
+- 内容真实可信，不要编造具体人名
 
-请严格返回以下JSON格式（不要加任何说明或markdown代码块）：
-{"articles":[{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}]}
-
-tags每篇3-5个，view_count在500-5000之间随机。`
-    : `你是K1980全球华人资讯平台的编辑。请为"${regionLabel}"地区的海外华人读者，生成${count}篇简明新闻简报。${topicLine}
+严格返回JSON（不加任何说明或代码块）：
+{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}`
+    : `你是K1980全球华人资讯平台的编辑。请为"${regionLabel}"地区的海外华人读者，生成1篇简明新闻简报。${topicLine}
+建议分类：${suggestCat}（可根据主题适当调整）
 要求：
-- 每篇 summary 100-150字，content 150-200字，简洁精准
-- 覆盖多个类别，从以下选择：时事、移民、教育、财经、科技、生活、旅游
-- 标题简短有力，10-20字
+- summary 80-120字，content 120-180字，简洁精准
+- 标题10-20字，简短有力
 - 来源标注"K1980资讯"或相关媒体名
 
-请严格返回以下JSON格式（不要加任何说明或markdown代码块）：
-{"articles":[{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}]}
-
-tags每篇2-3个，view_count在200-2000之间随机。`;
+严格返回JSON（不加任何说明或代码块）：
+{"title":"...","category":"...","summary":"...","content":"...","tags":["..."],"source_name":"...","view_count":数字}`;
 
   const resp = await fetch('https://k1980-ai.gwkgd6828n.workers.dev', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       model: 'claude-sonnet-4-20250514',
-      max_tokens: isDeep ? 8000 : 5000,
+      max_tokens: isDeep ? 2000 : 1200,
       messages: [{ role: 'user', content: prompt }]
     })
   });
-  if (!resp.ok) throw new Error('API error ' + resp.status);
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
   const data = await resp.json();
   const raw = (data.content?.[0]?.text || '').replace(/```json|```/g, '').trim();
-  const parsed = JSON.parse(raw);
-  return (parsed.articles || []).map(a => ({ ...a, _type: type }));
+  // 容错解析：处理截断的JSON（补全缺失的括号）
+  let parsed;
+  try {
+    parsed = JSON.parse(raw);
+  } catch(e) {
+    // 尝试提取第一个完整的 { } 块
+    const m = raw.match(/\{[\s\S]*\}/);
+    if (m) {
+      try { parsed = JSON.parse(m[0]); }
+      catch(e2) {
+        // JSON被截断，尝试补全：找到最后一个完整字段后截断并闭合
+        let s = m[0];
+        // 去掉最后一个不完整的字段（从最后一个逗号后的内容）
+        const lastComma = s.lastIndexOf(',"');
+        if (lastComma > 0) s = s.slice(0, lastComma) + '}';
+        else s = s + '}';
+        try { parsed = JSON.parse(s); }
+        catch(e3) { throw new Error('JSON解析失败，请重试'); }
+      }
+    } else {
+      throw new Error('JSON解析失败，请重试');
+    }
+  }
+  return { ...parsed, _type: type };
 }
 
 async function startGenerate() {
   if (WP.generating) return;
   WP.generating = true;
 
-  // 读取篇数（偶数，各一半）
   const total = WP.totalCount || 20;
   const half  = Math.floor(total / 2);
 
-  // 读取地区
   const rTag = document.querySelector('#wp-region-row .wp-rtag.on');
   WP.region = rTag ? rTag.dataset.r : 'global';
   const regionLabels = {
@@ -4613,37 +4634,61 @@ async function startGenerate() {
     ca:'加拿大', us:'美国', gb:'英国', sg:'新加坡', my:'马来西亚'
   };
   const regionLabel = regionLabels[WP.region] || '全球华人';
-
-  // 读取提词
   const userPrompt = (document.getElementById('wp-prompt').value || '').trim();
 
   const genBtn = document.getElementById('wp-gen-btn');
   genBtn.disabled = true;
   document.getElementById('wp-gen-label').textContent = '⏳ 生成中...';
-
   document.getElementById('wp-progress').classList.add('on');
   document.getElementById('wp-art-list').innerHTML = '';
+  document.getElementById('wp-preview').classList.add('on');
+
+  let done = 0;
+  const errors = [];
 
   try {
-    // 第1批：深度报道
-    wpSetProgress(0, `✍️ 正在生成深度报道 ${half} 篇...`, '调用 Claude AI 撰写深度分析，请稍候（约30-60秒）');
-    const deepArts = await generateBatch('deep', half, regionLabel, userPrompt);
-    deepArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a, WP.articles.length-1); });
-    document.getElementById('wp-preview').classList.add('on');
-    wpUpdatePubCount();
-    wpSetProgress(deepArts.length, `⚡ 正在生成简报 ${half} 篇...`, `深度报道 ${deepArts.length} 篇完成，现在生成简报...`);
+    // 深度报道：逐篇生成
+    for (let i = 0; i < half; i++) {
+      wpSetProgress(done, `✍️ 深度报道 ${i+1}/${half}...`, `正在生成第 ${done+1} 篇，共 ${total} 篇`);
+      try {
+        const art = await generateOne('deep', regionLabel, userPrompt, i, total);
+        WP.articles.push(art);
+        wpAddArticlePreview(art, WP.articles.length-1);
+        done++;
+        wpSetProgress(done, `✍️ 深度报道 ${i+1}/${half} ✓`, `已完成 ${done}/${total} 篇`);
+        wpUpdatePubCount();
+      } catch(e) {
+        errors.push(`深度${i+1}: ${e.message}`);
+        done++;
+      }
+    }
 
-    // 第2批：新闻简报
-    const briefArts = await generateBatch('brief', half, regionLabel, userPrompt);
-    briefArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a, WP.articles.length-1); });
-    wpUpdatePubCount();
-    wpSetProgress(total, '✅ 生成完成！请审稿后发布', `共 ${WP.articles.length} 篇 · 展开每篇可查看全文 / 修改标题 / 删除`);
+    // 简报：逐篇生成
+    for (let i = 0; i < half; i++) {
+      wpSetProgress(done, `⚡ 简报 ${i+1}/${half}...`, `正在生成第 ${done+1} 篇，共 ${total} 篇`);
+      try {
+        const art = await generateOne('brief', regionLabel, userPrompt, half + i, total);
+        WP.articles.push(art);
+        wpAddArticlePreview(art, WP.articles.length-1);
+        done++;
+        wpSetProgress(done, `⚡ 简报 ${i+1}/${half} ✓`, `已完成 ${done}/${total} 篇`);
+        wpUpdatePubCount();
+      } catch(e) {
+        errors.push(`简报${i+1}: ${e.message}`);
+        done++;
+      }
+    }
 
-    // 显示投放板块选择器 + 发布按钮
+    const ok = WP.articles.filter(Boolean).length;
+    if (ok === 0) throw new Error('所有文章生成失败，请检查网络');
+
+    const errMsg = errors.length ? ` · ${errors.length}篇失败` : '';
+    wpSetProgress(total, `✅ 完成！${ok}篇生成成功${errMsg}`, '请审稿后选择发布');
     document.getElementById('wp-section-pick').style.display = 'block';
     document.getElementById('wp-pub-btn').classList.add('on');
+
   } catch(e) {
-    wpSetProgress(WP.articles.length, '❌ 生成出错', '错误：' + e.message + '。请检查网络后重试。');
+    wpSetProgress(done, '❌ 生成出错', '错误：' + e.message);
     genBtn.disabled = false;
     document.getElementById('wp-gen-label').textContent = '🔄 重新生成';
     WP.generating = false;
