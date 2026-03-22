@@ -1,0 +1,35 @@
+name: 本地新闻抓取 — 全球10地区
+
+on:
+  schedule:
+    # 每2小时抓一次，保持新鲜度
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape-local-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser beautifulsoup4 requests
+
+      - name: Run news scraper
+        run: python scripts/scrape_local_news.py
+
+      - name: Commit news data
+        run: |
+          git config --global user.name  "K1980 NewsBot"
+          git config --global user.email "newsbot@k1980.app"
+          git add data/news_*.json
+          git diff --staged --quiet || git commit -m "📰 本地新闻更新 $(date +'%Y-%m-%d %H:%M UTC')"
+          git push
