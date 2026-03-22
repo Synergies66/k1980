@@ -654,6 +654,40 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 .wp-done-txt{font-size:13px;font-weight:600;color:var(--green)}
 .wp-done-sub{font-size:11.5px;color:var(--ink3);margin-top:3px}
 
+/* ── 审稿区 ──────────────────────────────────────────────── */
+.wp-review{display:none;border:1px solid var(--border);border-radius:10px;overflow:hidden}
+.wp-review.on{display:block}
+.wp-review-toolbar{display:flex;align-items:center;justify-content:space-between;padding:7px 14px;background:var(--bg);border-bottom:1px solid var(--border)}
+.wp-review-del-all{font-size:11.5px;color:var(--red);background:none;border:none;cursor:pointer;padding:2px 6px;border-radius:4px;transition:background .12s}
+.wp-review-del-all:hover{background:rgba(212,39,29,.08)}
+/* 审稿文章卡 */
+.wp-review-card{border-bottom:1px solid var(--border);transition:background .1s}
+.wp-review-card:last-child{border-bottom:none}
+.wp-review-card-hd{display:flex;align-items:flex-start;gap:8px;padding:10px 14px;cursor:pointer;user-select:none}
+.wp-review-card-hd:hover{background:var(--bg)}
+.wp-review-card.open .wp-review-card-hd{background:var(--bg)}
+.wp-rc-type{font-size:9.5px;font-weight:800;padding:2px 6px;border-radius:3px;flex-shrink:0;margin-top:2px;letter-spacing:.3px}
+.wp-rc-type.deep{background:rgba(26,86,219,.1);color:var(--blue)}
+.wp-rc-type.brief{background:rgba(22,163,74,.1);color:var(--green)}
+.wp-rc-main{flex:1;min-width:0}
+.wp-rc-title{font-size:13px;font-weight:500;color:var(--ink);line-height:1.45}
+.wp-rc-meta{font-size:11px;color:var(--ink4);margin-top:2px}
+.wp-rc-actions{display:flex;gap:6px;flex-shrink:0;align-items:center}
+.wp-rc-expand{font-size:11px;color:var(--ink4);transition:transform .15s;flex-shrink:0;margin-top:2px}
+.wp-review-card.open .wp-rc-expand{transform:rotate(180deg)}
+.wp-rc-del{width:24px;height:24px;border-radius:5px;border:1px solid rgba(212,39,29,.2);background:none;color:var(--red);font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .12s}
+.wp-rc-del:hover{background:var(--red);color:#fff}
+/* 展开内容 */
+.wp-review-body{display:none;padding:0 14px 14px;border-top:1px solid var(--border)}
+.wp-review-card.open .wp-review-body{display:block}
+.wp-rc-edit-title{width:100%;border:1.5px solid var(--border2);border-radius:7px;padding:7px 10px;font-size:13px;font-family:var(--f);color:var(--ink);outline:none;margin:10px 0 8px;background:var(--surface);transition:border-color .15s}
+.wp-rc-edit-title:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.08)}
+.wp-rc-content{font-size:12.5px;color:var(--ink2);line-height:1.75;background:var(--bg);border-radius:6px;padding:10px 12px;max-height:180px;overflow-y:auto;white-space:pre-wrap;word-break:break-word}
+.wp-rc-content::-webkit-scrollbar{width:3px}
+.wp-rc-content::-webkit-scrollbar-thumb{background:var(--border2);border-radius:2px}
+.wp-rc-save{height:28px;padding:0 12px;border-radius:6px;background:var(--blue);color:#fff;border:none;font-size:12px;font-weight:600;cursor:pointer;transition:opacity .12s;margin-top:8px}
+.wp-rc-save:hover{opacity:.88}
+
 /* ── 投放板块选择 ────────────────────────────────────────── */
 .wp-section-row{display:flex;flex-wrap:wrap;gap:6px}
 .wp-stag{padding:5px 12px;border-radius:6px;border:1px solid var(--border2);font-size:12.5px;color:var(--ink2);cursor:pointer;transition:all .12s;user-select:none}
@@ -1467,11 +1501,15 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
         <div class="wp-log" id="wp-log"></div>
       </div>
 
-      <!-- 文章预览 -->
-      <div class="wp-preview" id="wp-preview">
+      <!-- 审稿区 -->
+      <div class="wp-review" id="wp-preview">
         <div class="wp-preview-hd">
-          <span id="wp-preview-title">生成结果预览</span>
+          <span id="wp-preview-title">📋 审稿 · 确认后再发布</span>
           <span id="wp-preview-count" style="font-family:var(--fm)"></span>
+        </div>
+        <div class="wp-review-toolbar">
+          <span style="font-size:11.5px;color:var(--ink3)">点击文章可展开查看全文 · 可删除或修改标题</span>
+          <button class="wp-review-del-all" onclick="wpDeleteAll()">🗑 全部删除重来</button>
         </div>
         <div id="wp-art-list"></div>
       </div>
@@ -1500,7 +1538,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
       <!-- 发布按钮 -->
       <button class="wp-pub-btn" id="wp-pub-btn" onclick="publishGeneratedNews()">
-        🚀 发布上线（写入数据库 + 立即显示）
+        ✅ 审核通过 · 发布上线 <span id="wp-pub-count"></span>
       </button>
 
       <!-- 完成提示 -->
@@ -4443,18 +4481,73 @@ function wpSetProgress(done, stage, log) {
   if (log)   document.getElementById('wp-log').textContent = log;
 }
 
-function wpAddArticlePreview(art) {
+function wpAddArticlePreview(art, idx) {
   const list = document.getElementById('wp-art-list');
   const isDeep = art._type === 'deep';
-  const div = document.createElement('div');
-  div.className = 'wp-art';
-  div.innerHTML = `
-    <span class="wp-art-type ${isDeep ? 'deep' : 'brief'}">${isDeep ? '深度' : '简报'}</span>
-    <div class="wp-art-body">
-      <div class="wp-art-title">${esc(art.title)}</div>
-      <div class="wp-art-cat">${esc(art.category)} · ${esc(art.source_name || 'K1980 AI')}</div>
+  const card = document.createElement('div');
+  card.className = 'wp-review-card';
+  card.dataset.idx = idx;
+  card.innerHTML = `
+    <div class="wp-review-card-hd" onclick="wpToggleCard(this.parentElement)">
+      <span class="wp-rc-type ${isDeep?'deep':'brief'}">${isDeep?'深度':'简报'}</span>
+      <div class="wp-rc-main">
+        <div class="wp-rc-title">${esc(art.title)}</div>
+        <div class="wp-rc-meta">${esc(art.category)} · ${esc(art.source_name||'K1980资讯')}</div>
+      </div>
+      <div class="wp-rc-actions">
+        <span class="wp-rc-expand">▾</span>
+        <button class="wp-rc-del" onclick="wpDeleteCard(event,${idx})" title="删除这篇">✕</button>
+      </div>
+    </div>
+    <div class="wp-review-body">
+      <input class="wp-rc-edit-title" value="${esc(art.title)}" placeholder="修改标题..." data-idx="${idx}"/>
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+        <span style="font-size:11px;color:var(--ink3)">正文内容（只读预览）</span>
+        <button class="wp-rc-save" onclick="wpSaveTitle(${idx})">✓ 保存标题</button>
+      </div>
+      <div class="wp-rc-content">${esc(art.content||art.summary||'')}</div>
     </div>`;
-  list.appendChild(div);
+  list.appendChild(card);
+}
+
+function wpToggleCard(card) {
+  card.classList.toggle('open');
+}
+
+function wpDeleteCard(e, idx) {
+  e.stopPropagation();
+  WP.articles[idx] = null; // 标记删除
+  const card = document.querySelector(`.wp-review-card[data-idx="${idx}"]`);
+  if (card) {
+    card.style.opacity = '0.4';
+    card.style.pointerEvents = 'none';
+    card.querySelector('.wp-rc-title').style.textDecoration = 'line-through';
+    card.querySelector('.wp-rc-del').textContent = '✓';
+  }
+  wpUpdatePubCount();
+}
+
+function wpSaveTitle(idx) {
+  const input = document.querySelector(`.wp-rc-edit-title[data-idx="${idx}"]`);
+  if (!input || !WP.articles[idx]) return;
+  WP.articles[idx].title = input.value.trim() || WP.articles[idx].title;
+  // 同步更新卡头标题
+  const card = document.querySelector(`.wp-review-card[data-idx="${idx}"]`);
+  if (card) card.querySelector('.wp-rc-title').textContent = WP.articles[idx].title;
+  input.style.borderColor = 'var(--green)';
+  setTimeout(() => { input.style.borderColor = ''; }, 1500);
+}
+
+function wpDeleteAll() {
+  if (!confirm(`确认删除全部 ${WP.articles.filter(Boolean).length} 篇？将重新生成。`)) return;
+  resetWritePanel();
+}
+
+function wpUpdatePubCount() {
+  const remaining = WP.articles.filter(Boolean).length;
+  const el = document.getElementById('wp-pub-count');
+  if (el) el.textContent = `（${remaining} 篇）`;
+  document.getElementById('wp-preview-count').textContent = `${remaining} / ${WP.totalCount||20} 篇`;
 }
 
 // 生成一批新闻（调用 Cloudflare Worker → Claude API）
@@ -4535,16 +4628,16 @@ async function startGenerate() {
     // 第1批：深度报道
     wpSetProgress(0, `✍️ 正在生成深度报道 ${half} 篇...`, '调用 Claude AI 撰写深度分析，请稍候（约30-60秒）');
     const deepArts = await generateBatch('deep', half, regionLabel, userPrompt);
-    deepArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a); });
+    deepArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a, WP.articles.length-1); });
     document.getElementById('wp-preview').classList.add('on');
-    document.getElementById('wp-preview-count').textContent = `${WP.articles.length} / ${total} 篇`;
+    wpUpdatePubCount();
     wpSetProgress(deepArts.length, `⚡ 正在生成简报 ${half} 篇...`, `深度报道 ${deepArts.length} 篇完成，现在生成简报...`);
 
     // 第2批：新闻简报
     const briefArts = await generateBatch('brief', half, regionLabel, userPrompt);
-    briefArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a); });
-    document.getElementById('wp-preview-count').textContent = `${WP.articles.length} / ${total} 篇`;
-    wpSetProgress(total, '✅ 生成完成！', `共生成 ${WP.articles.length} 篇：深度 ${deepArts.length} + 简报 ${briefArts.length}`);
+    briefArts.forEach(a => { WP.articles.push(a); wpAddArticlePreview(a, WP.articles.length-1); });
+    wpUpdatePubCount();
+    wpSetProgress(total, '✅ 生成完成！请审稿后发布', `共 ${WP.articles.length} 篇 · 展开每篇可查看全文 / 修改标题 / 删除`);
 
     // 显示投放板块选择器 + 发布按钮
     document.getElementById('wp-section-pick').style.display = 'block';
@@ -4564,12 +4657,21 @@ async function publishGeneratedNews() {
   pubBtn.disabled = true;
   pubBtn.innerHTML = '⏳ 发布中...';
 
+  // 过滤掉审稿时删除的文章（null）
+  const approved = WP.articles.filter(Boolean);
+  if (!approved.length) {
+    pubBtn.disabled = false;
+    pubBtn.innerHTML = '✅ 审核通过 · 发布上线 <span id="wp-pub-count"></span>';
+    alert('没有待发布的文章，请先审稿。');
+    return;
+  }
+
   // 读取投放板块
   const sectionTag = document.querySelector('#wp-section-row .wp-stag.on');
   const targetSection = sectionTag ? sectionTag.dataset.s : 'auto';
 
   const now = new Date();
-  const toInsert = WP.articles.map((a, i) => ({
+  const toInsert = approved.map((a, i) => ({
     title:        a.title,
     summary:      a.summary,
     content:      a.content,
