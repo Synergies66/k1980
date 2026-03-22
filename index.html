@@ -611,9 +611,8 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
            style="font-size:12px;color:var(--red);font-weight:600;text-decoration:none">
           🌐 www.k1980.app
         </a>
-        <a href="mailto:hello@k1980.app"
-           style="font-size:12px;color:var(--ink3);text-decoration:none">
-          ✉️ hello@k1980.app
+        <a href="/cdn-cgi/l/email-protection#c1a9a4adadae81aaf0f8f9f1efa0b1b1" style="font-size:12px;color:var(--ink3);text-decoration:none">
+          ✉️ <span class="__cf_email__" data-cfemail="1078757c7c7f507b212928203e716060">[email&#160;protected]</span>
         </a>
       </div>
       <div class="abt-t" id="utime"></div>
@@ -706,7 +705,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <div class="footer-links">
       <a href="https://www.k1980.app" target="_blank" rel="noopener">🌐 www.k1980.app</a>
       <span class="footer-sep">·</span>
-      <a href="mailto:hello@k1980.app">✉️ hello@k1980.app</a>
+      <a href="/cdn-cgi/l/email-protection#5139343d3d3e113a606869617f302121">✉️ <span class="__cf_email__" data-cfemail="d5bdb0b9b9ba95bee4ecede5fbb4a5a5">[email&#160;protected]</span></a>
       <span class="footer-sep">·</span>
       <a href="admin.html">⚙️ <span class="zh-only">管理后台</span><span class="en-only">Admin</span></a>
     </div>
@@ -722,10 +721,10 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
 <button id="bt"><svg width="13" height="13" viewBox="0 0 16 16" fill="none"><path d="M8 13V3M3 8l5-5 5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
 
 /* ══ 配置 ═══════════════════════════════════════════════ */
-const CFG={URL:'https://wioqkcrtkesntqnuzfkd.supabase.co',KEY:'YOUR_SUPABASE_ANON_KEY',PS:20,AR:10*60*1000};
+const CFG={URL:'https://wioqkcrtkesntqnuzfkd.supabase.co',KEY:'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indpb3FrY3J0a2VzbnRxbnV6ZmtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwNjE5MTEsImV4cCI6MjA4OTYzNzkxMX0.V7RNM0XkkZt2k02v_ssZkChZBjat7emP4RrMtfsS0hY',PS:20,AR:10*60*1000};
 
 /* ══ 区域配置 ════════════════════════════════════════════ */
 const REGIONS={
@@ -811,7 +810,7 @@ const GAME_MOCK=[
 ];
 
 /* ══ 状态 ════════════════════════════════════════════════ */
-const S={arts:[],cache:[],cat:'all',sort:'latest',page:1,total:0,busy:false,live:false};
+const S={arts:[],cache:[],cat:'all',sort:'latest',page:1,total:0,busy:false,live:null};
 const GS={arts:[],page:1,total:0,busy:false};
 let currentRegion='global';
 let currentLang='zh';
@@ -918,18 +917,32 @@ function setTime(){const n=new Date();$('#utime').textContent=(currentLang==='zh
 async function load(reset=true){
   if(S.busy)return;S.busy=true;
   const feed=$('#feed'),mw=$('#more-wrap'),fin=$('#fin'),rb=$('#rbtn');
-  if(reset){S.page=1;feed.innerHTML=skel(6);mw.style.display='none';fin.style.display='none';}
-  else{$('#mbtn').disabled=true;$('#mbtn').textContent=currentLang==='zh'?'加载中…':'Loading…';}
   rb.classList.add('spin');
   updateBarLabel();
+
+  // ── 立刻显示 Mock 数据，不等 Supabase ──────────────────
+  if(reset){
+    S.page=1;mw.style.display='none';fin.style.display='none';
+    let mockArts=S.cat==='local'?(LOCAL_NEWS[currentRegion]||[]):MOCK;
+    if(S.cat!=='all'&&S.cat!=='local')mockArts=mockArts.filter(a=>a.category===S.cat);
+    if(S.sort==='hot')mockArts=[...mockArts].sort((a,b)=>(b.view_count||0)-(a.view_count||0));
+    if(mockArts.length){
+      feed.innerHTML=mockArts.map((a,i)=>card(a,i)).join('');
+      setHero(S.cat==='all'?mockArts[0]:null);
+      S.arts=mockArts;S.total=mockArts.length;
+      renderHot(mockArts);renderStats(mockArts);renderLocalHot();setTime();bindCards();
+    } else {
+      feed.innerHTML=skel(6);
+    }
+  }
+
   try{
     let arts,total;
-    // 本地新闻：先用 Mock，有 Supabase 数据后从数据库拉
     if(S.cat==='local'){
       arts=LOCAL_NEWS[currentRegion]||[];
       total=arts.length;
     } else {
-      const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY';
+      const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY'&&CFG.KEY.length>30;
       if(ok){const r=await sbGet(S.cat,S.page,S.sort);arts=r.data;total=r.total;S.live=true;}
       else{let p=MOCK;if(S.cat!=='all')p=p.filter(a=>a.category===S.cat);if(S.sort==='hot')p=[...p].sort((a,b)=>(b.view_count||0)-(a.view_count||0));arts=p;total=p.length;}
     }
@@ -955,7 +968,23 @@ async function load(reset=true){
     if(currentLang==='en') enableTranslations();
   }catch(e){
     console.error(e);
-    if(reset){S.live=false;CFG.KEY='__mock__';S.busy=false;load(true);return;}
+    if(reset){
+      // API 失败，直接用 Mock 数据渲染，不递归
+      S.live=false;
+      const pool=S.cat==='local'?(LOCAL_NEWS[currentRegion]||[]):MOCK;
+      let arts=pool;
+      if(S.cat!=='all'&&S.cat!=='local')arts=pool.filter(a=>a.category===S.cat);
+      if(S.sort==='hot')arts=[...arts].sort((a,b)=>(b.view_count||0)-(a.view_count||0));
+      S.arts=arts;S.total=arts.length;
+      const feed=$('#feed');
+      if(!arts.length){feed.innerHTML='<div class="empty"><div class="empty-ic">📭</div><div class="empty-tx">暂无资讯</div></div>';}
+      else{feed.innerHTML=arts.map((a,i)=>card(a,i)).join('');setHero(S.cat==='all'?arts[0]:null);}
+      $('#more-wrap').style.display='none';
+      $('#fin').style.display=arts.length?'block':'none';
+      $('#ftotal').textContent=arts.length;$('#ftotal-en').textContent=arts.length;
+      renderHot(arts);renderStats(arts);renderLocalHot();setTime();
+      bindCards();
+    }
   }finally{S.busy=false;rb.classList.remove('spin');}
 }
 
@@ -1169,7 +1198,7 @@ async function loadGNews(reset=true){
   else{$('#gnews-mbtn').disabled=true;}
   try{
     let arts,total;
-    const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY';
+    const ok=CFG.KEY!=='YOUR_SUPABASE_ANON_KEY'&&CFG.KEY!=='__mock__'&&S.live!==false&&CFG.KEY.length>30;
     if(ok){
       const off=(GS.page-1)*CFG.PS;
       const u=`${CFG.URL}/rest/v1/news_articles?is_published=eq.true&category=eq.游戏&order=created_at.desc&limit=${CFG.PS}&offset=${off}&select=id,title,summary,content,category,source_name,tags,original_url,created_at,view_count`;
@@ -1311,20 +1340,4 @@ document.addEventListener('DOMContentLoaded',()=>{
   si.addEventListener('keydown',e=>{if(e.key==='Escape'){$('#sdrop').style.display='none';si.value='';si.blur();}});
   document.addEventListener('click',e=>{
     if(!e.target.closest('#si')&&!e.target.closest('#sdrop'))$('#sdrop').style.display='none';
-    if(!e.target.closest('#region-picker'))$('#region-picker').classList.remove('open');
-  });
-
-  // 回顶
-  const bt=$('#bt');
-  window.addEventListener('scroll',()=>{bt.style.display=window.scrollY>500?'flex':'none';},{passive:true});
-  bt.addEventListener('click',()=>window.scrollTo({top:0,behavior:'smooth'}));
-
-  // 自动刷新
-  setInterval(()=>load(true),CFG.AR);
-
-  // 启动
-  load(true);
-});
-</script>
-</body>
-</html>
+    if(!e.target.closest('#region-picker'))$('#region-picker').classList.remove(
