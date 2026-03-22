@@ -21,4 +21,5 @@ jobs:
           git config --global user.email "bot@k1980.app"
           git add data/news_us.json data/services_us.json
           git diff --staged --quiet || git commit -m "🇺🇸 美国数据更新 $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase
           git push
