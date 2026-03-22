@@ -400,6 +400,163 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   vertical-align:middle;margin-left:5px;
 }
 
+/* ── 商业洞察模块 ────────────────────────────────────────── */
+#biz-input:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.1)}
+.biz-quick-tag{
+  font-size:11px;padding:3px 8px;border-radius:4px;cursor:pointer;
+  background:var(--bg);border:1px solid var(--border2);color:var(--ink3);
+  transition:all .15s;white-space:nowrap;
+}
+.biz-quick-tag:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.biz-section{margin-bottom:12px}
+.biz-section-title{
+  font-size:11px;font-weight:700;letter-spacing:.5px;
+  color:var(--ink3);text-transform:uppercase;
+  display:flex;align-items:center;gap:5px;
+  margin-bottom:6px;padding-bottom:5px;
+  border-bottom:1px solid var(--border);
+}
+.biz-section-content{font-size:12.5px;color:var(--ink2);line-height:1.75}
+.biz-tag-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:5px}
+.biz-tag{
+  font-size:10.5px;padding:2px 7px;border-radius:3px;
+  background:rgba(26,86,219,.07);color:var(--blue);
+  border:1px solid rgba(26,86,219,.15);
+}
+.biz-tag.green{background:rgba(22,163,74,.07);color:var(--green);border-color:rgba(22,163,74,.15)}
+.biz-tag.purple{background:rgba(124,58,237,.07);color:#7c3aed;border-color:rgba(124,58,237,.15)}
+.biz-tag.red{background:var(--red-bg);color:var(--red);border-color:rgba(212,39,29,.15)}
+.biz-loading{
+  display:flex;flex-direction:column;align-items:center;
+  padding:20px 0;gap:8px;
+}
+.biz-loading-dots{display:flex;gap:5px}
+.biz-ld{width:6px;height:6px;border-radius:50%;background:var(--blue);animation:blink 1s infinite}
+.biz-ld:nth-child(2){animation-delay:.2s}.biz-ld:nth-child(3){animation-delay:.4s}
+.biz-loading-txt{font-size:11.5px;color:var(--ink3)}
+.biz-company-header{
+  display:flex;align-items:center;gap:10px;
+  padding:10px 0;margin-bottom:12px;
+  border-bottom:2px solid var(--border);
+}
+.biz-company-logo{
+  width:36px;height:36px;border-radius:8px;
+  background:linear-gradient(135deg,#1a56db,#7c3aed);
+  display:flex;align-items:center;justify-content:center;
+  font-size:16px;flex-shrink:0;
+}
+.biz-company-name{font-size:15px;font-weight:700;color:var(--ink);line-height:1.3}
+.biz-company-sub{font-size:11px;color:var(--ink3)}
+.biz-score-bar{
+  display:flex;align-items:center;gap:6px;
+  background:var(--bg);border-radius:6px;padding:8px 10px;margin-bottom:10px;
+}
+.biz-score-item{flex:1;text-align:center}
+.biz-score-num{font-size:16px;font-weight:700;color:var(--ink);font-family:var(--fd)}
+.biz-score-lbl{font-size:10px;color:var(--ink4);margin-top:1px}
+.biz-score-div{width:1px;background:var(--border);align-self:stretch}
+.biz-empty{text-align:center;padding:16px 0;color:var(--ink4);font-size:12px}
+.biz-stream-cursor{display:inline-block;width:2px;height:13px;background:var(--blue);animation:blink .8s infinite;vertical-align:middle;margin-left:1px}
+
+
+.ctab{user-select:none;position:relative}
+.ctab.dragging{opacity:.4;cursor:grabbing !important}
+.ctab.drag-over{background:rgba(212,39,29,.08);border-radius:var(--r2)}
+.nav-drag-hint{
+  font-size:10.5px;color:var(--ink4);padding:0 8px;
+  display:flex;align-items:center;gap:4px;flex-shrink:0;
+  border-left:1px solid var(--border);margin-left:4px;
+}
+.nav-drag-hint svg{width:11px;height:11px;opacity:.5}
+
+/* ── 今日机会面板 ────────────────────────────────────────── */
+#opp-panel{display:none;max-width:var(--mw);margin:0 auto;padding:20px 20px 0}
+#opp-panel.on{display:block}
+.opp-panel-header{
+  display:flex;align-items:center;justify-content:space-between;
+  margin-bottom:16px;
+}
+.opp-panel-title{
+  font-size:18px;font-weight:700;color:var(--ink);
+  display:flex;align-items:center;gap:8px;
+}
+.opp-panel-title::before{content:'';display:block;width:4px;height:20px;background:var(--red);border-radius:2px}
+.opp-region-tabs{
+  display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;
+  background:#fff;border:1px solid var(--border);border-radius:var(--r);
+  padding:4px;margin-bottom:16px;
+}
+.opp-region-tabs::-webkit-scrollbar{display:none}
+.opp-rtab{
+  display:flex;align-items:center;gap:5px;
+  padding:6px 12px;border-radius:6px;
+  font-size:12.5px;color:var(--ink3);
+  cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0;
+}
+.opp-rtab:hover{background:var(--bg);color:var(--ink)}
+.opp-rtab.on{background:var(--ink);color:#fff;font-weight:600}
+.opp-cat-tabs{display:flex;gap:6px;margin-bottom:16px;flex-wrap:wrap}
+.opp-ctab{
+  display:flex;align-items:center;gap:5px;
+  padding:6px 14px;border-radius:20px;
+  font-size:12.5px;cursor:pointer;
+  border:1.5px solid var(--border2);background:#fff;color:var(--ink3);
+  transition:all .15s;
+}
+.opp-ctab:hover{border-color:var(--red);color:var(--ink)}
+.opp-ctab.on{background:var(--ink);border-color:var(--ink);color:#fff;font-weight:600}
+.opp-ctab .oc-cnt{
+  background:rgba(212,39,29,.15);color:var(--red);
+  font-size:10px;font-weight:700;padding:1px 5px;border-radius:8px;
+  font-family:var(--fm);
+}
+.opp-ctab.on .oc-cnt{background:rgba(255,255,255,.2);color:#fff}
+.opp-stats{
+  display:flex;gap:20px;background:#fff;border:1px solid var(--border);
+  border-radius:var(--r);padding:14px 20px;margin-bottom:16px;flex-wrap:wrap;
+}
+.opp-stat{display:flex;flex-direction:column;gap:2px}
+.opp-stat-num{font-size:20px;font-weight:700;color:var(--ink);font-family:var(--fd)}
+.opp-stat-lbl{font-size:11px;color:var(--ink3);font-family:var(--fm)}
+.opp-stat-div{width:1px;background:var(--border);align-self:stretch}
+.opp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+@media(max-width:500px){.opp-grid{grid-template-columns:1fr}}
+.opp-card{
+  background:#fff;border:1px solid var(--border);border-radius:var(--r);
+  padding:16px;cursor:pointer;transition:all .2s;
+  animation:fu .3s ease both;
+}
+.opp-card:hover{border-color:var(--red);box-shadow:var(--sh2);transform:translateY(-2px)}
+.opp-card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.opp-badge{
+  font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;
+  letter-spacing:.4px;text-transform:uppercase;
+}
+.ob-job  {background:rgba(22,163,74,.1);color:#16a34a}
+.ob-house{background:rgba(26,86,219,.1);color:#1a56db}
+.ob-deal {background:rgba(194,65,12,.1);color:#c2410c}
+.ob-event{background:rgba(124,58,237,.1);color:#7c3aed}
+.opp-hot{font-size:11px;color:var(--red);display:flex;align-items:center;gap:2px}
+.opp-card-title{font-size:14px;font-weight:600;line-height:1.5;color:var(--ink);margin-bottom:5px}
+.opp-card-meta{font-size:11.5px;color:var(--ink3);margin-bottom:8px;display:flex;flex-direction:column;gap:2px}
+.opp-match{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+.opp-match-lbl{font-size:10px;font-family:var(--fm);color:var(--ink4);white-space:nowrap}
+.opp-match-bar{flex:1;height:3px;background:var(--bg);border-radius:2px;overflow:hidden}
+.opp-match-fill{height:100%;background:linear-gradient(90deg,var(--red),#e87070);border-radius:2px}
+.opp-match-num{font-size:10.5px;font-family:var(--fm);color:var(--red);font-weight:600}
+.opp-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:10px}
+.opp-tag{font-size:10.5px;background:var(--bg);color:var(--ink3);padding:2px 7px;border-radius:3px;border:1px solid var(--border2)}
+.opp-card-foot{
+  display:flex;justify-content:space-between;align-items:center;
+  border-top:1px solid var(--border);padding-top:10px;
+}
+.opp-src{font-size:11px;color:var(--ink4);font-family:var(--fm)}
+.opp-link{font-size:12px;font-weight:600;color:var(--red);display:flex;align-items:center;gap:3px}
+.opp-empty{text-align:center;padding:48px 16px;color:var(--ink3);background:#fff;border-radius:var(--r);border:1px solid var(--border)}
+.opp-loading{display:flex;justify-content:center;padding:48px;gap:6px}
+.opp-ldot{width:7px;height:7px;border-radius:50%;background:var(--red);animation:blink 1s infinite}
+.opp-ldot:nth-child(2){animation-delay:.2s}.opp-ldot:nth-child(3){animation-delay:.4s}
+
 </style>
 </head>
 <body>
@@ -511,7 +668,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
 <!-- ══ 分类导航 ═══════════════════════════════════════════ -->
 <nav id="nav">
-  <div class="nav-in">
+  <div class="nav-in" id="nav-tabs">
     <button class="ctab on" data-c="all"><span class="zh-only">全部</span><span class="en-only">All</span></button>
     <button class="ctab local-tab" data-c="local" id="local-tab" style="display:none"></button>
     <button class="ctab" data-c="时事"><span class="zh-only">时事</span><span class="en-only">News</span></button>
@@ -521,6 +678,9 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <button class="ctab" data-c="科技"><span class="zh-only">科技</span><span class="en-only">Tech</span></button>
     <button class="ctab" data-c="生活"><span class="zh-only">生活</span><span class="en-only">Life</span></button>
     <button class="ctab" data-c="旅游"><span class="zh-only">旅游</span><span class="en-only">Travel</span></button>
+    <button class="ctab" data-c="opportunities">
+      <span class="zh-only">今日机会</span><span class="en-only">Opportunities</span>
+    </button>
     <button class="ctab ctab-games" data-c="games">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
         <rect x="1" y="4" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.3"/>
@@ -572,14 +732,17 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   </main>
 
   <aside id="side">
+    <!-- 热门话题 -->
     <div class="scard">
       <div class="scard-hd"><span class="scard-dot" style="background:#d4271d"></span><span class="scard-title zh-only">热门话题</span><span class="scard-title en-only">Trending</span></div>
       <div style="padding:6px 0 8px"><ol id="hotl"></ol></div>
     </div>
+    <!-- 本地要闻 -->
     <div class="scard" id="local-news-side" style="display:none">
       <div class="scard-hd"><span class="scard-dot" style="background:var(--green)"></span><span class="scard-title" id="local-side-title">本地要闻</span></div>
       <div style="padding:6px 0 8px"><ol id="local-hot"></ol></div>
     </div>
+    <!-- 今日机会 -->
     <div class="scard">
       <div class="scard-hd"><span class="scard-dot" style="background:#1a56db"></span><span class="scard-title zh-only">今日机会</span><span class="scard-title en-only">Opportunities</span></div>
       <div id="opp-list">
@@ -589,9 +752,27 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
         <div class="opp-item"><div class="opp-ico">📈</div><div class="opp-info"><div class="opp-name zh-only">海外华人投资社群</div><div class="opp-name en-only">Overseas Chinese Investors</div><div class="opp-sub zh-only">财经 · 免费加入</div><div class="opp-sub en-only">Finance · Free to join</div></div><span class="badge badge-h">HOT</span></div>
       </div>
     </div>
-    <div class="scard">
-      <div class="scard-hd"><span class="scard-dot" style="background:#7c3aed"></span><span class="scard-title zh-only">今日更新</span><span class="scard-title en-only">Today's Update</span></div>
-      <div class="sg" id="sg"></div>
+    <!-- 💡 商业洞察（原今日更新位置）-->
+    <div class="scard" id="biz-insight-card">
+      <div class="scard-hd">
+        <span class="scard-dot" style="background:linear-gradient(135deg,#1a56db,#7c3aed)"></span>
+        <span class="scard-title zh-only">💡 商业洞察</span>
+        <span class="scard-title en-only">💡 Business Insights</span>
+        <span style="margin-left:auto;font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:3px;background:rgba(124,58,237,.1);color:#7c3aed;letter-spacing:.3px">AI</span>
+      </div>
+      <div style="padding:10px 14px 8px">
+        <div style="display:flex;gap:6px">
+          <input id="biz-input" type="text" placeholder="输入企业名，如 Apple、比亚迪…"
+            style="flex:1;height:30px;border:1px solid var(--border2);border-radius:6px;padding:0 10px;font-size:12px;font-family:var(--f);outline:none;background:var(--bg);color:var(--ink)"
+            onkeydown="if(event.key==='Enter')bizAnalyze()"
+          />
+          <button onclick="bizAnalyze()" id="biz-btn"
+            style="height:30px;padding:0 12px;background:var(--ink);color:#fff;border-radius:6px;font-size:12px;font-weight:600;white-space:nowrap"
+          >分析</button>
+        </div>
+        <div style="display:flex;gap:5px;flex-wrap:wrap;margin-top:8px" id="biz-quick-tags"></div>
+      </div>
+      <div id="biz-result" style="padding:0 14px 14px"></div>
     </div>
     <div class="scard">
       <div class="scard-hd"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
@@ -677,6 +858,36 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     </div>
     <div style="height:3rem"></div>
   </div>
+</div>
+
+<!-- ══ 今日机会面板 ═══════════════════════════════════════ -->
+<div id="opp-panel">
+  <div class="opp-panel-header">
+    <div class="opp-panel-title zh-only">今日机会</div>
+    <div class="opp-panel-title en-only">Today's Opportunities</div>
+    <div style="font-size:11px;color:var(--ink4);font-family:var(--fm)" id="opp-update-time"></div>
+  </div>
+
+  <!-- 地区选择 -->
+  <div class="opp-region-tabs" id="opp-region-tabs"></div>
+
+  <!-- 统计 -->
+  <div class="opp-stats">
+    <div class="opp-stat"><div class="opp-stat-num" id="opp-total">—</div><div class="opp-stat-lbl zh-only">今日机会</div><div class="opp-stat-lbl en-only">Today</div></div>
+    <div class="opp-stat-div"></div>
+    <div class="opp-stat"><div class="opp-stat-num" id="opp-jobs">—</div><div class="opp-stat-lbl zh-only">招聘</div><div class="opp-stat-lbl en-only">Jobs</div></div>
+    <div class="opp-stat-div"></div>
+    <div class="opp-stat"><div class="opp-stat-num" id="opp-house">—</div><div class="opp-stat-lbl zh-only">房产</div><div class="opp-stat-lbl en-only">Housing</div></div>
+    <div class="opp-stat-div"></div>
+    <div class="opp-stat"><div class="opp-stat-num" id="opp-deals">—</div><div class="opp-stat-lbl zh-only">优惠</div><div class="opp-stat-lbl en-only">Deals</div></div>
+  </div>
+
+  <!-- 分类筛选 -->
+  <div class="opp-cat-tabs" id="opp-cat-tabs"></div>
+
+  <!-- 卡片区 -->
+  <div id="opp-cards"></div>
+  <div style="height:4rem"></div>
 </div>
 
 <!-- ══ 弹窗 ════════════════════════════════════════════════ -->
@@ -895,9 +1106,11 @@ function renderLocalHot(){
 }
 
 function renderStats(pool){
+  const sg = $('#sg');
+  if (!sg) return;  // 今日更新模块已移除，跳过
   const ct=Object.fromEntries(CATS.map(c=>[c,0]));
   pool.forEach(a=>{if(ct[a.category]!==undefined)ct[a.category]++;});
-  $('#sg').innerHTML=CATS.map(c=>`<div class="sr"><span class="sn"><span class="sp" style="background:${COLS[c]}"></span>${c}</span><span class="sc">${ct[c]}</span></div>`).join('');
+  sg.innerHTML=CATS.map(c=>`<div class="sr"><span class="sn"><span class="sp" style="background:${COLS[c]}"></span>${c}</span><span class="sc">${ct[c]}</span></div>`).join('');
 }
 
 function updateBarLabel(){
@@ -1012,6 +1225,7 @@ function setRegion(id,el){
     localTab.innerHTML=`<span>${rg.flag}</span><span>${currentLang==='zh'?rg.zh+'本地':rg.en+' Local'}</span>`;
   }
   renderLocalHot();
+  oppSyncRegion(id);
   load(true);
 }
 
@@ -1277,7 +1491,7 @@ function doSearch(q){
 }
 
 /* ══ 工具函数 ════════════════════════════════════════════ */
-function goHome(){showGameMode(false);S.cat='all';S.sort='latest';syncTabActive('all');load(true);}
+function goHome(){showGameMode(false);showOppMode(false);S.cat='all';S.sort='latest';syncTabActive('all');load(true);}
 
 function syncTabActive(cat){
   document.querySelectorAll('button.ctab').forEach(b=>{
@@ -1306,8 +1520,9 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(!cat)return;
     document.querySelectorAll('button.ctab').forEach(x=>x.classList.remove('on'));
     b.classList.add('on');
-    if(cat==='games'){showGameMode(true);}
-    else{showGameMode(false);S.cat=cat;load(true);}
+    if(cat==='games'){showGameMode(true);showOppMode(false);}
+    else if(cat==='opportunities'){showOppMode(true);showGameMode(false);}
+    else{showGameMode(false);showOppMode(false);S.cat=cat;load(true);}
   }));
 
   // 排序
@@ -1353,7 +1568,612 @@ document.addEventListener('DOMContentLoaded',()=>{
 
   // 启动
   load(true);
+
+  // 商业洞察初始化
+  initBizInsight();
+
+  // ── 导航拖拽排序 ────────────────────────────────────────
+  initNavDrag();
+  restoreNavOrder();
 });
+
+/* ══ 商业洞察 AI 模块 ════════════════════════════════════ */
+
+const BIZ_QUICK = [
+  {name:'苹果 Apple', emoji:'🍎'},
+  {name:'英伟达 Nvidia', emoji:'🟢'},
+  {name:'比亚迪', emoji:'🚗'},
+  {name:'微软 Microsoft', emoji:'🪟'},
+  {name:'腾讯', emoji:'🐧'},
+  {name:'特斯拉 Tesla', emoji:'⚡'},
+  {name:'台积电 TSMC', emoji:'💾'},
+  {name:'Cloudflare', emoji:'🌐'},
+  {name:'OpenAI', emoji:'🤖'},
+  {name:'Xero', emoji:'📊'},
+];
+
+let bizAnalyzing = false;
+let bizDailyData = [];   // 今日自动生成的企业列表
+let bizCurrentIdx = 0;   // 当前展示第几家
+
+async function initBizInsight() {
+  // 渲染快捷标签
+  const shuffled = [...BIZ_QUICK].sort(() => Math.random() - 0.5).slice(0, 6);
+  document.getElementById('biz-quick-tags').innerHTML = shuffled.map(c => `
+    <span class="biz-quick-tag" onclick="bizAnalyzeCompany('${c.name}')">
+      ${c.emoji} ${c.name.split(' ')[0]}
+    </span>
+  `).join('');
+
+  // 优先加载今日自动生成数据
+  await loadDailyInsights();
+}
+
+async function loadDailyInsights() {
+  try {
+    const resp = await fetch('data/biz_insights.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('no file');
+    const data = await resp.json();
+    if (data.companies && data.companies.length > 0) {
+      bizDailyData = data.companies;
+      bizCurrentIdx = 0;
+
+      // 显示今日企业导航
+      renderDailyNav(data);
+
+      // 展示第一家
+      renderBizResult(bizDailyData[0]);
+      return;
+    }
+  } catch(e) {
+    // 文件不存在，fallback 到 AI 实时分析
+  }
+
+  // Fallback：自动分析一家默认企业
+  const defaults = ['Apple 苹果', 'NVIDIA 英伟达', '比亚迪 BYD', 'Cloudflare', 'Xero'];
+  bizAnalyzeCompany(defaults[Math.floor(Math.random() * defaults.length)]);
+}
+
+function renderDailyNav(data) {
+  const result = document.getElementById('biz-result');
+  const today  = data.date || new Date().toISOString().slice(0, 10);
+
+  // 在结果区上方插入今日导航条
+  const nav = document.createElement('div');
+  nav.id = 'biz-daily-nav';
+  nav.style.cssText = 'margin-bottom:10px';
+  nav.innerHTML = `
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:6px">
+      <span style="font-size:10.5px;color:var(--ink4);font-family:var(--fm)">📅 ${today} · ${data.total}家企业</span>
+      <div style="display:flex;gap:4px">
+        <button onclick="bizPrev()" style="width:22px;height:22px;border:1px solid var(--border2);border-radius:4px;font-size:11px;color:var(--ink3);background:var(--bg)">‹</button>
+        <button onclick="bizNext()" style="width:22px;height:22px;border:1px solid var(--border2);border-radius:4px;font-size:11px;color:var(--ink3);background:var(--bg)">›</button>
+      </div>
+    </div>
+    <div style="display:flex;gap:4px;flex-wrap:wrap" id="biz-company-dots">
+      ${data.companies.map((c, i) => `
+        <span onclick="bizShowIdx(${i})" id="biz-dot-${i}"
+          style="font-size:11px;padding:2px 7px;border-radius:4px;cursor:pointer;
+          background:${i===0?'var(--ink)':'var(--bg)'};
+          color:${i===0?'#fff':'var(--ink3)'};
+          border:1px solid ${i===0?'var(--ink)':'var(--border2)'};
+          white-space:nowrap;transition:all .15s"
+        >${c.emoji||'🏢'} ${(c.company||'').split(' ')[0]}</span>
+      `).join('')}
+    </div>
+  `;
+
+  // 插入到 result 前面
+  result.parentNode.insertBefore(nav, result);
+}
+
+function bizShowIdx(idx) {
+  if (!bizDailyData[idx]) return;
+  bizCurrentIdx = idx;
+
+  // 更新导航点高亮
+  document.querySelectorAll('[id^="biz-dot-"]').forEach((el, i) => {
+    const active = i === idx;
+    el.style.background = active ? 'var(--ink)' : 'var(--bg)';
+    el.style.color       = active ? '#fff' : 'var(--ink3)';
+    el.style.borderColor = active ? 'var(--ink)' : 'var(--border2)';
+  });
+
+  renderBizResult(bizDailyData[idx]);
+}
+
+function bizNext() {
+  if (bizDailyData.length === 0) return;
+  bizShowIdx((bizCurrentIdx + 1) % bizDailyData.length);
+}
+
+function bizPrev() {
+  if (bizDailyData.length === 0) return;
+  bizShowIdx((bizCurrentIdx - 1 + bizDailyData.length) % bizDailyData.length);
+}
+
+function bizAnalyze() {
+  const val = document.getElementById('biz-input').value.trim();
+  if (!val) return;
+  // 搜索时清除每日导航，显示实时分析结果
+  const nav = document.getElementById('biz-daily-nav');
+  if (nav) nav.style.display = 'none';
+  bizAnalyzeCompany(val);
+}
+
+async function bizAnalyzeCompany(company) {
+  if (bizAnalyzing) return;
+  bizAnalyzing = true;
+
+  document.getElementById('biz-input').value = company;
+  const btn = document.getElementById('biz-btn');
+  btn.disabled    = true;
+  btn.textContent = '分析中…';
+
+  const result = document.getElementById('biz-result');
+  result.innerHTML = `
+    <div class="biz-loading">
+      <div class="biz-loading-dots">
+        <div class="biz-ld"></div><div class="biz-ld"></div><div class="biz-ld"></div>
+      </div>
+      <div class="biz-loading-txt">AI 深度分析 ${esc(company)}…</div>
+    </div>`;
+
+  // 先检查每日 JSON 里有没有这家企业
+  const nameKey = company.split(' ')[0].toLowerCase();
+  const cached = bizDailyData.find(d =>
+    (d.company||'').toLowerCase().includes(nameKey) ||
+    (d.company_en||'').toLowerCase().includes(nameKey) ||
+    (d.source_query||'').toLowerCase().includes(nameKey)
+  );
+  if (cached) {
+    renderBizResult(cached);
+    bizAnalyzing = false;
+    btn.disabled = false;
+    btn.textContent = '分析';
+    return;
+  }
+
+  const prompt = `你是顶级商业分析师。对「${company}」进行深度分析，严格只返回JSON，不含任何其他文字：
+{"company":"企业名","company_en":"英文名","emoji":"emoji","tagline":"一句话定位15字内","industry":"行业","sub_industry":"细分赛道","founded":"年份","market_cap":"市值","employees":"员工规模","hq":"总部城市国家","revenue":"年营收","type":"hidden_champion或mega_tech或startup","scores":{"innovation":85,"growth":78,"moat":90,"global_reach":75},"tech_highlights":["技术亮点1（35字内含数据）","技术亮点2","技术亮点3"],"industry_position":"行业地位100字内含市场份额竞争壁垒","growth_story":"成长历程120字内含创始转折里程碑","biz_opportunities":["商业机会1（35字内）","商业机会2","商业机会3"],"research_insights":"产业研究洞察120字内含趋势产业链未来展望","why_matters_chinese":"与海外华人关联60字内就业投资生活","risks":["风险1（25字）","风险2"],"competitors":["对手1","对手2","对手3"],"tags":["标签1","标签2","标签3","标签4","标签5"]}`;
+
+  try {
+    // 通过 Cloudflare Worker 代理（避免 CORS）
+    // 如未配置 Worker，直接调用（仅在 HTTPS 域名下有效）
+    const apiUrl = window.location.protocol === 'https:'
+      ? 'https://api.anthropic.com/v1/messages'
+      : null;
+
+    if (!apiUrl) {
+      throw new Error('需要 HTTPS 环境');
+    }
+
+    const resp = await fetch(apiUrl, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 1500,
+        messages: [{role:'user', content: prompt}]
+      })
+    });
+    const data  = await resp.json();
+    const raw   = data.content?.map(b => b.text||'').join('') || '';
+    const start = raw.indexOf('{');
+    const end   = raw.lastIndexOf('}') + 1;
+    const d     = JSON.parse(raw.slice(start, end));
+    renderBizResult(d);
+  } catch(e) {
+    // API 不可用时显示提示
+    result.innerHTML = `
+      <div class="biz-empty" style="padding:16px;text-align:center">
+        <div style="font-size:13px;color:var(--ink3);margin-bottom:8px">
+          实时分析需在网站上使用<br>
+          <span style="font-size:11px;color:var(--ink4)">上传到 GitHub Pages 后即可正常使用</span>
+        </div>
+        <div style="font-size:11px;color:var(--ink4)">每日自动分析数据每天 8:30 更新</div>
+      </div>`;
+  } finally {
+    bizAnalyzing     = false;
+    btn.disabled     = false;
+    btn.textContent  = '分析';
+  }
+}
+
+function renderBizResult(d) {
+  const s = d.scores || {};
+  const typeLabels = {
+    hidden_champion: {zh:'隐形冠军', color:'#7c3aed'},
+    mega_tech:       {zh:'科技巨头', color:'#1a56db'},
+    startup:         {zh:'新兴企业', color:'#16a34a'},
+    china:           {zh:'中国企业', color:'var(--red)'},
+    transformation:  {zh:'转型标杆', color:'#c2410c'},
+  };
+  const tl = typeLabels[d.type] || {zh:'企业', color:'var(--ink3)'};
+
+  const scoreItem = (label, val, color) => `
+    <div class="biz-score-item">
+      <div class="biz-score-num" style="color:${color}">${val||'—'}</div>
+      <div class="biz-score-lbl">${label}</div>
+    </div>`;
+
+  document.getElementById('biz-result').innerHTML = `
+    <!-- 企业头部 -->
+    <div class="biz-company-header">
+      <div class="biz-company-logo">${d.emoji||'🏢'}</div>
+      <div style="flex:1;min-width:0">
+        <div class="biz-company-name">${esc(d.company||'')}</div>
+        <div class="biz-company-sub" style="display:flex;align-items:center;gap:5px;flex-wrap:wrap">
+          <span style="background:${tl.color}18;color:${tl.color};font-size:10px;font-weight:700;padding:1px 6px;border-radius:3px">${tl.zh}</span>
+          <span>${esc(d.industry||'')} · ${esc(d.hq||'')}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 关键数据 -->
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-bottom:10px">
+      ${[
+        ['📅 成立', d.founded],
+        ['💰 市值', d.market_cap],
+        ['👥 员工', d.employees],
+        ['📦 营收', d.revenue],
+      ].map(([l,v])=>`
+        <div style="background:var(--bg);border-radius:5px;padding:5px 8px">
+          <div style="font-size:10px;color:var(--ink4)">${l}</div>
+          <div style="font-size:12px;font-weight:600;color:var(--ink)">${esc(v||'—')}</div>
+        </div>`).join('')}
+    </div>
+
+    <!-- AI 四维评分 -->
+    <div class="biz-score-bar">
+      ${scoreItem('创新力', s.innovation, '#7c3aed')}
+      <div class="biz-score-div"></div>
+      ${scoreItem('成长性', s.growth, '#16a34a')}
+      <div class="biz-score-div"></div>
+      ${scoreItem('护城河', s.moat, '#1a56db')}
+      <div class="biz-score-div"></div>
+      ${scoreItem('全球化', s.global_reach, '#c2410c')}
+    </div>
+
+    <!-- ⚡ 技术亮点 -->
+    <div class="biz-section">
+      <div class="biz-section-title">⚡ 技术亮点</div>
+      <div class="biz-section-content">
+        ${(d.tech_highlights||[]).map((t,i)=>`
+          <div style="display:flex;gap:6px;margin-bottom:5px">
+            <span style="font-size:10px;font-weight:700;color:var(--blue);flex-shrink:0;margin-top:2px">${i+1}.</span>
+            <span>${esc(t)}</span>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <!-- 🏆 行业地位 -->
+    <div class="biz-section">
+      <div class="biz-section-title">🏆 行业地位</div>
+      <div class="biz-section-content">${esc(d.industry_position||'')}</div>
+      ${d.competitors?.length ? `
+        <div style="margin-top:6px;font-size:11px;color:var(--ink4)">
+          竞争对手：${d.competitors.map(c=>`<span style="color:var(--ink3)">${esc(c)}</span>`).join(' · ')}
+        </div>` : ''}
+    </div>
+
+    <!-- 📈 成长历程 -->
+    <div class="biz-section">
+      <div class="biz-section-title">📈 成长历程</div>
+      <div class="biz-section-content">${esc(d.growth_story||'')}</div>
+    </div>
+
+    <!-- 💰 商业机会 -->
+    <div class="biz-section">
+      <div class="biz-section-title">💰 商业机会</div>
+      <div class="biz-section-content">
+        ${(d.biz_opportunities||[]).map(o=>`
+          <div style="display:flex;gap:6px;margin-bottom:5px">
+            <span style="color:var(--green);font-weight:700;flex-shrink:0">✓</span>
+            <span>${esc(o)}</span>
+          </div>`).join('')}
+      </div>
+    </div>
+
+    <!-- 🔬 产业研究报告 -->
+    <div class="biz-section">
+      <div class="biz-section-title">🔬 产业研究报告</div>
+      <div class="biz-section-content">${esc(d.research_insights||'')}</div>
+    </div>
+
+    <!-- 🌏 与华人的关联 -->
+    ${d.why_matters_chinese ? `
+    <div class="biz-section">
+      <div class="biz-section-title">🌏 华人视角</div>
+      <div class="biz-section-content" style="background:rgba(22,163,74,.05);border-radius:6px;padding:8px 10px;border-left:3px solid var(--green)">
+        ${esc(d.why_matters_chinese)}
+      </div>
+    </div>` : ''}
+
+    <!-- ⚠️ 风险 -->
+    ${d.risks?.length ? `
+    <div class="biz-section">
+      <div class="biz-section-title">⚠️ 风险提示</div>
+      <div class="biz-tag-row">
+        ${d.risks.map(r=>`<span class="biz-tag red">${esc(r)}</span>`).join('')}
+      </div>
+    </div>` : ''}
+
+    <!-- 标签 -->
+    <div class="biz-tag-row" style="margin-top:8px">
+      ${(d.tags||[]).map((t,i)=>`
+        <span class="biz-tag ${['','green','purple','red',''][i%5]}">${esc(t)}</span>
+      `).join('')}
+    </div>
+
+    <div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--border);
+      font-size:10px;color:var(--ink4);text-align:center;display:flex;align-items:center;justify-content:center;gap:4px">
+      🤖 Claude AI 生成 · 仅供参考 · 不构成投资建议
+    </div>
+  `;
+}
+
+
+function initNavDrag(){
+  const nav = document.getElementById('nav-tabs');
+  let dragSrc = null, longPressTimer = null, isDragging = false;
+
+  nav.querySelectorAll('.ctab').forEach(tab => {
+    // 桌面长按 500ms 激活拖拽
+    tab.addEventListener('mousedown', () => {
+      longPressTimer = setTimeout(() => {
+        isDragging = true;
+        tab.setAttribute('draggable','true');
+        tab.classList.add('dragging');
+        dragSrc = tab;
+      }, 500);
+    });
+    tab.addEventListener('mouseup', () => {
+      clearTimeout(longPressTimer);
+    });
+    tab.addEventListener('mouseleave', () => {
+      clearTimeout(longPressTimer);
+    });
+    tab.addEventListener('dragstart', e => {
+      if (!isDragging){ e.preventDefault(); return; }
+      e.dataTransfer.effectAllowed = 'move';
+    });
+    tab.addEventListener('dragover', e => {
+      if (!isDragging) return;
+      e.preventDefault();
+      nav.querySelectorAll('.ctab').forEach(t => t.classList.remove('drag-over'));
+      if (tab !== dragSrc) tab.classList.add('drag-over');
+    });
+    tab.addEventListener('drop', e => {
+      e.preventDefault();
+      if (!dragSrc || tab === dragSrc) return;
+      const tabs = [...nav.querySelectorAll('.ctab')];
+      const fromIdx = tabs.indexOf(dragSrc);
+      const toIdx   = tabs.indexOf(tab);
+      if (fromIdx < toIdx) nav.insertBefore(dragSrc, tab.nextSibling);
+      else nav.insertBefore(dragSrc, tab);
+      nav.querySelectorAll('.ctab').forEach(t => t.classList.remove('drag-over'));
+    });
+    tab.addEventListener('dragend', () => {
+      isDragging = false;
+      tab.setAttribute('draggable','false');
+      tab.classList.remove('dragging');
+      nav.querySelectorAll('.ctab').forEach(t => t.classList.remove('drag-over'));
+      saveNavOrder();
+      dragSrc = null;
+    });
+  });
+}
+
+function saveNavOrder(){
+  const nav = document.getElementById('nav-tabs');
+  const order = [...nav.querySelectorAll('.ctab[data-c]')].map(t => t.dataset.c);
+  try { localStorage.setItem('k1980_nav_order', JSON.stringify(order)); } catch(e){}
+}
+
+function restoreNavOrder(){
+  try {
+    const saved = JSON.parse(localStorage.getItem('k1980_nav_order') || '[]');
+    if (!saved.length) return;
+    const nav = document.getElementById('nav-tabs');
+    saved.forEach(c => {
+      const tab = nav.querySelector(`.ctab[data-c="${c}"]`);
+      if (tab) nav.appendChild(tab);
+    });
+  } catch(e){}
+}
+
+/* ══ 今日机会模块 ════════════════════════════════════════ */
+const OPP = {
+  region: 'nz',
+  cat:    'all',
+  cards:  [],
+};
+
+const OPP_REGIONS = [
+  {id:'nz',flag:'🇳🇿',label:'新西兰'},
+  {id:'au',flag:'🇦🇺',label:'澳洲'},
+  {id:'ca',flag:'🇨🇦',label:'加拿大'},
+  {id:'us',flag:'🇺🇸',label:'美国'},
+  {id:'uk',flag:'🇬🇧',label:'英国'},
+  {id:'jp',flag:'🇯🇵',label:'日本'},
+  {id:'kr',flag:'🇰🇷',label:'韩国'},
+  {id:'sg',flag:'🇸🇬',label:'新加坡'},
+  {id:'my',flag:'🇲🇾',label:'马来西亚'},
+  {id:'id',flag:'🇮🇩',label:'印尼'},
+];
+
+// 与主网站区域同步
+function oppSyncRegion(regionId){
+  const map = {global:'nz',nz:'nz',au:'au',ca:'ca',us:'us',gb:'uk',jp:'jp',kr:'kr',sg:'sg',my:'my',id:'id'};
+  OPP.region = map[regionId] || 'nz';
+  if(document.getElementById('opp-panel').classList.contains('on')) loadOppData();
+}
+
+function showOppMode(on){
+  document.getElementById('main-layout').classList.toggle('hidden', on);
+  document.getElementById('game-panel').classList.remove('on');
+  document.getElementById('opp-panel').classList.toggle('on', on);
+  if(on){
+    renderOppRegionTabs();
+    loadOppData();
+  }
+}
+
+function renderOppRegionTabs(){
+  const container = document.getElementById('opp-region-tabs');
+  container.innerHTML = OPP_REGIONS.map(r => `
+    <div class="opp-rtab ${r.id===OPP.region?'on':''}" onclick="switchOppRegion('${r.id}')">
+      ${r.flag} ${r.label}
+    </div>
+  `).join('');
+}
+
+function switchOppRegion(regionId){
+  OPP.region = regionId;
+  OPP.cat = 'all';
+  renderOppRegionTabs();
+  loadOppData();
+}
+
+function loadOppData(){
+  document.getElementById('opp-cards').innerHTML = `
+    <div class="opp-loading">
+      <div class="opp-ldot"></div><div class="opp-ldot"></div><div class="opp-ldot"></div>
+    </div>`;
+
+  // 尝试从 GitHub Pages data/ 目录加载真实数据
+  fetch(`data/services_${OPP.region}.json`)
+    .then(r => r.ok ? r.json() : null)
+    .then(data => {
+      if(data && data.services && data.services.length){
+        OPP.cards = data.services;
+      } else {
+        OPP.cards = getOppMockData(OPP.region);
+      }
+      renderOppStats();
+      renderOppCatTabs();
+      renderOppCards();
+      const now = new Date();
+      document.getElementById('opp-update-time').textContent =
+        `更新于 ${now.getHours()}:${String(now.getMinutes()).padStart(2,'0')}`;
+    })
+    .catch(() => {
+      OPP.cards = getOppMockData(OPP.region);
+      renderOppStats();
+      renderOppCatTabs();
+      renderOppCards();
+    });
+}
+
+function renderOppStats(){
+  const c = OPP.cards;
+  document.getElementById('opp-total').textContent = c.length;
+  document.getElementById('opp-jobs').textContent  = c.filter(x=>x.type==='job').length;
+  document.getElementById('opp-house').textContent = c.filter(x=>x.type==='house').length;
+  document.getElementById('opp-deals').textContent = c.filter(x=>x.type==='deal').length;
+}
+
+function renderOppCatTabs(){
+  const c = OPP.cards;
+  const counts = {
+    all: c.length,
+    job: c.filter(x=>x.type==='job').length,
+    house: c.filter(x=>x.type==='house').length,
+    deal: c.filter(x=>x.type==='deal').length,
+    event: c.filter(x=>x.type==='event').length,
+  };
+  const cats = [
+    {id:'all',icon:'✦',zh:'全部',en:'All'},
+    {id:'job',icon:'💼',zh:'招聘',en:'Jobs'},
+    {id:'house',icon:'🏠',zh:'房产',en:'Housing'},
+    {id:'deal',icon:'🎁',zh:'优惠',en:'Deals'},
+    {id:'event',icon:'📅',zh:'活动',en:'Events'},
+  ].filter(cat => counts[cat.id] > 0);
+
+  document.getElementById('opp-cat-tabs').innerHTML = cats.map(cat => `
+    <div class="opp-ctab ${cat.id===OPP.cat?'on':''}" onclick="switchOppCat('${cat.id}')">
+      ${cat.icon} <span class="zh-only">${cat.zh}</span><span class="en-only">${cat.en}</span>
+      <span class="oc-cnt">${counts[cat.id]}</span>
+    </div>
+  `).join('');
+}
+
+function switchOppCat(cat){
+  OPP.cat = cat;
+  renderOppCatTabs();
+  renderOppCards();
+}
+
+function renderOppCards(){
+  const filtered = OPP.cat==='all' ? OPP.cards : OPP.cards.filter(c=>c.type===OPP.cat);
+  const container = document.getElementById('opp-cards');
+  if(!filtered.length){
+    container.innerHTML = `<div class="opp-empty">📭 <br>暂无该类别信息</div>`;
+    return;
+  }
+  const badgeClass = {job:'ob-job',house:'ob-house',deal:'ob-deal',event:'ob-event'};
+  const typeLabel  = {job:'招聘',house:'房产',deal:'优惠',event:'活动'};
+  const sorted = [...filtered].sort((a,b)=>(b.score||0)-(a.score||0));
+  container.innerHTML = `<div class="opp-grid">${sorted.map(card=>`
+    <div class="opp-card" onclick="window.open('${esc(card.link||'#')}','_blank','noopener')">
+      <div class="opp-card-top">
+        <span class="opp-badge ${badgeClass[card.type]||'ob-job'}">${typeLabel[card.type]||card.type}</span>
+        ${card.hot?'<span class="opp-hot">🔥 热门</span>':''}
+      </div>
+      <div class="opp-card-title">${esc(card.title)}</div>
+      <div class="opp-card-meta">
+        ${card.summary?`<span>📄 ${esc(card.summary.slice(0,60))}${card.summary.length>60?'…':''}</span>`:''}
+      </div>
+      <div class="opp-match">
+        <span class="opp-match-lbl zh-only">匹配度</span>
+        <div class="opp-match-bar"><div class="opp-match-fill" style="width:${card.score||75}%"></div></div>
+        <span class="opp-match-num">${card.score||75}%</span>
+      </div>
+      <div class="opp-tags">${(card.tags||[]).map(t=>`<span class="opp-tag">${esc(t)}</span>`).join('')}</div>
+      <div class="opp-card-foot">
+        <span class="opp-src">📡 ${esc(card.source||'')} · ${esc(card.ago||'今日')}</span>
+        <span class="opp-link"><span class="zh-only">查看</span><span class="en-only">View</span> →</span>
+      </div>
+    </div>
+  `).join('')}</div>`;
+}
+
+function getOppMockData(region){
+  const data = {
+    nz:[
+      {type:'job',title:'软件工程师 — Auckland CBD',summary:'Fisher & Paykel Healthcare 诚聘',score:94,tags:['全职','Tech','签证支持'],source:'seek.co.nz',link:'https://seek.co.nz',hot:true,ago:'2小时前'},
+      {type:'job',title:'注册护士 (RN) — 多个职位',summary:'Auckland DHB，NZD $65k–$85k',score:88,tags:['医疗','NZRN认证'],source:'trademe.co.nz',link:'https://trademe.co.nz',hot:false,ago:'4小时前'},
+      {type:'house',title:'3房独立屋出租 — Botany $650/周',summary:'华人业主，近学校，有停车位',score:91,tags:['华人业主','近学校'],source:'trademe.co.nz',link:'https://trademe.co.nz',hot:true,ago:'1小时前'},
+      {type:'deal',title:'Countdown 华人食材5折优惠',summary:'泡面/酱油/冻饺子等，本周特惠',score:79,tags:['本周特惠'],source:'countdown.co.nz',link:'https://countdown.co.nz',hot:false,ago:'今日'},
+      {type:'event',title:'奥克兰华人社区活动',summary:'本月社区交流，免费入场',score:82,tags:['免费','家庭友好'],source:'eventfinda.co.nz',link:'https://eventfinda.co.nz',hot:false,ago:'昨日发布'},
+    ],
+    au:[
+      {type:'job',title:'Data Analyst — Sydney CBD',summary:'Commonwealth Bank，AUD $85k–$110k',score:91,tags:['全职','金融'],source:'seek.com.au',link:'https://seek.com.au',hot:true,ago:'1小时前'},
+      {type:'house',title:'2B1B公寓 Box Hill出租 $380/周',summary:'华人区，近火车站，全新装修',score:93,tags:['华人区','近火车站'],source:'domain.com.au',link:'https://domain.com.au',hot:true,ago:'30分前'},
+      {type:'deal',title:'OzBargain今日精选 — Switch游戏史低',summary:'$39（原$79），JB Hi-Fi限时',score:76,tags:['限时','库存有限'],source:'ozbargain.com.au',link:'https://ozbargain.com.au',hot:true,ago:'45分前'},
+    ],
+    ca:[
+      {type:'job',title:'中文客服 — Vancouver',summary:'跨国企业，CAD $45k–$55k',score:85,tags:['普通话','全职'],source:'indeed.ca',link:'https://indeed.ca',hot:false,ago:'今日'},
+      {type:'deal',title:'RedflagDeals 今日精选',summary:'电子产品/生活用品折扣',score:74,tags:['限时'],source:'redflagdeals.com',link:'https://redflagdeals.com',hot:false,ago:'今日'},
+    ],
+    us:[
+      {type:'job',title:'Software Engineer — Los Angeles',summary:'科技公司，$120k–$160k',score:90,tags:['H1B','Tech'],source:'indeed.com',link:'https://indeed.com',hot:true,ago:'2小时前'},
+      {type:'deal',title:'SlickDeals 每日精选',summary:'美国最新折扣优惠汇总',score:72,tags:['限时'],source:'slickdeals.net',link:'https://slickdeals.net',hot:false,ago:'今日'},
+    ],
+    uk:[
+      {type:'job',title:'中文内容编辑 — London',summary:'媒体公司，£35k–£45k',score:86,tags:['普通话','全职'],source:'reed.co.uk',link:'https://reed.co.uk',hot:false,ago:'3小时前'},
+      {type:'deal',title:'HotUKDeals 本周热门',summary:'英国最新折扣优惠',score:71,tags:['本周'],source:'hotukdeals.com',link:'https://hotukdeals.com',hot:false,ago:'今日'},
+    ],
+    sg:[
+      {type:'job',title:'Product Manager — Fintech',summary:'GrabPay，SGD $7k–$12k/月',score:95,tags:['Tech','EP'],source:'mycareersfuture.sg',link:'https://mycareersfuture.gov.sg',hot:true,ago:'1小时前'},
+      {type:'house',title:'2BR公寓出租 — Bishan MRT旁 $3,200/月',summary:'交通便利，华人多',score:89,tags:['交通便利'],source:'propertyguru.com.sg',link:'https://propertyguru.com.sg',hot:true,ago:'2小时前'},
+    ],
+  };
+  return data[region] || data['nz'].map(d=>({...d,title:`${region.toUpperCase()} — ${d.title}`}));
+}
+
+
 </script>
 </body>
 </html>
