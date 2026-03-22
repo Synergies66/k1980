@@ -1777,24 +1777,27 @@ async function initJingwei() {
       <div class="jw-dots">
         <div class="jw-ld"></div><div class="jw-ld"></div><div class="jw-ld"></div>
       </div>
-      <div class="jw-loading-txt">AI 正在生成深度内容…</div>
+      <div class="jw-loading-txt">加载今日深度报道…</div>
     </div>`;
 
-  // 先尝试加载每日生成的文章
   try {
-    const resp = await fetch('data/jingwei.json?t=' + Date.now());
-    if (resp.ok) {
-      const data = await resp.json();
-      if (data.articles && data.articles.length) {
-        jwArticles = data.articles;
-        renderJingwei();
-        return;
-      }
+    const resp = await fetch('data/jingwei.json?t=' + new Date().toDateString().replace(/ /g,''));
+    if (!resp.ok) throw new Error('no file');
+    const data = await resp.json();
+    if (data.articles && data.articles.length) {
+      jwArticles = data.articles;
+      renderJingwei();
+      return;
     }
   } catch(e) {}
 
-  // 实时生成
-  await generateJingwei();
+  // JSON 还没生成时显示占位
+  list.innerHTML = `
+    <div style="padding:16px 16px;font-size:12.5px;color:var(--ink3);line-height:1.7">
+      <div style="font-weight:600;color:var(--ink);margin-bottom:6px">每日深度报道</div>
+      今日内容将于每天上午更新，涵盖宏观经济、产业洞察、移民政策深度分析。
+      <div style="margin-top:10px;font-size:11px;color:var(--ink4)">首次运行请在 GitHub Actions 手动触发「经纬专栏每日生成」</div>
+    </div>`;
 }
 
 async function generateJingwei() {
