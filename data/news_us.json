@@ -1,9 +1,83 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-22T08:27:59.260346+00:00",
-  "total": 28,
+  "updated_at": "2026-03-22T10:56:53.816142+00:00",
+  "total": 20,
   "articles": [
+    {
+      "id": "806a8d3b0a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Cortina d'Ampezzo mixes Olympic legacy with Alpine glamour",
+      "summary": "Cortina d'Ampezzo, the \"Pearl of the Dolomites,\" is a blend of Olympic heritage with celebrity chic, fine dining and Alpine tradition, even as climate change and new tourism reshape the area.",
+      "link": "https://www.npr.org/2026/03/22/nx-s1-5726237/cortina-olympic-legacy-alpine-glamour",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1774173600.0,
+      "hot": false
+    },
+    {
+      "id": "7d107c1405",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How the Supreme Court Could Change Voting by Mail",
+      "summary": "The Supreme Court is ruling on whether ballots received after Election Day should be disqualified. Our national politics reporter Nick Corasaniti explains how a Supreme Court ruling could affect hundr",
+      "link": "https://www.nytimes.com/video/us/elections/100000010785480/how-the-supreme-court-could-change-voting-by-mail.html",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774170054.0,
+      "hot": false
+    },
+    {
+      "id": "444f46ad46",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Supreme Court Could Make it Harder to Vote by Mail in the Midterms",
+      "summary": "The Republican National Committee wants to toss ballots arriving after Election Day. Critics say thousands of votes — a majority cast by Democrats — are at stake.",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/the-supreme-court-could-make-it-harder-to-vote-by-mail-in-the-midterms.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22pol-scotusballot-jlqb/22pol-scotusballot-jlqb-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774170053.0,
+      "hot": false
+    },
+    {
+      "id": "8ae2764390",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Mullin Explored Bipartisan Deal to Rein in Immigration Crackdown",
+      "summary": "The G.O.P. senator President Trump chose to lead the Department of Homeland Security privately discussed concessions the White House has repeatedly rejected.",
+      "link": "https://www.nytimes.com/2026/03/21/us/politics/markwayne-mullin-bipartisan-immigration-deal.html",
+      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-MULLIN-hglk/21DC-MULLIN-hglk-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "9小时前",
+      "pub_ts": 1774142419.0,
+      "hot": false
+    },
     {
       "id": "e4bf9bb9ef",
       "type": "news",
@@ -17,8 +91,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "15分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774167146.0,
       "hot": false
     },
@@ -35,8 +109,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "21分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774166758.0,
       "hot": false
     },
@@ -53,8 +127,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "23分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774166656.0,
       "hot": false
     },
@@ -72,63 +146,27 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "27分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774166400.0,
       "hot": false
     },
     {
-      "id": "8ae2764390",
+      "id": "e6a9b4aee2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Mullin Explored Bipartisan Deal to Rein in Immigration Crackdown",
-      "summary": "The G.O.P. senator President Trump chose to lead the Department of Homeland Security privately discussed concessions the White House has repeatedly rejected.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/markwayne-mullin-bipartisan-immigration-deal.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-MULLIN-hglk/21DC-MULLIN-hglk-mediumSquareAt3X.jpg",
+      "title": "As War Disrupts India’s Gulf Ties, Economy Faces ‘New Broadside’",
+      "summary": "Generations of Indian workers and businesses have turned the Arab side of the Gulf into a vital appendage of their own country.",
+      "link": "https://www.nytimes.com/2026/03/22/business/india-economy-middle-east.html",
+      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/Biz-Iran-India-Gulf-01-fklz/Biz-Iran-India-Gulf-01-fklz-mediumSquareAt3X.jpg",
       "categories": [
-        "移民"
+        "经济"
       ],
-      "score": 70,
-      "ago": "7小时前",
-      "pub_ts": 1774142419.0,
-      "hot": false
-    },
-    {
-      "id": "50edb9cd94",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Robert Mueller, Former FBI Director Who Led Trump Inquiry, Dies at 81",
-      "summary": "He imposed the most significant overhaul of the F.B.I. in its history. Later, after concluding that Russia had interfered in the 2016 election, he became a target of the president’s anger.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/robert-s-mueller-dead.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21OBTMueller-ftvj/21OBTMueller-ftvj-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774155461.0,
-      "hot": false
-    },
-    {
-      "id": "522ce72217",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Reaction to Mueller’s Death: ‘Good, I’m Glad.’",
-      "summary": "The president has been known to disparage foes after their deaths. His response to Mr. Mueller’s death drew criticism from Republicans and Democrats.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/trump-mueller-death.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-TRUMP-MUELLER-kvjf/21DC-TRUMP-MUELLER-kvjf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774147502.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774154558.0,
       "hot": false
     },
     {
@@ -145,8 +183,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774143279.0,
+      "hot": false
+    },
+    {
+      "id": "8717d53134",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "News Outlets Pressure Pentagon to Restore Access After Court Ruling",
+      "summary": "A federal judge ruled on Friday that key parts of the Pentagon’s press policy were unconstitutional.",
+      "link": "https://www.nytimes.com/2026/03/21/business/media/pentagon-press-access.html",
+      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21BIZ-PENTAGON-PRESS-gblh/21BIZ-PENTAGON-PRESS-gblh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1774140153.0,
       "hot": false
     },
     {
@@ -163,26 +219,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1774129668.0,
-      "hot": false
-    },
-    {
-      "id": "d204f00b92",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What Was the Mueller Investigation? And What Did It Find?",
-      "summary": "The appointment of Robert S. Mueller III as special counsel to conduct an investigation related to a sitting president roiled Washington around the start of President Trump’s first term.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/robert-mueller-trump-russia-fbi-investigation.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21xp-mueller-investigation-vkjb/21xp-mueller-investigation-vkjb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774129426.0,
       "hot": false
     },
     {
@@ -200,7 +238,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1774129243.0,
       "hot": false
     },
@@ -218,8 +256,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1774127908.0,
+      "hot": false
+    },
+    {
+      "id": "b4c0de6ca0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Corey Lewandowski Wielded Power Inside D.H.S.",
+      "summary": "While he was supposed to serve in a limited role as an adviser to Kristi Noem, Mr. Lewandowski had wide influence over contracts, personnel and operations inside the agency over the last year.",
+      "link": "https://www.nytimes.com/2026/03/21/us/politics/corey-lewandowski-noem-dhs.html",
+      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21dc-corey-01-lwmc/21dc-corey-01-lwmc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "15小时前",
+      "pub_ts": 1774122524.0,
       "hot": false
     },
     {
@@ -236,26 +292,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "16小时前",
       "pub_ts": 1774115876.0,
-      "hot": false
-    },
-    {
-      "id": "a865626ef0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Internet Blackout Keeps Iranians From Reaching Loved Ones During Nowruz Holiday",
-      "summary": "The current restrictions on the internet in Iran are coinciding with Nowruz, the observance of the Persian New Year.",
-      "link": "https://www.nytimes.com/2026/03/21/world/middleeast/iran-war-nowruz-internet-blackout.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21israel-iran-nowruz-jflm/21israel-iran-nowruz-jflm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1774114102.0,
       "hot": false
     },
     {
@@ -272,7 +310,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1774112160.0,
       "hot": false
     },
@@ -290,26 +328,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1774100052.0,
-      "hot": false
-    },
-    {
-      "id": "24c2153c9b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Opinion: Lessons from a bad weather forecast",
-      "summary": "Residents in and around Washington braced themselves for damaging storms earlier this week, but turns out it was a forecast flop. One local meteorologist apologized.",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5747945/opinion-lessons-from-a-bad-weather-forecast",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1774094400.0,
       "hot": false
     },
     {
@@ -326,170 +346,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "21小时前",
+      "ago": "23小时前",
       "pub_ts": 1774090800.0,
-      "hot": false
-    },
-    {
-      "id": "b37ac26770",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran war enters its fourth week with no clear end in sight",
-      "summary": "As the war in the Middle East enters its fourth week, President Trump says the U.S. is considering \"winding down\" military efforts, as it also seeks to ease the energy crisis by lifting sanctions on I",
-      "link": "https://www.npr.org/2026/03/21/nx-s1-5755539/iran-war-fourth-week",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1774086203.0,
-      "hot": false
-    },
-    {
-      "id": "b8c8389415",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Look at the Escalating Battle for the Strait of Hormuz",
-      "summary": "There are several ways the United States could attempt to reopen the waterway, all of which carry substantial risks.",
-      "link": "https://www.nytimes.com/2026/03/20/us/politics/battle-for-strait-of-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/20dc-strait-explainer-01-jklt/20dc-strait-explainer-01-jklt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774050851.0,
-      "hot": false
-    },
-    {
-      "id": "012aa3af66",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "Some on-air claims about Dominion Voting Systems were false, Fox News acknowledges in statement afte",
-      "summary": "",
-      "link": "https://www.cnn.com/business/live-news/fox-news-dominion-trial-04-18-23/index.html",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230418164538-02-dominion-fox-trial-settlement-0418-super-169.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "1067天前",
-      "pub_ts": 1681908291.0,
-      "hot": false
-    },
-    {
-      "id": "8e27e61fd4",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "Judge in Fox News-Dominion defamation trial: 'The parties have resolved their case'",
-      "summary": "The judge just announced in court that a settlement has been reached in the historic defamation case between Fox News and Dominion Voting Systems.",
-      "link": "https://www.cnn.com/2023/04/18/media/fox-dominion-settlement/index.html",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230418112020-02-delaware-fox-dominion-trial-court-exterior-0418-super-169.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "1067天前",
-      "pub_ts": 1681892897.0,
-      "hot": false
-    },
-    {
-      "id": "04177b3b30",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "White homeowner accused of shooting a Black teen who rang his doorbell turns himself in to face crim",
-      "summary": "• 'A major part of Ralph died': Aunt of teen shot after ringing wrong doorbell speaks\n• 20-year-old woman shot after friend turned into the wrong driveway in upstate New York, officials say",
-      "link": "https://www.cnn.com/2023/04/18/us/kansas-city-ralph-yarl-shooting-tuesday/index.html",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230417181520-03b-ralph-yarl-cropped-super-169.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "1068天前",
-      "pub_ts": 1681878545.0,
-      "hot": false
-    },
-    {
-      "id": "66365beec2",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "'Difficult to say with a straight face': Tapper reacts to Fox News' statement on settlement",
-      "summary": "A settlement has been reached in Dominion Voting Systems' defamation case against Fox News, the judge for the case announced. The network will pay more than $787 million to Dominion, a lawyer for the",
-      "link": "https://www.cnn.com/videos/politics/2023/04/18/jake-tapper-dominion-lawsuit-settlement-fox-news-statement-lead-vpx.cnn",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230418164748-tapper-smile-vpx-super-169.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "1068天前",
-      "pub_ts": 1681852664.0,
-      "hot": false
-    },
-    {
-      "id": "649187cf4b",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "Millions in the US could face massive consequences unless McCarthy can navigate out of a debt trap h",
-      "summary": "• DeSantis goes to Washington, a place he once despised, looking for support to take on Trump\n• Opinion: For the GOP to win, it must ditch Trump\n• Chris Christie mulling 2024 White House bid\n• Analysi",
-      "link": "https://www.cnn.com/2023/04/18/politics/mccarthy-biden-debt-ceiling/index.html",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230417222359-mccarthy-biden-debt-ceiling-042023-super-169.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "1068天前",
-      "pub_ts": 1681850085.0,
-      "hot": false
-    },
-    {
-      "id": "da7af64cde",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "Newly released video shows scene of Jeremy Renner's snowplow accident",
-      "summary": "Newly released body camera footage shows firefighters and sheriff's deputies rushing to help actor Jeremy Renner after a near-fatal snowplow accident in January. The \"Avengers\" actor broke more than 3",
-      "link": "https://www.cnn.com/videos/us/2023/04/18/jeremy-renner-snowplow-accident-bodycam-nc-melas-contd-vpx.cnn",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230418093916-jeremy-renner-snowplow-body-cam-super-169.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "1068天前",
-      "pub_ts": 1681826983.0,
-      "hot": false
-    },
-    {
-      "id": "76afcf233c",
-      "type": "news",
-      "region": "us",
-      "source": "CNN 头条",
-      "lang": "en",
-      "title": "Here are the 20 specific Fox broadcasts and tweets Dominion says were defamatory",
-      "summary": "• Fox-Dominion trial delay 'is not unusual,' judge says\n• Fox News' defamation battle isn't stopping Trump's election lies",
-      "link": "https://www.cnn.com/2023/04/17/media/dominion-fox-news-allegations/index.html",
-      "image": "https://cdn.cnn.com/cnnnext/dam/assets/230416140110-maria-bartiromo-file-020823-restricted-super-169.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "1069天前",
-      "pub_ts": 1681747271.0,
       "hot": false
     },
     {
