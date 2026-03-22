@@ -154,7 +154,7 @@ svg{display:block;flex-shrink:0}
 .layout{max-width:var(--mw);margin:0 auto;padding:20px 20px 0;display:grid;grid-template-columns:1fr 272px;gap:20px;align-items:start}
 @media(max-width:880px){.layout{grid-template-columns:1fr}#side{display:none}}
 @media(max-width:500px){.layout{padding:14px 14px 0}}
-.layout.hidden{display:none}
+.layout.hidden{display:none !important}
 
 /* ── 今日头条大卡 ────────────────────────────────────────── */
 #hero{background:var(--surface);border-radius:var(--r);box-shadow:var(--sh);padding:22px 24px;margin-bottom:3px;cursor:pointer;display:none;border-left:4px solid var(--red);transition:box-shadow .2s,transform .15s;position:relative}
@@ -269,7 +269,7 @@ svg{display:block;flex-shrink:0}
 
 /* ── 游戏中心面板 ────────────────────────────────────────── */
 #game-panel{display:none;max-width:var(--mw);margin:0 auto;padding:20px 20px 0}
-#game-panel.on{display:block}
+#game-panel.on{display:block !important}
 .game-subnav{display:flex;align-items:center;gap:4px;padding-bottom:14px;border-bottom:1px solid var(--border);margin-bottom:18px}
 .gstab{display:flex;align-items:center;gap:7px;height:32px;padding:0 16px;border-radius:var(--r2);font-size:13px;font-weight:400;color:var(--ink3);transition:all .15s;white-space:nowrap}
 .gstab svg{width:14px;height:14px}
@@ -471,7 +471,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 
 /* ── 今日机会面板 ────────────────────────────────────────── */
 #opp-panel{display:none;max-width:var(--mw);margin:0 auto;padding:20px 20px 0}
-#opp-panel.on{display:block}
+#opp-panel.on{display:block !important}
 .opp-panel-header{
   display:flex;align-items:center;justify-content:space-between;
   margin-bottom:16px;
@@ -678,9 +678,6 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <button class="ctab" data-c="科技"><span class="zh-only">科技</span><span class="en-only">Tech</span></button>
     <button class="ctab" data-c="生活"><span class="zh-only">生活</span><span class="en-only">Life</span></button>
     <button class="ctab" data-c="旅游"><span class="zh-only">旅游</span><span class="en-only">Travel</span></button>
-    <button class="ctab" data-c="opportunities">
-      <span class="zh-only">今日机会</span><span class="en-only">Opportunities</span>
-    </button>
     <button class="ctab ctab-games" data-c="games">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
         <rect x="1" y="4" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.3"/>
@@ -746,10 +743,10 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <div class="scard">
       <div class="scard-hd"><span class="scard-dot" style="background:#1a56db"></span><span class="scard-title zh-only">今日机会</span><span class="scard-title en-only">Opportunities</span></div>
       <div id="opp-list">
-        <div class="opp-item"><div class="opp-ico">💼</div><div class="opp-info"><div class="opp-name zh-only">奥克兰招聘产品经理</div><div class="opp-name en-only">Auckland PM Role</div><div class="opp-sub zh-only">科技公司 · 全职</div><div class="opp-sub en-only">Tech · Full-time</div></div><span class="badge badge-n">NEW</span></div>
-        <div class="opp-item"><div class="opp-ico">🛒</div><div class="opp-info"><div class="opp-name zh-only">跨境电商合作项目</div><div class="opp-name en-only">Cross-border E-commerce</div><div class="opp-sub zh-only">华人商业 · 合伙</div><div class="opp-sub en-only">Business · Partnership</div></div><span class="badge badge-h">HOT</span></div>
-        <div class="opp-item"><div class="opp-ico">🏠</div><div class="opp-info"><div class="opp-name zh-only">悉尼华人社区活动</div><div class="opp-name en-only">Sydney Community Event</div><div class="opp-sub zh-only">社区 · 本周六</div><div class="opp-sub en-only">Community · This Sat</div></div><span class="badge badge-n">NEW</span></div>
-        <div class="opp-item"><div class="opp-ico">📈</div><div class="opp-info"><div class="opp-name zh-only">海外华人投资社群</div><div class="opp-name en-only">Overseas Chinese Investors</div><div class="opp-sub zh-only">财经 · 免费加入</div><div class="opp-sub en-only">Finance · Free to join</div></div><span class="badge badge-h">HOT</span></div>
+        <div class="opp-item" onclick="window.open('https://www.seek.co.nz/jobs/in-auckland','_blank')"><div class="opp-ico">💼</div><div class="opp-info"><div class="opp-name zh-only">奥克兰招聘产品经理</div><div class="opp-name en-only">Auckland PM Role</div><div class="opp-sub zh-only">科技公司 · 全职</div><div class="opp-sub en-only">Tech · Full-time</div></div><span class="badge badge-n">NEW</span></div>
+        <div class="opp-item" onclick="window.open('https://www.trademe.co.nz/a/marketplace/business-farming-industry/business-for-sale','_blank')"><div class="opp-ico">🛒</div><div class="opp-info"><div class="opp-name zh-only">跨境电商合作项目</div><div class="opp-name en-only">Cross-border E-commerce</div><div class="opp-sub zh-only">华人商业 · 合伙</div><div class="opp-sub en-only">Business · Partnership</div></div><span class="badge badge-h">HOT</span></div>
+        <div class="opp-item" onclick="window.open('https://www.eventfinda.co.nz/all-events/sydney','_blank')"><div class="opp-ico">🏠</div><div class="opp-info"><div class="opp-name zh-only">悉尼华人社区活动</div><div class="opp-name en-only">Sydney Community Event</div><div class="opp-sub zh-only">社区 · 本周六</div><div class="opp-sub en-only">Community · This Sat</div></div><span class="badge badge-n">NEW</span></div>
+        <div class="opp-item" onclick="window.open('https://www.facebook.com/groups/chineseinvestorsnz','_blank')"><div class="opp-ico">📈</div><div class="opp-info"><div class="opp-name zh-only">海外华人投资社群</div><div class="opp-name en-only">Overseas Chinese Investors</div><div class="opp-sub zh-only">财经 · 免费加入</div><div class="opp-sub en-only">Finance · Free to join</div></div><span class="badge badge-h">HOT</span></div>
       </div>
     </div>
     <!-- 💡 商业洞察（原今日更新位置）-->
@@ -836,6 +833,11 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
               <div class="opp-info"><div class="opp-name zh-only">福运麻将馆</div><div class="opp-name en-only">Mahjong</div><div class="opp-sub zh-only">四人麻将 · 立即开局</div><div class="opp-sub en-only">4-player · Play now</div></div>
               <span style="font-size:12px;color:var(--ink4)">›</span>
             </div>
+            <div class="opp-item" onclick="openGame('doudizhu.html')">
+              <div class="opp-ico">🃏</div>
+              <div class="opp-info"><div class="opp-name zh-only">欢乐斗地主</div><div class="opp-name en-only">Dou Di Zhu</div><div class="opp-sub zh-only">三人对战 · 立即开局</div><div class="opp-sub en-only">3-player · Play now</div></div>
+              <span style="font-size:12px;color:var(--ink4)">›</span>
+            </div>
           </div>
         </div>
       </aside>
@@ -852,7 +854,17 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
           <div class="gc-hint zh-only">↗ 新标签页全屏游玩</div><div class="gc-hint en-only">↗ Opens in new tab</div>
         </div>
       </div>
-      <div class="gc coming"><div class="gc-cover-soon">🃏</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)" data-zh="斗地主" data-en="Dou Di Zhu">斗地主</div><div class="gc-desc" style="color:var(--ink4)" data-zh="敬请期待" data-en="Coming soon">敬请期待</div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
+      <div class="gc" onclick="openGame('doudizhu.html')">
+        <div class="gc-cover" style="background:linear-gradient(135deg,#c0392b,#922b21);display:flex;align-items:center;justify-content:center;gap:8px">
+          <span style="font-size:36px">🃏</span>
+        </div>
+        <div class="gc-info">
+          <div class="gc-name zh-only">欢乐斗地主</div><div class="gc-name en-only">Dou Di Zhu</div>
+          <div class="gc-desc zh-only">三人对战 · 叫地主 · 经典玩法</div><div class="gc-desc en-only">3-player · Classic landlord game</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag en-only">Single</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag free en-only">Free</span></div><button class="gc-play">▶ <span class="zh-only">开局</span><span class="en-only">Play</span></button></div>
+          <div class="gc-hint zh-only">↗ 新标签页全屏游玩</div><div class="gc-hint en-only">↗ Opens in new tab</div>
+        </div>
+      </div>
       <div class="gc coming"><div class="gc-cover-soon">♟️</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">中国象棋</span><span class="en-only">Chinese Chess</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
       <div class="gc coming"><div class="gc-cover-soon">🎲</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">骰子游戏</span><span class="en-only">Dice Game</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
     </div>
@@ -916,9 +928,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <div class="footer-links">
       <a href="https://www.k1980.app" target="_blank" rel="noopener">🌐 www.k1980.app</a>
       <span class="footer-sep">·</span>
-      <a href="/cdn-cgi/l/email-protection#5139343d3d3e113a606869617f302121">✉️ <span class="__cf_email__" data-cfemail="d5bdb0b9b9ba95bee4ecede5fbb4a5a5">[email&#160;protected]</span></a>
-      <span class="footer-sep">·</span>
-      <a href="admin.html">⚙️ <span class="zh-only">管理后台</span><span class="en-only">Admin</span></a>
+      <a href="mailto:hello@k1980.app">✉️ hello@k1980.app</a>
     </div>
     <div class="footer-policy zh-only">
       本站资讯仅供参考，不代表任何政治立场。涉及地区争议及政治人物的报道均客观呈现，不作评价。
@@ -1097,12 +1107,39 @@ function renderHot(pool){
 function renderLocalHot(){
   const news=LOCAL_NEWS[currentRegion]||[];
   const sideEl=$('#local-news-side');
-  if(!news.length||currentRegion==='global'){sideEl.style.display='none';return;}
-  sideEl.style.display='block';
-  const rg=REGIONS[currentRegion];
-  $('#local-side-title').textContent=currentLang==='zh'?rg.zh+'本地要闻':rg.en+' Local';
-  $('#local-hot').innerHTML=news.slice(0,3).map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
-  $('#local-hot').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>openM(news.find(a=>String(a.id)===el.dataset.id))));
+  if(!news.length||currentRegion==='global'){sideEl.style.display='none';}
+  else {
+    sideEl.style.display='block';
+    const rg=REGIONS[currentRegion];
+    $('#local-side-title').textContent=currentLang==='zh'?rg.zh+'本地要闻':rg.en+' Local';
+    $('#local-hot').innerHTML=news.slice(0,3).map((a,i)=>`<li class="hot-item" data-id="${a.id}"><span class="hn ${['a','b','c'][i]||''}">${i+1}</span><span class="ht">${esc(a.title)}</span></li>`).join('');
+    $('#local-hot').querySelectorAll('.hot-item').forEach(el=>el.addEventListener('click',()=>openM(news.find(a=>String(a.id)===el.dataset.id))));
+  }
+  // 动态加载今日机会
+  loadSidebarOpps();
+}
+
+async function loadSidebarOpps(){
+  const regionMap = {global:'nz',nz:'nz',au:'au',ca:'ca',us:'us',gb:'uk',jp:'jp',kr:'kr',sg:'sg',my:'my',id:'id'};
+  const r = regionMap[currentRegion] || 'nz';
+  try {
+    const resp = await fetch(`data/services_${r}.json`);
+    if(!resp.ok) return;
+    const data = await resp.json();
+    const items = (data.services||[]).slice(0,4);
+    if(!items.length) return;
+    const typeIcon = {job:'💼',house:'🏠',deal:'🎁',event:'📅'};
+    $('#opp-list').innerHTML = items.map(item=>`
+      <div class="opp-item" onclick="window.open('${esc(item.link||'#')}','_blank','noopener')">
+        <div class="opp-ico">${typeIcon[item.type]||'📌'}</div>
+        <div class="opp-info">
+          <div class="opp-name">${esc(item.title.slice(0,22))}${item.title.length>22?'…':''}</div>
+          <div class="opp-sub">${esc(item.source||'')} · ${esc(item.ago||'今日')}</div>
+        </div>
+        <span class="badge ${item.hot?'badge-h':'badge-n'}">${item.hot?'HOT':'NEW'}</span>
+      </div>
+    `).join('');
+  } catch(e) { /* 保持静态数据 */ }
 }
 
 function renderStats(pool){
@@ -1443,9 +1480,21 @@ function switchGamePanel(id){
 function openGame(src){window.open(src,'_blank','noopener');}
 
 function showGameMode(on){
-  $('#main-layout').classList.toggle('hidden',on);
-  $('#game-panel').classList.toggle('on',on);
-  if(on&&GS.arts.length===0)loadGNews(true);
+  const mainLayout = document.getElementById('main-layout');
+  const oppPanel   = document.getElementById('opp-panel');
+  const gamePanel  = document.getElementById('game-panel');
+  // 双重保险：class + inline style
+  mainLayout.classList.toggle('hidden', on);
+  mainLayout.style.display = on ? 'none' : '';
+  oppPanel.style.display   = 'none';
+  if(on){
+    gamePanel.classList.add('on');
+    gamePanel.style.display = 'block';
+    if(GS.arts.length===0) loadGNews(true);
+  } else {
+    gamePanel.classList.remove('on');
+    gamePanel.style.display = 'none';
+  }
 }
 
 /* ══ 弹窗 ════════════════════════════════════════════════ */
@@ -1734,8 +1783,41 @@ async function bizAnalyzeCompany(company) {
     return;
   }
 
-  const prompt = `你是顶级商业分析师。对「${company}」进行深度分析，严格只返回JSON，不含任何其他文字：
-{"company":"企业名","company_en":"英文名","emoji":"emoji","tagline":"一句话定位15字内","industry":"行业","sub_industry":"细分赛道","founded":"年份","market_cap":"市值","employees":"员工规模","hq":"总部城市国家","revenue":"年营收","type":"hidden_champion或mega_tech或startup","scores":{"innovation":85,"growth":78,"moat":90,"global_reach":75},"tech_highlights":["技术亮点1（35字内含数据）","技术亮点2","技术亮点3"],"industry_position":"行业地位100字内含市场份额竞争壁垒","growth_story":"成长历程120字内含创始转折里程碑","biz_opportunities":["商业机会1（35字内）","商业机会2","商业机会3"],"research_insights":"产业研究洞察120字内含趋势产业链未来展望","why_matters_chinese":"与海外华人关联60字内就业投资生活","risks":["风险1（25字）","风险2"],"competitors":["对手1","对手2","对手3"],"tags":["标签1","标签2","标签3","标签4","标签5"]}`;
+  const prompt = `你是一位有深度、有温度的商业观察作家，擅长把复杂的商业故事写得引人入胜。请对「${company}」进行一次深度报道式的企业洞察，不要写维基百科式的干燥词条，要像《哈佛商业评论》或《财新》的特稿一样有质感。
+
+严格只返回JSON，不含任何其他文字：
+{
+  "company": "企业标准名称",
+  "company_en": "英文名",
+  "emoji": "最代表该企业的emoji",
+  "tagline": "一句有力量的定位语（15字内，不要说废话）",
+  "industry": "所属行业",
+  "sub_industry": "细分赛道",
+  "founded": "创立年份",
+  "market_cap": "当前市值或估值",
+  "employees": "员工规模",
+  "hq": "总部城市，国家",
+  "revenue": "年营收（估算）",
+  "type": "hidden_champion或mega_tech或startup或china或transformation之一",
+  "scores": {"innovation": 85, "growth": 78, "moat": 90, "global_reach": 75},
+  "tech_highlights": [
+    "用一句话说清楚这项技术有多厉害，要有具体数字和类比，让普通人也能感受到震撼（40字内）",
+    "同上，第二个技术亮点",
+    "同上，第三个技术亮点"
+  ],
+  "industry_position": "这家公司在行业里处于什么位置？它的护城河是什么？竞争对手为什么学不来？要有具体数据和生动比喻，150字内",
+  "growth_story": "这家公司是怎么从零走到今天的？有哪些关键决策或者险些失败的时刻？讲一个真实有温度的故事，150字内",
+  "biz_opportunities": [
+    "对海外华人来说，这家公司意味着什么机会？就业/投资/合作，要具体说清楚（40字内）",
+    "第二个机会点",
+    "第三个机会点"
+  ],
+  "research_insights": "从产业角度看，这家公司处于一个什么样的大趋势里？未来3-5年会发生什么？对整个行业意味着什么？写出你的真实判断，不要泛泛而谈，150字内",
+  "why_matters_chinese": "为什么海外华人应该关注这家公司？对我们的生活、工作、投资有什么具体影响？80字内，要落地",
+  "risks": ["最值得警惕的风险1（说清楚为什么，30字内）", "风险2"],
+  "competitors": ["对手1", "对手2", "对手3"],
+  "tags": ["标签1", "标签2", "标签3", "标签4", "标签5"]
+}`;
 
   try {
   const apiUrl = 'https://k1980-ai.gwkgd6828n.workers.dev';
@@ -2003,9 +2085,12 @@ function oppSyncRegion(regionId){
 }
 
 function showOppMode(on){
-  document.getElementById('main-layout').classList.toggle('hidden', on);
-  document.getElementById('game-panel').classList.remove('on');
-  document.getElementById('opp-panel').classList.toggle('on', on);
+  const mainLayout = document.getElementById('main-layout');
+  const gamePanel  = document.getElementById('game-panel');
+  const oppPanel   = document.getElementById('opp-panel');
+  mainLayout.classList.toggle('hidden', on);
+  gamePanel.classList.remove('on');
+  oppPanel.style.display = on ? 'block' : 'none';
   if(on){
     renderOppRegionTabs();
     loadOppData();
