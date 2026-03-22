@@ -1248,7 +1248,7 @@ async function translateArticle(a) {
   TX.pending.add(a.id);
   try {
     const texts = [a.title, a.summary||'', a.content||a.summary||''].join('\n|||SPLIT|||\n');
-    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+    const resp = await fetch('https://k1980-ai.gwkgd6828n.workers.dev', {
       method: 'POST',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
@@ -1738,15 +1738,7 @@ async function bizAnalyzeCompany(company) {
 {"company":"企业名","company_en":"英文名","emoji":"emoji","tagline":"一句话定位15字内","industry":"行业","sub_industry":"细分赛道","founded":"年份","market_cap":"市值","employees":"员工规模","hq":"总部城市国家","revenue":"年营收","type":"hidden_champion或mega_tech或startup","scores":{"innovation":85,"growth":78,"moat":90,"global_reach":75},"tech_highlights":["技术亮点1（35字内含数据）","技术亮点2","技术亮点3"],"industry_position":"行业地位100字内含市场份额竞争壁垒","growth_story":"成长历程120字内含创始转折里程碑","biz_opportunities":["商业机会1（35字内）","商业机会2","商业机会3"],"research_insights":"产业研究洞察120字内含趋势产业链未来展望","why_matters_chinese":"与海外华人关联60字内就业投资生活","risks":["风险1（25字）","风险2"],"competitors":["对手1","对手2","对手3"],"tags":["标签1","标签2","标签3","标签4","标签5"]}`;
 
   try {
-    // 通过 Cloudflare Worker 代理（避免 CORS）
-    // 如未配置 Worker，直接调用（仅在 HTTPS 域名下有效）
-    const apiUrl = window.location.protocol === 'https:'
-      ? 'https://api.anthropic.com/v1/messages'
-      : null;
-
-    if (!apiUrl) {
-      throw new Error('需要 HTTPS 环境');
-    }
+  const apiUrl = 'https://k1980-ai.gwkgd6828n.workers.dev';
 
     const resp = await fetch(apiUrl, {
       method: 'POST',
