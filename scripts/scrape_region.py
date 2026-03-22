@@ -259,7 +259,8 @@ def fetch_rss(url, name, limit=8):
     if not can_fetch(url): return []
     try:
         feed    = feedparser.parse(url, agent=BOT_UA,
-                    request_headers={'Accept-Language':'zh-CN,zh;q=0.9,en;q=0.8'})
+                    request_headers={'Accept-Language':'zh-CN,zh;q=0.9,en;q=0.8'},
+                    handlers=[])
         entries = feed.entries[:limit]
         if entries: print(f'  ✅ {name}: {len(entries)}条')
         else:       print(f'  ⚠️  {name}: 无数据')
@@ -307,7 +308,7 @@ def scrape(region):
                 'pub_ts':     time.mktime(pub) if pub else 0,
                 'hot':        any(k in title.lower() for k in ['breaking','alert','重大','突发','紧急']),
             })
-        time.sleep(1.5)
+        time.sleep(0.8)
 
     news = dedupe(news)
     news.sort(key=lambda x: (x['score'], x['pub_ts']), reverse=True)
@@ -337,7 +338,7 @@ def scrape(region):
                 'pub_ts':      time.mktime(pub) if pub else 0,
                 'hot':         any(k in title.lower() for k in ['urgent','急招','限时','hot']),
             })
-        time.sleep(1.5)
+        time.sleep(0.8)
 
     svcs = dedupe(svcs)
     svcs.sort(key=lambda x: (x['score'], x['pub_ts']), reverse=True)
