@@ -2,13 +2,13 @@ name: AI Content Update
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '15 * * * *'
   workflow_dispatch:
 
 jobs:
   ai-update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout code
@@ -20,9 +20,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install supabase requests
+        run: pip install requests
 
-      - name: Run AI script
+      - name: Run content engine
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
