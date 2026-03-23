@@ -1,4 +1,4 @@
-name: 生活模块
+name: 商业模块
 on:
   schedule:
     - cron: '40 2/2 * * *'
@@ -15,7 +15,7 @@ jobs:
       - run: |
           pip install httpx supabase anthropic requests feedparser beautifulsoup4
           cp core_engine.py fetchers/core_engine.py
-      - name: 生活模块
+      - name: 商业模块
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}

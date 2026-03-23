@@ -1,56 +1,62 @@
 #!/usr/bin/env python3
 """
-k1980.app Â· ãçæ´»ãæ¨¡å
-æµ·å¤åäººç¤¾åºãå¥åº·ãè´­ç©ãçæ´»èµè®¯
-ç¬ç«è¿è¡ï¼æéä¸å½±åå¶ä»æ¨¡å
+k1980.app · 【商业】模块
+企业动态、产品发布、科技公司、商业报道
+独立运行，故障不影响其他模块
 """
 from fetchers.core_engine import run_module
 
 SOURCES = [
     {
-        "name": "Google News åäººç¤¾åº",
-        "url": "https://news.google.com/rss/search?q=Chinese+American+community+news&hl=en-US&gl=US&ceid=US:en",
-        "category": "çæ´»",
+        "name": "Google News 科技企业",
+        "url": "https://news.google.com/rss/search?q=tech+company+product+launch+startup&hl=en-US&gl=US&ceid=US:en",
+        "category": "商业",
         "language": "en",
     },
     {
-        "name": "Google News åç¾çæ´»",
-        "url": "https://news.google.com/rss/search?q=%E6%B5%B7%E5%A4%96%E5%8D%8E%E4%BA%BA+%E7%94%9F%E6%B4%BB+%E7%A4%BE%E5%8C%BA&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-        "category": "çæ´»",
+        "name": "Google News 华人商业",
+        "url": "https://news.google.com/rss/search?q=%E5%8D%8E%E4%BA%BA+%E5%95%86%E4%B8%9A+%E4%BC%81%E4%B8%9A&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+        "category": "商业",
         "language": "zh",
     },
     {
-        "name": "Google News ç¾å½å»ç",
-        "url": "https://news.google.com/rss/search?q=US+healthcare+insurance+cost&hl=en-US&gl=US&ceid=US:en",
-        "category": "çæ´»",
+        "name": "Google News 企业并购",
+        "url": "https://news.google.com/rss/search?q=merger+acquisition+corporate+deal+billion&hl=en-US&gl=US&ceid=US:en",
+        "category": "商业",
         "language": "en",
     },
     {
-        "name": "Google News æ¶è´¹ç©ä»·",
-        "url": "https://news.google.com/rss/search?q=inflation+consumer+price+cost+of+living+US&hl=en-US&gl=US&ceid=US:en",
-        "category": "çæ´»",
+        "name": "Google News 产品发布",
+        "url": "https://news.google.com/rss/search?q=product+launch+new+release+apple+google+microsoft&hl=en-US&gl=US&ceid=US:en",
+        "category": "商业",
+        "language": "en",
+    },
+    {
+        "name": "Google News 创业融资",
+        "url": "https://news.google.com/rss/search?q=startup+funding+venture+capital+series+round&hl=en-US&gl=US&ceid=US:en",
+        "category": "商业",
         "language": "en",
     },
 ]
 
 INSTRUCTIONS = """
-- è´´è¿æµ·å¤åäººæ¥å¸¸çæ´»ï¼å»çä¿é©ãè¶å¸ç©ä»·ãé©¾ç§ãæ¢è¯ãç¨å¡å¸¸è¯
-- ç¤¾åºå®å¨äºä»¶ï¼æ¶åäºè£/åäººçï¼è¦æ¥éä½æªè¾è°¨æï¼ä¸æ¸²æææ
-- éè´§è¨è/çæ´»ææ¬åå®¹èç³»å·ä½ç©ä»·ï¼é£åãæ²¹ä»·ãæ¿ç§ï¼
-- å¥åº·ç±»ä¿¡æ¯è¦æ³¨æãå»ºè®®å¨è¯¢å»çãï¼ä¸åå»çå»ºè®®
-- è¯­æ°è½»æ¾ï¼è´´è¿çæ´»ï¼éå½ä½¿ç¨ãå±ä»¬ããå¤§å®¶ãç­äº²åç§°è°
+- 专注企业、产品、科技商业报道，读者为海外华人商界人士和从业者
+- 涉及具体公司时，说明公司规模、业务范围、与华人社区的关联
+- 产品发布类：突出功能亮点、定价、上市时间、对华人用户的影响
+- 融资并购类：说明金额、投资方、战略意义
+- 语气专业客观，像《福布斯》或《彭博商业周刊》风格
 
-ç¼è¾ååï¼ææåå®¹å¿é¡»éµå®ï¼ï¼
-- ä¸¥æ ¼ä¿ææ¿æ²»ä¸­ç«ï¼ä¸å¯¹ä»»ä½æ¿æ²»äººç©ãæ¿åææ¿åºåè¡¨ä¸ªäººè¯ä»·æç«åº
-- å°åºä¸»æäºè®®ãé¢åäºç«¯ï¼åæ¬ä½ä¸éäºï¼å°æµ·ãåæµ·ãåä»ç±³å°ãå·´ä»¥å²çªç­ï¼ä»å®¢è§éè¿°åæ¹ç«åºï¼ä¸è¡¨è¾¾å¾å
-- ä¸ä½¿ç¨å¸¦ææ¿æ²»å¾åçå½¢å®¹è¯æä¿®è¾ï¼å¦"éæ³"ã"æ­£ä¹"ã"éªæ¶"ç­ä»·å¼å¤æ­è¯æ±
-- æ¶åæ¿æ²»ææäºä»¶åªæ¥éäºå®ï¼åçäºä»ä¹ãå½±åæ¯ä»ä¹ï¼ä¸ä½åå å½åæéå¾·è¯å¤
-- å¦åæè§ç¹é²æï¼æ¹åæ¶åªä¿çäºå®é¨åï¼å é¤ç«åºè¡¨è¾¾
+编辑规范（所有内容必须遵守）：
+- 严格保持政治中立，不对任何政治人物、政党或政府表个人评价或立场
+- 地区主权争议、领土争端（包括但不限于：台海、南海、巴以冲突等），仅客观陈述各方立场，不表达倾向
+- 不使用带有政治倾向的形容词或修辞，如"非法"、"正义"、"邪恶"等价值判断词汇
+- 涉及政治敏感事件只报道事实，发生了什么、影响是什么，不作道德评判
+- 如含观点性内容，删改时只保留事实部分，删除立场表达
 """
 
 if __name__ == "__main__":
     run_module(
-        category="çæ´»",
+        category="商业",
         sources=SOURCES,
         custom_instructions=INSTRUCTIONS,
         max_items_per_source=5,
