@@ -1,4 +1,4 @@
-name: æåæ¾³é¨æ°æ®
+name: Ã¦ÂÂÃ¥ÂÂÃ¦Â¾Â³Ã©ÂÂ¨Ã¦ÂÂ°Ã¦ÂÂ®
 on:
   schedule:
     - cron: '15 */4 * * *'
@@ -13,12 +13,12 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests feedparser beautifulsoup4
-      - name: æåæ¾³é¨
+      - name: Ã¦ÂÂÃ¥ÂÂÃ¦Â¾Â³Ã©ÂÂ¨
         timeout-minutes: 3
-        run: timeout 150 python scripts/scrape_region.py mo 2>/dev/null || echo "è·³è¿"
-      - name: æäº¤
+        run: timeout 150 python scripts/scrape_region.py mo 2>/dev/null || echo "Ã¨Â·Â³Ã¨Â¿Â"
+      - name: Ã¦ÂÂÃ¤ÂºÂ¤
         run: |
           git config --global user.name "K1980 Bot"
           git config --global user.email "bot@k1980.com"
           git add data/
-          git diff --staged --quiet || (git commit -m "ð° æ¾³é¨æ°æ®æ´æ° $(date '+%Y-%m-%d %H:%M')" && git fetch origin main && git reset --hard HEAD && git pull origin main --strategy=ours --no-rebase 2>/dev/null || true && git push origin main --force-with-lease)
+          git diff --staged --quiet || (git commit -m "Ã°ÂÂÂ° Ã¦Â¾Â³Ã©ÂÂ¨Ã¦ÂÂ°Ã¦ÂÂ®Ã¦ÂÂ´Ã¦ÂÂ° $(date '+%Y-%m-%d %H:%M')" && git fetch origin main && git reset --hard HEAD && git pull origin main --strategy=ours --no-rebase 2>/dev/null || true && git push origin main --force-with-lease)
