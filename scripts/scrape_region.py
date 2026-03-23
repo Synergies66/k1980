@@ -33,13 +33,13 @@ NEWS_SOURCES = {
         {'name':'RNZ 政治',     'url':'https://www.rnz.co.nz/rss/political.xml',                                    'lang':'en'},
         {'name':'1News TVNZ',   'url':'https://www.1news.co.nz/rss',                                                'lang':'en'},
     ],
-    'au': [
+   'au': [
         {'name':'ABC News AU',  'url':'https://www.abc.net.au/news/feed/51120/rss.xml',                             'lang':'en'},
         {'name':'SBS 中文',     'url':'https://www.sbs.com.au/language/chinese/rss',                               'lang':'zh'},
-        {'name':'SBS News',     'url':'https://www.sbs.com.au/news/feed',                                           'lang':'en'},
         {'name':'Guardian AU',  'url':'https://www.theguardian.com/australia-news/rss',                             'lang':'en'},
-        {'name':'SMH',          'url':'https://www.smh.com.au/rss/feed.xml',                                        'lang':'en'},
-        {'name':'The Age',      'url':'https://www.theage.com.au/rss/feed.xml',                                     'lang':'en'},
+        {'name':'Sydney Morning Herald','url':'https://www.smh.com.au/rss/feed.xml',                                'lang':'en'},
+        {'name':'澳洲星岛',     'url':'https://www.singtao.com.au/feed/',                                           'lang':'zh'},
+        {'name':'澳洲日报',     'url':'https://www.ausnews.com.au/feed',                                   'lang':'en'},
     ],
     'us': [
         {'name':'NPR News',     'url':'https://feeds.npr.org/1001/rss.xml',                                         'lang':'en'},
@@ -55,11 +55,14 @@ NEWS_SOURCES = {
         {'name':'The Guardian', 'url':'https://www.theguardian.com/uk/rss',                                         'lang':'en'},
         {'name':'Reuters',      'url':'https://feeds.reuters.com/reuters/UKTopNews',                                 'lang':'en'},
     ],
-    'ca': [
+   'ca': [
         {'name':'CBC 头条',     'url':'https://www.cbc.ca/cmlink/rss-topstories',                                   'lang':'en'},
         {'name':'CBC 温哥华',   'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                       'lang':'en'},
         {'name':'CBC 多伦多',   'url':'https://www.cbc.ca/cmlink/rss-canada-toronto',                               'lang':'en'},
-        {'name':'明报加西',     'url':'https://www.mingpaocanada.com/rss/van/rss.xml',                              'lang':'zh'},
+        {'name':'Globe Mail',   'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',     'lang':'en'},
+        {'name':'Toronto Star', 'url':'https://www.thestar.com/content/thestar/feed.RSSManagerServlet.topstories.rss','lang':'en'},
+        {'name':'星岛加拿大',   'url':'https://www.singtao.ca/feed/',                                               'lang':'zh'},
+                        'lang':'zh'},
     ],
     'jp': [
         {'name':'NHK 日本',     'url':'https://www3.nhk.or.jp/rss/news/cat0.xml',                                   'lang':'ja'},
