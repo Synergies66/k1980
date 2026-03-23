@@ -1,4 +1,4 @@
-name: 抓取加拿大数据
+name: æåå æ¿å¤§æ°æ®
 on:
   schedule:
     - cron: '30 */4 * * *'
@@ -13,12 +13,12 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests feedparser beautifulsoup4
-      - name: 抓取加拿大
+      - name: æåå æ¿å¤§
         timeout-minutes: 3
-        run: timeout 150 python scripts/scrape_region.py ca 2>/dev/null || echo "跳过"
-      - name: 提交
+        run: timeout 150 python scripts/scrape_region.py ca 2>/dev/null || echo "è·³è¿"
+      - name: æäº¤
         run: |
           git config --global user.name "K1980 Bot"
           git config --global user.email "bot@k1980.com"
           git add data/
-          git diff --staged --quiet || (git commit -m "📰 加拿大数据更新 $(date '+%Y-%m-%d %H:%M')" && git pull origin main --rebase --strategy-option=theirs && git push origin main)
+          git diff --staged --quiet || (git commit -m "ð° å æ¿å¤§æ°æ®æ´æ° $(date '+%Y-%m-%d %H:%M')" && git fetch origin main && git reset --hard HEAD && git pull origin main --strategy=ours --no-rebase 2>/dev/null || true && git push origin main --force-with-lease)
