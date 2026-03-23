@@ -3158,11 +3158,18 @@ async function initJingwei() {
     </div>`;
 
   try {
-    const resp = await fetch('data/jingwei.json?t=' + new Date().toDateString().replace(/ /g,''));
-    if (!resp.ok) throw new Error('no file');
-    const data = await resp.json();
-    if (data.articles && data.articles.length) {
-      jwArticles = data.articles;
+    const r = await fetch(`${CFG.URL}/rest/v1/news_articles?is_jingwei=eq.true&is_published=eq.true&order=created_at.desc&limit=6`,
+      {headers:{"apikey":CFG.KEY,"Authorization":"Bearer "+CFG.KEY}});
+    const arts = await r.json();
+    if (arts && arts.length) {
+      const tagMap = {"宏观经济":{color:"#c2410c",bg:"rgba(194,65,12,.08)"},
+        "产业洞察":{color:"#7c3aed",bg:"rgba(124,58,237,.08)"},
+        "移民经济":{color:"#0891b2",bg:"rgba(8,145,178,.08)"}};
+      jwArticles = arts.map(a => {
+        const t = tagMap[a.category] || {color:"#444",bg:"rgba(0,0,0,.06)"};
+        return {...a, tag: a.category, color: t.color, bg: t.bg,
+          body: a.content, date: a.created_at ? a.created_at.slice(0,10) : ''};
+      });
       renderJingwei();
       return;
     }
