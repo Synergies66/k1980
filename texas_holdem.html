@@ -45,13 +45,16 @@
   }
   #top-controls { display:flex; gap:7px; align-items:center; }
   .ctrl-btn {
-    background: rgba(201,168,76,0.1); border: 1px solid var(--gold-dark);
-    color: var(--gold); padding: 4px 10px; border-radius: 4px; cursor: pointer;
-    font-family: 'Cinzel', serif; font-size: 0.58rem; letter-spacing: 0.08em;
+    background: rgba(10,6,0,0.82); border: 1.5px solid var(--gold-dark);
+    color: var(--gold-light); padding: 5px 12px; border-radius: 5px; cursor: pointer;
+    font-family: 'Cinzel', serif; font-size: 0.62rem; letter-spacing: 0.08em;
+    font-weight: 700; text-shadow: 0 1px 4px rgba(0,0,0,0.9);
     transition: all 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.7);
   }
-  .ctrl-btn:hover { background: rgba(201,168,76,0.22); }
-  .ctrl-btn.active { background: rgba(201,168,76,0.28); border-color: var(--gold); }
+  .ctrl-btn:hover { background: rgba(201,168,76,0.25); border-color: var(--gold); color:#fff; }
+  .ctrl-btn.active { background: rgba(20,12,0,0.88); border-color: var(--gold); color: var(--gold-light); }
+  .ctrl-btn.inactive { background: rgba(10,6,0,0.75); border-color: rgba(201,168,76,0.3); color: rgba(201,168,76,0.45); }
 
   /* TABLE AREA */
   #table-wrapper {
@@ -305,6 +308,7 @@
 <div id="top-bar">
   <h1>♠ ROYAL TEXAS HOLD'EM ♦</h1>
   <div id="top-controls">
+    <button class="ctrl-btn" onclick="history.back()" style="background:rgba(80,0,0,0.85);border-color:#8a3030;color:#ffaaaa;font-size:0.75rem;font-weight:900;padding:4px 12px" title="关闭游戏">✕ EXIT</button>
     <span id="game-info" style="font-size:0.55rem;color:rgba(201,168,76,0.4);letter-spacing:0.08em;">BLINDS $10/$20</span>
     <button class="ctrl-btn" onclick="newRound()">NEW HAND</button>
     <button class="ctrl-btn active" id="btn-music" onclick="toggleMusic()">♪ MUSIC</button>
