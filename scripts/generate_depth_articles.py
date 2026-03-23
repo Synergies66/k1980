@@ -101,7 +101,7 @@ def publish(article,link):
         r=httpx.post(f"{SUPABASE_URL}/rest/v1/news_articles",json=payload,headers=hdrs,timeout=15)
         if r.status_code in(200,201):return True
         elif r.status_code==409:print("  ⏭ 已存在");return False
-        else:print(f"  ❌ {r.status_code}: {r.text[:100]}");return False
+        else:print(f"  ❌ {r.status_code}: {r.text[:300]}");return False
     except Exception as e:print(f"  ❌ {e}");return False
 
 def main():
