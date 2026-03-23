@@ -4205,6 +4205,7 @@ function mgrRender() {
         </div>
       </div>
       <button class="pin-btn ${isPinned?'pinned':''}" onclick="openPinModal(${a.id},'${esc(a.title).replace(/'/g,'').slice(0,30)}')" title="${isPinned?'管理置顶':'置顶此文章'}">📌</button>
+      <button style="width:26px;height:26px;border-radius:6px;border:1px solid rgba(8,145,178,.3);background:rgba(8,145,178,.06);color:#0891b2;font-size:11px;cursor:pointer;flex-shrink:0" onclick="mgrChangeCat(${a.id},'${esc(a.category)}')" title="改分类">🏷</button>
       <button class="mgr-del" onclick="mgrDelete(${a.id},'${esc(a.title).slice(0,20)}')" title="删除">✕</button>
     </div>`}).join('');
 
@@ -4238,6 +4239,41 @@ function mgrGoPage(p) {
   MGR.page = p;
   mgrRender();
   document.getElementById('mgr-list').scrollTop = 0;
+}
+
+function mgrChangeCat(id, currentCat) {
+  const cats = ['时事','科技','财经','移民','教育','商业','旅游','游戏'];
+  const modal = document.createElement('div');
+  modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center';
+  modal.innerHTML = `
+    <div style="background:#fff;border-radius:16px;padding:24px;width:300px;box-shadow:0 20px 60px rgba(0,0,0,.3)">
+      <div style="font-size:16px;font-weight:700;margin-bottom:16px">修改文章分类</div>
+      <select id="cat-select" style="width:100%;height:40px;border-radius:8px;border:1px solid #e0e0e6;padding:0 12px;font-size:14px;margin-bottom:16px">
+        ${cats.map(c => `<option value="${c}" ${c===currentCat?'selected':''}>${c}</option>`).join('')}
+      </select>
+      <div style="display:flex;gap:8px">
+        <button onclick="this.closest('div[style*=fixed]').remove()" style="flex:1;height:36px;border-radius:8px;border:1px solid #e0e0e6;background:#fff;cursor:pointer">取消</button>
+        <button onclick="mgrSaveCat(${id},document.getElementById('cat-select').value);this.closest('div[style*=fixed]').remove()" style="flex:1;height:36px;border-radius:8px;border:none;background:#0891b2;color:#fff;font-weight:700;cursor:pointer">确认修改</button>
+      </div>
+    </div>`;
+  document.body.appendChild(modal);
+}
+
+async function mgrSaveCat(id, newCat) {
+  try {
+    const r = await fetch(`${CFG.URL}/rest/v1/news_articles?id=eq.${id}`, {
+      method: 'PATCH',
+      headers: {'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=minimal'},
+      body: JSON.stringify({category: newCat})
+    });
+    if (r.ok) {
+      const item = document.querySelector(`.mgr-item[data-id="${id}"]`);
+      if (item) item.querySelector('.mgr-cat').textContent = newCat;
+      alert('✅ 分类已更新为：' + newCat);
+    } else {
+      alert('❌ 更新失败');
+    }
+  } catch(e) { alert('❌ 网络错误'); }
 }
 
 async function mgrDelete(id, titlePreview) {
