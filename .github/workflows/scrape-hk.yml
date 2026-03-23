@@ -1,0 +1,24 @@
+name: 抓取香港数据
+on:
+  schedule:
+    - cron: '10 */4 * * *'
+  workflow_dispatch:
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests feedparser beautifulsoup4
+      - name: 抓取香港
+        timeout-minutes: 3
+        run: timeout 150 python scripts/scrape_region.py hk 2>/dev/null || echo "跳过"
+      - name: 提交
+        run: |
+          git config --global user.name "K1980 Bot"
+          git config --global user.email "bot@k1980.com"
+          git add data/
+          git diff --staged --quiet || (git commit -m "📰 香港数据更新 $(date '+%Y-%m-%d %H:%M')" && git pull origin main --rebase --strategy-option=theirs && git push origin main)
