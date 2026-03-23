@@ -20,6 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install httpx supabase anthropic requests feedparser beautifulsoup4
+          cp core_engine.py fetchers/core_engine.py
           echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
       - name: 时事模块
