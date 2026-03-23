@@ -46,6 +46,18 @@ def clean_html(text: str) -> str:
     return text
 
 # ─── RSS 抓取 ──────────────────────────────────────────────
+def clean_source(name: str) -> str:
+    """修复双重编码乱码来源名称"""
+    if not name:
+        return name
+    try:
+        fixed = name.encode("latin-1").decode("utf-8")
+        if any("一" <= c <= "鿿" for c in fixed):
+            return fixed
+    except Exception:
+        pass
+    return name
+
 def fetch_feed(source: dict, max_items: int = 5) -> list[dict]:
     log = logging.getLogger(source.get("category", "feed"))
     log.info(f"抓取 → {source['name']}")
@@ -63,7 +75,7 @@ def fetch_feed(source: dict, max_items: int = 5) -> list[dict]:
                 continue
             items.append({
                 "guid":           make_guid(link),
-                "source_name":    source["name"],
+                "source_name":    clean_source(source["name"]),
                 "category":       source["category"],
                 "original_title": title,
                 "original_summary": summary,
