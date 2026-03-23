@@ -114,10 +114,7 @@ def publish(article,link):
     except Exception as e:print(f"  ❌ {e}");return False
 
 def main():
-    print(f"
-🖊 K1980 深度稿件生成器
-⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
-")
+    print(f"\n🖊 K1980 深度稿件生成器\n⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}\n")
     headlines=fetch_headlines()
     headlines.sort(key=score,reverse=True)
     selected=headlines[:ARTICLES_PER_RUN]
@@ -125,8 +122,7 @@ def main():
     for i,h in enumerate(selected,1):print(f"  {i}. [{h['category']}] {h['title'][:60]}")
     published=0
     for i,h in enumerate(selected,1):
-        print(f"
-── [{i}/{len(selected)}] {h['title'][:50]}...")
+        print(f"\n── [{i}/{len(selected)}] {h['title'][:50]}...")
         art=write(h)
         if not art:print("  ⚠️ 跳过");continue
         print(f"  📝 {art.get('title','')}")
@@ -134,7 +130,6 @@ def main():
             published+=1
             print(f"  ✅ 已发布")
         time.sleep(2)
-    print(f"
-🎉 完成！发布 {published}/{len(selected)} 篇")
+    print(f"\n🎉 完成！发布 {published}/{len(selected)} 篇")
 
 if __name__=="__main__":main()
