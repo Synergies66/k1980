@@ -155,10 +155,12 @@ def rewrite_with_claude(
                 if "title" not in result or "content" not in result:
                     raise
                 data = result
-            # 验证必要字段
-            for field in ("title", "summary", "content", "tags"):
+            # 验证必要字段（tags 可选）
+            for field in ("title", "summary", "content"):
                 if field not in data:
                     raise ValueError(f"缺少字段: {field}")
+            if "tags" not in data:
+                data["tags"] = []
             return data
         except Exception as e:
             log.warning(f"  改写失败 (第{attempt}次): {e}")
