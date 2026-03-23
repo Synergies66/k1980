@@ -133,7 +133,6 @@ def rewrite_with_claude(
             try:
                 data = json.loads(m.group())
             except json.JSONDecodeError:
-                # 兜底：逐字段正则提取
                 result = {}
                 for key in ("title", "summary", "content"):
                     fm = re.search(rf'"{key}"\s*:\s*"(.*?)(?<!\\\\)"', m.group(), re.DOTALL)

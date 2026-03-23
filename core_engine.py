@@ -130,7 +130,19 @@ def rewrite_with_claude(
             m = re.search(r'\{.*\}', raw, re.DOTALL)
             if not m:
                 raise ValueError("未找到 JSON 结构")
-            data = json.loads(m.group())
+            try:
+                data = json.loads(m.group())
+            except json.JSONDecodeError:
+                result = {}
+                for key in ("title", "summary", "content"):
+                    fm = re.search(rf'"{key}"\s*:\s*"(.*?)(?<!\\\\)"', m.group(), re.DOTALL)
+                    if fm:
+                        result[key] = fm.group(1).replace("\\n", "\n")
+                tags = re.search(r'"tags"\s*:\s*\[([^\]]+)\]', m.group())
+                result["tags"] = [t.strip().strip('"') for t in tags.group(1).split(",")] if tags else []
+                if "title" not in result or "content" not in result:
+                    raise
+                data = result
             # 验证必要字段
             for field in ("title", "summary", "content", "tags"):
                 if field not in data:
