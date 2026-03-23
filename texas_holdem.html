@@ -90,18 +90,18 @@
     display:flex; flex-direction:column; align-items:center; gap:5px; z-index:5;
   }
   #street-indicator {
-    font-size:0.5rem; letter-spacing:0.28em; color:rgba(201,168,76,0.42); text-transform:uppercase;
+    font-size:0.72rem; letter-spacing:0.28em; color:rgba(201,168,76,0.42); text-transform:uppercase;
   }
   #community-cards { display:flex; gap:5px; }
   #pot-display {
     background:rgba(0,0,0,0.55); border:1px solid rgba(201,168,76,0.28);
-    border-radius:14px; padding:2px 12px;
-    font-size:0.62rem; letter-spacing:0.1em; color:var(--gold-light);
+    border-radius:14px; padding:3px 14px;
+    font-size:0.85rem; letter-spacing:0.1em; color:var(--gold-light);
   }
 
   /* CARDS */
   .card {
-    width: 64px; height: 94px;
+    width: 78px; height: 112px;
     background: #fefefe; border-radius: 7px; border: 1px solid #bbb;
     display: flex; align-items: center; justify-content: center;
     font-family: 'Crimson Text', serif; font-weight: 600;
@@ -110,10 +110,10 @@
   }
   .card.red { color: var(--red); }
   .card.black { color: #111; }
-  .card .corner { position:absolute; font-size:0.72rem; line-height:1.1; font-family:'Crimson Text',serif; font-weight:600; }
+  .card .corner { position:absolute; font-size:0.9rem; line-height:1.1; font-family:'Crimson Text',serif; font-weight:600; }
   .card .corner.tl { top:4px; left:5px; }
   .card .corner.br { bottom:4px; right:5px; transform:rotate(180deg); }
-  .card .suit-center { font-size:1.8rem; }
+  .card .suit-center { font-size:2.2rem; }
   .card.face-down {
     background: repeating-linear-gradient(135deg,#1a1a72 0,#1a1a72 6px,#22228a 6px,#22228a 12px);
     border:1px solid #4a4aaa;
@@ -130,7 +130,7 @@
   .player-cards { display:flex; gap:3px; }
   .player-info {
     background:rgba(0,0,0,0.82); border:1px solid rgba(201,168,76,0.28);
-    border-radius:7px; padding:5px 10px; text-align:center; min-width:110px;
+    border-radius:7px; padding:7px 14px; text-align:center; min-width:140px;
     transition:border-color 0.3s,box-shadow 0.3s;
   }
   .player-info.active { border-color:var(--gold); box-shadow:0 0 11px rgba(201,168,76,0.42); }
@@ -140,10 +140,10 @@
     from{box-shadow:0 0 10px rgba(255,215,0,0.4);}
     to{box-shadow:0 0 26px rgba(255,215,0,0.88);}
   }
-  .player-name   { font-size:0.93rem; letter-spacing:0.07em; color:var(--gold-light); }
-  .player-chips  { font-size:0.99rem; color:#aaffaa; font-family:'Crimson Text',serif; }
-  .player-bet    { font-size:0.83rem; color:#ffcc44; min-height:16px; }
-  .player-status { font-size:0.77rem; color:#ff9999; min-height:14px; letter-spacing:0.04em; }
+  .player-name   { font-size:1.25rem; letter-spacing:0.07em; color:var(--gold-light); }
+  .player-chips  { font-size:1.28rem; color:#aaffaa; font-family:'Crimson Text',serif; }
+  .player-bet    { font-size:1.1rem; color:#ffcc44; min-height:20px; }
+  .player-status { font-size:1.0rem; color:#ff9999; min-height:18px; letter-spacing:0.04em; }
 
   /* Seat positions */
   #seat-0 { bottom:-98px;  left:50%;   transform:translateX(-50%); }
@@ -155,7 +155,7 @@
   #seat-6 { bottom:-80px;  right:14%;  transform:translateX(50%); }
 
   #hand-rank-badge {
-    font-size:0.52rem; letter-spacing:0.12em; color:rgba(201,168,76,0.72); white-space:nowrap; min-height:11px;
+    font-size:0.75rem; letter-spacing:0.12em; color:rgba(201,168,76,0.9); white-space:nowrap; min-height:14px;
   }
 
   /* BOTTOM PANEL */
@@ -1250,8 +1250,8 @@ function scaleTable() {
   const wrapper = document.getElementById('table-wrapper');
   const table   = document.getElementById('table');
   if (!wrapper || !table) return;
-  const tableW = 660 + 224; // table宽 + 两侧玩家位置
-  const tableH = 360 + 196; // table高 + 上下玩家位置
+  const tableW = 660 + 280; // table宽 + 两侧玩家位置
+  const tableH = 360 + 240; // table高 + 上下玩家位置
   const availW = wrapper.clientWidth  || window.innerWidth;
   const availH = wrapper.clientHeight || (window.innerHeight - 42 - 120);
   const scaleX = availW / tableW;
