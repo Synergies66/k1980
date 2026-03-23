@@ -93,6 +93,7 @@ def publish(article,link):
         "source_name":"K1980 深度",
         "original_url":link or "#",
         "is_published":True,
+        "is_jingwei":False,
         "view_count":100,
         "created_at":datetime.now(timezone.utc).isoformat()
     }
