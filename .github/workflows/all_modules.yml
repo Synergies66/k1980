@@ -1,15 +1,13 @@
 name: 📰 K1980 内容引擎（统一）
 on:
   schedule:
-    - cron: '0 */4 * * *'   # 每4小时一次，一天6次
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 jobs:
   fetch-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
-    env:
-      PYTHONPATH: ${{ github.workspace }}
+    timeout-minutes: 20
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,10 +18,9 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install httpx supabase anthropic requests feedparser beautifulsoup4
-
-      - name: 设置Python路径
-        run: echo "PYTHONPATH=${{ github.workspace }}" >> $GITHUB_ENV
+        run: |
+          pip install httpx supabase anthropic requests feedparser beautifulsoup4
+          echo "PYTHONPATH=$GITHUB_WORKSPACE" >> $GITHUB_ENV
 
       - name: 时事模块
         continue-on-error: true
@@ -32,7 +29,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python fetchers/fetch_news.py 2>/dev/null || python fetchers/fetch_shishi.py 2>/dev/null || echo "时事模块跳过"
+        run: python fetchers/fetch_news.py 2>/dev/null || echo "时事模块跳过"
 
       - name: 移民模块
         continue-on-error: true
@@ -41,7 +38,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python fetchers/fetch_immigration.py
+        run: python fetchers/fetch_immigration.py 2>/dev/null || echo "移民模块跳过"
 
       - name: 科技模块
         continue-on-error: true
@@ -50,7 +47,7 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python fetchers/fetch_tech.py
+        run: python fetchers/fetch_tech.py 2>/dev/null || echo "科技模块跳过"
 
       - name: 财经模块
         continue-on-error: true
@@ -95,48 +92,4 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python generate_biz_insights.py
-
-      - name: 抓取新西兰数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py nz 2>/dev/null || echo "NZ 跳过"
-
-      - name: 抓取香港数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py hk 2>/dev/null || echo "HK 跳过"
-
-      - name: 抓取澳门数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py mo 2>/dev/null || echo "MO 跳过"
-
-      - name: 抓取英国数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py uk 2>/dev/null || echo "UK 跳过"
-
-      - name: 抓取美国数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py us 2>/dev/null || echo "US 跳过"
-
-      - name: 抓取加拿大数据
-        continue-on-error: true
-        timeout-minutes: 2
-        run: timeout 100 python scripts/scrape_region.py ca 2>/dev/null || echo "CA 跳过"
-
-      - name: 提交并推送数据更新
-        run: |
-          git config --global user.name "K1980 Bot"
-          git config --global user.email "bot@k1980.com"
-          git add data/
-          if git diff --staged --quiet; then
-            echo "✅ 无数据变更，跳过提交"
-          else
-            git commit -m "🌏 地区数据更新 $(date '+%Y-%m-%d %H:%M')"
-            git pull origin main --rebase --strategy-option=theirs
-            git push origin main
-            echo "✅ 数据已推送"
-          fi
+        run: python generate_biz_insights.py 2>/dev/null || echo "AI生成跳过"
