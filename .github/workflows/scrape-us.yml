@@ -1,8 +1,8 @@
-name: 澳大利亚新闻抓取
+name: 美国新闻抓取
 
 on:
   schedule:
-    - cron: '5 */4 * * *'
+    - cron: '25 */4 * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,12 +20,12 @@ jobs:
 
       - name: 抓取澳大利亚新闻
         timeout-minutes: 3
-        run: timeout 150 python scripts/scrape_region.py au 2>/dev/null || echo "抓取完成"
+        run: timeout 150 python scripts/scrape_region.py us 2>/dev/null || echo "抓取完成"
 
       - name: Upload data via GitHub API
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DATA_FILE: data/news_au.json
+          DATA_FILE: data/news_us.json
           REPO: ${{ github.repository }}
         run: |
           python3 - <<'PYEOF'
