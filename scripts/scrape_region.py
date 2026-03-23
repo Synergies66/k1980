@@ -44,7 +44,7 @@ NEWS_SOURCES = {
     'us': [
         {'name':'NPR News',     'url':'https://feeds.npr.org/1001/rss.xml',                                         'lang':'en'},
         {'name':'NPR 世界',     'url':'https://feeds.npr.org/1004/rss.xml',                                         'lang':'en'},
-        {'name':'VOA 中文',     'url':'https://www.voachinese.com/api/zmgqiipuqt',                                  'lang':'zh'},
+        {'name':'VOA 中文',     'url':'https://www.voachinese.com/rss/latest-si',                                   'lang':'zh'},
         {'name':'CNN 头条',     'url':'http://rss.cnn.com/rss/cnn_topstories.rss',                                  'lang':'en'},
         {'name':'NYT 头条',     'url':'https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml',                  'lang':'en'},
     ],
@@ -65,22 +65,18 @@ NEWS_SOURCES = {
                         'lang':'zh'},
     ],
     'jp': [
-        {'name':'NHK 日本',     'url':'https://www3.nhk.or.jp/rss/news/cat0.xml',                                   'lang':'ja'},
-        {'name':'Japan Times',  'url':'https://www.japantimes.co.jp/feed/',                                         'lang':'en'},
+        {'name':'NHK 日本',     'url':'https://www3.nhk.or.jp/rss/news/cat0.xml', 'lang':'ja'},
+        {'name':'Japan Times',  'url':'https://www.japantimes.co.jp/feed/',      'lang':'en'},
     ],
     'kr': [
-        {'name':'Korea Herald', 'url':'http://www.koreaherald.com/common/rss_xml.php?ct=102',                       'lang':'en'},
-        {'name':'Yonhap News',  'url':'https://en.yna.co.kr/RSS/news.xml',                                          'lang':'en'},
+        {'name':'Yonhap News',  'url':'https://en.yna.co.kr/RSS/news.xml', 'lang':'en'},
     ],
     'sg': [
-        {'name':'CNA Singapore','url':'https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml',       'lang':'en'},
-        {'name':'联合早报',     'url':'https://www.zaobao.com.sg/rss/singapore',                                   'lang':'zh'},
-        {'name':'Straits Times','url':'https://www.straitstimes.com/news/singapore/rss.xml',                        'lang':'en'},
+        {'name':'CNA Singapore','url':'https://www.channelnewsasia.com/api/v1/rss-outbound-feed?_format=xml', 'lang':'en'},
+        {'name':'Straits Times','url':'https://www.straitstimes.com/news/singapore/rss.xml',              'lang':'en'},
     ],
     'my': [
-        {'name':'The Star MY',  'url':'https://www.thestar.com.my/rss/News/Nation/',                                'lang':'en'},
-        {'name':'星洲日报',     'url':'https://www.sinchew.com.my/rss',                                            'lang':'zh'},
-        {'name':'Malaysiakini', 'url':'https://www.malaysiakini.com/rss',                                           'lang':'en'},
+        {'name':'The Star MY',  'url':'https://www.thestar.com.my/rss/News/Nation/', 'lang':'en'},
     ],
     'id': [
         {'name':'Jakarta Post', 'url':'https://www.thejakartapost.com/feed',                                        'lang':'en'},
@@ -89,13 +85,9 @@ NEWS_SOURCES = {
     ],
     # ── 香港 ──────────────────────────────────────────────────
     'hk': [
-        {'name':'RTHK 香港電台', 'url':'https://rthk.hk/rss/rthknews.xml',                                         'lang':'zh'},
-        {'name':'RTHK English',  'url':'https://rthk.hk/rss/rthknews_en.xml',                                      'lang':'en'},
-        {'name':'SCMP 南华早报', 'url':'https://www.scmp.com/rss/91/feed',                                         'lang':'en'},
-        {'name':'SCMP 香港',     'url':'https://www.scmp.com/rss/2/feed',                                          'lang':'en'},
-        {'name':'香港01',        'url':'https://www.hk01.com/rss/index.xml',                                       'lang':'zh'},
-        {'name':'明报新闻',      'url':'https://news.mingpao.com/rss/pns/s00001.xml',                              'lang':'zh'},
-        {'name':'星岛日报',      'url':'https://std.stheadline.com/rss/realtime/news.xml',                         'lang':'zh'},
+        {'name':'SCMP 南华早报', 'url':'https://www.scmp.com/rss/91/feed',   'lang':'en'},
+        {'name':'SCMP 香港',     'url':'https://www.scmp.com/rss/2/feed',    'lang':'en'},
+        {'name':'明报新闻',      'url':'https://news.mingpao.com/rss/pns/s00001.xml', 'lang':'zh'},
     ],
     # ── 澳门 ──────────────────────────────────────────────────
     'mo': [
