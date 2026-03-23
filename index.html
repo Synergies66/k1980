@@ -1698,11 +1698,16 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
             <span class="wp-preset" data-n="40">40篇</span>
           </div>
           <div class="wp-count-slider-wrap">
-            <input type="range" id="wp-count-slider" min="2" max="40" step="2" value="20" class="wp-slider" oninput="onCountSlide(this.value)"/>
-            <div class="wp-slider-labels"><span>2</span><span>10</span><span>20</span><span>30</span><span>40</span></div>
+            <input type="range" id="wp-count-slider" min="1" max="40" step="1" value="10" class="wp-slider" oninput="onCountSlide(this.value)"/>
+            <div class="wp-slider-labels"><span>1</span><span>10</span><span>20</span><span>30</span><span>40</span></div>
           </div>
         </div>
-        <div class="wp-count-split" id="wp-count-split">深度报道 <strong id="wp-deep-n">10</strong> 篇 · 新闻简报 <strong id="wp-brief-n">10</strong> 篇（各占一半）</div>
+        <div class="wp-count-split" id="wp-count-split">
+          <span style="font-size:12px;color:var(--ink3);margin-right:8px">文章类型：</span>
+          <label style="cursor:pointer;margin-right:12px"><input type="radio" name="wp-type" value="mix" checked onchange="onTypeChange(this.value)" style="margin-right:4px">深度+简报各半</label>
+          <label style="cursor:pointer;margin-right:12px"><input type="radio" name="wp-type" value="deep" onchange="onTypeChange(this.value)" style="margin-right:4px">全部深度报道</label>
+          <label style="cursor:pointer"><input type="radio" name="wp-type" value="brief" onchange="onTypeChange(this.value)" style="margin-right:4px">全部新闻简报</label>
+        </div>
       </div>
 
       <!-- 提词框 -->
@@ -3929,6 +3934,10 @@ let WP = {
 };
 
 /* 篇数滑块联动 */
+function onTypeChange(val) {
+  window.WP_TYPE = val;
+}
+
 function onCountSlide(val) {
   val = Math.round(val / 2) * 2; // 强制偶数
   WP.totalCount = Number(val);
@@ -5260,7 +5269,10 @@ async function startGenerate() {
   WP.generating = true;
 
   const total = WP.totalCount || 20;
-  const half  = Math.floor(total / 2);
+  const wpType = window.WP_TYPE || 'mix';
+  const deepCount  = wpType === 'brief' ? 0 : (wpType === 'deep' ? total : Math.floor(total / 2));
+  const briefCount = total - deepCount;
+  const half = deepCount;
 
   const rTag = document.querySelector('#wp-region-row .wp-rtag.on');
   WP.region = rTag ? rTag.dataset.r : 'global';
@@ -5299,10 +5311,10 @@ async function startGenerate() {
     }
 
     // 简报：逐篇生成
-    for (let i = 0; i < half; i++) {
-      wpSetProgress(done, `⚡ 简报 ${i+1}/${half}...`, `正在生成第 ${done+1} 篇，共 ${total} 篇`);
+    for (let i = 0; i < briefCount; i++) {
+      wpSetProgress(done, `⚡ 简报 ${i+1}/${briefCount}...`, `正在生成第 ${done+1} 篇，共 ${total} 篇`);
       try {
-        const art = await generateOne('brief', regionLabel, userPrompt, half + i, total);
+        const art = await generateOne('brief', regionLabel, userPrompt, deepCount + i, total);
         WP.articles.push(art);
         wpAddArticlePreview(art, WP.articles.length-1);
         done++;
