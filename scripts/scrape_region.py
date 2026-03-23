@@ -53,9 +53,10 @@ NEWS_SOURCES = {
         {'name':'Reuters',      'url':'https://feeds.reuters.com/reuters/UKTopNews',                                 'lang':'en'},
     ],
    'ca': [
-        {'name':'CBC 头条',   'url':'https://www.cbc.ca/cmlink/rss-topstories',                                 'lang':'en'},
-        {'name':'CBC 温哥华', 'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                     'lang':'en'},
-        {'name':'Globe Mail', 'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',   'lang':'en'},
+        {'name':'Google News CA', 'url':'https://news.google.com/rss/search?q=canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'Google News Vancouver', 'url':'https://news.google.com/rss/search?q=vancouver+canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'Google News Toronto', 'url':'https://news.google.com/rss/search?q=toronto+canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'CBC 头条', 'url':'https://www.cbc.ca/cmlink/rss-topstories', 'lang':'en'},
     ],
     'jp': [
         {'name':'NHK 日本',     'url':'https://www3.nhk.or.jp/rss/news/cat0.xml', 'lang':'ja'},
@@ -78,9 +79,9 @@ NEWS_SOURCES = {
     ],
     # ── 香港 ──────────────────────────────────────────────────
     'hk': [
-        {'name':'SCMP 南华早报', 'url':'https://www.scmp.com/rss/91/feed',   'lang':'en'},
-        {'name':'SCMP 香港',     'url':'https://www.scmp.com/rss/2/feed',    'lang':'en'},
-        {'name':'明报新闻',      'url':'https://news.mingpao.com/rss/pns/s00001.xml', 'lang':'zh'},
+        {'name':'Google News HK', 'url':'https://news.google.com/rss/search?q=hong+kong&hl=zh-HK&gl=HK&ceid=HK:zh-Hant', 'lang':'zh'},
+        {'name':'Google News HK EN', 'url':'https://news.google.com/rss/search?q=hong+kong&hl=en-HK&gl=HK&ceid=HK:en', 'lang':'en'},
+        {'name':'RTHK English', 'url':'https://rthk.hk/rss/rthknews_en.xml', 'lang':'en'},
     ],
     # ── 澳门 ──────────────────────────────────────────────────
     'mo': [
@@ -120,9 +121,10 @@ SERVICE_SOURCES = {
         {'name':'Eventbrite UK',  'url':'https://www.eventbrite.co.uk/d/united-kingdom/events/rss/',       'type':'event'},
     ],
     'ca': [
-        {'name':'CBC 头条',   'url':'https://www.cbc.ca/cmlink/rss-topstories',                                 'lang':'en'},
-        {'name':'CBC 温哥华', 'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                     'lang':'en'},
-        {'name':'Globe Mail', 'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',   'lang':'en'},
+        {'name':'Google News CA', 'url':'https://news.google.com/rss/search?q=canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'Google News Vancouver', 'url':'https://news.google.com/rss/search?q=vancouver+canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'Google News Toronto', 'url':'https://news.google.com/rss/search?q=toronto+canada&hl=en-CA&gl=CA&ceid=CA:en', 'lang':'en'},
+        {'name':'CBC 头条', 'url':'https://www.cbc.ca/cmlink/rss-topstories', 'lang':'en'},
     ],
     'jp': [
         {'name':'GaijinPot Jobs', 'url':'https://jobs.gaijinpot.com/index/index/rss',                     'type':'job'},
@@ -144,12 +146,9 @@ SERVICE_SOURCES = {
     ],
     # ── 香港服务 ──────────────────────────────────────────────
     'hk': [
-        {'name':'JobsDB 香港',    'url':'https://hk.jobsdb.com/hk/search-jobs/rss',                       'type':'job'},
-        {'name':'CTgoodjobs',     'url':'https://www.ctgoodjobs.hk/rss.aspx',                             'type':'job'},
-        {'name':'Recruit.com.hk', 'url':'https://www.recruit.com.hk/rss/joblist.xml',                    'type':'job'},
-        {'name':'28Landlord 租盘','url':'https://www.28hse.com/en/rent/rss',                              'type':'house'},
-        {'name':'Eventbrite HK',  'url':'https://www.eventbrite.hk/d/hong-kong/events/rss/',              'type':'event'},
-        {'name':'HKTicketing',    'url':'https://www.hkticketing.com/rss/events.xml',                     'type':'event'},
+        {'name':'Google News HK', 'url':'https://news.google.com/rss/search?q=hong+kong&hl=zh-HK&gl=HK&ceid=HK:zh-Hant', 'lang':'zh'},
+        {'name':'Google News HK EN', 'url':'https://news.google.com/rss/search?q=hong+kong&hl=en-HK&gl=HK&ceid=HK:en', 'lang':'en'},
+        {'name':'RTHK English', 'url':'https://rthk.hk/rss/rthknews_en.xml', 'lang':'en'},
     ],
     # ── 澳门服务 ──────────────────────────────────────────────
     'mo': [
