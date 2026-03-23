@@ -2256,6 +2256,26 @@ const REGIONS={
   id:    {flag:'🇮🇩', zh:'印度尼西亚',en:'Indonesia',   localCat:'印尼本地',   tz:'Asia/Jakarta'},
 };
 
+
+async function loadLocalNews() {
+  const regionMap={nz:'nz',au:'au',ca:'ca',us:'us',gb:'uk',jp:'jp',kr:'kr',sg:'sg',my:'my',id:'id'};
+  for(const [region,code] of Object.entries(regionMap)){
+    try{
+      const r=await fetch('data/news_'+code+'.json?t='+Date.now());
+      if(!r.ok)continue;
+      const d=await r.json();
+      if(d.articles&&d.articles.length){
+        LOCAL_NEWS[region]=d.articles.map(a=>({
+          id:a.id,category:(a.categories&&a.categories[0])||'本地',
+          title:a.title,summary:a.summary||'',content:a.summary||'',
+          tags:a.categories||[],source_name:a.source,original_url:a.link,
+          view_count:a.score||60,
+          created_at:a.pub_ts?new Date(a.pub_ts*1000).toISOString():new Date().toISOString(),
+        }));
+      }
+    }catch(e){}
+  }
+}
 /* ══ 本地 Mock 新闻（区域切换时显示，Supabase 无数据时兜底）*/
 const LOCAL_NEWS={
   nz:[
