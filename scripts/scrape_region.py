@@ -249,14 +249,16 @@ def get_categories(title, summary):
 
 def clean_source(name):
     """清理乱码来源名称"""
+    # Google News 来源名统一处理
+    if 'google' in name.lower() or any(ord(c)>127 and not '一'<=c<='鿿' for c in name):
+        # 含乱码字符，返回干净名字
+        if 'google' in name.lower():
+            return name  # Google News 系列保持原样
+        return 'Google News'
     try:
-        # 修复常见的 latin-1 误读 UTF-8 情况
         return name.encode('latin-1').decode('utf-8')
     except Exception:
-        try:
-            return name.encode('utf-8').decode('utf-8')
-        except Exception:
-            return name
+        return name
 
 def fetch_rss(url, name, limit=8):
     if not can_fetch(url): return []
