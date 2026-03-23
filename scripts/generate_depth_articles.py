@@ -55,31 +55,39 @@ def score(h):
 
 def extract_json(text):
     text=text.strip()
-    # 移除markdown代码块
-    text=re.sub(r"^```(?:json)?\s*","",text)
-    text=re.sub(r"\s*```$","",text)
+    text=re.sub(r"^```(?:json)?\s*","",text,flags=re.MULTILINE)
+    text=re.sub(r"\s*```$","",text,flags=re.MULTILINE)
     text=text.strip()
-    # 找到第一个{到最后一个}
     start=text.find("{")
     end=text.rfind("}")
     if start>=0 and end>start:
         text=text[start:end+1]
-    return json.loads(text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        # 兜底：逐字段正则提取
+        result={}
+        for key in ["title","summary","content","category"]:
+            m=re.search(rf'"{key}"\s*:\s*"(.*?)(?<!\\\\)"',text,re.DOTALL)
+            if m:result[key]=m.group(1).replace("\\n","\n")
+        tags=re.search(r'"tags"\s*:\s*\[([^\]]+)\]',text)
+        result["tags"]=[t.strip().strip('"') for t in tags.group(1).split(",")] if tags else []
+        if "title" in result and "content" in result:return result
+        raise
 
 def write(h):
-    try:
-        msg=client.messages.create(
-            model="claude-sonnet-4-20250514",max_tokens=2500,
-            messages=[{"role":"user","content":f"新闻标题：{h['title']}
-新闻摘要：{h['summary'][:200]}
-建议分类：{h['category']}
-
-{PROMPT}"}]
-        )
-        raw=msg.content[0].text
-        return extract_json(raw)
-    except Exception as e:
-        print(f"  ⚠️ {e}");return None
+    for attempt in range(3):
+        try:
+            msg=client.messages.create(
+                model="claude-sonnet-4-20250514",max_tokens=2500,
+                messages=[{"role":"user","content":f"新闻标题：{h['title']}\n新闻摘要：{h['summary'][:200]}\n建议分类：{h['category']}\n\n{PROMPT}"}]
+            )
+            raw=msg.content[0].text
+            return extract_json(raw)
+        except Exception as e:
+            print(f"  ⚠️ 第{attempt+1}次失败: {e}")
+            if attempt<2:time.sleep(2)
+    return None
 
 def publish(article,link):
     guid=hashlib.md5((article["title"]+datetime.now().strftime("%Y-%m-%d")).encode()).hexdigest()
