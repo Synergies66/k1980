@@ -1,97 +1,115 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-23T15:45:44.218614+00:00",
+  "updated_at": "2026-03-23T19:36:01.602794+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "a7972d7bfd",
+      "id": "a34aa3e06f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "‘Stop Truck 1, Stop!’: Air Traffic Audio Captures Moment Before Crash",
-      "summary": "",
-      "link": "https://www.nytimes.com/live/2026/03/23/nyregion/laguardia-airport-plane-crash-truck/f10de12f-9a58-558f-abb4-252eea148968",
+      "title": "New Top Prosecutor Named in Embattled U.S. Attorney’s Office",
+      "summary": "Federal judges appointed Robert Frazer to run New Jersey’s U.S. attorney’s office, which has been in disarray over the past year because of uncertainty about who was in charge.",
+      "link": "https://www.nytimes.com/2026/03/23/nyregion/new-attorney-nj-habba.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23met-nj-us-attorney-gmlw/23met-nj-us-attorney-gmlw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "39分前",
+      "pub_ts": 1774292188.0,
+      "hot": false
+    },
+    {
+      "id": "93e8906db2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Pentagon Officials Weigh Deployment of Airborne Troops for Iran War",
+      "summary": "The combat forces would come from a brigade of about 3,000 soldiers capable of deploying anywhere in the world within 18 hours.",
+      "link": "https://www.nytimes.com/2026/03/23/us/politics/us-airborne-troops-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23dc-irain-airborne-bwlg/23dc-irain-airborne-bwlg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "42分前",
+      "pub_ts": 1774292012.0,
+      "hot": false
+    },
+    {
+      "id": "dfddcc2304",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "President Trump and Iranian officials have conflicting stories about ongoing talks",
+      "summary": "President Trump is ordering the U.S. military to hold off on striking Iranian power plants, citing \"productive\" talks with Iran, but Iranian officials deny there's any dialogue with the U.S.",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5757380/president-trump-and-iranian-officials-have-conflicting-stories-about-ongoing-talks",
       "image": null,
       "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1774279534.0,
-      "hot": false
-    },
-    {
-      "id": "5b9e5e8274",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Oil Prices Tumble and Stocks Rise as Trump Backs Off Threats to Iran Infrastructure",
-      "summary": "Investors braced for a fourth week of market turmoil caused by the war in the Middle East",
-      "link": "https://www.nytimes.com/2026/03/23/business/oil-stocks-gas-prices-iran.html",
-      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/20Biz-Stocks-Oil-Gas-hgmp/20Biz-Stocks-Oil-Gas-hgmp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "47分前",
-      "pub_ts": 1774277896.0,
-      "hot": false
-    },
-    {
-      "id": "338335a196",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Deadly Plane Crash at LaGuardia Airport: What We Know",
-      "summary": "Two pilots were killed and dozens of others were injured when a regional jet collided with a fire truck on the runway.",
-      "link": "https://www.nytimes.com/2026/03/23/nyregion/laguardia-airport-air-canada-plane-crash.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23laguardia-crash-ww-1-khcl/23laguardia-crash-ww-1-khcl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774276925.0,
-      "hot": false
-    },
-    {
-      "id": "32c487cba9",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Energy Attacks in War on Iran Could Turn Economic Shock Into Long-Term Damage",
-      "summary": "A new phase targeting oil and gas infrastructure in the Persian Gulf threatens to hurt businesses and customers around the world for months or even years.",
-      "link": "https://www.nytimes.com/2026/03/23/business/economy/iran-war-oil-gas-global-economy.html",
-      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/Biz-Iran-Global-Econ-01-hkmb/Biz-Iran-Global-Econ-01-hkmb-mediumSquareAt3X.jpg",
-      "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774276791.0,
+      "pub_ts": 1774289422.0,
       "hot": false
     },
     {
-      "id": "79580ae102",
+      "id": "e23559a792",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Delays Energy Strikes, but Iran’s Infrastructure is Already Battered",
+      "summary": "U.S. and Israeli attacks on power plants and other civilian infrastructure risk escalating the conflict across the region, and angering Iranians who oppose the government.",
+      "link": "https://www.nytimes.com/2026/03/23/world/middleeast/trump-iran-battered-infrastructure.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23israel-iran-infrastructure-01-vwzc/23israel-iran-infrastructure-01-vwzc-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774289203.0,
+      "hot": false
+    },
+    {
+      "id": "a95d24d046",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Supreme Court declines to review press freedom case",
-      "summary": "At issue was the 2017 arrest in Texas of a journalist who published news stories about a border agent's public suicide and a car crash.",
-      "link": "https://www.npr.org/2026/03/23/nx-s1-5757440/supreme-court-press-freedom",
+      "title": "8 architecture and culture groups sue Trump and the Kennedy Center board",
+      "summary": "The groups, which include the American Institute of Architects, are asking for compliance with historic preservation laws and to secure approval from Congress.",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5757505/kennedy-center-trump-lawsuit",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774276374.0,
+      "pub_ts": 1774288904.0,
+      "hot": false
+    },
+    {
+      "id": "633f6e05ac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In California, a Republican Sheriff Seizes Ballots, Prompting Concerns",
+      "summary": "Riverside County Sheriff Chad Bianco, a candidate for governor, recently took possession of more than 650,000 ballots as part of a fraud probe. Election officials say his investigation is baseless.",
+      "link": "https://www.nytimes.com/2026/03/23/us/politics/california-ballot-seizure-elections.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22pol-california-ballots-tqbh/22pol-california-ballots-tqbh-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774288535.0,
       "hot": false
     },
     {
@@ -108,8 +126,80 @@
         "移民"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774256400.0,
+      "hot": false
+    },
+    {
+      "id": "d63d2c936a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Takeaways From The Times’s Inside Look at the C.D.C.",
+      "summary": "Many current and former employees say the actions of Health Secretary Robert F. Kennedy Jr. are undermining the agency’s role in safeguarding public health.",
+      "link": "https://www.nytimes.com/2026/03/23/magazine/takeaways-cdc-oral-history.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/magazine/23mag-CDC-Takeaways/23mag-CDC-Takeaways-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774286575.0,
+      "hot": false
+    },
+    {
+      "id": "b2aca60ac2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Is Digging Up Washington. Can Lawsuits Stop the Bulldozers?",
+      "summary": "As the president develops plans to fundamentally alter the White House, the Kennedy Center and other sites, federal lawsuits are beginning to catch up.",
+      "link": "https://www.nytimes.com/2026/03/23/us/politics/trump-ballroom-kennedy-center-lawsuits.html",
+      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/00dc-landmarklaw-zvtf/00dc-landmarklaw-zvtf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774284159.0,
+      "hot": false
+    },
+    {
+      "id": "c74f70f8f7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration to Pay $1 Billion to Energy Giant to Cancel Wind Farms",
+      "summary": "In exchange, the French company TotalEnergies would invest in oil and natural gas projects in Texas and elsewhere.",
+      "link": "https://www.nytimes.com/2026/03/23/climate/offshore-wind-gas-trump-total.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23cli-trump-gas-whvf/23cli-trump-gas-whvf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774283286.0,
+      "hot": false
+    },
+    {
+      "id": "79580ae102",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Supreme Court declines to review press freedom case",
+      "summary": "At issue was the 2017 arrest in Texas of a journalist who published news stories about a border agent's public suicide and a car crash.",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5757440/supreme-court-press-freedom",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774276374.0,
       "hot": false
     },
     {
@@ -125,27 +215,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774271515.0,
-      "hot": false
-    },
-    {
-      "id": "4fd5fe183f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Deadly Collision at LaGuardia Airport, and Trump Postpones Strait of Hormuz Deadline",
-      "summary": "Plus, chasing meteorites for money.",
-      "link": "https://www.nytimes.com/2026/03/23/podcasts/the-headlines/runway-collision-laguardia-airport-and-trumps-ultimatum-iran.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23headlines-LaGuardia-promo-mpjq/23headlines-LaGuardia-promo-mpjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774267762.0,
       "hot": false
     },
     {
@@ -161,63 +233,45 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774267379.0,
       "hot": false
     },
     {
-      "id": "38a1e24d64",
+      "id": "503b2f36ef",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Trump delays striking Iran's power plants for 5 days during 'productive conversations'",
+      "title": "Trump says the U.S. is in talks with Iran to end the war, which Iran denies",
       "summary": "Trump said the U.S. will postpone any strikes on Iranian energy infrastructure for five days, even as Israel continued hitting Tehran and Iran warned it could retaliate across the Gulf.",
       "link": "https://www.npr.org/2026/03/23/nx-s1-5757172/iran-defiant-trump-hormuz",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774262243.0,
       "hot": false
     },
     {
-      "id": "633f6e05ac",
+      "id": "622b3f864a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "In California, a Republican Sheriff Seizes Ballots, Prompting Concerns",
-      "summary": "Riverside County Sheriff Chad Bianco, a candidate for governor, recently took possession of more than 650,000 ballots as part of a fraud probe. Election officials say his investigation is baseless.",
-      "link": "https://www.nytimes.com/2026/03/23/us/politics/california-ballot-seizure-elections.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22pol-california-ballots-tqbh/22pol-california-ballots-tqbh-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774257506.0,
-      "hot": false
-    },
-    {
-      "id": "920ef66be7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "When Voters Worry About ‘Affordability,’ Many Point to Health Care",
-      "summary": "Democrats have had limited political success running on the Affordable Care Act, even with its relative popularity. Now President Trump’s health care cuts may have given the issue new resonance.",
-      "link": "https://www.nytimes.com/2026/03/23/us/politics/when-voters-worry-about-affordability-many-point-to-health-care.html",
-      "image": "https://static01.nyt.com/images/2026/03/19/multimedia/19nat-health-politics-tom-pkqf/19nat-health-politics-tom-pkqf-mediumSquareAt3X.jpg",
+      "title": "A Professional’s Guide to Spring Cleaning Your Life",
+      "summary": "Tackle clutter, let go of sentimental objects and create a home that reflects who you are now.",
+      "link": "https://www.nytimes.com/2026/03/23/realestate/spring-cleaning-tips-professional-organizer.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23re-professional-organizer-fjth/23re-professional-organizer-fjth-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774256432.0,
+      "ago": "10小时前",
+      "pub_ts": 1774256407.0,
       "hot": false
     },
     {
@@ -234,43 +288,25 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774256400.0,
       "hot": false
     },
     {
-      "id": "7adc2dce97",
+      "id": "1e24ad08ab",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Worried about a shaky stock market? This is what financial advisers suggest you do",
-      "summary": "Their answer depends on how soon you need to tap into your funds — and it might simply be \"do nothing.\"",
-      "link": "https://www.npr.org/2026/03/23/nx-s1-5742568/iran-war-investments-retirement-529-stock-market",
+      "title": "With more older drivers on the road, states try to balance safety and mobility",
+      "summary": "The number of older drivers on the road is climbing. Safety advocates want tougher rules for relicensing, but many drivers say they shouldn't be forced to give up their mobility because of age alone.",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5672445/older-drivers-licensing-safety",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774256400.0,
-      "hot": false
-    },
-    {
-      "id": "722a5d948f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "What does a 'GLP-1 Friendly' diet look like? We asked nutritionists",
-      "summary": "Big food companies are starting to market to people on the powerful new obesity meds with labels that say \"GLP-1 Friendly.\" Nutritionists help us decode that message.",
-      "link": "https://www.npr.org/2026/03/23/nx-s1-5699407/glp-1-ozempic-zepbound-wegovy-nutrition",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774256400.0,
       "hot": false
     },
@@ -289,26 +325,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774255400.0,
-      "hot": false
-    },
-    {
-      "id": "ef8e78eeea",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Obama’s Strategist Discouraged Biden From Running in 2016",
-      "summary": "In a new set of oral histories, David Plouffe, President Barack Obama’s political adviser, described how he urged Vice President Joseph R. Biden Jr. not to challenge Hillary Clinton for the nomination",
-      "link": "https://www.nytimes.com/2026/03/23/us/politics/obama-strategist-biden-2016-election.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23dc-obama-cmlt/23dc-obama-cmlt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1774238465.0,
       "hot": false
     },
     {
@@ -325,7 +343,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774214799.0,
       "hot": false
     },
@@ -343,7 +361,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774214797.0,
       "hot": false
     },
@@ -361,7 +379,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774214796.0,
       "hot": false
     },
@@ -380,26 +398,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774214795.0,
-      "hot": false
-    },
-    {
-      "id": "0e5b38a7e0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The effects of the Iran war on environmental and human health, according to an expert",
-      "summary": "As the war in Iran enters its fourth week, the costs are adding up. NPR's Ayesha Rascoe talks to Doug Weir, with the Conflict and War Observatory, about impacts to human health and the environment.",
-      "link": "https://www.npr.org/2026/03/22/nx-s1-5753667/the-effects-of-the-iran-war-on-environmental-and-human-health-according-to-an-expert",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774181072.0,
       "hot": false
     },
     {
