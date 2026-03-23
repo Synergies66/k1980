@@ -20,4 +20,4 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python fetchers/fetch_tech.py 2>/dev/null || echo "跳过"
+       run: python fetchers/fetch_tech.py || echo "跳过"
