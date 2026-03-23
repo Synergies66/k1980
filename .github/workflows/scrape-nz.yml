@@ -1,4 +1,28 @@
-- name: Upload data via GitHub API
+name: 新西兰新闻抓取
+
+on:
+  schedule:
+    - cron: '15 */4 * * *'
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install requests feedparser beautifulsoup4
+
+      - name: 抓取新西兰新闻
+        timeout-minutes: 3
+        run: timeout 150 python scripts/scrape_region.py nz 2>/dev/null || echo "抓取完成"
+
+      - name: Upload data via GitHub API
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           DATA_FILE: data/news_nz.json
@@ -6,7 +30,6 @@
         run: |
           python3 - <<'PYEOF'
           import os, json, base64, urllib.request, urllib.error, time
-
           token    = os.environ["GH_TOKEN"]
           repo     = os.environ["REPO"]
           filepath = os.environ["DATA_FILE"]
@@ -16,11 +39,9 @@
               "Accept":        "application/vnd.github+json",
               "Content-Type":  "application/json",
           }
-
           with open(filepath, "r", encoding="utf-8") as f:
               raw = f.read()
           encoded = base64.b64encode(raw.encode()).decode()
-
           for attempt in range(1, 6):
               req = urllib.request.Request(api_url, headers=headers)
               try:
@@ -28,11 +49,9 @@
                       sha = json.loads(r.read()).get("sha", "")
               except urllib.error.HTTPError as e:
                   sha = "" if e.code == 404 else (_ for _ in ()).throw(e)
-
               payload = {"message": f"chore: update {filepath} [skip ci]", "content": encoded}
               if sha:
                   payload["sha"] = sha
-
               req2 = urllib.request.Request(api_url, data=json.dumps(payload).encode(), headers=headers, method="PUT")
               try:
                   with urllib.request.urlopen(req2) as r:
@@ -45,25 +64,3 @@
                   else:
                       raise
           PYEOF
-```
-
----
-
-## 第四步：检查缩进
-
-YAML 对缩进极敏感。确认：
-- `- name: Upload data via GitHub API` 前面是 **6个空格**（和其他 step 对齐）
-- `env:` 和 `run:` 前面是 **8个空格**
-- Python 代码每行前面是 **10个空格 + 代码本身的缩进**
-
----
-
-## 第五步：提交并手动触发测试
-
-在 GitHub 网页上直接编辑保存，然后去：
-```
-Actions → scrape-nz → Run workflow
-```
-手动触发一次，看 log 里是否出现：
-```
-✅ 上传成功 (attempt 1)
