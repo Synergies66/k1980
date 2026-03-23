@@ -7,7 +7,7 @@ on:
 jobs:
   fetch-all:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 25
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -20,10 +20,11 @@ jobs:
       - name: Install dependencies
         run: pip install httpx supabase anthropic requests feedparser beautifulsoup4
 
-      # ── AI 内容模块（写入 Supabase，无需 git push）──
+      # ── AI 内容模块（写入 Supabase）──
 
       - name: 时事模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -32,6 +33,7 @@ jobs:
 
       - name: 移民模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -40,6 +42,7 @@ jobs:
 
       - name: 科技模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -48,6 +51,7 @@ jobs:
 
       - name: 财经模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -56,6 +60,7 @@ jobs:
 
       - name: 教育模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -64,6 +69,7 @@ jobs:
 
       - name: 生活模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -72,6 +78,7 @@ jobs:
 
       - name: 旅游模块
         continue-on-error: true
+        timeout-minutes: 3
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
@@ -80,43 +87,51 @@ jobs:
 
       - name: AI原创内容生成
         continue-on-error: true
+        timeout-minutes: 5
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python generate_biz_insights.py
 
-      # ── 地区抓取模块（写入 data/*.json，统一提交）──
+      # ── 地区抓取模块（每个限2分钟，写入 data/*.json）──
 
       - name: 抓取新西兰数据
         continue-on-error: true
-        run: python scripts/scrape_region.py nz 2>/dev/null || echo "NZ 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py nz 2>/dev/null || echo "NZ 跳过"
 
       - name: 抓取澳大利亚数据
         continue-on-error: true
-        run: python scripts/scrape_region.py au 2>/dev/null || echo "AU 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py au 2>/dev/null || echo "AU 跳过"
 
       - name: 抓取香港数据
         continue-on-error: true
-        run: python scripts/scrape_region.py hk 2>/dev/null || echo "HK 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py hk 2>/dev/null || echo "HK 跳过"
 
       - name: 抓取澳门数据
         continue-on-error: true
-        run: python scripts/scrape_region.py mo 2>/dev/null || echo "MO 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py mo 2>/dev/null || echo "MO 跳过"
 
       - name: 抓取英国数据
         continue-on-error: true
-        run: python scripts/scrape_region.py uk 2>/dev/null || echo "UK 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py uk 2>/dev/null || echo "UK 跳过"
 
       - name: 抓取美国数据
         continue-on-error: true
-        run: python scripts/scrape_region.py us 2>/dev/null || echo "US 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py us 2>/dev/null || echo "US 跳过"
 
       - name: 抓取加拿大数据
         continue-on-error: true
-        run: python scripts/scrape_region.py ca 2>/dev/null || echo "CA 跳过"
+        timeout-minutes: 2
+        run: timeout 100 python scripts/scrape_region.py ca 2>/dev/null || echo "CA 跳过"
 
-      # ── 统一 Git 提交（只推送一次，彻底避免冲突）──
+      # ── 统一 Git 提交（只推送一次）──
 
       - name: 提交并推送数据更新
         run: |
