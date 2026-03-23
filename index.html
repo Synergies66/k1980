@@ -732,6 +732,60 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
 .write-trigger-btn{display:none;align-items:center;gap:5px;height:30px;padding:0 10px;border-radius:var(--r2);border:1.5px solid rgba(212,39,29,.35);font-size:12px;font-weight:700;color:var(--red);background:rgba(212,39,29,.05);transition:all .15s;white-space:nowrap;cursor:pointer}
 .write-trigger-btn:hover{background:var(--red);color:#fff;border-color:var(--red)}
 .write-trigger-btn svg{width:13px;height:13px;flex-shrink:0}
+
+/* ── 投稿按钮 ─────────────────────────────────────────────── */
+.submit-trigger-btn{display:flex;align-items:center;gap:5px;height:30px;padding:0 10px;border-radius:var(--r2);border:1.5px solid rgba(26,86,219,.35);font-size:12px;font-weight:700;color:var(--blue);background:rgba(26,86,219,.05);transition:all .15s;white-space:nowrap;cursor:pointer;font-family:var(--f)}
+.submit-trigger-btn:hover{background:var(--blue);color:#fff;border-color:var(--blue)}
+.submit-trigger-btn svg{width:13px;height:13px;flex-shrink:0}
+@media(max-width:640px){.submit-trigger-btn span{display:none}}
+
+/* ── 投稿弹窗 ─────────────────────────────────────────────── */
+#submit-modal{position:fixed;inset:0;z-index:700;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:16px}
+#submit-modal.on{display:flex}
+.submit-sheet{background:var(--surface);border-radius:16px;width:100%;max-width:520px;max-height:90vh;overflow-y:auto;box-shadow:var(--sh2);animation:si .2s cubic-bezier(.34,1.26,.64,1)}
+.submit-hd{padding:18px 20px 0;display:flex;align-items:center;justify-content:space-between}
+.submit-title{font-size:17px;font-weight:800;color:var(--ink)}
+.submit-close{width:28px;height:28px;border-radius:50%;background:var(--bg);border:none;color:var(--ink3);font-size:16px;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.submit-body{padding:16px 20px 24px;display:flex;flex-direction:column;gap:14px}
+.sub-field label{display:block;font-size:12px;font-weight:700;color:var(--ink3);margin-bottom:5px;letter-spacing:.3px}
+.sub-field input,.sub-field textarea,.sub-field select{width:100%;border:1.5px solid var(--border2);border-radius:8px;padding:9px 12px;font-size:13.5px;font-family:var(--f);color:var(--ink);outline:none;background:var(--bg);transition:border-color .15s;resize:vertical}
+.sub-field input:focus,.sub-field textarea:focus,.sub-field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(26,86,219,.08)}
+.sub-field textarea{min-height:100px;line-height:1.65}
+.sub-notice{font-size:11.5px;color:var(--ink3);line-height:1.7;background:var(--bg);border-radius:8px;padding:10px 12px}
+.sub-submit-btn{width:100%;height:44px;border-radius:10px;background:var(--blue);color:#fff;font-size:14px;font-weight:700;border:none;cursor:pointer;transition:opacity .15s}
+.sub-submit-btn:hover{opacity:.88}
+.sub-submit-btn:disabled{opacity:.5;cursor:not-allowed}
+#sub-msg{font-size:12.5px;font-weight:600;text-align:center;min-height:18px}
+#sub-msg.ok{color:var(--green)}
+#sub-msg.err{color:var(--red)}
+
+/* ── 审稿卡 ───────────────────────────────────────────────── */
+.sub-card{border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:8px;transition:box-shadow .15s}
+.sub-card:hover{box-shadow:var(--sh)}
+.sub-card-hd{padding:12px 14px;cursor:pointer;display:flex;align-items:flex-start;gap:10px}
+.sub-card-hd:hover{background:var(--bg)}
+.sub-card.open .sub-card-hd{background:var(--bg)}
+.sub-cat-tag{font-size:10px;font-weight:800;padding:2px 7px;border-radius:5px;flex-shrink:0;margin-top:2px}
+.sub-card-main{flex:1;min-width:0}
+.sub-card-title{font-size:13px;font-weight:600;color:var(--ink);line-height:1.4}
+.sub-card-meta{font-size:11px;color:var(--ink4);margin-top:3px}
+.sub-status{font-size:10px;font-weight:700;padding:2px 7px;border-radius:5px;flex-shrink:0}
+.sub-status.pending{background:rgba(245,158,11,.12);color:#b45309}
+.sub-status.approved{background:rgba(22,163,74,.1);color:var(--green)}
+.sub-status.rejected{background:rgba(212,39,29,.08);color:var(--red)}
+.sub-expand{font-size:11px;color:var(--ink4);transition:transform .15s}
+.sub-card.open .sub-expand{transform:rotate(180deg)}
+.sub-card-body{display:none;padding:0 14px 14px;border-top:1px solid var(--border)}
+.sub-card.open .sub-card-body{display:block}
+.sub-content-preview{font-size:13px;color:var(--ink2);line-height:1.75;background:var(--bg);border-radius:7px;padding:10px 12px;margin:10px 0;max-height:200px;overflow-y:auto;white-space:pre-wrap}
+.sub-actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.sub-btn-approve{padding:7px 16px;border-radius:8px;background:var(--green);color:#fff;border:none;font-size:13px;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:4px}
+.sub-btn-reject{padding:7px 16px;border-radius:8px;background:rgba(212,39,29,.1);color:var(--red);border:1px solid rgba(212,39,29,.2);font-size:13px;font-weight:700;cursor:pointer}
+.sub-btn-delete{padding:7px 12px;border-radius:8px;background:var(--bg);color:var(--ink3);border:1px solid var(--border);font-size:12px;cursor:pointer}
+.sub-reply-row{display:flex;gap:6px;margin-top:8px}
+.sub-reply-input{flex:1;border:1.5px solid var(--border2);border-radius:7px;padding:7px 10px;font-size:12.5px;font-family:var(--f);color:var(--ink);outline:none;background:var(--surface)}
+.sub-reply-input:focus{border-color:var(--blue)}
+.sub-reply-send{padding:0 12px;border-radius:7px;background:var(--blue);color:#fff;border:none;font-size:12px;font-weight:700;cursor:pointer}
 .write-trigger-btn.admin-on{display:flex}
 
 /* ── 管理员登录弹窗 ──────────────────────────────────────── */
@@ -1180,6 +1234,12 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
         <span class="zh-only">AI写稿</span>
       </button>
 
+      <!-- 投稿按钮（所有人可见）-->
+      <button class="submit-trigger-btn" onclick="openSubmitModal()" title="我要投稿">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M8 2v8M5 7l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="11" width="12" height="3" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+        <span class="zh-only">投稿</span>
+      </button>
+
       <!-- 语言切换 -->
       <button class="lang-btn zh-active" id="lang-btn" onclick="toggleLang()">
         <span class="zh-txt">中</span>
@@ -1387,11 +1447,6 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
         <div class="scard">
           <div class="scard-hd"><span class="scard-dot" style="background:#7c3aed"></span><span class="scard-title zh-only">快速入口</span><span class="scard-title en-only">Quick Access</span></div>
           <div>
-            <div class="opp-item" onclick="switchGamePanel('play')">
-              <div class="opp-ico">🀄</div>
-              <div class="opp-info"><div class="opp-name zh-only">福运麻将馆</div><div class="opp-name en-only">Mahjong</div><div class="opp-sub zh-only">四人麻将 · 立即开局</div><div class="opp-sub en-only">4-player · Play now</div></div>
-              <span style="font-size:12px;color:var(--ink4)">›</span>
-            </div>
             <div class="opp-item" onclick="openGame('doudizhu.html')">
               <div class="opp-ico">🃏</div>
               <div class="opp-info"><div class="opp-name zh-only">欢乐斗地主</div><div class="opp-name en-only">Dou Di Zhu</div><div class="opp-sub zh-only">三人对战 · 立即开局</div><div class="opp-sub en-only">3-player · Play now</div></div>
@@ -1404,28 +1459,29 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
   </div>
   <div class="gpanel" id="gpanel-play">
     <div class="game-grid">
-      <div class="gc" onclick="openGame('mahjong_final.html')">
-        <div class="gc-cover gc-cover-mj"><span class="gc-tile-b gc-tile-b1"></span><span class="gc-tile-b gc-tile-b2"></span><div class="gc-tile-main"><span class="ch">中</span><span class="sub">红中</span></div></div>
-        <div class="gc-info">
-          <div class="gc-name zh-only">福运麻将馆</div><div class="gc-name en-only">Lucky Mahjong</div>
-          <div class="gc-desc zh-only">四人麻将 · AI对局 · 碰杠胡 · 七对子</div><div class="gc-desc en-only">4-player Mahjong · AI opponents</div>
-          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag en-only">Single</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag free en-only">Free</span></div><button class="gc-play">▶ <span class="zh-only">开局</span><span class="en-only">Play</span></button></div>
-          <div class="gc-hint zh-only">↗ 新标签页全屏游玩</div><div class="gc-hint en-only">↗ Opens in new tab</div>
-        </div>
-      </div>
       <div class="gc" onclick="openGame('doudizhu.html')">
-        <div class="gc-cover" style="background:linear-gradient(135deg,#c0392b,#922b21);display:flex;align-items:center;justify-content:center;gap:8px">
-          <span style="font-size:36px">🃏</span>
+        <div class="gc-cover" style="background:linear-gradient(135deg,#c0392b,#922b21);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:42px">🃏</span>
         </div>
         <div class="gc-info">
           <div class="gc-name zh-only">欢乐斗地主</div><div class="gc-name en-only">Dou Di Zhu</div>
           <div class="gc-desc zh-only">三人对战 · 叫地主 · 经典玩法</div><div class="gc-desc en-only">3-player · Classic landlord game</div>
-          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag en-only">Single</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag free en-only">Free</span></div><button class="gc-play">▶ <span class="zh-only">开局</span><span class="en-only">Play</span></button></div>
-          <div class="gc-hint zh-only">↗ 新标签页全屏游玩</div><div class="gc-hint en-only">↗ Opens in new tab</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag free zh-only">免费</span></div><button class="gc-play">▶ 开局</button></div>
         </div>
       </div>
-      <div class="gc coming"><div class="gc-cover-soon">♟️</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">中国象棋</span><span class="en-only">Chinese Chess</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
-      <div class="gc coming"><div class="gc-cover-soon">🎲</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">骰子游戏</span><span class="en-only">Dice Game</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span><span class="gc-soon-badge en-only">Coming Soon</span></div></div></div>
+      <div class="gc" onclick="openGame('texas_holdem.html')">
+        <div class="gc-cover" style="background:linear-gradient(135deg,#0d1b2a,#1a3a2a);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px">
+          <div style="display:flex;gap:6px;font-size:30px">♠️ ♥️</div>
+          <div style="display:flex;gap:6px;font-size:30px">♦️ ♣️</div>
+        </div>
+        <div class="gc-info">
+          <div class="gc-name zh-only">皇家德州扑克</div><div class="gc-name en-only">Royal Texas Hold'em</div>
+          <div class="gc-desc zh-only">四人对战 · AI对局 · 完整规则</div><div class="gc-desc en-only">4-player · AI · Full Hold'em rules</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag" style="background:rgba(34,197,94,.12);color:#16a34a">新</span></div><button class="gc-play">▶ 开局</button></div>
+        </div>
+      </div>
+      <div class="gc coming"><div class="gc-cover-soon">♟️</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">中国象棋</span><span class="en-only">Chinese Chess</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span></div></div></div>
+      <div class="gc coming"><div class="gc-cover-soon">🎲</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">骰子游戏</span><span class="en-only">Dice Game</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span></div></div></div>
     </div>
     <div style="height:3rem"></div>
   </div>
@@ -1604,6 +1660,10 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <div class="wp-tab" data-tab="services" onclick="switchAdminTab('services')">
         <svg viewBox="0 0 16 16" fill="none"><path d="M3 8h10M8 3v10" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.3"/></svg>
         推荐服务
+      </div>
+      <div class="wp-tab" data-tab="submissions" onclick="switchAdminTab('submissions')" id="tab-sub-btn">
+        <svg viewBox="0 0 16 16" fill="none"><path d="M8 2v8M5 7l3 3 3-3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="11" width="12" height="3" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+        投稿审核 <span id="sub-badge" style="display:none;background:var(--red);color:#fff;font-size:9px;font-weight:800;padding:1px 5px;border-radius:8px;margin-left:2px">0</span>
       </div>
     </div>
 
@@ -2047,6 +2107,72 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       </div>
     </div>
 
+    <!-- Tab: 投稿审核 -->
+    <div id="tab-submissions" class="mgr-body" style="display:none">
+      <div class="mgr-toolbar" style="gap:8px">
+        <div style="display:flex;gap:6px;flex:1">
+          <span class="wp-preset on" data-sf="pending" onclick="subFilter(this)" style="font-size:12px">⏳ 待审 <span id="sub-cnt-pending">—</span></span>
+          <span class="wp-preset" data-sf="approved" onclick="subFilter(this)" style="font-size:12px">✅ 已通过 <span id="sub-cnt-approved">—</span></span>
+          <span class="wp-preset" data-sf="rejected" onclick="subFilter(this)" style="font-size:12px">❌ 已拒绝 <span id="sub-cnt-rejected">—</span></span>
+        </div>
+        <button class="mgr-refresh" onclick="subLoad()" style="white-space:nowrap">⟳ 刷新</button>
+      </div>
+
+      <div class="mgr-stats" id="sub-stats"></div>
+      <div class="mgr-list" id="sub-list"><div class="mgr-loading">加载投稿中...</div></div>
+
+      <div style="font-size:11px;color:var(--ink4);text-align:center;padding:4px 0;margin-top:4px">
+        💡 投稿存入 Supabase <code>submissions</code> 表 · 通过后自动写入 <code>news_articles</code>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══ 投稿弹窗 ══════════════════════════════════════════════ -->
+<div id="submit-modal" onclick="if(event.target===this)closeSubmitModal()">
+  <div class="submit-sheet">
+    <div class="submit-hd">
+      <div class="submit-title">&#x270D;&#xFE0F; 我要投稿</div>
+      <button class="submit-close" onclick="closeSubmitModal()">&#x2715;</button>
+    </div>
+    <div class="submit-body">
+      <div class="sub-notice">
+        投稿内容经编辑审核后将发布在 K1980。请确保内容原创真实，海外华人生活/移民/财经/科技话题优先。
+      </div>
+      <div class="sub-field">
+        <label>文章标题 *</label>
+        <input id="sub-title" placeholder="一句话概括文章主题，不超过40字" maxlength="60"/>
+      </div>
+      <div class="sub-field" style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div>
+          <label>分类 *</label>
+          <select id="sub-category">
+            <option value="时事">时事</option>
+            <option value="移民">移民</option>
+            <option value="教育">教育</option>
+            <option value="财经">财经</option>
+            <option value="科技">科技</option>
+            <option value="生活">生活</option>
+            <option value="旅游">旅游</option>
+          </select>
+        </div>
+        <div>
+          <label>署名（可选）</label>
+          <input id="sub-author" placeholder="你的名字或匿名"/>
+        </div>
+      </div>
+      <div class="sub-field">
+        <label>联系方式（可选）</label>
+        <input id="sub-contact" placeholder="邮箱 / 微信 / WhatsApp"/>
+      </div>
+      <div class="sub-field">
+        <label>文章正文 *</label>
+        <textarea id="sub-content" placeholder="请输入文章内容，建议300字以上..." rows="7"></textarea>
+      </div>
+      <div id="sub-msg"></div>
+      <button class="sub-submit-btn" id="sub-submit-btn" onclick="submitArticle()">提交投稿</button>
+    </div>
   </div>
 </div>
 
@@ -2692,7 +2818,42 @@ function switchGamePanel(id){
   if(id==='news'&&GS.arts.length===0)loadGNews(true);
 }
 
-function openGame(src){window.open(src,'_blank','noopener');}
+const GAME_TITLES = {
+  'mahjong.html':'🀄 福运麻将馆',
+  'mahjong_final.html':'🀄 福运麻将馆',
+  'doudizhu.html':'🃏 欢乐斗地主',
+  'texas.html':'♠ 德州扑克',
+  'texas_holdem.html':'♠ 皇家德州扑克',
+};
+const MAHJONG_NAMES = ['mahjong.html','mahjong_final.html','mahjong-game.html'];
+let _mahjongFile=null, _gameLoadTimer=null;
+
+async function findMahjongFile(){
+  if(_mahjongFile) return _mahjongFile;
+  for(const name of MAHJONG_NAMES){
+    try{ const r=await fetch(name,{method:'HEAD'}); if(r.ok){_mahjongFile=name;return name;} }catch(e){}
+  }
+  return MAHJONG_NAMES[0];
+}
+
+function openGame(src){
+  // 直接新标签页全屏打开，避免 iframe 高度问题
+  if(src==='mahjong.html'){
+    findMahjongFile().then(name=>window.open(name,'_blank'));
+  } else {
+    window.open(src,'_blank');
+  }
+}
+
+function handleGameLoad(){}
+function handleGameError(){}
+function closeGameOverlay(){
+  const overlay=document.getElementById('game-overlay');
+  const iframe=document.getElementById('game-iframe');
+  if(iframe) iframe.src='';
+  if(overlay) overlay.style.display='none';
+  document.body.style.overflow='';
+}
 
 function showGameMode(on){
   const mainLayout = document.getElementById('main-layout');
@@ -3876,16 +4037,21 @@ let _currentAdminTab = 'write';
 function switchAdminTab(tab) {
   _currentAdminTab = tab;
   document.querySelectorAll('.wp-tab').forEach(t => t.classList.toggle('on', t.dataset.tab === tab));
-  document.getElementById('tab-write').style.display    = tab === 'write'    ? 'flex' : 'none';
-  document.getElementById('tab-manage').style.display   = tab === 'manage'   ? 'flex' : 'none';
-  document.getElementById('tab-opps').style.display     = tab === 'opps'     ? 'flex' : 'none';
-  document.getElementById('tab-services').style.display = tab === 'services' ? 'flex' : 'none';
+  document.getElementById('tab-write').style.display       = tab === 'write'       ? 'flex' : 'none';
+  document.getElementById('tab-manage').style.display      = tab === 'manage'      ? 'flex' : 'none';
+  document.getElementById('tab-opps').style.display        = tab === 'opps'        ? 'flex' : 'none';
+  document.getElementById('tab-services').style.display    = tab === 'services'    ? 'flex' : 'none';
+  document.getElementById('tab-submissions').style.display = tab === 'submissions' ? 'flex' : 'none';
   const titles = {
-    write:    ['✍️ 自动写稿 · 一键发布', '深度报道 + 新闻简报，由 Claude AI 生成，直接上线'],
-    manage:   ['📋 文章管理后台', '查看、删除、置顶文章 · 实时同步 Supabase'],
-    opps:     ['🎯 今日机会管理', '增删改机会卡片 · 商家合作 · 实时同步前台'],
-    services: ['⭐ 推荐服务管理', '增删改推荐服务 · 侧边栏实时更新'],
+    write:       ['✍️ 自动写稿 · 一键发布', '深度报道 + 新闻简报，由 Claude AI 生成，直接上线'],
+    manage:      ['📋 文章管理后台', '查看、删除、置顶文章 · 实时同步 Supabase'],
+    opps:        ['🎯 今日机会管理', '增删改机会卡片 · 商家合作 · 实时同步前台'],
+    services:    ['⭐ 推荐服务管理', '增删改推荐服务 · 侧边栏实时更新'],
+    submissions: ['📥 投稿审核', '审核读者来稿 · 通过后一键上线'],
   };
+  document.getElementById('wp-hd-title').textContent = titles[tab]?.[0] || '';
+  document.getElementById('wp-hd-sub').textContent   = titles[tab]?.[1] || '';
+  if (tab === 'submissions') subLoad();
   document.getElementById('wp-hd-title').textContent = titles[tab][0];
   document.getElementById('wp-hd-sub').textContent   = titles[tab][1];
   if (tab === 'manage')   mgrLoad(false);
@@ -5172,6 +5338,224 @@ async function retryPublish() {
   }
   publishGeneratedNews();
 }
+
+/* ══ 投稿功能 ═════════════════════════════════════════════ */
+function openSubmitModal() {
+  document.getElementById('submit-modal').classList.add('on');
+  document.body.style.overflow = 'hidden';
+}
+function closeSubmitModal() {
+  document.getElementById('submit-modal').classList.remove('on');
+  document.body.style.overflow = '';
+}
+
+async function submitArticle() {
+  const title   = document.getElementById('sub-title').value.trim();
+  const content = document.getElementById('sub-content').value.trim();
+  const cat     = document.getElementById('sub-category').value;
+  const author  = document.getElementById('sub-author').value.trim();
+  const contact = document.getElementById('sub-contact').value.trim();
+  const msgEl   = document.getElementById('sub-msg');
+  const btn     = document.getElementById('sub-submit-btn');
+
+  if (!title) { msgEl.className='sub-msg err'; msgEl.textContent='请填写文章标题'; return; }
+  if (content.length < 50) { msgEl.className='sub-msg err'; msgEl.textContent='正文至少50字'; return; }
+
+  btn.disabled = true; btn.textContent = '提交中...';
+  msgEl.className = ''; msgEl.textContent = '';
+
+  try {
+    const resp = await fetch(`${CFG.URL}/rest/v1/submissions`, {
+      method: 'POST',
+      headers: {
+        'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY,
+        'Content-Type': 'application/json', 'Prefer': 'return=minimal'
+      },
+      body: JSON.stringify({
+        title, content, category: cat,
+        author_name: author || '匿名',
+        contact: contact || '',
+        status: 'pending',
+        submitted_at: new Date().toISOString()
+      })
+    });
+    if (!resp.ok) {
+      const e = await resp.json().catch(() => ({}));
+      if (resp.status === 404 || (e.message && e.message.includes('relation'))) {
+        throw new Error('submissions表不存在，请先在Supabase建表');
+      }
+      throw new Error('HTTP ' + resp.status);
+    }
+    msgEl.className = 'sub-msg ok';
+    msgEl.textContent = '✅ 投稿成功！编辑审核后将发布，感谢你的贡献。';
+    btn.textContent = '已提交';
+    setTimeout(() => {
+      ['sub-title','sub-content','sub-contact','sub-author'].forEach(id => { const el=document.getElementById(id); if(el) el.value=''; });
+      closeSubmitModal();
+      btn.disabled = false; btn.textContent = '提交投稿';
+    }, 2500);
+  } catch(e) {
+    msgEl.className = 'sub-msg err';
+    msgEl.textContent = '提交失败：' + e.message;
+    btn.disabled = false; btn.textContent = '提交投稿';
+  }
+}
+
+/* ══ 后台：投稿审核 ═══════════════════════════════════════ */
+const SUB = { items: [], filter: 'pending' };
+
+async function subLoad() {
+  const list  = document.getElementById('sub-list');
+  const stats = document.getElementById('sub-stats');
+  list.innerHTML = '<div class="mgr-loading">加载中...</div>';
+  try {
+    const resp = await fetch(
+      `${CFG.URL}/rest/v1/submissions?order=submitted_at.desc&limit=100`,
+      { headers: { 'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY } }
+    );
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    SUB.items = await resp.json();
+    subRender();
+    subUpdateCounts();
+    // 更新Tab红点
+    const pending = SUB.items.filter(s => s.status === 'pending').length;
+    const badge = document.getElementById('sub-badge');
+    if (badge) { badge.style.display = pending > 0 ? 'inline' : 'none'; badge.textContent = pending; }
+  } catch(e) {
+    list.innerHTML = `<div class="mgr-empty">⚠️ ${e.message}<br><small style="color:var(--ink4)">请先在Supabase创建 submissions 表</small></div>`;
+  }
+}
+
+function subFilter(el) {
+  document.querySelectorAll('#tab-submissions .wp-preset').forEach(x => x.classList.remove('on'));
+  el.classList.add('on');
+  SUB.filter = el.dataset.sf;
+  subRender();
+}
+
+function subUpdateCounts() {
+  ['pending','approved','rejected'].forEach(s => {
+    const el = document.getElementById('sub-cnt-' + s);
+    if (el) el.textContent = SUB.items.filter(i => i.status === s).length;
+  });
+}
+
+function subRender() {
+  const list = document.getElementById('sub-list');
+  const filtered = SUB.items.filter(s => s.status === SUB.filter);
+  if (!filtered.length) { list.innerHTML = '<div class="mgr-empty">📭 暂无' + {pending:'待审',approved:'已通过',rejected:'已拒绝'}[SUB.filter] + '稿件</div>'; return; }
+  const catColors = { 时事:'rgba(26,86,219,.12)', 移民:'rgba(22,163,74,.12)', 财经:'rgba(194,65,12,.12)', 科技:'rgba(124,58,237,.12)', 教育:'rgba(8,145,178,.12)', 生活:'rgba(190,24,93,.12)', 旅游:'rgba(13,148,136,.12)' };
+  list.innerHTML = filtered.map(s => `
+    <div class="sub-card" data-sid="${s.id}">
+      <div class="sub-card-hd" onclick="subToggle(this.closest('.sub-card'))">
+        <span class="sub-cat-tag" style="background:${catColors[s.category]||'var(--bg)'};color:var(--ink2)">${esc(s.category)}</span>
+        <div class="sub-card-main">
+          <div class="sub-card-title">${esc(s.title)}</div>
+          <div class="sub-card-meta">${esc(s.author_name||'匿名')} · ${ago(s.submitted_at)}${s.contact?` · ${esc(s.contact)}`:''}</div>
+        </div>
+        <span class="sub-status ${s.status}">${{pending:'待审',approved:'已通过',rejected:'已拒绝'}[s.status]}</span>
+        <span class="sub-expand">▾</span>
+      </div>
+      <div class="sub-card-body">
+        <div class="sub-content-preview">${esc(s.content||'').slice(0,600)}${(s.content||'').length>600?'…':''}</div>
+        <div class="sub-actions">
+          ${s.status==='pending'?`
+            <button class="sub-btn-approve" onclick="subApprove('${s.id}')">✅ 通过并上线</button>
+            <button class="sub-btn-reject"  onclick="subReject('${s.id}')">❌ 拒绝</button>
+          `:''}
+          <button class="sub-btn-delete" onclick="subDelete('${s.id}')">🗑 删除</button>
+        </div>
+        ${s.status==='pending'?`
+        <div class="sub-reply-row">
+          <input class="sub-reply-input" id="reply-${s.id}" placeholder="给投稿者的回复（可选，通过或拒绝时一并发送）"/>
+        </div>`:''}
+        ${s.admin_reply?`<div style="font-size:12px;color:var(--ink3);margin-top:6px;padding:6px 10px;background:var(--bg);border-radius:6px">编辑回复：${esc(s.admin_reply)}</div>`:''}
+      </div>
+    </div>`).join('');
+}
+
+function subToggle(card) { card.classList.toggle('open'); }
+
+async function subApprove(id) {
+  const s = SUB.items.find(x => String(x.id) === String(id));
+  if (!s) return;
+  const reply = document.getElementById('reply-' + id)?.value.trim() || '';
+  if (!confirm(`确认通过并发布「${s.title}」？`)) return;
+  try {
+    // 写入 news_articles
+    const r1 = await fetch(`${CFG.URL}/rest/v1/news_articles`, {
+      method: 'POST',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=minimal' },
+      body: JSON.stringify([{
+        guid: crypto.randomUUID ? crypto.randomUUID() : Date.now().toString(36),
+        title: s.title, content: s.content, summary: s.content.slice(0,120),
+        category: s.category, source_name: s.author_name || '读者投稿',
+        is_published: true, view_count: 100,
+        created_at: new Date().toISOString()
+      }])
+    });
+    if (!r1.ok) throw new Error('写入文章失败 ' + r1.status);
+    // 更新投稿状态
+    await fetch(`${CFG.URL}/rest/v1/submissions?id=eq.${id}`, {
+      method: 'PATCH',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=minimal' },
+      body: JSON.stringify({ status:'approved', admin_reply: reply, reviewed_at: new Date().toISOString() })
+    });
+    s.status = 'approved'; s.admin_reply = reply;
+    subRender(); subUpdateCounts();
+    showToast('✅ 已通过并发布！');
+  } catch(e) { showToast('❌ 操作失败：' + e.message); }
+}
+
+async function subReject(id) {
+  const s = SUB.items.find(x => String(x.id) === String(id));
+  if (!s || !confirm(`确认拒绝「${s.title}」？`)) return;
+  const reply = document.getElementById('reply-' + id)?.value.trim() || '';
+  try {
+    await fetch(`${CFG.URL}/rest/v1/submissions?id=eq.${id}`, {
+      method: 'PATCH',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY,'Content-Type':'application/json','Prefer':'return=minimal' },
+      body: JSON.stringify({ status:'rejected', admin_reply: reply, reviewed_at: new Date().toISOString() })
+    });
+    s.status = 'rejected'; s.admin_reply = reply;
+    subRender(); subUpdateCounts();
+    showToast('已拒绝');
+  } catch(e) { showToast('❌ 操作失败：' + e.message); }
+}
+
+async function subDelete(id) {
+  if (!confirm('确认删除这条投稿？')) return;
+  try {
+    await fetch(`${CFG.URL}/rest/v1/submissions?id=eq.${id}`, {
+      method: 'DELETE',
+      headers: { 'apikey':CFG.KEY,'Authorization':'Bearer '+CFG.KEY }
+    });
+    SUB.items = SUB.items.filter(x => String(x.id) !== String(id));
+    subRender(); subUpdateCounts();
+    showToast('已删除');
+  } catch(e) { showToast('❌ 删除失败'); }
+}
+
+// 打开审核Tab时自动加载（已集成在switchAdminTab中）
 </script>
+<!-- ══ 游戏浮层（iframe 内嵌，含关闭按钮）══════════════════ -->
+<div id="game-overlay" style="display:none;position:fixed;inset:0;z-index:800;background:#000;flex-direction:column">
+  <div id="game-overlay-bar" style="height:50px;min-height:50px;background:#111;display:flex;align-items:center;justify-content:space-between;padding:0 16px;flex-shrink:0;border-bottom:1px solid rgba(255,255,255,.1);padding-top:env(safe-area-inset-top,0px)">
+    <button onclick="closeGameOverlay()" style="width:36px;height:36px;border-radius:50%;background:rgba(255,255,255,.15);border:1.5px solid rgba(255,255,255,.2);color:#fff;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;flex-shrink:0">✕</button>
+    <span id="game-overlay-title" style="color:#fff;font-size:14px;font-weight:600;flex:1;text-align:center"></span>
+    <div style="width:36px"></div>
+  </div>
+  <div id="game-iframe-wrap" style="flex:1;position:relative;overflow:hidden">
+    <iframe id="game-iframe" src="" style="position:absolute;inset:0;width:100%;height:100%;border:none;background:#000" allowfullscreen
+      onload="handleGameLoad(this)" onerror="handleGameError()"></iframe>
+    <div id="game-404" style="display:none;position:absolute;inset:0;background:#0a3d1a;color:#fff;display:none;flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:32px">
+      <div style="font-size:48px">🎮</div>
+      <div style="font-size:18px;font-weight:700">游戏加载中...</div>
+      <div style="font-size:13px;color:rgba(255,255,255,.6);max-width:260px;line-height:1.6">如果长时间无法加载，请确认游戏文件已上传到仓库根目录</div>
+      <button onclick="closeGameOverlay()" style="padding:10px 28px;border-radius:10px;background:#d4271d;color:#fff;border:none;font-size:14px;font-weight:700;cursor:pointer;margin-top:8px">返回</button>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>
