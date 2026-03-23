@@ -1,0 +1,30 @@
+name: 深度稿件自动生成
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+    inputs:
+      articles_count:
+        description: 生成文章数量
+        required: false
+        default: "5"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install anthropic httpx feedparser beautifulsoup4
+      - name: 生成深度稿件
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          ARTICLES_PER_RUN: ${{ github.event.inputs.articles_count || '5' }}
+        run: python scripts/generate_depth_articles.py
