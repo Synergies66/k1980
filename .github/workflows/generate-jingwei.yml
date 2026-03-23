@@ -20,6 +20,8 @@ jobs:
         run: python scripts/generate_jingwei.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
       - name: 提交文章
         run: |
           git config --global user.name "K1980 Bot"

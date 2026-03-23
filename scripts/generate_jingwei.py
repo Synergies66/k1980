@@ -5,7 +5,7 @@ K1980 经纬专栏每日生成器
 网站直接读取，稳定不变
 """
 
-import json, os, time, requests
+import json, os, time, requests, hashlib
 from datetime import datetime, timezone, date
 
 ANTHROPIC_API_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
@@ -13,6 +13,9 @@ OUTPUT_DIR = 'data'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 TODAY = date.today().isoformat()
+
+SUPABASE_URL = os.environ.get('SUPABASE_URL', '')
+SUPABASE_KEY = os.environ.get('SUPABASE_SERVICE_KEY', '')
 
 TOPICS = [
     {
@@ -99,6 +102,46 @@ def generate_article(topic: dict) -> dict | None:
         print(f'  ❌ {topic["tag"]}: {e}')
         return None
 
+def publish_to_supabase(art):
+    if not SUPABASE_URL or not SUPABASE_KEY:
+        print("  ⚠️ 未配置 Supabase，跳过发布")
+        return False
+    guid = hashlib.md5((art["title"] + TODAY).encode()).hexdigest()
+    payload = {
+        "guid":         guid,
+        "title":        art["title"],
+        "summary":      art.get("summary", ""),
+        "content":      art.get("body", ""),
+        "category":     art.get("tag", "时事"),
+        "tags":         [art.get("tag", "经纬")],
+        "source_name":  "K1980经纬",
+        "original_url": "#",
+        "is_published": True,
+        "is_jingwei":   True,
+        "view_count":   100,
+        "created_at":   datetime.now(timezone.utc).isoformat(),
+    }
+    hdrs = {
+        "apikey":        SUPABASE_KEY,
+        "Authorization": f"Bearer {SUPABASE_KEY}",
+        "Content-Type":  "application/json",
+        "Prefer":        "return=minimal",
+    }
+    try:
+        r = requests.post(f"{SUPABASE_URL}/rest/v1/news_articles", json=payload, headers=hdrs, timeout=15)
+        if r.status_code in (200, 201):
+            print(f"  ☁️ 已发布到 Supabase")
+            return True
+        elif r.status_code == 409:
+            print(f"  ⏭ Supabase 已存在")
+            return False
+        else:
+            print(f"  ❌ Supabase 错误 {r.status_code}: {r.text[:200]}")
+            return False
+    except Exception as e:
+        print(f"  ❌ Supabase 异常: {e}")
+        return False
+
 if __name__ == '__main__':
     print(f'🚀 经纬专栏生成器')
     print(f'📅 {TODAY}')
@@ -113,6 +156,7 @@ if __name__ == '__main__':
         art = generate_article(topic)
         if art:
             articles.append(art)
+            publish_to_supabase(art)
         time.sleep(2)
 
     output = {
