@@ -34,12 +34,9 @@ NEWS_SOURCES = {
         {'name':'1News TVNZ',   'url':'https://www.1news.co.nz/rss',                                                'lang':'en'},
     ],
    'au': [
-        {'name':'ABC News AU',  'url':'https://www.abc.net.au/news/feed/51120/rss.xml',                             'lang':'en'},
-        {'name':'SBS 中文',     'url':'https://www.sbs.com.au/language/chinese/rss',                               'lang':'zh'},
-        {'name':'Guardian AU',  'url':'https://www.theguardian.com/australia-news/rss',                             'lang':'en'},
-        {'name':'Sydney Morning Herald','url':'https://www.smh.com.au/rss/feed.xml',                                'lang':'en'},
-        {'name':'澳洲星岛',     'url':'https://www.singtao.com.au/feed/',                                           'lang':'zh'},
-        {'name':'澳洲日报',     'url':'https://www.ausnews.com.au/feed',                                   'lang':'en'},
+        {'name':'ABC News AU',  'url':'https://www.abc.net.au/news/feed/51120/rss.xml',   'lang':'en'},
+        {'name':'Guardian AU',  'url':'https://www.theguardian.com/australia-news/rss',   'lang':'en'},
+        {'name':'SMH',          'url':'https://www.smh.com.au/rss/feed.xml',              'lang':'en'},
     ],
     'us': [
         {'name':'NPR News',     'url':'https://feeds.npr.org/1001/rss.xml',                                         'lang':'en'},
@@ -56,13 +53,9 @@ NEWS_SOURCES = {
         {'name':'Reuters',      'url':'https://feeds.reuters.com/reuters/UKTopNews',                                 'lang':'en'},
     ],
    'ca': [
-        {'name':'CBC 头条',     'url':'https://www.cbc.ca/cmlink/rss-topstories',                                   'lang':'en'},
-        {'name':'CBC 温哥华',   'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                       'lang':'en'},
-        {'name':'CBC 多伦多',   'url':'https://www.cbc.ca/cmlink/rss-canada-toronto',                               'lang':'en'},
-        {'name':'Globe Mail',   'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',     'lang':'en'},
-        {'name':'Toronto Star', 'url':'https://www.thestar.com/content/thestar/feed.RSSManagerServlet.topstories.rss','lang':'en'},
-        {'name':'星岛加拿大',   'url':'https://www.singtao.ca/feed/',                                               'lang':'zh'},
-                        'lang':'zh'},
+        {'name':'CBC 头条',   'url':'https://www.cbc.ca/cmlink/rss-topstories',                                 'lang':'en'},
+        {'name':'CBC 温哥华', 'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                     'lang':'en'},
+        {'name':'Globe Mail', 'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',   'lang':'en'},
     ],
     'jp': [
         {'name':'NHK 日本',     'url':'https://www3.nhk.or.jp/rss/news/cat0.xml', 'lang':'ja'},
@@ -112,10 +105,9 @@ SERVICE_SOURCES = {
         {'name':'Eventfinda NZ',  'url':'https://www.eventfinda.co.nz/feed/events/new-zealand',             'type':'event'},
     ],
     'au': [
-        {'name':'Seek AU',        'url':'https://www.seek.com.au/jobs/rss',                                 'type':'job'},
-        {'name':'Domain 出租',    'url':'https://www.domain.com.au/rss/rent/',                              'type':'house'},
-        {'name':'OzBargain',      'url':'https://www.ozbargain.com.au/deals/feed',                          'type':'deal'},
-        {'name':'Eventbrite AU',  'url':'https://www.eventbrite.com.au/d/australia/events/rss/',            'type':'event'},
+        {'name':'ABC News AU',  'url':'https://www.abc.net.au/news/feed/51120/rss.xml',   'lang':'en'},
+        {'name':'Guardian AU',  'url':'https://www.theguardian.com/australia-news/rss',   'lang':'en'},
+        {'name':'SMH',          'url':'https://www.smh.com.au/rss/feed.xml',              'lang':'en'},
     ],
     'us': [
         {'name':'Indeed US',      'url':'https://www.indeed.com/rss?q=chinese+speaker',                    'type':'job'},
@@ -128,9 +120,9 @@ SERVICE_SOURCES = {
         {'name':'Eventbrite UK',  'url':'https://www.eventbrite.co.uk/d/united-kingdom/events/rss/',       'type':'event'},
     ],
     'ca': [
-        {'name':'Indeed CA',      'url':'https://ca.indeed.com/rss?q=&l=Vancouver',                        'type':'job'},
-        {'name':'RedflagDeals',   'url':'https://www.redflagdeals.com/feed/',                              'type':'deal'},
-        {'name':'Eventbrite CA',  'url':'https://www.eventbrite.ca/d/canada/events/rss/',                  'type':'event'},
+        {'name':'CBC 头条',   'url':'https://www.cbc.ca/cmlink/rss-topstories',                                 'lang':'en'},
+        {'name':'CBC 温哥华', 'url':'https://www.cbc.ca/cmlink/rss-canada-britishcolumbia',                     'lang':'en'},
+        {'name':'Globe Mail', 'url':'https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/',   'lang':'en'},
     ],
     'jp': [
         {'name':'GaijinPot Jobs', 'url':'https://jobs.gaijinpot.com/index/index/rss',                     'type':'job'},
