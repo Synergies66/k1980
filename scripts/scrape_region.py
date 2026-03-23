@@ -247,6 +247,17 @@ def get_categories(title, summary):
     cats = [c for c, kws in CATEGORY_KW.items() if any(k in text for k in kws)]
     return cats[:3] if cats else ['本地']
 
+def clean_source(name):
+    """清理乱码来源名称"""
+    try:
+        # 修复常见的 latin-1 误读 UTF-8 情况
+        return name.encode('latin-1').decode('utf-8')
+    except Exception:
+        try:
+            return name.encode('utf-8').decode('utf-8')
+        except Exception:
+            return name
+
 def fetch_rss(url, name, limit=8):
     if not can_fetch(url): return []
     try:
@@ -291,7 +302,7 @@ def scrape(region):
                 'id':         hashlib.md5((e.get('link','') + title).encode()).hexdigest()[:10],
                 'type':       'news',
                 'region':     region,
-                'source':     src['name'],
+                'source':     clean_source(src['name']),
                 'lang':       src['lang'],
                 'title':      title,
                 'summary':    summary,
@@ -326,7 +337,7 @@ def scrape(region):
                 'type':        src['type'],
                 'type_label':  type_label,
                 'region':      region,
-                'source':      src['name'],
+                'source':      clean_source(src['name']),
                 'title':       title,
                 'summary':     summary,
                 'link':        e.get('link',''),
