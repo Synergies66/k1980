@@ -1,0 +1,23 @@
+name: 教育模块
+on:
+  schedule:
+    - cron: '20 1/2 * * *'
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: |
+          pip install httpx supabase anthropic requests feedparser beautifulsoup4
+          cp core_engine.py fetchers/core_engine.py
+      - name: 教育模块
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_education.py 2>/dev/null || echo "跳过"
