@@ -8,6 +8,8 @@ jobs:
   fetch-all:
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    env:
+      PYTHONPATH: ${{ github.workspace }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -19,8 +21,6 @@ jobs:
 
       - name: Install dependencies
         run: pip install httpx supabase anthropic requests feedparser beautifulsoup4
-
-      # ── AI 内容模块（写入 Supabase）──
 
       - name: 时事模块
         continue-on-error: true
@@ -94,8 +94,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python generate_biz_insights.py
 
-      # ── 地区抓取模块（每个限2分钟，写入 data/*.json）──
-
       - name: 抓取新西兰数据
         continue-on-error: true
         timeout-minutes: 2
@@ -130,8 +128,6 @@ jobs:
         continue-on-error: true
         timeout-minutes: 2
         run: timeout 100 python scripts/scrape_region.py ca 2>/dev/null || echo "CA 跳过"
-
-      # ── 统一 Git 提交（只推送一次）──
 
       - name: 提交并推送数据更新
         run: |
