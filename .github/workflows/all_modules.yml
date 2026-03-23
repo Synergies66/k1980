@@ -1,0 +1,133 @@
+name: 📰 K1980 内容引擎（统一）
+on:
+  schedule:
+    - cron: '0 */4 * * *'   # 每4小时一次，一天6次
+  workflow_dispatch:
+
+jobs:
+  fetch-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install httpx supabase anthropic requests feedparser beautifulsoup4
+
+      # ── AI 内容模块（写入 Supabase，无需 git push）──
+
+      - name: 时事模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_news.py 2>/dev/null || python fetchers/fetch_shishi.py 2>/dev/null || echo "时事模块跳过"
+
+      - name: 移民模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_immigration.py
+
+      - name: 科技模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_tech.py
+
+      - name: 财经模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_finance.py 2>/dev/null || echo "财经模块跳过"
+
+      - name: 教育模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_education.py 2>/dev/null || echo "教育模块跳过"
+
+      - name: 生活模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_lifestyle.py 2>/dev/null || echo "生活模块跳过"
+
+      - name: 旅游模块
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python fetchers/fetch_travel.py 2>/dev/null || echo "旅游模块跳过"
+
+      - name: AI原创内容生成
+        continue-on-error: true
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python generate_biz_insights.py
+
+      # ── 地区抓取模块（写入 data/*.json，统一提交）──
+
+      - name: 抓取新西兰数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py nz 2>/dev/null || echo "NZ 跳过"
+
+      - name: 抓取澳大利亚数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py au 2>/dev/null || echo "AU 跳过"
+
+      - name: 抓取香港数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py hk 2>/dev/null || echo "HK 跳过"
+
+      - name: 抓取澳门数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py mo 2>/dev/null || echo "MO 跳过"
+
+      - name: 抓取英国数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py uk 2>/dev/null || echo "UK 跳过"
+
+      - name: 抓取美国数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py us 2>/dev/null || echo "US 跳过"
+
+      - name: 抓取加拿大数据
+        continue-on-error: true
+        run: python scripts/scrape_region.py ca 2>/dev/null || echo "CA 跳过"
+
+      # ── 统一 Git 提交（只推送一次，彻底避免冲突）──
+
+      - name: 提交并推送数据更新
+        run: |
+          git config --global user.name "K1980 Bot"
+          git config --global user.email "bot@k1980.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "✅ 无数据变更，跳过提交"
+          else
+            git commit -m "🌏 地区数据更新 $(date '+%Y-%m-%d %H:%M')"
+            git pull origin main --rebase --strategy-option=theirs
+            git push origin main
+            echo "✅ 数据已推送"
+          fi
