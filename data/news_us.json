@@ -1,9 +1,46 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-22T22:56:24.374888+00:00",
+  "updated_at": "2026-03-23T09:04:13.325147+00:00",
   "total": 24,
   "articles": [
+    {
+      "id": "72a3d7d6ac",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "New York's LaGuardia Airport closed after jet collides with firefighting vehicle",
+      "summary": "An Air Canada regional jet struck a fire truck on the runway after landing at New York's LaGuardia Airport late Sunday night. Two people were killed, according to a person familiar with the investigat",
+      "link": "https://www.npr.org/2026/03/23/g-s1-114773/new-york-laguardia-jet-collides-with-vehicle",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1774255591.0,
+      "hot": false
+    },
+    {
+      "id": "d1f839c5c0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Ukrainians are growing more pessimistic about the prospects for peace, survey says",
+      "summary": "As the Iran war delays peace talks for Ukraine -- and global supplies of air defense missiles -- there are signs that fewer Ukrainians are willing to endure Russia's war for as long as necessary.",
+      "link": "https://www.npr.org/2026/03/23/nx-s1-5754745/ukrainians-are-growing-more-pessimistic-about-the-prospects-for-peace-survey-says",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774255400.0,
+      "hot": false
+    },
     {
       "id": "55190e6097",
       "type": "news",
@@ -18,9 +55,99 @@
         "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "5小时前",
+      "score": 70,
+      "ago": "15小时前",
       "pub_ts": 1774200642.0,
+      "hot": false
+    },
+    {
+      "id": "d77641f384",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iranians Fear Trump’s Threat to Strike Power Plants",
+      "summary": "With President Trump threatening to strike Iranian power plants, some war-weary civilians are panicking over a possible new debacle.",
+      "link": "https://www.nytimes.com/2026/03/22/world/middleeast/iran-trump-power-plants.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22israel-iran-iranians-power-wtfz/22israel-iran-iranians-power-wtfz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774248466.0,
+      "hot": false
+    },
+    {
+      "id": "ef8e78eeea",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Obama’s Strategist Discouraged Biden From Running in 2016",
+      "summary": "In a new set of oral histories, David Plouffe, President Barack Obama’s political adviser, described how he urged Vice President Joseph R. Biden Jr. not to challenge Hillary Clinton for the nomination",
+      "link": "https://www.nytimes.com/2026/03/23/us/politics/obama-strategist-biden-2016-election.html",
+      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23dc-obama-cmlt/23dc-obama-cmlt-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774238465.0,
+      "hot": false
+    },
+    {
+      "id": "3282177c9a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Israel’s Missile Defense Under Scrutiny After Iranian Attack",
+      "summary": "Two missiles landed hours apart, wreaking havoc in two towns near a heavily guarded nuclear site in the Negev Desert.",
+      "link": "https://www.nytimes.com/2026/03/22/world/middleeast/israel-missile-defense-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22israel-defenses-new-kflc/22israel-defenses-new-kflc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774236874.0,
+      "hot": false
+    },
+    {
+      "id": "e33f801d7d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE to Help TSA at Airports Amid Partial Shutdown, Trump’s Border Czar Says",
+      "summary": "Tom Homan, President Trump’s chief border official, cast the operation largely as one to help ease long security lines. The Homeland Security Department said 14 airports across the country would be in",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22dc-homan-airports1-kvpl/22dc-homan-airports1-kvpl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774235549.0,
+      "hot": false
+    },
+    {
+      "id": "9d4edebfb2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How the G.O.P. and Democrats Are Talking About the Surge in Gas Prices",
+      "summary": "Republicans have largely been on defense against Democratic criticism. Here are five arguments advanced by figures in both parties.",
+      "link": "https://www.nytimes.com/2026/03/22/us/politics/republicans-democrats-gas-prices-comments-midterms.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22pol-republicans-democrats-gas-promo/22pol-republicans-democrats-gas-jvtw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1774227822.0,
       "hot": false
     },
     {
@@ -37,45 +164,27 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1774219709.0,
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774221238.0,
       "hot": false
     },
     {
-      "id": "27124368e6",
+      "id": "501d1f1ca8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Gas Prices Have Risen More Than 30% in Some States in Weeks Since Iran War Began",
-      "summary": "Across the South and Southwest, where price hikes have been the most severe, drivers have lamented how the increased costs have cut into their budgets.",
-      "link": "https://www.nytimes.com/2026/03/22/us/gas-prices-south-southwest.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22nat-gas-prices-gqfp/22nat-gas-prices-gqfp-mediumSquareAt3X.jpg",
+      "title": "For ‘Buffy’ Fans, Nicholas Brendon’s Xander Was a Complicated Everyman",
+      "summary": "The actor, who died on Friday, was a fan favorite on “Buffy the Vampire Slayer,” even as his character mixed quiet heroism with hostility toward the show’s women.",
+      "link": "https://www.nytimes.com/2026/03/22/arts/television/nicholas-brendon-death-buffy-xander.html",
+      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22cul-buffy-xander-ftcj/22cul-buffy-xander-ftcj-mediumSquareAt3X-v2.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1774218962.0,
-      "hot": false
-    },
-    {
-      "id": "e33f801d7d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "ICE to Help TSA at Airports Amid Partial Shutdown, Trump’s Border Czar Says",
-      "summary": "Tom Homan, President Trump’s chief border official, cast the operation largely as one to help ease long security lines that have been frustrating passengers at U.S. airports.",
-      "link": "https://www.nytimes.com/2026/03/22/us/politics/ice-airports-homan-trump.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22dc-homan-airports1-kvpl/22dc-homan-airports1-kvpl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1774217939.0,
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1774218105.0,
       "hot": false
     },
     {
@@ -91,8 +200,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1774214799.0,
       "hot": false
     },
@@ -109,8 +218,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1774214797.0,
       "hot": false
     },
@@ -127,8 +236,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1774214796.0,
       "hot": false
     },
@@ -146,82 +255,9 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774214795.0,
-      "hot": false
-    },
-    {
-      "id": "3282177c9a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Israel’s Missile Defense Under Scrutiny After Iranian Attack",
-      "summary": "Two missiles landed hours apart, wreaking havoc in two towns near a heavily guarded nuclear site in the Negev Desert.",
-      "link": "https://www.nytimes.com/2026/03/22/world/middleeast/israel-missile-defense-iran.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22israel-defenses-new-kflc/22israel-defenses-new-kflc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774214118.0,
-      "hot": false
-    },
-    {
-      "id": "cc1bab0468",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Politics chat: Trump's mixed messages on the Iran war, the latest on DHS funding",
-      "summary": "We look at President Trump's mixed messages on the war with Iran, plus the latest on Department of Homeland Security funding, which Congress has frozen over his immigration enforcement policies.",
-      "link": "https://www.npr.org/2026/03/22/nx-s1-5753842/politics-chat-trumps-mixed-messages-on-the-iran-war-the-latest-on-dhs-funding",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "10小时前",
-      "pub_ts": 1774181071.0,
-      "hot": false
-    },
-    {
-      "id": "8ae2764390",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mullin Explored Bipartisan Deal to Rein in Immigration Crackdown",
-      "summary": "The G.O.P. senator President Trump chose to lead the Department of Homeland Security privately discussed concessions the White House has repeatedly rejected.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/markwayne-mullin-bipartisan-immigration-deal.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21DC-MULLIN-hglk/21DC-MULLIN-hglk-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "21小时前",
-      "pub_ts": 1774142419.0,
-      "hot": false
-    },
-    {
-      "id": "444f46ad46",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Supreme Court Could Make it Harder to Vote by Mail in the Midterms",
-      "summary": "The Republican National Committee wants to toss ballots arriving after Election Day. Critics say thousands of votes — a majority cast by Democrats — are at stake.",
-      "link": "https://www.nytimes.com/2026/03/22/us/politics/the-supreme-court-could-make-it-harder-to-vote-by-mail-in-the-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/03/22/multimedia/22pol-scotusballot-jlqb/22pol-scotusballot-jlqb-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774191361.0,
+      "ago": "11小时前",
+      "pub_ts": 1774214795.0,
       "hot": false
     },
     {
@@ -238,7 +274,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "19小时前",
       "pub_ts": 1774185930.0,
       "hot": false
     },
@@ -256,7 +292,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774182191.0,
       "hot": false
     },
@@ -274,7 +310,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774182190.0,
       "hot": false
     },
@@ -292,7 +328,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774181340.0,
       "hot": false
     },
@@ -310,7 +346,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774181074.0,
       "hot": false
     },
@@ -328,7 +364,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774181072.0,
       "hot": false
     },
@@ -346,7 +382,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "20小时前",
       "pub_ts": 1774181069.0,
       "hot": false
     },
@@ -364,62 +400,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "21小时前",
       "pub_ts": 1774178577.0,
       "hot": false
     },
     {
-      "id": "806a8d3b0a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Cortina d'Ampezzo mixes Olympic legacy with Alpine glamour",
-      "summary": "Cortina d'Ampezzo, the \"Pearl of the Dolomites,\" is a blend of Olympic heritage with celebrity chic, fine dining and Alpine tradition, even as climate change and new tourism reshape the area.",
-      "link": "https://www.npr.org/2026/03/22/nx-s1-5726237/cortina-olympic-legacy-alpine-glamour",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774173600.0,
-      "hot": false
-    },
-    {
-      "id": "ecb60b65ed",
+      "id": "7d30c45282",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Beshear Criticizes Vance in Ohio, Stoking 2028 Presidential Tensions",
-      "summary": "Mr. Beshear, the Democratic governor of Kentucky, sharply criticized Mr. Vance as both angle for potential presidential runs.",
-      "link": "https://www.nytimes.com/2026/03/21/us/politics/beshear-vance-2028-presidential-race.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/pol-beshear-vance-gcvw/pol-beshear-vance-gcvw-mediumSquareAt3X-v2.jpg",
+      "title": "Nicholas Brendon, Beloved Sidekick on ‘Buffy the Vampire Slayer,’ Dies at 54",
+      "summary": "He played the part of Xander Harris, one of Buffy’s closest friends, on the hit television show about a teenage girl who protects the world from monsters.",
+      "link": "https://www.nytimes.com/2026/03/20/arts/television/nicholas-brendon-dead.html",
+      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/20xp-Brendon-01-pkjz/20xp-Brendon-01-pkjz-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1774166758.0,
-      "hot": false
-    },
-    {
-      "id": "8717d53134",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "News Outlets Pressure Pentagon to Restore Access After Court Ruling",
-      "summary": "A federal judge ruled on Friday that key parts of the Pentagon’s press policy were unconstitutional.",
-      "link": "https://www.nytimes.com/2026/03/21/business/media/pentagon-press-access.html",
-      "image": "https://static01.nyt.com/images/2026/03/21/multimedia/21BIZ-PENTAGON-PRESS-gblh/21BIZ-PENTAGON-PRESS-gblh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1774140154.0,
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1774164133.0,
       "hot": false
     },
     {
