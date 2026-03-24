@@ -1,26 +1,61 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-03-23T21:57:55.773379+00:00",
-  "total": 30,
+  "updated_at": "2026-03-24T05:39:18.539998+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "d348eb354c",
+      "id": "24385b9e1e",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘The UK is saying the same thing as the Taliban’: the women banned from studying in Britain",
-      "summary": "The Home Office has blocked new study visas for applicants from Afghanistan, Sudan, Myanmar and Cameroon. It means many women will miss out on life-changing opportunities – as five female academics ex",
-      "link": "https://www.theguardian.com/uk-news/2026/mar/23/women-banned-from-studying-britain-taliban-afghanistan-sudan",
-      "image": "https://i.guim.co.uk/img/media/b7511c7c31327a8bc239eb4431ba675c0f7f3e56/0_75_560_448/master/560.jpg?width=140&quality=85&auto=format&fit=max&s=a74b116ec5c687ce5e2f14e71448bfa5",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "分析：戰爭持續越久，美國和伊朗就會更加陷入欲罷不能的境地",
+      "summary": "特朗普的選項越來越少。進一步升級可能成為無止境的破壞循環，卻缺乏明確戰略利益，使剩下的只會是最極端的方案。伊朗局勢同樣艱難。該國在衝突前就已面臨經濟壓力和廣泛民怨，若後退將顯得軟弱。",
+      "link": "https://www.bbc.com/zhongwen/articles/cy01g4kpkk7o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ff5a/live/bde680f0-2608-11f1-934f-036468834728.jpg",
       "categories": [
-        "移民",
+        "本地"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1774326115.0,
+      "hot": false
+    },
+    {
+      "id": "75da700dbd",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "當AI智能體開始上崗：2026年春天裡，三個中國人的興奮與恐懼",
+      "summary": "一個是極客，一個是創業者，一個是程序員。他們的情緒各不相同，興奮、恐懼，或者兩者同時發生。他們站的位置不同，聽到的轟鳴聲卻來自同一個方向。",
+      "link": "https://www.bbc.com/zhongwen/articles/crm8mmg0y3eo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3e3a/live/805313b0-2375-11f1-8f74-5f782ec9b448.jpg",
+      "categories": [
         "科技"
       ],
-      "score": 75,
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1774320314.0,
+      "hot": false
+    },
+    {
+      "id": "23bcdd40b2",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "無論身在何方，總有一碗湯給你溫暖",
+      "summary": "跨越不同文化，湯品早在成為現代養生潮流之前，便已被用來療病、慶祝，又或在物資匱乏時延展有限的食材。",
+      "link": "https://www.bbc.com/zhongwen/articles/cqj807qnjj0o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ee3a/live/05cb3340-269d-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
       "ago": "3小时前",
-      "pub_ts": 1774288856.0,
+      "pub_ts": 1774319197.0,
       "hot": false
     },
     {
@@ -37,15 +72,34 @@
         "本地"
       ],
       "score": 72,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1774260046.0,
+      "hot": false
+    },
+    {
+      "id": "08a40db119",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Middle East crisis live: Iran dismisses Trump claim of talks; von der Leyen says global energy situa",
+      "summary": "Iranian parliament speaker says ‘no negotiations’ held with US, as Trump postpones energy strikes for five days; European Commission chief says war must come to negotiated endTrump claims ‘productive’",
+      "link": "https://www.theguardian.com/world/live/2026/mar/24/iran-war-live-updates-trump-ursula-von-der-leyen-oil-prices-energy-crisis-israel-strikes",
+      "image": "https://i.guim.co.uk/img/media/677fc5a2e0070483281d167773e25531ab1a6a0f/1237_0_7212_5773/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=3b10c5787d585313c4575e3ec791e69b",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1774329438.0,
       "hot": false
     },
     {
       "id": "6222399a5b",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Arson attack on Jewish charity ambulances investigated by counter-terror police",
       "summary": "Police say they are looking for three suspects after the Hatzola ambulances were set on fire.",
@@ -55,63 +109,27 @@
         "本地"
       ],
       "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1774302051.0,
+      "ago": "1小时前",
+      "pub_ts": 1774326546.0,
       "hot": false
     },
     {
-      "id": "638a6d6b3e",
+      "id": "d348eb354c",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: Trump says Iran and US ‘want to make a deal’ but Tehran says claims of talk",
-      "summary": "Iranian parliament speaker says ‘no negotiations’ were held with US, as Trump postpones strikes on power plants for five daysIsrael launches new strikes on Tehran as Trump pauses Iran energy attacksBr",
-      "link": "https://www.theguardian.com/world/live/2026/mar/23/middle-east-crisis-live-iea-chief-says-iran-war-energy-crunch-worse-than-1970s-oil-crises-and-ukraine-war-combined",
-      "image": "https://i.guim.co.uk/img/media/646da485954475915b1e91e9a3b9bb1f2fc3f813/0_0_4020_3216/master/4020.jpg?width=140&quality=85&auto=format&fit=max&s=686d5a625649601b12f36809c1bcf426",
+      "title": "‘The UK is saying the same thing as the Taliban’: the women banned from studying in Britain",
+      "summary": "The Home Office has blocked new study visas for applicants from Afghanistan, Sudan, Myanmar and Cameroon. It means many women will miss out on life-changing opportunities – as five female academics ex",
+      "link": "https://www.theguardian.com/uk-news/2026/mar/23/women-banned-from-studying-britain-taliban-afghanistan-sudan",
+      "image": "https://i.guim.co.uk/img/media/b7511c7c31327a8bc239eb4431ba675c0f7f3e56/0_75_560_448/master/560.jpg?width=140&quality=85&auto=format&fit=max&s=a74b116ec5c687ce5e2f14e71448bfa5",
       "categories": [
-        "政治",
+        "移民",
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1774301189.0,
-      "hot": false
-    },
-    {
-      "id": "249f7f9a5c",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
-      "summary": "In the aftermath of the collision of Air Canada flight AC8646 with a fire truck in New York, US transportation chief Sean Duffy emphasized that seat belts helped save lives",
-      "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc84/live/3aa4d0d0-26fc-11f1-a79a-77e93010d956.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1774300427.0,
-      "hot": false
-    },
-    {
-      "id": "e6ca0e0178",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Referendum defeat leaves Italy's Meloni looking more vulnerable",
-      "summary": "Meloni vowed to press on after losing a vote on constitutional reform many turned into a referendum on her government.",
-      "link": "https://www.bbc.com/news/articles/crl1ne8dj1eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ed6/live/2df5bfd0-26f1-11f1-b297-95b0a0a8331e.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774297532.0,
+      "ago": "11小时前",
+      "pub_ts": 1774288856.0,
       "hot": false
     },
     {
@@ -128,7 +146,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "21小时前",
       "pub_ts": 1774253491.0,
       "hot": false
     },
@@ -146,8 +164,116 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1774252019.0,
+      "hot": false
+    },
+    {
+      "id": "bbc9e1e7f8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Colombian military plane crash kills at least 66",
+      "summary": "Colombia's defence minister says it was a \"tragic accident\" but the cause is not yet clear.",
+      "link": "https://www.bbc.com/news/articles/c8dlmrjn1l2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3e8/live/3b34c580-26e0-11f1-908d-0f187797fc2f.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774320741.0,
+      "hot": false
+    },
+    {
+      "id": "5930821b25",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Chris Mason: Reeves to set out principles on who might get energy bills support - and who won't",
+      "summary": "The chancellor must react in real time to the economic shock of the war in Iran, writes the BBC's political editor.",
+      "link": "https://www.bbc.com/news/articles/c937qj0lp32o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9783/live/f753dec0-2728-11f1-90f0-21df3b4f5bbc.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774317543.0,
+      "hot": false
+    },
+    {
+      "id": "6734b56605",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Heat pumps for all new homes and plug-in solar in green tech drive",
+      "summary": "Solar panels that can be plugged in at home could be available to buy in supermarkets in the coming months.",
+      "link": "https://www.bbc.com/news/articles/czjw7klkjm2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e71f/live/c6516ea0-26ce-11f1-81a2-116adc639d06.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774314612.0,
+      "hot": false
+    },
+    {
+      "id": "42c63e98f5",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Royal Mail staff say they were told to hide post to look like delivery targets met",
+      "summary": "BBC Your Voice hears from postal workers who say \"take the mail for ride\" is a common phrase.",
+      "link": "https://www.bbc.com/news/articles/cm2knk5d4deo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e958/live/96a89540-26db-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774312431.0,
+      "hot": false
+    },
+    {
+      "id": "8c1a107977",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "UK must back North Sea oil and gas drilling, says trade body",
+      "summary": "The group says the country \"urgently\" needs to produce its own oil and gas to secure supplies.",
+      "link": "https://www.bbc.com/news/articles/c4g8x7q4l8go?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbbf/live/57f13d70-26e5-11f1-a79a-77e93010d956.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774312269.0,
+      "hot": false
+    },
+    {
+      "id": "865c24f7a4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Inside the alleged Russian operation to trigger anti-government protests in Angola",
+      "summary": "A group of Russians and Angolans are going on trial in Angola after being accused of fomenting protests, which they deny.",
+      "link": "https://www.bbc.com/news/articles/c1mklzkz41jo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/01f2/live/87f6aa00-26bd-11f1-be99-cb4fcea31c93.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774311490.0,
       "hot": false
     },
     {
@@ -163,265 +289,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "18小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1774237529.0,
-      "hot": false
-    },
-    {
-      "id": "900739839e",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Bets on US-Iran ceasefire show signs of insider knowledge, say experts",
-      "summary": "New online accounts on Polymarket platform betting a total of $70,000 suggest ‘some degree of inside info’Several accounts on the online platform Polymarket laid bets on a US-Iran ceasefire over the w",
-      "link": "https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket",
-      "image": "https://i.guim.co.uk/img/media/b27de2f58de3e8b2463d2633f9accc372f8bfb4a/0_0_2817_2255/master/2817.jpg?width=140&quality=85&auto=format&fit=max&s=6b3c791578fcf03887af7e5612db54d0",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774295820.0,
-      "hot": false
-    },
-    {
-      "id": "934229bbfe",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "PM warns against 'false comfort' of thinking Iran war will end quickly",
-      "summary": "The PM also tells senior MPs the conflict was \"not our war\" and there must be a \"lawful basis\" for any UK involvement.",
-      "link": "https://www.bbc.com/news/articles/cy01l49kkgdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9be2/live/ef971780-26c7-11f1-a4d4-99b68c75b55c.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774293055.0,
-      "hot": false
-    },
-    {
-      "id": "ea4e36739f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Starmer’s liaison committee jaunt was largely soporific – just as he’d wanted | John Crace",
-      "summary": "Every PM hopes to emerge having said nothing that makes the news, and with Iran centre-stage Keir played a blinderWhat a difference a week makes. At last week’s prime minister’s questions, Keir Starme",
-      "link": "https://www.theguardian.com/politics/2026/mar/23/starmers-liaison-committee-jaunt-was-largely-soporific-just-as-hed-wanted",
-      "image": "https://i.guim.co.uk/img/media/bcc80dfecad968909778b7a2a2a12368b8790e7a/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=38193258ef3aef5831d805dd158635ee",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774291666.0,
-      "hot": false
-    },
-    {
-      "id": "686fac73b6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Private investigator denies 'switching sides' in Mail publisher case",
-      "summary": "Gavin Burrows says he did not give a 'fake' statement admitting to working for the publisher.",
-      "link": "https://www.bbc.com/news/articles/c2d8ln16p8eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d87d/live/66ec80d0-26ce-11f1-a79a-77e93010d956.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774289968.0,
-      "hot": false
-    },
-    {
-      "id": "9e268500ac",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Iranian man who allegedly tried to enter nuclear base released",
-      "summary": "The 34-year-old was released pending further inquiries, while a 31-year-old Romanian woman was released without charge.",
-      "link": "https://www.bbc.com/news/articles/cvg04mg13ljo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3887/live/79af8fe0-26de-11f1-908d-0f187797fc2f.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774289602.0,
-      "hot": false
-    },
-    {
-      "id": "57344bdcd9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Body of father was at attacks scene for 15 hours",
-      "summary": "At the Nottingham Inquiry, police boss Rob Griffin is asked if he could imagine the distress it caused.",
-      "link": "https://www.bbc.com/news/articles/c4gvpmn97x4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8f91/live/a82b8fc0-26d6-11f1-b297-95b0a0a8331e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774288476.0,
-      "hot": false
-    },
-    {
-      "id": "8981070890",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Slovenia becomes first EU country to introduce fuel rationing",
-      "summary": "Until further notice, motorists in Slovenia will be restricted to a maximum purchase of 50 litres of fuel per day.",
-      "link": "https://www.bbc.com/news/articles/c77m4zx6zvmo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3cf4/live/dc1fbeb0-26da-11f1-934f-036468834728.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774287925.0,
-      "hot": false
-    },
-    {
-      "id": "fee6164089",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Ex-teacher accused of Edinburgh school abuse found guilty of sex attack in South Africa",
-      "summary": "A court in Cape Town found Iain Wares guilty of indecently assaulting a former student who accused him of sexual abuse in the 1980s.",
-      "link": "https://www.bbc.com/news/articles/c98kdp0z9gyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76a1/live/a332ef00-f066-11f0-b5f7-49f0357294ff.png",
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774284493.0,
-      "hot": false
-    },
-    {
-      "id": "d83c1ee766",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "HS2 trains could run slower than planned to save money",
-      "summary": "The government is looking at ways to make much-delayed London to Birmingham railway line cheaper to deliver.",
-      "link": "https://www.bbc.com/news/articles/czex3lj077xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d161/live/0ddd9c90-26a6-11f1-9a4b-834c9ce445e3.jpg",
-      "categories": [
-        "政治",
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774283949.0,
-      "hot": false
-    },
-    {
-      "id": "aa43c1faa9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "How a YouTuber used a fake live stream to cover up the murder of his pregnant partner",
-      "summary": "Evidence in the trial of Stephen McCullagh outlined a cold, calculating plan to kill Natalie McNally and get away with it.",
-      "link": "https://www.bbc.com/news/articles/c4g8d8pz0xyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5422/live/e870eb80-26d5-11f1-934f-036468834728.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774282115.0,
-      "hot": false
-    },
-    {
-      "id": "9b6a26c628",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "How content creator killer hoped a YouTube alibi would help him avoid justice",
-      "summary": "Evidence in the trial of Stephen McCullagh outlined a cold, calculating plan to kill Natalie McNally and get away with it.",
-      "link": "https://www.bbc.com/news/articles/c4g8d8pz0xyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5422/live/e870eb80-26d5-11f1-934f-036468834728.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774282115.0,
-      "hot": false
-    },
-    {
-      "id": "3891acbd73",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘It shook the plaster off the ceiling’: Self Esteem and David Hare on reviving rock romp Teeth ‘n’ S",
-      "summary": "It lit up the 1970s with its nihilistic tale of a hippie band imploding in a trail of drugs, booze and violence. What can it tell us about the music business today? Writer David Hare and wild-child ro",
-      "link": "https://www.theguardian.com/stage/2026/mar/23/self-esteem-david-hare-rock-romp-teeth-n-smiles-hippie",
-      "image": "https://i.guim.co.uk/img/media/ea58f382a48fb4b226ccbf0b401656df48cc177e/2869_2956_5518_4415/master/5518.jpg?width=140&quality=85&auto=format&fit=max&s=1a04299913e971780a210d3e68321e26",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774281612.0,
-      "hot": false
-    },
-    {
-      "id": "17dd68b518",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "防彈少年團回歸，中國「限韓令」陰影依舊未散",
-      "summary": "這場回歸不僅牽動著全球粉絲的心，也折射出當下困難重重的Kpop行業處境，以及中國市場在這場全球盛宴中的缺席。",
-      "link": "https://www.bbc.com/zhongwen/articles/cy914294x01o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5779/live/d120f040-25d3-11f1-b9ae-31be0b06de21.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1774173530.0,
-      "hot": false
-    },
-    {
-      "id": "cc50d8d3ef",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "三人被控向中國走私輝達晶片  涉美國及台灣公民",
-      "summary": "美國司法部指，三人涉嫌「共謀向中國買家出售價值數十億美元的科技產品」，方法包括偽造文件以及使用假設備來躲避審查。",
-      "link": "https://www.bbc.com/zhongwen/articles/c30rl9p5lq1o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9823/live/0c0dc7c0-23f7-11f1-95ac-87c498222a64.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1774159844.0,
       "hot": false
     },
     {
@@ -438,7 +308,7 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1774152074.0,
       "hot": false
     },
@@ -461,39 +331,166 @@
       "hot": false
     },
     {
-      "id": "d2bb75075e",
+      "id": "ce40be6238",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "British supplement maker Huel bought by Danone for €1bn",
-      "summary": "The health firm backed by actor Idris Elba and broadcaster Jonathan Ross is being bought by Danone for €1bn (£860m).",
-      "link": "https://www.bbc.com/news/articles/czre7pl600go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/828b/live/ebf33470-26d5-11f1-97e8-e56f64304680.jpg",
+      "title": "Watch: How the deadly LaGuardia Airport crash unfolded",
+      "summary": "Video shows the aftermath of the collision between a passenger plane and a firefighting vehicle on the runway of the New York airport.",
+      "link": "https://www.bbc.com/news/videos/czxrv4pqx72o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c552/live/dbf09130-2702-11f1-934f-036468834728.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774281044.0,
+      "ago": "7小时前",
+      "pub_ts": 1774304246.0,
       "hot": false
     },
     {
-      "id": "cbb67d2513",
+      "id": "5f4ba00d51",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Huel bought by Danone in €1bn deal",
-      "summary": "The health firm backed by actor Idris Elba and broadcaster Jonathan Ross is being bought by Danone for €1bn (£860m).",
-      "link": "https://www.bbc.com/news/articles/czre7pl600go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/828b/live/ebf33470-26d5-11f1-97e8-e56f64304680.jpg",
+      "title": "Burnham should be allowed to stand as an MP, says Nandy",
+      "summary": "The culture secretary questions her party's decision to block the Greater Manchester mayor from standing in a by-election.",
+      "link": "https://www.bbc.com/news/articles/cn89gjgl5yyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/183f/live/8b391810-26ef-11f1-bad5-5b39ef6d69fc.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774303143.0,
+      "hot": false
+    },
+    {
+      "id": "249f7f9a5c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation",
+      "summary": "In the aftermath of the collision of Air Canada flight AC8646 with a fire truck in New York, US transportation chief Sean Duffy emphasized that seat belts helped save lives",
+      "link": "https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cc84/live/3aa4d0d0-26fc-11f1-a79a-77e93010d956.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1774300427.0,
+      "hot": false
+    },
+    {
+      "id": "900739839e",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Bets on US-Iran ceasefire show signs of insider knowledge, say experts",
+      "summary": "New online accounts on Polymarket platform betting a total of $70,000 suggest ‘some degree of inside info’Middle East crisis – live updatesSeveral accounts on the online platform Polymarket laid bets",
+      "link": "https://www.theguardian.com/us-news/2026/mar/23/bets-us-iran-ceasefire-show-signs-of-insider-knowledge-say-experts-polymarket",
+      "image": "https://i.guim.co.uk/img/media/b27de2f58de3e8b2463d2633f9accc372f8bfb4a/0_0_2817_2255/master/2817.jpg?width=140&quality=85&auto=format&fit=max&s=6b3c791578fcf03887af7e5612db54d0",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774295820.0,
+      "hot": false
+    },
+    {
+      "id": "934229bbfe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "PM warns against 'false comfort' of thinking Iran war will end quickly",
+      "summary": "The PM also tells senior MPs the conflict was \"not our war\" and there must be a \"lawful basis\" for any UK involvement.",
+      "link": "https://www.bbc.com/news/articles/cy01l49kkgdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9be2/live/ef971780-26c7-11f1-a4d4-99b68c75b55c.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1774293055.0,
+      "hot": false
+    },
+    {
+      "id": "37b64f81b4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Shocking but not unexpected': Jewish community reacts to ambulance attack",
+      "summary": "Ambulances belonging to a Jewish community charity in north-west London were set on fire on Monday.",
+      "link": "https://www.bbc.com/news/articles/cm297z7y9lro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5584/live/deb53370-26d6-11f1-a79a-77e93010d956.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774281044.0,
+      "ago": "10小时前",
+      "pub_ts": 1774292212.0,
+      "hot": false
+    },
+    {
+      "id": "ea4e36739f",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Starmer’s liaison committee jaunt was largely soporific – just as he’d wanted | John Crace",
+      "summary": "Every PM hopes to emerge having said nothing that makes the news, and with Iran centre-stage Keir played a blinderWhat a difference a week makes. At last week’s prime minister’s questions, Keir Starme",
+      "link": "https://www.theguardian.com/politics/2026/mar/23/starmers-liaison-committee-jaunt-was-largely-soporific-just-as-hed-wanted",
+      "image": "https://i.guim.co.uk/img/media/bcc80dfecad968909778b7a2a2a12368b8790e7a/285_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=38193258ef3aef5831d805dd158635ee",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1774291666.0,
+      "hot": false
+    },
+    {
+      "id": "9e268500ac",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Iranian man who allegedly tried to enter nuclear base released",
+      "summary": "The 34-year-old was released pending further inquiries, while a 31-year-old Romanian woman was released without charge.",
+      "link": "https://www.bbc.com/news/articles/cvg04mg13ljo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3887/live/79af8fe0-26de-11f1-908d-0f187797fc2f.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1774289602.0,
+      "hot": false
+    },
+    {
+      "id": "3891acbd73",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘It shook the plaster off the ceiling’: Self Esteem and David Hare on reviving rock romp Teeth ‘n’ S",
+      "summary": "It lit up the 1970s with its nihilistic tale of a hippie band imploding in a trail of drugs, booze and violence. What can it tell us about the music business today? Writer David Hare and wild-child ro",
+      "link": "https://www.theguardian.com/stage/2026/mar/23/self-esteem-david-hare-rock-romp-teeth-n-smiles-hippie",
+      "image": "https://i.guim.co.uk/img/media/ea58f382a48fb4b226ccbf0b401656df48cc177e/2869_2956_5518_4415/master/5518.jpg?width=140&quality=85&auto=format&fit=max&s=1a04299913e971780a210d3e68321e26",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "13小时前",
+      "pub_ts": 1774281612.0,
       "hot": false
     },
     {
@@ -510,26 +507,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1774279722.0,
-      "hot": false
-    },
-    {
-      "id": "dc30feb495",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'Stop, stop, stop': Listen to LaGuardia control tower audio during collision",
-      "summary": "An Air Canada plane carrying 72 passengers and four crew initially landed safely from Montreal on Sunday evening before colliding with a firefighting vehicle.",
-      "link": "https://www.bbc.com/news/videos/clyer72wn85o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bf18/live/f2daed50-26c6-11f1-934f-036468834728.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774278265.0,
       "hot": false
     },
     {
@@ -546,7 +525,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1774266765.0,
       "hot": false
     }
