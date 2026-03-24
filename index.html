@@ -1388,7 +1388,16 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
         <div class="opp-item" onclick="window.open('https://www.facebook.com/groups/chineseinvestorsnz','_blank')"><div class="opp-ico">📈</div><div class="opp-info"><div class="opp-name zh-only">海外投资社群</div><div class="opp-name en-only">Overseas Investors Group</div><div class="opp-sub zh-only">财经 · 免费加入</div><div class="opp-sub en-only">Finance · Free to join</div></div><span class="badge badge-h">HOT</span></div>
       </div>
     </div>
-    <!-- 💡 商业洞察（原今日更新位置）-->
+    <div class="scard" id="subscribe-card">
+      <div class="scard-hd"><span class="scard-dot" style="background:#E63946"></span><span class="scard-title">每日简报</span></div>
+      <div style="padding:10px 16px 14px">
+        <p style="font-size:12px;color:var(--ink3);margin-bottom:10px;line-height:1.6">每天早上，全球重要资讯直达邮箱</p>
+        <input type="email" id="sub-email-input" placeholder="输入你的邮箱" style="width:100%;padding:8px 10px;border:1.5px solid var(--border);border-radius:6px;font-size:13px;margin-bottom:8px;box-sizing:border-box;outline:none">
+        <button onclick="quickSubscribe()" style="width:100%;padding:8px;background:#E63946;color:white;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer">免费订阅 →</button>
+        <p id="sub-msg" style="font-size:11px;color:#16a34a;margin-top:6px;display:none;text-align:center">✅ 订阅成功！</p>
+      </div>
+    </div>
+      <!-- 💡 商业洞察（原今日更新位置）-->
     <div class="scard" id="biz-insight-card">
       <div class="scard-hd">
         <span class="scard-dot" style="background:linear-gradient(135deg,#1a56db,#7c3aed)"></span>
@@ -1412,16 +1421,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     </div>
     <div class="scard">
     <!-- 订阅简报 -->
-    <div class="scard" id="subscribe-card">
-      <div class="scard-hd"><span class="scard-dot" style="background:#E63946"></span><span class="scard-title">每日简报</span></div>
-      <div style="padding:10px 16px 14px">
-        <p style="font-size:12px;color:var(--ink3);margin-bottom:10px;line-height:1.6">每天早上，全球重要资讯直达邮箱</p>
-        <input type="email" id="sub-email-input" placeholder="输入你的邮箱" style="width:100%;padding:8px 10px;border:1.5px solid var(--border);border-radius:6px;font-size:13px;margin-bottom:8px;box-sizing:border-box;outline:none">
-        <button onclick="quickSubscribe()" style="width:100%;padding:8px;background:#E63946;color:white;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer">免费订阅 →</button>
-        <p id="sub-msg" style="font-size:11px;color:#16a34a;margin-top:6px;display:none;text-align:center">✅ 订阅成功！</p>
-      </div>
-    </div>
-      <div class="scard-hd" style="display:none"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
+    <div class="scard-hd" style="display:none"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
       <div id="srv-list" style="display:none">
         <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">✈️</div><div><div class="srv-name zh-only">移民咨询</div><div class="srv-name en-only">Immigration</div><div class="srv-desc zh-only">专业顾问一对一</div><div class="srv-desc en-only">Expert consultation</div></div></div><span class="srv-arr">›</span></div>
         <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">🎓</div><div><div class="srv-name zh-only">留学申请</div><div class="srv-name en-only">Study Abroad</div><div class="srv-desc zh-only">名校申请全程服务</div><div class="srv-desc en-only">University applications</div></div></div><span class="srv-arr">›</span></div>
