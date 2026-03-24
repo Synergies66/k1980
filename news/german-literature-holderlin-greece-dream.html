@@ -1,68 +1,148 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" id="html-root">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>德国文学巨匠荷尔德林：一个德意志人的希腊梦 | K1980</title>
 <meta name="description" content="德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。"/>
-<meta property="og:type"        content="article"/>
-<meta property="og:title"       content="德国文学巨匠荷尔德林：一个德意志人的希腊梦"/>
-<meta property="og:description" content="德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。"/>
-<meta property="og:url"         content="https://k1980.app/news/german-literature-holderlin-greece-dream"/>
-<meta property="og:image"       content="https://k1980.app/og.png"/>
-<meta property="og:site_name"   content="K1980"/>
-<meta name="twitter:card"       content="summary_large_image"/>
-<meta name="twitter:title"      content="德国文学巨匠荷尔德林：一个德意志人的希腊梦"/>
+<meta property="og:type"         content="article"/>
+<meta property="og:title"        content="德国文学巨匠荷尔德林：一个德意志人的希腊梦"/>
+<meta property="og:description"  content="德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。"/>
+<meta property="og:url"          content="https://k1980.app/news/german-literature-holderlin-greece-dream"/>
+<meta property="og:image"        content="https://k1980.app/og.png"/>
+<meta property="og:site_name"    content="K1980"/>
+<meta name="twitter:card"        content="summary_large_image"/>
+<meta name="twitter:title"       content="德国文学巨匠荷尔德林：一个德意志人的希腊梦"/>
 <meta name="twitter:description" content="德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。"/>
-<meta name="twitter:image"      content="https://k1980.app/og.png"/>
-<meta name="robots"             content="index,follow"/>
-<link rel="canonical"           href="https://k1980.app/news/german-literature-holderlin-greece-dream"/>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "德国文学巨匠荷尔德林：一个德意志人的希腊梦", "description": "德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。", "url": "https://k1980.app/news/german-literature-holderlin-greece-dream", "datePublished": "2026-03-23T09:14:56+00:00", "publisher": {"@type": "Organization", "name": "K1980", "url": "https://k1980.app"}, "keywords": "德国文学, 浪漫主义, 荷尔德林"}</script>
+<meta name="twitter:image"       content="https://k1980.app/og.png"/>
+<meta name="robots"              content="index,follow"/>
+<link rel="canonical"            href="https://k1980.app/news/german-literature-holderlin-greece-dream"/>
+<link rel="alternate" hreflang="zh" href="https://k1980.app/news/german-literature-holderlin-greece-dream"/>
+<link rel="alternate" hreflang="en" href="https://k1980.app/news/german-literature-holderlin-greece-dream?lang=en"/>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "NewsArticle", "headline": "德国文学巨匠荷尔德林：一个德意志人的希腊梦", "description": "德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。", "url": "https://k1980.app/news/german-literature-holderlin-greece-dream", "datePublished": "2026-03-23T09:14:56+00:00", "inLanguage": ["zh"], "publisher": {"@type": "Organization", "name": "K1980", "url": "https://k1980.app"}, "keywords": "德国文学, 浪漫主义, 荷尔德林"}</script>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#f8f8fa;color:#0a0a0b}
 header{background:#fff;border-bottom:1px solid #e8e8ef;padding:0 20px;height:52px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100}
 .logo{font-size:20px;font-weight:800;color:#d4271d;text-decoration:none;letter-spacing:-.5px}
 .logo-sub{font-size:10px;color:#999;margin-left:6px;font-weight:400;letter-spacing:.5px}
-.back{font-size:13px;color:#666;text-decoration:none;display:flex;align-items:center;gap:4px}
+.header-right{display:flex;align-items:center;gap:12px}
+.back{font-size:13px;color:#666;text-decoration:none}
+
+/* 语言切换按钮 */
+.lang-switch{display:flex;background:#f0f0f5;border-radius:20px;padding:3px;gap:2px}
+.lang-btn{padding:4px 12px;border-radius:16px;font-size:12px;font-weight:600;border:none;cursor:pointer;transition:all .15s;color:#888;background:transparent}
+.lang-btn.active{background:#fff;color:#0a0a0b;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+
 .container{max-width:780px;margin:32px auto;padding:0 20px}
 .category{display:inline-block;font-size:11px;font-weight:700;padding:3px 10px;border-radius:4px;background:rgba(212,39,29,.1);color:#d4271d;margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
 h1{font-size:26px;font-weight:800;line-height:1.35;margin-bottom:12px;color:#0a0a0b}
 .meta{font-size:12.5px;color:#888;margin-bottom:24px;display:flex;gap:12px;flex-wrap:wrap;align-items:center}
 .meta-dot{color:#ccc}
-.summary{font-size:16px;line-height:1.7;color:#444;background:#f0f0f5;border-left:3px solid #d4271d;padding:14px 16px;border-radius:0 8px 8px 0;margin-bottom:28px}
+.summary-box{font-size:16px;line-height:1.7;color:#444;background:#f0f0f5;border-left:3px solid #d4271d;padding:14px 16px;border-radius:0 8px 8px 0;margin-bottom:28px}
 .content{font-size:15.5px;line-height:1.85;color:#222}
 .content p{margin-bottom:16px}
 .content h2,.content h3{font-size:18px;font-weight:700;margin:24px 0 12px;color:#0a0a0b}
+
+/* 英文内容暂无时的提示 */
+.no-en{display:none;padding:24px;background:#fffbeb;border:1px solid #fde68a;border-radius:8px;text-align:center;color:#92400e;font-size:14px;margin-bottom:16px}
+
 .tags{margin-top:28px;display:flex;gap:8px;flex-wrap:wrap}
-.tag{font-size:12px;padding:4px 10px;border-radius:6px;background:#f0f0f5;color:#555;cursor:default}
+.tag{font-size:12px;padding:4px 10px;border-radius:6px;background:#f0f0f5;color:#555}
 .back-btn{display:inline-flex;align-items:center;gap:6px;margin-top:32px;padding:10px 20px;background:#d4271d;color:#fff;border-radius:8px;text-decoration:none;font-size:14px;font-weight:600;transition:opacity .15s}
 .back-btn:hover{opacity:.85}
 footer{text-align:center;padding:32px 20px;color:#aaa;font-size:12px;margin-top:40px;border-top:1px solid #e8e8ef}
-@media(max-width:600px){h1{font-size:21px}.summary{font-size:14.5px}.content{font-size:14.5px}}
+@media(max-width:600px){h1{font-size:21px}.summary-box{font-size:14.5px}.content{font-size:14.5px}.lang-switch{display:flex}}
 </style>
 </head>
 <body>
 <header>
   <a class="logo" href="https://k1980.app">K1980<span class="logo-sub">全球资讯</span></a>
-  <a class="back" href="https://k1980.app">← 返回首页</a>
+  <div class="header-right">
+    <div class="lang-switch">
+      <button class="lang-btn active" id="btn-zh" onclick="setLang('zh')">中文</button>
+      <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+    <a class="back" href="https://k1980.app">← 返回</a>
+  </div>
 </header>
+
 <div class="container">
   <div class="category">时事</div>
-  <h1>德国文学巨匠荷尔德林：一个德意志人的希腊梦</h1>
+
+  <!-- 标题：中英文 -->
+  <h1 id="title-zh">德国文学巨匠荷尔德林：一个德意志人的希腊梦</h1>
+  <h1 id="title-en" style="display:none"></h1>
+
   <div class="meta">
     <span>RFI 法广中文</span>
     <span class="meta-dot">·</span>
     <span>2026年03月23日</span>
   </div>
-  <div class="summary">德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。</div>
-  <div class="content"><p>德国浪漫主义文学代表人物荷尔德林，在其代表作《许佩里翁》中展现了18世纪末德意志知识分子的精神世界。这部书信体小说以古希腊为背景，主人公许佩里翁实际上是作者本人的写照。</p>
+
+  <!-- 摘要：中英文 -->
+  <div class="summary-box" id="summary-zh">德国浪漫主义诗人荷尔德林通过小说《许佩里翁》，展现了德意志知识分子对古希腊文明的向往与现实的冲突。</div>
+  <div class="summary-box" id="summary-en" style="display:none"></div>
+
+  <!-- 正文：中英文 -->
+  <div class="content" id="content-zh"><p>德国浪漫主义文学代表人物荷尔德林，在其代表作《许佩里翁》中展现了18世纪末德意志知识分子的精神世界。这部书信体小说以古希腊为背景，主人公许佩里翁实际上是作者本人的写照。</p>
 <p>荷尔德林深受席勒古希腊理想主义的影响，在理想与现实之间经历着痛苦的挣扎。小说通过许佩里翁这个角色，表达了一个德意志人对古希腊文明的深深向往，以及面对现实时理想破灭的痛苦。</p>
 <p>书中的女性角色狄奥提玛，源于荷尔德林现实生活中刻骨铭心的爱情经历。这段感情既给他带来了创作的灵感和生活的快乐，也成为他终生难以愈合的心灵创伤。《许佩里翁》因此成为德国文学史上探讨理想主义与现实主义冲突的经典作品。</p>
 </div>
+  <div class="content" id="content-en" style="display:none"></div>
+
+  <!-- 英文暂无提示 -->
+  <div class="no-en" id="no-en-tip">English version coming soon · 英文版即将上线</div>
+
   <div class="tags"><span class="tag">德国文学</span><span class="tag">浪漫主义</span><span class="tag">荷尔德林</span></div>
-  <a class="back-btn" href="https://k1980.app">← 返回 K1980 首页</a>
+  <a class="back-btn" href="https://k1980.app" id="back-btn">← 返回 K1980 首页</a>
 </div>
-<footer>© 2026 K1980 · 全球资讯，为你精选</footer>
+
+<footer>© 2026 K1980 · 全球资讯，为你精选 · Global News, Curated for You</footer>
+
+<script>
+// 英文内容（由生成器注入）
+const HAS_EN = false;
+
+function setLang(lang) {
+  const isEn = lang === 'en';
+
+  // 如果选英文但没内容
+  if (isEn && !HAS_EN) {
+    document.getElementById('no-en-tip').style.display = 'block';
+    return;
+  }
+  document.getElementById('no-en-tip').style.display = 'none';
+
+  // 切换标题
+  document.getElementById('title-zh').style.display  = isEn ? 'none' : '';
+  document.getElementById('title-en').style.display  = isEn ? '' : 'none';
+  // 切换摘要
+  document.getElementById('summary-zh').style.display = isEn ? 'none' : '';
+  document.getElementById('summary-en').style.display = isEn ? '' : 'none';
+  // 切换正文
+  document.getElementById('content-zh').style.display = isEn ? 'none' : '';
+  document.getElementById('content-en').style.display = isEn ? '' : 'none';
+
+  // 按钮状态
+  document.getElementById('btn-zh').classList.toggle('active', !isEn);
+  document.getElementById('btn-en').classList.toggle('active', isEn);
+
+  // 返回按钮文字
+  document.getElementById('back-btn').textContent = isEn
+    ? '← Back to K1980'
+    : '← 返回 K1980 首页';
+
+  // 记住偏好
+  localStorage.setItem('k1980_lang', lang);
+  document.getElementById('html-root').lang = isEn ? 'en' : 'zh-CN';
+}
+
+// 读取用户语言偏好
+const savedLang = new URLSearchParams(location.search).get('lang')
+  || localStorage.getItem('k1980_lang')
+  || 'zh';
+if (savedLang === 'en') setLang('en');
+</script>
 </body>
 </html>
