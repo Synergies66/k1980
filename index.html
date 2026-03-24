@@ -1411,6 +1411,16 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <div id="biz-result" style="padding:0 14px 14px"></div>
     </div>
     <div class="scard">
+    <!-- 订阅简报 -->
+    <div class="scard" id="subscribe-card">
+      <div class="scard-hd"><span class="scard-dot" style="background:#E63946"></span><span class="scard-title">每日简报</span></div>
+      <div style="padding:10px 16px 14px">
+        <p style="font-size:12px;color:var(--ink3);margin-bottom:10px;line-height:1.6">每天早上，全球重要资讯直达邮箱</p>
+        <input type="email" id="sub-email-input" placeholder="输入你的邮箱" style="width:100%;padding:8px 10px;border:1.5px solid var(--border);border-radius:6px;font-size:13px;margin-bottom:8px;box-sizing:border-box;outline:none">
+        <button onclick="quickSubscribe()" style="width:100%;padding:8px;background:#E63946;color:white;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer">免费订阅 →</button>
+        <p id="sub-msg" style="font-size:11px;color:#16a34a;margin-top:6px;display:none;text-align:center">✅ 订阅成功！</p>
+      </div>
+    </div>
       <div class="scard-hd"><span class="scard-dot" style="background:#16a34a"></span><span class="scard-title zh-only">推荐服务</span><span class="scard-title en-only">Services</span></div>
       <div id="srv-list">
         <div class="srv-item" onclick=""><div class="srv-l"><div class="srv-ico">✈️</div><div><div class="srv-name zh-only">移民咨询</div><div class="srv-name en-only">Immigration</div><div class="srv-desc zh-only">专业顾问一对一</div><div class="srv-desc en-only">Expert consultation</div></div></div><span class="srv-arr">›</span></div>
@@ -2468,6 +2478,30 @@ const mdRender = t => {
   t = t.replace(/\n/g, '<br>');
   return t;
 };
+
+async function quickSubscribe() {
+  const email = document.getElementById('sub-email-input').value.trim();
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    alert('请输入有效邮箱'); return;
+  }
+  const btn = event.target;
+  btn.disabled = true; btn.textContent = '提交中…';
+  try {
+    const res = await fetch(CFG.URL + '/rest/v1/user_preferences', {
+      method: 'POST',
+      headers: {'apikey': CFG.KEY, 'Authorization': 'Bearer ' + CFG.KEY,
+        'Content-Type': 'application/json', 'Prefer': 'return=minimal'},
+      body: JSON.stringify({email, frequency: 'daily', confirmed: true})
+    });
+    document.getElementById('sub-msg').style.display = 'block';
+    document.getElementById('sub-email-input').value = '';
+    btn.textContent = '已订阅 ✓';
+  } catch(e) {
+    btn.disabled = false; btn.textContent = '免费订阅 →';
+    alert('提交失败，请重试');
+  }
+}
+
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function hl(t,q){if(!q)return esc(t);return esc(t).replace(new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi'),'<mark>$1</mark>');}
 const $=s=>document.querySelector(s);
