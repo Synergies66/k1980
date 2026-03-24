@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-24T19:43:33.062287+00:00",
-  "total": 21,
+  "updated_at": "2026-03-24T22:02:51.236178+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "c281463380",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Minnesota Prosecutors Sue to Access Evidence in Shootings by Agents During Immigration Crackdown",
+      "summary": "The federal government has refused to provide even basic information about the three shootings that took place during an immigration crackdown in Minneapolis. Two were fatal.",
+      "link": "https://www.nytimes.com/2026/03/24/us/minnesota-ice-shootings-evidence.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/nat-minnesota-suit-1-chpt/nat-minnesota-suit-1-chpt-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "政治"
+      ],
+      "score": 80,
+      "ago": "34分前",
+      "pub_ts": 1774387722.0,
+      "hot": false
+    },
     {
       "id": "bb0311057a",
       "type": "news",
@@ -17,28 +36,81 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "13分前",
+      "score": 75,
+      "ago": "2小时前",
       "pub_ts": 1774380578.0,
       "hot": false
     },
     {
-      "id": "c281463380",
+      "id": "264ed54333",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Why it's so hard to take down Cambodia's online scam industry",
+      "summary": "Americans lost some $10 billion to online scammers in Southeast Asia in 2024. Cambodia, in particular, has been warned to clean up its act in recent months.",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5719279/why-its-so-hard-to-take-down-cambodias-online-scam-industry",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774388541.0,
+      "hot": false
+    },
+    {
+      "id": "6c0e823ea5",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Minnesota Prosecutors Sue to Access Evidence in Shootings by Agents During Immigration Crackdown",
-      "summary": "The federal government has refused to provide even basic information about the three shootings during an immigration crackdown in Minneapolis, including two that were fatal.",
-      "link": "https://www.nytimes.com/2026/03/24/us/minnesota-ice-shootings-evidence.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/nat-minnesota-suit-1-chpt/nat-minnesota-suit-1-chpt-mediumSquareAt3X.jpg",
+      "title": "Air Canada Pilots Killed in LaGuardia Crash Were Early in Flying Careers",
+      "summary": "The pilots were identified as Antoine Forest, 30, and Mackenzie Gunther. They were the only two fatalities in the plane’s collision with a fire truck at New York’s LaGuardia Airport.",
+      "link": "https://www.nytimes.com/2026/03/24/nyregion/air-canada-pilots-laguardia.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23laguardia-crash-pilots-ktmg/23laguardia-crash-pilots-ktmg-mediumSquareAt3X.jpg",
       "categories": [
-        "移民",
-        "政治"
+        "科技"
       ],
-      "score": 75,
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1774388132.0,
+      "hot": false
+    },
+    {
+      "id": "0e0ff20ec4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Threat to ‘Obliterate’ Iran’s Power Stations Could Constitute a War Crime, Rights Experts Sa",
+      "summary": "Intentionally targeting the country’s energy infrastructure could constitute a war crime under international law.",
+      "link": "https://www.nytimes.com/2026/03/24/us/politics/trump-iran-power-stations.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/nyregion/24dc-power-stations/24dc-power-stations-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "36分前",
+      "pub_ts": 1774387590.0,
+      "hot": false
+    },
+    {
+      "id": "10eed84d06",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Cuba sends doctors on medical missions. The U.S. isn't a fan",
+      "summary": "It's a major source of revenue for the island. And it's controversial. Now countries are sending Cuban doctors home in response to pressure from the Trump administration.",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5746626/cuba-doctors-mission-blockade",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1774374080.0,
+      "pub_ts": 1774382397.0,
       "hot": false
     },
     {
@@ -55,9 +127,27 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "5分前",
-      "pub_ts": 1774381086.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774382049.0,
+      "hot": false
+    },
+    {
+      "id": "02cd8fde8c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Seems Open to Trump Request to Block Asylum Seekers at Border",
+      "summary": "A policy of turning back many asylum seekers at the border was rescinded in 2021, but the Justice Department wants the flexibility to reinstate it as a tool for border control.",
+      "link": "https://www.nytimes.com/2026/03/24/us/politics/supreme-court-trump-asylum-seekers.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24DC-SCOTUS-ASYLUM-wplv/24DC-SCOTUS-ASYLUM-wplv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774381332.0,
       "hot": false
     },
     {
@@ -74,27 +164,9 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774379219.0,
-      "hot": false
-    },
-    {
-      "id": "d0394cd9fa",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Senate Democrats Urge Kennedy to Stop Hindering Key Health Panel",
-      "summary": "The health secretary has canceled or postponed three meetings of the U.S. Preventive Services Task Force, which shapes health care coverage for Americans.",
-      "link": "https://www.nytimes.com/2026/03/24/well/kennedy-uspstf-health-panel.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24USPSTF-LETTER1-tplv/24USPSTF-LETTER1-tplv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "40分前",
-      "pub_ts": 1774378960.0,
       "hot": false
     },
     {
@@ -110,8 +182,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774377750.0,
       "hot": false
     },
@@ -128,27 +200,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774377578.0,
-      "hot": false
-    },
-    {
-      "id": "02cd8fde8c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Seems Open to Trump Request to Block Asylum Seekers at Border",
-      "summary": "A policy of turning back many asylum seekers at the border was rescinded in 2021, but the Justice Department wants the flexibility to reinstate it as a tool for border control.",
-      "link": "https://www.nytimes.com/2026/03/24/us/politics/supreme-court-trump-asylum-seekers.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24DC-SCOTUS-ASYLUM-wplv/24DC-SCOTUS-ASYLUM-wplv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774376119.0,
       "hot": false
     },
     {
@@ -166,7 +220,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1774373843.0,
       "hot": false
     },
@@ -184,7 +238,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1774370213.0,
       "hot": false
     },
@@ -201,27 +255,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774366660.0,
-      "hot": false
-    },
-    {
-      "id": "0e0ff20ec4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Threat to ‘Obliterate’ Iran’s Power Stations Could Constitute a War Crime, Rights Experts Sa",
-      "summary": "Intentionally targeting the country’s energy infrastructure could constitute a war crime under international law.",
-      "link": "https://www.nytimes.com/2026/03/24/us/politics/trump-iran-power-stations.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/nyregion/24dc-power-stations/24dc-power-stations-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774366459.0,
       "hot": false
     },
     {
@@ -237,8 +273,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774365884.0,
       "hot": false
     },
@@ -256,7 +292,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1774359513.0,
       "hot": false
     },
@@ -274,26 +310,25 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1774350818.0,
       "hot": false
     },
     {
-      "id": "448e97d911",
+      "id": "aee8fad842",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Pakistan is poised to host the U.S. and Iran for talks to end the war",
-      "summary": "The Pakistani prime minister said his country stands ready to host negotiations toward a settlement as the war with Iran nears the one-month mark.",
+      "title": "Trump declares victory and claims Iran offers a 'prize' in talks Iran has denied having",
+      "summary": "President Trump said on Tuesday Iran made a valuable offer to reach a deal with the United States, in talks that Iran has denied are taking place. \"We've won this. This war has been won,\" Trump said.",
       "link": "https://www.npr.org/2026/03/24/nx-s1-5759000/iran-war-talks",
       "image": null,
       "categories": [
-        "政治",
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1774350490.0,
       "hot": false
     },
@@ -311,7 +346,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1774350314.0,
       "hot": false
     },
@@ -329,7 +364,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1774348551.0,
       "hot": false
     },
@@ -347,26 +382,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774342800.0,
-      "hot": false
-    },
-    {
-      "id": "18b7b715cd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Denmark holds early elections spurred by Trump's threats to take Greenland",
-      "summary": "Denmark's prime minister called early parliamentary elections after gaining a popularity boost from standing up to President Trump over his threat to seize Greenland.",
-      "link": "https://www.npr.org/2026/03/24/nx-s1-5757935/denmark-elections-trump-greenland",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1774342800.0,
       "hot": false
     },
