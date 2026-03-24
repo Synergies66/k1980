@@ -2539,6 +2539,9 @@ async function loadSidebarOpps(){
       <span class="badge ${item.hot?'badge-h':'badge-n'}">${item.hot?'HOT':'NEW'}</span>
     </div>
   `).join('');
+  list.querySelectorAll('.jw-item').forEach(el => {
+    el.addEventListener('click', () => openJW(Number(el.dataset.jwidx)));
+  });
 }
 
 function renderStats(pool){
@@ -3233,7 +3236,7 @@ function renderJingwei() {
     return;
   }
   list.innerHTML = jwArticles.map((a, i) => `
-    <div class="jw-item" onclick="openJW(${i})">
+    <div class="jw-item" data-jwidx="${i}" style="cursor:pointer">
       <div class="jw-tag" style="color:${a.color};background:${a.bg}">${esc(a.tag)}</div>
       <div class="jw-title">${esc(a.title)}</div>
       <div class="jw-summary">${esc(a.summary)}</div>
