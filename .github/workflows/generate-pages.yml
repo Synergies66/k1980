@@ -23,7 +23,7 @@ jobs:
         run: |
           git config --global user.name "K1980 Bot"
           git config --global user.email "bot@k1980.app"
-          git add news/ sitemap.xml
+          git add news/ sitemap.xml _redirects
           git diff --staged --quiet || git commit -m "📄 更新文章页面 $(date +'%Y-%m-%d %H:%M')"
           git pull --rebase
           git push

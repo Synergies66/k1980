@@ -1,8 +1,8 @@
 """
 K1980 自动内容引擎
 每次运行做三件事：
-1. 从 Google News RSS 抓取最新华人相关新闻
-2. AI 主动生成华人视角原创深度报道（每次8篇）
+1. 从 Google News RSS 抓取最新全球相关新闻
+2. AI 主动生成全球视角原创深度报道（每次8篇）
 3. 对现有未处理文章补充 ai_title / ai_insight
 """
 
@@ -23,18 +23,18 @@ HEADERS_SB = {
     "Prefer": "return=minimal",
 }
 
-# ── Google News RSS 源（华人相关关键词）─────────────────────
+# ── Google News RSS 源（全球资讯关键词）─────────────────────
 RSS_FEEDS = [
     # 移民/签证
-    "https://news.google.com/rss/search?q=华人+移民&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://news.google.com/rss/search?q=移民+签证&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
     "https://news.google.com/rss/search?q=Chinese+immigrants+Australia+New+Zealand&hl=en&gl=US&ceid=US:en",
     # 财经
-    "https://news.google.com/rss/search?q=海外华人+财经+投资&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://news.google.com/rss/search?q=海外+财经+投资&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
     "https://news.google.com/rss/search?q=Chinese+community+property+economy&hl=en&gl=US&ceid=US:en",
     # 科技
-    "https://news.google.com/rss/search?q=AI+人工智能+华人&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://news.google.com/rss/search?q=AI+人工智能+科技&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
     # 生活/教育
-    "https://news.google.com/rss/search?q=海外华人+教育+留学&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
+    "https://news.google.com/rss/search?q=海外+教育+留学&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
     # 新西兰/澳洲本地
     "https://news.google.com/rss/search?q=New+Zealand+China+Chinese&hl=en&gl=NZ&ceid=NZ:en",
     "https://news.google.com/rss/search?q=Australia+Chinese+community&hl=en&gl=AU&ceid=AU:en",
@@ -42,14 +42,14 @@ RSS_FEEDS = [
 
 # ── AI 主动生成的主题提示词 ─────────────────────────────────
 DAILY_TOPICS = [
-    "新西兰最新移民政策变化对华人申请者的影响与应对策略",
-    "澳大利亚华人房产投资：当前市场机会与风险分析",
-    "海外华人子女教育：本地学校 vs 华文学校的利弊权衡",
-    "北美华人职场：AI时代如何保持竞争力",
-    "英国签证政策新变化：华人留学生和工作签证最新动态",
-    "新加坡华人创业机遇：东南亚市场的华商新浪潮",
-    "海外华人投资回国：当前政策环境与实操指南",
-    "华人社区心理健康：异乡生活压力与支持资源",
+    "新西兰最新移民政策变化对申请者的影响与应对策略",
+    "澳大利亚房产投资：当前市场机会与风险分析",
+    "海外子女教育：本地学校 vs 中文学校的利弊权衡",
+    "北美职场：AI时代如何保持竞争力",
+    "英国签证政策新变化：留学生和工作签证最新动态",
+    "新加坡创业机遇：东南亚市场的新浪潮",
+    "海外投资回国：当前政策环境与实操指南",
+    "海外生活心理健康：异乡压力与支持资源",
 ]
 
 import random
@@ -190,22 +190,22 @@ def classify(text: str) -> str:
         return "科技"
     if any(k in text for k in ["旅游","travel","tourism","签证","flight","航班","酒店"]):
         return "旅游"
-    if any(k in text for k in ["生活","社区","community","health","医疗","饮食","文化","华人"]):
+    if any(k in text for k in ["生活","社区","community","health","医疗","饮食","文化","移民社区"]):
         return "生活"
     return "时事"
 
 
 # ══ 步骤2：AI 主动生成原创深度报道 ══════════════════════════
-WRITE_PROMPT = """你是 K1980.app 的主编，专为全球海外华人撰写深度资讯。
-请围绕以下主题，生成一篇华人视角的深度报道：
+WRITE_PROMPT = """你是 K1980.app 的主编，专为全球读者撰写深度资讯。
+请围绕以下主题，生成一篇全球视角的深度报道：
 
 主题：{topic}
 
 要求：
-1. 标题：吸引海外华人，突出实际影响，不超过30字
+1. 标题：吸引海外读者，突出实际影响，不超过30字
 2. 分类：从 时事/移民/教育/财经/科技/生活/旅游 中选一个最合适的
 3. 摘要：80-120字，概括核心内容
-4. 正文：400-600字，有背景、有数据、有对华人的具体影响和行动建议
+4. 正文：400-600字，有背景、有数据、有对读者的具体影响和行动建议
 5. 标签：3-4个关键词（逗号分隔）
 6. 来源：写"K1980深度"
 
@@ -261,13 +261,13 @@ def generate_ai_articles(count: int = 8) -> int:
 
 
 # ══ 步骤3：对现有文章补充 AI 洞察 ════════════════════════════
-INSIGHT_PROMPT = """你是 K1980.app 主编。处理以下新闻，转化为华人视角深度短评。
+INSIGHT_PROMPT = """你是 K1980.app 主编。处理以下新闻，转化为全球读者视角深度短评。
 
 原始新闻：{raw_text}
 
 输出要求：
-1. ai_title：去掉官方腔，突出对华人影响，不超过25字
-2. ai_insight：HTML格式3个<li>，每条含emoji：发生了什么/对华人影响/行动建议
+1. ai_title：去掉官方腔，突出对读者的实际影响，不超过25字
+2. ai_insight：HTML格式3个<li>，每条含emoji：发生了什么/对读者影响/行动建议
 3. tags：3个逗号分隔标签
 
 严格JSON返回：

@@ -20,7 +20,7 @@ SOURCES=[
     {"url":"https://news.google.com/rss/search?q=housing+market+mortgage+rate&hl=en-US&gl=US&ceid=US:en","cat":"财经"},
 ]
 
-PROMPT="""你是 K1980 资深编辑，为全球海外华人写深度分析文章。
+PROMPT="""你是 K1980 资深编辑，为全球读者写深度分析文章。
 
 读者关心：这对我的工作/投资/签证/生活有什么影响？
 
