@@ -63,7 +63,7 @@
   }
   #table {
     position: relative;
-    width: 660px; height: 360px;
+    width: 300px; height: 440px;
     background: radial-gradient(ellipse at center, var(--felt-light) 0%, var(--felt) 55%, var(--felt-dark) 100%);
     border-radius: 50%;
     border: 14px solid var(--table-edge);
@@ -130,7 +130,7 @@
   .player-cards { display:flex; gap:3px; }
   .player-info {
     background:rgba(0,0,0,0.82); border:1px solid rgba(201,168,76,0.28);
-    border-radius:7px; padding:7px 14px; text-align:center; min-width:140px;
+    border-radius:7px; padding:5px 8px; text-align:center; min-width:100px; max-width:120px;
     transition:border-color 0.3s,box-shadow 0.3s;
   }
   .player-info.active { border-color:var(--gold); box-shadow:0 0 11px rgba(201,168,76,0.42); }
@@ -140,19 +140,32 @@
     from{box-shadow:0 0 10px rgba(255,215,0,0.4);}
     to{box-shadow:0 0 26px rgba(255,215,0,0.88);}
   }
-  .player-name   { font-size:1.25rem; letter-spacing:0.07em; color:var(--gold-light); }
-  .player-chips  { font-size:1.28rem; color:#aaffaa; font-family:'Crimson Text',serif; }
-  .player-bet    { font-size:1.1rem; color:#ffcc44; min-height:20px; }
-  .player-status { font-size:1.0rem; color:#ff9999; min-height:18px; letter-spacing:0.04em; }
+  .player-name   { font-size:1.05rem; letter-spacing:0.07em; color:var(--gold-light); }
+  .player-chips  { font-size:1.08rem; color:#aaffaa; font-family:'Crimson Text',serif; }
+  .player-bet    { font-size:0.95rem; color:#ffcc44; min-height:16px; }
+  .player-status { font-size:0.88rem; color:#ff9999; min-height:14px; letter-spacing:0.04em; }
 
-  /* Seat positions */
-  #seat-0 { bottom:-98px;  left:50%;   transform:translateX(-50%); }
-  #seat-1 { bottom:-80px;  left:14%;   transform:translateX(-50%); }
-  #seat-2 { top:50%;       left:-112px; transform:translateY(-50%); }
-  #seat-3 { top:-85px;     left:22%;   transform:translateX(-50%); }
-  #seat-4 { top:-85px;     left:78%;   transform:translateX(-50%); }
-  #seat-5 { top:50%;       right:-112px; transform:translateY(-50%); }
-  #seat-6 { bottom:-80px;  right:14%;  transform:translateX(50%); }
+  /* Seat positions - 4-player Portrait */
+  /* YOU: 底部居中，牌横排在左侧 */
+  #seat-0 {
+    bottom: -115px; left: 50%; transform: translateX(-50%);
+    flex-direction: row; align-items: center; gap: 10px;
+  }
+  #seat-0 .player-cards { flex-direction: row; gap: 6px; order: -1; }
+  #seat-0 .player-cards .card { width: 60px; height: 88px; }
+  #seat-0 .player-cards .card .corner { font-size: 0.8rem; }
+  #seat-0 .player-cards .card .suit-center { font-size: 1.8rem; }
+
+  /* Alex: 左侧中间 */
+  #seat-1 { top: 50%; left: -132px; transform: translateY(-50%); }
+  /* Bella: 右侧中间 */
+  #seat-2 { top: 50%; right: -132px; transform: translateY(-50%); }
+  /* Carlos: 顶部居中 */
+  #seat-3 { top: -95px; left: 50%; transform: translateX(-50%); }
+  /* 隐藏 */
+  #seat-4 { display: none; }
+  #seat-5 { display: none; }
+  #seat-6 { display: none; }
 
   #hand-rank-badge {
     font-size:0.75rem; letter-spacing:0.12em; color:rgba(201,168,76,0.9); white-space:nowrap; min-height:14px;
@@ -954,7 +967,7 @@ function evalBest(cards){
 }
 
 // ==================== GAME STATE ====================
-const NUM=7,NAMES=['YOU','Alex','Bella','Carlos','Diana','Ethan','Fiona'],SB=10,BB=20;
+const NUM=4,NAMES=['YOU','Alex','Bella','Carlos'],SB=10,BB=20;
 let G={};
 function initGame(){
   G={
@@ -1250,13 +1263,13 @@ function scaleTable() {
   const wrapper = document.getElementById('table-wrapper');
   const table   = document.getElementById('table');
   if (!wrapper || !table) return;
-  const tableW = 660 + 280; // table宽 + 两侧玩家位置
-  const tableH = 360 + 240; // table高 + 上下玩家位置
-  const availW = wrapper.clientWidth  || window.innerWidth;
-  const availH = wrapper.clientHeight || (window.innerHeight - 42 - 120);
+  const tableW = 300 + 250; // 竖版table宽 + 右侧玩家
+  const tableH = 440 + 210; // 竖版table高 + 上下玩家
+  const availW = (wrapper.clientWidth  || window.innerWidth) * 1.0;
+  const availH = (wrapper.clientHeight || (window.innerHeight - 42 - 120)) * 1.0;
   const scaleX = availW / tableW;
   const scaleY = availH / tableH;
-  const scale  = Math.min(scaleX, scaleY, 1); // 最大1，不放大
+  const scale  = Math.min(scaleX, scaleY, 1.8); // 最大1，不放大
   wrapper.style.transform = scale < 1 ? `scale(${scale.toFixed(3)})` : '';
 }
 window.addEventListener('load', scaleTable);
