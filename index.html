@@ -3943,8 +3943,7 @@ function onCountSlide(val) {
   WP.totalCount = Number(val);
   const half = val / 2;
   document.getElementById('wp-count-display').textContent = val + ' 篇';
-  document.getElementById('wp-deep-n').textContent  = half;
-  document.getElementById('wp-brief-n').textContent = half;
+  // wp-deep-n/wp-brief-n 已由类型选择器替代，无需更新
   document.getElementById('wp-gen-label').textContent = `开始生成`;
   document.getElementById('wp-count-slider').value = val;
   // 同步预设按钮
