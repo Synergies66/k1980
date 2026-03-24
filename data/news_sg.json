@@ -1,43 +1,262 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-24T05:39:31.244028+00:00",
+  "updated_at": "2026-03-24T11:34:00.599624+00:00",
   "total": 15,
   "articles": [
     {
-      "id": "380ab913f1",
+      "id": "cd73fae778",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "PM Wong to visit Hainan, Hong Kong in four-day China trip",
+      "summary": "Prime Minister Lawrence Wong will be delivering a keynote address at the Boao Forum for Asia’s annual conference, often touted as Asia’s version of the Davos World Economic Forum.",
+      "link": "https://www.channelnewsasia.com/singapore/lawrence-wong-boao-forum-asia-china-hainan-hong-kong-6012846",
+      "image": "https://dam.mediacorp.sg/image/upload/s--2fw8mxDw--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/10/25/_sya4988.jpg?itok=XcAppxhl",
+      "categories": [
+        "政治",
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1774346400.0,
+      "hot": false
+    },
+    {
+      "id": "0b6ff2f2e2",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Mullet, Tevas and aviator glasses: PM Wong revisits his 90s era in viral video",
+      "title": "Growing insularity in S’pore amid economic anxiety, worries about the future: Edelman trust survey",
+      "summary": "Singapore’s institutions remain trusted, with 76 per cent saying that the Government is still the most trusted institution.",
+      "link": "https://www.straitstimes.com/singapore/growing-insularity-in-spore-amid-economic-anxiety-worries-about-the-future-edelman-trust-survey",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "8分前",
+      "pub_ts": 1774351500.0,
+      "hot": false
+    },
+    {
+      "id": "95ac899197",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Thai court orders firm to pay villagers for mining damages",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/asia/thai-court-orders-firm-pay-villagers-mining-damages-6013621",
+      "image": "https://dam.mediacorp.sg/image/upload/s--vvE6od-e--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/24/000_a4gw763.jpg?itok=OmNstZT5",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1774351326.0,
+      "hot": false
+    },
+    {
+      "id": "fe1cb4796d",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Klopp shuts down Real Madrid speculation, still open to coaching return",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/klopp-shuts-down-real-madrid-speculation-still-open-coaching-return-6013611",
+      "image": "https://dam.mediacorp.sg/image/upload/s--XOsbI8nD--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T111716Z_1_LYNXMPEM2N0MS_RTROPTP_3_SOCCER-REDBULL-KLOPP.JPG?itok=AiIRnPQs",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1774351036.0,
+      "hot": false
+    },
+    {
+      "id": "68192ae056",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Man fails in bid to get court to disregard prenup ringfencing ex-wife’s assets",
+      "summary": "The judge rejected his claim that he had been coerced into signing the agreement but adjusted its terms.",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/court-says-no-to-mans-appeal-to-disregard-prenup-ringfencing-ex-wifes-assets-but-adjusts-terms",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774348800.0,
+      "hot": false
+    },
+    {
+      "id": "31df29baa8",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Invisible to incandescent: Filipino domestic workers seize the stage to become stars for a day",
+      "summary": "For a few hours, Filipino domestic workers trade hardship for song, laughter, and hard-won pride.",
+      "link": "https://www.straitstimes.com/singapore/invisible-to-incandescent-filipino-domestic-workers-seize-the-stage-to-become-stars-for-a-day",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774348200.0,
+      "hot": false
+    },
+    {
+      "id": "2cf0944bcf",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "47-year-old Singaporean man with Indonesian citizenship convicted of failing to report for NS",
+      "summary": "Under Singapore's law, only those who have not exercised the rights and privileges of Singapore citizenship can be deferred from National Service until they reach 21 years old, pending the renunciatio",
+      "link": "https://www.channelnewsasia.com/singapore/singaporean-man-indonesian-citizenship-convicted-failing-report-national-service-6012886",
+      "image": "https://dam.mediacorp.sg/image/upload/s--fLwCy0vn--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/tdy-migration/32227453.JPG?itok=BnLCMf7e",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774347180.0,
+      "hot": false
+    },
+    {
+      "id": "907b0aeb8f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "‘Where is the accountability?’ - Boycott slams England's Ashes review",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/where-accountability-boycott-slams-englands-ashes-review-6013556",
+      "image": "https://dam.mediacorp.sg/image/upload/s--rGP9RJNG--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T101245Z_1_LYNXMPEM2N0K4_RTROPTP_3_CRICKET-ODI-ENG-AUS.JPG?itok=o-Bjq0_H",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774347165.0,
+      "hot": false
+    },
+    {
+      "id": "8f2c5a58c2",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Israeli strike near Beirut kills two as raids target southern suburbs",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/world/israeli-strike-near-beirut-kills-two-raids-target-southern-suburbs-6013541",
+      "image": "https://dam.mediacorp.sg/image/upload/s--fIUtZMLP--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/24/000_a4gz2we.jpg?itok=-mjWcx4M",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774346996.0,
+      "hot": false
+    },
+    {
+      "id": "dc886e3d1b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Did Trump really talk to Iran? Analysts weigh in",
+      "summary": "Observers are divided over whether a genuine diplomatic opening exists, or if Washington is simply buying time.",
+      "link": "https://www.channelnewsasia.com/world/iran-war-usa-israel-trump-talks-analysts-6013511",
+      "image": "https://dam.mediacorp.sg/image/upload/s--yjYDI-43--/c_crop,h_449,w_799,x_1,y_84/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-21T152645Z_1_LYNXMPEM2K07O_RTROPTP_3_IRAN-CRISIS-AFTERMATH.JPG?itok=OI561nwt",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774346912.0,
+      "hot": false
+    },
+    {
+      "id": "14c854ba96",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Prabowo hits back at criticism of his frequent overseas trips, says they reap economic gains for Ind",
+      "summary": "Since assuming office, Indonesian President Prabowo Subianto has attended at least nine international summits and made more than 40 official visits to more than 20 countries.",
+      "link": "https://www.channelnewsasia.com/asia/indonesia-prabowo-subianto-president-overseas-trips-jobs-economy-6013426",
+      "image": "https://dam.mediacorp.sg/image/upload/s--y2AU4auI--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/24/img_5775.jpg?itok=o5E_XWnZ",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774346451.0,
+      "hot": false
+    },
+    {
+      "id": "a7fcc459b8",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "SIA to start daily flights to new Western Sydney International Airport from November",
+      "summary": "Tickets will progressively go on sale from March 25.",
+      "link": "https://www.straitstimes.com/singapore/transport/sia-to-start-daily-flights-to-new-western-sydney-international-airport-from-november",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774342800.0,
+      "hot": false
+    },
+    {
+      "id": "cb49356f4d",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Man arrested for public nuisance and mischief in Jurong West",
+      "summary": "He was arrested at 18 Enterprise Road on March 23.",
+      "link": "https://www.straitstimes.com/singapore/man-arrested-for-public-nuisance-and-mischief-in-jurong-west",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774335000.0,
+      "hot": false
+    },
+    {
+      "id": "9331314f0a",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "‘Somehow it all went by so quickly’: PM Wong revisits his 90s era in viral video",
       "summary": "The video drew more than 200,000 views within three hours, with many users responding in good humour.",
       "link": "https://www.straitstimes.com/singapore/mullet-tevas-and-aviator-glasses-pm-wong-revisits-his-90s-era-in-viral-video",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "9分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774330200.0,
-      "hot": false
-    },
-    {
-      "id": "ef177c67bd",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "European car sales rise modestly in February, Tesla reverses year-long skid",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/european-car-sales-rise-modestly-in-february-tesla-reverses-year-long-skid-6013081",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1774329038.0,
       "hot": false
     },
     {
@@ -47,232 +266,15 @@
       "source": "Straits Times",
       "lang": "en",
       "title": "Former police veteran admits to molesting male student, recording two others performing sex acts",
-      "summary": "Sharizal Shafi’ee dressed as a woman to lure his victim, and also acted as a woman online.",
+      "summary": "Sharizal Shafi’ee, 40, dressed as a woman to lure his victim to an HDB flat, and also acted as a woman online.",
       "link": "https://www.straitstimes.com/singapore/courts-crime/former-police-veteran-admits-to-molesting-male-student-recording-two-others-performing-sex-acts",
       "image": null,
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "34分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774328700.0,
-      "hot": false
-    },
-    {
-      "id": "881891c775",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "askST: How can you spend less on electricity and fuel as prices rise amid Iran war?",
-      "summary": "Raising air-conditioner temperatures and turning off appliances are measures you can take.",
-      "link": "https://www.straitstimes.com/singapore/askst-how-can-i-save-electricity-and-fuel-costs-amid-the-iran-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "39分前",
-      "pub_ts": 1774328400.0,
-      "hot": false
-    },
-    {
-      "id": "214177e147",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Voices for Animals to take in cats from Animal Lovers League on March 27",
-      "summary": "Voices for Animals is expected to take in about 90 cats from ALL.",
-      "link": "https://www.straitstimes.com/singapore/voices-for-animals-to-take-in-cats-from-animal-lovers-league-on-march-27",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "39分前",
-      "pub_ts": 1774328400.0,
-      "hot": false
-    },
-    {
-      "id": "fdee5738f4",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Exclusive-Amazon says AWS' Bahrain region 'disrupted' following drone activity",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/exclusive-amazon-says-aws-bahrain-region-disrupted-following-drone-activity-6013031",
-      "image": "https://dam.mediacorp.sg/image/upload/s--xJLsbXBl--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T045550Z_3_LYNXMPEM2N05W_RTROPTP_3_AMAZON-AWS-GULF.JPG?itok=Rbgc6c1v",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "46分前",
-      "pub_ts": 1774327989.0,
-      "hot": false
-    },
-    {
-      "id": "03c3757d07",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Klook online travel fair offers cruise deals, discounts on tours and travel essentials from Mar 27 t",
-      "summary": "The three-day online event runs alongside the NATAS Travel Fair, offering travellers a way to browse and book deals from home and away from the crowds, with timed flash sales and additional member dis",
-      "link": "https://www.channelnewsasia.com/travel/klook-online-travel-fair-singapore-6012781",
-      "image": "https://dam.mediacorp.sg/image/upload/s--4xJH93mI--/c_crop,h_1192,w_2120,x_0,y_143/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/24/klook_travel_fair_online_2026.jpg?itok=r2ZEK1E8",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1774327680.0,
-      "hot": false
-    },
-    {
-      "id": "d4d015a871",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "SK Hynix: to buy EUV scanners for $8 billion from ASML Korea",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/sk-hynix-buy-euv-scanners-8-billion-asml-korea-6013021",
-      "image": "https://dam.mediacorp.sg/image/upload/s--CTcZ7z_3--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T044726Z_1_LYNXMPEM2N05Q_RTROPTP_3_SK-HYNIX-CHIPS.JPG?itok=UljjD8Uq",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1774327646.0,
-      "hot": false
-    },
-    {
-      "id": "80ba0da0d3",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "More than 1 million illegal health products including cough syrup, sex drugs seized in 2025: HSA",
-      "summary": "Most of the illegal products seized were cough syrups, sexual enhancement medicines and painkillers.",
-      "link": "https://www.straitstimes.com/singapore/more-than-1-million-illegal-health-products-including-cough-syrup-sex-drugs-seized-in-2025-hsa",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774327340.0,
-      "hot": false
-    },
-    {
-      "id": "0a8e30206b",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Man allegedly linked to car cloning syndicate handed 2 more theft charges",
-      "summary": "Mohd Mazuan Abdullah, 39, now faces three counts of theft linked to three deregistered cars worth $8,900 in total.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/man-allegedly-linked-to-car-cloning-syndicate-handed-2-more-theft-charges",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774327320.0,
-      "hot": false
-    },
-    {
-      "id": "80426603d2",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "3 workers taken to hospital after garbage truck skids and hits tree in Hougang",
-      "summary": "The driver was rescued from his seat and taken unconscious to the hospital.",
-      "link": "https://www.straitstimes.com/singapore/three-workers-taken-to-hospital-after-refuse-truck-hits-tree-in-hougang",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1774327200.0,
-      "hot": false
-    },
-    {
-      "id": "9ce317d31e",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Investigators probe controller as part of investigation into fatal LaGuardia airport collision",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/us-new-york-laguardia-airport-air-canada-crash-6012896",
-      "image": "https://dam.mediacorp.sg/image/upload/s--58MAc7cQ--/c_crop,h_562,w_1000,x_0,y_51/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/LaGuardia_Crash_60588.jpg?itok=H_oHdhyk",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774324800.0,
-      "hot": false
-    },
-    {
-      "id": "c197b89fbc",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "South Korea's president calls for energy saving campaign including curbs on cars",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/south-korea-energy-saving-campaign-cars-iran-war-6012871",
-      "image": "https://dam.mediacorp.sg/image/upload/s--vQVu9qpX--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T032532Z_1_LYNXMPEM2N046_RTROPTP_3_SOUTHKOREA-POLITICS-LEE.JPG?itok=aCyhiXnW",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774324320.0,
-      "hot": false
-    },
-    {
-      "id": "31cf4f2085",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Madrid's Mbappe fit and ready to play every game before World Cup",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/madrids-mbappe-fit-and-ready-play-every-game-world-cup-6012901",
-      "image": "https://dam.mediacorp.sg/image/upload/s--6mS3Z5un--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-24T034942Z_1_LYNXMPEM2N04O_RTROPTP_3_SOCCER-SPAIN-RMA-ATM.JPG?itok=LuZg8Vwp",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774324182.0,
-      "hot": false
-    },
-    {
-      "id": "20a8b33291",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Asian stocks rise as Trump pauses strike plans but unease sees oil bounce",
-      "summary": "US President Donald Trump on Monday delayed strikes on Iranian energy sites after hailing “good talks” with Tehran, although Iran later denied there had been any talks.",
-      "link": "https://www.channelnewsasia.com/asia/asia-stocks-oil-price-trump-iran-war-6012861",
-      "image": "https://dam.mediacorp.sg/image/upload/s--CUzt3wAc--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/24/000_a33e863.jpg?itok=ajEizJc9",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774323360.0,
       "hot": false
     }
   ]
