@@ -1361,6 +1361,23 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <div class="scard-hd"><span class="scard-dot" style="background:var(--green)"></span><span class="scard-title" id="local-side-title">本地要闻</span></div>
       <div style="padding:6px 0 8px"><ol id="local-hot"></ol></div>
     </div>
+    <!-- 经纬专栏 -->
+    <div class="scard" id="jingwei-card">
+      <div class="scard-hd" style="justify-content:space-between">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span class="scard-dot" style="background:linear-gradient(135deg,#1a56db,#0d9488)"></span>
+          <span class="scard-title">经纬专栏</span>
+          <span style="font-size:9.5px;font-weight:700;padding:2px 6px;border-radius:3px;background:rgba(26,86,219,.1);color:#1a56db">AI深度</span>
+        </div>
+        <button onclick="openJingweiAll()" style="font-size:11px;color:#1a56db;background:none;border:none;cursor:pointer;font-weight:600;padding:2px 4px">全部 →</button>
+      </div>
+      <div id="jingwei-list" style="padding:6px 0 4px"></div>
+    </div>
+    <!-- 本地要闻 -->
+    <div class="scard" id="local-news-side" style="display:none">
+      <div class="scard-hd"><span class="scard-dot" style="background:var(--green)"></span><span class="scard-title" id="local-side-title">本地要闻</span></div>
+      <div style="padding:6px 0 8px"><ol id="local-hot"></ol></div>
+    </div>
     <!-- 今日机会 -->
     <div class="scard" style="display:none">
       <div class="scard-hd"><span class="scard-dot" style="background:#1a56db"></span><span class="scard-title zh-only">今日机会</span><span class="scard-title en-only">Opportunities</span></div>
@@ -1418,6 +1435,76 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <div class="abt-t" id="utime"></div>
     </div>
   </aside>
+</div>
+
+<!-- ══ 游戏中心面板 ════════════════════════════════════════ -->
+<div id="game-panel">
+  <div class="game-subnav">
+    <button class="gstab on" data-gp="news">
+      <svg viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="3" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="7" width="8" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/><rect x="2" y="11" width="10" height="2" rx="1" stroke="currentColor" stroke-width="1.3"/></svg>
+      <span class="zh-only">游戏资讯</span><span class="en-only">Game News</span>
+    </button>
+    <button class="gstab" data-gp="play">
+      <svg viewBox="0 0 16 16" fill="none"><rect x="1" y="4" width="14" height="9" rx="2" stroke="currentColor" stroke-width="1.3"/><path d="M5 8.5h3M6.5 7v3" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/><circle cx="11" cy="8" r=".8" fill="currentColor"/><circle cx="13" cy="9.5" r=".8" fill="currentColor"/></svg>
+      <span class="zh-only">小游戏</span><span class="en-only">Games</span>
+    </button>
+    <div class="gsubnav-info"><span class="gsubnav-dot"></span><span class="zh-only">每3小时更新</span><span class="en-only">Updated every 3h</span></div>
+  </div>
+  <div class="gpanel on" id="gpanel-news">
+    <div class="gnews-layout">
+      <main>
+        <div id="gnews-feed"></div>
+        <div id="gnews-more" style="display:none;margin-top:2px">
+          <button id="gnews-mbtn" class="more-btn"><span class="zh-only">显示更多</span><span class="en-only">Load More</span></button>
+        </div>
+        <div style="height:3rem"></div>
+      </main>
+      <aside class="gnews-side">
+        <div class="scard">
+          <div class="scard-hd"><span class="scard-dot" style="background:var(--c-游戏)"></span><span class="scard-title zh-only">热门游戏</span><span class="scard-title en-only">Trending Games</span></div>
+          <div style="padding:6px 0 8px"><ol id="ghot"></ol></div>
+        </div>
+        <div class="scard">
+          <div class="scard-hd"><span class="scard-dot" style="background:#7c3aed"></span><span class="scard-title zh-only">快速入口</span><span class="scard-title en-only">Quick Access</span></div>
+          <div>
+            <div class="opp-item" onclick="openGame('doudizhu.html')">
+              <div class="opp-ico">🃏</div>
+              <div class="opp-info"><div class="opp-name zh-only">欢乐斗地主</div><div class="opp-name en-only">Dou Di Zhu</div><div class="opp-sub zh-only">三人对战 · 立即开局</div><div class="opp-sub en-only">3-player · Play now</div></div>
+              <span style="font-size:12px;color:var(--ink4)">›</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+  <div class="gpanel" id="gpanel-play">
+    <div class="game-grid">
+      <div class="gc" onclick="openGame('doudizhu.html')">
+        <div class="gc-cover" style="background:linear-gradient(135deg,#c0392b,#922b21);display:flex;align-items:center;justify-content:center">
+          <span style="font-size:42px">🃏</span>
+        </div>
+        <div class="gc-info">
+          <div class="gc-name zh-only">欢乐斗地主</div><div class="gc-name en-only">Dou Di Zhu</div>
+          <div class="gc-desc zh-only">三人对战 · 叫地主 · 经典玩法</div><div class="gc-desc en-only">3-player · Classic landlord game</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag free zh-only">免费</span></div><button class="gc-play">▶ 开局</button></div>
+        </div>
+      </div>
+      <div class="gc" onclick="openGame('texas_holdem.html')">
+        <div class="gc-cover" style="background:linear-gradient(135deg,#0d1b2a,#1a3a2a);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px">
+          <div style="display:flex;gap:6px;font-size:30px">♠️ ♥️</div>
+          <div style="display:flex;gap:6px;font-size:30px">♦️ ♣️</div>
+        </div>
+        <div class="gc-info">
+          <div class="gc-name zh-only">皇家德州扑克</div><div class="gc-name en-only">Royal Texas Hold'em</div>
+          <div class="gc-desc zh-only">四人对战 · AI对局 · 完整规则</div><div class="gc-desc en-only">4-player · AI · Full Hold'em rules</div>
+          <div class="gc-foot"><div class="gc-tags"><span class="gc-tag zh-only">单机</span><span class="gc-tag free zh-only">免费</span><span class="gc-tag" style="background:rgba(34,197,94,.12);color:#16a34a">新</span></div><button class="gc-play">▶ 开局</button></div>
+        </div>
+      </div>
+      <div class="gc coming"><div class="gc-cover-soon">♟️</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">中国象棋</span><span class="en-only">Chinese Chess</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span></div></div></div>
+      <div class="gc coming"><div class="gc-cover-soon">🎲</div><div class="gc-info"><div class="gc-name" style="color:var(--ink3)"><span class="zh-only">骰子游戏</span><span class="en-only">Dice Game</span></div><div class="gc-desc" style="color:var(--ink4)"><span class="zh-only">敬请期待</span><span class="en-only">Coming soon</span></div><div class="gc-foot"><span class="gc-soon-badge zh-only">即将推出</span></div></div></div>
+    </div>
+    <div style="height:3rem"></div>
+  </div>
 </div>
 
 <!-- ══ 游戏中心面板 ════════════════════════════════════════ -->
@@ -2203,11 +2290,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/><rect x="3" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/><rect x="13" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/></svg>
       <span>分类</span>
     </button>
-    <!-- 机会 -->
-    <button class="mob-tab" id="mob-opp" onclick="mobGoOpp()" aria-label="机会">
-      <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
-      <span>机会</span>
-    </button>
+
     <!-- 简报 -->
     <button class="mob-tab" id="mob-game" onclick="mobGoSubscribe()" aria-label="简报">
       <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4z" stroke="currentColor" stroke-width="1.8"/><path d="M8 10h8M8 14h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
