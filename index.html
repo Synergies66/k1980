@@ -2208,10 +2208,10 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
       <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       <span>机会</span>
     </button>
-    <!-- 游戏 -->
-    <button class="mob-tab" id="mob-game" onclick="mobGoGame()" aria-label="游戏">
-      <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="6" width="20" height="13" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h4M10 10v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="16" cy="11" r="1" fill="currentColor"/><circle cx="18" cy="13" r="1" fill="currentColor"/></svg>
-      <span>游戏</span>
+    <!-- 简报 -->
+    <button class="mob-tab" id="mob-game" onclick="mobGoSubscribe()" aria-label="简报">
+      <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4z" stroke="currentColor" stroke-width="1.8"/><path d="M8 10h8M8 14h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <span>简报</span>
     </button>
     <!-- 我的 -->
     <button class="mob-tab" id="mob-me" onclick="mobGoMe()" aria-label="更多">
@@ -2963,7 +2963,7 @@ async function openM(a){
 
   if(currentLang==='en'){
     $('#mtitle').textContent=a.title;
-    $('#mbody').innerHTML=a.ai_insight?`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/><div>${esc(a.content||a.summary||'')}</div>`:(a.content||a.summary||'');
+    $('#mbody').innerHTML=a.ai_insight?`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/><div>${mdRender(a.content||a.summary||'')}</div>`:mdRender(a.content||a.summary||'');
     const tx=await translateModalContent(a);
     if(currentLang==='en'){
       $('#mtitle').textContent=tx.title;
@@ -2972,7 +2972,7 @@ async function openM(a){
   } else {
     $('#mtitle').textContent=a.ai_title||a.title;
     if(a.ai_insight){
-      $('#mbody').innerHTML=`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/><p>${esc(a.content||a.summary||'')}</p>`;
+      $('#mbody').innerHTML=`<div class="modal-ai-insight">${a.ai_insight}</div><hr class="mhr" style="margin:12px 0"/>${mdRender(a.content||a.summary||'')}`;
     } else {
       $('#mbody').textContent=a.content||a.summary||'';
     }
@@ -3258,7 +3258,7 @@ function openJW(idx) {
   document.getElementById('jw-modal-meta').textContent   = `经纬专栏 · ${a.date||'今日'} · AI深度报道`;
 
   // 渲染 markdown 简单版
-  const body = (a.body||a.content||a.summary||'').replace(/###\s*(.+)/g, '<h3>$1</h3>').replace(/\n\n/g,'</p><p>').replace(/\n/g,'<br>');
+  const body = mdRender(a.body||a.content||a.summary||'');
   document.getElementById('jw-modal-body').innerHTML = `<p>${body}</p>`;
 
   document.getElementById('jw-modal').classList.add('on');
@@ -3997,6 +3997,10 @@ function mobGoGame() {
   mobSetTab('mob-game');
   showGameMode(true); showOppMode(false);
   syncTabActive('games');
+}
+function mobGoSubscribe() {
+  mobSetTab('mob-game');
+  window.location.href = '/subscribe';
 }
 
 function mobGoMe() {
