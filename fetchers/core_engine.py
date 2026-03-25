@@ -185,13 +185,44 @@ def get_existing_guids(supabase: Client, category: str, log: logging.Logger) -> 
         log.warning(f"获取 guid 失败: {e}")
         return set()
 
-def insert_article(supabase: Client, item: dict, rewritten: dict, log: logging.Logger) -> bool:
+def insert_article(supabase: Client, item: dict, rewritten: dict, log: logging.Logger, claude_client=None) -> bool:
     try:
+        # 生成英文版
+        title_en = summary_en = content_en = ""
+        try:
+            src_lang = item.get("language", "zh")
+            if src_lang == "en":
+                # 英文源：直接用原文作英文版，用 rewritten 作中文版
+                title_en   = item.get("original_title", "")
+                summary_en = item.get("original_summary", "")
+                content_en = item.get("original_content", "")
+            else:
+                # 中文源：调用 Claude 翻译
+                msg = claude_client.messages.create(
+                    model="claude-haiku-4-5-20251001", max_tokens=1500,
+                    messages=[{"role":"user","content":f"""Translate to English, return JSON only:
+{{"title_en":"...","summary_en":"...","content_en":"..."}}
+title: {rewritten["title"]}
+summary: {rewritten["summary"]}
+content: {rewritten["content"][:800]}"""}]
+                )
+                import json as _json, re as _re
+                txt = _re.sub(r"```json|```","",msg.content[0].text).strip()
+                en = _json.loads(txt)
+                title_en   = en.get("title_en","")
+                summary_en = en.get("summary_en","")
+                content_en = en.get("content_en","")
+        except:
+            pass
+
         record = {
             "guid":           item["guid"],
             "title":          rewritten["title"],
             "summary":        rewritten["summary"],
             "content":        rewritten["content"],
+            "title_en":       title_en,
+            "summary_en":     summary_en,
+            "content_en":     content_en,
             "tags":           rewritten.get("tags", []),
             "category":       item["category"],
             "source_name":    item["source_name"],
@@ -243,7 +274,7 @@ def run_module(
                 stats["failed"] += 1
                 continue
 
-            if insert_article(supabase, item, rewritten, log):
+            if insert_article(supabase, item, rewritten, log, claude):
                 existing_guids.add(item["guid"])
                 stats["new"] += 1
                 log.info(f"  ✓ {rewritten['title']}")
