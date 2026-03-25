@@ -1,27 +1,260 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-25T11:26:53.736002+00:00",
+  "updated_at": "2026-03-25T16:45:01.921996+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "0afe8bc006",
+      "id": "ca0e4b09c2",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "PM Wong arrives in Hainan for Boao Forum",
+      "summary": "He will also meet China’s National People’s Congress chairman Zhao Leji and Hainan Communist Party secretary Feng Fei.",
+      "link": "https://www.straitstimes.com/singapore/pm-wong-arrives-in-hainan-for-boao-forum",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "4小时前",
+      "pub_ts": 1774439160.0,
+      "hot": false
+    },
+    {
+      "id": "67d9317b99",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "UN rights council set to hold urgent debate on Friday over Iran school strike",
-      "summary": "The debate, requested by Iran, China and Cuba, explicitly refers to the airstrike on a school on the first day of the war that killed at least 165 people, most of them children.",
-      "link": "https://www.channelnewsasia.com/world/un-rights-council-urgent-debate-iran-school-strike-6016161",
-      "image": "https://dam.mediacorp.sg/image/upload/s--a4bLibPe--/c_crop,h_562,w_1000,x_0,y_70/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/APTOPIX_Iran_US_Israel_35089.jpg?itok=SUqGAwPT",
+      "title": "Poland's playoff pedigree won't matter against Albania, Urban warns",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/polands-playoff-pedigree-wont-matter-against-albania-urban-warns-6016881",
+      "image": "https://dam.mediacorp.sg/image/upload/s--kDegFFTs--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T163437Z_1_LYNXMPEM2O11R_RTROPTP_3_SOCCER-WORLDCUP-POL-NLD.JPG?itok=JqDIzoIm",
       "categories": [
-        "华人",
-        "教育",
         "科技"
       ],
-      "score": 82,
-      "ago": "15分前",
-      "pub_ts": 1774437060.0,
+      "score": 70,
+      "ago": "10分前",
+      "pub_ts": 1774456477.0,
+      "hot": false
+    },
+    {
+      "id": "ae7619ddff",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "SpaceX IPO leaves some private share buyers unsure what they own",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/spacex-ipo-leaves-some-private-share-buyers-unsure-what-they-own-6016871",
+      "image": "https://dam.mediacorp.sg/image/upload/s--OQK5lAH7--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T163017Z_1_LYNXMPEM2O11E_RTROPTP_3_SPACEX-IPO-INVESTORS-SHARES.JPG?itok=tJFCvNAG",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1774456217.0,
+      "hot": false
+    },
+    {
+      "id": "e219cb610a",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Netanyahu seeks to avoid snap vote as Iran war gives no boost in polls",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/world/israel-netanyahu-iran-us-war-election-polls-vote-6016826",
+      "image": "https://dam.mediacorp.sg/image/upload/s--DN4HOzmc--/c_crop,h_449,w_799,x_1,y_29/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T144121Z_1_LYNXMPEM2O0W5_RTROPTP_3_IRAN-CRISIS-ISRAEL-POLITICS.JPG?itok=KoObeG0P",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1774456080.0,
+      "hot": false
+    },
+    {
+      "id": "7d8f65d2b8",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Senegal appeal to CAS against removal of African Cup of Nations title",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/senegal-appeal-cas-against-removal-african-cup-nations-title-6016851",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "22分前",
+      "pub_ts": 1774455730.0,
+      "hot": false
+    },
+    {
+      "id": "a3f2991233",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "NBA board approves exploration of expansion to Las Vegas and Seattle",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/nba-board-approves-exploration-expansion-las-vegas-and-seattle-6016856",
+      "image": "https://dam.mediacorp.sg/image/upload/s--PHSSZNu_--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T162038Z_1_LYNXMPEM2O10V_RTROPTP_3_BASKETBALL-NBA-IND-SAS.JPG?itok=3xjrVczt",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1774455638.0,
+      "hot": false
+    },
+    {
+      "id": "53b485f520",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Genetic study identifies earliest-known dog, dating to 15,800 years ago",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/genetic-study-identifies-earliest-known-dog-dating-15800-years-ago-6016821",
+      "image": "https://dam.mediacorp.sg/image/upload/s--2vuSQZMA--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T160254Z_1_LYNXMPEM2O100_RTROPTP_3_SCIENCE-DOGS.JPG?itok=oMzNvkYd",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1774454574.0,
+      "hot": false
+    },
+    {
+      "id": "2dfea236cf",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Asia’s 50 Best Restaurants 2026: Hong Kong’s Chairman takes top spot, Odette is Singapore’s top rest",
+      "summary": "Singapore has six restaurants on the list and Odette’s head sommelier Lesley Liu is named Asia’s Best Sommelier.",
+      "link": "https://www.channelnewsasia.com/experiences/asia-50-best-restaurants-2026-6016781",
+      "image": "https://dam.mediacorp.sg/image/upload/s--tcmTJpsj--/c_crop,h_1125,w_2000,x_0,y_105/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/25/asias_50_best_restaurants_no._1_the_chairman_from_hong_kong.jpg?itok=aUC7_q62",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1774454400.0,
+      "hot": false
+    },
+    {
+      "id": "c8dcf5721e",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "London Marathon weighs two-day race format from 2027",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/london-marathon-weighs-two-day-race-format-2027-6016811",
+      "image": "https://dam.mediacorp.sg/image/upload/s---BrFWhQH--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T155406Z_1_LYNXMPEM2O0ZV_RTROPTP_3_ATHLETICS-LONDON.JPG?itok=bo88PRaR",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1774454046.0,
+      "hot": false
+    },
+    {
+      "id": "191ea40660",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Blue recycling bins in Tiong Bahru estate to vanish for almost three months",
+      "summary": "The residents initiated the experiment as blue recycling bins were often contaminated with non-recyclables.",
+      "link": "https://www.straitstimes.com/singapore/environment/blue-recycling-bins-in-tiong-bahru-estate-to-vanish-for-almost-three-months",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774446600.0,
+      "hot": false
+    },
+    {
+      "id": "f9a1499753",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Man sued by former colleague for alleged sexual assault in 2016 wins appeal",
+      "summary": "The High Court found that the woman had not proved the alleged assault.",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/man-sued-by-former-colleague-for-alleged-sexual-assault-in-2016-wins-appeal",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774441200.0,
+      "hot": false
+    },
+    {
+      "id": "d7369ba9a6",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "11 people given conditional warnings for delivering letters to MHA opposing racial harmony laws",
+      "summary": "They were part of a larger group that walked from Novena MRT station to MHA in June 2024.",
+      "link": "https://www.straitstimes.com/singapore/11-people-given-conditional-warnings-for-delivering-letters-to-mha-opposing-racial-harmony-laws",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774440000.0,
+      "hot": false
+    },
+    {
+      "id": "a1fe3fdfee",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Green jet fuel levy postponed due to impact of Middle East war: CAAS",
+      "summary": "It will now apply to flights leaving Singapore from 2027.",
+      "link": "https://www.straitstimes.com/singapore/transport/green-jet-fuel-levy-postponed-due-to-impact-of-middle-east-war-caas",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774438752.0,
+      "hot": false
+    },
+    {
+      "id": "a6b987ad99",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "NUS launches first sports-themed student hostel Valour House",
+      "summary": "The hostel features sports performance facilities and a recovery lounge to help athletes recover.",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/nus-launches-first-sports-themed-student-hostel-valour-house",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774438500.0,
       "hot": false
     },
     {
@@ -37,45 +270,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "11分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1774437300.0,
-      "hot": false
-    },
-    {
-      "id": "2835258317",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "European stocks rise, oil falls, markets cheered by Trump talk of Iran negotiation",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/european-stocks-rise-oil-falls-markets-cheered-trump-talk-iran-negotiation-6015036",
-      "image": "https://dam.mediacorp.sg/image/upload/s--04YNq1bo--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T010442Z_1_LYNXMPEM2O01I_RTROPTP_3_GLOBAL-MARKETS-JAPAN.JPG?itok=p3R1zNQU",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "15分前",
-      "pub_ts": 1774437049.0,
-      "hot": false
-    },
-    {
-      "id": "d169745d3b",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Rohingya refugees in Bangladesh worry ahead of food aid cuts",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/asia/rohingya-refugees-in-bangladesh-worry-ahead-food-aid-cuts-6016131",
-      "image": "https://dam.mediacorp.sg/image/upload/s--fUSOe6i1--/c_crop,h_576,w_1024,x_0,y_82/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/25/000_92d828e.jpg?itok=I1JpKQqq",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "22分前",
-      "pub_ts": 1774436640.0,
       "hot": false
     },
     {
@@ -91,209 +288,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "26分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1774436407.0,
-      "hot": false
-    },
-    {
-      "id": "5f51a3c288",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "New disability task force to focus on easing anxiety over life transitions: Goh Pei Ming",
-      "summary": "The task force’s recommendations will be made public in the second half of 2026.",
-      "link": "https://www.straitstimes.com/singapore/community/new-disability-task-force-to-focus-on-easing-anxiety-over-life-transitions-goh-pei-ming",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774436400.0,
-      "hot": false
-    },
-    {
-      "id": "102aa3a831",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "$600k boost for 200 students from specialised schools to aid further studies, careers",
-      "summary": "Students from four schools – Assumption Pathway, NorthLight, Crest and Spectra – will benefit from two initiatives.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/600k-boost-for-200-students-from-specialised-schools-to-aid-further-studies-careers",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774436400.0,
-      "hot": false
-    },
-    {
-      "id": "037fdd4aba",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Temu-owner PDD misses revenue estimates",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/temu-owner-pdd-misses-revenue-estimates-6016101",
-      "image": "https://dam.mediacorp.sg/image/upload/s--7xogHh22--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T103638Z_1_LYNXMPEM2O0IM_RTROPTP_3_EU-TEMU.JPG?itok=OAnYVkK4",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1774434998.0,
-      "hot": false
-    },
-    {
-      "id": "b720e78e23",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Belarus leader Lukashenko visits North Korea for first time",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/belarus-leader-lukashenko-visits-north-korea-first-time-6015871",
-      "image": "https://dam.mediacorp.sg/image/upload/s--nNtkbbTT--/c_crop,h_1350,w_2400,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/25/2026-03-25t101709z_68522408_rc2mbka3uw6f_rtrmadp_3_northkorea-belarus_1.jpg?itok=p215Ix94",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1774434480.0,
-      "hot": false
-    },
-    {
-      "id": "172c019ba3",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Thailand’s pet food exports surge, but rising competition and global risks may slow growth",
-      "summary": "The country is now the world’s second-largest pet food exporter – trailing only Germany – and is projected to grow exports to US$5 billion by 2030.",
-      "link": "https://www.channelnewsasia.com/asia/thailand-pet-food-exports-global-demand-dogs-cats-6015546",
-      "image": "https://dam.mediacorp.sg/image/upload/s--47eWaHS---/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/25/screenshot_2026-03-25_133539.png?itok=1b0lGKt8",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774434343.0,
-      "hot": false
-    },
-    {
-      "id": "345ad7584f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Man to be charged after driving Porsche with children on car boot",
-      "summary": "The incident, filmed and shared online, showed two young boys clinging to the rear of a moving Porsche along Dairy Farm Lane near Bukit Panjang.",
-      "link": "https://www.channelnewsasia.com/singapore/man-charged-driving-porsche-two-children-boot-prem-roy-6015931",
-      "image": "https://dam.mediacorp.sg/image/upload/s--4AnAdSSk--/c_crop,h_1682,w_2991,x_1,y_272/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/10/23/incollage_save_0.jpg?itok=ffg4h2ch",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774433460.0,
-      "hot": false
-    },
-    {
-      "id": "a5eefe0021",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Man to be charged with rash act after allegedly driving with 2 children seated atop car boot",
-      "summary": "If found guilty, the man can be jailed for up to six months, fined up to $2,500, or both.",
-      "link": "https://www.straitstimes.com/singapore/man-to-be-charged-with-rash-act-after-allegedly-driving-with-2-children-seated-atop-car-boot",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774433160.0,
-      "hot": false
-    },
-    {
-      "id": "df665f1983",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "As energy prices rise, what is Singapore’s stance on nuclear, renewable energy?",
-      "summary": "Get up to speed with both our episodes this month.",
-      "link": "https://www.straitstimes.com/singapore/environment/as-energy-prices-rise-what-is-singapores-stance-on-nuclear-renewable-energy",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774432800.0,
-      "hot": false
-    },
-    {
-      "id": "c1efa12e1f",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Trading cards: Childhood hobby, investment asset or a gateway to gambling?",
-      "summary": "Are these cards really that bad? Could playing with them lead to gambling?",
-      "link": "https://www.straitstimes.com/singapore/trading-cards-childhood-hobby-investment-asset-or-a-gateway-to-gambling",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774432800.0,
-      "hot": false
-    },
-    {
-      "id": "fb2b03f8f0",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Arm jumps as new AI chip to drive billions in annual revenue",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/arm-jumps-new-ai-chip-drive-billions-in-annual-revenue-6015961",
-      "image": "https://dam.mediacorp.sg/image/upload/s--tQkS-09t--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-25T095547Z_1_LYNXMPEM2O0G9_RTROPTP_3_ARM-CHIP.JPG?itok=smAsBjHT",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774432547.0,
-      "hot": false
-    },
-    {
-      "id": "81cf778511",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Teacher who exposed himself, told student to undress during video call gets 5 months’ jail",
-      "summary": "The married father of two young children cannot be named due to a gag order to protect the victim's identity.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/teacher-who-exposed-himself-told-student-to-undress-during-video-call-gets-5-months-jail",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774431000.0,
       "hot": false
     }
   ]
