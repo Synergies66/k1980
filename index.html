@@ -219,7 +219,7 @@ svg{display:block;flex-shrink:0}
 .icat[data-c="教育"]{background:rgba(8,145,178,.09);color:var(--c-教育)}
 .icat[data-c="财经"]{background:rgba(194,65,12,.09);color:var(--c-财经)}
 .icat[data-c="科技"]{background:rgba(124,58,237,.09);color:var(--c-科技)}
-.icat[data-c="商业"]{background:rgba(190,24,93,.09);color:var(--c-生活)}
+.icat[data-c="财经"]{background:rgba(190,24,93,.09);color:var(--c-生活)}
 .icat[data-c="生活"]{background:rgba(13,148,136,.09);color:var(--c-旅游)}
 .icat[data-c="游戏"]{background:rgba(234,88,12,.09);color:var(--c-游戏)}
 .icat[data-c="本地"]{background:rgba(13,148,136,.09);color:var(--c-本地)}
@@ -1431,7 +1431,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
     <button class="ctab" data-c="教育"><span class="zh-only">教育</span><span class="en-only">Education</span></button>
     <button class="ctab" data-c="财经"><span class="zh-only">财经</span><span class="en-only">Finance</span></button>
     <button class="ctab" data-c="科技"><span class="zh-only">科技</span><span class="en-only">Tech</span></button>
-    <button class="ctab" data-c="商业"><span class="zh-only">商业</span><span class="en-only">Business</span></button>
+    <button class="ctab" data-c="财经"><span class="zh-only">商业</span><span class="en-only">Business</span></button>
     <button class="ctab" data-c="生活"><span class="zh-only">生活</span><span class="en-only">Life</span></button>
     <button class="ctab ctab-games" data-c="games">
       <svg width="14" height="14" viewBox="0 0 16 16" fill="none">
@@ -2056,7 +2056,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
             <span class="wp-stag" data-s="教育">🎓 教育</span>
             <span class="wp-stag" data-s="财经">💹 财经</span>
             <span class="wp-stag" data-s="科技">🤖 科技</span>
-            <span class="wp-stag" data-s="商业">🏢 商业</span>
+            <span class="wp-stag" data-s="财经">🏢 商业</span>
             <span class="wp-stag" data-s="生活">✈️ 旅游</span>
           </div>
           <div class="wp-count-split" id="wp-section-hint">「AI自动分类」：保留 Claude 生成时的原始分类（推荐）</div>
@@ -2447,7 +2447,7 @@ mark{background:rgba(212,39,29,.12);color:var(--red);border-radius:2px;padding:0
             <option value="教育">教育</option>
             <option value="财经">财经</option>
             <option value="科技">科技</option>
-            <option value="商业">商业</option>
+            <option value="财经">商业</option>
             <option value="生活">生活</option>
           </select>
         </div>
@@ -2619,7 +2619,7 @@ const MOCK=[
   {id:3,category:'财经',title:'美联储暗示年内不降息，持有美元的海外华人如何应对？',summary:'美联储会议纪要释放鹰派信号，人民币兑美元汇率承压，分析师建议华人投资者调整资产配置。',content:'美联储最新会议纪要显示，委员会普遍认为通胀尚未达到降息所需条件，年内降息预期从三次下调至一次。\n\n这一消息直接影响在海外生活的华人：汇款回国成本上升，人民币计价资产相对贬值，但美元定期存款收益仍维持高位。\n\n理财顾问建议：保留3-6个月紧急生活费在本地账户，其余美元资产可考虑短期国债 ETF，收益率目前约5.2%，流动性优于定存。',tags:['美联储','汇率','美元'],source_name:'Reuters财经',original_url:'#',view_count:756,created_at:new Date(Date.now()-5400000).toISOString()},
   {id:4,category:'教育',title:'UC 系大学录取数据出炉：华裔申请人录取率三年连降',summary:'加州大学2025年度数据显示华裔学生录取率降至22%，但理工科专业仍保持较高录取比例。',content:'加州大学系统发布2025年秋季录取报告，华裔申请人整体录取率降至22.3%。其中 UCLA 和 UC Berkeley 竞争最为激烈，录取率分别为11%和14%。\n\n计算机科学和电气工程专业华裔学生占比仍超过30%，显示理工科赛道竞争力依然较强。',tags:['UC系','华裔','大学申请'],source_name:'K1980资讯',original_url:'#',view_count:1103,created_at:new Date(Date.now()-9000000).toISOString()},
   {id:5,category:'时事',title:'中美关税谈判重启，对持双重身份华人意味着什么？',summary:'两国贸易代表将于下月恢复正式会谈，部分商品关税有望年内调整，跨境华人卖家高度关注。',content:'中美两国贸易代表确认将于下月在日内瓦举行新一轮正式谈判，这是自去年关税升级以来双方首次恢复高级别接触。\n\n对于在北美生活、同时在中国保有商业利益的华人群体，此次谈判结果将直接影响跨境贸易成本。',tags:['中美关系','关税','贸易'],source_name:'BBC中文',original_url:'#',view_count:2341,created_at:new Date(Date.now()-1800000).toISOString()},
-  {id:6,category:'商业',title:'奥克兰/悉尼/温哥华房租对比：2025年哪座城市性价比最高？',summary:'最新报告显示三大华人聚居城市平均租金涨幅均超8%，悉尼华人社区配套完善，综合性价比较高。',content:'CBRE 发布2025年第一季度报告，奥克兰平均月租金达 NZD 2850，同比上涨9.2%；悉尼两居室均价 AUD 3200，涨幅8.7%；温哥华则高达 CAD 3600，涨幅11.3%。',tags:['房租','奥克兰','悉尼','温哥华'],source_name:'K1980资讯',original_url:'#',view_count:889,created_at:new Date(Date.now()-14400000).toISOString()},
+  {id:6,category:'财经',title:'奥克兰/悉尼/温哥华房租对比：2025年哪座城市性价比最高？',summary:'最新报告显示三大华人聚居城市平均租金涨幅均超8%，悉尼华人社区配套完善，综合性价比较高。',content:'CBRE 发布2025年第一季度报告，奥克兰平均月租金达 NZD 2850，同比上涨9.2%；悉尼两居室均价 AUD 3200，涨幅8.7%；温哥华则高达 CAD 3600，涨幅11.3%。',tags:['房租','奥克兰','悉尼','温哥华'],source_name:'K1980资讯',original_url:'#',view_count:889,created_at:new Date(Date.now()-14400000).toISOString()},
   {id:7,category:'移民',title:'加拿大 Express Entry 最新抽签：CRS 分数线降至 491',summary:'本轮 EE 共发出4800份邀请，分数线连续第三次下降，综合类移民申请窗口进一步打开。',content:'加拿大移民局（IRCC）本周完成最新一轮 Express Entry 抽签，共发出4800份 ITA，CRS 分数线降至491分，为近两年最低水平。\n\n对于分数在490-510区间的申请者，建议立即核查 Profile 中所有加分项是否填写完整。',tags:['加拿大','Express Entry','CRS'],source_name:'K1980资讯',original_url:'#',view_count:1876,created_at:new Date(Date.now()-10800000).toISOString()},
   {id:8,category:'生活',title:'新西兰恢复对中国游客电子签，奥克兰直飞航班增至每周7班',summary:'新西兰移民局宣布恢复中国护照持有人的电子旅行授权（NZeTA），国航同步增加奥克兰至北京直航班次。',content:'新西兰移民局正式恢复对中国大陆护照持有者的电子旅行授权（NZeTA）在线申请渠道，申请费用约 23 新西兰元，审批时间通常为 72 小时以内。\n\n与此同时，中国国际航空宣布从下月起将奥克兰至北京直航班次从每周4班增至每周7班。',tags:['新西兰','签证','航班','生活'],source_name:'K1980资讯',original_url:'#',view_count:1520,created_at:new Date(Date.now()-2700000).toISOString()},
 ];
@@ -2741,7 +2741,7 @@ function setHero(a){
   $('#htags').innerHTML=(a.tags||[]).slice(0,3).map(t=>`<span class="hero-tag">${esc(t)}</span>`).join('');
 }
 
-const CATS=['时事','移民','教育','财经','科技','商业','生活'];
+const CATS=['时事','移民','教育','财经','科技','财经','生活'];
 const COLS={时事:'#1a56db',移民:'#16a34a',教育:'#0891b2',财经:'#c2410c',科技:'#7c3aed',生活:'#be185d',旅游:'#0d9488'};
 
 function renderHot(pool){
@@ -2783,8 +2783,8 @@ async function loadJingweiAll(){
       {headers:{"apikey":CFG.KEY,"Authorization":"Bearer "+CFG.KEY}});
     const arts=await r.json();
     if(!arts||!arts.length){list.innerHTML='<div style="text-align:center;padding:40px;color:#8a8a94">暂无文章</div>';return;}
-    const catColor={"科技":"rgba(124,58,237,.12)","财经":"rgba(194,65,12,.12)","时事":"rgba(26,86,219,.12)","移民":"rgba(22,163,74,.12)","教育":"rgba(8,145,178,.12)","商业":"rgba(190,24,93,.12)","生活":"rgba(13,148,136,.12)"};
-    const catText={"科技":"#7c3aed","财经":"#c2410c","时事":"#1a56db","移民":"#16a34a","教育":"#0891b2","商业":"#be185d","生活":"#0d9488"};
+    const catColor={"科技":"rgba(124,58,237,.12)","财经":"rgba(194,65,12,.12)","时事":"rgba(26,86,219,.12)","移民":"rgba(22,163,74,.12)","教育":"rgba(8,145,178,.12)","财经":"rgba(190,24,93,.12)","生活":"rgba(13,148,136,.12)"};
+    const catText={"科技":"#7c3aed","财经":"#c2410c","时事":"#1a56db","移民":"#16a34a","教育":"#0891b2","财经":"#be185d","生活":"#0d9488"};
     list.innerHTML=arts.map(a=>{
       const bg=catColor[a.category]||"rgba(0,0,0,.06)";
       const tc=catText[a.category]||"#444";
@@ -4337,7 +4337,7 @@ function showMobCatSheet() {
     {c:'移民', zh:'移民', icon:'✈️'},
     {c:'教育', zh:'教育', icon:'🎓'},
     {c:'生活', zh:'生活', icon:'🗺️'},
-    {c:'商业', zh:'商业', icon:'🏠'},
+    {c:'财经', zh:'财经', icon:'🏠'},
   ];
 
   const sheet = document.createElement('div');
@@ -4573,7 +4573,7 @@ function mgrGoPage(p) {
 }
 
 function mgrChangeCat(id, currentCat) {
-  const cats = ['时事','科技','财经','移民','教育','商业','生活','游戏'];
+  const cats = ['时事','科技','财经','移民','教育','财经','生活','游戏'];
   const modal = document.createElement('div');
   modal.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:9999;display:flex;align-items:center;justify-content:center';
   modal.innerHTML = `
@@ -5524,7 +5524,7 @@ async function generateOne(type, regionLabel, userPrompt, index, total) {
     ? `\n重点主题方向：${userPrompt}\n`
     : '';
   // 让每篇分类不同，避免全是同一类
-  const cats = ['时事','移民','教育','财经','科技','商业','生活'];
+  const cats = ['时事','移民','教育','财经','科技','财经','生活'];
   const suggestCat = cats[index % cats.length];
 
   const prompt = isDeep
