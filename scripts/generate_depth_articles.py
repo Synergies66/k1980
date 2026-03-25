@@ -89,13 +89,35 @@ def write(h):
             if attempt<2:time.sleep(2)
     return None
 
+def translate_to_en(title, summary, content):
+    try:
+        msg = client.messages.create(
+            model="claude-haiku-4-5-20251001", max_tokens=3000,
+            messages=[{"role":"user","content":f"""Translate to English. Return JSON only:
+{{"title_en":"...","summary_en":"...","content_en":"..."}}
+
+title: {title}
+summary: {summary}
+content: {content[:1500]}"""}]
+        )
+        import json, re
+        text = msg.content[0].text.strip()
+        text = re.sub(r"```json|```","",text).strip()
+        return json.loads(text)
+    except:
+        return {"title_en":"","summary_en":"","content_en":""}
+
 def publish(article,link):
     guid=hashlib.md5((article["title"]+datetime.now().strftime("%Y-%m-%d")).encode()).hexdigest()
+    en = translate_to_en(article["title"], article["summary"], article["content"])
     payload={
         "guid":guid,
         "title":article["title"],
         "summary":article["summary"],
         "content":article["content"],
+        "title_en":en.get("title_en",""),
+        "summary_en":en.get("summary_en",""),
+        "content_en":en.get("content_en",""),
         "category":article.get("category","科技"),
         "tags":article.get("tags",[]),
         "source_name":"K1980 深度",
