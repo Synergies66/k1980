@@ -2742,7 +2742,7 @@ function setHero(a){
   $('#htags').innerHTML=(a.tags||[]).slice(0,3).map(t=>`<span class="hero-tag">${esc(t)}</span>`).join('');
 }
 
-const CATS=['时事','移民','教育','财经','科技','财经','生活'];
+const CATS=['时事','移民','教育','财经','科技','生活'];
 const COLS={时事:'#1a56db',移民:'#16a34a',教育:'#0891b2',财经:'#c2410c',科技:'#7c3aed',生活:'#be185d',旅游:'#0d9488'};
 
 function renderHot(pool){
