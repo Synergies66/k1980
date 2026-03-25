@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="zh-Hans" data-lang="zh">
 <head>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#e11d27">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="K1980">
+  <link rel="apple-touch-icon" href="/icons/icon-192.png">
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>K1980 · 全球资讯，为你精选</title>
@@ -5864,5 +5871,15 @@ async function subDelete(id) {
   </div>
 </div>
 
+
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js')
+      .then(r => console.log('SW registered'))
+      .catch(e => console.log('SW failed', e));
+  });
+}
+</script>
 </body>
 </html>
