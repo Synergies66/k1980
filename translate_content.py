@@ -2,7 +2,7 @@ import httpx, json, time
 
 SUPABASE_URL = 'https://wioqkcrtkesntqnuzfkd.supabase.co'
 SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indpb3FrY3J0a2VzbnRxbnV6ZmtkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQwNjE5MTEsImV4cCI6MjA4OTYzNzkxMX0.V7RNM0XkkZt2k02v_ssZkChZBjat7emP4RrMtfsS0hY'
-ANTHROPIC_KEY = 'REMOVED_API_KEY'
+ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '')
 
 HEADERS = {'apikey': SUPABASE_KEY, 'Authorization': f'Bearer {SUPABASE_KEY}', 'Content-Type': 'application/json'}
 

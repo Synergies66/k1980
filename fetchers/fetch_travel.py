@@ -1,66 +1,14 @@
 #!/usr/bin/env python3
-"""
-k1980.app Â· ãææ¸¸ãæ¨¡å
-æµ·å¤åäººæè¡ãç®çå°ãç­¾è¯ãèªç­ãéåºèµè®¯
-ç¬ç«è¿è¡ï¼æéä¸å½±åå¶ä»æ¨¡å
-"""
-from fetchers.core_engine import run_module
+"""k1980.app 生活模块（原旅游）"""
+from core_engine import run_module
 
 SOURCES = [
-    {
-        "name": "Google News æµ·å¤ææ¸¸",
-        "url": "https://news.google.com/rss/search?q=travel+tourism+Asia+Pacific&hl=en-US&gl=US&ceid=US:en",
-        "category": "ææ¸¸",
-        "language": "en",
-    },
-    {
-        "name": "Google News åäººææ¸¸",
-        "url": "https://news.google.com/rss/search?q=%E6%B5%B7%E5%A4%96%E6%97%85%E6%B8%B8+%E7%AD%BE%E8%AF%81+%E8%88%AA%E7%8F%AD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-        "category": "ææ¸¸",
-        "language": "zh",
-    },
-    {
-        "name": "Google News æè¡ç­¾è¯",
-        "url": "https://news.google.com/rss/search?q=visa+travel+restrictions+tourists&hl=en-US&gl=US&ceid=US:en",
-        "category": "ææ¸¸",
-        "language": "en",
-    },
-    {
-        "name": "Google News æ°è¥¿å°æ¾³æ´²ææ¸¸",
-        "url": "https://news.google.com/rss/search?q=New+Zealand+Australia+tourism+travel&hl=en-US&gl=US&ceid=US:en",
-        "category": "ææ¸¸",
-        "language": "en",
-    },
-    {
-        "name": "Google News èªç­æºç¥¨",
-        "url": "https://news.google.com/rss/search?q=airline+flight+ticket+price+Pacific&hl=en-US&gl=US&ceid=US:en",
-        "category": "ææ¸¸",
-        "language": "en",
-    },
+    {"name":"Google News 海外旅游","url":"https://news.google.com/rss/search?q=travel+tourism+Asia+Pacific&hl=en-US&gl=US&ceid=US:en","category":"生活","language":"en"},
+    {"name":"Google News 华人旅游","url":"https://news.google.com/rss/search?q=%E6%B5%B7%E5%A4%96%E6%97%85%E6%B8%B8+%E7%AD%BE%E8%AF%81+%E8%88%AA%E7%8F%AD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans","category":"生活","language":"zh"},
+    {"name":"Google News 旅行签证","url":"https://news.google.com/rss/search?q=visa+travel+restrictions+tourists&hl=en-US&gl=US&ceid=US:en","category":"生活","language":"en"},
+    {"name":"Google News 新西兰澳洲旅游","url":"https://news.google.com/rss/search?q=New+Zealand+Australia+tourism+travel&hl=en-US&gl=US&ceid=US:en","category":"生活","language":"en"},
+    {"name":"Google News 航班机票","url":"https://news.google.com/rss/search?q=airline+flight+ticket+price+Pacific&hl=en-US&gl=US&ceid=US:en","category":"生活","language":"en"},
 ]
 
-INSTRUCTIONS = """
-- è¯»èæ¯ç»å¸¸å¨æµ·å¤ä¸ä¸­å½ä¹é´å¾è¿çåäººï¼ä¹åæ¬å¨æµ·å¤å®å±åæ¢ç´¢å½å°ææ¸¸çåäºº
-- éç¹è¯é¢ï¼ä¸­å½/æ°è¥¿å°/æ¾³æ´²/å æ¿å¤§/ç¾å½ä¹é´çç­¾è¯æ¿ç­ååãèªç­æ¢å¤ãæºç¥¨æ¶¨è·
-- å·ä½æ°å­è¦ä¿çï¼æºç¥¨ä»·æ ¼æ¢ç®ä¸ºäººæ°å¸ãå½å°ä½å®¿è´¹ç¨è¦è¯´æ¸æ¥
-- ç­é¨ç®çå°ï¼åå²/åå²/å¤§å ¡ç¤/é»ç³ç­ï¼çåäººåå¥½ä¿¡æ¯ä¼åï¼æä¸­ææå¡åï¼ï¼
-- æè¡å®å¨æç¤ºãå¥åº·é¡»ç¥è¦ç®æ´ååº
-- èåæ¥ï¼ä¸­å½æ¥èãé»éå¨ãå£è¯èï¼åçææ¸¸èµè®¯æ¯é«ä¼åçº§
-- è¯­æ°è½»æ¾æå¿«ï¼åæååäº«æè¡å¿å¾
-
-ç¼è¾ååï¼ææåå®¹å¿é¡»éµå®ï¼ï¼
-- ä¸¥æ ¼ä¿ææ¿æ²»ä¸­ç«ï¼ä¸å¯¹ä»»ä½æ¿æ²»äººç©ãæ¿åææ¿åºåè¡¨ä¸ªäººè¯ä»·æç«åº
-- å°åºä¸»æäºè®®ãé¢åäºç«¯ï¼åæ¬ä½ä¸éäºï¼å°æµ·ãåæµ·ãåä»ç±³å°ãå·´ä»¥å²çªç­ï¼ä»å®¢è§éè¿°åæ¹ç«åºï¼ä¸è¡¨è¾¾å¾å
-- ä¸ä½¿ç¨å¸¦ææ¿æ²»å¾åçå½¢å®¹è¯æä¿®è¾ï¼å¦"éæ³"ã"æ­£ä¹"ã"éªæ¶"ç­ä»·å¼å¤æ­è¯æ±
-- æ¶åæ¿æ²»ææäºä»¶åªæ¥éäºå®ï¼åçäºä»ä¹ãå½±åæ¯ä»ä¹ï¼ä¸ä½åå å½åæéå¾·è¯å¤
-- å¦åæè§ç¹é²æï¼æ¹åæ¶åªä¿çäºå®é¨åï¼å é¤ç«åºè¡¨è¾¾
-"""
-
 if __name__ == "__main__":
-    run_module(
-        category="ææ¸¸",
-        sources=SOURCES,
-        custom_instructions=INSTRUCTIONS,
-        max_items_per_source=5,
-        sleep_between_calls=1.5,
-    )
+    run_module(SOURCES, category="生活")

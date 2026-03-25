@@ -10,31 +10,31 @@ SOURCES = [
     {
         "name": "Google News 游戏行业",
         "url": "https://news.google.com/rss/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGRqTVhZU0FtVnVHZ0pWVXlBQVAB?hl=en-US&gl=US&ceid=US:en",
-        "category": "游戏",
+        "category": "生活",
         "language": "en",
     },
     {
         "name": "Google News 电竞",
         "url": "https://news.google.com/rss/search?q=esports+gaming+tournament+2025&hl=en-US&gl=US&ceid=US:en",
-        "category": "游戏",
+        "category": "生活",
         "language": "en",
     },
     {
         "name": "Google News 手机游戏",
         "url": "https://news.google.com/rss/search?q=mobile+game+new+release+2025&hl=en-US&gl=US&ceid=US:en",
-        "category": "游戏",
+        "category": "生活",
         "language": "en",
     },
     {
         "name": "Google News 华人游戏",
         "url": "https://news.google.com/rss/search?q=%E6%B8%B8%E6%88%8F+%E6%96%B0%E6%B8%B8%E6%88%8F+%E7%94%B5%E7%AB%9E&hl=zh-CN&gl=CN&ceid=CN:zh-Hans",
-        "category": "游戏",
+        "category": "生活",
         "language": "zh",
     },
     {
         "name": "Google News 主机游戏",
         "url": "https://news.google.com/rss/search?q=PlayStation+Xbox+Nintendo+Switch+game&hl=en-US&gl=US&ceid=US:en",
-        "category": "游戏",
+        "category": "生活",
         "language": "en",
     },
 ]

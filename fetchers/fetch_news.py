@@ -4,7 +4,7 @@ k1980.app · 【时事】模块
 国际要闻、政治外交、社会事件
 独立运行，故障不影响其他模块
 """
-from fetchers.core_engine import run_module
+from core_engine import run_module
 
 SOURCES = [
     {

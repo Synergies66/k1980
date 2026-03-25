@@ -4,7 +4,7 @@ k1980.app · 【移民】模块
 签证政策、绿卡排期、入籍、移民局动态
 独立运行，故障不影响其他模块
 """
-from fetchers.core_engine import run_module
+from core_engine import run_module
 
 SOURCES = [
     {
