@@ -1,62 +1,98 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-24T22:02:51.236178+00:00",
-  "total": 22,
+  "updated_at": "2026-03-25T05:39:24.204550+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "c281463380",
+      "id": "1be17c0225",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Minnesota Prosecutors Sue to Access Evidence in Shootings by Agents During Immigration Crackdown",
-      "summary": "The federal government has refused to provide even basic information about the three shootings that took place during an immigration crackdown in Minneapolis. Two were fatal.",
-      "link": "https://www.nytimes.com/2026/03/24/us/minnesota-ice-shootings-evidence.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/nat-minnesota-suit-1-chpt/nat-minnesota-suit-1-chpt-mediumSquareAt3X.jpg",
+      "title": "OpenAI pulls the plug on Sora, the viral AI video app that sparked deepfake concerns",
+      "summary": "OpenAI said Tuesday that it was \"saying goodbye to the Sora app\" and that it would share more soon about how to preserve what users already created on the app.",
+      "link": "https://www.npr.org/2026/03/25/g-s1-115055/openai-pulls-the-plug-on-sora-the-viral-ai-video-app-that-sparked-deepfake-concerns",
+      "image": null,
       "categories": [
-        "移民",
-        "政治"
+        "科技"
       ],
-      "score": 80,
-      "ago": "34分前",
-      "pub_ts": 1774387722.0,
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1774416841.0,
       "hot": false
     },
     {
-      "id": "bb0311057a",
+      "id": "3839e14cb2",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Gregory Bovino’s Final Days: Harsh Words and Few Regrets",
-      "summary": "He was the face of the Trump administration’s immigration crackdown. But as he begins a retirement that was not entirely voluntary, the Border Patrol leader says he did not go far enough.",
-      "link": "https://www.nytimes.com/2026/03/24/us/gregory-bovino-border-patrol.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/24nat-immig-bovino-02-gfbp/24nat-immig-bovino-02-gfbp-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 75,
-      "ago": "2小时前",
-      "pub_ts": 1774380578.0,
-      "hot": false
-    },
-    {
-      "id": "264ed54333",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Why it's so hard to take down Cambodia's online scam industry",
-      "summary": "Americans lost some $10 billion to online scammers in Southeast Asia in 2024. Cambodia, in particular, has been warned to clean up its act in recent months.",
-      "link": "https://www.npr.org/2026/03/24/nx-s1-5719279/why-its-so-hard-to-take-down-cambodias-online-scam-industry",
+      "title": "Rubio plans travel to France to sell Iran war to skeptical G7 allies",
+      "summary": "Secretary of State Marco Rubio will travel to France this week to try to sell America's skeptical Group of Seven allies on the Iran war that has sent global fuel prices soaring.",
+      "link": "https://www.npr.org/2026/03/25/g-s1-115053/rubio-plans-travel-to-france-to-sell-iran-war-to-skeptical-g7-allies",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1774388541.0,
+      "ago": "16分前",
+      "pub_ts": 1774416183.0,
+      "hot": false
+    },
+    {
+      "id": "7e209c634d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "LaGuardia Crash Tests New Port Authority Leader",
+      "summary": "Kathryn Garcia, who began leading the agency in February, consoled two injured firefighters and dealt with delays at the three big airports serving New York City.",
+      "link": "https://www.nytimes.com/2026/03/24/nyregion/port-authority-laguardia-crash-firefighters.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24laguardia-crash-port-authority-topart-tvcf-copy/24laguardia-crash-ru-garcia-tvcf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774406126.0,
+      "hot": false
+    },
+    {
+      "id": "9a359d6e4a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran Says ‘Non-Hostile’ Ships Can Sail Through the Strait of Hormuz",
+      "summary": "Ships with no ties to Israel or the United States would be allowed to pass, the government said, but it was unclear if any vessels would try.",
+      "link": "https://www.nytimes.com/2026/03/24/world/middleeast/iran-strait-of-hormuz-ships.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24israel-iran-shipping1-thjk/24israel-iran-shipping1-thjk-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774405547.0,
+      "hot": false
+    },
+    {
+      "id": "eb834d260b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Democrat Emily Gregory Wins Florida Special Election in Mar-a-Lago’s District",
+      "summary": "Emily Gregory’s victory in Palm Beach brought the Democratic surge to President Trump’s backyard, while a union leader leads in a race for a state senate seat vacated by Florida’s lieutenant governor.",
+      "link": "https://www.nytimes.com/2026/03/24/us/politics/florida-special-election-emily-gregory.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24nat-florida-special-1-pkwz/24nat-florida-special-1-pkwz-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774402332.0,
       "hot": false
     },
     {
@@ -72,27 +108,136 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1774388132.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774401941.0,
       "hot": false
     },
     {
-      "id": "0e0ff20ec4",
+      "id": "c18d353e59",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump’s Threat to ‘Obliterate’ Iran’s Power Stations Could Constitute a War Crime, Rights Experts Sa",
-      "summary": "Intentionally targeting the country’s energy infrastructure could constitute a war crime under international law.",
-      "link": "https://www.nytimes.com/2026/03/24/us/politics/trump-iran-power-stations.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/nyregion/24dc-power-stations/24dc-power-stations-mediumSquareAt3X.jpg",
+      "title": "N.C. Senator Phil Berger Officially Just Lost to Sam Page",
+      "summary": "Phil Berger had money, power and an endorsement from President Trump. But his critics had a long list of resentments and, on Tuesday, he lost by a mere 23 votes.",
+      "link": "https://www.nytimes.com/2026/03/24/us/berger-page-north-carolina-senate-gop.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25nat-berger-page-pzjl/25nat-berger-page-pzjl-mediumSquareAt3X-v2.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "36分前",
-      "pub_ts": 1774387590.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774401838.0,
+      "hot": false
+    },
+    {
+      "id": "c2cafe3247",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Judge says government's Anthropic ban looks like punishment",
+      "summary": "Tech company Anthropic, the maker of the Claude AI system, is suing the Trump administration over the government labeling it a \"supply chain risk.\"",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5759276/anthropic-pentagon-claude-preliminary-injunction-hearing",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774397548.0,
+      "hot": false
+    },
+    {
+      "id": "0c03360979",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "An air traffic controller was juggling extra roles during the LaGuardia plane crash",
+      "summary": "The National Transportation Safety Board said it has concerns about air traffic controllers who work the midnight shift taking on extra work in an airspace as busy as LaGuardia's.",
+      "link": "https://www.npr.org/2026/03/24/nx-s1-5759710/laguardia-airport-plane-crash",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774397425.0,
+      "hot": false
+    },
+    {
+      "id": "07dc606f22",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Senate Republicans Again Block Bid to Halt Iran War Without Authorization",
+      "summary": "Senate Democrats failed for the third time to advance a resolution that would force the removal of troops from hostilities in Iran unless Congress approves offensive operations.",
+      "link": "https://www.nytimes.com/2026/03/24/us/politics/senate-iran-war-vote.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24dc-warpowers-pltf/24dc-warpowers-pltf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774395822.0,
+      "hot": false
+    },
+    {
+      "id": "25708040c0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "New Mexico jury says Meta harms children's mental health and safety, violating state law",
+      "summary": "The jury agreed that Meta engaged in \"unconscionable\" trade practices that unfairly took advantage of the vulnerabilities of and inexperience of children. Jurors found there were thousands of violatio",
+      "link": "https://www.npr.org/2026/03/24/g-s1-115019/new-mexico-meta-children-mental-health",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774390322.0,
+      "hot": false
+    },
+    {
+      "id": "1ce31a07fc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Newsom Says He Regrets Remarks Comparing Israel to ‘Apartheid State’",
+      "summary": "The California governor suggested that he had meant to refer to Israel’s potential future direction, not its current policies. “I revere the state of Israel,” he said.",
+      "link": "https://www.nytimes.com/2026/03/24/us/politics/newsom-israel-apartheid-state.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/newsom-israel-wtmg/newsom-israel-wtmg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774388951.0,
+      "hot": false
+    },
+    {
+      "id": "215f9b835d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "United States Said to Have Sent Iran a Plan to End the Middle East War",
+      "summary": "The 15-point plan was delivered via Pakistan, whose army chief has emerged as the key interlocutor between the United States and Iran, officials say.",
+      "link": "https://www.nytimes.com/2026/03/24/world/middleeast/us-iran-peace-plan.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24int-mideast-iran-plan-2-ltkm/24int-mideast-iran-plan-2-ltkm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1774386451.0,
       "hot": false
     },
     {
@@ -108,46 +253,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774382397.0,
-      "hot": false
-    },
-    {
-      "id": "e9b7d98358",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Costa Rica Agrees to Take Migrants Deported by the Trump Administration",
-      "summary": "The agreement is part of President Trump’s efforts to find governments willing to accept people who have been detained in the United States.",
-      "link": "https://www.nytimes.com/2026/03/24/world/americas/costa-rica-us-deportation-deal.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/world/24int-costa-rica-deportees/24int-costa-rica-deportees-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774382049.0,
-      "hot": false
-    },
-    {
-      "id": "02cd8fde8c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Seems Open to Trump Request to Block Asylum Seekers at Border",
-      "summary": "A policy of turning back many asylum seekers at the border was rescinded in 2021, but the Justice Department wants the flexibility to reinstate it as a tool for border control.",
-      "link": "https://www.nytimes.com/2026/03/24/us/politics/supreme-court-trump-asylum-seekers.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24DC-SCOTUS-ASYLUM-wplv/24DC-SCOTUS-ASYLUM-wplv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774381332.0,
       "hot": false
     },
     {
@@ -164,8 +272,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774379219.0,
       "hot": false
     },
@@ -182,71 +290,16 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774377750.0,
-      "hot": false
-    },
-    {
-      "id": "b2d74e60cf",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why President Trump Has a Big Oil Problem",
-      "summary": "Our national security correspondent David E. Sanger looks at President Trump’s trouble handling retaliatory attacks by Iran that have largely choked off the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/video/world/middleeast/100000010796844/why-iran-strait-of-hormuz-is-important-trump.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774377578.0,
-      "hot": false
-    },
-    {
-      "id": "b0169b38d0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Congress loses a flying perk as DHS shutdown continues",
-      "summary": "Delta Airlines is temporarily suspending specialty services to member of Congress due to resource constraints from the ongoing shutdown of DHS.",
-      "link": "https://www.npr.org/2026/03/24/g-s1-114961/tsa-congress-dhs-shutdown",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774373843.0,
-      "hot": false
-    },
-    {
-      "id": "b5e747a3e7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A professional cornhole player and quadruple amputee is arrested for murder",
-      "summary": "Dayton Webber, 27, is accused of shooting a man in his car during an argument. He has shared his story of becoming a pro athlete after losing his arms and legs to a childhood bacterial infection.",
-      "link": "https://www.npr.org/2026/03/24/nx-s1-5759259/cornhole-amputee-dayton-webber-murder-arrest",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774370213.0,
       "hot": false
     },
     {
       "id": "8323e9b05c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Will President Trump act on his threat to take Cuba?",
       "summary": "New Yorker writer Jon Lee Anderson describes conditions in Cuba, why it's vulnerable now — and what regime change would mean — considering the Castro family's entrenchment in the Cuban government.",
@@ -256,51 +309,15 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1774366660.0,
-      "hot": false
-    },
-    {
-      "id": "7e156adcfb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Saudi Leader Is Said to Push Trump to Continue Iran War in Recent Calls",
-      "summary": "Crown Prince Mohammed bin Salman sees a “historic opportunity” to remake the region, according to people briefed by U.S. officials on the conversations.",
-      "link": "https://www.nytimes.com/2026/03/24/us/politics/saudi-prince-iran-trump.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/23dc-trump-saudi-01-bmwg/23dc-trump-saudi-01-bmwg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774365884.0,
-      "hot": false
-    },
-    {
-      "id": "0502f39a4e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Before running for Congress, Bobby Pulido was a Tejano music icon",
-      "summary": "Pulido has been a mainstay of Tejano music —a genre blending traditional regional Mexican elements with country, pop and conjunto influences — for more than three decades.",
-      "link": "https://www.npr.org/2026/03/24/nx-s1-5758044/bobby-pulido-congress-music-career",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774359513.0,
       "hot": false
     },
     {
       "id": "3ab761f5aa",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Senate confirms Sen. Mullin as DHS secretary. And, Iran denies U.S. talks to end war",
       "summary": "The Senate has confirmed Markwayne Mullin as the next Department of Homeland Security secretary. And, Iran has denied that it's in talks with the U.S. to end the war, which is now in its fourth week.",
@@ -310,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1774350818.0,
       "hot": false
     },
@@ -328,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1774350490.0,
       "hot": false
     },
@@ -346,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1774350314.0,
       "hot": false
     },
@@ -364,7 +381,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1774348551.0,
       "hot": false
     },
@@ -382,7 +399,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "20小时前",
       "pub_ts": 1774342800.0,
       "hot": false
     },
