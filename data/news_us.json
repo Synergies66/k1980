@@ -1,43 +1,135 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-26T16:41:53.495418+00:00",
+  "updated_at": "2026-03-26T21:50:26.261434+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "6aa9694656",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Europe Heads for Another Energy Shock as Iran War Raises Natural Gas Prices",
-      "summary": "The region’s stores of natural gas are running at the lowest level in years, and filling them up is increasingly daunting as the U.S.-led war in Iran pushes up prices.",
-      "link": "https://www.nytimes.com/2026/03/26/business/europe-natural-gas-storage-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/business/biz-europe-reserves-promo/biz-europe-reserves-promo-mediumSquareAt3X.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1774541535.0,
-      "hot": false
-    },
-    {
-      "id": "a55293992b",
+      "id": "d11b9ce3a8",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "America's first AI-fueled war is unfolding right now in Iran. This is how we got here",
-      "summary": "Bloomberg journalist Katrina Manson discusses the Pentagon's secretive campaign to build America's AI warfare capabilities and the obsessive Marine colonel behind it. Her new book is Project Maven.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5762019/americas-first-ai-fueled-war-is-unfolding-right-now-in-iran-this-is-how-we-got-here",
+      "title": "DOJ admits ICE courthouse arrests relied on erroneous information",
+      "summary": "Hundreds of immigrants have been arrested at immigration courthouses. It is unclear whether the federal government's admission could lead to some of those arrests being overturned.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5762691/doj-admits-ice-courthouse-arrests-relied-on-erroneous-information",
+      "image": null,
+      "categories": [
+        "移民",
+        "政治"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1774547642.0,
+      "hot": false
+    },
+    {
+      "id": "ce3aeba53c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Stocks Have Their Biggest Drop Since Start of Iran War",
+      "summary": "The S&P 500 tumbled 1.7 percent on Thursday and oil prices continued rising as investors fret about when the war would end.",
+      "link": "https://www.nytimes.com/2026/03/26/business/oil-stock-gas-prices-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26Biz-Oil-Stocks-promo-ctlp/26Biz-Oil-Stocks-promo-ctlp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1774561506.0,
+      "hot": false
+    },
+    {
+      "id": "3a6b17f9cf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Southeast Asia is being hit hard by Iran's cutoff of oil and gas",
+      "summary": "Southeast Asia is among the areas hardest hit by Iran's cutoff of oil and gas through the Strait of Hormuz, with many nations almost entirely dependent on foreign energy — and quickly running out.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5760763/southeast-asia-is-being-hit-hard-by-irans-cutoff-of-oil-and-gas",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1774541411.0,
+      "ago": "17分前",
+      "pub_ts": 1774560773.0,
+      "hot": false
+    },
+    {
+      "id": "da30cee03a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Iran's war propaganda includes memes directed at Trump",
+      "summary": "Iran has been sending not only missiles around the region but also trolling tweets and videos around the internet. It's the latest in global diplomacy.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5760944/irans-war-propaganda-includes-memes-directed-at-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774560579.0,
+      "hot": false
+    },
+    {
+      "id": "79d18d9edf",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Judge Questions Why U.S. Is Blocking Funding for Maduro’s Lawyers",
+      "summary": "The U.S. government has blocked Venezuela from paying for Nicolás Maduro’s defense lawyers. In a hearing, a judge said repeatedly that the former president’s right to his own defense was “paramount.”",
+      "link": "https://www.nytimes.com/2026/03/26/nyregion/maduro-venezuela-court-manhattan.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26met-maduro-gctw/26met-maduro-gctw-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1774560423.0,
+      "hot": false
+    },
+    {
+      "id": "f653521a6d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "The U.S. and Iran can't even agree on whether they're talking",
+      "summary": "President Trump says Iran is \"begging\" for a deal. Iran says it has no intention of negotiating. NPR's Mary Louise Kelly talks with NPR's Tom Bowman and Aya Batrawy about prospects for an off-ramp.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761378/the-u-s-and-iran-cant-even-agree-on-whether-theyre-talking",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1774559357.0,
+      "hot": false
+    },
+    {
+      "id": "a13a267f5d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Olympic committee bans trans athletes from women's events, raising many questions",
+      "summary": "The International Olympic Committee will require all athletes who want to participate in women's events to undergo genetic testing. The policy takes effect for the 2028 Summer Games in Los Angeles.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5762579/ioc-bans-trans-women-events-genetic-testing",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774558603.0,
       "hot": false
     },
     {
@@ -54,26 +146,135 @@
         "本地"
       ],
       "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1774539761.0,
+      "ago": "1小时前",
+      "pub_ts": 1774558107.0,
       "hot": false
     },
     {
-      "id": "d1c252acb1",
+      "id": "7f4ba8ce7a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump has deployed ICE agents to the nation's airports. What's their role?",
+      "summary": "The president says ICE agents are being stationed at airports to help reduce long wait times. Here's a look at what they're authorized to do.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5759159/trump-ice-airports-tsa",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774553296.0,
+      "hot": false
+    },
+    {
+      "id": "2b649040fb",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Juries Take the Lead in the Push for Child Online Safety",
-      "summary": "A pair of verdicts held social media companies accountable for harming young users, highlighting a growing backlash as Congress struggles to pass legislation.",
-      "link": "https://www.nytimes.com/2026/03/26/technology/social-media-verdicts-child-safety.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25biz-SOCIAL-MEDIA-ANALYSIS-1-01-qbfz/25biz-SOCIAL-MEDIA-ANALYSIS-1-01-qbfz-mediumSquareAt3X.jpg",
+      "title": "Europeans Worry Russia Is Preparing to Deliver Drones to Iran",
+      "summary": "The drones are an improved version of a weapon that Iran sent to Russia for use in its war in Ukraine.",
+      "link": "https://www.nytimes.com/2026/03/26/world/europe/iran-russia-europe-drones.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26int-iran-russia-hkzv/26int-iran-russia-hkzv-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774553110.0,
+      "hot": false
+    },
+    {
+      "id": "ab2c9a3ebe",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Safety Experts Considered LaGuardia Challenging but Not an Outlier",
+      "summary": "Regulators, pilots and others in aviation have worried about the kind of runway accident that happened at LaGuardia Airport on Sunday.",
+      "link": "https://www.nytimes.com/2026/03/26/business/laguardia-airport-air-canada-safety.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26biz-laguardia-safety-gjhk/26biz-laguardia-safety-gjhk-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774537240.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774549956.0,
+      "hot": false
+    },
+    {
+      "id": "7ca97678b1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Begins Investigations Into Three Medical Schools",
+      "summary": "The Justice Department’s demands for admissions-related data from Stanford, Ohio State and the University of California, San Diego, represent a flex of federal power.",
+      "link": "https://www.nytimes.com/2026/03/26/us/politics/trump-medical-schools-civil-rights.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/us/politics/dc-admissions-1/dc-admissions-1-mediumSquareAt3X.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774547955.0,
+      "hot": false
+    },
+    {
+      "id": "3d312ef59e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Eyes White House Treaty Room for Latest Renovation Project",
+      "summary": "President Trump is making new plans in one of the most significant renovations in the history of the White House.",
+      "link": "https://www.nytimes.com/2026/03/26/us/trump-eyes-white-house-treaty-room-for-latest-renovation-project.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/us/politics/dc-treat-room-302/dc-treat-room-302-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774545612.0,
+      "hot": false
+    },
+    {
+      "id": "a55293992b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "America's first AI-fueled war is unfolding right now in Iran. This is how we got here",
+      "summary": "Bloomberg journalist Katrina Manson discusses the Pentagon's secretive campaign to build America's AI warfare capabilities and the obsessive Marine colonel behind it. Her new book is Project Maven.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5762019/americas-first-ai-fueled-war-is-unfolding-right-now-in-iran-this-is-how-we-got-here",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774541411.0,
+      "hot": false
+    },
+    {
+      "id": "0ff22ef81a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "South Dakota Governor Signs Bill Requiring Citizenship Proof to Vote",
+      "summary": "The law, which mirrors national Republican priorities, requires newly registered voters to show that they are U.S. citizens in order to cast a ballot in state or local races.",
+      "link": "https://www.nytimes.com/2026/03/26/us/south-dakota-voting-proof-of-citizenship.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/nat-southdakota-voting-1-zwkc/nat-southdakota-voting-1-zwkc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774539294.0,
       "hot": false
     },
     {
@@ -89,8 +290,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774537091.0,
       "hot": false
     },
@@ -107,63 +308,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774536549.0,
-      "hot": false
-    },
-    {
-      "id": "4d5638d745",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Some Judges See Risks in Fiery Opinions Warning of Threats to Democracy",
-      "summary": "Federal judges are weighing strategies for how to respond to the high stakes, anonymous threats and politicized atmosphere of the Trump era.",
-      "link": "https://www.nytimes.com/2026/03/26/us/some-judges-see-risks-in-fiery-opinions-warning-of-threats-to-democracy.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25DC-JUDGERHETORIC-vmfk/25DC-JUDGERHETORIC-vmfk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774535014.0,
-      "hot": false
-    },
-    {
-      "id": "33ec515856",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Is Big Tech Facing a Big Tobacco Moment?",
-      "summary": "Back-to-back courtroom losses have put technology giants, including Meta and Google, in uncertain territory as they face lawsuits and bans on teen users.",
-      "link": "https://www.nytimes.com/2026/03/26/business/dealbook/meta-youtube-social-media-tobacco.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26db-zuck-zklg/26db-zuck-zklg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774531527.0,
-      "hot": false
-    },
-    {
-      "id": "6afbfb435a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘Lethality’ Used to Be a Pentagon Buzzword. Now It’s a Worldview.",
-      "summary": "It’s blunt instead of vague, brash instead of evasive, bold instead of cautious. And yet the word obfuscates as much as old defense jargon.",
-      "link": "https://www.nytimes.com/2026/03/26/magazine/lethality-us-military-pete-hegseth.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774530519.0,
       "hot": false
     },
     {
@@ -179,8 +326,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774524648.0,
       "hot": false
     },
@@ -197,64 +344,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774523776.0,
       "hot": false
     },
     {
-      "id": "855fdd957d",
+      "id": "c0e46dacd6",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "The U.S. and Iran are in 'indirect talks,' says intermediary Pakistan, as war rages on",
-      "summary": "Pakistan's foreign minister said the country is relaying messages and that Iran is deliberating on a U.S. proposal. Israel says it killed the Iranian Revolutionary Guard's navy chief.",
+      "title": "Trump grants Iran another extension on a deadline to reopen the Strait of Hormuz",
+      "summary": "President Trump said he'll hold off on striking Iran's power plants until April 6, postponing a deadline for Iran to let ships transit safely through the Strait of Hormuz.",
       "link": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
       "image": null,
       "categories": [
-        "政治",
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1774518275.0,
-      "hot": false
-    },
-    {
-      "id": "da366925b9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump's attacks on offshore wind could hurt infrastructure spending across the economy",
-      "summary": "President Trump has tried to kill offshore wind's future in the U.S. But industry analysts say the attacks could hurt business confidence across the U.S. economy.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5760979/trump-offshore-wind-climate-change-energy",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774516740.0,
-      "hot": false
-    },
-    {
-      "id": "68e52b816c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "It's Equal Pay Day. Women have lost ground for the second year in a row",
-      "summary": "The annual observance marks how far into the new year women must work to make what men earned in the previous year. This year, it's March 26, a day later than it was in 2025.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5758090/equal-pay-day-gender-wage-gap",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774515660.0,
       "hot": false
     },
     {
@@ -271,117 +381,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1774502473.0,
-      "hot": false
-    },
-    {
-      "id": "e29d3311e3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Calls for Law Cracking Down on Crime and ‘Rogue Judges’",
-      "summary": "Ahead of the midterms, President Trump told a Republican gathering that he wants to go after repeat offenders and “rogue judges that are criminals.”",
-      "link": "https://www.nytimes.com/2026/03/25/us/politics/trump-judges-rogue-law.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25trump-news-judges-gzjq/25trump-news-judges-gzjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1774493393.0,
-      "hot": false
-    },
-    {
-      "id": "e28384a344",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Social Media Addiction Trials: What to Know",
-      "summary": "Landmark trials are testing a new legal strategy claiming that Meta, TikTok, Snap and YouTube caused personal injury through addictive products.",
-      "link": "https://www.nytimes.com/2026/01/27/technology/social-media-addiction-trials.html",
-      "image": "https://static01.nyt.com/images/2026/01/23/multimedia/OakArticle-6973afdd-qpvg/OakArticle-6973afdd-qpvg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774475973.0,
-      "hot": false
-    },
-    {
-      "id": "d6b2483e8e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "State-of-the-art air defense systems have not been able to stop some Iranian missiles",
-      "summary": "The U.S. and Israel say they've depleted most of Iran's missile arsenal, but its weapons — including controversial cluster munitions — are challenging even the most advanced air-defense systems.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760839/state-of-the-art-air-defense-systems-have-not-been-able-to-stop-some-iranian-missiles",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774475792.0,
-      "hot": false
-    },
-    {
-      "id": "5e3eab842e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Sweden's top general says U.S. remains 'really important ally'",
-      "summary": "NPR's Mary Louise Kelly speaks with Sweden's chief of defense, Gen. Michael Claesson, about NATO, the wars in Ukraine and Iran, and Europe's relationship with the United States.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5754722/swedens-top-general-says-u-s-remains-really-important-ally",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1774472701.0,
-      "hot": false
-    },
-    {
-      "id": "7be53b70ed",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from Turkey's border with Iran, where Iranians let loose on the dance floor",
-      "summary": "Iranians escaping hardship and war are shaking it off to Persian, Arabic and Turkish tunes in this disco in eastern Turkey.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760830/iranian-disco-turkey-iran",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1774463274.0,
-      "hot": false
-    },
-    {
-      "id": "6b7b3d23ac",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "For the first time in more than 1,400 years, Church of England gets a woman leader",
-      "summary": "A new archbishop of Canterbury has been installed in a historic ceremony. Sarah Mullally is the 106th person to hold the job, and the first woman.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5753707/archbishop-canterbury-church-england-sarah-mullally",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1774458679.0,
       "hot": false
     },
     {
