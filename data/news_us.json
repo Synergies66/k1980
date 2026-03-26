@@ -1,52 +1,268 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-26T05:55:48.924744+00:00",
+  "updated_at": "2026-03-26T11:36:52.992908+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "00b214d4a9",
+      "id": "c4eaee98cf",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Had His Eye on China, Then Plunged Into a New Mideast War",
-      "summary": "The Trump administration said the Middle East would “recede” in importance as the China challenge took priority. But the president started the war in Iran.",
-      "link": "https://www.nytimes.com/2026/03/25/us/politics/trump-china-mideast.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25dc-trump-china-01-gltk/25dc-trump-china-01-gltk-mediumSquareAt3X.jpg",
+      "title": "Snapchat Investigated in Europe Over Child Safety Policies",
+      "summary": "Regulators in Brussels accused the social media platform of maintaining a weak age-verification system, and steering younger users toward inappropriate experiences.",
+      "link": "https://www.nytimes.com/2026/03/26/business/snapchat-europe-child-safety.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/eu-snap-zlkv/eu-snap-zlkv-mediumSquareAt3X.jpg",
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "10小时前",
-      "pub_ts": 1774466382.0,
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1774524657.0,
       "hot": false
     },
     {
-      "id": "ca91b09c42",
+      "id": "7b4ffdfc45",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Southeast Asia turns to nuclear as Iran war disrupts energy supplies",
+      "summary": "Analysts say the Iran war energy crisis is also adding momentum to nuclear interest and action in the region.",
+      "link": "https://www.npr.org/2026/03/26/g-s1-115291/southeast-asia-turns-to-nuclear-as-iran-war-disrupts-energy-supplies",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1774524648.0,
+      "hot": false
+    },
+    {
+      "id": "20aede019e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who Is Alireza Tangsiri, the Latest Iranian Commander Targeted by Israel?",
+      "summary": "Israel said it killed the naval commander, Alireza Tangsiri, in an airstrike on Thursday morning. Iran has not commented.",
+      "link": "https://www.nytimes.com/2026/03/26/world/middleeast/alireza-tangsiri.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26-iran-killed-zuma/26-iran-killed-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774523800.0,
+      "hot": false
+    },
+    {
+      "id": "2421ca790c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Melania Trump shares the spotlight with a robot at an education and technology event",
-      "summary": "The robot accompanied the first lady to the White House East Room for the final day of a summit she had convened with counterparts from around the world through her Fostering the Future Together globa",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5761898/melania-trump-robot-education-technology-ai",
+      "title": "Iran rejects U.S. peace plan. And, jury finds Meta, Google to blame in addiction trial",
+      "summary": "Iran rejects a U.S. proposal to end the war and counters with a different peace plan. And, a jury finds Meta and Google negligent in a trial over social media's harms.",
+      "link": "https://www.npr.org/2026/03/26/g-s1-115289/up-first-newsletter-iran-israel-trump-meta-google-social-media-cdc-director",
       "image": null,
       "categories": [
-        "教育",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774523776.0,
+      "hot": false
+    },
+    {
+      "id": "1296251089",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Landmark Verdict on the Danger of Social Media, and Trump’s Call to Punish ‘Rogue Judges’",
+      "summary": "Plus, OnlyFans’ billionaire owner dies at 43.",
+      "link": "https://www.nytimes.com/2026/03/26/podcasts/the-headlines/meta-youtube-social-media-verdict.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26theheadlines-meta-01-pjlh/26theheadlines-meta-01-pjlh-mediumSquareAt3X.jpg",
+      "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774502971.0,
+      "ago": "1小时前",
+      "pub_ts": 1774519216.0,
+      "hot": false
+    },
+    {
+      "id": "314225a774",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israel and Iran ramp up attacks as Trump insists Tehran wants a deal",
+      "summary": "The war in the Middle East ramped up on Thursday as Israel launched a wave of strikes targeting Iranian infrastructure, and Iran fired rounds of missiles at central Israel.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761882/iran-war-peace-conditions",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774518275.0,
+      "hot": false
+    },
+    {
+      "id": "da366925b9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump's attacks on offshore wind could hurt infrastructure spending across the economy",
+      "summary": "President Trump has tried to kill offshore wind's future in the U.S. But industry analysts say the attacks could hurt business confidence across the U.S. economy.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5760979/trump-offshore-wind-climate-change-energy",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774516740.0,
+      "hot": false
+    },
+    {
+      "id": "d1c252acb1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Juries Take the Lead in the Push for Child Online Safety",
+      "summary": "A pair of verdicts held social media companies accountable for harming young users, highlighting a growing backlash as Congress struggles to pass legislation.",
+      "link": "https://www.nytimes.com/2026/03/26/technology/social-media-verdicts-child-safety.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25biz-SOCIAL-MEDIA-ANALYSIS-1-01-qbfz/25biz-SOCIAL-MEDIA-ANALYSIS-1-01-qbfz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515794.0,
+      "hot": false
+    },
+    {
+      "id": "4d5638d745",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Some Judges See Risks in Fiery Opinions Warning of Threats to Democracy",
+      "summary": "Federal judges are weighing strategies for how to respond to the high stakes, anonymous threats and politicized atmosphere of the Trump era.",
+      "link": "https://www.nytimes.com/2026/03/26/us/some-judges-see-risks-in-fiery-opinions-warning-of-threats-to-democracy.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25DC-JUDGERHETORIC-vmfk/25DC-JUDGERHETORIC-vmfk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515684.0,
+      "hot": false
+    },
+    {
+      "id": "68e52b816c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "It's Equal Pay Day. Women have lost ground for the second year in a row",
+      "summary": "The annual observance marks how far into the new year women must work to make what men earned in the previous year. This year, it's March 26, a day later than it was in 2025.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5758090/equal-pay-day-gender-wage-gap",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515660.0,
+      "hot": false
+    },
+    {
+      "id": "93ff8aa876",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A $50 billion fund to help rural hospitals could actually lead to closures and cuts",
+      "summary": "States are rolling out plans for their share of a $50 billion fund established by Congress to improve rural health care. In some states, the money may provoke rural hospitals to cut services.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5760925/rural-health-transformation-fund-hospitals-montana",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515600.0,
+      "hot": false
+    },
+    {
+      "id": "59db587cf2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Decades ago, a Maryland sailor burned his winter socks. Now it's a spring tradition",
+      "summary": "In Annapolis, Md., people gather each year to usher in the warmer weather by burning their socks. The springtime tradition is the unofficial start of the Chesapeake Bay sailing season.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5760894/sock-burning-annapolis-oysters-sailing-chesapeake-bay",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515600.0,
+      "hot": false
+    },
+    {
+      "id": "9621dc2df3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Hoping to unseat Collins, Maine Democrats battle it out in an expensive U.S. Senate primary",
+      "summary": "As June's primary election nears, Democratic Gov. Janet Mills and combat veteran Graham Platner are effectively engaged in a proxy battle between factions in their own party.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5757659/midterms-collins-maine-democrats-platner-mills-senate",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774515600.0,
+      "hot": false
+    },
+    {
+      "id": "aa1170aeb3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "Iran rejects U.S. peace proposal and lays out its own conditions, the Army's 82nd Airborne Division readies to deploy to Iran, jury finds Meta and Google liable in social media addiction trial.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5753819/morning-news-brief",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774514537.0,
       "hot": false
     },
     {
       "id": "1fc5aa97ac",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "UN calls for reparations to remedy the 'historical wrongs' of trafficking enslaved Africans",
       "summary": "The U.N. General Assembly adopted a resolution declaring the trafficking of enslaved Africans \"the gravest crime against humanity\" and calling for reparations.",
@@ -55,27 +271,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "34分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774502473.0,
-      "hot": false
-    },
-    {
-      "id": "140bb42978",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Meta and YouTube Found Negligent in Landmark Social Media Addiction Trial",
-      "summary": "A jury found the companies harmed a young user with design features that were addictive and led to her mental health distress.",
-      "link": "https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/multimedia/00biz-social-media-verdict-HFO-mark-ctqz/00biz-social-media-verdict-HFO-mark-ctqz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "36分前",
-      "pub_ts": 1774502369.0,
       "hot": false
     },
     {
@@ -91,99 +289,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774497673.0,
       "hot": false
     },
     {
-      "id": "a2eb1816c0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "War with Iran disrupts fertilizer exports as U.S. farmers prepare for planting season",
-      "summary": "Gulf states are major fertilizer producers, and the war with Iran has triggered a 25% price hike just as struggling U.S. farmers are planting corn.",
-      "link": "https://www.npr.org/2026/03/26/g-s1-115240/iran-war-strait-hormuz-fertilizer-exports-farmers-planting-season",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774497660.0,
-      "hot": false
-    },
-    {
-      "id": "60dc6f2ce4",
+      "id": "33af4f47ab",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "ICE Agents at Some Airports Begin Checking IDs in Security Lines",
-      "summary": "It was unclear whether having agents helping with screening passengers would improve wait times. Some travelers expressed worries.",
-      "link": "https://www.nytimes.com/2026/03/25/us/ice-airports-checking-ids-security.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25nat-airport-ice-zwvq/25nat-airport-ice-zwvq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774488390.0,
-      "hot": false
-    },
-    {
-      "id": "9a36e680c2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Asia Is Getting Crushed Between Oil Prices and the Dollar",
-      "summary": "From India to Southeast Asia to South Korea, currencies are crumbling as governments race to secure fuel that is priced in American money.",
-      "link": "https://www.nytimes.com/2026/03/25/business/iran-war-dollar-rupee-won.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/Biz-Iran-Dollar-01-cbhp/Biz-Iran-Dollar-01-cbhp-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774482652.0,
-      "hot": false
-    },
-    {
-      "id": "10f24aa838",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Homeland Security Talks Hit Snag as Democrats Demand ICE Restrictions",
-      "summary": "A day after Republicans offered to remove money for ICE enforcement from a Department of Homeland Security funding bill, Democrats insisted that the deal must include curbs on federal agents.",
-      "link": "https://www.nytimes.com/2026/03/25/us/politics/homeland-security-shutdown-republicans-congress.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25dc-cong-dhs-topart-gbqm/25dc-cong-dhs-topart-gbqm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774481128.0,
-      "hot": false
-    },
-    {
-      "id": "cd6ca6e097",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Are Delays at Houston’s Bush Airport Worse Than at Others?",
-      "summary": "Lines were long at airports nationwide Tuesday amid T.S.A. staffing shortages, but passengers at Bush Intercontinental Airport waited more than four hours to pass through checkpoints.",
-      "link": "https://www.nytimes.com/2026/03/25/us/tsa-airport-delays-houston-bush.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24nat-iah-woes-why-lmkj/24nat-iah-woes-why-lmkj-mediumSquareAt3X.jpg",
+      "title": "Republicans in Congress Fret Over Trump Administration’s Handling of Iran War",
+      "summary": "G.O.P. lawmakers who have given the Trump administration wide latitude to wage war with no congressional input are growing frustrated as officials offer little detail about ground troops, cost or time",
+      "link": "https://www.nytimes.com/2026/03/25/world/middleeast/republicans-congress-iran-war-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25israel-iran-pentagon-briefing-gop2-zlgh/25israel-iran-pentagon-briefing-gop2-zlgh-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774476198.0,
+      "ago": "9小时前",
+      "pub_ts": 1774490864.0,
       "hot": false
     },
     {
@@ -200,26 +326,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1774475792.0,
       "hot": false
     },
     {
-      "id": "13cde5a2c4",
+      "id": "3295d6c966",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "OpenAI's Sora app may be going away, but its legacy will be the spread of AI video slop",
-      "summary": "Barely six months after its launch, OpenAI is ending an app that could generate AI video at the click of a button.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5759931/openais-sora-app-may-be-going-away-but-its-legacy-will-be-the-spread-ai-video-slop",
+      "title": "How Kharg Island May Change the Trajectory of the Iran War",
+      "summary": "Kharg Island exports 90 percent of Iran’s crude oil. It has also become a potential U.S. target. Peter Eavis, our Business reporter, examines how the small island in the Persian Gulf has become a stra",
+      "link": "https://www.nytimes.com/video/business/economy/100000010796199/how-kharg-island-may-change-the-trajectory-of-the-iran-war.html",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774472701.0,
+      "ago": "13小时前",
+      "pub_ts": 1774474757.0,
       "hot": false
     },
     {
@@ -237,69 +363,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1774472701.0,
-      "hot": false
-    },
-    {
-      "id": "4a811ed6e1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Doctors worry about FDA scrutiny of RSV shots to protect babies",
-      "summary": "The antibody shots are about 80% effective at preventing babies from ending up in intensive care because of RSV. The drugmakers behind them maintain they're safe.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5729092/fda-rsv-antibodies-shots-babies",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774470419.0,
-      "hot": false
-    },
-    {
-      "id": "8cdbf7c0a8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Meta Lays Off 700 Employees, While Rewarding Top Executives",
-      "summary": "The jobs cuts and a new stock program for executives come as Meta continues to shift its focus to artificial intelligence.",
-      "link": "https://www.nytimes.com/2026/03/25/technology/meta-layoffs-ai-executives.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25BIZ-META-promo-vplf/25BIZ-META-promo-vplf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774466554.0,
-      "hot": false
-    },
-    {
-      "id": "6057fdef72",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Travelers are facing the longest TSA wait times in history",
-      "summary": "Wait times are exceeding four hours at some major airports, leading TSA officers to call out at rates of 40 to 50%, according to TSA Deputy Administrator Ha Nguyen McNeill.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760981/tsa-wait-times-lines",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774466372.0,
       "hot": false
     },
     {
       "id": "7be53b70ed",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Greetings from Turkey's border with Iran, where Iranians let loose on the dance floor",
       "summary": "Iranians escaping hardship and war are shaking it off to Persian, Arabic and Turkish tunes in this disco in eastern Turkey.",
@@ -309,26 +381,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "17小时前",
       "pub_ts": 1774463274.0,
-      "hot": false
-    },
-    {
-      "id": "fc05cff21d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Jury finds Meta and Google negligent in social media harms trial",
-      "summary": "The jury ordered the companies to pay $6 million in damages over defective design. The landmark verdict may influence the outcome of 2,000 other pending lawsuits.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5746125/meta-youtube-social-media-trial-verdict",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774459959.0,
       "hot": false
     },
     {
@@ -345,62 +399,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774458679.0,
-      "hot": false
-    },
-    {
-      "id": "d7ec7bee8b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Thousands of U.S. troops deploy to Middle East. And, the latest on DHS funding talks",
-      "summary": "The U.S. is sending thousands of paratroopers from the 82nd Airborne to the Middle East. And, congressional Republicans present Democrats with a new deal to fund the Department of Homeland Security.",
-      "link": "https://www.npr.org/2026/03/25/g-s1-115071/up-first-newsletter-trump-iran-israel-lebanon-dhs-funding-data-brokers",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "18小时前",
-      "pub_ts": 1774437970.0,
-      "hot": false
-    },
-    {
-      "id": "57a697ab0f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran rejects Trump's proposal to end the war and lays out 5 conditions",
-      "summary": "Iran says no to President Trump's ceasefire plan and publicized a counterproposal that includes war reparations and Iranian sovereignty over the Strait of Hormuz.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760675/iran-war-military-deployment",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1774431519.0,
-      "hot": false
-    },
-    {
-      "id": "7ef8888dd0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Islandwide blackouts bring life in Cuba to a near total halt",
-      "summary": "NPR's A Martinez asks CNN's Havana Bureau Chief Patrick Oppmann about Cuba's power blackouts, which have brought the country to a near total halt.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5758009/islandwide-blackouts-bring-life-in-cuba-to-a-near-total-halt",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1774428119.0,
+      "pub_ts": 1774458679.0,
       "hot": false
     },
     {
