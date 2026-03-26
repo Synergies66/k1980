@@ -1,43 +1,63 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-25T22:05:05.993066+00:00",
+  "updated_at": "2026-03-26T05:55:48.924744+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "877c3a9e62",
+      "id": "00b214d4a9",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "US and China both believe the other is a declining power",
-      "summary": "China believes the U.S. is a declining power with expansionist ambitions. The U.S. thinks the same of China.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5727653/us-and-china-both-believe-the-other-is-a-declining-power",
-      "image": null,
+      "title": "Trump Had His Eye on China, Then Plunged Into a New Mideast War",
+      "summary": "The Trump administration said the Middle East would “recede” in importance as the China challenge took priority. But the president started the war in Iran.",
+      "link": "https://www.nytimes.com/2026/03/25/us/politics/trump-china-mideast.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25dc-trump-china-01-gltk/25dc-trump-china-01-gltk-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "华人",
+        "科技"
       ],
       "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1774428111.0,
+      "ago": "10小时前",
+      "pub_ts": 1774466382.0,
       "hot": false
     },
     {
-      "id": "d6b2483e8e",
+      "id": "ca91b09c42",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "State-of-the-art air defense systems have not been able to stop some Iranian missiles",
-      "summary": "The U.S. and Israel say they've depleted most of Iran's missile arsenal, but its weapons — including controversial cluster munitions — are challenging even the most advanced air-defense systems.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760839/state-of-the-art-air-defense-systems-have-not-been-able-to-stop-some-iranian-missiles",
+      "title": "Melania Trump shares the spotlight with a robot at an education and technology event",
+      "summary": "The robot accompanied the first lady to the White House East Room for the final day of a summit she had convened with counterparts from around the world through her Fostering the Future Together globa",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761898/melania-trump-robot-education-technology-ai",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1774502971.0,
+      "hot": false
+    },
+    {
+      "id": "1fc5aa97ac",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "UN calls for reparations to remedy the 'historical wrongs' of trafficking enslaved Africans",
+      "summary": "The U.N. General Assembly adopted a resolution declaring the trafficking of enslaved Africans \"the gravest crime against humanity\" and calling for reparations.",
+      "link": "https://www.npr.org/2026/03/26/nx-s1-5761896/un-reparations-slavery-africa",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1774475792.0,
+      "ago": "34分前",
+      "pub_ts": 1774502473.0,
       "hot": false
     },
     {
@@ -54,8 +74,152 @@
         "本地"
       ],
       "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1774474616.0,
+      "ago": "36分前",
+      "pub_ts": 1774502369.0,
+      "hot": false
+    },
+    {
+      "id": "01dba4199e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Threats to Europe Put Its Leaders in a Double Bind Over Iran",
+      "summary": "European politicians risk angering their voters if they join America’s war. Yet they could also face domestic upheaval if they take no action to reopen shipping routes that Iran has blocked and ease a",
+      "link": "https://www.nytimes.com/2026/03/26/world/europe/iran-trump-hormuz-europe-dilemma.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25int-europe-iran-01-cbgf/25int-europe-iran-01-cbgf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774497673.0,
+      "hot": false
+    },
+    {
+      "id": "a2eb1816c0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "War with Iran disrupts fertilizer exports as U.S. farmers prepare for planting season",
+      "summary": "Gulf states are major fertilizer producers, and the war with Iran has triggered a 25% price hike just as struggling U.S. farmers are planting corn.",
+      "link": "https://www.npr.org/2026/03/26/g-s1-115240/iran-war-strait-hormuz-fertilizer-exports-farmers-planting-season",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774497660.0,
+      "hot": false
+    },
+    {
+      "id": "60dc6f2ce4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE Agents at Some Airports Begin Checking IDs in Security Lines",
+      "summary": "It was unclear whether having agents helping with screening passengers would improve wait times. Some travelers expressed worries.",
+      "link": "https://www.nytimes.com/2026/03/25/us/ice-airports-checking-ids-security.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25nat-airport-ice-zwvq/25nat-airport-ice-zwvq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774488390.0,
+      "hot": false
+    },
+    {
+      "id": "9a36e680c2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Asia Is Getting Crushed Between Oil Prices and the Dollar",
+      "summary": "From India to Southeast Asia to South Korea, currencies are crumbling as governments race to secure fuel that is priced in American money.",
+      "link": "https://www.nytimes.com/2026/03/25/business/iran-war-dollar-rupee-won.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/Biz-Iran-Dollar-01-cbhp/Biz-Iran-Dollar-01-cbhp-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774482652.0,
+      "hot": false
+    },
+    {
+      "id": "10f24aa838",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Homeland Security Talks Hit Snag as Democrats Demand ICE Restrictions",
+      "summary": "A day after Republicans offered to remove money for ICE enforcement from a Department of Homeland Security funding bill, Democrats insisted that the deal must include curbs on federal agents.",
+      "link": "https://www.nytimes.com/2026/03/25/us/politics/homeland-security-shutdown-republicans-congress.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25dc-cong-dhs-topart-gbqm/25dc-cong-dhs-topart-gbqm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774481128.0,
+      "hot": false
+    },
+    {
+      "id": "cd6ca6e097",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Why Are Delays at Houston’s Bush Airport Worse Than at Others?",
+      "summary": "Lines were long at airports nationwide Tuesday amid T.S.A. staffing shortages, but passengers at Bush Intercontinental Airport waited more than four hours to pass through checkpoints.",
+      "link": "https://www.nytimes.com/2026/03/25/us/tsa-airport-delays-houston-bush.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24nat-iah-woes-why-lmkj/24nat-iah-woes-why-lmkj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774476198.0,
+      "hot": false
+    },
+    {
+      "id": "d6b2483e8e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "State-of-the-art air defense systems have not been able to stop some Iranian missiles",
+      "summary": "The U.S. and Israel say they've depleted most of Iran's missile arsenal, but its weapons — including controversial cluster munitions — are challenging even the most advanced air-defense systems.",
+      "link": "https://www.npr.org/2026/03/25/nx-s1-5760839/state-of-the-art-air-defense-systems-have-not-been-able-to-stop-some-iranian-missiles",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774475792.0,
+      "hot": false
+    },
+    {
+      "id": "13cde5a2c4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "OpenAI's Sora app may be going away, but its legacy will be the spread of AI video slop",
+      "summary": "Barely six months after its launch, OpenAI is ending an app that could generate AI video at the click of a button.",
+      "link": "https://www.npr.org/2026/03/25/nx-s1-5759931/openais-sora-app-may-be-going-away-but-its-legacy-will-be-the-spread-ai-video-slop",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1774472701.0,
       "hot": false
     },
     {
@@ -72,27 +236,9 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774472701.0,
-      "hot": false
-    },
-    {
-      "id": "4013745ab6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says He’s Talking With Iran. Iran Says He’s Not. Here’s Why.",
-      "summary": "The president has domestic and international political motivations for touting negotiations to end the war. Iran has similar ones to deny discussions.",
-      "link": "https://www.nytimes.com/2026/03/25/world/middleeast/trump-iran-talks-contradiction.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/00int-Trump-Iran-Talks-hmjp/00int-Trump-Iran-Talks-hmjp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774470471.0,
       "hot": false
     },
     {
@@ -108,8 +254,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774470419.0,
       "hot": false
     },
@@ -126,8 +272,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774466554.0,
       "hot": false
     },
@@ -144,45 +290,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1774466372.0,
-      "hot": false
-    },
-    {
-      "id": "e0954e69a2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran’s Attacks Force U.S. Troops to Work Remotely",
-      "summary": "Iran has severely damaged several American military bases in the Middle East, officials say.",
-      "link": "https://www.nytimes.com/2026/03/25/us/politics/iran-us-bases.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25dc-bases-kvcm/25dc-bases-kvcm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774465549.0,
-      "hot": false
-    },
-    {
-      "id": "233eba200f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Advice on Navigating T.S.A. Wait Times at the Airport",
-      "summary": "With lines stretching for hours and passengers missing flights, fliers are desperate to ease the wait at security. There are some steps you can take, but no guarantees.",
-      "link": "https://www.nytimes.com/2026/03/25/travel/tsa-wait-time-airport-advice.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25-trav-pain-points-advice-01-zthl/25-trav-pain-points-advice-01-zthl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774464459.0,
       "hot": false
     },
     {
@@ -198,26 +308,26 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1774463274.0,
       "hot": false
     },
     {
-      "id": "43ea4db962",
+      "id": "fc05cff21d",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Jury orders Meta and Google to pay woman $6 million in social media addiction trial",
-      "summary": "The verdict marks the end of the first-ever jury trial over whether tech giants should be held accountable for social media addiction. It may influence the outcome of 2,000 other pending lawsuits.",
+      "title": "Jury finds Meta and Google negligent in social media harms trial",
+      "summary": "The jury ordered the companies to pay $6 million in damages over defective design. The landmark verdict may influence the outcome of 2,000 other pending lawsuits.",
       "link": "https://www.npr.org/2026/03/25/nx-s1-5746125/meta-youtube-social-media-trial-verdict",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1774459959.0,
       "hot": false
     },
@@ -225,7 +335,7 @@
       "id": "6b7b3d23ac",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "For the first time in more than 1,400 years, Church of England gets a woman leader",
       "summary": "A new archbishop of Canterbury has been installed in a historic ceremony. Sarah Mullally is the 106th person to hold the job, and the first woman.",
@@ -234,118 +344,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1774458679.0,
-      "hot": false
-    },
-    {
-      "id": "cd6ca6e097",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Are Delays at Houston’s Bush Airport Worse Than at Others?",
-      "summary": "Lines were long at airports nationwide Tuesday amid T.S.A. staffing shortages, but passengers at Bush Intercontinental Airport waited more than four hours to pass through checkpoints.",
-      "link": "https://www.nytimes.com/2026/03/25/us/tsa-airport-delays-houston-bush.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24nat-iah-woes-why-lmkj/24nat-iah-woes-why-lmkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774457212.0,
-      "hot": false
-    },
-    {
-      "id": "31ad81bf2c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Savannah Guthrie's first interview since mother Nancy vanished: 'I imagine her terror'",
-      "summary": "Nearly two months after Nancy Guthrie disappeared, her daughter Savannah discusses the toll on her family in an emotional interview with her Today show colleague Hoda Kotb.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760906/savannah-guthrie-interview-mother-nancy",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774456640.0,
-      "hot": false
-    },
-    {
-      "id": "f41b7e5920",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Air Canada C.E.O. Draws Scorn for Delivering Condolences Only in English",
-      "summary": "The lack of French in Michael Rousseau’s speech about the deadly collision at LaGuardia Airport reignited a debate over linguistic inclusivity in Canada.",
-      "link": "https://www.nytimes.com/2026/03/25/world/canada/air-canada-ceo-speech-french.html",
-      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/25xp-aircanada-photo/25xp-aircanada-photo-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774455041.0,
-      "hot": false
-    },
-    {
-      "id": "dde780a7d9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "At the Legacy Museum, facing America's racist past is a path, not a punishment",
-      "summary": "\"There is an America that is more free — where there's more equality, where there is more justice, where there is less bigotry — and I think it's waiting for us,\" says lawyer Bryan Stevenson.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5753780/bryan-stevenson-montgomery-square-legacy-museum",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774454621.0,
-      "hot": false
-    },
-    {
-      "id": "948c272371",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A leadership vacuum adds to strains on the CDC",
-      "summary": "Low morale, staff turnover and budget issues have sapped the Centers for Disease Control and Prevention. The administration is expected to soon name a new director, who will have their hands full.",
-      "link": "https://www.npr.org/2026/03/25/nx-s1-5760832/cdc-turmoil-director",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774454464.0,
-      "hot": false
-    },
-    {
-      "id": "36dd060e4e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Bald Reddit Helps People Manage Hair Loss",
-      "summary": "A Reddit forum has become a haven for those deciding whether it’s time to shave it all.",
-      "link": "https://www.nytimes.com/2026/03/25/well/bald-reddit.html",
-      "image": "https://static01.nyt.com/images/2026/03/23/WELL-BALD-REDDIT1-image/WELL-BALD-REDDIT1-image-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774453519.0,
       "hot": false
     },
     {
@@ -362,7 +363,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1774437970.0,
       "hot": false
     },
@@ -373,14 +374,14 @@
       "source": "NPR 世界",
       "lang": "en",
       "title": "Iran rejects Trump's proposal to end the war and lays out 5 conditions",
-      "summary": "Iran says no to President Trump's ceasefire plan and publicized a counterproposal that includes safeguards against future attacks on Iran and sovereignty over the Strait of Hormuz.",
+      "summary": "Iran says no to President Trump's ceasefire plan and publicized a counterproposal that includes war reparations and Iranian sovereignty over the Strait of Hormuz.",
       "link": "https://www.npr.org/2026/03/25/nx-s1-5760675/iran-war-military-deployment",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "20小时前",
       "pub_ts": 1774431519.0,
       "hot": false
     },
@@ -398,7 +399,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "21小时前",
       "pub_ts": 1774428119.0,
       "hot": false
     },
