@@ -1,152 +1,79 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-27T11:10:10.245148+00:00",
-  "total": 24,
+  "updated_at": "2026-03-27T15:13:53.641510+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "8e24a1331a",
+      "id": "8799b24af6",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Florida’s Immigration Crackdown, Led by DeSantis, Is Showing Cracks",
-      "summary": "Some conservative sheriffs have raised concerns about the aggressive enforcement tactics that Gov. Ron DeSantis, a Republican, has embraced.",
-      "link": "https://www.nytimes.com/2026/03/27/us/florida-immigration-desantis-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26nat-florida-immigration-01-wklf/26nat-florida-immigration-01-wklf-mediumSquareAt3X.jpg",
+      "title": "Where Might the Iran War Hit Your Grocery Bill? Start With Raspberries.",
+      "summary": "It takes a lot of fuel to produce this delicate fruit, which can be a sensitive barometer as oil costs rise.",
+      "link": "https://www.nytimes.com/2026/03/27/dining/raspberry-prices.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26FD-RASPBERRIES-gkjz/26FD-RASPBERRIES-gkjz-mediumSquareAt3X-v2.jpg",
       "categories": [
-        "移民",
-        "科技"
+        "本地"
       ],
-      "score": 75,
-      "ago": "2小时前",
-      "pub_ts": 1774602006.0,
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1774622600.0,
       "hot": false
     },
     {
-      "id": "9b95dfe878",
+      "id": "774df65e40",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Senate votes to fund much of DHS, minus immigration enforcement",
-      "summary": "The Senate approved a bill to fund most of the Department of Homeland Security, early Friday. The bill does not fund Immigration and Customs Enforcement, or ICE.",
-      "link": "https://www.npr.org/2026/03/27/g-s1-115366/senate-dhs-tsa-deal",
+      "title": "Global Food Supply Faces a Dangerous Bottleneck as Iran War Persists",
+      "summary": "Fertilizer prices are climbing as a result of disruptions in the Middle East, putting global food supplies at risk.",
+      "link": "https://www.nytimes.com/2026/03/27/business/economy/fertilizer-food-supply-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27dc-iran-trade-01-kwzl/27dc-iran-trade-01-kwzl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1774622539.0,
+      "hot": false
+    },
+    {
+      "id": "4b46841ec7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Spiking Diesel Prices Mean Everything Will Get More Expensive",
+      "summary": "Diesel has climbed faster than gasoline this month, directly hitting businesses, from brewers to trucking companies. Those higher costs are likely to make their way into consumer prices.",
+      "link": "https://www.nytimes.com/2026/03/27/business/diesel-prices-inflation-consumer-prices.html",
+      "image": "https://static01.nyt.com/images/2026/03/25/multimedia/00biz-diesel-economy-04-kwzj/00biz-diesel-economy-04-kwzj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774620229.0,
+      "hot": false
+    },
+    {
+      "id": "e39b943eb7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Energy Crisis Forces India’s Eateries to Adapt",
+      "summary": "A small street stall and a big restaurant chain in India rethought how to cook after the war in the Middle East squeezed their supply of liquified petroleum gas.",
+      "link": "https://www.nytimes.com/video/world/asia/100000010791678/iran-war-india-cooking-gas.html",
       "image": null,
       "categories": [
-        "移民"
-      ],
-      "score": 75,
-      "ago": "3小时前",
-      "pub_ts": 1774595984.0,
-      "hot": false
-    },
-    {
-      "id": "5cad1c76f3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Senate Votes to Fund Most of D.H.S. in Bid to End Partial Shutdown",
-      "summary": "The bill excludes funding for ICE and the Border Patrol but restores it for federal airport security workers. The House could consider the package on Friday.",
-      "link": "https://www.nytimes.com/2026/03/27/us/politics/senate-dhs-ice-shutdown-funding.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27xp-dhs-lqcw/27xp-dhs-lqcw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1774608008.0,
-      "hot": false
-    },
-    {
-      "id": "e5c6c248fe",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Rubio Expected to Press Allies Over Strait of Hormuz at G7 Meeting",
-      "summary": "The meeting in France is slated to discuss efforts to stop the war in the Middle East, end Iran’s nuclear and ballistic missile development, and reopen maritime trade routes.",
-      "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-rubio-g7-france.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27israel-iran-g7-preview-cqtg/27israel-iran-g7-preview-cqtg-mediumSquareAt3X.jpg",
-      "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774605885.0,
-      "hot": false
-    },
-    {
-      "id": "f0b86f9328",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Breakthrough for T.S.A. Funding, and How the War in Iran Will Hit Grocery Prices",
-      "summary": "Plus, the Friday news quiz.",
-      "link": "https://www.nytimes.com/2026/03/27/podcasts/the-headlines/trump-tsa-agents-iran-war-grocery-prices.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27headlines-trump-tsa-wbgc/27headlines-trump-tsa-wbgc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774605612.0,
-      "hot": false
-    },
-    {
-      "id": "df96e9a7dd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Scientists watch sperm whales work as a team to assist a birth",
-      "summary": "An unprecedented look at the birth of a sperm whale found that mother and calf were supported by other whales throughout the process.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5762978/sperm-whale-birth-cooperation-coordination-marine-mammals-science",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774605600.0,
-      "hot": false
-    },
-    {
-      "id": "7774c98ec1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Rubio heads to Europe to try garner support for Iran war",
-      "summary": "Representatives of the world's wealthiest democracies gather in France today for a G7 meeting, where U.S. Secretary of State Marco Rubio is expected to try to shore up support among reticent allies fo",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774604942.0,
-      "hot": false
-    },
-    {
-      "id": "3d1e10c076",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "UAE and Qatar Arrest Hundreds Over Online Videos of Iranian Attacks",
-      "summary": "The authorities have made a wave of arrests to stop people posting footage of strikes, citing security risks. Experts also see a fear of damage to the countries’ image as safe havens.",
-      "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-war-videos-arrests-uae-gulf-states.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-gulf-crackdown-1-bfcv/27int-gulf-crackdown-1-bfcv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774604179.0,
+      "pub_ts": 1774620019.0,
       "hot": false
     },
     {
@@ -164,43 +91,171 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774604171.0,
+      "pub_ts": 1774619396.0,
       "hot": false
     },
     {
-      "id": "02a53a1fe0",
+      "id": "73f826d318",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Hegseth Strikes Two Black and Two Female Officers From Promotion List",
-      "summary": "Defense Secretary Pete Hegseth’s highly unusual decision to remove officers from a one-star promotion list has spurred allegations of racial and gender bias.",
-      "link": "https://www.nytimes.com/2026/03/27/us/hegseth-promotion-list.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/00dc-generals-01-tmkw/00dc-generals-01-tmkw-mediumSquareAt3X.jpg",
+      "title": "Her dad's dementia inspired her to create a guide for family caregivers",
+      "summary": "Wambūi Karanja of Kenya is \"one to watch,\" says the Alzheimer's Association. Coping with her dad's condition inspired her to develop a training program for families on the art of caregiving.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5732794/dementia-caregiving-alzheimers-kenya-support",
+      "image": null,
       "categories": [
-        "本地"
+        "天气",
+        "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774602126.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774617485.0,
       "hot": false
     },
     {
-      "id": "0b5dbe84d1",
+      "id": "ce210ef98f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Will ICE Change Under Its New Leader?",
-      "summary": "Markwayne Mullin, the new homeland security secretary, has promised a different approach, but how much change is likely? Our reporter Hamed Aleaziz describes what we know.",
-      "link": "https://www.nytimes.com/video/us/politics/100000010793141/will-ice-change-under-its-new-leader.html",
+      "title": "Standoff With Iran Raises Fresh Doubts About Trump’s Freestyle Diplomacy",
+      "summary": "A jumble of emissaries — a friend, a family member, a dove and a hawk — on the Iran crisis reflects President Trump’s improvisational approach.",
+      "link": "https://www.nytimes.com/2026/03/26/us/politics/trump-iran-talks.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26dc-diplo-iran-01-pfhm/26dc-diplo-iran-01-pfhm-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "18小时前",
+      "pub_ts": 1774557882.0,
+      "hot": false
+    },
+    {
+      "id": "6e900c63b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Here's some new dirt on an unusual source of antibiotic resistance",
+      "summary": "New research suggests drought can stoke antibiotic resistance in soil bacteria — and that can have an impact on humans.",
+      "link": "https://www.npr.org/2026/03/27/g-s1-115318/antibiotic-resistance-bacteria-drought-climate-change",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1774602104.0,
+      "pub_ts": 1774616370.0,
+      "hot": false
+    },
+    {
+      "id": "4023007219",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Americans seek redemption at figure skating worlds, just weeks after the Olympics",
+      "summary": "Figure Skating World Championships in Prague end on Saturday. Americans Amber Glenn and Ilia Malinin are within medals' reach after disappointing finishes at last month's Olympics.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5761994/figure-skating-world-championships-malinin-glenn",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774615876.0,
+      "hot": false
+    },
+    {
+      "id": "8a84d455ee",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Senate votes to fund most of DHS. And, Trump extends Iran's deadline to reopen strait",
+      "summary": "The Senate has voted to fund most of the Department of Homeland Security. And, President Trump extends the deadline for Iran to reopen the Strait of Hormuz.",
+      "link": "https://www.npr.org/2026/03/27/g-s1-115433/up-first-newsletter-dhs-funding-iran-strait-of-hormuz-cpac",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774611218.0,
+      "hot": false
+    },
+    {
+      "id": "f0b86f9328",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Breakthrough for T.S.A. Funding, and How the War in Iran Will Hit Grocery Prices",
+      "summary": "Plus, the Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/03/27/podcasts/the-headlines/trump-tsa-agents-iran-war-grocery-prices.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27headlines-trump-tsa-wbgc/27headlines-trump-tsa-wbgc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774605612.0,
+      "hot": false
+    },
+    {
+      "id": "df96e9a7dd",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Scientists watch sperm whales work as a team to assist a birth",
+      "summary": "An unprecedented look at the birth of a sperm whale found that mother and calf were supported by other whales throughout the process.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5762978/sperm-whale-birth-cooperation-coordination-marine-mammals-science",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774605600.0,
+      "hot": false
+    },
+    {
+      "id": "7774c98ec1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Rubio heads to Europe to try garner support for Iran war",
+      "summary": "Representatives from G7 countries gather in France, where U.S. Secretary of State Marco Rubio is expected to try to shore up support from reticent allies for the Trump administration's war on Iran.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774604942.0,
+      "hot": false
+    },
+    {
+      "id": "3d1e10c076",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "UAE and Qatar Arrest Hundreds Over Online Videos of Iranian Attacks",
+      "summary": "The authorities have made a wave of arrests to stop people posting footage of strikes, citing security risks. Experts also see a fear of damage to the countries’ image as safe havens.",
+      "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-war-videos-arrests-uae-gulf-states.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-gulf-crackdown-1-bfcv/27int-gulf-crackdown-1-bfcv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774604179.0,
       "hot": false
     },
     {
@@ -216,8 +271,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774602060.0,
       "hot": false
     },
@@ -234,27 +289,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774602000.0,
-      "hot": false
-    },
-    {
-      "id": "01d5ba7f07",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Do you lean optimistic or pessimistic? Take this quiz and find out",
-      "summary": "A glass-half-full outlook can keep you engaged and hopeful in hard times. Take this quiz to find out your level of optimism, then learn how to train yourself to become more optimistic.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5713624/optimism-quiz-worry-pessimism",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774602000.0,
       "hot": false
     },
@@ -271,27 +307,9 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774600954.0,
-      "hot": false
-    },
-    {
-      "id": "7ae26ae304",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Kansas City nun reflects on life spent caring for kids",
-      "summary": "For StoryCorps, a nun in Kansas City reminisces about helping families in need of low-cost childcare.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5757413/kansas-city-nun-reflects-on-life-spent-caring-for-kids",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774600895.0,
       "hot": false
     },
     {
@@ -307,27 +325,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774600880.0,
-      "hot": false
-    },
-    {
-      "id": "d6afecd8cb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Judge weighs whether Venezuela can pay Maduro's legal costs in US drug trafficking case",
-      "summary": "A U.S. judge pressed the Trump administration Thursday about its basis for barring Venezuela's government from paying former President Nicolás Maduro's legal fees in the drug trafficking case that has",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5763491/judge-venezuela-maduro-legal-costs-us-drug-trafficking",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774594521.0,
       "hot": false
     },
     {
@@ -344,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1774560773.0,
       "hot": false
     },
@@ -362,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1774560579.0,
       "hot": false
     },
@@ -380,44 +380,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1774559357.0,
-      "hot": false
-    },
-    {
-      "id": "a13a267f5d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The Olympic committee bans trans athletes from women's events, raising many questions",
-      "summary": "The International Olympic Committee will require all athletes who want to participate in women's events to undergo genetic testing. The policy takes effect for the 2028 Summer Games in Los Angeles.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5762579/ioc-bans-trans-women-events-genetic-testing",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1774558603.0,
-      "hot": false
-    },
-    {
-      "id": "7b4ffdfc45",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Southeast Asia turns to nuclear as Iran war disrupts energy supplies",
-      "summary": "Analysts say the Iran war energy crisis is also adding momentum to nuclear interest and action in the region.",
-      "link": "https://www.npr.org/2026/03/26/g-s1-115291/southeast-asia-turns-to-nuclear-as-iran-war-disrupts-energy-supplies",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1774524648.0,
       "hot": false
     },
     {
