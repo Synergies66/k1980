@@ -1,62 +1,97 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-27T19:26:07.988997+00:00",
+  "updated_at": "2026-03-27T21:57:49.575565+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "8e24a1331a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Florida’s Immigration Crackdown, Led by DeSantis, Is Showing Cracks",
-      "summary": "Some conservative sheriffs have raised concerns about the aggressive enforcement tactics that Gov. Ron DeSantis, a Republican, has embraced.",
-      "link": "https://www.nytimes.com/2026/03/27/us/florida-immigration-desantis-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26nat-florida-immigration-01-wklf/26nat-florida-immigration-01-wklf-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 75,
-      "ago": "5小时前",
-      "pub_ts": 1774620812.0,
-      "hot": false
-    },
-    {
-      "id": "774df65e40",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Global Food Supply Faces a Dangerous Bottleneck as Iran War Persists",
-      "summary": "Fertilizer prices are climbing as a result of disruptions in the Middle East, putting global food supplies at risk.",
-      "link": "https://www.nytimes.com/2026/03/27/business/economy/fertilizer-food-supply-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27dc-iran-trade-01-kwzl/27dc-iran-trade-01-kwzl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "3分前",
-      "pub_ts": 1774639336.0,
-      "hot": false
-    },
-    {
-      "id": "513dd0f3a3",
+      "id": "5a37cbb577",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Defense Secretary Hegseth intervened to stop promotions of Black and female officers",
-      "summary": "The four Army officers were on track to become one-star generals, NPR confirms. Defense secretary Pete Hegseth's involvement in the promotion process is highly unusual.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5763863/hegseth-soldiers-promotions",
+      "title": "Tiger Woods arrested on suspicion of DUI, authorities say",
+      "summary": "Woods was arrested on suspicion of DUI. The Martin County Sheriff's Office said Woods was not injured.",
+      "link": "https://www.npr.org/2026/03/27/g-s1-115540/tiger-woods-arrest-dui-suspicion-masters-golf",
       "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1774647476.0,
+      "hot": false
+    },
+    {
+      "id": "9d0ddf5e28",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Cuban Americans face scrutiny for sending goods back to the island",
+      "summary": "Cuban Americans who ship goods to relatives on the island are now seen as propping up Cuba's communist regime as the economy there continues to deteriorate.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5759391-e1/cuban-americans-face-scrutiny-for-sending-goods-back-to-the-island",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774644166.0,
+      "hot": false
+    },
+    {
+      "id": "39eeff93b4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Keep Falling as Investor Lose Patience With the War in Iran",
+      "summary": "The S&P 500 is down nearly 9 percent from a January high. The weekly losing streak is its worst in roughly four years.",
+      "link": "https://www.nytimes.com/2026/03/27/business/iran-war-stock-market-investors.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/business/27biz-stocks-promo/27biz-stocks-promo-mediumSquareAt3X.png",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1774638379.0,
+      "ago": "1小时前",
+      "pub_ts": 1774643722.0,
+      "hot": false
+    },
+    {
+      "id": "51fc7b3d1d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "At CPAC, the ‘America First’ Crowd Ponders Giving War a Chance",
+      "summary": "The Conservative Political Action Conference has been an America First gathering for years, but with President Trump pursuing war in Iran, organizers have tried to make a shift, with mixed results.",
+      "link": "https://www.nytimes.com/2026/03/27/us/politics/cpac-trump-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27nat-cpac-iran-01-wfgv/27nat-cpac-iran-01-wfgv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774643333.0,
+      "hot": false
+    },
+    {
+      "id": "4eaa2ba80f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Government Trolls Sling Memes in the Online Trenches of Mideast War",
+      "summary": "Officials in Tehran and Washington alike are trading taunts in English, often using American pop culture references.",
+      "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-war-memes-propaganda.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-War-Memes-gwkp/27int-War-Memes-gwkp-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774643220.0,
       "hot": false
     },
     {
@@ -74,7 +109,62 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774634056.0,
+      "pub_ts": 1774643128.0,
+      "hot": false
+    },
+    {
+      "id": "8e24a1331a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Florida’s Immigration Crackdown, Led by DeSantis, Is Showing Cracks",
+      "summary": "Some conservative sheriffs have raised concerns about the aggressive enforcement tactics that Gov. Ron DeSantis, a Republican, has embraced.",
+      "link": "https://www.nytimes.com/2026/03/27/us/florida-immigration-desantis-republicans.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26nat-florida-immigration-01-wklf/26nat-florida-immigration-01-wklf-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "7小时前",
+      "pub_ts": 1774620812.0,
+      "hot": false
+    },
+    {
+      "id": "774df65e40",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Global Food Supply Faces a Dangerous Bottleneck as Iran War Persists",
+      "summary": "Fertilizer prices are climbing as a result of disruptions in the Middle East, putting global food supplies at risk.",
+      "link": "https://www.nytimes.com/2026/03/27/business/economy/fertilizer-food-supply-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27dc-iran-trade-01-kwzl/27dc-iran-trade-01-kwzl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774640637.0,
+      "hot": false
+    },
+    {
+      "id": "513dd0f3a3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Defense Secretary Hegseth intervened to stop promotions of Black and female officers",
+      "summary": "The four Army officers were on track to become one-star generals, NPR confirms. Defense secretary Pete Hegseth's involvement in the promotion process is highly unusual.",
+      "link": "https://www.npr.org/2026/03/27/nx-s1-5763863/hegseth-soldiers-promotions",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774638379.0,
       "hot": false
     },
     {
@@ -90,27 +180,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774633847.0,
       "hot": false
     },
     {
-      "id": "c4e9be5c5a",
+      "id": "02a53a1fe0",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "As Stocks Keep Falling, Investors Are Losing Patience With the War in Iran",
-      "summary": "The S&P 500 is on course for its fifth straight week of losses and its worst weekly losing streak in roughly four years.",
-      "link": "https://www.nytimes.com/2026/03/27/business/iran-war-stock-market-investors.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/business/27biz-stocks-promo/27biz-stocks-promo-mediumSquareAt3X.png",
+      "title": "Hegseth Strikes Two Black and Two Female Officers From Promotion List",
+      "summary": "Defense Secretary Pete Hegseth’s highly unusual decision to remove officers from a one-star promotion list has spurred allegations of racial and gender bias.",
+      "link": "https://www.nytimes.com/2026/03/27/us/hegseth-promotion-list.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/00dc-generals-01-tmkw/00dc-generals-01-tmkw-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774628380.0,
+      "ago": "4小时前",
+      "pub_ts": 1774630800.0,
       "hot": false
     },
     {
@@ -127,7 +217,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1774628210.0,
       "hot": false
     },
@@ -144,45 +234,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774625526.0,
-      "hot": false
-    },
-    {
-      "id": "45e7f9b894",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Pakistan, Playing Mediator Between U.S. and Iran, Is Calling Several Countries",
-      "summary": "Washington, Tehran, Riyadh, Abu Dhabi, Cairo, Istanbul and Brussels have all received calls as Pakistan plays mediator between the United States and Iran.",
-      "link": "https://www.nytimes.com/2026/03/26/world/asia/pakistan-iran-united-states-talks.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-pakistan-calls-1-tzhq/27int-pakistan-calls-1-tzhq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774625050.0,
-      "hot": false
-    },
-    {
-      "id": "e39b943eb7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Energy Crisis Forces India’s Eateries to Adapt",
-      "summary": "A small street stall and a big restaurant chain in India rethought how to cook after the war in the Middle East squeezed their supply of liquified petroleum gas.",
-      "link": "https://www.nytimes.com/video/world/asia/100000010791678/iran-war-india-cooking-gas.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774620019.0,
       "hot": false
     },
     {
@@ -200,7 +254,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1774617485.0,
       "hot": false
     },
@@ -218,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1774616370.0,
       "hot": false
     },
@@ -236,7 +290,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774615876.0,
       "hot": false
     },
@@ -244,7 +298,7 @@
       "id": "8a84d455ee",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Senate votes to fund most of DHS. And, Trump extends Iran's deadline to reopen strait",
       "summary": "The Senate has voted to fund most of the Department of Homeland Security. And, President Trump extends the deadline for Iran to reopen the Strait of Hormuz.",
@@ -254,44 +308,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774611218.0,
       "hot": false
     },
     {
-      "id": "576829cc10",
+      "id": "10137d54bd",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Marco Rubio heads to Europe to try to garner support for the Iran war",
-      "summary": "Representatives from G7 countries gather in France, where U.S. Secretary of State Marco Rubio is expected to try to shore up support from reticent allies for the Trump administration's war on Iran.",
+      "title": "A month of war has destroyed a third of Iran's missiles, per U.S. intelligence",
+      "summary": "The Trump administration says it's ahead of schedule in destroying Iran's weapons, but NPR has learned that a U.S. intelligence assessment says about a third of Iran's missiles have been destroyed.",
       "link": "https://www.npr.org/2026/03/27/nx-s1-5763475/iran-war-talks-rubio-markets-g7",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1774604942.0,
-      "hot": false
-    },
-    {
-      "id": "3d1e10c076",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "UAE and Qatar Arrest Hundreds Over Online Videos of Iranian Attacks",
-      "summary": "The authorities have made a wave of arrests to stop people posting footage of strikes, citing security risks. Experts also see a fear of damage to the countries’ image as safe havens.",
-      "link": "https://www.nytimes.com/2026/03/27/world/middleeast/iran-war-videos-arrests-uae-gulf-states.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27int-gulf-crackdown-1-bfcv/27int-gulf-crackdown-1-bfcv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774604179.0,
       "hot": false
     },
     {
@@ -308,26 +344,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1774602140.0,
-      "hot": false
-    },
-    {
-      "id": "f28f41696f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Cuban Americans face scrutiny for sending goods back to the island",
-      "summary": "Cuban Americans who ship goods to relatives on the island are now seen as propping up Cuba's communist regime as the economy there continues to deteriorate.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5759391/cuban-americans-face-scrutiny-for-sending-goods-back-to-the-island",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774600954.0,
       "hot": false
     },
     {
@@ -344,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1774600880.0,
       "hot": false
     },
@@ -361,27 +379,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774560773.0,
-      "hot": false
-    },
-    {
-      "id": "da30cee03a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran's war propaganda includes memes directed at Trump",
-      "summary": "Iran has been sending not only missiles around the region but also trolling tweets and videos around the internet. It's the latest in global diplomacy.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5760944/irans-war-propaganda-includes-memes-directed-at-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1774560579.0,
       "hot": false
     },
     {
