@@ -1,25 +1,152 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-28T05:24:52.796310+00:00",
+  "updated_at": "2026-03-28T10:02:54.845425+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "51fc7b3d1d",
+      "id": "ba983149e0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. troops injured in attack on Saudi base as the war reaches one month",
+      "summary": "As the war in Iran reaches the one-month mark, a Iranian strike on a U.S. airbase in Saudi Arabia wounded several U.S. service members.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5764720/iran-war-one-month",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1774690700.0,
+      "hot": false
+    },
+    {
+      "id": "3a868b6df4",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "At CPAC, the ‘America First’ Crowd Ponders Giving War a Chance",
-      "summary": "The Conservative Political Action Conference has been an America First gathering for years, but with President Trump pursuing war in Iran, organizers have tried to make a shift, with mixed results.",
-      "link": "https://www.nytimes.com/2026/03/27/us/politics/cpac-trump-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27nat-cpac-iran-01-wfgv/27nat-cpac-iran-01-wfgv-mediumSquareAt3X.jpg",
+      "title": "In an Asymmetrical War, Iran Seeks an Edge With Its Information War",
+      "summary": "Propaganda and disinformation have flooded the internet in a sophisticated effort to undermine support for U.S. and Israeli attacks.",
+      "link": "https://www.nytimes.com/2026/03/28/business/iran-propaganda-war-ai.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/00Biz-IranPropaganda-1-vghq/00Biz-IranPropaganda-1-vghq-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1774688606.0,
+      "hot": false
+    },
+    {
+      "id": "2dc5a6e83b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Castro Heirs Emerge Across Cuba’s Political Scene Amid Energy Crisis and Trump Threats",
+      "summary": "As Trump officials demand changes, Castro family members are suddenly popping up across Cuba’s political scene. Some even ask: Could one be the “Cuban Delcy?”",
+      "link": "https://www.nytimes.com/2026/03/28/world/americas/castro-family-cuba-energy-crisis-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28int-cuba-castros-hjpw/28int-cuba-castros-hjpw-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774671647.0,
+      "pub_ts": 1774688534.0,
+      "hot": false
+    },
+    {
+      "id": "2196c8c226",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Wild Ultimatums and ‘Bombing Our Little Hearts Out’: A Portrait of Trump at War",
+      "summary": "President Trump has vacillated between boasting about U.S. military superiority and deep frustration that his war of choice is not always having the desired effects.",
+      "link": "https://www.nytimes.com/2026/03/28/us/politics/trump-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27dc-trump-war-top3-bzcj/27dc-trump-war-top3-bzcj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774688493.0,
+      "hot": false
+    },
+    {
+      "id": "d8013e9816",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Challenge for ‘No Kings’ Protests, the Third Time Around",
+      "summary": "Organizers want this to be largest protest yet. But is hitting a number enough to deliver an effective political movement?",
+      "link": "https://www.nytimes.com/2026/03/28/us/politics/no-kings-protests-trump-organizers.html",
+      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28nat-nokings-bpcj/28nat-nokings-bpcj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774688484.0,
+      "hot": false
+    },
+    {
+      "id": "e31cc72dd7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Does the U.S. have a chance in the World Cup? 2 important games will provide clues",
+      "summary": "The U.S. has gone unbeaten in its past five international matches. But now the team is upping the ante with games against Belgium and Portugal that could show fans whether a deep run is in the cards.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5764272/world-cup-usmnt-us-soccer-belgium-portugal",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774688400.0,
+      "hot": false
+    },
+    {
+      "id": "7cbde04930",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump wants a deadlocked Congress to move on AI. Frustrated states say they already have",
+      "summary": "State lawmakers have been stepping in to regulate artificial intelligence, clashing with the federal government's inaction as concerns about oversight and safety grow.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5755062/trump-wants-a-deadlocked-congress-to-move-on-ai-frustrated-states-say-they-already-have",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774688400.0,
+      "hot": false
+    },
+    {
+      "id": "1168e4f554",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'No Kings' aims for record turnout in Saturday's anti-Trump protests",
+      "summary": "Organizers behind No Kings, a network of progressive groups, says protesters will stage demonstrations across the country and abroad to speak out against the Trump administration's actions.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5763702/no-kings-saturday-protests",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774688400.0,
       "hot": false
     },
     {
@@ -35,64 +162,63 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774670526.0,
       "hot": false
     },
     {
-      "id": "8e24a1331a",
+      "id": "5da100014f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Florida’s Immigration Crackdown, Led by DeSantis, Is Showing Cracks",
-      "summary": "Some conservative sheriffs have raised concerns about the aggressive enforcement tactics that Gov. Ron DeSantis, a Republican, has embraced.",
-      "link": "https://www.nytimes.com/2026/03/27/us/florida-immigration-desantis-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/26nat-florida-immigration-01-wklf/26nat-florida-immigration-01-wklf-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "15小时前",
-      "pub_ts": 1774620813.0,
-      "hot": false
-    },
-    {
-      "id": "09c955810a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Antitank Mines Discovered in Neighborhood in Iran",
-      "summary": "Photos and video verified by The New York Times show mines dispensed by cluster bombs in a village a few miles from a missile site.",
-      "link": "https://www.nytimes.com/2026/03/27/us/antitank-mines-iran.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774657083.0,
-      "hot": false
-    },
-    {
-      "id": "ece5ccd169",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Long of a Wait at Security? For Many Passengers, It Was Anyone’s Guess.",
-      "summary": "As T.S.A. staff shortages continued on Friday, some airports saw interminably long wait times, while others barely had a wait at all, adding to travelers’ confusion.",
-      "link": "https://www.nytimes.com/2026/03/27/us/wait-times-airports-tsa-confusion.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27nat-airports/27nat-airports-mediumSquareAt3X.jpg",
+      "title": "Iranian Strike on U.S. Base in Saudi Arabia Injures 12 American Troops, Officials Say",
+      "summary": "The combined missile and drone attack amounted to one of the most serious breaches of American air defenses in the course of the monthlong war with Iran.",
+      "link": "https://www.nytimes.com/2026/03/27/us/politics/strike-us-air-base-injuries.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/world/27israel-iran-americans-injured-saudi-base/27israel-iran-americans-injured-saudi-base-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774653312.0,
+      "ago": "7小时前",
+      "pub_ts": 1774664922.0,
+      "hot": false
+    },
+    {
+      "id": "3b071b1426",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Offers More Aid to Farmers, a Key Support Bloc Hurt by Tariffs and War",
+      "summary": "The president announced new loan guarantees at a White House event that appeared intended to reassure a group that has found itself caught in the crosshairs of some of his major policies.",
+      "link": "https://www.nytimes.com/2026/03/27/us/politics/trump-farmers.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27DC-TRUMP-FARMERS-vczh/27DC-TRUMP-FARMERS-vczh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1774650615.0,
+      "hot": false
+    },
+    {
+      "id": "19b71a2826",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Hegseth Criticized for Removing Four Officers From Promotion List",
+      "summary": "Bitter rifts have opened over the defense secretary’s campaign to reverse policies that he says are prejudiced against white officers.",
+      "link": "https://www.nytimes.com/2026/03/27/us/politics/hegseth-generals-promotion.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27dc-generals-reaction-jplg/27dc-generals-reaction-jplg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1774649765.0,
       "hot": false
     },
     {
@@ -109,7 +235,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1774649189.0,
       "hot": false
     },
@@ -127,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1774648396.0,
       "hot": false
     },
@@ -145,26 +271,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1774647476.0,
-      "hot": false
-    },
-    {
-      "id": "74c7133c4e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Cannonball with Wesley Morris: ‘Love Story’ Is Actually a Horror Story",
-      "summary": "The nightmare began when she said, “I do.”",
-      "link": "https://www.nytimes.com/2026/03/27/podcasts/love-story-jfk-jr.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774645623.0,
       "hot": false
     },
     {
@@ -181,26 +289,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1774644166.0,
-      "hot": false
-    },
-    {
-      "id": "39eeff93b4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Stocks Keep Falling as Investor Lose Patience With the War in Iran",
-      "summary": "The S&P 500 is down nearly 9 percent from a January high. The weekly losing streak is its worst in roughly four years.",
-      "link": "https://www.nytimes.com/2026/03/27/business/iran-war-stock-market-investors.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/2026-march-biz-promos-march27-stocks/2026-march-biz-promos-march27-stocks-mediumSquareAt3X.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774643722.0,
       "hot": false
     },
     {
@@ -217,33 +307,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1774638379.0,
-      "hot": false
-    },
-    {
-      "id": "2cada1e2e6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Research points to how companies could make social media less addictive for teens",
-      "summary": "Juries in two big cases have affirmed what research is finding: The design of social media platforms is particularly compelling and hard to resist for kids. There are growing calls to change it.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5763017/social-media-teens-addictive-design",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1774633847.0,
       "hot": false
     },
     {
       "id": "9f5e06fcd5",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "How long will the war last? No one knows, and it's making oil prices weird",
       "summary": "It's like the \"Schrödinger's cat\" thought experiment. There are two very different potential realities, and traders don't yet know which one is true.",
@@ -253,45 +325,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1774628210.0,
-      "hot": false
-    },
-    {
-      "id": "58f5fc7ad9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "House panel finds Florida Democrat guilty of ethics violations",
-      "summary": "The House Ethics Committee has found evidence that Rep. Sheila Cherfilus-McCormick violated House rules. This comes after the panel held a rare public hearing to review investigations into allegations",
-      "link": "https://www.npr.org/2026/03/27/g-s1-115336/house-panel-finds-florida-democrat-guilty-of-ethics-violations",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1774625526.0,
-      "hot": false
-    },
-    {
-      "id": "73f826d318",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Her dad's dementia inspired her to create a guide for family caregivers",
-      "summary": "Wambūi Karanja of Kenya is \"one to watch,\" says the Alzheimer's Association. Coping with her dad's condition inspired her to develop a training program for families on the art of caregiving.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5732794/dementia-caregiving-alzheimers-kenya-support",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774617485.0,
       "hot": false
     },
     {
@@ -308,7 +343,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "21小时前",
       "pub_ts": 1774615876.0,
       "hot": false
     },
@@ -326,7 +361,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "22小时前",
       "pub_ts": 1774611218.0,
       "hot": false
     },
@@ -343,27 +378,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774604942.0,
-      "hot": false
-    },
-    {
-      "id": "3edca00270",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Want More ‘Love Story’? Read These Books Inspired by the Kennedys and ’90s New York.",
-      "summary": "If the TV show has you craving 1990s glam, upper-crust romance and doomed dynasties, these books have got you covered.",
-      "link": "https://www.nytimes.com/2026/03/27/books/review/love-story-jfk-jr-carolyn-bessette-books.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1774602241.0,
       "hot": false
     },
     {
@@ -379,27 +396,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1774600880.0,
-      "hot": false
-    },
-    {
-      "id": "3a6b17f9cf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Southeast Asia is being hit hard by Iran's cutoff of oil and gas",
-      "summary": "Southeast Asia is among the areas hardest hit by Iran's cutoff of oil and gas through the Strait of Hormuz, with many nations almost entirely dependent on foreign energy — and quickly running out.",
-      "link": "https://www.npr.org/2026/03/26/nx-s1-5760763/southeast-asia-is-being-hit-hard-by-irans-cutoff-of-oil-and-gas",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1774560773.0,
+      "pub_ts": 1774600880.0,
       "hot": false
     },
     {
