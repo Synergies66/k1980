@@ -1,7 +1,7 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-28T10:04:03.250820+00:00",
+  "updated_at": "2026-03-28T14:23:38.039406+00:00",
   "total": 16,
   "articles": [
     {
@@ -18,8 +18,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "2小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1774684128.0,
       "hot": false
     },
@@ -37,226 +37,244 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1774681394.0,
       "hot": false
     },
     {
-      "id": "ba82bed661",
+      "id": "26e7149e8a",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Ashwin becomes first India international to join US Major League",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/ashwin-becomes-first-india-international-join-us-major-league-6023301",
+      "image": "https://dam.mediacorp.sg/image/upload/s--YOni6jpA--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T134103Z_1_LYNXMPEM2R07H_RTROPTP_3_CRICKET-TEST-IND-ENG.JPG?itok=N04k_hqw",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "42分前",
+      "pub_ts": 1774705263.0,
+      "hot": false
+    },
+    {
+      "id": "aec2a655fd",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Explainer-What is the World Trade Organization e-commerce moratorium?",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/explainer-what-world-trade-organization-e-commerce-moratorium-6023291",
+      "image": "https://dam.mediacorp.sg/image/upload/s--0MbzGQEk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T133747Z_1_LYNXMPEM2R07E_RTROPTP_3_TRADE-WTO.JPG?itok=4PVURqkU",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "45分前",
+      "pub_ts": 1774705067.0,
+      "hot": false
+    },
+    {
+      "id": "804801578d",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Will my old social media posts affect my job prospects? Here’s what recruiters really check",
+      "summary": "Jobseekers may worry that their online footprint could cost them opportunities, but recruiters say that recent behaviour and professional presence matter far more than past missteps.",
+      "link": "https://www.channelnewsasia.com/today/adulting/social-media-history-jobseeker-employer-assessment-prospect-6016426",
+      "image": "https://dam.mediacorp.sg/image/upload/s--cQ9rYsoj--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/26/hero-would-employers-look-at-your-social-media-acct-before-hire-you-.jpg?itok=i4WoU8zi",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774704600.0,
+      "hot": false
+    },
+    {
+      "id": "5f782791bb",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "She didn't know what an aquarist was. Now, she leads the sea jellies team at Singapore Oceanarium",
+      "summary": "After leaving a stable retail career in her 20s, Vivian Cavan took a leap into the unknown. Nearly a decade on, she's still learning and chasing challenge after challenge in the murky world of sea jel",
+      "link": "https://www.channelnewsasia.com/today/up-close/aquarist-sea-jelly-singapore-oceanarium-marine-life-career-change-6013231",
+      "image": "https://dam.mediacorp.sg/image/upload/s--dKILQhfD--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/27/20260225_bk_uc_vivian_cavan_1a.jpg?itok=yPkLu8Qr",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774704600.0,
+      "hot": false
+    },
+    {
+      "id": "7ffccf77f9",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Markets are volatile again. Should I just cash out and wait?",
+      "summary": "As geopolitical conflicts rattle markets, it may feel safer to step aside. But reacting to short-term uncertainty may end up hurting returns, finance author Dawn Cher says.",
+      "link": "https://www.channelnewsasia.com/today/voices/invest-stock-market-gold-oil-war-volatile-sell-buy-6013171",
+      "image": "https://dam.mediacorp.sg/image/upload/s--awR2NvDY--/c_crop,h_900,w_1600,x_0,y_51/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/27/investment-stock-market-finance-volatility-bearish-bullish-gfx-cna-today-voices.jpg?itok=Z9TYydYh",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1774704600.0,
+      "hot": false
+    },
+    {
+      "id": "298e89c872",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Thailand will have new government next week, PM says",
+      "summary": "The new government will move quickly to deliver a policy statement to parliament so it can begin its work, said Thai Prime Minister Anutin Charnvirakul.",
+      "link": "https://www.channelnewsasia.com/asia/thailand-new-government-cabinet-parliament-pm-anutin-charnvirakul-6022876",
+      "image": "https://dam.mediacorp.sg/image/upload/s--vVUxjxAo--/c_crop,h_449,w_799,x_1,y_1/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T041516Z_1_LYNXMPEM2R01U_RTROPTP_3_THAILAND-POLITICS.JPG?itok=G-WPpL7Y",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774701840.0,
+      "hot": false
+    },
+    {
+      "id": "bddda1656f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Indonesia says 'positive' talks with Iran to let tankers pass Hormuz strait",
+      "summary": "Indonesian tankers Pertamina Pride and Gamsunoro, owned by a subsidiary of state energy firm Pertamina, remain in the Gulf, a company spokesperson said.",
+      "link": "https://www.channelnewsasia.com/asia/indonesia-strait-hormuz-ships-positive-talks-iran-6023231",
+      "image": "https://dam.mediacorp.sg/image/upload/s--tqwextGO--/c_crop,h_887,w_1578,x_0,y_101/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/2026-03-27t161753z_1283682783_rc2b2kal76jz_rtrmadp_3_usa-economy.jpg?itok=Jo424nlo",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774701060.0,
+      "hot": false
+    },
+    {
+      "id": "ed3df77de6",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "I write about scammers. Now, they are writing as me.",
+      "title": "Singapore rolls out $37.9m initiative to help people age well with technology",
+      "summary": "An AI tool that can predict fracture risk in seconds is among solutions being developed.",
+      "link": "https://www.straitstimes.com/singapore/health/singapore-rolls-out-37-9m-initiative-to-help-people-age-well-with-technology",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774696800.0,
+      "hot": false
+    },
+    {
+      "id": "a0e63307ec",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Missing Cuba-bound aid boats located, crews 'safe': Convoy organisers",
+      "summary": "The sailboats are part of an international convoy that has brought 50 tonnes of medical supplies, food, solar panels and other goods to support Cuba amid a US fuel blockade.",
+      "link": "https://www.channelnewsasia.com/world/missing-cuba-aid-boats-found-crew-safe-convoy-organisers-6023161",
+      "image": "https://dam.mediacorp.sg/image/upload/s--3hj9DGIl--/c_crop,h_900,w_1600,x_0,y_60/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/2026-03-27t012816z_802996107_rc2r9kanvb09_rtrmadp_3_cuba-crisis-mexico-aid.jpg?itok=JSWGK1J_",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774695720.0,
+      "hot": false
+    },
+    {
+      "id": "ae1485fdb7",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "I write about scammers. Now, they are writing as me",
       "summary": "No journalist from The Straits Times would promote any \"AI-driven trading platform\".",
       "link": "https://www.straitstimes.com/singapore/courts-crime/i-write-about-scammers-now-they-are-writing-as-me",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "3分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774692000.0,
       "hot": false
     },
     {
-      "id": "21953dc3b9",
+      "id": "df8f4e4a43",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "RSAF crew had 48 hours to prepare for repatriation flights to Saudi Arabia",
+      "title": "RSAF crew had to work 48 hours to prepare for repatriation flights to Saudi Arabia",
       "summary": "The mission to extract Singaporeans from the Middle East came after commercial flights were cancelled.",
-      "link": "https://www.straitstimes.com/singapore/politics/press-button-and-we-needed-to-go-rsaf-crew-had-48-hours-to-prepare-for-repatriation-flights-to-saudi",
+      "link": "https://www.straitstimes.com/singapore/press-button-and-we-needed-to-go-rsaf-crew-had-48-hours-to-prepare-for-repatriation-flights-to-saudi",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "3分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774692000.0,
       "hot": false
     },
     {
-      "id": "b24701036d",
+      "id": "8a25a510b4",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
       "title": "Spotting a distant projectile, RSAF pilots worked to ensure it was safe to continue repatriation fli",
       "summary": "The crew also had to handle widespread jamming of GPS capabilities as they flew back from Saudi Arabia.",
-      "link": "https://www.straitstimes.com/singapore/politics/spotting-a-distant-projectile-rsaf-pilots-worked-calmly-to-ensure-smooth-repatriation-flight-home",
+      "link": "https://www.straitstimes.com/singapore/spotting-a-distant-projectile-rsaf-pilots-worked-calmly-to-ensure-smooth-repatriation-flight-home",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "3分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774692000.0,
       "hot": false
     },
     {
-      "id": "d39700c43f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "India's Bellatrix Aerospace nets $20 million in pre-Series B round",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/indias-bellatrix-aerospace-nets-20-million-in-pre-series-b-round-6023121",
-      "image": "https://dam.mediacorp.sg/image/upload/s--smsI8jUC--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T095613Z_1_LYNXMPEM2R046_RTROPTP_3_INDIA-SPACE.JPG?itok=jOiDz_cZ",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1774691773.0,
-      "hot": false
-    },
-    {
-      "id": "fa3886065f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Pakistan to host Saudi, Turkey, Egypt for talks on Mideast war",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/us-iran-war-pakistan-host-talks-saudi-turkey-egypt-6023086",
-      "image": "https://dam.mediacorp.sg/image/upload/s--ahCJVekG--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/000_a4ry463.jpg?itok=Xb2Gt31e",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1774691349.0,
-      "hot": false
-    },
-    {
-      "id": "2f4403cc7e",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Zelenskyy says Ukraine, UAE 'agreed to cooperate' on defence",
-      "summary": "Ukrainian President Volodymyr Zelenskyy's visit to the UAE comes as Gulf countries face Iranian drones launched by Tehran in retaliation for US-Israeli strikes.",
-      "link": "https://www.channelnewsasia.com/world/ukraine-uae-drone-defence-agreement-volodymyr-zelenskyy-iran-war-6023101",
-      "image": "https://dam.mediacorp.sg/image/upload/s--BIyQhlhr--/c_crop,h_576,w_1024,x_0,y_23/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/uae_drone_attack_0.jpg?itok=nsskxF8x",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1774691040.0,
-      "hot": false
-    },
-    {
-      "id": "a431bf2060",
+      "id": "174a22441c",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Boon Lay and West Coast pilots for ageing well to be expanded in the west of Singapore",
+      "title": "Pilot initiative helping Boon Lay, West Coast residents age well to be widened in the west",
       "summary": "The approach involves creating solutions for the unique needs of different communities.",
       "link": "https://www.straitstimes.com/singapore/boon-lay-and-west-coast-pilots-for-ageing-well-to-be-expanded-in-the-west-of-singapore",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "32分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774690260.0,
-      "hot": false
-    },
-    {
-      "id": "14bf4aa1c8",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "India opens second international airport in capital New Delhi",
-      "summary": "Noida International Airport is 75km from New Delhi and will serve 12 million passengers a year in its initial phase, with the potential to grow to as many as 70 million.",
-      "link": "https://www.channelnewsasia.com/asia/india-opens-second-international-airport-in-capital-new-delhi-6023071",
-      "image": "https://dam.mediacorp.sg/image/upload/s--n6TvFr9j--/c_crop,h_536,w_954,x_645,y_550/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/noida_intl_airport_fb_narendra_modi.jpg?itok=EzJwLM8F",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "53分前",
-      "pub_ts": 1774689000.0,
-      "hot": false
-    },
-    {
-      "id": "ef8bfe918c",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "One month into Iran war, only hard choices for Trump",
-      "summary": "The central question now, say analysts, is whether Trump is ready to wind down or ramp up what critics have called a war of choice, one that has ignited the worst global energy supply shock in history",
-      "link": "https://www.channelnewsasia.com/world/us-iran-war-donald-trump-hard-choices-analysis-conflict-hormuz-strait-6022931",
-      "image": "https://dam.mediacorp.sg/image/upload/s--xW6ox0Cn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T050435Z_1_LYNXMPEM2R025_RTROPTP_3_IRAN-CRISIS-TRUMP-ENDGAME.JPG?itok=gDnVSRjp",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774686900.0,
-      "hot": false
-    },
-    {
-      "id": "815afc56ec",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Dutch coach Koeman praises performance but Van Dijk wants more",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/dutch-coach-koeman-praises-performance-van-dijk-wants-more-6023056",
-      "image": "https://dam.mediacorp.sg/image/upload/s--q-UVh2oa--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T083244Z_1_LYNXMPEM2R03I_RTROPTP_3_SOCCER-FRIENDLY-NLD-NOR.JPG?itok=wnxoOK3S",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774686764.0,
-      "hot": false
-    },
-    {
-      "id": "9bcfedeabb",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Trump says 'Cuba is next', denies losing MAGA support",
-      "summary": "Donald Trump also made a teasing comment dubbing the Strait of Hormuz the \"Strait of Trump\".",
-      "link": "https://www.channelnewsasia.com/world/trump-cuba-next-deny-lose-maga-support-us-6023036",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Hok7gCrI--/c_crop,h_900,w_1600,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/28/2026-03-27t220931z_1671263590_rc2adkap5hn9_rtrmadp_3_usa-trump.jpg?itok=OsCDlEtI",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774684980.0,
-      "hot": false
-    },
-    {
-      "id": "fd64f81a45",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Antonelli on pole in Japan as Mercedes lock out front row",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/antonelli-pole-in-japan-mercedes-lock-out-front-row-6023006",
-      "image": "https://dam.mediacorp.sg/image/upload/s--pP95Xgq5--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T071225Z_1_LYNXMPEM2R031_RTROPTP_3_MOTOR-F1-JAPAN.JPG?itok=dtKA7fYM",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774681945.0,
       "hot": false
     },
     {
@@ -272,27 +290,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774681740.0,
-      "hot": false
-    },
-    {
-      "id": "7f348e2f32",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Singapore authorities seize largest cargo of scales from over 2,200 Asian pangolins",
-      "summary": "The scales, transiting through Singapore, were disguised as dried fish skin.",
-      "link": "https://www.straitstimes.com/singapore/spore-authorities-seize-largest-cargo-of-scales-from-over-2200-asian-pangolins",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774671418.0,
       "hot": false
     }
   ]
