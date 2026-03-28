@@ -1,9 +1,154 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-28T10:02:54.845425+00:00",
-  "total": 23,
+  "updated_at": "2026-03-28T14:06:03.296018+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "ccac5306ab",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘No Kings’ Protests Across U.S. Cities: What We Know",
+      "summary": "Thousands of demonstrations against the Trump administration are scheduled to take place in cities and towns across the country on Saturday.",
+      "link": "https://www.nytimes.com/2026/03/27/us/no-kings-protests-cities.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/27nat-nokings-wtk-1b-qtcz/27nat-nokings-wtk-1b-qtcz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1分前",
+      "pub_ts": 1774706647.0,
+      "hot": false
+    },
+    {
+      "id": "11bc7a54a5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Opinion: White House 'gamifying' Iran war updates",
+      "summary": "The White House has depicted the war in Iran online with videos that weave real life images of missile strikes and destruction with clips from video games, sports clips, and action movies.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5752219/opinion-white-house-gamifying-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774699200.0,
+      "hot": false
+    },
+    {
+      "id": "2dc4c93e50",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "There's a massive measles vaccine campaign in Mexico. Is the public on board?",
+      "summary": "With tens of thousands of suspected cases, the government is aiming for 2.5 million jabs a week. The response has been encouraging — but also worrisome.",
+      "link": "https://www.npr.org/2026/03/28/g-s1-115502/measles-vaccines-mexico",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774696656.0,
+      "hot": false
+    },
+    {
+      "id": "511a20c085",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Crossing the line: Emotional abuse in college sports",
+      "summary": "Researchers have found that athletes experience emotional abuse more than any other form of harm. Some athletes maintain that this kind of abuse by coaches can cause lasting, even irreparable damage.",
+      "link": "https://www.npr.org/2026/03/28/g-s1-114976/crossing-the-line-emotional-abuse-in-college-sports-marta-marija-galic",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774692000.0,
+      "hot": false
+    },
+    {
+      "id": "a34b261836",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Rifts over Iran, but unity for Trump: Takeaways from CPAC 2026",
+      "summary": "Members of the MAGA faithful gathered in Texas for the annual Conservative Political Action Conference. While tensions over Iran split some attendees, Trump remained the glue holding them together.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5764275/cpac-2026",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774692000.0,
+      "hot": false
+    },
+    {
+      "id": "6f2a9846ef",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Stuck in a long TSA line? Here are some strategies if you need to rebook your flight",
+      "summary": "Extreme TSA lines at airports have left many passengers scrambling to rebook flights missed due to delays. But while airlines say they're helping flyers, they're not obligated to do so.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5762756/airport-lines-tsa-shutdown-delays-flights-rebooking",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774692000.0,
+      "hot": false
+    },
+    {
+      "id": "a46872cf5b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'What if I die first?' Making a plan is key for family caregivers. Here's how",
+      "summary": "People who care for an adult child, partner or sibling have to face the reality that their loved may outlive them. Planning ahead is key but it's not easy.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5764324/family-caregiver-future-planning-help",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774692000.0,
+      "hot": false
+    },
+    {
+      "id": "c7bb1a63b3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The iconic South African theater that took on apartheid",
+      "summary": "South Africa's iconic Market Theatre, born in the darkest days of apartheid and a force for change, is celebrating its 50th anniversary.",
+      "link": "https://www.npr.org/2026/03/28/nx-s1-5754014/south-africa-theater-apartheid-anniversary",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774692000.0,
+      "hot": false
+    },
     {
       "id": "ba983149e0",
       "type": "news",
@@ -11,14 +156,14 @@
       "source": "NPR News",
       "lang": "en",
       "title": "U.S. troops injured in attack on Saudi base as the war reaches one month",
-      "summary": "As the war in Iran reaches the one-month mark, a Iranian strike on a U.S. airbase in Saudi Arabia wounded several U.S. service members.",
+      "summary": "As the war in Iran reaches the one-month mark, a Iranian strike on an air base in Saudi Arabia wounded several U.S. service members. On Saturday the Israeli military intercepted a missile launched fro",
       "link": "https://www.npr.org/2026/03/28/nx-s1-5764720/iran-war-one-month",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "24分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774690700.0,
       "hot": false
     },
@@ -35,8 +180,8 @@
       "categories": [
         "天气"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1774688606.0,
       "hot": false
     },
@@ -53,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1774688534.0,
       "hot": false
     },
@@ -71,9 +216,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774688493.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774688494.0,
       "hot": false
     },
     {
@@ -89,64 +234,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774688484.0,
-      "hot": false
-    },
-    {
-      "id": "e31cc72dd7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Does the U.S. have a chance in the World Cup? 2 important games will provide clues",
-      "summary": "The U.S. has gone unbeaten in its past five international matches. But now the team is upping the ante with games against Belgium and Portugal that could show fans whether a deep run is in the cards.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5764272/world-cup-usmnt-us-soccer-belgium-portugal",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774688400.0,
-      "hot": false
-    },
-    {
-      "id": "7cbde04930",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump wants a deadlocked Congress to move on AI. Frustrated states say they already have",
-      "summary": "State lawmakers have been stepping in to regulate artificial intelligence, clashing with the federal government's inaction as concerns about oversight and safety grow.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5755062/trump-wants-a-deadlocked-congress-to-move-on-ai-frustrated-states-say-they-already-have",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774688400.0,
-      "hot": false
-    },
-    {
-      "id": "1168e4f554",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'No Kings' aims for record turnout in Saturday's anti-Trump protests",
-      "summary": "Organizers behind No Kings, a network of progressive groups, says protesters will stage demonstrations across the country and abroad to speak out against the Trump administration's actions.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5763702/no-kings-saturday-protests",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774688400.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1774688485.0,
       "hot": false
     },
     {
@@ -163,26 +253,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774670526.0,
-      "hot": false
-    },
-    {
-      "id": "5da100014f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iranian Strike on U.S. Base in Saudi Arabia Injures 12 American Troops, Officials Say",
-      "summary": "The combined missile and drone attack amounted to one of the most serious breaches of American air defenses in the course of the monthlong war with Iran.",
-      "link": "https://www.nytimes.com/2026/03/27/us/politics/strike-us-air-base-injuries.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/world/27israel-iran-americans-injured-saudi-base/27israel-iran-americans-injured-saudi-base-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774664922.0,
       "hot": false
     },
     {
@@ -199,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1774650615.0,
       "hot": false
     },
@@ -217,62 +289,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1774649765.0,
-      "hot": false
-    },
-    {
-      "id": "adcbb6bd4e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Man arrested in plot to firebomb Palestinian activist's home after undercover op",
-      "summary": "An official who was briefed on the investigation said Alexander Heifler, 26, identified as a member of the JDL 613 Brotherhood, which describes its membership as \"Jewish warriors\" fighting back agains",
-      "link": "https://www.npr.org/2026/03/27/g-s1-115549/new-york-gaza-firebomb-home-plot-activist",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1774649189.0,
-      "hot": false
-    },
-    {
-      "id": "b2f2cf2192",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Justice Department plans to share sensitive voter data with Homeland Security",
-      "summary": "The Justice Department has sought voter data from states. It now says it plans to share that data with the Department of Homeland Security, to run it through a controversial citizenship check tool.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5764266/voter-data-trump-doj-dhs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774648396.0,
-      "hot": false
-    },
-    {
-      "id": "5a37cbb577",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Tiger Woods arrested on suspicion of DUI, authorities say",
-      "summary": "Woods was arrested on suspicion of DUI after he struck another vehicle and rolled his Land Rover, not far from where he lives on Jupiter Island, Florida. The sheriff's office said he was not injured.",
-      "link": "https://www.npr.org/2026/03/27/g-s1-115540/tiger-woods-arrest-dui-suspicion-masters-golf",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774647476.0,
       "hot": false
     },
     {
@@ -289,26 +307,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1774644166.0,
-      "hot": false
-    },
-    {
-      "id": "513dd0f3a3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Defense Secretary Hegseth intervened to stop promotions of Black and female officers",
-      "summary": "Four Army officers were on track to become one-star generals, NPR confirms. Defense secretary Pete Hegseth's involvement in the promotion process is highly unusual.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5763863/hegseth-soldiers-promotions",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1774638379.0,
       "hot": false
     },
     {
@@ -325,7 +325,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1774628210.0,
       "hot": false
     },
@@ -342,8 +342,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774615876.0,
       "hot": false
     },
@@ -360,8 +360,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774611218.0,
       "hot": false
     },
@@ -381,24 +381,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1774604942.0,
-      "hot": false
-    },
-    {
-      "id": "423d27c6b8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Rubio meets with other G7 nations for first time since Iran war",
-      "summary": "Secretary of State Rubio meets his G7 colleagues in Paris for the first time since the start of the war on Iran.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5762023/rubio-meets-with-other-g7-nations-for-first-time-since-iran-war",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774600880.0,
       "hot": false
     },
     {
