@@ -1,9 +1,81 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-29T14:07:38.805100+00:00",
+  "updated_at": "2026-03-29T17:56:31.673391+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "44e999d917",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "There Are Now Over 50,000 American Troops in the Mideast",
+      "summary": "The arrival of 2,500 Marines and another 2,500 sailors is keeping the number of American troops in the region at roughly 10,000 more than usual.",
+      "link": "https://www.nytimes.com/2026/03/29/us/politics/us-marines-middle-east-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29DC-troops-bpmv/29DC-troops-bpmv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "6分前",
+      "pub_ts": 1774806579.0,
+      "hot": false
+    },
+    {
+      "id": "4870ce00bc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE May Remain at Airports Even After T.S.A. Pay Resumes, Border Czar Says",
+      "summary": "Transportation safety officers are set to be paid on Monday, but Tom Homan, the White House’s border czar, said ICE agents may stay where there are shortages.",
+      "link": "https://www.nytimes.com/2026/03/29/us/ice-tsa-airports-homan-trump-shutdown.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29dc-tsa-jchz/29dc-tsa-jchz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1774806239.0,
+      "hot": false
+    },
+    {
+      "id": "1e35f6638f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Deaths in ICE Custody Are Growing. ‘They Let Him Rot in There.’",
+      "summary": "As immigrant detainee deaths have increased, conditions in detention facilities nationwide are coming under more scrutiny.",
+      "link": "https://www.nytimes.com/2026/03/29/us/ice-detention-deaths-immigrants.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29nat-immig-detention-02-lvkb/29nat-immig-detention-02-lvkb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1774804857.0,
+      "hot": false
+    },
+    {
+      "id": "219cb150fb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "I Saw Something New in San Francisco",
+      "summary": "Marshall McLuhan was right about Claude, too.",
+      "link": "https://www.nytimes.com/2026/03/29/opinion/ai-claude-chatgpt-gemini-mcluhan.html",
+      "image": "https://static01.nyt.com/images/2026/03/28/opinion/28klein-vid-still/28klein-vid-still-mediumSquareAt3X.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774800308.0,
+      "hot": false
+    },
     {
       "id": "6e861907f5",
       "type": "news",
@@ -17,9 +89,45 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "5小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1774774891.0,
+      "hot": false
+    },
+    {
+      "id": "4dd2b0a14d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Inside La Paz, the California Mountain Compound Led by Cesar Chavez",
+      "summary": "In his remote headquarters, the United Farm Workers leader began to see himself as not just a union leader, but a visionary healer.",
+      "link": "https://www.nytimes.com/2026/03/29/us/cesar-chavez-la-paz.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00nat-chavez-lapaz-01-mqtw/00nat-chavez-lapaz-01-mqtw-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774795203.0,
+      "hot": false
+    },
+    {
+      "id": "56fee3907e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Your Chatbot Isn’t a Therapist",
+      "summary": "Patients are turning to A.I. chatbots for therapy — and the chatbots are fueling their worst impulses.",
+      "link": "https://www.nytimes.com/2026/03/29/opinion/chatbot-therapy-ai.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774794753.0,
       "hot": false
     },
     {
@@ -35,27 +143,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1774788505.0,
-      "hot": false
-    },
-    {
-      "id": "e533e6b55b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘No Kings’ Protests Decry Trump and His Agenda",
-      "summary": "Thousands of organized demonstrations stretched across the country. Minnesota was a focal point of the protests after a tumultuous immigration crackdown.",
-      "link": "https://www.nytimes.com/2026/03/28/us/no-kings-trump-iran-immigration-minnesota.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28NoKingsHP-zfqc/28NoKingsHP-zfqc-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "13小时前",
-      "pub_ts": 1774744843.0,
       "hot": false
     },
     {
@@ -71,44 +161,26 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774783800.0,
       "hot": false
     },
     {
-      "id": "fe27bb1520",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Record Number of T.S.A. Employees Called Out on Friday",
-      "summary": "President Trump signed a memo late Friday ordering the Department of Homeland Security to restore pay to airport screeners.",
-      "link": "https://www.nytimes.com/2026/03/28/us/tsa-employees-airports-wait-times.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28nat-tsa-callouts1-mgzv/28nat-tsa-callouts1-mgzv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774783601.0,
-      "hot": false
-    },
-    {
-      "id": "54e77cf5ef",
+      "id": "ed7948075d",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Pakistan hosts diplomatic discussions on ending war",
-      "summary": "Foreign ministers from Pakistan, Saudi Arabia, Turkey and Egypt will meet in Islamabad today in an attempt to come up with a plan to de-escalate the Iran war, after another group got involved in the e",
+      "title": "Iran warns U.S. against ground invasion, as Pakistan holds diplomatic talks",
+      "summary": "A high-ranking Iranian official has accused the U.S. of planning a ground invasion as part of the next stage in the Iran war, and said such an intervention would be met with force.",
       "link": "https://www.npr.org/2026/03/29/nx-s1-5765344/pakistan-diplomatic-discussions-iran-war",
       "image": null,
       "categories": [
-        "政治"
+        "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774778918.0,
       "hot": false
     },
@@ -125,63 +197,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774778400.0,
-      "hot": false
-    },
-    {
-      "id": "09c3a9f5a2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "No Kings Protests Held Across the U.S.: Photos and Videos",
-      "summary": "It’s the third time that the coalition behind the “No Kings” movement has organized events to protest President Trump and his policies. In the United States, more than 3,000 demonstrations were planne",
-      "link": "https://www.nytimes.com/2026/03/28/us/no-kings-protest-photos-videos.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28nat-nokings-visualstack-bjcp/28nat-nokings-visualstack-bjcp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774776967.0,
-      "hot": false
-    },
-    {
-      "id": "1e35f6638f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Deaths in ICE Custody Are Growing. ‘They Let Him Rot in There.’",
-      "summary": "As immigrant detainee deaths have increased, conditions in detention facilities nationwide are coming under more scrutiny.",
-      "link": "https://www.nytimes.com/2026/03/29/us/ice-detention-deaths-immigrants.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29nat-immig-detention-02-lvkb/29nat-immig-detention-02-lvkb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774774837.0,
-      "hot": false
-    },
-    {
-      "id": "331f28fb6d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Some critics of birthright citizenship say it's a fraud issue. What does that mean?",
-      "summary": "Advocates for ending birthright citizenship point to \"birth tourism\" schemes to argue that the legal principle is ripe for exploitation and threatens national security. Experts say it's not so simple.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5761340/birth-tourism-citizenship-supreme-court-case",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774774800.0,
       "hot": false
     },
     {
@@ -197,8 +215,26 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1774774800.0,
+      "hot": false
+    },
+    {
+      "id": "331f28fb6d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Some critics of birthright citizenship say it's a fraud issue. What does that mean?",
+      "summary": "Advocates for ending birthright citizenship point to \"birth tourism\" schemes to argue that the legal principle is ripe for exploitation and threatens national security. Experts say it's not so simple.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5761340/birth-tourism-citizenship-supreme-court-case",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774774800.0,
       "hot": false
     },
@@ -215,8 +251,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774772214.0,
       "hot": false
     },
@@ -234,26 +270,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1774735183.0,
-      "hot": false
-    },
-    {
-      "id": "fba9ab881d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "G.O.P. Rift Leaves Congress With No Clear Path to End the Shutdown",
-      "summary": "The deadlock that left the Department of Homeland Security shuttered highlighted Republican divisions that are flaring ahead of the midterm elections.",
-      "link": "https://www.nytimes.com/2026/03/28/us/gop-rift-leaves-no-clear-shutdown-off-ramp.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28dc-assess-hcwp/28dc-assess-hcwp-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774734039.0,
       "hot": false
     },
     {
@@ -270,26 +288,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774733611.0,
-      "hot": false
-    },
-    {
-      "id": "94b44c96e6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Yemen’s Houthis Fire at Israel and Vow Further Attacks",
-      "summary": "There has long been concern that the Houthis, an Iran-backed militia, could disrupt shipping in the Red Sea if they entered the broader war.",
-      "link": "https://www.nytimes.com/2026/03/28/world/middleeast/yemen-houthis-attack-israel-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28israel-iran-houthis-01-mfhj/28israel-iran-houthis-01-mfhj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "20小时前",
-      "pub_ts": 1774721189.0,
+      "pub_ts": 1774733611.0,
       "hot": false
     },
     {
@@ -378,7 +378,7 @@
         "本地"
       ],
       "score": 55,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1774628210.0,
       "hot": false
     },
