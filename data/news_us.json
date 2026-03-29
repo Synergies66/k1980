@@ -1,27 +1,9 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-29T05:57:03.555749+00:00",
-  "total": 24,
+  "updated_at": "2026-03-29T10:02:26.936157+00:00",
+  "total": 25,
   "articles": [
-    {
-      "id": "e533e6b55b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘No Kings’ Protests Decry Trump and His Agenda",
-      "summary": "Thousands of organized demonstrations stretched across the country. Minnesota was a focal point of the protests after a tumultuous immigration crackdown.",
-      "link": "https://www.nytimes.com/2026/03/28/us/no-kings-trump-iran-immigration-minnesota.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28NoKingsHP-zfqc/28NoKingsHP-zfqc-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 75,
-      "ago": "5小时前",
-      "pub_ts": 1774744843.0,
-      "hot": false
-    },
     {
       "id": "09c3a9f5a2",
       "type": "news",
@@ -36,8 +18,44 @@
         "本地"
       ],
       "score": 70,
-      "ago": "38分前",
-      "pub_ts": 1774761515.0,
+      "ago": "26分前",
+      "pub_ts": 1774776967.0,
+      "hot": false
+    },
+    {
+      "id": "331f28fb6d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Some critics of birthright citizenship say it's a fraud issue. What does that mean?",
+      "summary": "Advocates for ending birthright citizenship point to \"birth tourism\" schemes to argue that the legal principle is ripe for exploitation and threatens national security. Experts say it's not so simple.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5761340/birth-tourism-citizenship-supreme-court-case",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774774800.0,
+      "hot": false
+    },
+    {
+      "id": "1bd5780502",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "He wants children's bikes made in the U.S.A. — and tariffs against his rivals",
+      "summary": "Nearly all the bicycles sold in the United States are made overseas. An Indiana company set out to change that — and it's seeking a push from the Trump administration's tariffs.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5746807/trump-bike-children-competition-tariffs-opposition",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774774800.0,
       "hot": false
     },
     {
@@ -55,7 +73,25 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1774756867.0,
+      "pub_ts": 1774772214.0,
+      "hot": false
+    },
+    {
+      "id": "e533e6b55b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘No Kings’ Protests Decry Trump and His Agenda",
+      "summary": "Thousands of organized demonstrations stretched across the country. Minnesota was a focal point of the protests after a tumultuous immigration crackdown.",
+      "link": "https://www.nytimes.com/2026/03/28/us/no-kings-trump-iran-immigration-minnesota.html",
+      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28NoKingsHP-zfqc/28NoKingsHP-zfqc-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "9小时前",
+      "pub_ts": 1774744843.0,
       "hot": false
     },
     {
@@ -71,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774754975.0,
       "hot": false
     },
@@ -89,8 +125,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774749495.0,
       "hot": false
     },
@@ -108,7 +144,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1774735183.0,
       "hot": false
     },
@@ -126,7 +162,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1774734039.0,
       "hot": false
     },
@@ -144,7 +180,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1774733611.0,
       "hot": false
     },
@@ -162,7 +198,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1774728936.0,
       "hot": false
     },
@@ -180,7 +216,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1774721189.0,
       "hot": false
     },
@@ -198,7 +234,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "22小时前",
       "pub_ts": 1774699200.0,
       "hot": false
     },
@@ -216,7 +252,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774698054.0,
       "hot": false
     },
@@ -235,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774696656.0,
       "hot": false
     },
@@ -252,8 +288,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774692000.0,
       "hot": false
     },
@@ -270,26 +306,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1774692000.0,
-      "hot": false
-    },
-    {
-      "id": "a46872cf5b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'What if I die first?' Making a plan is key for family caregivers. Here's how",
-      "summary": "People who care for an adult child, partner or sibling have to face the reality that their loved may outlive them. Planning ahead is key but it's not easy.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5764324/family-caregiver-future-planning-help",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774692000.0,
       "hot": false
     },
@@ -297,7 +315,7 @@
       "id": "c7bb1a63b3",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The iconic South African theater that took on apartheid",
       "summary": "South Africa's iconic Market Theatre, born in the darkest days of apartheid and a force for change, is celebrating its 50th anniversary.",
@@ -306,8 +324,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774692000.0,
       "hot": false
     },
@@ -324,8 +342,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774690700.0,
       "hot": false
     },
@@ -415,7 +433,7 @@
         "科技"
       ],
       "score": 55,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1774604942.0,
       "hot": false
     },
