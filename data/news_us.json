@@ -1,16 +1,34 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-29T17:56:31.673391+00:00",
-  "total": 23,
+  "updated_at": "2026-03-29T21:52:13.439622+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "44e999d917",
+      "id": "148a0a5196",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "There Are Now Over 50,000 American Troops in the Mideast",
+      "title": "U.S. to Allow Russian Oil Tanker to Reach Cuba, Breaking Blockade",
+      "summary": "The tanker full of crude oil could reach its expected destination by Tuesday, providing a lifeline to the island amid intense U.S. pressure.",
+      "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1774820357.0,
+      "hot": true
+    },
+    {
+      "id": "7fc10a1e19",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The U.S. Now Has Over 50,000 Troops in the Middle East",
       "summary": "The arrival of 2,500 Marines and another 2,500 sailors is keeping the number of American troops in the region at roughly 10,000 more than usual.",
       "link": "https://www.nytimes.com/2026/03/29/us/politics/us-marines-middle-east-iran-war.html",
       "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29DC-troops-bpmv/29DC-troops-bpmv-mediumSquareAt3X.jpg",
@@ -18,62 +36,26 @@
         "科技"
       ],
       "score": 70,
-      "ago": "6分前",
-      "pub_ts": 1774806579.0,
+      "ago": "27分前",
+      "pub_ts": 1774819466.0,
       "hot": false
     },
     {
-      "id": "4870ce00bc",
+      "id": "3273482a18",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "ICE May Remain at Airports Even After T.S.A. Pay Resumes, Border Czar Says",
-      "summary": "Transportation safety officers are set to be paid on Monday, but Tom Homan, the White House’s border czar, said ICE agents may stay where there are shortages.",
-      "link": "https://www.nytimes.com/2026/03/29/us/ice-tsa-airports-homan-trump-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29dc-tsa-jchz/29dc-tsa-jchz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1774806239.0,
-      "hot": false
-    },
-    {
-      "id": "1e35f6638f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Deaths in ICE Custody Are Growing. ‘They Let Him Rot in There.’",
-      "summary": "As immigrant detainee deaths have increased, conditions in detention facilities nationwide are coming under more scrutiny.",
-      "link": "https://www.nytimes.com/2026/03/29/us/ice-detention-deaths-immigrants.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29nat-immig-detention-02-lvkb/29nat-immig-detention-02-lvkb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "35分前",
-      "pub_ts": 1774804857.0,
-      "hot": false
-    },
-    {
-      "id": "219cb150fb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "I Saw Something New in San Francisco",
-      "summary": "Marshall McLuhan was right about Claude, too.",
-      "link": "https://www.nytimes.com/2026/03/29/opinion/ai-claude-chatgpt-gemini-mcluhan.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/opinion/28klein-vid-still/28klein-vid-still-mediumSquareAt3X.png",
+      "title": "The rippling effect of the Iran war, seen from the border with Turkey",
+      "summary": "U.S. marines have arrived in the Middle East. NPR's Emily Feng has been monitoring the latest developments from the border of Iran and Turkey.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5763014/the-rippling-effect-of-the-iran-war-seen-from-the-border-with-turkey",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774800308.0,
+      "ago": "31分前",
+      "pub_ts": 1774819262.0,
       "hot": false
     },
     {
@@ -90,8 +72,44 @@
         "移民"
       ],
       "score": 70,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1774774891.0,
+      "hot": false
+    },
+    {
+      "id": "4d7a97899f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "New Political Group to Push Trump’s A.I. Agenda in Midterms",
+      "summary": "The group, Innovation Council Action, says it plans to spend at least $100 million. It will be led by a former administration official.",
+      "link": "https://www.nytimes.com/2026/03/29/business/trump-artificial-intelligence-pac-midterms.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29biz-ai-pac3-gpft/29biz-ai-pac3-gpft-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774810935.0,
+      "hot": false
+    },
+    {
+      "id": "4870ce00bc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "ICE May Remain at Airports Even After T.S.A. Pay Resumes, Border Czar Says",
+      "summary": "Transportation safety officers are set to be paid on Monday, but Tom Homan, the White House’s border czar, said ICE agents may stay where there are shortages.",
+      "link": "https://www.nytimes.com/2026/03/29/us/ice-tsa-airports-homan-trump-shutdown.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29dc-tsa-jchz/29dc-tsa-jchz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774806240.0,
       "hot": false
     },
     {
@@ -103,31 +121,13 @@
       "title": "Inside La Paz, the California Mountain Compound Led by Cesar Chavez",
       "summary": "In his remote headquarters, the United Farm Workers leader began to see himself as not just a union leader, but a visionary healer.",
       "link": "https://www.nytimes.com/2026/03/29/us/cesar-chavez-la-paz.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00nat-chavez-lapaz-01-mqtw/00nat-chavez-lapaz-01-mqtw-mediumSquareAt3X-v2.jpg",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00nat-chavez-lapaz-01-mqtw/00nat-chavez-lapaz-01-mqtw-mediumSquareAt3X-v3.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774795203.0,
-      "hot": false
-    },
-    {
-      "id": "56fee3907e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Your Chatbot Isn’t a Therapist",
-      "summary": "Patients are turning to A.I. chatbots for therapy — and the chatbots are fueling their worst impulses.",
-      "link": "https://www.nytimes.com/2026/03/29/opinion/chatbot-therapy-ai.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774794753.0,
       "hot": false
     },
     {
@@ -143,8 +143,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774788505.0,
       "hot": false
     },
@@ -162,7 +162,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774783800.0,
       "hot": false
     },
@@ -180,7 +180,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1774778918.0,
       "hot": false
     },
@@ -198,7 +198,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1774778400.0,
       "hot": false
     },
@@ -216,7 +216,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1774774800.0,
       "hot": false
     },
@@ -234,26 +234,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1774774800.0,
-      "hot": false
-    },
-    {
-      "id": "2c350350cb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Toothless Iran? Missile and Drone Strikes Show It Can Still Inflict Pain.",
-      "summary": "A wave of strikes across the Middle East in recent days shows that Iran has not lost the capacity to retaliate.",
-      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/iran-missiles-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29int-iran-retaliation-sub-top-clqp/29int-iran-retaliation-sub-top-clqp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774772214.0,
       "hot": false
     },
     {
@@ -270,7 +252,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1774735183.0,
       "hot": false
     },
@@ -287,9 +269,27 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774733611.0,
+      "hot": false
+    },
+    {
+      "id": "2dc5a6e83b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Castro Heirs Emerge Across Cuba’s Political Scene Amid Energy Crisis and Trump Threats",
+      "summary": "As Trump officials demand changes, Castro family members are suddenly popping up across Cuba’s political scene. Some even ask: Could one be the “Cuban Delcy?”",
+      "link": "https://www.nytimes.com/2026/03/28/world/americas/castro-family-cuba-energy-crisis-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28int-cuba-castros-hjpw/28int-cuba-castros-hjpw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1774729264.0,
       "hot": false
     },
     {
@@ -360,7 +360,7 @@
         "经济"
       ],
       "score": 55,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1774644166.0,
       "hot": false
     },
@@ -380,24 +380,6 @@
       "score": 55,
       "ago": "2天前",
       "pub_ts": 1774628210.0,
-      "hot": false
-    },
-    {
-      "id": "4023007219",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Americans seek redemption at figure skating worlds, just weeks after the Olympics",
-      "summary": "Figure Skating World Championships in Prague end on Saturday. Americans Amber Glenn and Ilia Malinin are within medals' reach after disappointing finishes at last month's Olympics.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5761994/figure-skating-world-championships-malinin-glenn",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1774615876.0,
       "hot": false
     },
     {
