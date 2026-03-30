@@ -1,14 +1,252 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-30T06:26:39.958896+00:00",
-  "total": 21,
+  "updated_at": "2026-03-30T11:42:10.571094+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "78093de5d9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "China's chatbot industry is fiercely competing for customers. Cue the freebies",
+      "summary": "Chinese AI companies are focused less on being cutting edge and more on attracting customers. That means holiday promotions, and making chatbots useful in everyday life.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5760939/china-chatbot-industry-doubao-qwen-yuanbao",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1774861200.0,
+      "hot": false
+    },
+    {
+      "id": "29c0bd4977",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a SCOTUS decision on birthright citizenship could impact education access",
+      "summary": "All children, regardless of immigration status, have the right to a free K-12 public education. But without birthright citizenship, access to schools and colleges could get complicated.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5735897/supreme-court-decision-education-birthright-citizenship-school-college",
+      "image": null,
+      "categories": [
+        "移民",
+        "教育"
+      ],
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1774861200.0,
+      "hot": false
+    },
+    {
+      "id": "4dd2d4ed0c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "TSA workers may receive pay soon. And, Israel plans to expand its invasion of Lebanon",
+      "summary": "TSA workers have now been without pay for more than 40 days, as Trump says he has a plan to pay them. And, Israeli Prime Minister Benjamin Netanyahu announces plans to expand the invasion of Lebanon.",
+      "link": "https://www.npr.org/2026/03/30/g-s1-115720/up-first-newsletter-israel-lebanon-strait-of-hormuz-tsa-dhs-birthright-citizenship",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1774870042.0,
+      "hot": false
+    },
+    {
+      "id": "e6ec176174",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump weighing all options on Iran's Kharg Island",
+      "summary": "The president said the U.S. could \"take the oil in Iran\" and that he was considering sending U.S. forces to seize Kharg Island's oil terminal.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5765967/trump-iran-israel-lebanon-kharg-island-oil",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774865102.0,
+      "hot": false
+    },
+    {
+      "id": "e1e5ccc3a8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "War Pushes Gas Prices Near $4 a Gallon, and Anti-Trump Protesters Rally Nationwide",
+      "summary": "Plus, a surge of Catholic converts in the United States.",
+      "link": "https://www.nytimes.com/2026/03/30/podcasts/the-headlines/iran-war-gas-prices-anti-trump-protest.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30headlines-0e-bmzf/30headlines-0e-bmzf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774864816.0,
+      "hot": false
+    },
+    {
+      "id": "617f0643bc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Philanthropy in science has little oversight. Jeffrey Epstein exploited that",
+      "summary": "A large share of science funding comes through philanthropy, with little legal or public scrutiny. This lack of oversight allowed Jeffrey Epstein to cultivate scientists and launder his reputation.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5753946/science-jeffrey-epstein-mit-exploit-donors-philanthropy",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774864800.0,
+      "hot": false
+    },
+    {
+      "id": "ffd8bb62fc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump administration cuts turned rural towns into sitting ducks for disasters",
+      "summary": "The Trump administration has delayed billions of dollars for projects to protect Americans from floods, wildfires and hurricanes. Local leaders are increasingly anxious.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5753765/fema-trump-extreme-weather-rural-pennsylvania",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861680.0,
+      "hot": false
+    },
+    {
+      "id": "3472696f17",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About the T.S.A. and ICE Presence at Airports",
+      "summary": "Transportation Security Agency officers have called out of work or quit after weeks of not getting paid during a partial government shutdown. ICE agents have begun to fill their roles.",
+      "link": "https://www.nytimes.com/2026/03/30/us/what-we-know-tsa-ice-airports.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-tsa-ice-wwk-tvzl/30nat-tsa-ice-wwk-tvzl-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861449.0,
+      "hot": false
+    },
+    {
+      "id": "c0af76a4dc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A New Boss Takes Over Homeland Security With Less Flash but Same Mission",
+      "summary": "Markwayne Mullin, the incoming D.H.S. secretary, faces a difficult balance: a public reset of the agency while delivering on President Trump’s deportation agenda.",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/markwayne-mullin-new-era-homeland-security.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/00dc-mullin-thwp/00dc-mullin-thwp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861443.0,
+      "hot": false
+    },
+    {
+      "id": "0bc1eab1eb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Private-Credit Wobbles Could Prove Perilous for Trump",
+      "summary": "The Trump administration is poised to broaden access to risky investments that are showing signs of strain.",
+      "link": "https://www.nytimes.com/2026/03/30/business/private-credit-risks-trump-administration.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-privateinvestors-bwql/30dc-privateinvestors-bwql-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861422.0,
+      "hot": false
+    },
+    {
+      "id": "e87849ffe4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Texas Border Wall Plan in Big Bend Draws Opposition From Republicans and Democrats",
+      "summary": "Plans for a wall in Big Bend National Park prompted public protests and behind-the-scenes lobbying to sway the Trump administration to stop.",
+      "link": "https://www.nytimes.com/2026/03/30/us/a-border-wall-plan-unites-republicans-and-democrats-in-texas-this-is-insane.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-big-bend-promo-qzpg/30nat-big-bend-promo-qzpg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861343.0,
+      "hot": false
+    },
+    {
+      "id": "fcad8d538f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How much protein do you need? Here's how to personalize your optimal intake",
+      "summary": "The Dietary Guidelines released this year recommend higher levels of this essential nutrient. But protein needs are personal. Here's how to assess yours.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5750384/protein-intake-grams-food-how-much",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861200.0,
+      "hot": false
+    },
+    {
+      "id": "8d46ac4a0e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As birthright citizenship goes to Supreme Court, here's how Americans feel about it",
+      "summary": "The Supreme Court will hear arguments Wednesday on whether all children born in the United States can continue to automatically receive citizenship.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5760983/birthright-citizenship-public-opinion-supreme-court-arguments",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774861200.0,
+      "hot": false
+    },
     {
       "id": "2cbecdee80",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump says he has 'no problem' with Russian oil tanker bringing relief to Cuba despite blockade",
       "summary": "President Donald Trump said he has \"no problem\" with a Russian oil tanker off the coast of Cuba delivering relief to the island, which has been brought to its knees by a U.S. oil blockade.",
@@ -17,8 +255,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "49分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774849041.0,
       "hot": false
     },
@@ -26,7 +264,7 @@
       "id": "53c7262b45",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Central Haitian town descends into fire and bloodshed from gang warfare",
       "summary": "Violence erupted in the central Haitian town of Petite-Rivière de l'Artibonite early Sunday morning as a powerful gang warred with a vigilante group.",
@@ -35,46 +273,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1774848404.0,
-      "hot": false
-    },
-    {
-      "id": "df08d36a10",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Iran Agreed to Allow 20 More Ships of Oil Through Strait of Hormuz",
-      "summary": "The president, speaking to reporters on Air Force One, cast the permission as a “sign of respect.” He also asserted that the United States had already achieved “regime change” in Iran.",
-      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/trump-iran-hormuz-ships-oil.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30-iran-war-trump-israel-oil-header-jvtb/30-iran-war-trump-israel-oil-header-jvtb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774847345.0,
-      "hot": false
-    },
-    {
-      "id": "40084f09b5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "ICE officers could remain at airports after TSA workers are paid",
-      "summary": "Even when Transportation Security Administration workers get paid, Immigration and Customs Enforcement agents could still be present at U.S. airports.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5765454/tsa-paychecks-ice-airports-tom-homan",
-      "image": null,
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 70,
+      "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1774828817.0,
+      "pub_ts": 1774848404.0,
       "hot": false
     },
     {
@@ -90,8 +291,8 @@
       "categories": [
         "教育"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774842155.0,
       "hot": false
     },
@@ -108,81 +309,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774840252.0,
-      "hot": false
-    },
-    {
-      "id": "9bb21870bf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Final Four is set with UConn stunning Duke to join Illinois, Arizona and Michigan",
-      "summary": "The Huskies beat Duke with a 3-pointer from the logo with 0.4 seconds left by Braylon Mullins, who grew up just outside of Indianapolis.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5765506/final-four-ncaa-2026",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774829500.0,
-      "hot": false
-    },
-    {
-      "id": "d6a456037f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How young people are navigating a tough and rapidly changing job market",
-      "summary": "Finding a job is hard right now, especially for young people starting their careers. NPR's Adrian Ma spoke with college students and an economist about navigating today's tough job market.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5762975/competing-in-tough-job-market-college-grads-are-asking-is-there-anybody-out-there",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774819422.0,
-      "hot": false
-    },
-    {
-      "id": "41fdd4215d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Understanding why some Iranian Americans support the war on their country of origin",
-      "summary": "Protesters from the Iranian diaspora in the U.S. gathered in Washington, D.C. as the war in the Middle East broadens. Many say they are aligned with the U.S. and Israel and explain why they want to se",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5764880/understanding-the-politics-of-the-iranian-diaspora",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774819420.0,
-      "hot": false
-    },
-    {
-      "id": "ed6bac7743",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "For NASA’s Artemis II Crew, Journey to the Moon ‘Starting to Feel Real’",
-      "summary": "The four astronauts — three Americans and one Canadian — spoke from a prelaunch quarantine ahead of their scheduled Wednesday mission.",
-      "link": "https://www.nytimes.com/2026/03/29/science/nasa-astronauts-artemis-moon-launch.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29HS-moon-daily1-lmbf/29HS-moon-daily1-lmbf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774819292.0,
       "hot": false
     },
     {
@@ -199,7 +328,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1774819262.0,
       "hot": false
     },
@@ -217,33 +346,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1774810936.0,
-      "hot": false
-    },
-    {
-      "id": "90b70bc554",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "ICE May Remain at Airports Even After T.S.A. Pay Resumes, Border Czar Says",
-      "summary": "Transportation safety officers are set to be paid on Monday, but Tom Homan, the White House’s border czar, said ICE agents may stay where there are shortages.",
-      "link": "https://www.nytimes.com/2026/03/29/us/politics/ice-tsa-airports-homan-trump-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29dc-tsa-jchz/29dc-tsa-jchz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774806240.0,
       "hot": false
     },
     {
       "id": "cdacd4743b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Pope Leo XIV rejects claims that God justifies war in Palm Sunday Mass message",
       "summary": "Pope Leo XIV rejected claims that God justifies war and prayed especially for Christians in the Middle East during a Palm Sunday Mass before tens of thousands of people in St. Peter's Square.",
@@ -253,26 +364,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "22小时前",
       "pub_ts": 1774788505.0,
-      "hot": false
-    },
-    {
-      "id": "4b407c080a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How to navigate the maze of drug discounts to get the best price",
-      "summary": "In February, TrumpRx joined a growing list of websites consumers can tap for discounts on their medicines. Here's a cheat sheet for getting the best deal.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5724143/prescription-drug-shopping-deals",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774783800.0,
       "hot": false
     },
     {
@@ -288,8 +381,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774778918.0,
       "hot": false
     },
@@ -309,60 +402,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1774733611.0,
-      "hot": false
-    },
-    {
-      "id": "2dc5a6e83b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Castro Heirs Emerge Across Cuba’s Political Scene Amid Energy Crisis and Trump Threats",
-      "summary": "As Trump officials demand changes, Castro family members are suddenly popping up across Cuba’s political scene. Some even ask: Could one be the “Cuban Delcy?”",
-      "link": "https://www.nytimes.com/2026/03/28/world/americas/castro-family-cuba-energy-crisis-trump.html",
-      "image": "https://static01.nyt.com/images/2026/03/28/multimedia/28int-cuba-castros-hjpw/28int-cuba-castros-hjpw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774729264.0,
-      "hot": false
-    },
-    {
-      "id": "c7bb1a63b3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The iconic South African theater that took on apartheid",
-      "summary": "South Africa's iconic Market Theatre, born in the darkest days of apartheid and a force for change, is celebrating its 50th anniversary.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5754014/south-africa-theater-apartheid-anniversary",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774692000.0,
-      "hot": false
-    },
-    {
-      "id": "0d052c74c2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Over a dozen U.S. soldiers injured in attack on Saudi base as Iran-backed Houthis enter war",
-      "summary": "An Iranian strike on an air base in Saudi Arabia wounded at least 15 U.S. service members. Israel also said it intercepted a missile launched from Iran-backed Houthi rebels in Yemen.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5764720/iran-war-one-month",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774690700.0,
       "hot": false
     },
     {
