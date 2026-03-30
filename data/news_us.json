@@ -1,43 +1,188 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-29T21:52:13.439622+00:00",
-  "total": 22,
+  "updated_at": "2026-03-30T06:26:39.958896+00:00",
+  "total": 21,
   "articles": [
     {
-      "id": "148a0a5196",
+      "id": "2cbecdee80",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says he has 'no problem' with Russian oil tanker bringing relief to Cuba despite blockade",
+      "summary": "President Donald Trump said he has \"no problem\" with a Russian oil tanker off the coast of Cuba delivering relief to the island, which has been brought to its knees by a U.S. oil blockade.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5765971/trump-allows-russia-oil-tanker-relief-cuba-blockade",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1774849041.0,
+      "hot": false
+    },
+    {
+      "id": "53c7262b45",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Central Haitian town descends into fire and bloodshed from gang warfare",
+      "summary": "Violence erupted in the central Haitian town of Petite-Rivière de l'Artibonite early Sunday morning as a powerful gang warred with a vigilante group.",
+      "link": "https://www.npr.org/2026/03/30/g-s1-115707/central-haitian-town-gang-warfare",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1774848404.0,
+      "hot": false
+    },
+    {
+      "id": "df08d36a10",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "U.S. to Allow Russian Oil Tanker to Reach Cuba, Breaking Blockade",
-      "summary": "The tanker full of crude oil could reach its expected destination by Tuesday, providing a lifeline to the island amid intense U.S. pressure.",
+      "title": "Trump Says Iran Agreed to Allow 20 More Ships of Oil Through Strait of Hormuz",
+      "summary": "The president, speaking to reporters on Air Force One, cast the permission as a “sign of respect.” He also asserted that the United States had already achieved “regime change” in Iran.",
+      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/trump-iran-hormuz-ships-oil.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30-iran-war-trump-israel-oil-header-jvtb/30-iran-war-trump-israel-oil-header-jvtb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774847345.0,
+      "hot": false
+    },
+    {
+      "id": "40084f09b5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "ICE officers could remain at airports after TSA workers are paid",
+      "summary": "Even when Transportation Security Administration workers get paid, Immigration and Customs Enforcement agents could still be present at U.S. airports.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5765454/tsa-paychecks-ice-airports-tom-homan",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "6小时前",
+      "pub_ts": 1774828817.0,
+      "hot": false
+    },
+    {
+      "id": "4e2936e051",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "New U.S. Missile Hit Iranian Sports Hall and School, Analysis Shows",
+      "summary": "The Pentagon used missiles untested in combat in a deadly attack that struck civilian sites near a military compound on Feb. 28, according to visual evidence examined by The Times and weapons experts.",
+      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/us-precision-strike-missile-iran-lamerd.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/2026-03-28-sports-hall-sat-index/2026-03-28-sports-hall-sat-index-mediumSquareAt3X-v8.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774842155.0,
+      "hot": false
+    },
+    {
+      "id": "4f7c0c088d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Allows Russian Oil Tanker to Reach Cuba, Despite Blockade",
+      "summary": "The tanker full of crude oil could reach its expected destination by Monday, providing a lifeline to the island amid intense U.S. pressure.",
       "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
       "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1774820357.0,
-      "hot": true
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774840252.0,
+      "hot": false
     },
     {
-      "id": "7fc10a1e19",
+      "id": "9bb21870bf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Final Four is set with UConn stunning Duke to join Illinois, Arizona and Michigan",
+      "summary": "The Huskies beat Duke with a 3-pointer from the logo with 0.4 seconds left by Braylon Mullins, who grew up just outside of Indianapolis.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5765506/final-four-ncaa-2026",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774829500.0,
+      "hot": false
+    },
+    {
+      "id": "d6a456037f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How young people are navigating a tough and rapidly changing job market",
+      "summary": "Finding a job is hard right now, especially for young people starting their careers. NPR's Adrian Ma spoke with college students and an economist about navigating today's tough job market.",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5762975/competing-in-tough-job-market-college-grads-are-asking-is-there-anybody-out-there",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774819422.0,
+      "hot": false
+    },
+    {
+      "id": "41fdd4215d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Understanding why some Iranian Americans support the war on their country of origin",
+      "summary": "Protesters from the Iranian diaspora in the U.S. gathered in Washington, D.C. as the war in the Middle East broadens. Many say they are aligned with the U.S. and Israel and explain why they want to se",
+      "link": "https://www.npr.org/2026/03/29/nx-s1-5764880/understanding-the-politics-of-the-iranian-diaspora",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774819420.0,
+      "hot": false
+    },
+    {
+      "id": "ed6bac7743",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The U.S. Now Has Over 50,000 Troops in the Middle East",
-      "summary": "The arrival of 2,500 Marines and another 2,500 sailors is keeping the number of American troops in the region at roughly 10,000 more than usual.",
-      "link": "https://www.nytimes.com/2026/03/29/us/politics/us-marines-middle-east-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29DC-troops-bpmv/29DC-troops-bpmv-mediumSquareAt3X.jpg",
+      "title": "For NASA’s Artemis II Crew, Journey to the Moon ‘Starting to Feel Real’",
+      "summary": "The four astronauts — three Americans and one Canadian — spoke from a prelaunch quarantine ahead of their scheduled Wednesday mission.",
+      "link": "https://www.nytimes.com/2026/03/29/science/nasa-astronauts-artemis-moon-launch.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29HS-moon-daily1-lmbf/29HS-moon-daily1-lmbf-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1774819466.0,
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774819292.0,
       "hot": false
     },
     {
@@ -53,27 +198,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "31分前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774819262.0,
-      "hot": false
-    },
-    {
-      "id": "6e861907f5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "5 Takeaways From the ‘No Kings’ Rallies as the Midterms Heat Up",
-      "summary": "The war in Iran was a galvanizing force, but plenty of protesters focused on President Trump’s immigration crackdown. Senate candidates in several key races joined the crowds.",
-      "link": "https://www.nytimes.com/2026/03/29/us/politics/no-kings-rallies-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29NAT-PROTEST-INSIDE-PRINT-01-wqpk/29NAT-PROTEST-INSIDE-PRINT-01-wqpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "12小时前",
-      "pub_ts": 1774774891.0,
       "hot": false
     },
     {
@@ -89,45 +216,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774810935.0,
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1774810936.0,
       "hot": false
     },
     {
-      "id": "4870ce00bc",
+      "id": "90b70bc554",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
       "title": "ICE May Remain at Airports Even After T.S.A. Pay Resumes, Border Czar Says",
       "summary": "Transportation safety officers are set to be paid on Monday, but Tom Homan, the White House’s border czar, said ICE agents may stay where there are shortages.",
-      "link": "https://www.nytimes.com/2026/03/29/us/ice-tsa-airports-homan-trump-shutdown.html",
+      "link": "https://www.nytimes.com/2026/03/29/us/politics/ice-tsa-airports-homan-trump-shutdown.html",
       "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29dc-tsa-jchz/29dc-tsa-jchz-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774806240.0,
-      "hot": false
-    },
-    {
-      "id": "4dd2b0a14d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Inside La Paz, the California Mountain Compound Led by Cesar Chavez",
-      "summary": "In his remote headquarters, the United Farm Workers leader began to see himself as not just a union leader, but a visionary healer.",
-      "link": "https://www.nytimes.com/2026/03/29/us/cesar-chavez-la-paz.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00nat-chavez-lapaz-01-mqtw/00nat-chavez-lapaz-01-mqtw-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774795203.0,
+      "ago": "12小时前",
+      "pub_ts": 1774806240.0,
       "hot": false
     },
     {
@@ -144,7 +253,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1774788505.0,
       "hot": false
     },
@@ -162,7 +271,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1774783800.0,
       "hot": false
     },
@@ -170,7 +279,7 @@
       "id": "ed7948075d",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iran warns U.S. against ground invasion, as Pakistan holds diplomatic talks",
       "summary": "A high-ranking Iranian official has accused the U.S. of planning a ground invasion as part of the next stage in the Iran war, and said such an intervention would be met with force.",
@@ -180,80 +289,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "20小时前",
       "pub_ts": 1774778918.0,
-      "hot": false
-    },
-    {
-      "id": "02f2835584",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Why a 98-year-old federal judge is asking the Supreme Court for her job back",
-      "summary": "Pauline Newman's story shines a light on the aging judiciary, where judges are getting older and lifetime tenure is raising thorny questions about retirement.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5752172/oldest-federal-judge-us-supreme-court",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1774778400.0,
-      "hot": false
-    },
-    {
-      "id": "1bd5780502",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "He wants children's bikes made in the U.S.A. — and tariffs against his rivals",
-      "summary": "Nearly all the bicycles sold in the United States are made overseas. An Indiana company set out to change that — and it's seeking a push from the Trump administration's tariffs.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5746807/trump-bike-children-competition-tariffs-opposition",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774774800.0,
-      "hot": false
-    },
-    {
-      "id": "331f28fb6d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Some critics of birthright citizenship say it's a fraud issue. What does that mean?",
-      "summary": "Advocates for ending birthright citizenship point to \"birth tourism\" schemes to argue that the legal principle is ripe for exploitation and threatens national security. Experts say it's not so simple.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5761340/birth-tourism-citizenship-supreme-court-case",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1774774800.0,
-      "hot": false
-    },
-    {
-      "id": "4699a8beb4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Photos: 'No Kings' protests across the country",
-      "summary": "People showed up for rallies in more than 3,000 communities from coast to coast on Saturday, to vent their frustration and decry the policies of the Trump administration.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/03/28/g-s1-115637/photos-no-kings-protests-across-the-country",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1774735183.0,
       "hot": false
     },
     {
@@ -293,24 +330,6 @@
       "hot": false
     },
     {
-      "id": "11bc7a54a5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Opinion: White House 'gamifying' Iran war updates",
-      "summary": "The White House has depicted the war in Iran online with videos that weave real life images of missile strikes and destruction with clips from video games, sports clips, and action movies.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5752219/opinion-white-house-gamifying-iran-war",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774699200.0,
-      "hot": false
-    },
-    {
       "id": "c7bb1a63b3",
       "type": "news",
       "region": "us",
@@ -344,42 +363,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1774690700.0,
-      "hot": false
-    },
-    {
-      "id": "9d0ddf5e28",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Cuban Americans face scrutiny for sending goods back to the island",
-      "summary": "Cuban Americans who ship goods to relatives on the island are now seen as propping up Cuba's communist regime as the economy there continues to deteriorate.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5759391-e1/cuban-americans-face-scrutiny-for-sending-goods-back-to-the-island",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1774644166.0,
-      "hot": false
-    },
-    {
-      "id": "9f5e06fcd5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "How long will the war last? No one knows, and it's making oil prices weird",
-      "summary": "It's like the \"Schrödinger's cat\" thought experiment. There are two very different potential realities, and traders don't yet know which one is true.",
-      "link": "https://www.npr.org/2026/03/27/nx-s1-5757946/oil-iran-war-markets-uncertainty",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1774628210.0,
       "hot": false
     },
     {
