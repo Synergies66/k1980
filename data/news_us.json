@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-30T11:42:10.571094+00:00",
+  "updated_at": "2026-03-30T16:16:05.089674+00:00",
   "total": 23,
   "articles": [
     {
@@ -18,155 +18,99 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "2小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1774861200.0,
       "hot": false
     },
     {
-      "id": "29c0bd4977",
+      "id": "e87849ffe4",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "How a SCOTUS decision on birthright citizenship could impact education access",
-      "summary": "All children, regardless of immigration status, have the right to a free K-12 public education. But without birthright citizenship, access to schools and colleges could get complicated.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5735897/supreme-court-decision-education-birthright-citizenship-school-college",
-      "image": null,
+      "title": "Texas Border Wall Plan in Big Bend Draws Opposition From Republicans and Democrats",
+      "summary": "Plans for a wall in Big Bend National Park prompted public protests and behind-the-scenes lobbying to sway the Trump administration to stop.",
+      "link": "https://www.nytimes.com/2026/03/30/us/a-border-wall-plan-unites-republicans-and-democrats-in-texas-this-is-insane.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-big-bend-promo-qzpg/30nat-big-bend-promo-qzpg-mediumSquareAt3X.jpg",
       "categories": [
-        "移民",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "10分前",
+      "pub_ts": 1774886737.0,
+      "hot": false
+    },
+    {
+      "id": "4ed2035e65",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Claims ‘Regime Change’ in Iran Is Already Complete",
+      "summary": "President Trump suggested that Iran’s current leaders were “much more reasonable” as he sought to show progress in his war aims. Iran’s power structure appears firmly in control despite a month of U.S",
+      "link": "https://www.nytimes.com/2026/03/30/world/middleeast/trump-regime-change-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30israel-iran-trump-regime-change2-zmvf/30israel-iran-trump-regime-change2-zmvf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1774886358.0,
+      "hot": false
+    },
+    {
+      "id": "4e2936e051",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "New U.S. Missile Hit Iranian Sports Hall and School, Analysis Shows",
+      "summary": "The Pentagon used missiles untested in combat in a deadly attack that struck civilian sites near a military compound on Feb. 28, according to visual evidence examined by The Times and weapons experts.",
+      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/us-precision-strike-missile-iran-lamerd.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/2026-03-28-sports-hall-sat-index/2026-03-28-sports-hall-sat-index-mediumSquareAt3X-v8.jpg",
+      "categories": [
         "教育"
       ],
-      "score": 75,
-      "ago": "2小时前",
-      "pub_ts": 1774861200.0,
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1774885776.0,
       "hot": false
     },
     {
-      "id": "4dd2d4ed0c",
+      "id": "3d3479c4ca",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "TSA workers may receive pay soon. And, Israel plans to expand its invasion of Lebanon",
-      "summary": "TSA workers have now been without pay for more than 40 days, as Trump says he has a plan to pay them. And, Israeli Prime Minister Benjamin Netanyahu announces plans to expand the invasion of Lebanon.",
-      "link": "https://www.npr.org/2026/03/30/g-s1-115720/up-first-newsletter-israel-lebanon-strait-of-hormuz-tsa-dhs-birthright-citizenship",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1774870042.0,
-      "hot": false
-    },
-    {
-      "id": "e6ec176174",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump weighing all options on Iran's Kharg Island",
-      "summary": "The president said the U.S. could \"take the oil in Iran\" and that he was considering sending U.S. forces to seize Kharg Island's oil terminal.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5765967/trump-iran-israel-lebanon-kharg-island-oil",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774865102.0,
-      "hot": false
-    },
-    {
-      "id": "e1e5ccc3a8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "War Pushes Gas Prices Near $4 a Gallon, and Anti-Trump Protesters Rally Nationwide",
-      "summary": "Plus, a surge of Catholic converts in the United States.",
-      "link": "https://www.nytimes.com/2026/03/30/podcasts/the-headlines/iran-war-gas-prices-anti-trump-protest.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30headlines-0e-bmzf/30headlines-0e-bmzf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774864816.0,
-      "hot": false
-    },
-    {
-      "id": "617f0643bc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Philanthropy in science has little oversight. Jeffrey Epstein exploited that",
-      "summary": "A large share of science funding comes through philanthropy, with little legal or public scrutiny. This lack of oversight allowed Jeffrey Epstein to cultivate scientists and launder his reputation.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5753946/science-jeffrey-epstein-mit-exploit-donors-philanthropy",
+      "title": "NASA is just days away from historic Artemis II moon launch",
+      "summary": "On Wednesday, the crew of NASA's Artemis II could blast off on a mission around the moon and back. No astronaut has ventured out to the moon since the 1970s.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5698159/nasa-artemis-ii-astronauts-moon-return-this-week",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774864800.0,
+      "ago": "45分前",
+      "pub_ts": 1774884627.0,
       "hot": false
     },
     {
-      "id": "ffd8bb62fc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump administration cuts turned rural towns into sitting ducks for disasters",
-      "summary": "The Trump administration has delayed billions of dollars for projects to protect Americans from floods, wildfires and hurricanes. Local leaders are increasingly anxious.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5753765/fema-trump-extreme-weather-rural-pennsylvania",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861680.0,
-      "hot": false
-    },
-    {
-      "id": "3472696f17",
+      "id": "45b87856cc",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What We Know About the T.S.A. and ICE Presence at Airports",
-      "summary": "Transportation Security Agency officers have called out of work or quit after weeks of not getting paid during a partial government shutdown. ICE agents have begun to fill their roles.",
-      "link": "https://www.nytimes.com/2026/03/30/us/what-we-know-tsa-ice-airports.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-tsa-ice-wwk-tvzl/30nat-tsa-ice-wwk-tvzl-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861449.0,
-      "hot": false
-    },
-    {
-      "id": "c0af76a4dc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A New Boss Takes Over Homeland Security With Less Flash but Same Mission",
-      "summary": "Markwayne Mullin, the incoming D.H.S. secretary, faces a difficult balance: a public reset of the agency while delivering on President Trump’s deportation agenda.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/markwayne-mullin-new-era-homeland-security.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/00dc-mullin-thwp/00dc-mullin-thwp-mediumSquareAt3X.jpg",
+      "title": "Justice Dept. Watchdog Has Gone Silent, Lawyers for Whistle-Blower Say",
+      "summary": "Lawyers for a fired Justice Department lawyer say the agency’s inspector general appears to have ignored at least 20 different requests to scrutinize misconduct.",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/trump-administration-doj-watchdog-reuveni.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-justice1-mhgz/30dc-justice1-mhgz-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861443.0,
+      "score": 70,
+      "ago": "45分前",
+      "pub_ts": 1774884618.0,
       "hot": false
     },
     {
@@ -183,45 +127,153 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861422.0,
+      "score": 70,
+      "ago": "55分前",
+      "pub_ts": 1774884061.0,
       "hot": false
     },
     {
-      "id": "e87849ffe4",
+      "id": "97ae8dbacb",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Texas Border Wall Plan in Big Bend Draws Opposition From Republicans and Democrats",
-      "summary": "Plans for a wall in Big Bend National Park prompted public protests and behind-the-scenes lobbying to sway the Trump administration to stop.",
-      "link": "https://www.nytimes.com/2026/03/30/us/a-border-wall-plan-unites-republicans-and-democrats-in-texas-this-is-insane.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-big-bend-promo-qzpg/30nat-big-bend-promo-qzpg-mediumSquareAt3X.jpg",
+      "title": "Markwayne Mullin Takes Over DHS With Less Flash but Same Mission",
+      "summary": "Markwayne Mullin, the incoming D.H.S. secretary, faces a difficult balance: a public reset of the agency while delivering on President Trump’s deportation agenda.",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/markwayne-mullin-new-era-homeland-security.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/00dc-mullin-thwp/00dc-mullin-thwp-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861343.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774882679.0,
       "hot": false
     },
     {
-      "id": "fcad8d538f",
+      "id": "d2441e7fd1",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "How much protein do you need? Here's how to personalize your optimal intake",
-      "summary": "The Dietary Guidelines released this year recommend higher levels of this essential nutrient. But protein needs are personal. Here's how to assess yours.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5750384/protein-intake-grams-food-how-much",
+      "title": "Who is an American? The Supreme Court will decide",
+      "summary": "President Trump claims that there is no automatic guarantee to birthright citizenship in the Constitution. But, will that claim hold up in court?",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5766096/supreme-court-birthright-citizenship-explainer",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774879652.0,
+      "hot": false
+    },
+    {
+      "id": "440d5b6d1f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Birthright Citizenship Order at Supreme Court Splits Conservative Scholars",
+      "summary": "Before President Trump’s order to limit birthright citizenship, there was widespread agreement that the 14th Amendment guaranteed citizenship for U.S.-born babies.",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/supreme-court-trump-birthright-conservatives.html",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774861200.0,
+      "ago": "3小时前",
+      "pub_ts": 1774876525.0,
+      "hot": false
+    },
+    {
+      "id": "4f7c0c088d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Allows Russian Oil Tanker to Reach Cuba, Despite Blockade",
+      "summary": "The tanker full of crude oil could reach its expected destination by Monday, providing a lifeline to the island amid intense U.S. pressure.",
+      "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774876149.0,
+      "hot": false
+    },
+    {
+      "id": "4dd2d4ed0c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "TSA workers may receive pay soon. And, Israel plans to expand its invasion of Lebanon",
+      "summary": "TSA workers have now been without pay for more than 40 days, as Trump says he has a plan to pay them. And, Israeli Prime Minister Benjamin Netanyahu announces plans to expand the invasion of Lebanon.",
+      "link": "https://www.npr.org/2026/03/30/g-s1-115720/up-first-newsletter-israel-lebanon-strait-of-hormuz-tsa-dhs-birthright-citizenship",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774870042.0,
+      "hot": false
+    },
+    {
+      "id": "45b73c2909",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump is weighing all options on Iran's Kharg Island",
+      "summary": "President Trump said the U.S. could \"take the oil in Iran\" and that he was considering sending U.S. forces to seize Kharg Island's oil terminal.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5765967/trump-iran-israel-lebanon-kharg-island-oil",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774865102.0,
+      "hot": false
+    },
+    {
+      "id": "5d4569b8f6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Philanthropy is a 'significant form of power.' Here's how Jeffrey Epstein exploited that",
+      "summary": "A large share of science funding comes through philanthropy, with little legal or public scrutiny. This lack of oversight allowed Jeffrey Epstein to cultivate scientists and launder his reputation.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5753946/science-jeffrey-epstein-mit-exploit-donors-philanthropy",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774864800.0,
+      "hot": false
+    },
+    {
+      "id": "ffd8bb62fc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump administration cuts turned rural towns into sitting ducks for disasters",
+      "summary": "The Trump administration has delayed billions of dollars for projects to protect Americans from floods, wildfires and hurricanes. Local leaders are increasingly anxious.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5753765/fema-trump-extreme-weather-rural-pennsylvania",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1774861680.0,
       "hot": false
     },
     {
@@ -237,8 +289,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1774861200.0,
       "hot": false
     },
@@ -256,7 +308,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774849041.0,
       "hot": false
     },
@@ -274,44 +326,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1774848404.0,
-      "hot": false
-    },
-    {
-      "id": "4e2936e051",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "New U.S. Missile Hit Iranian Sports Hall and School, Analysis Shows",
-      "summary": "The Pentagon used missiles untested in combat in a deadly attack that struck civilian sites near a military compound on Feb. 28, according to visual evidence examined by The Times and weapons experts.",
-      "link": "https://www.nytimes.com/2026/03/29/world/middleeast/us-precision-strike-missile-iran-lamerd.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/2026-03-28-sports-hall-sat-index/2026-03-28-sports-hall-sat-index-mediumSquareAt3X-v8.jpg",
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1774842155.0,
-      "hot": false
-    },
-    {
-      "id": "4f7c0c088d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Allows Russian Oil Tanker to Reach Cuba, Despite Blockade",
-      "summary": "The tanker full of crude oil could reach its expected destination by Monday, providing a lifeline to the island amid intense U.S. pressure.",
-      "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1774840252.0,
       "hot": false
     },
     {
@@ -328,26 +344,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1774819262.0,
-      "hot": false
-    },
-    {
-      "id": "4d7a97899f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "New Political Group to Push Trump’s A.I. Agenda in Midterms",
-      "summary": "The group, Innovation Council Action, says it plans to spend at least $100 million. It will be led by a former administration official.",
-      "link": "https://www.nytimes.com/2026/03/29/business/trump-artificial-intelligence-pac-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29biz-ai-pac3-gpft/29biz-ai-pac3-gpft-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1774810936.0,
       "hot": false
     },
     {
@@ -363,8 +361,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774788505.0,
       "hot": false
     },
