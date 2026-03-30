@@ -1,44 +1,97 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-30T16:16:05.089674+00:00",
-  "total": 23,
+  "updated_at": "2026-03-30T19:43:59.040179+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "78093de5d9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "China's chatbot industry is fiercely competing for customers. Cue the freebies",
-      "summary": "Chinese AI companies are focused less on being cutting edge and more on attracting customers. That means holiday promotions, and making chatbots useful in everyday life.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5760939/china-chatbot-industry-doubao-qwen-yuanbao",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "7小时前",
-      "pub_ts": 1774861200.0,
-      "hot": false
-    },
-    {
-      "id": "e87849ffe4",
+      "id": "f135b2d80b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Texas Border Wall Plan in Big Bend Draws Opposition From Republicans and Democrats",
-      "summary": "Plans for a wall in Big Bend National Park prompted public protests and behind-the-scenes lobbying to sway the Trump administration to stop.",
-      "link": "https://www.nytimes.com/2026/03/30/us/a-border-wall-plan-unites-republicans-and-democrats-in-texas-this-is-insane.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-big-bend-promo-qzpg/30nat-big-bend-promo-qzpg-mediumSquareAt3X.jpg",
+      "title": "A Democratic Electrician Nabs a State Senate Seat in Republican Florida",
+      "summary": "With Brian Nathan’s victory certified, Democrats won two of three state legislative races in this month’s special elections, all in Republican-leaning districts.",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/brian-nathan-florida-special-election.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-florida-special-bpjf/30nat-florida-special-bpjf-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1774898831.0,
+      "hot": false
+    },
+    {
+      "id": "0887f6eba3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Israel Passes Law to Hang Palestinians Convicted of Deadly Attacks",
+      "summary": "Experts say the law was written in such a way as to ensure that it was unlikely to ever apply to Jewish extremists who commit similar crimes.",
+      "link": "https://www.nytimes.com/2026/03/30/world/middleeast/israel-death-penalty-palestinians-attacks.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/00-HFOisrael-deathpenalty-hzkj/00-HFOisrael-deathpenalty-hzkj-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "10分前",
-      "pub_ts": 1774886737.0,
+      "ago": "28分前",
+      "pub_ts": 1774898118.0,
+      "hot": false
+    },
+    {
+      "id": "f6731a9b0c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who’s ‘Safer’ or ‘Riskier’? Maine Democrats Clash Over How to Beat Collins.",
+      "summary": "Gov. Janet Mills argues that her rival for Senate, Graham Platner, could be doomed by his history of offensive online remarks. But at a time of anti-establishment anger, Mr. Platner says he is the saf",
+      "link": "https://www.nytimes.com/2026/03/30/us/politics/maine-senate-primary-mills-platner-democrat.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/us/politics/pol-maine-senate/pol-maine-senate-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1774897139.0,
+      "hot": false
+    },
+    {
+      "id": "bb1314c8b9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Michael Rousseau, Air Canada’s CEO, to Step Down Amid Backlash Over Comments After Crash",
+      "summary": "Michael Rousseau’s mostly English statement after a fatal runway collision drew sharp criticism. The airline said it would emphasize French fluency in its search for a successor.",
+      "link": "https://www.nytimes.com/2026/03/30/business/air-canada-ceo-crash-retire.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30Biz-AirCanada-CEO-tvhj/30Biz-AirCanada-CEO-tvhj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774894242.0,
+      "hot": false
+    },
+    {
+      "id": "d5a16a664a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "T.S.A. Lines Appear to Be Getting Shorter as Workers Begin to Receive Paychecks",
+      "summary": "The hourslong waits at airports appear to be easing after the president signed an order to pay Transportation Security Administration officers.",
+      "link": "https://www.nytimes.com/2026/03/30/travel/tsa-lines-trump-paychecks.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30trav-airports-shutdown-bkhp/30trav-airports-shutdown-bkhp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774892996.0,
       "hot": false
     },
     {
@@ -54,9 +107,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1774886358.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774892485.0,
+      "hot": false
+    },
+    {
+      "id": "a8f6167f13",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Figure skating season ends with redemption and heartbreak. What do fans watch next?",
+      "summary": "Worlds marks the last competition of the 2025-2026 season. Skaters have some time to go on tour, rest up and learn new routines before the next season starts in July.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5766046/ilia-malinin-world-champion-figure-skating-season",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774888219.0,
       "hot": false
     },
     {
@@ -72,9 +143,9 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774885776.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774885777.0,
       "hot": false
     },
     {
@@ -90,64 +161,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "45分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774884627.0,
       "hot": false
     },
     {
-      "id": "45b87856cc",
+      "id": "06b79caf11",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Justice Dept. Watchdog Has Gone Silent, Lawyers for Whistle-Blower Say",
-      "summary": "Lawyers for a fired Justice Department lawyer say the agency’s inspector general appears to have ignored at least 20 different requests to scrutinize misconduct.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/trump-administration-doj-watchdog-reuveni.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-justice1-mhgz/30dc-justice1-mhgz-mediumSquareAt3X.jpg",
+      "title": "‘I Think That MAGA Is Dying:’ Inside the Youth Movement at CPAC",
+      "summary": "At a sparsely attended Conservative Political Action Conference, young Republicans were eager to start the post-Trump era.",
+      "link": "https://www.nytimes.com/2026/03/30/style/cpac-scene-maga.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30st-cpac-scene-01-bkhm/30st-cpac-scene-01-bkhm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1774884618.0,
-      "hot": false
-    },
-    {
-      "id": "0bc1eab1eb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Private-Credit Wobbles Could Prove Perilous for Trump",
-      "summary": "The Trump administration is poised to broaden access to risky investments that are showing signs of strain.",
-      "link": "https://www.nytimes.com/2026/03/30/business/private-credit-risks-trump-administration.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-privateinvestors-bwql/30dc-privateinvestors-bwql-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1774884061.0,
-      "hot": false
-    },
-    {
-      "id": "97ae8dbacb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Markwayne Mullin Takes Over DHS With Less Flash but Same Mission",
-      "summary": "Markwayne Mullin, the incoming D.H.S. secretary, faces a difficult balance: a public reset of the agency while delivering on President Trump’s deportation agenda.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/markwayne-mullin-new-era-homeland-security.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/00dc-mullin-thwp/00dc-mullin-thwp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774882679.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774883850.0,
       "hot": false
     },
     {
@@ -164,44 +198,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1774879652.0,
-      "hot": false
-    },
-    {
-      "id": "440d5b6d1f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Birthright Citizenship Order at Supreme Court Splits Conservative Scholars",
-      "summary": "Before President Trump’s order to limit birthright citizenship, there was widespread agreement that the 14th Amendment guaranteed citizenship for U.S.-born babies.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/supreme-court-trump-birthright-conservatives.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774876525.0,
-      "hot": false
-    },
-    {
-      "id": "4f7c0c088d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Allows Russian Oil Tanker to Reach Cuba, Despite Blockade",
-      "summary": "The tanker full of crude oil could reach its expected destination by Monday, providing a lifeline to the island amid intense U.S. pressure.",
-      "link": "https://www.nytimes.com/2026/03/29/world/americas/cuba-russian-oil-tanlker.html",
-      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/29-int-cuba-russia-tanker-wztq/29-int-cuba-russia-tanker-wztq-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774876149.0,
       "hot": false
     },
     {
@@ -217,8 +215,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1774870042.0,
       "hot": false
     },
@@ -236,7 +234,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774865102.0,
       "hot": false
     },
@@ -254,7 +252,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774864800.0,
       "hot": false
     },
@@ -272,7 +270,7 @@
         "天气"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774861680.0,
       "hot": false
     },
@@ -290,8 +288,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1774861200.0,
+      "hot": false
+    },
+    {
+      "id": "3ebb0f9e67",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "A skeleton discovered in a Dutch church may belong to musketeer d'Artagnan",
+      "summary": "Human remains found in a church in the Netherlands could be those of d'Artagnan, one of the legendary French swordsmen who inspired the novel The Three Musketeers.",
+      "link": "https://www.npr.org/2026/03/30/nx-s1-5763886/archaeologists-may-have-found-the-remains-three-musketeers-hero-dartagnan",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1774860132.0,
       "hot": false
     },
     {
@@ -308,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1774849041.0,
       "hot": false
     },
@@ -326,7 +342,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1774848404.0,
       "hot": false
     },
@@ -344,7 +360,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1774819262.0,
       "hot": false
     },
@@ -364,42 +380,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1774788505.0,
-      "hot": false
-    },
-    {
-      "id": "ed7948075d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran warns U.S. against ground invasion, as Pakistan holds diplomatic talks",
-      "summary": "A high-ranking Iranian official has accused the U.S. of planning a ground invasion as part of the next stage in the Iran war, and said such an intervention would be met with force.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5765344/pakistan-diplomatic-discussions-iran-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774778918.0,
-      "hot": false
-    },
-    {
-      "id": "5f205469c7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Yemen's Houthi rebels enter the fighting in the Middle East",
-      "summary": "At least 15 U.S. military personnel were wounded in an Iranian attack on Saudi Arabia and Yemen's Houthi rebels entered the war with an attack on Israel.",
-      "link": "https://www.npr.org/2026/03/28/nx-s1-5763013/yemens-houthi-rebels-enter-the-fighting-in-the-middle-east",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774733611.0,
       "hot": false
     },
     {
