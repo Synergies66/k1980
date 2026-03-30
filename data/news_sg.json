@@ -1,97 +1,206 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-29T21:57:35.486484+00:00",
+  "updated_at": "2026-03-30T06:26:48.824627+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "411d5e440a",
+      "id": "23bbfefa76",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "‘Very heavy traffic’ expected at land checkpoints during Good Friday, Qing Ming weekend: ICA",
+      "summary": "Travellers should expect longer waiting times to clear immigration from April 3 to 5.",
+      "link": "https://www.straitstimes.com/singapore/very-heavy-traffic-expected-at-land-checkpoints-during-good-friday-qing-ming-weekend-ica",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1774838478.0,
+      "hot": false
+    },
+    {
+      "id": "af5bfc5149",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Bezzecchi wins USA Grand Prix to extend perfect start to season",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/bezzecchi-wins-usa-grand-prix-extend-perfect-start-season-6024531",
-      "image": "https://dam.mediacorp.sg/image/upload/s--v8bE5LPn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-29T212014Z_1_LYNXMPEM2S0BI_RTROPTP_3_MOTOR.JPG?itok=_sPNvluh",
+      "title": "One man, his dog, and ChatGPT: Australia's AI vaccine saga",
+      "summary": "An Australian man used artificial intelligence to design a personalised experimental treatment for his dog who was sick with terminal cancer.",
+      "link": "https://www.channelnewsasia.com/world/chatgpt-ai-dog-cancer-treatment-6025186",
+      "image": "https://dam.mediacorp.sg/image/upload/s--L1nUirII--/c_crop,h_381,w_677,x_1,y_62/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/30/image-13398d68.jpeg?itok=uRk9PtXo",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1774819214.0,
+      "ago": "33分前",
+      "pub_ts": 1774849980.0,
       "hot": false
     },
     {
-      "id": "2869acc0d8",
+      "id": "4e702f0ca9",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "France showcase firepower and squad depth in 3-1 Colombia win",
+      "title": "BlackRock funds provide about $57 million to IQM Quantum Computers ahead of US IPO",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/france-showcase-firepower-and-squad-depth-in-3-1-colombia-win-6024526",
-      "image": null,
+      "link": "https://www.channelnewsasia.com/business/blackrock-funds-provide-about-57-million-iqm-quantum-computers-ahead-us-ipo-6025166",
+      "image": "https://dam.mediacorp.sg/image/upload/s--ZJ6zIHZq--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-30T053330Z_2_LYNXMPEM2T07S_RTROPTP_3_TECH-EUROPE-QUANTUM-BLACKROCK.JPG?itok=gvQRKMEA",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1774818952.0,
+      "ago": "53分前",
+      "pub_ts": 1774848810.0,
       "hot": false
     },
     {
-      "id": "93b24e48f4",
+      "id": "36aa04d343",
       "type": "news",
       "region": "sg",
-      "source": "Straits Times",
+      "source": "CNA Singapore",
       "lang": "en",
-      "title": "Forum: Building’s access app opens tenants to marketing content",
+      "title": "After Kohli, Rohit proves old is gold in IPL",
       "summary": "",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/forum-buildings-access-app-opens-tenants-to-marketing-content",
+      "link": "https://www.channelnewsasia.com/sport/after-kohli-rohit-proves-old-gold-in-ipl-6025136",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774818000.0,
+      "ago": "1小时前",
+      "pub_ts": 1774847935.0,
       "hot": false
     },
     {
-      "id": "224d295ae3",
+      "id": "248698ce9b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Surfing-Old guard trio back to challenge young guns as elite world tour returns",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/surfing-old-guard-trio-back-challenge-young-guns-elite-world-tour-returns-6025091",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774846680.0,
+      "hot": false
+    },
+    {
+      "id": "ae13217f77",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Former Gojek driver gets jail for molesting unconscious 16-year-old passenger",
+      "summary": "The offences came to light when the driver lodged a police report for an unrelated traffic accident and the police saw an obscene video in his phone gallery.",
+      "link": "https://www.channelnewsasia.com/singapore/gojek-driver-molest-drunk-16-passenger-jail-6025056",
+      "image": "https://dam.mediacorp.sg/image/upload/s--6tsN6BPL--/c_crop,h_798,w_1419,x_181,y_39/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/30/jem_0271.jpg?itok=9BVMXUuS",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774846500.0,
+      "hot": false
+    },
+    {
+      "id": "6aeef52d87",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Indonesian UN peacekeeper killed, some injured in southern Lebanon",
+      "summary": "The Indonesian peacekeeper was killed when a projectile exploded at one of its positions near the southern Lebanese village.",
+      "link": "https://www.channelnewsasia.com/asia/indonesia-un-peacekeeper-killed-lebanon-injured-6025051",
+      "image": "https://dam.mediacorp.sg/image/upload/s--3hSVRSQK--/c_crop,h_900,w_1600,x_0,y_48/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/30/unifil_mod.jpg?itok=VEXXRSR6",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774844640.0,
+      "hot": false
+    },
+    {
+      "id": "0aca68fe5b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Pakistan board charges Fakhar Zaman with ball‑tampering in PSL match",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/pakistan-board-charges-fakhar-zaman-ball-tampering-in-psl-match-6025026",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Lbn3feAv--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-30T040032Z_1_LYNXMPEM2T05A_RTROPTP_3_CRICKET-ASIACUP-IND-PAK.JPG?itok=2vQj-9_3",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774843232.0,
+      "hot": false
+    },
+    {
+      "id": "8b71cb9fbc",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Japan steps up yen intervention threats, signals rate-hike chance",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/japan-steps-up-yen-intervention-threats-signals-rate-hike-chance-6024986",
+      "image": "https://dam.mediacorp.sg/image/upload/s--ZdXsDZNE--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-30T033112Z_2_LYNXMPEM2T04N_RTROPTP_3_JAPAN-ECONOMY-MIMURA.JPG?itok=ZVjNgTUY",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774841472.0,
+      "hot": false
+    },
+    {
+      "id": "488c7b3429",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "askSTJobs: I think I’m being gaslighted at work. What should I do?",
-      "summary": "Keep records, clarify instructions in writing and seek support from trusted colleagues.",
-      "link": "https://www.straitstimes.com/singapore/jobs/askstjobs-i-think-im-being-gaslighted-at-work-what-should-i-do",
+      "title": "Efforts to salvage sunken pleasure craft off Southern Islands under way amid search for missing man",
+      "summary": "The pleasure craft collided with a supply vessel on March 27.",
+      "link": "https://www.straitstimes.com/singapore/salvage-of-sunken-pleasure-craft-off-southern-islands-under-way-as-search-continues-for-missing-man",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774818000.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774840354.0,
       "hot": false
     },
     {
-      "id": "5cb22acdc4",
+      "id": "aee1e99b51",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Silver screen: How smartphones are taking over the lives of Singapore’s seniors",
-      "summary": "Adult children are voicing concern about elderly parents who spend hours scrolling on their phones.",
-      "link": "https://www.straitstimes.com/singapore/silver-screen-how-smartphones-are-taking-over-the-lives-of-singapores-seniors",
+      "title": "SBS Transit bus catches fire along TPE, no injuries reported",
+      "summary": "A photo uploaded on social media shows firefighters putting out a fire at the rear of a green bus.",
+      "link": "https://www.straitstimes.com/singapore/sbs-transit-bus-catches-fire-along-tpe-no-injuries-reported",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774818000.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774837200.0,
       "hot": false
     },
     {
@@ -107,44 +216,44 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774818000.0,
       "hot": false
     },
     {
-      "id": "befad88eef",
+      "id": "68492ff6a0",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "‘My phone stopped working for a day; it was terrifying and isolating’",
-      "summary": "An addiction specialist said many seniors may sometimes miss signs of addiction.",
-      "link": "https://www.straitstimes.com/singapore/my-phone-stopped-working-one-day-it-was-terrifying-and-isolating",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1774818000.0,
-      "hot": false
-    },
-    {
-      "id": "2e4256fa7e",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Science Talk: Delivering value – why appropriate healthcare matters",
-      "summary": "It is about patients receiving care that genuinely helps them, at a cost that they and the system can afford.",
-      "link": "https://www.straitstimes.com/singapore/health/science-talk-delivering-value-why-appropriate-healthcare-matters",
+      "title": "askST Jobs: I think I’m being gaslighted at work. What should I do?",
+      "summary": "Keep records, clarify instructions in writing and seek support from trusted colleagues.",
+      "link": "https://www.straitstimes.com/singapore/jobs/askstjobs-i-think-im-being-gaslighted-at-work-what-should-i-do",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1774818000.0,
+      "hot": false
+    },
+    {
+      "id": "c23804ca28",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Smartphones taking over the lives of Singapore’s seniors: When does heavy use cross into addiction?",
+      "summary": "Adult children are voicing concern about elderly parents who spend hours scrolling on their phones.",
+      "link": "https://www.straitstimes.com/singapore/silver-screen-how-smartphones-are-taking-over-the-lives-of-singapores-seniors",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774818000.0,
       "hot": false
     },
@@ -161,136 +270,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1774818000.0,
       "hot": false
     },
     {
-      "id": "a8c1455589",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Renoir, Cezanne, and Matisse works stolen from Italian museum",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/renoir-cezanne-and-matisse-works-stolen-italian-museum-6024486",
-      "image": "https://dam.mediacorp.sg/image/upload/s--RTr7CSBF--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2025-11-25T173553Z_1_LYNXMPELAO10J_RTROPTP_3_FRANCE-AUCTION-RENOIR.JPG?itok=_XdkNdKW",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774817468.0,
-      "hot": false
-    },
-    {
-      "id": "f072b18839",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Italy and Bosnia chase World Cup return in history-laden playoff",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/italy-and-bosnia-chase-world-cup-return-in-history-laden-playoff-6024431",
-      "image": "https://dam.mediacorp.sg/image/upload/s--NdiqFfUy--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-29T194426Z_1_LYNXMPEM2S0B3_RTROPTP_3_SOCCER-EURO-ITA-BIH.JPG?itok=G-fb11UJ",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774811512.0,
-      "hot": false
-    },
-    {
-      "id": "53e0e60373",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Russian tanker nears Cuba, defying US oil blockade",
-      "summary": "Cuba lost its main oil supplier in January when US forces captured Venezuela's socialist leader, Nicolas Maduro.",
-      "link": "https://www.channelnewsasia.com/world/russian-tanker-nears-cuba-defying-us-oil-blockade-6024421",
-      "image": "https://dam.mediacorp.sg/image/upload/s--03zSdCdp--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-22T153937Z_1_LYNXMPEM2L0A9_RTROPTP_3_CUBA-CRISIS-POWER.JPG?itok=1hxw9PbN",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774811005.0,
-      "hot": false
-    },
-    {
-      "id": "0511a85c7e",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "'JD or Marco?’: Iran war raises 2028 stakes as Trump weighs Vance vs. Rubio",
-      "summary": "JD Vance has taken a cautious approach to the Iran war, while Marco Rubio has aligned himself closely with Trump’s hawkish stance.",
-      "link": "https://www.channelnewsasia.com/world/jd-or-marco-iran-war-raises-2028-stakes-trump-weighs-vance-vs-rubio-6024056",
-      "image": "https://dam.mediacorp.sg/image/upload/s--mzVHVzSK--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-29T100335Z_1_LYNXMPEM2S04Y_RTROPTP_3_USA-TRUMP.JPG?itok=plHdx_2l",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774810341.0,
-      "hot": false
-    },
-    {
-      "id": "af9ced4df4",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Ukraine's Zelenskyy visiting Jordan for next leg of Gulf 'security' talks amid Iran war",
-      "summary": "Kyiv has offered its air-defence expertise and drone technology to countries in the region seeking to counter Iran's drone attacks.",
-      "link": "https://www.channelnewsasia.com/world/ukraines-zelenskyy-visiting-jordan-next-leg-gulf-security-talks-6024231",
-      "image": "https://dam.mediacorp.sg/image/upload/s--NyaWK9kD--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-29T132219Z_1_LYNXMPEM2S07N_RTROPTP_3_SECURITY-MUNICH.JPG?itok=6gYoV-CJ",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774803675.0,
-      "hot": false
-    },
-    {
-      "id": "7bf3a9f0ed",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Israeli PM says ordered military to 'further expand' security zone in Lebanon",
-      "summary": "Netanyahu said that Hezbollah still retained \"residual capabilities\" to fire rockets at Israel, but the group had been severely hit by Israeli forces.",
-      "link": "https://www.channelnewsasia.com/world/israeli-pm-says-ordered-military-further-expand-security-zone-in-lebanon-6024346",
-      "image": "https://dam.mediacorp.sg/image/upload/s--krfx1zdk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-29T154001Z_1_LYNXMPEM2S09N_RTROPTP_3_IRAN-CRISIS-LEBANON-ISRAEL-SOUTH.JPG?itok=q6rVdG51",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774802688.0,
-      "hot": false
-    },
-    {
-      "id": "1d0d2b6c56",
+      "id": "2e4256fa7e",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Tamil Language Festival marks 20 years with push for greater engagement",
-      "summary": "The Tamil Language Learning and Promotion Committee is now the Tamil Promotion Council, focusing on engaging youth and reversing the decline of Tamil spoken at home.",
-      "link": "https://www.straitstimes.com/singapore/tamil-language-festival-marks-20-years-with-push-for-greater-engagement",
+      "title": "Science Talk: Delivering value – why appropriate healthcare matters",
+      "summary": "It is about patients receiving care that genuinely helps them, at a cost that they and the system can afford.",
+      "link": "https://www.straitstimes.com/singapore/health/science-talk-delivering-value-why-appropriate-healthcare-matters",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1774796400.0,
+      "ago": "9小时前",
+      "pub_ts": 1774818000.0,
       "hot": false
     }
   ]
