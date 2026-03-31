@@ -1,280 +1,298 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-31T06:06:22.585943+00:00",
-  "total": 15,
+  "updated_at": "2026-03-31T11:37:29.618415+00:00",
+  "total": 16,
   "articles": [
     {
-      "id": "2a338a9f29",
+      "id": "dc3c451872",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Singapore to monitor employment, wage growth as it rolls out AI programme: Josephine Teo",
-      "summary": "The Republic aims to train 10,000 “AI bilingual” workers.",
-      "link": "https://www.straitstimes.com/singapore/singapore-to-monitor-employment-wage-growth-as-it-rolls-out-ai-programme-josephine-teo",
+      "title": "Shanmugam, Tan See Leng each awarded $210,000 in defamation suits against TOC’s Terry Xu",
+      "summary": "Justice Lim highlighted the gravity of Mr Xu's allegations, extensive publication of the defamatory content, and found that he had acted in malice.",
+      "link": "https://www.straitstimes.com/singapore/shanmugam-tan-see-leng-each-awarded-210000-in-defamation-suit-against-tocs-terry-xu",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1774955893.0,
+      "hot": false
+    },
+    {
+      "id": "2f0c2945d5",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "UK to launch antitrust probe into Microsoft's business software",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/uk-launch-antitrust-probe-microsofts-business-software-6028336",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Xjw3ssXv--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111910Z_3_LYNXMPEM2U0OL_RTROPTP_3_MICROSOFT-WORKFORCE.JPG?itok=4DMBzqft",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1774955792.0,
+      "hot": false
+    },
+    {
+      "id": "65032e0c49",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Indonesian forest loss surges by 66% in 2025, driven by Prabowo's self-sufficiency drive: Report",
+      "summary": "A total of 433,751 hectares of forest was cleared last year, a dramatic jump from 261,575 hectares in 2024, a study by a think tank found.",
+      "link": "https://www.channelnewsasia.com/sustainability/indonesian-forest-loss-surges-66-in-2025-driven-prabowos-self-sufficiency-drive-report-6027546",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Be8ed49C--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T050115Z_2_LYNXMPEM2U06S_RTROPTP_3_SOUTHEASTASIA-HAZE.JPG?itok=m-M7ChA3",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1774955760.0,
+      "hot": false
+    },
+    {
+      "id": "35ebe2fa0f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Amazon, Delta team up for in-flight Wi-Fi, challenging Musk's Starlink",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/amazon-delta-team-up-in-flight-wi-fi-challenging-musks-starlink-6028341",
+      "image": "https://dam.mediacorp.sg/image/upload/s--YIfKzU-w--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111433Z_2_LYNXMPEM2U0OH_RTROPTP_3_AMAZON-FRANCE.JPG?itok=09GKVtSA",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "22分前",
+      "pub_ts": 1774955673.0,
+      "hot": false
+    },
+    {
+      "id": "788c5a07a5",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Irankunda double fires Australia to 5-1 win over Curacao",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/irankunda-double-fires-australia-5-1-win-over-curacao-6028326",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1774955557.0,
+      "hot": false
+    },
+    {
+      "id": "3f0fb6d7aa",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Maradona's former home is transformed into a soup kitchen in Argentina",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/maradonas-former-home-transformed-soup-kitchen-in-argentina-6028331",
+      "image": "https://dam.mediacorp.sg/image/upload/s--HhhOAcuk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111013Z_1_LYNXMPEM2U0O7_RTROPTP_3_ARGENTINA-POVERTY.JPG?itok=r7XxD4b8",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1774955413.0,
+      "hot": false
+    },
+    {
+      "id": "98ea391a38",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "French consumer group sues Ubisoft over shutdown of online game 'The Crew'",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/french-consumer-group-sues-ubisoft-over-shutdown-online-game-crew-6028306",
+      "image": "https://dam.mediacorp.sg/image/upload/s--kkVgwHT4--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T110549Z_1_LYNXMPEM2U0O1_RTROPTP_3_UBISOFT-LAWSUIT.JPG?itok=h5dy55bM",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "34分前",
+      "pub_ts": 1774954960.0,
+      "hot": false
+    },
+    {
+      "id": "b667fb8875",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Cucurella warns Chelsea's youth focus may hinder trophy ambitions",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/cucurella-warns-chelseas-youth-focus-may-hinder-trophy-ambitions-6028311",
+      "image": "https://dam.mediacorp.sg/image/upload/s--R28LurRH--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T105929Z_1_LYNXMPEM2U0NQ_RTROPTP_3_SOCCER-ENGLAND-CHE-NEW.JPG?itok=6Y-w61Vi",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1774954769.0,
+      "hot": false
+    },
+    {
+      "id": "376dd40b82",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Audrey Fang death: Suspect Mitchell Ong to remain in Spanish custody for 2 more years",
+      "summary": "The ruling comes days after a hearing on the custodial status of Mitchell Ong, the sole suspect in Audrey Fang’s killing, as he nears two years in remand.",
+      "link": "https://www.channelnewsasia.com/singapore/mitchell-ong-audrey-fang-singaporean-woman-killed-spain-jail-6028231",
+      "image": "https://dam.mediacorp.sg/image/upload/s--zhJ69N7i--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/06/27/mitchell_ong_audrey_fang.jpg?itok=b4qi31Jc",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1774953945.0,
+      "hot": false
+    },
+    {
+      "id": "02e748f9f3",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "1 in 5 people in S’pore volunteered in 2025, those with social ties did so more often: Study",
+      "summary": "People volunteered for a median of seven hours and donated a median amount of $120.",
+      "link": "https://www.straitstimes.com/singapore/community/1-in-5-people-in-spore-volunteered-in-2025-those-with-social-ties-did-so-more-often-study",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774953180.0,
+      "hot": false
+    },
+    {
+      "id": "4a62b31148",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Police appeal for information on missing 44-year-old woman last seen near Ghim Moh",
+      "summary": "She was last seen near Block 23 Ghim Moh Link at about 6pm on March 19.",
+      "link": "https://www.straitstimes.com/singapore/police-appeal-for-information-on-missing-44-year-old-woman-last-seen-near-ghim-moh",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774951200.0,
+      "hot": false
+    },
+    {
+      "id": "fcb83b05dd",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Oil price spikes: What’s become more expensive in Singapore?",
+      "summary": "The month-long US-Israeli war with Iran is roiling global energy markets.",
+      "link": "https://www.straitstimes.com/singapore/what-has-become-pricier-in-singapore-amid-spiralling-oil-prices-caused-by-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774950875.0,
+      "hot": false
+    },
+    {
+      "id": "6484b8ae7b",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Singtel offers rebates and free data after string of disruptions from March 16 to 18",
+      "summary": "The $5 to $10 'goodwill rebates' will be reflected on customers’ bills within the next one to two billing cycles.",
+      "link": "https://www.straitstimes.com/singapore/singtel-offers-rebates-after-string-of-disruptions-from-march-16-to-18",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774950457.0,
+      "hot": false
+    },
+    {
+      "id": "1ab9c9a8c2",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Wilmar and its chairman Kuok Khoon Hong pledge $3 million to ST School Pocket Money Fund",
+      "summary": "The donation will go towards providing school pocket money for students from low-income families.",
+      "link": "https://www.straitstimes.com/singapore/wilmar-and-its-chairman-kuok-khoon-hong-pledge-3-million-to-st-school-pocket-money-fund",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774949700.0,
+      "hot": false
+    },
+    {
+      "id": "284ee19888",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "‘Trainforest’ artworks by local artists and MINDS students add colour to Kembangan MRT viaduct pilla",
+      "summary": "This is the second art installation launched under the Art Under Viaduct Spaces initiative.",
+      "link": "https://www.straitstimes.com/singapore/community/trainforest-artworks-by-local-artists-and-minds-students-add-colour-to-kembangan-mrt-viaduct-pillars",
       "image": null,
       "categories": [
         "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "6分前",
-      "pub_ts": 1774936800.0,
-      "hot": false
-    },
-    {
-      "id": "d0641a7000",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Oil-thirsty Asian nations seek Russian crude as Iran war strains supplies",
-      "summary": "There is a limit to how much Moscow can boost its exports of crude oil, which is unrefined petroleum needed to make fuels like gasoline and diesel, experts say.",
-      "link": "https://www.channelnewsasia.com/asia/asia-countries-competing-russian-crude-oil-iran-middle-east-war-6027176",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Ijun5Tiv--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Iran_Asia_Russia_Crude_Oil_95469.jpg?itok=8DJ_09a6",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "11分前",
-      "pub_ts": 1774936496.0,
-      "hot": false
-    },
-    {
-      "id": "eb46b5b4cf",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Sentosa Development Corporation to get new chairman, six new board members from Apr 1",
-      "summary": "Mr Edmund Koh will succeed Mr Bob Tan, who is relinquishing his role as Sentosa Development Corporation chairman after serving its board for seven years.",
-      "link": "https://www.channelnewsasia.com/singapore/sdc-new-chairman-board-members-edmund-koh-mti-6027476",
-      "image": "https://dam.mediacorp.sg/image/upload/s--KzLGiPaT--/c_crop,h_514,w_914,x_0,y_42/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/31/2_panel_composite_39.png?itok=GjtUeqVF",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1774935600.0,
-      "hot": false
-    },
-    {
-      "id": "3e18b01851",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Kaif and Chawla back Sooryavanshi for fast-track to India T20 squad",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/kaif-and-chawla-back-sooryavanshi-fast-track-india-t20-squad-6027616",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "48分前",
-      "pub_ts": 1774934268.0,
-      "hot": false
-    },
-    {
-      "id": "fd504077e4",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Over 1 million HDB households to receive U-Save, S&CC rebates in April",
-      "summary": "The U-Save and Service & Conservancy Charges rebates in April are part of the permanent GST Voucher scheme.",
-      "link": "https://www.channelnewsasia.com/singapore/u-save-scc-rebates-april-hdb-households-6027536",
-      "image": "https://dam.mediacorp.sg/image/upload/s--jGNpRQsV--/c_crop,h_898,w_1597,x_1,y_141/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/06/30/electricity_hdb_flats_ili_nadhirah_mansor_1.jpg?itok=9FzWxzsU",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774933500.0,
-      "hot": false
-    },
-    {
-      "id": "f0d7e40a27",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Grab to temporarily raise fuel surcharge for rides to S$0.90 from Apr 7 amid global price volatility",
-      "summary": "The temporary fuel surcharge will apply to passenger rides from Apr 7 to May 31, excluding standard and metered taxi rides.",
-      "link": "https://www.channelnewsasia.com/singapore/grab-temporarily-raise-fuel-surcharge-rides-s090-apr-7-amid-global-price-volatility-6027531",
-      "image": "https://dam.mediacorp.sg/image/upload/s--YCZ0fYvm--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/06/04/SYA_1138.jpeg?itok=ru6MbbDb",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774933320.0,
-      "hot": false
-    },
-    {
-      "id": "9198ef6e68",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Over 1 million Singaporean households to get utility, service and conservancy rebates in April",
-      "summary": "Eligible households will receive up to $190 in U-Save rebates and up to a month of rebates on S&CC.",
-      "link": "https://www.straitstimes.com/singapore/over-1-million-singaporean-households-to-get-utility-service-and-conservancy-rebates-in-april",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774933200.0,
-      "hot": false
-    },
-    {
-      "id": "bd05318e03",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Australia coach McDonald backs Green to retain place in test squad",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/australia-coach-mcdonald-backs-green-retain-place-in-test-squad-6027541",
-      "image": "https://dam.mediacorp.sg/image/upload/s--c8VzUGk3--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T045312Z_1_LYNXMPEM2U06U_RTROPTP_3_CRICKET-ASHES.JPG?itok=OJkdWcuN",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774932838.0,
-      "hot": false
-    },
-    {
-      "id": "b1378d2635",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "CNA Explains: How the Houthis could threaten the Red Sea and shape the Iran war",
-      "summary": "Given the disruptions in the Strait of Hormuz, the Red Sea has been an alternative route for Saudi Arabia to transport crude to Asia.",
-      "link": "https://www.channelnewsasia.com/world/cna-explains-houthis-yemen-middle-east-war-energy-6024906",
-      "image": "https://dam.mediacorp.sg/image/upload/s--qhOwvTHo--/c_crop,h_449,w_799,x_1,y_84/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-28T073328Z_1_LYNXMPEM2R039_RTROPTP_3_RAN-CRISIS-YEMEN-HOUTHIS.JPG?itok=VoAYhLhe",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774932780.0,
-      "hot": false
-    },
-    {
-      "id": "746db1d187",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Japan brands yen falls as 'speculative' as Iran war ignites sell-off",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/japan-brands-yen-falls-speculative-iran-war-ignites-sell-6027501",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774931549.0,
-      "hot": false
-    },
-    {
-      "id": "a1e742e1da",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Accused, 28, taken to crime scene for throwing eggs at police cars on three occasions",
-      "summary": "He also made at least 18 prank calls to the police.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/accused-28-taken-to-crime-scene-for-throwing-eggs-at-police-cars-on-three-occasions",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774930200.0,
-      "hot": false
-    },
-    {
-      "id": "81bbea4fbc",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "S’pore studying restrictions on direct messaging, auto-play on social media to protect kids",
-      "summary": "The Government is in talks with major social media platforms on the necessary safety enhancements.",
-      "link": "https://www.straitstimes.com/singapore/singapore-studying-restrictions-on-direct-messaging-auto-play-on-social-media",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774929660.0,
-      "hot": false
-    },
-    {
-      "id": "e679ff71c8",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "TikTok, X issued letters after failing to detect and remove child sexual abuse, terrorism content: I",
-      "summary": "Six social media platforms were assessed on how well they protect users from harmful content.",
-      "link": "https://www.straitstimes.com/singapore/tiktok-x-issued-letters-after-failing-to-detect-and-remove-child-sexual-abuse-terrorism-content-imda",
-      "image": null,
-      "categories": [
+        "教育",
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1774929600.0,
+      "pub_ts": 1774949700.0,
       "hot": false
     },
     {
-      "id": "6a5a426628",
+      "id": "a646836aba",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Electricity, gas tariffs to go up from April to June, sharper increases expected later in 2026: EMA",
-      "summary": "Fuel prices are “expected to remain elevated in the foreseeable future”, the authority said.",
-      "link": "https://www.straitstimes.com/singapore/electricity-gas-tariffs-to-go-up-from-april-to-june-sharper-increases-expected-later-in-2026-ema",
+      "title": "8,300 visitors and counting before Lazarus Island cottages close after ecotourism trial project",
+      "summary": "Its closure was announced on March 27, with bookings open until Jan 31, 2027.",
+      "link": "https://www.straitstimes.com/singapore/8300-visitors-and-counting-before-lazarus-island-cottages-close-after-ecotourism-trial-project",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1774929600.0,
-      "hot": false
-    },
-    {
-      "id": "6c612fe044",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "First motorist convicted of driving under influence of Kpods given over 6 years’ jail and caning",
-      "summary": "Tung Jun Yu, 27, drove through a traffic junction and collided with a car on Supreme Court Lane.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/first-motorist-convicted-of-driving-under-influence-of-kpods-given-over-6-years-jail-and-caning",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774929020.0,
+      "pub_ts": 1774948662.0,
       "hot": false
     }
   ]
