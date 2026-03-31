@@ -1,169 +1,170 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-03-31T11:37:29.618415+00:00",
+  "updated_at": "2026-03-31T16:17:03.683358+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "dc3c451872",
+      "id": "493c72d06f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Japan tells Chinese survey ship to stop operating near disputed islands",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-tells-chinese-survey-ship-stop-operating-near-disputed-islands-6028736",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Mf9GHzv9--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/11/17/senkaku_islands.jpg?itok=32pLyslD",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1774965459.0,
+      "hot": false
+    },
+    {
+      "id": "377043eeaf",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Spurs appoint De Zerbi as manager",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/spurs-appoint-de-zerbi-manager-6029011",
+      "image": "https://dam.mediacorp.sg/image/upload/s--PvQ4yF7V--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T160238Z_1_LYNXMPEM2U12W_RTROPTP_3_SOCCER-ENGLAND-TOT-DEZERBI.JPG?itok=c6Leb8oF",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1774973001.0,
+      "hot": false
+    },
+    {
+      "id": "c5577849ab",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Woods told police he was looking at phone before rollover crash",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/woods-told-police-he-was-looking-phone-rollover-crash-6028966",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "48分前",
+      "pub_ts": 1774970875.0,
+      "hot": false
+    },
+    {
+      "id": "f54971ffd4",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Former Twelve Cupcakes workers to get part of unpaid salaries after months of talks: Union",
+      "summary": "The move comes about five months after the bakery chain’s abrupt closure.",
+      "link": "https://www.channelnewsasia.com/singapore/twelve-cupcakes-workers-get-unpaid-salary-payouts-fdawu-union-6028916",
+      "image": "https://dam.mediacorp.sg/image/upload/s--ERq3DRpQ--/c_crop,h_1687,w_3000,x_0,y_1/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/10/31/pxl_20251031_034022484.jpg?itok=t5qY4H9g",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1774970640.0,
+      "hot": false
+    },
+    {
+      "id": "ac4ce9ad7c",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Tether cuts two gold traders hired three months ago, source says",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/tether-cuts-two-gold-traders-hired-three-months-ago-source-says-6028871",
+      "image": "https://dam.mediacorp.sg/image/upload/s--ttiugyck--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T144313Z_1_LYNXMPEM2U0YY_RTROPTP_3_USA-BRITAIN-CRYPTOCURRENCY.JPG?itok=OYfTxhHs",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774968193.0,
+      "hot": false
+    },
+    {
+      "id": "7cfc6c29ae",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Tech giant Sea to donate S$50m to boost football development in Singapore",
+      "summary": "Sea, which runs e-commerce platform Shopee, said it will work closely with the government and the football community to deploy the funds effectively.",
+      "link": "https://www.channelnewsasia.com/singapore/sea-donate-50-million-dollars-singapore-football-fas-grassroots-support-6028586",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Ndf8cNGg--/c_crop,h_810,w_1440,x_0,y_103/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/05/31/502489681_1525295258525392_2994623288565902138_n.jpg?itok=zgo5o5mC",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774966980.0,
+      "hot": false
+    },
+    {
+      "id": "c195a8a3f5",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Trump says other countries should 'just take' the Strait of Hormuz",
+      "summary": "Countries \"that refused to get involved\" in the Middle East war should \"build up some delayed courage, go to the Strait, and just TAKE IT\", said Donald Trump.",
+      "link": "https://www.channelnewsasia.com/world/trump-says-other-countries-should-just-take-strait-hormuz-6028796",
+      "image": "https://dam.mediacorp.sg/image/upload/s--z_DWkX7n--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T112609Z_1_LYNXMPEM2U0P5_RTROPTP_3_IRAN-CRISIS-HORMUZ.JPG?itok=IR5fWFHP",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774966920.0,
+      "hot": false
+    },
+    {
+      "id": "31c1b89b56",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Singapore beat Bangladesh, end Asian Cup qualifying campaign unbeaten",
+      "summary": "The Lions end their Asian Cup qualification campaign atop their group with four wins and two draws.",
+      "link": "https://www.channelnewsasia.com/sport/singapore-football-bangladesh-asian-cup-gavin-lee-6027121",
+      "image": "https://dam.mediacorp.sg/image/upload/s--4AMIvy59--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/31/sg_bangladesh.jpeg?itok=N3c0Iw8B",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774965900.0,
+      "hot": false
+    },
+    {
+      "id": "010f24ae6a",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Shanmugam, Tan See Leng each awarded $210,000 in defamation suits against TOC’s Terry Xu",
-      "summary": "Justice Lim highlighted the gravity of Mr Xu's allegations, extensive publication of the defamatory content, and found that he had acted in malice.",
-      "link": "https://www.straitstimes.com/singapore/shanmugam-tan-see-leng-each-awarded-210000-in-defamation-suit-against-tocs-terry-xu",
+      "title": "New decals at coffee shops encourage diners to maintain cleanliness",
+      "summary": "Motion-activated jingles in toilets will also be piloted to remind users to practise good hygiene.",
+      "link": "https://www.straitstimes.com/singapore/new-decals-at-coffee-shops-encourage-diners-to-upkeep-cleanliness",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1774955893.0,
-      "hot": false
-    },
-    {
-      "id": "2f0c2945d5",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "UK to launch antitrust probe into Microsoft's business software",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/uk-launch-antitrust-probe-microsofts-business-software-6028336",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Xjw3ssXv--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111910Z_3_LYNXMPEM2U0OL_RTROPTP_3_MICROSOFT-WORKFORCE.JPG?itok=4DMBzqft",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1774955792.0,
-      "hot": false
-    },
-    {
-      "id": "65032e0c49",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Indonesian forest loss surges by 66% in 2025, driven by Prabowo's self-sufficiency drive: Report",
-      "summary": "A total of 433,751 hectares of forest was cleared last year, a dramatic jump from 261,575 hectares in 2024, a study by a think tank found.",
-      "link": "https://www.channelnewsasia.com/sustainability/indonesian-forest-loss-surges-66-in-2025-driven-prabowos-self-sufficiency-drive-report-6027546",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Be8ed49C--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T050115Z_2_LYNXMPEM2U06S_RTROPTP_3_SOUTHEASTASIA-HAZE.JPG?itok=m-M7ChA3",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1774955760.0,
-      "hot": false
-    },
-    {
-      "id": "35ebe2fa0f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Amazon, Delta team up for in-flight Wi-Fi, challenging Musk's Starlink",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/amazon-delta-team-up-in-flight-wi-fi-challenging-musks-starlink-6028341",
-      "image": "https://dam.mediacorp.sg/image/upload/s--YIfKzU-w--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111433Z_2_LYNXMPEM2U0OH_RTROPTP_3_AMAZON-FRANCE.JPG?itok=09GKVtSA",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "22分前",
-      "pub_ts": 1774955673.0,
-      "hot": false
-    },
-    {
-      "id": "788c5a07a5",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Irankunda double fires Australia to 5-1 win over Curacao",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/irankunda-double-fires-australia-5-1-win-over-curacao-6028326",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "24分前",
-      "pub_ts": 1774955557.0,
-      "hot": false
-    },
-    {
-      "id": "3f0fb6d7aa",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Maradona's former home is transformed into a soup kitchen in Argentina",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/maradonas-former-home-transformed-soup-kitchen-in-argentina-6028331",
-      "image": "https://dam.mediacorp.sg/image/upload/s--HhhOAcuk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T111013Z_1_LYNXMPEM2U0O7_RTROPTP_3_ARGENTINA-POVERTY.JPG?itok=r7XxD4b8",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1774955413.0,
-      "hot": false
-    },
-    {
-      "id": "98ea391a38",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "French consumer group sues Ubisoft over shutdown of online game 'The Crew'",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/french-consumer-group-sues-ubisoft-over-shutdown-online-game-crew-6028306",
-      "image": "https://dam.mediacorp.sg/image/upload/s--kkVgwHT4--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T110549Z_1_LYNXMPEM2U0O1_RTROPTP_3_UBISOFT-LAWSUIT.JPG?itok=h5dy55bM",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1774954960.0,
-      "hot": false
-    },
-    {
-      "id": "b667fb8875",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Cucurella warns Chelsea's youth focus may hinder trophy ambitions",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/cucurella-warns-chelseas-youth-focus-may-hinder-trophy-ambitions-6028311",
-      "image": "https://dam.mediacorp.sg/image/upload/s--R28LurRH--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-31T105929Z_1_LYNXMPEM2U0NQ_RTROPTP_3_SOCCER-ENGLAND-CHE-NEW.JPG?itok=6Y-w61Vi",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1774954769.0,
-      "hot": false
-    },
-    {
-      "id": "376dd40b82",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Audrey Fang death: Suspect Mitchell Ong to remain in Spanish custody for 2 more years",
-      "summary": "The ruling comes days after a hearing on the custodial status of Mitchell Ong, the sole suspect in Audrey Fang’s killing, as he nears two years in remand.",
-      "link": "https://www.channelnewsasia.com/singapore/mitchell-ong-audrey-fang-singaporean-woman-killed-spain-jail-6028231",
-      "image": "https://dam.mediacorp.sg/image/upload/s--zhJ69N7i--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/06/27/mitchell_ong_audrey_fang.jpg?itok=b4qi31Jc",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1774953945.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774962000.0,
       "hot": false
     },
     {
@@ -179,9 +180,63 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774953180.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774960200.0,
+      "hot": false
+    },
+    {
+      "id": "1a09a50e8a",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "National standard for EV charging upgraded to include new tech such as wireless systems",
+      "summary": "EVs that can be charged wirelessly do so by simply parking over a charging pad, for instance.",
+      "link": "https://www.straitstimes.com/singapore/transport/national-standard-for-ev-charging-upgraded-to-include-new-tech-such-as-wireless-systems",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1774959600.0,
+      "hot": false
+    },
+    {
+      "id": "68d61e3d84",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Audrey Fang death: Mitchell Ong’s detention in Spain to be extended by 2 years",
+      "summary": "The judge said there was “rational, clear and consistent” evidence of criminality against Ong.",
+      "link": "https://www.straitstimes.com/singapore/audrey-fang-death-mitchell-ongs-detention-in-spain-to-be-extended-by-2-years",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774957920.0,
+      "hot": false
+    },
+    {
+      "id": "dc3c451872",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Shanmugam, Tan See Leng each awarded $210,000 in defamation suits against TOC’s Terry Xu",
+      "summary": "The judge noted the gravity of Mr Xu's allegations and extensive publication of the defamatory content.",
+      "link": "https://www.straitstimes.com/singapore/shanmugam-tan-see-leng-each-awarded-210000-in-defamation-suit-against-tocs-terry-xu",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1774955893.0,
       "hot": false
     },
     {
@@ -197,8 +252,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774951200.0,
       "hot": false
     },
@@ -215,8 +270,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774950875.0,
       "hot": false
     },
@@ -227,72 +282,15 @@
       "source": "Straits Times",
       "lang": "en",
       "title": "Singtel offers rebates and free data after string of disruptions from March 16 to 18",
-      "summary": "The $5 to $10 'goodwill rebates' will be reflected on customers’ bills within the next one to two billing cycles.",
+      "summary": "The $5 to $10 in \"goodwill rebates\" will be reflected on customers’ bills within the next one to two billing cycles.",
       "link": "https://www.straitstimes.com/singapore/singtel-offers-rebates-after-string-of-disruptions-from-march-16-to-18",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1774950457.0,
-      "hot": false
-    },
-    {
-      "id": "1ab9c9a8c2",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Wilmar and its chairman Kuok Khoon Hong pledge $3 million to ST School Pocket Money Fund",
-      "summary": "The donation will go towards providing school pocket money for students from low-income families.",
-      "link": "https://www.straitstimes.com/singapore/wilmar-and-its-chairman-kuok-khoon-hong-pledge-3-million-to-st-school-pocket-money-fund",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774949700.0,
-      "hot": false
-    },
-    {
-      "id": "284ee19888",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "‘Trainforest’ artworks by local artists and MINDS students add colour to Kembangan MRT viaduct pilla",
-      "summary": "This is the second art installation launched under the Art Under Viaduct Spaces initiative.",
-      "link": "https://www.straitstimes.com/singapore/community/trainforest-artworks-by-local-artists-and-minds-students-add-colour-to-kembangan-mrt-viaduct-pillars",
-      "image": null,
-      "categories": [
-        "天气",
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774949700.0,
-      "hot": false
-    },
-    {
-      "id": "a646836aba",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "8,300 visitors and counting before Lazarus Island cottages close after ecotourism trial project",
-      "summary": "Its closure was announced on March 27, with bookings open until Jan 31, 2027.",
-      "link": "https://www.straitstimes.com/singapore/8300-visitors-and-counting-before-lazarus-island-cottages-close-after-ecotourism-trial-project",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774948662.0,
       "hot": false
     }
   ]
