@@ -1,45 +1,61 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-31T06:05:12.401767+00:00",
+  "updated_at": "2026-03-31T11:30:59.791159+00:00",
   "total": 24,
   "articles": [
     {
-      "id": "37b27db104",
+      "id": "1b3c1bdd00",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Senators Seek Answers From Trump Administration About Airport Immigration Arrests",
-      "summary": "Airport security officials have been sharing passenger data with immigration agents, but the program received little attention until videos captured a woman and her daughter being detained at San Fran",
-      "link": "https://www.nytimes.com/2026/03/30/us/senators-trump-airport-immigration-arrests.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-immigration-airport-lkqc/30nat-immigration-airport-lkqc-mediumSquareAt3X.jpg",
+      "title": "Iran war delays delivery of medical goods to other parts of the world",
+      "summary": "The war in Iran has slowed down international shipping, much of which contains medical and humanitarian goods destined for Asia and Africa.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5766428/iran-war-delays-delivery-of-medical-goods-to-other-parts-of-the-world",
+      "image": null,
       "categories": [
-        "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "4小时前",
-      "pub_ts": 1774922391.0,
+      "score": 70,
+      "ago": "39分前",
+      "pub_ts": 1774954297.0,
       "hot": false
     },
     {
-      "id": "a89ca2ce8f",
+      "id": "0366834b16",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran hits oil tanker off Dubai as fighting continues on all fronts",
+      "summary": "Iran attacked and set on fire a massive Kuwaiti oil tanker off Dubai overnight, as Gulf states increasingly suffer the fallout from the war.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774951928.0,
+      "hot": false
+    },
+    {
+      "id": "ab0a4fcfaa",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Mexico Pressures U.S. Over Deaths of Its Citizens in ICE Custody",
-      "summary": "Claudia Sheinbaum, president of Mexico, said her country would take legal steps to demand better conditions at immigration detention facilities, where she said 14 Mexican citizens had died since Presi",
-      "link": "https://www.nytimes.com/2026/03/30/us/mexico-ice-detention-deaths.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30nat-ice-mexico-jmtl/30nat-ice-mexico-jmtl-mediumSquareAt3X.jpg",
+      "title": "Deaths in ICE Custody Are Growing, and Trump Defends Ballroom Plans",
+      "summary": "Plus, a three-minute, multimillion-dollar art heist.",
+      "link": "https://www.nytimes.com/2026/03/31/podcasts/the-headlines/deaths-ice-custody-trump-ballroom.html",
+      "image": "https://static01.nyt.com/images/2026/03/29/multimedia/31theheadlines-29nat-immig-detention-02-lvkb-copy/31theheadlines-29nat-immig-detention-02-lvkb-copy-mediumSquareAt3X.jpg",
       "categories": [
-        "移民",
-        "科技"
+        "本地"
       ],
-      "score": 75,
-      "ago": "5小时前",
-      "pub_ts": 1774916504.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774951212.0,
       "hot": false
     },
     {
@@ -56,100 +72,191 @@
         "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "21小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1774861200.0,
       "hot": false
     },
     {
-      "id": "109a484cec",
+      "id": "73729c0c2f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Army reviewing after helicopters hovered alongside Kid Rock's swimming pool as he saluted",
-      "summary": "The Army has launched an administrative review after two AH-64 Apache helicopters on a training run hovered near the hillside home of Kid Rock as the outspoken supporter of President Donald Trump salu",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5766990/army-reviewing-helicopters-kid-rock",
+      "title": "In a town close to the farmworker movement, some struggle to process Chavez allegations",
+      "summary": "March 31 is Cesar Chavez's birthday, and a longtime holiday. In the wake of sexual assault allegations against him, residents in the farming town of Delano are conflicted about how to remember him.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5766478/farmworker-movement-delano-grape-workers-strike-cesar-chavez-sexual-assault-allegations-dolores-huerta-united-farm-workers-labor-union-larry-itliong",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774949400.0,
+      "hot": false
+    },
+    {
+      "id": "16c1cf278f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Faces a Decision on Whether to Start a Ground War in Iran",
+      "summary": "The president wants a negotiation, but the Iranians say they are refusing until a cease-fire is declared. And while Marines and the 82nd Airborne Division offer new leverage, the risks escalate quickl",
+      "link": "https://www.nytimes.com/2026/03/31/us/politics/trump-faces-a-decision-on-whether-to-start-a-ground-war-in-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31dc-prexy-assess-top-cplw/31dc-prexy-assess-top-cplw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774949103.0,
+      "hot": false
+    },
+    {
+      "id": "e10ee4823c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Drivers Count Their Pennies As Gas Hits $4 a Gallon",
+      "summary": "Since the Iran conflict began on Feb. 28, gas prices across the United States have increased about 35 percent. They are now above $4 a gallon, and drivers are wincing.",
+      "link": "https://www.nytimes.com/2026/03/31/us/gas-prices-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31nat-gas-voices-fjvz/31nat-gas-voices-fjvz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774947838.0,
+      "hot": false
+    },
+    {
+      "id": "aa4ece834c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Europe Has a ‘Guns vs. Butter’ Problem. War in Iran Makes It Worse.",
+      "summary": "After decades of prioritizing domestic over military spending, the continent’s leaders are trying to pivot. That is straining national budgets and could anger voters.",
+      "link": "https://www.nytimes.com/2026/03/31/world/europe/europe-spending-problem-military-domestic.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/world/00int-Europe-Guns-Butter-abol/00int-Europe-Guns-Butter-abol-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774947635.0,
+      "hot": false
+    },
+    {
+      "id": "d265a3d266",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The final batch of World Cup tickets is about to go on sale. Here are 5 things to know",
+      "summary": "FIFA is kicking off its last sales for World Cup tickets on Wednesday. From prices to why FOMO is working against you, here's what you need to know.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5727893/prices-tickets-fifa-world-cup-last-minute",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774947600.0,
+      "hot": false
+    },
+    {
+      "id": "a3c704223f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Babies are an afterthought in the birthright citizenship case, advocates say",
+      "summary": "An end to birthright citizenship would mean a new layer of bureaucracy for all babies born in the U.S. and could cause delays for health insurance and other benefits.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5761354/birthright-citizenship-child-health-medicaid-social-security",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774947600.0,
+      "hot": false
+    },
+    {
+      "id": "9be0b79585",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How Trump's EEOC is attacking DEI and emphasizing white people",
+      "summary": "Andrea Lucas, the Trump-appointed chair of the Equal Employment Opportunity Commission, has set a new agenda for an agency that long prioritized vulnerable and underserved workers.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5763966/eeoc-trump-white-men-civil-rights-dei-discrimination",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774947600.0,
+      "hot": false
+    },
+    {
+      "id": "3373c011d5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "Iran opens Strait of Hormuz to some ships as Gulf countries face strikes, Trump's mixed messages on the war in Iran could hurt the GOP, TSA officers are receiving back pay as DHS remains unfunded.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5759075/morning-news-brief",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774946566.0,
+      "hot": false
+    },
+    {
+      "id": "ebe93b5a64",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'We call it the walking bus': How kids are getting to school amid ICE operations",
+      "summary": "In cities where ICE operations have surged, community members are walking kids to school.",
+      "link": "https://www.npr.org/2026/03/19/nx-s1-5692645/ice-activity-schools-walking-bus",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774946483.0,
+      "hot": false
+    },
+    {
+      "id": "615e471fbf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Russia is building in parts of Ukraine. What does it mean for a peace deal?",
+      "summary": "Russia is heavily developing occupied territory in Ukraine, suggesting it has no plans to return the land as part of any peace deal. NPR's Leila Fadel speaks with Reuters reporter Mari Saito.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5762561/russia-is-building-in-parts-of-ukraine-what-does-it-mean-for-a-peace-deal",
       "image": null,
       "categories": [
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1774934099.0,
-      "hot": false
-    },
-    {
-      "id": "87262391fa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Airport cleared to be renamed for Trump as he unveils design for skyscraper library",
-      "summary": "A Florida airport was cleared to be renamed after President Donald Trump on Monday, hours before the president revealed plans for a Miami skyscraper planned to house his presidential library.",
-      "link": "https://www.npr.org/2026/03/31/g-s1-115915/airport-renamed-trump",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1774934081.0,
-      "hot": false
-    },
-    {
-      "id": "af54888467",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Women's Final Four is set, and it is a repeat of last season's",
-      "summary": "No. 1 seeds UConn, UCLA, Texas and South Carolina are in the Final Four for the second straight season, just the second time the same teams have reached the sport's final weekend in consecutive years.",
-      "link": "https://www.npr.org/2026/03/31/g-s1-115907/women-final-four-repeat",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774933245.0,
-      "hot": false
-    },
-    {
-      "id": "de2bcf8ba8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Thieves steal paintings by Renoir, Cézanne and Matisse from a private museum in Italy",
-      "summary": "Thieves made off with three paintings by Renoir, Cézanne and Matisse worth millions of euros from a museum near the city of Parma in northern Italy.",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5766986/thieves-steal-paintings-renoir-cezanne-matisse-italy",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774933022.0,
-      "hot": false
-    },
-    {
-      "id": "25b6e6b8dc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "After Months of Threats, Trump Softens His Stance on Blocking Oil to Cuba",
-      "summary": "The White House press secretary said the United States would evaluate oil shipments to Cuba on a “case-by-case basis,” after a Russian tanker full of crude reached the island.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/trump-threats-oil-cuba-sanctions.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-trump-cuba-cmkb/30dc-trump-cuba-cmkb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1774930572.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774946423.0,
       "hot": false
     },
     {
@@ -167,44 +274,63 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1774929666.0,
+      "ago": "3小时前",
+      "pub_ts": 1774945816.0,
       "hot": false
     },
     {
-      "id": "e6b878a13c",
+      "id": "86e12bceae",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "A New U.S. Missile Hit a Sports Hall in Iran. Here’s What We Know About It.",
-      "summary": "Barely out of prototype testing, the Precision Strike Missile is shrouded in secrecy — including which Persian Gulf countries the Army is launching them from.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/us-missile-strike-iran-sports-hall-school.html",
-      "image": null,
+      "title": "U.S. Gas Prices Hit $4 a Gallon on Average",
+      "summary": "A month since the first U.S.-Israeli attacks and Iran’s response effectively shut off Persian Gulf oil, drivers are paying significantly more to fill up.",
+      "link": "https://www.nytimes.com/2026/03/31/business/gas-prices-4-dollars-gallon-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/20/multimedia/00biz-gas-hfo-tqwp/00biz-gas-hfo-tqwp-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774920136.0,
+      "ago": "3小时前",
+      "pub_ts": 1774945698.0,
       "hot": false
     },
     {
-      "id": "fd304f7ea5",
+      "id": "3098de2162",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "TSA Workers Begin to Receive Paychecks After Trump Signs Executive Order",
-      "summary": "A memo that President Trump signed on Friday ordering the Department of Homeland Security to pay T.S.A. officers did not specify whether they would be paid on a regular schedule.",
-      "link": "https://www.nytimes.com/2026/03/30/us/politics/tsa-workers-paychecks-trump-executive-order.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30trump-news-tsa-pay1-bcjq/30trump-news-tsa-pay1-bcjq-mediumSquareAt3X.jpg",
+      "title": "Fresh Food Distributors Add Surcharges as Fuel Costs Rise",
+      "summary": "Delivering salmon, fruits and other perishable foods has become more expensive as the war with Iran pushes up diesel prices.",
+      "link": "https://www.nytimes.com/2026/03/31/business/food-distributors-surcharges-fuel.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00biz-fuel-surcharges-lhjm/00biz-fuel-surcharges-lhjm-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1774917573.0,
+      "ago": "3小时前",
+      "pub_ts": 1774944414.0,
+      "hot": false
+    },
+    {
+      "id": "109a484cec",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Army reviewing after helicopters hovered alongside Kid Rock's swimming pool as he saluted",
+      "summary": "The Army has launched an administrative review after two AH-64 Apache helicopters on a training run hovered near the hillside home of Kid Rock as the outspoken supporter of President Donald Trump salu",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5766990/army-reviewing-helicopters-kid-rock",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1774934099.0,
       "hot": false
     },
     {
@@ -221,87 +347,15 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1774906854.0,
-      "hot": false
-    },
-    {
-      "id": "8ba6fadfa3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Yemeni politician says former U.S. soldiers tried to kill him. Now he's suing in U.S. court",
-      "summary": "The suit is centered around the alleged attempt on Anssaf Ali Mayo's life. But it raises broader questions, including about the role of the United Arab Emirates in Yemen's civil war.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5707305/yemen-politician-assassination-us-soldiers-lawsuit",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1774902154.0,
-      "hot": false
-    },
-    {
-      "id": "42f0dd8d23",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump rolls back pause on asylum decisions imposed after D.C. National Guard shooting",
-      "summary": "The Homeland Security Department has lifted its total ban on reviewing asylum applications, a pause that affected millions of cases. The pause remains in effect for about 40 countries.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5766344/trump-rolls-back-pause-on-asylum-decisions",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774900794.0,
-      "hot": false
-    },
-    {
-      "id": "837a3a0b5f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. could exempt oil industry from protecting Gulf animals, for 'national security'",
-      "summary": "National security has never been used to call a meeting of the \"God Squad.\" But other federal agencies have been citing the \"energy emergency\" to avoid rules meant to protect endangered animals.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5745926/endangered-species-committee-hegseth-security",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1774899545.0,
-      "hot": false
-    },
-    {
-      "id": "76e55311e4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Senate Republicans Make No Move to End DHS Shutdown in Brief Session",
-      "summary": "With Congress in recess, much of the Homeland Security Department remains without money because of the impasse on Capitol Hill, even as airport security workers are to begin getting paid.",
-      "link": "https://www.nytimes.com/2026/03/30/us/senate-republicans-dhs-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/30dc-spend-fkvt/30dc-spend-fkvt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1774894560.0,
       "hot": false
     },
     {
       "id": "a8f6167f13",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Figure skating season ends with redemption and heartbreak. What do fans watch next?",
       "summary": "Worlds marks the last competition of the 2025-2026 season. Skaters have some time to go on tour, rest up and learn new routines before the next season starts in July.",
@@ -311,7 +365,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1774888219.0,
       "hot": false
     },
@@ -328,8 +382,8 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "18小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774870042.0,
       "hot": false
     },
@@ -346,8 +400,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774865102.0,
       "hot": false
     },
@@ -364,63 +418,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1774860132.0,
-      "hot": false
-    },
-    {
-      "id": "2cbecdee80",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says he has 'no problem' with Russian oil tanker bringing relief to Cuba despite blockade",
-      "summary": "President Donald Trump said he has \"no problem\" with a Russian oil tanker off the coast of Cuba delivering relief to the island, which has been brought to its knees by a U.S. oil blockade.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5765971/trump-allows-russia-oil-tanker-relief-cuba-blockade",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774849041.0,
-      "hot": false
-    },
-    {
-      "id": "53c7262b45",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Central Haitian town descends into fire and bloodshed from gang warfare",
-      "summary": "Violence erupted in the central Haitian town of Petite-Rivière de l'Artibonite early Sunday morning as a powerful gang warred with a vigilante group.",
-      "link": "https://www.npr.org/2026/03/30/g-s1-115707/central-haitian-town-gang-warfare",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774848404.0,
-      "hot": false
-    },
-    {
-      "id": "3273482a18",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The rippling effect of the Iran war, seen from the border with Turkey",
-      "summary": "U.S. marines have arrived in the Middle East. NPR's Emily Feng has been monitoring the latest developments from the border of Iran and Turkey.",
-      "link": "https://www.npr.org/2026/03/29/nx-s1-5763014/the-rippling-effect-of-the-iran-war-seen-from-the-border-with-turkey",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774819262.0,
       "hot": false
     },
     {
