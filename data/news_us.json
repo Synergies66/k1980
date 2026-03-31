@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-03-31T19:43:40.110177+00:00",
-  "total": 23,
+  "updated_at": "2026-03-31T22:06:03.064501+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "878d0a82ff",
@@ -17,9 +17,28 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "1小时前",
+      "score": 75,
+      "ago": "3小时前",
       "pub_ts": 1774982226.0,
+      "hot": false
+    },
+    {
+      "id": "778dc86262",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump signs a new executive order on voting. Experts say he lacks the authority",
+      "summary": "President Trump has signed an executive order as part of an effort to end the practice of voting by mail in the U.S., though election law scholars say he doesn't have the authority.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5508948/trump-voter-list-mail-ballots-executive-order",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1774994052.0,
       "hot": false
     },
     {
@@ -38,8 +57,117 @@
         "科技"
       ],
       "score": 70,
-      "ago": "1分前",
-      "pub_ts": 1774986095.0,
+      "ago": "27分前",
+      "pub_ts": 1774993132.0,
+      "hot": false
+    },
+    {
+      "id": "907ad97ea3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Kherson, Ukraine: A hometown changed (Pt. 1)",
+      "summary": "Four years of Russia's all-out war on Ukraine have transformed not only Ukrainian cities but also how modern warfare is waged, in the first of this two-part story from Kherson.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5719102/kherson-ukraine-a-hometown-changed-pt-1",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1774993070.0,
+      "hot": false
+    },
+    {
+      "id": "0090925676",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Iranians debate whether the war is worth it",
+      "summary": "As the war in Iran enters its second month, many Iranians are urging the U.S and Israel to keep striking their country.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5759351/iranians-debate-whether-the-war-is-worth-it",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "32分前",
+      "pub_ts": 1774992792.0,
+      "hot": false
+    },
+    {
+      "id": "535b262bf8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Recover Sharply Amid Hope for Iran War’s End",
+      "summary": "Investors weighed the news that the owner of a Kuwaiti tanker loaded with oil said it had been hit in an Iranian attack near Dubai.",
+      "link": "https://www.nytimes.com/2026/03/31/business/oil-stocks-gas-prices-iran.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31oil-gas-stocks-promo-bmgl/31oil-gas-stocks-promo-bmgl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1774988734.0,
+      "hot": false
+    },
+    {
+      "id": "6d76d4b6d3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Judge rules White House ballroom construction must halt until Congress OK's it",
+      "summary": "Trump responded to the ruling by complaining that the National Trust for Historic Preservation doesn't appreciate his efforts at \"sprucing up\" Washington's buildings.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5768446/judge-rules-white-house-ballroom-construction-must-halt-until-congress-oks-it",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774987167.0,
+      "hot": false
+    },
+    {
+      "id": "2cfac1b31e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Judge Blocks Trump’s Order to End Funding for NPR and PBS",
+      "summary": "The ruling will have minimal effect on the federal money going to public media because Congress voted to claw back funding. But it could have implications for any future funding.",
+      "link": "https://www.nytimes.com/2026/03/31/business/media/trump-npr-pbs-executive-order-ruling.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/PUBLIC-MEDIA-promo-wpmh/PUBLIC-MEDIA-promo-wpmh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774986732.0,
+      "hot": false
+    },
+    {
+      "id": "8a8afc8eb4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Runners misled at a qualifier race will still get invites to the world championship",
+      "summary": "The U.S. will nearly double its contingent for the women's half marathon championship to fix what officials call an unprecedented problem: an official vehicle took the leading runners off the course.",
+      "link": "https://www.npr.org/2026/03/31/nx-s1-5768102/atlanta-half-marathon-usatf-world-athletics-championship",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1774986420.0,
       "hot": false
     },
     {
@@ -49,33 +177,15 @@
       "source": "NPR News",
       "lang": "en",
       "title": "Federal judge finds Trump violated free speech by ordering NPR defunded",
-      "summary": "A U.S. District Court judge found that President Trump's executive ordering the defunding of NPR and PBS violated the First Amendment.",
+      "summary": "A U.S. District Court judge found that President Trump's executive order calling for the defunding of NPR and PBS violated the First Amendment.",
       "link": "https://www.npr.org/2026/03/31/nx-s1-5768399/npr-pbs-trump-federal-funding",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "21分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1774984946.0,
-      "hot": false
-    },
-    {
-      "id": "57e58a06f7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Executive Order on NPR and PBS Is Unconstitutional, Judge Rules",
-      "summary": "The ruling will likely have minimal effect on the federal money going to public media because Congress voted to claw back funding.",
-      "link": "https://www.nytimes.com/2026/03/31/business/media/trump-npr-pbs-executive-order-ruling.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/PUBLIC-MEDIA-promo-wpmh/PUBLIC-MEDIA-promo-wpmh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "22分前",
-      "pub_ts": 1774984876.0,
       "hot": false
     },
     {
@@ -91,8 +201,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774981785.0,
       "hot": false
     },
@@ -110,8 +220,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1774981473.0,
       "hot": false
     },
@@ -128,8 +238,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774979569.0,
       "hot": false
     },
@@ -146,8 +256,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1774979022.0,
       "hot": false
     },
@@ -165,7 +275,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1774977174.0,
       "hot": false
     },
@@ -183,7 +293,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1774976400.0,
       "hot": false
     },
@@ -200,70 +310,16 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1774972784.0,
-      "hot": false
-    },
-    {
-      "id": "a706d68079",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Domino, the warty frogfish, is the first of its kind to be raised in captivity",
-      "summary": "Scientists say the little fish may hold broader lessons for raising other marine species in captivity.",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5766459/warty-frogfish-shedd-aquarium",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774970841.0,
-      "hot": false
-    },
-    {
-      "id": "cbcc61ba94",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Pentagon Weighs Using Anti-Drone Lasers Near D.C. Military Base",
-      "summary": "Sightings of drones around Fort McNair, the Army base where Defense Secretary Pete Hegseth and Secretary of State Marco Rubio live, have prompted consideration of deploying the new technology.",
-      "link": "https://www.nytimes.com/2026/03/31/us/politics/pentagon-anti-drone-lasers-dc.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/dc-mcnair-1/dc-border3-tzjw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1774969867.0,
-      "hot": false
-    },
-    {
-      "id": "bcfc6fb973",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Gas crosses $4 a gallon in the U.S. for the first time in 3 years",
-      "summary": "The war with Iran has driven up gas prices at a time when affordability is high on people's minds.",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5759679/us-gas-price-4-dollars-gallon-iran",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1774963133.0,
+      "pub_ts": 1774972784.0,
       "hot": false
     },
     {
       "id": "48057bc59a",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "6 books named finalists for the 2026 International Booker Prize",
       "summary": "The shortlisted titles include novels and novellas from authors and translators spanning four continents, with stories that range from Japanese-controlled 1930s Taiwan to the streets of Tehran in 1979",
@@ -273,7 +329,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774962031.0,
       "hot": false
     },
@@ -291,7 +347,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1774961351.0,
       "hot": false
     },
@@ -309,7 +365,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1774956582.0,
       "hot": false
     },
@@ -327,25 +383,25 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1774954297.0,
       "hot": false
     },
     {
-      "id": "a6d7811f90",
+      "id": "7b8669274b",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "A U.S. journalist is kidnapped in Iraq",
-      "summary": "The Al-Monitor news site identified the kidnapped journalist as Shelly Kittleson, a freelancer who has contributed to the publication. Iraqi security forces say they have arrested a kidnapper.",
+      "title": "A U.S. journalist is kidnapped in Iraq after threats from Iran-backed groups",
+      "summary": "The Al-Monitor news site identified the kidnapped journalist as Shelly Kittleson. The State Department says she had been warned of threats and it's working with the FBI to get her freed.",
       "link": "https://www.npr.org/2026/03/31/nx-s1-5766991/iran-war-lebanon-israel-dubai-trump-oil-europe",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1774951928.0,
       "hot": false
     },
@@ -364,44 +420,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1774946423.0,
-      "hot": false
-    },
-    {
-      "id": "a8f6167f13",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Figure skating season ends with redemption and heartbreak. What do fans watch next?",
-      "summary": "Worlds marks the last competition of the 2025-2026 season. Skaters have some time to go on tour, rest up and learn new routines before the next season starts in July.",
-      "link": "https://www.npr.org/2026/03/30/nx-s1-5766046/ilia-malinin-world-champion-figure-skating-season",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774888219.0,
-      "hot": false
-    },
-    {
-      "id": "4dd2d4ed0c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "TSA workers may receive pay soon. And, Israel plans to expand its invasion of Lebanon",
-      "summary": "TSA workers have now been without pay for more than 40 days, as Trump says he has a plan to pay them. And, Israeli Prime Minister Benjamin Netanyahu announces plans to expand the invasion of Lebanon.",
-      "link": "https://www.npr.org/2026/03/30/g-s1-115720/up-first-newsletter-israel-lebanon-strait-of-hormuz-tsa-dhs-birthright-citizenship",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1774870042.0,
       "hot": false
     },
     {
