@@ -1,97 +1,205 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-01T16:13:21.499728+00:00",
-  "total": 21,
+  "updated_at": "2026-04-01T19:47:52.220591+00:00",
+  "total": 19,
   "articles": [
     {
-      "id": "6668a30f88",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Memphis House Primary Exemplifies Democrats’ Age Fights",
-      "summary": "A primary in Tennessee between Representative Steve Cohen, a white incumbent, and Justin Pearson, a Black state lawmaker, exemplifies a national push for a passing of the torch.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/democrats-age-memphis-house-primary.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01nat-democrat-generations-jhck/01nat-democrat-generations-jhck-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "25分前",
-      "pub_ts": 1775058454.0,
-      "hot": false
-    },
-    {
-      "id": "10e6ac5afa",
+      "id": "7cb80489a2",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "After Israel's invasion, many in southern Lebanon worry they'll never go home",
-      "summary": "Israel says it's creating a \"security zone\" inside Lebanon, where homes will be demolished, and residents won't be allowed to return home until people in northern Israel feel safe.",
-      "link": "https://www.npr.org/2026/04/01/g-s1-115929/israel-south-lebanon-evacuation",
+      "title": "Federal judge rules DHS illegally stripped immigration status from thousands who entered through CBP",
+      "summary": "Tuesday's ruling reinstates the immigration status of those who came via CBP One and whose status was terminated.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770189/federal-judge-rules-dhs-illegally-stripped-immigration-status-from-thousands-who-entered-through-cbp-one-app",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1775060061.0,
+      "hot": false
+    },
+    {
+      "id": "dd5ebc6acf",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Five Takeaways From the Birthright Citizenship Argument",
+      "summary": "The justices grappled with questions about domiciles and foundlings, avoided policy debates and mused about the sweep of possible rulings.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/scotus-birthright-citizenship-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-takeaways-mtpf/01scotus-birthright-takeaways-mtpf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1775072198.0,
+      "hot": false
+    },
+    {
+      "id": "fb0f49a583",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "\"Lives will be lost\": How the U.K.'s aid cuts may affect parts of Africa",
+      "summary": "In March, the UK announced it would trim its global aid budget and set new priorities in 2027. This has some countries and organizations worried that on top of the US aid cuts, this could be unsurviva",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5763752/lives-will-be-lost-how-the-u-k-s-aid-cuts-may-affect-parts-of-africa",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1775071893.0,
+      "hot": false
+    },
+    {
+      "id": "e5af9190e1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "C.D.C. Pauses Testing for Rabies and Pox Viruses",
+      "summary": "The diseases were removed from a list of tests the agency conducts for state and local health departments. Experts worry that with drastic staff reductions, the testing may not resume.",
+      "link": "https://www.nytimes.com/2026/04/01/health/cdc-rabies-mpox-tests-paused.html",
+      "image": "https://static01.nyt.com/images/2022/08/27/multimedia/31HS-CDC/31HS-CDC-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1775071656.0,
+      "hot": false
+    },
+    {
+      "id": "d34042c181",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Attends Supreme Court Oral Arguments in a Presidential First",
+      "summary": "President Trump’s presence in the court puts him face to face with justices whom he has tried to bully and intimidate.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-supreme-court-visit.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-citizenship-trumptweets-tzpm/01scotus-birthright-citizenship-trumptweets-tzpm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1775071464.0,
+      "hot": false
+    },
+    {
+      "id": "e6bd1f26b7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Ending Birthright Citizenship Would Disproportionately Affect Asian Legal Immigrants",
+      "summary": "A new study found that an end to universal birthright citizenship would disproportionately affect babies born to Asian parents.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/birthright-citizenship-asian-immigrants.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-citizenship-swap-1118am-qpgh/01scotus-birthright-citizenship-swap-1118am-qpgh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "48分前",
+      "pub_ts": 1775069949.0,
+      "hot": false
+    },
+    {
+      "id": "958a3a3a64",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This fringe actor finds the spotlight in Israel's most provocative film post-Oct. 7",
+      "summary": "Israeli fringe actor in the spotlight for anti-war film",
+      "link": "https://www.npr.org/2026/04/01/g-s1-115947/this-fringe-actor-finds-the-spotlight-in-israels-most-provocative-film-post-oct-7",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1775056511.0,
+      "ago": "1小时前",
+      "pub_ts": 1775067511.0,
       "hot": false
     },
     {
-      "id": "a5b430c67f",
+      "id": "44851224a9",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "South Dakotans React to Daily Mail Article on Bryon Noem, Kristi Noem’s Husband",
-      "summary": "In the tiny town of Castlewood, S.D., where everyone knows the Noems, the prevailing sense was that people can’t help but feel bad for Bryon Noem after a tabloid photo leak.",
-      "link": "https://www.nytimes.com/2026/03/31/us/politics/kristi-noem-husband-photos-daily-mail.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31dc-noem-top-chwm/31dc-noem-top-chwm-mediumSquareAt3X.jpg",
+      "title": "How NASA Is Keeping the Astronauts Safe During the Artemis II Mission",
+      "summary": "Years of testing, emergency systems and sensors have gone into protecting the astronauts set to head to the moon.",
+      "link": "https://www.nytimes.com/2026/04/01/science/nasa-artemis-ii-moon-astronauts-safety.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/science/01HS-sci-moon-hazards-promo/01HS-sci-moon-hazards-promo-mediumSquareAt3X.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775066501.0,
+      "hot": false
+    },
+    {
+      "id": "6f5860a53c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Scales Back Plan to Dismantle Consumer Protection Bureau",
+      "summary": "A new filing asks a federal court to allow the White House to dismiss much of the Consumer Financial Protection Bureau’s remaining work force, but not close the bureau entirely.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/cfpb-layoffs.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01trump-news-cfpb-cpwl/01trump-news-cfpb-cpwl-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775055962.0,
+      "pub_ts": 1775066014.0,
       "hot": false
     },
     {
-      "id": "1e758f01f3",
+      "id": "4ebb7a22ba",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "How to Watch NASA’s Artemis II Moon Launch Online",
-      "summary": "NASA will broadcast the launch of the Artemis II mission as well as holding live conversations with the crew during their time in space.",
-      "link": "https://www.nytimes.com/2026/04/01/science/nasa-artemis-ii-moon-launch-how-to-watch.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01moon-launch-live-how-to-watch-topart-kjpf/01moon-launch-live-how-to-watch-topart-kjpf-mediumSquareAt3X.jpg",
+      "title": "Trump to address nation at critical moment in his war with Iran",
+      "summary": "The address comes after weeks of uncertainty over when and how the U.S. could extricate itself from the conflict.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770093/trump-address-iran-war",
+      "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775055628.0,
+      "pub_ts": 1775065699.0,
       "hot": false
     },
     {
-      "id": "28445beac4",
+      "id": "12d9a7d5a9",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Placing U.S. Troops in Middle East Hotels May Violate Laws of War",
-      "summary": "U.S. commanders have kept many troops away from bases in the region to protect them from Iran’s ballistic missile attacks.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/troops-iran-hotels.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-troops-hotels-01-wvkj/01dc-troops-hotels-01-wvkj-mediumSquareAt3X.jpg",
+      "title": "Supreme Court hears challenge to birthright citizenship as Trump attends arguments",
+      "summary": "A majority of Supreme Court justices peppered Solicitor General D. John Sauer with skeptical questions about the Trump administration's position that birthright citizenship should not apply to babies",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5754762/trump-supreme-court-birthright-citizenship",
+      "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775053117.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775062973.0,
       "hot": false
     },
     {
@@ -107,27 +215,63 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775053090.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775062704.0,
       "hot": false
     },
     {
-      "id": "c0c00b71e7",
+      "id": "5e56c9cff3",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Israel’s Message to a Broad Swath of Lebanon: Shiites Must Go",
-      "summary": "Israel has issued sweeping evacuation warnings, and pressed some Christian and Druse leaders to expel Shiite Muslims from southern towns, the leaders said.",
-      "link": "https://www.nytimes.com/2026/04/01/world/middleeast/lebanon-shiite-israel-evacuation.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/00int-lebanon-south-03-zqgl-promo/00int-lebanon-south-03-zqgl-mediumSquareAt3X.jpg",
+      "title": "A propaganda war on the National Mall pits Trump against satirical statues and posters",
+      "summary": "The Trump administration and its critics are waging a war of images on the National Mall like none before. The president's face stares down from federal buildings while statues and posters mock him be",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770077/president-trump-national-mall-jeffrey-epstein-stephen-miller-pam-bondi",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775049978.0,
+      "ago": "3小时前",
+      "pub_ts": 1775060531.0,
+      "hot": false
+    },
+    {
+      "id": "10e6ac5afa",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After Israel's invasion, many in southern Lebanon worry they'll never go home",
+      "summary": "Israel says it's creating a \"security zone\" inside Lebanon, where homes will be demolished, and residents won't be allowed to return home until people in northern Israel feel safe.",
+      "link": "https://www.npr.org/2026/04/01/g-s1-115929/israel-south-lebanon-evacuation",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775056511.0,
+      "hot": false
+    },
+    {
+      "id": "28445beac4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Placing U.S. Troops in Middle East Hotels May Violate Laws of War",
+      "summary": "U.S. commanders have kept many troops away from bases in the region to protect them from Iran’s ballistic missile attacks.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/troops-iran-hotels.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-troops-hotels-01-wvkj/01dc-troops-hotels-01-wvkj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775053118.0,
       "hot": false
     },
     {
@@ -144,117 +288,27 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775047836.0,
       "hot": false
     },
     {
-      "id": "4038ad66f5",
+      "id": "9dbc8d9445",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "The oil industry is betting big on plastics. Here's what that means for the future",
-      "summary": "Journalist Beth Gardiner says the fossil fuel industry is increasingly reliant upon plastic products. Her book is Plastic Inc.: The Secret History and Shocking Future of Big Oil's Biggest Bet.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5763690/the-oil-industry-is-betting-big-on-plastics-heres-what-that-means-for-the-future",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775045869.0,
-      "hot": false
-    },
-    {
-      "id": "5f45827a4e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump to address nation on Iran war. And, SCOTUS considers birthright citizenship",
-      "summary": "Trump is set to address the nation after saying the U.S. will withdraw from Iran in 2-3 weeks. And, the president will be at the Supreme Court today as arguments on birthright citizenship begin.",
-      "link": "https://www.npr.org/2026/04/01/g-s1-116034/up-first-newsletter-iran-war-strait-of-hormuz-birthright-citizenship-white-house-ballroom-npr-pbs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775042524.0,
-      "hot": false
-    },
-    {
-      "id": "1399684f7f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump will address the nation after saying the U.S. may leave the Iran war within weeks",
-      "summary": "President Trump is set to address the nation on the Iran war Wednesday night and provide an \"important update,\" White House press secretary Karoline Leavitt said.",
+      "title": "Israel strikes Lebanon as Trump is set to deliver a speech on the Iran war",
+      "summary": "As Israel expands its invasion of Lebanon, the White House says President Trump will provide \"an important update\" to the nation on the Iran war.",
       "link": "https://www.npr.org/2026/04/01/nx-s1-5769805/iran-war-trump",
       "image": null,
       "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775037774.0,
-      "hot": false
-    },
-    {
-      "id": "a826bc0f63",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "From scrappy startup to tech giant, Apple celebrates its 50th year",
-      "summary": "Countercultural mythmaking and global corporate dominance have helped the tech corporation sail through criticism.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5753784/apple-50-anniversary-think-different-myth-reality",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775034000.0,
-      "hot": false
-    },
-    {
-      "id": "0c634b6d2c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "4 takeaways from the U.S. men's national soccer team's World Cup tune-up games",
-      "summary": "The two losses — 5-2 to Belgium and 2-0 to Portugal — were a wakeup call for the USMNT and the team's ambitions for this summer's World Cup. But the Americans said they welcomed the lessons learned.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5766547/world-cup-usmnt-portugal-belgium-losses",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775034000.0,
-      "hot": false
-    },
-    {
-      "id": "0e80ffc87f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Homesick in a foreign country, a teenager meets a lifelong friend",
-      "summary": "Holly Deiaco-Smith was feeling homesick while studying abroad in France when she was 19 years old. An encounter at the post office changed everything and led to a decades-long friendship.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5763981/homesick-foreign-country-teenager-meets-lifelong-friend-my-unsung-hero",
-      "image": null,
-      "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775034000.0,
+      "ago": "9小时前",
+      "pub_ts": 1775037774.0,
       "hot": false
     },
     {
@@ -272,100 +326,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1775032923.0,
-      "hot": false
-    },
-    {
-      "id": "0190e493d4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Food assistance slashed for hundreds of thousands of Rohingya refugees trapped in Bangladesh camps",
-      "summary": "Hundreds of thousands of Rohingya refugees struggling to survive in Bangladesh's overcrowded camps will see their food assistance slashed starting on Wednesday, raising alarm throughout the increasing",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5769798/food-assistance-slashed-rohingya-refugees-bangladesh-camps",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775021056.0,
-      "hot": false
-    },
-    {
-      "id": "b334dfdb10",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Signs Order Seeking Federal Control of Mail Voting as He Promotes False Claims",
-      "summary": "Election experts and Democratic officials called the order legally invalid, and Arizona and Oregon pledged to immediately challenge it in court.",
-      "link": "https://www.nytimes.com/2026/03/31/us/politics/trump-mail-in-ballots-voting-executive-order.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/us/politics/31trump-news-voting/31trump-news-voting-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775004777.0,
-      "hot": false
-    },
-    {
-      "id": "907ad97ea3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Kherson, Ukraine: A hometown changed (Pt. 1)",
-      "summary": "Four years of Russia's all-out war on Ukraine have transformed not only Ukrainian cities but also how modern warfare is waged, in the first of this two-part story from Kherson.",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5719102/kherson-ukraine-a-hometown-changed-pt-1",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774993070.0,
-      "hot": false
-    },
-    {
-      "id": "eae0ff306d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why the Artemis II Astronauts Will Be Wearing Orange",
-      "summary": "It’s not just any orange. It’s International Orange.",
-      "link": "https://www.nytimes.com/2026/03/31/style/artemis-ii-spacesuits-orange-astronauts.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/00HS-sci-astronaut-orange-zhlc/00HS-sci-astronaut-orange-zhlc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774992979.0,
-      "hot": false
-    },
-    {
-      "id": "0090925676",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iranians debate whether the war is worth it",
-      "summary": "As the war in Iran enters its second month, and President Trump signals an end to the war, many Iranians are urging the U.S and Israel to keep striking their country.",
-      "link": "https://www.npr.org/2026/03/31/nx-s1-5759351/iranians-debate-whether-the-war-is-worth-it",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1774992792.0,
       "hot": false
     },
     {
