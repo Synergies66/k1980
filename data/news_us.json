@@ -1,61 +1,62 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-01T19:47:52.220591+00:00",
-  "total": 19,
+  "updated_at": "2026-04-01T22:06:56.502706+00:00",
+  "total": 21,
   "articles": [
     {
-      "id": "7cb80489a2",
+      "id": "7c3ba0f721",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "25 years ago today, a mid-air collision sparked an 11-day U.S.–China standoff",
+      "summary": "On April 1, 2001, a midair collision between an American aircraft and a Chinese plane sparked an 11-day diplomatic crisis — and the two countries still tell very different stories.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5768269/25-years-ago-today-a-mid-air-collision-sparked-an-11-day-u-s-china-standoff",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1775077245.0,
+      "hot": false
+    },
+    {
+      "id": "82d480f0b5",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Federal judge rules DHS illegally stripped immigration status from thousands who entered through CBP",
-      "summary": "Tuesday's ruling reinstates the immigration status of those who came via CBP One and whose status was terminated.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770189/federal-judge-rules-dhs-illegally-stripped-immigration-status-from-thousands-who-entered-through-cbp-one-app",
+      "title": "Republicans in Congress say they have a deal to end the record-long shutdown at DHS",
+      "summary": "The plan would fund DHS, except for immigration enforcement, through September. Republicans would then try to fund the whole agency for three years using a tactic that would not need Democratic votes.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770566/dhs-shutdown-congress-republicans",
       "image": null,
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "3小时前",
-      "pub_ts": 1775060061.0,
+      "score": 80,
+      "ago": "39分前",
+      "pub_ts": 1775078866.0,
       "hot": false
     },
     {
-      "id": "dd5ebc6acf",
+      "id": "9e051bee52",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Five Takeaways From the Birthright Citizenship Argument",
-      "summary": "The justices grappled with questions about domiciles and foundlings, avoided policy debates and mused about the sweep of possible rulings.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/scotus-birthright-citizenship-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-takeaways-mtpf/01scotus-birthright-takeaways-mtpf-mediumSquareAt3X.jpg",
+      "title": "Bondi Is Vulnerable as Republican Frustrations Over DOJ’s Epstein Files Missteps Grow",
+      "summary": "Attorney General Pam Bondi’s critics inside and outside the administration say she has made unforced errors that have turned the Justice Department’s handling of the Epstein files into a political cri",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/bondi-epstein-files-doj-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/us/politics/dc-bondi/dc-bondi-mediumSquareAt3X-v2.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "11分前",
-      "pub_ts": 1775072198.0,
-      "hot": false
-    },
-    {
-      "id": "fb0f49a583",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "\"Lives will be lost\": How the U.K.'s aid cuts may affect parts of Africa",
-      "summary": "In March, the UK announced it would trim its global aid budget and set new priorities in 2027. This has some countries and organizations worried that on top of the US aid cuts, this could be unsurviva",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5763752/lives-will-be-lost-how-the-u-k-s-aid-cuts-may-affect-parts-of-africa",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1775071893.0,
+      "ago": "13分前",
+      "pub_ts": 1775080409.0,
       "hot": false
     },
     {
@@ -72,8 +73,134 @@
         "本地"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1775071656.0,
+      "ago": "1小时前",
+      "pub_ts": 1775077130.0,
+      "hot": false
+    },
+    {
+      "id": "ff5e848fc6",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Key Justices Appear Skeptical of Limiting Birthright Citizenship",
+      "summary": "President Trump appeared in court, watching as members of the court’s conservative majority raised questions about his efforts to limit birthright citizenship.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/supreme-court-birthright-citizenship-arguments.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-scotus-birthright-new-bplf/01dc-scotus-birthright-new-bplf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775076820.0,
+      "hot": false
+    },
+    {
+      "id": "4f08031003",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Who is held accountable if a war crime is committed in Iran?",
+      "summary": "NPR's Scott Detrow speaks with international law expert Gabor Rona about attacks on civilian infrastructure in the Iran conflict and how they may constitute war crimes.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5766235/who-is-held-accountable-if-a-war-crime-is-committed-in-iran",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775076499.0,
+      "hot": false
+    },
+    {
+      "id": "0738cf849d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The FDA approves a new obesity pill, giving patients another option",
+      "summary": "The daily pill called Foundayo got a fast track through the Food and Drug Administration. It will compete with the pill form of Wegovy as an alternative to obesity drugs given by injection.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5760899/weight-loss-pill-foundayo",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775074059.0,
+      "hot": false
+    },
+    {
+      "id": "9d44df39d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A Turkish border town known for its cats - in times of peace",
+      "summary": "The border town of Van in Turkey is known for being a hub for Iranian travelers, its lavish breakfasts ... and its cats.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5766197/a-turkish-border-town-known-for-its-cats-in-times-of-peace",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775073277.0,
+      "hot": false
+    },
+    {
+      "id": "71b69af779",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Is the U.S. Navy ready to clear sea mines in the Persian Gulf?",
+      "summary": "Despite the danger of sea mines, experts say that mine clearing has received minimal attention and funding from the U.S. Navy — and it's often overshadowed by more high-profile weapons systems.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5766222/mines-persian-gulf-strait-navy-lcs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775073276.0,
+      "hot": false
+    },
+    {
+      "id": "ec1298f09f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Five Takeaways From the Supreme Court’s Birthright Citizenship Case",
+      "summary": "The justices grappled with questions about domiciles and foundlings, avoided policy debates and mused about the sweep of possible rulings.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/scotus-birthright-citizenship-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-takeaways-mtpf/01scotus-birthright-takeaways-mtpf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775072199.0,
+      "hot": false
+    },
+    {
+      "id": "fb0f49a583",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "\"Lives will be lost\": How the U.K.'s aid cuts may affect parts of Africa",
+      "summary": "In March, the UK announced it would trim its global aid budget and set new priorities in 2027. This has some countries and organizations worried that on top of the US aid cuts, this could be unsurviva",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5763752/lives-will-be-lost-how-the-u-k-s-aid-cuts-may-affect-parts-of-africa",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775071893.0,
       "hot": false
     },
     {
@@ -89,8 +216,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "23分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1775071464.0,
       "hot": false
     },
@@ -107,8 +234,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "48分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775069949.0,
       "hot": false
     },
@@ -125,8 +252,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775067511.0,
       "hot": false
     },
@@ -143,8 +270,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775066501.0,
       "hot": false
     },
@@ -161,8 +288,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775066014.0,
       "hot": false
     },
@@ -179,70 +306,34 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775065699.0,
       "hot": false
     },
     {
-      "id": "12d9a7d5a9",
+      "id": "9a40f2c19f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Supreme Court hears challenge to birthright citizenship as Trump attends arguments",
-      "summary": "A majority of Supreme Court justices peppered Solicitor General D. John Sauer with skeptical questions about the Trump administration's position that birthright citizenship should not apply to babies",
+      "title": "Supreme Court majority seems inclined to rule against Trump on birthright citizenship",
+      "summary": "The majority seemed skeptical of the Trump administration's argument on birthright citizenship, appearing ready to rule in favor of upholding automatic citizenship for babies born on U.S. soil.",
       "link": "https://www.npr.org/2026/04/01/nx-s1-5754762/trump-supreme-court-birthright-citizenship",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775062973.0,
-      "hot": false
-    },
-    {
-      "id": "f068b637ce",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Europe Is On Its Own in Securing the Strait of Hormuz",
-      "summary": "Threatening to pull out of NATO, President Trump portrayed the alliance as a “paper tiger” and said Europe was on its own in trying to secure the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/2026/04/01/world/middleeast/trump-europe-nato-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01israel-iran-europe-cghj/01israel-iran-europe-cghj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775062704.0,
-      "hot": false
-    },
-    {
-      "id": "5e56c9cff3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A propaganda war on the National Mall pits Trump against satirical statues and posters",
-      "summary": "The Trump administration and its critics are waging a war of images on the National Mall like none before. The president's face stares down from federal buildings while statues and posters mock him be",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770077/president-trump-national-mall-jeffrey-epstein-stephen-miller-pam-bondi",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775060531.0,
       "hot": false
     },
     {
       "id": "10e6ac5afa",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "After Israel's invasion, many in southern Lebanon worry they'll never go home",
       "summary": "Israel says it's creating a \"security zone\" inside Lebanon, where homes will be demolished, and residents won't be allowed to return home until people in northern Israel feel safe.",
@@ -251,34 +342,16 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775056511.0,
-      "hot": false
-    },
-    {
-      "id": "28445beac4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Placing U.S. Troops in Middle East Hotels May Violate Laws of War",
-      "summary": "U.S. commanders have kept many troops away from bases in the region to protect them from Iran’s ballistic missile attacks.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/troops-iran-hotels.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-troops-hotels-01-wvkj/01dc-troops-hotels-01-wvkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775053118.0,
       "hot": false
     },
     {
       "id": "6a43fc2491",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Greetings from London, where a big COVID memorial holds vigil over the halls of power",
       "summary": "Britain's 1,640-foot-long National Covid Memorial Wall stretches along the River Thames, with over a quarter million hearts representing the lives lost during the pandemic — across from Parliament.",
@@ -289,45 +362,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775047836.0,
-      "hot": false
-    },
-    {
-      "id": "9dbc8d9445",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israel strikes Lebanon as Trump is set to deliver a speech on the Iran war",
-      "summary": "As Israel expands its invasion of Lebanon, the White House says President Trump will provide \"an important update\" to the nation on the Iran war.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5769805/iran-war-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "9小时前",
-      "pub_ts": 1775037774.0,
-      "hot": false
-    },
-    {
-      "id": "21b5da6ba7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "After years in Russian captivity, former mayor of Ukrainian city returns home",
-      "summary": "After spending most of the full-scale war in Russian captivity, the former mayor of a frontline Ukrainian city recalls his ordeal as he returns to a hometown deeply transformed by modern warfare.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5735845/after-years-in-russian-captivity-former-mayor-of-ukrainian-city-returns-home",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775032923.0,
+      "pub_ts": 1775047836.0,
       "hot": false
     },
     {
