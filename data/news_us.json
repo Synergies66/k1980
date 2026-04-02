@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-01T22:06:56.502706+00:00",
-  "total": 21,
+  "updated_at": "2026-04-02T05:56:07.042516+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "2b59a92db5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "China’s Aiming for the Moon, and NASA Is Looking Over Its Shoulder",
+      "summary": "The U.S. space agency launched a lunar flyby Wednesday, but Beijing is pursuing its own space program with formidable focus. Here’s what we know about it, in photos and videos.",
+      "link": "https://www.nytimes.com/2026/04/02/world/asia/chinas-aiming-for-the-moon-and-nasa-is-looking-over-its-shoulder.html",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1775102408.0,
+      "hot": false
+    },
     {
       "id": "7c3ba0f721",
       "type": "news",
@@ -18,9 +37,63 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1775077245.0,
+      "hot": false
+    },
+    {
+      "id": "5864905e13",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Artemis II Completes First Day of Its NASA Lunar Mission",
+      "summary": "The crew, three Americans and a Canadian, are the first humans to travel to the moon in more than 50 years. They will not land on the surface, but the mission will pave the way for future visits.",
+      "link": "https://www.nytimes.com/2026/04/01/science/artemis-ii-nasa-moon-launch.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01moon-launch-live-pinned-post-mfhk/01moon-launch-live-pinned-post-mfhk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775104059.0,
+      "hot": false
+    },
+    {
+      "id": "09c436577f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Artemis II Toilet Had a Problem",
+      "summary": "The Universal Waste Management System aboard the Orion capsule is an innovation in deep space toiletry (it seems to be fixed now).",
+      "link": "https://www.nytimes.com/2026/04/01/science/artemis-ii-bathroom-toilet.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01moon-launch-live-bathroom-02-vtgf/01moon-launch-live-bathroom-02-vtgf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102739.0,
+      "hot": false
+    },
+    {
+      "id": "073f8abbfb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran War Showcases Strength of South Korean Defense Sector",
+      "summary": "Missile interceptors made by the South Korean firm LIG Nex1 are said to be performing well, at a small fraction of the cost of U.S. interceptors.",
+      "link": "https://www.nytimes.com/2026/04/02/business/iran-war-showcases-strength-of-south-korean-defense-sector.html",
+      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/00biz-skmissiles-01-wtfk/00biz-skmissiles-01-wtfk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102407.0,
       "hot": false
     },
     {
@@ -36,63 +109,117 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "39分前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1775078866.0,
       "hot": false
     },
     {
-      "id": "9e051bee52",
+      "id": "d2d17687b5",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Bondi Is Vulnerable as Republican Frustrations Over DOJ’s Epstein Files Missteps Grow",
-      "summary": "Attorney General Pam Bondi’s critics inside and outside the administration say she has made unforced errors that have turned the Justice Department’s handling of the Epstein files into a political cri",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/bondi-epstein-files-doj-trump.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/us/politics/dc-bondi/dc-bondi-mediumSquareAt3X-v2.jpg",
+      "title": "5 Takeaways From Trump’s Address on Iran",
+      "summary": "President Trump did not define a clear path out of the conflict, which he estimated would end within three weeks.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war-address-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01israel-iran-trump-takeaways-qbvt/01israel-iran-trump-takeaways-qbvt-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1775080409.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775100975.0,
       "hot": false
     },
     {
-      "id": "e5af9190e1",
+      "id": "cedd9aa9c2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "C.D.C. Pauses Testing for Rabies and Pox Viruses",
-      "summary": "The diseases were removed from a list of tests the agency conducts for state and local health departments. Experts worry that with drastic staff reductions, the testing may not resume.",
-      "link": "https://www.nytimes.com/2026/04/01/health/cdc-rabies-mpox-tests-paused.html",
-      "image": "https://static01.nyt.com/images/2022/08/27/multimedia/31HS-CDC/31HS-CDC-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775077130.0,
-      "hot": false
-    },
-    {
-      "id": "ff5e848fc6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Key Justices Appear Skeptical of Limiting Birthright Citizenship",
-      "summary": "President Trump appeared in court, watching as members of the court’s conservative majority raised questions about his efforts to limit birthright citizenship.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/supreme-court-birthright-citizenship-arguments.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-scotus-birthright-new-bplf/01dc-scotus-birthright-new-bplf-mediumSquareAt3X.jpg",
+      "title": "Trump Initially Laid Out Five Goals for the Iran War. Here’s Where They Stand.",
+      "summary": "The United States and Israel have done significant damage to Iran’s military capabilities. But Iran still fires missiles, has nuclear material and coordinates with militias in the region.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-goals-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-objectives-pjgb/01dc-objectives-pjgb-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775076820.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775095537.0,
+      "hot": false
+    },
+    {
+      "id": "bbd1f6d40e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Appeals court rejects HUD homelessness overhaul saying it would be \"disastrous\"",
+      "summary": "The federal housing agency wants to shift money away from permanent housing and toward programs that impose sobriety and other conditions. Advocates warn that would push many back into homelessness.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770629/appeals-court-rejects-hud-homelessness-overhaul",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775090524.0,
+      "hot": false
+    },
+    {
+      "id": "c958afac91",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Has Discussed Firing Attorney General Pam Bondi",
+      "summary": "President Trump has not made a final decision, but he has floated the idea of replacing Ms. Bondi with Lee Zeldin, the E.P.A. administrator.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-pam-bondi-future.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-trump-bondi-bflq/01dc-trump-bondi-bflq-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775089539.0,
+      "hot": false
+    },
+    {
+      "id": "11a0d02586",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "FIFA hikes World Cup prices, again. A finals ticket can now cost as much as $11,000",
+      "summary": "FIFA has raised prices for over 40 games of the World Cup in its latest sale that kicked off Wednesday, according to an NPR count. The most expensive tickets to the final now cost $10,900.",
+      "link": "https://www.npr.org/2026/04/01/nx-s1-5770564/fifa-world-cup-ticket-prices",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775088711.0,
+      "hot": false
+    },
+    {
+      "id": "e0982b1d57",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Senate and House Republicans Strike Deal to End DHS Shutdown",
+      "summary": "A bill to reopen the department, which the House G.O.P. rejected on Friday, could be approved as early as Thursday. It was a sharp turnaround by the lawmakers and President Trump.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/senate-house-homeland-security-shutdown.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01DC-SPEND-jvtb/01DC-SPEND-jvtb-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775084070.0,
       "hot": false
     },
     {
@@ -108,8 +235,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775076499.0,
       "hot": false
     },
@@ -126,8 +253,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775074059.0,
       "hot": false
     },
@@ -144,8 +271,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775073277.0,
       "hot": false
     },
@@ -162,27 +289,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775073276.0,
-      "hot": false
-    },
-    {
-      "id": "ec1298f09f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Five Takeaways From the Supreme Court’s Birthright Citizenship Case",
-      "summary": "The justices grappled with questions about domiciles and foundlings, avoided policy debates and mused about the sweep of possible rulings.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/scotus-birthright-citizenship-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-takeaways-mtpf/01scotus-birthright-takeaways-mtpf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775072199.0,
       "hot": false
     },
     {
@@ -198,45 +307,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775071893.0,
-      "hot": false
-    },
-    {
-      "id": "d34042c181",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Attends Supreme Court Oral Arguments in a Presidential First",
-      "summary": "President Trump’s presence in the court puts him face to face with justices whom he has tried to bully and intimidate.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-supreme-court-visit.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-citizenship-trumptweets-tzpm/01scotus-birthright-citizenship-trumptweets-tzpm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775071464.0,
-      "hot": false
-    },
-    {
-      "id": "e6bd1f26b7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Ending Birthright Citizenship Would Disproportionately Affect Asian Legal Immigrants",
-      "summary": "A new study found that an end to universal birthright citizenship would disproportionately affect babies born to Asian parents.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/birthright-citizenship-asian-immigrants.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01scotus-birthright-citizenship-swap-1118am-qpgh/01scotus-birthright-citizenship-swap-1118am-qpgh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775069949.0,
       "hot": false
     },
     {
@@ -252,81 +325,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1775067511.0,
       "hot": false
     },
     {
-      "id": "44851224a9",
+      "id": "9b6d210169",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "How NASA Is Keeping the Astronauts Safe During the Artemis II Mission",
-      "summary": "Years of testing, emergency systems and sensors have gone into protecting the astronauts set to head to the moon.",
-      "link": "https://www.nytimes.com/2026/04/01/science/nasa-artemis-ii-moon-astronauts-safety.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/science/01HS-sci-moon-hazards-promo/01HS-sci-moon-hazards-promo-mediumSquareAt3X.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775066501.0,
-      "hot": false
-    },
-    {
-      "id": "6f5860a53c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration Scales Back Plan to Dismantle Consumer Protection Bureau",
-      "summary": "A new filing asks a federal court to allow the White House to dismiss much of the Consumer Financial Protection Bureau’s remaining work force, but not close the bureau entirely.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/cfpb-layoffs.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01trump-news-cfpb-cpwl/01trump-news-cfpb-cpwl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775066014.0,
-      "hot": false
-    },
-    {
-      "id": "4ebb7a22ba",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump to address nation at critical moment in his war with Iran",
-      "summary": "The address comes after weeks of uncertainty over when and how the U.S. could extricate itself from the conflict.",
+      "title": "Trump makes his case for war with Iran, saying the conflict is 'nearing completion'",
+      "summary": "Trump used a prime-time address to outline his objectives for the war and discuss the military's progress to date. He also repeated an earlier claim that fighting could end in two to three weeks.",
       "link": "https://www.npr.org/2026/04/01/nx-s1-5770093/trump-address-iran-war",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1775065699.0,
-      "hot": false
-    },
-    {
-      "id": "9a40f2c19f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court majority seems inclined to rule against Trump on birthright citizenship",
-      "summary": "The majority seemed skeptical of the Trump administration's argument on birthright citizenship, appearing ready to rule in favor of upholding automatic citizenship for babies born on U.S. soil.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5754762/trump-supreme-court-birthright-citizenship",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775062973.0,
       "hot": false
     },
     {
@@ -343,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1775056511.0,
       "hot": false
     },
@@ -362,7 +381,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1775047836.0,
       "hot": false
     },
