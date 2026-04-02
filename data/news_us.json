@@ -1,26 +1,26 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-02T05:56:07.042516+00:00",
+  "updated_at": "2026-04-02T11:14:16.957422+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "2b59a92db5",
+      "id": "fbfbe95947",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
       "title": "China’s Aiming for the Moon, and NASA Is Looking Over Its Shoulder",
       "summary": "The U.S. space agency launched a lunar flyby Wednesday, but Beijing is pursuing its own space program with formidable focus. Here’s what we know about it, in photos and videos.",
-      "link": "https://www.nytimes.com/2026/04/02/world/asia/chinas-aiming-for-the-moon-and-nasa-is-looking-over-its-shoulder.html",
+      "link": "https://www.nytimes.com/2026/04/02/world/asia/china-space-moon-nasa-artemis.html",
       "image": null,
       "categories": [
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1775102408.0,
+      "score": 77,
+      "ago": "5小时前",
+      "pub_ts": 1775109447.0,
       "hot": false
     },
     {
@@ -38,8 +38,207 @@
         "科技"
       ],
       "score": 72,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775077245.0,
+      "hot": false
+    },
+    {
+      "id": "86d0f3099c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran continues strikes across the Persian Gulf despite Trump's warning",
+      "summary": "Iran continued to target Gulf countries with ballistic missiles and drones Thursday as the U.S. Embassy in Baghdad issued a security alert warning of attacks by Iran-backed militias.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5771160/iran-war-trump-speech",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1775124866.0,
+      "hot": false
+    },
+    {
+      "id": "0a5b909be4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says Strait of Hormuz Is Not America’s Problem, and How Musk May Get Richer",
+      "summary": "Plus, does every middle schooler really need a laptop?",
+      "link": "https://www.nytimes.com/2026/04/02/podcasts/the-headlines/trump-iran-elon-musk-spacex.html",
+      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/02headlines-wkhb/02headlines-wkhb-mediumSquareAt3X.jpg",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775124011.0,
+      "hot": false
+    },
+    {
+      "id": "29ef7935b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As hoops betting spikes, it's New Hampshire and other states vs. prediction markets",
+      "summary": "In New Hampshire and states with legalized sports gambling, wagering helps fund government services. But now competitors like Kalshi and Polymarket are getting a cut of the action.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5770198/states-gaming-prediction-markets-kalshi",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775124000.0,
+      "hot": false
+    },
+    {
+      "id": "97114ce265",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Every Trump Threat to Abandon NATO Hollows It Out",
+      "summary": "Doubts that the United States would come to the aid of NATO allies increase each time, prompting Europeans to consider an alliance without Washington.",
+      "link": "https://www.nytimes.com/2026/04/02/world/europe/trump-nato-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/02int-trump-nato-analysis-01-whmg/02int-trump-nato-analysis-01-whmg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775123565.0,
+      "hot": false
+    },
+    {
+      "id": "d2d17687b5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "5 Takeaways From Trump’s Address on Iran",
+      "summary": "President Trump did not define a clear path out of the conflict, which he estimated would end within three weeks.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war-address-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-takeaways-swap-wlbf/01dc-takeaways-swap-wlbf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775123107.0,
+      "hot": false
+    },
+    {
+      "id": "28fa825701",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Have Trump's tariffs worked? This is where things stand a year after 'Liberation Day'",
+      "summary": "It has been a year since President Trump announced double-digit tariffs on imports from around the world. So far, those levies have not produced the economic boom the president promised.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5766424/trump-tariffs-inflation-economy",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775120400.0,
+      "hot": false
+    },
+    {
+      "id": "9793ca6b04",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "In a thunderous launch, Artemis II astronauts leave Earth. Here's what's next",
+      "summary": "NASA's Artemis II crew has successfully launched on a mission that will take it around the moon and back to Earth. Here's what to expect over their roughly 10-day journey.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5770599/artemis-ii-10-day-mission-preview",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775120400.0,
+      "hot": false
+    },
+    {
+      "id": "03b4ff00a6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump's VA killed a home loan program. Vets are now losing their homes because of it",
+      "summary": "Foreclosures on VA loans are at their highest level in a decade. VA has a fix but it is months away and could still leave vets worse off than most other homeowners.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5750814/veterans-mortgages-foreclosure-va-rescue",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775120400.0,
+      "hot": false
+    },
+    {
+      "id": "e516c40605",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "Trump says war in Iran is 'nearing completion' in national address, Iranian officials react to President Trump's speech on Iran war, SCOTUS hears arguments on birthright citizenship.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5759077/morning-news-brief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775119325.0,
+      "hot": false
+    },
+    {
+      "id": "0954b6ed13",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pakistan is playing intermediary in the Iran war, a role it has played before",
+      "summary": "Pakistan has emerged as a key intermediary in the U.S-Israel war with Iran. It played this role before, during a high-stakes moment in diplomatic history.",
+      "link": "https://www.npr.org/2026/04/02/nx-s1-5767066/pakistan-is-playing-mediator-in-the-iran-war-its-a-role-the-country-is-used-to",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775119301.0,
+      "hot": false
+    },
+    {
+      "id": "18d8a7fe72",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. lifts sanctions on Venezuela's acting President Delcy Rodríguez",
+      "summary": "The newly announced sanctions relief is the latest U.S. recognition of Rodríguez as a legitimate authority in Venezuela ever since the U.S. military captured her predecessor, Nicolás Maduro.",
+      "link": "https://www.npr.org/2026/04/02/g-s1-116142/u-s-lift-sanctions-venezuela-president-delcy-rodriguez",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775112289.0,
       "hot": false
     },
     {
@@ -55,117 +254,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775104059.0,
-      "hot": false
-    },
-    {
-      "id": "09c436577f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Artemis II Toilet Had a Problem",
-      "summary": "The Universal Waste Management System aboard the Orion capsule is an innovation in deep space toiletry (it seems to be fixed now).",
-      "link": "https://www.nytimes.com/2026/04/01/science/artemis-ii-bathroom-toilet.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01moon-launch-live-bathroom-02-vtgf/01moon-launch-live-bathroom-02-vtgf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775102739.0,
-      "hot": false
-    },
-    {
-      "id": "073f8abbfb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran War Showcases Strength of South Korean Defense Sector",
-      "summary": "Missile interceptors made by the South Korean firm LIG Nex1 are said to be performing well, at a small fraction of the cost of U.S. interceptors.",
-      "link": "https://www.nytimes.com/2026/04/02/business/iran-war-showcases-strength-of-south-korean-defense-sector.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/00biz-skmissiles-01-wtfk/00biz-skmissiles-01-wtfk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775102407.0,
-      "hot": false
-    },
-    {
-      "id": "82d480f0b5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Republicans in Congress say they have a deal to end the record-long shutdown at DHS",
-      "summary": "The plan would fund DHS, except for immigration enforcement, through September. Republicans would then try to fund the whole agency for three years using a tactic that would not need Democratic votes.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770566/dhs-shutdown-congress-republicans",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "8小时前",
-      "pub_ts": 1775078866.0,
-      "hot": false
-    },
-    {
-      "id": "d2d17687b5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "5 Takeaways From Trump’s Address on Iran",
-      "summary": "President Trump did not define a clear path out of the conflict, which he estimated would end within three weeks.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-iran-war-address-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01israel-iran-trump-takeaways-qbvt/01israel-iran-trump-takeaways-qbvt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775100975.0,
-      "hot": false
-    },
-    {
-      "id": "cedd9aa9c2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Initially Laid Out Five Goals for the Iran War. Here’s Where They Stand.",
-      "summary": "The United States and Israel have done significant damage to Iran’s military capabilities. But Iran still fires missiles, has nuclear material and coordinates with militias in the region.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/trump-goals-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01dc-objectives-pjgb/01dc-objectives-pjgb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775095537.0,
-      "hot": false
-    },
-    {
-      "id": "bbd1f6d40e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Appeals court rejects HUD homelessness overhaul saying it would be \"disastrous\"",
-      "summary": "The federal housing agency wants to shift money away from permanent housing and toward programs that impose sobriety and other conditions. Advocates warn that would push many back into homelessness.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770629/appeals-court-rejects-hud-homelessness-overhaul",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775090524.0,
       "hot": false
     },
     {
@@ -181,45 +272,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775089539.0,
       "hot": false
     },
     {
-      "id": "11a0d02586",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "FIFA hikes World Cup prices, again. A finals ticket can now cost as much as $11,000",
-      "summary": "FIFA has raised prices for over 40 games of the World Cup in its latest sale that kicked off Wednesday, according to an NPR count. The most expensive tickets to the final now cost $10,900.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770564/fifa-world-cup-ticket-prices",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775088711.0,
-      "hot": false
-    },
-    {
-      "id": "e0982b1d57",
+      "id": "9e051bee52",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Senate and House Republicans Strike Deal to End DHS Shutdown",
-      "summary": "A bill to reopen the department, which the House G.O.P. rejected on Friday, could be approved as early as Thursday. It was a sharp turnaround by the lawmakers and President Trump.",
-      "link": "https://www.nytimes.com/2026/04/01/us/politics/senate-house-homeland-security-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01DC-SPEND-jvtb/01DC-SPEND-jvtb-mediumSquareAt3X-v2.jpg",
+      "title": "Bondi Is Vulnerable as Republican Frustrations Over DOJ’s Epstein Files Missteps Grow",
+      "summary": "Ms. Bondi’s critics inside and outside the administration say she has made unforced errors that have turned the Justice Department’s handling of the Epstein files into a political crisis.",
+      "link": "https://www.nytimes.com/2026/04/01/us/politics/bondi-epstein-files-doj-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/us/politics/dc-bondi/dc-bondi-mediumSquareAt3X-v2.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775084070.0,
+      "ago": "11小时前",
+      "pub_ts": 1775085520.0,
       "hot": false
     },
     {
@@ -236,51 +309,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1775076499.0,
-      "hot": false
-    },
-    {
-      "id": "0738cf849d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The FDA approves a new obesity pill, giving patients another option",
-      "summary": "The daily pill called Foundayo got a fast track through the Food and Drug Administration. It will compete with the pill form of Wegovy as an alternative to obesity drugs given by injection.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5760899/weight-loss-pill-foundayo",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775074059.0,
-      "hot": false
-    },
-    {
-      "id": "9d44df39d6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A Turkish border town known for its cats - in times of peace",
-      "summary": "The border town of Van in Turkey is known for being a hub for Iranian travelers, its lavish breakfasts ... and its cats.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5766197/a-turkish-border-town-known-for-its-cats-in-times-of-peace",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775073277.0,
       "hot": false
     },
     {
       "id": "71b69af779",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Is the U.S. Navy ready to clear sea mines in the Persian Gulf?",
       "summary": "Despite the danger of sea mines, experts say that mine clearing has received minimal attention and funding from the U.S. Navy — and it's often overshadowed by more high-profile weapons systems.",
@@ -290,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "15小时前",
       "pub_ts": 1775073276.0,
       "hot": false
     },
@@ -298,7 +335,7 @@
       "id": "fb0f49a583",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "\"Lives will be lost\": How the U.K.'s aid cuts may affect parts of Africa",
       "summary": "In March, the UK announced it would trim its global aid budget and set new priorities in 2027. This has some countries and organizations worried that on top of the US aid cuts, this could be unsurviva",
@@ -308,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "15小时前",
       "pub_ts": 1775071893.0,
       "hot": false
     },
@@ -316,7 +353,7 @@
       "id": "958a3a3a64",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "This fringe actor finds the spotlight in Israel's most provocative film post-Oct. 7",
       "summary": "Israeli fringe actor in the spotlight for anti-war film",
@@ -326,63 +363,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1775067511.0,
       "hot": false
     },
     {
-      "id": "9b6d210169",
+      "id": "1ff1589037",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump makes his case for war with Iran, saying the conflict is 'nearing completion'",
-      "summary": "Trump used a prime-time address to outline his objectives for the war and discuss the military's progress to date. He also repeated an earlier claim that fighting could end in two to three weeks.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5770093/trump-address-iran-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775065699.0,
-      "hot": false
-    },
-    {
-      "id": "10e6ac5afa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "After Israel's invasion, many in southern Lebanon worry they'll never go home",
-      "summary": "Israel says it's creating a \"security zone\" inside Lebanon, where homes will be demolished, and residents won't be allowed to return home until people in northern Israel feel safe.",
-      "link": "https://www.npr.org/2026/04/01/g-s1-115929/israel-south-lebanon-evacuation",
-      "image": null,
+      "title": "After Attack on Iran by the U.S. and Israel, See Photos and Videos From the Middle East",
+      "summary": "Here are images from Iran, Israel, Lebanon and elsewhere.",
+      "link": "https://www.nytimes.com/2026/02/28/world/middleeast/iran-israel-trump-attack-photos.html",
+      "image": "https://static01.nyt.com/images/2026/03/08/multimedia/08iran-photos-bfhm/08iran-photos-bfhm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775056511.0,
-      "hot": false
-    },
-    {
-      "id": "6a43fc2491",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from London, where a big COVID memorial holds vigil over the halls of power",
-      "summary": "Britain's 1,640-foot-long National Covid Memorial Wall stretches along the River Thames, with over a quarter million hearts representing the lives lost during the pandemic — across from Parliament.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5767068/london-uk-covid-memorial-wall",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1775047836.0,
+      "ago": "19小时前",
+      "pub_ts": 1775057221.0,
       "hot": false
     },
     {
