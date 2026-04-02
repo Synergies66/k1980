@@ -1,43 +1,97 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-01T22:07:39.585879+00:00",
-  "total": 29,
+  "updated_at": "2026-04-02T05:56:36.135493+00:00",
+  "total": 27,
   "articles": [
     {
-      "id": "8d4c7e061a",
+      "id": "76c2b14795",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "US Supreme Court appears sceptical of US birthright citizenship challenge",
-      "summary": "Trump attended the oral arguments in person on Wednesday, a rare move by a sitting president that underscored the high stakes of the case.",
-      "link": "https://www.bbc.com/news/articles/cje47jk49k0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7dc1/live/42335700-2dfe-11f1-b297-95b0a0a8331e.jpg",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "特朗普再提退出北約：這對同盟前景有何啟示",
+      "summary": "特朗普批評北約成員國對美國在伊朗的目標缺乏支持。",
+      "link": "https://www.bbc.com/zhongwen/articles/czreyg0e5nzo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8e7f/live/6b402fe0-2de7-11f1-934f-036468834728.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1775080817.0,
+      "score": 78,
+      "ago": "54分前",
+      "pub_ts": 1775106101.0,
       "hot": false
     },
     {
-      "id": "3fdec00cfb",
+      "id": "6ab71a58d4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "中國試圖在伊朗戰爭中扮演和平調解者，這會奏效嗎？",
+      "summary": "北京與伊斯蘭堡的官員提出了一項五點計劃，旨在促成停火，並重新開放至關重要的霍爾木茲海峽。此前中國官方反應一直較為低調，為何選擇在此時介入？",
+      "link": "https://www.bbc.com/zhongwen/articles/cp8d61nl2j4o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c986/live/ee232120-2d96-11f1-bcc4-a5db6c57338c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1775102387.0,
+      "hot": false
+    },
+    {
+      "id": "f9deb8154c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "「香港故事」展館重開：淡化港英歷史不提「六四」，六年改造重樹敘事",
+      "summary": "經歷六年改造，重新構建的敘事登場。港英殖民歷史被淡化，港督照片牆、港英旗被拆走；展板不再提「六七暴動」，「六四事件」亦被淡化為「春夏之交的政治風波」。",
+      "link": "https://www.bbc.com/zhongwen/articles/cpd547jdgn6o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f809/live/504f2720-2df8-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1775095239.0,
+      "hot": false
+    },
+    {
+      "id": "2dbce516dd",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "壓力對皮膚有什麼影響——以及你能怎麼做？",
+      "summary": "在搬家或經歷分手時，你的臉上突然冒痘或濕疹惡化嗎？這可能不是巧合。",
+      "link": "https://www.bbc.com/zhongwen/articles/cjw8lwj707yo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/955b/live/a2eb14e0-f62a-11f0-b385-5f48925de19a.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "5小时前",
+      "pub_ts": 1775089778.0,
+      "hot": false
+    },
+    {
+      "id": "9a36624496",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: Iran’s president says his country has no ‘enmity’ for American people ahead",
-      "summary": "In his letter to the American people, Iran’s president Masoud Pezeshkian laid out the longstanding, historical grievances behind Tehran’s distrust of WashingtonIsrael hits Iran with waves of attacks a",
-      "link": "https://www.theguardian.com/world/middle-east-live/live/2026/apr/01/iran-live-updates-trump-claims-war-will-end-rubio-nato-relationship",
-      "image": "https://i.guim.co.uk/img/media/a30387825d2b9206558671ca7dd1adfcb5a25986/700_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=1afd3d5e5e931b197b304d362b5b5802",
+      "title": "Trump claims Iran war ‘nearing completion’ and seeks to justify conflict in prime-time address",
+      "summary": "Markets sink after president offers little detail on how he intends to wind down conflict over next two to three weeksMiddle East crisis – live updatesDonald Trump used a prime-time address to the nat",
+      "link": "https://www.theguardian.com/us-news/2026/apr/01/trump-iran-war-address-white-house",
+      "image": "https://i.guim.co.uk/img/media/a824f75b9b2844460d05da9c06e390171eabfb0b/385_0_3851_3081/master/3851.jpg?width=140&quality=85&auto=format&fit=max&s=d420c60089a7c75ac882657baf0771cc",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1775080376.0,
+      "ago": "27分前",
+      "pub_ts": 1775107769.0,
       "hot": false
     },
     {
@@ -54,8 +108,80 @@
         "本地"
       ],
       "score": 70,
-      "ago": "48分前",
-      "pub_ts": 1775078311.0,
+      "ago": "1小时前",
+      "pub_ts": 1775104934.0,
+      "hot": false
+    },
+    {
+      "id": "d13d5496af",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The dark side of the balloon boom – is it time they were banned?",
+      "summary": "From balloon arches at parties to mass balloon releases at funerals, these bits of floating rubber and plastic can have disastrous effects on wildlife. As some retailers are refusing to sell them, her",
+      "link": "https://www.theguardian.com/environment/2026/apr/02/the-dark-side-of-the-balloon-boom-is-it-time-they-were-banned",
+      "image": "https://i.guim.co.uk/img/media/641f616787aadced686d88dbbe534686f8271e7f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b9a6902a37cf75e5117429eea9707a42",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102418.0,
+      "hot": false
+    },
+    {
+      "id": "7109628080",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Endo dreams of sushi: a trip around Japan with one of the world’s greatest chefs",
+      "summary": "Endo Kazutoshi spent decades climbing to the top of the culinary world, only for a devastating fire to threaten it all. I joined him in the aftermath as he travelled around his homeland, visiting the",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/02/endo-kazutoshi-sushi-japan-greatest-chef",
+      "image": "https://i.guim.co.uk/img/media/7872f512e7d431fc4c406baad7adff36db9c1b55/0_1393_3011_2409/master/3011.jpg?width=140&quality=85&auto=format&fit=max&s=44d85d281522dd181f272334f7dbf445",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102417.0,
+      "hot": false
+    },
+    {
+      "id": "414cd364c2",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Sauna and cold plunge: where does the evidence stand? – podcast",
+      "summary": "Saunas and cold plunge pools are popping up everywhere in the UK, bringing fiery heat and icy cold to a beach, city farm or park near you. Their users will be ready with all the reasons why it’s good",
+      "link": "https://www.theguardian.com/science/audio/2026/apr/02/sauna-and-cold-plunge-where-does-the-evidence-stand-podcast",
+      "image": "https://i.guim.co.uk/img/media/03ded7ef604e51583dcaca30fed85dbc69d13f14/503_0_5548_4438/master/5548.jpg?width=140&quality=85&auto=format&fit=max&s=2e8103ddb8ed05f8ea0d01225db66112",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102417.0,
+      "hot": false
+    },
+    {
+      "id": "2a29d46245",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Not if, but when: how Spain’s coastal towns are preparing for tsunamis",
+      "summary": "In the holiday hotspots of the Costa del Sol, the risks are rarely mentioned. But in neighbouring Cádiz, the country’s first tsunami-ready town is leading by exampleEven on a wet, wintry day in Málaga",
+      "link": "https://www.theguardian.com/environment/2026/apr/02/how-spain-coastal-towns-preparing-for-tsunamis",
+      "image": "https://i.guim.co.uk/img/media/4bf527d02b4f9b82c6ae9a8238781a2e6600d752/277_0_4945_3957/master/4945.jpg?width=140&quality=85&auto=format&fit=max&s=86c3793a4bb41352af89d082d15d0324",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775102416.0,
       "hot": false
     },
     {
@@ -72,26 +198,44 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "21小时前",
       "pub_ts": 1775032379.0,
       "hot": false
     },
     {
-      "id": "f4548f1cd4",
+      "id": "6af4029b6e",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "報告和目擊者指伊朗安全部隊在戰爭期間使用兒童",
-      "summary": "目擊者告訴BBC，他們在德黑蘭及其他伊朗城市看到執行安保任務的兒童，其中一些甚至持械。",
-      "link": "https://www.bbc.com/zhongwen/articles/clye3gr64ggo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/97c6/live/903a1ed0-2cef-11f1-b297-95b0a0a8331e.jpg",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'We go for all humanity' - emotional moment as rocket launches",
+      "summary": "There was giddy euphoria at the Kennedy Space Center after the launch, writes the BBC's Pallab Ghosh.",
+      "link": "https://www.bbc.com/news/articles/cz90yp7w104o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6872/live/4620b5a0-2e31-11f1-b297-95b0a0a8331e.jpg",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "15小时前",
-      "pub_ts": 1775026140.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775099348.0,
+      "hot": false
+    },
+    {
+      "id": "4370dfef0e",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Record monthly rise in petrol and diesel prices, says RAC",
+      "summary": "March saw the fastest rise in fuel prices on record in pence per litre, according to the motoring organisation.",
+      "link": "https://www.bbc.com/news/articles/c20zgjzz0e4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6653/live/64a76bc0-1baa-11f1-9f65-e32170917420.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775087940.0,
       "hot": false
     },
     {
@@ -107,27 +251,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "17小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775019401.0,
-      "hot": false
-    },
-    {
-      "id": "15c3add4e7",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "中國禁止將空置住房改為「骨灰公寓」",
-      "summary": "由於部分地區房價較低，很多人發現，將親屬的骨灰安置在一間空置公寓內，比承擔高昂的喪葬費用更能夠負擔得起。",
-      "link": "https://www.bbc.com/zhongwen/articles/cvge9v370d9o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c129/live/18c95360-2ceb-11f1-bdf5-ddbf94ae98c3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 68,
-      "ago": "18小时前",
-      "pub_ts": 1775014926.0,
       "hot": false
     },
     {
@@ -143,191 +269,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "21小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775002308.0,
-      "hot": false
-    },
-    {
-      "id": "0fd77e0186",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Rachel Reeves says she's angry at Trump's decision to launch war with Iran",
-      "summary": "The chancellor says the US president does not have a \"clear plan\" to exit the conflict.",
-      "link": "https://www.bbc.com/news/articles/c625v1l4l29o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2999/live/9ab852f0-2df3-11f1-b297-95b0a0a8331e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775070710.0,
-      "hot": false
-    },
-    {
-      "id": "4adfbffcbf",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Rescuers abandon hope for whale stranded off German island",
-      "summary": "The whale became stranded on a sandbank before it was rescued, only to swim into shallow waters further along the coast.",
-      "link": "https://www.bbc.com/news/articles/cede246wd59o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1183/live/6aba4a20-2dff-11f1-934f-036468834728.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775067995.0,
-      "hot": false
-    },
-    {
-      "id": "60a6e7d340",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "A third inflationary shock in less than a decade is coming: who will pay the price this time around?",
-      "summary": "Brutal past experience has taught us that a cost of living crisis doesn’t affect us all the same, because we don’t all go into it with the same income or wealthPerhaps the most celebrated writer on oi",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/01/inflationary-shock-pay-the-price-uk-energy-crisis-us-iran-war",
-      "image": "https://i.guim.co.uk/img/media/5a286db937014a2561f377be56b39ea3c95ea68c/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b0584cf90f614eb35c026a4cdda4b8c2",
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775066081.0,
-      "hot": false
-    },
-    {
-      "id": "ddc7e5a206",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Hunt for gunman who fled on e-bike after Bristol shooting",
-      "summary": "A man in his 20s suffers potentially life-changing injuries in a shooting in Bristol.",
-      "link": "https://www.bbc.com/news/articles/c1krv2x1k4zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f56b/live/9da4fe80-2de6-11f1-ae65-97b179e2f0f5.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775065577.0,
-      "hot": false
-    },
-    {
-      "id": "8f9bffb129",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Trump says he is ‘absolutely’ considering withdrawing US from Nato",
-      "summary": "The president, a longtime critic of Nato, has stepped up his rhetoric after allies refused to join the US-Israel war on IranDonald Trump has said he is “absolutely” considering withdrawing the US from",
-      "link": "https://www.theguardian.com/world/2026/apr/01/trump-says-he-is-absolutely-considering-withdrawing-us-from-nato",
-      "image": "https://i.guim.co.uk/img/media/eeb2e35681a85e56e09b790a12a95649fe3f229f/508_0_5078_4063/master/5078.jpg?width=140&quality=85&auto=format&fit=max&s=d8fe0c246288665a07a88cd7a9cecae5",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775065520.0,
-      "hot": false
-    },
-    {
-      "id": "f32fd247ca",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Travelodge boss was sent email by sex assault victim",
-      "summary": "The victim of a sexual assault in a Travelodge - by a man given the key card to her room - sent an email to the chief executive soon after the attack.",
-      "link": "https://www.bbc.com/news/articles/cg54vn87813o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1175/live/bffd7040-2dee-11f1-934f-036468834728.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775063176.0,
-      "hot": false
-    },
-    {
-      "id": "2a5d491ae6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "CPS giving 'investigative advice' to police over Andrew and Mandelson probes",
-      "summary": "Police are carrying out inquiries into Lord Mandelson and Andrew Mountbatten-Windsor's links to sex offender Jeffrey Epstein.",
-      "link": "https://www.bbc.com/news/articles/cr518ppng30o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9704/live/e5ebfbb0-2de3-11f1-a79a-77e93010d956.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775063076.0,
-      "hot": false
-    },
-    {
-      "id": "7d362d4805",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "High times or low blows? Experts fail to clear air over German drug legalisation",
-      "summary": "Cannabis policy still divisive two years in, with SPD hailing it while CDU minister says it is risk to young people’s healthIt was a landmark piece of legislation passed by Germany’s previous, centre-",
-      "link": "https://www.theguardian.com/society/2026/apr/01/report-germany-cannabis-legalisation-fails-settle-debate",
-      "image": "https://i.guim.co.uk/img/media/86f92485368df701f7ebdf5b673adcec4377ae83/681_0_6830_5464/master/6830.jpg?width=140&quality=85&auto=format&fit=max&s=7b03e2e39dbf9528c855d218374f2894",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775062087.0,
-      "hot": false
-    },
-    {
-      "id": "0528c5f495",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Girls arrested as 'online trends' fuel disturbance",
-      "summary": "Six teenage girls are arrested after online trends spark anti-social behaviour in south London, the Met says.",
-      "link": "https://www.bbc.com/news/articles/cm25yv7z3jko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f49/live/8e2eafa0-2db9-11f1-b005-e161bad08af9.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775060212.0,
-      "hot": false
-    },
-    {
-      "id": "d68f3deb76",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "UK will seek closer ties with EU in light of Iran war, Starmer says",
-      "summary": "It comes as UK-US relations have been strained by the PM's refusal to be dragged further into the Iran war.",
-      "link": "https://www.bbc.com/news/articles/c62l6w03lwzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2952/live/95f06840-2dbf-11f1-934f-036468834728.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775059965.0,
       "hot": false
     },
     {
@@ -349,129 +293,186 @@
       "hot": false
     },
     {
-      "id": "a0014f4e09",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "1970年代的石油危機是什麼樣子？我們會否面臨更糟糕的局面？",
-      "summary": "雖然兩次危機都與石油有關，但專家表示，20 世紀 70 年代和今天發生的事情之間存在一些重要的差異。",
-      "link": "https://www.bbc.com/zhongwen/articles/c30rq424212o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/e9e7/live/befaf650-2c2b-11f1-b8c9-f5058c0aec9a.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1774940458.0,
-      "hot": false
-    },
-    {
-      "id": "f20854ccdf",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "雄安新區十年：領導人「個人設想」、洪水爭議與「疏解」暗戰",
-      "summary": "「如果它成功，將可能成為一個可在全國複製推廣的模板；如果它失敗，則將徹底暴露單純依靠自上而下的頂層設計來打造創新活力與城市生機的根本局限。」",
-      "link": "https://www.bbc.com/zhongwen/articles/cpd5zj8e3p9o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/78b0/live/373e8040-2c1e-11f1-a165-7f32552c9375.jpg",
-      "categories": [
-        "天气"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1774916394.0,
-      "hot": false
-    },
-    {
-      "id": "d103e9b7c8",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘The manosphere is dead and no one cares about Andrew Tate any more’: the poet taking on toxic mascu",
-      "summary": "Sam Browne’s blend of brutal honesty and droll observation has made him a viral sensation. He talks about growing up in Southend, mental health and the healing power of poetryOn a cold night in east L",
-      "link": "https://www.theguardian.com/society/2026/apr/01/the-manosphere-is-dead-and-no-one-cares-about-andrew-tate-any-more-the-poet-taking-on-toxic-masculinity",
-      "image": "https://i.guim.co.uk/img/media/d3e60cf0241687ebe909d677336cd8b0de852965/313_0_9375_7500/master/9375.jpg?width=140&quality=85&auto=format&fit=max&s=112feb84fc28346644626246aae1a604",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775058836.0,
-      "hot": false
-    },
-    {
-      "id": "24e88d99f9",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘We got cancelled and we’re still here!’ Michael Patrick King on The Comeback – and why And Just Lik",
-      "summary": "Could AI write an entire sitcom series? That’s the plot of the new season of comedy drama The Comeback. Its co-creator explains why it’s ‘very possible’ – and why the world needs to catch up with AJLT",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/01/michael-patrick-king-the-comeback-ai-twist-lisa-kudrow",
-      "image": "https://i.guim.co.uk/img/media/db7782d7e93dbe5d4bbd710f76fc965e8282ebf4/886_114_4857_3886/master/4857.jpg?width=140&quality=85&auto=format&fit=max&s=8b606c41b61cf401781769a3e373f1a7",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775057397.0,
-      "hot": false
-    },
-    {
-      "id": "361d50e00f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Officers investigated after black child suffers broken knee in police search",
-      "summary": "The IOPC is investigating six Met officers, looking at the level of force and whether race was a factor.",
-      "link": "https://www.bbc.com/news/articles/cp38qz29k83o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7511/live/2393de20-2dc0-11f1-b45a-13c2fd78bbe1.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775053336.0,
-      "hot": false
-    },
-    {
-      "id": "47864f46d1",
+      "id": "b8a87276c5",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Stella McCartney's clifftop 'forever home' gets planning consent",
-      "summary": "The fashion designer and her husband plan to build the house overlooking a sea loch in the Highlands.",
-      "link": "https://www.bbc.com/news/articles/cy91vp298qno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e794/live/045c4ee0-2dcd-11f1-91d2-f9f3a172f846.jpg",
+      "title": "Doctors lose new jobs package as strike to go ahead",
+      "summary": "The offer of 1,000 more training posts has been withdrawn after the union refused to scrap the planned six-day strike.",
+      "link": "https://www.bbc.com/news/articles/cwyj7dwwlq9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6dd/live/f8c5f5b0-2e15-11f1-a79a-77e93010d956.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775086179.0,
+      "hot": false
+    },
+    {
+      "id": "78b82cb97a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "New laws to make it easier to cancel subscriptions",
+      "summary": "Consumers will be able to cancel unwanted subscriptions 'at the click of a button', the government said.",
+      "link": "https://www.bbc.com/news/articles/cvg0v36ek2go?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6d4/live/ec7705e0-2de5-11f1-ae65-97b179e2f0f5.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775085034.0,
+      "hot": false
+    },
+    {
+      "id": "2121684a24",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Motability drivers 'horrified' by compulsory black-box trackers",
+      "summary": "The boxes will monitor driving habits, such as speed and braking, and will provide a weekly rating.",
+      "link": "https://www.bbc.com/news/articles/c203n6qx3ego?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c0f8/live/efdffda0-2de9-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775084958.0,
+      "hot": false
+    },
+    {
+      "id": "51509d234e",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "The delicate question of where responsibility lies for safety on our mountains",
+      "summary": "Who is responsible for safety in our mountains?",
+      "link": "https://www.bbc.com/news/articles/cz0e105yk23o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f827/live/addd8a70-2ceb-11f1-a79a-77e93010d956.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775084889.0,
+      "hot": false
+    },
+    {
+      "id": "646cca762c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch the moment Artemis II blasts into space on historic mission",
+      "summary": "After delays and technical issues, the first crewed Moon mission in 50 years finally took off from Florida and is now in Earth's orbit.",
+      "link": "https://www.bbc.com/news/videos/cwydnrmggnno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e79/live/e54a99e0-2e57-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775084439.0,
+      "hot": false
+    },
+    {
+      "id": "afb8a02e02",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "This Artemis moon mission is a truly unifying international project, one of the few we have left | C",
+      "summary": "For the first time in over 50 years, astronauts will see Earth from distant space. Let’s hope the images they send back of our fragile home bring some much-needed unityMore than 50 years ago, the Apol",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/01/artemis-moon-mission-international-astronauts-earth-space",
+      "image": "https://i.guim.co.uk/img/media/b6886a8fab1c13368adc39763de8d4a3d0e76993/329_78_2566_2053/master/2566.jpg?width=140&quality=85&auto=format&fit=max&s=6809c4c680ecafdcefc079404c850d47",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1775052455.0,
+      "pub_ts": 1775083104.0,
       "hot": false
     },
     {
-      "id": "7e7b896ea1",
+      "id": "0fd77e0186",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Rachel Reeves says she's angry at Trump's decision to launch war with Iran",
+      "summary": "The chancellor says the US president does not have a \"clear plan\" to exit the conflict.",
+      "link": "https://www.bbc.com/news/articles/c625v1l4l29o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2999/live/9ab852f0-2df3-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1775070710.0,
+      "hot": false
+    },
+    {
+      "id": "4e1eec6f4d",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Would more North Sea drilling mean lower energy prices for UK consumers?",
-      "summary": "Kemi Badenoch claims increased UK oil and gas production would cut bills by £200, but critics say plan won’t workOil prices hit $100 a barrel soon after the US and Israel launched their attack on Iran",
-      "link": "https://www.theguardian.com/business/2026/apr/01/would-more-north-sea-drilling-mean-lower-energy-prices-uk-consumers-explainer",
-      "image": "https://i.guim.co.uk/img/media/0a134c8e3cb100861a65ed7c544e27ba75c4945f/33_0_1758_1406/master/1758.jpg?width=140&quality=85&auto=format&fit=max&s=4bb4b6d88eea41a83fa0466289e17c68",
+      "title": "Israel hits Iran with waves of attacks and says it killed top Hezbollah commander",
+      "summary": "War shows little sign of easing despite Donald Trump claiming Iranian leadership ‘just asked’ for ceasefireMiddle East crisis – live updatesIsrael unleashed two waves of attacks on Tehran and said it",
+      "link": "https://www.theguardian.com/world/2026/apr/01/israel-hits-iran-attacks-killed-senior-hezbollah-commander",
+      "image": "https://i.guim.co.uk/img/media/a67520761326de96ee18295886624a08f7a305d4/238_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=73129ba332d29af53a8f19207dac5287",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775052001.0,
+      "ago": "10小时前",
+      "pub_ts": 1775070061.0,
+      "hot": false
+    },
+    {
+      "id": "2a5d491ae6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "CPS giving 'investigative advice' to police over Andrew and Mandelson probes",
+      "summary": "Police are carrying out inquiries into Lord Mandelson and Andrew Mountbatten-Windsor's links to sex offender Jeffrey Epstein.",
+      "link": "https://www.bbc.com/news/articles/cr518ppng30o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9704/live/e5ebfbb0-2de3-11f1-a79a-77e93010d956.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1775063076.0,
+      "hot": false
+    },
+    {
+      "id": "d68f3deb76",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "UK will seek closer ties with EU in light of Iran war, Starmer says",
+      "summary": "It comes as UK-US relations have been strained by the PM's refusal to be dragged further into the Iran war.",
+      "link": "https://www.bbc.com/news/articles/c62l6w03lwzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2952/live/95f06840-2dbf-11f1-934f-036468834728.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "13小时前",
+      "pub_ts": 1775059965.0,
       "hot": false
     },
     {
@@ -488,44 +489,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1775044239.0,
-      "hot": false
-    },
-    {
-      "id": "26dd1930b4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Estate agents accuse Rightmove of charging excessive fees",
-      "summary": "The online listing portal is now being pursued in a class action, launched on behalf of potentially hundreds of estate agents.",
-      "link": "https://www.bbc.com/news/articles/cn0yle5rrp8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc78/live/161120e0-2d9e-11f1-8be6-dbad2e8ac294.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775031336.0,
-      "hot": false
-    },
-    {
-      "id": "556d67b727",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "My daughter has childhood dementia and may not live past 16",
-      "summary": "Diagnosed just before her fourth birthday, Sophia, now 15, can no longer speak and cannot walk unaided.",
-      "link": "https://www.bbc.com/news/articles/c5yj634ml71o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8bbc/live/3e58e000-2d0e-11f1-9005-cf873f959530.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775020725.0,
       "hot": false
     }
   ]
