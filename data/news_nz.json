@@ -1,152 +1,422 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-03T14:33:55.696937+00:00",
+  "updated_at": "2026-04-03T18:00:17.946044+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "c0241a7a75",
+      "id": "1eef60d29b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Iran searches for downed US jet crew, US media reports one rescued",
+      "summary": "Iran has launched a hunt for a US pilot whose jet Iranian media said had been downed by the Islamic republic's air defence systems - the first such report in the war engulfing the region.",
+      "link": "https://www.rnz.co.nz/news/world/591468/iran-searches-for-downed-us-jet-crew-us-media-reports-one-rescued",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1775238254.0,
+      "hot": false
+    },
+    {
+      "id": "aeb6e8799b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Todd Blanche takes over US Justice Department, where there’s no escaping the Epstein files shadow",
+      "summary": "US President Donald Trump tapped the Deputy Attorney General to serve as interim head of the department after firing now-former Attorney General Pam Bondi.",
+      "link": "https://www.rnz.co.nz/news/world/591475/todd-blanche-takes-over-us-justice-department-where-there-s-no-escaping-the-epstein-files-shadow",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1775237507.0,
+      "hot": false
+    },
+    {
+      "id": "fc0d3e5946",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Tauranga dog attack victims upset council won’t reveal what happened to attacker",
+      "summary": "Tauranga City Council says privacy law stops it saying what happened next.",
+      "link": "https://www.nzherald.co.nz/bay-of-plenty-times/news/tauranga-dog-attack-victims-upset-council-wont-reveal-what-happened-to-attacker/EX5QKYGGBFAODLXNMCWMNLRJCQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/JZUAQYGUF5HLVMAWATE4DV6X3E.jpg?auth=c174c1ee834cb87dc87b0473ee6f4f840411ba52ab08b39b69f8f6139205e207&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1775235900.0,
+      "hot": false
+    },
+    {
+      "id": "66b353a680",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Visions of a Helping Hand Trust to close Rotorua homeless laundry and shower service as funding drie",
+      "summary": "A funding squeeze is closing the free laundry, showering and second-hand clothing service.",
+      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/visions-of-a-helping-hand-trust-to-close-rotorua-homeless-laundry-and-shower-service/S4TPNGWZHFDPTA6L4XNI2QKDHI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/HKAMWW3LO5HGXGUIAZB6UYC7Y4.jpg?auth=0f4309a3d40142d9dfe0fc4a52576787946661a24e39dd0cb05bfabefc37e256&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1775235720.0,
+      "hot": false
+    },
+    {
+      "id": "b60ac031df",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "First Dannevirke solar farm under construction, with plans for another in 2027",
+      "summary": "The project's expected capacity is 23MW peak, the equivalent of powering 5000 homes.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/first-dannevirke-solar-farm-under-construction-with-plans-for-another-in-2027/premium/Z6W7E7S37ZAGDLJV6OXHUR7MZQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/IGHX4IKWLNFD3OAM7SLHRKBAVU.jpg?auth=02482235f6443a0eeb4369a4cf91ddbfd9e6c213e07ae556e42c88380c2c1763&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1775235600.0,
+      "hot": false
+    },
+    {
+      "id": "5b18f2f610",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Austin McDougall: The national junior boxing champion making a dramatic athletics emergence",
+      "summary": "He didn't make the podium at the national schools champs. Four months later, he's soaring.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/austin-mcdougall-the-national-junior-boxing-champion-making-a-dramatic-athletics-emergence/QJKTNF6SNBCFBOWWXNQHG5WADI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/ADDY6SQZFJDI7C4BRI4Q4HGTOI.jpg?auth=d215e50164a0152c43b8dac23a9f460ab96ed5e7e956c37db19a9d544ae5c805&smart=true&width=300&height=300",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1775235600.0,
+      "hot": false
+    },
+    {
+      "id": "7eb134fac0",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Solo mother Alexia Barbarouses swaps banking for big nights out to revive Hawke’s Bay nightlife",
+      "summary": "The 32-year-old left her banking job in December to start organising night events.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/solo-mother-alexia-barbarouses-swaps-banking-for-big-nights-out-to-reboot-hawkes-bay-nightlife/premium/P24CG6I24VEBLOSEZMBEAYQDHM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/S6DHECEDOJCJVBMURY3VYWYZRY.jpg?auth=ba691414d2fc5e881727d2a125830842374fffca2d4b9dcda9b98d91edf80824&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1775235600.0,
+      "hot": false
+    },
+    {
+      "id": "be05da25a2",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "A brief history of mulled wine - from health tonic to festive treat",
+      "summary": "Before wine was known as mulled, drinking wine flavoured with spices had a long history.",
+      "link": "https://www.rnz.co.nz/life/food/a-brief-history-of-mulled-wine-from-health-tonic-to-festive-treat",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775232364.0,
+      "hot": false
+    },
+    {
+      "id": "d8e013617f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Nvidia’s new AI tool is giving female game characters a makeover - and gamers are pushing back",
+      "summary": "Described by critics as a \"beauty filter\", DLSS-5 is raising concerns about AI being given creative control.",
+      "link": "https://www.rnz.co.nz/life/screens/games/nvidia-s-new-ai-tool-is-giving-female-game-characters-a-makeover-and-gamers-are-pushing-back",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775232364.0,
+      "hot": false
+    },
+    {
+      "id": "d22fbf4401",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Stickers deemed a safety risk in Whangārei Hospital industrial dispute",
+      "summary": "Health NZ argues stickers pose infection and health and safety risks.",
+      "link": "https://www.nzherald.co.nz/northern-advocate/news/whangarei-hospital-industrial-dispute-sees-stickers-deemed-a-safety-risk/EWTKW54VAJGS5A6KTMD7Y6BW6E/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/PKYM4PVMK5EW5GKJHKCRKMLSXI.jpg?auth=541e080fe21881b0c6fd23a35f92984cca5893fe9f541ddc1bce53be9a6d8cdb&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775232000.0,
+      "hot": false
+    },
+    {
+      "id": "0778907931",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Daylight saving is over: Time to reconsider changing the clocks – Editorial",
+      "summary": "OPINION: We’ve managed change before, we could handle it again.",
+      "link": "https://www.nzherald.co.nz/nz/daylight-saving-is-over-time-to-reconsider-changing-the-clocks-editorial/premium/RYF6IYSMNVG5BDKZBWZRMEQNAI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/DEVSIO2XCBDLRNJ56BTDIHAST4.jpg?auth=2df1c9df51d1d2400b2d19e9285578e44bbffb81b2081ceb0e89775dd8c59782&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775232000.0,
+      "hot": false
+    },
+    {
+      "id": "a238718fbf",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Saving ‘mega dollars’: Fuel prices pushing interest in electric transport in Whanganui",
+      "summary": "Riding e-bikes has become more of a norm for commuting and for leisure at the weekend.",
+      "link": "https://www.nzherald.co.nz/whanganui-chronicle/news/saving-mega-dollars-fuel-prices-pushing-interest-in-electric-transport/4M7V4WFJWVBU7PMJWKAX4Y2DA4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/CVNMX6KCRNB27ELRJM55OGPJQQ.jpg?auth=91636fd348c7f7e1394bcbdf86d92e7aae2304ac7e51d2302543f98b63a43a6a&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775232000.0,
+      "hot": false
+    },
+    {
+      "id": "1f1ba0fdd3",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "We're living apart - are we subject to relationship property rules? - Ask Susan",
+      "summary": "RNZ's money correspondent answers your questions.",
+      "link": "https://www.rnz.co.nz/news/business/591465/we-re-living-apart-are-we-subject-to-relationship-property-rules-ask-susan",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775231491.0,
+      "hot": false
+    },
+    {
+      "id": "e3cbf0c52b",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Russia strikes targets in Kyiv region as Ukraine holds door open for Easter truce",
-      "summary": "Another person died Friday after a Russian bomb struck an apartment block in northern Ukraine, according to local officials.",
-      "link": "https://www.stuff.co.nz/world-news/360960319/russia-strikes-targets-kyiv-region-ukraine-holds-door",
+      "title": "Trump’s Iran war leaves Republicans adrift ahead of midterms",
+      "summary": "After promising to lower costs and end wars, Donald Trump is a wartime president overseeing surging energy costs and an escalating overseas conflict that many in his own party do not like.",
+      "link": "https://www.stuff.co.nz/world-news/360960326/trumps-iran-war-leaves-republicans-adrift-ahead-midterms",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZPF0DCDW9H%2FFAJ1AMNxM7kQAg3+BUHgZMAMOYFnxv49IVLXDjZM0%2FK7DJRYBUnJb5ADvl6sepnb4zwyqgj9EEoBUQZ4+uWskwESY15G%2FLQ2cvVGLUleKAshCKglz5owjc6kTw4G7Jo954WJkzebrqOaNtnepPyLjma3lGwwo3CpYv2Rigs3GQj6NGhmPTa8OdnRRYo5uk33JNAWm4mCaP5CYLfAR73Ecyw+wg+UJPOuoKcnkQuyC0qfytRuIyKV7dKz73DMFj%2FlC6Dnozxj+I+wLZbF7O4ZEWQHFdrdaOZOxuxpUPEzILbQhS1wkWWgRE4UQzMk3GpidHFTnIPCsj8Y9hhlq6VXSAp5QlSX3QqUnlH51GyCu2uiZXsNidpSu6SqJNz3ObA0QA%2FXotXKkrK5eU+Mlewvp4bAph%2FT5NkHc4W6wNf%2F4Gu4SJyy2SyQlGT%2FECO3vRMojDxZLnhV7kU=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775231225.0,
+      "hot": false
+    },
+    {
+      "id": "c54a686e7f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Wairarapa council hopes new anti-erosion tech will be 'magic bullet' to protect crucial road",
+      "summary": "Constructed out of interlocking hexagonal blocks filled with aggregate, it replaced boulders that frequently washed away.",
+      "link": "https://www.rnz.co.nz/news/national/591472/wairarapa-council-hopes-new-anti-erosion-tech-will-be-magic-bullet-to-protect-crucial-road",
       "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775231204.0,
+      "hot": false
+    },
+    {
+      "id": "05ac562a25",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "The hidden swimming spot with a surprising past",
+      "summary": "Follow the bush track for a few minutes, guided by the sound of the falls. There, you’ll see Maraetotara Falls spill in a wide curtain over a perfectly rounded edge, down mossy rocks into a deep green",
+      "link": "https://www.stuff.co.nz/travel/360959900/hidden-hawkes-bay-swimming-spot-surprising-past",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYao0nO8B%2F+9mnzlRWLfGuCHlek%2FRnkvPmgWhsp1zuKeasPlG8SHvM4SfBMQ%2F442xJGPciTRixBVD+%2FMy2%2F+VcZgNHUnfe1VFmbmiOc5WBq8aUYEWjBv9ASYysx7zYzjqPT2RdcNWaFjmGgKAmUpMOong3G15fFA+T5K7Ofp1mogiUpZ%2FqCyDyYXNqPnurKaTncYISfrDzm3uX0xI8qDSKzJLg5wzP8I5rPZhku5KCKx3WZ5aupofJHT1nvWx%2FtfXl2xZ6gC2nRzJb7ZDVmHAtew9kJ08LQXu%2F%2FL9ek2c3Ocf%2FG0mJ7HbopFV3OfbpZ8X4NfUUJ3eTbE9d2fkCr7UQ0AkLX9vAKmPCX699ix4Ay6m9qyr%2F4XlKgBV20QeR09rVSdKDHrIY9m%2FFkx3zEOQ8etHZGQYOzSTFtqdu8EAa4cLUUhzAgPa+pIcpi7Rd9dBAQ==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775230069.0,
+      "hot": false
+    },
+    {
+      "id": "0e2511a0c0",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Artemis II's moon-bound astronauts capture Earth's brilliant blue beauty as they leave it behind",
+      "summary": "NASA released the crew’s first downlinked images Friday, 1 1/2 days into the first astronaut moonshot in more than half a century.",
+      "link": "https://www.stuff.co.nz/world-news/360960325/artemis-iis-moonbound-astronauts-capture-earths-brilliant-bl",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcji9RNnuzmc7bJS92mPWQ723GeZ+VDy%2FkGjtp2JZo79QaacNSBNVe6YPj0xQ4ZAf6X4eNJQiQOatEmoOaH0L7JFLi5r%2FN%2FcXMcr5E11drAKUHDA0RWAPTpDyy9soplHTqu+RDdwwMdHo0KFXFDSASNJ1c5xuXSublamu4fKplHB3ePV6xicK2Z0SInCR1JmKaHGjb3+toxPZCy+0hn3NOT7tiyCR7uh607ylbRuS9ByzHW2BQqYV1G0QKXPjc2D6pAIUb5W%2FY2l%2F+xP5LExkiYouqn7gOkeecn9GZBX8eBYMI4n919IcfFBjuJTtyuINf++Lc1mpAg9N3lMWvRML0HOfwb7+OlO+HuY0ojxr%2FvkUbPcVLdD35jX4FT4OwFCyJMvoCo0v9rxVDaWuBzaMBIazRSBRjcDWri5PDv0mev2bU49GWmRNEkxYOmb6FSmgN2swhr%2FZf3%2F5kssIV4wbh4=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775228810.0,
+      "hot": false
+    },
+    {
+      "id": "933ca6244b",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘Would you rather I stay in shop doorways?’: Rough sleeper camp grows on abandoned section in city’s",
+      "summary": "A property abandoned after the 2011 earthquake is home to rough sleepers and a lot of rubbish, drawing years of complaints from neighbours.",
+      "link": "https://www.stuff.co.nz/nz-news/360958028/court-action-looms-rough-sleeper-camp-grows-abandoned-section",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYU%2FsK%2FHH4zZ8o%2FZvV5fqCMHEVB0t%2FQMPbd5W9nJDkNqZP9e8C5%2FkEdGY%2FMWBZWzZmETWpcozP2dxd%2F7pG+pGdnfWLAdk0d7RLgCf17MbU4IPQyr5OPmPMHCRimZZ7FYMxuRVNEfVfIP7qUC+1FkZhxIiPrL+uRrJ2ieNJssGxkGeZSJqbvEjak6nUU83KF8GSoge8Txsel5vS1Od%2FqwXLKXtvknMpsbTQEnOXvSxwfzOY%2FfxCSA4Sx7auObeT2WUOybcYGaJZPUBBASkjDIE7WSM+4EUO%2Fk6iTIfRehIjj7f7WACB8xXxUQOyecmJ+3+P7APsfUliX7sQdbEifT%2F6XAzQzTx7S8wZROvlzELq1RIwnb%2FMnZx2NDKbVrCiVHpk9nesMXJdC6WZ0AvQapSk+eV5BFmiEXjFG5RKPYSKXcQtJA7VN9w6KurVO6k4jjmGg==?resolution=1240x700",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775214005.0,
+      "ago": "2小时前",
+      "pub_ts": 1775228400.0,
       "hot": false
     },
     {
-      "id": "90cf6eaf18",
+      "id": "014d13d0e4",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Stunning strike and a throat grab: Auckland FC’s explosive draw",
-      "summary": "Auckland FC move within three points of the A-League leaders after a 1-1 draw in a match marked by eight yellow cards and a throat grab.",
-      "link": "https://www.stuff.co.nz/sport/360958076/stunning-volley-keeps-auckland-fcs-premiership-hopes-alive-fiery-draw",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfi%2FNNz0klsKiPjKPPLC5jr+7NwLD2ocR8aKkhOM8Owz5PZ%2FrYxEMuwN+3JTv3cXs8WjrMu6GNPj0cutuvnloh09OOOGUov+HOhSrvS+sEStsGCB2S+ZkDGgfMwZjRDGStBfetPAF28ArOaGgwNGpgK7laK%2Fp9A56odrY+WUCEDWa0eqz492fTP1Sp2uCURlJ5CIJLOG0obL9ZERIk6M0yctL85JOUMzcvtSFM5mqwQuWSrLPv6w47o+lCf6SsBI2gJqDTlgRAXpXQu00RNATNs0hHXEHutFIpPn61eqSPCbyG4VtICwRCXai4B+br%2Fcxyb74FlvoAQnzROuuPFyVEo9y0sQBgKVL%2FjHF47XGQ1SRkh3nK6O2boTLQM75OitlVaWUG3jxmqXcNxR4M3T86RLr8EwKwBSa9Ia3pudh8YqskZqYYOa12vBao8FUFyGk1Ve7iPx7ZxYP6jxPVL2%2FkQ=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775213046.0,
-      "hot": false
-    },
-    {
-      "id": "179d138eeb",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "‘Giant’ pig rescued after West Auckland excursion",
-      "summary": "The pig caused a stir when it was seen cruising down the streets of Swanson.",
-      "link": "https://www.stuff.co.nz/nz-news/360960310/giant-pig-rescued-after-west-auckland-excursion",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYc%2FxQkIcnAIQOM93tBVMkD13t2Hq1mv0Jb308EtHzoQgJS1EiYM91%2F8lOXKGQhzpp3sQHx3wspvuR+9CfzVqV9uaQFcTFw0xxahL5qQbzTuOLm83J%2F2T0f6F5IJBLmqZx5H0YbAmMAEa2Xi+Ax0FhFGKPK5LWArBSaM3jF+F+cTlQWeWTYWuWiV12nexzzCT14FR7z78asZbVCbhFz5v3fzqQVkfJdbomvU63bg95zljQobOhVudNxALnmCY9JNSI+f6aOSCLC5jKmGJbPNKdm%2FgBIg3VIMvAo1GGFQ46VXyoa386Ps7zIVtaeCDmaLof8qJ1i9dIHQig4FkpEOLOmTwEjpUeA788ZquixKvLx5Csyi65bNmOw1ICx4D6SyQLoI+Q1phjSEqjgB8W1KF2TOCYdN8xW8IeYsnBW0r9xuV8ERa80NuBGPO+6YKyotUaGHY%2FO1IvQWoQ8zkWXYDE4Y=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775206228.0,
-      "hot": false
-    },
-    {
-      "id": "dcc2367897",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Crusaders v Fijian Drua: Codie Taylor scores four tries in 150th appearance as Crusaders run rampant",
-      "summary": "The Crusaders signed out of Apollo Projects Stadium with an 11-try performance.",
-      "link": "https://www.nzherald.co.nz/sport/rugby/super-rugby/crusaders-v-fijian-drua-live-updates-final-game-at-apollo-projects-stadium/TW5PXINIHBDS5HZ6ORGYWEDT3E/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/CRTA34DOXJCKNGAQLWGZDXLISU.jpg?auth=965452cb4dc4b4c826fdd1c9c8759a21a045ffd9ea8738b3ff74418c62859fc8&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775204274.0,
-      "hot": false
-    },
-    {
-      "id": "72e9d315e8",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Watch: Happy hooker scores four tries as Crusaders demolish Drua",
-      "summary": "Hooker Codie Taylor, in his 150th match for the Crusaders, was the star of the party when he scored four tries during the 69-26 victory over the Fijian Drua.",
-      "link": "https://www.stuff.co.nz/sport/360960279/watch-happy-hooker-codie-taylor-scores-four-tries-crusaders-demolish-fijian-drua",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYSuho62mHbc+RvYxpa5ITCROgEZ%2Fd1y9vdVcqC87kkMBQ66iDskYpwVwNPf00QKKUC0yJxt9Yp1amF7s%2FmaDnDSa6G5sMZmP3yp2%2FH+OUdGWSiYAya50wqQZMwo4YycflNddO6GFo0PCWe%2Fv2syyqMC7bv+DFhO1qCX8uiByKKOQFRiX98bZbAcBXZwQwCd4wGy52ZrwrMvaHkGzZ0iHyWhOClgxTc4ofGDfqOZKFxZpQfoNp9bzsHehUeXP8nRNPzX7OCXIyaKQDm%2FguOLaxRLasxT99iGgLLPrvobuegkn92rJ+WL79BF7aW57iDu2leYElc9bSjwBbGIkXh3ZyAl9zmaIncAYPBBPLv+RTkod9FMMbisMWYlu838Z8SeVFvyYhEN5SdgPxK8qLsvfTouy6IM0opdqzlRw6hZ1ysfXaKEhTvZRXGlnJg7waG8%2FT5PaUlKyitJR3T7Fv8cGJ4=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775203686.0,
-      "hot": false
-    },
-    {
-      "id": "bd5c63c38b",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Hamilton couple found dead after child wasn’t picked up from school",
-      "summary": "A man has since been charged with murder.",
-      "link": "https://www.stuff.co.nz/nz-news/360960100/man-arrested-charges-murder-after-two-found-dead-hamilton-east",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRAybZUSgsxZPnnYPbFsBHOQYeuscL4rfjW7VFff94j5cZ5he7w7jLsYEvKGY5FRuE1xVBWUwSUnu8Pwb+yVWhZ6%2F6OVJIzvjxAVduBUcZUzECGVX9FOrg%2F8R4FV%2FAEXMo6iE7uZlQwxKicn7MNQ3a8=?resolution=1240x700",
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775202623.0,
-      "hot": false
-    },
-    {
-      "id": "23ad91d3f6",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Phoenix clinch historic semifinal spot with vital win over Adelaide",
-      "summary": "Brooke Nunn stars as the Phoenix overcome back-to-back defeats to lock in a home-and-away semifinal.",
-      "link": "https://www.stuff.co.nz/sport/360958100/phoenix-clinch-historic-semifinal-spot-vital-win-over-adelaide",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYejDg+xvT1yRTCUukhVOlDQE+QQQmm2Nsa0wHCzL5ZoRJc6IxTfTx8kmIDEVMJPUK8%2FakycbCn+V1mDUl8ECZgY3rjy2Xl6Cvt2mH3kxFrklHmJbdZobunCtXVdWnSr0tzYbzz24gTbzCJEP1mYKTqKGjglr7nCzZHdiQgqu%2F2lOqb29GlJiSNN8yaZ+SYs9f28UZnazyS9e3SHgpQnPCE5II%2Foz5nEW0IqLbIOLI5RC19invA7Tx6Ou7VPgnPwsmfjGZj1BUSOBL+frtEeYMrKhAOW%2F2r3ETeWuzWRduLzo2lZWBxkIKUF2tLLgbfUpsvMnfjg0nvcG1kN3ps%2FQZncEMmetLrG%2FwXiDsdWizq16CT1zjCUe42C350LZ7qD+XUD7a4K3VBgwsw47ImWDHetg5RAtj5OMT9ZTcJDrNa%2FLYxZeBzLAADf9zq7m5IpCjQ2r69L4xJsF63By80nxEuA=?resolution=1240x700",
+      "title": "Fresh from jail, serial scammer faked police report to steal nearly $400k from businessman",
+      "summary": "Recidivist offender Brendon Karl Dean Harris pleaded guilty to six charges, relating to an elaborate scam he and another man carried out.",
+      "link": "https://www.stuff.co.nz/nz-news/360959866/fresh-jail-serial-scammer-faked-police-report-steal-nearly-400k-businessman",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbTOnxtbryrNUwh43k5QMi2IPG5JtcaE+D5GYuUo2ert3BBgvYEd+JW7Z28XIdhxLuR31nCn4QsipfcDBw+P5C%2FWoknzwH63ai8sNxTe%2FQXUYfRdErAl3KVjKIxAww3PxqDjCulHRoRsWDTHiK4+MT%2FA%2F4N95EWOrs9AEHcxx2BZyVTDWUBPngJ+NbTlBn381NxcEaC%2FhujG0bCVspIlWq+SqNmVk0diD5lHa3rBKthyVITCfqSGBog3qSyMLFujUSB0uGCQ7bbBy4HJNpVlVNZr4MX5ybt1cVfMNxsnwlX+yMHwORg7%2Fub6KqCZWIpIjkbB6oGBPzzgrWKRs8Pj7oVujsCTg62tn9WBxPk88KMJPzjWQ2%2Ft%2FyY0LQEp4wfe48A0E48w4HAHmojTW%2F76JnZIircvn5FBrSjaL8eByIXrV1EL1Maxi4Fz%2F0pa+UnCecxgb9MmZH2lBivtlEO5D00=?resolution=1240x700",
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775202521.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775228400.0,
       "hot": false
     },
     {
-      "id": "ca4a8a31ab",
+      "id": "252df2404b",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "Stuff NZ",
       "lang": "en",
-      "title": "Auckland downhill mountain bike club hit by diesel theft at new park",
-      "summary": "Thieves siphoned about 200 litres of diesel from a digger being used to build their park.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/auckland-downhill-mountain-bike-club-hit-by-diesel-theft-at-new-park/BHDLEJJ4VJHALDGWCXLX6BH4VY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/MOPD3EXE2FAOJKCDFP6EBQPO4U.png?auth=1c146ca93a04cdae25bed1988604bc4e8e0a3a64b942bd778dae95443b7d3eaf&smart=true&width=300&height=300",
+      "title": "‘Perceived intimidation’: Why was ‘critical information’ removed from a safety report?",
+      "summary": "A senior NZTA rail safety officer’s report was amended to remove criticism of KiwiRail staff. The officer claimed the move allowed KiwiRail to think it could “sway decisions”.",
+      "link": "https://www.stuff.co.nz/nz-news/360959822/perceived-intimidation-why-was-critical-information-removed-safety-report",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYToY9DCZJPQd5Itgsp52ZRNgNGR258LvDqQA2vzator+pyqvlAsHhNJwe3ET8gHUvwtu0mGCVyyKlGeSRZOIM1c5CfuRVBqG6QcXjvjw+ogjzjEwNxN+hhNrovyUIF2GXxbZpkk7i3bKKOF8GUcNfuTV2qoGylfmPaNlC0AdpW0JuttKJVYy8TtWuvTAVWFSvhglI0Som0r9hs9qnfYNpCP4g6It1u7xPx+yX4YfyMSeLPN0m%2FGDwMPDzWZQGail2a1dR1ywPnEYguL6wCtC+bC0K5szRoc8Cfg+j5Mv+7FPezYvtQ4bdN4oLfhM6wgvN7OffMGbwxuH0wenzP423k7%2F%2FCvR1bkcKwy2x6BDP%2FMptYDG1KBF%2FFpvpGOL0Qyd3T%2FlQRE9GO1Fsv9V1EJOiAqzWiCNbzT8ILU81SYgLyp0FzVz7awJ5NPgQf9nUC8SJsaZHaUxvl76ytrLy2+19qM=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775228400.0,
+      "hot": false
+    },
+    {
+      "id": "9de8ecb692",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "He’s applied for more than 50 jobs but can’t afford to drive to the interviews",
+      "summary": "Stuart Baker has job leads, applications out and people willing to see him. What he doesn’t have is the money to get there.",
+      "link": "https://www.stuff.co.nz/nz-news/360958987/hold-every-penny-hes-applied-more-50-jobs-cant-afford-drive-interviews",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVssfN7w4YcjvfIYvsK64Sx6pq4AEyNcfHwYmCqGPzR7QSV3HHw4Od3l%2FWL0HnMnDNG7HeblRyvyloMZvndmJhZWN1Kszrf5emoTTjoInl73cTV7dJmF4JFXYSbagHsv39FwlmlFZwwnBaqoMTB6EKQ=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775228400.0,
+      "hot": false
+    },
+    {
+      "id": "c85eb15562",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Here’s why sex doesn’t feel ‘easy’ for you",
+      "summary": "“Movies have totally screwed us over (pun intended),” says Sofie Louise.",
+      "link": "https://www.stuff.co.nz/culture/360958450/heres-why-sex-doesnt-feel-easy-you",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYd8gn7C4NOfvi23+S7OJE3LKAaf6qhfO9XGHLcUqz6hA6HiouMeT0h3fHIFV+DyHZ3xWTcLZl9zOtqeE8%2FwEtbGvdxICsrcD5HJBZiM2lBhIaet561hOUO7DC8hITgsXg9D%2FUEdU1E6+GS5yqWWqXaqn%2Fqy%2FnI3OKWTNr0NO0t8V+yr+r6kkdOGP1oVsm%2FngRO%2FM+o8EpK+hUsbCZPw2umcKKjyiVG5oUFBn0I%2FXoJBxE2SUb3uiGOeGKputtJQ8JCoA1kCstghkw5QPuLSJ2AIij6bUo6QHKUaQx65HmoubwoRde%2FEeLrrfG8Sy%2FTkRePnf6zfGnyyVWDgELEP9GqA+xQ1mjlhfJso17kml78Tv0xmK08ZzX9NSgMyNGy6UYTS%2FL+EOTRtolMkEnGOcMw1Jpb3b3o7OAUKxQLFlj4DhSkaULe+tw4lFdSF%2FMihF%2FIYuof9BP+VG3d0S+M8TzhE=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775228400.0,
+      "hot": false
+    },
+    {
+      "id": "5fd2d9d23d",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Nelson man Louis Fleming sent to prison; had ‘desire’ to sexually abuse young children",
+      "summary": "The 32-year-old was caught last June after a search of his Nelson home when items containing his communications and illicit material were seized.",
+      "link": "https://www.rnz.co.nz/news/national/591455/nelson-man-louis-fleming-sent-to-prison-had-desire-to-sexually-abuse-young-children",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1775200284.0,
+      "pub_ts": 1775212315.0,
       "hot": false
     },
     {
@@ -163,51 +433,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1775199797.0,
-      "hot": false
-    },
-    {
-      "id": "352c76e182",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Recap: Hooker scores four tries as Crusaders thrash Drua",
-      "summary": "Crusaders hooker Codie Taylor piled on the tries as his side walloped the Fijian Drua at Apollo Projects Stadium in Christchurch on Friday night.",
-      "link": "https://www.stuff.co.nz/sport/360959810/why-crusaders-should-have-too-much-firepower-fijian-drua-christchurch",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRCZ%2Fl3awYGbZscfDwf9YFKCkTqAw9KNL%2FYpTekEO1ejGHds9L522IRupKQEPaYssB1z6dHuLpRubX15rfy7lkrTCv%2Fo8CfvUYX8Tp1rog99inQMoIbMH1H1HtnhuGsxHVx8jkIqsd4oly%2FhTWr+z%2F37J7301D2w6SXD10GIxaZ28pxtL+Wl8%2F2LA7FrQd16x2kiM+TAjwNtVULELGzoeFZ8mLRruDuXbJpwOC7VNoBqlBHamEl1E6K9pkJQwcgXry%2F6PW4pYPFWy5V%2FHv4e92TuZGVIcuoIbry7Pf3WT8LALh4vtcqmk1IDjs8hWOXw0hVKxEnox334jZpAzTlsO1opKy8v0UC9yxqzivSyDJZXgr+GzKbI+f331r9ZmQKjTQ==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775195012.0,
-      "hot": false
-    },
-    {
-      "id": "a710123166",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Nelson man Louis Fleming sent to prison; had ‘desire’ to sexually abuse young children",
-      "summary": "Louis Fleming used sophisticated computer equipment to wipe any trace of his activity.",
-      "link": "https://www.nzherald.co.nz/nz/crime/nelson-man-louis-fleming-sent-to-prison-had-desire-to-sexually-abuse-young-children/RABHLFCO5FF6XA6PGUVTFH6SI4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/BZNLB53BCVDCBFZ7U5GELXBQ3U.jpg?auth=1638a4f972b79be99884c79cf44a1fdb5d1ccd3b0603d607ed8181a4da87011e&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775192400.0,
       "hot": false
     },
     {
       "id": "7dda2d72b7",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "UK-led Hormuz talks demand 'immediate' reopening of Hormuz",
       "summary": "The meeting wrapped up with a demand for the \"immediate and unconditional\" reopening of the vital shipping route.",
@@ -217,206 +451,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775192071.0,
-      "hot": false
-    },
-    {
-      "id": "c06bf60aa2",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Arrest made in relation to Wainuiomata death",
-      "summary": "Police originally treated the death as unexplained, but are now investigating the matter as a homicide.",
-      "link": "https://www.rnz.co.nz/news/national/591449/arrest-made-in-relation-to-wainuiomata-death",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775191906.0,
-      "hot": false
-    },
-    {
-      "id": "c6dbdee20d",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Lower Hutt homicide: Young person charged as police probe death",
-      "summary": "Police say the incident was isolated and involved people known to each other.",
-      "link": "https://www.nzherald.co.nz/nz/wellington/lower-hutt-homicide-young-person-charged-as-police-probe-death/WYPNJOUYLNB4NPKNTHLYMSO3S4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/WWDYJCUTXNBFHCCUZLDDFCF2XM.jpg?auth=4d104b96c84da1ba24cd85b4c3e2d5c1b86c4e6af754c2cd8ad2e24a3eab0a3a&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775191335.0,
-      "hot": false
-    },
-    {
-      "id": "718ffec457",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Homicide probe launched after Lower Hutt death",
-      "summary": "A person was found dead in the Lower Hutt suburb of Wainuiomata on Thursday morning.",
-      "link": "https://www.stuff.co.nz/nz-news/360960281/arrest-made-wainuiomata-homicide-probe",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVTY5GobNegb0g5eP4PIGxy93pVQDE3bIUSyKud7jFUV9L7Z4Ac629xJh40gQHiwSUu8KIZTIiGPLIMh+%2FHeYECW7XxJJ4USxbbhhpgQsG5DDyqlfoM4mRZ+o3s%2FoVRvrXwYZKHEfT0S1uaElnTN%2FXtWpLTktKtAa6jAajlJi5Er+seyQjkZA6K9K4Y+bPvNpHMnxOM7akOHtVBvz%2F1THqJFLSR45xM+BDn3ZBbaWiC2v7cQfiGAlR930m0wRR2QZ6XFGZT+kzxX3%2F9BQH0mKXzI+D9YCIWL5gEHfsu0oQs%2FZ7vvjjQRLoueqEjd4tJ6wD+lC8J6cRXWddQ2KjrkwyXlIvvBkLN4HUTcMyB%2F3GfY7MhhOSqXxGAG96bYDNGfUFt93cKEXG7pGpcgIIn4fu5CAec+HtwpEvjR+qEsWNNt2eJKoxq1P64SbYLFq9S7mmiN%2FR4aRXnP0loRRolQ7rA=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775189557.0,
-      "hot": false
-    },
-    {
-      "id": "09c73367f7",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Greyhound bosses admit battle to keep dog racing alive is over",
-      "summary": "Greyhound racing will be banned in New Zealand from August 1.",
-      "link": "https://www.nzherald.co.nz/sport/racing/greyhound-bosses-admit-battle-to-keep-dog-racing-alive-is-over/SCJJ534BHREKZO5FKHGWWXT3MY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/4BAVKUJ6GZB2DHUJHYP33BGCFA.jpg?auth=ee83df21f46b3b1c6e515c7f589fef3db4bdff848edf209db20d5653a93cdc43&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775188301.0,
-      "hot": false
-    },
-    {
-      "id": "0b109cc5df",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "East Coast MP Dana Kirkpatrick supports inquiry into Fire and Emergency fleet",
-      "summary": "Parliament's governance and administration select committee opened an inquiry this week.",
-      "link": "https://www.nzherald.co.nz/gisborne-herald/news/east-coast-mp-dana-kirkpatrick-supports-inquiry-into-fire-and-emergency-fleet/BIXZV6RIRRARJPEZYTHH2X4D5Y/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/T4LFMHO5KZHHBEU37Q4IVYZF3Y.jpg?auth=f09eef1a6a6e72779ea90213ad97f36ab2ea8552c6ca1b8a2b59ccbc9d6957d8&smart=true&width=300&height=300",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775185200.0,
-      "hot": false
-    },
-    {
-      "id": "f157319742",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Poachers in Central Hawke’s Bay caught with 153 undersized pāua",
-      "summary": "Vehicle and fishing equipment seized after four people caught with 153 undersized pāua.",
-      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/poachers-in-central-hawkes-bay-caught-with-153-undersized-paua/U4HQUTRXTFDTFE2IMCTRJDHJVA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/P4XVYOFRUVCU5FVSHSU3RYD4JY.jpg?auth=0d03cbc47ac74433e2de761674aad8d7fdec882f22367f4a604b25a6ab966467&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775185200.0,
-      "hot": false
-    },
-    {
-      "id": "23f3a9cdc1",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Two arrested after kidnapping, robbery in Auckland",
-      "summary": "Following police enquiries, two women have been arrested and charged.",
-      "link": "https://www.rnz.co.nz/news/national/591445/two-arrested-after-kidnapping-robbery-in-auckland",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775185189.0,
-      "hot": false
-    },
-    {
-      "id": "8abad83675",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Hamilton East homicide: Man charged with murder after 2 people found dead",
-      "summary": "A 34-year-old man was arrested after arriving at hospital injured, police said.",
-      "link": "https://www.nzherald.co.nz/nz/man-charged-with-murder-after-hamilton-east-deaths/T3NFNSJ4D5B7LNWN4SLX4LXHSA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/AARSL32FUZCIVLTS3BWTW3LK6M.jpg?auth=0800659c93365cb52c0ce89fab72afb096ef4f34a430eae5b3a5f301bac198d9&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775185023.0,
-      "hot": false
-    },
-    {
-      "id": "f9208d9315",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Kids Unplugged struck a nerve at our dinner table",
-      "summary": "The kid-hosted web series is a mic drop moment for parents whenever a child wheels out the \"but every other kid has a phone\" defence.",
-      "link": "https://www.rnz.co.nz/life/relationships/family/kids-unplugged-struck-a-nerve-at-our-dinner-table",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775180450.0,
-      "hot": false
-    },
-    {
-      "id": "4b35131d37",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Report outlines damage to Moa Point sewage treatment plant",
-      "summary": "In its latest update about the breakdown, Wellington Water says the February flooding of the plant damaged critical mechanical equipment.",
-      "link": "https://www.rnz.co.nz/news/national/591440/report-outlines-damage-to-moa-point-sewage-treatment-plant",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
       "ago": "13小时前",
-      "pub_ts": 1775177722.0,
-      "hot": false
-    },
-    {
-      "id": "06740a791a",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Is fuel support going to the right places?",
-      "summary": "Simplicity's chief economist has compiled data showing the average commute of workers across a range of industries around the country.",
-      "link": "https://www.rnz.co.nz/news/business/591439/is-fuel-support-going-to-the-right-places",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775176321.0,
+      "pub_ts": 1775192071.0,
       "hot": false
     },
     {
@@ -432,8 +468,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775145042.0,
       "hot": false
     },
@@ -509,42 +545,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1775102092.0,
-      "hot": false
-    },
-    {
-      "id": "23f96acfaa",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Why was Chris Bishop unceremoniously dumped as campaign chair in Luxon's Cabinet reshuffle?",
-      "summary": "Analysis: Christopher Luxon's Cabinet reshuffle made two things very clear on Thursday.",
-      "link": "https://www.rnz.co.nz/news/political/591377/why-was-chris-bishop-unceremoniously-dumped-as-campaign-chair-in-luxon-s-cabinet-reshuffle",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775100586.0,
-      "hot": false
-    },
-    {
-      "id": "c7589b0943",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Marsden Point to get diesel storage capacity boost",
-      "summary": "The government will put more than $20 million towards additional diesel storage capacity at Marsden Point.",
-      "link": "https://www.rnz.co.nz/news/political/591355/marsden-point-to-get-diesel-storage-capacity-boost",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775096868.0,
       "hot": false
     }
   ]
