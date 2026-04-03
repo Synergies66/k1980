@@ -1,43 +1,223 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-03T18:05:48.564194+00:00",
+  "updated_at": "2026-04-03T22:00:35.891295+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "f19d93f8ff",
+      "id": "aaa464fb81",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "SpaceX delays next Starship test launch by a month, Musk says",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/spacex-delays-next-starship-test-launch-month-musk-says-6035831",
-      "image": "https://dam.mediacorp.sg/image/upload/s--JDDpsHYK--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T171326Z_1_LYNXMPEM320LG_RTROPTP_3_SPACEX-IPO.JPG?itok=zNN22xHC",
+      "title": "Artemis II's moonbound astronauts capture Earth as they leave it behind",
+      "summary": "Just a day and a half into the first crewed moon mission in over 50 years, NASA’s Artemis II astronauts sent back photos of Earth from space.",
+      "link": "https://www.channelnewsasia.com/world/artemis-2-astronauts-nasa-earth-picture-space-moon-6036071",
+      "image": "https://dam.mediacorp.sg/image/upload/s--3PpOttjC--/c_crop,h_542,w_963,x_2,y_17/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/NASA-Artemis-Moonshot_96128.jpg?itok=5LNiM70R",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1775236406.0,
+      "ago": "25分前",
+      "pub_ts": 1775252100.0,
       "hot": false
     },
     {
-      "id": "018eb8e077",
+      "id": "350142f6b6",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "UN force says 3 peacekeepers wounded in Lebanon",
-      "summary": "An explosion wounded three peacekeepers from the United Nations Interim Force in Lebanon, the third attack reported this week.",
-      "link": "https://www.channelnewsasia.com/world/lebanon-unifl-un-peacekeepers-strikes-israel-war-beirut-6035781",
-      "image": "https://dam.mediacorp.sg/image/upload/s--BwqRmgJG--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Lebanon_Sectarian_Tensions_33251.jpg?itok=P_EvWXiG",
+      "title": "Ronaldo scores twice on return as Al Nassr thumps Al Najma",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/ronaldo-scores-twice-return-al-nassr-thumps-al-najma-6036051",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1775250392.0,
+      "hot": false
+    },
+    {
+      "id": "4a143828d3",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "More kids sexually assaulted in 2025; attacks by family members against them also up: Police",
+      "summary": "There were 1,031 sexual assault cases involving victims under the age of 16 in 2025, a rise from the 943 cases in 2024.",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/more-kids-sexually-assaulted-in-2025-attacks-by-family-members-against-them-also-up-police",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775250000.0,
+      "hot": false
+    },
+    {
+      "id": "49e956d1e9",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "New roads to be built by end-2030 to serve homes in new Paterson neighbourhood",
+      "summary": "This is part of URA's plans to convert the area into a mixed-use neighbourhood with new homes, shops and public spaces.",
+      "link": "https://www.straitstimes.com/singapore/transport/new-roads-to-be-built-by-end-2030-to-serve-homes-in-new-paterson-neighbourhood",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775235360.0,
+      "pub_ts": 1775250000.0,
+      "hot": false
+    },
+    {
+      "id": "eb3d8973e1",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Help pours in for family of boy who drowned in Kallang River while fishing",
+      "summary": "The 13-year-old boy's mother, a food stall operator, has not returned to work since the day her son drowned.",
+      "link": "https://www.straitstimes.com/singapore/help-pours-in-for-family-of-boy-who-drowned-in-kallang-river-while-fishing",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775250000.0,
+      "hot": false
+    },
+    {
+      "id": "2b74e80897",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Who pays for a climate-ready Singapore? Navigating the multi-billion bill for adaptation efforts",
+      "summary": "With climate protection being an inter-generational challenge, private sector buy-in is crucial.",
+      "link": "https://www.straitstimes.com/singapore/environment/who-pays-for-a-climate-ready-singapore-navigating-the-multi-billion-bill-for-adaptation-efforts",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775250000.0,
+      "hot": false
+    },
+    {
+      "id": "0a4009fd43",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "French, Japanese ships cross Strait of Hormuz in first since war",
+      "summary": "They are among the few ships to do so since Iran blocked the vital waterway at the start of the war.",
+      "link": "https://www.channelnewsasia.com/world/french-japanese-ships-tankers-strait-hormuz-iran-war-oil-6036006",
+      "image": "https://dam.mediacorp.sg/image/upload/s--o07WNbaV--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-02T210221Z_1_LYNXMPEM3116T_RTROPTP_3_USA-ECONOMY.JPG?itok=5su6UF0w",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775248380.0,
+      "hot": false
+    },
+    {
+      "id": "3e34ee0902",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Canadian clubs and officials get ready for FIFA offside experiment",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/canadian-clubs-and-officials-get-ready-fifa-offside-experiment-6036011",
+      "image": "https://dam.mediacorp.sg/image/upload/s--w3xzq_sQ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T200551Z_1_LYNXMPEM320OL_RTROPTP_3_SOCCER-WORLDCUP-WELCOME.JPG?itok=-3N2x9B0",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775246751.0,
+      "hot": false
+    },
+    {
+      "id": "d0351485b7",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Cuba begins prisoner release after mass pardon",
+      "summary": "The Cuban government began freeing 2,010 prisoners in a mass pardon for Holy Week.",
+      "link": "https://www.channelnewsasia.com/world/cuba-prisoners-release-holy-week-oil-fuel-trump-havana-6035936",
+      "image": "https://dam.mediacorp.sg/image/upload/s--6NPI59gE--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/04/000_a6pp8a3.jpg?itok=61Z7zOIT",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775244480.0,
+      "hot": false
+    },
+    {
+      "id": "cee671aa17",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "White House seeks US$1.5 tn defence budget as Iran war drives costs",
+      "summary": "US President Donald Trump has proposed a US$1.5 trillion defence budget for 2027, the largest single-year increase in US military spending since World War II.",
+      "link": "https://www.channelnewsasia.com/world/us-defence-budget-iran-war-trump-costs-6035866",
+      "image": "https://dam.mediacorp.sg/image/upload/s--fj2Byd-G--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/04/ap26092070631614.jpg?itok=r1JPHqnB",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775240580.0,
+      "hot": false
+    },
+    {
+      "id": "9d872573b3",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "French prosecutors drop probe into Paris Olympics 2024 chief Estanguet",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/french-prosecutors-drop-probe-paris-olympics-2024-chief-estanguet-6035891",
+      "image": "https://dam.mediacorp.sg/image/upload/s--3C-enobg--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T181719Z_1_LYNXMPEM320MF_RTROPTP_3_PARALYMPICS-2024-OPENING.JPG?itok=5GHiizOQ",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775240239.0,
+      "hot": false
+    },
+    {
+      "id": "30663ca768",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Musk asks SpaceX IPO banks to buy Grok AI subscriptions, NYT reports",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/musk-asks-spacex-ipo-banks-buy-grok-ai-subscriptions-nyt-reports-6035886",
+      "image": "https://dam.mediacorp.sg/image/upload/s--LYzU23MT--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T181543Z_1_LYNXMPEM320MC_RTROPTP_3_SPACEX-IPO-MARKETS.JPG?itok=zklhw7d8",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775240143.0,
       "hot": false
     },
     {
@@ -53,81 +233,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775231220.0,
-      "hot": false
-    },
-    {
-      "id": "4d1795220e",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "White House seeks $5.6 billion cut to NASA budget in 2027",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/white-house-seeks-56-billion-cut-nasa-budget-in-2027-6035741",
-      "image": "https://dam.mediacorp.sg/image/upload/s--mTr-UggP--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T153112Z_1_LYNXMPEM320JY_RTROPTP_3_SPACE-NASA-ARTEMIS.JPG?itok=wiZnQYbX",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775230272.0,
-      "hot": false
-    },
-    {
-      "id": "469d06838a",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Italian court rules Netflix price-hike clauses are void, orders refunds",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/italian-court-rules-netflix-price-hike-clauses-are-void-orders-refunds-6035726",
-      "image": "https://dam.mediacorp.sg/image/upload/s--NhRQgEU3--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T151817Z_2_LYNXMPEM320JP_RTROPTP_3_NETFLIX-ITALY-REFUNDS-RULING.JPG?itok=bAjIaIk-",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775229497.0,
-      "hot": false
-    },
-    {
-      "id": "81fc1378ea",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "US warplane downed over Iran, one crew rescued: US media",
-      "summary": "The incident is the first reported case of a US fighter jet being downed in Iranian territory since the United States and Israel launched their war against Iran on Feb 28.",
-      "link": "https://www.channelnewsasia.com/world/us-fighter-jet-shot-down-iran-pilots-missing-6035631",
-      "image": "https://dam.mediacorp.sg/image/upload/s--kHejClv4--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/03/2026-04-03t140957z_1394826190_rc221kazl1jv_rtrmadp_3_iran-crisis-usa_mod.jpg?itok=cywYPXs9",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775225700.0,
-      "hot": false
-    },
-    {
-      "id": "da0b8cbf0f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Arteta keeps cards close to chest as injury-hit Arsenal eye FA Cup semis",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/arteta-keeps-cards-close-chest-injury-hit-arsenal-eye-fa-cup-semis-6035646",
-      "image": "https://dam.mediacorp.sg/image/upload/s--bH87eBYa--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T141429Z_1_LYNXMPEM320IJ_RTROPTP_3_SOCCER-CHAMPIONS-ARS-LEV.JPG?itok=aX5HKKpd",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775225669.0,
       "hot": false
     },
     {
@@ -143,45 +251,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775225460.0,
-      "hot": false
-    },
-    {
-      "id": "ea93282812",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Turkey launches investigation into Google over advertising, billing practices",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/turkey-launches-investigation-google-over-advertising-billing-practices-6035641",
-      "image": "https://dam.mediacorp.sg/image/upload/s--KOiBunMx--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T141425Z_3_LYNXMPEM320IC_RTROPTP_3_ALPHABET-RESULTS.JPG?itok=yaZf7-Fx",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775225403.0,
-      "hot": false
-    },
-    {
-      "id": "3b5ee89663",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Scientists find evidence for theorized gargantuan star explosions",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/scientists-find-evidence-theorized-gargantuan-star-explosions-6035581",
-      "image": "https://dam.mediacorp.sg/image/upload/s--CIV0tyE7--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T134138Z_1_LYNXMPEM320HS_RTROPTP_3_SPACE-SUPERNOVAS.JPG?itok=ehDUX5qq",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775223698.0,
       "hot": false
     },
     {
@@ -199,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1775198470.0,
       "hot": false
     },
@@ -217,80 +289,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1775188800.0,
-      "hot": false
-    },
-    {
-      "id": "71b3085b8e",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "HSA’s 3-week dash to design system tracking thousands of vape cases, from fines to rehab progress",
-      "summary": "Launched in September 2025, the Vaping Information System has logged the cases of more than 5,500 offenders.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/hsas-3-week-dash-to-design-system-tracking-thousands-of-vape-cases-from-fines-to-rehab-progress",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775188800.0,
-      "hot": false
-    },
-    {
-      "id": "7e3c2d18d3",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Car driver arrested after hit-and-run accident injuring motorcyclist in Serangoon",
-      "summary": "The car driver left the scene before the police arrived and was later arrested.",
-      "link": "https://www.straitstimes.com/singapore/car-driver-arrested-after-hit-and-run-accident-injuring-motorcyclist-in-serangoon",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775186880.0,
-      "hot": false
-    },
-    {
-      "id": "f260cfa4d1",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Flap, flap: One of S’pore’s newest peregrine falcon chicks caught on camera taking flight",
-      "summary": "One of the falcon chicks briefly took to the air as it flew off-camera in a test flight on April 3.",
-      "link": "https://www.straitstimes.com/singapore/flap-flap-one-of-spores-newest-peregrine-falcon-chicks-caught-on-camera-taking-flight",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775186460.0,
-      "hot": false
-    },
-    {
-      "id": "dad4b37ef4",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Cardiac arrest: Hougang police anti-scam video plays with netizens’ hearts and expectations",
-      "summary": "The tongue-in-cheek video posted on April 1 has garnered more than 2.8 million views and over 110,000 likes.",
-      "link": "https://www.straitstimes.com/singapore/cardiac-arrest-hougang-police-anti-scam-video-plays-with-netizens-hearts-and-expectations",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775184720.0,
       "hot": false
     }
   ]
