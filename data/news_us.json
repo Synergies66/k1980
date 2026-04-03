@@ -1,14 +1,14 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-03T05:55:20.969027+00:00",
+  "updated_at": "2026-04-03T11:05:50.489639+00:00",
   "total": 23,
   "articles": [
     {
       "id": "0ce1ae0471",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Pakistan says a new round of peace talks with Afghanistan is underway in China",
       "summary": "Pakistan confirmed it was holding peace talks with Afghanistan's Taliban government in China, where Beijing is trying to broker a lasting ceasefire after weeks of fighting.",
@@ -18,28 +18,27 @@
         "政治",
         "华人"
       ],
-      "score": 82,
-      "ago": "26分前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1775194096.0,
       "hot": false
     },
     {
-      "id": "ba461f4aa5",
+      "id": "1e928c2f88",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Cosmopolitan Shanghai Is an Uneasy Fit in China’s Narrative of Western Sins",
-      "summary": "Shanghai’s many layers of architecture, culture and politics have made it a difficult fit for the Communist Party’s preferred narrative of Chinese victimhood and Western sins.",
-      "link": "https://www.nytimes.com/2026/04/03/world/asia/shanghai-dispatch-architecture.html",
-      "image": "https://static01.nyt.com/images/2026/03/17/multimedia/00int-shanghai-history-dispatch-top-hlgf/00int-shanghai-history-dispatch-top-hlgf-mediumSquareAt3X.jpg",
+      "title": "Jobs and Workers Are In Balance. Nobody Is Happy About It.",
+      "summary": "Lower immigration has brought labor supply in line with shaky demand, but economists worry that such a slow-moving job market is at risk of toppling over.",
+      "link": "https://www.nytimes.com/2026/04/03/business/economy/population-growth-immigration.html",
+      "image": null,
       "categories": [
-        "华人",
-        "科技"
+        "移民"
       ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1775188875.0,
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1775206862.0,
       "hot": false
     },
     {
@@ -57,15 +56,232 @@
         "华人"
       ],
       "score": 72,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1775169745.0,
+      "hot": false
+    },
+    {
+      "id": "3723f2bb50",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran hits Gulf refineries as Trump warns U.S. will attack Iranian bridges, power plants",
+      "summary": "Iranian officials said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and",
+      "link": "https://www.npr.org/2026/04/03/g-s1-116314/iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges-power-plants",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1775212199.0,
+      "hot": false
+    },
+    {
+      "id": "23bd31e403",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Pam Bondi Got Fired, and a Flood of Deadly New Drugs",
+      "summary": "Plus, your Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/04/03/podcasts/the-headlines/pam-bondi-fired-deadly-new-drugs.html",
+      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/03-bondi-theheadlines/01dc-trump-bondi-hp-promo-cmlv-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775210410.0,
+      "hot": false
+    },
+    {
+      "id": "66e1422ad8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Verdicts against Meta and Google may bring a new era of big tech accountability",
+      "summary": "Advocates hope recent verdicts against social media platforms will build momentum for bigger changes in Silicon Valley.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5764306/big-tech-lawsuits-verdicts-accountability-social-media-harms",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775210400.0,
+      "hot": false
+    },
+    {
+      "id": "e651376a4d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "At War With Iran Again, Some Israelis Fear Conflict Is Becoming Routine",
+      "summary": "A majority of Israelis support the war with Iran, but many doubt that it will solve Israel’s long-term security problems. Some also question their prime minister’s assurances and motives.",
+      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/israel-war-mood.html",
+      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/xxint-israel-mood-02-fmpq/xxint-israel-mood-02-fmpq-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775207238.0,
+      "hot": false
+    },
+    {
+      "id": "4228ac4e48",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After the release of the Epstein files, why have there been so few arrests?",
+      "summary": "Legal experts tell NPR five possible reasons that, despite the accusations made against rich and powerful people in the files, the DOJ have made no additional arrests. The big one? Lack of evidence.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5766260/epstein-files-arrests-doj-prosecutors",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206920.0,
+      "hot": false
+    },
+    {
+      "id": "c747ec61e1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Evacuation of U.S. troops from Mideast base sends community groups scrambling to help",
+      "summary": "Troops and their families have been pushed back to the United States after their bases in the Middle East were threatened by Iranian counterattacks. Community groups are scrambling to react.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5770491/evacuation-bahrain-norfolk-troops",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206800.0,
+      "hot": false
+    },
+    {
+      "id": "89c8b55bff",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As DOJ prepares to share state voter data with DHS, a key privacy officer resigns",
+      "summary": "Since last year, the Justice Department has made unprecedented demands to states for sensitive voter data, including drivers license numbers and partial Social Security numbers.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5768455/privacy-doj-dhs-voter-data",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206800.0,
+      "hot": false
+    },
+    {
+      "id": "e15bb6737a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "NPR wants your big question about reducing your climate impact and saving money",
+      "summary": "As energy prices rise and climate change intensifies, NPR wants to hear your questions about spending decisions you'll make that could reduce climate pollution and save you money.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5766467/climate-change-money-energy-costs-savings-question",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206800.0,
+      "hot": false
+    },
+    {
+      "id": "ac3b65410a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Penalties stack up as AI spreads through the legal system",
+      "summary": "Early scandals have not slowed lawyers' adoption of AI tools, even as court sanctions over fake legal briefs continue to rise.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206800.0,
+      "hot": false
+    },
+    {
+      "id": "e4ac52488d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Big tech's next move is to put data centers in space. Can it work?",
+      "summary": "In orbit, power is free. But everything else is expensive.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775206800.0,
+      "hot": false
+    },
+    {
+      "id": "15ef06145c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Former U.S. ambassador talks about Trump's rhetoric on NATO",
+      "summary": "NPR's A Martinez asks Dan Baer, former U.S. ambassador to the Organization for Security and Cooperation in Europe, about the Trump administration's recent rhetoric around NATO.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5771558/former-u-s-ambassador-talks-about-trumps-rhetoric-on-nato",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775205839.0,
+      "hot": false
+    },
+    {
+      "id": "38c444718f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Strait of Hormuz closure deflates global helium supply",
+      "summary": "The blockade in the Strait of Hormuz is affecting not only oil, but the global helium supply.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5762568/strait-of-hormuz-closure-deflates-global-helium-supply",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775205817.0,
       "hot": false
     },
     {
       "id": "5147c8ef65",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cuba releasing 2,010 prisoners as the US pressures the island's government",
       "summary": "The Cuban government said the pardons were a \"humanitarian gesture\" in connection with Holy Week and didn't mention mounting pressures with the U.S.",
@@ -75,64 +291,9 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "43分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775193120.0,
-      "hot": false
-    },
-    {
-      "id": "17356b5a75",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "ICE detention deaths are on a record pace. One Texas facility bears the brunt",
-      "summary": "ICE inspectors in February found 49 violations to detention standards at Camp East Montana, including failure from staff to\"accurately document required checks to prevent significant self-harm and sui",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5754749/ice-detention-deaths-are-on-a-record-pace-one-texas-facility-bears-the-brunt",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775188980.0,
-      "hot": false
-    },
-    {
-      "id": "59372103ad",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "In Syria, Kidnappings of Women and Girls Fuel a Minority Group’s Fears",
-      "summary": "A Times investigation found that abductions of women and girls from Syria’s Alawite minority were more common, and more brutal, than the government has acknowledged.",
-      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/syria-kidnapping-alawite-woman-girls.html",
-      "image": "https://static01.nyt.com/images/2026/02/23/multimedia/23syria-kidnapping-01-bmvw/23syria-kidnapping-01-bmvw-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775188872.0,
-      "hot": false
-    },
-    {
-      "id": "7c3ba0f721",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "25 years ago today, a mid-air collision sparked an 11-day U.S.–China standoff",
-      "summary": "On April 1, 2001, a midair collision between an American aircraft and a Chinese plane sparked an 11-day diplomatic crisis — and the two countries still tell very different stories.",
-      "link": "https://www.npr.org/2026/04/01/nx-s1-5768269/25-years-ago-today-a-mid-air-collision-sparked-an-11-day-u-s-china-standoff",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1775077245.0,
       "hot": false
     },
     {
@@ -148,45 +309,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775186800.0,
-      "hot": false
-    },
-    {
-      "id": "b4ff90eba7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Awe of a Moon Launch in an Age of Trump, Turmoil and Tribal Divisions",
-      "summary": "The launch of Artemis II captured the tenor of the times in a country that can still do big things but seems forever mired in big problems.",
-      "link": "https://www.nytimes.com/2026/04/02/us/politics/artemis-ii-launch-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/02dc-memo-top2-bplh/02dc-memo-top2-bplh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775185157.0,
-      "hot": false
-    },
-    {
-      "id": "0a65c3503f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Planning Commission Approves Trump’s Ballroom, but Legal Roadblocks Remain",
-      "summary": "The board had been expected to vote to approve the project last month, but it was delayed after about 32,000 mostly negative comments rolled in from across the country.",
-      "link": "https://www.nytimes.com/2026/04/02/us/politics/trump-ballroom-commission-vote.html",
-      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/02dc-ballroom-bwkl/02dc-ballroom-bwkl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775172632.0,
+      "ago": "7小时前",
+      "pub_ts": 1775186801.0,
       "hot": false
     },
     {
@@ -203,8 +328,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "11小时前",
       "pub_ts": 1775171921.0,
+      "hot": false
+    },
+    {
+      "id": "cee86d327a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About the ‘Massive’ Military Bunker Beneath Trump’s Ballroom",
+      "summary": "President Trump has been talking about the emergency facility beneath what was once the East Wing, details of which are usually kept secret, as he tries to justify his renovation.",
+      "link": "https://www.nytimes.com/2026/04/02/us/politics/trump-ballroom-military-bunker.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31dc-bunker-cqkt/31dc-bunker-cqkt-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1775168169.0,
       "hot": false
     },
     {
@@ -222,7 +365,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775163458.0,
       "hot": false
     },
@@ -240,98 +383,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1775162054.0,
-      "hot": false
-    },
-    {
-      "id": "b069d1df83",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A botanist searches for the seeds of the rare Death Valley Sage",
-      "summary": "For more than 15 years, botanist Naomi Fraga has been trying to collect seeds from the rare Death Valley sage, for safekeeping in a vault of native California seeds.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/01/nx-s1-5749446/botanist-search-seeds-rare-death-valley-sage",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775159916.0,
-      "hot": false
-    },
-    {
-      "id": "f80da16f57",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump administration sues three states over attempts to regulate prediction markets",
-      "summary": "The suits are the most ambitious effort to date that the Trump administration has gone to try to override state laws and set the rules for the fast-growing and increasingly divisive betting industry.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5771635/trump-cftc-kalshi-polymarket-lawsuits",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775159658.0,
-      "hot": false
-    },
-    {
-      "id": "2aba051c74",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "EPA flags microplastics, pharmaceuticals as contaminants in drinking water",
-      "summary": "There is public concern about health risks from the chemicals, especially from the Make America Healthy Again movement. The agency's move doesn't in itself guarantee regulation.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5771155/epa-microplastics-pharmaceuticals-drinking-water",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775153701.0,
-      "hot": false
-    },
-    {
-      "id": "d2b4bc3953",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Attorney General Pam Bondi out at DOJ",
-      "summary": "Bondi's departure comes amid simmering frustration over her leadership and handling of the Epstein files. President Trump says Deputy Attorney General Todd Blanche will be acting attorney general.",
-      "link": "https://www.npr.org/2026/04/02/g-s1-115077/trump-bondi-attorney-general-departure",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775151355.0,
-      "hot": false
-    },
-    {
-      "id": "42c6acb1e9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Ziggy Stardust and Hacky Sack: What life was like the last time we went to the moon",
-      "summary": "The Artemis II mission is the first time humans have headed to the moon since 1972. That year also marked the debut of The Godfather and the Egg McMuffin.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5771486/artemis-moon-mission-apollo-1972",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775148101.0,
       "hot": false
     },
     {
@@ -348,62 +401,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1775129502.0,
-      "hot": false
-    },
-    {
-      "id": "fed38fcd2e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Hegseth ousts the Army chief of staff as the Iran war rages through Week 5",
-      "summary": "U.S. Defense Secretary Pete Hegseth asked Army Chief of Staff Randy George to step down and retire, a U.S. official confirmed to NPR.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5771160/iran-war-trump-speech",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1775124866.0,
-      "hot": false
-    },
-    {
-      "id": "0954b6ed13",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Pakistan is playing intermediary in the Iran war, a role it has played before",
-      "summary": "Pakistan has emerged as a key intermediary in the U.S-Israel war with Iran. It played this role before, during a high-stakes moment in diplomatic history.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5767066/pakistan-is-playing-mediator-in-the-iran-war-its-a-role-the-country-is-used-to",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1775119301.0,
-      "hot": false
-    },
-    {
-      "id": "18d8a7fe72",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. lifts sanctions on Venezuela's acting President Delcy Rodríguez",
-      "summary": "The newly announced sanctions relief is the latest U.S. recognition of Rodríguez as a legitimate authority in Venezuela ever since the U.S. military captured her predecessor, Nicolás Maduro.",
-      "link": "https://www.npr.org/2026/04/02/g-s1-116142/u-s-lift-sanctions-venezuela-president-delcy-rodriguez",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "23小时前",
-      "pub_ts": 1775112289.0,
+      "pub_ts": 1775129502.0,
       "hot": false
     },
     {
