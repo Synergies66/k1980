@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-03T11:05:50.489639+00:00",
-  "total": 23,
+  "updated_at": "2026-04-03T15:05:23.972177+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "ca50b232ce",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "China's Communist Party investigates ex-Xinjiang leader Ma Xingrui",
+      "summary": "Ma Xingrui is a member of the party's Central Committee and served as party secretary of the Xinjiang region in China's northwest from 2021-2025.",
+      "link": "https://www.npr.org/2026/04/03/g-s1-116327/chinas-communist-party-investigates-ex-xinjiang-leader-ma-xingrui",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1775220100.0,
+      "hot": false
+    },
     {
       "id": "0ce1ae0471",
       "type": "news",
@@ -18,27 +36,9 @@
         "政治",
         "华人"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1775194096.0,
-      "hot": false
-    },
-    {
-      "id": "1e928c2f88",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Jobs and Workers Are In Balance. Nobody Is Happy About It.",
-      "summary": "Lower immigration has brought labor supply in line with shaky demand, but economists worry that such a slow-moving job market is at risk of toppling over.",
-      "link": "https://www.nytimes.com/2026/04/03/business/economy/population-growth-immigration.html",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 75,
-      "ago": "2小时前",
-      "pub_ts": 1775206862.0,
       "hot": false
     },
     {
@@ -56,26 +56,116 @@
         "华人"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775169745.0,
       "hot": false
     },
     {
-      "id": "3723f2bb50",
+      "id": "956384232e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Economists Are Drawing Stronger Connections Between A.I. and Jobs",
+      "summary": "Artificial intelligence hasn’t disrupted the labor market, economists say, but they are increasingly convinced that it will — and that policymakers are unprepared.",
+      "link": "https://www.nytimes.com/2026/04/03/business/economists-once-dismissed-the-ai-job-threat-but-not-anymore.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/business/00ai-jobs/00ai-jobs-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "6分前",
+      "pub_ts": 1775228335.0,
+      "hot": false
+    },
+    {
+      "id": "b262b3829f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Iran hits Gulf refineries as Trump warns U.S. will attack Iranian bridges, power plants",
-      "summary": "Iranian officials said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and",
-      "link": "https://www.npr.org/2026/04/03/g-s1-116314/iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges-power-plants",
+      "title": "A U.S. jet goes down over Iran, a U.S. official confirms",
+      "summary": "A U.S. official confirmed the Iranian state media report and added that a search is underway by U.S. forces.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5773108/american-jet-shot-down-iran",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1775227608.0,
+      "hot": false
+    },
+    {
+      "id": "d836e218a5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The labor market springs back to life in March as employers add 178,000 jobs",
+      "summary": "The U.S. job market perked up last month as employers added 178,000 jobs. The unemployment rate dipped to 4.3%, mainly because the number of people seeking work declined.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5772696/jobs-employment-economy-labor-market",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "35分前",
-      "pub_ts": 1775212199.0,
+      "ago": "1小时前",
+      "pub_ts": 1775222670.0,
+      "hot": false
+    },
+    {
+      "id": "2e7fa6fa2b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump budget seeks $1.5 trillion in defense spending alongside domestic program cuts",
+      "summary": "In his annual budget, President Trump is asking Congress to boost defense spending to $1.5 trillion, the largest such request in decades.",
+      "link": "https://www.npr.org/2026/04/03/nx-s1-5772701/trump-budget-defense-spending",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775221685.0,
+      "hot": false
+    },
+    {
+      "id": "1e928c2f88",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Jobs and Workers Are In Balance. Nobody Is Happy About It.",
+      "summary": "Lower immigration has brought labor supply in line with shaky demand, but economists worry that such a slow-moving job market is at risk of toppling over.",
+      "link": "https://www.nytimes.com/2026/04/03/business/economy/population-growth-immigration.html",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "6小时前",
+      "pub_ts": 1775206862.0,
+      "hot": false
+    },
+    {
+      "id": "0c73bd3c0e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pam Bondi is out at DOJ. And, NASA's Artemis II has left Earth's orbit",
+      "summary": "President Trump announced yesterday that Pam Bondi is out as Attorney General. And, NASA's Artemis II has left Earth's orbit and is heading toward the moon.",
+      "link": "https://www.npr.org/2026/04/03/g-s1-116325/up-first-newsletter-pam-bondi-doj-iran-strait-of-hormuz-nasa",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775215542.0,
       "hot": false
     },
     {
@@ -91,9 +181,27 @@
       "categories": [
         "天气"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775210410.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775215492.0,
+      "hot": false
+    },
+    {
+      "id": "3723f2bb50",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran hits Gulf refineries as Trump warns U.S. will attack Iranian bridges, power plants",
+      "summary": "Iran said one of the longest bridges linking Tehran to the city of Karaj was destroyed overnight, while Iranian missiles and drones hit Israel, Saudi Arabia, the United Arab Emirates and Kuwait.",
+      "link": "https://www.npr.org/2026/04/03/g-s1-116314/iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges-power-plants",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775212199.0,
       "hot": false
     },
     {
@@ -109,8 +217,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775210400.0,
       "hot": false
     },
@@ -128,8 +236,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775207238.0,
       "hot": false
     },
@@ -146,16 +254,34 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775206920.0,
+      "hot": false
+    },
+    {
+      "id": "a2f1800632",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Wealthy Donors Are Hiding Political Money in Secretive Nonprofits",
+      "summary": "Using philanthropy for campaign donations is illegal. But an exception for some nonprofits has allowed Democratic billionaires like Bill Gates and Michael Bloomberg to remain anonymous when they want",
+      "link": "https://www.nytimes.com/2026/04/03/us/politics/liberal-billionaires-dark-money.html",
+      "image": "https://static01.nyt.com/images/2026/03/19/multimedia/0319-nat-billionaire-darkmoney-print1/00nat-billionaire-darkmoney-01-wlcm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775206811.0,
       "hot": false
     },
     {
       "id": "c747ec61e1",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Evacuation of U.S. troops from Mideast base sends community groups scrambling to help",
       "summary": "Troops and their families have been pushed back to the United States after their bases in the Middle East were threatened by Iranian counterattacks. Community groups are scrambling to react.",
@@ -164,80 +290,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775206800.0,
-      "hot": false
-    },
-    {
-      "id": "89c8b55bff",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "As DOJ prepares to share state voter data with DHS, a key privacy officer resigns",
-      "summary": "Since last year, the Justice Department has made unprecedented demands to states for sensitive voter data, including drivers license numbers and partial Social Security numbers.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5768455/privacy-doj-dhs-voter-data",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775206800.0,
-      "hot": false
-    },
-    {
-      "id": "e15bb6737a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "NPR wants your big question about reducing your climate impact and saving money",
-      "summary": "As energy prices rise and climate change intensifies, NPR wants to hear your questions about spending decisions you'll make that could reduce climate pollution and save you money.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5766467/climate-change-money-energy-costs-savings-question",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775206800.0,
-      "hot": false
-    },
-    {
-      "id": "ac3b65410a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Penalties stack up as AI spreads through the legal system",
-      "summary": "Early scandals have not slowed lawyers' adoption of AI tools, even as court sanctions over fake legal briefs continue to rise.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5761454/penalties-stack-up-ai-spreads-through-legal-system",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775206800.0,
-      "hot": false
-    },
-    {
-      "id": "e4ac52488d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Big tech's next move is to put data centers in space. Can it work?",
-      "summary": "In orbit, power is free. But everything else is expensive.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775206800.0,
       "hot": false
     },
@@ -254,8 +308,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775205839.0,
       "hot": false
     },
@@ -272,28 +326,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775205817.0,
-      "hot": false
-    },
-    {
-      "id": "5147c8ef65",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Cuba releasing 2,010 prisoners as the US pressures the island's government",
-      "summary": "The Cuban government said the pardons were a \"humanitarian gesture\" in connection with Holy Week and didn't mention mounting pressures with the U.S.",
-      "link": "https://www.npr.org/2026/04/03/g-s1-116297/cuba-releasing-2-010-prisoners-as-the-us-pressures-the-islands-government",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775193120.0,
       "hot": false
     },
     {
@@ -310,63 +345,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775186801.0,
-      "hot": false
-    },
-    {
-      "id": "81ea3c4d77",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hegseth Fires Army Chief Amid Battle With Its Leaders",
-      "summary": "Senior Army officers reacted with anger and frustration to news of Gen. Randy George’s dismissal, characterizing it as the latest blow to the service.",
-      "link": "https://www.nytimes.com/2026/04/02/us/politics/hegseth-fires-general-randy-george.html",
-      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/02dc-army-kclh/02dc-army-kclh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "11小时前",
-      "pub_ts": 1775171921.0,
-      "hot": false
-    },
-    {
-      "id": "cee86d327a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About the ‘Massive’ Military Bunker Beneath Trump’s Ballroom",
-      "summary": "President Trump has been talking about the emergency facility beneath what was once the East Wing, details of which are usually kept secret, as he tries to justify his renovation.",
-      "link": "https://www.nytimes.com/2026/04/02/us/politics/trump-ballroom-military-bunker.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/31dc-bunker-cqkt/31dc-bunker-cqkt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775168169.0,
-      "hot": false
-    },
-    {
-      "id": "48d9f6f7dc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.K. convenes 40 nations to discuss Strait of Hormuz",
-      "summary": "Foreign ministers from more than 40 countries are meeting virtually to discuss President Trump's request for help in ensuring shipping in the Strait of Hormuz.",
-      "link": "https://www.npr.org/2026/04/02/nx-s1-5771446/u-k-convenes-40-nations-to-discuss-strait-of-hormuz",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775163458.0,
+      "pub_ts": 1775186801.0,
       "hot": false
     },
     {
@@ -383,26 +363,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1775162054.0,
-      "hot": false
-    },
-    {
-      "id": "e1f9d27eaf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump makes case for Iran war. And, SCOTUS leans toward upholding birthright citizenship",
-      "summary": "President Trump addressed the nation last night, making his case for war with Iran. And, the Supreme Court majority seemed inclined to rule against the Trump administration on birthright citizenship.",
-      "link": "https://www.npr.org/2026/04/02/g-s1-116162/up-first-newsletter-iran-war-trump-birthright-citizenship-va-program",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1775129502.0,
       "hot": false
     },
     {
