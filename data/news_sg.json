@@ -1,9 +1,191 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-04T05:36:57.245678+00:00",
-  "total": 16,
+  "updated_at": "2026-04-04T10:04:39.572728+00:00",
+  "total": 15,
   "articles": [
+    {
+      "id": "4ef71a2000",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "4 taken to hospital, over 50 evacuated after fire in Buangkok condo unit",
+      "summary": "SCDF was alerted to the fire at 3 Rivervale Link at about 2.10pm.",
+      "link": "https://www.straitstimes.com/singapore/4-taken-to-hospital-over-50-evacuated-after-fire-in-buangkok-condo-unit",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1775294100.0,
+      "hot": false
+    },
+    {
+      "id": "a2ca632da4",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Chiang Mai chokes under severe haze as pollution levels in Northern Thailand soar",
+      "summary": "Pon Doikam, a coconut seller in Chiang Mai, told AFP the haze is so severe it leaves her nose burning and bloodied. Across northern Thailand, even longtime residents say the pollution is exceptionally",
+      "link": "https://www.channelnewsasia.com/asia/chiang-mai-chokes-under-severe-haze-pollution-levels-in-northern-thailand-soar-6036521",
+      "image": "https://dam.mediacorp.sg/image/upload/s--FqXpKeF6--/c_crop,h_4543,w_8077,x_1,y_739/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/04/chiang_mai_-_thailand_-_pollution-_afp.jpg?itok=IMxtLp_y",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1775294040.0,
+      "hot": false
+    },
+    {
+      "id": "1e4c2f91a6",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Car dealers race to secure $68m to renew lease for S’pore’s largest used-car hub",
+      "summary": "They will have to vacate Automobile Megamart in Ubi by July 18 if they fail to renew the lease.",
+      "link": "https://www.straitstimes.com/singapore/transport/car-dealers-race-to-secure-68m-to-renew-lease-for-automobile-megamart-spores-largest-used-car-hub",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293200.0,
+      "hot": false
+    },
+    {
+      "id": "9c52619bf6",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "3 arrested for causing hurt, robbery after 1.5-hour stand-off at Jurong HDB flat",
+      "summary": "The two men, aged 21, and the 24-year-old woman were arrested on April 3.",
+      "link": "https://www.straitstimes.com/singapore/3-arrested-for-causing-hurt-robbery-after-1-5-hour-stand-off-at-jurong-hdb-flat",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775286900.0,
+      "hot": false
+    },
+    {
+      "id": "5929d4c25f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Ministerial committee to tackle energy crisis, wider supply shocks from Middle East conflict: Shanmu",
+      "summary": "\"Inevitable\" price increases for food and other products are among the issues the Homefront Crisis Ministerial Committee is dealing with, said Mr Shanmugam.",
+      "link": "https://www.channelnewsasia.com/singapore/homefront-crisis-ministerial-committee-shanmugam-supply-shock-price-rise-fuel-food-6036461",
+      "image": "https://dam.mediacorp.sg/image/upload/s--gyn4xS7N--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/04/obk_1318.jpg?itok=WwR83Mp2",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775286000.0,
+      "hot": false
+    },
+    {
+      "id": "1ba7904c47",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Doctors adopt aerospace technology for shoulder replacements to improve outcomes for patients",
+      "summary": "They simulate post-op outcomes and predict how the implant, bone and soft tissues will interact.",
+      "link": "https://www.straitstimes.com/singapore/health/doctors-adopt-aerospace-technology-for-shoulder-replacements-to-improve-outcomes-for-patients",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775286000.0,
+      "hot": false
+    },
+    {
+      "id": "9da86ef6d1",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "RTS Link on track for Jan 2027 launch despite global energy pressures, says Malaysia transport minis",
+      "summary": "Speaking to local media during a site visit on Friday (Apr 3), Malaysia’s Transport Minister Anthony Loke said the Johor Bahru-Singapore RTS Link is now in the system installation phase, which involve",
+      "link": "https://www.channelnewsasia.com/asia/malaysia-singapore-rts-link-anthony-loke-2027-launch-6036446",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Eoq3CLV7--/c_crop,h_1440,w_2560,x_0,y_111/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/11/03/c4418565-c389-4ed7-90dc-dcaebaeea0b3.jpeg?itok=rkjhDCoZ",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775284969.0,
+      "hot": false
+    },
+    {
+      "id": "24ba0117fa",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "How downed jets show a critical vulnerability for the US as Iran war rages on",
+      "summary": "US launches rescue mission after F-15E downing; one crew member found, another missing in first such combat loss since war began.",
+      "link": "https://www.channelnewsasia.com/world/iran-us-2-down-jets-critical-vulnerability-6036471",
+      "image": "https://dam.mediacorp.sg/image/upload/s--f92vVYZg--/c_crop,h_1315,w_2339,x_1,y_1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/04/us_f-15_jet_india.jpg?itok=K1up_yI_",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775284140.0,
+      "hot": false
+    },
+    {
+      "id": "e03ddedb4a",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Telegram's Durov says Russia triggered payment system problem by blocking VPNs",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/telegrams-durov-says-russia-triggered-payment-system-problem-blocking-vpns-6036466",
+      "image": "https://dam.mediacorp.sg/image/upload/s--cV0ZhglW--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-04T063135Z_3_LYNXMPEM33023_RTROPTP_3_TECH-TELEGRAM.JPG?itok=VghX27oY",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775282829.0,
+      "hot": false
+    },
+    {
+      "id": "7e0e610615",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Passenger, 82, dies after car accident at Airport Boulevard; 3 others injured",
+      "summary": "A 60-year-old male car driver is assisting with police investigations.",
+      "link": "https://www.straitstimes.com/singapore/passenger-82-dies-after-car-accident-at-airport-boulevard-3-others-injured",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775280840.0,
+      "hot": false
+    },
     {
       "id": "80110186e3",
       "type": "news",
@@ -11,15 +193,15 @@
       "source": "CNA Singapore",
       "lang": "en",
       "title": "Iran, US race to find crew member of crashed American fighter jet",
-      "summary": "The incident is the first reported case of a US fighter jet being downed in Iranian territory since the United States and Israel launched their war against Iran on Feb 28.",
+      "summary": "One crew member from an F-15 fighter jet and a pilot from an A-10 Warthog have been rescued, according to multiple reports.",
       "link": "https://www.channelnewsasia.com/world/iran-us-fighter-jet-shot-down-pilots-missing-6036441",
       "image": "https://dam.mediacorp.sg/image/upload/s--kHejClv4--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/03/2026-04-03t140957z_1394826190_rc221kazl1jv_rtrmadp_3_iran-crisis-usa_mod.jpg?itok=cywYPXs9",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1775280429.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775280420.0,
       "hot": false
     },
     {
@@ -29,14 +211,14 @@
       "source": "Straits Times",
       "lang": "en",
       "title": "With energy prices rising, Taman Jurong pilots lighting system that can reap savings of over 70%",
-      "summary": "The pilot has seen over 70 per cent reduction in energy consumption, allowing Taman Jurong CC and the HDB block to reap cost savings.",
+      "summary": "The pilot has seen a reduction in energy consumption of more than 70 per cent.",
       "link": "https://www.straitstimes.com/singapore/environment/with-energy-prices-rising-taman-jurong-pilots-lighting-system-that-can-reap-savings-of-over-70",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775278800.0,
       "hot": false
     },
@@ -53,8 +235,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "43分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775278380.0,
       "hot": false
     },
@@ -71,8 +253,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775276880.0,
       "hot": false
     },
@@ -89,208 +271,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775275320.0,
-      "hot": false
-    },
-    {
-      "id": "3506302347",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Fewer match-made marriages in S’pore, but tradition endures in Indian community",
-      "summary": "Arranged marriages still happens in Singapore, especially within the Indian community, driven by parents seeking spouses with shared cultural, religious, and language backgrounds for their children.",
-      "link": "https://www.straitstimes.com/singapore/fewer-match-made-marriages-in-spore-but-tradition-endures-in-indian-community",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775275200.0,
-      "hot": false
-    },
-    {
-      "id": "9e2e7b046e",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "She is allergic to exercise, and carries two EpiPens as precaution when she travels",
-      "summary": "Selina Ang developed anaphylaxis symptoms on one of her regular 10km runs.",
-      "link": "https://www.straitstimes.com/singapore/health/she-is-allergic-to-exercise-and-carries-two-epipens-as-precaution-when-she-travels",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775275200.0,
-      "hot": false
-    },
-    {
-      "id": "c104490018",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Iyer says Punjab players want to impress each other, not outsiders",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/iyer-says-punjab-players-want-impress-each-other-not-outsiders-6036311",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775274222.0,
-      "hot": false
-    },
-    {
-      "id": "8f10a7a8d2",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Fernandez's agent criticises Chelsea's 'unfair' ban",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/fernandezs-agent-criticises-chelseas-unfair-ban-6036306",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775274104.0,
-      "hot": false
-    },
-    {
-      "id": "40636bcd17",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Japan underline status as Asia's best World Cup hope in mixed window",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/japan-underline-status-asias-best-world-cup-hope-in-mixed-window-6036301",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775273791.0,
-      "hot": false
-    },
-    {
-      "id": "ee2fdfa712",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Workers' Party disciplinary panel completes probe into party chief Pritam Singh",
-      "summary": "The panel will present its finalised report and recommendations to the Central Executive Committee in April, said the party.",
-      "link": "https://www.channelnewsasia.com/singapore/workers-party-disciplinary-panel-pritam-singh-6036271",
-      "image": "https://dam.mediacorp.sg/image/upload/s--MuJMIO88--/c_crop,h_449,w_799,x_1,y_13/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-01-15T080928Z_1_LYNXMPEM0E0CV_RTROPTP_3_SINGAPORE-POLITICS.JPG?itok=f1nccs2v",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775271060.0,
-      "hot": false
-    },
-    {
-      "id": "28a3fcf7bb",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Afghanistan hit by magnitude 5.9 earthquake, eight killed",
-      "summary": "The people died as a result of a house collapsing in Kabul following the earthquake, Afghanistan's National Disaster Management Authority said.",
-      "link": "https://www.channelnewsasia.com/asia/afghanistan-hit-magnitude-59-earthquake-eight-killed-6036241",
-      "image": "https://dam.mediacorp.sg/image/upload/s--SY3F5Beb--/c_crop,h_450,w_800,x_0,y_80/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2025-11-04T143206Z_1_LYNXMPELA30TT_RTROPTP_3_AFGHANISTAN-QUAKE.JPG?itok=4ElVfcFN",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775268120.0,
-      "hot": false
-    },
-    {
-      "id": "9245882cab",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "WP disciplinary panel completes investigations into party chief Pritam Singh",
-      "summary": "The panel will present its report and recommendations to the party’s central executive committee in April.",
-      "link": "https://www.straitstimes.com/singapore/politics/wp-disciplinary-panel-completes-investigations-into-party-chief-pritam-singh",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775267783.0,
-      "hot": false
-    },
-    {
-      "id": "4a143828d3",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "More kids sexually assaulted in 2025; attacks by family members against them also up: Police",
-      "summary": "There were 1,031 sexual assault cases involving victims under the age of 16 in 2025, a rise from the 943 cases in 2024.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/more-kids-sexually-assaulted-in-2025-attacks-by-family-members-against-them-also-up-police",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775250000.0,
-      "hot": false
-    },
-    {
-      "id": "2b74e80897",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Who pays for a climate-ready Singapore? Navigating the multi-billion bill for adaptation efforts",
-      "summary": "With climate protection being an inter-generational challenge, private sector buy-in is crucial.",
-      "link": "https://www.straitstimes.com/singapore/environment/who-pays-for-a-climate-ready-singapore-navigating-the-multi-billion-bill-for-adaptation-efforts",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775250000.0,
-      "hot": false
-    },
-    {
-      "id": "49e956d1e9",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "New roads to be built by end-2030 to serve homes in new Paterson neighbourhood",
-      "summary": "This is part of URA's plans to convert the area into a mixed-use neighbourhood with new homes, shops and public spaces.",
-      "link": "https://www.straitstimes.com/singapore/transport/new-roads-to-be-built-by-end-2030-to-serve-homes-in-new-paterson-neighbourhood",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775250000.0,
       "hot": false
     }
   ]
