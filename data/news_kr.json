@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-04T05:36:42.811689+00:00",
+  "updated_at": "2026-04-04T10:04:37.974334+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "8e1bcfb351",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Eagles sign Jack Cushing as temporary injury replacement",
+      "summary": "SEOUL, April 4 (Yonhap) -- The Hanwha Eagles announced Saturday they have signed...",
+      "link": "https://en.yna.co.kr/view/AEN20260404001500315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/04/AEN20260404001500315_01_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775287588.0,
+      "hot": false
+    },
     {
       "id": "530d0b72c0",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775278800.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775274391.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775269127.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775264564.0,
       "hot": false
     },
@@ -89,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775263525.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1775248284.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1775238732.0,
-      "hot": false
-    },
-    {
-      "id": "91fee944c6",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Trump says 'with a little more time,' U.S. can open Strait of Hormuz, take oil, 'make a fortune'",
-      "summary": "WASHINGTON, April 3 (Yonhap) -- U.S. President Donald Trump said Friday that \"wi...",
-      "link": "https://en.yna.co.kr/view/AEN20260403011100315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/03/AEN20260403011100315_01_i_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775223977.0,
       "hot": false
     }
   ]
