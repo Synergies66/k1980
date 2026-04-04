@@ -1,25 +1,61 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-04T14:07:25.157737+00:00",
+  "updated_at": "2026-04-04T17:54:57.918582+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "6a38f54d08",
+      "id": "e3103a40d9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After the Minnesota surge, ICE is moving to a quieter enforcement approach",
+      "summary": "ICE seems to be changing from aggressive immigration enforcement on city streets to an apparent return to operations that rely heavily on local law enforcement. But even in Florida, where sheriffs are",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5768273/after-minnesota-ice-surge-shift-to-quieter-enforcement",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1775316857.0,
+      "hot": false
+    },
+    {
+      "id": "ea2f671ffd",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
-      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
+      "title": "Trump Pledged a Quick End to the Iran War, but He Hasn’t Explained How",
+      "summary": "President Trump bet that American firepower could cow Iran into compliance. So far, Iran’s leaders have been unwilling to quit.",
+      "link": "https://www.nytimes.com/2026/04/04/us/politics/trump-endless-wars.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-endless-01-vlmq/03dc-endless-01-vlmq-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
-      "ago": "36分前",
-      "pub_ts": 1775309442.0,
+      "ago": "24分前",
+      "pub_ts": 1775323797.0,
+      "hot": false
+    },
+    {
+      "id": "d7e7c6762f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Judge halts Trump effort requiring colleges to show they don't consider race in admissions",
+      "summary": "A federal judge on Saturday said the Trump Administration the demand to collect data from universities was rolled out in a \"rushed and chaotic\" manner.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5773915/judge-halts-trump-effort-college-admissions-race",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1775322783.0,
       "hot": false
     },
     {
@@ -36,8 +72,8 @@
         "科技"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775307387.0,
+      "ago": "56分前",
+      "pub_ts": 1775321884.0,
       "hot": false
     },
     {
@@ -59,6 +95,42 @@
       "hot": false
     },
     {
+      "id": "281286f335",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About the F-15E Strike Eagle Shot Down by Iran",
+      "summary": "An F-15E Strike Eagle was shot down over Iran and an A-10 Warthog crashed near the Strait of Hormuz, officials said on Friday. Two airmen were rescued, and one is unaccounted for.",
+      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03xp-iran-jet-wwk-qcgm/03xp-iran-jet-wwk-qcgm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775313460.0,
+      "hot": false
+    },
+    {
+      "id": "6a38f54d08",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
+      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
+      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775309442.0,
+      "hot": false
+    },
+    {
       "id": "88a2cf8df5",
       "type": "news",
       "region": "us",
@@ -72,7 +144,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775304000.0,
       "hot": false
     },
@@ -90,26 +162,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775304000.0,
-      "hot": false
-    },
-    {
-      "id": "281286f335",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What We Know About the F-15E Strike Eagle Shot Down by Iran",
-      "summary": "An F-15E Strike Eagle was shot down over Iran and an A-10 Warthog crashed near the Strait of Hormuz, officials said on Friday. Two airmen were rescued, and one is unaccounted for.",
-      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03xp-iran-jet-wwk-qcgm/03xp-iran-jet-wwk-qcgm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775302258.0,
       "hot": false
     },
     {
@@ -125,8 +179,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775301179.0,
       "hot": false
     },
@@ -143,8 +197,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775299707.0,
       "hot": false
     },
@@ -161,8 +215,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775296800.0,
       "hot": false
     },
@@ -179,8 +233,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775295000.0,
       "hot": false
     },
@@ -197,8 +251,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775294100.0,
       "hot": false
     },
@@ -215,81 +269,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775293321.0,
       "hot": false
     },
     {
-      "id": "8580852f0b",
+      "id": "2a4d12b19d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Budget Does Little to Address Nation’s Fiscal Challenges",
-      "summary": "While the federal deficit has started to shrink under President Trump, his plans could make the long-term situation worse.",
-      "link": "https://www.nytimes.com/2026/04/04/business/trump-budget-federal-deficit.html",
-      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04dc-trump-debt-vtcl/04dc-trump-debt-vtcl-mediumSquareAt3X.jpg",
+      "title": "‘I Got Back Every Penny’: Inside Trump’s Supercharged Tax Season",
+      "summary": "The law Republicans passed last year has so far been largely imperceptible to most Americans. That’s changing as tens of millions file their taxes this spring.",
+      "link": "https://www.nytimes.com/2026/04/04/business/economy/taxes-deductions-cuts.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/business/00dc-taxcut-promo/00dc-taxcut-promo-mediumSquareAt3X.png",
       "categories": [
-        "本地"
+        "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775293309.0,
-      "hot": false
-    },
-    {
-      "id": "ea2f671ffd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Pledged a Quick End to the Iran War, but He Hasn’t Explained How",
-      "summary": "President Trump bet that American firepower could cow Iran into compliance. So far, Iran’s leaders have been unwilling to quit.",
-      "link": "https://www.nytimes.com/2026/04/04/us/politics/trump-endless-wars.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-endless-01-vlmq/03dc-endless-01-vlmq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775293303.0,
-      "hot": false
-    },
-    {
-      "id": "3eff32bf14",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Congress gave money for global HIV work. The Trump administration isn't spending it",
-      "summary": "U.S. work combatting HIV/AIDS has saved millions of lives globally. Under the Trump administration, funding has been slow in coming and unpredictable, wreaking havoc on people trying to do the work.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5763938/hiv-aids-pepfar-funding-delays-may-shut-down-lifesaving-aid",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775293200.0,
-      "hot": false
-    },
-    {
-      "id": "ea62853dcb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Dr. Sanjay Gupta explains what we do — and still don't — know about pain",
-      "summary": "\"Pain is a mysterious thing,\" says neurosurgeon Dr. Sanjay Gupta. But understanding how it works in the body and different kinds of treatment can help you find the right pain relief when you need it.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5699477/pain-science-sanjay-gupta",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775293200.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775293233.0,
       "hot": false
     },
     {
@@ -306,7 +306,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1775275269.0,
       "hot": false
     },
@@ -324,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1775246819.0,
       "hot": false
     },
@@ -342,7 +342,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1775246202.0,
       "hot": false
     },
@@ -359,8 +359,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775235165.0,
       "hot": false
     },
@@ -377,8 +377,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775227608.0,
       "hot": false
     },
