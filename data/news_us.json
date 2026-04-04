@@ -1,9 +1,45 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-04T10:03:26.649102+00:00",
-  "total": 25,
+  "updated_at": "2026-04-04T14:07:25.157737+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "6a38f54d08",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
+      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
+      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "36分前",
+      "pub_ts": 1775309442.0,
+      "hot": false
+    },
+    {
+      "id": "cba570242d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Missing Airman Raises Concerns That Iran Could Gain Leverage Over the U.S.",
+      "summary": "Since 1979, Iran has repeatedly used Americans and Europeans detained on its territory to win concessions over more powerful adversaries.",
+      "link": "https://www.nytimes.com/2026/04/04/world/middleeast/missing-airman-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04israel-iran-pilot-assess-01-lpmh/04israel-iran-pilot-assess-01-lpmh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775307387.0,
+      "hot": false
+    },
     {
       "id": "ca50b232ce",
       "type": "news",
@@ -17,16 +53,106 @@
       "categories": [
         "华人"
       ],
-      "score": 72,
-      "ago": "21小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1775220100.0,
+      "hot": false
+    },
+    {
+      "id": "88a2cf8df5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'London Falling': A teenage imposter, an aging gangster and a body in the Thames",
+      "summary": "In 2019, 19-year-old Zac Brettler leapt towards the River Thames from a fifth-floor luxury apartment in central London. Patrick Radden Keefe investigates the story of the teen's double life in a new b",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5766048/london-falling-review-patrick-radden-keefe",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775304000.0,
+      "hot": false
+    },
+    {
+      "id": "4c35a4f52a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Opinion: Humanity's hopes ascended with Artemis II",
+      "summary": "NPR's Scott Simon reflects on the successful launch of NASA's Artemis II this week. The four astronauts aboard will travel around the moon.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5764829/opinion-humanitys-hopes-ascended-with-artemis-ii",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775304000.0,
+      "hot": false
+    },
+    {
+      "id": "281286f335",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About the F-15E Strike Eagle Shot Down by Iran",
+      "summary": "An F-15E Strike Eagle was shot down over Iran and an A-10 Warthog crashed near the Strait of Hormuz, officials said on Friday. Two airmen were rescued, and one is unaccounted for.",
+      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03xp-iran-jet-wwk-qcgm/03xp-iran-jet-wwk-qcgm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775302258.0,
+      "hot": false
+    },
+    {
+      "id": "a59192a156",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Wants to Make Deportation Deals. Autocrats Are Ready to Listen.",
+      "summary": "The White House has turned deportations, a signature domestic issue, into a major piece of foreign policy. Here’s what we know about the program.",
+      "link": "https://www.nytimes.com/2026/04/04/world/africa/trump-deportation-africa-migrants.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/00int-deportations-1-vtpw/00int-deportations-1-vtpw-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775301179.0,
+      "hot": false
+    },
+    {
+      "id": "c2111af16a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran war enters its 6th week as military searches for downed jet crew member",
+      "summary": "The war in Iran enters its 6th week as the search continues for the missing U.S. service member who bailed out of a fighter jet shot down over Iran on Friday.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5773436/iran-war-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775299707.0,
       "hot": false
     },
     {
       "id": "65ba0b6c73",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
       "title": "The busiest place you've never seen",
       "summary": "Photographer Julia Gunther and writer-filmmaker Nick Schönfeld chronicle the rhythms of daily life on Tristan da Cunha, the world's most remote inhabited island.",
@@ -35,8 +161,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "3分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775296800.0,
       "hot": false
     },
@@ -53,8 +179,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "33分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775295000.0,
       "hot": false
     },
@@ -71,8 +197,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "48分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775294100.0,
       "hot": false
     },
@@ -89,9 +215,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775293320.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775293321.0,
       "hot": false
     },
     {
@@ -107,8 +233,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775293309.0,
       "hot": false
     },
@@ -125,63 +251,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775293303.0,
-      "hot": false
-    },
-    {
-      "id": "6c00d94ee1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Europe’s Options in the Strait of Hormuz: Few, and Risky",
-      "summary": "European leaders and other officials have ideas for bringing shipping back to the strait once the Iran war ends. But none of them are sure bets.",
-      "link": "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04int-europe-hormuz-scramble-cgtm/04int-europe-hormuz-scramble-cgtm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775293295.0,
-      "hot": false
-    },
-    {
-      "id": "a59192a156",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Wants to Make Deportation Deals. Autocrats Are Ready to Listen.",
-      "summary": "The White House has turned deportations, a signature domestic issue, into a major piece of foreign policy. Here’s what we know about the program.",
-      "link": "https://www.nytimes.com/2026/04/04/world/africa/trump-deportation-africa-migrants.html",
-      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/00int-deportations-1-vtpw/00int-deportations-1-vtpw-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775293233.0,
-      "hot": false
-    },
-    {
-      "id": "ea62853dcb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Dr. Sanjay Gupta explains what we do — and still don't — know about pain",
-      "summary": "\"Pain is a mysterious thing,\" says neurosurgeon Dr. Sanjay Gupta. But understanding how it works in the body and different kinds of treatment can help you find the right pain relief when you need it.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5699477/pain-science-sanjay-gupta",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775293200.0,
       "hot": false
     },
     {
@@ -197,45 +269,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775293200.0,
       "hot": false
     },
     {
-      "id": "ed62601369",
+      "id": "ea62853dcb",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Tax refunds are trending a bit higher this year. Here's how people are spending them",
-      "summary": "Some people are splurging. Others are finding that their refunds are being swallowed up by the rising cost of gas.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5759680/tax-refunds-trending-higher",
+      "title": "Dr. Sanjay Gupta explains what we do — and still don't — know about pain",
+      "summary": "\"Pain is a mysterious thing,\" says neurosurgeon Dr. Sanjay Gupta. But understanding how it works in the body and different kinds of treatment can help you find the right pain relief when you need it.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5699477/pain-science-sanjay-gupta",
       "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775293200.0,
-      "hot": false
-    },
-    {
-      "id": "281286f335",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What We Know About the F-15E Strike Eagle Shot Down by Iran",
-      "summary": "An F-15E Strike Eagle was lost to enemy fire and an A-10 Warthog crashed in the Persian Gulf region on Friday, officials said. A rescue helicopter was also fired upon.",
-      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03xp-iran-jet-wwk-qcgm/03xp-iran-jet-wwk-qcgm-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775282160.0,
+      "ago": "5小时前",
+      "pub_ts": 1775293200.0,
       "hot": false
     },
     {
@@ -252,62 +306,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775275268.0,
-      "hot": false
-    },
-    {
-      "id": "1c8e168f8b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "65, single, seeking a roommate: More seniors are being priced out of living alone",
-      "summary": "Roommates overall are skewing older, as young people stay with their parents for longer. The share of older adults looking to rent with a roommate has tripled from a decade ago.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5760948/high-housing-costs-seniors-seeking-roommates",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775275260.0,
-      "hot": false
-    },
-    {
-      "id": "6a38f54d08",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
-      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775267720.0,
-      "hot": false
-    },
-    {
-      "id": "57241e5e45",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "NASA's Artemis II crew are quite the photographers. See what they've snapped so far",
-      "summary": "Many of the photos that have come out of the moon mission so far were taken by crew members. NASA says the crew is getting guidance from scientists on what to capture when they get closer to the moon.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/03/nx-s1-5773282/artemis-ii-nasa-photos",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775262630.0,
+      "ago": "10小时前",
+      "pub_ts": 1775275269.0,
       "hot": false
     },
     {
@@ -324,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1775246819.0,
       "hot": false
     },
@@ -342,26 +342,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1775246202.0,
-      "hot": false
-    },
-    {
-      "id": "3bdee2ac7e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump's ballroom fight sheds new light on an underground White House bunker",
-      "summary": "The status of a decades-old bunker beneath the now-demolished East Wing is unclear, but the Trump administration has cited security concerns in its legal filings in favor of continuing construction.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5772665/trump-ballroom-underground-military-bunker",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775239082.0,
       "hot": false
     },
     {
@@ -378,7 +360,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1775235165.0,
       "hot": false
     },
@@ -396,44 +378,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1775227608.0,
-      "hot": false
-    },
-    {
-      "id": "0c73bd3c0e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Pam Bondi is out at DOJ. And, NASA's Artemis II has left Earth's orbit",
-      "summary": "President Trump announced yesterday that Pam Bondi is out as Attorney General. And, NASA's Artemis II has left Earth's orbit and is heading toward the moon.",
-      "link": "https://www.npr.org/2026/04/03/g-s1-116325/up-first-newsletter-pam-bondi-doj-iran-strait-of-hormuz-nasa",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1775215542.0,
-      "hot": false
-    },
-    {
-      "id": "a5d27e6ffa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "2 U.S. planes are down and Iran hits Gulf refineries as the war wraps its 5th week",
-      "summary": "An F-15 went down in Iran and a second Air Force plane crashed near the Strait of Hormuz as the war capped a week of intensified fighting.",
-      "link": "https://www.npr.org/2026/04/03/g-s1-116314/iran-hits-gulf-refineries-as-trump-warns-u-s-will-attack-iranian-bridges-power-plants",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "23小时前",
-      "pub_ts": 1775212199.0,
+      "pub_ts": 1775227608.0,
       "hot": false
     },
     {
