@@ -1,14 +1,14 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-04T05:24:46.299546+00:00",
-  "total": 22,
+  "updated_at": "2026-04-04T10:03:26.649102+00:00",
+  "total": 25,
   "articles": [
     {
       "id": "ca50b232ce",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "China's Communist Party investigates ex-Xinjiang leader Ma Xingrui",
       "summary": "Ma Xingrui is a member of the party's Central Committee and served as party secretary of the Xinjiang region in China's northwest from 2021-2025.",
@@ -18,80 +18,206 @@
         "华人"
       ],
       "score": 72,
-      "ago": "16小时前",
+      "ago": "21小时前",
       "pub_ts": 1775220100.0,
       "hot": false
     },
     {
-      "id": "1c8e168f8b",
+      "id": "65ba0b6c73",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "The busiest place you've never seen",
+      "summary": "Photographer Julia Gunther and writer-filmmaker Nick Schönfeld chronicle the rhythms of daily life on Tristan da Cunha, the world's most remote inhabited island.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/04/04/g-s1-116218/life-on-tristan-da-cunha",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "3分前",
+      "pub_ts": 1775296800.0,
+      "hot": false
+    },
+    {
+      "id": "08f542f151",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "65, single, seeking a roommate: More seniors are being priced out of living alone",
-      "summary": "Roommates overall are skewing older, as young people stay with their parents for longer. The share of older adults looking to rent with a roommate has tripled from a decade ago.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5760948/high-housing-costs-seniors-seeking-roommates",
+      "title": "Buttercream wool and jelly bean eyes: The art of the Easter lamb cake",
+      "summary": "The cakes – usually baked in the shape of a lamb using a special pan – have a long history in Central Europe, from the German osterlamm, to the Polish baranek wielkanocny, to the Alsatian lammele.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5771819/lamb-cakes-easter",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775275260.0,
+      "ago": "33分前",
+      "pub_ts": 1775295000.0,
       "hot": false
     },
     {
-      "id": "663251faa2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Directs Officials to Pay All D.H.S. Employees",
-      "summary": "The memorandum calls for paying employees at the Coast Guard, Federal Emergency Management Agency and Cybersecurity and Infrastructure Security Agency who have gone without pay during a record-long sh",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-order-dhs-funding.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-trump-dhs-hfqz/03dc-trump-dhs-hfqz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775271321.0,
-      "hot": false
-    },
-    {
-      "id": "6a38f54d08",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
-      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775267720.0,
-      "hot": false
-    },
-    {
-      "id": "57241e5e45",
+      "id": "295a2a87b6",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "NASA's Artemis II crew are quite the photographers. See what they've snapped so far",
-      "summary": "Many of the photos that have come out of the moon mission so far were taken by crew members. NASA says the crew is getting guidance from scientists on what to capture when they get closer to the moon.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/03/nx-s1-5773282/artemis-ii-nasa-photos",
+      "title": "When legal sports betting surges, so do Americans' financial problems",
+      "summary": "As online betting has grown in popularity, a new report from the New York Federal Reserve builds on the troubling link between legal sports wagering and financial health.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775262630.0,
+      "score": 70,
+      "ago": "48分前",
+      "pub_ts": 1775294100.0,
+      "hot": false
+    },
+    {
+      "id": "18ec1b107a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "New Attorney General, Same Albatross: Trump’s Quest for Retribution",
+      "summary": "The name atop the Justice Department’s organizational chart matters less than the presence of a president whose demands for revenge have become so extreme that even his most obsequious appointees have",
+      "link": "https://www.nytimes.com/2026/04/04/us/politics/attorney-general-trump.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-assess-wghk/03dc-assess-wghk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293320.0,
+      "hot": false
+    },
+    {
+      "id": "8580852f0b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Budget Does Little to Address Nation’s Fiscal Challenges",
+      "summary": "While the federal deficit has started to shrink under President Trump, his plans could make the long-term situation worse.",
+      "link": "https://www.nytimes.com/2026/04/04/business/trump-budget-federal-deficit.html",
+      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04dc-trump-debt-vtcl/04dc-trump-debt-vtcl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293309.0,
+      "hot": false
+    },
+    {
+      "id": "ea2f671ffd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Pledged a Quick End to the Iran War, but He Hasn’t Explained How",
+      "summary": "President Trump bet that American firepower could cow Iran into compliance. So far, Iran’s leaders have been unwilling to quit.",
+      "link": "https://www.nytimes.com/2026/04/04/us/politics/trump-endless-wars.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-endless-01-vlmq/03dc-endless-01-vlmq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293303.0,
+      "hot": false
+    },
+    {
+      "id": "6c00d94ee1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Europe’s Options in the Strait of Hormuz: Few, and Risky",
+      "summary": "European leaders and other officials have ideas for bringing shipping back to the strait once the Iran war ends. But none of them are sure bets.",
+      "link": "https://www.nytimes.com/2026/04/04/world/europe/strait-hormuz-shipping-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04int-europe-hormuz-scramble-cgtm/04int-europe-hormuz-scramble-cgtm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293295.0,
+      "hot": false
+    },
+    {
+      "id": "a59192a156",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Wants to Make Deportation Deals. Autocrats Are Ready to Listen.",
+      "summary": "The White House has turned deportations, a signature domestic issue, into a major piece of foreign policy. Here’s what we know about the program.",
+      "link": "https://www.nytimes.com/2026/04/04/world/africa/trump-deportation-africa-migrants.html",
+      "image": "https://static01.nyt.com/images/2026/03/31/multimedia/00int-deportations-1-vtpw/00int-deportations-1-vtpw-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293233.0,
+      "hot": false
+    },
+    {
+      "id": "ea62853dcb",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Dr. Sanjay Gupta explains what we do — and still don't — know about pain",
+      "summary": "\"Pain is a mysterious thing,\" says neurosurgeon Dr. Sanjay Gupta. But understanding how it works in the body and different kinds of treatment can help you find the right pain relief when you need it.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5699477/pain-science-sanjay-gupta",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293200.0,
+      "hot": false
+    },
+    {
+      "id": "3eff32bf14",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Congress gave money for global HIV work. The Trump administration isn't spending it",
+      "summary": "U.S. work combatting HIV/AIDS has saved millions of lives globally. Under the Trump administration, funding has been slow in coming and unpredictable, wreaking havoc on people trying to do the work.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5763938/hiv-aids-pepfar-funding-delays-may-shut-down-lifesaving-aid",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293200.0,
+      "hot": false
+    },
+    {
+      "id": "ed62601369",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Tax refunds are trending a bit higher this year. Here's how people are spending them",
+      "summary": "Some people are splurging. Others are finding that their refunds are being swallowed up by the rising cost of gas.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5759680/tax-refunds-trending-higher",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775293200.0,
       "hot": false
     },
     {
@@ -108,80 +234,80 @@
         "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775261704.0,
+      "ago": "4小时前",
+      "pub_ts": 1775282160.0,
       "hot": false
     },
     {
-      "id": "51b6dcb775",
+      "id": "5335c04b6e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "March Jobs Report Shows Stronger U.S. Market Than Expected With 178,000 New Positions",
-      "summary": "Payrolls expanded and unemployment dropped last month after a health care strike ended and a harsh winter abated.",
-      "link": "https://www.nytimes.com/2026/04/03/business/economy/jobs-report-hiring-unemployment.html",
+      "title": "Epstein Presented Himself to Indian Tycoon as a Trump White House Insider",
+      "summary": "The convicted sex offender gave Anil Ambani information on appointments and foreign policy. Some seemed prescient, though there was no evidence he was close to the administration.",
+      "link": "https://www.nytimes.com/2026/04/04/world/asia/epstein-india-ambani.html",
+      "image": "https://static01.nyt.com/images/2026/03/17/multimedia/17INT-EPSTEIN-INDIA-AMBANI-01-kwcb/17INT-EPSTEIN-INDIA-AMBANI-01-kwcb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775275268.0,
+      "hot": false
+    },
+    {
+      "id": "1c8e168f8b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "65, single, seeking a roommate: More seniors are being priced out of living alone",
+      "summary": "Roommates overall are skewing older, as young people stay with their parents for longer. The share of older adults looking to rent with a roommate has tripled from a decade ago.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5760948/high-housing-costs-seniors-seeking-roommates",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775261267.0,
-      "hot": false
-    },
-    {
-      "id": "b13e24fb7c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran Is Quickly Repairing Missile Bunkers, U.S. Intelligence Says",
-      "summary": "Reports cast doubt on how close the United States is to destroying Iran’s missile capability, a key goal in the war.",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/iran-missiles-launchers.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-intel-zblq/03dc-intel-zblq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1775257651.0,
+      "pub_ts": 1775275260.0,
       "hot": false
     },
     {
-      "id": "3f65048f77",
+      "id": "6a38f54d08",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Ex-US Army Pilot Recalls Battle for Survival When Shot Down in Iraq",
-      "summary": "Ronald Young Jr. was in the Army when his Apache Longbow copter went down during the U.S. invasion of Iraq.",
-      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/iraq-us-pow-rescue-survival.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/world/03int-pilot-interview-top/03int-pilot-interview-top-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775255705.0,
-      "hot": false
-    },
-    {
-      "id": "58ef765e11",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Seeks $152 Million to Begin to Turn Alcatraz Back Into a Prison",
-      "summary": "The plan faces significant local political opposition and the dilapidated state of the site poses considerable logistical challenges.",
-      "link": "https://www.nytimes.com/2026/04/03/us/trump-alcatraz-funding.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/NAT-ALCATRAZ-qtfv/NAT-ALCATRAZ-qtfv-mediumSquareAt3X.jpg",
+      "title": "Trump Contemplates Other Cabinet Changes as He Faces Political Clock",
+      "summary": "With the midterms approaching, the president may be running out of time to get new cabinet members confirmed without bipartisan support.",
+      "link": "https://www.nytimes.com/2026/04/03/us/politics/trump-cabinet-changes.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03dc-cabinet-czft/03dc-cabinet-czft-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "8小时前",
-      "pub_ts": 1775250361.0,
+      "pub_ts": 1775267720.0,
+      "hot": false
+    },
+    {
+      "id": "57241e5e45",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "NASA's Artemis II crew are quite the photographers. See what they've snapped so far",
+      "summary": "Many of the photos that have come out of the moon mission so far were taken by crew members. NASA says the crew is getting guidance from scientists on what to capture when they get closer to the moon.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/04/03/nx-s1-5773282/artemis-ii-nasa-photos",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1775262630.0,
       "hot": false
     },
     {
@@ -198,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1775246819.0,
       "hot": false
     },
@@ -216,26 +342,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1775246202.0,
-      "hot": false
-    },
-    {
-      "id": "dcd06ebd09",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Requests $1.5 Trillion for Military Spending",
-      "summary": "The huge proposed increase would be partly offset by steep cuts to domestic programs, some of which the Trump administration describes as wasteful.",
-      "link": "https://www.nytimes.com/2026/04/03/us/politics/white-house-defense-budget.html",
-      "image": "https://static01.nyt.com/images/2026/03/30/multimedia/00dc-trump-budget-wvfb/00dc-trump-budget-wvfb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775240427.0,
       "hot": false
     },
     {
@@ -252,7 +360,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1775239082.0,
       "hot": false
     },
@@ -260,7 +368,7 @@
       "id": "006461729e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Seville, Spain's Holy Week blends faith, tradition and spectacle",
       "summary": "Even as religious belief declines in Spain, the processions at Seville's Semana Santa — the Holy Week lead-up to Easter — draw crowds moved by music, tradition and powerful emotion.",
@@ -270,7 +378,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "17小时前",
       "pub_ts": 1775235165.0,
       "hot": false
     },
@@ -278,7 +386,7 @@
       "id": "b262b3829f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A U.S. jet goes down over Iran, a U.S. official confirms",
       "summary": "A U.S. official said that one crew member had been rescued and U.S. forces continue to search for the second crew member.",
@@ -288,44 +396,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "19小时前",
       "pub_ts": 1775227608.0,
-      "hot": false
-    },
-    {
-      "id": "d836e218a5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The labor market springs back to life in March as employers add 178,000 jobs",
-      "summary": "The U.S. job market perked up last month as employers added 178,000 jobs. The unemployment rate dipped to 4.3%, mainly because the number of people seeking work declined.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5772696/jobs-employment-economy-labor-market",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775222670.0,
-      "hot": false
-    },
-    {
-      "id": "2e7fa6fa2b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump budget seeks $1.5 trillion in defense spending alongside domestic program cuts",
-      "summary": "In his annual budget, President Trump is asking Congress to boost defense spending to $1.5 trillion, the largest such request in decades.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5772701/trump-budget-defense-spending",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775221685.0,
       "hot": false
     },
     {
@@ -342,7 +414,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "22小时前",
       "pub_ts": 1775215542.0,
       "hot": false
     },
@@ -360,26 +432,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "23小时前",
       "pub_ts": 1775212199.0,
-      "hot": false
-    },
-    {
-      "id": "c747ec61e1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Evacuation of U.S. troops from Mideast base sends community groups scrambling to help",
-      "summary": "Troops and their families have been pushed back to the United States after their bases in the Middle East were threatened by Iranian counterattacks. Community groups are scrambling to react.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5770491/evacuation-bahrain-norfolk-troops",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1775206800.0,
       "hot": false
     },
     {
