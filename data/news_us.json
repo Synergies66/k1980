@@ -1,43 +1,80 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-04T21:50:29.892776+00:00",
-  "total": 21,
+  "updated_at": "2026-04-05T06:00:18.167601+00:00",
+  "total": 19,
   "articles": [
     {
-      "id": "7b61065b27",
+      "id": "a04fc01ad5",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "The significance of the space mission that's making history",
-      "summary": "Former NASA chief of staff Bale Dalton talks about the work that went into the Artemis mission plan and what to watch for on the journey.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5771727/the-significance-of-the-space-mission-thats-making-history",
-      "image": null,
+      "title": "China Built the World’s Drone Industry. Now It’s Locking Down the Skies.",
+      "summary": "The Chinese government tightened rules to curb what it described as illegal drone use, but some users say the changes are now restricting too many flights.",
+      "link": "https://www.nytimes.com/2026/04/05/world/asia/china-drone-regulations.html",
+      "image": "https://static01.nyt.com/images/2026/04/05/world/05int-china-drones/05int-china-drones-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "政治",
+        "华人"
       ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1775337645.0,
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1775361668.0,
       "hot": false
     },
     {
-      "id": "3776ea6ef0",
+      "id": "7c57c8f3c1",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "U.S. searches for airman shot down in Iran, while Trump posts ultimatum",
-      "summary": "At the start of the sixth week of war, U.S. forces search for a missing airman and President Trump reiterates his ultimatum for Iran to open the Straight of Hormuz.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5773100/u-s-searches-for-airman-shot-down-in-iran-while-trump-posts-ultimatum",
+      "title": "Trump says U.S. military has rescued airman shot down over Iran",
+      "summary": "A U.S. Airforce officer whose plane was shot down in Iran was rescued by U.S. forces early Sunday, President Trump announced on social media.",
+      "link": "https://www.npr.org/2026/04/05/nx-s1-5774368/u-s-military-rescue-airman-iran",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1775337324.0,
+      "ago": "6分前",
+      "pub_ts": 1775368435.0,
+      "hot": false
+    },
+    {
+      "id": "3245b69705",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Easter Reminds Us That Resurrection Is Everywhere",
+      "summary": "Marriages, careers, reputations, financial stability and dreams can all die. But that’s not the end of the story.",
+      "link": "https://www.nytimes.com/2026/04/05/opinion/easter-sunday-resurrection.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775365205.0,
+      "hot": false
+    },
+    {
+      "id": "e245ce86a4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Women Need Treatment for Hot Flashes. Why Is This So Hard?",
+      "summary": "Hormone patches are in scarce supply because of increased demand — that’s mostly a good thing.",
+      "link": "https://www.nytimes.com/2026/04/05/opinion/estrogen-hormone-therapy-patches-shortage.html",
+      "image": "https://static01.nyt.com/images/2026/04/05/opinion/05goddard/05goddard-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775365205.0,
       "hot": false
     },
     {
@@ -54,8 +91,99 @@
         "移民"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1775316857.0,
+      "hot": false
+    },
+    {
+      "id": "2f596e344a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Judge Pauses Trump Demand for Student Race Data in 17 States",
+      "summary": "The Trump administration had said it would collect data from colleges to ensure compliance with a Supreme Court ruling ending affirmative action in admissions.",
+      "link": "https://www.nytimes.com/2026/04/04/us/trump-lawsuit-admissions-data.html",
+      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04NAT-ADMISSIONS-DATA-qvhz/04NAT-ADMISSIONS-DATA-qvhz-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775350272.0,
+      "hot": false
+    },
+    {
+      "id": "b0b928d154",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Local culture shapes the Zairean liturgy",
+      "summary": "Easter in the Democratic Republic of the Congo—where congregants celebrate with the Zairean Rite, the only Vatican-approved liturgy shaped by local culture, alive with song, dance, and striking ritual",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5769881/local-culture-shapes-the-zairean-liturgy",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775339147.0,
+      "hot": false
+    },
+    {
+      "id": "19542203c5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "German researchers set right the story of a 9,000-year-old shaman's grave",
+      "summary": "When a 9,000 year-old grave of a shaman was discovered in Nazi Germany, the discovery was quickly politicized to support Nazi propaganda. But new analysis shows that initial narrative was all wrong.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5763625/german-researchers-set-right-the-story-of-a-9-000-year-old-shamans-grave",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775339143.0,
+      "hot": false
+    },
+    {
+      "id": "7b61065b27",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "The significance of the space mission that's making history",
+      "summary": "Former NASA chief of staff Bale Dalton talks about the work that went into the Artemis mission plan and what to watch for on the journey.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5771727/the-significance-of-the-space-mission-thats-making-history",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775337645.0,
+      "hot": false
+    },
+    {
+      "id": "3776ea6ef0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "U.S. searches for airman shot down in Iran, while Trump posts ultimatum",
+      "summary": "At the start of the sixth week of war, U.S. forces search for a missing airman and President Trump reiterates his ultimatum for Iran to open the Straight of Hormuz.",
+      "link": "https://www.npr.org/2026/04/04/nx-s1-5773100/u-s-searches-for-airman-shot-down-in-iran-while-trump-posts-ultimatum",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775337324.0,
       "hot": false
     },
     {
@@ -71,8 +199,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775331688.0,
       "hot": false
     },
@@ -89,27 +217,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1775327367.0,
-      "hot": false
-    },
-    {
-      "id": "44816a36e8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What Teens Are Doing With Those Role-Playing Chatbots",
-      "summary": "Harassing bots with “funny violence.” Confiding about a broken heart. Chatting with a block of cheese. Filling a void of loneliness.",
-      "link": "https://www.nytimes.com/2026/04/04/technology/ai-chatbots-teen-roleplay.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/00BIZ-AI-TEENS-new-01-pmlt/00BIZ-AI-TEENS-new-01-pmlt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775326237.0,
       "hot": false
     },
     {
@@ -125,63 +235,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1775322783.0,
-      "hot": false
-    },
-    {
-      "id": "cba570242d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Missing Airman Raises Concerns That Iran Could Gain Leverage Over the U.S.",
-      "summary": "Since 1979, Iran has repeatedly used Americans and Europeans detained on its territory to win concessions over more powerful adversaries.",
-      "link": "https://www.nytimes.com/2026/04/04/world/middleeast/missing-airman-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04israel-iran-pilot-assess-01-lpmh/04israel-iran-pilot-assess-01-lpmh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775321884.0,
-      "hot": false
-    },
-    {
-      "id": "a6552f5501",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Pam and Kristi, Kicked to the Curb",
-      "summary": "Trump girls gone wild — or just gone.",
-      "link": "https://www.nytimes.com/2026/04/04/opinion/pam-bondi-kristi-noem-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04dowd-3-cktq/04dowd-3-cktq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775314530.0,
-      "hot": false
-    },
-    {
-      "id": "281286f335",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What We Know About the F-15E Strike Eagle Shot Down by Iran",
-      "summary": "An F-15E Strike Eagle was shot down over Iran and an A-10 Warthog crashed near the Strait of Hormuz, officials said on Friday. Two airmen were rescued, and one is unaccounted for.",
-      "link": "https://www.nytimes.com/2026/04/03/world/middleeast/f-15-us-fighter-jet-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/03xp-iran-jet-wwk-qcgm/03xp-iran-jet-wwk-qcgm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775313460.0,
       "hot": false
     },
     {
@@ -198,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "18小时前",
       "pub_ts": 1775304000.0,
       "hot": false
     },
@@ -216,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "18小时前",
       "pub_ts": 1775304000.0,
       "hot": false
     },
@@ -234,7 +290,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1775299707.0,
       "hot": false
     },
@@ -252,44 +308,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "20小时前",
       "pub_ts": 1775296800.0,
-      "hot": false
-    },
-    {
-      "id": "08f542f151",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Buttercream wool and jelly bean eyes: The art of the Easter lamb cake",
-      "summary": "The cakes – usually baked in the shape of a lamb using a special pan – have a long history in Central Europe, from the German osterlamm, to the Polish baranek wielkanocny, to the Alsatian lammele.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5771819/lamb-cakes-easter",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775295000.0,
-      "hot": false
-    },
-    {
-      "id": "295a2a87b6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "When legal sports betting surges, so do Americans' financial problems",
-      "summary": "As online betting has grown in popularity, a new report from the New York Federal Reserve builds on the troubling link between legal sports wagering and financial health.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5773354/legal-sports-betting-research-credit-bankruptcy",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775294100.0,
       "hot": false
     },
     {
@@ -306,62 +326,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "20小时前",
       "pub_ts": 1775293233.0,
-      "hot": false
-    },
-    {
-      "id": "9f9890c0c5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump's criticism of NATO raises questions of whether — or how — the U.S. could leave",
-      "summary": "President Trump has complained that some NATO states aren't letting him use bases in the war against Iran. His criticism has left many wondering if the U.S. may try to withdraw from the alliance.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5771619/trumps-criticism-of-nato-raises-questions-of-whether-or-how-the-u-s-could-leave",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775246819.0,
-      "hot": false
-    },
-    {
-      "id": "00572cf810",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iranians are leaving the country just to get internet",
-      "summary": "As the Israel and the U.S. continue striking Iran, Iranians are traveling across the border with Turkey to find an Internet connection with access cut off in Iran",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5753859/iranians-are-leaving-the-country-just-to-get-internet",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775246202.0,
-      "hot": false
-    },
-    {
-      "id": "006461729e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Seville, Spain's Holy Week blends faith, tradition and spectacle",
-      "summary": "Even as religious belief declines in Spain, the processions at Seville's Semana Santa — the Holy Week lead-up to Easter — draw crowds moved by music, tradition and powerful emotion.",
-      "link": "https://www.npr.org/2026/04/03/nx-s1-5771511/seville-spain-semana-santa-easter-holy-week",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775235165.0,
       "hot": false
     },
     {
