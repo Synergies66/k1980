@@ -1,26 +1,152 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-05T06:04:08.352672+00:00",
+  "updated_at": "2026-04-05T10:06:16.531149+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "436a87a5f0",
+      "id": "4ee2a1d75b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "China executes Frenchman convicted in 2010 for drug trafficking",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/east-asia/china-execute-frenchman-drug-trafficking-6037466",
+      "image": "https://dam.mediacorp.sg/image/upload/s--rlzsjFn6--/c_crop,h_450,w_800,x_0,y_51/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-13T180824Z_1_LYNXMPEM2C17S_RTROPTP_3_USA-CHINA-NUCLEAR.JPG?itok=j9vf8YUC",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "52分前",
+      "pub_ts": 1775380440.0,
+      "hot": false
+    },
+    {
+      "id": "6754685afa",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Sri Lanka arrests 152 people in alleged Chinese-run cyberscam",
+      "summary": "Local police sources say Chinese nationals had rented an entire hotel in the coastal town of Chilaw to run an alleged cyberscam operation.",
+      "link": "https://www.channelnewsasia.com/asia/sri-lanka-police-arrest-chinese-nationals-alleged-cyberscam-6037436",
+      "image": "https://dam.mediacorp.sg/image/upload/s--mZ3slTcr--/c_crop,h_800,w_1422,x_88,y_0/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2025/06/27/istock-1056779176.jpg?itok=0SJUdrjv",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1775372691.0,
+      "hot": false
+    },
+    {
+      "id": "ea5fd50313",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Bangkok internship, exchange in London: Singapore students explore ASEAN, China beyond the West",
-      "summary": "A few institutions identified China, Indonesia and Vietnam as the most sought-after destinations.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/bangkok-internship-exchange-in-london-spore-students-explore-asean-china-beyond-the-west",
+      "title": "One of Singapore’s peregrine falcon chicks found dead",
+      "summary": "Of the remaining three chicks, two have already fledged and have begun taking test flights.",
+      "link": "https://www.straitstimes.com/singapore/environment/one-of-singapores-peregrine-falcon-chicks-found-dead",
       "image": null,
       "categories": [
-        "华人",
-        "教育"
+        "科技"
       ],
-      "score": 72,
-      "ago": "17小时前",
-      "pub_ts": 1775305800.0,
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1775382000.0,
+      "hot": false
+    },
+    {
+      "id": "7434fcbc2b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Artemis astronauts glimpse Moon's 'Grand Canyon' ahead of historic lunar flyby",
+      "summary": "The next major milestone is expected overnight, at which point the astronauts will enter the \"lunar sphere of influence\" where the Moon's gravity will have a stronger pull on the spacecraft than Earth",
+      "link": "https://www.channelnewsasia.com/world/artemis-astronauts-moon-grand-canyon-lunar-flyby-6037456",
+      "image": "https://dam.mediacorp.sg/image/upload/s--vxydZykC--/c_crop,h_1080,w_1920,x_0,y_100/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/05/image-48766575.jpeg?itok=v3x8T62Y",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775378880.0,
+      "hot": false
+    },
+    {
+      "id": "c6d99f1ac2",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Man to be charged after allegedly scratching police vehicle in Redhill Close",
+      "summary": "According to investigations, the man used his key to scratch the doors of the police vehicle.",
+      "link": "https://www.straitstimes.com/singapore/man-to-be-charged-after-allegedly-scratching-police-vehicle-in-redhill-close",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775376600.0,
+      "hot": false
+    },
+    {
+      "id": "60ea3c2adb",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Iran military says destroyed US aircraft involved in search for airman",
+      "summary": "Two US Black Hawk helicopters and one C-130 military transport aircraft were among those struck, says Iran’s military.",
+      "link": "https://www.channelnewsasia.com/world/iran-us-aircraft-destroyed-black-hawk-6037446",
+      "image": "https://dam.mediacorp.sg/image/upload/s--GaKEqEV6--/c_crop,h_900,w_1600,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/05/2026-04-04t180830z_1377592447_rc2ofka2l69a_rtrmadp_3_iran-crisis.jpg?itok=aD5nVHJk",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775376420.0,
+      "hot": false
+    },
+    {
+      "id": "66e6fef022",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Foxconn first-quarter revenue jumps, company cautions on geopolitics",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/foxconn-first-quarter-revenue-jumps-company-cautions-geopolitics-6037441",
+      "image": "https://dam.mediacorp.sg/image/upload/s--6i9Q1eiD--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-05T080859Z_3_LYNXMPEM3402H_RTROPTP_3_FOXCONN-RESULTS.JPG?itok=NBJZqF6A",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775374835.0,
+      "hot": false
+    },
+    {
+      "id": "4c440124d5",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "The toughest test our kids face today",
+      "summary": "How do they even tell what is real and what is fake on the internet any more?",
+      "link": "https://www.straitstimes.com/singapore/parenting-education/the-toughest-test-our-kids-face-today",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775369100.0,
       "hot": false
     },
     {
@@ -36,8 +162,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "34分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775367000.0,
       "hot": false
     },
@@ -54,8 +180,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775364300.0,
       "hot": false
     },
@@ -72,27 +198,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775363537.0,
       "hot": false
     },
     {
-      "id": "c0b96b19f5",
+      "id": "23c0eeb88d",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Britain woos Anthropic expansion after US defence clash, FT says",
+      "title": "Britain woos Anthropic expansion after US defence clash: Report",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/business/britain-woos-anthropic-expansion-after-us-defence-clash-ft-says-6037361",
-      "image": "https://dam.mediacorp.sg/image/upload/s--tGLfsQ9n--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-05T043110Z_2_LYNXMPEM34011_RTROPTP_3_USA-PENTAGON-AI.JPG?itok=uv3_0_Jq",
+      "link": "https://www.channelnewsasia.com/business/britain-woos-anthropic-expansion-after-us-defence-clash-report-6037361",
+      "image": "https://dam.mediacorp.sg/image/upload/s--S2zy2Aj---/c_crop,h_449,w_799,x_1,y_33/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-05T043110Z_2_LYNXMPEM34011_RTROPTP_3_USA-PENTAGON-AI.JPG?itok=uv3_0_Jq",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775363470.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775363460.0,
       "hot": false
     },
     {
@@ -108,190 +234,63 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775362811.0,
       "hot": false
     },
     {
-      "id": "8be541750e",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "US rescues F-15 crew member downed in Iran, US officials say",
-      "summary": "The airman was the second member of a two-person crew of an F-15 that Iran said on Friday was brought down by its air defences.",
-      "link": "https://www.channelnewsasia.com/world/iran-war-f15-rescue-airman-pilot-6037286",
-      "image": "https://dam.mediacorp.sg/image/upload/s--wQUDTv2C--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/US_Iran_War_7_653.jpg?itok=gj0BgKOC",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775362140.0,
-      "hot": false
-    },
-    {
-      "id": "b38a5a48e2",
+      "id": "71b36cca20",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Love and labour: A wife’s caregiving journey after husband’s stroke upends retirement dreams",
+      "title": "From dreams to duty: A wife’s caregiving journey after husband’s stroke upends retirement plans",
       "summary": "A notable number of caregivers for seniors in Singapore are older adults themselves.",
       "link": "https://www.straitstimes.com/singapore/community/love-and-labour-a-wifes-caregiving-journey-after-husbands-stroke-upends-retirement-dreams",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775361720.0,
       "hot": false
     },
     {
-      "id": "462edd3379",
+      "id": "9bbaed8dcd",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Who cares for caregivers? 10 agencies get new grant to expand support, respite care in Singapore",
+      "title": "Who cares for caregivers? 10 agencies get new grant to expand support, respite care in S’pore",
       "summary": "The agencies will each get up to $500,000 over three years to build long-term programmes.",
       "link": "https://www.straitstimes.com/singapore/community/who-cares-for-caregivers-10-agencies-get-new-grant-to-expand-support-respite-care-in-singapore",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775361600.0,
       "hot": false
     },
     {
-      "id": "d178721407",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Brazilian Oscar retires at 34 with cardiac issues",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/brazilian-oscar-retires-34-cardiac-issues-6037266",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775360291.0,
-      "hot": false
-    },
-    {
-      "id": "82f45dacb0",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Afghan mother seeks justice after Pakistani bombing kills hundreds",
-      "summary": "The Mar 16 attack hit a drug treatment centre and killed 411 people, according to Afghan officials.",
-      "link": "https://www.channelnewsasia.com/asia/afghanistan-pakistan-hospital-airstrike-bombing-6037211",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Es2-T4Lq--/c_crop,h_288,w_512,x_0,y_44/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/05/afghanistan-pakistan-bombing-01.jpg?itok=IADRAlps",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775359364.0,
-      "hot": false
-    },
-    {
-      "id": "e5b29027f5",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "South Korea asks Gulf nations for steady energy supply, safety of Korean vessels",
-      "summary": "Gulf envoys said South Korea is a \"top priority\" nation and pledged to communicate closely with Seoul to ensure a stable supply of resources, South Korea's finance ministry said in a statement.",
-      "link": "https://www.channelnewsasia.com/east-asia/south-korea-gulf-envoys-strait-hormuz-oil-gas-flows-security-6037246",
-      "image": "https://dam.mediacorp.sg/image/upload/s--rpzgqAsn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-03T214511Z_1_LYNXMPEM320Q8_RTROPTP_3_GLOBAL-MARKETS.JPG?itok=nZ20cw77",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775359069.0,
-      "hot": false
-    },
-    {
-      "id": "e315f065c7",
+      "id": "f38bac6ab6",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Police appeal for information on 85-year-old man last seen in Aljunied",
-      "summary": "Mr Ooi Tiang Joo, 85, was last seen near Block 104 Aljunied Crescent at about 10.45am on April 4.",
+      "title": "Found: 85-year-old man reported missing in Aljunied",
+      "summary": "Mr Ooi Tiang Joo, 85, has been found after being reported missing on April 4.",
       "link": "https://www.straitstimes.com/singapore/police-appeal-for-information-on-85-year-old-man-last-seen-in-aljunied",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775356568.0,
-      "hot": false
-    },
-    {
-      "id": "2b2409eaf4",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Indonesia lays to rest peacekeepers killed in Lebanon",
-      "summary": "Indonesia has condemned the attacks as “unacceptable”, calling for a thorough investigation and stronger security guarantees for peacekeeping troops.",
-      "link": "https://www.channelnewsasia.com/asia/indonesia-lebanon-peacekeepers-killed-injured-middle-east-war-6037161",
-      "image": "https://dam.mediacorp.sg/image/upload/s--tJPP75FH--/c_crop,h_900,w_1600,x_0,y_83/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/05/indonesia_peacekeepers_lebanon_1.jpg?itok=zioumkL2",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775354040.0,
-      "hot": false
-    },
-    {
-      "id": "b34cafd289",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "She transferred almost $20,000 to ‘police’ under threat of being detained",
-      "summary": "Government officials impersonation scams more than doubled in 2025, with victims losing some $242.9 million.",
-      "link": "https://www.straitstimes.com/singapore/she-transferred-almost-20000-to-police-under-threat-of-being-detained",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775332800.0,
-      "hot": false
-    },
-    {
-      "id": "4a908248f5",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Pilot initiative to be expanded to keep seniors active, socially connected to their communities",
-      "summary": "The PA initiative Neighbourhood Kakis rewards seniors who do simple tasks in their communities.",
-      "link": "https://www.straitstimes.com/singapore/pilot-initiative-to-be-expanded-to-keep-seniors-active-socially-connected-to-their-communities",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775313000.0,
       "hot": false
     }
   ]
