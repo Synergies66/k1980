@@ -1,26 +1,226 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-06T06:21:53.018569+00:00",
+  "updated_at": "2026-04-06T11:31:44.423094+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "e76b02b16e",
+      "id": "24da311f98",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She paid into Medicare for years. Trump's immigration policy will end her coverage",
+      "summary": "A provision in the GOP's One Big Beautiful Bill Act will make Rosa María Carranza and an estimated 100,000 other lawfully present immigrant seniors ineligible. Her once secure retirement is in questio",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5770484/immigrants-tps-medicare-social-security-eligibility",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1775466060.0,
+      "hot": false
+    },
+    {
+      "id": "67f347f610",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump threatens Iran's power plants, bridges. And, Artemis II readies for lunar flyby",
+      "summary": "Trump threatened to bomb Iran's power plants and bridges unless it opens the Strait of Hormuz. And, NASA's Artemis II crew prepares to make its closest approach to the moon.",
+      "link": "https://www.npr.org/2026/04/06/g-s1-116535/up-first-newsletter-trump-strait-of-hormuz-artemis-two-lunar-flyby-savannah-nancy-guthrie-ada",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "36分前",
+      "pub_ts": 1775472928.0,
+      "hot": false
+    },
+    {
+      "id": "e2cce49e0b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "This Is Not China’s War, but Beijing Started Preparing for It Years Ago",
-      "summary": "Long concerned about geopolitical crises, China redoubled efforts to secure energy security when President Trump started raising the stakes in his first term.",
-      "link": "https://www.nytimes.com/2026/04/06/business/china-oil-shock-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06Biz-China-Resilience-01-gmqz/06Biz-China-Resilience-01-gmqz-mediumSquareAt3X.jpg",
+      "title": "On Iran, Trump Keeps World Off Balance With Ever-Changing Threats",
+      "summary": "Global leaders are struggling in their efforts to find a way to end the American-Israeli war on Iran, and they are spooked about what President Trump might do next.",
+      "link": "https://www.nytimes.com/2026/04/06/world/europe/iran-trump-threats.html",
+      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06int-iran-leaders-01-wzjg/06int-iran-leaders-01-wzjg-mediumSquareAt3X.jpg",
       "categories": [
-        "华人",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1775472295.0,
+      "hot": false
+    },
+    {
+      "id": "ec272a0ccb",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran pushes back against Trump's deadline",
+      "summary": "Iran's top officials pushed back against President Trump's deadline to open the Strait of Hormuz, striking a defiant tone as the warring sides traded missile attacks.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
+      "image": null,
+      "categories": [
         "科技"
       ],
-      "score": 77,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775470772.0,
+      "hot": false
+    },
+    {
+      "id": "43d4536630",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Inside the Race to Save a U.S. Airman in Iran, and Artemis II Heads Behind the Moon",
+      "summary": "Plus, Ye’s attempted comeback prompts backlash.",
+      "link": "https://www.nytimes.com/2026/04/06/podcasts/the-headlines/us-airman-iran-artemis-ii-moon.html",
+      "image": "https://static01.nyt.com/images/2026/04/05/multimedia/06headlines-dc-military-iran/06headlines-dc-military-iran-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775469610.0,
+      "hot": false
+    },
+    {
+      "id": "21c3c4fd44",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "NASA Families Don’t Go to the Moon, but They’re on the Mission, Too",
+      "summary": "For the families of the Artemis II astronauts, the mission “begins at assignment.”",
+      "link": "https://www.nytimes.com/2026/04/06/science/artemis-moon-nasa-families-astronauts.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/00HS-MOON-FAMILIES-01-ctqw/00HS-MOON-FAMILIES-01-ctqw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1775448069.0,
+      "pub_ts": 1775466117.0,
+      "hot": false
+    },
+    {
+      "id": "3a5e6d8a17",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Newly Obtained Video of Minneapolis Shooting Undermines ICE Account",
+      "summary": "Prosecutors did not watch video of the nonfatal shooting until weeks after charging the wounded man, an official said.",
+      "link": "https://www.nytimes.com/2026/04/06/us/minnesota-ice-shooting-video.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775466033.0,
+      "hot": false
+    },
+    {
+      "id": "bac7d8c225",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Plunging International Student Enrollment Under Trump Squeezes Colleges",
+      "summary": "The Trump administration’s campaign to curtail international students is not just hitting the elite schools targeted by the government.",
+      "link": "https://www.nytimes.com/2026/04/06/us/international-students-decrease-under-trump.html",
+      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/00nat-international-students-vplq/00nat-international-students-vplq-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775466020.0,
+      "hot": false
+    },
+    {
+      "id": "f5e2b975bc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "These blind students say their college blocked their education. A new rule could help",
+      "summary": "Higher education is especially reliant on computers and phones, but accessibility for people with disabilities has often been forgotten. A new federal rule could change that.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5720191/digital-accessibility-college-education-disability",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775466000.0,
+      "hot": false
+    },
+    {
+      "id": "a7de7d1a6d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Shingles can hit younger than you think. The vaccine can prevent excruciating pain",
+      "summary": "A reactivation of the virus that causes chickenpox, the illness can be miserable. Here's what to know about early warning signs, long-term symptoms and some surprising news about the vaccine.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5745209/shingles-symptoms-vaccine-treatment",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775466000.0,
+      "hot": false
+    },
+    {
+      "id": "3aede6b7c1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Savannah Guthrie returns to the 'Today' show months after her mother's disappearance",
+      "summary": "Savannah Guthrie's mother, Nancy Guthrie, has not been seen since returning home from a family dinner the evening of Jan. 31.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5772715/savannah-guthrie-today-show-return",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775466000.0,
+      "hot": false
+    },
+    {
+      "id": "45440aff11",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "President Trump says Iran has until Tuesday night to reopen the Strait of Hormuz, Trump is in a tight corner politically as he ramps up Iran war messaging, Artemis II crew readies for lunar flyby.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5771649/morning-news-brief",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775465175.0,
       "hot": false
     },
     {
@@ -36,91 +236,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775452169.0,
-      "hot": false
-    },
-    {
-      "id": "ae51c41f0f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Stephen Miller Is Still Pursuing His Immigration Agenda, but More Quietly",
-      "summary": "The architect of President Trump’s mass deportation campaign wants “a moratorium on immigration from third world countries until we can heal ourselves as a nation.” The chaos in Minneapolis has not pu",
-      "link": "https://www.nytimes.com/2026/04/05/us/politics/stephen-miller-immigration-agenda.html",
-      "image": "https://static01.nyt.com/images/2026/03/12/multimedia/00dc-miller-01-mhwp/00dc-miller-01-mhwp-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "13小时前",
-      "pub_ts": 1775406806.0,
-      "hot": false
-    },
-    {
-      "id": "aa8dca942a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Artemis II Moon Flyby: Crew, Timeline and What to Know",
-      "summary": "The journey around the moon of three Americans and one Canadian is going into its sixth day, but it’s not too late to get caught up on it.",
-      "link": "https://www.nytimes.com/2026/04/06/science/artemis-2-lunar-moon-flyby-nasa-timeline.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06moon-flyby-catch-up-bqjm/06moon-flyby-catch-up-bqjm-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775448075.0,
-      "hot": false
-    },
-    {
-      "id": "022eed1242",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "NASA Artemis II Astronauts Race Into Moon’s Embrace After Quiet Easter",
-      "summary": "Ahead of a lunar flyby on Monday, the crew celebrated the astronaut Jeremy Hansen’s first spaceflight and got a special message from Charlie Duke, the Apollo 16 moonwalker.",
-      "link": "https://www.nytimes.com/2026/04/05/science/nasa-moon-artemis-day-5.html",
-      "image": "https://static01.nyt.com/images/2026/04/05/obituaries/05HS-moon-daily/05HS-moon-daily-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775445618.0,
-      "hot": false
-    },
-    {
-      "id": "05a07e94f9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "UCLA storms past South Carolina to claim its 1st NCAA women's basketball title",
-      "summary": "UCLA secured the first NCAA women's basketball national championship in school history — a goal that was set after losing in the first Final Four last season.",
-      "link": "https://www.npr.org/2026/04/05/nx-s1-5774557/ucla-ncaa-womens-basketball-champions",
-      "image": null,
-      "categories": [
-        "天气",
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775438727.0,
       "hot": false
     },
     {
       "id": "e35353fcf7",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A music festival booked Kanye West, now known as Ye, and lost major sponsors",
       "summary": "The rapper Ye was announced as the headliner for the Wireless Festival in London. He's gained notoriety over the years for his antisemitic comments and activities glorifying Nazis.",
@@ -129,8 +254,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775438421.0,
       "hot": false
     },
@@ -147,9 +272,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775437013.0,
+      "hot": false
+    },
+    {
+      "id": "3a3167fbd0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Lesson From Risky Rescue: Threaten to Go Harder at Iran",
+      "summary": "In an expletive-laced social media post, the president said Iran should open the Strait of Hormuz or he would bomb bridges and power plants.",
+      "link": "https://www.nytimes.com/2026/04/05/us/politics/trump-risky-rescue-threats-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/05/multimedia/05dc-trump-kplw/05dc-trump-kplw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "13小时前",
+      "pub_ts": 1775427955.0,
       "hot": false
     },
     {
@@ -167,26 +310,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1775427411.0,
-      "hot": false
-    },
-    {
-      "id": "1354ce1ac6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Revels in Threats to Commit War Crimes in Iran",
-      "summary": "The president said he would bomb Iran “back to the Stone Ages.” Until this administration, American leaders had insisted they were trying to follow international law in war.",
-      "link": "https://www.nytimes.com/2026/04/05/us/politics/trump-iran-war-crimes-truth-social.html",
-      "image": "https://static01.nyt.com/images/2026/04/05/multimedia/05dc-warcrimes-trump-fjvc/05dc-warcrimes-trump-fjvc-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775426449.0,
       "hot": false
     },
     {
@@ -203,7 +328,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1775425052.0,
       "hot": false
     },
@@ -221,51 +346,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775424364.0,
-      "hot": false
-    },
-    {
-      "id": "00a0d139f0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Hollywood studios reach a tentative agreement with writers union",
-      "summary": "The Writers Guild of America went on strike for months in 2023 in a dispute with Hollywood studios. This year the union announced a new four-year contract after just a few weeks of negotiations.",
-      "link": "https://www.npr.org/2026/04/05/nx-s1-5774517/hollywood-studios-wga-tentative-agreement-writers-union",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775423350.0,
-      "hot": false
-    },
-    {
-      "id": "3d8ec463e5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "These rock-climbing fish can shimmy up a 50-foot waterfall",
-      "summary": "New research from the Democratic Republic of Congo offers a behavioral and anatomical portrait of a species that can achieve surprising athletic feats.",
-      "link": "https://www.npr.org/2026/04/05/nx-s1-5773315/shellear-climbing-fish-congo-waterfall",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1775386800.0,
       "hot": false
     },
     {
       "id": "e97dfed5ff",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "In Lebanon, more than 50 medics have been killed by Israel. Some say they're targeted",
       "summary": "Lebanon says at least 54 health workers are among more than 1,400 people killed by Israel during the current invasion. Human rights groups say first responders are being targeted — something Israel de",
@@ -274,45 +363,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775383200.0,
-      "hot": false
-    },
-    {
-      "id": "3c6e28980e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Questions to help you get 'financially naked' with your partner",
-      "summary": "Having \"brutally honest conversations\" about money can bring couples closer together, says Vivian Tu, a financial educator. She shares questions to ask your partner at every relationship stage.",
-      "link": "https://www.npr.org/2026/04/05/nx-s1-5745032/questions-to-help-you-get-financially-naked-with-your-partner",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1775379600.0,
-      "hot": false
-    },
-    {
-      "id": "f933871904",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "More teens are getting hooked on gambling. Parents say it often goes undetected",
-      "summary": "The explosion of online gambling and sports betting, as well as the advertising behind it, is attracting a growing number of young people, most of them boys.",
-      "link": "https://www.npr.org/2026/04/05/nx-s1-5762276/teens-getting-hooked-on-gambling-sports-betting",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1775379600.0,
       "hot": false
     },
     {
@@ -349,60 +402,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1775339147.0,
-      "hot": false
-    },
-    {
-      "id": "19542203c5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "German researchers set right the story of a 9,000-year-old shaman's grave",
-      "summary": "When a 9,000 year-old grave of a shaman was discovered in Nazi Germany, the discovery was quickly politicized to support Nazi propaganda. But new analysis shows that initial narrative was all wrong.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5763625/german-researchers-set-right-the-story-of-a-9-000-year-old-shamans-grave",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775339143.0,
-      "hot": false
-    },
-    {
-      "id": "7b61065b27",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The significance of the space mission that's making history",
-      "summary": "Former NASA chief of staff Bale Dalton talks about the work that went into the Artemis mission plan and what to watch for on the journey.",
-      "link": "https://www.npr.org/2026/04/04/nx-s1-5771727/the-significance-of-the-space-mission-thats-making-history",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775337645.0,
-      "hot": false
-    },
-    {
-      "id": "d8536ddf6f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Houston Cheers on Artemis II Moon Mission, Reclaiming Its Place as ‘Space City’",
-      "summary": "The Artemis II mission elicited deep feelings for many Americans, particularly in Houston, the home of mission control.",
-      "link": "https://www.nytimes.com/2026/04/04/us/artemis-ii-nasa-moon-houston-texas.html",
-      "image": "https://static01.nyt.com/images/2026/04/04/multimedia/04nat-artemis-space-tx-potential-top-lfvj/04nat-artemis-space-tx-potential-top-lfvj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775323248.0,
       "hot": false
     },
     {
