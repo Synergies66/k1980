@@ -1,24 +1,242 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-06T11:37:34.510467+00:00",
-  "total": 16,
+  "updated_at": "2026-04-06T15:11:49.812264+00:00",
+  "total": 15,
   "articles": [
     {
-      "id": "e541227a4f",
+      "id": "0f2c1d02cd",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "False ceiling in Lucky Plaza collapses; BCA says likely due to improper installation",
+      "summary": "The building remains structurally sound, added the authority.",
+      "link": "https://www.straitstimes.com/singapore/false-ceiling-in-lucky-plaza-collapses-bca-says-likely-due-to-improper-installation",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "6分前",
+      "pub_ts": 1775487900.0,
+      "hot": false
+    },
+    {
+      "id": "e0d65b4388",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Shophouse sales in Kampong Gelam have “declined sharply” in recent years, most buyers local: URA",
+      "summary": "It was addressing claims made on TikTok about rents and property ownership in the area.",
+      "link": "https://www.straitstimes.com/singapore/shophouse-sales-in-kampong-gelam-have-declined-sharply-in-recent-years-most-buyers-local-ura",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "39分前",
+      "pub_ts": 1775485920.0,
+      "hot": false
+    },
+    {
+      "id": "c14e8ee011",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Singapore Red Cross plans to mobilise about 700 volunteers to aid the elderly amid heat, haze",
+      "summary": "Beneficiaries will receive care packages and information on how to better protect themselves from scorching weather.",
+      "link": "https://www.straitstimes.com/singapore/src-plans-to-mobilise-about-700-volunteers-to-help-protect-the-elderly-amid-heat-haze",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1775485800.0,
+      "hot": false
+    },
+    {
+      "id": "f71d6c8e7c",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "NTU, Aumovio working on affordable AI systems to boost driver safety, data privacy",
+      "summary": "The collaboration aims to commercialise tools from research in fields like AI and materials science.",
+      "link": "https://www.straitstimes.com/tech/ntu-aumovio-working-on-affordable-ai-systems-to-boost-driver-safety",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775484300.0,
+      "hot": false
+    },
+    {
+      "id": "ce778b3cfd",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Israel defence minister says forces hit South Pars petrochemical plant in Iran",
+      "title": "Arbeloa expects Champions League response as Real host Bayern after LaLiga setback",
       "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/arbeloa-expects-champions-league-response-real-host-bayern-after-laliga-setback-6039226",
+      "image": "https://dam.mediacorp.sg/image/upload/s--q7RFsKz8--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-06T133829Z_1_LYNXMPEM350J7_RTROPTP_3_SOCCER-SPAIN-RMA-ATM.JPG?itok=LgsrGfXo",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775482709.0,
+      "hot": false
+    },
+    {
+      "id": "43b509f7ff",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "New Jersey cannot regulate Kalshi's prediction market, US appeals court rules",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/new-jersey-cannot-regulate-kalshis-prediction-market-us-appeals-court-rules-6039221",
+      "image": "https://dam.mediacorp.sg/image/upload/s--Zr42R7s4--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-06T145031Z_6_LYNXMPEM350IZ_RTROPTP_3_USA-LEGAL.JPG?itok=liSvH6Dz",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775482509.0,
+      "hot": false
+    },
+    {
+      "id": "706f373d5f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "North Korea leader's sister says Seoul's regret sending drones 'wise behaviour'",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/east-asia/kim-yo-jong-kim-jong-un-sister-seoul-regret-drone-wise-behaviour-6039171",
+      "image": "https://dam.mediacorp.sg/image/upload/s--QMV55dN5--/c_crop,h_562,w_1000,x_0,y_38/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Koreas_Tensions_64163.jpg?itok=YqVDXXQk",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775481420.0,
+      "hot": false
+    },
+    {
+      "id": "ab84842b2c",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Analysis:Investors press Amazon, Microsoft and Google on water, power use in US data centers",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/analysisinvestors-press-amazon-microsoft-and-google-water-power-use-in-us-data-centers-6039131",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775479342.0,
+      "hot": false
+    },
+    {
+      "id": "dd4776fc92",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Energy efficiency, renewables can reduce vulnerability of oil, gas dependence: Ravi Menon",
+      "summary": "Energy security and sustainability became mutually reinforcing objectives, said Singapore’s Ambassador for Climate Action.",
+      "link": "https://www.straitstimes.com/singapore/environment/energy-efficiency-renewables-can-reduce-vulnerability-of-oil-gas-dependence-ravi-menon",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775477700.0,
+      "hot": false
+    },
+    {
+      "id": "682da82d9b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Third teen charged with trafficking of etomidate vape pods",
+      "summary": "Goh Shao Zhi Cornelius is the third teenager to be charged for allegedly trafficking etomidate vape pods.",
+      "link": "https://www.channelnewsasia.com/singapore/hsa-18-year-old-charged-etomidate-vape-pods-alleged-trafficking-6039041",
+      "image": "https://dam.mediacorp.sg/image/upload/s--sWiU9f4m--/c_crop,h_473,w_842,x_0,y_74/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/06/vape.png?itok=NKsKA_M4",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775477640.0,
+      "hot": false
+    },
+    {
+      "id": "d0f5dea7de",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Oracle names Schneider Electric's Maxson as CFO amid soaring AI spending",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/oracle-names-schneider-electrics-maxson-cfo-amid-soaring-ai-spending-6039076",
+      "image": "https://dam.mediacorp.sg/image/upload/s--qIBIe9l6--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-06T141933Z_2_LYNXMPEM350G5_RTROPTP_3_ORACLE-RESULTS.JPG?itok=U0bF-Dsu",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775477085.0,
+      "hot": false
+    },
+    {
+      "id": "04697ca310",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Man to be charged after allegedly slapping four-year-old boy outside preschool in Woodlands",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/singapore/man-charged-allegedly-slapping-four-year-old-boy-6039031",
+      "image": "https://dam.mediacorp.sg/image/upload/s--XVLHwcvi--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:mediacorp,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/03/27/state_courts_file_photo.png?itok=3LKpzyz_",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775476140.0,
+      "hot": false
+    },
+    {
+      "id": "7f63bd9b00",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Israel hits Iran's largest petrochemical complex after Trump threat",
+      "summary": "The South Pars complex is responsible for about 50 per cent of Iran's petrochemical production, said Israel's Defence Minister Israel Katz.",
       "link": "https://www.channelnewsasia.com/world/israel-strikes-south-pars-petrochemical-plant-iran-war-6039021",
       "image": "https://dam.mediacorp.sg/image/upload/s--yQw9Kl9u--/c_crop,h_576,w_1024,x_0,y_105/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/18/pars_gas_field.jpg?itok=3IhS-rTp",
       "categories": [
-        "政治"
+        "政治",
+        "科技"
       ],
-      "score": 70,
-      "ago": "6分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775475060.0,
       "hot": false
     },
@@ -35,8 +253,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "22分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775474100.0,
       "hot": false
     },
@@ -54,246 +272,9 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "47分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775472600.0,
-      "hot": false
-    },
-    {
-      "id": "98645694a6",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "2 weeks’ jail for ex-national canoeist who pocketed over $4k in purported fees for training camps",
-      "summary": "Jessica Gwee lied to parents that there were costs involved in their children’s participation.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/2-weeks-jail-for-former-national-canoeing-athlete-who-pocketed-over-4k-meant-for-training-camps",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1775472300.0,
-      "hot": false
-    },
-    {
-      "id": "1815b920c9",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "S. Korean man nabbed after trying to smuggle over 2,000 heat sticks, 130 vapes into S’pore",
-      "summary": "The 27-year-old South Korean national had told ICA baggage officers he had no items to declare.",
-      "link": "https://www.straitstimes.com/singapore/s-korean-man-nabbed-after-trying-to-smuggle-over-130-vapes-heat-sticks-into-spore",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "53分前",
-      "pub_ts": 1775472250.0,
-      "hot": false
-    },
-    {
-      "id": "429fa9fcf2",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "WFH, fuel caps and subsidies: Southeast Asia scrambles to manage energy crisis",
-      "summary": "As the Iran war drags on into its sixth week, CNA takes a look at how some Southeast Asian states are responding to the energy crisis and skyrocketing costs.",
-      "link": "https://www.channelnewsasia.com/asia/southeast-asia-iran-war-fuel-rising-prices-energy-6038826",
-      "image": "https://dam.mediacorp.sg/image/upload/s--KkQ5DREK--/c_crop,h_450,w_800,x_0,y_41/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-20T041012Z_1_LYNXMPEM2J04P_RTROPTP_3_IRAN-CRISIS-OIL-VIETNAM.JPG?itok=GNQTSlAw",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775471100.0,
-      "hot": false
-    },
-    {
-      "id": "a1b97cea5d",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Five storylines to follow at this week's Masters",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/five-storylines-follow-weeks-masters-6038921",
-      "image": "https://dam.mediacorp.sg/image/upload/s--009s41Lc--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-06T100842Z_2_LYNXMPEM350C9_RTROPTP_3_GOLF.JPG?itok=gh1AUUKG",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775470122.0,
-      "hot": false
-    },
-    {
-      "id": "1410cb3a9b",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Youth who used criminal force on public servant gets 6 weeks’ jail",
-      "summary": "He was sentenced to six weeks’ jail after he pleaded guilty to one count of using criminal force on a public servant.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/foreigner-who-used-criminal-force-on-public-servant-gets-6-weeks-jail",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775469900.0,
-      "hot": false
-    },
-    {
-      "id": "bf6c34152a",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Workplace fairness law, support for families feature in Singapore’s report to UN",
-      "summary": "The report outlined progress made in implementing recommendations accepted during the last review.",
-      "link": "https://www.straitstimes.com/singapore/workplace-fairness-law-support-for-families-feature-in-spores-report-to-un",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775469600.0,
-      "hot": false
-    },
-    {
-      "id": "f354db6f52",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "South Korea to send ships to Saudi Red Sea port to avoid Hormuz",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/south-korea-send-ships-saudi-arabia-yanbu-iran-war-6038831",
-      "image": "https://dam.mediacorp.sg/image/upload/s--rVCpy01w--/c_crop,h_900,w_1600,x_0,y_50/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/03/20/000_a3ml3zq.jpg?itok=AvjgKa7S",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775468990.0,
-      "hot": false
-    },
-    {
-      "id": "15794aee47",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Bereaved Japanese family sues over 'hostage justice'",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/bereaved-japanese-family-sues-over-hostage-justice-6038846",
-      "image": "https://dam.mediacorp.sg/image/upload/s--68Tkbwmv--/c_crop,h_576,w_1024,x_0,y_0/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/06/000_72db39e.jpg?itok=Eka8cro7",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775468820.0,
-      "hot": false
-    },
-    {
-      "id": "15b8f685a9",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Vietnam parliament convenes to confirm new state leaders",
-      "summary": "Top leader To Lam, who was reaffirmed as the party's general secretary in January, is also widely expected to become president.",
-      "link": "https://www.channelnewsasia.com/asia/vietnam-parliament-new-state-leaders-tran-thanh-man-lam-6038781",
-      "image": "https://dam.mediacorp.sg/image/upload/s--r2sD3QbW--/c_crop,h_900,w_1600,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/06/000_a6uk2cq.jpg?itok=0rZQFXM1",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775468220.0,
-      "hot": false
-    },
-    {
-      "id": "49cf21b6ed",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "US regulator ends probe into Tesla's 'actually smart summon' feature after software fixes",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/us-regulator-ends-probe-teslas-actually-smart-summon-feature-after-software-fixes-6038801",
-      "image": "https://dam.mediacorp.sg/image/upload/s--k4mALJfj--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-06T093632Z_2_LYNXMPEM350BE_RTROPTP_3_TESLA-DELIVERIES.JPG?itok=WbAsBVVU",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775467837.0,
-      "hot": false
-    },
-    {
-      "id": "1f66911420",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "NTU to give all students access to premium Google AI tools under curriculum overhaul",
-      "summary": "Nanyang Technological University aims to embed AI into 40 per cent of the courses it offers by 2030, up from 5 per cent now.",
-      "link": "https://www.channelnewsasia.com/singapore/nanyang-technological-university-ai-initiative-google-6038731",
-      "image": "https://dam.mediacorp.sg/image/upload/s--ZUWq5uSC--/c_crop,h_3238,w_5756,x_0,y_634/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2021-09/ntu_sign.jpg?itok=WTMAf6ND",
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775467313.0,
-      "hot": false
-    },
-    {
-      "id": "2ac41a3a82",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Jail for man caught naked in car with lover after he drove off with her husband on bonnet",
-      "summary": "He was also disqualified from holding or obtaining all classes of driving licences for a year from his release date.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/jail-for-man-caught-naked-in-car-with-lover-after-he-drove-off-with-her-spouse-on-bonnet",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775466600.0,
-      "hot": false
-    },
-    {
-      "id": "ff71e6d8be",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Amos Yee case shows Singapore applies its laws fairly and evenly: Shanmugam",
-      "summary": "This is despite people trying to paint the Government’s actions as repressive and against free speech rights, he added.",
-      "link": "https://www.straitstimes.com/singapore/amos-yee-case-shows-spore-applies-its-laws-fairly-and-evenly-shanmugam",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775465299.0,
       "hot": false
     }
   ]
