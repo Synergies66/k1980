@@ -1,9 +1,81 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-06T11:31:44.423094+00:00",
+  "updated_at": "2026-04-06T15:09:52.348661+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "e2cce49e0b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "On Iran, Trump Keeps World Off Balance With Ever-Changing Threats",
+      "summary": "Global leaders are struggling in their efforts to find a way to end the American-Israeli war on Iran, and they are spooked about what President Trump might do next.",
+      "link": "https://www.nytimes.com/2026/04/06/world/europe/iran-trump-threats.html",
+      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06int-iran-leaders-01-wzjg/06int-iran-leaders-01-wzjg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1775486433.0,
+      "hot": false
+    },
+    {
+      "id": "d578106bac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Latest Blows to Iran’s Leadership",
+      "summary": "An Iranian intelligence chief killed overnight on Monday was one of several Iranian officials who occupied their posts for only a few months.",
+      "link": "https://www.nytimes.com/2026/04/06/world/middleeast/killings-iran-leadership.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1775485931.0,
+      "hot": false
+    },
+    {
+      "id": "21c3c4fd44",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "NASA Families Don’t Go to the Moon, but They’re on the Mission, Too",
+      "summary": "For the families of the Artemis II astronauts, the mission “begins at assignment.”",
+      "link": "https://www.nytimes.com/2026/04/06/science/artemis-moon-nasa-families-astronauts.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/00HS-MOON-FAMILIES-01-ctqw/00HS-MOON-FAMILIES-01-ctqw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1775485213.0,
+      "hot": false
+    },
+    {
+      "id": "7b2ca5d225",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Supreme Court clears the way for Bannon contempt case to be dismissed",
+      "summary": "Bannon spent four months in prison after defying a subpoena from the House Select Committee investigating the Jan. 6 attack.",
+      "link": "https://www.npr.org/2026/04/06/nx-s1-5647647/supreme-court-bannon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775483628.0,
+      "hot": false
+    },
     {
       "id": "24da311f98",
       "type": "news",
@@ -18,8 +90,8 @@
         "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "2小时前",
+      "score": 70,
+      "ago": "6小时前",
       "pub_ts": 1775466060.0,
       "hot": false
     },
@@ -36,44 +108,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775472928.0,
       "hot": false
     },
     {
-      "id": "e2cce49e0b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "On Iran, Trump Keeps World Off Balance With Ever-Changing Threats",
-      "summary": "Global leaders are struggling in their efforts to find a way to end the American-Israeli war on Iran, and they are spooked about what President Trump might do next.",
-      "link": "https://www.nytimes.com/2026/04/06/world/europe/iran-trump-threats.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06int-iran-leaders-01-wzjg/06int-iran-leaders-01-wzjg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "46分前",
-      "pub_ts": 1775472295.0,
-      "hot": false
-    },
-    {
-      "id": "ec272a0ccb",
+      "id": "db1d7426ac",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Iran pushes back against Trump's deadline",
+      "title": "Iran pushes back against Trump's deadline to open the Strait of Hormuz",
       "summary": "Iran's top officials pushed back against President Trump's deadline to open the Strait of Hormuz, striking a defiant tone as the warring sides traded missile attacks.",
       "link": "https://www.npr.org/2026/04/06/nx-s1-5775383/iran-war-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775470772.0,
       "hot": false
     },
@@ -90,27 +144,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775469610.0,
-      "hot": false
-    },
-    {
-      "id": "21c3c4fd44",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "NASA Families Don’t Go to the Moon, but They’re on the Mission, Too",
-      "summary": "For the families of the Artemis II astronauts, the mission “begins at assignment.”",
-      "link": "https://www.nytimes.com/2026/04/06/science/artemis-moon-nasa-families-astronauts.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/00HS-MOON-FAMILIES-01-ctqw/00HS-MOON-FAMILIES-01-ctqw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775466117.0,
+      "ago": "5小时前",
+      "pub_ts": 1775469610.0,
       "hot": false
     },
     {
@@ -126,9 +162,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775466033.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775466034.0,
       "hot": false
     },
     {
@@ -146,8 +182,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775466020.0,
       "hot": false
     },
@@ -164,8 +200,8 @@
       "categories": [
         "教育"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775466000.0,
       "hot": false
     },
@@ -182,8 +218,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775466000.0,
       "hot": false
     },
@@ -200,8 +236,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775466000.0,
       "hot": false
     },
@@ -218,27 +254,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775465175.0,
-      "hot": false
-    },
-    {
-      "id": "d348331780",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "NASA's Artemis II crew readies for Monday's lunar flyby. Here's what you need to know",
-      "summary": "At its closest point, the crew of Artemis II will loop about 4,000 miles from the lunar surface late Monday. The astronauts will also venture farther into space than any previous human mission.",
-      "link": "https://www.npr.org/2026/04/06/nx-s1-5773187/nasa-artemis-ii-moon-lunar-flyby",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1775452169.0,
+      "pub_ts": 1775465175.0,
       "hot": false
     },
     {
@@ -255,7 +273,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1775438421.0,
       "hot": false
     },
@@ -273,26 +291,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1775437013.0,
-      "hot": false
-    },
-    {
-      "id": "3a3167fbd0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Lesson From Risky Rescue: Threaten to Go Harder at Iran",
-      "summary": "In an expletive-laced social media post, the president said Iran should open the Strait of Hormuz or he would bomb bridges and power plants.",
-      "link": "https://www.nytimes.com/2026/04/05/us/politics/trump-risky-rescue-threats-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/05/multimedia/05dc-trump-kplw/05dc-trump-kplw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775427955.0,
       "hot": false
     },
     {
@@ -310,7 +310,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1775427411.0,
       "hot": false
     },
@@ -328,7 +328,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1775425052.0,
       "hot": false
     },
@@ -346,7 +346,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1775424364.0,
       "hot": false
     },
