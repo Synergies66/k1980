@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-07T11:39:23.120051+00:00",
+  "updated_at": "2026-04-07T16:18:41.805540+00:00",
   "total": 20,
   "articles": [
     {
@@ -18,27 +18,135 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1775555378.0,
       "hot": false
     },
     {
-      "id": "10868a0b12",
+      "id": "2ecc945725",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Drive slower, go electric, don't drive at all? Americans weigh options for saving gas",
+      "summary": "With gasoline prices averaging above $4 a gallon nationally, drivers are grappling with a sharp rise in fuel costs. Here are some ideas to consider if you're trying to cut your fuel costs.",
+      "link": "https://www.npr.org/2026/04/07/nx-s1-5775907/high-gas-prices-save-money-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1775577600.0,
+      "hot": false
+    },
+    {
+      "id": "d983d734b4",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Vance Visits Hungary to Boost Orban Before Election",
-      "summary": "The trip by the American vice president, JD Vance, makes clear that Russia is not the only country invested in a victory for Hungary’s leader, Viktor Orban.",
-      "link": "https://www.nytimes.com/2026/04/07/world/europe/vance-hungary-orban-fidesz-election.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07int-hungary-vance-sub-jvmh/07int-hungary-vance-sub-jvmh-mediumSquareAt3X.jpg",
+      "title": "NASA’s Artemis II Astronauts Spread ‘Moon Joy’ to the Public",
+      "summary": "While science can seem colorless and plain, NASA’s lunar crew members have brought expressiveness and emotion about their journey to mission control and the public.",
+      "link": "https://www.nytimes.com/2026/04/07/science/nasa-artemis-ii-astronauts-moon-joy.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/science/07HS-moon-joy-03/07HS-moon-joy-03-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "科技"
       ],
       "score": 70,
-      "ago": "4分前",
-      "pub_ts": 1775561667.0,
+      "ago": "19分前",
+      "pub_ts": 1775577526.0,
+      "hot": false
+    },
+    {
+      "id": "1eaf0f294c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Texas Considers Required Reading List for Schools, Which Includes the Bible",
+      "summary": "Education officials are planning an overhaul to English and social studies in the nation’s largest Republican led state.",
+      "link": "https://www.nytimes.com/2026/04/07/us/texas-considers-required-reading-list-for-schools-which-includes-the-bible.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07nat-texas-books-tpcv/07nat-texas-books-tpcv-mediumSquareAt3X.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1775577283.0,
+      "hot": false
+    },
+    {
+      "id": "a7b526c965",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iranians Voice Shock and Defiance in Face of Trump’s Looming Deadline",
+      "summary": "President Trump has threatened devastating attacks if Iran does not reopen the Strait of Hormuz. Some Iranians questioned what had happened to American values.",
+      "link": "https://www.nytimes.com/2026/04/07/world/middleeast/iran-shock-defiance-trump-deadline-threat.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07israel-iran-voices-cwfh/07israel-iran-voices-cwfh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1775576227.0,
+      "hot": false
+    },
+    {
+      "id": "8122b88ea2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "See First Photos From NASA’s Artemis II Moon Mission Capturing a Setting Earth and Eclipse",
+      "summary": "The White House and NASA released imagery captured by the cameras of the four astronauts of the Artemis II mission.",
+      "link": "https://www.nytimes.com/2026/04/07/science/nasa-artemis-moon-flyby-photos.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/science/07HS-moon-first-pix-01/07HS-moon-joy-01-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1775575635.0,
+      "hot": false
+    },
+    {
+      "id": "b422936fc9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Photos: NASA releases first images from moon flyby",
+      "summary": "During the mission's loop around the moon, the crew took geological observations of places of interest on the lunar surface using their own eyes and snapping thousands of photos of the surface.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/04/07/nx-s1-5775935/picture-show-moon-eclipse-photos",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775572544.0,
+      "hot": false
+    },
+    {
+      "id": "e249c7534d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Australia charges ex‑soldier with 5 war‑crime murders in Afghanistan",
+      "summary": "Roberts-Smith is only the second Australian veteran of the Afghanistan campaign to be charged with a war crime.",
+      "link": "https://www.npr.org/2026/04/07/g-s1-116644/australia-charges-ex-soldier-with-5-war-crime-murders-in-afghanistan",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775565992.0,
       "hot": false
     },
     {
@@ -54,26 +162,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "49分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775558965.0,
       "hot": false
     },
     {
-      "id": "34fd64ecf7",
+      "id": "b92d4d9678",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "As Trump's deadline approaches, Iranian leaders respond in defiance",
-      "summary": "Hours away from President Trump's 8 pm ET Tuesday deadline for Iran to open the Strait of Hormuz, attacks continued in the Persian Gulf with no agreement in sight. Trump has threatened to bomb Iranian",
+      "title": "Trump warns 'a whole civilization will die tonight' if Iran fails to meet his deadline",
+      "summary": "With the clock ticking, President Trump radically expanded his threat to the entire Iranian nation if its leaders fail to do a deal to open the Strait of Hormuz by Tuesday night.",
       "link": "https://www.npr.org/2026/04/07/nx-s1-5776377/iran-war-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775558413.0,
       "hot": false
     },
@@ -91,27 +199,9 @@
         "政治",
         "经济"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775557800.0,
-      "hot": false
-    },
-    {
-      "id": "dc4120456d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Threatens ‘Complete Demolition’ by Midnight, and Dark Money Flows Into Midterms",
-      "summary": "Plus, a look behind the moon.",
-      "link": "https://www.nytimes.com/2026/04/07/podcasts/the-headlines/trump-iran-dark-money-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07headlines-trump-tkjf/07headlines-trump-tkjf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775556010.0,
       "hot": false
     },
     {
@@ -128,81 +218,27 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775556000.0,
       "hot": false
     },
     {
-      "id": "1eaf0f294c",
+      "id": "dcc17a6100",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Texas Considers Required Reading List for Schools, Which Includes the Bible",
-      "summary": "Education officials are planning an overhaul to English and social studies in the nation’s largest Republican led state.",
-      "link": "https://www.nytimes.com/2026/04/07/us/texas-considers-required-reading-list-for-schools-which-includes-the-bible.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07nat-texas-books-tpcv/07nat-texas-books-tpcv-mediumSquareAt3X.jpg",
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775552489.0,
-      "hot": false
-    },
-    {
-      "id": "829fc43e2a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Bracing for federal cuts, some states are already paring back Medicaid services",
-      "summary": "Paying for doulas to help birthing moms in maternity care deserts was a priority for Montana. But it halted the plan amid a budget shortfall and fears over coming federal Medicaid cuts.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5775867/montana-federal-medicaid-cuts-doula-birth",
+      "title": "Finasteride for Male Baldness is Rewriting the Rules of Male Beauty",
+      "summary": "A pill that lets men keep their hair is rewriting the rules of masculinity.",
+      "link": "https://www.nytimes.com/2026/04/07/magazine/male-hair-loss-treatment-finasteride.html",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775552400.0,
-      "hot": false
-    },
-    {
-      "id": "339b6719dd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "AI in the mental health care workforce is met with fear, pushback — and enthusiasm",
-      "summary": "Artificial intelligence tools that help mental health therapists take notes and keep records are quickly entering the marketplace. But some question the safety of AI in mental health care delivery.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5771707/mental-health-care-workforce-artificial-intelligence-ai",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775552400.0,
-      "hot": false
-    },
-    {
-      "id": "2c83f218d7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Artemis II astronauts swung by the moon, broke an Apollo record, and saw an eclipse",
-      "summary": "The NASA moon mission completed several key milestones as its crew looped around the lunar body. It's expected to splash down on Earth on Friday.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5775710/artemis-lunar-flyby-complete-heading-home",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775552400.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775552526.0,
       "hot": false
     },
     {
@@ -218,27 +254,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775551414.0,
-      "hot": false
-    },
-    {
-      "id": "79238a21a2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Artemis II Astronauts Head Home After Historic Journey Around the Moon",
-      "summary": "The NASA lunar flyby took the four crew members farther from Earth than any humans. They witnessed a solar eclipse and received praise in a call from President Trump.",
-      "link": "https://www.nytimes.com/2026/04/06/science/space/nasa-artemis-moon-flyby.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06moon-flyby-pinned-post-gtzk/06moon-flyby-pinned-post-gtzk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775549039.0,
       "hot": false
     },
     {
@@ -254,27 +272,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775545211.0,
-      "hot": false
-    },
-    {
-      "id": "0ae40ee291",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Iran Proposal Isn’t Enough to Stop Attacks on Bridges and Power Plants",
-      "summary": "President Trump has told Iran it must open the Strait of Hormuz by 8 p.m. Tuesday or face the consequences, although he has delayed previous deadlines.",
-      "link": "https://www.nytimes.com/2026/04/06/us/politics/trump-iran-cease-fire-proposal.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06dc-diplo-mvcw/06dc-diplo-mvcw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775530411.0,
+      "ago": "9小时前",
+      "pub_ts": 1775545211.0,
       "hot": false
     },
     {
@@ -291,8 +291,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775518738.0,
+      "hot": false
+    },
+    {
+      "id": "f8edf638b0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Threatens Jail if Journalists Protect Certain Iran Sources",
+      "summary": "The president indicated he would ask an unnamed media outlet to reveal the sources behind its coverage of Iran’s successful strike on a U.S. fighter jet, and of its crew.",
+      "link": "https://www.nytimes.com/2026/04/06/business/media/trump-jail-journalists-fighter-crew.html",
+      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/00biz-trump-media-khcq/00biz-trump-media-khcq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "16小时前",
+      "pub_ts": 1775518734.0,
       "hot": false
     },
     {
@@ -309,7 +327,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1775507174.0,
       "hot": false
     },
@@ -326,27 +344,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1775491700.0,
-      "hot": false
-    },
-    {
-      "id": "67f347f610",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump threatens Iran's power plants, bridges. And, Artemis II readies for lunar flyby",
-      "summary": "Trump threatened to bomb Iran's power plants and bridges unless it opens the Strait of Hormuz. And, NASA's Artemis II crew prepares to make its closest approach to the moon.",
-      "link": "https://www.npr.org/2026/04/06/g-s1-116535/up-first-newsletter-trump-strait-of-hormuz-artemis-two-lunar-flyby-savannah-nancy-guthrie-ada",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1775472928.0,
+      "pub_ts": 1775491700.0,
       "hot": false
     },
     {
