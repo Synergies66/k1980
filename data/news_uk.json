@@ -1,61 +1,117 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-07T16:18:48.137043+00:00",
-  "total": 26,
+  "updated_at": "2026-04-07T19:46:09.782986+00:00",
+  "total": 27,
   "articles": [
     {
-      "id": "5a4cd9cfcd",
+      "id": "f0b81c8f28",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Wireless festival cancelled after Kanye West banned from entering UK",
-      "summary": "Rapper had been booked to play at festival in London, prompting outcry over his past antisemitic remarksUK politics live – latest updatesThe Wireless music festival has been cancelled after the artist",
-      "link": "https://www.theguardian.com/music/2026/apr/07/home-office-bans-kanye-west-from-entering-uk-wireless-festival",
-      "image": "https://i.guim.co.uk/img/media/9b8ce9e85a40333fea6370447815e73b4e3550b2/505_143_2548_2038/master/2548.jpg?width=140&quality=85&auto=format&fit=max&s=476adbc3e001fefe48544aef004b1b88",
+      "title": "What are reparations for slavery and colonialism – and will the UK pay?",
+      "summary": "As global row intensifies, Reform UK has said it would not issue visas for people from any country seeking reparationsThe rightwing Reform UK party has said it would stop issuing visas to people from",
+      "link": "https://www.theguardian.com/world/2026/apr/07/reparations-slavery-colonialism-explainer-reform-uk",
+      "image": "https://i.guim.co.uk/img/media/02f16a53bc3303014cf4606a18ff8a2c5144caa0/373_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=1b1a0c42a056d5e216ae0d759e29253a",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 75,
+      "ago": "4小时前",
+      "pub_ts": 1775574113.0,
+      "hot": false
+    },
+    {
+      "id": "48f5bdca7c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Wireless Festival cancelled after Kanye West blocked from coming to UK",
+      "summary": "West was due to headline the festival in July but drew criticism over past antisemitic comments.",
+      "link": "https://www.bbc.com/news/articles/c4gxk3kxjr0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45da/live/271e4090-32a6-11f1-b4da-a3b95db80b81.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1775576231.0,
+      "ago": "5分前",
+      "pub_ts": 1775590805.0,
       "hot": false
     },
     {
-      "id": "d535dc12be",
+      "id": "a5f6d9fe1a",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Has Artemis II shown we can land on the Moon again?",
-      "summary": "The Artemis II mission has been near flawless to date, but has the test flight shown Nasa is ready to send humans to the lunar surface?",
-      "link": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea03/live/ffec2580-3298-11f1-934f-036468834728.jpg",
+      "title": "UN chief decries ‘incendiary rhetoric’ after Trump ramps up threats against Iran as deal deadline lo",
+      "summary": "UN chief warns that deliberate attacks on civilians amount to war crime; Trump once again implores Iran to make a deal to avert attackTrump says ‘a whole civilisation will die’ if Iran ignores demands",
+      "link": "https://www.theguardian.com/world/live/2026/apr/07/iran-war-live-updates-trump-hormuz-threats-deadline-strikes-middle-east-conflict",
+      "image": "https://i.guim.co.uk/img/media/182c7b3bcfb08f7a01e6c4829aed02b80686aa02/338_0_4760_3806/master/4760.jpg?width=140&quality=85&auto=format&fit=max&s=b51f5dab771321611ecbbc501b5a972c",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1775575385.0,
+      "ago": "8分前",
+      "pub_ts": 1775590637.0,
       "hot": false
     },
     {
-      "id": "6d477a9482",
+      "id": "4f38165539",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "HMS Dragon docks after 'minor technical issue'",
+      "summary": "The Type 45 destroyer left Portsmouth last month to protect Britain's air bases in Cyprus.",
+      "link": "https://www.bbc.com/news/articles/c4gxw7px8glo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3c20/live/893010d0-32a4-11f1-b4da-a3b95db80b81.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1775590092.0,
+      "hot": false
+    },
+    {
+      "id": "d4480f9294",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "One gunman killed and two injured in shooting at Israeli consulate in Istanbul",
-      "summary": "No Israeli diplomats are currently in Turkey and the Istanbul consulate has been empty for the past two-and-a-half years.",
-      "link": "https://www.bbc.com/news/articles/c3exp8j7yz4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/000c/live/30e05350-327b-11f1-934f-036468834728.jpg",
+      "title": "Bill Gates set to testify before US Congress in Epstein investigation",
+      "summary": "The Microsoft co-founder is the latest high-profile figure to agree to testify before the committee investigating Epstein's wrongdoing.",
+      "link": "https://www.bbc.com/news/articles/cx2vdekdweqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c8c/live/1f154b20-32b3-11f1-b297-95b0a0a8331e.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775573467.0,
+      "pub_ts": 1775587252.0,
+      "hot": false
+    },
+    {
+      "id": "bc02fb303b",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Donald Trump says ‘a whole civilisation will die’ if Iran ignores demands",
+      "summary": "Attacks on Iran increase and Israel tells Iranians to avoid train travel as deadline to reopen strait of Hormuz loomsMiddle East crisis – live updatesDonald Trump has warned that Iran’s “whole civilis",
+      "link": "https://www.theguardian.com/world/2026/apr/07/israel-warns-iran-lives-at-risk-if-they-use-trains-trump-deadline",
+      "image": "https://i.guim.co.uk/img/media/dd4c237aa4f1b1c4c5765208b52dd95327c90fcd/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=c22e43d66280f1603da980c0cde255a4",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775586560.0,
       "hot": false
     },
     {
@@ -72,7 +128,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1775542704.0,
       "hot": false
     },
@@ -90,7 +146,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1775541928.0,
       "hot": false
     },
@@ -108,190 +164,100 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1775540120.0,
       "hot": false
     },
     {
-      "id": "b2e78ecf3d",
+      "id": "9fbf857131",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Mum of twins who says home was bombed in Lebanon speaks to BBC",
-      "summary": "More than one million people in Lebanon have been displaced since the start of the war as Israel expands its ground operation there.",
-      "link": "https://www.bbc.com/news/videos/c5yx8my3724o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6849/live/b8d3aaa0-2ed4-11f1-ade2-21c4f89d0ea3.jpg",
+      "title": "Tracking recent US-Israeli strikes on Iranian infrastructure",
+      "summary": "Attacks have targeted bridges, steel plants and pharmaceutical facilities, verified videos show.",
+      "link": "https://www.bbc.com/news/articles/cx2w0v19gw8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3138/live/2d589b10-329a-11f1-934f-036468834728.png",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1775571158.0,
+      "pub_ts": 1775582134.0,
       "hot": false
     },
     {
-      "id": "bc02fb303b",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Donald Trump says ‘a whole civilisation will die’ if Iran ignores demands",
-      "summary": "Attacks on Iran increase and Israel tells Iranians to avoid train travel as deadline to reopen strait of Hormuz loomsMiddle East crisis – live updatesDonald Trump warned that “a whole civilization wil",
-      "link": "https://www.theguardian.com/world/2026/apr/07/israel-warns-iran-lives-at-risk-if-they-use-trains-trump-deadline",
-      "image": "https://i.guim.co.uk/img/media/dd4c237aa4f1b1c4c5765208b52dd95327c90fcd/458_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=c22e43d66280f1603da980c0cde255a4",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775571127.0,
-      "hot": false
-    },
-    {
-      "id": "c881ac9eb5",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Why does alcohol make us both happy and miserable – and what else does it do to our minds and bodies",
-      "summary": "It sends us to sleep and wakes us in the night, excites us and depresses us, gives us confidence one moment, anxiety the next. How does this messy drug wield so much power?Whatever you think of alcoho",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/07/alcohol-mood-effect-mind-body",
-      "image": "https://i.guim.co.uk/img/media/20d4122c319903c04372e7eb8bb314c1759da0a4/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=28727ac2bf4e1be11a6e727616bc7677",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775566847.0,
-      "hot": false
-    },
-    {
-      "id": "66b190a319",
+      "id": "099bf5db15",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Ex-footballer Joey Barton denies golf club attack",
-      "summary": "The ex-Manchester City, Newcastle United, QPR,  Burnley and Rangers player is accused of assault.",
-      "link": "https://www.bbc.com/news/articles/c05d1j0q9jro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/970e/live/eb1b6af0-326e-11f1-a16a-396ab9b34017.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775566141.0,
-      "hot": false
-    },
-    {
-      "id": "1e4b39d9c8",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Ex-footballer Barton denies attack at golf club",
-      "summary": "The ex-Manchester City, Newcastle United, QPR,  Burnley and Rangers player is accused of assault.",
-      "link": "https://www.bbc.com/news/articles/c05d1j0q9jro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/970e/live/eb1b6af0-326e-11f1-a16a-396ab9b34017.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775566141.0,
-      "hot": false
-    },
-    {
-      "id": "aba9fd02d0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Greens promise rent controls and £1 bus fares in Welsh election manifesto",
-      "summary": "The Greens' set of promises for the Senedd election also include free bus travel for under-22s.",
-      "link": "https://www.bbc.com/news/articles/cwydw8pk39ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a3e/live/5f6799a0-327a-11f1-b6b5-c5856fa3f77a.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775565009.0,
-      "hot": false
-    },
-    {
-      "id": "ce41f549ad",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Police officer jailed for killing woman in crash",
-      "summary": "Mark Roberts was responding to reports of a choking baby when he hit a motorbike, a court hears.",
-      "link": "https://www.bbc.com/news/articles/c20d5g6v4z0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0604/live/6e199c00-01b0-11f1-ba93-a3f256eaa772.jpg",
+      "title": "Strictly star will not face rape charges, police say",
+      "summary": "Detectives determined there was \"insufficient evidence\" to bring criminal charges against the unnamed man.",
+      "link": "https://www.bbc.com/news/articles/cvgld1vjdewo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/635b/live/3e382240-3298-11f1-8cba-9df81803c83c.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775563518.0,
+      "ago": "3小时前",
+      "pub_ts": 1775579133.0,
       "hot": false
     },
     {
-      "id": "21ad9ccf54",
+      "id": "0f0053aedf",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "As Farage sacks an acolyte for his ‘shameful’ words, how far is too far for the high priest of toxic",
-      "summary": "The Reform leader cynically pushes the boundaries of how far he can go without alienating too many of the voters he needs – but it’s a perilous calibrationWhat counts as beyond the pale these days? Ha",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/07/nigel-farage-hard-right-reform-boundaries",
-      "image": "https://i.guim.co.uk/img/media/557d285b1b28b48eb71f8d709a06caa33850e71c/446_0_4460_3568/master/4460.jpg?width=140&quality=85&auto=format&fit=max&s=14109455049bc1eadb7af633aa144d47",
+      "title": "Why is the UK capping student loan interest and will graduates now pay less?",
+      "summary": "Decision to cap interest rate at 6% from September is unlikely to defuse row over crippling cost of debtFull story: UK caps interest rate on student loansThe government has announced a small concessio",
+      "link": "https://www.theguardian.com/money/2026/apr/07/what-interest-rate-cap-uk-student-loans-means-graduates",
+      "image": "https://i.guim.co.uk/img/media/dd26decf5a026dc5c1c5514cba6cd44fdd74344f/941_394_4298_3439/master/4298.jpg?width=140&quality=85&auto=format&fit=max&s=adf71b669381a788d528bb61d9a46408",
       "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775562669.0,
-      "hot": false
-    },
-    {
-      "id": "dcbae472ad",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Plan 2 student loan interest rates capped at 6% in England",
-      "summary": "The cap on Plan 2 and postgraduate loan interest rates comes amid a risk of rising inflation.",
-      "link": "https://www.bbc.com/news/articles/crr1e5zqdyko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da87/live/79584fc0-3271-11f1-b297-95b0a0a8331e.jpg",
-      "categories": [
+        "政治",
         "经济",
         "教育"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1775560876.0,
+      "pub_ts": 1775576398.0,
       "hot": false
     },
     {
-      "id": "256e7f4069",
+      "id": "d535dc12be",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "More than 1,700 Brits who fell ill in Cape Verde join action against Tui",
-      "summary": "Tui is investigating the claims and says it is \"not in a position to provide a statement at this stage\".",
-      "link": "https://www.bbc.com/news/articles/c70d8dn1nrpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3251/live/a912c510-3253-11f1-855a-434b6a1ed69f.jpg",
+      "title": "Has Artemis II shown we can land on the Moon again?",
+      "summary": "The Artemis II mission has been near flawless to date, but has the test flight shown Nasa is ready to send humans to the lunar surface?",
+      "link": "https://www.bbc.com/news/articles/cj60nkd8nrko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ea03/live/ffec2580-3298-11f1-934f-036468834728.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775558181.0,
+      "ago": "4小时前",
+      "pub_ts": 1775575385.0,
+      "hot": false
+    },
+    {
+      "id": "e0cbceb241",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Dad, 84, 'under awful stress' as son's care package set to end",
+      "summary": "A health trust is withdrawing a care package that helped an 84-year-old man to look after his two sons.",
+      "link": "https://www.bbc.com/news/articles/cly0922zj0vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c86/live/ce7c26e0-3288-11f1-9fac-89e41bab67f2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775574822.0,
       "hot": false
     },
     {
@@ -349,6 +315,133 @@
       "hot": false
     },
     {
+      "id": "99c7ca7c92",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Trump needs to go. If we can’t use the 25th amendment, I have another idea | Arwa Mahdawi",
+      "summary": "The US constitution should make it possible to remove a president who’s not fit for office. But we’re going to need another way outFor the past few months, I have been waging a cold war with a neighbo",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/07/trump-needs-to-go-we-cant-use-25th-amendment-idea",
+      "image": "https://i.guim.co.uk/img/media/d17ea2e02a83b66cfcadc7aaeff074612bbd0f11/1105_0_6103_4882/master/6103.jpg?width=140&quality=85&auto=format&fit=max&s=38cb45dada397507c28617ac5419b7c6",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775569553.0,
+      "hot": false
+    },
+    {
+      "id": "c881ac9eb5",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Why does alcohol make us both happy and miserable – and what else does it do to our minds and bodies",
+      "summary": "It sends us to sleep and wakes us in the night, excites us and depresses us, gives us confidence one moment, anxiety the next. How does this messy drug wield so much power?Whatever you think of alcoho",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/07/alcohol-mood-effect-mind-body",
+      "image": "https://i.guim.co.uk/img/media/20d4122c319903c04372e7eb8bb314c1759da0a4/0_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=28727ac2bf4e1be11a6e727616bc7677",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775566847.0,
+      "hot": false
+    },
+    {
+      "id": "1e4b39d9c8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Ex-footballer Barton denies attack at golf club",
+      "summary": "The ex-Manchester City, Newcastle United, QPR,  Burnley and Rangers player is accused of assault.",
+      "link": "https://www.bbc.com/news/articles/c05d1j0q9jro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/970e/live/eb1b6af0-326e-11f1-a16a-396ab9b34017.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775566141.0,
+      "hot": false
+    },
+    {
+      "id": "ce41f549ad",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Police officer jailed for killing woman in crash",
+      "summary": "Mark Roberts was responding to reports of a choking baby when he hit a motorbike, a court hears.",
+      "link": "https://www.bbc.com/news/articles/c20d5g6v4z0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0604/live/6e199c00-01b0-11f1-ba93-a3f256eaa772.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775563518.0,
+      "hot": false
+    },
+    {
+      "id": "21ad9ccf54",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "As Farage sacks an acolyte for his ‘shameful’ words, how far is too far for the high priest of toxic",
+      "summary": "The Reform leader cynically pushes the boundaries of how far he can go without alienating too many of the voters he needs – but it’s a perilous calibrationWhat counts as beyond the pale these days? Ha",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/07/nigel-farage-hard-right-reform-boundaries",
+      "image": "https://i.guim.co.uk/img/media/557d285b1b28b48eb71f8d709a06caa33850e71c/446_0_4460_3568/master/4460.jpg?width=140&quality=85&auto=format&fit=max&s=14109455049bc1eadb7af633aa144d47",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775562669.0,
+      "hot": false
+    },
+    {
+      "id": "dcbae472ad",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Plan 2 student loan interest rates capped at 6% in England",
+      "summary": "The cap on Plan 2 and postgraduate loan interest rates comes amid a risk of rising inflation.",
+      "link": "https://www.bbc.com/news/articles/crr1e5zqdyko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/da87/live/79584fc0-3271-11f1-b297-95b0a0a8331e.jpg",
+      "categories": [
+        "经济",
+        "教育"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775560876.0,
+      "hot": false
+    },
+    {
+      "id": "256e7f4069",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "More than 1,700 Brits who fell ill in Cape Verde join action against Tui",
+      "summary": "Tui is investigating the claims and says it is \"not in a position to provide a statement at this stage\".",
+      "link": "https://www.bbc.com/news/articles/c70d8dn1nrpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3251/live/a912c510-3253-11f1-855a-434b6a1ed69f.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1775558181.0,
+      "hot": false
+    },
+    {
       "id": "a9216eaafc",
       "type": "news",
       "region": "uk",
@@ -362,33 +455,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775553956.0,
-      "hot": false
-    },
-    {
-      "id": "7b980164e3",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘Before I can stop her, my daughter is licking crumbs from the table’: my search for the perfect kid",
-      "summary": "Chips, fish fingers, pizza … restaurant food for children is depressingly predictable. Are there more adventurous options? I took my four-year-old daughter on a month-long mission to find outWe’re hea",
-      "link": "https://www.theguardian.com/food/2026/apr/07/search-perfect-kids-menu-restaurants",
-      "image": "https://i.guim.co.uk/img/media/759ee2271b925c4789257a150d9a072a3bdea704/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dc78b23cb4a88b0c45a801eeb5ce113d",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775552454.0,
       "hot": false
     },
     {
       "id": "c47c285919",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Disruption expected as six-day doctors' strike begins",
       "summary": "The NHS is advising patients in England to only use emergency services when necessary but attend any confirmed appointments.",
@@ -398,7 +473,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1775550782.0,
       "hot": false
     },
@@ -417,65 +492,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775544894.0,
-      "hot": false
-    },
-    {
-      "id": "23a59a4007",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Schools in knife crime hotspots to get specialist training",
-      "summary": "A new partnership will provide training for school leaders about knife-crime risk, the government says.",
-      "link": "https://www.bbc.com/news/articles/c4gxz5zw348o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d1e3/live/b162d870-3200-11f1-b77e-6ff7ba3d0df7.jpg",
-      "categories": [
-        "政治",
-        "天气",
-        "教育"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775540853.0,
-      "hot": false
-    },
-    {
-      "id": "37cde5f777",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Want to know capitalism’s endgame? Just look at private equity – it has captured our everyday lives ",
-      "summary": "These companies now own everything from nurseries to care homes, squeezing vital services for profit while we foot the billIt was the free croissants that gave it away. And the Scandinavian-style furn",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/07/capitalism-endgame-private-equity-captured-nurseries-care-homes",
-      "image": "https://i.guim.co.uk/img/media/349fe2c4ac275fa12e660a37a01a8bc992f935e6/4_0_2437_1949/master/2437.jpg?width=140&quality=85&auto=format&fit=max&s=f21f5c03c047e5948533d692b05f4ebb",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775538039.0,
-      "hot": false
-    },
-    {
-      "id": "f964d43f90",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘Italy has the best benefits’: Milan takes on Dubai as home for the super-rich",
-      "summary": "With the UAE under fire from Iranian missiles, wealthy investors are turning to Italy’s flat-tax havenJust over a month ago, Dubai was the obvious destination for wealthy Britons in search of a new ho",
-      "link": "https://www.theguardian.com/business/2026/apr/07/milan-dubai-super-wealthy-italy-rich",
-      "image": "https://i.guim.co.uk/img/media/95388119803265396ae58e246f8c79e7401cfe0b/574_0_6137_4912/master/6137.jpg?width=140&quality=85&auto=format&fit=max&s=dfc42d3289424601a2e57269700b31b8",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
       "ago": "12小时前",
-      "pub_ts": 1775534439.0,
+      "pub_ts": 1775544894.0,
       "hot": false
     }
   ]
