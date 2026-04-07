@@ -1,14 +1,51 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-07T16:18:41.805540+00:00",
-  "total": 20,
+  "updated_at": "2026-04-07T19:49:55.957757+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "9b0440b876",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Newlywed Wife of U.S. Soldier Released From Immigration Detention",
+      "summary": "The couple had gone to the husband’s Army base to complete paperwork so they could move in together. But within hours that plan derailed, and New York Times reporting about the case quickly spread.",
+      "link": "https://www.nytimes.com/2026/04/07/us/ice-newlywed-military-wife-detain.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07nat-army-newlywed-releaseHFO-mcvz/07nat-army-newlywed-releaseHFO-mcvz-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "19分前",
+      "pub_ts": 1775590239.0,
+      "hot": false
+    },
+    {
+      "id": "0abff38f66",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘Definitely a Sham’: As Tariffs Climb, Trade Fraud and Accounting Tricks Proliferate",
+      "summary": "U.S. imports from China have shrunk drastically. But billions of dollars of the change appear to be the result of accounting gimmicks and outright fraud.",
+      "link": "https://www.nytimes.com/2026/04/07/us/politics/tariffs-trade-import-fraud.html",
+      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/00dc-trade-fraud-01-khcf/00dc-trade-fraud-01-khcf-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1775579313.0,
+      "hot": false
+    },
     {
       "id": "bd89bba78c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
       "summary": "The visit takes place ahead of President Trump's own summit with Chinese leader Xi Jinping next month, where Taiwan is expected to be a top agenda item.",
@@ -19,62 +56,8 @@
         "科技"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775555378.0,
-      "hot": false
-    },
-    {
-      "id": "2ecc945725",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Drive slower, go electric, don't drive at all? Americans weigh options for saving gas",
-      "summary": "With gasoline prices averaging above $4 a gallon nationally, drivers are grappling with a sharp rise in fuel costs. Here are some ideas to consider if you're trying to cut your fuel costs.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5775907/high-gas-prices-save-money-iran-war",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "18分前",
-      "pub_ts": 1775577600.0,
-      "hot": false
-    },
-    {
-      "id": "d983d734b4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "NASA’s Artemis II Astronauts Spread ‘Moon Joy’ to the Public",
-      "summary": "While science can seem colorless and plain, NASA’s lunar crew members have brought expressiveness and emotion about their journey to mission control and the public.",
-      "link": "https://www.nytimes.com/2026/04/07/science/nasa-artemis-ii-astronauts-moon-joy.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/science/07HS-moon-joy-03/07HS-moon-joy-03-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1775577526.0,
-      "hot": false
-    },
-    {
-      "id": "1eaf0f294c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Texas Considers Required Reading List for Schools, Which Includes the Bible",
-      "summary": "Education officials are planning an overhaul to English and social studies in the nation’s largest Republican led state.",
-      "link": "https://www.nytimes.com/2026/04/07/us/texas-considers-required-reading-list-for-schools-which-includes-the-bible.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07nat-texas-books-tpcv/07nat-texas-books-tpcv-mediumSquareAt3X.jpg",
-      "categories": [
-        "教育"
-      ],
-      "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1775577283.0,
       "hot": false
     },
     {
@@ -91,26 +74,134 @@
         "科技"
       ],
       "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1775576227.0,
+      "ago": "1小时前",
+      "pub_ts": 1775587396.0,
       "hot": false
     },
     {
-      "id": "8122b88ea2",
+      "id": "c65f30535a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "See First Photos From NASA’s Artemis II Moon Mission Capturing a Setting Earth and Eclipse",
-      "summary": "The White House and NASA released imagery captured by the cameras of the four astronauts of the Artemis II mission.",
-      "link": "https://www.nytimes.com/2026/04/07/science/nasa-artemis-moon-flyby-photos.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/science/07HS-moon-first-pix-01/07HS-moon-joy-01-mediumSquareAt3X.jpg",
+      "title": "Shelly Kittleson, American Journalist Abducted in Iraq, Is Freed",
+      "summary": "The journalist, Shelly Kittleson, was abducted by a militia allied with Iran and held for a week. Iraqi officials say she was freed in exchange for the release of militia members.",
+      "link": "https://www.nytimes.com/2026/04/07/world/middleeast/shelly-kittleson-journalist-iraq.html",
+      "image": "https://static01.nyt.com/images/2026/04/02/multimedia/00int-iraq-kidnapping-HFO-wqjk/00int-iraq-kidnapping-HFO-wqjk-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1775575635.0,
+      "ago": "1小时前",
+      "pub_ts": 1775586642.0,
+      "hot": false
+    },
+    {
+      "id": "d983d734b4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "NASA’s Artemis II Astronauts Spread ‘Moon Joy’ to the Public",
+      "summary": "While science can seem colorless and plain, NASA’s lunar crew members have brought expressiveness and emotion about their journey to mission control and the public.",
+      "link": "https://www.nytimes.com/2026/04/07/science/nasa-artemis-ii-astronauts-moon-joy.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/science/07HS-moon-joy-03/07HS-moon-joy-03-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775586102.0,
+      "hot": false
+    },
+    {
+      "id": "bbfb229492",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Threatens Broad Attacks in Iran. How Is Illegal Conduct in War Defined?",
+      "summary": "It is illegal for any military to target civilians, as President Trump has suggested he would in threats against Iran. But the U.S. has sought significant leeway in defining a civilian target.",
+      "link": "https://www.nytimes.com/2026/04/07/us/politics/war-crimes-civilians.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07dc-warcrimes-explainer-qhlz/07dc-warcrimes-explainer-qhlz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775585592.0,
+      "hot": false
+    },
+    {
+      "id": "1151461ec8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Astronauts suggest naming a moon crater 'Carroll' after their commander's late wife",
+      "summary": "The Artemis II crew, led by Reid Wiseman, was the first to lay eyes on several craters on the far side of the moon. The astronauts want to name one of them after Carroll Wiseman, who died of cancer in",
+      "link": "https://www.npr.org/2026/04/07/nx-s1-5776440/artemis-moon-crater-carroll-wiseman",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775581744.0,
+      "hot": false
+    },
+    {
+      "id": "dcc17a6100",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Finasteride for Male Baldness is Rewriting the Rules of Male Beauty",
+      "summary": "A pill to cure baldness is changing the way men age — and how they see themselves.",
+      "link": "https://www.nytimes.com/2026/04/07/magazine/male-hair-loss-treatment-finasteride.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775580340.0,
+      "hot": false
+    },
+    {
+      "id": "ccf8da9bc3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Despite High Oil Prices and Volatile Stocks, Companies See Openings for Deals",
+      "summary": "Bankers say companies are braving higher oil prices and whipsawing stock prices to seize on the willingness of federal antitrust enforcers to approve mergers.",
+      "link": "https://www.nytimes.com/2026/04/07/business/companies-deals-iran-oil-stocks.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/business/07biz-deals-market/07biz-deals-market-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775578497.0,
+      "hot": false
+    },
+    {
+      "id": "2ecc945725",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Drive slower, go electric, don't drive at all? Americans weigh options for saving gas",
+      "summary": "With gasoline prices averaging above $4 a gallon nationally, drivers are grappling with a sharp rise in fuel costs. Here are some ideas to consider if you're trying to cut your fuel costs.",
+      "link": "https://www.npr.org/2026/04/07/nx-s1-5775907/high-gas-prices-save-money-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775577600.0,
       "hot": false
     },
     {
@@ -126,8 +217,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775572544.0,
       "hot": false
     },
@@ -144,8 +235,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775565992.0,
       "hot": false
     },
@@ -162,8 +253,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775558965.0,
       "hot": false
     },
@@ -174,14 +265,14 @@
       "source": "NPR News",
       "lang": "en",
       "title": "Trump warns 'a whole civilization will die tonight' if Iran fails to meet his deadline",
-      "summary": "With the clock ticking, President Trump radically expanded his threat to the entire Iranian nation if its leaders fail to do a deal to open the Strait of Hormuz by Tuesday night.",
+      "summary": "With the clock ticking, President Trump radically expanded his threat to the entire Iranian nation if its leaders fail to do a deal to open the Strait of Hormuz by Tuesday night, U.S. Eastern time.",
       "link": "https://www.npr.org/2026/04/07/nx-s1-5776377/iran-war-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775558413.0,
       "hot": false
     },
@@ -199,8 +290,8 @@
         "政治",
         "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775557800.0,
       "hot": false
     },
@@ -219,26 +310,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775556000.0,
-      "hot": false
-    },
-    {
-      "id": "dcc17a6100",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Finasteride for Male Baldness is Rewriting the Rules of Male Beauty",
-      "summary": "A pill that lets men keep their hair is rewriting the rules of masculinity.",
-      "link": "https://www.nytimes.com/2026/04/07/magazine/male-hair-loss-treatment-finasteride.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775552526.0,
       "hot": false
     },
     {
@@ -255,62 +328,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1775551414.0,
-      "hot": false
-    },
-    {
-      "id": "2b102e2778",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Hungary’s Election Could Swing on Roma Votes",
-      "summary": "Prime Minister Viktor Orban’s policies affecting the Roma minority have put those voters in play in upcoming parliamentary elections. In a tight race, they could make the difference.",
-      "link": "https://www.nytimes.com/2026/04/07/world/europe/hungary-roma-orban-election-education.html",
-      "image": "https://static01.nyt.com/images/2026/04/01/multimedia/01int-hungary-roma-bvjq/01int-hungary-roma-bvjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775545211.0,
-      "hot": false
-    },
-    {
-      "id": "b66742b7d4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hegseth Likens Easter Rescue of U.S. Airman to Resurrection of Jesus Christ",
-      "summary": "President Trump also asserted that God supports the American war against Iran “because God is good, and God wants to see people taken care of.”",
-      "link": "https://www.nytimes.com/2026/04/06/us/politics/hegseth-religious-tone.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/06israel-iran-religious-tone2-zthv/06israel-iran-religious-tone2-zthv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775518738.0,
-      "hot": false
-    },
-    {
-      "id": "f8edf638b0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Threatens Jail if Journalists Protect Certain Iran Sources",
-      "summary": "The president indicated he would ask an unnamed media outlet to reveal the sources behind its coverage of Iran’s successful strike on a U.S. fighter jet, and of its crew.",
-      "link": "https://www.nytimes.com/2026/04/06/business/media/trump-jail-journalists-fighter-crew.html",
-      "image": "https://static01.nyt.com/images/2026/04/06/multimedia/00biz-trump-media-khcq/00biz-trump-media-khcq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775518734.0,
       "hot": false
     },
     {
@@ -327,7 +346,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1775507174.0,
       "hot": false
     },
