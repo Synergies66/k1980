@@ -1,26 +1,223 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-08T06:09:26.032392+00:00",
-  "total": 23,
+  "updated_at": "2026-04-08T11:40:39.311915+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "bd89bba78c",
+      "id": "ab61ccdcfd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About the U.S.-Iran Cease-Fire",
+      "summary": "The agreement to pause the fighting for two weeks came hours after President Trump threatened to destroy Iran’s “whole civilization.” Much remains uncertain.",
+      "link": "https://www.nytimes.com/2026/04/08/world/middleeast/iran-ceasefire-us-explainer.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08int-iran-ceasefire-wtk-qmbk/08int-iran-ceasefire-wtk-qmbk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1775647486.0,
+      "hot": false
+    },
+    {
+      "id": "60b0513658",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Even as They Praise Iran Cease-Fire, World Leaders Are Whipsawed by Trump",
+      "summary": "Across Europe and the globe, the war has damaged economies, roiled politics and underscored a lack of options in dealing with President Trump’s whims.",
+      "link": "https://www.nytimes.com/2026/04/08/world/europe/iran-ceasefire-world-reaction.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08int-iran-global-assess-01-fvzw/08int-iran-global-assess-01-fvzw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1775646681.0,
+      "hot": false
+    },
+    {
+      "id": "0860ce9fdd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Backs Down on Iran, and an A.I. ‘Reckoning’",
+      "summary": "Plus, the great pistachio gamble.",
+      "link": "https://www.nytimes.com/2026/04/08/podcasts/the-headlines/trump-iran-cease-fire-ai-reckoning.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08thedaily-trump-wzjv/08thedaily-trump-wzjv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775642410.0,
+      "hot": false
+    },
+    {
+      "id": "63dc1d15cd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Georgia, Wisconsin Elections Show Declining Appetite for Republican Candidates",
+      "summary": "A Republican won Marjorie Taylor Greene’s seat, but Democrats shifted the district 25 points to the left since the 2024 presidential race. Conservative candidates lost in Wisconsin, too.",
+      "link": "https://www.nytimes.com/2026/04/08/us/politics/georgia-wisconsin-elections-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08-pol-takeaways-mpgc/08-pol-takeaways-mpgc-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638920.0,
+      "hot": false
+    },
+    {
+      "id": "63df80998b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stung by Voters, Republican Legislators Move to Curb Citizen Initiatives",
+      "summary": "After citizens in Republican states used ballot measures to protect abortion, expand Medicaid and raise the minimum wage, statehouses are moving to make such initiatives much harder.",
+      "link": "https://www.nytimes.com/2026/04/08/us/politics/republicans-citizen-initiatives.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08nat-referendums-1-01-fwvm/08nat-referendums-1-01-fwvm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638807.0,
+      "hot": false
+    },
+    {
+      "id": "938e00362f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Your sarcasm is showing — and its history is surprisingly violent",
+      "summary": "Some people use sarcasm jokingly. But funnily enough, we tend not to find it witty when we're on the receiving end.",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5771648/sarcasm-origin-history-etymology",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638800.0,
+      "hot": false
+    },
+    {
+      "id": "79c11f240d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Colleges are trying to boost student voting. A Trump probe freezes data for that work",
+      "summary": "To figure out how to boost student voting, colleges have relied on a study about campus voter registration and turnout rates. A Trump administration investigation has cut schools off from new data.",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5725279/college-trump-voting-data-probe-voting-registration",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638800.0,
+      "hot": false
+    },
+    {
+      "id": "1a40a875fe",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Abortion clinics are closing nationwide. Could urgent care help fill the gap?",
+      "summary": "When the only clinic that offered abortions in Michigan's rural Upper Peninsula closed, an urgent care decided to step in to fill the gap. Now, others are considering similar moves as brick-and-mortar",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5773333/planned-parenthood-urgent-care-medication-abortion-rural",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638800.0,
+      "hot": false
+    },
+    {
+      "id": "b1e3aae414",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "U.S. and Iran agree to two week ceasefire, how Iranians are responding to the ceasefire, the effects of the war in Iran give investors around the world whiplash.",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5775826/morning-news-brief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775638010.0,
+      "hot": false
+    },
+    {
+      "id": "1aa1e67fac",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Taiwan's opposition leader arrives in China for a 'Journey of Peace'",
-      "summary": "The visit takes place ahead of President Trump's own summit with Chinese leader Xi Jinping next month, where Taiwan is expected to be a top agenda item.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5776401/taiwan-opposition-arrives-china",
+      "title": "How Trump's threats to Iran have affected the global economy",
+      "summary": "NPR's Leila Fadel speaks with Tomas {TAHM-us} Philipson, a former senior economic adviser in President Trump's first term, about the impact of the president's wartime threats on the global economy.",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5776648/how-trumps-threats-to-iran-have-affected-the-global-economy",
       "image": null,
       "categories": [
-        "华人",
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775637919.0,
+      "hot": false
+    },
+    {
+      "id": "90c22c61f5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Plunge and Stocks Surge After Cease-Fire Deal",
+      "summary": "Markets reacted positively after the United States and Iran reached a last-minute cease-fire agreement.",
+      "link": "https://www.nytimes.com/2026/04/08/business/oil-stocks-gas-prices-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/multimedia/08Biz-Oil-Stocks-Gas-wltg/08Biz-Oil-Stocks-Gas-wltg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775637815.0,
+      "hot": false
+    },
+    {
+      "id": "24c719d69b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. and Iran agree to 2-week ceasefire",
+      "summary": "As part of the agreement, set to take effect immediately, Trump said the U.S. and Israel would suspend bombing Iran for two weeks, subject to Iran following through on its commitment to reopen the Str",
+      "link": "https://www.npr.org/2026/04/08/nx-s1-5777291/iran-war-updates",
+      "image": null,
+      "categories": [
         "科技"
       ],
-      "score": 72,
-      "ago": "20小时前",
-      "pub_ts": 1775555378.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775634901.0,
       "hot": false
     },
     {
@@ -36,27 +233,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775616269.0,
-      "hot": false
-    },
-    {
-      "id": "7317611e4b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hours Before News of Cease-Fire, Pope Leo XIV Issues Strong Rebuke of Trump",
-      "summary": "The first U.S.-born pontiff has consistently called for dialogue to resolve the war in the Middle East. He referred to Trump’s Iran threats as ‘truly unacceptable.’",
-      "link": "https://www.nytimes.com/2026/04/07/world/middleeast/pope-leo-xiv-trump-iran-threats.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07israel-iran-Pope-Trump-vwkq/07israel-iran-Pope-Trump-vwkq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775613866.0,
       "hot": false
     },
     {
@@ -72,27 +251,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775613135.0,
-      "hot": false
-    },
-    {
-      "id": "0e8eca6580",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Backs Down, but Questions Remain Over Iran and the Strait of Hormuz",
-      "summary": "President Trump’s short-term intimidation may have worked, but the fundamental divides with Iran are as sharp as they were in February.",
-      "link": "https://www.nytimes.com/2026/04/07/us/politics/trump-iran-2-week-ceasefire.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07israel-iran-cease-fire-jqwl/07israel-iran-cease-fire-jqwl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775611776.0,
       "hot": false
     },
     {
@@ -108,82 +269,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1775607971.0,
-      "hot": false
-    },
-    {
-      "id": "c4a871ba5e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "With Threat to Wipe Out Iran’s Civilization, Trump’s Rhetoric Goes Beyond Bluster",
-      "summary": "The president’s violent rhetoric risks damaging his credibility as a negotiator and the country’s standing in the world.",
-      "link": "https://www.nytimes.com/2026/04/07/us/politics/trump-iran-civilization-threat.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07dc-trump-rhetoric-wfqh/07dc-trump-rhetoric-wfqh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775606560.0,
-      "hot": false
-    },
-    {
-      "id": "f05b5b9879",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Only Trump Knows Why Bondi Was Fired as Attorney General, Blanche Says",
-      "summary": "In his first news conference since being elevated to acting attorney general, Todd Blanche said that “nobody has any idea” what led to Pam Bondi’s dismissal other than President Trump.",
-      "link": "https://www.nytimes.com/2026/04/07/us/politics/blanche-trump-bondi-attorney-general.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/dc-justice-pvwz/dc-justice-pvwz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775605994.0,
-      "hot": false
-    },
-    {
-      "id": "af9d10217c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘I Love Viktor’: Trump and Vance Cheer on Orban in Hungarian Race",
-      "summary": "The American leaders slathered on the praise for the nationalist standard-bearer just days before an election he could lose.",
-      "link": "https://www.nytimes.com/2026/04/07/world/europe/vance-hungary-orban-fidesz-election.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07hungary-vance-sub-top-pm-wvmj/07hungary-vance-sub-top-pm-wvmj-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775601644.0,
-      "hot": false
-    },
-    {
-      "id": "a563c4a825",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "To Boost Military Budget, Trump Targets Popular Programs at Home",
-      "summary": "Amid the war with Iran, the president has proposed to scale back some of the very programs meant to ease families’ financial burdens.",
-      "link": "https://www.nytimes.com/2026/04/07/us/politics/trump-budget-cuts.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07dc-trump-budget-mbgj/07dc-trump-budget-mbgj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775598700.0,
       "hot": false
     },
     {
@@ -200,7 +288,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775596814.0,
       "hot": false
     },
@@ -219,7 +307,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775596458.0,
       "hot": false
     },
@@ -227,7 +315,7 @@
       "id": "96cd4d4143",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Congressional Democrats raise alarm over Trump's comments on Iran",
       "summary": "Dozens of congressional Democrats raised alarm Tuesday over President Trump's rhetoric about Iran. Most Republican lawmakers have been silent.",
@@ -237,98 +325,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1775595697.0,
       "hot": false
     },
     {
-      "id": "9485a58a0a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "ICE acknowledges it is using powerful spyware",
-      "summary": "In a letter sent last week, ICE's top official indicated to members of Congress the agency is using a spyware tool to intercept encrypted messages of fentanyl traffickers.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5776799/ice-spyware-privacy",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775595684.0,
-      "hot": false
-    },
-    {
-      "id": "32201d904d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "In a stark reversal, President Trump announces two-week ceasefire with Iran",
-      "summary": "President Trump has announced a two-week ceasefire with Iran, contingent on their opening of the Strait of Hormuz. In an earlier online post, he had threatened \"a whole civilization will die tonight.\"",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5776640/trump-ceasefire-deadline-for-launching-a-massive-escalation-in-the-iran-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775595654.0,
-      "hot": false
-    },
-    {
-      "id": "c648f432f1",
+      "id": "0674da011e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "DOJ’s Civil Rights Division Investigates Cassidy Hutchinson, Who Testified Against Trump",
-      "summary": "It was a highly unusual move by Justice Department leadership to direct a case that appears to involve accusations of lying to Congress to a division that normally focuses on civil rights abuses.",
-      "link": "https://www.nytimes.com/2026/04/07/us/doj-cassidy-hutchinson-investigation-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/07dc-cassidy-01-fgzk/07dc-cassidy-01-fgzk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775592581.0,
-      "hot": false
-    },
-    {
-      "id": "1151461ec8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Astronauts suggest naming a moon crater 'Carroll' after their commander's late wife",
-      "summary": "The Artemis II crew, led by Reid Wiseman, was the first to lay eyes on several craters on the far side of the moon. The astronauts want to name one of them after Carroll Wiseman, who died of cancer in",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5776440/artemis-moon-crater-carroll-wiseman",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775581744.0,
-      "hot": false
-    },
-    {
-      "id": "2ecc945725",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Drive slower, go electric, don't drive at all? Americans weigh options for saving gas",
-      "summary": "With gasoline prices averaging above $4 a gallon nationally, drivers are grappling with a sharp rise in fuel costs. Here are some ideas to consider if you're trying to cut your fuel costs.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5775907/high-gas-prices-save-money-iran-war",
+      "title": "The Best Restaurants in Boston",
+      "summary": "It’s not just seafood and Italian in the greater Boston area. There’s great Vietnamese, omakase, Peruvian and even bagels worth seeking out. (Don’t worry, there’s also great seafood and Italian.) We’l",
+      "link": "https://www.nytimes.com/article/best-restaurants-boston.html",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "14小时前",
-      "pub_ts": 1775577600.0,
+      "pub_ts": 1775595550.0,
       "hot": false
     },
     {
@@ -345,7 +361,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "22小时前",
       "pub_ts": 1775565992.0,
       "hot": false
     },
@@ -362,46 +378,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775558965.0,
-      "hot": false
-    },
-    {
-      "id": "e6159ff1b7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. and Iran agree to 2-week ceasefire, suspending Trump's threat to annihilate Iran",
-      "summary": "After Iran ceded to President Trump's demand to reopen the Strait of Hormuz, Trump backed down from his threat of wide-scale destruction of Iran's civilian and military infrastructure.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5776377/iran-war-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1775558413.0,
-      "hot": false
-    },
-    {
-      "id": "3c5bc5e097",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Beer cans, helium balloons and mortgages: An unexpected mix of things affected by war",
-      "summary": "It's not just oil and gas that are affected by the Iran war. All sorts of shortages and price spikes are starting to pop up that stand to affect people's daily lives.",
-      "link": "https://www.npr.org/2026/04/07/nx-s1-5773196/helium-aluminum-mortgages-cost-iran-war",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1775556000.0,
       "hot": false
     },
     {
