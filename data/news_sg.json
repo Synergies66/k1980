@@ -1,115 +1,170 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-08T16:43:32.019040+00:00",
+  "updated_at": "2026-04-08T20:01:40.310700+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "4f5baa1149",
+      "id": "da88b091f6",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Your acne scars don’t have to be permanent – here’s how to improve your skin",
+      "summary": "Ice pick, boxcar and rolling scars sit at different depths, and need different treatments that work from the inside out, says dermatologist Dr Gerard Ee from The Clifford Clinic.",
+      "link": "https://www.straitstimes.com/singapore/health/improve-skin-acne-scars-treatment-the-clifford-clinic",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1分前",
+      "pub_ts": 1775678400.0,
+      "hot": false
+    },
+    {
+      "id": "d0c8b3814f",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Chinese electric truck maker Windrose makes first US delivery",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/chinese-electric-truck-maker-windrose-makes-first-us-delivery-6044316",
-      "image": "https://dam.mediacorp.sg/image/upload/s---NHwa3VV--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T141520Z_1_LYNXMPEM370W6_RTROPTP_3_AUTOS-CHINA-ELECTRICTRUCKS.JPG?itok=k3YVyHys",
+      "title": "Vance to lead US delegation to Iran talks on Saturday",
+      "summary": "The US has sent a negotiating team led by Vice President JD Vance to Pakistan for talks with Iran following a temporary ceasefire agreement.",
+      "link": "https://www.channelnewsasia.com/world/us-iran-israel-ceasefire-vance-trump-negotiation-6044766",
+      "image": "https://dam.mediacorp.sg/image/upload/s--_F8Gm07V--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T083242Z_2_LYNXMPEM3705Q_RTROPTP_3_IRAN-CRISIS-USA-TRUMP.JPG?itok=sB69_wai",
       "categories": [
-        "华人"
+        "本地"
       ],
-      "score": 77,
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1775677714.0,
+      "hot": false
+    },
+    {
+      "id": "17ab4c8de1",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Netanyahu says Israel ready to 'return to battle at any moment' against Iran",
+      "summary": "Israel agreed to the US-Iran temporary ceasefire but warned it is ready to resume attacks on Iran if necessary, Israeli Prime Minister Netanyahu said.",
+      "link": "https://www.channelnewsasia.com/world/iran-us-israel-ceasefire-pause-war-netanyahu-6044791",
+      "image": "https://dam.mediacorp.sg/image/upload/s--XoMr60mj--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T030011Z_2_LYNXMPEM3703R_RTROPTP_3_IRAN-CRISIS-ISRAEL-NETANYAHU.JPG?itok=4sWKz3_9",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1775675280.0,
+      "hot": false
+    },
+    {
+      "id": "617a8ee448",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "At the Masters, Augusta National's oak tree is where the golf does its deals",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/masters-augusta-nationals-oak-tree-where-golf-does-its-deals-6044836",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1775674961.0,
+      "hot": false
+    },
+    {
+      "id": "6a79d8fe11",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Gujarat survive final-over chaos as Miller's gamble backfires",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/gujarat-survive-final-over-chaos-millers-gamble-backfires-6044816",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775674305.0,
+      "hot": false
+    },
+    {
+      "id": "985a7fb20a",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Dry weather and wind set up tough conditions for Masters",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/dry-weather-and-wind-set-up-tough-conditions-masters-6044821",
+      "image": "https://dam.mediacorp.sg/image/upload/s--PGRoCoxI--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T190232Z_1_LYNXMPEM3717E_RTROPTP_3_GOLF.JPG?itok=m1AXpa9S",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775674204.0,
+      "hot": false
+    },
+    {
+      "id": "15f6ea5500",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Player disappearances cast cloud over Eritrea future participation",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/player-disappearances-cast-cloud-over-eritrea-future-participation-6044781",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775673792.0,
+      "hot": false
+    },
+    {
+      "id": "539d8aee37",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Oil prices plunge, stocks surge on US-Iran ceasefire",
+      "summary": "Markets surged and oil prices fell after the United States and Iran agreed to a temporary ceasefire.",
+      "link": "https://www.channelnewsasia.com/world/iran-us-ceasefire-hormuz-oil-prices-stock-markets-6044641",
+      "image": "https://dam.mediacorp.sg/image/upload/s--jFQHsnGE--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Financial_Markets_Wall_Street_99817.jpg?itok=YRECJgs1",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1775657720.0,
+      "pub_ts": 1775670480.0,
       "hot": false
     },
     {
-      "id": "85d7d9be69",
+      "id": "ae2af00c56",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "F1 technical heads to kick off series of meetings on rules",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/f1-technical-heads-kick-series-meetings-rules-6044506",
-      "image": "https://dam.mediacorp.sg/image/upload/s--ezcWKYpc--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T162337Z_1_LYNXMPEM37118_RTROPTP_3_MOTOR-F1-JAPAN.JPG?itok=WxmS8Grr",
+      "title": "'Ketamine Queen' jailed for 15 years over Matthew Perry drugs",
+      "summary": "Jasveen Sangha, one of five people linked to the death of Friends star Matthew Perry, was sentenced to 15 years in prison for supplying drugs to the actor.",
+      "link": "https://www.channelnewsasia.com/world/matthew-perry-friends-ketamine-queen-sangha-sentencing-drugs-6044571",
+      "image": "https://dam.mediacorp.sg/image/upload/s--JW2Ml7aT--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Matthew_Perry_66137.jpg?itok=oP8n9NC4",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1775665417.0,
-      "hot": false
-    },
-    {
-      "id": "7a7936966c",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Relegation-haunted Leicester's six-point deduction upheld",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/relegation-haunted-leicesters-six-point-deduction-upheld-6044511",
-      "image": "https://dam.mediacorp.sg/image/upload/s--TH1I8RJl--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T162517Z_1_LYNXMPEM3711C_RTROPTP_3_SOCCER-ENGLAND-LEI-SOU-REPORT.JPG?itok=diM6BH1M",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "24分前",
-      "pub_ts": 1775665149.0,
-      "hot": false
-    },
-    {
-      "id": "3ad7bc203b",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Citigroup says AI helps speed account openings and systems upgrades",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/citigroup-says-ai-helps-speed-account-openings-and-systems-upgrades-6044491",
-      "image": "https://dam.mediacorp.sg/image/upload/s--u7pnDPJt--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T161550Z_1_LYNXMPEM3710U_RTROPTP_3_CITI-RESULTS.JPG?itok=10YCAlrm",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1775664692.0,
-      "hot": false
-    },
-    {
-      "id": "260c3bda15",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Meta unveils first AI model from costly superintelligence team",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/meta-unveils-first-ai-model-costly-superintelligence-team-6044476",
-      "image": "https://dam.mediacorp.sg/image/upload/s--k9Csg8-v--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T162109Z_2_LYNXMPEM3710H_RTROPTP_3_OPENAI-META.JPG?itok=V7nmLrQf",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "40分前",
-      "pub_ts": 1775664189.0,
-      "hot": false
-    },
-    {
-      "id": "549db44c38",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Italy’s Serie A soccer league sounds out private equity for stake in overseas media unit, sources sa",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/italys-serie-soccer-league-sounds-out-private-equity-stake-in-overseas-media-unit-sources-say-6044466",
-      "image": "https://dam.mediacorp.sg/image/upload/s--1Xqimxvn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T160202Z_1_LYNXMPEM3710B_RTROPTP_3_ENI-SERIE-A.JPG?itok=NMDUR5Mo",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "47分前",
-      "pub_ts": 1775663725.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775668620.0,
       "hot": false
     },
     {
@@ -125,45 +180,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775661618.0,
-      "hot": false
-    },
-    {
-      "id": "8cd79c6533",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Singapore welcomes US-Iran ceasefire, urges all parties to negotiate in good faith",
-      "summary": "The Ministry of Foreign Affairs added that Singapore further welcomes the commitment under the ceasefire to restoring shipping traffic through the Strait of Hormuz.",
-      "link": "https://www.channelnewsasia.com/singapore/iran-war-welcomes-temporary-ceasefire-mfa-6044346",
-      "image": "https://dam.mediacorp.sg/image/upload/s--dK3tTStk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T083242Z_2_LYNXMPEM3705Z_RTROPTP_3_IRAN-CRISIS-USA-TRUMP.JPG?itok=O3pdlPiA",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775660460.0,
-      "hot": false
-    },
-    {
-      "id": "94f445552c",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Traders place large $950 million bet on oil price falling hours ahead of ceasefire",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/traders-place-large-950-million-bet-oil-price-falling-hours-ahead-ceasefire-6044361",
-      "image": "https://dam.mediacorp.sg/image/upload/s--aPuXIZtk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-08T151707Z_2_LYNXMPEM370Y6_RTROPTP_3_GLOBAL-MARKETS-SAFE-HAVEN.JPG?itok=cqqvCZ4j",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775660330.0,
       "hot": false
     },
     {
@@ -179,27 +198,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775656200.0,
-      "hot": false
-    },
-    {
-      "id": "1a1466fa6d",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Both public and private sector projects need help with higher fuel costs: S’pore contractors’ group",
-      "summary": "He was responding to the Government's cost sharing initiative that was announced on April 7.",
-      "link": "https://www.straitstimes.com/singapore/both-public-and-private-sector-projects-need-help-with-rising-costs-spore-contractors-association",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775651700.0,
       "hot": false
     },
     {
@@ -215,27 +216,27 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775651700.0,
       "hot": false
     },
     {
-      "id": "dbd354d682",
+      "id": "1a1466fa6d",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "The Iran war will continue to be bad news for S’pore, but positives can be drawn from its response",
-      "summary": "Beyond the short-term pain, the conflict has thrown up opportunities for Singapore on food security and energy resilience.",
-      "link": "https://www.straitstimes.com/singapore/politics/the-iran-war-will-continue-to-be-bad-news-for-spore-but-positives-can-be-drawn-from-its-response",
+      "title": "Both public and private sector projects need help with higher fuel costs: S’pore contractors’ group",
+      "summary": "He was responding to the Government's cost sharing initiative that was announced on April 7.",
+      "link": "https://www.straitstimes.com/singapore/both-public-and-private-sector-projects-need-help-with-rising-costs-spore-contractors-association",
       "image": null,
       "categories": [
-        "科技"
+        "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775649900.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775651700.0,
       "hot": false
     },
     {
@@ -251,8 +252,26 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775649900.0,
+      "hot": false
+    },
+    {
+      "id": "dbd354d682",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "The Iran war will continue to be bad news for S’pore, but positives can be drawn from its response",
+      "summary": "Beyond the short-term pain, the conflict has thrown up opportunities for Singapore on food security and energy resilience.",
+      "link": "https://www.straitstimes.com/singapore/politics/the-iran-war-will-continue-to-be-bad-news-for-spore-but-positives-can-be-drawn-from-its-response",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775649900.0,
       "hot": false
     },
@@ -269,27 +288,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775649300.0,
-      "hot": false
-    },
-    {
-      "id": "000fa890d5",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Man accused of molestation, harassment at government-related facilities",
-      "summary": "The man is accused of committing the offences between 2020 and 2024.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/man-accused-of-molestation-harassment-at-government-related-facilities",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775647500.0,
       "hot": false
     }
   ]
