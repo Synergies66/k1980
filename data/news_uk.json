@@ -1,116 +1,187 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-08T22:26:16.097829+00:00",
-  "total": 29,
+  "updated_at": "2026-04-09T06:09:19.332929+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "f33ed8a2bf",
+      "id": "306b6a3bf8",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Pioneering wildlife cameraman Doug Allan dies in Nepal",
-      "summary": "The cameraman and photographer won eight Emmy Awards for his work on acclaimed series like Blue Planet alongside Sir David Attenborough.",
-      "link": "https://www.bbc.com/news/articles/czx9kvqxeq5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79bf/live/93db7c00-3393-11f1-9d5c-8ba507d7dbde.jpg",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "為什麼與美國達成停火協議令伊朗強硬派感到不安？",
+      "summary": "BBC波斯語特派記者卡斯拉·納吉（Kasra Naji）報道，為期兩週的停火為與美國直接對話創造了可能性，但也激怒了伊朗的強硬派。",
+      "link": "https://www.bbc.com/zhongwen/articles/c0e7dn332lyo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/265a/live/f3dd6ac0-335f-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "17分前",
-      "pub_ts": 1775686113.0,
+      "score": 78,
+      "ago": "23分前",
+      "pub_ts": 1775713558.0,
       "hot": false
     },
     {
-      "id": "a655ffe02c",
+      "id": "54762c8bec",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "韓團BTS讓數百萬人認識K-pop，但如今卻夾在韓國與世界之間",
+      "summary": "BTS讓數百萬粉絲愛上了K-pop，但如今，它卻陷入了韓國與世界之間的夾縫之中。",
+      "link": "https://www.bbc.com/zhongwen/articles/cdrmndz6rkro/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f48d/live/cd614be0-3397-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1775710447.0,
+      "hot": false
+    },
+    {
+      "id": "bad4b5a33f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "美伊停火台前幕後  14日談判的焦點將是什麼",
+      "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
+      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b499/live/2684d850-33ba-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1775700655.0,
+      "hot": false
+    },
+    {
+      "id": "ff44947c8a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "企業為何爭相恐後在AI搜尋中爭位？",
+      "summary": "AI搜尋時代來臨。企業網站流量大減140億次，AI直接給答案讓點擊率暴跌60-70%。許多公司因此積極調整策略，想在ChatGPT與AI概述中被看見，傳統SEO已不夠，現在必須做好「答案引擎優化」才能抓住客戶。",
+      "link": "https://www.bbc.com/zhongwen/articles/cvg3kjnjkpdo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1a9d/live/5122ab50-21e5-11f1-934f-036468834728.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1775700650.0,
+      "hot": false
+    },
+    {
+      "id": "2a7f4390be",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "中美在不同AI賽道上領先   但誰都可能最終超前",
+      "summary": "中國在打造機器人「身體」方面領先全球，但每一具機器人仍需要一個「大腦」——也就是作業系統或軟體，來指揮各個金屬部件該做什麼。",
+      "link": "https://www.bbc.com/zhongwen/articles/c8dlrr0q1z5o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f108/live/c25cbac0-2ea3-11f1-b297-95b0a0a8331e.png",
+      "categories": [
+        "科技"
+      ],
+      "score": 73,
+      "ago": "4小时前",
+      "pub_ts": 1775697380.0,
+      "hot": false
+    },
+    {
+      "id": "2b6dfec9d3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "宏福苑火災首輪聽證會復盤：重要證據浮出水面，倖存災民為何開始有所期望",
+      "summary": "「大家做多一點，真的有機會改變到這件事，但始終這件事也發生了，希望之後它們會改吧。」",
+      "link": "https://www.bbc.com/zhongwen/articles/cvglde51r78o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0507/live/b3be40d0-3301-11f1-842e-a38cd647f96c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "4小时前",
+      "pub_ts": 1775697267.0,
+      "hot": false
+    },
+    {
+      "id": "4741980af5",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: ceasefire must include Lebanon or war will continue, Iran’s foreign ministe",
-      "summary": "As Israel attacks on Beirut continue, Abbas Araghchi points to announcement that says ceasefire includes Lebanon while JD Vance says US never promised thatMiddle East ceasefire in serious doubt as Isr",
-      "link": "https://www.theguardian.com/world/live/2026/apr/08/iran-war-ceasefire-live-updates-trump-deadline-middle-east-crisis-latest-news",
-      "image": "https://i.guim.co.uk/img/media/0b568adc54fc7ce7f8db2b1f886af820b6a3eda0/749_0_4998_4000/master/4998.jpg?width=140&quality=85&auto=format&fit=max&s=27d28d66d9ff568bffe3a1453282d2c3",
+      "title": "Middle East crisis live: Red Cross ‘outraged’ as Israeli strikes on Lebanon kill 254 people; Trump s",
+      "summary": "As Israel attacks on Lebanon continue, Abbas Araghchi points to announcement that says ceasefire includes Lebanon while JD Vance says US never promised thatMiddle East ceasefire in serious doubt as Is",
+      "link": "https://www.theguardian.com/world/live/2026/apr/09/iran-war-ceasefire-live-strait-of-hormuz-israel-strikes-middle-east-crisis-latest-news",
+      "image": "https://i.guim.co.uk/img/media/dde7752014fb9546901ea95a5f59347fc7391cf8/129_0_3806_3045/master/3806.jpg?width=140&quality=85&auto=format&fit=max&s=5943ce6a30df72ff47e86def77dc8bbd",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1775685521.0,
+      "ago": "8分前",
+      "pub_ts": 1775714418.0,
       "hot": false
     },
     {
-      "id": "5fd24733af",
+      "id": "57a065ce52",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Starmer says a lot of work remains to make US-Iran ceasefire hold",
-      "summary": "The prime minister says fully reopening the Strait of Hormuz would help \"stabilise\" prices in the UK.",
-      "link": "https://www.bbc.com/news/articles/cj0ve1006g9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8195/live/1e35df00-3360-11f1-879d-1b2f5c3919b8.jpg",
+      "title": "Artemis crew returning to Earth with 'all the good stuff' from Moon discoveries",
+      "summary": "The four astronauts said they were returning to Earth with \"so many more pictures, so many more stories\".",
+      "link": "https://www.bbc.com/news/articles/c70dr45dj1lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3be/live/c71c7700-33d8-11f1-879d-1b2f5c3919b8.png",
       "categories": [
-        "政治",
         "科技"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775682740.0,
+      "ago": "11分前",
+      "pub_ts": 1775714238.0,
       "hot": false
     },
     {
-      "id": "f636058c5f",
+      "id": "b7d7105dc0",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "At least 182 killed across Lebanon in large wave of Israeli strikes",
-      "summary": "Attacks hit the southern suburbs of Beirut, southern Lebanon and the eastern Bekaa Valley, hours after a US-Iran ceasefire was announced.",
-      "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1c0/live/d9445160-3341-11f1-9d5c-8ba507d7dbde.jpg",
+      "title": "Cooper to urge full and toll-free reopening of Strait of Hormuz",
+      "summary": "Foreign Secretary Yvette Cooper will call for shipping in the Strait of Hormuz to be toll-free and unhindered.",
+      "link": "https://www.bbc.com/news/articles/c93enywd10ro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/767e/live/24e07a50-33be-11f1-afeb-23062a45ec9b.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775681699.0,
+      "ago": "15分前",
+      "pub_ts": 1775714005.0,
       "hot": false
     },
     {
-      "id": "0cfb828597",
+      "id": "756415cafe",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Success or surrender? Iran ceasefire exposes rift in Trump’s Maga movement",
-      "summary": "Loyalists rush to defend president for ‘outsmarting the critics’ but others decry deal as ‘a negative for our country’Donald Trump’s acceptance of a two-week ceasefire in Iran has exposed fresh divisi",
-      "link": "https://www.theguardian.com/us-news/2026/apr/08/trump-iran-ceasefire-maga",
-      "image": "https://i.guim.co.uk/img/media/c33792921e15c06d94b8b6556f8cd5ad3f8edac9/398_0_5537_4430/master/5537.jpg?width=140&quality=85&auto=format&fit=max&s=91e316aab6e8dac340739aacaf1bd5fc",
+      "title": "Ten years after Brexit, this is the UK: a divided nation frozen in time | Aditya Chakrabortty",
+      "summary": "Tribalism has not faded over the past decade. Instead, new research reveals our politics has become ever-more polarised and fractiousOn 23 June 2016, the British voter changed. Before that day, they p",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/09/ten-years-brexit-uk-divided-country",
+      "image": "https://i.guim.co.uk/img/media/5eb6fee13a9d664065a4d5fcb9ce7ad3f99a78f2/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=dc0f17018859d2e494e461bced41bace",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775680213.0,
-      "hot": false
-    },
-    {
-      "id": "a2566e6355",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Negotiators face huge task to close gaps in rival Iran peace proposals",
-      "summary": "A US 15-point plan and an Iranian 10-point variant are oceans apart, writes the BBC's diplomatic correspondent.",
-      "link": "https://www.bbc.com/news/articles/cvgkv9y97n0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c5/live/64445c10-3383-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775680008.0,
+      "pub_ts": 1775710822.0,
       "hot": false
     },
     {
@@ -127,80 +198,99 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "21小时前",
       "pub_ts": 1775637643.0,
       "hot": false
     },
     {
-      "id": "0104dd1902",
+      "id": "db74795135",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "美伊最後一刻同意停火兩週  德黑蘭披露十點談判計劃含解除制裁和放棄核武",
-      "summary": "特朗普威脅若伊朗拒絕妥協，「一整個文明將在今夜死掉」後，巴基斯坦出面斡旋並達成停火協議。",
-      "link": "https://www.bbc.com/zhongwen/articles/cj0vee83q8go/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/831c/live/8d082d60-3311-11f1-934f-036468834728.jpg",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘I had poked the bear right in the eye’: my fight to renounce my Russian citizenship",
+      "summary": "When Putin invaded Ukraine, he raised murder to the level of national policy. I felt guilt by association. And I had to actOne morning in May 2025, I walked briskly down Bayswater Road along the north",
+      "link": "https://www.theguardian.com/world/2026/apr/09/i-had-poked-the-bear-right-in-the-eye-my-fight-to-renounce-my-russian-citizenship",
+      "image": "https://i.guim.co.uk/img/media/32f00c599c1e76b3321c09e5080580a47559de52/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2f5c18a599a56f029667f7ecf6b13334",
       "categories": [
-        "本地"
+        "天气",
+        "科技"
       ],
-      "score": 68,
-      "ago": "14小时前",
-      "pub_ts": 1775634079.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775707223.0,
       "hot": false
     },
     {
-      "id": "e758c2109a",
+      "id": "1ca3b47242",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "「阿提米絲二號」能否證明人類即將實現再次登月",
-      "summary": "阿提米絲二號任務圓滿成功，NASA火箭完美發射後，太空船精準飛掠月球，首次搭載人類完成跨月之旅，同時打破阿波羅13號遠距紀錄，但重返地球大氣層將是最終考驗，2028年重返月球又近一步。",
-      "link": "https://www.bbc.com/zhongwen/articles/c705j92yj1go/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/02fd/live/475ddab0-327d-11f1-b6b5-c5856fa3f77a.png",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Injured and abandoned: hundreds of Gaza amputees left stranded in Egypt",
+      "summary": "At the peak of the Israel-Gaza conflict, 10 children a day were losing one or both legs. For those who cross the border for medical help, physical recovery is only the start of their struggleOla Jamal",
+      "link": "https://www.theguardian.com/global-development/2026/apr/09/gaza-amputees-stranded-in-egypt-life-changing-injuries",
+      "image": "https://i.guim.co.uk/img/media/e92866a7e34e07193a1f2ed560f60ecb4dd8ad66/458_365_4127_3302/master/4127.jpg?width=140&quality=85&auto=format&fit=max&s=7d964db43bf56858b67f3c2fd2d49264",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "15小时前",
-      "pub_ts": 1775630277.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775707223.0,
       "hot": false
     },
     {
-      "id": "1172b0da09",
+      "id": "a98fa65b17",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "美伊達成停火協議後油價暴跌，亞洲股市普遍大漲",
-      "summary": "亞洲在伊朗戰爭引發的經濟衝擊中受到特別嚴重的打擊。近幾週來，區內各國政府與企業陸續宣布措施，以應對高能源價格與燃料短缺。",
-      "link": "https://www.bbc.com/zhongwen/articles/ce9mdddy1vzo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7c92/live/4b2bc340-32d8-11f1-b63d-15080c5ce187.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 68,
-      "ago": "19小时前",
-      "pub_ts": 1775618539.0,
-      "hot": false
-    },
-    {
-      "id": "3148621bf6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "司洛賈馬斯坦：藏在美國沙漠中的新「國家」",
-      "summary": "有超過2.5萬名自稱公民的人已向這個惡搞式的「獨裁國家」宣誓效忠，在那裡，穿著「洞洞鞋」（Crocs）與在電郵上「全部回覆」都被禁止。",
-      "link": "https://www.bbc.com/zhongwen/articles/cdj792z4j74o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7aeb/live/c0173540-2dab-11f1-b297-95b0a0a8331e.jpg",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘My background cringes me out’: Jack Whitehall on poshness, comedy and his lockdown romance",
+      "summary": "‘After every tour, I hate the sound of my voice,’ the actor and comedian says. Yet here he is, working on a new standup act and about to host Saturday Night Live. What does he have to talk about this",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/09/my-background-cringes-me-out-jack-whitehall-on-poshness-comedy-and-his-lockdown-romance",
+      "image": "https://i.guim.co.uk/img/media/6ac24b7d7ddadc07d8f451ee3991258d56fe02ad/1110_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=9f4a46998e99cb7db68dc2203dd52afa",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "21小时前",
-      "pub_ts": 1775610987.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775707222.0,
+      "hot": false
+    },
+    {
+      "id": "4601d5d436",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
+      "summary": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
+      "link": "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fbe/live/73b7fdc0-33ae-11f1-b174-9b4b999c11fc.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775699974.0,
+      "hot": false
+    },
+    {
+      "id": "f33ed8a2bf",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Pioneering wildlife cameraman Doug Allan dies in Nepal",
+      "summary": "The cameraman and photographer won eight Emmy Awards for his work on acclaimed series like Blue Planet alongside Sir David Attenborough.",
+      "link": "https://www.bbc.com/news/articles/czx9kvqxeq5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/79bf/live/93db7c00-3393-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775696486.0,
       "hot": false
     },
     {
@@ -216,9 +306,118 @@
       "categories": [
         "科技"
       ],
-      "score": 68,
-      "ago": "21小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775608039.0,
+      "hot": false
+    },
+    {
+      "id": "ae42312702",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "22,000 students told to pay back 'mis-sold' maintenance loans",
+      "summary": "Those affected have been told their courses were never eligible for maintenance or childcare loans",
+      "link": "https://www.bbc.com/news/articles/cq593g970z7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8d4b/live/8c4eeee0-2e84-11f1-98e7-6b639170d418.jpg",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775692900.0,
+      "hot": false
+    },
+    {
+      "id": "3ccc60ee17",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "How KFC, AKA Korean fried chicken, took over the world",
+      "summary": "The dish, adapted from one brought by US soldiers after the Korean war, has sparked thousands of variations and sits at the forefront of the K-food waveInside a teaching kitchen south-east of Seoul, I",
+      "link": "https://www.theguardian.com/world/2026/apr/09/korean-fried-chicken",
+      "image": "https://i.guim.co.uk/img/media/caab4bec96e8e3e6d268bb47bb3bd6b64b143ac3/207_0_6484_5190/master/6484.jpg?width=140&quality=85&auto=format&fit=max&s=7a0f5caf13b195403788404ecc9d8529",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775691165.0,
+      "hot": false
+    },
+    {
+      "id": "89a3a181eb",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Even if Iran war ends now, farmers' costs will have to be passed on'",
+      "summary": "Despite a ceasefire, the Iran war will continue to affect farmers' costs and therefore food prices.",
+      "link": "https://www.bbc.com/news/articles/c0q98w57k25o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ff/live/3e1e7ec0-32a3-11f1-bcd7-95478cdf5125.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775689433.0,
+      "hot": false
+    },
+    {
+      "id": "33e8fc540b",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Twenty Twenty Six review – Hugh Bonneville’s World Cup comedy wields jokes as subtly as foam mallets",
+      "summary": "The star returns as Ian Fletcher in this mockumentary from the makers of Twenty Twelve. But for every funny moment, there is a slightly off gag – and some truly woeful onesIt’s a Monday morning in Mia",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/08/twenty-twenty-six-review-hugh-bonneville-bbc",
+      "image": "https://i.guim.co.uk/img/media/c40649d697669facb42c6ada153eb4d45924eb07/240_0_3752_3002/master/3752.jpg?width=140&quality=85&auto=format&fit=max&s=c731bc033267fc6412f6e8fadbddf152",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775683814.0,
+      "hot": false
+    },
+    {
+      "id": "fb0d0ccac2",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Starmer says UK wants to help with opening of Hormuz strait on Gulf visit",
+      "summary": "PM meets Mohammed bin Salman in Saudi Arabia before further visits to regional allies, who may see him as more reliable than TrumpMiddle East crisis – live updatesThe UK has a “job” to help reopen the",
+      "link": "https://www.theguardian.com/world/2026/apr/08/keir-starmer-says-it-is-uks-job-to-help-reopen-strait-of-hormuz",
+      "image": "https://i.guim.co.uk/img/media/c66eccdf02cb60ea6f86dbae3f200d70e7912313/807_61_5870_4696/master/5870.jpg?width=140&quality=85&auto=format&fit=max&s=56b227f19a8f327a04ff60190ade448c",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1775682539.0,
+      "hot": false
+    },
+    {
+      "id": "a2566e6355",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Negotiators face huge task to close gaps in rival Iran peace proposals",
+      "summary": "A US 15-point plan and an Iranian 10-point variant are oceans apart, writes the BBC's diplomatic correspondent.",
+      "link": "https://www.bbc.com/news/articles/cvgkv9y97n0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/49c5/live/64445c10-3383-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1775680008.0,
       "hot": false
     },
     {
@@ -230,31 +429,13 @@
       "title": "RSPCA says 250 dogs found crammed into one home",
       "summary": "The animal charity says it has been forced to refute that an image of the dogs was AI-generated.",
       "link": "https://www.bbc.com/news/articles/c4gxkdeyk7ko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/977a/live/9487d020-3368-11f1-8606-05fe34b06e1b.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb76/live/b03be0b0-33d9-11f1-879d-1b2f5c3919b8.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1775678420.0,
-      "hot": false
-    },
-    {
-      "id": "cae9c82d83",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'Ketamine Queen' sentenced to 15 years in Matthew Perry overdose death",
-      "summary": "Jasveen Sangha was found guilty of selling drugs that killed Friends actor Matthew Perry who had struggled with addiction for years.",
-      "link": "https://www.bbc.com/news/articles/c6258qe1yl0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1a70/live/e3eb39b0-3375-11f1-98b1-a33d5d12908a.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775676869.0,
       "hot": false
     },
     {
@@ -270,27 +451,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1775668891.0,
-      "hot": false
-    },
-    {
-      "id": "29691efa3f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Why ceasefire deal with US has unsettled Iran's hardliners",
-      "summary": "The two-week truce opens up the prospect of direct talks with the US but has angered Iran's hardliners, writes BBC News Persian’s Kasra Naji.",
-      "link": "https://www.bbc.com/news/articles/c5ywpe2yyg3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/265a/live/f3dd6ac0-335f-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775668597.0,
       "hot": false
     },
     {
@@ -306,63 +469,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775667954.0,
-      "hot": false
-    },
-    {
-      "id": "2a2f0594b6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Trump may be using Nixon’s ‘madman theory’ – and similar infamy may await",
-      "summary": "Nixon’s Vietnam strategy appears at play in Trump’s Iran threats, but he may want to ponder the ex-president’s fateDonald Trump has made no secret of his admiration for Richard Nixon, Watergate and le",
-      "link": "https://www.theguardian.com/us-news/2026/apr/08/trump-nixon-iran-madman-theory",
-      "image": "https://i.guim.co.uk/img/media/9b604dd09351f381bc50d5e9b53d89e0ef0426b7/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=053f401b2834e8ae86edec4262524665",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775667121.0,
-      "hot": false
-    },
-    {
-      "id": "084e50069e",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "BBC走進被摧毀的柬埔寨詐騙園區   裡面曾有澳洲中國巴西的「警察局」",
-      "summary": "BBC直擊被泰國轟炸的皇家山賭場，門後竟藏有越南銀行、澳洲警察局、中國警方制服等詐騙場景。數千外國人遭強迫勞動，財源滾滾的標語背後是全球受害者的血汗。",
-      "link": "https://www.bbc.com/zhongwen/articles/cj40yrer0rjo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/ae75/live/c1573460-3192-11f1-8b1f-d33b6f9e6bd4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1775540120.0,
-      "hot": false
-    },
-    {
-      "id": "906b15585c",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Government approves UK's largest solar farm",
-      "summary": "The Springwell solar farm in North Kesteven would cover an area the size of 1,700 football pitches.",
-      "link": "https://www.bbc.com/news/articles/cd0r4mxevdvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c45f/live/9af30390-2c3d-11f0-8f57-b7237f6a66e6.jpg",
-      "categories": [
-        "政治"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775664917.0,
+      "ago": "13小时前",
+      "pub_ts": 1775667954.0,
       "hot": false
     },
     {
@@ -379,7 +488,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1775664598.0,
       "hot": false
     },
@@ -397,62 +506,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1775663120.0,
-      "hot": false
-    },
-    {
-      "id": "d09d4ae28a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "An irresistible adventure activity for New Zealand visitors? Delivering the mail by boat",
-      "summary": "In the sparsely populated Queen Charlotte Sound, tourists can accompany the skipper-come-postman as parcels are dropped off via the scenic route. No heart rate check requiredFor a travel destination f",
-      "link": "https://www.theguardian.com/travel/2026/apr/08/new-zealand-queen-charlotte-sound-mail-by-boat-cruise",
-      "image": "https://i.guim.co.uk/img/media/a16207097ca5420de20675c6cc096abbecf1da13/653_346_2984_2387/master/2984.jpg?width=140&quality=85&auto=format&fit=max&s=02ca495c0a2c180e8da331b50239ebcc",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775660446.0,
-      "hot": false
-    },
-    {
-      "id": "e0512ed296",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘When the knife came up through the pool table, audiences gasped’: how Iraq war epic Black Watch con",
-      "summary": "It was the play that rocked a nation. The makers of the devastating drama, which transported theatre-goers from a Fife pub to a war zone, recall how it grew and grewWithin six months of its launch in",
-      "link": "https://www.theguardian.com/stage/2026/apr/08/iraq-war-black-watch-national-theatre-of-scotland-fife-pub",
-      "image": "https://i.guim.co.uk/img/media/fa66231898cc539db6551dbc42beb18951da4d5c/540_225_3359_2687/master/3359.jpg?width=140&quality=85&auto=format&fit=max&s=04496fe884cd10b68a09bd957f630010",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775660292.0,
-      "hot": false
-    },
-    {
-      "id": "8853888c80",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Are OnlyFans models the best way to explain the climate crisis?",
-      "summary": "Actor Megan Prescott has joined with Adam McKay in the hope that showing bite-size web videos of women undressing will persuade us to save the world. Will it work?The world, as we know, is in trouble.",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/08/are-onlyfans-models-the-best-way-to-explain-the-climate-crisis",
-      "image": "https://i.guim.co.uk/img/media/700ea77816463d568c0193e1b4f136de1988ff69/0_247_4088_3270/master/4088.jpg?width=140&quality=85&auto=format&fit=max&s=e2c26524030bdc34c46fb83e53e47e4f",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775658949.0,
       "hot": false
     },
     {
@@ -469,44 +524,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1775653344.0,
-      "hot": false
-    },
-    {
-      "id": "6701be79c4",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘This is my world’: Cornish director Mark Jenkin brings new film to home town",
-      "summary": "Exclusive: Director says authenticity is key as time travel movie Rose of Nevada gets first UK screening in fishing town of NewlynThe audience that turned out for the first preview showing of Mark Jen",
-      "link": "https://www.theguardian.com/uk-news/2026/apr/08/cornwall-director-mark-jenkin-new-film-rose-of-nevada-home-town-screening",
-      "image": "https://i.guim.co.uk/img/media/9b0857c12bc48077e9bbd09ea7b2413e0f440df8/0_2096_3927_3140/master/3927.jpg?width=140&quality=85&auto=format&fit=max&s=d931b3c7c6b5fe08f1272ab946be7ece",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775651151.0,
-      "hot": false
-    },
-    {
-      "id": "fb5092b5a5",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘We can’t increase prices any more’: UK hospitality firms hit by cost triple blow",
-      "summary": "Struggling pubs reel from rising business rates, wages and energy bills, with customers at limit of what they will payNick Evans is staring in vain at columns of numbers, trying to make them add up to",
-      "link": "https://www.theguardian.com/business/2026/apr/08/uk-pubs-hospitality-costs-minimum-wage-business-rates",
-      "image": "https://i.guim.co.uk/img/media/530404c726a29038a2a3b523b9a45366bf4823a4/1231_1273_2639_2111/master/2639.jpg?width=140&quality=85&auto=format&fit=max&s=e307cf95f8154bc20e131e113d055ded",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775649631.0,
       "hot": false
     },
     {
@@ -523,7 +542,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1775645787.0,
       "hot": false
     }
