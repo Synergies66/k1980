@@ -1,169 +1,188 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-09T14:25:59.457215+00:00",
+  "updated_at": "2026-04-09T17:44:40.717231+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "8ca76eacd4",
+      "id": "ca73d4fa89",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Netanyahu says Israel will continue to strike Hezbollah 'wherever necessary'",
+      "summary": "\"Anyone who acts against Israeli civilians - we will strike them,\" said Israeli Prime Minister Benjamin Netanyahu, vowing attacks \"wherever necessary\" in Lebanon.",
+      "link": "https://www.channelnewsasia.com/world/netanyahu-israel-lebanon-strikes-hezbollah-us-iran-war-6047211",
+      "image": "https://dam.mediacorp.sg/image/upload/s--ouPMYQ5u--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/APTOPIX_Lebanon_Israel_Iran_War_56618.jpg?itok=df3O5e9K",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1775754780.0,
+      "hot": false
+    },
+    {
+      "id": "a4e2d1c0cd",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Darts-Transgender players to be banned from women's events in Darts",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/darts-transgender-players-be-banned-womens-events-in-darts-6047281",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1775753558.0,
+      "hot": false
+    },
+    {
+      "id": "2e3e23c221",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "LA28 opens Olympic ticket sales globally after strong local presale",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/la28-opens-olympic-ticket-sales-globally-after-strong-local-presale-6047251",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775752599.0,
+      "hot": false
+    },
+    {
+      "id": "fbcaf81c7c",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Belgian great Merckx set for hip surgery",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/belgian-great-merckx-set-hip-surgery-6047171",
+      "image": "https://dam.mediacorp.sg/image/upload/s--pj6Yvffc--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T155302Z_1_LYNXMPEM3810Y_RTROPTP_3_CYCLING-FRANCE.JPG?itok=ltm_vtbg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775749982.0,
+      "hot": false
+    },
+    {
+      "id": "20611fddc5",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Sinner’s record sets streak ends in Monte Carlo win",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/sinners-record-sets-streak-ends-in-monte-carlo-win-6047166",
+      "image": "https://dam.mediacorp.sg/image/upload/s--MpWiBo7T--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T154016Z_1_LYNXMPEM3810M_RTROPTP_3_TENNIS-MONTECARLO.JPG?itok=1m4Aq8yb",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775749245.0,
+      "hot": false
+    },
+    {
+      "id": "0c3de3f990",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "US software stocks slump on renewed AI disruption jitters",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/us-software-stocks-slump-renewed-ai-disruption-jitters-6047126",
+      "image": "https://dam.mediacorp.sg/image/upload/s--aZmDZu5o--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T152738Z_1_LYNXMPEM38109_RTROPTP_3_ANTHROPIC-AI-CYBERSECURITY.JPG?itok=bTWW3Gj7",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775748458.0,
+      "hot": false
+    },
+    {
+      "id": "6a2a533137",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Florida AG opens probe into OpenAI ahead of potential IPO",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/florida-ag-opens-probe-openai-ahead-potential-ipo-6047131",
+      "image": "https://dam.mediacorp.sg/image/upload/s--4yoJaTpk--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T160427Z_3_LYNXMPEM38108_RTROPTP_3_OPENAI-CHATGPT-ADS.JPG?itok=thulFcLX",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775748418.0,
+      "hot": false
+    },
+    {
+      "id": "7a20681636",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Brazil court removes BYD from list of firms linked to forced labor",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/brazil-court-removes-byd-list-firms-linked-forced-labor-6047101",
+      "image": "https://dam.mediacorp.sg/image/upload/s--31BKeW3B--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T150041Z_1_LYNXMPEM380Z3_RTROPTP_3_BYD-CHINA.JPG?itok=XBBCg6QM",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775746841.0,
+      "hot": false
+    },
+    {
+      "id": "0273e64192",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "People with disabilities, neurodivergence can don new T-shirt with inclusive features",
+      "title": "Shanmugam says Bloomberg article was crafted to suggest he was involved in shady deals",
+      "summary": "Manpower Minister Tan See Leng also testified, saying he was \"quite disturbed\" by the article.",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/shanmugam-says-bloomberg-article-was-crafted-to-suggest-he-was-involved-in-shady-deals",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775745270.0,
+      "hot": false
+    },
+    {
+      "id": "3212a237e3",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "T-shirt with inclusive features could help people with disabilities, neurodivergence",
       "summary": "Its designer said demand for inclusive clothing in Singapore has grown over the years.",
       "link": "https://www.straitstimes.com/singapore/community/people-with-disabilities-neurodivergence-can-don-new-t-shirt-with-inclusive-features",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "5分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775744400.0,
-      "hot": false
-    },
-    {
-      "id": "a8b76b1a60",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Believers rejoice as Jerusalem's holy sites reopen",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/believers-rejoice-jerusalems-holy-sites-reopen-6046966",
-      "image": "https://dam.mediacorp.sg/image/upload/s--fLA-mVbn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/09/000_a73l8fx_mod.jpg?itok=tRPeb2IZ",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1775743987.0,
-      "hot": false
-    },
-    {
-      "id": "bb94f415b0",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "India's central bank mulls delay for some digital payments to curb fraud",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/indias-central-bank-mulls-delay-some-digital-payments-curb-fraud-6046956",
-      "image": "https://dam.mediacorp.sg/image/upload/s--6fQWVQOr--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T135740Z_1_LYNXMPEM380WI_RTROPTP_3_INDIA-LIQUIDITY-OVERNIGHT-RATES.JPG?itok=29LIchzH",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1775743060.0,
-      "hot": false
-    },
-    {
-      "id": "859db30f58",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Nicklaus, Player send encouragement to Woods",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/nicklaus-player-send-encouragement-woods-6046961",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1775743030.0,
-      "hot": false
-    },
-    {
-      "id": "aca684d39a",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "OpenAI pauses UK data centre project over regulation, costs",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/openai-pauses-uk-data-centre-project-over-regulation-costs-6046951",
-      "image": "https://dam.mediacorp.sg/image/upload/s--tgw4gzJd--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T135201Z_1_LYNXMPEM380W3_RTROPTP_3_OPENAI-META.JPG?itok=4hECgehK",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1775742721.0,
-      "hot": false
-    },
-    {
-      "id": "639141caaa",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "UK court jails man who stole Faberge egg in a handbag",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/faberge-egg-watch-stolen-man-jailed-uk-6046911",
-      "image": "https://dam.mediacorp.sg/image/upload/s--2dYv9MWh--/c_crop,h_601,w_1070,x_0,y_192/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/09/image_-_2026-04-09t213452.737.png?itok=spVBl1pL",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "42分前",
-      "pub_ts": 1775742175.0,
-      "hot": false
-    },
-    {
-      "id": "b8fedb6d4a",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Sabalenka withdraws from Stuttgart Open due to injury",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/sabalenka-withdraws-stuttgart-open-due-injury-6046916",
-      "image": "https://dam.mediacorp.sg/image/upload/s--aco721EE--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T132958Z_1_LYNXMPEM380UH_RTROPTP_3_TENNIS-AUSOPEN.JPG?itok=CgypCq9v",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1775741398.0,
-      "hot": false
-    },
-    {
-      "id": "71440a97fe",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "SiFive raises $400 million from Atreides, Nvidia for data-center chip technology",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/sifive-raises-400-million-atreides-nvidia-data-center-chip-technology-6046856",
-      "image": "https://dam.mediacorp.sg/image/upload/s--xWiiLv-U--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T130536Z_1_LYNXMPEM380T7_RTROPTP_3_SIFIVE-FUNDING.JPG?itok=A3PyrrT9",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775740065.0,
-      "hot": false
-    },
-    {
-      "id": "a78aebb8b9",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Intel and Google to double down on AI CPUs with expanded partnership",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/intel-and-google-double-down-ai-cpus-expanded-partnership-6046846",
-      "image": "https://dam.mediacorp.sg/image/upload/s--etPmJhHQ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-09T130225Z_1_LYNXMPEM380T0_RTROPTP_3_SPACEX-TESLA-CHIPS-INTEL.JPG?itok=POP-dsqW",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775739745.0,
       "hot": false
     },
     {
@@ -179,8 +198,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775738100.0,
       "hot": false
     },
@@ -198,8 +217,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775734500.0,
       "hot": false
     },
@@ -210,14 +229,14 @@
       "source": "Straits Times",
       "lang": "en",
       "title": "Cyclist taken to hospital after accident with car in Geylang",
-      "summary": "A 73-year-old driver is assisting with police investigations.",
+      "summary": "The car driver is assisting with police investigations.",
       "link": "https://www.straitstimes.com/singapore/cyclist-taken-to-hospital-after-accident-with-car-in-geylang",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775733900.0,
       "hot": false
     },
@@ -234,8 +253,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775733300.0,
       "hot": false
     },
@@ -252,8 +271,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775732208.0,
       "hot": false
     },
@@ -271,26 +290,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775721900.0,
-      "hot": false
-    },
-    {
-      "id": "54503e332d",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "4 years’ jail for man who helped register 574 SIM cards for scam syndicate",
-      "summary": "Some of the SIM cards were linked to scams in which victims lost around $140,000.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/4-years-jail-for-man-who-helped-register-574-sim-cards-for-scam-syndicate",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775721300.0,
       "hot": false
     }
   ]
