@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-10T17:11:34.014679+00:00",
-  "total": 20,
+  "updated_at": "2026-04-10T21:00:32.292586+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "5c5dbe5189",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Months after the ICE shootings in Minnesota, a federal probe remains elusive",
+      "summary": "Officials in Minnesota have sued the Trump administration, saying federal officials are withholding evidence in the killings of U.S. citizens Alex Pretti and Renee Macklin Good by immigration agents i",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5775847/alex-pretti-renee-good-ice-shootings-federal-investigations",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "58分前",
+      "pub_ts": 1775851310.0,
+      "hot": false
+    },
     {
       "id": "df8d9474a1",
       "type": "news",
@@ -18,46 +37,81 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1775820544.0,
       "hot": false
     },
     {
-      "id": "131ea3776d",
+      "id": "1b086d5cde",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Soaring Fuel Prices Squeeze China’s Frugal Truckers",
-      "summary": "Many long-haul truckers in China have a tight budget and live frugally on the road, sleeping and cooking in their vehicles. Now, the pain at the pump is forcing some drivers to rethink their lives.",
-      "link": "https://www.nytimes.com/video/world/asia/100000010809735/china-truckers-oil-fuel-prices.html",
+      "title": "Why Opening the Strait of Hormuz Won’t Immediately Lower Gas Prices",
+      "summary": "Our energy reporter Rebecca F. Elliott explains why, even if the flow of energy is restored through the Persian Gulf, it will take months to carry out repairs across dozens of energy sites in the regi",
+      "link": "https://www.nytimes.com/video/world/middleeast/100000010830114/why-opening-the-hormuz-wont-lower-gas-prices.html",
       "image": null,
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "8小时前",
-      "pub_ts": 1775811713.0,
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1775852819.0,
       "hot": false
     },
     {
-      "id": "4924757b4b",
+      "id": "d3d5cc99b4",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "U.S. Inflation Surged in March as Iran War Pushed Up Prices",
-      "summary": "Soaring energy costs led to the biggest monthly increase in the Consumer Price Index since the peak of the post-pandemic inflation crisis in June 2022.",
-      "link": "https://www.nytimes.com/2026/04/10/business/economy/what-to-know-about-the-report.html",
+      "title": "Homeland Security Workers Get Paid, but the Next Check Is Uncertain",
+      "summary": "The lack of clarity has frustrated employees as Congress battles over how to fund the department.",
+      "link": "https://www.nytimes.com/2026/04/10/us/politics/homeland-security-funding.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-shutdown-pftk/10dc-shutdown-pftk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775846580.0,
+      "hot": false
+    },
+    {
+      "id": "5b2f85ee8d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Shortlisted for an Oscar, 'Homebound' is a daring movie about two dear friends",
+      "summary": "The movie, now streaming on Netflix, defied current trends in Indian cinema to tell the true story of a friendship between a Muslim and a Hindu Dalit. Martin Scorsese was secretly involved.",
+      "link": "https://www.npr.org/2026/04/10/g-s1-116860/oscar-homebound-india-pandemic-hindu-dalit-muslim",
       "image": null,
       "categories": [
-        "经济"
+        "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775835674.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775841764.0,
+      "hot": false
+    },
+    {
+      "id": "2ccdd39619",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran War Drives Deeper Oil Shock Than Prices Reveal",
+      "summary": "The war with Iran is preventing huge amounts of oil from flowing out of the Persian Gulf, but the prices that many people track don’t fully capture the scale of the disruption.",
+      "link": "https://www.nytimes.com/2026/04/10/business/energy-environment/iran-oil-prices.html",
+      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/2026-biz-april-standalone-promos-0410-energy-pain/2026-biz-april-standalone-promos-0410-energy-pain-mediumSquareAt3X-v16.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775841354.0,
       "hot": false
     },
     {
@@ -73,9 +127,28 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775833996.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775841223.0,
+      "hot": false
+    },
+    {
+      "id": "954513fdcf",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘I’m Fed Up.’ Frustrated With Trump, Starmer Embraces Other Allies.",
+      "summary": "Prime Minister Keir Starmer of Britain is strengthening ties in Europe and the Middle East as the once-special relationship with America sours.",
+      "link": "https://www.nytimes.com/2026/04/10/world/europe/trump-starmer-fed-up-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10int-starmer-trump-assess-qhjz/10int-starmer-trump-assess-qhjz-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775838721.0,
       "hot": false
     },
     {
@@ -91,8 +164,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775830211.0,
       "hot": false
     },
@@ -109,27 +182,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775829863.0,
-      "hot": false
-    },
-    {
-      "id": "2ccdd39619",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran War Drives Deeper Oil Shock Than Prices Reveal",
-      "summary": "The war with Iran is preventing huge amounts of oil from flowing out of the Persian Gulf, but the prices that many people track don’t fully capture the scale of the disruption.",
-      "link": "https://www.nytimes.com/2026/04/10/business/energy-environment/iran-oil-prices.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/2026-biz-april-standalone-promos-0410-energy-pain/2026-biz-april-standalone-promos-0410-energy-pain-mediumSquareAt3X-v14.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775828398.0,
       "hot": false
     },
     {
@@ -145,8 +200,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775827811.0,
       "hot": false
     },
@@ -163,8 +218,8 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775826441.0,
       "hot": false
     },
@@ -181,18 +236,18 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775822543.0,
       "hot": false
     },
     {
-      "id": "eb5be222b8",
+      "id": "247adb2da7",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Trump says Iran 'doing a very poor job' in reopening the Strait of Hormuz",
+      "title": "Trump says Iran is 'doing a very poor job' in reopening the Strait of Hormuz",
       "summary": "The fragile ceasefire agreement was tested again on Friday after Iran refused to reopen the Strait of Hormuz. Israel and Hezbollah traded strikes in Lebanon, and Kuwait was attacked with drones.",
       "link": "https://www.npr.org/2026/04/10/g-s1-117013/trump-iran-strait-of-hormuz",
       "image": null,
@@ -200,7 +255,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775819254.0,
       "hot": false
     },
@@ -208,7 +263,7 @@
       "id": "6106009853",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Vance heads to Pakistan for talks to end the war between Iran, the US and Israel",
       "summary": "Vice President JD Vance enters his highest-profile moment Friday as lead U.S. negotiator in face-to-face talks with Iran.",
@@ -218,26 +273,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775818470.0,
-      "hot": false
-    },
-    {
-      "id": "8336c8d217",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "With Iran Setting Limits, Strait of Hormuz Remains Thorny Politically",
-      "summary": "Even after a cease-fire, Iran is keeping a chokehold on traffic, forcing countries to cut deals that could put them at odds with the U.S.",
-      "link": "https://www.nytimes.com/2026/04/10/world/middleeast/strait-hormuz-iran-ships-oil.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10int-iran-hormuz-01-kqlz/10int-iran-hormuz-01-kqlz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775816058.0,
       "hot": false
     },
     {
@@ -254,26 +291,26 @@
         "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1775814082.0,
       "hot": false
     },
     {
-      "id": "c3983c3edc",
+      "id": "cb2e00982c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Communities are waiting on billions in disaster funding from the Trump administration",
-      "summary": "States say disaster funding from the Federal Emergency Management Agency has slowed to a trickle under the Trump administration. That's delaying projects to protect communities from wildfires and hurr",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5770433/delay-funding-fema-hurricanes-disasters-wildfires-floods",
-      "image": null,
+      "title": "Lebanon: Images of a Nation Uprooted by War",
+      "summary": "A million people in Lebanon have fled their homes as Israel clashes anew with Hezbollah. This is what their lives look now.",
+      "link": "https://www.nytimes.com/2026/04/10/world/middleeast/lebanon-displaced-photos.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/00Int-Lebanon-IDP-Photos-01-wcvk/00Int-Lebanon-IDP-Photos-01-wcvk-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775812500.0,
+      "ago": "11小时前",
+      "pub_ts": 1775811907.0,
       "hot": false
     },
     {
@@ -290,7 +327,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1775811600.0,
       "hot": false
     },
@@ -308,7 +345,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1775810725.0,
       "hot": false
     },
@@ -326,26 +363,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1775804408.0,
-      "hot": false
-    },
-    {
-      "id": "72d939a705",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Melania Trump Says She Was Not Associated With Jeffrey Epstein",
-      "summary": "Responding to what she said were smears, the first lady said she never had knowledge of Jeffrey Epstein’s abuse and was not a victim of his. She called for a congressional hearing for his victims.",
-      "link": "https://www.nytimes.com/2026/04/09/us/politics/melania-trump-jeffrey-epstein.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/09dc-melania-blqj/09dc-melania-blqj-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1775775807.0,
       "hot": false
     },
     {
