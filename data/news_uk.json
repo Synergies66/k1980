@@ -1,115 +1,61 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-09T21:10:43.758630+00:00",
+  "updated_at": "2026-04-10T03:48:28.353484+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "289fd33b5c",
+      "id": "e3b58a1b34",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Child dies in dog attack, police say",
-      "summary": "Police remain at the scene in Dormanstown, where one dog was destroyed earlier.",
-      "link": "https://www.bbc.com/news/articles/ce35zkl9dg3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a7f9/live/564ff7c0-3452-11f1-b553-d957ca9ff4f0.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "5分前",
-      "pub_ts": 1775768732.0,
-      "hot": false
-    },
-    {
-      "id": "f81798bd50",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Melania Trump says rumours linking her to Epstein 'need to stop'",
-      "summary": "The first lady denies any connection to Jeffrey Epstein in a surprise statement, and calls on Congress to hear from his victims.",
-      "link": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3575/live/4682ce20-3458-11f1-9d5c-8ba507d7dbde.jpg",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "記憶力改善：選對有益認知能力的運動",
+      "summary": "運動有益認知能力早已為人所知。身體活動不僅能提升任務表現，還能強化大腦中容易隨年齡衰退的區域，可能減緩認知衰退。",
+      "link": "https://www.bbc.com/zhongwen/articles/cj94zmkl9v0o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/193b/live/a9c15bf0-3250-11f1-855a-434b6a1ed69f.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1775768588.0,
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1775780754.0,
       "hot": false
     },
     {
-      "id": "c9806f43c8",
+      "id": "0542451fbe",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: Netanyahu says ‘no ceasefire in Lebanon’ as Israel attacks ‘Hezbollah launc",
-      "summary": "Israeli prime minister’s remarks come shortly after Trump told US media he had asked Netanyahu to be more ‘low-key’; IF says it is attacking Hezbollah targetsIsrael’s bombing of Lebanon after US-Iran",
-      "link": "https://www.theguardian.com/world/live/2026/apr/09/iran-war-ceasefire-live-strait-of-hormuz-israel-strikes-middle-east-crisis-latest-news",
-      "image": "https://i.guim.co.uk/img/media/4ebab9303fdced0e927fe92d7ba9b9a91a6d2666/644_0_6436_5151/master/6436.jpg?width=140&quality=85&auto=format&fit=max&s=1f74466cab585d0eab37b9c269c1c146",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1775768305.0,
-      "hot": false
-    },
-    {
-      "id": "6391eeca28",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Israeli strikes on Lebanon are wrong and should stop, PM says",
-      "summary": "Lebanon's health ministry says more than 300 people died in strikes on Wednesday.",
-      "link": "https://www.bbc.com/news/articles/c93enywd10ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a50/live/c9a49e80-3446-11f1-acfc-bb3dca3045bc.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "24分前",
-      "pub_ts": 1775767534.0,
-      "hot": false
-    },
-    {
-      "id": "92d97efa46",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "OpenAI pauses UK data centre deal over energy costs and regulation",
-      "summary": "The project was part of a package of tech investment promising the UK could become an AI superpower.",
-      "link": "https://www.bbc.com/news/articles/clyd032ej70o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4825/live/fa97e0f0-3433-11f1-a18c-d7e9f5df98a8.jpg",
+      "title": "Middle East crisis live: Trump casts doubt on Iran war ceasefire over continued closure of strait of",
+      "summary": "Israel and Hezbollah continue to trade strikes as Trump tells US media he has asked Netanyahu to be more ‘low-key’ in Lebanon. Follow live newsNetanyahu says there is no ceasefire in Lebanon as Israel",
+      "link": "https://www.theguardian.com/world/live/2026/apr/10/iran-war-live-updates-trump-ceasefire-strait-hormuz-israel-lebanon-hezbollah",
+      "image": "https://i.guim.co.uk/img/media/303f09d83face881e45ad8f73382672c80397e16/890_0_6319_5058/master/6319.jpg?width=140&quality=85&auto=format&fit=max&s=2633016f3ce1e6d893479f7d2fe5f06b",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1775767001.0,
+      "ago": "20分前",
+      "pub_ts": 1775791691.0,
       "hot": false
     },
     {
-      "id": "c3c6f5d91c",
+      "id": "f8824f2411",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Petrol and diesel prices rise again as concerns grow over ceasefire",
-      "summary": "Motoring groups have warned drivers not to expect a significant drop in costs soon.",
-      "link": "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a8c/live/34695810-33f1-11f1-9d5c-8ba507d7dbde.jpg",
+      "title": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+      "summary": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+      "link": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fb74/live/ad515bf0-347e-11f1-bbf7-7db5bb17fba6.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775765228.0,
+      "pub_ts": 1775787044.0,
       "hot": false
     },
     {
@@ -126,7 +72,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1775731387.0,
       "hot": false
     },
@@ -144,7 +90,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1775722773.0,
       "hot": false
     },
@@ -162,26 +108,134 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1775713558.0,
       "hot": false
     },
     {
-      "id": "54762c8bec",
+      "id": "6484869dae",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "韓團BTS讓數百萬人認識K-pop，但如今卻夾在韓國與世界之間",
-      "summary": "BTS讓數百萬粉絲愛上了K-pop，但如今，它卻陷入了韓國與世界之間的夾縫之中。",
-      "link": "https://www.bbc.com/zhongwen/articles/cdrmndz6rkro/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f48d/live/cd614be0-3397-11f1-9d5c-8ba507d7dbde.jpg",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Want to help garden birds? Don't feed them in warmer months, says RSPB",
+      "summary": "The UK's largest bird charity has issued new guidance advising people to stop using feeders to help wildlife thrive.",
+      "link": "https://www.bbc.com/news/articles/c2lwvz1pl1no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f007/live/8452cfd0-3425-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "16小时前",
-      "pub_ts": 1775710447.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775782771.0,
+      "hot": false
+    },
+    {
+      "id": "64e07d0cfa",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Ten cases a day - how 'blitz courts' could tackle the Crown Court backlog",
+      "summary": "The scheme, to fast-track cases and to cut the court backlog, is being expanded in England and Wales.",
+      "link": "https://www.bbc.com/news/articles/cvgkv1x149eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ac5f/live/41295f90-3429-11f1-a207-8b959fccb503.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775782456.0,
+      "hot": false
+    },
+    {
+      "id": "f2e1a8f1fd",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Hip-hop pioneer Afrika Bambaataa dies aged 67",
+      "summary": "The Bronx-born rapper's global hit Planet Rock is credited with shaping hip-hop in the 1980s.",
+      "link": "https://www.bbc.com/news/articles/c2evppm30p7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7483/live/0aeb9580-3477-11f1-a27c-25e679607533.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775782221.0,
+      "hot": false
+    },
+    {
+      "id": "cb02dd7be3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Co-leader McIlroy's golf does the talking after busy Masters build-up",
+      "summary": "With the pomp and celebration of his Masters victory finished, Rory McIlroy reminded everyone he is back at Augusta to win again.",
+      "link": "https://www.bbc.com/sport/golf/articles/cx24pn55dg9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3184/live/4572f7e0-3470-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775780003.0,
+      "hot": false
+    },
+    {
+      "id": "cef51c00ab",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done",
+      "summary": "Both sides have reason to end the war but share no common ground.",
+      "link": "https://www.bbc.com/news/articles/cp3l4yk5rlgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5219/live/f4717b10-3428-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775775707.0,
+      "hot": false
+    },
+    {
+      "id": "df8184e2af",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'We should not be at the mercy of events abroad' - Starmer",
+      "summary": "The prime minister says \"shocks\" like the conflict in Iran are becoming more frequent.",
+      "link": "https://www.bbc.com/news/articles/cly7d9rv4nro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3e9/live/01e72c10-3463-11f1-9998-694d81feb854.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775775111.0,
+      "hot": false
+    },
+    {
+      "id": "1d2aa6f8d8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors",
+      "summary": "She called rumours that Epstein introduced her to Donald Trump \"mean-spirited attempts to defame my reputation\".",
+      "link": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3575/live/4682ce20-3458-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775773656.0,
       "hot": false
     },
     {
@@ -197,8 +251,8 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "18小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775700655.0,
       "hot": false
     },
@@ -215,8 +269,8 @@
       "categories": [
         "科技"
       ],
-      "score": 68,
-      "ago": "19小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775697380.0,
       "hot": false
     },
@@ -233,135 +287,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "19小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1775697267.0,
-      "hot": false
-    },
-    {
-      "id": "ad325cc3f2",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Watch: Melania Trump's surprise Epstein statement in full",
-      "summary": "She tells reporters at the White House that any claims linking the two \"need to end today\".",
-      "link": "https://www.bbc.com/news/videos/c0e7dz0zwd0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/776d/live/a98b4650-3449-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775761243.0,
-      "hot": false
-    },
-    {
-      "id": "0a9ff1850b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Pub thief jailed for stealing handbag with £2m Fabergé egg inside",
-      "summary": "An \"opportunistic\" thief is jailed for stealing a handbag from a pub that happened to contain a £2.2m Fabergé egg.",
-      "link": "https://www.bbc.com/news/articles/cj6098jngryo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/315e/live/d20bed20-3424-11f1-9d5c-8ba507d7dbde.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775755290.0,
-      "hot": false
-    },
-    {
-      "id": "40d7ebd18b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Pub thief jailed over £2.2m Fabergé theft",
-      "summary": "An \"opportunistic\" thief is jailed for stealing a handbag from a pub that happened to contain a £2.2m Fabergé egg.",
-      "link": "https://www.bbc.com/news/articles/cj6098jngryo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/168c/live/38e8c2b0-3412-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775755290.0,
-      "hot": false
-    },
-    {
-      "id": "5ed422b675",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "UK says Russia ran submarine operation over cables and pipelines",
-      "summary": "Defence Secretary John Healey says there is \"no evidence\" of any damage to UK infrastructure in the Atlantic.",
-      "link": "https://www.bbc.com/news/articles/cre13qn9z7do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8200/live/9a0ba670-340d-11f1-8be7-8b0656c72753.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775754597.0,
-      "hot": false
-    },
-    {
-      "id": "0ab830fc22",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Man jailed after grooming girl he met on Roblox",
-      "summary": "Carlo Tritta, now aged 19, encouraged the teenage girl to send sexually explicit images of herself.",
-      "link": "https://www.bbc.com/news/articles/cgqkl8j75k3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b628/live/843fa4b0-341f-11f1-aa50-fd39c44a0779.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775753429.0,
-      "hot": false
-    },
-    {
-      "id": "891c2997c3",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Trump and the Middle East: can Starmer do anything? – podcast",
-      "summary": "Keir Starmer and the UK government are scrabbling to keep up with Trump’s fast-changing position on Iran and the Middle East. While a two-week ceasefire is in place, how long will it hold for? Peter W",
-      "link": "https://www.theguardian.com/politics/audio/2026/apr/09/trump-and-the-middle-east-can-starmer-do-anything-podcast",
-      "image": "https://i.guim.co.uk/img/media/5af2fb675b585fc58f5ddfb288f557d6285ed3ba/627_0_6266_5013/master/6266.jpg?width=140&quality=85&auto=format&fit=max&s=cba12ef21c4638fd21168a132470f830",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775751619.0,
-      "hot": false
-    },
-    {
-      "id": "35d9b11f86",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Jo Malone hopes 'sense will prevail' in lawsuit over her name",
-      "summary": "The British perfume designer and Zara are being sued by Estée Lauder over a collaboration.",
-      "link": "https://www.bbc.com/news/articles/c7471n0lm2vo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8149/live/f8966970-3424-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775749516.0,
       "hot": false
     },
     {
@@ -383,6 +311,150 @@
       "hot": false
     },
     {
+      "id": "92d97efa46",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "OpenAI pauses UK data centre deal over energy costs and regulation",
+      "summary": "The project was part of a package of tech investment promising the UK could become an AI superpower.",
+      "link": "https://www.bbc.com/news/articles/clyd032ej70o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4825/live/fa97e0f0-3433-11f1-a18c-d7e9f5df98a8.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775767001.0,
+      "hot": false
+    },
+    {
+      "id": "c3c6f5d91c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Petrol and diesel prices rise again as concerns grow over ceasefire",
+      "summary": "Motoring groups have warned drivers not to expect a significant drop in costs soon.",
+      "link": "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0a8c/live/34695810-33f1-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775765228.0,
+      "hot": false
+    },
+    {
+      "id": "ad325cc3f2",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: Melania Trump's surprise Epstein statement in full",
+      "summary": "She tells reporters at the White House that any claims linking the two \"need to end today\".",
+      "link": "https://www.bbc.com/news/videos/c0e7dz0zwd0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/776d/live/a98b4650-3449-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1775761243.0,
+      "hot": false
+    },
+    {
+      "id": "40d7ebd18b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Pub thief jailed over £2.2m Fabergé theft",
+      "summary": "An \"opportunistic\" thief is jailed for stealing a handbag from a pub that happened to contain a £2.2m Fabergé egg.",
+      "link": "https://www.bbc.com/news/articles/cj6098jngryo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/168c/live/38e8c2b0-3412-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1775755290.0,
+      "hot": false
+    },
+    {
+      "id": "5ed422b675",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "UK says Russia ran submarine operation over cables and pipelines",
+      "summary": "Defence Secretary John Healey says there is \"no evidence\" of any damage to UK infrastructure in the Atlantic.",
+      "link": "https://www.bbc.com/news/articles/cre13qn9z7do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8200/live/9a0ba670-340d-11f1-8be7-8b0656c72753.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1775754597.0,
+      "hot": false
+    },
+    {
+      "id": "0ab830fc22",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Man jailed after grooming girl he met on Roblox",
+      "summary": "Carlo Tritta, now aged 19, encouraged the teenage girl to send sexually explicit images of herself.",
+      "link": "https://www.bbc.com/news/articles/cgqkl8j75k3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b628/live/843fa4b0-341f-11f1-aa50-fd39c44a0779.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1775753429.0,
+      "hot": false
+    },
+    {
+      "id": "891c2997c3",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Trump and the Middle East: can Starmer do anything? – podcast",
+      "summary": "Keir Starmer and the UK government are scrabbling to keep up with Trump’s fast-changing position on Iran and the Middle East. While a two-week ceasefire is in place, how long will it hold for? Peter W",
+      "link": "https://www.theguardian.com/politics/audio/2026/apr/09/trump-and-the-middle-east-can-starmer-do-anything-podcast",
+      "image": "https://i.guim.co.uk/img/media/5af2fb675b585fc58f5ddfb288f557d6285ed3ba/627_0_6266_5013/master/6266.jpg?width=140&quality=85&auto=format&fit=max&s=cba12ef21c4638fd21168a132470f830",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1775751619.0,
+      "hot": false
+    },
+    {
+      "id": "35d9b11f86",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Jo Malone hopes 'sense will prevail' in lawsuit over her name",
+      "summary": "The British perfume designer and Zara are being sued by Estée Lauder over a collaboration.",
+      "link": "https://www.bbc.com/news/articles/c7471n0lm2vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8149/live/f8966970-3424-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1775749516.0,
+      "hot": false
+    },
+    {
       "id": "fa1594666a",
       "type": "news",
       "region": "uk",
@@ -396,7 +468,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1775747109.0,
       "hot": false
     },
@@ -414,26 +486,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1775745502.0,
-      "hot": false
-    },
-    {
-      "id": "f6fcc09086",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'My daughter, 14, was groomed after meeting man on gaming platform Roblox'",
-      "summary": "The victim's mother was \"shocked, bewildered and angry\" after finding messages from Carlo Tritta.",
-      "link": "https://www.bbc.com/news/articles/c78l92e9192o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/26b4/live/9e22eb10-325a-11f1-bdf9-bf5479a63eec.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775744729.0,
       "hot": false
     },
     {
@@ -450,26 +504,8 @@
         "教育"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1775743251.0,
-      "hot": false
-    },
-    {
-      "id": "3e036dff8d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Four people die trying to board boat in Channel crossing attempt",
-      "summary": "Authorities say 37 people are being treated in hospital, but around 30 others continued their journeys to the UK.",
-      "link": "https://www.bbc.com/news/articles/cgmenyllyz7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/485f/live/2f34ba80-340d-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775742974.0,
       "hot": false
     },
     {
@@ -486,7 +522,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775739706.0,
       "hot": false
     },
@@ -504,44 +540,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1775739635.0,
-      "hot": false
-    },
-    {
-      "id": "1421c106fb",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "How to defeat Trump every time | Robert Reich",
-      "summary": "Iran, Minneapolis, Harvard and other Trump opponents have employed a similar strategyAn hour before Trump said he’d cause the death of a “whole civilization” if Iran didn’t open the strait of Hormuz,",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/09/how-to-beat-trump-iran-minneapolis-harvard",
-      "image": "https://i.guim.co.uk/img/media/b83781600f3f10a76b2437ca84f10d579e253b5a/427_0_4267_3413/master/4267.jpg?width=140&quality=85&auto=format&fit=max&s=f9cb1868ca8b306603901eeb913601fb",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775736048.0,
-      "hot": false
-    },
-    {
-      "id": "6e50d6a547",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Dogs 'doing really well' after 250 found crammed in living room, RSPCA says",
-      "summary": "The charity says many of the animals found at the home in January were in a poor condition with \"matted and crusted coats\" that required treatment.",
-      "link": "https://www.bbc.com/news/articles/c625l7qen3jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eec0/live/5419f2a0-340a-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775734952.0,
       "hot": false
     }
   ]
