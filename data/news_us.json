@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-10T13:53:13.493704+00:00",
-  "total": 22,
+  "updated_at": "2026-04-10T17:11:34.014679+00:00",
+  "total": 20,
   "articles": [
     {
       "id": "df8d9474a1",
@@ -19,43 +19,116 @@
         "科技"
       ],
       "score": 77,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775820544.0,
       "hot": false
     },
     {
-      "id": "1303a5a89f",
+      "id": "131ea3776d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Mass Purge of Immigration Judges, and Melania Trump’s Surprise Epstein Remarks",
-      "summary": "Plus, your Friday news quiz.",
-      "link": "https://www.nytimes.com/2026/04/10/podcasts/the-headlines/immigration-judges-melania-trumps-epstein-remarks.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09dc-immigcourts-headlines-czmj/09dc-immigcourts-headlines-czmj-mediumSquareAt3X.jpg",
+      "title": "Soaring Fuel Prices Squeeze China’s Frugal Truckers",
+      "summary": "Many long-haul truckers in China have a tight budget and live frugally on the road, sleeping and cooking in their vehicles. Now, the pain at the pump is forcing some drivers to rethink their lives.",
+      "link": "https://www.nytimes.com/video/world/asia/100000010809735/china-truckers-oil-fuel-prices.html",
+      "image": null,
       "categories": [
-        "移民"
+        "华人",
+        "科技"
       ],
-      "score": 75,
-      "ago": "2小时前",
-      "pub_ts": 1775819304.0,
+      "score": 72,
+      "ago": "8小时前",
+      "pub_ts": 1775811713.0,
       "hot": false
     },
     {
-      "id": "3a4a7ffd2f",
+      "id": "4924757b4b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Oil Shock Is Worse Than You Think",
+      "title": "U.S. Inflation Surged in March as Iran War Pushed Up Prices",
+      "summary": "Soaring energy costs led to the biggest monthly increase in the Consumer Price Index since the peak of the post-pandemic inflation crisis in June 2022.",
+      "link": "https://www.nytimes.com/2026/04/10/business/economy/what-to-know-about-the-report.html",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775835674.0,
+      "hot": false
+    },
+    {
+      "id": "cc29a07c7a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Why Investing in Wind and Solar to Avoid Gas Shocks Hasn’t Added Up for Some",
+      "summary": "Renewable energy is cheaper to run than fossil fuels, especially with war choking oil supply. But it hasn’t turned out that way for some European countries, and the reason is complex.",
+      "link": "https://www.nytimes.com/2026/04/10/climate/europe-energy-crisis-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/2026-energy-mix-change-index/2026-energy-mix-change-index-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775833996.0,
+      "hot": false
+    },
+    {
+      "id": "a20013e8f5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Five things to know about Hungary's election",
+      "summary": "Hungary votes Sunday in a pivotal test of Viktor Orbán's \"illiberal democracy,\" as challenger Péter Magyar taps voter frustration, with stakes for Europe, NATO and the U.S.",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5779931/hungary-election-orban-challenger",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775830211.0,
+      "hot": false
+    },
+    {
+      "id": "16fa2fc3ed",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Record Jump in U.S. Gasoline Prices Is Squeezing Consumers",
+      "summary": "The cost at the pump made its biggest monthly percentage increase in decades amid lingering tensions over the war in Iran.",
+      "link": "https://www.nytimes.com/2026/04/10/business/economy/gasoline-price-rise.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10biz-inflation-blog-fuelprices-lgbc/10biz-inflation-blog-fuelprices-lgbc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775829863.0,
+      "hot": false
+    },
+    {
+      "id": "2ccdd39619",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran War Drives Deeper Oil Shock Than Prices Reveal",
       "summary": "The war with Iran is preventing huge amounts of oil from flowing out of the Persian Gulf, but the prices that many people track don’t fully capture the scale of the disruption.",
       "link": "https://www.nytimes.com/2026/04/10/business/energy-environment/iran-oil-prices.html",
       "image": "https://static01.nyt.com/images/2026/04/09/multimedia/2026-biz-april-standalone-promos-0410-energy-pain/2026-biz-april-standalone-promos-0410-energy-pain-mediumSquareAt3X-v14.png",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "13分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775828398.0,
       "hot": false
     },
@@ -72,26 +145,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "22分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775827811.0,
       "hot": false
     },
     {
-      "id": "cf95b4c23c",
+      "id": "7ac4f2c0ec",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Inflation surges to highest level in nearly two years as energy costs spike",
+      "title": "Inflation surges to highest level in nearly 2 years as energy costs spike",
       "summary": "Consumer prices in March were up 3.3% from a year ago, the biggest annual increase in nearly two years.  Higher gasoline prices tied to the war with Iran accounted for much of the surge.",
       "link": "https://www.npr.org/2026/04/10/nx-s1-5780604/inflation-consumer-prices-economy",
       "image": null,
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "45分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775826441.0,
       "hot": false
     },
@@ -108,8 +181,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775822543.0,
       "hot": false
     },
@@ -126,9 +199,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775819254.0,
+      "hot": false
+    },
+    {
+      "id": "6106009853",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Vance heads to Pakistan for talks to end the war between Iran, the US and Israel",
+      "summary": "Vice President JD Vance enters his highest-profile moment Friday as lead U.S. negotiator in face-to-face talks with Iran.",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5779608/vance-heads-to-pakistan-for-talks-to-end-the-war-between-iran-the-us-and-israel",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775818470.0,
       "hot": false
     },
     {
@@ -144,8 +235,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775816058.0,
       "hot": false
     },
@@ -162,8 +253,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775814082.0,
       "hot": false
     },
@@ -180,119 +271,26 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775812500.0,
       "hot": false
     },
     {
-      "id": "bbcf469971",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Vance Faces Test of His Negotiating Skills With Iran Talks",
-      "summary": "Vice President JD Vance is leading negotiations this weekend toward an end to a war that he had opposed starting.",
-      "link": "https://www.nytimes.com/2026/04/10/us/politics/vance-iran-talks.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/09dc-vance-klcj/09dc-vance-klcj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775811818.0,
-      "hot": false
-    },
-    {
-      "id": "91767942fa",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Consumer Spending, Engine of the U.S. Economy, Is Under Strain",
-      "summary": "Higher fuel costs are raising food and travel prices, while a shaky stock market tamps down free spenders.",
-      "link": "https://www.nytimes.com/2026/04/10/business/economy/consumer-spending-economy.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10biz-consumer-spending-cfpb/10biz-consumer-spending-cfpb-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775811757.0,
-      "hot": false
-    },
-    {
-      "id": "c0ba8d7cd5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Stephen Colbert and Marjorie Taylor Greene are OUT. Who is IN? The quiz knows",
-      "summary": "If you keep up with secret identities, you'll get at least one question right this week!",
-      "link": "https://www.npr.org/2026/04/10/g-s1-116787/arsenio-zendaya-colbert-bitcoin-news-quiz",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775811660.0,
-      "hot": false
-    },
-    {
-      "id": "fa53da3869",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Women are getting most of the new jobs. What's going on with men?",
-      "summary": "Over the past year, the vast majority of new jobs have gone to women. One economist says to help men find work, we need to embrace ways to \"make girly jobs appeal to manly men.\"",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5773327/women-men-jobs-health-care-manufacturing",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775811660.0,
-      "hot": false
-    },
-    {
-      "id": "4022a73d62",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Airlines Turned First-Class Seats From Freebies to a Profit Engine",
-      "summary": "Airlines used to give away most of their nicest seats, but they have increasingly found ways to persuade people to pay a lot for them.",
-      "link": "https://www.nytimes.com/2026/04/10/business/airlines-first-class-seats-tickets-upgrades.html",
-      "image": "https://static01.nyt.com/images/2026/03/05/business/00premium-seats/00premium-seats-mediumSquareAt3X.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775811614.0,
-      "hot": false
-    },
-    {
-      "id": "3a31d07b22",
+      "id": "c7e8751757",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Nations tried to impose a digital fog of war in Iran. The results are mixed",
+      "title": "How governments have tried to hide information about the Iran war online",
       "summary": "Governments are blocking the internet, banning social media posts and cutting access to commercial satellite images. But experts say that efforts to censor information have had mixed results.",
       "link": "https://www.npr.org/2026/04/10/nx-s1-5775780/us-iran-war-israel-satellite-imagery-planet-vantor-censorship",
       "image": null,
       "categories": [
-        "政治",
-        "科技"
+        "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775811600.0,
       "hot": false
     },
@@ -309,47 +307,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775810725.0,
-      "hot": false
-    },
-    {
-      "id": "14c47a84d5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israel and Lebanon to hold ceasefire talks",
-      "summary": "Israel and Lebanon have agreed to hold direct ceasefire talks for the first time in decades in a bid to halt the violence in southern Lebanon.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5779758/israel-and-lebanon-to-hold-ceasefire-talks",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775810714.0,
-      "hot": false
-    },
-    {
-      "id": "679dd39790",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Hungary's ruling party accuses Ukraine of sabotage as it readies for crucial election",
-      "summary": "Ukraine is playing an outsized role in Hungary's election, where the Kremlin-aligned ruling party accuses Kyiv of sabotaging pipelines, laundering money and dragging Hungarians into war.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5776589/hungarys-ruling-party-accuses-ukraine-of-sabotage-as-it-readies-for-crucial-election",
-      "image": null,
-      "categories": [
-        "政治",
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775810670.0,
       "hot": false
     },
     {
@@ -366,7 +326,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775804408.0,
       "hot": false
     },
@@ -384,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1775775807.0,
       "hot": false
     },
