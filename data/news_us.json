@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-11T17:01:10.869562+00:00",
+  "updated_at": "2026-04-11T20:55:40.374078+00:00",
   "total": 22,
   "articles": [
     {
@@ -18,9 +18,135 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
-      "pub_ts": 1775915408.0,
+      "score": 82,
+      "ago": "56分前",
+      "pub_ts": 1775937555.0,
+      "hot": false
+    },
+    {
+      "id": "416b347fd7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Navy Warships Cross Strait of Hormuz to Clear Mines, U.S. Says",
+      "summary": "American destroyers began work to make the strait safe for commercial traffic, U.S. officials said, as negotiators discussed conditions for an extended cease-fire. Iran denied that any warships had pa",
+      "link": "https://www.nytimes.com/2026/04/11/us/politics/us-navy-warships-strait-of-hormuz-iran-mines.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11dc-navy-ships-mvhk/11dc-navy-ships-mvhk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775936901.0,
+      "hot": false
+    },
+    {
+      "id": "6e52002f28",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Manhattan DA Opens Investigation Into Eric Swalwell After Sexual Assault Allegations",
+      "summary": "The Manhattan district attorney’s office is examining a claim that Representative Eric Swalwell, a candidate for governor in California, assaulted a woman in New York City in 2024.",
+      "link": "https://www.nytimes.com/2026/04/11/us/politics/eric-swalwell-california-governor-sexual-misconduct.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11xp-swalwell-cwtq/11xp-swalwell-cwtq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775935544.0,
+      "hot": false
+    },
+    {
+      "id": "8da08b4305",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About the U.S.-Iran Cease-Fire Talks in Pakistan",
+      "summary": "Vice President JD Vance is leading the U.S. delegation, which is in Pakistan for negotiations with Iranian officials.",
+      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/iran-us-ceasefire-talks-negotiations.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09israel-iran-what-we-know-talks-qbwv/09israel-iran-what-we-know-talks-qbwv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775935241.0,
+      "hot": false
+    },
+    {
+      "id": "caee50fab3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Peru's election: A battle for the Presidency amid political chaos and crime",
+      "summary": "With 35 candidates in the race, Peru is set to elect its 9th president in less than a decade. Amid rising corruption and crime, voters are left asking: Can this election finally break the cycle?",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5777736/peru-election-president-crime-corruption",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "11小时前",
+      "pub_ts": 1775898000.0,
+      "hot": false
+    },
+    {
+      "id": "0a71829d9d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "USPS Is Running Out of Money. Here’s How It Could Affect Your Mail.",
+      "summary": "Despite numerous attempts to reform the Postal Service, the agency’s business model has not changed significantly since 1970. Officials are proposing to decrease service and increase prices.",
+      "link": "https://www.nytimes.com/2026/04/11/us/politics/postal-service-finances-mail.html",
+      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/09dc-usps-jkgh/09dc-usps-jkgh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775932903.0,
+      "hot": false
+    },
+    {
+      "id": "b89cb6c585",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Postal Service, Under Pressure, Now Faces Trump’s Mail Ballot Order",
+      "summary": "President Trump’s executive order, which has been challenged as unconstitutional, would limit the Postal Service to sending only the ballots of voters deemed eligible.",
+      "link": "https://www.nytimes.com/2026/04/11/us/politics/postal-service-budget-mail-ballots.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11dc-postal-service-cphq/11dc-postal-service-cphq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775932811.0,
+      "hot": false
+    },
+    {
+      "id": "3b7c31dbda",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pope Leo says 'delusion of omnipotence' is fueling U.S.-Israeli war in Iran",
+      "summary": "In the first weeks of the war, the Chicago-born Leo was initially reluctant to publicly condemn the violence and limited his comments to muted appeals for peace and dialogue. But Leo stepped up his cr",
+      "link": "https://www.npr.org/2026/04/11/g-s1-117150/pope-leo-us-iran-war-israel-denounce",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775931371.0,
       "hot": false
     },
     {
@@ -36,64 +162,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "31分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775924993.0,
-      "hot": false
-    },
-    {
-      "id": "8da08b4305",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What We Know About the U.S.-Iran Cease-Fire Talks in Pakistan",
-      "summary": "Vice President JD Vance is leading the U.S. delegation, which is in Pakistan for talks with Iranian officials on Saturday.",
-      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/iran-us-ceasefire-talks-negotiations.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/09israel-iran-what-we-know-talks1-fcwz/09israel-iran-what-we-know-talks1-fcwz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1775923301.0,
-      "hot": false
-    },
-    {
-      "id": "caee50fab3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Peru's election: A battle for the Presidency amid political chaos and crime",
-      "summary": "With 35 candidates in the race, Peru is set to elect its 9th president in less than a decade. Amid rising corruption and crime, voters are left asking: Can this election finally break the cycle?",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5777736/peru-election-president-crime-corruption",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "8小时前",
-      "pub_ts": 1775898000.0,
-      "hot": false
-    },
-    {
-      "id": "df8d9474a1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "China's Xi meets Taiwan opposition leader ahead of key summit with Trump",
-      "summary": "Xi Jinping and the KMT's Cheng Li-wun agreed to pursue peace, but Taiwan's ruling party worries it will enable Beijing to undermine its democracy.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5780605/china-xi-taiwan-opposition",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1775820544.0,
       "hot": false
     },
     {
@@ -109,27 +180,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775913525.0,
-      "hot": false
-    },
-    {
-      "id": "574e851f09",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mamdani, Leaning Into ‘Sewer Socialism,’ Gets His Hands Dirty",
-      "summary": "The mayor has embraced the decades-old concept of “sewer socialism,” hoping to improve New Yorkers’ lives by focusing on public services.",
-      "link": "https://www.nytimes.com/2026/04/11/nyregion/mamdani-sewer-socialism.html",
-      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11met-mamdani-100-sewer-newtop-01-twjb/11met-mamdani-100-sewer-newtop-01-twjb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775913446.0,
       "hot": false
     },
     {
@@ -145,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775908800.0,
       "hot": false
     },
@@ -163,8 +216,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775905658.0,
       "hot": false
     },
@@ -182,7 +235,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775905200.0,
       "hot": false
     },
@@ -200,7 +253,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775905200.0,
       "hot": false
     },
@@ -218,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1775901600.0,
       "hot": false
     },
@@ -236,26 +289,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1775901600.0,
-      "hot": false
-    },
-    {
-      "id": "e8295991dd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "As Election Looms, Will Alito Retire, Giving Trump a New Supreme Court Pick?",
-      "summary": "Justice Samuel A. Alito Jr. is the subject of intense speculation about whether he will retire in the coming months and give President Trump a fourth nominee.",
-      "link": "https://www.nytimes.com/2026/04/11/us/politics/alito-trump-retirement-supreme-court.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/00dc-SCOTUS-ALITO-bhjk/00dc-SCOTUS-ALITO-bhjk-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775898133.0,
       "hot": false
     },
     {
@@ -272,7 +307,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1775891081.0,
       "hot": false
     },
@@ -290,44 +325,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775883743.0,
-      "hot": false
-    },
-    {
-      "id": "cd19a2d458",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran Unable to Find Mines It Planted in Strait of Hormuz, U.S. Says",
-      "summary": "The lost mines have prevented Iran from quickly complying with President Trump’s demand to allow more ships to pass through the waterway.",
-      "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-mines-strait.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-intel-mines-gktf/10dc-intel-mines-gktf-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "15小时前",
-      "pub_ts": 1775869827.0,
-      "hot": false
-    },
-    {
-      "id": "7837855c79",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How to Be Mayor in 100 Days: Mamdani Grapples With a Learning Curve",
-      "summary": "Zohran Mamdani has accrued a long list of quick accomplishments as mayor of New York City, but he has also abandoned some key campaign promises.",
-      "link": "https://www.nytimes.com/2026/04/10/nyregion/mamdani-100-days.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10met-mamdani-100-days-top-tvcw/10met-mamdani-100-days-top-tvcw-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1775850486.0,
+      "pub_ts": 1775883743.0,
       "hot": false
     },
     {
@@ -343,8 +342,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775841764.0,
       "hot": false
     },
