@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-11T03:22:46.439500+00:00",
+  "updated_at": "2026-04-11T05:43:05.554252+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "d988ec950a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Fallout of War Piles Economic Pain Onto Europe’s Political Stress",
+      "summary": "Europe is finding itself on the outs with Russia, China and the U.S., in what’s amounting to its very own “Mean Girls” moment.",
+      "link": "https://www.nytimes.com/2026/04/11/business/europe-economy-trump-trade-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/00biz-europe-econ-01-jzkt/00biz-europe-econ-01-jzkt-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1775880007.0,
+      "hot": false
+    },
     {
       "id": "df8d9474a1",
       "type": "news",
@@ -19,8 +38,44 @@
         "科技"
       ],
       "score": 72,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1775820544.0,
+      "hot": false
+    },
+    {
+      "id": "434cf56dee",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "World Leaders Push to Save Iran Talks Amid Israel’s Attacks in Lebanon",
+      "summary": "President Trump’s cease-fire with Iran appears at risk as Vice President JD Vance heads to Pakistan for discussions with Iranian officials.",
+      "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-israel-lebanon-trump-talks.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-diplo-iran-hflz/10dc-diplo-iran-hflz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1775884297.0,
+      "hot": false
+    },
+    {
+      "id": "f108b23dc3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Artemis II Splashdown Gives NASA Momentum in Renewed Moon Race",
+      "summary": "The astronauts — three Americans and one Canadian — captivated the world with their historic mission.",
+      "link": "https://www.nytimes.com/2026/04/10/science/moon-astronauts-success.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10moon-splashdown-pinned-post-hblw/10moon-splashdown-pinned-post-hblw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "40分前",
+      "pub_ts": 1775883743.0,
       "hot": false
     },
     {
@@ -38,7 +93,7 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1775872462.0,
+      "pub_ts": 1775882010.0,
       "hot": false
     },
     {
@@ -56,7 +111,7 @@
         "科技"
       ],
       "score": 70,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1775851310.0,
       "hot": false
     },
@@ -74,26 +129,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1775869827.0,
-      "hot": false
-    },
-    {
-      "id": "170bdeac52",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Recovery Personnel Will Secure Artemis II Capsule at Sea After Splashdown",
-      "summary": "As the spacecraft bobs in the Pacific Ocean, recovery personnel from NASA and the U.S. Navy are out at sea, tracking the capsule and other pieces of jettisoned hardware.",
-      "link": "https://www.nytimes.com/2026/04/10/science/artemis-ii-splashdown-recovery.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10moon-splashdown-recovery-tqpw/10moon-splashdown-recovery-tqpw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775869288.0,
       "hot": false
     },
     {
@@ -110,26 +147,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1775868430.0,
-      "hot": false
-    },
-    {
-      "id": "434cf56dee",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "World Leaders Push to Save Iran Talks Amid Israel’s Attacks in Lebanon",
-      "summary": "President Trump’s cease-fire with Iran appears at risk as Vice President JD Vance heads to Pakistan for discussions with Iranian officials.",
-      "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-israel-lebanon-trump-talks.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-diplo-iran-hflz/10dc-diplo-iran-hflz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775866031.0,
       "hot": false
     },
     {
@@ -145,8 +164,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775862905.0,
       "hot": false
     },
@@ -163,8 +182,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775861335.0,
       "hot": false
     },
@@ -181,8 +200,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775858089.0,
       "hot": false
     },
@@ -199,27 +218,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775856634.0,
-      "hot": false
-    },
-    {
-      "id": "610238aa95",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Facing Many Crises, Pakistan Tries to End a Big One — in Iran",
-      "summary": "A nation with a stalled economy, a terrorism problem and two hostile neighbors is set to host the first formal U.S.-Iranian talks since the war began.",
-      "link": "https://www.nytimes.com/2026/04/10/world/middleeast/pakistan-iran-talks-islamabad.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10int-islamabad-scene-01-mpkw/10int-islamabad-scene-01-mpkw-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775856547.0,
       "hot": false
     },
     {
@@ -236,7 +237,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1775853734.0,
       "hot": false
     },
@@ -254,7 +255,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1775841764.0,
       "hot": false
     },
@@ -272,7 +273,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1775830211.0,
       "hot": false
     },
@@ -290,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1775827811.0,
       "hot": false
     },
@@ -308,7 +309,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "16小时前",
       "pub_ts": 1775826441.0,
       "hot": false
     },
@@ -326,7 +327,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "17小时前",
       "pub_ts": 1775822543.0,
       "hot": false
     },
@@ -344,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1775819254.0,
       "hot": false
     },
@@ -362,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1775818470.0,
       "hot": false
     },
@@ -380,7 +381,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1775814082.0,
       "hot": false
     },
@@ -398,7 +399,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "20小时前",
       "pub_ts": 1775811600.0,
       "hot": false
     },
