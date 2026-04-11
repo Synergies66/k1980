@@ -1,9 +1,45 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-11T03:25:27.810044+00:00",
+  "updated_at": "2026-04-11T05:44:41.205081+00:00",
   "total": 29,
   "articles": [
+    {
+      "id": "21eb81ac37",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Zebras, wealth and power: Hungary’s election tests Orbán’s grip on power",
+      "summary": "Corruption scandals and a surging opposition have turned the vote into the biggest test yet for the long-serving populist leaderThe drone footage showed a sprawling residence in northern Hungary, comp",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/11/zebras-wealth-and-power-hungarys-election-tests-orbans-grip-on-power",
+      "image": "https://i.guim.co.uk/img/media/c2c9e38a42fa162444f6a7845a7ff32d5e7e0869/0_0_4490_3592/master/4490.jpg?width=140&quality=85&auto=format&fit=max&s=910aedaf05b87bef68d1d9f8494ac3e0",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "43分前",
+      "pub_ts": 1775883642.0,
+      "hot": false
+    },
+    {
+      "id": "ce6a23005e",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘I got everything I dreamed of - when I had no ability to handle it’: Lena Dunham on toxic fame, bro",
+      "summary": "Stardom came fast and hard for the wunderkind who created the hit HBO series Girls aged just 23. Now she’s written a tell-all memoir about why she was forced to retreat from the spotlight• Lena Dunham",
+      "link": "https://www.theguardian.com/culture/2026/apr/11/lena-dunham-interview-memoir-famesick-rehab-fame-broken-friendships",
+      "image": "https://i.guim.co.uk/img/media/d10dc7a3836e36ab7c804a60c4cb0e00acfe34e6/704_0_10920_8736/master/10920.jpg?width=140&quality=85&auto=format&fit=max&s=74b14bc37e8c68eb74d7edf9ca6762e8",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "43分前",
+      "pub_ts": 1775883639.0,
+      "hot": false
+    },
     {
       "id": "f9e9776a17",
       "type": "news",
@@ -18,7 +54,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1775813472.0,
       "hot": false
     },
@@ -36,7 +72,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1775809350.0,
       "hot": false
     },
@@ -54,7 +90,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1775806013.0,
       "hot": false
     },
@@ -72,44 +108,26 @@
         "本地"
       ],
       "score": 68,
-      "ago": "20小时前",
+      "ago": "22小时前",
       "pub_ts": 1775804282.0,
       "hot": false
     },
     {
-      "id": "731a6b793b",
+      "id": "7dd0d1e85a",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "高度依賴空調的新加坡等東南亞國家承受能源危機考驗",
-      "summary": "以廣泛使用空調而聞名的新加坡已要求政府僱員將辦公室溫度至少調至25攝氏度（77華氏度），政府敦促員工改用風扇並搭乘大眾運輸工具。。",
-      "link": "https://www.bbc.com/zhongwen/articles/c2d8z2ejd95o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7d54/live/b84950a0-3495-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 68,
-      "ago": "21小时前",
-      "pub_ts": 1775798756.0,
-      "hot": false
-    },
-    {
-      "id": "90e7d6a12d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "分析：無論停火與否，中東仍在重組地緣政治格局",
-      "summary": "雙方都有結束戰爭的理由，但卻沒有共同的立場。",
-      "link": "https://www.bbc.com/zhongwen/articles/c8ej9g20nk0o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5219/live/f4717b10-3428-11f1-8606-05fe34b06e1b.jpg",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Melania Trump's speech propels Epstein crisis back to forefront",
+      "summary": "She has now placed herself squarely into the Epstein story and at odds with the administration, which wants to end the investigation.",
+      "link": "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e0f/live/3213b020-3521-11f1-879d-1b2f5c3919b8.jpg",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "23小时前",
-      "pub_ts": 1775794601.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775877904.0,
       "hot": false
     },
     {
@@ -126,7 +144,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775867924.0,
       "hot": false
     },
@@ -144,7 +162,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1775867907.0,
       "hot": false
     },
@@ -162,44 +180,62 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1775866638.0,
       "hot": false
     },
     {
-      "id": "c548b7ec8e",
+      "id": "cdf9a1c2c8",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Historic Vance-Ghalibaf talks must bridge deep distrust",
+      "title": "Lyse Doucet: Historic US-Iran talks must bridge deep distrust",
       "summary": "Face-to-face talks would mark the highest-level engagement between Iran and the US since the 1979 Islamic Revolution.",
       "link": "https://www.bbc.com/news/articles/cn9qzl12537o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b52/live/d4c88b80-3529-11f1-91d5-4fd7f4e80b2c.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f31c/live/ce329920-3559-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1775864809.0,
       "hot": false
     },
     {
-      "id": "7c5b5ad7f6",
+      "id": "731a6b793b",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "UK shelves Chagos deal after Trump opposition",
-      "summary": "UK government officials say they are not entirely abandoning the agreement but have run out of time.",
-      "link": "https://www.bbc.com/news/articles/c04x1lg1lygo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63ef/live/533a9e50-0c7a-11f1-bbff-03527479c958.jpg",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "高度依賴空調的新加坡等東南亞國家承受能源危機考驗",
+      "summary": "以廣泛使用空調而聞名的新加坡已要求政府僱員將辦公室溫度至少調至25攝氏度（77華氏度），政府敦促員工改用風扇並搭乘大眾運輸工具。。",
+      "link": "https://www.bbc.com/zhongwen/articles/c2d8z2ejd95o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7d54/live/b84950a0-3495-11f1-879d-1b2f5c3919b8.jpg",
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775859469.0,
+      "score": 63,
+      "ago": "昨日",
+      "pub_ts": 1775798756.0,
+      "hot": false
+    },
+    {
+      "id": "90e7d6a12d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "分析：無論停火與否，中東仍在重組地緣政治格局",
+      "summary": "雙方都有結束戰爭的理由，但卻沒有共同的立場。",
+      "link": "https://www.bbc.com/zhongwen/articles/c8ej9g20nk0o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5219/live/f4717b10-3428-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 63,
+      "ago": "昨日",
+      "pub_ts": 1775794601.0,
       "hot": false
     },
     {
@@ -239,6 +275,24 @@
       "hot": false
     },
     {
+      "id": "7c5b5ad7f6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "UK shelves Chagos deal after Trump opposition",
+      "summary": "UK government officials say they are not entirely abandoning the agreement but have run out of time.",
+      "link": "https://www.bbc.com/news/articles/c04x1lg1lygo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63ef/live/533a9e50-0c7a-11f1-bbff-03527479c958.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775859469.0,
+      "hot": false
+    },
+    {
       "id": "ac4ce09294",
       "type": "news",
       "region": "uk",
@@ -252,26 +306,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1775856025.0,
-      "hot": false
-    },
-    {
-      "id": "7dd0d1e85a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Melania Trump's speech propels Epstein crisis back to forefront",
-      "summary": "She has now placed herself squarely into the Epstein story and at odds with the administration, which wants to end the investigation.",
-      "link": "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6e0f/live/3213b020-3521-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775855625.0,
       "hot": false
     },
     {
@@ -288,7 +324,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1775852180.0,
       "hot": false
     },
@@ -296,7 +332,7 @@
       "id": "6ed7bd7bd9",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
       "title": "Prince Harry sued for defamation by charity Sentebale he co-founded",
       "summary": "Prince Harry left the charity last year in an acrimonious dispute over how Sentebale was being managed.",
@@ -306,7 +342,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1775851523.0,
       "hot": false
     },
@@ -325,7 +361,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1775844730.0,
       "hot": false
     },
@@ -343,7 +379,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1775843590.0,
       "hot": false
     },
@@ -361,7 +397,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1775842305.0,
       "hot": false
     },
@@ -369,7 +405,7 @@
       "id": "3073f1d306",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Man arrested after baby girl dies from dog bite",
       "summary": "Two dogs seized from the same address have been destroyed, police say.",
@@ -379,7 +415,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1775830849.0,
       "hot": false
     },
@@ -397,26 +433,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1775830447.0,
-      "hot": false
-    },
-    {
-      "id": "ba325acba1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Power up! Could force be the secret to supercharging your fitness?",
-      "summary": "Mobility, cardio and strength are important, but power – generating force quickly – is the workout element that will help you stay active for longer, say health and fitness expertsChasing after your d",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/10/could-force-be-secret-supercharging-your-fitness",
-      "image": "https://i.guim.co.uk/img/media/ac3695ff3d922b26c3d1a335f60265a5dd6f0cc7/0_0_4582_3666/master/4582.jpg?width=140&quality=85&auto=format&fit=max&s=4f6d42193b19c4a1c338f1d8c7fcc622",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775829620.0,
       "hot": false
     },
     {
@@ -433,7 +451,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "16小时前",
       "pub_ts": 1775827208.0,
       "hot": false
     },
@@ -451,7 +469,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1775824774.0,
       "hot": false
     },
@@ -469,26 +487,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "17小时前",
       "pub_ts": 1775823617.0,
-      "hot": false
-    },
-    {
-      "id": "55e08de859",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Toxic putdowns, brutal zingers ... and an unexpected love story – inside the joyful climax to brilli",
-      "summary": "Jean Smart and Hannah Einbinder are TV’s funniest and nastiest odd-couple in this Emmy-winning smash hit. But co-creator and star Paul W Downs discusses why things are a lot sunnier and sillier for th",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/10/hacks-final-season-paul-w-downs-co-creator-interview-sky-now",
-      "image": "https://i.guim.co.uk/img/media/3d92cfc4444fcb383adecbbfeb38dceb2f7dc242/828_1595_4086_3269/master/4086.jpg?width=140&quality=85&auto=format&fit=max&s=ceac24542ef1d3a6ba6bd052706ef239",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775822418.0,
       "hot": false
     },
     {
@@ -506,7 +506,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1775818476.0,
       "hot": false
     },
@@ -524,7 +524,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1775807923.0,
       "hot": false
     }
