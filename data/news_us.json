@@ -1,9 +1,46 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-10T21:00:32.292586+00:00",
-  "total": 21,
+  "updated_at": "2026-04-11T03:22:46.439500+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "df8d9474a1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "China's Xi meets Taiwan opposition leader ahead of key summit with Trump",
+      "summary": "Xi Jinping and the KMT's Cheng Li-wun agreed to pursue peace, but Taiwan's ruling party worries it will enable Beijing to undermine its democracy.",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5780605/china-xi-taiwan-opposition",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 72,
+      "ago": "15小时前",
+      "pub_ts": 1775820544.0,
+      "hot": false
+    },
+    {
+      "id": "111c3d1b75",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Eric Swalwell Faces Sex Assault Accusation as He Runs for California Governor",
+      "summary": "Eric Swalwell, a Democratic congressman, denied the accounts published by CNN and The San Francisco Chronicle. Nancy Pelosi was among those who said he should withdraw from the California governor’s r",
+      "link": "https://www.nytimes.com/2026/04/10/us/politics/eric-swalwell-allegations-california-governor.html",
+      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/00nat-swalwell-hfo-vwbj/00nat-swalwell-hfo-vwbj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775872462.0,
+      "hot": false
+    },
     {
       "id": "5c5dbe5189",
       "type": "news",
@@ -18,64 +55,189 @@
         "移民",
         "科技"
       ],
-      "score": 80,
-      "ago": "58分前",
+      "score": 70,
+      "ago": "7小时前",
       "pub_ts": 1775851310.0,
       "hot": false
     },
     {
-      "id": "df8d9474a1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "China's Xi meets Taiwan opposition leader ahead of key summit with Trump",
-      "summary": "Xi Jinping and the KMT's Cheng Li-wun agreed to pursue peace, but Taiwan's ruling party worries it will enable Beijing to undermine its democracy.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5780605/china-xi-taiwan-opposition",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "9小时前",
-      "pub_ts": 1775820544.0,
-      "hot": false
-    },
-    {
-      "id": "1b086d5cde",
+      "id": "cd19a2d458",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Why Opening the Strait of Hormuz Won’t Immediately Lower Gas Prices",
-      "summary": "Our energy reporter Rebecca F. Elliott explains why, even if the flow of energy is restored through the Persian Gulf, it will take months to carry out repairs across dozens of energy sites in the regi",
-      "link": "https://www.nytimes.com/video/world/middleeast/100000010830114/why-opening-the-hormuz-wont-lower-gas-prices.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1775852819.0,
-      "hot": false
-    },
-    {
-      "id": "d3d5cc99b4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Homeland Security Workers Get Paid, but the Next Check Is Uncertain",
-      "summary": "The lack of clarity has frustrated employees as Congress battles over how to fund the department.",
-      "link": "https://www.nytimes.com/2026/04/10/us/politics/homeland-security-funding.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-shutdown-pftk/10dc-shutdown-pftk-mediumSquareAt3X.jpg",
+      "title": "Iran Unable to Find Mines It Planted in Strait of Hormuz, U.S. Says",
+      "summary": "The lost mines have prevented Iran from quickly complying with President Trump’s demand to allow more ships to pass through the waterway.",
+      "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-mines-strait.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-intel-mines-gktf/10dc-intel-mines-gktf-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1775846580.0,
+      "pub_ts": 1775869827.0,
+      "hot": false
+    },
+    {
+      "id": "170bdeac52",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Recovery Personnel Will Secure Artemis II Capsule at Sea After Splashdown",
+      "summary": "As the spacecraft bobs in the Pacific Ocean, recovery personnel from NASA and the U.S. Navy are out at sea, tracking the capsule and other pieces of jettisoned hardware.",
+      "link": "https://www.nytimes.com/2026/04/10/science/artemis-ii-splashdown-recovery.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10moon-splashdown-recovery-tqpw/10moon-splashdown-recovery-tqpw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775869288.0,
+      "hot": false
+    },
+    {
+      "id": "425ba8acf3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "See Photos From All 10 Days of NASA’s Artemis II Moon Mission",
+      "summary": "Over 10 days, the astronauts of NASA’s lunar flyby mission have achieved the near impossible.",
+      "link": "https://www.nytimes.com/2026/04/10/science/nasa-artemis-ii-moon-mission-photos-earth-eclipse.html",
+      "image": "https://static01.nyt.com/images/2026/04/09/10HS-ARTEMIS-MISSION-PHOTOS-43756-cover/10HS-ARTEMIS-MISSION-PHOTOS-43756-cover-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775868430.0,
+      "hot": false
+    },
+    {
+      "id": "434cf56dee",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "World Leaders Push to Save Iran Talks Amid Israel’s Attacks in Lebanon",
+      "summary": "President Trump’s cease-fire with Iran appears at risk as Vice President JD Vance heads to Pakistan for discussions with Iranian officials.",
+      "link": "https://www.nytimes.com/2026/04/10/us/politics/iran-israel-lebanon-trump-talks.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10dc-diplo-iran-hflz/10dc-diplo-iran-hflz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775866031.0,
+      "hot": false
+    },
+    {
+      "id": "017b2b8348",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What the Cease-Fire Means for Iran",
+      "summary": "Emerging from weeks of U.S. and Israeli airstrikes, an emboldened Iran has 10 demands for talks during the tenuous cease-fire, according to Iranian state media. Our reporter Erika Solomon assesses Ira",
+      "link": "https://www.nytimes.com/video/world/middleeast/100000010831941/what-the-cease-fire-means-for-iran.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775862905.0,
+      "hot": false
+    },
+    {
+      "id": "7cb869791d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "WATCH LIVE: Artemis II astronauts have splashed down on Earth",
+      "summary": "The four astronauts aboard NASA's Artemis II mission are about to plunge through the atmosphere toward Earth, after a successful visit to the moon.",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5781327/nasa-artemis-ii-return-earth-splashdown-moon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775861335.0,
+      "hot": false
+    },
+    {
+      "id": "f5de0a73f9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Is Racing to Redefine ‘America First’ in a Time of War",
+      "summary": "Washington has been debating the thrust of Mr. Trump’s foreign policy for more than a decade, with the only consensus being that “America First” means whatever the president says it does.",
+      "link": "https://www.nytimes.com/2026/04/10/world/europe/trump-redefine-foreign-policy.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10DC-TRUMP-MAGA-top-qzvg/10DC-TRUMP-MAGA-top-qzvg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775858089.0,
+      "hot": false
+    },
+    {
+      "id": "9d2171e962",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After more than 9 days in flight, NASA's Artemis II is set to return to Earth",
+      "summary": "The four astronauts on NASA's Artemis II lunar mission are set to return to Earth Friday evening. The crew is wrapping up a journey around the moon with a planned splashdown off San Diego, Calif.",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5778487/after-nearly-10-days-in-flight-nasas-artemis-ii-is-set-to-return-to-earth",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775856634.0,
+      "hot": false
+    },
+    {
+      "id": "610238aa95",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Facing Many Crises, Pakistan Tries to End a Big One — in Iran",
+      "summary": "A nation with a stalled economy, a terrorism problem and two hostile neighbors is set to host the first formal U.S.-Iranian talks since the war began.",
+      "link": "https://www.nytimes.com/2026/04/10/world/middleeast/pakistan-iran-talks-islamabad.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10int-islamabad-scene-01-mpkw/10int-islamabad-scene-01-mpkw-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775856547.0,
+      "hot": false
+    },
+    {
+      "id": "03dbcfaa42",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Epstein survivors have mixed feelings on Melania Trump's call for hearing in Congress",
+      "summary": "The first lady made a public statement on Thursday saying she was not friends with Epstein, and calling for further action in Congress. Survivors of the late sex offender's abuse differ on her proposa",
+      "link": "https://www.npr.org/2026/04/10/nx-s1-5780858/melania-trump-jeffrey-epstein",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775853734.0,
       "hot": false
     },
     {
@@ -91,64 +253,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775841764.0,
-      "hot": false
-    },
-    {
-      "id": "2ccdd39619",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran War Drives Deeper Oil Shock Than Prices Reveal",
-      "summary": "The war with Iran is preventing huge amounts of oil from flowing out of the Persian Gulf, but the prices that many people track don’t fully capture the scale of the disruption.",
-      "link": "https://www.nytimes.com/2026/04/10/business/energy-environment/iran-oil-prices.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/2026-biz-april-standalone-promos-0410-energy-pain/2026-biz-april-standalone-promos-0410-energy-pain-mediumSquareAt3X-v16.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775841354.0,
-      "hot": false
-    },
-    {
-      "id": "cc29a07c7a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Investing in Wind and Solar to Avoid Gas Shocks Hasn’t Added Up for Some",
-      "summary": "Renewable energy is cheaper to run than fossil fuels, especially with war choking oil supply. But it hasn’t turned out that way for some European countries, and the reason is complex.",
-      "link": "https://www.nytimes.com/2026/04/10/climate/europe-energy-crisis-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/2026-energy-mix-change-index/2026-energy-mix-change-index-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775841223.0,
-      "hot": false
-    },
-    {
-      "id": "954513fdcf",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘I’m Fed Up.’ Frustrated With Trump, Starmer Embraces Other Allies.",
-      "summary": "Prime Minister Keir Starmer of Britain is strengthening ties in Europe and the Middle East as the once-special relationship with America sours.",
-      "link": "https://www.nytimes.com/2026/04/10/world/europe/trump-starmer-fed-up-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10int-starmer-trump-assess-qhjz/10int-starmer-trump-assess-qhjz-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775838721.0,
       "hot": false
     },
     {
@@ -165,26 +272,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1775830211.0,
-      "hot": false
-    },
-    {
-      "id": "16fa2fc3ed",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Record Jump in U.S. Gasoline Prices Is Squeezing Consumers",
-      "summary": "The cost at the pump made its biggest monthly percentage increase in decades amid lingering tensions over the war in Iran.",
-      "link": "https://www.nytimes.com/2026/04/10/business/economy/gasoline-price-rise.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/10biz-inflation-blog-fuelprices-lgbc/10biz-inflation-blog-fuelprices-lgbc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1775829863.0,
       "hot": false
     },
     {
@@ -201,7 +290,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1775827811.0,
       "hot": false
     },
@@ -219,7 +308,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1775826441.0,
       "hot": false
     },
@@ -227,7 +316,7 @@
       "id": "b883d44e59",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
       "summary": "Vice President Vance is heading to Pakistan to lead a U.S. team in talks aimed at ending the war in Iran. And, Artemis II is set to return to Earth today.",
@@ -237,17 +326,17 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1775822543.0,
       "hot": false
     },
     {
-      "id": "247adb2da7",
+      "id": "3b4f5a5f13",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Trump says Iran is 'doing a very poor job' in reopening the Strait of Hormuz",
+      "title": "Iran delegates arrive in Islamabad for talks with U.S., as ceasefire terms remain in dispute",
       "summary": "The fragile ceasefire agreement was tested again on Friday after Iran refused to reopen the Strait of Hormuz. Israel and Hezbollah traded strikes in Lebanon, and Kuwait was attacked with drones.",
       "link": "https://www.npr.org/2026/04/10/g-s1-117013/trump-iran-strait-of-hormuz",
       "image": null,
@@ -255,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1775819254.0,
       "hot": false
     },
@@ -273,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1775818470.0,
       "hot": false
     },
@@ -291,26 +380,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "17小时前",
       "pub_ts": 1775814082.0,
-      "hot": false
-    },
-    {
-      "id": "cb2e00982c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Lebanon: Images of a Nation Uprooted by War",
-      "summary": "A million people in Lebanon have fled their homes as Israel clashes anew with Hezbollah. This is what their lives look now.",
-      "link": "https://www.nytimes.com/2026/04/10/world/middleeast/lebanon-displaced-photos.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/00Int-Lebanon-IDP-Photos-01-wcvk/00Int-Lebanon-IDP-Photos-01-wcvk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775811907.0,
       "hot": false
     },
     {
@@ -327,44 +398,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1775811600.0,
-      "hot": false
-    },
-    {
-      "id": "e95182087b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "War in Iran strands tons of tea in Kenyan port",
-      "summary": "Iran war-linked shipping disruptions have stranded 8 million kg of tea in the Kenyan port of Mombasa, costing the industry about $8 million a week in mounting losses.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5777546/war-in-iran-strands-tons-of-tea-in-kenyan-port",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775810725.0,
-      "hot": false
-    },
-    {
-      "id": "925049d393",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tracking 7 of Mamdani’s Biggest Campaign Promises",
-      "summary": "Zohran Mamdani based his successful campaign for mayor of New York City on several central pledges. Here’s an early look on where those stand.",
-      "link": "https://www.nytimes.com/2026/04/10/nyregion/mamdani-campaign-promises.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/video/166441_10vid-mayor-mamdani-interview_1/166441_10vid-mayor-mamdani-interview_1-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775804408.0,
       "hot": false
     },
     {
