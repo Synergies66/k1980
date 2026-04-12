@@ -1,25 +1,43 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-12T09:08:59.745222+00:00",
-  "total": 21,
+  "updated_at": "2026-04-12T13:37:17.685598+00:00",
+  "total": 20,
   "articles": [
     {
-      "id": "fdcd600f84",
+      "id": "624ac9b182",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "The real space science behind 'Project Hail Mary'",
-      "summary": "The science fiction blockbuster wowed audiences with its depiction of space travel and more. Here's what NASA staff and other scientists say about the basis for the amazing events of the film.",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5782074/project-hail-mary-nasa-space-science",
-      "image": null,
+      "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate",
+      "summary": "Iran sees American demands as reaching far beyond what it achieved in war. Tehran is gambling that it can withstand further bombardment more than Washington is willing to sustain economic chaos, exper",
+      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/iran-united-states-negotiations.html",
+      "image": "https://static01.nyt.com/images/2026/04/12/multimedia/12int-iran-assess-tczv/12int-iran-assess-tczv-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1775984400.0,
+      "ago": "6分前",
+      "pub_ts": 1776000668.0,
+      "hot": false
+    },
+    {
+      "id": "df9b6b0c33",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What Now? Vance Leaves Iran Talks Without a Deal.",
+      "summary": "The lack of a breakthrough after 21 hours of negotiations leaves the Trump administration facing several unpalatable options.",
+      "link": "https://www.nytimes.com/2026/04/12/us/politics/vance-iran-talks.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11dc-prexy-zghw/11dc-prexy-zghw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1775997829.0,
       "hot": false
     },
     {
@@ -36,8 +54,26 @@
         "科技"
       ],
       "score": 70,
-      "ago": "48分前",
-      "pub_ts": 1775982025.0,
+      "ago": "1小时前",
+      "pub_ts": 1775996841.0,
+      "hot": false
+    },
+    {
+      "id": "7b0f5fcda6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "U.S. and Iran fail to reach agreement during high-level talks in Islamabad",
+      "summary": "The U.S and Iran did not reach an agreement to end the war in Iran at a high-level meeting on Saturday.",
+      "link": "https://www.npr.org/2026/04/12/nx-s1-5782052/u-s-and-iran-fail-to-reach-agreement-during-high-level-talks-in-islamabad",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1775995797.0,
       "hot": false
     },
     {
@@ -55,7 +91,7 @@
         "科技"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775961989.0,
       "hot": false
     },
@@ -74,44 +110,80 @@
         "教育"
       ],
       "score": 70,
-      "ago": "10小时前",
+      "ago": "15小时前",
       "pub_ts": 1775946771.0,
       "hot": false
     },
     {
-      "id": "df9b6b0c33",
+      "id": "58aaca7ca2",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "What Now? Vance Leaves Iran Talks Without a Deal.",
-      "summary": "The lack of a breakthrough after 21 hours of negotiations leaves the Trump administration facing several unpalatable options.",
-      "link": "https://www.nytimes.com/2026/04/12/us/politics/vance-iran-talks.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11dc-prexy-zghw/11dc-prexy-zghw-mediumSquareAt3X.jpg",
+      "title": "A Hezbollah commander describes battling Israel in Lebanon",
+      "summary": "In a rare interview, a wounded Hezbollah commander tells NPR about his secretive Shia Muslim militia's new command structure and how it has managed to keep firing rockets into northern Israel.",
+      "link": "https://www.npr.org/2026/04/12/g-s1-117045/hezbollah-commander-lebanon-israel",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775976425.0,
+      "ago": "3小时前",
+      "pub_ts": 1775988120.0,
       "hot": false
     },
     {
-      "id": "847feaa219",
+      "id": "76dc3a6b72",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Was Watching a U.F.C. Fight in Miami While Iran Talks Collapsed",
-      "summary": "On his way to Florida, President Trump said it did not matter to him if a deal with Iran was reached or not: “We win, regardless,” he said.",
-      "link": "https://www.nytimes.com/2026/04/11/us/politics/trump-ufc-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11DC-TRUMP-01-jctg/11DC-TRUMP-01-jctg-mediumSquareAt3X.jpg",
+      "title": "No Deal: U.S.-Iran peace talks in Islamabad collapse",
+      "summary": "The United States and Iran failed to reach an agreement after a day of highly anticipated face-to-face peace talks, Washington's lead negotiator Vice President J.D. Vance announced on Sunday.",
+      "link": "https://www.npr.org/2026/04/12/nx-s1-5782538/u-s-iran-peace-talks-islamabad-collapse",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1775966913.0,
+      "ago": "3小时前",
+      "pub_ts": 1775986824.0,
+      "hot": false
+    },
+    {
+      "id": "d5810c8088",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About the Eric Swalwell Sexual Misconduct Allegations",
+      "summary": "Accusations that Mr. Swalwell, a congressman running for governor in California, sexually assaulted a former staffer and behaved inappropriately with other women have upended the race.",
+      "link": "https://www.nytimes.com/2026/04/12/us/eric-swalwell-sexual-misconduct.html",
+      "image": "https://static01.nyt.com/images/2026/04/12/multimedia/12NAT-SWALWELL-WWK-jcgb/12NAT-SWALWELL-WWK-jcgb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775984543.0,
+      "hot": false
+    },
+    {
+      "id": "fdcd600f84",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The real space science behind 'Project Hail Mary'",
+      "summary": "The science fiction blockbuster wowed audiences with its depiction of space travel and more. Here's what NASA staff and other scientists say about the basis for the amazing events of the film.",
+      "link": "https://www.npr.org/2026/04/12/nx-s1-5782074/project-hail-mary-nasa-space-science",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775984400.0,
       "hot": false
     },
     {
@@ -128,8 +200,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1775962567.0,
+      "hot": false
+    },
+    {
+      "id": "beff35ce34",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Push to Expel Swalwell Could Touch Off Chain Reaction of House Removal Votes",
+      "summary": "The House could move within days to consider expelling Representative Eric Swalwell, Democrat of California, in light of sexual assault allegations against him. There could be more to come for both pa",
+      "link": "https://www.nytimes.com/2026/04/11/us/swalwell-house-removal-votes.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11DC-EXPULSION-pqtb/11DC-EXPULSION-pqtb-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1775955921.0,
       "hot": false
     },
     {
@@ -146,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1775947960.0,
       "hot": false
     },
@@ -164,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "15小时前",
       "pub_ts": 1775946240.0,
       "hot": false
     },
@@ -182,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775941489.0,
       "hot": false
     },
@@ -200,7 +290,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775941487.0,
       "hot": false
     },
@@ -219,7 +309,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775941485.0,
       "hot": false
     },
@@ -237,7 +327,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1775941484.0,
       "hot": false
     },
@@ -256,116 +346,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775941483.0,
-      "hot": false
-    },
-    {
-      "id": "0a71829d9d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "USPS Is Running Out of Money. Here’s How It Could Affect Your Mail.",
-      "summary": "Despite numerous attempts to reform the Postal Service, the agency’s business model has not changed significantly since 1970. Officials are proposing to decrease service and increase prices.",
-      "link": "https://www.nytimes.com/2026/04/11/us/politics/postal-service-finances-mail.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/09dc-usps-jkgh/09dc-usps-jkgh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775932903.0,
-      "hot": false
-    },
-    {
-      "id": "b89cb6c585",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Postal Service, Under Pressure, Now Faces Trump’s Mail Ballot Order",
-      "summary": "President Trump’s executive order, which has been challenged as unconstitutional, would limit the Postal Service to sending only the ballots of voters deemed eligible.",
-      "link": "https://www.nytimes.com/2026/04/11/us/politics/postal-service-budget-mail-ballots.html",
-      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11dc-postal-service-cphq/11dc-postal-service-cphq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775932811.0,
-      "hot": false
-    },
-    {
-      "id": "3b7c31dbda",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Pope Leo says 'delusion of omnipotence' is fueling U.S.-Israeli war in Iran",
-      "summary": "In the first weeks of the war, the Chicago-born Leo was initially reluctant to publicly condemn the violence and limited his comments to muted appeals for peace and dialogue. But Leo stepped up his cr",
-      "link": "https://www.npr.org/2026/04/11/g-s1-117150/pope-leo-us-iran-war-israel-denounce",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775931371.0,
-      "hot": false
-    },
-    {
-      "id": "5ed44e2cc4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Artemis II splashdown captures nationwide attention",
-      "summary": "Fans across the country tuned in to see the Artemis II crew make their splashy return to Earth.",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5781820/artemis-ii-splashdown-captures-nationwide-attention",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "16小时前",
-      "pub_ts": 1775924993.0,
-      "hot": false
-    },
-    {
-      "id": "4caba230be",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "India cracks down on satirists for turning its prime minister into a punch line",
-      "summary": "India's satirists are turning Prime Minister Narendra Modi into a punch line — and the government is hitting back.",
-      "link": "https://www.npr.org/2026/04/11/g-s1-116582/india-cracks-down-satirists-turning-prime-minister-punch-line-modi",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1775905200.0,
-      "hot": false
-    },
-    {
-      "id": "160e358925",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Wives and children of foreign ISIS fighters stranded in Syria with no way home",
-      "summary": "NPR visits the last detention camp for ISIS wives and children in an increasingly precarious northeastern Syria.",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5767032/in-syria-instability-allowed-isis-fighters-to-flee-camps-but-many-of-their-families-still-detained",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1775901600.0,
+      "pub_ts": 1775941483.0,
       "hot": false
     },
     {
