@@ -1,399 +1,475 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-12T16:57:44.662662+00:00",
+  "updated_at": "2026-04-12T20:54:16.211415+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "30241fa049",
+      "id": "e07ee507cc",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cyclone Vaianu: Hawke’s Bay evacuees allowed to return to coastal homes",
+      "summary": "About 337 homes were at 7.30am on Monday without power.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/cyclone-vaianau-hawkes-bay-avoids-worst-power-still-out-for-some/HYZVV254IZGTJAB5YHO6SGHJBQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/S6CW6C22OZGSJC4EZESLC5TKJ4.jpg?auth=0c302af98d14e48211ee26aa8ed44a76d2f45221bfd528821698721c0dd7ea56&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1776026877.0,
+      "hot": false
+    },
+    {
+      "id": "9d1c04dfe2",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Some 100 people killed in mistaken air force attack on Nigerian market",
-      "summary": "A Nigerian Air Force strike targeting jihadi rebels hit a local market in northeastern Nigeria, killing over 100 residents and injuring many others.",
-      "link": "https://www.stuff.co.nz/world-news/360963567/around-100-people-killed-mistaken-air-force-attack-nigerian-market",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcuFVlrVhyPTVkHWmX6kXUB6D9eX8iToMFtj8WQ8MTJJ34VywJLFSa1ZUnHQ2ntDf2z9%2FVk3ypVhM3FZmEgWiS%2FC5aL%2Fr5dUCHOcKixbKpyBLDTtr6TDsc%2FWFFyfX2v7gIIvvGgmWIr1LjWXykHK9T39tECbebLMV9AVwaYtaicGO07g7Ft6Fp%2FNWDm5V9w5UgxwBctI1BVXBFC97ejgxC0JhRXbAvqLs4Lxw%2FpgYdtcESAESbx6r1PRSWhxXVuYIufHC5z5mxZoslDgd9R3zFsTM9e2RxvVNQnCxv6eNO%2FXp4H50s5QdJEtIxjhUYoBaXeO6bC3S3E6jCDN3Tlx5yyHEx2F6LOl0a+Gw%2FsbGhwaOZYMC0Qp5Nl+rCwvVgRUWV40daG5nWeMJFezJ5hextRHfzOS7JtcgBsLBeFco%2FwoDqQwS1HszeUc+SHKJY0DnQ==?resolution=1240x700",
+      "title": "Much of NZ in firing line for thunderstorms following Cyclone Vaianu",
+      "summary": "As Cyclone Vaianu veers away from Aotearoa, much of the country remains in the firing line for thunderstorms on Monday.",
+      "link": "https://www.stuff.co.nz/nz-news/360963628/much-nz-firing-line-thunderstorms-following-cyclone-vaianu",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdNTzOmy3NiqK1jfucmvB%2FTsalI57TO8t59fhq%2F+8p56Nw6g6gTXdezqZa+EQ1C9yPYkl7rhrO7UaYiTLlEPra7C3hbrd+xs9a+gI8rkQQAvzw9fFe3tJElMBJpc2lY1CW2xcIv6cLhodgTuRf8PGJ7ZoY7FEz%2F0p9p9AkyvV+frbH8Ue8M956fZe3SlzLy+eiNHHI7LHMhJBMwBFAGO+I48v8ZSfC86h4LDaKoBwHad3LH6s2pp2scfh4ICQvCNrMHZ592aXia97XDFIxrHblxIlt1k+v9x3al4duShKRouy%2F45Kw+lfY7Qh0HjJxrKEv802PIyaPxMqYf9UGH16bYd27GzYFo4fSikKrPdLErTk4C14UplfUCkvZgreUr52OB+AqIjXwhpPb0wvhnVhJApKWPoXf5EaI7YAiC7d4HH0WYFXfYBfhCXymBRVqTfxg==?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1776026328.0,
+      "hot": false
+    },
+    {
+      "id": "705f539cae",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘Oh, such a big deal’: Trump dismisses uproar over ‘civilisation will die’ threat",
+      "summary": "The US president has dismissed the backlash that followed his threat of apocalyptic destruction if Iran did not accede to his demands.",
+      "link": "https://www.stuff.co.nz/world-news/360963618/oh-such-big-deal-trump-dismisses-uproar-over-civilisation-will-die-threat",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYegvdqpp0dJTCbVi+opYRvTm8RAwJAxi%2Fxwt2Dt3Mliatc36MvTuRgtDqVwp8hTfmZsCSWOrutgQEpypgt5mqdm3pjcwxAwfSU9xmPOJJuWa5hdKuAIniZxH82fzBsnjY0eRjEeRgg4+5g6bxHADggOwocuK7sbM29GGX8V8dkTaS6BXJbCemHw9K2UKWRTV4Z92v3SSsHnCsv1j6KH184lGZU4IWNnmyIeJOPx9OXpuhvUIn%2FXKSvP2504fzLcCy775RjRGsvycqJzaDIwOE6bveVJHmQ7pritHh85ynS2ZJEAziHaPakg%2FWvoig+W4TnEeqmjugI3C8Rn80jIBDADBebJaQn2TC%2FU73bFMXeY3FjDCwhf4ECmRz20j3X1vvIyA3hlVck1cbNrdLIHXOPzrhZZuejXcasPtMYEfUkjf6dYyTF9U1nNC%2FCoek6KWJw==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1776026157.0,
+      "hot": false
+    },
+    {
+      "id": "bd91aec792",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Wellington woman Irene Katsougiannis died from blow with heavy ornament - coroner",
+      "summary": "Coroner Andrew Schirnack found the Miramar piano tutor died from severe head trauma.",
+      "link": "https://www.nzherald.co.nz/nz/wellington-woman-irene-katsougiannis-died-from-blow-with-heavy-ornament-coroner/RBVWK6H2FJDSTAMNCEB6FDOGEE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/Y5XERVNB7JFD7B273MV3C2MVGI.webp?auth=92b6190cc84f33ae5ed6a399ac43635d372970c2db420351d014995f485692ba&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1776026033.0,
+      "hot": false
+    },
+    {
+      "id": "e3b9782a69",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Hungary's Trumpian PM, Viktor Orbán, concedes election",
+      "summary": "It's a stunning blow for Orbán, a close ally of both US President Donald Trump and Russian President Vladimir Putin.",
+      "link": "https://www.stuff.co.nz/world-news/360963577/polling-stations-close-hungarys-election-was-key-t",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYBaVJfSUQxpdqyyKKF8PBtYys69751IBzwU2+JyJ80m9x+Sb98%2FfmO6SoVqmZx5W7zsuhb+vRezAItbFU3yNt1hP027lDmEDP79CODLm9Npt1K7syMvT2jWMJYrI7YvufqgVkzK8gewl6FHcJGTz39bzPa%2FhnyzzZhMFFsWGxnbkTIrDwKZ0HKEilF9XkReXV23Bg+cZjTIKmhdKNeRwf+KCxdzGMU+D08nYI4yXaAJDMCnSPFLyYm5Z+i7C1ZC7JesgWKxzu3M9g%2F2jx%2FXDP3A6MiLYfXVkT+fDVYEdp8myeJd%2FOjUAXgJ%2FS8+XIoNAuIszHWXna0Y7uVn2O1jmbLBjjdlExLyTMEud4zHhYbfERmFGM7B%2FfPHiSlJxwn65gkQaAcThJ4+FDgZ3lfwabVrt7Rfxh0PKwY+FDi2uSRpYsnmKn+dmRCOrL4fVh+wB0vP3NMFzG6UcwwRIYZFAo4=?resolution=1240x700",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1776025836.0,
+      "hot": false
+    },
+    {
+      "id": "a31f264deb",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Tight contest with stacked leaderboard in final round of Masters",
+      "summary": "Follow live coverage of the final round of the 90th Masters Tournament from Augusta National Golf Club.",
+      "link": "https://www.stuff.co.nz/sport/360963393/live-masters-tournament-final-round-augusta-national-golf-club",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTi73qd8AJDP%2FofDqeIUezeVJXFYduZwIz31cKyH805SgOXM+wM1D+WuhRge8ROub5rO0aeHQUuDMjU32uyE00zISrVSbQHwPzGL7xctfNPtOqZeXY3K3chuhKZYW9dkOvEDjv+FZqwflglkaR7FOIk22su019jOsUXlqhTvzlqLrNdskn9lvqGDoVOwzFoaHYB+2zXAhhLagYfp2UAEApH+RAb7TnfHU7MvV8EkgarWI7NqHjMd%2FcPwxRblxhxfvVCIxf6sKSmEGAbdlrv+jv7WLRkb9eEDxzTqkxXJabTY87miBAio3ivw5XdB3s0PgLAdEnkNZZRvJzW8e+gIvUWI1IocWql%2F%2FX5pAYLHEfdIhrelIQCVmbb6I%2FHy+xO%2FrrZuFJSoLDGRAhPHSFNcDzpQXI7%2Ffi84BzuX3NPurigIEbpxOmus89GvIUD3q89L2g==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1776025820.0,
+      "hot": false
+    },
+    {
+      "id": "0839e00b9f",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "SH1 blocked after crash scatters logs across both lanes",
+      "summary": "With no diversions available, police are urging motorists to avoid the area and delay their travel.",
+      "link": "https://www.stuff.co.nz/nz-news/360963620/motorists-urged-delay-travel-after-sh1-crash-fully-blocks-road",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSDBV7zYOcC%2FsTJlEeeREQzMqwvtRhG5p3awwuXq0A7n1cucgASbNt6UromS%2FKvTGSiSq3A5R4SgUru7oGlWptNu7WZfSRItbz21efMfcLZ3V9e6qqLmh7U2gMPZb7+WFdZ5M+v%2FdftVC6owBRYuNGuw0qXrsc52tiCi8fRUMe6k4k39znvRys5YnB2AFy2D0rxLMVcuHm6DeNnFZu5R4sd0g932uh8yorm8NOBXw1+8LoR+iJ9kGF6nct601K+wXYyu6mXM+eddqsvyGQ7n8Lpktvc0MTMs5i4RSbYJROZhz+gf6Cyos31ZgcT2IhCcqS3vJjI5j%2FEJyTT3d+Q0io4OT8xNcGSMTBS5rVM8LWuyc6tFhykGaBQdB3AQrio9cS33b3JIAzTV2sdJKa1YsaCkgrus497RJmPmWo03OtGNy79fm011eH0GhLki5onsTA==?resolution=1240x700",
       "categories": [
         "科技"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1776025524.0,
+      "hot": false
+    },
+    {
+      "id": "e3b0c019a1",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cyclone Vaianu live updates: States of emergency continue as cyclone moves away from New Zealand",
+      "summary": "New Zealand has been battered by the 'multi-hazard' storm.",
+      "link": "https://www.nzherald.co.nz/nz/cyclone-vaianu-live-updates-states-of-emergency-continue-as-cyclone-moves-away-from-new-zealand/6O2KIZK7CRCWPGCIDP2PA3SZ6I/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/DZOZZV5VW5GGNMH2PJFSSFAXSM.jpg?auth=82ca77c1dd85ed23ed0cbc33cdbc64676123b49d6ad75711f3d0ab962d085993&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1776025478.0,
+      "hot": false
+    },
+    {
+      "id": "719ea13ab7",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Luxon says war ‘highly volatile, highly unpredictable’, fuel importers confident into May",
+      "summary": "The Prime Minister has described shaping phases three and four of the National Fuel Plan.",
+      "link": "https://www.stuff.co.nz/politics/360963589/luxon-says-war-highly-volatile-highly-unpredictable-fuel-importers-confident-may",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1776025423.0,
+      "hot": false
+    },
+    {
+      "id": "79b61f951d",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "NZ 'getting a cyclone season': Cyclone Vaianu's impacts felt across the North Island",
+      "summary": "After yet another destructive storm, some are wondering how often this will keep happening.",
+      "link": "https://www.rnz.co.nz/news/national/592165/nz-getting-a-cyclone-season-cyclone-vaianu-s-impacts-felt-across-the-north-island",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1776025016.0,
+      "hot": false
+    },
+    {
+      "id": "15e17255cb",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cyclone Vaianu: Power outages and road closures as storm clean-up begins",
+      "summary": "Cyclone Vaianu brought wind gusts up to 125km/h and waves reaching 11.4m.",
+      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/cyclone-vaianu-power-outages-and-road-closures-as-storm-clean-up-begins/GMATRE57AFF6LGPTWXLQJ6O4BQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/TCQOKYAL3ZBDTJGVGQQQIR65BI.jpg?auth=d0a77b7e2ecac4a2f01c1e4482315abce134591c27724fa961310d7e4aa1d93e&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1776024991.0,
+      "hot": false
+    },
+    {
+      "id": "71aa18aebb",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Live weather: Cyclone Vaianu leaves roads closed, evacuees still out of homes",
+      "summary": "Roads are closed and thousands are still without power cut as Whakatāne faces severe damage.",
+      "link": "https://www.rnz.co.nz/news/national/592157/live-weather-cyclone-vaianu-leaves-roads-closed-evacuees-still-out-of-homes",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1776024917.0,
+      "hot": false
+    },
+    {
+      "id": "a832558e51",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "It’s back! Here's who is competing on the new Celebrity Treasure Island",
+      "summary": "Just when you thought it was safe to turn on the telly.",
+      "link": "https://www.stuff.co.nz/culture/360962559/its-back-heres-who-competing-new-celebrity-treasure-island",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfDZud9t1mmsoFHAP%2Fkc%2FbJpjHp0jQvvPF3fKd+9Zld6QrDfi841mjyxDGfe%2F408Qu4vD0PFHY4S6UrMT9p4ipSPHQ2Vn0ZsLysjjAr99afMn9MS6jv6YGqGQdV3to8xBPtp5Nxtqt4OPtunZ%2FBEw4PKY2stCIQZhGdSB+g2WN8geTHCrh7aDfaR4E+bz%2F9fvLamLw+WNeTQruJkWWvjnqVF4Ruf12CRSQdYZTFgMgGQU2QKnJFYeOgT7mgoc7Iob5AtvnadR0WteUTMICOI8CmgSu6ble2RTGyRMFqTkBFvS%2FmCzjJfzcrv1HAJqe76WwaJR8MADlycWPWj0QZsMH0hue7NmjpY4LY6siumwLNPKc92bwlA+Znj942l6IEE2G5UMkZ3dPvMCkYEfEABURZi7H70O4e0636og3cEsSh8Y8E5ZdAjqzYMZmJdFoKy8LejOGdZ6Xhui9IG8Gx0vKY=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1776024737.0,
+      "hot": false
+    },
+    {
+      "id": "125ae88444",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Teenage running star Sam Ruthe suffers stress fracture in leg",
+      "summary": "The prodigal athlete is eyeing a Commonwealth Games-World Athletics U20 Championship double in July and August.",
+      "link": "https://www.stuff.co.nz/sport/360963553/teenage-running-star-sam-ruthe-radar-bit-stress-fracture-his-leg",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVe4ijJxImr7t7udcg3wYr+AMWd5OSFT7QQFgFiZbSg4i5Fbo7ZGKt7JCGhtdzXnDPBe%2FFjWn3ZgEs8m38hq1sQyd7LQDQtmEVA1RmiaIERrtXJcpZtD4UMG3Wz5aIUQOwj9J9cJm7g0fZGjpOEsptVun40q%2FRy%2FjqDEUDrcnXWqITfWFQ7DJgIV2fyX+OT8sj6vAUfNrXpjWMWtOoDQWroYeE97vTNuauzzbkCEkzmmBSJSqQmvwDlIH%2FCyEccLQ5jX7Porb1ZJ8DexYqbAdVBR+933gnv8QTPqfljwGJvn3%2Ft2RUtgrQPKZrjcD8J2tz8uHOfCauGJt2uA9jrz%2FvcICJzkTWyz9h9oWFW%2FQU7hX2pMSj6dD8oeJ4MbN4ezJYosKbR8cZNuCAJzv%2FMoik9lTwL0JmlXJGhP2sJb1+tCcdTzS7+q%2FmTNZFhzxKHFVQ==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1776024461.0,
+      "hot": false
+    },
+    {
+      "id": "333bf668f7",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Hungary's Viktor Orban concedes landmark defeat to centre-right opposition",
+      "summary": "Veteran nationalist prime minister Viktor Orban was ousted by the pro-EU opposition Tisza party in landslide result.",
+      "link": "https://www.rnz.co.nz/news/world/592175/hungary-s-viktor-orban-concedes-landmark-defeat-to-centre-right-opposition",
+      "image": null,
+      "categories": [
+        "政治"
       ],
       "score": 70,
       "ago": "54分前",
-      "pub_ts": 1776009790.0,
+      "pub_ts": 1776023949.0,
       "hot": false
     },
     {
-      "id": "acd45d3c49",
+      "id": "37a4c0a1a2",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Fonterra payout: How to invest a $400k lump sum wisely – Mark Lister",
-      "summary": "OPINION: Many Fonterra farmers may ponder how to best invest a windfall of up to $400,000.",
-      "link": "https://www.nzherald.co.nz/rotorua-daily-post/business/fonterra-payout-how-to-invest-a-400k-lump-sum-wisely-mark-lister/premium/HXP475MFRRARLD5MJGLFMISRUA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/2R6KOQC33FH3DIKSERIGP4ZCRA.jpg?auth=cd0710318d531ebb87ec03939b27ccb61e9e20d7ec07d63cb07250cd90899512&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "9701feba21",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Homeowner fights council over ‘unjust’ hazard notice on property title",
-      "summary": "Despite following every rule and building on the safe side of a restriction line, a Tauranga man is stuck with a dreaded Section 72 notice.",
-      "link": "https://www.stuff.co.nz/home-property/360962527/homeowner-fights-council-over-unjust-hazard-notice-property-title",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSXfoU+lPCWtL5JoHS%2FYsxnsoil+YncJCO%2F9ctuAhK+tnxjkIYLrG6gnYZo5iIDcgsUnDPD5jUx8xeTtRtYvYqBNzMKnOa7illLmRTtcPBw%2FzY81b14yzTZhqIaM9Jt4Dw1bCKdWP9X+s3AJjwzQHk2i6vAK9W8B2H3fSzMh8Dtx6lek0as3cu%2FetT5o1THkuW0mlOG0CaxTNQP93jFQtHhgS8Seo8HjmmWgPWGy8FwT8djXMNpZJboFac3wfyFjcGBnMzeMC%2FD2TEAhMW6Pk9gxa5y3L3z3+EUuG%2FzUImqwbMeAWhfa45+bP8A59Uy7LJIeim54xOa%2FHj8Xejr3EQAYf%2Frjv+8EH0TcLWyHg0UX%2FVtW5hyZthFmnI%2FlcpAWI0uUp5ZoYPOI3EZDdiymmKqwFlkXTZvGq4XBD%2FhPvZlP+kdJVipMtz86mk7iVwyCdQ==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "6c05a5e90f",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Rampaging Hurricanes silence their doubters",
-      "summary": "The Cane train is gaining steam after a big victory over the Blues in round ine.",
-      "link": "https://www.stuff.co.nz/sport/360963340/super-rugby-pacific-talking-points-hurricanes-silence-their-doubters-style",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXm1Y1RHdXVc6TJ2mdXHblxuYM5aiIM5E1JcVfjwlRJuOME0y0TbuJ0Ur+RTZSztLCz6Y8uHl%2FTc%2FZeEYasGjcAXcZSjSm61EOJbmPZ3Ad6+UPMFaX8nHR2s1+TaItElwkvOFWlY5qQj3l+aHRPEtYbr%2FqBhucsWk0MNV2bJl0oDjimVUwEMv1MoDVDXdhOOTUpnc1bI4iTY3KWPxdh3H5voSAkq1q7vOxe0YE%2FKCZtGg3tl4ytEHED5MQEMEyBseznt46i3MBpPsSnPbpj9DSbxRjkQ%2FNy7ksqCfVJm+NB5lPBIqsNE6adcRD%2FvEIKGw7jrHYgh+oFYRpCFJ4XRGcaq68lFl2sKm9ZN4npM9skuf4bHgJEdukM0OTHZhUz8QVJIB2ySG+J3EZxn4GwpdS8Au5FPxkphcYwn2RJyadVimZkQ9tS8G06KSLF17DXXrrs4jbiscpcfZ9nlTXZksrg=?resolution=1240x700",
+      "title": "NZ ‘getting a cyclone season’: Cyclone Vaianu’s impacts felt across the North Island",
+      "summary": "Two hundred and seventy households in Ōhope and Thornton had to evacuate.",
+      "link": "https://www.nzherald.co.nz/nz/nz-getting-a-cyclone-season-cyclone-vaianus-impacts-felt-across-the-north-island/OYPN3WNK7NG7DBAOBYY66VQTCU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/5SDIHLHKLRDGNLGTGMZCON353A.jpg?auth=ca56e326b3dac30a9ab062f97f398e6eb090c8db86407a8a8af4faf6046c02d4&smart=true&width=300&height=300",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
+      "ago": "1小时前",
+      "pub_ts": 1776023113.0,
       "hot": false
     },
     {
-      "id": "30ff0c3608",
+      "id": "0f106a0246",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "NZ Herald",
       "lang": "en",
-      "title": "Collapsed liquor empire's sales fall through, debt is $1m more than first thought",
-      "summary": "Hardeep Singh’s liquor empire has gone bust, store sales have fallen through and the debt his company owes is $1m more than first thought.",
-      "link": "https://www.stuff.co.nz/nz-news/360962849/collapsed-liquor-empires-sales-fall-through-debt-1m-more-first-thought",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZ%2Fjl4THHpdsm4aqmJVkabScclziiU2uoiR3ON2PlE6oP8dmMbWEvzMluuVInKx9b9cf5W2M9TY6w9D1KV+Rw4UcYuiLKYkwnTUeUTcAY8iljgFBFWse8hirV21W09hawU1jkzR8mmqdjfgwOStVhHc=?resolution=1240x700",
+      "title": "Prime Minister Christopher Luxon speaks to media after Cyclone Vaianu and Auckland deal struck",
+      "summary": "There's also a new Strait of Hormuz blockade threat unfolding in the Iran conflict.",
+      "link": "https://www.nzherald.co.nz/nz/prime-minister-christopher-luxon-speaks-to-media-after-cyclone-vaianu-and-auckland-deal-struck/73D7MVMOD5H3FOUB662WBCRGAI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/XN5VBN53GNFDBH3A6VOGLYGP6E.JPG?auth=dae7d9b9d554972921e64e740195b7cb33ba28e1aeeb51604b49c5e92192c679&smart=true&width=300&height=300",
       "categories": [
-        "本地"
+        "政治",
+        "天气",
+        "科技"
       ],
       "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
+      "ago": "1小时前",
+      "pub_ts": 1776022669.0,
       "hot": false
     },
     {
-      "id": "f88bdff595",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "He faked a $2000 payment for sex. The law says it wasn’t rape",
-      "summary": "Three women, fake payments and the case exposing a gap in New Zealand law.",
-      "link": "https://www.stuff.co.nz/nz-news/360962930/he-faked-2000-payment-sex-law-says-it-wasnt-rape",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSHxYw5RrHO83lvQvxLQJWXSgAsF6L5The4hOZ%2FmDd2U3NlAAibwcIk3MYjBGsZm7dfXUZU6PE%2F2mc1YAo7QZhDqlhvaI+%2FOyeejT1a2tV5F3oQlyE6xUXEkPcvFgZi1MdomW1L29BfDjxzreS9Mh+tGHUbgsC%2FyY3nGt5RvhUX+5K9rrs1M5hV6oLb2fRrui8yD1LehYdpVaJj4+yua92Y1+8com+E0hm17Qp3y7QLnOeqvACwAsan5trVdLJ3QPw4d4ZOHTr+mLwhSMlqAGib2iR07vt0htw1OfXpKMCXTcQmOArnlxgxtHzXgLVirpjolYd2gogOAwABkCCaRF44OxDJjoPn6vcj%2FIJCS%2FyzH3L%2FLLUD3KD83+J4RbquxV9x2MpX+O0Fh41adhFXSV0WnSEEyhKh1WxBummDY%2Fv0ereL1keuQEyIs2bMdCgivazqXx7W2JS+viAxNspgD7x8=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "140501a2ee",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "The simple legal move that protects your children’s inheritance from a relationship split",
-      "summary": "Retirement questions Answered: from time to time, we will pick a question sent in by a reader and offer a response from writer Gill South.",
-      "link": "https://www.stuff.co.nz/money/360962813/simple-legal-move-protects-your-childrens-inheritance-relationship-split",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRH8kefXxLo5tiuEdPwt2e1paCIXMyP1IK408BT3QeDu0Rq86zvMV5eDZYUcDmRZL+daiHxFPAtLMMkKZCOfjd3F51b4u92v%2FpLwYKTLuoRffz8zGvODgi0Q5sSJYxooOpwQ5ViJ2%2FvaiktM0Vsbk8cCwXeOKpIHRnhuN+tP038hd7+Ltzq5s5KvD7eyPdzOdPioq51KVOciSd8c5OUOqdqZ3h+yMS07UtpcLGUmwHG0ED9KAbX7NhRjK1MOS8dF7mI5xcvE6EaY8vtwvKBvgf9DDfG0uBSvmPPm3V3LZ%2F2Vbv4wbU%2FIYg2DN4dIwETVlBVRAtUgTDVJn1Hrh4ntwmFd8fkjHRr44sQxZuTRYJ7wjapAeBkNFucJMnik1jsaEssW9FAtN8DoFEi7gPIgAzbQ5nlpwBhAkd4M%2Fsi08Xf6P3Vh71S99%2Fuddij3bYx+dQ==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "64ae894a65",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Is it time for Aunty Helen to return? Why extraordinary times call for extraordinary measures",
-      "summary": "“It’s obvious by now that New Zealand is having a midlife crisis,” says Verity Johnson.",
-      "link": "https://www.stuff.co.nz/nz-news/360962750/it-time-aunty-helen-return-why-extraordinary-times-call-extraordinary-measures",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYJWk0mYYX%2FHkAq4H6jkcNPxlbnX03niDP18O9+IwG8ecczPn0jH2i1+oeSgV13rCdDWx3Anba%2FIvA8fEJr3zNPd4SSDWafBLSfGfY%2F9D1ArDMNfv7ubRNr8sO7bNNZQNKR5U1SUlqTvMwoi4gEoAanhsTbi8sN16SGQYcnJTScGo3RHovOFlvk4RMA8S2FFcy+%2FCkzZe7ap5sEBawfS82UsHpC70jqY2sOoI4r9NK17ngGCeT+vzPgT3sOFugAseusw0rW9ifMH17BNXzftm54jgQkpfVvWMKh7o3dKtFIpfsllm+3priO852+EvoSmgbuZ4%2FJaR%2FxuJT7nCtyHHRrRHGL9lcuYailktO4qfM8C68cycbFsSafr96wmB4YODDUldQib7yD3dRZILXWjEL7mgzjlDnFudDwlqEs5yBWe7zKpBMLpOUJ6SoH91j9LcA==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "ae3200cae1",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "AM quiz: What is the setting for the TV drama The Pitt?",
-      "summary": "Stuff morning quiz: April 13",
-      "link": "https://www.stuff.co.nz/quizzes/360959570/stuff-quiz-morning-trivia-challenge-april-13-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcYGHtnYWyvF4F7507nbAkQ%2FmDt+qKxiO%2FJiGH0bUXL+K++pA3pJGcEHijix2REuYAP6onsWfIf2YgcDk6mk8nAw8mM4s8+ZebAOKnuP9QDrNj9uLl2v5OqGyzMhEacl1h%2FZ2XPKRmo91SZNgujfMPM=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776009600.0,
-      "hot": false
-    },
-    {
-      "id": "5ef4cd1905",
+      "id": "68e7f10bed",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Live weather: Cyclone Vaianu brings damaging winds, heavy rain to North Island",
-      "summary": "MetService has started scaling back its warnings, with the situation de-escalating.",
-      "link": "https://www.rnz.co.nz/news/national/592114/live-weather-cyclone-vaianu-brings-damaging-winds-heavy-rain-to-north-island",
+      "title": "Ten dead in Bougainville amid Cyclone Maila aftermath",
+      "summary": "Ten people are reported dead in the autonomous Papua New Guinea region, including eight people killed in a landslide at Asiko Village in Kongara constituency in Central Bougainville.",
+      "link": "https://www.rnz.co.nz/international/pacific-news/592173/ten-dead-in-bougainville-amid-cyclone-maila-aftermath",
       "image": null,
       "categories": [
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775987283.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776022308.0,
       "hot": false
     },
     {
-      "id": "6a583be146",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Cyclone Vaianu live updates: Flooding and damage as cyclone makes landfall today",
-      "summary": "Gale-force winds and large coastal swells are set to continue.",
-      "link": "https://www.nzherald.co.nz/nz/cyclone-vaianu-live-updates-rare-red-wind-warnings-in-force-with-cyclone-set-to-make-landfall-today/HXNDWMWBNND57CV476XROHB5JI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/DJYNMYEGVNBIVBGE2D67ENXWIQ.jpg?auth=4c21fb45dd71df2f3a0bb7b3399154a9c334883caae5be8c34e38b6910b06c39&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775983070.0,
-      "hot": false
-    },
-    {
-      "id": "6a3d612e37",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Fire crews bring ‘significant’ restaurant fire at Te Arai Links luxury golf under control",
-      "summary": "The fire broke out mid-morning at the luxury golf course north of Auckland.",
-      "link": "https://www.nzherald.co.nz/nz/restaurant-fire-at-te-arai-links-luxury-golf-course-burning-out-of-control/XYGMDA5J6VENLJCPYYSPW7ON5U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/N544GACAGREMFHDT5ROCXD4TFA.png?auth=63dba0b9ef8d87fa85f59edb9925f3159f90da3a0980110254e28716d3ad06ad&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775982918.0,
-      "hot": false
-    },
-    {
-      "id": "633ed42bb8",
+      "id": "29bae7d92f",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Discipline problems but Black Ferns score commanding win over USA at Pacific Four",
-      "summary": "The NZ women piled on 29 unanswered points during the second half at Sacramento.",
-      "link": "https://www.rnz.co.nz/news/sport/592132/discipline-problems-but-black-ferns-score-commanding-win-over-usa-at-pacific-four",
+      "title": "Money: 'Gentrified' suburbs where renters are disappearing",
+      "summary": "Census data shows the number of households who do not own their own homes has dropped in the past decade.",
+      "link": "https://www.rnz.co.nz/news/business/592159/money-gentrified-suburbs-where-renters-are-disappearing",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775977551.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776022131.0,
       "hot": false
     },
     {
-      "id": "4c29e72d65",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "UFC 327: Carlos Ulberg knocks Jiri Prochazka out to win UFC light heavyweight title",
-      "summary": "In his first opportunity at a UFC belt, Carlos Ulberg knew he only needed one shot.",
-      "link": "https://www.nzherald.co.nz/sport/ufc/ufc-327-live-updates-as-carlos-ulberg-and-jiri-prochazka-compete-for-the-light-heavyweight-title/Q3VUZTUZIRAABCFLNWS6VJ3FDU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ALZEKPNMIBFKTO4BM6MYEYVNTM.jpg?auth=4b6ee80004f096104a88f967cd351a44218a7f4e8e132f6d70b38763e756ac6c&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775974009.0,
-      "hot": false
-    },
-    {
-      "id": "a557d7aec0",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Cyclone Vaianu: Ōhope couple flee home as winds batter Bay of Plenty",
-      "summary": "Kylee Kast had to evacuate as Cyclone Vaianu's winds suddenly intensified.",
-      "link": "https://www.nzherald.co.nz/nz/cyclone-vaianu-ohope-couple-flee-home-as-winds-batter-bay-of-plenty/RCEZRQDWBBF3NH5T6OQ3QUOUQA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/EMRBABBO7JBBDAOCVYM6I4X3SA.jpg?auth=60981df5431634ed65f6e1f34850e2a62e510cc09ad9c9b04c16542146a6c4b0&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775973600.0,
-      "hot": false
-    },
-    {
-      "id": "26cac5b796",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Cyclone Vaianu: Bay of Plenty, Rotorua and Whakatāne live updates",
-      "summary": "Ōhope and coastal Thornton residents have been ordered to evacuate.",
-      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/cyclone-vaianu-bay-of-plenty-live-updates/3HJ3DTFUABB67ILYMRLITMAM7U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/5OAKOU5S2ZBHFLVVMVKOO53HD4.jpg?auth=66dfda2da972ab5c0b6074c9237e165da3af1edacd3d5568599c2b15287c575e&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775973433.0,
-      "hot": false
-    },
-    {
-      "id": "6f9eaec687",
+      "id": "b159a28f5f",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Why women often feel embarrassed to talk about money",
-      "summary": "Co-founders of a new training course want to remove the \"ick factor\" women have about discussing personal finance.",
-      "link": "https://www.rnz.co.nz/life/wellbeing/women-often-feel-embarrassed-to-talk-about-money",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775973141.0,
-      "hot": false
-    },
-    {
-      "id": "9d1ce1f3e4",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "One-legged Carlos Ulberg wins UFC light-heavyweight title by miracle knockout",
-      "summary": "The Kiwi mixed martial arts exponent knocked out Jiří Procházka in the first round at Miami.",
-      "link": "https://www.rnz.co.nz/news/sport/592140/one-legged-carlos-ulberg-wins-ufc-light-heavyweight-title-by-miracle-knockout",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775972683.0,
-      "hot": false
-    },
-    {
-      "id": "413c0a201c",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Mayor 'grateful' Far North escaped serious cyclone damage",
-      "summary": "An estimated 50 families opted to evacuate their homes before the storm hit the region.",
-      "link": "https://www.rnz.co.nz/news/national/592149/mayor-grateful-far-north-escaped-serious-cyclone-damage",
+      "title": "Super Typhoon Sinlaku nears CNMI as emergency declared, flights cancelled",
+      "summary": "A \"monster\" super typhoon is tracking toward the Northern Marianas, prompting a federal emergency declaration and widespread flight cancellations as officials warn of destructive winds and flooding.",
+      "link": "https://www.rnz.co.nz/international/pacific-news/592172/super-typhoon-sinlaku-nears-cnmi-as-emergency-declared-flights-cancelled",
       "image": null,
       "categories": [
         "天气"
       ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775970121.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776022019.0,
       "hot": false
     },
     {
-      "id": "6cbfb3f445",
+      "id": "3e265ea4ca",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "Tākaka chainsaw incident: Ethan Phillips sent to prison for threatening ex with power tool",
-      "summary": "'I let my anger get the better of me,' Ethan Phillips told a court.",
-      "link": "https://www.nzherald.co.nz/nz/crime/takaka-chainsaw-incident-ethan-phillips-sent-to-prison-for-threatening-ex-with-live-chainsaw/5MDLGQVFK5EBJJ3N3LAQ2AU72M/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/Z2JE43X7QFGN5HLGVXEFUOYCHU.jpg?auth=ee91e7ceca31f19f21c1a3784dcc0347428f32919abc56fd52b779e1319364de&smart=true&width=300&height=300",
+      "title": "French Polynesia's legislature shows new shape, more divisions",
+      "summary": "This follows the mass resignation of a group of 15 members of the Territorial Assembly, now headed by 25-year-old member Tematai Le Gayic.",
+      "link": "https://www.rnz.co.nz/international/pacific-news/592171/french-polynesia-s-legislature-shows-new-shape-more-divisions",
+      "image": null,
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775970000.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776021432.0,
       "hot": false
     },
     {
-      "id": "568ed0eb2d",
+      "id": "40ab4eb325",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Cyclone Vaianu Hawke’s Bay live updates: Warning to keep off beaches and water in Napier",
-      "summary": "Local state of emergency remains in many of the region’s coastal communities.",
-      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/cyclone-vaianu-hawkes-bay-live-updates-region-braces-for-1pm-high-tide/5V6M5GZ23RCVTHNLL2VOLSB7LI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/HPFAK236ZZG75M2STNDDM7ILDY.jpg?auth=f73461aa0fd339e309bb73937dfd6bc72731227644902721528ca9d10c29b1f4&smart=true&width=300&height=300",
+      "title": "Whanganui District Council prepares to reduce speed limits around schools",
+      "summary": "Whanganui District Council's project has a budget of $694,000.",
+      "link": "https://www.nzherald.co.nz/whanganui-chronicle/news/whanganui-district-council-prepares-to-reduce-speed-limits-around-schools/IO36R4Q6MJE37OVEFSK2PA2EBQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/K7MATZFJOS7GLO3VR53KXH2GU4.jpg?auth=3091f59ef482ba6787d5e8d42292c4fed2a7026cb2accbf775cdce0517a6d57a&smart=true&width=300&height=300",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776020525.0,
+      "hot": false
+    },
+    {
+      "id": "549d0e0308",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "'Planet Earth - you are a crew': Artemis crew urges unity on 'lifeboat' Earth",
+      "summary": "Christina Koch describes floating in the dark of space during their mission around the Moon.",
+      "link": "https://www.rnz.co.nz/news/world/592150/artemis-ii-astronaut-urges-unity-on-lifeboat-earth",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776020499.0,
+      "hot": false
+    },
+    {
+      "id": "ced9739290",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cyclone Vaianu: Northlanders urged to not see weather warnings as ‘crying wolf’",
+      "summary": "Residents urged to be wary of cry-wolf syndrome as Northland fared better than expected.",
+      "link": "https://www.nzherald.co.nz/northern-advocate/news/cyclone-vaianu-northlanders-urged-to-not-see-weather-warnings-as-crying-wolf/TOGX2UP67FBMZIDSO45DVZSPRM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/FMIXG2TUS5FMDLWQJKDAYQ73ZA.jpg?auth=7410da5b981808ab03a94a8b2a40942f1b84c6b1d0e96e58ee7eefe5d16d0041&smart=true&width=300&height=300",
       "categories": [
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1775969883.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776019156.0,
+      "hot": false
+    },
+    {
+      "id": "d67d77fbac",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ 政治",
+      "lang": "en",
+      "title": "Calls for independent dispute resolution service for schools, parents",
+      "summary": "It comes as advocates call for a free service that helps to resolve these disputes.",
+      "link": "https://www.rnz.co.nz/news/national/592156/calls-for-independent-dispute-resolution-service-for-schools-parents",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776014585.0,
       "hot": false
     },
     {
       "id": "344ff4d60d",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "The House: Citizens assemblies - an alternative to select committees?",
       "summary": "What if a group of randomly selected people were put in a room and asked to hammer out national policy?",
@@ -403,44 +479,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775969735.0,
-      "hot": false
-    },
-    {
-      "id": "d65623a351",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Rāwene residents urged to use less water after main break",
-      "summary": "Far North District Council says water storage levels plummeted to 15 percent.",
-      "link": "https://www.rnz.co.nz/news/national/592147/rawene-residents-urged-to-use-less-water-after-main-break",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1775966700.0,
-      "hot": false
-    },
-    {
-      "id": "1ca29704e5",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "How to stop your bed becoming a microscopic eco-forest",
-      "summary": "Washing sheets every fortnight won't cut it, says a microbiologist.",
-      "link": "https://www.rnz.co.nz/life/wellbeing/how-to-stop-your-bed-becoming-a-microscopic-eco-forest",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "15小时前",
-      "pub_ts": 1775958173.0,
+      "pub_ts": 1775969735.0,
       "hot": false
     },
     {
@@ -456,26 +496,26 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775937474.0,
       "hot": false
     },
     {
-      "id": "27213e2123",
+      "id": "386165cbd2",
       "type": "news",
       "region": "nz",
       "source": "RNZ 政治",
       "lang": "en",
       "title": "Most charter schools reached or surpassed target starting enrolments",
       "summary": "The schools set up last year had 658 pupils between them.",
-      "link": "https://www.rnz.co.nz/news/national/592119/most-charter-schools-reached-or-surpassed-target-starting-enrolments",
+      "link": "https://www.rnz.co.nz/news/political/592119/most-charter-schools-reached-or-surpassed-target-starting-enrolments",
       "image": null,
       "categories": [
         "教育"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1775935821.0,
       "hot": false
     },
@@ -513,42 +553,6 @@
       "score": 55,
       "ago": "2天前",
       "pub_ts": 1775785116.0,
-      "hot": false
-    },
-    {
-      "id": "cd23990e1d",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "PSA hits out at proposal to cut more jobs at Te Puni Kōkiri",
-      "summary": "The PSA says a proposal to cut 45 roles and establish 18 to meet government spending reductions was recently released to staff.",
-      "link": "https://www.rnz.co.nz/news/te-manu-korihi/592009/psa-hits-out-at-proposal-to-cut-more-jobs-at-te-puni-kokiri",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1775784626.0,
-      "hot": false
-    },
-    {
-      "id": "c501a9ffce",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Christopher Luxon and Wayne Brown sign 'Auckland City Deal'",
-      "summary": "It includes a promise to consider a bed tax next year and a review of how Eden Park is run.",
-      "link": "https://www.rnz.co.nz/news/political/591977/christopher-luxon-and-wayne-brown-sign-auckland-city-deal",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1775780975.0,
       "hot": false
     }
   ]
