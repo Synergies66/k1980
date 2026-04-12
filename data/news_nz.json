@@ -1,9 +1,47 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-12T09:06:30.462379+00:00",
+  "updated_at": "2026-04-12T13:35:56.638090+00:00",
   "total": 30,
   "articles": [
+    {
+      "id": "5ef4cd1905",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Live weather: Cyclone Vaianu brings damaging winds, heavy rain to North Island",
+      "summary": "MetService has started scaling back its warnings, with the situation de-escalating.",
+      "link": "https://www.rnz.co.nz/news/national/592114/live-weather-cyclone-vaianu-brings-damaging-winds-heavy-rain-to-north-island",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775987283.0,
+      "hot": false
+    },
+    {
+      "id": "d49d4e4bfb",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Heavy rain warnings lifted as Cyclone Vaianu moves southeast of Hawke's Bay",
+      "summary": "Strong wind warnings and watches remain in place for parts of the North Island and the Chatham Islands overnight, despite all heavy rain alerts now being lifted.",
+      "link": "https://www.stuff.co.nz/nz-news/360962518/cyclone-vaianu-live-weather",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeM7xj+YJMkggBWSHZAs6Wdxx9T3AotSKYKKi8fC9h%2FLiVc8jNWO6OWy+nf+XnGxl7kGKgLCcPRd%2FySrOwJqUGOBNJO1e7wXlaVbWdN5MEgElgms+qqN9psJpEHnuroDmd6uNS+yy4ZSgd8CbHBLDVLmfSpsobKz55juyV8v4RP6g+lNhNTt1RSRXgYM424Q26bOjge8GybEppaOn3DTat5cIjtBS9jctaKgkhZRBcYWHxDuDpLWVWfdSol3l%2FyPYU6eOshWgvb2LjpqbsLpjQYhYxtTQmp8gLOXq7V7Rz4kzasZziJ8LSw+eLbflX1PIP%2FK4B1jsY+nm02yeqFm68TLQBfS9SZCc23oy1dl7bcrQuq8mZV4PHVv6Pqjsj6fezqVKR%2Fp%2Fnpma0saL3M1GfORVkeRH1a7OsCu35PnpdlfbTAm5LGe%2FxVKPo5+xzh4ksjC3%2FixRyi5SiaxQCnvTvs=?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775984387.0,
+      "hot": false
+    },
     {
       "id": "6a583be146",
       "type": "news",
@@ -18,8 +56,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "28分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775983070.0,
       "hot": false
     },
@@ -36,8 +74,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "30分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775982918.0,
       "hot": false
     },
@@ -54,8 +92,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775982600.0,
       "hot": false
     },
@@ -72,8 +110,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775978668.0,
       "hot": false
     },
@@ -90,8 +128,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775977792.0,
       "hot": false
     },
@@ -108,8 +146,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775977674.0,
       "hot": false
     },
@@ -126,28 +164,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1775977551.0,
-      "hot": false
-    },
-    {
-      "id": "5ef4cd1905",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Live weather: Cyclone Vaianu brings damaging winds, heavy rain to North Island",
-      "summary": "Cyclone Vaianu was expected to cross the North Island, before exiting Hawke's Bay this evening.",
-      "link": "https://www.rnz.co.nz/news/national/592114/live-weather-cyclone-vaianu-brings-damaging-winds-heavy-rain-to-north-island",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775976667.0,
       "hot": false
     },
     {
@@ -163,8 +182,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775974009.0,
       "hot": false
     },
@@ -182,8 +201,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775973600.0,
       "hot": false
     },
@@ -201,8 +220,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775973433.0,
       "hot": false
     },
@@ -219,8 +238,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775973393.0,
       "hot": false
     },
@@ -238,8 +257,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775973141.0,
       "hot": false
     },
@@ -256,8 +275,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775972982.0,
       "hot": false
     },
@@ -274,8 +293,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1775972683.0,
       "hot": false
     },
@@ -292,8 +311,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775970432.0,
       "hot": false
     },
@@ -310,8 +329,8 @@
       "categories": [
         "天气"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775970121.0,
       "hot": false
     },
@@ -328,8 +347,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775970000.0,
       "hot": false
     },
@@ -347,8 +366,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775969883.0,
       "hot": false
     },
@@ -365,27 +384,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1775969735.0,
-      "hot": false
-    },
-    {
-      "id": "b24841726b",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Watch: 18-year-old sensation Gout Gout destroys Aussie record with astonishing run",
-      "summary": "Teenage star Gout Gout has won the men’s 200m at the Australian Athletics Championships in an astonishing time of 19.67 seconds.",
-      "link": "https://www.stuff.co.nz/sport/360963521/18-year-old-sensation-gout-gout-smashes-australian-200m-record-astonishing-run",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcAp1fzgp4pNNDp6c25C7gpYbJn1DLvNRSoe0IFijJA+JvzwYB3UgZxOv0U3cjQO%2Fz3Uxu2RUL6O+eAs8T523DR74OpyOLHZ0S+ou0T64OOol4fdStHe39WU1OKWHT2yh0pOmsjdGZpETPkrax7KiK9xTu9wL2ezSktt1vL5SfqCGIGq%2FcQozvwvVgedfpcguInvbD88rmu%2FM+ztUJSNYZelgC7cnZSq%2FPaLEcBMR2Uaia5jN0GnL+2oqSFoe4ZOQUKXfh1NLHVlhk9o03tAZXZWfpiKkYUVwwkrlUTKaDZFWv0azNG1XnGc6n2KvaO+OOIvYbVYTMXxMv6YDuH4dZViS43T+lVIBzfKoZfeLhPbQP5wwwr7GH6ppWohBLMpBNdNyPG5MMPwOphCt5grfEbxTXjdC8Gf33s6j%2FqonDeZKMvLH+9QJf%2FdKO9BiefYtf%2F8SP3YcE2IzGZEfKfk%2FBs=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775969227.0,
       "hot": false
     },
     {
@@ -402,8 +403,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775968199.0,
       "hot": false
     },
@@ -420,8 +421,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775966700.0,
       "hot": false
     },
@@ -439,7 +440,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1775958173.0,
       "hot": false
     },
@@ -457,7 +458,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1775937474.0,
       "hot": false
     },
@@ -475,7 +476,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1775935821.0,
       "hot": false
     },
