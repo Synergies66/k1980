@@ -1,9 +1,27 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-12T13:40:49.902665+00:00",
-  "total": 30,
+  "updated_at": "2026-04-12T17:05:55.896185+00:00",
+  "total": 28,
   "articles": [
+    {
+      "id": "6f6758e2a0",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "美伊馬拉松和談失敗　特朗普下令「封鎖」霍爾木茲海峽",
+      "summary": "美國總統特朗普宣佈即時封鎖霍爾木茲海峽。數小時前，副總統萬斯從伊斯蘭堡的馬拉松和談無功而還。",
+      "link": "https://www.bbc.com/zhongwen/articles/cjw81e6q10yo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/937e/live/7ecc8d70-367e-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1776005260.0,
+      "hot": false
+    },
     {
       "id": "5249a57e68",
       "type": "news",
@@ -17,9 +35,100 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "5小时前",
       "pub_ts": 1775994174.0,
+      "hot": false
+    },
+    {
+      "id": "ce48778413",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Middle East crisis live: Trump says US will blockade the strait of Hormuz",
+      "summary": "President makes claim in lengthy Truth Social post after talks in Pakistan failed to secure a dealJD Vance and US delegation leave Pakistan after failing to reach deal with IranPlaneloads of negotiato",
+      "link": "https://www.theguardian.com/world/live/2026/apr/12/middle-east-crisis-live-us-iran-pakistan-peace-talks-jd-vance-delegation-leaves-without-a-deal",
+      "image": "https://i.guim.co.uk/img/media/08773806814533bb571c6c1a8b75efeec700578f/211_0_2112_1689/master/2112.jpg?width=140&quality=85&auto=format&fit=max&s=eea007be0748cf9eecb8e0c7d6f39a08",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1776012557.0,
+      "hot": false
+    },
+    {
+      "id": "0a8d92c2e6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Eamonn Holmes thanks well-wishers after suffering stroke",
+      "summary": "\"We're taking it one step at a time,\" Declan Holmes also said, as his 66-year-old father recovers in hospital.",
+      "link": "https://www.bbc.com/news/articles/c4gdlg7je4po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d11f/live/c61cca30-365d-11f1-a35a-c10911d2db0e.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1776012523.0,
+      "hot": false
+    },
+    {
+      "id": "4ab1d9382c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Row over Reform UK deputy leader's £91,000 tax is 'minor admin error', party says",
+      "summary": "A property company owned by the Reform UK deputy leader failed to pay £91,000 in tax on dividends, according to the Sunday Times.",
+      "link": "https://www.bbc.com/news/articles/c8x7yj99jrwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bddc/live/34f595e0-368b-11f1-abe5-5d7d921c70a4.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1776011671.0,
+      "hot": false
+    },
+    {
+      "id": "c632f92a3d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two in hospital after bus crashes down embankment in the Highlands",
+      "summary": "The bus, believed to be operated by Ember, left the road on Sunday morning north of Aviemore.",
+      "link": "https://www.bbc.com/news/articles/cwyx94488wqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/aae8/live/d9378440-366f-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776009557.0,
+      "hot": false
+    },
+    {
+      "id": "9f57b3226c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Woman killed in dog attack at house named",
+      "summary": "Police say the seized dog - a family pet - is believed to be a Lurcher cross.",
+      "link": "https://www.bbc.com/news/articles/c79jr971p5do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d649/live/302ae3b0-3665-11f1-ac54-83d2c42adad4.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776008066.0,
       "hot": false
     },
     {
@@ -35,27 +144,9 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "2小时前",
+      "score": 68,
+      "ago": "6小时前",
       "pub_ts": 1775991704.0,
-      "hot": false
-    },
-    {
-      "id": "1734046e78",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "美伊馬拉松和談失敗　萬斯帶著「最後提議」離開巴基斯坦",
-      "summary": "美國副總統萬斯稱，德黑蘭必須作出「根本性的承諾」，不發展核武器。伊朗則稱，美方應避免提出「過分要求」。",
-      "link": "https://www.bbc.com/zhongwen/articles/cjw81e6q10yo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/46f9/live/ee7bee30-3657-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 73,
-      "ago": "3小时前",
-      "pub_ts": 1775989061.0,
       "hot": false
     },
     {
@@ -71,27 +162,63 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "4小时前",
+      "score": 68,
+      "ago": "8小时前",
       "pub_ts": 1775984110.0,
       "hot": false
     },
     {
-      "id": "4919e2a04d",
+      "id": "26e0d58bd7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Justin Bieber headlines Coachella with nostalgia-fuelled set",
+      "summary": "The star spent much of the gig singing along to YouTube videos of early hits like Baby and Never say Never.",
+      "link": "https://www.bbc.com/news/articles/c75kx5dw395o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f800/live/43582540-3680-11f1-991f-79d0d362bba2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776006009.0,
+      "hot": false
+    },
+    {
+      "id": "1abd9beb3c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Four arrested over murder of Scottish businessman in Kenya",
+      "summary": "Campbell Scott's body was found in a pineapple sack about 60 miles from Nairobi where he was attending a conference in February last year.",
+      "link": "https://www.bbc.com/news/articles/cx2e8kj3yn4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1138/live/87cfc1a0-0987-11f0-9a0d-3be11e1d5750.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776005275.0,
+      "hot": false
+    },
+    {
+      "id": "b4e477cf41",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: Trump says US will blockade the strait of Hormuz immediately",
-      "summary": "President makes claim in lengthy Truth Social post after talks in Pakistan fail to secure a dealJD Vance and US delegation leave Pakistan after failing to reach deal with IranUS officials claim Iran u",
-      "link": "https://www.theguardian.com/world/live/2026/apr/12/middle-east-crisis-live-us-iran-pakistan-peace-talks-jd-vance-delegation-leaves-without-a-deal",
-      "image": "https://i.guim.co.uk/img/media/4aec1a394863abc522e6b314cc461fe0cdc3e179/848_0_3867_3095/master/3867.jpg?width=140&quality=85&auto=format&fit=max&s=7a97c8eda0f6f018bca061e88482c467",
+      "title": "Planeloads of negotiators and too little time: US and Iran’s 21 hours of talks",
+      "summary": "The two sides turned up to test one another’s resolve. It was probably unrealistic to expect a dispute that has taken up years of discussion to be settled in one marathon session Middle East crisis –",
+      "link": "https://www.theguardian.com/world/2026/apr/12/us-iran-21-hours-talks-war-vance-pakistan",
+      "image": "https://i.guim.co.uk/img/media/81ad6b6cf0692f0756b29bb8031774ec5358da5e/342_0_3409_2729/master/3409.jpg?width=140&quality=85&auto=format&fit=max&s=9b58cb11c852c5d63a02a66d2de31f61",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1776000753.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776001641.0,
       "hot": false
     },
     {
@@ -107,45 +234,46 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "21分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1775999952.0,
       "hot": false
     },
     {
-      "id": "b02e2a9b46",
+      "id": "14501fbb62",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘Part of our souls’: the fight to stop the New Forest being split in two",
+      "summary": "As government reorganisation ties part of the forest to Southampton, local people are angryDella Keable could not hold back the tears as she explained how her family had lived in the forest for centur",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/12/new-forest-split-two-uk-government-protest",
+      "image": "https://i.guim.co.uk/img/media/99f4574c4735950eb5e5cb343082bdb887648441/595_0_7715_6172/master/7715.jpg?width=140&quality=85&auto=format&fit=max&s=3d09b5dec446c10e5efe6ac620bae41f",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775998818.0,
+      "hot": false
+    },
+    {
+      "id": "98ed650f11",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "After Iran talks falter, the big question is 'what happens next?'",
+      "title": "After Iran talks falter, the big question is what happens next?",
       "summary": "Twenty-one hours was not enough to end 47 years of hostility between Iran and the US, writes the BBC's Lyse Doucet.",
       "link": "https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5ad6/live/d13b6fd0-366b-11f1-879d-1b2f5c3919b8.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "52分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1775998081.0,
-      "hot": false
-    },
-    {
-      "id": "005cc69764",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman killed in dog attack at house named locally",
-      "summary": "The 19-year-old woman killed in the attack is understood to be Jamie-Lea Biscoe.",
-      "link": "https://www.bbc.com/news/articles/c79jr971p5do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d649/live/302ae3b0-3665-11f1-ac54-83d2c42adad4.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775995030.0,
       "hot": false
     },
     {
@@ -161,200 +289,37 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1775994937.0,
       "hot": false
     },
     {
-      "id": "318cfc13e4",
+      "id": "fbf0b40d34",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Man appears in court after deaths of four migrants trying to cross channel",
-      "summary": "Alnour Mohamed Ali, a 27-year-old Sudanese national, was charged with endangering life after two men and two women died.",
-      "link": "https://www.bbc.com/news/articles/cy519pv15lyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a760/live/374b5220-358d-11f1-a435-63ce6dcfbc51.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775992602.0,
-      "hot": false
-    },
-    {
-      "id": "ccb0e5ef3b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Eamonn Holmes 'doing OK' after stroke, his son says",
-      "summary": "\"We're taking it one step at a time,\" Declan Holmes said, as his 66-year-old father recovers in hospital.",
-      "link": "https://www.bbc.com/news/articles/c4gdlg7je4po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d11f/live/c61cca30-365d-11f1-a35a-c10911d2db0e.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775991712.0,
-      "hot": false
-    },
-    {
-      "id": "522d7fcca1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Too hot to handle? Why it’s time for straight male authors to rediscover sex",
-      "summary": "It’s a high-wire act and the risk of an embarrassing failure can weigh heavily – but that’s no reason to avoid writing about sex, argues Black Bag author Luke KennardAre straight male writers scared o",
-      "link": "https://www.theguardian.com/books/2026/apr/12/too-hot-to-handle-why-its-time-for-straight-male-authors-to-rediscover-sex",
-      "image": "https://i.guim.co.uk/img/media/a9828a47c325ff0a1accd1a8905fa8eeb437dea7/363_77_3443_2756/master/3443.jpg?width=140&quality=85&auto=format&fit=max&s=49de8098af61d40723b1e7701097ae28",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775991617.0,
-      "hot": false
-    },
-    {
-      "id": "d288aea7b6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Is AI the greatest art heist in history?",
-      "summary": "New technologies of reproduction  are plundering the art world – and getting away with itIn 2026, its easy to see why generative AI is bad. The internet has nicknamed its excretions “slop”. The CEOs o",
-      "link": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history",
-      "image": "https://i.guim.co.uk/img/media/e5924bf69a60e6e8b0944608ee2e9bd24705dc0e/0_129_1847_1478/master/1847.jpg?width=140&quality=85&auto=format&fit=max&s=76259e4318ed08a0bbe1e05320461f73",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775991617.0,
-      "hot": false
-    },
-    {
-      "id": "338379b762",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "From Andrew Tate to Mountbatten-Windsor, my first name has been dragged through the mud. Can a globa",
-      "summary": "The ‘Council of Andrews’ started as a bit of fun – but has led to friendships, financial help and even fiances…It’s a rough time to be called Andrew. In recent years, notorious figures such as Andrew",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/12/from-andrew-tate-to-mountbatten-windsor-the-council-of-andrews-reclaiming-their-name",
-      "image": "https://i.guim.co.uk/img/media/cdfcaf53d82e38b4374c54a117bff9124d48d643/0_1274_4436_3549/master/4436.jpg?width=140&quality=85&auto=format&fit=max&s=34fb47868394550f15787c9b09e389d6",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1775991616.0,
-      "hot": false
-    },
-    {
-      "id": "43a56da75f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Starmer urges US and Iran to 'find way through' after peace talks falter",
-      "summary": "The prime minister warns the US and Iran against \"escalation\", as negotiations end without agreement.",
-      "link": "https://www.bbc.com/news/articles/c3dlmdl1v57o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3267/live/66bfd960-3662-11f1-abac-374b30aeab76.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775990391.0,
-      "hot": false
-    },
-    {
-      "id": "e6943c17cc",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "More than 500 arrests at Palestine Action protest",
-      "summary": "Event organisers said it would show the \"resistance\" to the ban on the group was \"stronger than ever\".",
-      "link": "https://www.bbc.com/news/articles/cp38z9lylddo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f80e/live/312fbcb0-35b9-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775989983.0,
-      "hot": false
-    },
-    {
-      "id": "4cd716e72f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Protocol be damned: here’s what King Charles should say on his visit to the US | Simon Tisdall",
-      "summary": "The king has the chance to offer some tough love. Perhaps he could start with a speech to Congress about the Trump administration’s reckless trajectoryIt will be a definitive moment for King Charles I",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/king-charles-us-visit-tough-love-speech-congress",
-      "image": "https://i.guim.co.uk/img/media/95a4f404ab70e73341152dfddc9fa5dd466ed02e/335_0_3353_2682/master/3353.jpg?width=140&quality=85&auto=format&fit=max&s=cbe65de6240f4159df777c42202fc406",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775988706.0,
-      "hot": false
-    },
-    {
-      "id": "41eca33e72",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Wes Streeting attacks Trump’s ‘outrageous’ Iran war rhetoric",
-      "summary": "Health secretary says failure of peace talks disappointing and UK-US relations have undoubtedly been strainedMiddle East crisis – live updatesWes Streeting has criticised Donald Trump’s rhetoric on Ir",
-      "link": "https://www.theguardian.com/world/2026/apr/12/wes-streeting-attacks-trump-outrageous-iran-war-rhetoric",
-      "image": "https://i.guim.co.uk/img/media/657a3619a3d25ede8b7795ba7b93ffc5dfe20414/336_149_3724_2980/master/3724.jpg?width=140&quality=85&auto=format&fit=max&s=5c1003cc55a3aa4291e192095b3bfb2e",
+      "title": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
+      "summary": "Ukrainian President Volodymyr Zelensky says his nation's forces would respond \"symmetrically\" to Russian attacks.",
+      "link": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f639/live/b14356e0-3650-11f1-9d5c-8ba507d7dbde.jpg",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775988573.0,
+      "ago": "5小时前",
+      "pub_ts": 1775994817.0,
       "hot": false
     },
     {
-      "id": "26e0d58bd7",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Justin Bieber headlines Coachella with nostalgia-fuelled set",
-      "summary": "The star spent much of the gig singing along to YouTube videos of early hits like Baby and Never say Never.",
-      "link": "https://www.bbc.com/news/articles/c75kx5dw395o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d135/live/63585db0-365d-11f1-a35a-c10911d2db0e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1775988478.0,
-      "hot": false
-    },
-    {
-      "id": "f9e9776a17",
+      "id": "c4e658551a",
       "type": "news",
       "region": "uk",
       "source": "BBC 中文",
       "lang": "zh",
-      "title": "「鄭習會」：國共領袖握手13秒，鄭麗文倡「制度性解決方案」，講話未畢直播被切斷",
+      "title": "「鄭習會」國共領袖握手13秒，鄭麗文講話未畢直播被切斷",
       "summary": "兩人多次提到「中華民族偉大復興」，以及「九二共識，反對台獨」的立場。這是國共兩黨最高領導人時隔十年的正式會面，此次會面地點和直播安排與過往不同，引起各界解讀。",
       "link": "https://www.bbc.com/zhongwen/articles/c89580vjvzko/trad?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4db6/live/964f53c0-34a7-11f1-b260-d5e483232ace.jpg",
@@ -385,12 +350,12 @@
       "hot": false
     },
     {
-      "id": "edcc97c953",
+      "id": "d77f375db4",
       "type": "news",
       "region": "uk",
       "source": "BBC 中文",
       "lang": "zh",
-      "title": "從全紅嬋的哽咽到網暴和飯圈再現   體育明星遭「侵入式監控」難題待解",
+      "title": "從全紅嬋的哽咽到飯圈再現   體育明星遭「侵入式監控」難題待解",
       "summary": "19歲奧運跳水三金王全紅嬋在專訪中哽咽落淚，呼籲停止網暴與辱罵家人朋友。曝光的網路微信群組引發中國互聯網震怒。官方已報警，飯圈畸形文化是否再次侵蝕體育生態，界線何在？",
       "link": "https://www.bbc.com/zhongwen/articles/c8ej921kzj5o/trad?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4aa2/live/89e20180-34ae-11f1-a676-6ff4dfb1e8ec.jpg",
@@ -421,39 +386,114 @@
       "hot": false
     },
     {
-      "id": "5d4d994b61",
+      "id": "522d7fcca1",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Am I a happier person for having a child? It’s the wrong question to ask | Rhiannon Lucy Cosslett",
-      "summary": "A new study finds that having children leaves your emotional wellbeing unchanged – but the truth is so much more complicated than thatDoes having children make you happier? Apparently not, according t",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/happier-person-have-children-parenthood-study",
-      "image": "https://i.guim.co.uk/img/media/b93d5c4ed4c0bd2abcf3c7a1d1fcba41d5f4c808/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=9e393f8f0a01295cdd94d7fe8dd9f88e",
+      "title": "Too hot to handle? Why it’s time for straight male authors to rediscover sex",
+      "summary": "It’s a high-wire act and the risk of an embarrassing failure can weigh heavily – but that’s no reason to avoid writing about sex, argues Black Bag author Luke KennardAre straight male writers scared o",
+      "link": "https://www.theguardian.com/books/2026/apr/12/too-hot-to-handle-why-its-time-for-straight-male-authors-to-rediscover-sex",
+      "image": "https://i.guim.co.uk/img/media/a9828a47c325ff0a1accd1a8905fa8eeb437dea7/363_77_3443_2756/master/3443.jpg?width=140&quality=85&auto=format&fit=max&s=49de8098af61d40723b1e7701097ae28",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775991617.0,
+      "hot": false
+    },
+    {
+      "id": "d288aea7b6",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Is AI the greatest art heist in history?",
+      "summary": "New technologies of reproduction  are plundering the art world – and getting away with itIn 2026, its easy to see why generative AI is bad. The internet has nicknamed its excretions “slop”. The CEOs o",
+      "link": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history",
+      "image": "https://i.guim.co.uk/img/media/e5924bf69a60e6e8b0944608ee2e9bd24705dc0e/0_129_1847_1478/master/1847.jpg?width=140&quality=85&auto=format&fit=max&s=76259e4318ed08a0bbe1e05320461f73",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775991617.0,
+      "hot": false
+    },
+    {
+      "id": "338379b762",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "From Andrew Tate to Mountbatten-Windsor, my first name has been dragged through the mud. Can a globa",
+      "summary": "The ‘Council of Andrews’ started as a bit of fun – but has led to friendships, financial help and even fiances…It’s a rough time to be called Andrew. In recent years, notorious figures such as Andrew",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/12/from-andrew-tate-to-mountbatten-windsor-the-council-of-andrews-reclaiming-their-name",
+      "image": "https://i.guim.co.uk/img/media/cdfcaf53d82e38b4374c54a117bff9124d48d643/0_1274_4436_3549/master/4436.jpg?width=140&quality=85&auto=format&fit=max&s=34fb47868394550f15787c9b09e389d6",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1775977210.0,
+      "pub_ts": 1775991616.0,
       "hot": false
     },
     {
-      "id": "b83ca1eab3",
+      "id": "43a56da75f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Starmer urges US and Iran to 'find way through' after peace talks falter",
+      "summary": "The prime minister warns the US and Iran against \"escalation\", as negotiations end without agreement.",
+      "link": "https://www.bbc.com/news/articles/c3dlmdl1v57o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3267/live/66bfd960-3662-11f1-abac-374b30aeab76.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775990391.0,
+      "hot": false
+    },
+    {
+      "id": "4cd716e72f",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "‘A house of cards’: how did Wireless festival get it so wrong on Kanye West?",
-      "summary": "Industry experts say booking of controversial US rapper was calculated risk that has implications for all festivalsThe fallout over Wireless announcing Ye (formerly known as Kanye West) as its 2026 he",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/12/a-house-of-cards-how-did-wireless-festival-get-it-so-wrong-on-kanye-west",
-      "image": "https://i.guim.co.uk/img/media/d2890ef377f3e78d44e6208c893fd4e406e65097/375_0_4356_3486/master/4356.jpg?width=140&quality=85&auto=format&fit=max&s=21ebab1eed49f2a47b44d3ee51bcc4b8",
+      "title": "Protocol be damned: here’s what King Charles should say on his visit to the US | Simon Tisdall",
+      "summary": "The king has the chance to offer some tough love. Perhaps he could start with a speech to Congress about the Trump administration’s reckless trajectoryIt will be a definitive moment for King Charles I",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/king-charles-us-visit-tough-love-speech-congress",
+      "image": "https://i.guim.co.uk/img/media/95a4f404ab70e73341152dfddc9fa5dd466ed02e/335_0_3353_2682/master/3353.jpg?width=140&quality=85&auto=format&fit=max&s=cbe65de6240f4159df777c42202fc406",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1775970008.0,
+      "ago": "6小时前",
+      "pub_ts": 1775988706.0,
+      "hot": false
+    },
+    {
+      "id": "110d503a61",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The United States is destroying itself | Rebecca Solnit",
+      "summary": "The daily news can’t adequately convey the administration’s sabotaging of our government, economy, alliances and environment The United States is being murdered, and it’s an inside job. Every departme",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/united-states-trump-destruction",
+      "image": "https://i.guim.co.uk/img/media/5b437d6a2ffb019bf126d8af7c8672ed29b669cb/0_0_3200_2560/master/3200.jpg?width=140&quality=85&auto=format&fit=max&s=50a1834bd73d9f34d77a90b939c9a051",
+      "categories": [
+        "政治",
+        "经济",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1775988014.0,
       "hot": false
     },
     {
@@ -470,80 +510,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1775949586.0,
-      "hot": false
-    },
-    {
-      "id": "1e61c764be",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Excitement, tears and relief: How it felt to follow Nasa's historic mission to the Moon",
-      "summary": "BBC Science Editor Rebecca Morelle reflects on how it felt to watch history being made.",
-      "link": "https://www.bbc.com/news/articles/clyrdkxvmmpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9d41/live/2db12ac0-365d-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775949427.0,
-      "hot": false
-    },
-    {
-      "id": "b22e19864e",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Balamory is back - Miss Hoolie and PC Plum lift the lid on what to expect",
-      "summary": "The cast of the rebooted children's TV hit tell us the new series is a 'love letter to the original'.",
-      "link": "https://www.bbc.com/news/articles/cjenek89l97o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c294/live/d10662d0-340a-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775949354.0,
-      "hot": false
-    },
-    {
-      "id": "5de6859f28",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "I've been a sex educator for six years. Why did I start doubting my contraception choices?",
-      "summary": "Misinformation about contraception has been spreading on social media, alongside the \"very real frustrations\" of women complaining about side effects.",
-      "link": "https://www.bbc.com/news/articles/cwyvw9pgjveo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/36c5/live/6e6dbf30-34e4-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775949317.0,
-      "hot": false
-    },
-    {
-      "id": "274ae64e9a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda",
-      "summary": "\"Slopaganda\" is too weak a term to capture how powerful this \"highly sophisticated\" content is, one expert says.",
-      "link": "https://www.bbc.com/news/articles/cjd8jrd1vnyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0583/live/740dafc0-35db-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775949203.0,
       "hot": false
     }
   ]
