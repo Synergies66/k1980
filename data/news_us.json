@@ -1,9 +1,47 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-11T20:55:40.374078+00:00",
-  "total": 22,
+  "updated_at": "2026-04-12T03:49:13.109536+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "f80e265afc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Second Venezuelan Doctor Detained in South Texas by Immigration Agents",
+      "summary": "An E.R. doctor was detained Saturday, just days after a family physician had been detained. Both were traveling when immigration agents took them into custody.",
+      "link": "https://www.nytimes.com/2026/04/11/us/second-venezuelan-doctor-detained-in-south-texas-by-immigration-agents.html",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1775961989.0,
+      "hot": false
+    },
+    {
+      "id": "712755aec7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Judges Fired After Blocking Deportations of Pro-Palestinian Students",
+      "summary": "The immigration judges’ abrupt dismissals marked the latest efforts by the Trump administration to reshape the country’s immigration courts.",
+      "link": "https://www.nytimes.com/2026/04/11/us/politics/immigration-judges-deportations-students.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11dc-judges-pvmq/11dc-judges-pvmq-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "教育"
+      ],
+      "score": 75,
+      "ago": "5小时前",
+      "pub_ts": 1775946771.0,
+      "hot": false
+    },
     {
       "id": "5476ac276f",
       "type": "news",
@@ -18,9 +56,45 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "56分前",
-      "pub_ts": 1775937555.0,
+      "score": 72,
+      "ago": "7小时前",
+      "pub_ts": 1775937556.0,
+      "hot": false
+    },
+    {
+      "id": "4c5ff25a7d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "White House ballroom construction can continue for now, appeals court says",
+      "summary": "The order comes as the Trump administration challenges a lower court ruling that the estimated $300-million project requires congressional approval.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5782084/dc-appeals-court-trump-ballroom-bunker",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1775962567.0,
+      "hot": false
+    },
+    {
+      "id": "beff35ce34",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Push to Expel Swalwell Could Touch Off Chain Reaction of House Removal Votes",
+      "summary": "The House could move within days to consider expelling Representative Eric Swalwell, Democrat of California, in light of sexual assault allegations against him. There could be more to come for both pa",
+      "link": "https://www.nytimes.com/2026/04/11/us/swalwell-house-removal-votes.html",
+      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11DC-EXPULSION-pqtb/11DC-EXPULSION-pqtb-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1775955921.0,
       "hot": false
     },
     {
@@ -30,15 +104,15 @@
       "source": "NYT 头条",
       "lang": "en",
       "title": "Navy Warships Cross Strait of Hormuz to Clear Mines, U.S. Says",
-      "summary": "American destroyers began work to make the strait safe for commercial traffic, U.S. officials said, as negotiators discussed conditions for an extended cease-fire. Iran denied that any warships had pa",
+      "summary": "Iran denied that the American destroyers had entered the strait, as negotiations for an extended cease-fire continued in Islamabad.",
       "link": "https://www.nytimes.com/2026/04/11/us/politics/us-navy-warships-strait-of-hormuz-iran-mines.html",
       "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11dc-navy-ships-mvhk/11dc-navy-ships-mvhk-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775936901.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1775953829.0,
       "hot": false
     },
     {
@@ -54,45 +128,119 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775935544.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1775947960.0,
       "hot": false
     },
     {
-      "id": "8da08b4305",
+      "id": "571aa5e291",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "What We Know About the U.S.-Iran Cease-Fire Talks in Pakistan",
-      "summary": "Vice President JD Vance is leading the U.S. delegation, which is in Pakistan for negotiations with Iranian officials.",
-      "link": "https://www.nytimes.com/2026/04/09/world/middleeast/iran-us-ceasefire-talks-negotiations.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09israel-iran-what-we-know-talks-qbwv/09israel-iran-what-we-know-talks-qbwv-mediumSquareAt3X.jpg",
+      "title": "Trump touts newly released plans for D.C. triumphal arch",
+      "summary": "The proposed 250-feet-tall, white-and-gilded monument would stand on the National Mall in Washington, D.C., by the Potomac River.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5782027/trump-triumphal-arch-plans-architecture",
+      "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1775935241.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1775946240.0,
       "hot": false
     },
     {
-      "id": "caee50fab3",
+      "id": "7689751336",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Peru's election: A battle for the Presidency amid political chaos and crime",
-      "summary": "With 35 candidates in the race, Peru is set to elect its 9th president in less than a decade. Amid rising corruption and crime, voters are left asking: Can this election finally break the cycle?",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5777736/peru-election-president-crime-corruption",
+      "title": "Pakistan hosts historic face-to-face talks between the US and Iran",
+      "summary": "In Pakistan's capital, Islamabad, officials from the US and Iran met to discuss a possible end to the war that's engulfed much of the Middle East.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5779725/pakistan-hosts-historic-face-to-face-talks-between-the-us-and-iran",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775941489.0,
+      "hot": false
+    },
+    {
+      "id": "083bb15ce3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "At a concert in Budapest, anti-Orbán sentiments take center stage ahead of election",
+      "summary": "At a concert in Budapest, musicians and concertgoers express criticism of Hungarian Prime Minister Viktor Orbán's leadership.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5773325/at-a-concert-in-budapest-anti-orban-sentiments-take-center-stage-ahead-of-election",
       "image": null,
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "11小时前",
-      "pub_ts": 1775898000.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775941487.0,
+      "hot": false
+    },
+    {
+      "id": "049abd4d2a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How Hungarian Prime Minister Viktor Orbán's hometown became a symbol of excesses",
+      "summary": "Hungarian Prime Minister Viktor Orbán has long been accused of corruption. Sightseers now flock to his hometown as groups aim to raise awareness of what they say are the leader's excesses.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5773321/viktor-orban-hungary-hometown",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775941485.0,
+      "hot": false
+    },
+    {
+      "id": "00045c8d30",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "In Hungary, upcoming elections could bring an end to Orban's 16-year rule",
+      "summary": "In Hungary, voters head to the polls Sunday. At stake: the future for populist Prime Minister Viktor Orbán, Europe's longest-serving leader - and an ally of Presidents Donald Trump and Vladimir Putin.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5773320/in-hungary-upcoming-elections-could-bring-an-end-to-orbans-16-year-rule",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775941484.0,
+      "hot": false
+    },
+    {
+      "id": "ec0add6a42",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "What's it like to cover the Ukraine war as the world's attention is focused on Iran?",
+      "summary": "In this week's Reporter's Notebook conversation, we take a closer look at what it's like to cover the war in Ukraine, and how the war in Iran is changing that.",
+      "link": "https://www.npr.org/2026/04/11/nx-s1-5768193/whats-it-like-to-cover-the-ukraine-war-as-the-worlds-attention-is-focused-on-iran",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1775941483.0,
       "hot": false
     },
     {
@@ -108,8 +256,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775932903.0,
       "hot": false
     },
@@ -126,8 +274,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775932811.0,
       "hot": false
     },
@@ -144,8 +292,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1775931371.0,
       "hot": false
     },
@@ -162,27 +310,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1775924993.0,
-      "hot": false
-    },
-    {
-      "id": "3762baedc3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Another Giant Leap Reminds Us How Small We Are",
-      "summary": "A mission that took four astronauts farther than any human has ever traveled in the history of mankind has made people feel a little trippy.",
-      "link": "https://www.nytimes.com/2026/04/11/us/artemis-landing-splashdown-moon.html",
-      "image": "https://static01.nyt.com/images/2026/04/11/multimedia/11nat-space-wonder-01-bwtl/11nat-space-wonder-01-bwtl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1775913525.0,
+      "ago": "11小时前",
+      "pub_ts": 1775924993.0,
       "hot": false
     },
     {
@@ -199,51 +329,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1775908800.0,
-      "hot": false
-    },
-    {
-      "id": "75e4008663",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Great Green Wall's one of the world's most ambitious eco-projects. Is it working?",
-      "summary": "It's a global effort with a multibillion dollar price tag. Among its aims: re-greening nearly 250 million acres, planting 4,000 miles of trees, helping farmers, creating jobs, sequestering carbon.",
-      "link": "https://www.npr.org/2026/04/11/g-s1-114074/trees-africa-great-green-wall",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775905658.0,
-      "hot": false
-    },
-    {
-      "id": "7bf54e3cc8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Gut troubles?  This gastroenterologist has tips to help you achieve 'poophoria'",
-      "summary": "In her new book You've Been Pooping All Wrong, Dr. Trisha Pasricha shares habits and practices to make your relationship with your solid waste as smooth as possible",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5780065/gut-constipation-bloating-bowel-movement",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1775905200.0,
       "hot": false
     },
     {
       "id": "4caba230be",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "India cracks down on satirists for turning its prime minister into a punch line",
       "summary": "India's satirists are turning Prime Minister Narendra Modi into a punch line — and the government is hitting back.",
@@ -253,33 +347,15 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1775905200.0,
-      "hot": false
-    },
-    {
-      "id": "9418fcfc57",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "After a whirlwind mission to the moon, astronauts are back home. Here's what's next",
-      "summary": "The Orion crew module containing the four Artemis II astronauts splashed down in the Pacific Ocean Friday evening.",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5776712/after-a-whirlwind-mission-to-the-moon-astronauts-are-back-home-heres-whats-next",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1775901600.0,
       "hot": false
     },
     {
       "id": "160e358925",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Wives and children of foreign ISIS fighters stranded in Syria with no way home",
       "summary": "NPR visits the last detention camp for ISIS wives and children in an increasingly precarious northeastern Syria.",
@@ -289,98 +365,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1775901600.0,
-      "hot": false
-    },
-    {
-      "id": "15808f85ef",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S.-Iran peace talks underway in Islamabad after weeks of frantic diplomacy",
-      "summary": "A senior White House official said that an American delegation, led by Vice President JD Vance, was meeting with senior Iranian negotiators in Islamabad to discuss an end to the six-week long war.",
-      "link": "https://www.npr.org/2026/04/11/nx-s1-5781760/pakistan-hosts-peace-talks-us-iran",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1775891081.0,
-      "hot": false
-    },
-    {
-      "id": "f108b23dc3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Artemis II Splashdown Gives NASA Momentum in Renewed Moon Race",
-      "summary": "The astronauts — three Americans and one Canadian — captivated the world with their historic mission.",
-      "link": "https://www.nytimes.com/2026/04/10/science/moon-astronauts-success.html",
-      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10moon-splashdown-pinned-post-hblw/10moon-splashdown-pinned-post-hblw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1775883743.0,
-      "hot": false
-    },
-    {
-      "id": "5b2f85ee8d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Shortlisted for an Oscar, 'Homebound' is a daring movie about two dear friends",
-      "summary": "The movie, now streaming on Netflix, defied current trends in Indian cinema to tell the true story of a friendship between a Muslim and a Hindu Dalit. Martin Scorsese was secretly involved.",
-      "link": "https://www.npr.org/2026/04/10/g-s1-116860/oscar-homebound-india-pandemic-hindu-dalit-muslim",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775841764.0,
-      "hot": false
-    },
-    {
-      "id": "a20013e8f5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Five things to know about Hungary's election",
-      "summary": "Hungary votes Sunday in a pivotal test of Viktor Orbán's \"illiberal democracy,\" as challenger Péter Magyar taps voter frustration, with stakes for Europe, NATO and the U.S.",
-      "link": "https://www.npr.org/2026/04/10/nx-s1-5779931/hungary-election-orban-challenger",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775830211.0,
-      "hot": false
-    },
-    {
-      "id": "b883d44e59",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "VP Vance to lead U.S. team in Iran peace talks. And, Artemis II to return to Earth",
-      "summary": "Vice President Vance is heading to Pakistan to lead a U.S. team in talks aimed at ending the war in Iran. And, Artemis II is set to return to Earth today.",
-      "link": "https://www.npr.org/2026/04/10/g-s1-117023/up-first-newsletter-iran-us-israel-jd-vance-artemis-two-melania-trump-fema-funds",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1775822543.0,
       "hot": false
     },
     {
