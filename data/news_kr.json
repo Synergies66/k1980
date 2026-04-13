@@ -1,7 +1,7 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-13T14:17:23.089490+00:00",
+  "updated_at": "2026-04-13T17:41:04.390658+00:00",
   "total": 8,
   "articles": [
     {
@@ -17,9 +17,27 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "8分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1776089360.0,
+      "hot": false
+    },
+    {
+      "id": "d0693bc027",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(LEAD) U.S. maritime blockade in Strait of Hormuz under way; Trump warns Iranian boats not to come c",
+      "summary": "WASHINGTON, April 13 (Yonhap) -- The U.S. military on Monday began blockading sh...",
+      "link": "https://en.yna.co.kr/view/AEN20260413011351315",
+      "image": "https://img.yna.co.kr/photo/etc/af/2026/03/25/PAF20260325153101009_P2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776098908.0,
       "hot": false
     },
     {
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "26分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1776088280.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776077427.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776077410.0,
       "hot": false
     },
@@ -90,8 +108,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776076090.0,
       "hot": false
     },
@@ -108,8 +126,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776075190.0,
       "hot": false
     },
@@ -126,27 +144,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776071584.0,
-      "hot": false
-    },
-    {
-      "id": "6bf5a5ff97",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Army unit chief named new ground operations commander",
-      "summary": "SEOUL, April 13 (Yonhap) -- Army Lt. Gen. Lee Sang-lyeol was tapped as the new c...",
-      "link": "https://en.yna.co.kr/view/AEN20260413010800315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2025/11/19/PYH2025111917090006200_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776071001.0,
       "hot": false
     }
   ]
