@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-13T06:29:18.797683+00:00",
-  "total": 20,
+  "updated_at": "2026-04-13T10:10:10.530220+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "f22e5c0b6d",
@@ -17,9 +17,208 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "2小时前",
-      "pub_ts": 1776052867.0,
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1776069993.0,
+      "hot": false
+    },
+    {
+      "id": "51f1e632fd",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a $75 billion windfall from Congress has insulated ICE",
+      "summary": "Last year, Congress approved $75 billion for immigration enforcement. That money has allowed ICE to operate nearly unfettered during a record-long shutdown of the Department of Homeland Security.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5771608/immigration-congress-75-billion",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1776070800.0,
+      "hot": false
+    },
+    {
+      "id": "b3fffb0fb4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "What a chimpanzee 'civil war' can teach us about how societies fall apart",
+      "summary": "A long-term study of the world's largest known community of chimpanzees has documented a rare event: what the researchers describe as the primate equivalent of a \"civil war.\"",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5781149/chimpanzee-civil-war-primate-conflict-anthropology",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1776074400.0,
+      "hot": false
+    },
+    {
+      "id": "43775bfd68",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "4 Takeaways From Orban’s Defeat in Hungary’s Election",
+      "summary": "Economics and unhappiness with endemic corruption helped Peter Magyar, the challenger, secure victory. A visit by the U.S. vice president in support of Mr. Orban didn’t change things.",
+      "link": "https://www.nytimes.com/2026/04/13/world/europe/hungary-election-results-orban-magyar.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13hungary-takeaways-kqbv/13hungary-takeaways-kqbv-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1776074044.0,
+      "hot": false
+    },
+    {
+      "id": "4f0aa06180",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Iran, Suffering Under Sanctions, Diversified Its Economy",
+      "summary": "As the nation contended with high inflation, high unemployment and unrest before the war, it became more than just an oil exporter.",
+      "link": "https://www.nytimes.com/2026/04/13/business/economy/iran-imports-exports-china.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/2026-biz-april-standalone-promos-0413-iran-trade/2026-biz-april-standalone-promos-0413-iran-trade-mediumSquareAt3X-v5.png",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776070935.0,
+      "hot": false
+    },
+    {
+      "id": "959e52c633",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "More than a quarter of private colleges are at risk of closing, a new projection shows",
+      "summary": "As one Vermont college finishes its last semester, an estimated 442 others may be in trouble.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5777582/many-private-colleges-at-risk-of-closing",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776070800.0,
+      "hot": false
+    },
+    {
+      "id": "800491f62d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "2025 was one of most volatile years ever for U.S. naturalizations",
+      "summary": "The year began with many people becoming U.S. citizens, but by December, fewer people were doing so, driven by ramped-up scrutiny of applications and eroding trust in the system.",
+      "link": "https://www.npr.org/2026/04/13/g-s1-117050/us-trump-immigration-2025-naturalizations-citizenship-drop",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776070800.0,
+      "hot": false
+    },
+    {
+      "id": "7c5a33dd6b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The FAA takes a rare step to head off a traffic jam at Chicago's O'Hare Airport",
+      "summary": "Federal regulators want airlines to cut the number of flights at O'Hare Airport in Chicago this summer. It's an unusual move, sparked by a turf war between two major airlines with hubs at the airport.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5775899/faa-flight-cuts-chicago-ohare-airport",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776070800.0,
+      "hot": false
+    },
+    {
+      "id": "b6846dfbaa",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Can red light therapy really deliver a beauty and health glow up? Here's the science",
+      "summary": "Wellness influencers tout the therapy's power for everything from rejuvenating skin and hair to boosting longevity. Devices sold for at-home use abound. We look at the evidence behind the hype.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5759287/red-light-therapy-science-skin-hair",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776070800.0,
+      "hot": false
+    },
+    {
+      "id": "0dd2d472c1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "President Trump says U.S. will blockade the Strait of Hormuz, failed U.S.-Iran negotiations cause oil prices to surge, Hungary's Viktor Orbán loses reelection bid.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5780733/morning-news-brief",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776069964.0,
+      "hot": false
+    },
+    {
+      "id": "744df3c29b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Gaza's ceasefire hasn't brought the surge of aid it promised",
+      "summary": "President Trump's ceasefire in Gaza was supposed to ease Israel's blockade, but restrictions on aid remain tight six months later.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5782662/gazas-ceasefire-hasnt-brought-the-surge-of-aid-it-promised",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776069896.0,
+      "hot": false
+    },
+    {
+      "id": "ae9f1d2c05",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "After Victor Orbán's election loss, what's next for Hungary?",
+      "summary": "NPR's Michel Martin speaks with David Pressman, who served as U.S. ambassador to Hungary in the Biden administration, about Victor Orban's election loss and what this means for Hungary.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5782688/after-victor-orbans-election-loss-whats-next-for-hungary",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776069874.0,
       "hot": false
     },
     {
@@ -35,8 +234,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "36分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776059536.0,
       "hot": false
     },
@@ -53,34 +252,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "44分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776059051.0,
-      "hot": false
-    },
-    {
-      "id": "01713ddde3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Gas Prices Might Not Drop By Midterms, Highlighting G.O.P. Peril",
-      "summary": "The president has sent mixed messages on how long he expects costs to be high. Some in his party voiced fresh concern after his comments on Sunday.",
-      "link": "https://www.nytimes.com/2026/04/12/us/politics/trump-gas-prices-high-midterms-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/04/12/multimedia/12pol-trump-gas-midterms-mpvc/12pol-trump-gas-midterms-mpvc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "47分前",
-      "pub_ts": 1776058880.0,
       "hot": false
     },
     {
       "id": "14eff104e4",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A stampede at a Haitian mountaintop fortress kills at least 25 people and injures dozens",
       "summary": "A stampede at a mountaintop fortress popular with tourists in northern Haiti has killed at least 25 people and injured dozens of others, authorities said.",
@@ -89,8 +270,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776057195.0,
       "hot": false
     },
@@ -98,7 +279,7 @@
       "id": "acb2cf0976",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Peru election results delayed after thousands get a one-day voting extension",
       "summary": "Voters will have to wait until at least Monday to learn the outcome of Sunday's presidential election after the process was mired with logistical issues that left thousands unable to cast ballots.",
@@ -108,18 +289,18 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776056922.0,
       "hot": false
     },
     {
-      "id": "5eba5383a3",
+      "id": "49099c56c8",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Trump lambasts Pope Leo XIV, extending feud over Iran war with American pontiff",
+      "title": "Pope Leo says he does not fear Trump, as he pushes back in feud over Iran war",
       "summary": "President Donald Trump delivered an extraordinary broadside against Pope Leo XIV on Sunday night, saying he didn't think the U.S.-born global leader of the Catholic Church is \"doing a very good job.\"",
       "link": "https://www.npr.org/2026/04/13/nx-s1-5783008/trump-pope-leo",
       "image": null,
@@ -127,8 +308,44 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776053513.0,
+      "hot": false
+    },
+    {
+      "id": "f6d87f8c27",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About Pope Leo’s Voyage to Africa",
+      "summary": "The pontiff will visit four countries on the world’s poorest continent, demonstrating his urgent focus on the most vulnerable members of the Church.",
+      "link": "https://www.nytimes.com/2026/04/13/world/europe/what-to-know-pope-africa.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13int-pope-africa-explainer-01-hjbz/13int-pope-africa-explainer-01-hjbz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776052876.0,
+      "hot": false
+    },
+    {
+      "id": "ce3146e186",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Pope Leo Heads to Africa to Meet the Future of Catholicism",
+      "summary": "On a four-country tour of the continent, where the faith is growing faster than anywhere else, the pontiff will be greeted by enthusiastic crowds and authoritarian leaders.",
+      "link": "https://www.nytimes.com/2026/04/13/world/europe/pope-leo-africa-future.html",
+      "image": "https://static01.nyt.com/images/2026/04/12/multimedia/12int-pope-africa-01-tpvw/12int-pope-africa-01-tpvw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776052873.0,
       "hot": false
     },
     {
@@ -144,8 +361,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776052806.0,
       "hot": false
     },
@@ -162,82 +379,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776049272.0,
-      "hot": false
-    },
-    {
-      "id": "10946cf1d2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "This Hungarian Town Explains Why Orban Could Lose on Sunday",
-      "summary": "Lake Balaton was beloved as a vacation spot. Now, luxury real estate projects serve many friends of Prime Minister Viktor Orban, and the locals are fed up.",
-      "link": "https://www.nytimes.com/2026/04/10/world/europe/hungary-corruption-orban-magyar-election.html",
-      "image": "https://static01.nyt.com/images/2026/04/09/multimedia/00int-hungary-magyar-corruption-kcqm/00int-hungary-magyar-corruption-kcqm-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776049212.0,
-      "hot": false
-    },
-    {
-      "id": "8b50932007",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Eric Swalwell Suspends Campaign for California Governor After Sexual Assault Allegations",
-      "summary": "In a social media post, the representative said he was “deeply sorry for mistakes in judgment I’ve made in my past,” but promised to fight what he called “false allegations.”",
-      "link": "https://www.nytimes.com/2026/04/12/us/eric-swalwell-suspends-california-governor-campaign.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/00nat-swalwell-quits-photo-cbkt/00nat-swalwell-quits-photo-cbkt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776042006.0,
-      "hot": false
-    },
-    {
-      "id": "3789941cc3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Fighting assault allegations, Eric Swalwell suspends his bid for California governor",
-      "summary": "The San Francisco Chronicle and CNN reported multiple allegations of sexual assault and misconduct. Swalwell calls them false but apologized to his supporters and family.",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5782055/swalwell-suspends-campaign-assault-allegations-governor-california",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776041950.0,
-      "hot": false
-    },
-    {
-      "id": "b15ff0d4ad",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran’s Top Negotiator Says Talks Failed Because U.S. Failed to Win Trust",
-      "summary": "Iranian officials said that while Iran had approached the negotiations in good faith, the U.S. team had not gained the Iranian delegation’s trust.",
-      "link": "https://www.nytimes.com/2026/04/12/world/middleeast/us-iran-negotiations.html",
-      "image": "https://static01.nyt.com/images/2026/04/12/multimedia/12israel-iran-reax-iran-bcwh/12israel-iran-reax-iran-bcwh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1776034524.0,
+      "pub_ts": 1776049272.0,
       "hot": false
     },
     {
@@ -254,7 +398,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776032641.0,
       "hot": false
     },
@@ -272,82 +416,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776029841.0,
-      "hot": false
-    },
-    {
-      "id": "76fe9b51e6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Amid the Iran war, Ukraine makes gains against the Kremlin",
-      "summary": "With attention focused on Iran, Ukraine has made economic, battlefield and diplomatic gains against the Kremlin.",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5779257/amid-the-iran-war-ukraine-makes-gains-against-the-kremlin",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776029840.0,
-      "hot": false
-    },
-    {
-      "id": "42725d6295",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran-US conflict fought amid censorships and digital fog of war",
-      "summary": "Amid the war in Iran, countries have been censoring and policing what their citizens are saying about the conflict and what information they have access to.",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5779592/iran-us-conflict-fought-amid-censorships-and-digital-fog-of-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776029839.0,
-      "hot": false
-    },
-    {
-      "id": "13cd5a352d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Will Orbán's defeat change Hungary's relationship to the EU?",
-      "summary": "Historic voter turnout in Hungary ousted Prime Minister Viktor Orbán from power. This shift may dramatically change Hungary's relationship with the European Union, which Orbán criticized regularly.",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5773328/will-orbans-defeat-change-hungarys-relationship-to-the-eu",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776029837.0,
-      "hot": false
-    },
-    {
-      "id": "f81565becc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Viktor Orbán concedes defeat in historic Hungary election",
-      "summary": "Hungarians turned out in historic numbers to vote against Prime Minister Viktor Orbán's and his Fidesz party. NPR's Rob Schmitz discusses with reporter Esme Nicholson and political scientist Abel Boja",
-      "link": "https://www.npr.org/2026/04/12/nx-s1-5773324/viktor-orban-concedes-defeat-in-historic-hungary-election",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776029836.0,
       "hot": false
     },
     {
