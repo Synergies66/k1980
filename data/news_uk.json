@@ -1,9 +1,100 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-13T03:59:30.178068+00:00",
+  "updated_at": "2026-04-13T06:31:26.099416+00:00",
   "total": 28,
   "articles": [
+    {
+      "id": "e9334ac80b",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "In the UK, Keir Starmer has few fans. I learned that in China it’s a very different story | Martin R",
+      "summary": "The prime minister’s meal in a Yunnan restaurant in Beijing has spawned a national menu. The man has, bizarrely, become a phenomenonIt’s always heartening when people agree with you. I had Keir Starme",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/13/keir-starmer-uk-china-menu-prime-minister-beijing",
+      "image": "https://i.guim.co.uk/img/media/a1087ba73aea5a981ee1aa866db5cf8bf80404a7/540_0_6079_4863/master/6079.jpg?width=140&quality=85&auto=format&fit=max&s=a73943def2a2fa3da3fb829f48c08c4d",
+      "categories": [
+        "政治",
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1776056437.0,
+      "hot": false
+    },
+    {
+      "id": "e350d1043b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "觀察：特朗普的霍爾木茲海峽封鎖威脅加劇風險，同時難解困境",
+      "summary": "這場衝突如今已成為一場意志的較量：伊朗承受打擊的能力，對比特朗普承受戰爭代價的耐力。",
+      "link": "https://www.bbc.com/zhongwen/articles/c1w458wqd3go/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7a79/live/1fe25240-369c-11f1-a64d-95608276955d.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "6分前",
+      "pub_ts": 1776061509.0,
+      "hot": false
+    },
+    {
+      "id": "0eb2bd6d9a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "什麼是海上封鎖？在霍爾木茲海峽如何實施封鎖？",
+      "summary": "特朗普表示美國將開始封鎖霍爾木茲海峽。這在實際操作上意味著什麼？",
+      "link": "https://www.bbc.com/zhongwen/articles/c5ywv48v9e5o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c1bb/live/05ad5410-368d-11f1-8c7c-3d26c824719f.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1776056181.0,
+      "hot": false
+    },
+    {
+      "id": "e8811c5e62",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "歐爾班時代結束了：彼得·馬扎爾在匈牙利選舉中取得壓倒性勝利",
+      "summary": "維克托·歐爾班長達16年的執政結束了，這個被譴責為「選舉專制」的體制也土崩瓦解，其繼任者是一位45歲的前黨內人士。",
+      "link": "https://www.bbc.com/zhongwen/articles/c70dk7nxn8eo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/437c/live/46687b70-36e1-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1776055008.0,
+      "hot": false
+    },
+    {
+      "id": "5daf62107c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "英國政府為何對進口中國車持放鬆姿態",
+      "summary": "中國電動車對英國出口量持續增長，我們應該如何理解這波新浪潮？",
+      "link": "https://www.bbc.com/zhongwen/articles/ckg01jyz8pko/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0c84/live/7b883210-36e5-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 78,
+      "ago": "1小时前",
+      "pub_ts": 1776054688.0,
+      "hot": false
+    },
     {
       "id": "7c29bc9397",
       "type": "news",
@@ -17,9 +108,27 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "1分前",
+      "score": 73,
+      "ago": "2小时前",
       "pub_ts": 1776052700.0,
+      "hot": false
+    },
+    {
+      "id": "6d3da65550",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Orbán era swept away by Péter Magyar's Hungary election landslide",
+      "summary": "Viktor Orbán's 16-year rule is over, defeated by a 45-year-old ex-party insider who convinced a majority of Hungarians to oust him.",
+      "link": "https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1aa1/live/1fd03d50-36fe-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1776061529.0,
       "hot": false
     },
     {
@@ -35,63 +144,9 @@
       "categories": [
         "科技"
       ],
-      "score": 73,
-      "ago": "3小时前",
+      "score": 68,
+      "ago": "6小时前",
       "pub_ts": 1776039976.0,
-      "hot": false
-    },
-    {
-      "id": "6e78ec6ee9",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Middle East crisis live: Iran warns US blockade of strait of Hormuz would violate ceasefire",
-      "summary": "Centcom says blockade of Iranian ports to begin at 10am ET; Iran’s negotiator says ‘we will not bow to threats’; oil prices rise. Follow the latest newsFull report: Trump says US will blockade strait",
-      "link": "https://www.theguardian.com/world/live/2026/apr/13/iran-war-live-news-ceasefire-peace-talks-us-trump-strait-hormuz-blockade-middle-east-crisis-latest-updates",
-      "image": "https://i.guim.co.uk/img/media/27f655c507ece40d0b0dc7263953eff1d2c97426/816_0_3868_3095/master/3868.jpg?width=140&quality=85&auto=format&fit=max&s=b5c521c61fdf91c8202000886ee58f8a",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "10分前",
-      "pub_ts": 1776052124.0,
-      "hot": false
-    },
-    {
-      "id": "6d3da65550",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Orbán era swept away by Péter Magyar's Hungary election landslide",
-      "summary": "Viktor Orbán's 16-year rule is over, defeated by a 45-year-old ex-party insider who convinced a majority of Hungarians to oust him.",
-      "link": "https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f59d/live/801b0a00-36cc-11f1-828f-1966deb3b122.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776048759.0,
-      "hot": false
-    },
-    {
-      "id": "903e6c30c4",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Hungarian opposition ousts Viktor Orbán after 16 years in power",
-      "summary": "Péter Magyar’s Tisza party wins election as prime minister concedes defeat, in result likely to reshape ties with EUHungary election liveHungary’s opposition Tisza party, led by Péter Magyar, has won",
-      "link": "https://www.theguardian.com/world/2026/apr/12/viktor-orban-concedes-defeat-as-opposition-wins-hungarian-election",
-      "image": "https://i.guim.co.uk/img/media/08f908691d941cc724416467546c495343c3fdf4/487_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=6798d16d98058adca85e06e7e4a0e8c8",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776047816.0,
       "hot": false
     },
     {
@@ -108,7 +163,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1776005260.0,
       "hot": false
     },
@@ -126,26 +181,117 @@
         "本地"
       ],
       "score": 68,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1775991704.0,
       "hot": false
     },
     {
-      "id": "f8af84a898",
+      "id": "5bfc4d5090",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "阿提米絲二號繞月任務取得巨大成功，真正的挑戰尚在前面",
-      "summary": "美國太空總署的阿提米絲二號（阿耳忒彌斯二號）成功將四名太空人送上月球背面，並安全返回地球。但至此，人類對外太空的探索還沒邁出幾步。",
-      "link": "https://www.bbc.com/zhongwen/articles/cm2rx7le123o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9b20/live/4ea19f50-3629-11f1-8606-05fe34b06e1b.jpg",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘I just want to feel like me again’: the women still waiting for breast reconstruction years after l",
+      "summary": "At the height of Covid, hundreds of cancer patients had mastectomies without the reconstruction that would normally accompany them. They would eventually get the surgery, they were told – but for many",
+      "link": "https://www.theguardian.com/society/2026/apr/13/i-just-want-to-feel-like-me-again-the-women-still-waiting-for-breast-reconstruction-years-after-lockdown",
+      "image": "https://i.guim.co.uk/img/media/4eed34e50cb30613ce6c0e6d5f734dd5f0274acb/0_0_2680_2144/master/2680.jpg?width=140&quality=85&auto=format&fit=max&s=681acb108ffcf262006daf68471f996d",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776052837.0,
+      "hot": false
+    },
+    {
+      "id": "bcde3322f4",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The incredible life of the ‘bird man’ refugee who brought tweets, chirps and trills to British radio",
+      "summary": "Ludwig Koch was once as influential as David Attenborough is today – a new film by his granddaughter sheds light on a tragic event in the naturalist’s life in Berlin before he fled the NazisIn his lif",
+      "link": "https://www.theguardian.com/film/2026/apr/13/ludwig-koch-bird-man-refugee-film-alarm-notes",
+      "image": "https://i.guim.co.uk/img/media/e3f3f61e7132b7e2cea492dca67308da9e2872ac/79_0_2234_1787/master/2234.jpg?width=140&quality=85&auto=format&fit=max&s=a9d37ed948e3df5c390b6b185f93b704",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "19小时前",
-      "pub_ts": 1775984110.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776052837.0,
+      "hot": false
+    },
+    {
+      "id": "1ea18530ed",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘A cauldron of people with their tops off!’ Goldie, Estelle, Courtney Pine, Flo and more pick great ",
+      "summary": "For its inaugural show, the V&A’s east London outpost is celebrating 125 years of Black music-making in Britain. We asked top performers to pick their favourite exhibitGoldie: Kemistry and Storm (The",
+      "link": "https://www.theguardian.com/culture/2026/apr/13/goldie-estelle-courtney-flo-black-british-music-v-a-london",
+      "image": "https://i.guim.co.uk/img/media/84f7d23c197ac9dc663f26766c217849f9b77c65/645_346_2880_2304/master/2880.jpg?width=140&quality=85&auto=format&fit=max&s=77d3066fe1e3c6d34500b33e8a09bf14",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776052835.0,
+      "hot": false
+    },
+    {
+      "id": "0f0dd29f37",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "UK could adopt EU single market rules under new legislation",
+      "summary": "Sir Keir Starmer is planning a law which will mean that the UK government can adopt EU single market rules, without them being voted on in Parliament.",
+      "link": "https://www.bbc.com/news/articles/c937jkvp3w8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5c7d/live/6ce58d70-36e5-11f1-9232-4b9563be44e7.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776052834.0,
+      "hot": false
+    },
+    {
+      "id": "903e6c30c4",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Hungarian opposition ousts Viktor Orbán after 16 years in power",
+      "summary": "Péter Magyar’s Tisza party wins election as prime minister concedes defeat, in result likely to reshape ties with EU‘Hungary has chosen Europe’: EU leaders jubilant after Magyar’s victoryHungary’s opp",
+      "link": "https://www.theguardian.com/world/2026/apr/12/viktor-orban-concedes-defeat-as-opposition-wins-hungarian-election",
+      "image": "https://i.guim.co.uk/img/media/08f908691d941cc724416467546c495343c3fdf4/487_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=6798d16d98058adca85e06e7e4a0e8c8",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776047816.0,
+      "hot": false
+    },
+    {
+      "id": "8b280e8394",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Euphoria season three review – grubby, desperate and absolutely not worth the wait",
+      "summary": "What a relief that this is the end for Sam Levison’s grim drama. A show which was once blackly funny is now humourless torture pornTo say that season three of Euphoria is long-awaited would be somethi",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/13/euphoria-season-three-review-sydney-sweeney-zendaya-hbo",
+      "image": "https://i.guim.co.uk/img/media/db053ebc0930b6f2e8031f6a090f462797a63758/132_0_1338_1070/master/1338.jpg?width=140&quality=85&auto=format&fit=max&s=393039c114b9c3a5f15641a89febb6e4",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776045633.0,
       "hot": false
     },
     {
@@ -157,12 +303,12 @@
       "title": "Viktor Orbán's Hungarian experiment runs out of steam",
       "summary": "Péter Magyar's historic win offers peace for a country exhausted by the tensions of Viktor Orbán's rule,  Nick Thorpe reports from Budapest.",
       "link": "https://www.bbc.com/news/articles/cy81lg4yzeyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8ef0/live/8a0c0940-36d3-11f1-8606-05fe34b06e1b.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fa19/live/8b579f70-36fc-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1776045512.0,
       "hot": false
     },
@@ -170,53 +316,71 @@
       "id": "cd7a6c1042",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "UK will not join Trump's blockade of Iran's ports in the Strait of Hormuz",
       "summary": "UK minesweepers and anti-drone capabilities will continue operating in the region, as pressure ramps up to reopen the key shipping route.",
       "link": "https://www.bbc.com/news/articles/c393wxzw4yjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b758/live/7cb49b90-36ce-11f1-8f70-07c0b2585c38.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/962f/live/33882a20-3702-11f1-9d5c-8ba507d7dbde.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776042208.0,
       "hot": false
     },
     {
-      "id": "0acbcff774",
+      "id": "78e513ee90",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Rory McIlroy ignores Jack Nicklaus’s advice and tames the deadly 12th at Augusta | Andy Bull",
+      "summary": "Tom Watson wants to fill in the creek in front. The Golden Bear says play safe if the pin is on the right. McIlroy defied the conventional wisdom and wonThere’s hot, and then there’s the back nine on",
+      "link": "https://www.theguardian.com/sport/2026/apr/13/rory-mcilroy-ignores-jack-nicklauss-advice-and-tames-augustas-terrible-12th",
+      "image": "https://i.guim.co.uk/img/media/2d8289ff2e04e72b7548bd848642150a8ab159f1/318_0_3251_2601/master/3251.jpg?width=140&quality=85&auto=format&fit=max&s=45476e3224cb29e33b1b031cebb1b1c1",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1776036261.0,
+      "hot": false
+    },
+    {
+      "id": "cc47dc0322",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "McIlroy defends Masters title, underlining why he is one of the game's greats",
+      "title": "Rory McIlroy defends Masters title, underlining why he is one of golf's greats",
       "summary": "Moments after winning the Masters last year, Rory McIlroy said it would be transformative. He has proved that by defending the title at Augusta National.",
       "link": "https://www.bbc.com/sport/golf/articles/cgqkgvxgv2xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8dd/live/2dd176d0-36c7-11f1-8c17-9337eb0a5a61.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1716/live/aabe5500-36ef-11f1-bbe5-d90277900dee.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776035810.0,
       "hot": false
     },
     {
-      "id": "1913fc34f2",
+      "id": "50e4556bdd",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "McIlroy proves he really is free by defending Masters title",
+      "title": "McIlroy underlines greatness by defending Masters title",
       "summary": "Moments after winning the Masters last year, Rory McIlroy said it would be transformative. He has proved that by defending the title at Augusta National.",
       "link": "https://www.bbc.com/sport/golf/articles/cgqkgvxgv2xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d8dd/live/2dd176d0-36c7-11f1-8c17-9337eb0a5a61.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1716/live/aabe5500-36ef-11f1-bbe5-d90277900dee.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776035810.0,
       "hot": false
     },
@@ -233,8 +397,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776035170.0,
       "hot": false
     },
@@ -251,8 +415,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776035163.0,
       "hot": false
     },
@@ -270,81 +434,27 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776033006.0,
       "hot": false
     },
     {
-      "id": "0bd991cee4",
+      "id": "d96ea49b79",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Olivier Awards 2026: Rachel Zegler's heroes, Brian Cranston's nap schedule and more moments from the",
+      "title": "Olivier Awards 2026: Rachel Zegler's heroes, Bryan Cranston's nap schedule and more moments from the",
       "summary": "The 50th Oliviers at the Royal Albert Hall provided some memorable conversations away from the ceremony.",
       "link": "https://www.bbc.com/news/articles/c78rjxj19mno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/133f/live/a8ca3e10-36ab-11f1-8606-05fe34b06e1b.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08a7/live/d74718f0-36fe-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776032008.0,
-      "hot": false
-    },
-    {
-      "id": "c4e658551a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "「鄭習會」國共領袖握手13秒，鄭麗文講話未畢直播被切斷",
-      "summary": "兩人多次提到「中華民族偉大復興」，以及「九二共識，反對台獨」的立場。這是國共兩黨最高領導人時隔十年的正式會面，此次會面地點和直播安排與過往不同，引起各界解讀。",
-      "link": "https://www.bbc.com/zhongwen/articles/c89580vjvzko/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4db6/live/964f53c0-34a7-11f1-b260-d5e483232ace.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "2天前",
-      "pub_ts": 1775813472.0,
-      "hot": false
-    },
-    {
-      "id": "aa1c2d4b45",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "王毅罕見訪朝引發特金會猜測   分析指北京目標是「維持平衡」",
-      "summary": "特朗普曾多次表示，希望恢復與金正恩的直接對話。",
-      "link": "https://www.bbc.com/zhongwen/articles/cy915r7q8dro/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8b53/live/db607950-34af-11f1-a676-6ff4dfb1e8ec.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "2天前",
-      "pub_ts": 1775809350.0,
-      "hot": false
-    },
-    {
-      "id": "d77f375db4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "從全紅嬋的哽咽到飯圈再現   體育明星遭「侵入式監控」難題待解",
-      "summary": "19歲奧運跳水三金王全紅嬋在專訪中哽咽落淚，呼籲停止網暴與辱罵家人朋友。曝光的網路微信群組引發中國互聯網震怒。官方已報警，飯圈畸形文化是否再次侵蝕體育生態，界線何在？",
-      "link": "https://www.bbc.com/zhongwen/articles/c8ej921kzj5o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/4aa2/live/89e20180-34ae-11f1-a676-6ff4dfb1e8ec.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "2天前",
-      "pub_ts": 1775806013.0,
       "hot": false
     },
     {
@@ -363,26 +473,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776030913.0,
-      "hot": false
-    },
-    {
-      "id": "7a075bead8",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Paddington musical dominates Olivier Awards",
-      "summary": "The beloved bear's stage show won seven prizes including best new musical and three acting prizes.",
-      "link": "https://www.bbc.com/news/articles/c3v6n7wqd07o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6ef4/live/1134e920-36a5-11f1-9d5c-8ba507d7dbde.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776028055.0,
       "hot": false
     },
     {
@@ -400,119 +492,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776028044.0,
       "hot": false
     },
     {
-      "id": "14501fbb62",
+      "id": "9ffdf3decb",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "‘Part of our souls’: the fight to stop the New Forest being split in two",
-      "summary": "As government reorganisation ties part of the forest to Southampton, local people are angryDella Keable could not hold back the tears as she explained how her family had lived in the forest for centur",
-      "link": "https://www.theguardian.com/uk-news/2026/apr/12/new-forest-split-two-uk-government-protest",
-      "image": "https://i.guim.co.uk/img/media/99f4574c4735950eb5e5cb343082bdb887648441/595_0_7715_6172/master/7715.jpg?width=140&quality=85&auto=format&fit=max&s=3d09b5dec446c10e5efe6ac620bae41f",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1775998818.0,
-      "hot": false
-    },
-    {
-      "id": "522d7fcca1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Too hot to handle? Why it’s time for straight male authors to rediscover sex",
-      "summary": "It’s a high-wire act and the risk of an embarrassing failure can weigh heavily – but that’s no reason to avoid writing about sex, argues Black Bag author Luke KennardAre straight male writers scared o",
-      "link": "https://www.theguardian.com/books/2026/apr/12/too-hot-to-handle-why-its-time-for-straight-male-authors-to-rediscover-sex",
-      "image": "https://i.guim.co.uk/img/media/a9828a47c325ff0a1accd1a8905fa8eeb437dea7/363_77_3443_2756/master/3443.jpg?width=140&quality=85&auto=format&fit=max&s=49de8098af61d40723b1e7701097ae28",
+      "title": "Trump says US will blockade strait of Hormuz after Iran peace talks fail",
+      "summary": "Iran warns move would breach ceasefire as US president also repeats threats to strike critical infrastructureMiddle East crisis – live updatesDonald Trump has said the US will begin blockading the str",
+      "link": "https://www.theguardian.com/world/2026/apr/12/trump-says-us-will-blockade-strait-of-hormuz-as-iran-peace-talks-fail",
+      "image": "https://i.guim.co.uk/img/media/9199806004b36625827a4852e67c7321236be624/675_0_6748_5399/master/6748.jpg?width=140&quality=85&auto=format&fit=max&s=f2fb38de208cce0fab275b9fa749fa63",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775991617.0,
-      "hot": false
-    },
-    {
-      "id": "d288aea7b6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Is AI the greatest art heist in history?",
-      "summary": "New technologies of reproduction  are plundering the art world – and getting away with itIn 2026, its easy to see why generative AI is bad. The internet has nicknamed its excretions “slop”. The CEOs o",
-      "link": "https://www.theguardian.com/books/2026/apr/12/is-ai-the-greatest-art-heist-in-history",
-      "image": "https://i.guim.co.uk/img/media/e5924bf69a60e6e8b0944608ee2e9bd24705dc0e/0_129_1847_1478/master/1847.jpg?width=140&quality=85&auto=format&fit=max&s=76259e4318ed08a0bbe1e05320461f73",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775991617.0,
-      "hot": false
-    },
-    {
-      "id": "338379b762",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "From Andrew Tate to Mountbatten-Windsor, my first name has been dragged through the mud. Can a globa",
-      "summary": "The ‘Council of Andrews’ started as a bit of fun – but has led to friendships, financial help and even fiances…It’s a rough time to be called Andrew. In recent years, notorious figures such as Andrew",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/12/from-andrew-tate-to-mountbatten-windsor-the-council-of-andrews-reclaiming-their-name",
-      "image": "https://i.guim.co.uk/img/media/cdfcaf53d82e38b4374c54a117bff9124d48d643/0_1274_4436_3549/master/4436.jpg?width=140&quality=85&auto=format&fit=max&s=34fb47868394550f15787c9b09e389d6",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1775991616.0,
-      "hot": false
-    },
-    {
-      "id": "4cd716e72f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Protocol be damned: here’s what King Charles should say on his visit to the US | Simon Tisdall",
-      "summary": "The king has the chance to offer some tough love. Perhaps he could start with a speech to Congress about the Trump administration’s reckless trajectoryIt will be a definitive moment for King Charles I",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/king-charles-us-visit-tough-love-speech-congress",
-      "image": "https://i.guim.co.uk/img/media/95a4f404ab70e73341152dfddc9fa5dd466ed02e/335_0_3353_2682/master/3353.jpg?width=140&quality=85&auto=format&fit=max&s=cbe65de6240f4159df777c42202fc406",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1775988706.0,
-      "hot": false
-    },
-    {
-      "id": "110d503a61",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "The United States is destroying itself | Rebecca Solnit",
-      "summary": "The daily news can’t adequately convey the administration’s sabotaging of our government, economy, alliances and environment The United States is being murdered, and it’s an inside job. Every departme",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/12/united-states-trump-destruction",
-      "image": "https://i.guim.co.uk/img/media/5b437d6a2ffb019bf126d8af7c8672ed29b669cb/0_0_3200_2560/master/3200.jpg?width=140&quality=85&auto=format&fit=max&s=50a1834bd73d9f34d77a90b939c9a051",
-      "categories": [
-        "政治",
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1775988014.0,
+      "ago": "11小时前",
+      "pub_ts": 1776018822.0,
       "hot": false
     }
   ]
