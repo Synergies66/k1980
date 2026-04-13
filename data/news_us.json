@@ -1,61 +1,43 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-13T17:35:56.981875+00:00",
-  "total": 19,
+  "updated_at": "2026-04-13T21:11:44.063214+00:00",
+  "total": 18,
   "articles": [
     {
-      "id": "a23e3f4dfa",
+      "id": "0791e06741",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "To Open the Strait of Hormuz, Trump Wants to Blockade Iran. Experts Are Skeptical.",
-      "summary": "President Trump’s announcement of a U.S. blockade was his latest effort to pressure Iran to negotiate after direct talks over the weekend did not yield an agreement.",
-      "link": "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13int-iran-global-pbkf/13int-iran-global-pbkf-mediumSquareAt3X.jpg",
+      "title": "A U.S. military blockade of Iran's ports takes effect. What does that mean?",
+      "summary": "A U.S. blockade of Iranian ports has gone into effect Monday, while President Trump claims Iran wants to make a deal.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5783804/a-u-s-military-blockade-of-irans-ports-takes-effect-what-does-that-mean",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1776100546.0,
+      "ago": "10分前",
+      "pub_ts": 1776114085.0,
       "hot": false
     },
     {
-      "id": "9738703253",
+      "id": "c45ecb5ee2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Takes Down Post Depicting Himself as a Jesus-Like Figure",
-      "summary": "The image, which President Trump shared on Truth Social shortly after criticizing Pope Leo, depicted him as a divine leader healing the sick.",
-      "link": "https://www.nytimes.com/2026/04/13/us/politics/trump-jesus-pope-leo-truth-social-post.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13trump-news-image-jvzf/13trump-news-image-jvzf-mediumSquareAt3X.jpg",
+      "title": "Many Popes Before Leo Have Been Entangled in Politics. Here Are 5 of Them.",
+      "summary": "Leo XIV, under fire from President Trump, has joined predecessors like Francis and John Paul II in confronting political issues.",
+      "link": "https://www.nytimes.com/2026/04/13/world/europe/pope-leo-trump-dispute.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13int-pope-politics-01-qfbc/13int-pope-politics-01-qfbc-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1776100347.0,
-      "hot": false
-    },
-    {
-      "id": "0b4a7278a5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Judge Dismisses Trump’s Suit Over WSJ Report on Birthday Card to Epstein",
-      "summary": "The judge said President Trump had not “plausibly alleged” that The Journal published the article with actual malice.",
-      "link": "https://www.nytimes.com/2026/04/13/business/media/trump-wall-street-journal-lawsuit-dismissed-epstein.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13biz-wsj-trump-vbjh-wsj-pmwh/13biz-wsj-trump-vbjh-wsj-pmwh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1776098661.0,
+      "ago": "36分前",
+      "pub_ts": 1776112486.0,
       "hot": false
     },
     {
@@ -73,79 +55,61 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776097119.0,
+      "pub_ts": 1776108065.0,
       "hot": false
     },
     {
-      "id": "511950a32c",
+      "id": "b3058a98e5",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Pride Flag Can Fly at Stonewall After Trump Administration Reversal",
-      "summary": "The settlement ends a symbolic attack on the L.G.B.T.Q. rights movement and deals a blow to the administration’s assault on diversity initiatives.",
-      "link": "https://www.nytimes.com/2026/04/13/nyregion/pride-flag-stonewall-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13met-stonewall-tmwf/13met-stonewall-tmwf-mediumSquareAt3X.jpg",
+      "title": "How Orban Lost His Touch, and Hungary’s Election",
+      "summary": "The election defeat for Prime Minister Viktor Orban is less the result of an ideological shift in Hungary, and more the playing out of a fundamental rule of politics.",
+      "link": "https://www.nytimes.com/2026/04/13/world/europe/orban-hungary-election-magyar-populism.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13Hungary-assess-01-mjht/13Hungary-assess-01-mjht-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "政治"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776096061.0,
+      "pub_ts": 1776108039.0,
       "hot": false
     },
     {
-      "id": "7bde66da92",
+      "id": "6f9e8d9078",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Judge dismisses Trump's $10B lawsuit over the Wall Street Journal's Epstein reporting",
-      "summary": "In the order issued Monday, the judge wrote that President Trump had failed to make the argument that the article, which described a letter to Epstein that the newspaper said bore Trump's signature, w",
-      "link": "https://www.npr.org/2026/04/13/g-s1-117248/judge-dismisses-trump-lawsuit-epstein-letter-wsj-story-murdoch",
-      "image": null,
+      "title": "Trump’s Explanation for an Image of Himself as Jesus: ‘I Thought It Was Me as a Doctor’",
+      "summary": "The image showed President Trump bathed in divine light and clad in religious robes. His interpretation was that the image depicted him as a doctor, not Jesus Christ.",
+      "link": "https://www.nytimes.com/2026/04/13/us/politics/trump-jesus-picture-pope-leo.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13dc-trump-pope-mgfc/13dc-trump-pope-mgfc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776107327.0,
+      "hot": false
+    },
+    {
+      "id": "72c070e75b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran Blockade Sets Up a Test of Which Side Can Endure More Pain",
+      "summary": "President Trump is trying to choke off the country’s lifeline with a blockade of the Strait of Hormuz. But the Iranians are betting that his tolerance for political pain is limited.",
+      "link": "https://www.nytimes.com/2026/04/13/us/politics/iran-war-strait-of-hormuz-blockade-economy.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13DC-TRUMP-BLOCKADE-bjcz/13DC-TRUMP-BLOCKADE-bjcz-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776095709.0,
-      "hot": false
-    },
-    {
-      "id": "c45ecb5ee2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Many Popes Before Leo Have Been Entangled in Politics. Here Are 5 of Them.",
-      "summary": "Leo XIV, under fire from President Trump, has joined predecessors like Francis and John Paul II in confronting political issues.",
-      "link": "https://www.nytimes.com/2026/04/13/world/europe/pope-leo-trump-dispute.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13int-pope-politics-01-qfbc/13int-pope-politics-01-qfbc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776094578.0,
-      "hot": false
-    },
-    {
-      "id": "51f1e632fd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How a $75 billion windfall from Congress has insulated ICE",
-      "summary": "Last year, Congress approved $75 billion for immigration enforcement. That money has allowed ICE to operate nearly unfettered during a record-long shutdown of the Department of Homeland Security.",
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5771608/immigration-congress-75-billion",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "8小时前",
-      "pub_ts": 1776070800.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776106892.0,
       "hot": false
     },
     {
@@ -163,25 +127,79 @@
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1776093559.0,
+      "pub_ts": 1776106402.0,
       "hot": false
     },
     {
-      "id": "72c070e75b",
+      "id": "511950a32c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Iran Blockade Sets Up a Test of Which Side Can Endure More Pain",
-      "summary": "President Trump is trying to choke off the country’s lifeline with a blockade of the Strait of Hormuz. But the Iranians are betting that his tolerance for political pain is limited.",
-      "link": "https://www.nytimes.com/2026/04/13/us/politics/iran-war-strait-of-hormuz-blockade-economy.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13DC-TRUMP-BLOCKADE-bjcz/13DC-TRUMP-BLOCKADE-bjcz-mediumSquareAt3X.jpg",
+      "title": "Pride Flag Can Fly at Stonewall After Trump Administration Reversal",
+      "summary": "The settlement ends a symbolic attack on the L.G.B.T.Q. rights movement and deals a blow to the administration’s assault on diversity initiatives.",
+      "link": "https://www.nytimes.com/2026/04/13/nyregion/pride-flag-stonewall-trump.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13met-stonewall-tmwf/13met-stonewall-tmwf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776106135.0,
+      "hot": false
+    },
+    {
+      "id": "e12263f2a1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "5 things to know about Péter Magyar, Hungary's new prime minister",
+      "summary": "Magyar ended Hungarian Prime Minister Viktor Orbán's 16-year grip on power in a landslide victory on Sunday. The former Orbán loyalist burst onto the scene as an opposition leader in 2024.",
+      "link": "https://www.npr.org/2026/04/13/nx-s1-5783657/peter-magyar-hungary-prime-minister-orban-election",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776102967.0,
+      "hot": false
+    },
+    {
+      "id": "a23e3f4dfa",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "To Open the Strait of Hormuz, Trump Wants to Blockade Iran. Experts Are Skeptical.",
+      "summary": "President Trump’s announcement of a U.S. blockade was his latest effort to pressure Iran to negotiate after direct talks over the weekend did not yield an agreement.",
+      "link": "https://www.nytimes.com/2026/04/13/world/middleeast/trump-iran-blockade-strait-of-hormuz.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13int-iran-global-pbkf/13int-iran-global-pbkf-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1776088561.0,
+      "pub_ts": 1776100547.0,
+      "hot": false
+    },
+    {
+      "id": "7bde66da92",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Judge dismisses Trump's $10B lawsuit over the Wall Street Journal's Epstein reporting",
+      "summary": "In the order issued Monday, the judge wrote that President Trump had failed to make the argument that the article, which described a letter to Epstein that the newspaper said bore Trump's signature, w",
+      "link": "https://www.npr.org/2026/04/13/g-s1-117248/judge-dismisses-trump-lawsuit-epstein-letter-wsj-story-murdoch",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776095709.0,
       "hot": false
     },
     {
@@ -197,8 +215,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776081396.0,
       "hot": false
     },
@@ -216,7 +234,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776078193.0,
       "hot": false
     },
@@ -234,7 +252,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776077034.0,
       "hot": false
     },
@@ -252,7 +270,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776077011.0,
       "hot": false
     },
@@ -270,7 +288,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776074400.0,
       "hot": false
     },
@@ -289,44 +307,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776069964.0,
-      "hot": false
-    },
-    {
-      "id": "1722b5a35f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Oil prices surge after U.S.-Iran peace talks break down",
-      "summary": "The U.S. said on Sunday that it will soon block ships from Iranian ports. It comes after the U.S. and Iran failed to reach an agreement during face-to-face peace talks, sending oil prices surging.",
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5781260/oil-prices-surge-after-us-iran-peace-talks-break-down",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776069921.0,
-      "hot": false
-    },
-    {
-      "id": "ff8a78480a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former U.S. special envoy on where U.S. and Iran stand after failed negotiations",
-      "summary": "NPR's Michel Martin asks Robert Malley, former U.S. special envoy for Iran, about where the weekend's negotiations between the U.S. and Iran leave diplomatic efforts to resolve the war.",
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5780993/former-us-special-envoy-on-where-us-and-iran-stand-after-failed-negotiations",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776069918.0,
       "hot": false
     },
     {
