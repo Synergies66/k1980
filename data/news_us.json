@@ -1,9 +1,101 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-14T06:14:37.641746+00:00",
-  "total": 19,
+  "updated_at": "2026-04-14T09:53:10.883326+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "de145d5700",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Slip and Stocks Gain as Investors Eye Possible Path to Peace",
+      "summary": "Investors saw a possible path to peace, with the United States and Iran trading proposals for Iran to suspend nuclear activity.",
+      "link": "https://www.nytimes.com/2026/04/14/business/oil-gas-stocks-prices.html",
+      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/14Biz-Oil-Stocks-Gas-promo-zhcm/14Biz-Oil-Stocks-Gas-promo-zhcm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1776159638.0,
+      "hot": false
+    },
+    {
+      "id": "ebc95e1186",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Why Congress is fighting over a central tool of American surveillance",
+      "summary": "Section 702 of the Foreign Intelligence Surveillance Act is responsible for a huge share of intel collected by the U.S. Lawmakers and civil liberties advocates are worried it enables warrantless spyin",
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5768270/what-to-know-about-section-702-surveillance",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776157200.0,
+      "hot": false
+    },
+    {
+      "id": "03a39fd766",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "Reps. Eric Swalwell and Tony Gonzales are stepping down amid misconduct allegations, the U.S. and Iran are both blocking oil exports, Trump deletes controversial post amid row with pope.",
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5780735/morning-news-brief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776156211.0,
+      "hot": false
+    },
+    {
+      "id": "8d1af447e8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Ukraine hopes for more cooperation after Hungary elects new prime minister",
+      "summary": "The incoming prime minister of Hungary is no fan of Ukraine, but he says he wants to work with the European Union, raising hopes he'll lift a Hungarian veto on a $100 billion EU loan to Kyiv.",
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5783682/ukraine-hopes-for-more-cooperation-after-hungary-elects-new-prime-minister",
+      "image": null,
+      "categories": [
+        "政治",
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776156157.0,
+      "hot": false
+    },
+    {
+      "id": "e5b30075c8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "'Hanging by a thread': Fertilizer shortage in India deepens due to ongoing Iran war",
+      "summary": "With shipments through the Strait of Hormuz stalled after the Iran war began, fertilizer shortages are deepening across India.",
+      "link": "https://www.npr.org/2026/04/14/nx-s1-5779769/hanging-by-a-thread-fertilizer-shortage-in-india-deepens-due-to-ongoing-iran-war",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776156150.0,
+      "hot": false
+    },
     {
       "id": "4f323d3f86",
       "type": "news",
@@ -17,8 +109,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "33分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776145274.0,
       "hot": false
     },
@@ -36,7 +128,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776139266.0,
       "hot": false
     },
@@ -53,8 +145,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776131637.0,
       "hot": false
     },
@@ -71,8 +163,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776129541.0,
       "hot": false
     },
@@ -89,8 +181,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776129537.0,
       "hot": false
     },
@@ -107,8 +199,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776128530.0,
       "hot": false
     },
@@ -126,7 +218,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776122701.0,
       "hot": false
     },
@@ -144,7 +236,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776120789.0,
       "hot": false
     },
@@ -162,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776118812.0,
       "hot": false
     },
@@ -180,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776117992.0,
       "hot": false
     },
@@ -198,26 +290,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776116940.0,
-      "hot": false
-    },
-    {
-      "id": "9db363bf08",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What the U.S. Blockade of Iran and the Strait of Hormuz Might Look Like",
-      "summary": "The U.S. military has provided few details on how it might carry out President Trump’s orders as he seeks to pressure Tehran on a peace deal. But history and established practices offer some clues.",
-      "link": "https://www.nytimes.com/2026/04/13/us/politics/strait-of-hormuz-blockade-iran-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/13dc-blockade-explainer-qzkp/13dc-blockade-explainer-qzkp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776116293.0,
       "hot": false
     },
     {
@@ -234,7 +308,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1776114085.0,
       "hot": false
     },
@@ -252,7 +326,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1776102967.0,
       "hot": false
     },
@@ -270,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1776095709.0,
       "hot": false
     },
@@ -288,7 +362,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1776081396.0,
       "hot": false
     },
@@ -296,7 +370,7 @@
       "id": "b9913bbcfd",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump vows to sink Iranian ships approaching a U.S. blockade of Strait of Hormuz",
       "summary": "President Trump said the U.S. would interdict vessels that had paid what he called an \"illegal toll\" to Iran to cross the Strait of Hormuz.",
@@ -306,26 +380,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1776078193.0,
-      "hot": false
-    },
-    {
-      "id": "56ffa8f477",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Retired U.S. Navy admiral on Trump's threat to blockade the Strait of Hormuz",
-      "summary": "NPR's Michel Martin speaks to retired U.S. Navy Adm. James Foggo, dean of the Center for Maritime Strategy, about President Trump's command to blockade the Strait of Hormuz.",
-      "link": "https://www.npr.org/2026/04/13/nx-s1-5780994/retired-us-navy-admiral-on-trumps-threat-to-blockade-the-strait-of-hormuz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776077034.0,
       "hot": false
     },
     {
