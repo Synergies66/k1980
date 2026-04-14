@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-14T14:21:30.095111+00:00",
+  "updated_at": "2026-04-14T17:47:39.279588+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "c1bdf3211a",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "CENTCOM says no ships passed U.S. blockade in first 24 hours",
+      "summary": "WASHINGTON, April 14 (Yonhap) -- No ships were able to pass the U.S. naval block...",
+      "link": "https://en.yna.co.kr/view/AEN20260415000200315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/15/AEN20260415000200315_01_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776182892.0,
+      "hot": false
+    },
     {
       "id": "0295f04156",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776172494.0,
       "hot": false
     },
@@ -36,8 +54,8 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776171601.0,
       "hot": false
     },
@@ -54,8 +72,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776169781.0,
       "hot": false
     },
@@ -73,7 +91,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776168744.0,
       "hot": false
     },
@@ -90,8 +108,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776165501.0,
       "hot": false
     },
@@ -109,8 +127,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776163184.0,
       "hot": false
     },
@@ -127,27 +145,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776158742.0,
-      "hot": false
-    },
-    {
-      "id": "65dc975961",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Top S. Korean, U.S., Japanese admirals to hold talks in Seoul",
-      "summary": "SEOUL, April 14 (Yonhap) -- Top admirals of South Korea, the United States and J...",
-      "link": "https://en.yna.co.kr/view/AEN20260414009000315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/14/AEN20260414009000315_01_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776158380.0,
       "hot": false
     }
   ]
