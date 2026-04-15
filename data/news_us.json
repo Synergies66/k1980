@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-15T06:15:09.648426+00:00",
+  "updated_at": "2026-04-15T09:53:52.495136+00:00",
   "total": 23,
   "articles": [
     {
@@ -18,9 +18,9 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1776229557.0,
+      "score": 77,
+      "ago": "4小时前",
+      "pub_ts": 1776229558.0,
       "hot": false
     },
     {
@@ -37,9 +37,99 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1776217773.0,
+      "hot": false
+    },
+    {
+      "id": "43f1a13862",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pope heads to Cameroon as separatists announce 3-day pause in fighting",
+      "summary": "Pope Leo XIV is heading to the central African nation of Cameroon with a message of peace for its separatist region and for talks with President Paul Biya.",
+      "link": "https://www.npr.org/2026/04/15/g-s1-117486/pope-heads-to-cameroon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1776244499.0,
+      "hot": false
+    },
+    {
+      "id": "f6f8782a39",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "They counted on a rural dialysis unit to keep them alive. Then it closed",
+      "summary": "A hospital in Nebraska shut down the only dialysis unit for miles, upending lives. That's despite a new federal program that gave the state more than $200 million to improve rural health care access.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5785126/rural-health-dialysis-clinic-funding",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776243600.0,
+      "hot": false
+    },
+    {
+      "id": "590e60d82f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "No one likes being discombobulated. How did the feeling get such a fun name?",
+      "summary": "Sometimes you just need to recombobulate. That word isn't in the dictionary, but it is on a beloved sign at Milwaukee's airport.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5779282/discombobulated-origins-history",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776243600.0,
+      "hot": false
+    },
+    {
+      "id": "ba439c26ee",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Quit a GLP-1? Plan to start again? It's not recommended, but plenty of people do it",
+      "summary": "A majority of people who start the obesity and diabetes medicines known as GLP-1s also quit them, and plan to restart again. Research hasn't yet shown the health impacts of cycling on and off the drug",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5712532/glp-1-quit-begin-ozempic-wegovy-mounjaro-zepbound",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776243600.0,
+      "hot": false
+    },
+    {
+      "id": "cee15b9c70",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'No peace': Nearly a year after her son's death, she learned that ICE was responsible",
+      "summary": "Ruben Ray Martinez is considered the first person to be killed by ICE during President Trump's second term. His mother believes his death could have been avoided.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5782114/ice-shooting-texas-ruben-ray-martinez-mother",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776243600.0,
       "hot": false
     },
     {
@@ -56,8 +146,120 @@
         "本地"
       ],
       "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1776232694.0,
+      "ago": "1小时前",
+      "pub_ts": 1776242894.0,
+      "hot": false
+    },
+    {
+      "id": "23f7b76955",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "Inside the peace talks happening across the Middle East, Iran war drives Europe toward fuel crisis, Eric Swalwell facing new sexual assault allegations.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5780736/morning-news-brief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776242778.0,
+      "hot": false
+    },
+    {
+      "id": "c115d2e6b1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "As fuel prices continue to rise, Iran war drives Europe toward new crisis",
+      "summary": "As fuel protests bring Ireland to a standstill and UK leaders decry price hikes driven by the Iran war, Europe -- barely recovered from the energy shock of the Ukraine war -- faces another crisis.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5784802/as-fuel-prices-continue-to-rise-iran-war-drives-europe-toward-new-crisis",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776242634.0,
+      "hot": false
+    },
+    {
+      "id": "dd436c2795",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "IMF predicts Iran war will slow economic growth and raise inflation globally",
+      "summary": "The International Monetary Fund expects the Iran war to slow the global economy and raise inflation. NPR's Michel Martin discusses the forecast with Simon Johnson, a former IMF chief economist.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5785040/imf-predicts-iran-war-will-slow-economic-growth-and-raise-inflation-globally",
+      "image": null,
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776242629.0,
+      "hot": false
+    },
+    {
+      "id": "a9c21ca522",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Trump slams Italian prime minister, one of his few remaining European allies",
+      "summary": "NPR's A Martinez speaks with Italian journalist Viviana Mazza about President Trump's criticism of Italian Prime Minister Giorgia Meloni, one of few remaining allies in Europe.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5785299/trump-slams-italian-prime-minister-one-of-his-few-remaining-european-allies",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776242591.0,
+      "hot": false
+    },
+    {
+      "id": "97474cce29",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Raffle winner thrilled to claim a $1 million Picasso with a $117 ticket",
+      "summary": "\"How do I check that it's not a hoax?\" said Ari Hodara. The Parisian art enthusiast could not believe his luck when he found out he'd won a Pablo Picasso painting worth $1 million.",
+      "link": "https://www.npr.org/2026/04/15/g-s1-117480/raffle-winner-picasso",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776241244.0,
+      "hot": false
+    },
+    {
+      "id": "5d691b4c47",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Super Typhoon Sinlaku pounds remote U.S. islands in the Pacific Ocean",
+      "summary": "A super typhoon steadily battered a pair of remote U.S. islands in the Pacific Ocean with ferocious winds and relentless rains, shredding tin roofs and forcing residents to take cover.",
+      "link": "https://www.npr.org/2026/04/15/g-s1-117475/super-typhoon-sinlaku",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776238989.0,
       "hot": false
     },
     {
@@ -69,12 +271,12 @@
       "title": "Pope Leo’s Challenge in Cameroon: Show African Catholics How Much They Matter",
       "summary": "Catholicism is growing fast on the continent, yet Africans play a comparatively small role in church leadership. Cameroon, which Leo XIV will visit Wednesday, shows the divide.",
       "link": "https://www.nytimes.com/2026/04/15/world/africa/pope-leo-cameroon-africa.html",
-      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/14pope-cameroon-01-gwcp/14pope-cameroon-01-gwcp-mediumSquareAt3X.jpg",
+      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/14pope-cameroon-01-gwcp/14pope-cameroon-01-gwcp-mediumSquareAt3X-v2.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776225667.0,
       "hot": false
     },
@@ -91,8 +293,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776223638.0,
       "hot": false
     },
@@ -109,8 +311,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776216148.0,
       "hot": false
     },
@@ -127,8 +329,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776214361.0,
       "hot": false
     },
@@ -146,33 +348,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776209671.0,
-      "hot": false
-    },
-    {
-      "id": "ac2295c6f5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "New species of glass frog identified in Ecuador",
-      "summary": "A new type of glass frog has been discovered in Ecuador, and researchers have named it after weightlifter Neisi Dajomes, the first Ecuadorian woman to win an Olympic gold medal.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5776612/new-species-of-glass-frog-identified-in-ecuador",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1776199814.0,
       "hot": false
     },
     {
       "id": "64e1f67d3c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Israel is building a buffer zone inside Lebanon",
       "summary": "Israel is creating a large buffer zone in southern Lebanon for a prolonged military occupation, with low expectations that direct talks with Lebanon will lead to quick action on disarming Hezbollah.",
@@ -182,87 +366,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1776198846.0,
-      "hot": false
-    },
-    {
-      "id": "515072f426",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Justice Department says Biden DOJ weaponized law to go after anti-abortion activists",
-      "summary": "The Trump administration has said that enforcement of the FACE Act by the Biden DOJ represents \"the prototypical example\" of the weaponization of the law against conservatives.",
-      "link": "https://www.npr.org/2026/04/14/g-s1-117430/doj-biden-weaponization-report",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776194004.0,
-      "hot": false
-    },
-    {
-      "id": "6c5b7e0650",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Law enforcement is trying to combat abusive AI. Experts say easier said than done",
-      "summary": "An Ohio man was convicted of cybercrimes involving obscene AI-generated images of women and children. But experts warn of the difficulties in going after such cases.",
-      "link": "https://www.npr.org/2026/04/14/g-s1-117410/deepfake-ai-images-child-sex-abuse",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776190292.0,
-      "hot": false
-    },
-    {
-      "id": "d2be16d1fb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Iran war created a global natural gas shortage — a windfall for U.S. companies",
-      "summary": "With Qatar's liquefied natural gas still offline, U.S. companies see an opening and are bringing in new investments.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5766431/us-iran-trump-lng-supply-strait-of-hormuz-qatar",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776189057.0,
-      "hot": false
-    },
-    {
-      "id": "0b458cedef",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Historic decline in U.S. overdose deaths threatened by changing street drug supply",
-      "summary": "Drug overdose deaths are plummeting in the U.S. in ways never seen before. Experts worry new, toxic \"synthetic\" street drugs could derail the recovery.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5783750/overdose-fentanyl-medetomidine-xylazine",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "13小时前",
-      "pub_ts": 1776186184.0,
+      "pub_ts": 1776198846.0,
       "hot": false
     },
     {
       "id": "7dd8fecae2",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Veteran diplomat offers insights into the war in Iran — and thoughts on what's next",
       "summary": "The war entered a new phase when President Trump began a U.S. naval blockade of the Strait of Hormuz. Aaron David Miller of the Carnegie Endowment for International Peace explains what this means.",
@@ -272,26 +384,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1776183069.0,
-      "hot": false
-    },
-    {
-      "id": "6625938c6d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "You can order your own blood work now. Interpreting the results is another story",
-      "summary": "Firms like Function Health and Oura market regular blood tests to people wanting to take their health into their own hands. The process often raises more questions for patients than it can answer.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5780066/oura-function-wearables-blood-testing-bloodwork",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776178704.0,
       "hot": false
     },
     {
@@ -308,102 +402,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776175751.0,
-      "hot": false
-    },
-    {
-      "id": "2dbf91971c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Fuel protests have Ireland's government facing possible no-confidence vote",
-      "summary": "The prime minister announced new tax cuts to try to end the crisis that began after the U.S.-Israel war on Iran led to the closure of the Strait of Hormuz. The government could face a no-confidence vo",
-      "link": "https://www.npr.org/2026/04/14/g-s1-117383/fuel-protests-have-irelands-government-facing-possible-no-confidence-vote",
-      "image": null,
-      "categories": [
-        "政治",
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776175001.0,
-      "hot": false
-    },
-    {
-      "id": "f9d7cca686",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Eric Swalwell will resign from Congress. And, Trump feuds with Pope Leo over Iran War",
-      "summary": "Eric Swalwell is resigning from Congress after multiple women accused him of sexual assault and misconduct. And, Trump is feuding with Pope Leo, calling him weak on crime for opposing the war.",
-      "link": "https://www.npr.org/2026/04/14/g-s1-117363/up-first-newsletter-eric-swalwell-strait-of-hormuz-pope-leo-trump-section-702-foreign-intelligence-surveillance-act",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1776166058.0,
-      "hot": false
-    },
-    {
-      "id": "e2f5460f5b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israel and Lebanon agree to start peace negotiations after rare talks in D.C.",
-      "summary": "Secretary of State Marco Rubio said the talks were meant to lay out a framework for lasting peace and to bring an end to Hezbollah's influence in the region.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5784551/lebanon-israel-talks",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1776166041.0,
-      "hot": false
-    },
-    {
-      "id": "8d1af447e8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ukraine hopes for more cooperation after Hungary elects new prime minister",
-      "summary": "The incoming prime minister of Hungary is no fan of Ukraine, but he says he wants to work with the European Union, raising hopes he'll lift a Hungarian veto on a $100 billion EU loan to Kyiv.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5783682/ukraine-hopes-for-more-cooperation-after-hungary-elects-new-prime-minister",
-      "image": null,
-      "categories": [
-        "政治",
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1776156157.0,
-      "hot": false
-    },
-    {
-      "id": "e5b30075c8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "'Hanging by a thread': Fertilizer shortage in India deepens due to ongoing Iran war",
-      "summary": "With shipments through the Strait of Hormuz stalled after the Iran war began, fertilizer shortages are deepening across India.",
-      "link": "https://www.npr.org/2026/04/14/nx-s1-5779769/hanging-by-a-thread-fertilizer-shortage-in-india-deepens-due-to-ongoing-iran-war",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1776156150.0,
       "hot": false
     },
     {
