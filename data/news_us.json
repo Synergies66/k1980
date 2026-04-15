@@ -1,26 +1,115 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-15T17:36:41.661662+00:00",
+  "updated_at": "2026-04-15T21:11:06.573440+00:00",
   "total": 21,
   "articles": [
     {
-      "id": "c9568d9737",
+      "id": "a97160504c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "One week after Israel's deadly strikes in Beirut, a family searches for their daughter",
+      "summary": "A week after Israel struck more than 100 times in 10 minutes across Lebanon, killing over 350 people, we spend time with a family still searching for their daughter in the rubble in central Beirut.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5783812/one-week-after-israels-deadly-strikes-in-beirut-a-family-searches-for-their-daughter",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1776286900.0,
+      "hot": false
+    },
+    {
+      "id": "d5175e4f8b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Amid Iran War, Companies Look to Extend a Record Profit Run by Raising Prices",
-      "summary": "Higher inflation is leading companies to raise prices without sacrificing margins.",
-      "link": "https://www.nytimes.com/2026/04/15/business/economy/companies-profits-prices-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-corp-margins1-cwbp/15biz-corp-margins1-cwbp-mediumSquareAt3X.jpg",
+      "title": "Labor Department Investigates Texts Sent Among Staff, Secretary and Her Family",
+      "summary": "Secretary Lori Chavez-DeRemer asked staff members to bring wine to her hotel room, and to keep in touch with her husband and father.",
+      "link": "https://www.nytimes.com/2026/04/15/us/politics/labor-secretary-text-messages.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-Labor-evidence-hftk/15biz-Labor-evidence-hftk-mediumSquareAt3X.jpg",
       "categories": [
-        "经济",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1776286669.0,
+      "hot": false
+    },
+    {
+      "id": "add120eedc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Middle East conflict causes a fluoride shortage for US drinking water",
+      "summary": "Some U.S. water systems are cutting back on fluoride because of a key chemical is in short supply. Israel is one of its main producers.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5786697/middle-east-conflict-causes-a-fluoride-shortage-for-us-drinking-water",
+      "image": null,
+      "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1776273167.0,
+      "ago": "32分前",
+      "pub_ts": 1776285507.0,
+      "hot": false
+    },
+    {
+      "id": "970e15274e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Hit Record High as Wall St. Looks Beyond War",
+      "summary": "Investors appear to be treating an end to the U.S.-Israeli war with Iran as a foregone conclusion, as the S&P 500 closes above 7,000.",
+      "link": "https://www.nytimes.com/2026/04/15/business/stocks-record-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/2026-biz-april-standalone-promos-0415-stocks/2026-biz-april-standalone-promos-0415-stocks-mediumSquareAt3X-v6.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1776283993.0,
+      "hot": false
+    },
+    {
+      "id": "403668ad94",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Popes have spoken out on politics before. But with Trump and Pope Leo it's different",
+      "summary": "President Trump's attacks on Pope Leo are unprecedented, religious experts told NPR. Here's how the situation differs from other popes' political critiques.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5779690/pope-leo-donald-trump-war-iran-vance-history",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776283089.0,
+      "hot": false
+    },
+    {
+      "id": "0d8227ff46",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Quest for More Sway Over Fed Faces Fresh Hurdles",
+      "summary": "Jerome H. Powell’s term as chair of the Federal Reserve ends on May 15, but it appears increasingly likely that he will stay on in some capacity at the central bank after that.",
+      "link": "https://www.nytimes.com/2026/04/15/business/trump-federal-bank-fresh-hurdles.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15dc-fed-transition-01-tbfv/15dc-fed-transition-01-tbfv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776281254.0,
       "hot": false
     },
     {
@@ -38,9 +127,46 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1776272502.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776278508.0,
+      "hot": false
+    },
+    {
+      "id": "4cd60937c7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Ad Companies Settle With F.T.C. Over Claims of Harm to Conservative Sites",
+      "summary": "WPP, Dentsu and Publicis settled claims they colluded on policies to combat misinformation, denying ad revenue to publishers on the right.",
+      "link": "https://www.nytimes.com/2026/04/15/technology/ftc-ad-companies-settlement.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15ftc-ads-1-lpbv/15ftc-ads-1-lpbv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776276515.0,
+      "hot": false
+    },
+    {
+      "id": "c9568d9737",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Amid Iran War, Companies Look to Extend a Record Profit Run by Raising Prices",
+      "summary": "Higher inflation is leading companies to raise prices without sacrificing margins.",
+      "link": "https://www.nytimes.com/2026/04/15/business/economy/companies-profits-prices-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-corp-margins1-cwbp/15biz-corp-margins1-cwbp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776273167.0,
       "hot": false
     },
     {
@@ -56,8 +182,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776269993.0,
       "hot": false
     },
@@ -74,45 +200,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776267565.0,
-      "hot": false
-    },
-    {
-      "id": "f11e207c68",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "That Meeting You Hate May Keep A.I. From Stealing Your Job",
-      "summary": "As artificial intelligence makes many tasks easier, the human work of cajoling, arm-twisting and reassuring appears to be rising in importance.",
-      "link": "https://www.nytimes.com/2026/04/15/business/ai-jobs-human-work.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776266407.0,
-      "hot": false
-    },
-    {
-      "id": "9aa30c8281",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What Is ‘Jagged Intelligence’ and How Can It Reframe the AI Debate?",
-      "summary": "A.I. has always been compared to human intelligence, but that may not be the right way to think about it. What it does well can help predict what jobs it may replace.",
-      "link": "https://www.nytimes.com/2026/04/15/technology/how-jagged-intelligence-can-reframe-the-ai-debate.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/business/00jagged-intelligence/00jagged-intelligence-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776266381.0,
       "hot": false
     },
     {
@@ -129,27 +219,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776266205.0,
-      "hot": false
-    },
-    {
-      "id": "7e3c5f1d6e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Increased Tax Refunds, but a Political Challenge Still Looms",
-      "summary": "While last year’s tax law has raised the average I.R.S. refund, the boost is less than the White House expected — and may not have much impact on voters.",
-      "link": "https://www.nytimes.com/2026/04/15/business/trump-tax-law-refunds-voters.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-TAXDAY-sub-tcgv/15DC-TAXDAY-sub-tcgv-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776265412.0,
       "hot": false
     },
     {
@@ -165,8 +236,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776264469.0,
       "hot": false
     },
@@ -183,8 +254,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776263442.0,
       "hot": false
     },
@@ -201,8 +272,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776259814.0,
       "hot": false
     },
@@ -220,7 +291,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776252977.0,
       "hot": false
     },
@@ -238,7 +309,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776251002.0,
       "hot": false
     },
@@ -246,7 +317,7 @@
       "id": "dc57c8a44b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Fela Kuti is the first African artist to enter the Rock & Roll Hall of Fame",
       "summary": "In December, the late Nigerian superstar became the first African musician to get a Grammy lifetime achievement award. Now he's making history as well at the Rock & Roll Hall of Fame.",
@@ -256,26 +327,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776249531.0,
-      "hot": false
-    },
-    {
-      "id": "ab5ea1a5a0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Tax season was supposed to bring big refunds. So far they're less than expected",
-      "summary": "The average refund so far is $350 more than last year at this time, despite projections that it would be closer to $1,000 due to Republican-led tax changes as part of the Big Beautiful Bill Act.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5785059/tax-refunds-less-than-expected",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776247200.0,
       "hot": false
     },
     {
@@ -292,26 +345,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776244499.0,
-      "hot": false
-    },
-    {
-      "id": "94fecc64f3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Vance Says Pope Leo Should Be More Careful When Talking About Theology",
-      "summary": "The vice president, who is Catholic, took issue with Pope Leo XIV’s statement that disciples of Christ are “never on the side of those who once wielded the sword and today drop bombs.”",
-      "link": "https://www.nytimes.com/2026/04/14/us/politics/vance-pope-trump-georgia.html",
-      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/14dc-vance-2-kmvg/14dc-vance-2-kmvg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776242894.0,
       "hot": false
     },
     {
@@ -328,46 +363,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776242643.0,
-      "hot": false
-    },
-    {
-      "id": "c115d2e6b1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "As fuel prices continue to rise, Iran war drives Europe toward new crisis",
-      "summary": "As fuel protests bring Ireland to a standstill and UK leaders decry price hikes driven by the Iran war, Europe -- barely recovered from the energy shock of the Ukraine war -- faces another crisis.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5784802/as-fuel-prices-continue-to-rise-iran-war-drives-europe-toward-new-crisis",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776242634.0,
-      "hot": false
-    },
-    {
-      "id": "dd436c2795",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "IMF predicts Iran war will slow economic growth and raise inflation globally",
-      "summary": "The International Monetary Fund expects the Iran war to slow the global economy and raise inflation. NPR's Michel Martin discusses the forecast with Simon Johnson, a former IMF chief economist.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5785040/imf-predicts-iran-war-will-slow-economic-growth-and-raise-inflation-globally",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776242629.0,
       "hot": false
     },
     {
