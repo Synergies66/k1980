@@ -1,43 +1,117 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-15T21:11:06.573440+00:00",
+  "updated_at": "2026-04-16T03:50:38.070402+00:00",
   "total": 21,
   "articles": [
     {
-      "id": "a97160504c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "One week after Israel's deadly strikes in Beirut, a family searches for their daughter",
-      "summary": "A week after Israel struck more than 100 times in 10 minutes across Lebanon, killing over 350 people, we spend time with a family still searching for their daughter in the rubble in central Beirut.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5783812/one-week-after-israels-deadly-strikes-in-beirut-a-family-searches-for-their-daughter",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1776286900.0,
-      "hot": false
-    },
-    {
-      "id": "d5175e4f8b",
+      "id": "61dc484e3e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Labor Department Investigates Texts Sent Among Staff, Secretary and Her Family",
-      "summary": "Secretary Lori Chavez-DeRemer asked staff members to bring wine to her hotel room, and to keep in touch with her husband and father.",
-      "link": "https://www.nytimes.com/2026/04/15/us/politics/labor-secretary-text-messages.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-Labor-evidence-hftk/15biz-Labor-evidence-hftk-mediumSquareAt3X.jpg",
+      "title": "China’s G.D.P. Stronger Than Expected, Led by Infrastructure Spending",
+      "summary": "A steep slide in housing prices has left consumers less prosperous and less willing to spend, but the government is pouring money into new rail lines and other projects.",
+      "link": "https://www.nytimes.com/2026/04/15/business/china-economy-growth.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16Biz-China-GDP-02-qlzw/16Biz-China-GDP-02-qlzw-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "经济",
+        "华人"
+      ],
+      "score": 82,
+      "ago": "42分前",
+      "pub_ts": 1776308905.0,
+      "hot": false
+    },
+    {
+      "id": "6ed5562ba9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What the Iran War Means for China",
+      "summary": "Our national security correspondent David E. Sanger examines what the Iran war means to China, which is the world’s biggest importer of Iranian oil.",
+      "link": "https://www.nytimes.com/video/us/100000010840169/what-the-iran-war-means-for-china.html",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 72,
+      "ago": "7小时前",
+      "pub_ts": 1776284292.0,
+      "hot": false
+    },
+    {
+      "id": "3414da68d2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Just War Doctrine: The Pope, JD Vance and a Theological Debate",
+      "summary": "President Trump’s attack on Pope Leo has touched off an argument about a framework for determining when war is justified.",
+      "link": "https://www.nytimes.com/2026/04/15/us/just-war-vance-pope.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-just-war-explainer-bzfm/15nat-just-war-explainer-bzfm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1776286669.0,
+      "ago": "1小时前",
+      "pub_ts": 1776306516.0,
+      "hot": false
+    },
+    {
+      "id": "882163d991",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Senate Blocks Bid to Cancel Arms Sales to Israel as Iran War Deepens Democratic Divide",
+      "summary": "Concerns over the Iran war led several Democratic senators who had rejected past bids to curb weapons transfers to Israel to vote to block the sale of bulldozers and bombs.",
+      "link": "https://www.nytimes.com/2026/04/15/us/politics/senate-israel-arms-vote-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15israel-iran-senate-vote-Israeli-arms1-mzvj/15israel-iran-senate-vote-Israeli-arms1-mzvj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776301629.0,
+      "hot": false
+    },
+    {
+      "id": "1d0e065f54",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Hit a Record High",
+      "summary": "Also, Pakistani mediators arrive in Iran. Here’s the latest at the end of Wednesday.",
+      "link": "https://www.nytimes.com/2026/04/15/briefing/stocks-hit-a-record-high.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776292022.0,
+      "hot": false
+    },
+    {
+      "id": "62a459c183",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Portrayal of the War in Iran Collides With Reality",
+      "summary": "President Trump is confronting a crisis that is not bending to his narrative of a “pretty reasonable” new regime in Iran and all-but-assured victory for the United States.",
+      "link": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-PREXY-mftq/15DC-PREXY-mftq-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776292015.0,
       "hot": false
     },
     {
@@ -53,27 +127,28 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "32分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776285507.0,
       "hot": false
     },
     {
-      "id": "970e15274e",
+      "id": "b707836838",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Stocks Hit Record High as Wall St. Looks Beyond War",
-      "summary": "Investors appear to be treating an end to the U.S.-Israeli war with Iran as a foregone conclusion, as the S&P 500 closes above 7,000.",
-      "link": "https://www.nytimes.com/2026/04/15/business/stocks-record-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/2026-biz-april-standalone-promos-0415-stocks/2026-biz-april-standalone-promos-0415-stocks-mediumSquareAt3X-v6.png",
+      "title": "Senate Republicans Again Block Bid to Limit Trump’s Iran War Powers",
+      "summary": "For the fourth time since the war began, G.O.P. senators successfully fended off an effort to constrain the president. But there were signs of growing unease among Republicans.",
+      "link": "https://www.nytimes.com/2026/04/15/us/politics/trumps-iran-war-powers-vote-senate.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-WARPOWERS-NEW-hftk/15DC-WARPOWERS-NEW-hftk-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "天气",
+        "科技"
       ],
-      "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1776283993.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1776283629.0,
       "hot": false
     },
     {
@@ -89,84 +164,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776283089.0,
-      "hot": false
-    },
-    {
-      "id": "0d8227ff46",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Quest for More Sway Over Fed Faces Fresh Hurdles",
-      "summary": "Jerome H. Powell’s term as chair of the Federal Reserve ends on May 15, but it appears increasingly likely that he will stay on in some capacity at the central bank after that.",
-      "link": "https://www.nytimes.com/2026/04/15/business/trump-federal-bank-fresh-hurdles.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15dc-fed-transition-01-tbfv/15dc-fed-transition-01-tbfv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776281254.0,
-      "hot": false
-    },
-    {
-      "id": "17b77b7976",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Debt Alarms Ring as Countries Rack Up More Emergency Spending",
-      "summary": "Amid signs of a prolonged period of high energy costs, policymakers are urging restraint as governments open up the public till to protect households and businesses.",
-      "link": "https://www.nytimes.com/2026/04/15/business/iran-war-fiscal-debt-impact.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15Biz-Energy-Aid-01-qpwc/15Biz-Energy-Aid-01-qpwc-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776278508.0,
-      "hot": false
-    },
-    {
-      "id": "4cd60937c7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Ad Companies Settle With F.T.C. Over Claims of Harm to Conservative Sites",
-      "summary": "WPP, Dentsu and Publicis settled claims they colluded on policies to combat misinformation, denying ad revenue to publishers on the right.",
-      "link": "https://www.nytimes.com/2026/04/15/technology/ftc-ad-companies-settlement.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15ftc-ads-1-lpbv/15ftc-ads-1-lpbv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776276515.0,
-      "hot": false
-    },
-    {
-      "id": "c9568d9737",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Amid Iran War, Companies Look to Extend a Record Profit Run by Raising Prices",
-      "summary": "Higher inflation is leading companies to raise prices without sacrificing margins.",
-      "link": "https://www.nytimes.com/2026/04/15/business/economy/companies-profits-prices-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-corp-margins1-cwbp/15biz-corp-margins1-cwbp-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776273167.0,
       "hot": false
     },
     {
@@ -182,8 +182,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1776269993.0,
       "hot": false
     },
@@ -200,27 +200,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1776267565.0,
-      "hot": false
-    },
-    {
-      "id": "af826c739c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Go-To Justification for Contentious Decisions: National Security",
-      "summary": "The administration has invoked national security in a variety of matters, including the White House ballroom and offshore wind farms, drawing rebukes from some judges.",
-      "link": "https://www.nytimes.com/2026/04/15/us/white-house-ballroom-trump-national-security.html",
-      "image": "https://static01.nyt.com/images/2026/04/14/us/politics/dc-national-security-01/dc-national-security-01-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776266205.0,
       "hot": false
     },
     {
@@ -237,7 +219,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1776264469.0,
       "hot": false
     },
@@ -255,7 +237,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1776263442.0,
       "hot": false
     },
@@ -273,7 +255,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1776259814.0,
       "hot": false
     },
@@ -291,7 +273,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776252977.0,
       "hot": false
     },
@@ -309,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1776251002.0,
       "hot": false
     },
@@ -327,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776249531.0,
       "hot": false
     },
@@ -345,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1776244499.0,
       "hot": false
     },
@@ -363,8 +345,27 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1776242643.0,
+      "hot": false
+    },
+    {
+      "id": "c115d2e6b1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "As fuel prices continue to rise, Iran war drives Europe toward new crisis",
+      "summary": "As fuel protests bring Ireland to a standstill and UK leaders decry price hikes driven by the Iran war, Europe -- barely recovered from the energy shock of the Ukraine war -- faces another crisis.",
+      "link": "https://www.npr.org/2026/04/15/nx-s1-5784802/as-fuel-prices-continue-to-rise-iran-war-drives-europe-toward-new-crisis",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "19小时前",
+      "pub_ts": 1776242634.0,
       "hot": false
     },
     {
