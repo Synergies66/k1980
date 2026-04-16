@@ -1,83 +1,243 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-16T14:18:50.758787+00:00",
+  "updated_at": "2026-04-16T17:48:21.212468+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "61dc484e3e",
+      "id": "877f044cb5",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "China’s G.D.P. Stronger Than Expected, Led by Infrastructure Spending",
-      "summary": "A steep slide in housing prices has left consumers less prosperous and less willing to spend, but the government is pouring money into new rail lines and other projects.",
-      "link": "https://www.nytimes.com/2026/04/15/business/china-economy-growth.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16Biz-China-GDP-02-qlzw/16Biz-China-GDP-02-qlzw-mediumSquareAt3X.jpg",
+      "title": "ICE Agent Charged With Assault in Rare State Prosecution",
+      "summary": "Minnesota prosecutors have spent weeks investigating the conduct of immigration agents who took part in an immigration crackdown in the Twin Cities.",
+      "link": "https://www.nytimes.com/2026/04/16/us/minnesota-prosecution-ice-agent.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16nat-minnesota-charges-2-qhkj/16nat-minnesota-charges-2-qhkj-mediumSquareAt3X.jpg",
       "categories": [
-        "政治",
-        "经济",
-        "华人"
+        "移民"
       ],
-      "score": 72,
-      "ago": "8小时前",
-      "pub_ts": 1776319803.0,
+      "score": 80,
+      "ago": "57分前",
+      "pub_ts": 1776358267.0,
       "hot": false
     },
     {
-      "id": "06b86d99fc",
+      "id": "bec1f56b22",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Administration Live Updates: Kennedy Testifies Before Congress",
-      "summary": "",
-      "link": "https://www.nytimes.com/live/2026/04/16/us/trump-news",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16trump-news-promo-fcvt/16trump-news-promo-fcvt-mediumSquareAt3X.jpg",
+      "title": "An Israeli and a Palestinian activist share a vision for peace in Gaza",
+      "summary": "Maoz Inon's parents were killed by Hamas in the Oct. 7 attacks. Aziz Abu Sarah's brother died after being tortured in an Israeli military prison. Their new book is The Future Is Peace.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787745/an-israeli-and-a-palestinian-activist-share-a-vision-for-peace-in-gaza",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "5分前",
-      "pub_ts": 1776348772.0,
+      "ago": "21分前",
+      "pub_ts": 1776360426.0,
       "hot": false
     },
     {
-      "id": "392108d162",
+      "id": "f958cc303d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Boiling milk and worrying about the Iran war: A New Year dawns in Sri Lanka",
+      "summary": "In Sri Lanka, Buddhists and Hindus marked their New Year on Tuesday while a war thousands of miles away is making itself felt.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117630/new-years-sri-lanka-buddhist-hindu-prosperity-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "25分前",
+      "pub_ts": 1776360147.0,
+      "hot": false
+    },
+    {
+      "id": "56d137e2f7",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Stocks Hold Gains as Oil Prices Edge Higher",
-      "summary": "Oil prices stabilized and stocks rose on optimism that diplomatic talks could yield a permanent peace deal.",
-      "link": "https://www.nytimes.com/2026/04/16/business/oil-prices-gas-stocks.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16Biz-Oil-Stocks-Gas-mwjl/16Biz-Oil-Stocks-Gas-mwjl-mediumSquareAt3X.jpg",
+      "title": "ICE Has Detained Marie-Thérèse Ross-Mahé, an 85-Year-Old Widow",
+      "summary": "After Marie-Thérèse Ross-Mahé’s husband died, an inheritance battle exploded. Her stepson then used his influence to have her arrested, an Alabama probate judge said.",
+      "link": "https://www.nytimes.com/2026/04/16/us/ice-detention-alabama-french-woman.html",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "17分前",
-      "pub_ts": 1776348099.0,
+      "ago": "51分前",
+      "pub_ts": 1776358628.0,
       "hot": false
     },
     {
-      "id": "d17d1487ab",
+      "id": "567da8a10c",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "French government seeking release of 86-year-old French widow detained by ICE",
-      "summary": "The French government is pressing the U.S. Department of Homeland Security to release the 86-year-old French widow of a military veteran from immigration custody in Louisiana after she was detained ea",
-      "link": "https://www.npr.org/2026/04/16/g-s1-117615/france-seeks-release-of-86-year-old-detained-by-ice",
+      "title": "A complex set of negotiations to end Israel's overlapping wars",
+      "summary": "Israel has agreed to a ceasefire in Lebanon, part of a complex web of Mideast negotiations, from Iran to Gaza.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117656/a-complex-set-of-negotiations-to-end-israels-overlapping-wars",
       "image": null,
       "categories": [
-        "移民",
-        "政治",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776356853.0,
+      "hot": false
+    },
+    {
+      "id": "54f63346a8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pope Leo takes aim at  'handful of tyrants' spending billions on war amid tensions with Trump",
+      "summary": "Pope Leo XIV condemns \"tyrants\" fueling war with billions. His calls for global peace during his Africa trip come amid rising tensions with President Trump.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787753/pope-leo-takes-trump-war-tyrants-iran-africa",
+      "image": null,
+      "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "8小时前",
-      "pub_ts": 1776317749.0,
+      "ago": "1小时前",
+      "pub_ts": 1776356783.0,
+      "hot": false
+    },
+    {
+      "id": "6f77c5a5b7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "RFK Jr. to Reform Health Panel That Determines Which Screenings Insurers Cover",
+      "summary": "The health secretary said he would reform the panel, which determines whether insurance will cover preventive services like mammograms and colonoscopies.",
+      "link": "https://www.nytimes.com/2026/04/16/well/rfk-jr-health-screenings-services-uspstf.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16WELL-KENNEDY-USPSTF1-wpfl/16WELL-KENNEDY-USPSTF1-wpfl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776356727.0,
+      "hot": false
+    },
+    {
+      "id": "3ebdcd0063",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "White House Shrugs Off Shaky Economy as War Exceeds Trump’s Timeline",
+      "summary": "Stocks may be soaring again, but the war in Iran has started to pinch the finances of many Americans.",
+      "link": "https://www.nytimes.com/2026/04/16/us/politics/trump-economy-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16dc-trump-econ-01-hfpb/16dc-trump-econ-01-hfpb-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776356364.0,
+      "hot": false
+    },
+    {
+      "id": "beff657638",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "RFK Jr. defends his health agenda and Trump's proposed budget cuts in hearing",
+      "summary": "In his first appearance this year, the health secretary is taking questions on his record on health, including his controversial moves on vaccines.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787749/rfk-jr-hearing-hhs-health-budget-cuts",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776354400.0,
+      "hot": false
+    },
+    {
+      "id": "a62b8ae2b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Commission of Fine Arts votes to move ahead with Trump's proposed victory arch",
+      "summary": "The seven-member body, whose ranks are composed of Trump appointees, was expected to approve the arch. The proposed monument strongly resembles Paris' Arc de Triomphe, but almost 100 feet taller.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787535/trump-victory-arch-dc",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776353572.0,
+      "hot": false
+    },
+    {
+      "id": "27466fcfe7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Mounting Troubles at Ohio State University Lead to Frustration",
+      "summary": "Ohio State isn’t the only university in turmoil, but few others have faced so many issues lately. One lawmaker called the school “a national embarrassment.”",
+      "link": "https://www.nytimes.com/2026/04/16/us/ohio-state-university.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-ohio-osu-1-blkc/15nat-ohio-osu-1-blkc-mediumSquareAt3X.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776350916.0,
+      "hot": false
+    },
+    {
+      "id": "6e3d8299f7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "NPR receives $113 million in charitable gifts",
+      "summary": "\"My hope is that this commitment provides the stability and the spark NPR needs to innovate boldly and strengthen its national network,\" says Connie Ballmer, who gave $80 million of the $113 million.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787634/npr-113-million-charitable-gifts-connie-ballmer",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776349117.0,
+      "hot": false
+    },
+    {
+      "id": "e5319b8dde",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Costa Rican Mountain Town Offering Sanctuary to Families Deported by Trump",
+      "summary": "In a cloud forest village, a network of residents, foreigners and pacifist Quakers offered a precarious yet vital sanctuary for families expelled by the U.S. government.",
+      "link": "https://www.nytimes.com/2026/04/16/world/americas/trump-deportees-costa-rica.html",
+      "image": "https://static01.nyt.com/images/2026/04/13/multimedia/00int-costa-rica-deportees-promo/00int-costa-rica-deportees-htqg-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776347419.0,
       "hot": false
     },
     {
@@ -94,7 +254,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776340800.0,
       "hot": false
     },
@@ -102,7 +262,7 @@
       "id": "89cd6d5a40",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iran War timeline continues to shift. And, jury rules Live Nation acted as monopoly",
       "summary": "Trump continues to try to declare victory in Iran as the timeline for the war's end shifts. And, a jury determined that Live Nation acted as a monopoly and overcharged ticket buyers.",
@@ -112,51 +272,33 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776340751.0,
       "hot": false
     },
     {
-      "id": "fe1dc68bad",
+      "id": "6a1e9ed8cd",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Mediators are pushing to extend the U.S.-Iran ceasefire",
-      "summary": "Pakistan said it expected to host a second round of negotiations between the U.S. and Iran to end the war, but did not say when or where the meetings would take place.",
+      "title": "Israel agrees to a ceasefire in its war with Hezbollah in Lebanon, Trump says",
+      "summary": "The leaders of Israel and Lebanon have agreed on a 10-day ceasefire in Israel's fight against Iran-backed Hezbollah in Lebanon, according to President Trump.",
       "link": "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776339930.0,
-      "hot": false
-    },
-    {
-      "id": "415a8a06b5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How seals' whiskers make them master underwater hunters",
-      "summary": "Their sensitive facial hair may be the harbor seals superpower for tracking fish, scientists are learning.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5786687/harbor-seals-whiskers-fish-science",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776337200.0,
       "hot": false
     },
     {
       "id": "0210504c35",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Indonesia's capital of the future faces doubts in the present",
       "summary": "Indonesia is racing to build a new capital, promising a greener, futuristic city. But many citizens aren't convinced it will live up to the vision.",
@@ -165,99 +307,45 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776333720.0,
       "hot": false
     },
     {
-      "id": "b30540af34",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'Dear America': HUD workers say they're being blocked from doing their jobs",
-      "summary": "A website with anonymous employee letters accuses the Trump administration of undermining work on housing discrimination. HUD says it's restoring \"sanity\" to fair housing enforcement.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5780859/hud-employees-trump-policy-protest-letters-website",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776333600.0,
-      "hot": false
-    },
-    {
-      "id": "429e89815b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Jet fuel prices double, leading airlines to increase baggage fees, raise fares",
-      "summary": "Airlines are facing higher costs, and one airport group in Europe has warned of the risk of a \"systemic jet fuel shortage\" if traffic through the Strait of Hormuz doesn't normalize by the end of this",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5785258/jet-fuel-airline-cost-iran-war-oil",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776333600.0,
-      "hot": false
-    },
-    {
-      "id": "291ff13921",
+      "id": "eae2bfc84b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump’s Scattershot Week, and a Stock Market Record",
-      "summary": "Plus, forget sneakers — Allbirds is going A.I.",
-      "link": "https://www.nytimes.com/2026/04/16/podcasts/the-headlines/trump-scattershot-week-stock-market-record-allbirds.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16theheadlines-Trump-02-hljg/16theheadlines-Trump-02-hljg-mediumSquareAt3X.jpg",
+      "title": "Jesus Memes, Threats and a War in Iran: A Portrait of Trump Under Pressure",
+      "summary": "President Trump has lashed out at enemies, allies and even the pope, and made it harder for Republicans to keep the focus on economic issues in a midterm election year.",
+      "link": "https://www.nytimes.com/2026/04/16/us/politics/trump-under-pressure.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-TRUMP-PRESSURE-top-cplh/15DC-TRUMP-PRESSURE-top-cplh-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776333536.0,
-      "hot": false
-    },
-    {
-      "id": "f5b37a45d9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "We watched 2 focus groups of Georgia swing voters. They're not happy with the Iran war",
-      "summary": "None of the 13 focus group participants — who all voted for President Trump in 2024 — said they would describe the military action in Iran as going well so far.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5781002/georgia-focus-groups-trump-iran-war",
-      "image": null,
-      "categories": [
+        "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776330000.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1776330265.0,
       "hot": false
     },
     {
-      "id": "af6c29bdda",
+      "id": "1f478d2f28",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "3 things to know about naval blockades as U.S. begins patrols in the Strait of Hormuz",
+      "title": "3 things to know about naval blockades as U.S. patrols the Strait of Hormuz",
       "summary": "The White House says it wants to choke off Iran's oil export revenue. But experts say that blockades are often unpredictable and difficult to enforce.",
       "link": "https://www.npr.org/2026/04/16/nx-s1-5783870/strait-of-hormuz-naval-blockade",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776330000.0,
       "hot": false
     },
@@ -274,100 +362,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776329077.0,
-      "hot": false
-    },
-    {
-      "id": "62679d645b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Russian missiles and drones bombard Ukraine in hourslong attack",
-      "summary": "Russia hammered civilian areas of Ukraine with hundreds of drones and dozens of missiles in an attack that stretched for hours killing at least 16 people.",
-      "link": "https://www.npr.org/2026/04/16/g-s1-117623/russian-missiles-drones-bombard-ukraine",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776328060.0,
-      "hot": false
-    },
-    {
-      "id": "42b4a0c3bb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Bukele signs reforms allowing life prison sentences for people as young as 12",
-      "summary": "The reforms signed by Salvadoran President Nayib Bukele would apply to people convicted of committing or being an accomplice to crimes including homicide, femicide, rape and gang membership.",
-      "link": "https://www.npr.org/2026/04/16/g-s1-117613/bukele-life-prison-sentences-for-people-as-young-as-12",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776317187.0,
-      "hot": false
-    },
-    {
-      "id": "d5175e4f8b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Labor Department Investigates Texts Sent Among Staff, Secretary and Her Family",
-      "summary": "Secretary Lori Chavez-DeRemer asked staff members to bring wine to her hotel room, and to keep in touch with her husband and father.",
-      "link": "https://www.nytimes.com/2026/04/15/us/politics/labor-secretary-text-messages.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15biz-Labor-evidence-hftk/15biz-Labor-evidence-hftk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776292962.0,
-      "hot": false
-    },
-    {
-      "id": "62a459c183",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Portrayal of the War in Iran Collides With Reality",
-      "summary": "President Trump is confronting a crisis that is not bending to his narrative of a “pretty reasonable” new regime in Iran and all-but-assured victory for the United States.",
-      "link": "https://www.nytimes.com/2026/04/15/us/politics/trump-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-PREXY-mftq/15DC-PREXY-mftq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776292015.0,
-      "hot": false
-    },
-    {
-      "id": "c272ca0452",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "In the House, Republican Plans Go Awry Amid Party Divides",
-      "summary": "Fresh off a two-week break, lawmakers returned to turmoil in the House, where legislation to reopen the Department of Homeland Security is stalled and the G.O.P. is struggling to keep its agenda on tr",
-      "link": "https://www.nytimes.com/2026/04/15/us/politics/house-republican-divides.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15DC-HOUSE-top-pbhl/15DC-HOUSE-top-pbhl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776288625.0,
       "hot": false
     },
     {
@@ -384,7 +381,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1776283478.0,
       "hot": false
     },
