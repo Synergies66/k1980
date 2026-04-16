@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-16T06:16:42.070693+00:00",
+  "updated_at": "2026-04-16T09:53:04.848575+00:00",
   "total": 21,
   "articles": [
     {
@@ -19,8 +19,8 @@
         "经济",
         "华人"
       ],
-      "score": 82,
-      "ago": "6分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1776319803.0,
       "hot": false
     },
@@ -39,8 +39,8 @@
         "政治",
         "科技"
       ],
-      "score": 80,
-      "ago": "40分前",
+      "score": 75,
+      "ago": "4小时前",
       "pub_ts": 1776317749.0,
       "hot": false
     },
@@ -58,8 +58,135 @@
         "华人"
       ],
       "score": 72,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776284292.0,
+      "hot": false
+    },
+    {
+      "id": "c6eaf34cd9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says Leaders From Israel and Lebanon Will Speak Thursday",
+      "summary": "Neither side confirmed a meeting. Israeli and Lebanese officials have said a cease-fire in the war against Hezbollah is under consideration.",
+      "link": "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-talks-trump.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16israel-iran-israel-lebanon-vflp/16israel-iran-israel-lebanon-vflp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "32分前",
+      "pub_ts": 1776331211.0,
+      "hot": false
+    },
+    {
+      "id": "af6c29bdda",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "3 things to know about naval blockades as U.S. begins patrols in the Strait of Hormuz",
+      "summary": "The White House says it wants to choke off Iran's oil export revenue. But experts say that blockades are often unpredictable and difficult to enforce.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5783870/strait-of-hormuz-naval-blockade",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776330000.0,
+      "hot": false
+    },
+    {
+      "id": "f5b37a45d9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "We watched 2 focus groups of Georgia swing voters. They're not happy with the Iran war",
+      "summary": "None of the 13 focus group participants — who all voted for President Trump in 2024 — said they would describe the military action in Iran as going well so far.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5781002/georgia-focus-groups-trump-iran-war",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776330000.0,
+      "hot": false
+    },
+    {
+      "id": "c40e0e8d56",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "President Trump's timeline for an end to the Iran war continues to shift, U.S. and Iran block the Strait of Hormuz, trapping the Gulf's oil and gas, Trump's allies defend his remarks about Pope Leo.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5780737/morning-news-brief",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776329106.0,
+      "hot": false
+    },
+    {
+      "id": "5595098859",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Hungarian Americans say Orbán's defeat could provide roadmap for countering Trump",
+      "summary": "Hungarian Americans say Viktor Orbán's defeat in Hungary provides a blueprint for countering President Trump's attempts to tilt the electoral playing field ahead of the midterms.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5784063/hungarian-americans-say-orbans-defeat-could-provide-roadmap-for-countering-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776329077.0,
+      "hot": false
+    },
+    {
+      "id": "62679d645b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Russian missiles and drones bombard Ukraine in hourslong attack",
+      "summary": "Russia hammered civilian areas of Ukraine with hundreds of drones and dozens of missiles in an attack that stretched for hours killing at least 16 people.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117623/russian-missiles-drones-bombard-ukraine",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776328060.0,
+      "hot": false
+    },
+    {
+      "id": "7bc8cf4e3c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Trump’s Clash With Pope Leo Turned Into a Fight Over Theology",
+      "summary": "When President Trump and G.O.P. leaders denounced the pope’s comments about the U.S. attack on Iran, they touched off a religious debate over what is and isn’t a “just war.”",
+      "link": "https://www.nytimes.com/2026/04/15/us/just-war-vance-pope.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-just-war-explainer-bzfm/15nat-just-war-explainer-bzfm-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776322669.0,
       "hot": false
     },
     {
@@ -75,8 +202,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "50分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776317187.0,
       "hot": false
     },
@@ -95,26 +222,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776312060.0,
-      "hot": false
-    },
-    {
-      "id": "3414da68d2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Just War Doctrine: The Pope, JD Vance and a Theological Debate",
-      "summary": "President Trump’s attack on Pope Leo has touched off an argument about a framework for determining when war is justified.",
-      "link": "https://www.nytimes.com/2026/04/15/us/just-war-vance-pope.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-just-war-explainer-bzfm/15nat-just-war-explainer-bzfm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776306516.0,
       "hot": false
     },
     {
@@ -131,7 +240,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776292962.0,
       "hot": false
     },
@@ -149,7 +258,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776292015.0,
       "hot": false
     },
@@ -167,26 +276,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776288625.0,
-      "hot": false
-    },
-    {
-      "id": "f11e207c68",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "That Meeting You Hate May Keep A.I. From Stealing Your Job",
-      "summary": "As artificial intelligence makes many tasks easier, the human work of cajoling, arm-twisting and reassuring appears to be rising in importance.",
-      "link": "https://www.nytimes.com/2026/04/15/business/ai-jobs-human-work.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1776286884.0,
       "hot": false
     },
     {
@@ -203,7 +294,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776285507.0,
       "hot": false
     },
@@ -211,7 +302,7 @@
       "id": "403668ad94",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Popes have spoken out on politics before. But with Trump and Pope Leo it's different",
       "summary": "President Trump's attacks on Pope Leo are unprecedented, religious experts told NPR. Here's how the situation differs from other popes' political critiques.",
@@ -221,44 +312,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776283089.0,
-      "hot": false
-    },
-    {
-      "id": "518ee0ca51",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Visionary NPR leader Kevin Klose, who led network to new heights, has died",
-      "summary": "Klose led NPR for a decade starting in 1998, a period of incredible growth for the public media network.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5786459/npr-kevin-klose-died-kroc-gift",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "13小时前",
-      "pub_ts": 1776269993.0,
-      "hot": false
-    },
-    {
-      "id": "12bd998bcd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Once again, Trump threatens to fire Fed Chair Jerome Powell",
-      "summary": "President Trump once again threatened to fire Federal Reserve Chair Jerome Powell and doubled down on a discredited probe of the central bank.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5786478/trump-federa-reserve-jerome-powell",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1776267565.0,
+      "pub_ts": 1776283089.0,
       "hot": false
     },
     {
@@ -275,7 +330,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1776264469.0,
       "hot": false
     },
@@ -283,7 +338,7 @@
       "id": "793ac5c8b7",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Greetings from Nairobi, where taking a matatu is no ordinary bus ride",
       "summary": "The moment you board, the music grabs you. These privately owned, brightly painted minibuses are moving canvases, mobile sound systems — rolling declarations of what young Nairobi finds cool.",
@@ -293,7 +348,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1776263442.0,
       "hot": false
     },
@@ -311,62 +366,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1776252977.0,
-      "hot": false
-    },
-    {
-      "id": "1c0ab7cb21",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says Iran talks could resume in days as U.S. military blocks Iranian ports",
-      "summary": "President Trump said a second round of direct U.S.-Iran peace talks could resume in Pakistan within the next two days, even as he instituted a naval blockade of all Iranian ports.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5786034/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776251002.0,
-      "hot": false
-    },
-    {
-      "id": "dc57c8a44b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Fela Kuti is the first African artist to enter the Rock & Roll Hall of Fame",
-      "summary": "In December, the late Nigerian superstar became the first African musician to get a Grammy lifetime achievement award. Now he's making history as well at the Rock & Roll Hall of Fame.",
-      "link": "https://www.npr.org/2026/04/15/g-s1-117406/rock-roll-hall-of-fame-africa-fela-kuti",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776249531.0,
-      "hot": false
-    },
-    {
-      "id": "43f1a13862",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Pope heads to Cameroon as separatists announce 3-day pause in fighting",
-      "summary": "Pope Leo XIV is heading to the central African nation of Cameroon with a message of peace for its separatist region and for talks with President Paul Biya.",
-      "link": "https://www.npr.org/2026/04/15/g-s1-117486/pope-heads-to-cameroon",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1776244499.0,
       "hot": false
     },
     {
