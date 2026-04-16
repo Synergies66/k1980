@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-16T09:53:04.848575+00:00",
-  "total": 21,
+  "updated_at": "2026-04-16T14:18:50.758787+00:00",
+  "total": 22,
   "articles": [
     {
       "id": "61dc484e3e",
@@ -19,16 +19,52 @@
         "经济",
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1776319803.0,
+      "hot": false
+    },
+    {
+      "id": "06b86d99fc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Live Updates: Kennedy Testifies Before Congress",
+      "summary": "",
+      "link": "https://www.nytimes.com/live/2026/04/16/us/trump-news",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16trump-news-promo-fcvt/16trump-news-promo-fcvt-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1776348772.0,
+      "hot": false
+    },
+    {
+      "id": "392108d162",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Hold Gains as Oil Prices Edge Higher",
+      "summary": "Oil prices stabilized and stocks rose on optimism that diplomatic talks could yield a permanent peace deal.",
+      "link": "https://www.nytimes.com/2026/04/16/business/oil-prices-gas-stocks.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16Biz-Oil-Stocks-Gas-mwjl/16Biz-Oil-Stocks-Gas-mwjl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1776348099.0,
       "hot": false
     },
     {
       "id": "d17d1487ab",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "French government seeking release of 86-year-old French widow detained by ICE",
       "summary": "The French government is pressing the U.S. Department of Homeland Security to release the 86-year-old French widow of a military veteran from immigration custody in Louisiana after she was detained ea",
@@ -39,63 +75,154 @@
         "政治",
         "科技"
       ],
-      "score": 75,
-      "ago": "4小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1776317749.0,
       "hot": false
     },
     {
-      "id": "6ed5562ba9",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What the Iran War Means for China",
-      "summary": "Our national security correspondent David E. Sanger examines what the Iran war means to China, which is the world’s biggest importer of Iranian oil.",
-      "link": "https://www.nytimes.com/video/us/100000010840169/what-the-iran-war-means-for-china.html",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1776284292.0,
-      "hot": false
-    },
-    {
-      "id": "c6eaf34cd9",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Leaders From Israel and Lebanon Will Speak Thursday",
-      "summary": "Neither side confirmed a meeting. Israeli and Lebanese officials have said a cease-fire in the war against Hezbollah is under consideration.",
-      "link": "https://www.nytimes.com/2026/04/16/world/middleeast/israel-lebanon-talks-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16israel-iran-israel-lebanon-vflp/16israel-iran-israel-lebanon-vflp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "32分前",
-      "pub_ts": 1776331211.0,
-      "hot": false
-    },
-    {
-      "id": "af6c29bdda",
+      "id": "112c228641",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "3 things to know about naval blockades as U.S. begins patrols in the Strait of Hormuz",
-      "summary": "The White House says it wants to choke off Iran's oil export revenue. But experts say that blockades are often unpredictable and difficult to enforce.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5783870/strait-of-hormuz-naval-blockade",
+      "title": "A Polymarket trader made $300,000 betting on Biden's pardons, a new analysis shows",
+      "summary": "In the final hours of President Biden's term, an anonymous prediction market trader placed lucrative bets on who would be pardoned even as the odds were nearly zero.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5786580/a-polymarket-trader-made-300-000-betting-on-bidens-pardons",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776340800.0,
+      "hot": false
+    },
+    {
+      "id": "89cd6d5a40",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran War timeline continues to shift. And, jury rules Live Nation acted as monopoly",
+      "summary": "Trump continues to try to declare victory in Iran as the timeline for the war's end shifts. And, a jury determined that Live Nation acted as a monopoly and overcharged ticket buyers.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117639/up-first-newsletter-trump-iran-war-strait-pope-leo-ticketmaster-live-nation-january-6",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776340751.0,
+      "hot": false
+    },
+    {
+      "id": "fe1dc68bad",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Mediators are pushing to extend the U.S.-Iran ceasefire",
+      "summary": "Pakistan said it expected to host a second round of negotiations between the U.S. and Iran to end the war, but did not say when or where the meetings would take place.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5787392/iran-middle-east-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1776330000.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776339930.0,
+      "hot": false
+    },
+    {
+      "id": "415a8a06b5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How seals' whiskers make them master underwater hunters",
+      "summary": "Their sensitive facial hair may be the harbor seals superpower for tracking fish, scientists are learning.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5786687/harbor-seals-whiskers-fish-science",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776337200.0,
+      "hot": false
+    },
+    {
+      "id": "0210504c35",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Indonesia's capital of the future faces doubts in the present",
+      "summary": "Indonesia is racing to build a new capital, promising a greener, futuristic city. But many citizens aren't convinced it will live up to the vision.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117409/indonesia-capital-nusantara-future-faces-doubts-present",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776333720.0,
+      "hot": false
+    },
+    {
+      "id": "b30540af34",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Dear America': HUD workers say they're being blocked from doing their jobs",
+      "summary": "A website with anonymous employee letters accuses the Trump administration of undermining work on housing discrimination. HUD says it's restoring \"sanity\" to fair housing enforcement.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5780859/hud-employees-trump-policy-protest-letters-website",
+      "image": null,
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776333600.0,
+      "hot": false
+    },
+    {
+      "id": "429e89815b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Jet fuel prices double, leading airlines to increase baggage fees, raise fares",
+      "summary": "Airlines are facing higher costs, and one airport group in Europe has warned of the risk of a \"systemic jet fuel shortage\" if traffic through the Strait of Hormuz doesn't normalize by the end of this",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5785258/jet-fuel-airline-cost-iran-war-oil",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776333600.0,
+      "hot": false
+    },
+    {
+      "id": "291ff13921",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Scattershot Week, and a Stock Market Record",
+      "summary": "Plus, forget sneakers — Allbirds is going A.I.",
+      "link": "https://www.nytimes.com/2026/04/16/podcasts/the-headlines/trump-scattershot-week-stock-market-record-allbirds.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16theheadlines-Trump-02-hljg/16theheadlines-Trump-02-hljg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776333536.0,
       "hot": false
     },
     {
@@ -111,27 +238,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "52分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776330000.0,
       "hot": false
     },
     {
-      "id": "c40e0e8d56",
+      "id": "af6c29bdda",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Morning news brief",
-      "summary": "President Trump's timeline for an end to the Iran war continues to shift, U.S. and Iran block the Strait of Hormuz, trapping the Gulf's oil and gas, Trump's allies defend his remarks about Pope Leo.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5780737/morning-news-brief",
+      "title": "3 things to know about naval blockades as U.S. begins patrols in the Strait of Hormuz",
+      "summary": "The White House says it wants to choke off Iran's oil export revenue. But experts say that blockades are often unpredictable and difficult to enforce.",
+      "link": "https://www.npr.org/2026/04/16/nx-s1-5783870/strait-of-hormuz-naval-blockade",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776329106.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776330000.0,
       "hot": false
     },
     {
@@ -147,8 +274,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776329077.0,
       "hot": false
     },
@@ -156,7 +283,7 @@
       "id": "62679d645b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Russian missiles and drones bombard Ukraine in hourslong attack",
       "summary": "Russia hammered civilian areas of Ukraine with hundreds of drones and dozens of missiles in an attack that stretched for hours killing at least 16 people.",
@@ -166,34 +293,16 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776328060.0,
-      "hot": false
-    },
-    {
-      "id": "7bc8cf4e3c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Trump’s Clash With Pope Leo Turned Into a Fight Over Theology",
-      "summary": "When President Trump and G.O.P. leaders denounced the pope’s comments about the U.S. attack on Iran, they touched off a religious debate over what is and isn’t a “just war.”",
-      "link": "https://www.nytimes.com/2026/04/15/us/just-war-vance-pope.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-just-war-explainer-bzfm/15nat-just-war-explainer-bzfm-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776322669.0,
+      "ago": "5小时前",
+      "pub_ts": 1776328060.0,
       "hot": false
     },
     {
       "id": "42b4a0c3bb",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Bukele signs reforms allowing life prison sentences for people as young as 12",
       "summary": "The reforms signed by Salvadoran President Nayib Bukele would apply to people convicted of committing or being an accomplice to crimes including homicide, femicide, rape and gang membership.",
@@ -202,28 +311,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776317187.0,
-      "hot": false
-    },
-    {
-      "id": "af3c888167",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A Colorado hospital profits from resolving language barriers",
-      "summary": "Without qualified interpreters at doctors' offices, non-English speakers can face bad — even fatal — health outcomes. A hospital in rural Colorado is training its existing bilingual staff to address t",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5780035/rural-hospital-colorado-medical-translators",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776312060.0,
       "hot": false
     },
     {
@@ -240,7 +330,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1776292962.0,
       "hot": false
     },
@@ -258,7 +348,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1776292015.0,
       "hot": false
     },
@@ -276,98 +366,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1776288625.0,
       "hot": false
     },
     {
-      "id": "add120eedc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Middle East conflict causes a fluoride shortage for US drinking water",
-      "summary": "Some U.S. water systems are cutting back on fluoride because of a key chemical is in short supply. Israel is one of its main producers.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5786697/middle-east-conflict-causes-a-fluoride-shortage-for-us-drinking-water",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776285507.0,
-      "hot": false
-    },
-    {
-      "id": "403668ad94",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Popes have spoken out on politics before. But with Trump and Pope Leo it's different",
-      "summary": "President Trump's attacks on Pope Leo are unprecedented, religious experts told NPR. Here's how the situation differs from other popes' political critiques.",
-      "link": "https://www.npr.org/2026/04/15/nx-s1-5779690/pope-leo-donald-trump-war-iran-vance-history",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776283089.0,
-      "hot": false
-    },
-    {
-      "id": "c3fcb6b365",
+      "id": "426f94bfd9",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Breaks With Meloni, Italy’s Leader, Amid Dispute Over Pope and Iran",
-      "summary": "Prime Minister Giorgia Meloni was once considered one of President Trump’s closest European allies. Their friendship now appears in danger.",
-      "link": "https://www.nytimes.com/2026/04/15/world/europe/trump-meloni-italy-iran-pope.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15int-italy-meloni-01-jzbm/15int-italy-meloni-01-jzbm-mediumSquareAt3X.jpg",
+      "title": "Yale Report Finds Colleges Deserve Blame for Higher Education’s Problems",
+      "summary": "A 10-member committee offered a brutal assessment of academia’s role in creating the forces challenging American colleges and universities.",
+      "link": "https://www.nytimes.com/2026/04/15/us/yale-report-colleges-unversities-trust.html",
+      "image": "https://static01.nyt.com/images/2026/04/15/multimedia/15nat-yale-cfmv/15nat-yale-cfmv-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "教育"
       ],
       "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776264469.0,
-      "hot": false
-    },
-    {
-      "id": "793ac5c8b7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from Nairobi, where taking a matatu is no ordinary bus ride",
-      "summary": "The moment you board, the music grabs you. These privately owned, brightly painted minibuses are moving canvases, mobile sound systems — rolling declarations of what young Nairobi finds cool.",
-      "link": "https://www.npr.org/2026/04/15/g-s1-117275/nairobi-matatu-bus-kenya",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776263442.0,
-      "hot": false
-    },
-    {
-      "id": "baa3adc5ca",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says new talks with Iran will happen soon. And, Eric Swalwell faces new allegations",
-      "summary": "President Trump says new talks with Iran could happen in the next two days. And, Democrat Eric Swalwell faces new allegations as a second woman comes forward accusing him of rape.",
-      "link": "https://www.npr.org/2026/04/15/g-s1-117501/up-first-newsletter-israel-iran-lebanon-us-strait-eric-swalwell-virginia-face-act",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776252977.0,
+      "ago": "18小时前",
+      "pub_ts": 1776283478.0,
       "hot": false
     },
     {
