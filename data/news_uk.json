@@ -1,100 +1,134 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-16T21:11:48.326502+00:00",
-  "total": 28,
+  "updated_at": "2026-04-17T03:52:15.824888+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "a4daebe88b",
+      "id": "cde5aff6f8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "特朗普推動的黎巴嫩停火令以色列驚訝",
+      "summary": "對許多人而言，這再次被視為內塔尼亞胡順從美國總統特朗普要求停止戰鬥的例證，即便協議的條件或時機並非以色列所希望的。",
+      "link": "https://www.bbc.com/zhongwen/articles/c9wqe2xj2vlo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/a58f/live/adaa6c70-39e4-11f1-9143-e9a58ec7f0cd.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "2分前",
+      "pub_ts": 1776397805.0,
+      "hot": false
+    },
+    {
+      "id": "90174500a3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "從兩乘高鐵到共產情誼   盤點越南領導人蘇林訪華四大看點",
+      "summary": "在特朗普關稅與南海主權爭議持續的背景下，越南國家主席蘇林在北京會晤中國國家主席習近平，並先後乘高鐵到訪雄安新區與南寧。",
+      "link": "https://www.bbc.com/zhongwen/articles/cx231dzr384o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/c4bb/live/383e5630-39d6-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1776389625.0,
+      "hot": false
+    },
+    {
+      "id": "03e5f5df94",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "「我的婦產科醫生是性罪犯」：台灣醫師懲戒制度為何引發質疑？",
+      "summary": "台大醫院一名前婦產科醫師曾於2021年性侵病患，但在司法程序的四年期間，他轉到桃園市持續執業，而地方衛生局與任職診所事前毫不知情，引起輿論震驚，事件凸顯出醫師懲戒制度的漏洞。",
+      "link": "https://www.bbc.com/zhongwen/articles/crl111lel6eo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/682b/live/8a6d1d90-395b-11f1-b8be-8d9e26cfbe97.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1776386887.0,
+      "hot": false
+    },
+    {
+      "id": "a20ecfd302",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: Hezbollah tells citizens to postpone return to Lebanon as Netanyahu confirm",
-      "summary": "Group urges caution as it says Israel has history of ‘breaking agreements’; Israeli prime minister says key demand is that Hezbollah must be dismantledTrump announces 10-day ceasefire in Lebanon after",
-      "link": "https://www.theguardian.com/world/live/2026/apr/16/middle-east-crisis-live-iran-war-news-us-trump-ceasefire-deal-lebanon-israel-oil-sanctions-latest-updates",
-      "image": "https://i.guim.co.uk/img/media/cf8bed02d0d0265bee55f47949e39f4db2d3e1a7/616_0_4668_3734/master/4668.jpg?width=140&quality=85&auto=format&fit=max&s=a5f81f4dc6c98b5ed04bd2ac6ddcf6f4",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1776373464.0,
-      "hot": false
-    },
-    {
-      "id": "2b42f564ab",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Andrew invited to relinquish Freedom of City",
-      "summary": "Andrew Mountbatten-Windsor received the historic honour in 2012 \"by virtue of patrimony\".",
-      "link": "https://www.bbc.com/news/articles/c239219g7l5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff8/live/2997ed90-39c1-11f1-ae0f-b9a8d6dfceb4.jpg",
+      "title": "Middle East crisis live: UN chief calls for Israel-Lebanon ceasefire to be ‘fully’ respected as it c",
+      "summary": "António Guterres welcomes truce and says through spokesperson he hopes halt in fighting will ‘pave the way for negotiations’Hello and welcome to our live coverage of events in the Middle East.United N",
+      "link": "https://www.theguardian.com/world/live/2026/apr/17/middle-east-crisis-live-news-israel-lebanon-ceasefire-iran-war-us-latest-updates",
+      "image": "https://i.guim.co.uk/img/media/9f0c758228dc76124bcb2516ca23ce8908bac066/285_0_2853_2283/master/2853.jpg?width=140&quality=85&auto=format&fit=max&s=1039deaee484d8e04eb43a4b3d1e24d4",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "15分前",
-      "pub_ts": 1776372952.0,
+      "ago": "23分前",
+      "pub_ts": 1776396542.0,
       "hot": false
     },
     {
-      "id": "818bc14eb3",
+      "id": "8268eb0c84",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Starmer not aware Foreign Office overruled Mandelson vetting decision until this week, government sa",
-      "summary": "A decision to go against the recommendation of the vetting agency was taken by officials in the Foreign Office, spokesperson says.",
-      "link": "https://www.bbc.com/news/articles/cx2r15151xgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/038a/live/5bccbf70-39a8-11f1-ba5b-c578881f2eba.jpg",
+      "title": "Harry and Meghan meet Bondi shooting survivors",
+      "summary": "On the fourth day of their Australian visit, the royal couple pay tribute to the 15 people killed in the Bondi shooting.",
+      "link": "https://www.bbc.com/news/articles/c625dd1zjy3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c1ba/live/e3d08900-3a08-11f1-a062-898e9ee7c831.jpg",
       "categories": [
-        "政治",
-        "科技"
+        "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776367339.0,
+      "ago": "40分前",
+      "pub_ts": 1776395498.0,
       "hot": false
     },
     {
-      "id": "c222ba787b",
+      "id": "c71f46b58f",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Starmer did not know Mandelson failed vetting, government says",
-      "summary": "A decision to go against the recommendation of the vetting agency was taken by officials in the Foreign Office, spokesperson says.",
-      "link": "https://www.bbc.com/news/articles/cx2r15151xgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/038a/live/5bccbf70-39a8-11f1-ba5b-c578881f2eba.jpg",
+      "title": "Will Trump regret taking on the Pope? – podcast",
+      "summary": "The president’s posting of an AI-generated image of himself as Jesus horrified many Christians. Sarah Posner tells Annie Kelly why evangelical voters still flock to himDonald Trump’s late-night social",
+      "link": "https://www.theguardian.com/news/audio/2026/apr/17/will-trump-regret-taking-on-the-pope-podcast",
+      "image": "https://i.guim.co.uk/img/media/260f239e9f1f2d511fa4afe611b309642a5635d5/0_324_1113_890/master/1113.jpg?width=140&quality=85&auto=format&fit=max&s=f34479f59cb8958f1b460d5da356ad21",
       "categories": [
-        "政治",
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776367339.0,
+      "pub_ts": 1776391217.0,
       "hot": false
     },
     {
       "id": "2663a3f0a2",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Home Office investigating after BBC finds migrants making false claims to stay in UK",
       "summary": "No 10 says the government is working to ensure \"anyone potentially abusing our immigration system is held accountable\".",
       "link": "https://www.bbc.com/news/articles/c0q92lg9ln5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5402/live/9fcf4810-3998-11f1-879d-1b2f5c3919b8.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f14/live/8fc86310-3999-11f1-879d-1b2f5c3919b8.jpg",
       "categories": [
         "移民",
         "政治",
         "科技"
       ],
       "score": 70,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1776348169.0,
       "hot": false
     },
@@ -112,7 +146,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1776329732.0,
       "hot": false
     },
@@ -130,7 +164,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1776317181.0,
       "hot": false
     },
@@ -148,188 +182,136 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1776316535.0,
       "hot": false
     },
     {
-      "id": "d2ea0dcfeb",
+      "id": "d146441e69",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "BBC記者從土耳其經陸路前往德黑蘭  脆弱停火協議下的伊朗現場採訪記",
-      "summary": "BBC國際事務首席記者麗斯·杜塞特穿越伊朗西北部前往德黑蘭，一路觀察採訪戰爭帶來的影響和停戰談判的前景。",
-      "link": "https://www.bbc.com/zhongwen/articles/ce8lpe2le5vo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/495f/live/23e2cf10-3911-11f1-906d-e5637b8cec29.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 68,
-      "ago": "17小时前",
-      "pub_ts": 1776311637.0,
-      "hot": false
-    },
-    {
-      "id": "8b1a183df7",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Hegseth channels his inner Tarantino with fake Bible verse from Pulp Fiction",
-      "summary": "The defense secretary said his prayer drew on Ezekiel, but wording closely matches Quentin Tarantino dialogueIt was perhaps inevitable that a braggadocious Christian nationalist defense secretary elev",
-      "link": "https://www.theguardian.com/us-news/2026/apr/16/hegseth-pulp-fiction-ezekiel-prayer",
-      "image": "https://i.guim.co.uk/img/media/37f81d438e6837c482572090438efd3cf7d4f41b/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=7a0c8034d91b1125c673696e28d954c5",
+      "title": "Singer D4vd arrested in connection with death of missing teen girl",
+      "summary": "The remains of 14-year-old Celeste Rivas Hernandez were found in the singer's car last year.",
+      "link": "https://www.bbc.com/news/articles/c20d22ev21wo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8e63/live/d3d01c60-39f8-11f1-99fe-5fdcad0f703b.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1776363927.0,
+      "pub_ts": 1776390192.0,
       "hot": false
     },
     {
-      "id": "2bc614124f",
+      "id": "5af9c2684f",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Murderer who never shared where body is gets parole",
-      "summary": "Glyn Razzell is approved for parole despite never revealing the location of his wife's body.",
-      "link": "https://www.bbc.com/news/articles/cy812rk3882o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a83/live/83b3fab0-39aa-11f1-ba5b-c578881f2eba.jpg",
+      "title": "Finance ministers and top bankers raise serious concerns about Mythos AI model",
+      "summary": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cybersecurity weaknesses.",
+      "link": "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b221/live/21c28ea0-39f7-11f1-8766-4f833ac4b548.jpg",
       "categories": [
-        "本地"
+        "政治",
+        "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776360786.0,
+      "ago": "2小时前",
+      "pub_ts": 1776389662.0,
       "hot": false
     },
     {
-      "id": "7928360042",
+      "id": "fdfc1ac472",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Like a concrete aircraft carrier: was LA’s giant new $724m gallery really worth all the carbon emiss",
-      "summary": "Built on tar swamps and two tortuous decades in the making, Lacma’s latest addition used twice as much metal as the Eiffel Tower. How did America supersize revered architect Peter Zumthor?Driving down",
-      "link": "https://www.theguardian.com/artanddesign/2026/apr/16/lacma-david-geffen-galleries-peter-zumthor-eiffel-concrete-aircraft-carrier",
-      "image": "https://i.guim.co.uk/img/media/2e27ce7bd1c7af6508a4f68f62ae5f1b3c5e26d7/240_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=7c0aca48283c2689ad4862216c247635",
+      "title": "Chris Mason: Mandelson nightmare haunts Starmer again, as senior figure effectively sacked",
+      "summary": "The prime minister is believed to be absolutely furious over the handling of Lord Mandelson's vetting, Chris Mason writes.",
+      "link": "https://www.bbc.com/news/articles/c8dl8l5l008o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78cd/live/2b4e6140-39ef-11f1-a10f-5774d1029b81.jpg",
       "categories": [
+        "政治",
         "科技"
       ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1776360763.0,
+      "pub_ts": 1776386443.0,
       "hot": false
     },
     {
-      "id": "5f575dfb48",
+      "id": "48f08ecf71",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Police probe Islamist group's arson attack claims",
-      "summary": "An Islamist group with links to Iran has claimed responsibility for three attacks in north London.",
-      "link": "https://www.bbc.com/news/articles/c4gx4zywjzwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3936/live/4d194ef0-3758-11f1-a6a0-913b15480fa1.jpg",
+      "title": "UK seeks closer EU ties in volatile times - but at what cost?",
+      "summary": "The UK is adopting a \"ruthlessly pragmatic\" approach to becoming closer to its European neighbours, the UK's EU minister tells the BBC.",
+      "link": "https://www.bbc.com/news/articles/cqj8pg5yppwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2cd1/live/1cfc5b30-39cf-11f1-8e60-cba08815e4da.png",
       "categories": [
-        "科技"
+        "政治"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776359933.0,
+      "ago": "4小时前",
+      "pub_ts": 1776383374.0,
       "hot": false
     },
     {
-      "id": "4ec1ba9bcd",
+      "id": "2969af7f52",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Revealed: Mandelson failed vetting but Foreign Office overruled decision",
-      "summary": "Guardian investigation uncovers decision by UK security officials to deny clearance before Mandelson took up role as US ambassadorOfficials debate withholding Mandelson vetting documents from parliame",
-      "link": "https://www.theguardian.com/politics/2026/apr/16/revealed-mandelson-failed-vetting-but-foreign-office-overruled-decision",
-      "image": "https://i.guim.co.uk/img/media/3c1d19329485a5120847abe47aac315d2225c66c/771_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=494ebfe1c2afed755f44e57357cdde0e",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776359762.0,
-      "hot": false
-    },
-    {
-      "id": "cea7c94b2f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "No issues with UK fuel supply, says Reeves",
-      "summary": "The chancellor was speaking at the end of the International Monetary Fund meeting in Washington.",
-      "link": "https://www.bbc.com/news/articles/c5y97jjnqzyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d09d/live/f7231300-39b9-11f1-88f7-99d8b0ace173.jpg",
+      "title": "Rising value of Pokémon cards sparks smash and grab crime spree",
+      "summary": "Small shops across the UK are being targeted by thieves stealing collectibles worth thousands of pounds.",
+      "link": "https://www.bbc.com/news/articles/c4gvvnpl5kno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bb3d/live/0c321b70-39aa-11f1-ba5b-c578881f2eba.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1776359132.0,
+      "pub_ts": 1776380519.0,
       "hot": false
     },
     {
-      "id": "59e2e8f789",
+      "id": "c4d41d38ed",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "UK prepares for food shortages in worst case scenario as Iran war continues",
-      "summary": "The UK could face some food shortages by the summer under a worst case scenario drawn up by government officials.",
-      "link": "https://www.bbc.com/news/articles/cpvxp4xnrwdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/131d/live/398fe9d0-3991-11f1-9d5c-8ba507d7dbde.jpg",
+      "title": "Top Foreign Office official to leave post after Mandelson vetting row",
+      "summary": "It comes after it emerged the peer failed security vetting but the Foreign Office still allowed him to take up the post.",
+      "link": "https://www.bbc.com/news/articles/c747r3v90k3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c594/live/58b02640-39e1-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
-        "政治"
+        "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776355482.0,
+      "ago": "4小时前",
+      "pub_ts": 1776380333.0,
       "hot": false
     },
     {
-      "id": "7a91e73456",
+      "id": "37f7671e43",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Teleportation, aliens and cancer-busting soda - it’s not just Trump going cuckoo, his officials are ",
-      "summary": "As the president’s men rave about paranormal events and Diet Coke, it seems the US’s only hope is extraterrestrial interventionPeople often criticise the Democrats for being overly cautious and never",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/16/trump-administration-teleportation-demons-soda",
-      "image": "https://i.guim.co.uk/img/media/d5c9e1201b9d23e9adfc8e9457a50ca315ce4bea/372_0_3879_3105/master/3879.jpg?width=140&quality=85&auto=format&fit=max&s=d2d8fe44d4b5bd9c0ed4054c865f3e16",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776354534.0,
-      "hot": false
-    },
-    {
-      "id": "13abf5b19e",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Churchwarden jailed for murdering pensioner has conviction quashed",
-      "summary": "Benjamin Field has been in prison for the murder of Peter Farquhar, 69.",
-      "link": "https://www.bbc.com/news/articles/c93elnv973ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2fe3/live/a26b6850-187e-11f1-b048-c9424b2cf5fd.png",
+      "title": "Foreign Office’s top civil servant Olly Robbins forced out over Mandelson vetting row",
+      "summary": "Keir Starmer understood to have lost confidence in official over decision to override security vetting failureMandelson failed vetting but Foreign Office overruled decisionSir Olly Robbins, the UK For",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/16/foreign-offices-top-civil-servant-olly-robbins-leaves-post-in-mandelson-vetting-row",
+      "image": "https://i.guim.co.uk/img/media/b9ddb609c763962db59dce93022e368f67552ab2/871_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=2c013bc63fd5ca0d6071e545e87c0e27",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1776352802.0,
+      "pub_ts": 1776376755.0,
       "hot": false
     },
     {
@@ -351,24 +333,6 @@
       "hot": false
     },
     {
-      "id": "e7c1b6b00d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "香港歌手張敬軒任保安局導師並為過去言行道歉：為何引起公眾兩極反應",
-      "summary": "對於張敬軒擔任保安局導師並為過去言行「認錯」的舉動，引起網絡上廣泛的爭議及討論。",
-      "link": "https://www.bbc.com/zhongwen/articles/c9377jk1ly8o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5bae/live/1ac76100-3896-11f1-a836-373ce269a87a.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1776235842.0,
-      "hot": false
-    },
-    {
       "id": "0c061badc6",
       "type": "news",
       "region": "uk",
@@ -387,46 +351,136 @@
       "hot": false
     },
     {
-      "id": "30f447c2b0",
+      "id": "2b42f564ab",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "到底有多少船隻正在冒險穿越霍爾木茲海峽？",
-      "summary": "BBC事實核查團隊追蹤到，自周六清晨伊朗與美國停火談判破裂以來，共有23艘船隻穿越霍爾木茲海峽。",
-      "link": "https://www.bbc.com/zhongwen/articles/ckgww2w3009o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/8b21/live/5f2f50e0-3351-11f1-8606-05fe34b06e1b.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "2天前",
-      "pub_ts": 1776145946.0,
-      "hot": false
-    },
-    {
-      "id": "61951683ea",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "My friend keeps sending me unsettling social media videos. How do I tell her to stop? | Leading ques",
-      "summary": "People down the rabbit hole don’t always realise their experience isn’t universal, advice columnist Eleanor Gordon-Smith writes. You might have more luck trying a new tacticRead more Leading questions",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/17/leading-questions-my-friend-keeps-sending-me-unsettling-social-media-videos-how-do-i-tell-her-to-stop",
-      "image": "https://i.guim.co.uk/img/media/013413a064b33fc52502be967dd8f1cead98982a/0_1025_3836_3067/master/3836.jpg?width=140&quality=85&auto=format&fit=max&s=054b09f8d9cfe9a1c64d32156c6eced8",
+      "title": "Andrew invited to relinquish Freedom of City",
+      "summary": "Andrew Mountbatten-Windsor received the historic honour in 2012 \"by virtue of patrimony\".",
+      "link": "https://www.bbc.com/news/articles/c239219g7l5o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ff8/live/2997ed90-39c1-11f1-ae0f-b9a8d6dfceb4.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1776351605.0,
+      "pub_ts": 1776375364.0,
+      "hot": false
+    },
+    {
+      "id": "c403319c1c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Judge halts above-ground construction of Trump's White House ballroom",
+      "summary": "The judge allows the underground bunker portion of the project to proceed, while the US president says the ballroom \"is needed now\".",
+      "link": "https://www.bbc.com/news/articles/c8r48mgnzmjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/122a/live/db7b91e0-39d2-11f1-a1b6-b76b3bf64711.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776373478.0,
+      "hot": false
+    },
+    {
+      "id": "8b1a183df7",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Hegseth channels his inner Tarantino with fake Bible verse from Pulp Fiction",
+      "summary": "The defense secretary said his prayer drew on Ezekiel, but wording closely matches Quentin Tarantino dialogueIt was perhaps inevitable that a braggadocious Christian nationalist defense secretary elev",
+      "link": "https://www.theguardian.com/us-news/2026/apr/16/hegseth-pulp-fiction-ezekiel-prayer",
+      "image": "https://i.guim.co.uk/img/media/37f81d438e6837c482572090438efd3cf7d4f41b/0_0_1500_1200/master/1500.jpg?width=140&quality=85&auto=format&fit=max&s=7a0c8034d91b1125c673696e28d954c5",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1776363927.0,
+      "hot": false
+    },
+    {
+      "id": "2bc614124f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Murderer who never shared where body is gets parole",
+      "summary": "Glyn Razzell is approved for parole despite never revealing the location of his wife's body.",
+      "link": "https://www.bbc.com/news/articles/cy812rk3882o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5a83/live/83b3fab0-39aa-11f1-ba5b-c578881f2eba.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1776360786.0,
+      "hot": false
+    },
+    {
+      "id": "7928360042",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Like a concrete aircraft carrier: was LA’s giant new $724m gallery really worth all the carbon emiss",
+      "summary": "Built on tar swamps and two tortuous decades in the making, Lacma’s latest addition used twice as much metal as the Eiffel Tower. How did America supersize revered architect Peter Zumthor?Driving down",
+      "link": "https://www.theguardian.com/artanddesign/2026/apr/16/lacma-david-geffen-galleries-peter-zumthor-eiffel-concrete-aircraft-carrier",
+      "image": "https://i.guim.co.uk/img/media/2e27ce7bd1c7af6508a4f68f62ae5f1b3c5e26d7/240_0_2500_2000/master/2500.jpg?width=140&quality=85&auto=format&fit=max&s=7c0aca48283c2689ad4862216c247635",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1776360763.0,
+      "hot": false
+    },
+    {
+      "id": "cea7c94b2f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "No issues with UK fuel supply, says Reeves",
+      "summary": "The chancellor was speaking at the end of the International Monetary Fund meeting in Washington.",
+      "link": "https://www.bbc.com/news/articles/c5y97jjnqzyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d09d/live/f7231300-39b9-11f1-88f7-99d8b0ace173.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1776359132.0,
+      "hot": false
+    },
+    {
+      "id": "7a91e73456",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Teleportation, aliens and cancer-busting soda - it’s not just Trump going cuckoo, his officials are ",
+      "summary": "As the president’s men rave about paranormal events and Diet Coke, it seems the US’s only hope is extraterrestrial interventionPeople often criticise the Democrats for being overly cautious and never",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/16/trump-administration-teleportation-demons-soda",
+      "image": "https://i.guim.co.uk/img/media/d5c9e1201b9d23e9adfc8e9457a50ca315ce4bea/372_0_3879_3105/master/3879.jpg?width=140&quality=85&auto=format&fit=max&s=d2d8fe44d4b5bd9c0ed4054c865f3e16",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1776354534.0,
       "hot": false
     },
     {
       "id": "182778213e",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Beckhams have 'always tried to be best parents', Victoria says after Brooklyn row",
       "summary": "Victoria says she and David have always tried to \"protect\" their children, following a rift with their son.",
@@ -436,17 +490,17 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1776351435.0,
       "hot": false
     },
     {
-      "id": "f742eeb366",
+      "id": "03d2058913",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "Rollout of Covid vaccines an extraordinary feat, inquiry report finds",
+      "title": "Rollout of Covid vaccines extraordinary feat - inquiry report",
       "summary": "Covid vaccines saved hundreds of thousands of lives, but a small minority harmed need better support, says report.",
       "link": "https://www.bbc.com/news/articles/cp8dpjx1yvmo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6af/live/0b7ceb50-39a1-11f1-818c-6f173b5082f5.jpg",
@@ -454,27 +508,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1776350347.0,
-      "hot": false
-    },
-    {
-      "id": "1a446c24d2",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Former Arsenal goalkeeper Alex Manninger dies after car struck by train in Austria",
-      "summary": "Former Arsenal goalkeeper Alex Manninger dies at the age of 48 after his car is struck by a train.",
-      "link": "https://www.bbc.com/sport/football/articles/c4g84l14e5eo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4412/live/756b6fe0-399d-11f1-b9b5-2b81eaf56941.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776347605.0,
       "hot": false
     },
     {
@@ -491,7 +526,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1776347569.0,
       "hot": false
     },
@@ -509,7 +544,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1776346573.0,
       "hot": false
     }
