@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-17T09:51:38.220468+00:00",
-  "total": 25,
+  "updated_at": "2026-04-17T14:01:28.504553+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "7db7701cef",
@@ -18,9 +18,29 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1776415336.0,
+      "hot": false
+    },
+    {
+      "id": "bd2ba29707",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Texas Restaurant Owners Call for Work Permits as Immigration Crackdown Strains Industry",
+      "summary": "Restaurant operators say labor shortages, rising costs and worker fear have prompted an unusual alliance of industry and political leaders in Texas to call for legal pathways to hire immigrants.",
+      "link": "https://www.nytimes.com/2026/04/17/us/texas-restaurants-immigration-work-permits.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16nat-texas-restaurants--01-kfhv/16nat-texas-restaurants--01-kfhv-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "天气",
+        "科技"
+      ],
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1776424355.0,
       "hot": false
     },
     {
@@ -36,9 +56,137 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "51分前",
+      "score": 75,
+      "ago": "5小时前",
       "pub_ts": 1776416400.0,
+      "hot": false
+    },
+    {
+      "id": "c764690a5e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Marie-Thérèse Ross-Mahé Detained by ICE in Alabama Is Released",
+      "summary": "Marie-Thérèse Ross-Mahé, 85, who was arrested amid an inheritance dispute, has returned to France, its foreign affairs minister said. She came to America last year after reconnecting with and marrying",
+      "link": "https://www.nytimes.com/2026/04/17/us/french-woman-release-alabama-ice.html",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1776433517.0,
+      "hot": false
+    },
+    {
+      "id": "6676b40a66",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Why scientists are nervous about fungi",
+      "summary": "They can pose a threat to human health — yeast infections are but one example. Scientists say not enough attention is paid to their ability to develop resistance to medications that treat them.",
+      "link": "https://www.npr.org/2026/04/17/g-s1-117632/fungi-drug-resistant-yeast-infection",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776431658.0,
+      "hot": false
+    },
+    {
+      "id": "a3ddc83010",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Leaders urge for restraint as 10-day Israel-Lebanon ceasefire takes effect",
+      "summary": "Hezbollah, the Iran-backed Lebanese militant group, acknowledged the ceasefire, but did not say whether it would abide by it and urged people displaced by war in Lebanon to refrain from heading home.",
+      "link": "https://www.npr.org/2026/04/17/g-s1-117788/middle-east-conflict-israel-lebanon-us-updates",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776429378.0,
+      "hot": false
+    },
+    {
+      "id": "adc29448d1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israel starts a tense ceasefire in Lebanon. And, Trump nominates a new CDC director.",
+      "summary": "A 10-day ceasefire to pause fighting between Israel and Hezb",
+      "link": "https://www.npr.org/2026/04/17/g-s1-117800/up-first-newsletter-israel-hezbollah-strait-of-hormuz-cdc-erica-schwartz-immigration-dhs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776424008.0,
+      "hot": false
+    },
+    {
+      "id": "34aaeb8fa8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About the Israel-Lebanon Cease-Fire, and R.F.K. Jr.’s Shifting Tone on Vaccines",
+      "summary": "Plus, the Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/04/17/podcasts/the-headlines/israel-lebanon-cease-fire-rfk-jr-vaccines-heelys.html",
+      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17theheadlines-lebanon-bptf/17theheadlines-lebanon-bptf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776420010.0,
+      "hot": false
+    },
+    {
+      "id": "fe0d3a0b1f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "We Need Lena Dunham Now More Than Ever",
+      "summary": "The era of “Girls” is long gone. So why are we still so fascinated by its creator?",
+      "link": "https://www.nytimes.com/2026/04/17/magazine/lena-dunham-famesick.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776416546.0,
+      "hot": false
+    },
+    {
+      "id": "178a19b57b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "She Made Sure Her Baby Was Born an American. Then Federal Agents Separated Them.",
+      "summary": "Diana Acosta Verde, who came into the United States illegally when she was six months pregnant, had to leave her baby at a hospital while she returned to a detention center.",
+      "link": "https://www.nytimes.com/2026/04/17/us/politics/ice-cbp-birth-pregnancy-detention.html",
+      "image": "https://static01.nyt.com/images/2026/04/09/us/politics/dc-detention-birth-1/dc-detention-birth-1-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776416469.0,
       "hot": false
     },
     {
@@ -54,9 +202,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "50分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776416460.0,
+      "hot": false
+    },
+    {
+      "id": "d1509c4dee",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Lena Dunham Takes to Her Bed to Promote Her Memoir, “Famesick.”",
+      "summary": "Forget demure conversations in spindly chairs. To promote “Famesick,” a new memoir, she’s taken to her bed and invited friends to jump in. Onstage.",
+      "link": "https://www.nytimes.com/2026/04/17/books/review/lena-dunham-book-tour-famesick.html",
+      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17tbr-lena-tour-01-wjqf/17tbr-lena-tour-01-wjqf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776416447.0,
       "hot": false
     },
     {
@@ -72,8 +238,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "51分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776416400.0,
       "hot": false
     },
@@ -90,8 +256,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "51分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776416400.0,
       "hot": false
     },
@@ -108,63 +274,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "51分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776416400.0,
-      "hot": false
-    },
-    {
-      "id": "b20b86467f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Human rights groups raise alarm over fate of Salvadorans deported from U.S.",
-      "summary": "Migrants deported from the U.S. routinely disappear into El Salvador's prisons the moment they land or in the weeks that follow. Many remain incommunicado from family and lawyers for  years.",
-      "link": "https://www.npr.org/2026/04/17/nx-s1-5721174/rights-groups-raise-alarm-over-fate-of-salvadorans-deported-from-us-trump",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1776416400.0,
-      "hot": false
-    },
-    {
-      "id": "151a7beb7c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Morning news brief",
-      "summary": "Israel and Lebanon agree to 10-day ceasefire, U.S. military officials say the blockade of Iranian ports and ceasefire is holding, Trump nominates former Coast Guard doctor as CDC chief.",
-      "link": "https://www.npr.org/2026/04/17/nx-s1-5780738/morning-news-brief",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776415369.0,
-      "hot": false
-    },
-    {
-      "id": "b80bcd96fa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump rails against court decision that once again stalls his White House ballroom project",
-      "summary": "The federal judge's decision continues to block above-ground construction on the $400 million White House ballroom, allowing only below-ground work on a bunker and other \"national security facilities\"",
-      "link": "https://www.npr.org/2026/04/17/nx-s1-5788576/trump-rails-against-court-decision-that-once-again-stalls-his-white-house-ballroom-project",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776413279.0,
       "hot": false
     },
     {
@@ -180,63 +292,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776410146.0,
-      "hot": false
-    },
-    {
-      "id": "f817dd5454",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump to Nominate Dr. Erica Schwartz, a Vaccine Supporter, as CDC Director",
-      "summary": "Dr. Erica Schwartz is seen as a highly qualified traditional choice and tapping her is the strongest signal yet that the administration is veering away from vaccine skepticism this election year.",
-      "link": "https://www.nytimes.com/2026/04/16/health/erica-schwartz-cdc-director-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/15/science/00HS-cdc-promo/00HS-cdc-promo-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776407893.0,
-      "hot": false
-    },
-    {
-      "id": "c29c4b5b23",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "D4vd Arrested in Connection With Death of Celeste Rivas Hernandez",
-      "summary": "The singer was detained in connection with the death of Celeste Rivas Hernandez, who died before her 15th birthday. D4vd’s lawyers said they would vigorously defend his innocence.",
-      "link": "https://www.nytimes.com/2026/04/16/arts/music/d4vd-charged-teen-death-tesla.html",
-      "image": "https://static01.nyt.com/images/2025/09/18/multimedia/18xp-d4vd-assw/18xp-d4vd-assw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776396036.0,
-      "hot": false
-    },
-    {
-      "id": "a6a9c9affc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Who Are D4vd and Celeste Rivas Hernandez?",
-      "summary": "The musician is known for creating the anthem for Fortnite. He was touring for his major-label debut when Ms. Rivas Hernandez’s remains were found in his car, officials said.",
-      "link": "https://www.nytimes.com/article/d4vd-tesla-body-murder-investigation.html",
-      "image": "https://static01.nyt.com/images/2025/10/22/multimedia/cul-D4vd-wtk-lqjh/cul-D4vd-wtk-lqjh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776395232.0,
       "hot": false
     },
     {
@@ -253,44 +311,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776389651.0,
-      "hot": false
-    },
-    {
-      "id": "74a4b36410",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "RFK Jr. Shifts Tone on Vaccines in Congressional Hearing",
-      "summary": "Robert F. Kennedy Jr., who has sought to roll back longstanding vaccine policy, testified that the measles vaccine is safe and effective “for most people” and agreed it was safer than getting measles.",
-      "link": "https://www.nytimes.com/2026/04/16/us/politics/rfk-jr-congress-budget-hearing.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16dc-rfk-hqvc/16dc-rfk-hqvc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776382434.0,
-      "hot": false
-    },
-    {
-      "id": "243f4f2506",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump to Pick Ousted FEMA Head to Lead Agency Again",
-      "summary": "Cameron Hamilton is a former Navy SEAL who ran unsuccessfully for Congress.",
-      "link": "https://www.nytimes.com/2026/04/16/us/trump-fema-cameron-hamilton.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16trump-fema-gfjc/16trump-fema-gfjc-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776378243.0,
+      "ago": "12小时前",
+      "pub_ts": 1776389652.0,
       "hot": false
     },
     {
@@ -307,26 +329,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1776376869.0,
-      "hot": false
-    },
-    {
-      "id": "1b5202ff84",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Roger Adams Dies at 71; Invented the Rolling Sneakers Known as Heelys",
-      "summary": "You could walk in them like gym shoes, but if you rocked back on your heels the wheels emerged, turning them into roller skates. In the early 2000s, the company sold millions.",
-      "link": "https://www.nytimes.com/2026/04/16/business/roger-adams-dead.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776375762.0,
       "hot": false
     },
     {
@@ -343,7 +347,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1776375518.0,
       "hot": false
     },
@@ -361,7 +365,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1776372588.0,
       "hot": false
     },
@@ -379,7 +383,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1776360426.0,
       "hot": false
     },
@@ -397,44 +401,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1776356853.0,
-      "hot": false
-    },
-    {
-      "id": "54f63346a8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Pope Leo takes aim at  'handful of tyrants' spending billions on war amid tensions with Trump",
-      "summary": "Pope Leo XIV condemns \"tyrants\" fueling war with billions. His calls for global peace during his Africa trip come amid rising tensions with President Trump.",
-      "link": "https://www.npr.org/2026/04/16/nx-s1-5787753/pope-leo-takes-trump-war-tyrants-iran-africa",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1776356783.0,
-      "hot": false
-    },
-    {
-      "id": "89cd6d5a40",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran War timeline continues to shift. And, jury rules Live Nation acted as monopoly",
-      "summary": "Trump continues to try to declare victory in Iran as the timeline for the war's end shifts. And, a jury determined that Live Nation acted as a monopoly and overcharged ticket buyers.",
-      "link": "https://www.npr.org/2026/04/16/g-s1-117639/up-first-newsletter-trump-iran-war-strait-pope-leo-ticketmaster-live-nation-january-6",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "21小时前",
-      "pub_ts": 1776340751.0,
+      "pub_ts": 1776356853.0,
       "hot": false
     },
     {
