@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-17T03:48:41.024111+00:00",
-  "total": 24,
+  "updated_at": "2026-04-17T06:17:07.877868+00:00",
+  "total": 25,
   "articles": [
+    {
+      "id": "81eb8a23d1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "ICE acting director Todd Lyons will resign at end of May, DHS says",
+      "summary": "U.S. Immigration and Customs Enforcement acting director Todd Lyons, a key executor of President Donald Trump's mass deportations agenda, will resign at the end of May, federal officials announced.",
+      "link": "https://www.npr.org/2026/04/17/g-s1-117780/ice-acting-director-lyons-will-resign-at-end-of-may",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1776402655.0,
+      "hot": false
+    },
     {
       "id": "876eb3d836",
       "type": "news",
@@ -18,8 +36,8 @@
         "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "4小时前",
+      "score": 70,
+      "ago": "6小时前",
       "pub_ts": 1776382635.0,
       "hot": false
     },
@@ -37,81 +55,9 @@
         "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "5小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1776377275.0,
-      "hot": false
-    },
-    {
-      "id": "c29c4b5b23",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "D4vd Arrested in Connection With Death of Celeste Rivas Hernandez",
-      "summary": "The singer was detained in connection with the death of Celeste Rivas Hernandez, who died before her 15th birthday. D4vd’s lawyers said they would vigorously defend his innocence.",
-      "link": "https://www.nytimes.com/2026/04/16/arts/music/d4vd-charged-teen-death-tesla.html",
-      "image": "https://static01.nyt.com/images/2025/09/18/multimedia/18xp-d4vd-assw/18xp-d4vd-assw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1776396036.0,
-      "hot": false
-    },
-    {
-      "id": "a6a9c9affc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Who Are D4vd and Celeste Rivas Hernandez?",
-      "summary": "The musician is known for creating the anthem for Fortnite. He was touring for his major-label debut when Ms. Rivas Hernandez’s remains were found in his car, officials said.",
-      "link": "https://www.nytimes.com/article/d4vd-tesla-body-murder-investigation.html",
-      "image": "https://static01.nyt.com/images/2025/10/22/multimedia/cul-D4vd-wtk-lqjh/cul-D4vd-wtk-lqjh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1776395232.0,
-      "hot": false
-    },
-    {
-      "id": "209e1cb688",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Analilia Mejia, a Progressive Democrat, Wins Mikie Sherrill’s House Seat",
-      "summary": "Ms. Mejia, who helped run Sen. Bernie Sanders’s presidential campaign, beat her Republican opponent, Joe Hathaway, to win a seat Ms. Sherrill vacated after she was elected governor of New Jersey.",
-      "link": "https://www.nytimes.com/2026/04/16/nyregion/analilia-mejia-joe-hathaway-congress-nj.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16met-nj-congress-mejia-01-gwbm/16met-nj-congress-mejia-01-gwbm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776393183.0,
-      "hot": false
-    },
-    {
-      "id": "3747685317",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Singer D4vd is arrested months after a teen's remains were found in his car",
-      "summary": "The 21-year-old Houston-born singer, whose real name is David Burke, had been under a secret investigation by an LA County grand jury after a 14-year-old girl's decomposed body was found in his car.",
-      "link": "https://www.npr.org/2026/04/16/g-s1-117772/d4vd-singer-david-arrested-tesla",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776392368.0,
       "hot": false
     },
     {
@@ -128,7 +74,7 @@
         "移民"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776374085.0,
       "hot": false
     },
@@ -147,8 +93,80 @@
         "科技"
       ],
       "score": 70,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776371180.0,
+      "hot": false
+    },
+    {
+      "id": "209e1cb688",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Analilia Mejia, a Progressive Democrat, Wins Mikie Sherrill’s House Seat",
+      "summary": "Ms. Mejia, who helped run Sen. Bernie Sanders’s presidential campaign, beat her Republican opponent, Joe Hathaway, to win a seat Ms. Sherrill vacated after she was elected governor of New Jersey.",
+      "link": "https://www.nytimes.com/2026/04/16/nyregion/analilia-mejia-joe-hathaway-congress-nj.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16met-nj-congress-mejia-01-gwbm/16met-nj-congress-mejia-01-gwbm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776398701.0,
+      "hot": false
+    },
+    {
+      "id": "c29c4b5b23",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "D4vd Arrested in Connection With Death of Celeste Rivas Hernandez",
+      "summary": "The singer was detained in connection with the death of Celeste Rivas Hernandez, who died before her 15th birthday. D4vd’s lawyers said they would vigorously defend his innocence.",
+      "link": "https://www.nytimes.com/2026/04/16/arts/music/d4vd-charged-teen-death-tesla.html",
+      "image": "https://static01.nyt.com/images/2025/09/18/multimedia/18xp-d4vd-assw/18xp-d4vd-assw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776396036.0,
+      "hot": false
+    },
+    {
+      "id": "a6a9c9affc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who Are D4vd and Celeste Rivas Hernandez?",
+      "summary": "The musician is known for creating the anthem for Fortnite. He was touring for his major-label debut when Ms. Rivas Hernandez’s remains were found in his car, officials said.",
+      "link": "https://www.nytimes.com/article/d4vd-tesla-body-murder-investigation.html",
+      "image": "https://static01.nyt.com/images/2025/10/22/multimedia/cul-D4vd-wtk-lqjh/cul-D4vd-wtk-lqjh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776395232.0,
+      "hot": false
+    },
+    {
+      "id": "3747685317",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Singer D4vd is arrested months after a teen's remains were found in his car",
+      "summary": "The 21-year-old Houston-born singer, whose real name is David Burke, had been under a secret investigation by an LA County grand jury after a 14-year-old girl's decomposed body was found in his car.",
+      "link": "https://www.npr.org/2026/04/16/g-s1-117772/d4vd-singer-david-arrested-tesla",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776392368.0,
       "hot": false
     },
     {
@@ -165,7 +183,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1776389651.0,
       "hot": false
     },
@@ -182,8 +200,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776382434.0,
       "hot": false
     },
@@ -200,8 +218,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776378632.0,
       "hot": false
     },
@@ -218,27 +236,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776378243.0,
-      "hot": false
-    },
-    {
-      "id": "4e775b719e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Israel and Lebanon Agree to a Cease-Fire Deal",
-      "summary": "Also, Utah is now the epicenter of U.S. measles cases. Here’s the latest at the end of Thursday.",
-      "link": "https://www.nytimes.com/2026/04/16/briefing/israel-lebanon-cease-fire.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16EVENING-LEBANON-zbfv/16EVENING-LEBANON-zbfv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776377662.0,
       "hot": false
     },
     {
@@ -254,9 +254,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776376869.0,
+      "hot": false
+    },
+    {
+      "id": "1b5202ff84",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Roger Adams Dies at 71; Invented the Rolling Sneakers Known as Heelys",
+      "summary": "You could walk in them like gym shoes, but if you rocked back on your heels the wheels emerged, turning them into roller skates. In the early 2000s, the company sold millions.",
+      "link": "https://www.nytimes.com/2026/04/16/business/roger-adams-dead.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1776375762.0,
       "hot": false
     },
     {
@@ -273,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776375518.0,
       "hot": false
     },
@@ -291,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776373129.0,
       "hot": false
     },
@@ -309,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776372588.0,
       "hot": false
     },
@@ -327,7 +345,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1776364864.0,
       "hot": false
     },
@@ -335,7 +353,7 @@
       "id": "5c312576c5",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Israeli and Palestinian activists share a vision for peace in Gaza",
       "summary": "Maoz Inon's parents were killed by Hamas in the Oct. 7 attacks. Aziz Abu Sarah's brother died after being tortured in an Israeli military prison. Their new book is The Future Is Peace.",
@@ -345,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1776360426.0,
       "hot": false
     },
@@ -363,7 +381,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1776356853.0,
       "hot": false
     },
@@ -381,7 +399,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1776356783.0,
       "hot": false
     },
@@ -399,7 +417,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1776340751.0,
       "hot": false
     },
@@ -417,7 +435,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1776339930.0,
       "hot": false
     },
