@@ -1,224 +1,43 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-18T13:41:41.971777+00:00",
-  "total": 28,
+  "updated_at": "2026-04-18T17:06:32.911668+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "0d9d92cecf",
+      "id": "2d4dae80b3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "At least six killed in Kyiv as gunman opens fire and takes hostages",
+      "summary": "The attacker, who took hostages inside a supermarket, was killed after a shoot-out with police, officials say.",
+      "link": "https://www.bbc.com/news/articles/cm25r1vkx4lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ef8/live/e34c92d0-3b43-11f1-9e4f-cdab8de3fb0a.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "0分前",
+      "pub_ts": 1776531945.0,
+      "hot": false
+    },
+    {
+      "id": "215f587c61",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Middle East crisis live: tanker reports attack as Iran closes strait of Hormuz; French soldier kille",
-      "summary": "Iranian military’s command says the strait has ‘reverted to its previous state’;  Macron confirms death of French UN peacekeeper Separate to the Pakistani army chief’s trip to Iran (see post at 07:53)",
+      "title": "Middle East crisis live: ships report attacks as Iran closes strait of Hormuz; Trump says deal still",
+      "summary": "Iran claims US blockade of ports violates ceasefire, but Trump says: ‘We’re talking to them … they can’t blackmail us’Separate to the Pakistani army chief’s trip to Iran (see post at 07:53), the Pakis",
       "link": "https://www.theguardian.com/world/live/2026/apr/18/middle-east-crisis-live-iran-warns-it-will-close-strait-of-hormuz-if-us-blockade-continues",
-      "image": "https://i.guim.co.uk/img/media/988bd67f7521732189a85217249fc6975c5e8512/320_0_3240_2592/master/3240.jpg?width=140&quality=85&auto=format&fit=max&s=615e462641ad3f1b4f35848bc233d0b6",
+      "image": "https://i.guim.co.uk/img/media/0fd03407f4aa44c64e74ffcb8629b460db495abf/1007_0_3194_2557/master/3194.jpg?width=140&quality=85&auto=format&fit=max&s=fdb240a27237897f0ce4c711a4b395a9",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1776518078.0,
-      "hot": false
-    },
-    {
-      "id": "08578fc18b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "What life is like when you have an unfortunate surname",
-      "summary": "For years, Andy Mycock didn't know others found his surname funny. Now, he's the one making the jokes.",
-      "link": "https://www.bbc.com/news/articles/cql7eennngvo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6769/live/91ba3ca0-3275-11f1-a1dc-4b5910268ba2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1776517866.0,
-      "hot": false
-    },
-    {
-      "id": "bf5c89755a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Counter-terror police investigate another London arson attack",
-      "summary": "It comes as a man attempts to ignite a plastic bag containing containing fluid in north-west London.",
-      "link": "https://www.bbc.com/news/articles/cqxl1qr11q2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f004/live/2fb97220-3b24-11f1-bdd4-fdf1a2a9ebde.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1776517610.0,
-      "hot": false
-    },
-    {
-      "id": "3b4a345496",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘We can’t wait’: Venice already seeking floods plan B five years after barriers’ launch",
-      "summary": "Rising sea levels and ecological damage caused by heavy use of flood defence system force city authorities to consider next moveThe Arsenale, the colossal shipyard that was the engine of the Venetian",
-      "link": "https://www.theguardian.com/world/2026/apr/18/venice-flood-barrier-plan-b-rising-sea-level",
-      "image": "https://i.guim.co.uk/img/media/7d5182a6567da1006bb063fc6aff46432f505665/305_0_2954_2363/master/2954.jpg?width=140&quality=85&auto=format&fit=max&s=ec7f2f36ba1eeca5b654b5ba6bec8dc0",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1776517214.0,
-      "hot": false
-    },
-    {
-      "id": "a0acf347f3",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Why Starmer still can't move on from the Mandelson mess",
-      "summary": "The decision to send Peter Mandelson to Washington has become a scandal that just won't go away for Labour.",
-      "link": "https://www.bbc.com/news/articles/c4gd7kxdk37o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b941/live/87b08700-3a4a-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776515555.0,
-      "hot": false
-    },
-    {
-      "id": "d1cd3e94e7",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Help, there’s a cockroach in my coffee! 16 gross ingredients hidden in your favourite foods",
-      "summary": "From wood pulp in ice-cream to peat in portobellos, science has transformed how we dine. Do you know exactly what’s lurking in the grub we eat?Microbial slime and a side helping of sand doesn’t sound",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/18/gross-ingredients-16-favourite-foods-cockroach-coffee",
-      "image": "https://i.guim.co.uk/img/media/53e267afd058a97cb8c732768afd1f2e9dcad9bb/0_1683_7212_5766/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=cc911e01731bf76ffbba5f3872d122cb",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776510012.0,
-      "hot": false
-    },
-    {
-      "id": "62bac75e34",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Traders placed over $1bn in perfectly timed bets on the Iran war. What is going on?",
-      "summary": "Suspicious wagers on the US-Israel war in Iran are creating huge windfalls and raising concerns among lawmakersSixteen bets made $100,000 accurately predicting the timing of the US airstrikes against",
-      "link": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
-      "image": "https://i.guim.co.uk/img/media/a015cbe3cc86bb76b2ae057965890207757e3202/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=106f8745460afaa0a5922cd31293529d",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776510012.0,
-      "hot": false
-    },
-    {
-      "id": "84552f33e6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Madonna joins Sabrina Carpenter to surprise Coachella",
-      "summary": "The Queen of Pop makes a guest appearance during the Espresso singer's headline set.",
-      "link": "https://www.bbc.com/news/articles/c77my6gnpy4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0be/live/f8d1c890-3b26-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776508374.0,
-      "hot": false
-    },
-    {
-      "id": "c8a26b6c2a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Mandelson scandal is biggest crisis for diplomatic service in decades, says ex-Foreign Office chief",
-      "summary": "Simon McDonald says Olly Robbins was ‘thrown under a bus’ by the prime minister and the decision feels wrong• UK politics live – latest updatesThe Peter Mandelson security vetting scandal is the bigge",
-      "link": "https://www.theguardian.com/politics/2026/apr/18/peter-mandelson-scandal-crisis-diplomatic-service-keir-starmer-oliver-robbins",
-      "image": "https://i.guim.co.uk/img/media/ec69467fc26d2e96e444f8fe08e98215c3e05b61/298_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=c94e39532f57c87450103bff45862c37",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776503759.0,
-      "hot": false
-    },
-    {
-      "id": "70d888bfeb",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Graham Norton: ‘Back in the day, my monologues were full of terrible jokes about people’",
-      "summary": "The comedian and broadcaster on moaning about his eyebags, being stabbed by muggers, and his publicity-shy petBorn in County Dublin, Graham Norton, 63, studied at the Royal Central School of Speech an",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/18/graham-norton-interview-monologues-terrible-jokes",
-      "image": "https://i.guim.co.uk/img/media/ce0ac538b293b8337a3c92a37fb325858e2ffbfc/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3b4895a0eab956ff50915e0070b7302a",
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776502810.0,
-      "hot": false
-    },
-    {
-      "id": "1b23ed08b3",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "A dubious career move: how The Claudia Winkleman Show ended the presenter’s winning streak",
-      "summary": "It seems that even the Traitors host can’t save the ailing chatshow format. As her series ends, it’s hard not to feel that she never quite got out of Graham Norton’s shadowSix weeks ago, before Claudi",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/18/why-even-claudia-winkleman-cant-save-the-chatshow",
-      "image": "https://i.guim.co.uk/img/media/3f75b0c693a7d5b6da0855e94c7935eede31a95c/359_0_3715_2973/master/3715.jpg?width=140&quality=85&auto=format&fit=max&s=e67e1433aa176da0389be406e55bf075",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776502809.0,
-      "hot": false
-    },
-    {
-      "id": "91b734d683",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Otter mayhem after 'challenging beast' sneaks into garden centre",
-      "summary": "A fishing net had to be used to capture the \"challenging beast\" in a south of Scotland store.",
-      "link": "https://www.bbc.com/news/articles/c30ry3y9g92o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/561b/live/ba475490-3a69-11f1-88e7-17b97289f7a3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776500900.0,
+      "ago": "14分前",
+      "pub_ts": 1776531090.0,
       "hot": false
     },
     {
@@ -234,46 +53,153 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776500040.0,
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1776530493.0,
       "hot": false
     },
     {
-      "id": "165c494c0a",
+      "id": "4568021261",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Starmer accused of 'skulking' and shunning Sarwar in Scotland",
+      "summary": "It is the first time the prime minister has been north of the border since the Scottish Labour leader Anas Sarwar called for him to step down in February.",
+      "link": "https://www.bbc.com/news/articles/ckgr54407wxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d984/live/f73f08b0-3b28-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776527203.0,
+      "hot": false
+    },
+    {
+      "id": "d68c14ea6c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two men killed after wrong-way motorway crash",
+      "summary": "Police say a grey Ford Kuga was seen driving northbound on the southbound carriageway of the M90 at about 22:30 on Friday.",
+      "link": "https://www.bbc.com/news/articles/cm2rj8wpjyxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/07ea/live/2aa4ff60-3b43-11f1-8606-05fe34b06e1b.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776526977.0,
+      "hot": false
+    },
+    {
+      "id": "0ed01c7dfe",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "‘Pure shock’: how ministers reacted to revelation of Mandelson vetting failure",
-      "summary": "Inquiries into who knew what, and when, will be pored over in coming weeks and could ultimately decide Starmer’s fateWhen the Guardian revealed that Peter Mandelson had failed his vetting checks befor",
-      "link": "https://www.theguardian.com/politics/2026/apr/18/pure-shock-how-ministers-reacted-to-revelation-of-mandelson-vetting-failure",
-      "image": "https://i.guim.co.uk/img/media/cfb67ec10d552d46a4ec24e233665c4be4f21ac7/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=c10bc667129f51e435bde2bb0958c8c0",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776498429.0,
-      "hot": false
-    },
-    {
-      "id": "cda2e86ba4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "The home cooks reviving forgotten British dishes you've probably never heard of",
-      "summary": "Carrageen pudding and Bedfordshire clangers might no longer be household staples, but some home chefs are bringing them back.",
-      "link": "https://www.bbc.com/news/articles/cje4pl85pxwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e40/live/18ae2fe0-3b05-11f1-9d5c-8ba507d7dbde.png",
+      "title": "Reeves rightly fears the bond market, but she can afford to ditch one unhelpful rule | Phillip Inman",
+      "summary": "The chancellor has wisely vowed to drive down the annual deficit, but long-term defence investment must not be delayedThere is a good reason Rachel Reeves is wary of the dreaded bond market vigilantes",
+      "link": "https://www.theguardian.com/business/2026/apr/18/reeves-rightly-fears-the-bond-market-but-she-can-afford-to-ditch-one-unhelpful-rule",
+      "image": "https://i.guim.co.uk/img/media/5621a6fe8baa8ef90d36bebba987bd6d5e9badaa/47_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=a1bd670673aae9207d2ddc1770478df4",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776498362.0,
+      "ago": "2小时前",
+      "pub_ts": 1776524416.0,
+      "hot": false
+    },
+    {
+      "id": "9a6828e9d0",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Madonna: I Feel So Free review – album teaser offers hypnotic glimpse of a return to her club scene ",
+      "summary": "(Warner Records)The ‘Queen of Pop’ conjures the heady vibes of a small hours dancefloor with this exceptionally crafted singleRecent years have not been particularly kind to Madonna. Her tours have be",
+      "link": "https://www.theguardian.com/music/2026/apr/18/madonna-i-feel-so-free-review-album-teaser-hypnotic-glimpse-return-club-scene-roots",
+      "image": "https://i.guim.co.uk/img/media/6255368d80819a6cfb0ef576f3b16ac1746d3843/0_200_2001_1601/master/2001.jpg?width=140&quality=85&auto=format&fit=max&s=e81f5f28301fb5bf2c14d6a8d7a3b434",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776521478.0,
+      "hot": false
+    },
+    {
+      "id": "b17e4f5f83",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘Labels protect us’: Olivia Nervo wants reproductive coercion to be a standalone offence – she is no",
+      "summary": "Grammy-winning songwriter says she was deceived into pregnancy, and that cases like hers fall between the cracksWhen the Grammy award winning songwriter, Olivia Nervo, agreed to start a family with he",
+      "link": "https://www.theguardian.com/society/2026/apr/18/olivia-nervo-reproductive-coercion-standalone-offence",
+      "image": "https://i.guim.co.uk/img/media/d0dfb3aa9fa9bf929a0fcf65199f66feb9e52b21/35_217_961_768/master/961.jpg?width=140&quality=85&auto=format&fit=max&s=6e3cc65cd3d351d40f91133aed6c7f6f",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776520815.0,
+      "hot": false
+    },
+    {
+      "id": "08578fc18b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "What life is like when you have an unfortunate surname",
+      "summary": "For years, Andy Mycock didn't know others found his surname funny. Now, he's the one making the jokes.",
+      "link": "https://www.bbc.com/news/articles/cql7eennngvo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6769/live/91ba3ca0-3275-11f1-a1dc-4b5910268ba2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776517866.0,
+      "hot": false
+    },
+    {
+      "id": "bf5c89755a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Counter-terror police investigate another London arson attack",
+      "summary": "It comes as a man attempts to ignite a plastic bag containing containing fluid in north-west London.",
+      "link": "https://www.bbc.com/news/articles/cqxl1qr11q2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba41/live/7f3ae7d0-3b2d-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776517610.0,
+      "hot": false
+    },
+    {
+      "id": "a0acf347f3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Why Starmer still can't move on from the Mandelson mess",
+      "summary": "The decision to send Peter Mandelson to Washington has become a scandal that just won't go away for Labour.",
+      "link": "https://www.bbc.com/news/articles/c4gd7kxdk37o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b941/live/87b08700-3a4a-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776515555.0,
       "hot": false
     },
     {
@@ -403,46 +329,137 @@
       "hot": false
     },
     {
-      "id": "d0a62809ce",
+      "id": "d1cd3e94e7",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "British man pleads guilty to conspiring to steal $8m in virtual currency",
-      "summary": "The Scottish 24-year-old admits defrauding at least a dozen companies and their employees across the US.",
-      "link": "https://www.bbc.com/news/articles/c145yxjrllko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84d9/live/7171e250-3ad5-11f1-9d5c-8ba507d7dbde.jpg",
+      "title": "Help, there’s a cockroach in my coffee! 16 gross ingredients hidden in your favourite foods",
+      "summary": "From wood pulp in ice-cream to peat in portobellos, science has transformed how we dine. Do you know exactly what’s lurking in the grub we eat?Microbial slime and a side helping of sand doesn’t sound",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/18/gross-ingredients-16-favourite-foods-cockroach-coffee",
+      "image": "https://i.guim.co.uk/img/media/53e267afd058a97cb8c732768afd1f2e9dcad9bb/0_1683_7212_5766/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=cc911e01731bf76ffbba5f3872d122cb",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776483424.0,
+      "ago": "6小时前",
+      "pub_ts": 1776510012.0,
       "hot": false
     },
     {
-      "id": "d0cfdc066b",
+      "id": "62bac75e34",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Pregnancy vaccine reduces baby hospital admissions for RSV by 80%",
-      "summary": "A study confirms the vaccine gives excellent protection for babies against life-threatening chest infections.",
-      "link": "https://www.bbc.com/news/articles/c4g84nxwz8wo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4ad0/live/9f4a1170-3a67-11f1-88e7-17b97289f7a3.jpg",
+      "title": "Traders placed over $1bn in perfectly timed bets on the Iran war. What is going on?",
+      "summary": "Suspicious wagers on the US-Israel war in Iran are creating huge windfalls and raising concerns among lawmakersSixteen bets made $100,000 accurately predicting the timing of the US airstrikes against",
+      "link": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
+      "image": "https://i.guim.co.uk/img/media/a015cbe3cc86bb76b2ae057965890207757e3202/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=106f8745460afaa0a5922cd31293529d",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1776468923.0,
+      "ago": "6小时前",
+      "pub_ts": 1776510012.0,
+      "hot": false
+    },
+    {
+      "id": "c8a26b6c2a",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Mandelson scandal is biggest crisis for diplomatic service in decades, says ex-Foreign Office chief",
+      "summary": "Simon McDonald says Olly Robbins was ‘thrown under a bus’ by the prime minister and the decision feels wrongThe Peter Mandelson security vetting scandal is the biggest crisis for the diplomatic servic",
+      "link": "https://www.theguardian.com/politics/2026/apr/18/peter-mandelson-scandal-crisis-diplomatic-service-keir-starmer-oliver-robbins",
+      "image": "https://i.guim.co.uk/img/media/ec69467fc26d2e96e444f8fe08e98215c3e05b61/298_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=c94e39532f57c87450103bff45862c37",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1776503759.0,
+      "hot": false
+    },
+    {
+      "id": "1b23ed08b3",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "A dubious career move: how The Claudia Winkleman Show ended the presenter’s winning streak",
+      "summary": "It seems that even the Traitors host can’t save the ailing chatshow format. As her series ends, it’s hard not to feel that she never quite got out of Graham Norton’s shadowSix weeks ago, before Claudi",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/18/why-even-claudia-winkleman-cant-save-the-chatshow",
+      "image": "https://i.guim.co.uk/img/media/3f75b0c693a7d5b6da0855e94c7935eede31a95c/359_0_3715_2973/master/3715.jpg?width=140&quality=85&auto=format&fit=max&s=e67e1433aa176da0389be406e55bf075",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1776502809.0,
+      "hot": false
+    },
+    {
+      "id": "91b734d683",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Otter mayhem after 'challenging beast' sneaks into garden centre",
+      "summary": "A fishing net had to be used to capture the \"challenging beast\" in a south of Scotland store.",
+      "link": "https://www.bbc.com/news/articles/c30ry3y9g92o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/561b/live/ba475490-3a69-11f1-88e7-17b97289f7a3.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1776500900.0,
+      "hot": false
+    },
+    {
+      "id": "cda2e86ba4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "The home cooks reviving forgotten British dishes you've probably never heard of",
+      "summary": "Carrageen pudding and Bedfordshire clangers might no longer be household staples, but some home chefs are bringing them back.",
+      "link": "https://www.bbc.com/news/articles/cje4pl85pxwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5e40/live/18ae2fe0-3b05-11f1-9d5c-8ba507d7dbde.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1776498362.0,
+      "hot": false
+    },
+    {
+      "id": "7ca59c179a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "What people in power think the impact of the Iran war will be",
+      "summary": "Faisal Islam talks to some of the world's most powerful people about the conflict and the economy.",
+      "link": "https://www.bbc.com/news/articles/c9vl37eev7ko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5f2/live/0268f3a0-3a60-11f1-bab3-e3881342f552.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1776488415.0,
       "hot": false
     },
     {
       "id": "d2f9aa4f95",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Mortgage rates show signs of falling after Iran war peak",
       "summary": "Major lenders make rate reductions as markets take some heart from a possible truce in the Iran war.",
@@ -452,7 +469,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1776468790.0,
       "hot": false
     },
@@ -460,7 +477,7 @@
       "id": "ad09f639fa",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "'I'm the lucky one' - more than one in three young men now live with their parents",
       "summary": "Last year, the highest proportion of men aged 20-34 were still living at home since at least 2007 as the rising cost of living takes hold.",
@@ -470,7 +487,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1776467793.0,
       "hot": false
     },
@@ -488,26 +505,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1776467175.0,
       "hot": false
     },
     {
-      "id": "303a5dbad0",
+      "id": "ddf0e81cff",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Chris Mason: Mandelson saga is a messy palaver - and the questions continue to swirl",
-      "summary": "Sir Keir and the top official at the Foreign Office at the time are expected to face questions from MPs next week.",
-      "link": "https://www.bbc.com/news/articles/cwydex228vko?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7c64/live/d07bb670-3a96-11f1-8c60-37b411324010.jpg",
+      "title": "Coachella campers are turning tents fancy - and not all Brits are happy",
+      "summary": "Campers are being judged for over-the-top tent set ups at this year's festival in California.",
+      "link": "https://www.bbc.com/news/articles/c2032x399w1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c8f7/live/5ea4a8a0-3a9a-11f1-92cb-7d6bf9d113a8.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776460663.0,
+      "ago": "18小时前",
+      "pub_ts": 1776467109.0,
       "hot": false
     }
   ]
