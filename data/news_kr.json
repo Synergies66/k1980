@@ -1,7 +1,7 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-18T17:20:17.954468+00:00",
+  "updated_at": "2026-04-18T21:06:13.403911+00:00",
   "total": 8,
   "articles": [
     {
@@ -18,8 +18,26 @@
         "华人"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1776493911.0,
+      "hot": false
+    },
+    {
+      "id": "2aa504b25f",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(Yonhap Interview) AI transformation of manufacturing industry key to survival in global AI race: mi",
+      "summary": "SEOUL, April 19 (Yonhap) -- The world is experiencing two different wars at the ...",
+      "link": "https://en.yna.co.kr/view/AEN20260417007800320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/17/AEN20260417007800320_02_i_P2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1776546061.0,
       "hot": false
     },
     {
@@ -36,7 +54,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776505518.0,
       "hot": false
     },
@@ -54,7 +72,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1776488400.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1776485932.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1776480922.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1776476431.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1776471339.0,
-      "hot": false
-    },
-    {
-      "id": "8b858638ac",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(2nd LD) Iran reopens Strait of Hormuz; Trump says blockade will remain until deal is signed",
-      "summary": "WASHINGTON, April 17 (Yonhap) -- Iran said Friday that it reopened the crucial S...",
-      "link": "https://en.yna.co.kr/view/AEN20260417009552315",
-      "image": "https://img.yna.co.kr/photo/ap/2026/04/17/PAP20260417134801009_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1776468989.0,
       "hot": false
     }
   ]
