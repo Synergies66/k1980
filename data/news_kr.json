@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-18T06:02:03.305222+00:00",
+  "updated_at": "2026-04-18T09:31:55.896825+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "15504f686f",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Police probe alleged sexual assault of Chinese tourist by Japanese man in Busan",
+      "summary": "BUSAN, April 18 (Yonhap) -- Police are investigating a case involving a Chinese ...",
+      "link": "https://en.yna.co.kr/view/AEN20260418001600320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/18/AEN20260418001600320_01_i_P2.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1776493911.0,
+      "hot": false
+    },
     {
       "id": "019fd96852",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776488400.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776485932.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776480922.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776476431.0,
       "hot": false
     },
@@ -89,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776471339.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776468989.0,
       "hot": false
     },
@@ -126,27 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776466804.0,
-      "hot": false
-    },
-    {
-      "id": "83369a0759",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Finance minister says Korean won stabilizing against dollar, hopes for alignment with market expecta",
-      "summary": "WASHINGTON, April 17 (Yonhap) -- Finance Minister Koo Yun-cheol said Friday that...",
-      "link": "https://en.yna.co.kr/view/AEN20260418000300315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/18/AEN20260418000300315_01_i_P2.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776463192.0,
       "hot": false
     }
   ]
