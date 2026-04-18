@@ -1,7 +1,7 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-18T09:31:55.896825+00:00",
+  "updated_at": "2026-04-18T13:47:15.251516+00:00",
   "total": 8,
   "articles": [
     {
@@ -17,9 +17,27 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1776493911.0,
+      "hot": false
+    },
+    {
+      "id": "9f550cd118",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "DP picks 3-term lawmaker as candidate for Jeju governor",
+      "summary": "SEOUL, April 18 (Yonhap) -- The ruling Democratic Party (DP) on Saturday nominat...",
+      "link": "https://en.yna.co.kr/view/AEN20260418001800315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/18/AEN20260418001800315_01_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776505518.0,
       "hot": false
     },
     {
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776488400.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776485932.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776480922.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1776476431.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776471339.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1776468989.0,
-      "hot": false
-    },
-    {
-      "id": "542976c38b",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(Yonhap Interview) Twins slugger Dean takes pride in defense at first base",
-      "summary": "SEOUL, April 18 (Yonhap) -- LG Twins first baseman Austin Dean has been one of t...",
-      "link": "https://en.yna.co.kr/view/AEN20260417005800315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/14/PYH2026041420140001300_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776466804.0,
       "hot": false
     }
   ]
