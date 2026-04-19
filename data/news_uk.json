@@ -1,9 +1,45 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-19T06:15:17.837064+00:00",
+  "updated_at": "2026-04-19T09:25:14.586771+00:00",
   "total": 29,
   "articles": [
+    {
+      "id": "1e4937401b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: Runners v robots at China half marathon",
+      "summary": "Robots competed in a half marathon race in Beijing on Sunday, with the winning machine leaving its human rivals for dust.",
+      "link": "https://www.bbc.com/news/videos/cz0e54yrppno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/373c/live/b4b465b0-3bca-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "38分前",
+      "pub_ts": 1776588394.0,
+      "hot": false
+    },
+    {
+      "id": "1ac6504b0a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "頂住仇恨浪潮，韓國女性作家的暢銷書正在崛起",
+      "summary": "在性別議題白熱化的韓國，女性作家們扛住壓力「我手寫我心」，讀者與作者之間緊密互動，形成有力的連結。",
+      "link": "https://www.bbc.com/zhongwen/articles/cn7850gj4zjo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f40b/live/ff58f400-3b9d-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1776582592.0,
+      "hot": false
+    },
     {
       "id": "7ac9ae02b5",
       "type": "news",
@@ -17,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "54分前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1776576025.0,
       "hot": false
     },
@@ -35,8 +71,8 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1776573712.0,
       "hot": false
     },
@@ -53,8 +89,8 @@
       "categories": [
         "政治"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1776573588.0,
       "hot": false
     },
@@ -72,44 +108,153 @@
         "本地"
       ],
       "score": 73,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776571346.0,
       "hot": false
     },
     {
-      "id": "375e23e69a",
+      "id": "8b6eea6bf6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Another attempted arson attack on synagogue reported",
+      "summary": "A synagogue was hit by an arson attack overnight, a Jewish community body said.",
+      "link": "https://www.bbc.com/news/articles/ce35qwk9k5do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bc63/live/12039d70-3bcc-11f1-9278-4d3af542c6a1.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "0分前",
+      "pub_ts": 1776590673.0,
+      "hot": false
+    },
+    {
+      "id": "ffaa4be69f",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Australia's most-decorated soldier vows to 'fight' war crime charges",
-      "summary": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
-      "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6206/live/a6297cb0-3ba7-11f1-879d-1b2f5c3919b8.jpg",
+      "title": "'It terrified me': Richard Gadd on his follow-up to Baby Reindeer",
+      "summary": "Gadd's new six-part drama explores the breakdown of the \"unshakable\" bond between two young Glaswegian men.",
+      "link": "https://www.bbc.com/news/articles/clyepglyk52o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/05ca/live/94475a20-3bcb-11f1-9d5c-8ba507d7dbde.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776575560.0,
+      "pub_ts": 1776583867.0,
       "hot": false
     },
     {
-      "id": "405c37875a",
+      "id": "2618936596",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Foreign secretary concerned ministers not told of Mandelson vetting fears sooner",
-      "summary": "Prime Minister Sir Keir Starmer is facing calls to resign over the scandal and will address MPs on Monday.",
+      "title": "Starmer would have blocked Mandelson over vetting failure, says Lammy",
+      "summary": "The prime minister says he only learned of security concerns around the ex-US ambassador earlier this week.",
       "link": "https://www.bbc.com/news/articles/c80m2z42pr1o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9f7c/live/680a2ee0-3ba0-11f1-8606-05fe34b06e1b.jpg",
       "categories": [
-        "政治"
+        "政治",
+        "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776574718.0,
+      "pub_ts": 1776583555.0,
+      "hot": false
+    },
+    {
+      "id": "e4c63b38f7",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘They said: You’re out of your mind’: Luca Guadagnino on directing controversial opera The Death of ",
+      "summary": "The opera – about the hijacking of a cruise by the PLF who murder a Jewish American wheelchair user – has been subject to protests and accused of romanticising terrorism. Why was the film-maker so des",
+      "link": "https://www.theguardian.com/music/2026/apr/19/they-said-youre-out-of-your-mind-luca-guadagnino-on-directing-controversial-opera-the-death-of-klinghoffer",
+      "image": "https://i.guim.co.uk/img/media/c4468d4e1a2dc1c71be018119052491b2a17bfd1/2497_1203_4596_3677/master/4596.jpg?width=140&quality=85&auto=format&fit=max&s=9e28da768a08fe01d8dfa36750779a31",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776582035.0,
+      "hot": false
+    },
+    {
+      "id": "3c90a44f55",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Stabbings, kidnap threats and arson attacks: how the Iranian regime targets UK journalists",
+      "summary": "Staff at outlets critical of Tehran have faced chilling intimidation and violence, amid calls for greater protection and supportIranian journalists working in London say they fear for their lives afte",
+      "link": "https://www.theguardian.com/global-development/2026/apr/19/arson-attacks-iranian-regime-targets-uk-journalists",
+      "image": "https://i.guim.co.uk/img/media/374c252854b26a9d2508b2fcfd25097469852efb/140_0_1243_994/master/1243.jpg?width=140&quality=85&auto=format&fit=max&s=fecad6df30eb387770db1fdc7a54832b",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776578434.0,
+      "hot": false
+    },
+    {
+      "id": "bde39476d5",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Australia's most-decorated soldier vows to fight war crime charges",
+      "summary": "Ben Roberts-Smith has given his first statement since he was charged with five counts of the war crime of murder last week.",
+      "link": "https://www.bbc.com/news/articles/cy91r7ww3weo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a112/live/db9993e0-3bc4-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776575560.0,
+      "hot": false
+    },
+    {
+      "id": "a43656b9fc",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "From sleeping lions to spitting snakes: a year in the life of London zoo vets",
+      "summary": "As the zoo celebrates its 200th birthday, photographer David Levene captures the people keeping their (sometimes very dangerous) patients healthy and happy. Introduction: Patrick Barkham• Some images",
+      "link": "https://www.theguardian.com/world/ng-interactive/2026/apr/19/a-year-in-life-of-london-zoo-vets-photo-special",
+      "image": "https://i.guim.co.uk/img/media/b541eabb542c9eb949ef1440d1c57b804419ff08/0_0_8858_7087/master/8858.jpg?width=140&quality=85&auto=format&fit=max&s=a2333ff8c9793abe1be5456ac7e7dec5",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776574833.0,
+      "hot": false
+    },
+    {
+      "id": "16e24053ba",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Holy Carrot, London E1: ‘As good as plant-based dining gets’ – restaurant review | Grace Dent on res",
+      "summary": "This place is about so much more than just a portobello mushroom in a white bap masquerading as dinnerHoly Carrot has, cough, taken root in Spitalfields, east London. It’s the second sprouting from th",
+      "link": "https://www.theguardian.com/food/2026/apr/19/holy-carrot-london-e1-grace-dent-restaurant-review",
+      "image": "https://i.guim.co.uk/img/media/1529589a8f3898822814b2bf2bc7994faa23a6c6/573_0_5733_4587/master/5733.jpg?width=140&quality=85&auto=format&fit=max&s=977b0c3d1bd4e9b750235b62185453eb",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776574833.0,
       "hot": false
     },
     {
@@ -125,9 +270,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776572949.0,
+      "hot": false
+    },
+    {
+      "id": "1ebd508682",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Are you a ‘gentle partner’ or a ‘Fafo partner’? I know which team I’m on | Polly Hudson",
+      "summary": "Yes, we should all cut our loved ones some slack. But asking me to listen attentively to my husband’s football chat – and mirror it back to him – is definitely a step too farHow do you tell the differ",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/19/relationship-trend-gentle-partnering",
+      "image": "https://i.guim.co.uk/img/media/216456958d194db0d7d028c7cfbe1539c5c9d4d5/737_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=53882c501f9ab2a077a5bd6d9d9a87e8",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776571232.0,
       "hot": false
     },
     {
@@ -144,26 +307,8 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1776417861.0,
-      "hot": false
-    },
-    {
-      "id": "581ae6feb5",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "馬六甲海峽：為何全球貿易的另一個「咽喉要道」正引發擔憂",
-      "summary": "雅加達官員證實，美國在與印尼簽署防務協議後已提出希望獲得全面的軍事飛越許可。這條位於東南亞、至關重要的航運航道再度受到全球關注。",
-      "link": "https://www.bbc.com/zhongwen/articles/c0mj27g8v2vo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7198/live/75659290-3994-11f1-afdb-63f82099d974.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1776415839.0,
       "hot": false
     },
     {
@@ -180,7 +325,7 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1776406907.0,
       "hot": false
     },
@@ -206,17 +351,17 @@
       "id": "ec4246c051",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Police treating arson attack as antisemitic hate crime",
       "summary": "It comes as a man attempts to ignite a plastic bag containing containing fluid in north-west London.",
       "link": "https://www.bbc.com/news/articles/cqxl1qr11q2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7415/live/7aa50f30-3b31-11f1-9d5c-8ba507d7dbde.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba41/live/7f3ae7d0-3b2d-11f1-9d5c-8ba507d7dbde.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776557705.0,
       "hot": false
     },
@@ -234,7 +379,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776556827.0,
       "hot": false
     },
@@ -252,8 +397,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776553770.0,
+      "hot": false
+    },
+    {
+      "id": "7dd79586de",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Croatia, but cheaper': The quirky holiday spots on trend for 2026",
+      "summary": "Montenegro and Albania are among the places rising in popularity for Britons seeking a holiday away from tourist traps.",
+      "link": "https://www.bbc.com/news/articles/c747r0l8n7do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90c3/live/caf84850-3a80-11f1-8606-05fe34b06e1b.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1776553725.0,
       "hot": false
     },
     {
@@ -270,26 +433,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776553530.0,
-      "hot": false
-    },
-    {
-      "id": "64c7e277de",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Should you really trust health advice from an AI chatbot?",
-      "summary": "Abi has had very mixed results when asking a chatbot for guidance about her health issues.",
-      "link": "https://www.bbc.com/news/articles/clyepyy82kxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbcd/live/93df4d00-3a6c-11f1-9368-ddaac8cf7f1d.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776553483.0,
       "hot": false
     },
     {
@@ -306,7 +451,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776553368.0,
       "hot": false
     },
@@ -324,7 +469,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776553201.0,
       "hot": false
     },
@@ -342,26 +487,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776547740.0,
-      "hot": false
-    },
-    {
-      "id": "129649ad01",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Senior official ousted over Mandelson security row to face MPs",
-      "summary": "Former Foreign Office chief Sir Olly Robbins is expected to be grilled by the Foreign Affairs Committee on Tuesday.",
-      "link": "https://www.bbc.com/news/articles/c0kryzd8l7no?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ca87/live/49127490-3af9-11f1-be03-8bbe7ad91075.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "11小时前",
-      "pub_ts": 1776538300.0,
+      "pub_ts": 1776547740.0,
       "hot": false
     },
     {
@@ -378,88 +505,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "14小时前",
       "pub_ts": 1776538174.0,
-      "hot": false
-    },
-    {
-      "id": "3f8c3b166b",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Starmer would have blocked Mandelson role over vetting failure, says Lammy",
-      "summary": "Deputy prime minister says it is ‘inexplicable’ top civil servant kept Downing Street in darkKeir Starmer would have blocked Peter Mandelson from serving as the UK’s ambassador to Washington had he kn",
-      "link": "https://www.theguardian.com/politics/2026/apr/18/starmer-would-have-blocked-mandelson-role-over-vetting-failure-says-lammy",
-      "image": "https://i.guim.co.uk/img/media/d71c2a2bc58b2b8ac0696bff8f8af965ce2dc0b0/1130_0_2432_1945/master/2432.jpg?width=140&quality=85&auto=format&fit=max&s=264d6e1a9104704a226aad0aece64de8",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776537875.0,
-      "hot": false
-    },
-    {
-      "id": "0ed01c7dfe",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Reeves rightly fears the bond market, but she can afford to ditch one unhelpful rule | Phillip Inman",
-      "summary": "The chancellor has wisely vowed to drive down the annual deficit, but long-term defence investment must not be delayedThere is a good reason Rachel Reeves is wary of the dreaded bond market vigilantes",
-      "link": "https://www.theguardian.com/business/2026/apr/18/reeves-rightly-fears-the-bond-market-but-she-can-afford-to-ditch-one-unhelpful-rule",
-      "image": "https://i.guim.co.uk/img/media/5621a6fe8baa8ef90d36bebba987bd6d5e9badaa/47_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=a1bd670673aae9207d2ddc1770478df4",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776524416.0,
-      "hot": false
-    },
-    {
-      "id": "9a6828e9d0",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Madonna: I Feel So Free review – album teaser offers hypnotic glimpse of a return to her club scene ",
-      "summary": "(Warner Records)The ‘Queen of Pop’ conjures the heady vibes of a small hours dancefloor with this exceptionally crafted singleRecent years have not been particularly kind to Madonna. Her tours have be",
-      "link": "https://www.theguardian.com/music/2026/apr/18/madonna-i-feel-so-free-review-album-teaser-hypnotic-glimpse-return-club-scene-roots",
-      "image": "https://i.guim.co.uk/img/media/6255368d80819a6cfb0ef576f3b16ac1746d3843/0_200_2001_1601/master/2001.jpg?width=140&quality=85&auto=format&fit=max&s=e81f5f28301fb5bf2c14d6a8d7a3b434",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776521478.0,
-      "hot": false
-    },
-    {
-      "id": "b17e4f5f83",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘Labels protect us’: Olivia Nervo wants reproductive coercion to be a standalone offence – she is no",
-      "summary": "Grammy-winning songwriter says she was deceived into pregnancy, and that cases like hers fall between the cracksWhen the Grammy award winning songwriter, Olivia Nervo, agreed to start a family with he",
-      "link": "https://www.theguardian.com/society/2026/apr/18/olivia-nervo-reproductive-coercion-standalone-offence",
-      "image": "https://i.guim.co.uk/img/media/d0dfb3aa9fa9bf929a0fcf65199f66feb9e52b21/35_217_961_768/master/961.jpg?width=140&quality=85&auto=format&fit=max&s=6e3cc65cd3d351d40f91133aed6c7f6f",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776520815.0,
       "hot": false
     },
     {
       "id": "a0acf347f3",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Why Starmer still can't move on from the Mandelson mess",
       "summary": "The decision to send Peter Mandelson to Washington has become a scandal that just won't go away for Labour.",
@@ -469,62 +523,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1776515555.0,
-      "hot": false
-    },
-    {
-      "id": "d1cd3e94e7",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Help, there’s a cockroach in my coffee! 16 gross ingredients hidden in your favourite foods",
-      "summary": "From wood pulp in ice-cream to peat in portobellos, science has transformed how we dine. Do you know exactly what’s lurking in the grub we eat?Microbial slime and a side helping of sand doesn’t sound",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/18/gross-ingredients-16-favourite-foods-cockroach-coffee",
-      "image": "https://i.guim.co.uk/img/media/53e267afd058a97cb8c732768afd1f2e9dcad9bb/0_1683_7212_5766/master/7212.jpg?width=140&quality=85&auto=format&fit=max&s=cc911e01731bf76ffbba5f3872d122cb",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776510012.0,
-      "hot": false
-    },
-    {
-      "id": "62bac75e34",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Traders placed over $1bn in perfectly timed bets on the Iran war. What is going on?",
-      "summary": "Suspicious wagers on the US-Israel war in Iran are creating huge windfalls and raising concerns among lawmakersSixteen bets made $100,000 each accurately predicting the timing of the US airstrikes aga",
-      "link": "https://www.theguardian.com/world/2026/apr/18/iran-war-bets-ethics-concerns",
-      "image": "https://i.guim.co.uk/img/media/a015cbe3cc86bb76b2ae057965890207757e3202/1_0_2999_2400/master/2999.jpg?width=140&quality=85&auto=format&fit=max&s=106f8745460afaa0a5922cd31293529d",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776510012.0,
-      "hot": false
-    },
-    {
-      "id": "ad09f639fa",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "'I'm the lucky one' - more than one in three young men now live with their parents",
-      "summary": "Last year, the highest proportion of men aged 20-34 were still living at home since at least 2007 as the rising cost of living takes hold.",
-      "link": "https://www.bbc.com/news/articles/ce3578g32d0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/468a/live/5cfbfc50-3a87-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776467793.0,
       "hot": false
     }
   ]
