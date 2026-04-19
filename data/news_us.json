@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-19T09:10:55.522838+00:00",
-  "total": 20,
+  "updated_at": "2026-04-19T13:37:20.670266+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "a478a5cd68",
@@ -18,9 +18,189 @@
         "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "21小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1776511910.0,
+      "hot": false
+    },
+    {
+      "id": "7caadb21fa",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Photos: In this part of the world, nearly every chile pepper farmer is a woman",
+      "summary": "Chile peppers are a traditional part of Indian cuisine — and a key crop for women farmers. They say it's too demanding for men. \"In spite of the challenges,\" says one, \"we've found freedom.\"",
+      "link": "https://www.npr.org/2026/04/19/g-s1-116759/red-hot-peppers-women-farmers-india",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776597390.0,
+      "hot": false
+    },
+    {
+      "id": "8ffc86325f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. negotiators prepare for more peace talks as Trump repeats threats to Iran",
+      "summary": "After Iran again closed the Strait of Hormuz, President Trump said the U.S. is returning to Pakistan for negotiations, but threatened to strike Iranian infrastructure if a deal isn't reached soon.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776597157.0,
+      "hot": false
+    },
+    {
+      "id": "a711ef20af",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Real estate investors are buying up long-term care facilities. Residents can suffer",
+      "summary": "Real estate investment trusts are landlords for thousands of nursing homes, assisted living facilities, and hospitals. Some select the managers and keep close watch but deny blame for bad care.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5786242/profit-landlord-real-estate-investment-trust-nursing-homes-safety",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776596400.0,
+      "hot": false
+    },
+    {
+      "id": "e6487507bc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This tariff-refund portal is about to be America's hottest website",
+      "summary": "Exactly two months after the Supreme Court struck down most of President Trump's tariffs, the U.S. government has set Monday as the day when some companies can begin requesting refunds.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5786635/tariff-refunds-customs-ace-portal",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776594600.0,
+      "hot": false
+    },
+    {
+      "id": "72a9f2e88b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She no longer remembers it's her birthday. He got her a present anyway",
+      "summary": "A special day can be tinged with sorrow when your partner has dementia. But then he found the perfect gift.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5789011/dementia-wife-husband-gift-birthday",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776592800.0,
+      "hot": false
+    },
+    {
+      "id": "01e62577be",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Luxury Brands Bet on the Middle East. War Has Damaged Their Plans.",
+      "summary": "High-end brands such as Louis Vuitton and Hermès are looking to other regions as sales in Persian Gulf nations plummet.",
+      "link": "https://www.nytimes.com/2026/04/19/business/luxury-brands-bet-on-the-middle-east-war-has-damaged-their-plans.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19biz-luxury-middle-east-01-fvqj/19biz-luxury-middle-east-01-fvqj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776589383.0,
+      "hot": false
+    },
+    {
+      "id": "885e05845d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Are Democrats Becoming a Party of Tax Cuts?",
+      "summary": "As Democrats try to find a way back to power in Washington, some see tax cuts as a quick and easy way to address affordability. The wonks are freaking out.",
+      "link": "https://www.nytimes.com/2026/04/19/business/democrats-tax-cuts-affordability.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/business/00tax-dems/00tax-dems-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776589370.0,
+      "hot": false
+    },
+    {
+      "id": "0fbdf2a842",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
+      "summary": "The gas-rich Gulf nation is in a state of “strategic shock” after the war dealt a serious blow to its economy, sending ripples around the world.",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17int-qatar-1-fgwh/17int-qatar-1-fgwh-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776589340.0,
+      "hot": false
+    },
+    {
+      "id": "785fa6cec2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Syrian Billionaires Needed a Favor in Washington. They Invoked the Trump Name.",
+      "summary": "The attempt by the Khayyats to influence foreign policy while discussions are underway about potential Trump family deals is an increasingly common feature of the president’s second term.",
+      "link": "https://www.nytimes.com/2026/04/19/us/politics/syrian-billionaires-needed-a-favor-in-washington-they-invoked-the-trump-name.html",
+      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/dc-trump-syria-2-tfjb/dc-trump-syria-2-tfjb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776589247.0,
+      "hot": false
+    },
+    {
+      "id": "70bd28a98f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Muslim Southerners Face a Fresh Wave of Hateful Political Rhetoric",
+      "summary": "Some Muslim voters were once drawn to Republican positions on family values and individual liberty, but as Southern politicians stoke anti-Islamic sentiment, many feel threatened.",
+      "link": "https://www.nytimes.com/2026/04/19/us/politics/anti-muslim-politics-south.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18nat-muslims-south-mktf/18nat-muslims-south-mktf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776589238.0,
       "hot": false
     },
     {
@@ -36,27 +216,9 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "10分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776589200.0,
-      "hot": false
-    },
-    {
-      "id": "012b1e8668",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "More Displaced Lebanese Head Home as Cease-Fire Is Tested",
-      "summary": "The truce appeared to mostly hold even as Israel said it had carried out strikes on what it called “terrorists” approaching its forces in southern Lebanon. Separately, a U.N. peacekeeper was killed.",
-      "link": "https://www.nytimes.com/2026/04/18/world/middleeast/lebanon-israel-cease-fire-hezbollah-un.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18israel-iran-lebanon-topart-gqvj/18israel-iran-lebanon-topart-gqvj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1776586819.0,
       "hot": false
     },
     {
@@ -72,8 +234,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776577228.0,
       "hot": false
     },
@@ -91,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1776562175.0,
       "hot": false
     },
@@ -109,7 +271,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776560083.0,
       "hot": false
     },
@@ -117,7 +279,7 @@
       "id": "ca8d2686cc",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "US Coast Guard spots overturned vessel near Saipan during search for missing ship",
       "summary": "The Mariana is a 145-foot dry cargo vessel registered in the U.S. It suffered engine failure Wednesday as a massive typhoon bore down on Saipan and nearby islands.",
@@ -127,7 +289,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1776557469.0,
       "hot": false
     },
@@ -145,7 +307,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776556950.0,
       "hot": false
     },
@@ -153,7 +315,7 @@
       "id": "6f08ea3696",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
       "summary": "A life jacket worn by a passenger on the RMS Titanic has sold at auction for 670,000 pounds, which is more than $900,000.",
@@ -163,7 +325,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1776548636.0,
       "hot": false
     },
@@ -171,7 +333,7 @@
       "id": "c2049d66f3",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A mass shooting in Ukraine's capital leaves 6 dead before police shot and killed the gunman",
       "summary": "A gunman has killed six people and injured at least 14 in a mass shooting in Ukraine's capital before he was shot and killed by police.",
@@ -182,26 +344,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1776545025.0,
-      "hot": false
-    },
-    {
-      "id": "16c8499b50",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘Turning Point Was Charlie Kirk’: Why This Student Group Moved On",
-      "summary": "Students at the University of Arkansas disagreed with Turning Point’s direction, pointing to challenges ahead for the conservative group.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/turning-point-university-arkansas-disbands.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18nat-ar-tpusa-gjwz/18nat-ar-tpusa-gjwz-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776544325.0,
       "hot": false
     },
     {
@@ -218,69 +362,15 @@
         "政治"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1776542920.0,
-      "hot": false
-    },
-    {
-      "id": "c567cafd23",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump signs order fast tracking review of psychedelics for mental health disorders",
-      "summary": "President endorses psilocybin and ibogaine: \"Can I have some, please?\"",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5789859/psychedelic-treatments-mental-health",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1776538566.0,
-      "hot": false
-    },
-    {
-      "id": "429e9dabbf",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Signs Executive Order to Loosen Restrictions on Psychedelic Drugs",
-      "summary": "The president’s executive order is intended to accelerate research into the compounds’ efficacy in treating mental health disorders like severe depression and PTSD.",
-      "link": "https://www.nytimes.com/2026/04/17/health/trump-psychedelics-ibogaine.html",
-      "image": "https://static01.nyt.com/images/2026/02/04/multimedia/17hs-trump-psychedelics/17hs-trump-psychedelics-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1776536312.0,
-      "hot": false
-    },
-    {
-      "id": "db866c08c2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Reopening Strait of Hormuz Would Ease Oil Crisis but Only So Much",
-      "summary": "Analysts said energy and shipping companies would be reluctant to fully restore operations until they were confident that hostilities were over.",
-      "link": "https://www.nytimes.com/2026/04/18/business/energy-environment/starit-hormuz-oil-natural-gas-supplies-prices.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18biz-iran-oil-tfjl/18biz-iran-oil-tfjl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776517902.0,
       "hot": false
     },
     {
       "id": "1e1d6f5f9a",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Photos: How overfishing in Southeast Asia is an ecological and human crisis",
       "summary": "A rare look at one of the world's most critical and understudied environmental crises. Southeast Asia produces more than half of the world's fish, yet its waters are among the most depleted and contes",
@@ -289,8 +379,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776517200.0,
       "hot": false
     },
@@ -308,45 +398,9 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776512537.0,
-      "hot": false
-    },
-    {
-      "id": "d47f561129",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Maduro’s Successor Is Purging Allies Who Kept Him in Power in Venezuela",
-      "summary": "The successor to Venezuela’s captured President Nicolás Maduro is purging the people who kept him in power.",
-      "link": "https://www.nytimes.com/2026/04/18/world/americas/delcy-rodriguez-maduro-allies-venezuela.html",
-      "image": "https://static01.nyt.com/images/2026/03/26/multimedia/00int-venezuela-purge-jlzh/00int-venezuela-purge-jlzh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776510416.0,
-      "hot": false
-    },
-    {
-      "id": "8f0f3a5b09",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Born in south Lebanon, displaced to Beirut, two grandmothers reflect on Israeli invasions",
-      "summary": "They grew up amid olive groves in southern Lebanon. The son of one married the other's daughter. Now they're living temporarily in a vacant building in central Beirut, displaced many times.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5761904/lebanon-war-israel-hezbollah-displacement-ceasefire",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1776506520.0,
       "hot": false
     },
     {
