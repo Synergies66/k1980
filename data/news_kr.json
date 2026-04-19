@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-19T06:18:38.563870+00:00",
+  "updated_at": "2026-04-19T09:28:55.235062+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "101661e231",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Lee urges Nat'l Assembly to appoint special presidential inspector",
+      "summary": "SEOUL, April 19 (Yonhap) -- President Lee Jae Myung renewed his calls for the Na...",
+      "link": "https://en.yna.co.kr/view/AEN20260419001700315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/19/PYH2026041907240001300_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776582720.0,
+      "hot": false
+    },
     {
       "id": "f867a11ed2",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776574800.0,
       "hot": false
     },
@@ -36,7 +54,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776570340.0,
       "hot": false
     },
@@ -54,7 +72,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776569734.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776567996.0,
       "hot": false
     },
@@ -89,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776564839.0,
       "hot": false
     },
@@ -107,8 +125,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776564520.0,
       "hot": false
     },
@@ -125,27 +143,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776563499.0,
-      "hot": false
-    },
-    {
-      "id": "0d677c8f61",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(URGENT) N. Korea's ballistic missiles flew about 140 km: JCS",
-      "summary": "(END)",
-      "link": "https://en.yna.co.kr/view/AEN20260419000900315",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776562092.0,
       "hot": false
     }
   ]
