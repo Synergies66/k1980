@@ -1,14 +1,14 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-18T20:54:49.003863+00:00",
-  "total": 30,
+  "updated_at": "2026-04-19T03:50:50.076189+00:00",
+  "total": 29,
   "articles": [
     {
       "id": "705f92e70f",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "China's complaint over NZDF 'harassment' could be sign of other concerns: Expert",
       "summary": "What appears to be an over-reaction from China to a routine flight could be a sign of something else \"irritating the Chinese leadership\", says a global security expert.",
@@ -18,8 +18,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "2小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1776536515.0,
       "hot": false
     },
@@ -30,7 +30,7 @@
       "source": "RNZ 政治",
       "lang": "en",
       "title": "China lodges 'serious protest' over NZ Air Force's conduct near its air space; NZDF denies disruptio",
-      "summary": "China claims an anti-submarine patrol aircraft of the New Zealand Air Force undermined its security interests, which the Defence Force denies.",
+      "summary": "China claims an anti-submarine patrol aircraft undermined its security interests, which the Defence Force denies.",
       "link": "https://www.rnz.co.nz/news/political/592746/china-lodges-serious-protest-over-nz-air-force-s-conduct-near-its-air-space-nzdf-denies-disruption",
       "image": null,
       "categories": [
@@ -38,26 +38,44 @@
         "科技"
       ],
       "score": 72,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1776487897.0,
       "hot": false
     },
     {
-      "id": "9a74fdc7d3",
+      "id": "0f88074e21",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Lightning forces delay with Auckland FC trailing Mariners in the wet",
+      "summary": "Follow live coverage as Auckland FC host Central Coast Mariners in round 25 of A-League Men.",
+      "link": "https://www.stuff.co.nz/sport/360963385/live-auckland-fc-v-central-coast-mariners-league-men-round-25",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQqAvu7dUFkeIdjh782ZrRzLfddUwhLZ4EP0CXabmWYjlwLq%2Fb8d7xP1xYUs2reg%2F6IyTtRc2p%2FUs53LuFT9hKceAlOI5bqLkYVX8GlcWfepbojJ3+JX5GXOcUmyGAEH6oM7zmggiplW8aOfr7sfeecT6MkQVEK%2FArG1GqdM8UC6ZcLk96jv8p3xdjm+cm0XhTkQZu82HHH6ECrTVuWseWEp0MEr9dzhRKnkaYrhYfGPtXWfMXddJFFExuBaaca+DmhjP8CUdfrF4orT7EMh9hYc0xxOO69OLpciN0Qd319QEoqZSMRnq5gF%2FuuKFaubR56W63Q6gyt5Ymh1bDJQJhZmdgdJYX+rSO9anDNe0IF5W+tHsas%2FBC4iuQIW10nSTTWEpljjxZv33+qA+UZL+tXqxjii1ZiatB16D0+XI3xFxZl1feRQZu%2F1uLnghQrJMVEaRUEI%2F2r1TMO1t7MLgFo=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "7分前",
+      "pub_ts": 1776570187.0,
+      "hot": false
+    },
+    {
+      "id": "72d4635b00",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Weather live updates: State of local emergency declared for Ōhura, evacuations likely",
-      "summary": "Welcome Bay looks to have been particularly hard hit.",
-      "link": "https://www.nzherald.co.nz/nz/weather-live-updates-state-of-local-emergency-declared-for-ohura-evacuations-likely/DOJQWVJDIRCANIY5UYYEBILZBY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ARGSRDXNOZDYJJ2MKDR7K43H4U.jpg?auth=8dfc2ca5510619d1e38ddc2a31ccb5fd4eece55e14eef9ceb0025137e036fab1&smart=true&width=300&height=300",
+      "title": "Kerikeri Salvation Army store fire likely deliberately lit, investigator says",
+      "summary": "A 90kg gas bottle caught fire and forced the Kerikeri Bakehouse to shut.",
+      "link": "https://www.nzherald.co.nz/nz/kerikeri-salvation-army-store-fire-likely-deliberately-lit-investigator-says/OPQWZVADKNAF5JPVAFDGW4XPZU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/WOIYAP5EN5HELEQ42G2KRFJQ7U.jpg?auth=36a0b87eda1299a1558f4e5d4b355defaa4e4d4d21f42062d8582c7560cb2948&smart=true&width=300&height=300",
       "categories": [
-        "天气"
+        "本地"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1776544433.0,
+      "ago": "7分前",
+      "pub_ts": 1776570163.0,
       "hot": false
     },
     {
@@ -67,168 +85,386 @@
       "source": "RNZ News",
       "lang": "en",
       "title": "Live: States of local emergency declared as Civil Defence warns of possible life-threatening floodin",
-      "summary": "Ōhura in the Ruapehu District is also under a state of local emergency with the Civil Defence warning that \"life-threatening flooding\" was possible.",
+      "summary": "Metservice has issued a servere thunderstorm warning for Auckland City, Waikato, Waitakere, Franklin, Rodney and Albany",
       "link": "https://www.rnz.co.nz/news/emergencies_local/592775/live-states-of-local-emergency-declared-as-civil-defence-warns-of-possible-life-threatening-flooding",
       "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1776569717.0,
+      "hot": false
+    },
+    {
+      "id": "e6d0ae6675",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "This way of travel is booming and changing lives from Nepal to New Zealand",
+      "summary": "“One of the highlights of the trip was the women who carried us on the trip – literally and figuratively,” Heidi Walker says of her trip to Nepal.",
+      "link": "https://www.stuff.co.nz/travel/360963945/women-only-travel-boom-changing-lives-nepal-new-zealand",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYSQQ0q3401SiXJ%2Fui97tYjcYtNkkeax6hwyZO7QYpbD1jXGd7H6oC0lGu9RW%2FdtrAFTNUvl8aDy2We9Uz+5w57k8J0j98J98SkPL1h3fgoWDZAVRa6VJwBlxJhY55jfWzhi3QdoCWFlprf0sJbdABU1YHjl1EKkhtwhbwNz7nhjgUzXRwbmF+H7pV4bVh5ZDP6FCkP%2F34hOS4Ute9o+5+JIWddhKrkRsAMgvMULv1hsrmJpd5kQ50ZA4+rhAqtufdD1XA%2FQTW1YmEF+rOaiqyi+2xLicNB2H%2FNrgMBPilZQFBYREgEf2VFuEYiP7OzZmr0meJMctcfYp3leBEcOAlnbHekusXi0ELpXZvLe2rPdbbUqFhMW9D3BewWjvjimncqHsF6TRLR%2F+3JwNpv45Ek9yJlDR2g9CXO+KiXN%2FmXIGMXE0wtkA9Xby6idwhW0UGwzqGJXwn2eLaCxccsz9RA=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1776569435.0,
+      "hot": false
+    },
+    {
+      "id": "93edff117d",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Weather live updates: States of local emergency declared in Whanganui and Ruapehu districts, widespr",
+      "summary": "A line of heavy showers is set to move across the upper North Island this afternoon.",
+      "link": "https://www.nzherald.co.nz/nz/weather-live-updates-states-of-local-emergency-declared-in-whanganui-and-ruapehu-districts/DOJQWVJDIRCANIY5UYYEBILZBY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/AIPJE2TICNAHZLN6PMRNNPOZ3E.png?auth=1940cfc74ffa17186429662be439ea07cc24767186f5c75a94326434bf7b67d7&smart=true&width=300&height=300",
       "categories": [
         "天气"
       ],
       "score": 70,
       "ago": "26分前",
-      "pub_ts": 1776544085.0,
+      "pub_ts": 1776569064.0,
       "hot": false
     },
     {
-      "id": "e69b839c35",
+      "id": "5083e9cb37",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "Driver dies in crash ahead of Nürburgring race featuring Max Verstappen",
-      "summary": "A driver has died following a crash in an endurance sportscar race at the Nürburgring Nordschleife circuit in Germany, where four-time Formula 1 champion Max Verstappen was also preparing to race.",
-      "link": "https://www.stuff.co.nz/sport/360966832/driver-dies-crash-ahead-nurburgring-race-featuring-f1-star-max-verstappen",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZbu4ZTzSIshDSHDnkPuCHdCziQACnRU23Vu3DP8YByk3F%2FjMQ%2FzG9XIJo8ehOrvko6p+rg1OWv01DCwupQIgvJsMke+AuHfYdWu9hWecv8eyVDsggwjQEepN3KHcJ6FACxadxSQQBMjWxLrY4YO+4kSk7cQ8adIWEFFMwGVRkgpAL8fxz%2Fypmd%2FfRWZiWnz8N+Nk9efWbuMRn4T2SXQkmQu6rxnvt1s0rFZDBWls1RkaWxa1nWhqkwiurPr07nABx6lLYltjd0+Q%2FkvA2CMlQA44MC9gyHofXRhN06Cbz17V3wNJykAgls1f3pfsr6QJEFxs+7Dw6WFtZrznpgSi8AmGRdnsefpe1dSAZvmffaDk67n+0tJoI30jTaCFXdDhQ5rhWQDF+Blp8EkH6x2sgtYKLMqFo++h8eNw%2FmiCPRtJn7nFiufHtFMsC+ri8nEA7WnFW0sdZIaWfhJ9P%2Fci8U=?resolution=1240x700",
+      "title": "Watch: Green Party co-leaders deliver State of the Planet update",
+      "summary": "Watch live, as Marama Davidson and Chlöe Swarbrick share their vision for Aotearoa.",
+      "link": "https://www.rnz.co.nz/news/political/592790/watch-green-party-co-leaders-deliver-state-of-the-planet-update",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "32分前",
-      "pub_ts": 1776543740.0,
+      "ago": "29分前",
+      "pub_ts": 1776568893.0,
       "hot": false
     },
     {
-      "id": "5900e32317",
+      "id": "a6650c869f",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "‘Everyone will be scurrying around’: Rival clubs eye-up Ardie Savea in Moana Pasifika firesale",
-      "summary": "\"Everyone will be scurrying around - and not just in New Zealand - to sign some of these players,’’ Highlanders coach Jamie Joseph said.",
-      "link": "https://www.stuff.co.nz/sport/360966825/everyone-will-be-scurrying-around-super-rugby-clubs-eye-ardie-savea-and-moana-pasifika-players",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXK6A6xz2jBa%2FZ649ENsmtpYZlcMoAHBnMMYzLjz0XGyfrO4%2FEz31XWuCG29HdiPnQLgb+mOmTjxAeRjwtmtjWpZwKz1auKo1YdSjoibys+JGlvZXmdWk9fFvmyirg958R+kMy5euFW8Y4lNDnwxjyX2EIzCT6QSW9+DjjKN+cHgQGLUNgwbK16GzzpAsp0S398s3ouv37QLpvX4SWkdRBnPfo0HoVJQQmdi+Th4iiRE0wbbuhctQOrpFKJRI2XuquD3OuNjTchuHJDwKaYrZnUvHWFvuM0YXGASudfIaXwn18zIq3i2cxXtSwhUNRXyjNPpNLzkEob2SpanJJw605yvtebGXgN50KZty0LkP18BJBKbXxYI4f3Hmmx1O6aGclJoHOtq4v7lX4umcSFhf1C9Xpwm%2FgiKJcus96RsabMIIqV472H5dbUydQHyV%2FLFYZdkwiC9gHGDH8fu7%2FRYc0c=?resolution=1240x700",
+      "title": "The House: Victorian Parliament amid slum, disease, fires and illegal demolition",
+      "summary": "Step into the past to picture the early days of Parliament and the 1890s Victorian neighbourhood it sat in, with help from historian Elizabeth Cox.",
+      "link": "https://www.rnz.co.nz/news/political/592792/the-house-victorian-parliament-amid-slum-disease-fires-and-illegal-demolition",
+      "image": null,
       "categories": [
-        "科技"
+        "政治"
       ],
       "score": 70,
-      "ago": "47分前",
-      "pub_ts": 1776542808.0,
+      "ago": "38分前",
+      "pub_ts": 1776568308.0,
       "hot": false
     },
     {
-      "id": "dfc93f3e4e",
+      "id": "0a44b32699",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "‘We all had tears’: Inside Meghan’s talk at a luxury Sydney retreat",
-      "summary": "The duchess spoke about her career, family life and the trappings of fame – although questions about her former royal life seemed to be off the table.",
-      "link": "https://www.stuff.co.nz/world-news/360966824/we-all-had-tears-inside-meghans-talk-3000-sydney-retreat",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXIu36FcbLTp7XfIT+HSpK1PtDNKjSbq9gwAjGS089v49aq74qS3lY+5v8ulsitfJhei4faR2w9CY6EhK5+hdSrg6rkFqIOqf%2F8+oyV09yVuKsr9ZONvFwpCcjqsFLkR%2FStR3041pSu0x89+yvuMETDzxRqdccWCww2ZqcatTPX6GbIQ%2FEMRq98nqOiGk8mhcNHQ5B%2FaTHJxtfR2U0YQg+CJYKHMX3b%2Fs5yZ63IaPXs9hhAovkXTljYOdMcTbA3ZO056hf24YgoGH12vSVRuamniKGJnKY5mEEnyufCDpn90O+M3QICyy4rCRQsodd61c1ppvPUFWB8Xn1l1EHFw5WOMHWBkDv5aB6E4qwFvaCKUYpKRYWhcyKIPGmieRmUcvY2NH64RnwnoW8hgIVcUgP34kaw0KnCXo6S92HHkRtarExnG3zfRVpYyA2xmvPK7+w==?resolution=1240x700",
+      "title": "Former Disney child star tackles alleged home intruder at gunpoint",
+      "summary": "Actor Dylan Sprouse took matters into his own hands when an alleged intruder entered his Hollywood Hills property, holding the man at gunpoint until police arrived.",
+      "link": "https://www.stuff.co.nz/culture/360966896/former-disney-child-star-tackles-alleged-home-intruder-gunpoint",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbXcyPCdc2uA7aB0yXml2ibmipuewUNiQDxdb8jWHqGyYRLfQsLd7RShKObJS3iy4L7ogDzuEGfmVwAazAN6rb98W0IafDaxP7ZWPkEriyAoLFhuMqJNhjEcsjscuEIDQ5Fx67iywNenK1+jLyq76m2HYAsrmYPPJ14wS%2FIzVBcN1HkTniYDcyiMh1P6oLkpwIvikSluRFttCs9S6bZ0tOZureWO3fIODixMIHV3Ckf16LOP6nesKkFwhn3UsqlKnwQgIdBsLvGj2%2FOmymvJEeZFPfDubHyPU6wkxDolCpCGzrd5xEi3xYM7ELADLTooAVdptXrwTvYYV2cpi0RSbwSq1oFcRB4+TzzgV33Q6xoCviBniu87CMkTglTDJDPCsjHn8wdAIfru4JekJg+kBGhyd92hz5igylEE1qjFY4xP1Ns+YRVJ1Z5G7onN20jbNQ==?resolution=1240x700",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1776542580.0,
+      "ago": "42分前",
+      "pub_ts": 1776568072.0,
       "hot": false
     },
     {
-      "id": "685cb17498",
+      "id": "e24b9a2a27",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Great New Zealand Backyard Survey: Shrinking lawns and the region where Kiwis are most likely to bar",
-      "summary": "More than half of Kiwis surveyed say their backyard is now smaller than in childhood.",
-      "link": "https://www.nzherald.co.nz/nz/great-new-zealand-backyard-survey-shrinking-lawns-and-the-region-where-kiwis-are-most-likely-to-bare-it-all/CIH2C5L4CFHLJHWTLLO22A4EGY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/SOXCRWO4ENCSJCA23BQ2EVBSYA.jpg?auth=b2976ec87b461ba33eb30814b7bb67a1261b0952c734b765415a0ed86be3ef9c&smart=true&width=300&height=300",
+      "title": "Homicide investigation launched after three people killed in Hastings",
+      "summary": "One person died at the scene and two others died shortly afterwards in hospital.",
+      "link": "https://www.nzherald.co.nz/nz/homicide-investigation-launched-after-three-people-killed-in-hastings/FOI4UDNKX5B4RJC3L7T27BQWCU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/VJQQNTAKCJD4DIQ4G7V7DL53CU.jpg?auth=ed2969ef25dd11e581cdedb280735b5004ca8ea11b30daf8e7aa94cfbd65b80e&smart=true&width=300&height=300",
       "categories": [
         "本地"
+      ],
+      "score": 70,
+      "ago": "45分前",
+      "pub_ts": 1776567893.0,
+      "hot": false
+    },
+    {
+      "id": "d1aaf61016",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Greens to campaign on mass electrification after Iran war chokes fuel supplies",
+      "summary": "'Sun, wind, water and geothermal energy ... don’t come through the Strait of Hormuz.'",
+      "link": "https://www.nzherald.co.nz/nz/politics/electrify-everything-greens-to-campaign-on-mass-electrification-after-iran-conflict-chokeholds-fuel-supplies/LLYPQJECONAUHGC2HX4F5VVIS4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/3Z5IJINLYVGCTIF5OKQGRDV7IA.jpg?auth=daf531b1c625806d92291fc9769099399481e606cec9848eca3963ded417448e&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1776567660.0,
+      "hot": false
+    },
+    {
+      "id": "6d95edd76b",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Herald afternoon quiz: April 19",
+      "summary": "Test your brain with the Herald's afternoon quiz.",
+      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-april-19/L6IBQPRGCFEY5A6ZLXQEVQFNQE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/VAECBAZXFNHGPGXXTQJMI2VTM4.jpg?auth=a10131e47335b85d1524eb2eca1b612fc63416f516d52d272aa07dfd9e6cfdd8&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1776567600.0,
+      "hot": false
+    },
+    {
+      "id": "16dcb14923",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland teacher’s aide Hoera Farrell-Moehurori sentenced for propositioning 15yo student",
+      "summary": "He avoided the sex offender registry but was told: 'This should never have happened.'",
+      "link": "https://www.nzherald.co.nz/nz/crime/auckland-teachers-aide-hoera-farrell-moehurori-sentenced-for-propositioning-15yo-student/QMGU5CPYAVD2ZAXRHOUT44YKFA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/EE3TZG2ZPRGQ3FQ75UEO42P72E.jpg?auth=faacfb445701a3a8616a67198caa2dc1e21e33af4bc3a60381a644cfb63ee8c9&smart=true&width=300&height=300",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1776567600.0,
+      "hot": false
+    },
+    {
+      "id": "0f99d4b1c5",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Quiz: The Really Hard Word ... to improvise",
+      "summary": "One word, one clue, one minute. Can you solve today’s Hard Word?",
+      "link": "https://www.stuff.co.nz/quizzes/360953280/stuff-quiz-really-hard-word-april-19-2026",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYUyGh%2FoAmyGDJQzT4w1t+8NUG7qpQR4UEyX3QiSvF5qB0fXtRL0U2LxTrtZ2oAQsZPeqOLEv9OcwY%2Fn3a0p628xsgLSB47ZjabNMCPbgLLV96JUJ8YkZyHVlFMTrh4JEDInqm%2FNdPg%2F4ORidk3+ofio6Y6ZKQmzJSMnHpnoJJjPOJIPQDz+yqltce%2F2MltENw9DIfuFsoX8EWX+XpH+k1FR51MlwahyAHdH4XIhIE5Cdb%2FCAlnZ7rnwrhDT%2Fvn0%2FiyyVRIsD7omUgkr8Q3k8al91Za+YVs88W5%2FYhhvFCvSN?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1776567600.0,
+      "hot": false
+    },
+    {
+      "id": "20dc84f73d",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Kids quiz: What are the small statues of people with pointed hats that are used to decorate gardens ",
+      "summary": "Stuff kids quiz: April 19",
+      "link": "https://www.stuff.co.nz/quizzes/360963665/stuff-quiz-kids-trivia-challenge-april-19-2026",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRphT7XdSEKas57IzNdxeG747yBo51GWYCzVBEr4akfXsATP1ceHeoy+tgkvke57T7b0cYPS7YwphiX6fLlp5Iwy+fnvA3VG1W9NIjHUcQ1Cw4PAjTuw46MT7SNCK9zEw6FOEjy+nSu0%2FzxNW0ge5mg=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1776567600.0,
+      "hot": false
+    },
+    {
+      "id": "d32e745229",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "'The song is a tribute to the resilience of coastal people'",
+      "summary": "Wellington-based songwriter and singer Hanne Jøstensen's 'Lighthouse' pays tribute to the remote Norwegian island where she grew up.",
+      "link": "https://www.rnz.co.nz/life/music/the-song-is-a-tribute-to-the-resilience-of-coastal-people",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776567481.0,
+      "hot": false
+    },
+    {
+      "id": "e7a3423b5b",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Greens call for solar pannel loans as they kick off election year",
+      "summary": "This election is shaping up to be do or die for the Greens, who are languishing in the polls after a difficult term on the Opposition benches.",
+      "link": "https://www.stuff.co.nz/politics/360966905/greens-call-solar-pannel-loans-they-kick-election-year",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdY4EC0WfQjCqwHZE0dWrZ4q8tU5G9DZXGVb3qBu2UpLIoXbL7qHSpf21FQe4vfc1p+LUAnszFJLP7IlH1SU+e2ei8CMZefA+G277oKkEfhnmYEA+uBYHRsTduuvwOeVGHZ%2FiivOHl4WPOxYU+5IGSTKspXuVdsxQ6qIy61cdoWdRtJ3CfXGAD8VM421uYPoey870zdG%2FoupKRAXhTzjEozCHXMT9wUk01qUnn2OhtYpTYksyE8F7v4olcX2eLo3k205Cnu449zwbUxo1HPnATeYXyhWWXwTpyBxk5Q5fyPzkPdTRnNty8sKtWv+2+yio9SeZCiMj9Sj5mnYi3kqO1rpOzNSHNsPS94mK2e%2Fp9wH9nklWdk4tz8fy7EuRT3zCgLmydpMjJFkqP4uhoss9%2FIyNJSvpdE5ghFf4GGgm%2F+RW1QsS%2FHbj8NyVM3hhNoSLQ==?resolution=1240x700",
+      "categories": [
+        "政治"
       ],
       "score": 70,
       "ago": "54分前",
-      "pub_ts": 1776542400.0,
+      "pub_ts": 1776567377.0,
       "hot": false
     },
     {
-      "id": "20a70de322",
+      "id": "03b5e9addc",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "State of local emergency declared in Ruapehu District, reports of a ‘tornado’ in Bay of Plenty",
-      "summary": "Civil Defence made the declaration at 4.43am after heavy rain caused slips and flooding overnight.",
-      "link": "https://www.stuff.co.nz/nz-news/360966647/live-heavy-rain-forecast-north-island-areas-back-thunderstorms-and-flooding",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTzfw7MU94bLiMgL2LnhY6EUnuxYobrgY07IfLiC9xwUZuOcdWQhyEdLWYdExR9n%2Fw5iuQYUd%2FinF%2FEB0X%2FAXc2Dw58IvHL4nGiMTixcRsg%2Fd+utnsicmIqHw3lc4aVGXIPhZgu3CRRHAPxcwJ2erZCCVXkWXUVySLbhacTtb7x5V2oVsdYSM5LJzWsRA+M6qk5hMTm8lzw2RaailfbIN3OVzhyPJDgsnOXE36NX7B%2F7UUG%2FQzDClOSwM02tSnZwqJNqnShqjY8SfyVaHt16OZyRlQ9PnYt6c9Smqqqr4agYrx0%2FXCRGU%2FqZDHICGv4cyUeR5G84vZbMagXWrrEl5pN0uV6HVMF4f4ZgV8c46svZ2iGP+f7f2tjGfUVdEaYFUamQ6GT8gbJkp724KQIE7gWv2fZw8qS70y+T5CZZlsj9Fj3TcfbvdLEoO3so5jQQuQ==?resolution=1240x700",
+      "title": "Video shows damaged red car surrounded by emergency crews after crash",
+      "summary": "Video footage has captured the aftermath of a single-vehicle crash in Auckland that sent one person to hospital and caused significant traffic delays.",
+      "link": "https://www.stuff.co.nz/nz-news/360966942/video-shows-damaged-red-car-surrounded-emergency-crews-after-crash",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYasDIKOypVVRr6q2HZ7XHdJW+cCTC3AU3X0WjenqnR3K0EbYldLzSxtx%2FfZnLAonKJNAOuPp3exJmqBHk1RMkiqIHFJ95eUAU3b0z3vU3ExkNS0MnQos1gt7krPD03YEuhRZFCFNGYxDAzxe1DUdqpcr2oyO8ZPI8blIK8tj7bO3uYRms7GyQFJeDJt39FrwU6dnPfbc8h16C4d5dzQfVgItz62eTdBQFVdVIOmzk9+AlHtewEjkadVHdisrHW7LfcwbK4LwiaD4aqjKekdo%2FFVFbIMB9XUwCeyLu+lNtWXx%2Fi3sYSa1GWHl1lg4sYTdd%2FkaL%2Ft48zx+KqhKJewTGnSchrXnHrMDWGPLKPZRbUdYQUrENjFTl7Och38p63vy9J%2FxHcVUYhr+1k0seKExnOZ8Q%2F92h1c1aDAONtu+SO0YCyYUQnlneCnILXFsA0U3bw==?resolution=1240x700",
       "categories": [
-        "天气",
-        "科技"
+        "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776539616.0,
+      "pub_ts": 1776566117.0,
       "hot": false
     },
     {
-      "id": "7e2da62846",
+      "id": "2dfebf421e",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Homicide probe under way after three people killed in Hastings",
+      "summary": "One person was found dead at the scene and two others died in hospital following a distressing incident early on Sunday morning.",
+      "link": "https://www.stuff.co.nz/nz-news/360966879/homicide-probe-launched-after-three-people-killed-hastings",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQatMQWlnymTGqxnnb270jc+QVwilJES%2FRWK049CAJLj%2FVZ%2FKGjdCK+eoUul3ikeo0J9M8sQg3q5Q5VHabofI5RBcgfJgr0MfCO4NFxTdXV9TBrcA2eIwfzE5n3X3uP8B7qp3JtWIuWOjp+Nrbv5TLYcZKfJWTFi+V5FYTjqKhSDPjc0%2F7JZ5mZS3O8r5hPSPPYxYQ1EhoC%2FbTUKICtLG9pBRkuv3bAmejHIphIajj1yZhAIiUF1J3wJB0WSkRYiov91ectMYn49pfwCHzcMy+n+iBeEMFvoRIIHvvubc%2FcB9UhwDCQzlhcwV56G4H%2Far5tZJtZU9DlJca8Vv%2FYrUGmKeOmdJJw2kKl6EYVV0EoFsdjZeY7igIpOyJIwkoaqaVS8Tn8z4cshkjELfHyKfSol6g08R+gWDkzF2ZxFFJJYBTamswM9X3gVVSJ5yrto4cSs1n%2FrsVL%2Fr81eJQ5yENY=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776565117.0,
+      "hot": false
+    },
+    {
+      "id": "d016808dcc",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Bay of Plenty uses most cocaine as New Zealand consumption hits record high",
-      "summary": "It comes as the country hits a record high for the drug’s consumption.",
-      "link": "https://www.nzherald.co.nz/bay-of-plenty-times/news/bay-of-plenty-uses-most-cocaine-as-new-zealand-consumption-hits-record-high/premium/JLFB33MBQRDOBNYHHBCCGZ6CJU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/FYM25EBBCFGPPFC7IBLFCUQILA.jpg?auth=646ce05adc8e00534f16af02b72b7c324ddd6234258897da4ff2f053d42ce6a4&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776538800.0,
-      "hot": false
-    },
-    {
-      "id": "2a74205cd8",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Heavy rain, reports of flooding in lower North Island",
-      "summary": "Lower Hutt mayor Ken Laban says locals safety is 'greatest priority'.",
-      "link": "https://www.rnz.co.nz/news/weather/592722/heavy-rain-reports-of-flooding-in-lower-north-island",
-      "image": null,
+      "title": "Wellington flooding: River levels monitored after heavy rain hits Lower Hutt",
+      "summary": "MetService says storms can dump 10-25mm of rain in just one hour.",
+      "link": "https://www.nzherald.co.nz/nz/wellington-flooding-river-levels-monitored-after-heavy-rain-hits-lower-hutt/HBLJLIH245A4LIEQZTVQOKHKOQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/C6MQ4TXRSVGCZFCXRX42SATYE4.jpg?auth=5381b0e2f20e20744a6794472095ad04c9e0d3de46226f9c6a084c9f51af50a1&smart=true&width=300&height=300",
       "categories": [
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776536515.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776563862.0,
       "hot": false
     },
     {
-      "id": "5f2f2e4e2c",
+      "id": "c43936e3e3",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Levin state highway speed limit: NZTA receives 800 submissions on dropping speeds",
+      "summary": "Speldhurst village's 720 residents fear near misses at their highway entrance.",
+      "link": "https://www.nzherald.co.nz/nz/levin-state-highway-speed-limit-nzta-receives-800-submissions-on-dropping-speeds/ZYTEBWKJDZBVBASMVPUS4KYNK4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/SEBEMRENQFESFP5ZLNN5F6HB7E.jpg?auth=55abde4e7369f4fd379c29a134e9ed9b6fed67d14dbc3ac0a580dde5c4069a34&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776563015.0,
+      "hot": false
+    },
+    {
+      "id": "7a4708aa96",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "So you want to buy an EV - here's what your bank could offer",
-      "summary": "More New Zealanders have been thinking about switching to electric vehicles in recent weeks as pressure grows on fuel prices.",
-      "link": "https://www.rnz.co.nz/news/business/592773/so-you-want-to-buy-an-ev-here-s-what-your-bank-could-offer",
+      "title": "Police launch homicide investigation after three people killed in Hastings",
+      "summary": "Police were called to a house earlier this morning, after a report of several people being seriously injured.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/592787/police-launch-homicide-investigation-after-three-people-killed-in-hastings",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1776536514.0,
+      "pub_ts": 1776562008.0,
+      "hot": false
+    },
+    {
+      "id": "42ee2ddc42",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Super Rugby Pacific: Fijian Drua dedicate win to late president Ratu Epeli Nailatikau",
+      "summary": "The Fijian Drua dedicated their win over the Brumbies in Canberra night to the country's late president Ratu Epeli Nailatikau.",
+      "link": "https://www.rnz.co.nz/news/pacific/592789/super-rugby-pacific-fijian-drua-dedicate-win-to-late-president-ratu-epeli-nailatikau",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776561416.0,
+      "hot": false
+    },
+    {
+      "id": "e8e0698c42",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "NZDF in wargame based on Russian nuke taking out satellites",
+      "summary": "The classified exercise was run by the American space warfighting agency, alongside 60 companies.",
+      "link": "https://www.rnz.co.nz/news/political/592786/nzdf-in-wargame-based-on-russian-nuke-taking-out-satellites",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776557090.0,
       "hot": false
     },
     {
       "id": "70d4d5a1d7",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "User-pays bus service for Manawatū school children to stop",
       "summary": "The service is no longer eligible for government-funded services to schools in Palmerston North will stop at the end of the coming school term.",
@@ -238,228 +474,9 @@
         "政治",
         "教育"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776536514.0,
-      "hot": false
-    },
-    {
-      "id": "94bd9d61e9",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Why are people having less sex?",
-      "summary": "Gen Z's lack of interest in sex has been shaped by the #MeToo movement, skewed self-perception and exposure to pornography at a very young age, says neuroscientist Dr Debra Soh.",
-      "link": "https://www.rnz.co.nz/life/relationships/love-and-sex/why-are-people-having-less-sex",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776536514.0,
-      "hot": false
-    },
-    {
-      "id": "7bd028eb1a",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Do you taste words or hear colours? Here’s the neuroscience behind synaesthesia",
-      "summary": "Many people don't realise they have synaesthesia because it's simply how they perceive the world.",
-      "link": "https://www.rnz.co.nz/life/wellbeing/do-you-taste-words-or-hear-colours-here-s-the-neuroscience-behind-synaesthesia",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776536514.0,
-      "hot": false
-    },
-    {
-      "id": "f44805310e",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "NZPA president has heard 'anecdotally' staff received threats amid police pay bargaining",
-      "summary": "The police union has begun a highly visible bargaining campaign, but president Steve Watt says the response from senior staff has been \"highly disappointing\".",
-      "link": "https://www.rnz.co.nz/news/community/592768/nzpa-president-has-heard-anecdotally-staff-received-threats-amid-police-pay-bargaining",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776536514.0,
-      "hot": false
-    },
-    {
-      "id": "8c46d77a45",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Whangārei CBD taskforce moves to revive city centre as more shops close",
-      "summary": "Closures include Merric and The Co-operative Bank's Whangārei branches.",
-      "link": "https://www.nzherald.co.nz/northern-advocate/news/whangarei-cbd-taskforce-moves-to-revive-city-centre-as-more-shops-close/R3OQZCCQM5HTPMHIJ47XH5VMFM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/KWEBBUZC5BAV3H5MPJI6AGMLOU.jpg?auth=40abbb121cc26e07fec8c672225039b94eb13fa56ded8cffaa08bafff8cd7c8d&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776535200.0,
-      "hot": false
-    },
-    {
-      "id": "234d58578f",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Do we still fix things – or just throw them away? – Glenn Dwight",
-      "summary": "OPINION: Most of the time now, when something breaks, we replace it.",
-      "link": "https://www.nzherald.co.nz/the-country/news/do-we-still-fix-things-or-just-throw-them-away-glenn-dwight/VJJRJLAKGFAC7CGEQLBTLE7K2U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/Y46Y25WHV5BM3IMKSFCRFBXJ2U.jpg?auth=d10f3e6b813b03ee36e31cd36478b5669aadbbc78c74d79e0c5b8762be042200&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531900.0,
-      "hot": false
-    },
-    {
-      "id": "57f959619e",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Pastures Past: How cattle and truck shortages reshaped farm life in the 1930s and 1940s",
-      "summary": "\"As a result of this shortage, fewer bulls have been required for breeding purposes.\"",
-      "link": "https://www.nzherald.co.nz/the-country/news/pastures-past-how-cattle-and-truck-shortages-reshaped-farm-life-in-the-1930s-and-1940s/TZ7Q4KSC5BHA7MF56AVQOQQXCY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/WBHXFYDA3WFX52K7ZJRKIRVRYY.jpg?auth=f720134c8cd089a484baf44bcce63355f6e4ac6a88181e041bdf73cdff0e1488&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531600.0,
-      "hot": false
-    },
-    {
-      "id": "aebc49538d",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Herald morning quiz: April 19",
-      "summary": "Test your brain with the Herald's morning quiz.",
-      "link": "https://www.nzherald.co.nz/nz/herald-morning-quiz-april-19/PVHL4JAKIJFKFNNMLPFM6UL2TM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ZJV2DGSISBGKZECIBGC6S3YDVE.jpg?auth=d0e6e51d2ea3e695a9d9ecfcb2b3c49810c51e7266e11169dece1ee20d52bc56&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531600.0,
-      "hot": false
-    },
-    {
-      "id": "8593ad7386",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Kem Ormond’s vegetable garden: Winter is coming and the birds are already waiting",
-      "summary": "OPINION: Birds are essential for maintaining a healthy, balanced ecosystem in a garden.",
-      "link": "https://www.nzherald.co.nz/the-country/news/kem-ormonds-vegetable-garden-winter-is-coming-and-the-birds-are-already-waiting/4D2XIK6WTRB7TMZNRNFXXKZL3U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/OULIMFML75GALBSXQAJS2WTL4A.JPG?auth=f01ea0480b47c0ece16da49e1dc6351ca8a4dc006da06314dd17e3909bdb2103&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531600.0,
-      "hot": false
-    },
-    {
-      "id": "8598aee0ea",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Star Trek veteran and ‘90s heartthrob team up for Kiwi co-production",
-      "summary": "The Sunshine Murders takes place in Canterbury, Greece and Cyprus.",
-      "link": "https://www.stuff.co.nz/culture/360966234/star-trek-veteran-and-90s-heartthrob-team-kiwi-co-production",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYW2yaRBZqD9UWgQVOPhBAdJQb+qBV2rR2tcTE9ctG0kO0Bak07eMmW5C4VsO9s2VgSM%2F6hGFlSAOtScIa9fOT5Bz2T8FzOxeGXZe5i35Q1EKhjuTp7W6UV0h%2F8klnGQk7Fct1H02AGyMvKt4GubFB4ucocMghpaduG90T10iDYgKHCY6YGzrFCeGL1SX2FlsXrIFkVIghd%2F3y%2FYCWXE%2FTAflneTJrIiXvrmkH%2FBX3968p3YWFkc9l7PTBByfWCHwVgoLW%2FLL4Azc1S4nTXzvTZOLzG%2FhhSwBenTRnlfWSPRW8kKXt8PXpbRf5QPvPxf9a%2FHRPV3IN6GjAgWcM0%2F%2Fl16J6wsG1scVGI0%2FEMxgob6+uBRzSc8jEXyAxAhGzSXvVvzEBlQN7VkJj0x+tFwwOKYs%2Ft1tZniPKpV1EWdH%2F2mZJ3KzvC7yxXXD8JValplv1NvrZCYjOCbZ+e4hrf3O%2FKVVkAPS8L0yh9797NYVS8aO?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531600.0,
-      "hot": false
-    },
-    {
-      "id": "7067afd095",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "The harsh truth about living in London, according to a Kiwi musician who moved there",
-      "summary": "When Covid robbed her of travel and adventure, Kiwi musician Rachel Leo took a leap: a one-way ticket to London.",
-      "link": "https://www.stuff.co.nz/travel/360964410/expat-tales-harsh-truth-about-living-london-according-kiwi-musician-who-moved-there",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRjyg91otnJA9hs5mf5iSWKFrqp6eW26cNK1KrpiQE1rZu2eAWwg64nK7quVXKPjMN4Ova5OQuewV1vZlB8fToCR0QIxG9HCfxJzCp4gP4CkeDcU7wwQkoqtHgh4eNQJs81dPg+tjO60YiCCuIklq5nIj7VwhhCO71XLkCIqztrtqDyW5HBWtZx592RM9Js9RpnmbhnApAeGU%2FkjAtY2lU216rMFNzTltbf%2FsLgsoeNAjrh9jsghu9xO3iCCSlU4umcef5EulxQSCJvHYvh9V7JtI7HpV363WVDRjWi78+T%2FsAMlbtDTsArxoXW%2F+cM%2FZ%2F9qacdjnL2T0Qdq4c1U55ukdINrZjbcjELRe%2F9Je%2FBIalpvL9w7Pb+b6KimvU9GevJTYmVpBTIOX54Ki88N2A%2FezmOjg8m+8ro1S6chwm+kaOR01+uUm1kfkl0vZn+Me5P2TW7dpjkWStdYllL0mAs=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776531600.0,
-      "hot": false
-    },
-    {
-      "id": "ada6427044",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "‘The algorithm got her in this loop’: The hidden TikTok life of a 13-year-old in crisis",
-      "summary": "Annabelle Daza’s parents do not say TikTok was the only factor in her death. But after discovering seven accounts and a months-long trail of public distress, they believe the platform played a role in",
-      "link": "https://www.stuff.co.nz/nz-news/360966568/hidden-tiktok-life-13-year-old-crisis",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbPO2UhxsXASUx1zoVbKhRRuekeawpUVSOKl8m0t6JnIpHxYh7XKoEtjC5ajwnR0wrvV9vC7ERk1sX8R7U05iETHeyChe+hlC0NqDc2M4P4OSk7bYxLFEtrTBWOkxHcCBxLc9ig34ip3zmQQW6kJFcIddmMPcZTZ1L1wLjXCOkn1GHzJ2jROg5w6uGxHvdPMrb5qYnc3iXTTi1l7vSDrv6lAJd91YqTJ7EFjhrViqKZaQYmZkjdD%2FS%2FFk2pAo3wQJgAyxCyJoP2WnUC%2Fu37YCuMVaYVjRiotBXteV3Ag7JVP9yoqtBKrj0%2F%2FJ30T71XZsjpqSxhbd5496%2FXB4V7DOWG2ry917diX1yBo1DfCb+5%2FF5AhhOnardbqdQATt1UGgSh2iqzZoV8uylI+dleTOAsIJ%2FGUxXW2IqCa5AOyn+oPML5fE3GO73O2KAmSOOgpKg==?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776528000.0,
-      "hot": false
-    },
-    {
-      "id": "6063a899fa",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "There’s no reason to listen to millionaires wailing about mining projects",
-      "summary": "OPINION: In the real world, the Government needs money to pay for things, and that requires well-paying jobs and tax revenue.",
-      "link": "https://www.stuff.co.nz/nz-news/360965326/damien-grant-theres-no-reason-listen-millionaires-complaining-about-mining-projects",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQ+pMwSs4P2WldyiYecXABRjBiT2PLqOmKXP9P+VXsImO4WPzDlhBZ4gZ84cjE750HBulXPdu5ohCIK63dvcM3naeVTojgRSmGC%2FS5CmR%2FoJ%2F+lRzB3d2VnHhYCs2HAHoFgxAwjQrc9Y2tT1VChA9W%2Fa+B6CmFaN5srSCdXbZa+gvAwOsqNn%2FWqCxGtryKjwyTe7ZCffT8p+5Q4Brm43elk4zK43u%2Fj%2F8eQLdkd5K72hQ3hG0vw6eKE1Q3KExhQJxZ1zDzUcCjKUi3FCHuWCeWHBlSBub2SL8xrTUvK2FaypXO01Y3p1q3frEu74iwp6Z9Lj2ridDkOlZNVDI1AwolzpoGMzMpL79Nz5ep3wh6OHjaxDq6ij5R9ERFI88WMEf9sAiJzJqq3Itdsh%2FmNGPC+HKyV8mUG1ey246nAKJTc5SRg9h2LkrXK9UBwS9kdOrKXCtRTRzwjTSK%2FgZC0alBg=?resolution=1240x700",
-      "categories": [
-        "政治",
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776528000.0,
       "hot": false
     },
     {
@@ -476,27 +493,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776510594.0,
-      "hot": false
-    },
-    {
-      "id": "b6ff03608c",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Labour selects Kingi Kiriona to contest Hauraki-Waikato",
-      "summary": "Kingi Kiriona is the founder of Māori education provider, TupuOra, a former journalist and the tutor of Waikato-based kapa haka, Te Iti Kahurangi.",
-      "link": "https://www.rnz.co.nz/news/political/592732/labour-selects-kingi-kiriona-to-contest-hauraki-waikato",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776466042.0,
       "hot": false
     },
     {
@@ -513,27 +511,9 @@
         "政治",
         "科技"
       ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1776459772.0,
-      "hot": false
-    },
-    {
-      "id": "073397257d",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Minister Chris Bishop 'unhappy' investigation into police breath testing taking so long",
-      "summary": "The Transport Agency (NZTA) then halted $6 million worth of funding to Police until it was satisfied Police had met their breath test targets.",
-      "link": "https://www.rnz.co.nz/news/political/592713/minister-chris-bishop-unhappy-investigation-into-police-breath-testing-taking-so-long",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1776445392.0,
+      "pub_ts": 1776459772.0,
       "hot": false
     },
     {
