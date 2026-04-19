@@ -1,25 +1,43 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-19T17:01:55.508896+00:00",
-  "total": 23,
+  "updated_at": "2026-04-19T20:59:49.636464+00:00",
+  "total": 24,
   "articles": [
     {
-      "id": "e760982a22",
+      "id": "0a0588fe98",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "They’re Young. They’re Conservative. And They’re Split Over the War.",
-      "summary": "On college campuses from the Northeast to the Southwest, the conflict in Iran is testing the fealty of young Republicans during the second Trump administration.",
-      "link": "https://www.nytimes.com/2026/04/19/nyregion/theyre-young-theyre-conservative-and-theyre-split-over-the-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19met-college-republicans-02-vlzm/19met-college-republicans-02-vlzm-mediumSquareAt3X.jpg",
+      "title": "Energy Secretary Says Gas Prices May Stay Above $3 Until 2027",
+      "summary": "Secretary of Energy Chris Wright’s acknowledgment in a TV interview undercut President Trump’s earlier claim that price increases would be “short-term.”",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/energy-secretary-gas-prices.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19israel-iran-gas-prices-mhjz/19israel-iran-gas-prices-mhjz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1776631653.0,
+      "hot": false
+    },
+    {
+      "id": "70bd28a98f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Muslim Southerners Face a Fresh Wave of Hateful Political Rhetoric",
+      "summary": "Some Muslim voters were once drawn to Republican positions on family values and individual liberty, but as Southern politicians stoke anti-Islamic sentiment, many feel threatened.",
+      "link": "https://www.nytimes.com/2026/04/19/us/politics/anti-muslim-politics-south.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18nat-muslims-south-mktf/18nat-muslims-south-mktf-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776614280.0,
+      "pub_ts": 1776625403.0,
       "hot": false
     },
     {
@@ -42,6 +60,78 @@
       "hot": false
     },
     {
+      "id": "80680b9620",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Hamas Officials Say Group Is Ready to Hand Over Some Weapons",
+      "summary": "Two senior Hamas officials in Gaza said the group was prepared to relinquish some automatic rifles and other arms, a concession that falls short of Israeli-U.S. demands.",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/hamas-weapons-israel.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19int-hamas-proposal-001-vltp/19int-hamas-proposal-001-vltp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776622286.0,
+      "hot": false
+    },
+    {
+      "id": "8cb58fecd8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Demand for Ballot Info Rebuffed by Michigan",
+      "summary": "The Department of Justice is seeking ballots and other materials from the 2024 election. Michigan officials call it election interference.",
+      "link": "https://www.nytimes.com/2026/04/19/us/michigan-trump-ballots-election.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19nat-michigan-ballots-wayne-lfvh/19nat-michigan-ballots-wayne-lfvh-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776621793.0,
+      "hot": false
+    },
+    {
+      "id": "4d21a7c811",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Eight children killed in a shooting in Louisiana, police say",
+      "summary": "The victims ranged in age from one to about 14 years old, said Shreveport, Louisiana police spokesperson Chris Bordelon. A total of 10 people were shot.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5790483/mass-shooting-eight-children-louisiana-shreveport",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776619602.0,
+      "hot": false
+    },
+    {
+      "id": "e760982a22",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "They’re Young. They’re Conservative. And They’re Split Over the War.",
+      "summary": "On college campuses from the Northeast to the Southwest, the conflict in Iran is testing the fealty of young Republicans during the second Trump administration.",
+      "link": "https://www.nytimes.com/2026/04/19/nyregion/theyre-young-theyre-conservative-and-theyre-split-over-the-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19met-college-republicans-02-vlzm/19met-college-republicans-02-vlzm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776614280.0,
+      "hot": false
+    },
+    {
       "id": "17d2370685",
       "type": "news",
       "region": "us",
@@ -54,28 +144,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776608420.0,
-      "hot": false
-    },
-    {
-      "id": "e7b8dd761c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Gen Z Looks to Nepal as a Test Case of Its Hopes",
-      "summary": "Many youth-led protests around the world have failed to bring meaningful change. But in Nepal, a new government is promising to do things differently.",
-      "link": "https://www.nytimes.com/2026/04/19/world/asia/nepal-elections-gen-z-balen-shah.html",
-      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/00nepal-genz-01-mkfv/00nepal-genz-01-mkfv-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776597874.0,
       "hot": false
     },
     {
@@ -91,26 +162,26 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776597390.0,
       "hot": false
     },
     {
-      "id": "8ffc86325f",
+      "id": "28562201a5",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "U.S. negotiators prepare for more peace talks as Trump repeats threats to Iran",
-      "summary": "After Iran again closed the Strait of Hormuz, President Trump said the U.S. is returning to Pakistan for negotiations, with the American delegation led by Vice President Vance.",
+      "title": "U.S. seizes Iranian cargo ship in Strait of Hormuz, Trump says",
+      "summary": "The U.S. has taken custody of an Iranian-flagged cargo ship in the Strait of Hormuz after firing on its engine room, President Trump said in a post on social media.",
       "link": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776597157.0,
       "hot": false
     },
@@ -128,7 +199,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776596400.0,
       "hot": false
     },
@@ -146,7 +217,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776594600.0,
       "hot": false
     },
@@ -164,7 +235,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776592800.0,
       "hot": false
     },
@@ -182,26 +253,26 @@
         "经济"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776589370.0,
       "hot": false
     },
     {
-      "id": "70bd28a98f",
+      "id": "0fbdf2a842",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Muslim Southerners Face a Fresh Wave of Hateful Political Rhetoric",
-      "summary": "Some Muslim voters were once drawn to Republican positions on family values and individual liberty, but as Southern politicians stoke anti-Islamic sentiment, many feel threatened.",
-      "link": "https://www.nytimes.com/2026/04/19/us/politics/anti-muslim-politics-south.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18nat-muslims-south-mktf/18nat-muslims-south-mktf-mediumSquareAt3X.jpg",
+      "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
+      "summary": "The gas-rich Gulf nation is in a state of “strategic shock” after the war dealt a serious blow to its economy, sending ripples around the world.",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17int-qatar-1-fgwh/17int-qatar-1-fgwh-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776589238.0,
+      "ago": "11小时前",
+      "pub_ts": 1776589340.0,
       "hot": false
     },
     {
@@ -218,7 +289,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776589200.0,
       "hot": false
     },
@@ -236,33 +307,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776577228.0,
-      "hot": false
-    },
-    {
-      "id": "af9e08817d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Potential 2028 Democrats Audition in Michigan,With a Focus on Trump",
-      "summary": "Former Vice President Kamala Harris, Senator Cory Booker of New Jersey and Gov. Andy Beshear of Kentucky spoke at a gathering of party insiders in Detroit, fueling presidential speculation.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/harris-booker-beshear-2028-president-democrats.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18pol-dems-michigan-2-zmtc/18pol-dems-michigan-2-zmtc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "15小时前",
-      "pub_ts": 1776562175.0,
+      "pub_ts": 1776577228.0,
       "hot": false
     },
     {
       "id": "d393a96409",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "North Korea launches ballistic missiles toward sea",
       "summary": "South Korea's Joint Chiefs of Staff says the launches happened on Sunday morning from the North's eastern Sinpo area.",
@@ -272,7 +325,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1776560083.0,
       "hot": false
     },
@@ -290,26 +343,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1776557469.0,
-      "hot": false
-    },
-    {
-      "id": "20952ee33c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Installs a Trump Loyalist to Lead ‘Grand Conspiracy’ Case Into Trump Foes",
-      "summary": "A former lawyer for President Trump’s campaign, Joseph diGenova, is said to be planning to split time between Miami and Fort Pierce, where a grand jury overseen by a Trump-favored judge sits.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/digenova-trump-lawyer-conspiracy.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18dc-conspiracy-tzpj/18dc-conspiracy-tzpj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776556951.0,
       "hot": false
     },
     {
@@ -326,7 +361,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1776548636.0,
       "hot": false
     },
@@ -344,27 +379,9 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776545025.0,
-      "hot": false
-    },
-    {
-      "id": "0d999000c7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "For Iran, Flexing Control Over Waterway Is New Deterrent",
-      "summary": "Iran’s government could emerge from the conflict with a blueprint to keep adversaries at bay, regardless of any restrictions on its nuclear program.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/iran-hormuz-strait-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/00dc-iran-strait-01-kqgf/00dc-iran-strait-01-kqgf-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1776542920.0,
       "hot": false
     },
     {
