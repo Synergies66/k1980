@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-18T20:59:46.173385+00:00",
-  "total": 20,
+  "updated_at": "2026-04-19T03:53:15.805323+00:00",
+  "total": 19,
   "articles": [
     {
       "id": "a478a5cd68",
@@ -19,26 +19,98 @@
         "科技"
       ],
       "score": 72,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776511910.0,
       "hot": false
     },
     {
-      "id": "03b77be10b",
+      "id": "af9e08817d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Doctor Will Seek Your Vote Now",
-      "summary": "Dozens of Democratic doctors are running for office in the midterms, including some spurred by opposition to Robert F. Kennedy Jr. and his anti-vaccine stance.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/democratic-doctors-running-for-congress.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/pol-doctors-promo-gbph/pol-doctors-promo-gbph-mediumSquareAt3X.jpg",
+      "title": "Potential 2028 Democrats Audition in Michigan,With a Focus on Trump",
+      "summary": "Former Vice President Kamala Harris, Senator Cory Booker of New Jersey and Gov. Andy Beshear of Kentucky spoke at a gathering of party insiders in Detroit, fueling presidential speculation.",
+      "link": "https://www.nytimes.com/2026/04/18/us/politics/harris-booker-beshear-2028-president-democrats.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18pol-dems-michigan-2-zmtc/18pol-dems-michigan-2-zmtc-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "0分前",
-      "pub_ts": 1776545948.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776562175.0,
+      "hot": false
+    },
+    {
+      "id": "d393a96409",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "North Korea launches ballistic missiles toward sea",
+      "summary": "South Korea's Joint Chiefs of Staff says the launches happened on Sunday morning from the North's eastern Sinpo area.",
+      "link": "https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776560083.0,
+      "hot": false
+    },
+    {
+      "id": "ca8d2686cc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "US Coast Guard spots overturned vessel near Saipan during search for missing ship",
+      "summary": "The Mariana is a 145-foot dry cargo vessel registered in the U.S. It suffered engine failure Wednesday as a massive typhoon bore down on Saipan and nearby islands.",
+      "link": "https://www.npr.org/2026/04/18/nx-s1-5789936/us-coast-guard-overturned-vessel-mariana",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776557469.0,
+      "hot": false
+    },
+    {
+      "id": "20952ee33c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Installs a Trump Loyalist to Lead ‘Grand Conspiracy’ Case Into Trump Foes",
+      "summary": "A former lawyer for President Trump’s campaign, Joseph diGenova, is said to be planning to split time between Miami and Fort Pierce, where a grand jury overseen by a Trump-favored judge sits.",
+      "link": "https://www.nytimes.com/2026/04/18/us/politics/digenova-trump-lawyer-conspiracy.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18dc-conspiracy-tzpj/18dc-conspiracy-tzpj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776556950.0,
+      "hot": false
+    },
+    {
+      "id": "6f08ea3696",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Life jacket worn by a passenger who survived the Titanic auctioned off for over $900,000",
+      "summary": "A life jacket worn by a passenger on the RMS Titanic has sold at auction for 670,000 pounds, which is more than $900,000.",
+      "link": "https://www.npr.org/2026/04/18/nx-s1-5789909/life-jacket-titanic-auction",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776548636.0,
       "hot": false
     },
     {
@@ -55,8 +127,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "15分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776545025.0,
       "hot": false
     },
@@ -73,27 +145,9 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1776544324.0,
-      "hot": false
-    },
-    {
-      "id": "fa58c0b5dc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Officials Visited Havana to Lay Out Proposals for Cuban Reforms",
-      "summary": "The delegation told Cuba’s leadership that it had only a narrow window of time to make the economic and political changes demanded by the Trump administration.",
-      "link": "https://www.nytimes.com/2026/04/18/world/americas/us-officials-cuba-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17us-cuba-talks-02-hmpv/17us-cuba-talks-02-hmpv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "42分前",
-      "pub_ts": 1776543434.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1776544325.0,
       "hot": false
     },
     {
@@ -109,27 +163,9 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "51分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776542920.0,
-      "hot": false
-    },
-    {
-      "id": "e9e659a72a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "New York’s Anti-Rich Current Reaches Crescendo With Second-Home Tax Plan",
-      "summary": "With a new tax proposal, the threat of a building workers’ strike and Mayor Zohran Mamdani’s shunning of the Met Gala, the city’s wealth gap was on full display.",
-      "link": "https://www.nytimes.com/2026/04/18/nyregion/new-york-inequality-second-home-tax.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18met-tax-strike-moment--01-qfcb/18met-tax-strike-moment--01-qfcb-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776539396.0,
       "hot": false
     },
     {
@@ -145,27 +181,63 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776538566.0,
       "hot": false
     },
     {
-      "id": "a922e8a5ab",
+      "id": "429e9dabbf",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Primary That Could End a State G.O.P.’s Independent Streak",
-      "summary": "For years, Republican state legislators in Montana have been willing to team up with Democrats, but in nearly two dozen races on June 2, a nationally attuned right has those lawmakers in its sights.",
-      "link": "https://www.nytimes.com/2026/04/18/us/politics/montana-republican-primaries.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/16nat-montana-gop-1-wpzb/16nat-montana-gop-1-wpzb-mediumSquareAt3X.jpg",
+      "title": "Trump Signs Executive Order to Loosen Restrictions on Psychedelic Drugs",
+      "summary": "The president’s executive order is intended to accelerate research into the compounds’ efficacy in treating mental health disorders like severe depression and PTSD.",
+      "link": "https://www.nytimes.com/2026/04/17/health/trump-psychedelics-ibogaine.html",
+      "image": "https://static01.nyt.com/images/2026/02/04/multimedia/17hs-trump-psychedelics/17hs-trump-psychedelics-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776536629.0,
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1776536312.0,
+      "hot": false
+    },
+    {
+      "id": "012b1e8668",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "More Displaced Lebanese Head Home as Cease-Fire Is Tested",
+      "summary": "The truce appeared to mostly hold even as Israel said it had carried out strikes on what it called “terrorists” approaching its forces in southern Lebanon. Separately, a U.N. peacekeeper was killed.",
+      "link": "https://www.nytimes.com/2026/04/18/world/middleeast/lebanon-israel-cease-fire-hezbollah-un.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18israel-iran-lebanon-topart-gqvj/18israel-iran-lebanon-topart-gqvj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1776533160.0,
+      "hot": false
+    },
+    {
+      "id": "db866c08c2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Reopening Strait of Hormuz Would Ease Oil Crisis but Only So Much",
+      "summary": "Analysts said energy and shipping companies would be reluctant to fully restore operations until they were confident that hostilities were over.",
+      "link": "https://www.nytimes.com/2026/04/18/business/energy-environment/starit-hormuz-oil-natural-gas-supplies-prices.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18biz-iran-oil-tfjl/18biz-iran-oil-tfjl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "14小时前",
+      "pub_ts": 1776517902.0,
       "hot": false
     },
     {
@@ -182,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1776517200.0,
       "hot": false
     },
@@ -200,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1776513600.0,
       "hot": false
     },
@@ -219,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776512537.0,
       "hot": false
     },
@@ -237,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776510416.0,
       "hot": false
     },
@@ -245,7 +317,7 @@
       "id": "8f0f3a5b09",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Born in south Lebanon, displaced to Beirut, two grandmothers reflect on Israeli invasions",
       "summary": "They grew up amid olive groves in southern Lebanon. The son of one married the other's daughter. Now they're living temporarily in a vacant building in central Beirut, displaced many times.",
@@ -255,98 +327,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776506520.0,
-      "hot": false
-    },
-    {
-      "id": "630871eef3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "She invited her friends to come together to make her casket",
-      "summary": "Friends gathered at a weaver's studio in Massachusetts to help MaddyChristine Hope Brokopp make her casket.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5786831/dying-terminally-ill-casket-weaving",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776506400.0,
-      "hot": false
-    },
-    {
-      "id": "d70c50c2be",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Caracas' iconic macaws threatened by vanishing palm trees",
-      "summary": "In the Venezuelan capital, Caracas, flocks of colorful macaws that once brightened city skies now face disappearing nest sites — and with them, a unique urban bond.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5766533/macaws-caracas-venezuela",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776506400.0,
-      "hot": false
-    },
-    {
-      "id": "b45e1c14ee",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran says it has closed the Strait of Hormuz again, as ceasefire nears its end",
-      "summary": "Iran's military said on Saturday the Strait of Hormuz has \"returned to its previous state.\" The announcement came after President Trump had said the blockade on Iranian ports would remain in place.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5789780/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776503718.0,
-      "hot": false
-    },
-    {
-      "id": "c450eead5b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "What's it like to negotiate with Iran? We asked people who have done it",
-      "summary": "Experts who spent months negotiating a 2015 nuclear agreement with Iran say mutual mistrust, starkly different negotiating styles, and the complexity of the issues make a quick deal unlikely.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5783873/iran-talks-islamabad-nuclear-jcpoa",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776502860.0,
-      "hot": false
-    },
-    {
-      "id": "415411c353",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Contours of NYC’s Pied-à-Terre Tax Begin to Take Shape",
-      "summary": "As state leaders determine how much owners of high-priced second homes in New York City may have to pay, they are also wrestling with opaque L.L.C.-ownership issues.",
-      "link": "https://www.nytimes.com/2026/04/17/nyregion/second-home-tax.html",
-      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17met-second-home-tax-01-cjtz/17met-second-home-tax-01-cjtz-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1776460172.0,
       "hot": false
     },
     {
