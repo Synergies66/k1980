@@ -1,68 +1,394 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-20T06:28:08.511582+00:00",
-  "total": 29,
+  "updated_at": "2026-04-20T10:10:39.111299+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "2e0140f165",
+      "id": "6fa1ccb310",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Evacuations underway in Lower Hutt amid state of emergency",
-      "summary": "Residents are urged to flee low-lying areas, flights are cancelled and fire crews have had hundreds of callouts as severe weather lashes the region.",
-      "link": "https://www.stuff.co.nz/nz-news/360966647/live-heavy-rain-forecast-north-island-areas-back-thunderstorms-and-flooding",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbwMHk%2FPqcemUijHeHldKeY2V2DNJ1ZqVVUMFvIwpYkmblGCZLXwwgGxc+qerqS851hhIlyqLk0d51MNFm%2F6HMb2mqRnpMmfQtm%2F2hOFue++4gSd9bzjl9kfYhJ0JOX%2FrwMtfKP8cN7M8BMBxVciMGhxj+w+2iOv9ssr0b+Ne2JyvpeWg4hGR6pshirAv1Ut1DmW834K526OTN%2FNv6fRWqMxDgldAEhIYM1IvDzWvHtZ5ztc5qGxnWVFp0dz9mxSbbJQbcEuWOUDsC9iM0651tCNUcz%2FOTLBVQ%2FbTz7XJs+D8eHAvng3bUREGDb9bAgdjZ04z7i7Mgb1Jy9LlF%2Fnm4Fv706XYxfafM2dg+ibZst3ULc%2Ftlv7QGYSLh4GodRefjjdgUX8vY4pbCxYiTuMwB3yFf+tyAlqbnQk6R0XVs5qWCVPn3wVou0Xyc4Z+BGcUQ==?resolution=1240x700",
+      "title": "Grieving, traumatized survivors return to their homes 5 months after deadly Hong Kong fire",
+      "summary": "He knows what he will see and he’s already hurting, but he has to go back.",
+      "link": "https://www.stuff.co.nz/world-news/360967574/grieving-traumatized-survivors-return-their-homes-5-month",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVNoZP+56i3LZA57JG2fSW08zZlW5Kx%2F35BB5GRPh8din7luJw227MR9MKueXAwpwXkHHfcsuph7BWISkAYYjEYjio8GtoJqtYyG+KUbWXmecgi5CA8JnVYP84KoYpiyQU1NugY6z9ksFBH4eNrtcNFvILALuO76xeUZbXYMDOoLOEc9sXAgbYqKDGvNwv0epA8B91Sz4EfUdQ1EY%2FH8jy4dKiIZG0v92wOePhLbj5a2EVDvgyr6Oo4o7KK5NAr4Pw8P6WH0wUzfUWfw1vVmPgjyi1%2F%2FP6Tjpi5bCbkusahPCzBSJuXvGoshHHo770sfjbV2FZNmWotweqOMCe7zRxkdPXOyim1%2F2KHmV%2FqTjOjk5KpM5XXW8Qwd4J+ywT0UEfICLY4efPdnBazHhmYrfvHYjqBOYovX2TOTTkZZMbXhe7THKh%2FSljLawZk65LXJqA==?resolution=1240x700",
       "categories": [
-        "天气"
+        "本地"
       ],
       "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1776665737.0,
+      "ago": "50分前",
+      "pub_ts": 1776676781.0,
       "hot": false
     },
     {
-      "id": "0fab0effea",
+      "id": "5b0e2f371a",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "6 meetings, 34 missed items: The short, complicated term of KiwiRail's  Scott O'Donnell",
+      "summary": "Donnell would have been paid tens of thousands, but missed large chunks of the meetings.",
+      "link": "https://www.rnz.co.nz/news/political/592809/six-meetings-34-agenda-items-missed-the-short-complicated-term-of-kiwirail-s-scott-o-donnell",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1776676613.0,
+      "hot": false
+    },
+    {
+      "id": "20e137429a",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Rescue mission under way for group stuck on Far North track",
+      "summary": "Search and rescue crews are in the Far North tonight attempting to reach three people still stranded on a track in Kaeo.",
+      "link": "https://www.stuff.co.nz/nz-news/360967566/rescue-mission-under-way-group-stuck-far-north-track",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVEDPo4OOHAse+GjumGIqEPXBwU45WKK2g%2FDNmSJPvNiTtiqdkBBhOVJR8q62rPmiZ8FehyetiT2iCOSm3cyqBNwXkjeIX7zIncYpBUCrrX3VleE4+pNPvT%2Fn4l2%2Fp7%2FVF8f6oRpnUyfO+5miumhc%2FU=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1776676252.0,
+      "hot": false
+    },
+    {
+      "id": "cbef177fb7",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Live Weather: State of emergency in Wellington as more rain arrives after floods, slips",
+      "summary": "Some residents in Wainuiomata being evacuated as water levels rise following a day of flash floods, slips in Wellington.",
+      "link": "https://www.rnz.co.nz/news/weather/592805/live-weather-state-of-emergency-in-wellington-as-more-rain-arrives-after-floods-slips",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776675771.0,
+      "hot": false
+    },
+    {
+      "id": "769be5a1c8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Labour warns signing India trade deal would be ‘recklessly irresponsible’",
+      "summary": "It’s crunch time for the divisive trade deal, with a signing date set for April 27 in New Delhi.",
+      "link": "https://www.stuff.co.nz/politics/360967525/date-set-sign-india-fta-labour-warns-it-would-be-recklessly-irresponsible",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbX8bZQBQrGxB8KlatRRwMRc3B8kAY8BEGNMc4+3+xhaJYkPAKkrs5hfaYiJxnyGWV7dMiquzEJd+q8tfyx6XBaEcqTdHgFElqao0cQQh9EMZpKDAbm4dE8lHalF4ig4Y6XNoAne4KLQ8vOVXGYc4J4FN01g2IbvBFkO1FLsyX7B6GgFCxVVLtPAMEAFh7erHFuwT1dVkRj0k2+MPpgvloBVCY9oNdPWsGash9Mn6s68knl2MSvzMnR%2FofNoFNAHy%2F8vR4mq2vwxlEVRgOkkdgt97IiYZAiK0nxMKOLGPRJ4LWJcHOBp9CNLQrmIWVssQJ+AAzLtph1mQJ4lLsaTCFLKMGmhDvxYbzgA2rnNniXKZiNI5ILP2E3piZcqLukUDTsoT2Dz6OxnbJVusM+TyzM2ts3Tvns2GfeXAeALsWzgqdu%2FYQ4BrEymqDDGBLWX5kkZdsU%2FV3DtoVgwuPtk+t8=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776675685.0,
+      "hot": false
+    },
+    {
+      "id": "5464c7ddd9",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Hutt Valley shop owner hoping sandbags will save his store",
+      "summary": "Superette owner Jay Gandhi said he's been putting sandbags in place ahead of closing up for the night.",
+      "link": "https://www.rnz.co.nz/news/weather/592901/hutt-valley-shop-owner-hoping-sandbags-will-save-his-store",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776675243.0,
+      "hot": false
+    },
+    {
+      "id": "c14a505ef3",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "One of NZ’s ‘proper icons’ is getting a new look after 119 years",
+      "summary": "Is the new look outrageous - or do you welcome the change?",
+      "link": "https://www.stuff.co.nz/nz-news/360966398/lp-bottles-are-shedding-tint-whole-new-look",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYW%2FsdSQjHcKi7QfGlfUL9VW96iPt5CYVMsPHVPhOTo2hQdbq8kfvLWjbtVeLv6NQpR0LglvdJX7NB9%2FOQWrWpiE5Of5gsSjw3dtNQEaXDPgiOsCPA8gz8Hn0IOc6gzHn1v0zjG4kQ93TjxzoAlt5XpV%2FtUSKM9ur4M2OuqgmtjmZmGIOGUECnzNj3AABPVhcLXLowGnAk+0P6nWG4J7sQWZpoBQqci0F0%2FHIWQbHzMZH4kT36Ql0rtcqMs4FEFCoyzVCPBS7pP3t0ACEwl5+OQ4TbuG4Sikc70fNK4EorMQyYTYgF023CGOepCLdGxKbNywYzhzSRgctNJ+57GNk7VOJ5FbHkKcrPUdK2FKS8EosNJX0ZcqR2sJTbRzxr9kNz2JOJnvRRvg26aQRGkKH7ju%2FQzPLs7RIjkdmj4Eg9Lu2CFm5PKrVUrhqlISIeRjyoWoMVPZqohrb%2FHAgx%2FzWf%2FE=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776674820.0,
+      "hot": false
+    },
+    {
+      "id": "452fd495f8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "British Prime Minister Starmer faces angry lawmakers over Mandelson's appointment as ambassador",
+      "summary": "LONDON (AP) — British Prime Minister Keir Starmer will try on Monday to get a grip on a crisis that has left power slipping from his grasp.",
+      "link": "https://www.stuff.co.nz/world-news/360967553/british-prime-minister-starmer-faces-angry-lawmakers-over-ma",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVhq3p5%2F8qyHK18PlJBUZUyh5rtheeRXotfTY5i5Zc1rGNA6bCy2CzPQgFMb35pOE9HI8CUQ0CYLLALC+nl6cFS7SnE9x9LfNhrN2dXPe5Fy%2F22ViMiLLLO179mtj9K50BGe+MeANXqi%2FMZ3Bw35WVc6dH%2F2Id5ZvYBv2qL02Vwlov5974uCQb8todJZUe5a9a7Q9jzLSm%2F2HBBupgZM4AkSoA2CNO3Fp+usSrxN+lHZ6qL+YN%2FhlbcfBJHt6b7k69dkZwcKx1Pv2xtLq9980St795xPHvOJg+rrinLJcDiRJhfk52+VAWI3oTNIgkNPd6mkzTPXeJzTxP8a96WhOtXzlljhOhfLrq+QYgVKhQvfxMtXwNn5tdkNJsW49t7dXJvTCQvSKPOL3ZaVVQGxpQbBZ86yVOFw8ilz24+BnmOSvK1XYP9genBdpBphVbvYBQ==?resolution=1240x700",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776674517.0,
+      "hot": false
+    },
+    {
+      "id": "684985eceb",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Wellington region braces for more 'serious' weather as rising water levels force evacuations, damage",
+      "summary": "MetService has expanded severe weather watches across central New Zealand, warning of more heavy rain, thunderstorms and strong gusts on the way.",
+      "link": "https://www.stuff.co.nz/nz-news/360966647/live-heavy-rain-forecast-north-island-areas-back-thunderstorms-and-flooding",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYagzSyJ33nY%2FT1ELiTEpOg97ZYLBypBH6GCTUAIyHWIgw3TiWD1HzhkAgJc0kZSSx5I4HhWcUIi353UJARIWIUaoe+cq+4PBnTCeU7UglmlUWXVzbFWiJFvc5D2oBiLYWUMsghzT76G5MxMX6r%2FzB920uQbxHqIFCpQqOhNLorVIXvXMZmsVC1Ljo2MQkp%2FgQ+Q6HlkkuRcEsJB3Fv3AmUPSYRCAq78O6vQ6nISn4ck+vkLlLb1ACBf5dAb7J6jTO%2F89a2srTELsRZrB%2FLDaZ9C+n2Cpgd5JQyOE3LdI6yY83Qyndd12CNNdR3fQu76pUa5M6fjziW7zSnRTTI67OVJ5tvuLrij5UIHtWasao%2FZS61AcXPCA+vvmiFRZ1sylN0OXYmKRpYIpd40vNMiuOPlA%2FfdqWEXl49nVc9Oj3QTY3pcb%2Fq8obPJ1GRZmZdOeow==?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776674336.0,
+      "hot": false
+    },
+    {
+      "id": "ac20ed37d0",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Watch: Out or not? Controversial dismissal of Black Caps captain divides opinion",
+      "summary": "Tom Latham was quick to shake his head, believing the ball did not carry, but after an umpire review, he had to go.",
+      "link": "https://www.stuff.co.nz/sport/360967528/black-caps-captain-tom-latham-dismissed-controversial-catch-against-bangladesh",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRVxtKQ47XqHhyEZ8DUFmh9dIzMJT%2FYHbrBi2hdrY1F+ATIHm5Lx+GqlIDKA8rUYN0SBu8XFri6rNOpfhiOo1z7aHNuzHD58Q11HBn0aMZL8j5GAsUZnlqYJMRi5Tpp5zzJb3W0EaR16wwufZndXadyZiHu9yL3rHDiFGXG5+y3Sswy5sl2xeFPAoUFtNJTgV8m+JZjiAcox2HZssq4fAAs57C5K60zFBRDK4lpBJ2EMq9u7ZJrWf4i+CRhWnb2ENO+ZXfzybP3qFKa0qCjvvTDW80%2FydManWZ1aNR52q8t+FZgxokEIBUe6nR4qK+LtRoczaOSPH1gw5JtBQky+J0KP2MtCedk+PTXJfpqlq36SC70FyLSJ20NGov9rTrIZ1YLl5GSKkpmHKYN0tIizCWlx%2FzkFGLFJE+4mfQCehUYOPjC0I7sRfPjnRxfGzPXJbw==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776673842.0,
+      "hot": false
+    },
+    {
+      "id": "b7c34e849e",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Woman dies after delayed cancer diagnosis and missed signs",
+      "summary": "The Health and Disability Commissioner has found Awanui Labs, and the doctors responsible for the woman's care, erred in their treatment.",
+      "link": "https://www.rnz.co.nz/news/health/592900/woman-dies-after-delayed-cancer-diagnosis-and-missed-signs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776673734.0,
+      "hot": false
+    },
+    {
+      "id": "f24ebc883c",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Doubts over talks between Iran and US after violence flares in Strait of Hormuz",
+      "summary": "Pakistan moved ahead Monday with preparations for a new round of talks between the United States and Iran days before a tenuous ceasefire is set to expire, even as renewed conflict around the Strait o",
+      "link": "https://www.stuff.co.nz/world-news/360967546/doubts-over-talks-between-iran-and-us-after-violence-flares",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYaAXisgbXt1xf9Vfy2HrIhsvR3CyQaWfdDB+yPjq96OiCmNZ+kG94gNGlWQF8HPOdAiMBFZCgPSJBn0JE4CYZBwt0Bp32Ovg0mmh6Bn2sPoVkuAP6hkZW3JKecOHGF0z0skXxPQQAcnLi1MSXjYU3OZbbT5uSKrU94NK3qKVIwv5oePiyzduyAS%2FIm6kRkm4D1Gq81gq8cdYsBiLrjEzCv9cHkDwKMPgJSGCFc+nxXSr7MaJg42oLG8+drf9ZZe%2FJCWQp2skME8GIVrarIx6ZQal1VuehN3u9sDHPn80MUmMSHj6glbpF9ddcNnK6+Q3UIoosZ09T4iQ1XKbc8tDXtq+8kh7z+O5Vq5HOUJ7SMDfCYnTZbeVUD06%2Fq1vO%2FdqIhGMuu9yrPNPtjteZ5yh4DMBXwjHtsm%2F4embLfvhnGt6K8R3IbX22uzMYSYDrC83gQngwynfHd9JIsYUuS0HxTo=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776673698.0,
+      "hot": false
+    },
+    {
+      "id": "954d33be4f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "'Alarmist': PM criticises Shane Jones' 'butter chicken' comments",
+      "summary": "Luxon stopped short of saying whether he thought the comments were racist.",
+      "link": "https://www.rnz.co.nz/news/political/592889/alarmist-prime-minister-criticises-shane-jones-butter-chicken-comments",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776672975.0,
+      "hot": false
+    },
+    {
+      "id": "3d87af23da",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "South Auckland businesses frustrated as large trucks use suburb for parking",
+      "summary": "Wiri Business Association has recorded 7000 heavy truck incidents while on patrols in the suburb.",
+      "link": "https://www.rnz.co.nz/news/business/592578/businesses-frustrated-as-large-trucks-use-suburb-for-parking",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776672430.0,
+      "hot": false
+    },
+    {
+      "id": "409c861bbb",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Could Northland be NZ's coffee-growing capital?",
+      "summary": "Commercial coffee growing in Aotearoa is still an emerging industry, but work is underway to expand in Northland.",
+      "link": "https://www.rnz.co.nz/news/business/592841/could-northland-be-nz-s-coffee-growing-capital",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776671189.0,
+      "hot": false
+    },
+    {
+      "id": "c7d9056775",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "In pictures: The damage caused by flooding across the lower North Island",
+      "summary": "Multiple parts of the North Island were hit by floods over the weekend.",
+      "link": "https://www.rnz.co.nz/news/weather/592843/in-pictures-the-damage-caused-by-flooding-across-the-lower-north-island",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776670215.0,
+      "hot": false
+    },
+    {
+      "id": "087229cd80",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Major power outage impacts East Auckland suburb",
-      "summary": "The outage stems from a network or equipment fault north of Whitford.",
+      "title": "Weather live updates: State of emergency declared after flash flooding hits Wellington, more severe ",
+      "summary": "MetService says there's a 'threat to life' from dangerous river conditions and flooding.",
+      "link": "https://www.nzherald.co.nz/nz/weather-live-updates-flash-flooding-hits-wellington-more-severe-weather-expected/EC3Y2LD4QRC6HLMIS7KLTC5XIU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/AW5XFJDGJZAPLA3CDNSUSY2JTQ.png?auth=c5dff7dab84617251f322d26de1d44a2a93052b209453513326a04a2a5a5452e&smart=true&width=300&height=300",
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776669197.0,
+      "hot": false
+    },
+    {
+      "id": "65220b7678",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Nelson court: Marching coach Jodie Wastney used team trip fundraising cash for shopping",
+      "summary": "The theft by Jodie Wastney meant the under-13 team missed planned championships.",
+      "link": "https://www.nzherald.co.nz/nz/crime/nelson-court-marching-coach-jodie-wastney-used-team-trip-fundraising-cash-for-shopping/D7WFBF54PFC3LIC3JK6R6ADY5M/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/HZRHUZZCP5D47JSANRNS3SPN3I.jpg?auth=ad6ba28d4cc636ee57378e1318c147f8ee9745abfb908119da5d5c5e394eaec7&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776668400.0,
+      "hot": false
+    },
+    {
+      "id": "c86e4ee317",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "PM Christopher Luxon walks back claim five National MPs ‘frustrated’ at his leadership",
+      "summary": "Luxon claims he was reacting to the Herald's report on Friday.",
+      "link": "https://www.nzherald.co.nz/nz/politics/pm-christopher-luxon-walks-back-claim-five-national-mps-frustrated-at-his-leadership/5JRJSTPRXFAP7P7EKVAISIQGZM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/VAOLQA462ZHHXO3RSRP54DBPXE.jpg?auth=fde4f5f952f44a0e9e0afebd39918b61a41d2248376af168879fd7c90c919617&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776667770.0,
+      "hot": false
+    },
+    {
+      "id": "ee08d8d34c",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Wellington floods: Search for missing Karori man Philip Sutton concludes for the day",
+      "summary": "Search teams spent hours clearing debris at the rural property in Karori.",
+      "link": "https://www.nzherald.co.nz/nz/wellington/wellington-floods-search-for-missing-karori-man-philip-sutton/7SPABH2H6VGSNEHECGZ566KSYI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/CBIOPZMKB5DGDGN3NWPJ27XX5U.jpg?auth=1964ade22ba591884f3be79bf6a092145551d40ded2f02a936a4a2ec2b97a22d&smart=true&width=300&height=300",
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776666285.0,
+      "hot": false
+    },
+    {
+      "id": "1c3d24f157",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Power restored to East Auckland suburb after major outage",
+      "summary": "The outage hit homes just north of Whitford from 5.43pm this evening.",
       "link": "https://www.nzherald.co.nz/nz/major-power-outage-impacts-east-auckland-suburb/3UNOYFXBPBG33DVUDKY2MFYJMM/",
       "image": "https://www.nzherald.co.nz/resizer/v2/Q2IHY6K7PVH37GY4AFTEJTJMHM.png?auth=df16a6994ce0da55282e4e179e4412b29891feeeae0a487cd0592a4d4526c353&smart=true&width=300&height=300",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "14分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1776665605.0,
-      "hot": false
-    },
-    {
-      "id": "27ccb9a009",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Charlize Theron recalls terrifying night her mother shot her father",
-      "summary": "The actor detailed the moment her father fired through a bedroom door and how her mother fought back.",
-      "link": "https://www.stuff.co.nz/culture/360967461/charlize-theron-recalls-terrifying-night-her-mother-shot-her-father",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbQTF%2FkOY6fvyrCgsmPi+uFup0zTtTWh3cXHdQ+vW+7gyGQScnFw6YDQeH4MxmwQ2rPNkdVjjsX8KgiO4SuaT2Dk4X1UW5eIRTaWjEioRyqAxgQezabolP65+oD98vgv1soI1GLPEGN5pFbGPDCl%2F4PY7FGG3di7147m2biVRBELDxNax57HHZeEwqfg4njwDEuAO653tLYv7pR87X6Yp5hkD9f+LF3S0K+AJnm8Q1rVm%2Fdd43Juc5m30wBz56ujypUl%2FVbn2fvtmgUqNd87JUdtLh72JdxdPlPIyyccjtIFryszyOf7hByiyiuGnJZzxmSeWB+IU4gQSsDR79eNW0+kbPuXaI8tXVQzslBntWq84jWpvwiznIruajhAHG8CZn9BBHc6Dq8JH%2FBEeUZhnDVpKSU%2FSWDD1KZKhl6+zY5utWsj2HTQC8szKsAKmO4kZSFqM5Qz7bIDk07YQaAg26g=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1776665299.0,
       "hot": false
     },
     {
       "id": "255a0d689c",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "'Alarmist' - Prime Minister criticises Shane Jones' 'butter chicken' comments",
       "summary": "Luxon stopped short of saying whether he thought the comments were racist.",
@@ -71,27 +397,9 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "25分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776664946.0,
-      "hot": false
-    },
-    {
-      "id": "c826ef0305",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "The extraordinary tale of a secret apartment inside a US mall that went unnoticed for four years",
-      "summary": "Developers drove these artists out of their homes. This is how they fought back.",
-      "link": "https://www.stuff.co.nz/culture/360967479/developers-drove-these-artists-out-their-homes-how-they-fought-back",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYURL0r2Tn2uO2rBBKS4yarMrVzC6vJNP2T4mIRaG4cRtL%2FfXtoIXSAqo1oCyTKWNdAsWN6ZifKLzRCdNig3arpOC3DGXK6Y6ErowEBOdHt4xSrxnMMaZ8HjHD1mA+p%2FBy9CElZKa8N9XynLcP0MB8KdTTCR63FK0i0EmMJx7JnskXAn9ARRj5aBGiFU+izSuFaxLoNd5rjmh2LfQPJdTmDC8Y7PJ4Lzt0fEtwDWckddoI4zOzb62BZjMCBJOaiA2o%2Fu2Z4sMpkkPxNn%2FhqCzzS5g+6llYd%2FkGkO%2FO96BnlhYVHBnhn8cf4XRDuFeoKOtdWzUwvbx4VDSHP6l4FgiEm7%2Fr9JU5eqhToHCxeY6vSQOJvgXdOPVEocm0mYj00mWmmq1ikSFkhV%2FVcIeECYOXdnqKuvIK3USANYIgmLSEdqCHwtEDbMn7%2FoONREiDv0S2g==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1776664888.0,
       "hot": false
     },
     {
@@ -107,8 +415,8 @@
       "categories": [
         "天气"
       ],
-      "score": 70,
-      "ago": "27分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776664800.0,
       "hot": false
     },
@@ -125,46 +433,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "27分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776664800.0,
-      "hot": false
-    },
-    {
-      "id": "cbef177fb7",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Live Weather: State of emergency in Wellington as more rain arrives after floods, slips",
-      "summary": "People in affected streets are being told not to wait as council teams go door to door.",
-      "link": "https://www.rnz.co.nz/news/weather/592805/live-weather-state-of-emergency-in-wellington-as-more-rain-arrives-after-floods-slips",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1776664698.0,
-      "hot": false
-    },
-    {
-      "id": "f7a0e818bc",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Fiji police confirms murder investigation launched into death of man in military custody",
-      "summary": "Police spokesperson Ana Naisoro told RNZ Pacific that investigators are gathering intelligence to establish the facts and circumstances surrounding Jone Vakarisi's death while in military custody.",
-      "link": "https://www.rnz.co.nz/news/pacific_fiji/592887/fiji-police-confirms-murder-investigation-launched-into-death-of-man-in-military-custody",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1776664413.0,
       "hot": false
     },
     {
@@ -180,34 +451,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "39分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776664086.0,
-      "hot": false
-    },
-    {
-      "id": "1d4f9a8ee8",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "'Person of interest' in Hastings homicide unconscious in hospital",
-      "summary": "The Coroner said police were yet to speak to the man, who also suffered stab wounds.",
-      "link": "https://www.rnz.co.nz/news/crime-and-justice/592888/person-of-interest-in-hastings-homicide-unconscious-in-hospital",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "44分前",
-      "pub_ts": 1776663818.0,
       "hot": false
     },
     {
       "id": "2c313831d4",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "Relief teachers to get transport allowance bump in light of fuel crisis",
       "summary": "It follows a similar fuel crisi-related move to increase mileage rates for home and community support workers, announced earlier this month.",
@@ -216,143 +469,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "52分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776663312.0,
-      "hot": false
-    },
-    {
-      "id": "c5956f3d47",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Weather: State of emergency declared for Wellington",
-      "summary": "Red heavy rain warnings have been issued for Wellington and Wairarapa until Tuesday night.",
-      "link": "https://www.rnz.co.nz/news/emergencies_local/592870/weather-state-of-emergency-declared-for-wellington",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776662723.0,
-      "hot": false
-    },
-    {
-      "id": "3d3b52efba",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "An Iraqi captain keeps sailing despite the threat of attack amid regional war",
-      "summary": "BAGHDAD (AP) — Aboard an oil tanker plying the tense waters between the Gulf of Oman and the Strait of Hormuz, Iraqi Captain Rahman Al-Jubouri continues to work in one of the world’s most volatile mar",
-      "link": "https://www.stuff.co.nz/world-news/360967465/iraqi-captain-keeps-sailing-despite-threat-attack",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTV4SGG4aGNbpqeNXR8znRle12s3fqonIlTceHNjaX100wOeEPdPKNt9CliYvGlz%2FgC4k6ezX4Sb2t+LTGxhMEgQZtnuFx+waQdTDRT1oSdLG9qKJpzfLK9mv2nSlHsr3qfYN3hlO1CJaG1Z9FHb9raSpEQ2YA2nHqDWHCmeM%2FNZMGpyVrYDai87RtEq+bQNWlG2Hz2OGRZuW9+r5XYuiRt9KJ65WvkMdpAaEjyQKWvXbv6M1Z5dciFie0CYcep3fJwheDQ0ArOxyMuMoyl08MJmN6NfDTRheUiXZuQyHZbOKRG3oHoaWIk77cBTq92tBhX8XvGMzfPGwFg8B0yZqX6R%2FCYZbflwuoT5vcIiWUV3HEKwaglXs5aRRWPcgehy9HM5+nz520IRWsFWOkPCwC9EmFU8peTefnPTqk01M9K9iCB8LHJ5jA4a1lKDoxFUDg==?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776662437.0,
-      "hot": false
-    },
-    {
-      "id": "7673f57756",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Wellington floods: Search for missing Karori man Philip Sutton",
-      "summary": "Philip Sutton's Karori home has been hit by floodwaters and debris from today's storm.",
-      "link": "https://www.nzherald.co.nz/nz/wellington/wellington-floods-search-for-missing-karori-man-philip-sutton/7SPABH2H6VGSNEHECGZ566KSYI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/CBIOPZMKB5DGDGN3NWPJ27XX5U.jpg?auth=1964ade22ba591884f3be79bf6a092145551d40ded2f02a936a4a2ec2b97a22d&smart=true&width=300&height=300",
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776662409.0,
-      "hot": false
-    },
-    {
-      "id": "3f816b049f",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Rebel Wilson accused of fabricating sexual assault story by young star of her film",
-      "summary": "A nine-day hearing has started in an action by actress Charlotte MacInnes against the film’s director.",
-      "link": "https://www.stuff.co.nz/culture/360967449/rebel-wilson-accused-fabrication-deb-defamation-case",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYe3mjyL810Eobw3r1Bq1aEwq8WcuOD5P8iL%2FbiL3xwU5zdfE%2FuO43SD4r6eHGvXeBBm22qLYFOlHAA7898%2FbET6M%2FSyvJ+tGwSXtxVk3Rvy0Rw1bHzSSgZTA4RkH9UloTbr82duj3ydVjbpfQ2HM0ht%2FCBSgqtsc6Gy3Cy9RP3esf%2FjSqkWwXbAoBDuNlt7gA+Pf99aPkvqHeCoCXLMGm40T7aYgOSx9B7CU638S8464np%2FErs02tTE6P5hiyM+YdpCzVL1xfy1aCiowGlEDedFPqfXxD1pcW8yjg6Y0LbcLmSIFsWz5kOXWOS%2FbBu2w2mH9CQi2ZDzpjNJFxgHcRs0QDPxN8ecwrHwDBcIv9bh5aySA5WfNehRmPgsplNqigWL4%2FwyDRewZVJNtDn6cAnxK%2FNXJg0yAEOz3KU3zt%2FsMynC3KZSrkKV%2FKuLakuJcY1bezRLovcp8hrQ1CvLfSs0=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661841.0,
-      "hot": false
-    },
-    {
-      "id": "59e175abee",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Wellington Phoenix confirm venue for historic A-League semi",
-      "summary": "The Wellington Phoenix have locked in Porirua Park for the second leg of the women’s Ninja A-League semifinal - one of the biggest games in the club’s history - on May 10.",
-      "link": "https://www.stuff.co.nz/sport/360967413/wellington-phoenix-confirm-venue-historic-league-women-semifinal-clash",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcsU5igC2ycvbz1mcClzieqKQNn+S9RZ664lv6n9NEIGKGeqnP1Jhijumso%2Fx%2F%2FSy8Lc5ArIYkiYobBvMVhV%2FVaECaN6H8uYwZfm6q4SOwkscucwA+h97CiQzqeE9uAT4nbNfVHbBwkrUi46n39fTnaXVBnRIulp6x4vLGg62Gp5ueVQlPVWx46XQHa0uBxmG2aCu5uPrHC1HYNfaFqy1ZX6kpzb44tlTMvLDD71pH7smyLaw6hrI8tid0nGhLycDI9vNakxo7hGp2ox0%2Fy3C2MQdduuvfMWE5PHr5eaIxZqNkbWbL+NUcQoIw0NjjidI+9l9ZhFLPDBRDrqirHr82dJcO7Mj8bjr4wibBbnJ%2FBGXhrAKnl1PfFxu6SbqpD3Yca+OKn9ZL5wD+eXaJRlEguzJsEmxBMa2f2FY%2Fg8VfsJC96fyHHhlf8o8msxt5xuxGhLxBv8uMLptXnKXL%2FdI1o=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661579.0,
-      "hot": false
-    },
-    {
-      "id": "087229cd80",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Weather live updates: State of emergency declared after flash flooding hits Wellington, more severe ",
-      "summary": "MetService says there's a 'threat to life' from dangerous river conditions and flooding.",
-      "link": "https://www.nzherald.co.nz/nz/weather-live-updates-flash-flooding-hits-wellington-more-severe-weather-expected/EC3Y2LD4QRC6HLMIS7KLTC5XIU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/THX22ZH4PNFVXDPWQRJXGA5TK4.jpg?auth=a470606b416b3537371dc0cd558706b832e7d66a968c629b0848748e32a5330a&smart=true&width=300&height=300",
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661548.0,
-      "hot": false
-    },
-    {
-      "id": "30121a4fdb",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Wellington floods: The stories of the people caught up in the disaster",
-      "summary": "The capital's southern suburbs were hit the hardest by the storm on Monday. These are some of the stories from those who live there",
-      "link": "https://www.rnz.co.nz/news/weather/592875/wellington-floods-the-stories-of-the-people-caught-up-in-the-disaster",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661317.0,
       "hot": false
     },
     {
       "id": "6106d72a2a",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "Watch: Christopher Luxon faces leadership questions after latest poll",
       "summary": "On National's latest poll results, the PM said he wouldn't be \"the person that everyone wants to get a beer with\" but he was leading a government that was \"a great custodian\" of the economy.",
@@ -363,81 +489,9 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776661280.0,
-      "hot": false
-    },
-    {
-      "id": "c6d5fc239c",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "L&P bottle change: Iconic brown ditched for clear bottles nationwide",
-      "summary": "Coca-Cola says the new packaging makes each bottle easier to recycle.",
-      "link": "https://www.nzherald.co.nz/waikato-news/news/lp-bottle-change-iconic-brown-ditched-for-clear-bottles-nationwide/JNQ7BU7CXFDKLA6Z4ZP64CT53M/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/N3XBKOWTQJEFFOI643Z25IJPLU.jpg?auth=791540ede91c66fc158a056a902c63610a08f6516078c13c709decaeac3c379c&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661200.0,
-      "hot": false
-    },
-    {
-      "id": "a617147b0e",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Is this Europe’s best-kept secret?",
-      "summary": "We explore the Iron Gates gorge, a 134-kilometre stretch of the Danube many travellers know little about.",
-      "link": "https://www.stuff.co.nz/travel/360965025/europes-best-kept-secret",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVSa+x1ZWTBuflJkPnLbzAWT5hl39YhBOUgeIMS%2FuLjFy9DEdTbQ4qIAkMIxhJRWOgBbIiGgEJmLLFwFQXGUNAiC%2FzELfVgbw0WL0SCQPtPln%2F1TrFccQ6oyQYaT96%2FxVjcNK5GwSB4hS0VAy3J+0Z0=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661200.0,
-      "hot": false
-    },
-    {
-      "id": "1e00f1c8d0",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "What the Treaty clause review means for New Zealand – The Front Page",
-      "summary": "Critics fear repeals of Treaty clauses could trigger fresh court battles.",
-      "link": "https://www.nzherald.co.nz/nz/what-the-treaty-clause-review-means-for-new-zealand-the-front-page/UL25K6IBCZGMXAB33A4NV25GGE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/O47ZOOJOEVE4JJQBWSY6WC2SBI.jpg?auth=90cc223cec4172321a248b6031cc9d87aad252bea6b2cfcdfee9207a887e43e0&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776661140.0,
-      "hot": false
-    },
-    {
-      "id": "b4e07c9ffd",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "What the hell just happened with the weather on the weekend?",
-      "summary": "Localised downpours and thunderstorms have caused chaos in the capital and  left people wondering where the warnings were.",
-      "link": "https://www.stuff.co.nz/nz-news/360967133/what-hell-just-happened-weather-weekend",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbKd9mVeaPtq%2FPD0URi6rfiIIU%2FCsrHQbpBhDBnyCMnu0A+xB3VM7kK7Hm9uco6JIfVLPx2pEQPJKCTZSiHoKJJ2100I%2FwKj1y70%2FG4kA5Md+aRVUbQaDSsrEFgF3+dY6PBjxIeWJnPJvVCVYTpePWE=?resolution=1240x700",
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776660194.0,
       "hot": false
     },
     {
@@ -453,8 +507,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776656428.0,
       "hot": false
     },
@@ -471,28 +525,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776652323.0,
-      "hot": false
-    },
-    {
-      "id": "b8af26e5a4",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Time to do something about supermarkets, Consumer says",
-      "summary": "The government's attempts to shake up the supermarket sector have so far failed and something has to be done, Consumer advocates say.",
-      "link": "https://www.rnz.co.nz/news/business/592865/time-to-do-something-about-supermarkets-consumer-says",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776648392.0,
       "hot": false
     },
     {
@@ -509,27 +544,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776643555.0,
-      "hot": false
-    },
-    {
-      "id": "87a1706a68",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "National, Luxon fall in latest poll, coalition trails left bloc",
-      "summary": "Analysis: A new poll showing National sitting on just 30 percent, and the coalition unable to govern, has set the stage for a crucial week in Christopher Luxon's prime ministership.",
-      "link": "https://www.rnz.co.nz/news/political/592799/national-luxon-fall-in-latest-poll-coalition-trails-left-bloc",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776583907.0,
       "hot": false
     }
   ]
