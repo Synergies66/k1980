@@ -1,14 +1,14 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-20T10:12:49.721539+00:00",
-  "total": 24,
+  "updated_at": "2026-04-20T14:17:58.327533+00:00",
+  "total": 22,
   "articles": [
     {
       "id": "8b3d2d4471",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A humanoid robot sprints past the human half-marathon world record in Beijing race",
       "summary": "The winner from Honor, a Chinese smartphone maker, completed the race in 50 minutes and 26 seconds, running faster than the human world record in a show of China's technological leaps.",
@@ -18,27 +18,9 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1776665400.0,
-      "hot": false
-    },
-    {
-      "id": "fa4ec1e36b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The President Is Coming to the White House Correspondent’s Dinner",
-      "summary": "A president who relishes attacking the news media is set to break his boycott of an event celebrating the news media. What could go wrong?",
-      "link": "https://www.nytimes.com/2026/04/20/business/media/white-house-correspondents-dinner-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20biz-whca-letter-qwch/20biz-whca-letter-qwch-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1776679219.0,
       "hot": false
     },
     {
@@ -55,26 +37,8 @@
         "科技"
       ],
       "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1776676467.0,
-      "hot": false
-    },
-    {
-      "id": "d33dbd285b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration to Begin Refunding $166 Billion in Tariffs",
-      "summary": "The government will debut a system to repay importers two months after the Supreme Court struck down tariffs at the heart of the president’s trade policy.",
-      "link": "https://www.nytimes.com/2026/04/20/business/trump-administration-tariff-refunds.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-trump-tariffs-zgmf/20dc-trump-tariffs-zgmf-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776675843.0,
+      "ago": "43分前",
+      "pub_ts": 1776692041.0,
       "hot": false
     },
     {
@@ -91,26 +55,136 @@
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776675797.0,
+      "ago": "51分前",
+      "pub_ts": 1776691562.0,
       "hot": false
     },
     {
-      "id": "30efabafc7",
+      "id": "50b2ad56b1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Strait of Hormuz Traffic Is at a Standstill Again",
+      "summary": "Few vessels are crossing after Iran reversed course on reopening the vital waterway and ships came under attack.",
+      "link": "https://www.nytimes.com/2026/04/20/world/middleeast/strait-hormuz-traffic-ships-iran-us.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20israel-iran-shipping-1-mcvk/20israel-iran-shipping-1-mcvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776689872.0,
+      "hot": false
+    },
+    {
+      "id": "4172f357c1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Iran War Sent Shock Waves Through Asia That Are Likely to Spread",
+      "summary": "The Asia-Pacific was hit hard and quick by the war in Iran and its energy bottlenecks. Scenes of crisis there indicate that problems are multiplying and spreading.",
+      "link": "https://www.nytimes.com/2026/04/20/world/asia/asia-pacific-iran-war-oil.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20int-iran-asia-risks-qvpb/20int-iran-asia-risks-qvpb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776688797.0,
+      "hot": false
+    },
+    {
+      "id": "d33dbd285b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration to Begin Refunding $166 Billion in Tariffs",
+      "summary": "The government will debut a system to repay importers two months after the Supreme Court struck down tariffs at the heart of the president’s trade policy.",
+      "link": "https://www.nytimes.com/2026/04/20/business/trump-administration-tariff-refunds.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-trump-tariffs-zgmf/20dc-trump-tariffs-zgmf-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776686995.0,
+      "hot": false
+    },
+    {
+      "id": "2393af87e6",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Data center disputes have been local. But the midterms might change that",
-      "summary": "Anger over the data center boom has spilled into politics with voters unseating local politicians who support them. It's become an issue hard to ignore in the midterm elections.",
-      "link": "https://www.npr.org/2026/04/20/g-s1-117729/data-center-disputes-local-midterms",
+      "title": "Peace talks are in doubt as the U.S. seizes an Iranian ship",
+      "summary": "President Trump said a U.S. delegation will head to Pakistan to resume talks to end the war with Iran, but Tehran expressed reluctance after the U.S. seized one of its cargo ships in the Strait of Hor",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates",
       "image": null,
       "categories": [
-        "政治"
+        "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776675600.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776682952.0,
+      "hot": false
+    },
+    {
+      "id": "7f9fe5e580",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A mine despoiled the beauty of the rainforest. This Goldman Prize winner took action",
+      "summary": "\"We women are the land guardians and keepers,\" says Theonila Roka Matbob of Papua New Guinea, recognized for her efforts to repair the environmental and social harms caused by a copper and gold mine.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-117830/goldman-environmental-prize-papua-new-guinea-mining",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776682706.0,
+      "hot": false
+    },
+    {
+      "id": "93148d2c08",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches",
+      "summary": "U.S. forces seized an Iranian-flagged cargo vessel in the Strait of Hormuz. And, an online government portal for processing tariff refunds launches today.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-118095/up-first-newsletter-us-iran-peace-talks-strait-of-hormuz-tariff-refunds-louisiana-shooting",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776681010.0,
+      "hot": false
+    },
+    {
+      "id": "54c90b4b73",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Attacks and Seizes Cargo Ship Near Iran, and a First Step Toward Tariff Refunds",
+      "summary": "Plus, Lego crime.",
+      "link": "https://www.nytimes.com/2026/04/20/podcasts/the-headlines/us-iran-tariff-refunds.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20headlines-promo-pwqh/20headlines-promo-pwqh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776679212.0,
       "hot": false
     },
     {
@@ -127,26 +201,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776675600.0,
-      "hot": false
-    },
-    {
-      "id": "493565c0f8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Spanish speakers learn strategies to pass English-only driving test in Florida",
-      "summary": "A new English-only driving test rule in Florida is fueling a surge in strategy lessons for Spanish speakers where they learn to figure out the questions without having to take English language courses",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5783923/spanish-speakers-get-strategy-pass-english-only-driving-test-florida",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776675600.0,
       "hot": false
     },
@@ -163,8 +219,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776675600.0,
       "hot": false
     },
@@ -175,14 +231,32 @@
       "source": "NPR News",
       "lang": "en",
       "title": "Who owns presidential records? Trump's Justice Department says it's him",
-      "summary": "The Trump administration asserts a nearly 50-year-old law requiring the preservation of presidential records is unconstitutional. Historians warn important papers could be destroyed.",
+      "summary": "The Trump administration asserts that a nearly 50-year-old law requiring the preservation of presidential records is unconstitutional. Historians warn important papers could be destroyed.",
       "link": "https://www.npr.org/2026/04/20/g-s1-117887/trump-justice-department-presidential-records-lawsuit",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776675600.0,
+      "hot": false
+    },
+    {
+      "id": "a502efabba",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Data centers are expensive, unpopular — and could be a tipping point in the midterms",
+      "summary": "Anger over the data center boom has spilled into politics with voters unseating local politicians who support them. It's become an issue hard to ignore in the midterm elections.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-117729/data-center-disputes-local-midterms",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776675600.0,
       "hot": false
     },
@@ -193,50 +267,32 @@
       "source": "NPR News",
       "lang": "en",
       "title": "Got wearable data? Your doctor can help you connect the dots",
-      "summary": "The American Academy of Neurology issued guidance on using wearable data devices, like smart watches or Oura rings, to track key health metrics that can help flag serious conditions.",
+      "summary": "The American Academy of Neurology issued guidance on using wearable data devices, like smartwatches or an Oura Ring, to track key health metrics that can help flag serious conditions.",
       "link": "https://www.npr.org/2026/04/20/nx-s1-5746639/wearable-data-doctor-help",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776675600.0,
       "hot": false
     },
     {
-      "id": "f4af46b4a5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Morning news brief",
-      "summary": "Trump announces planned Iran war peace talks, Tehran signals it may boycott negotiations amid ongoing U.S. naval pressure, businesses can now apply for Trump tariff refunds.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5787462/morning-news-brief",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776674549.0,
-      "hot": false
-    },
-    {
-      "id": "7b37820335",
+      "id": "ec59db6cbd",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "After massive cuts, U.S. says HIV work aboard is going well, but experts disagree",
+      "title": "After massive cuts, U.S. says HIV work abroad is going well, but experts disagree",
       "summary": "The Trump administration has released new data on the country's HIV/AIDS work abroad. It is claiming the numbers are good news, but many HIV experts say they paint a worrisome picture.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5790657/after-massive-cuts-u-s-says-hiv-work-aboard-is-going-well-but-experts-disagree",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5790657/after-massive-cuts-u-s-says-hiv-work-abroad-is-going-well-but-experts-disagree",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776674524.0,
       "hot": false
     },
@@ -254,8 +310,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776674505.0,
       "hot": false
     },
@@ -273,27 +329,9 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776674285.0,
-      "hot": false
-    },
-    {
-      "id": "4172f357c1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Iran War Sent Shock Waves Through Asia That Are Likely to Spread",
-      "summary": "The Asia-Pacific was hit hard and quick by the war in Iran and its energy bottlenecks. Scenes of crisis there indicate that problems are multiplying and spreading.",
-      "link": "https://www.nytimes.com/2026/04/20/world/asia/asia-pacific-iran-war-oil.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20int-iran-asia-risks-qvpb/20int-iran-asia-risks-qvpb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776663583.0,
+      "ago": "5小时前",
+      "pub_ts": 1776674285.0,
       "hot": false
     },
     {
@@ -309,27 +347,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776663259.0,
-      "hot": false
-    },
-    {
-      "id": "3c465e3c7f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "From Pulpit to Pews, Trump and Pope Are on the Minds of Catholics",
-      "summary": "At churches with connections to Pope Leo and the Trump administration, pastors and parishioners speak out on the feud between the president and the pontiff.",
-      "link": "https://www.nytimes.com/2026/04/19/us/trump-pope-catholics.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19nat-church-reax-fbpv/19nat-church-reax-fbpv-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776651309.0,
+      "ago": "8小时前",
+      "pub_ts": 1776663259.0,
       "hot": false
     },
     {
@@ -346,7 +366,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1776632499.0,
       "hot": false
     },
@@ -364,62 +384,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1776631653.0,
-      "hot": false
-    },
-    {
-      "id": "f8013e25cf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. seizes Iranian cargo ship in Strait of Hormuz",
-      "summary": "The U.S. has taken custody of an Iranian-flagged cargo ship in the Strait of Hormuz after firing on its engine room, President Trump said in a post on social media.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1776597157.0,
-      "hot": false
-    },
-    {
-      "id": "d393a96409",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "North Korea launches ballistic missiles toward sea",
-      "summary": "South Korea's Joint Chiefs of Staff says the launches happened on Sunday morning from the North's eastern Sinpo area.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5789939/north-korea-ballistic-missiles",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776560083.0,
-      "hot": false
-    },
-    {
-      "id": "ca8d2686cc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "US Coast Guard spots overturned vessel near Saipan during search for missing ship",
-      "summary": "The Mariana is a 145-foot dry cargo vessel registered in the U.S. It suffered engine failure Wednesday as a massive typhoon bore down on Saipan and nearby islands.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5789936/us-coast-guard-overturned-vessel-mariana",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776557469.0,
       "hot": false
     },
     {
