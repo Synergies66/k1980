@@ -1,9 +1,64 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-20T03:54:56.744638+00:00",
-  "total": 24,
+  "updated_at": "2026-04-20T06:29:49.104243+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "8b3d2d4471",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A humanoid robot sprints past the human half-marathon world record in Beijing race",
+      "summary": "The winner from Honor, a Chinese smartphone maker, completed the race in 50 minutes and 26 seconds, running faster than the human world record in a show of China's technological leaps.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-118086/humanoid-robot-half-marathon",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "19分前",
+      "pub_ts": 1776665400.0,
+      "hot": false
+    },
+    {
+      "id": "4172f357c1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Iran War Sent Shock Waves Through Asia That Are Likely to Spread",
+      "summary": "The Asia-Pacific was hit hard and quick by the war in Iran and its energy bottlenecks. Scenes of crisis there indicate that problems are multiplying and spreading.",
+      "link": "https://www.nytimes.com/2026/04/20/world/asia/asia-pacific-iran-war-oil.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20int-iran-asia-risks-qvpb/20int-iran-asia-risks-qvpb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "50分前",
+      "pub_ts": 1776663582.0,
+      "hot": false
+    },
+    {
+      "id": "bbe0c935b4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.K police investigating if attacks in London are the work of Iranian proxies",
+      "summary": "U.K. police said Sunday they are investigating whether a string of arson attacks on Jewish sites in London are the work of Iranian proxies, the latest of which caused minor damage on Saturday night.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-118083/police-investigating-london-iranian-proxies",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "55分前",
+      "pub_ts": 1776663259.0,
+      "hot": false
+    },
     {
       "id": "fe3bde5b74",
       "type": "news",
@@ -17,27 +72,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1776654147.0,
-      "hot": false
-    },
-    {
-      "id": "dbab243f19",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict",
-      "summary": "Traders, hopeful on Friday that a peace deal was near, were digesting the developments over the weekend.",
-      "link": "https://www.nytimes.com/2026/04/19/business/oil-stocks-gas-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19biz-stocks-oil-gas-1-bhjg/19biz-stocks-oil-gas-1-bhjg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1776645671.0,
+      "pub_ts": 1776654147.0,
       "hot": false
     },
     {
@@ -53,27 +90,9 @@
       "categories": [
         "天气"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776635841.0,
-      "hot": false
-    },
-    {
-      "id": "80680b9620",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hamas Officials Say Group Is Ready to Hand Over Some Weapons",
-      "summary": "Two senior Hamas officials in Gaza said the group was prepared to relinquish some automatic rifles and other arms, a concession that falls short of Israeli-U.S. demands.",
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/hamas-weapons-israel.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19int-hamas-proposal-001-vltp/19int-hamas-proposal-001-vltp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776635661.0,
+      "ago": "8小时前",
+      "pub_ts": 1776635841.0,
       "hot": false
     },
     {
@@ -90,7 +109,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776635240.0,
       "hot": false
     },
@@ -108,7 +127,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776632499.0,
       "hot": false
     },
@@ -126,26 +145,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776632495.0,
-      "hot": false
-    },
-    {
-      "id": "0a0588fe98",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Energy Secretary Says Gas Prices May Stay Above $3 Until 2027",
-      "summary": "Secretary of Energy Chris Wright’s acknowledgment in a TV interview undercut President Trump’s earlier claim that price increases would be “short-term.”",
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/energy-secretary-gas-prices.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19israel-iran-gas-prices-mhjz/19israel-iran-gas-prices-mhjz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776631653.0,
       "hot": false
     },
     {
@@ -162,8 +163,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776625403.0,
+      "hot": false
+    },
+    {
+      "id": "8cb58fecd8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Demand for Ballot Info Rebuffed by Michigan",
+      "summary": "The Department of Justice is seeking ballots and other materials from the 2024 election. Michigan officials call it election interference.",
+      "link": "https://www.nytimes.com/2026/04/19/us/michigan-trump-ballots-election.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19nat-michigan-ballots-wayne-lfvh/19nat-michigan-ballots-wayne-lfvh-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1776621794.0,
       "hot": false
     },
     {
@@ -180,7 +199,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776619602.0,
       "hot": false
     },
@@ -198,8 +217,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1776608420.0,
+      "hot": false
+    },
+    {
+      "id": "1cf801cd76",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Americans Living Abroad for Lower Costs Now Say Returning Home Is Too Expensive",
+      "summary": "Americans have enjoyed lifestyles that would normally be out of reach to them by working remotely in countries with lower living costs.",
+      "link": "https://www.nytimes.com/2026/04/19/business/americans-abroad-cheaper-living-costs.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19EXPATS-MONEY-NINO-mpcj/19EXPATS-MONEY-NINO-mpcj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "19小时前",
+      "pub_ts": 1776598131.0,
       "hot": false
     },
     {
@@ -216,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776597390.0,
       "hot": false
     },
@@ -234,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776597157.0,
       "hot": false
     },
@@ -252,44 +289,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776596400.0,
-      "hot": false
-    },
-    {
-      "id": "e6487507bc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "This tariff-refund portal is about to be America's hottest website",
-      "summary": "Exactly two months after the Supreme Court struck down most of President Trump's tariffs, the U.S. government has set Monday as the day when some companies can begin requesting refunds.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5786635/tariff-refunds-customs-ace-portal",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1776594600.0,
-      "hot": false
-    },
-    {
-      "id": "72a9f2e88b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "She no longer remembers it's her birthday. He got her a present anyway",
-      "summary": "A special day can be tinged with sorrow when your partner has dementia. But then he found the perfect gift.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5789011/dementia-wife-husband-gift-birthday",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1776592800.0,
       "hot": false
     },
     {
@@ -306,7 +307,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1776589370.0,
       "hot": false
     },
@@ -381,43 +382,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1776545025.0,
-      "hot": false
-    },
-    {
-      "id": "1e1d6f5f9a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Photos: How overfishing in Southeast Asia is an ecological and human crisis",
-      "summary": "A rare look at one of the world's most critical and understudied environmental crises. Southeast Asia produces more than half of the world's fish, yet its waters are among the most depleted and contes",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/18/nx-s1-5766110/overfishing-in-southeast-asia",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776517200.0,
-      "hot": false
-    },
-    {
-      "id": "235537d6e1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ukraine launches specialized Russian studies program to better understand the enemy",
-      "summary": "Ukraine launches political Russian studies program to better understand wartime enemy.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5780860/ukraine-launches-specialized-russian-studies-program-to-better-understand-the-enemy",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776512537.0,
       "hot": false
     },
     {
