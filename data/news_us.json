@@ -1,9 +1,135 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-19T20:59:49.636464+00:00",
+  "updated_at": "2026-04-20T03:54:56.744638+00:00",
   "total": 24,
   "articles": [
+    {
+      "id": "fe3bde5b74",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Military Strikes a Boat in the Caribbean, Killing 3",
+      "summary": "The latest attack raised the death toll to at least 180 in the campaign by the United States against people it accuses of smuggling drugs at sea.",
+      "link": "https://www.nytimes.com/2026/04/19/us/politics/us-military-strike-boat-strike-caribbean.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19dc-boat-strike-khjv/19dc-boat-strike-khjv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776654147.0,
+      "hot": false
+    },
+    {
+      "id": "dbab243f19",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict",
+      "summary": "Traders, hopeful on Friday that a peace deal was near, were digesting the developments over the weekend.",
+      "link": "https://www.nytimes.com/2026/04/19/business/oil-stocks-gas-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19biz-stocks-oil-gas-1-bhjg/19biz-stocks-oil-gas-1-bhjg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776645671.0,
+      "hot": false
+    },
+    {
+      "id": "7c516806ec",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Communities launch cleanup after severe weather and tornadoes churn across Midwest",
+      "summary": "At least 66 tornado reports were submitted across multiple states on Friday, according to the National Weather Service.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5790463/midwest-tornadoes-cleanup-illinois-minnesota-wisconsin",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776635841.0,
+      "hot": false
+    },
+    {
+      "id": "80680b9620",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Hamas Officials Say Group Is Ready to Hand Over Some Weapons",
+      "summary": "Two senior Hamas officials in Gaza said the group was prepared to relinquish some automatic rifles and other arms, a concession that falls short of Israeli-U.S. demands.",
+      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/hamas-weapons-israel.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19int-hamas-proposal-001-vltp/19int-hamas-proposal-001-vltp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776635661.0,
+      "hot": false
+    },
+    {
+      "id": "50d4b1fafb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Democrats Eye a Broader Battlefield to Capture Congress in November",
+      "summary": "Weighed down by President Trump’s approval ratings, some Republican incumbents are struggling to raise money while Democrats look for targets like a Tennessee seat south of Nashville.",
+      "link": "https://www.nytimes.com/2026/04/19/us/politics/house-battleground-midterms-tennessee.html",
+      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19nat-house-battleground-hczj/19nat-house-battleground-hczj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776635240.0,
+      "hot": false
+    },
+    {
+      "id": "e1f3e04896",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
+      "summary": "The two-week ceasefire between the US and Iran is set to expire Wednesday. And the two sides seem far from a resolution. President Trump says the US has taken custody of an Iranian vessel.",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5790487/u-s-says-it-seized-an-iranian-cargo-ship-ceasefire-expires-soon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776632499.0,
+      "hot": false
+    },
+    {
+      "id": "5a1a006020",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Will the DHS shutdown affect security for the World Cup?",
+      "summary": "The FIFA World Cup is a little over 50 days away. NPR's Rob Schmitz talks to former Department of Homeland Security official Juliette Kayyem about the security concerns people have about hosting the t",
+      "link": "https://www.npr.org/2026/04/19/nx-s1-5787954/will-the-dhs-shutdown-affect-security-for-the-world-cup",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776632495.0,
+      "hot": false
+    },
     {
       "id": "0a0588fe98",
       "type": "news",
@@ -17,8 +143,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "12分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776631653.0,
       "hot": false
     },
@@ -35,100 +161,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776625403.0,
       "hot": false
     },
     {
-      "id": "a478a5cd68",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Tired of waiting for your EV to charge up? One Chinese company has a novel solution",
-      "summary": "Chinese car company NIO is putting up EV battery swapping stations all around the world. NPR took a ride in one car for the experience.",
-      "link": "https://www.npr.org/2026/04/18/nx-s1-5788990/ev-battery-charge-long-china-nio",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1776511910.0,
-      "hot": false
-    },
-    {
-      "id": "80680b9620",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hamas Officials Say Group Is Ready to Hand Over Some Weapons",
-      "summary": "Two senior Hamas officials in Gaza said the group was prepared to relinquish some automatic rifles and other arms, a concession that falls short of Israeli-U.S. demands.",
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/hamas-weapons-israel.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19int-hamas-proposal-001-vltp/19int-hamas-proposal-001-vltp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776622286.0,
-      "hot": false
-    },
-    {
-      "id": "8cb58fecd8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration Demand for Ballot Info Rebuffed by Michigan",
-      "summary": "The Department of Justice is seeking ballots and other materials from the 2024 election. Michigan officials call it election interference.",
-      "link": "https://www.nytimes.com/2026/04/19/us/michigan-trump-ballots-election.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19nat-michigan-ballots-wayne-lfvh/19nat-michigan-ballots-wayne-lfvh-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776621793.0,
-      "hot": false
-    },
-    {
-      "id": "4d21a7c811",
+      "id": "0589334945",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Eight children killed in a shooting in Louisiana, police say",
-      "summary": "The victims ranged in age from one to about 14 years old, said Shreveport, Louisiana police spokesperson Chris Bordelon. A total of 10 people were shot.",
+      "title": "8 children killed in a shooting in Louisiana, police say",
+      "summary": "The suspect was the father of seven of the children killed, police said. The victims ranged in age from 1 to about 14 years old, according to police in Shreveport, La. A total of 10 people were shot.",
       "link": "https://www.npr.org/2026/04/19/nx-s1-5790483/mass-shooting-eight-children-louisiana-shreveport",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1776619602.0,
-      "hot": false
-    },
-    {
-      "id": "e760982a22",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "They’re Young. They’re Conservative. And They’re Split Over the War.",
-      "summary": "On college campuses from the Northeast to the Southwest, the conflict in Iran is testing the fealty of young Republicans during the second Trump administration.",
-      "link": "https://www.nytimes.com/2026/04/19/nyregion/theyre-young-theyre-conservative-and-theyre-split-over-the-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/19/multimedia/19met-college-republicans-02-vlzm/19met-college-republicans-02-vlzm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776614280.0,
       "hot": false
     },
     {
@@ -145,7 +198,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1776608420.0,
       "hot": false
     },
@@ -163,17 +216,17 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776597390.0,
       "hot": false
     },
     {
-      "id": "28562201a5",
+      "id": "f8013e25cf",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "U.S. seizes Iranian cargo ship in Strait of Hormuz, Trump says",
+      "title": "U.S. seizes Iranian cargo ship in Strait of Hormuz",
       "summary": "The U.S. has taken custody of an Iranian-flagged cargo ship in the Strait of Hormuz after firing on its engine room, President Trump said in a post on social media.",
       "link": "https://www.npr.org/2026/04/19/nx-s1-5790378/iran-us-hormuz-closed-impossible",
       "image": null,
@@ -181,7 +234,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776597157.0,
       "hot": false
     },
@@ -199,7 +252,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776596400.0,
       "hot": false
     },
@@ -217,7 +270,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776594600.0,
       "hot": false
     },
@@ -235,7 +288,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776592800.0,
       "hot": false
     },
@@ -253,62 +306,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1776589370.0,
-      "hot": false
-    },
-    {
-      "id": "0fbdf2a842",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "In Qatar, Trapped Between the U.S. and Iran, War Forced a Reckoning",
-      "summary": "The gas-rich Gulf nation is in a state of “strategic shock” after the war dealt a serious blow to its economy, sending ripples around the world.",
-      "link": "https://www.nytimes.com/2026/04/19/world/middleeast/qatar-iran-us-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/17/multimedia/17int-qatar-1-fgwh/17int-qatar-1-fgwh-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776589340.0,
-      "hot": false
-    },
-    {
-      "id": "b60ced30db",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Iowa went all-in on school choice. It's hurting this city's public schools",
-      "summary": "With school choice programs ascendant not just in Iowa but across the U.S., Cedar Rapids offers a preview of who wins and who loses when education meets the free market.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5683199/education-school-choice-iowa-students-charter-school-cedar-rapids",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776589200.0,
-      "hot": false
-    },
-    {
-      "id": "c8e17bc6e7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Little Probe That Could: Why Voyager 1 Matters, and Why NASA Just Switched Part of It Off",
-      "summary": "This week, NASA announced it had shut down one of that spacecraft's remaining science instruments — not because the mission has failed, but to keep it alive a little longer.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5789935/voyager-1-probe-nasa",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776577228.0,
       "hot": false
     },
     {
@@ -324,8 +323,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776560083.0,
       "hot": false
     },
@@ -342,8 +341,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776557469.0,
       "hot": false
     },
@@ -360,8 +359,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776548636.0,
       "hot": false
     },
