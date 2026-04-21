@@ -1,26 +1,80 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-21T03:48:49.726163+00:00",
-  "total": 23,
+  "updated_at": "2026-04-21T06:17:39.854042+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "8b3d2d4471",
+      "id": "145df5d608",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "A humanoid robot sprints past the human half-marathon world record in Beijing race",
-      "summary": "The winner from Honor, a Chinese smartphone maker, completed the race in 50 minutes and 26 seconds, running faster than the human world record in a show of China's technological leaps.",
-      "link": "https://www.npr.org/2026/04/20/g-s1-118086/humanoid-robot-half-marathon",
+      "title": "Gunman shoots several tourists at historic pyramids in Mexico",
+      "summary": "A man standing atop one of the historic Teotihuacan pyramids opened fire on tourists Monday, killing one Canadian and leaving at least 13 people, authorities said.",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118185/gunman-pyramids-mexico",
       "image": null,
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "21小时前",
-      "pub_ts": 1776665400.0,
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1776748733.0,
+      "hot": false
+    },
+    {
+      "id": "b41013b0e9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Cuba confirms meeting with US officials on island, wants energy blockade lifted",
+      "summary": "Cuba's government confirmed that it had recently met with U.S. officials on the island as tensions between the two sides remain high over the U.S. energy blockade of the Caribbean country.",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118182/cuba-meeting-with-us-officials-on-island",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776748226.0,
+      "hot": false
+    },
+    {
+      "id": "973352af78",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Japan approves scrapping a ban on lethal weapons exports",
+      "summary": "The approval clears a final set of hurdles for Japan's postwar arms sales and facilitate its future sale of weapons such as a next-generation fighter jet and combat drones.",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118178/japan-ban-lethal-weapons-exports",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776744296.0,
+      "hot": false
+    },
+    {
+      "id": "de2ebc73fa",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Here are the results for Virginia's 2026 redistricting ballot measure",
+      "summary": "Live election results: Get the latest on Virginia's special election on redistricting.",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118123/virginia-special-election-redistricting-results-2026",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776744060.0,
       "hot": false
     },
     {
@@ -37,7 +91,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1776734535.0,
       "hot": false
     },
@@ -55,8 +109,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776734045.0,
+      "ago": "5小时前",
+      "pub_ts": 1776734046.0,
       "hot": false
     },
     {
@@ -72,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776724618.0,
       "hot": false
     },
@@ -90,8 +144,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776722820.0,
       "hot": false
     },
@@ -108,8 +162,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776722386.0,
       "hot": false
     },
@@ -126,27 +180,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776722340.0,
-      "hot": false
-    },
-    {
-      "id": "cf76c814fc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A New Apple C.E.O.",
-      "summary": "Also, JD Vance is set to travel to Pakistan for peace talks. Here’s the latest at the end of Monday.",
-      "link": "https://www.nytimes.com/2026/04/20/briefing/a-new-apple-ceo.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20evening-nl-tim-cook-jwtk/20evening-nl-tim-cook-jwtk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776722307.0,
       "hot": false
     },
     {
@@ -162,8 +198,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776722272.0,
       "hot": false
     },
@@ -181,7 +217,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776721418.0,
       "hot": false
     },
@@ -199,7 +235,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776718078.0,
       "hot": false
     },
@@ -217,7 +253,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776716092.0,
       "hot": false
     },
@@ -235,7 +271,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1776709333.0,
       "hot": false
     },
@@ -253,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1776706430.0,
       "hot": false
     },
@@ -271,7 +307,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776704904.0,
       "hot": false
     },
@@ -279,7 +315,7 @@
       "id": "2393af87e6",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Peace talks are in doubt as the U.S. seizes an Iranian ship",
       "summary": "President Trump said a U.S. delegation will head to Pakistan to resume talks to end the war with Iran, but Tehran expressed reluctance after the U.S. seized one of its cargo ships in the Strait of Hor",
@@ -289,34 +325,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776682952.0,
-      "hot": false
-    },
-    {
-      "id": "7f9fe5e580",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A mine despoiled the beauty of the rainforest. This Goldman Prize winner took action",
-      "summary": "\"We women are the land guardians and keepers,\" says Theonila Roka Matbob of Papua New Guinea, recognized for her efforts to repair the environmental and social harms caused by a copper and gold mine.",
-      "link": "https://www.npr.org/2026/04/20/g-s1-117830/goldman-environmental-prize-papua-new-guinea-mining",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776682706.0,
       "hot": false
     },
     {
       "id": "93148d2c08",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "U.S. seizes Iranian cargo ship. And, tariff refund portal launches",
       "summary": "U.S. forces seized an Iranian-flagged cargo vessel in the Strait of Hormuz. And, an online government portal for processing tariff refunds launches today.",
@@ -327,26 +344,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1776681010.0,
       "hot": false
     },
     {
-      "id": "a7a89eff1c",
+      "id": "8f73554505",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Got wearable data? Your doctor can help you connect the dots",
-      "summary": "The American Academy of Neurology issued guidance on using wearable data devices, like smartwatches or an Oura Ring, to track key health metrics that can help flag serious conditions.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5746639/wearable-data-doctor-help",
-      "image": null,
+      "title": "Why a Democratic Senate, Once Unthinkable, Is a Real Possibility",
+      "summary": "Helped by a favorable national environment and strong candidate recruitment, Democrats are tied or ahead in four Republican-held seats, polls show.",
+      "link": "https://www.nytimes.com/2026/04/20/upshot/democrats-senate-midterms-chances.html",
+      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/00up-peltola1-gbtz/00up-peltola1-gbtz-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1776675600.0,
+      "ago": "21小时前",
+      "pub_ts": 1776675831.0,
       "hot": false
     },
     {
@@ -363,45 +380,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1776674524.0,
-      "hot": false
-    },
-    {
-      "id": "f6c0613b81",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ukraine's fast-growing defense tech sector takes center stage in Iran war",
-      "summary": "While Ukraine seeks to shift its image from not only a recipient of military aid but also a provider, its battle-tested, anti-drone tech is taking center stage in the Iran war.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5788603/ukraines-fast-growing-defense-tech-sector-takes-center-stage-in-iran-war",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776674505.0,
-      "hot": false
-    },
-    {
-      "id": "bbe0c935b4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.K police investigating if attacks in London are the work of Iranian proxies",
-      "summary": "U.K. police said Sunday they are investigating whether a string of arson attacks on Jewish sites in London are the work of Iranian proxies, the latest of which caused minor damage on Saturday night.",
-      "link": "https://www.npr.org/2026/04/20/g-s1-118083/police-investigating-london-iranian-proxies",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776663259.0,
       "hot": false
     },
     {
