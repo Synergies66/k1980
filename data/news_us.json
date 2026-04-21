@@ -1,9 +1,46 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-21T14:12:44.616591+00:00",
-  "total": 21,
+  "updated_at": "2026-04-21T17:31:42.775271+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "03123f21bd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Dismisses a Merger While Seeking Suitors for Spirit Airlines",
+      "summary": "As he rejected the idea of a merger of United Airlines and American Airlines, President Trump said someone, including possibly the federal government, should buy or help Spirit.",
+      "link": "https://www.nytimes.com/2026/04/21/business/trump-spirit-airlines-united-american.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21biz-trump-airlines-cpjq/21biz-trump-airlines-cpjq-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776787618.0,
+      "hot": false
+    },
+    {
+      "id": "f1da0a09af",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Tim Cook Was Very, Very Good at Making Money",
+      "summary": "If the Steve Jobs era was defined by technological innovation, the Tim Cook period was one of exceptional financial growth.",
+      "link": "https://www.nytimes.com/2026/04/21/business/how-apple-became-a-4-trillion-company-under-tim-cook.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/2026-biz-april-standalone-promos-0421-apple-market-cap/2026-biz-april-standalone-promos-0421-apple-market-cap-mediumSquareAt3X.png",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776786204.0,
+      "hot": false
+    },
     {
       "id": "fb1b60c21a",
       "type": "news",
@@ -18,63 +55,117 @@
         "移民",
         "科技"
       ],
-      "score": 75,
-      "ago": "5小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1776762000.0,
       "hot": false
     },
     {
-      "id": "f5580a65d4",
+      "id": "f0b1596e4e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Virginia Redistricting Referendum: What to Watch",
-      "summary": "Republicans have built a small advantage from the gerrymandering clash so far, but Virginia voters could change that.",
-      "link": "https://www.nytimes.com/2026/04/21/us/elections/virginia-redistricting-referendum-what-to-watch.html",
-      "image": null,
+      "title": "Strait of Hormuz May Not Return to Normal, Whether It’s Open or Closed",
+      "summary": "The energy industry is planning for a future where the choke point on Iran’s southern coast is a lot less important.",
+      "link": "https://www.nytimes.com/2026/04/21/business/energy-environment/strait-hormuz-oil-natural-gas.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21biz-hormuz-choke-bcpf/21biz-hormuz-choke-bcpf-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776776235.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776783031.0,
       "hot": false
     },
     {
-      "id": "7a2dc1e4f5",
+      "id": "532846f971",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Reviews F.C.C.’s Enforcement Power Against Communications Companies",
+      "summary": "AT&T and Verizon were penalized millions of dollars for what the agency said was a failure to protect consumer information. The companies say they were deprived of their right to a jury trial.",
+      "link": "https://www.nytimes.com/2026/04/21/us/politics/supreme-court-fcc-fines.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21dc-scotus-fcc-ptbg/21dc-scotus-fcc-ptbg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776782935.0,
+      "hot": false
+    },
+    {
+      "id": "d4742b314a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Europe Wanted a Say on the Iran War, but It’s Still on the Sidelines",
+      "summary": "A British-French plan to secure the Strait of Hormuz would give the continent a role. But Tehran and Washington are still calling the shots.",
+      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-europe-ran-01-glhj/21int-europe-ran-01-glhj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776781925.0,
+      "hot": false
+    },
+    {
+      "id": "300c77d117",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points",
-      "summary": "The status of the Strait of Hormuz and Iran's nuclear enrichment program are among the biggest obstacles to extending the truce, which expires Wednesday evening.",
+      "title": "Want to lighten your mental load? First, let go of these gender myths",
+      "summary": "\"Men can't see the mess.\" \"Women are better at chores.\" These myths position women to take on more emotional thinking, says researcher Leah Ruppanner. She shares what works to reclaim your headspace.",
+      "link": "https://www.npr.org/2026/04/21/nx-s1-5736111/want-to-lighten-your-mental-load-first-let-go-of-these-gender-myths",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776781483.0,
+      "hot": false
+    },
+    {
+      "id": "a315a70197",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Year After U.S.A.I.D.’s Death, Fired Workers Find Few Jobs and Much Loss",
+      "summary": "People have plowed through savings, cashed out retirement funds and moved in with relatives. Former U.S.A.I.D. workers estimate that less than half have found full-time work.",
+      "link": "https://www.nytimes.com/2026/04/21/us/politics/usaid-former-employees.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/usaid-promo-pgvb/usaid-promo-pgvb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776780624.0,
+      "hot": false
+    },
+    {
+      "id": "18ec08e819",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points for talks",
+      "summary": "The status of the Strait of Hormuz and Iran's nuclear enrichment program are among the biggest obstacles to reaching a deal.",
       "link": "https://www.npr.org/2026/04/21/nx-s1-5793638/iran-middle-east-updates",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776774255.0,
-      "hot": false
-    },
-    {
-      "id": "0bbc85bc8b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Lori Chavez-DeRemer, Trump’s Labor Secretary, Steps Down Amid Internal Investigation",
-      "summary": "Lori Chavez-DeRemer was facing multiple scandals and an internal inquiry into charges of misconduct.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/lori-chavez-deremer-labor-secretary-steps-down.html",
-      "image": "https://static01.nyt.com/images/2026/01/23/multimedia/20BIZ-LABOR-SEC/00biz-labor-probe-pzwc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776771814.0,
+      "ago": "5小时前",
+      "pub_ts": 1776774255.0,
       "hot": false
     },
     {
@@ -91,7 +182,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776771486.0,
       "hot": false
     },
@@ -108,8 +199,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776768188.0,
       "hot": false
     },
@@ -126,81 +217,45 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776767400.0,
       "hot": false
     },
     {
-      "id": "c87874664a",
+      "id": "31aff44b4a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Labor Secretary Resigns Amid Scandals, and F.B.I. Director Sues Over Drinking Claims",
-      "summary": "Plus, what to know about Apple’s next C.E.O.",
-      "link": "https://www.nytimes.com/2026/04/21/podcasts/the-headlines/labor-secretary-resigns-patel-excessive-drinking-atlantic.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21theheadline-Lori-Chavez-DeRemer-jkpv/21theheadline-Lori-Chavez-DeRemer-jkpv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776765611.0,
-      "hot": false
-    },
-    {
-      "id": "7a22856e78",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Wish List for the Man Replacing Tim Cook as Apple’s C.E.O.",
+      "title": "A Wish List for John Ternus, the Man Replacing Tim Cook as Apple’s CEO",
       "summary": "John Ternus, an Apple veteran who runs hardware engineering, will take over an extraordinarily profitable company in need of new ideas.",
       "link": "https://www.nytimes.com/2026/04/21/technology/apple-cook-ternus-wish-list.html",
       "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21biz-techfix-1-vpmt/21biz-techfix-1-vpmt-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776762212.0,
       "hot": false
     },
     {
-      "id": "7f82c6814e",
+      "id": "224b362527",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "How the Cole Disaster Drove the U.S. to Develop New Warship Defenses",
-      "summary": "The Navy destroyers enforcing a blockade of Iranian ports carry weapons fielded after an American warship was attacked and nearly sunk more than 25 years ago.",
-      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/us-navy-ship-defense-iran-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-ship-defense-1-cvjp/21int-ship-defense-1-cvjp-mediumSquareAt3X.jpg",
+      "title": "‘Wagyu’ Used to Guarantee Quality Beef. What Are You Paying for Today?",
+      "summary": "Behind the scenes, competing forces battle for the reputation of prestige meat.",
+      "link": "https://www.nytimes.com/2026/04/21/dining/wagyu-beef.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22FD-notebook-wagyu-03-qvwl/22FD-notebook-wagyu-03-qvwl-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776762090.0,
-      "hot": false
-    },
-    {
-      "id": "d9f9a028f4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Virginia Gov. Abigail Spanberger Stressed Pragmatism, But Politics Hound Her",
-      "summary": "Gov. Abigail Spanberger of Virginia has emphasized practical governance as her brand, but the political fight over redistricting has dominated her term so far.",
-      "link": "https://www.nytimes.com/2026/04/21/us/elections/virginia-abigail-spanberger-redistricting-election.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/nat-spanberger-2-kwgq/nat-spanberger-2-kwgq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776762089.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1776762099.0,
       "hot": false
     },
     {
@@ -216,26 +271,26 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776762000.0,
       "hot": false
     },
     {
-      "id": "e081f4a157",
+      "id": "8d0fc06b2c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "3 things to know about Trump's pick to head the Fed as his hearing gets underway",
-      "summary": "President Trump's pick to lead the Federal Reserve goes before a Senate committee today — but Kevin Warsh's confirmation could be held up by forces that are outside his control.",
+      "title": "3 things to know about Trump's pick to head the Fed as Senators weigh his nomination",
+      "summary": "President Trump's pick to lead the Federal Reserve went before a Senate committee today — but Kevin Warsh's confirmation could be held up by forces that are outside his control.",
       "link": "https://www.npr.org/2026/04/21/nx-s1-5787863/federal-reserve-kevin-warsh-confirmation-hearing",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776762000.0,
       "hot": false
     },
@@ -252,8 +307,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776761047.0,
       "hot": false
     },
@@ -271,8 +326,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776760873.0,
       "hot": false
     },
@@ -280,7 +335,7 @@
       "id": "145df5d608",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Gunman shoots several tourists at historic pyramids in Mexico",
       "summary": "A man standing atop one of the historic Teotihuacan pyramids opened fire on tourists Monday, killing one Canadian and leaving at least 13 people, authorities said.",
@@ -290,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776748733.0,
       "hot": false
     },
@@ -309,7 +364,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1776748226.0,
       "hot": false
     },
@@ -327,44 +382,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776744296.0,
-      "hot": false
-    },
-    {
-      "id": "c3f8926469",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Democrat Betty Yee Leaves the California Governor’s Race",
-      "summary": "Xavier Becerra, who once struggled to gain traction, has found growing support after Eric Swalwell left the race amid sexual harassment allegations.",
-      "link": "https://www.nytimes.com/2026/04/20/us/california-governor-democrat-betty-yee.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20nat-ca-governor-tpmv/20nat-ca-governor-tpmv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776734535.0,
-      "hot": false
-    },
-    {
-      "id": "307d2e19c9",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump and Iran Face Off in Iran War Negotiations",
-      "summary": "As the United States and Iran make a second attempt at a deal, their negotiating styles are on a collision course.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/us-iran-negotiation-style.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20DC-TRUMP-top-hbjv/20DC-TRUMP-top-hbjv-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776734046.0,
       "hot": false
     },
     {
