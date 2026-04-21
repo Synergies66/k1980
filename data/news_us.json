@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-21T09:56:23.903479+00:00",
-  "total": 22,
+  "updated_at": "2026-04-21T14:12:44.616591+00:00",
+  "total": 21,
   "articles": [
     {
       "id": "fb1b60c21a",
@@ -18,9 +18,189 @@
         "移民",
         "科技"
       ],
-      "score": 80,
-      "ago": "56分前",
+      "score": 75,
+      "ago": "5小时前",
       "pub_ts": 1776762000.0,
+      "hot": false
+    },
+    {
+      "id": "f5580a65d4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Virginia Redistricting Referendum: What to Watch",
+      "summary": "Republicans have built a small advantage from the gerrymandering clash so far, but Virginia voters could change that.",
+      "link": "https://www.nytimes.com/2026/04/21/us/elections/virginia-redistricting-referendum-what-to-watch.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776776235.0,
+      "hot": false
+    },
+    {
+      "id": "7a2dc1e4f5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points",
+      "summary": "The status of the Strait of Hormuz and Iran's nuclear enrichment program are among the biggest obstacles to extending the truce, which expires Wednesday evening.",
+      "link": "https://www.npr.org/2026/04/21/nx-s1-5793638/iran-middle-east-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776774255.0,
+      "hot": false
+    },
+    {
+      "id": "0bbc85bc8b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Lori Chavez-DeRemer, Trump’s Labor Secretary, Steps Down Amid Internal Investigation",
+      "summary": "Lori Chavez-DeRemer was facing multiple scandals and an internal inquiry into charges of misconduct.",
+      "link": "https://www.nytimes.com/2026/04/20/us/politics/lori-chavez-deremer-labor-secretary-steps-down.html",
+      "image": "https://static01.nyt.com/images/2026/01/23/multimedia/20BIZ-LABOR-SEC/00biz-labor-probe-pzwc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776771814.0,
+      "hot": false
+    },
+    {
+      "id": "e9a29e4d96",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
+      "summary": "The ceasefire between the U.S. and Iran is set to expire tomorrow. Peace talks between the countries remain uncertain. And, Trump's pick to lead the Federal Reserve faces a tough confirmation hearing",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118194/up-first-newsletter-us-iran-israel-ceasefire-lori-chavez-deremer-kevin-warsh",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776771486.0,
+      "hot": false
+    },
+    {
+      "id": "d358da1a69",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Ceasefire agreement between the U.S. and Iran ends Wednesday",
+      "summary": "The ceasefire agreement between the U.S. and Iran ends Wednesday. President Trump says a U.S. delegation is going to Pakistan for talks, but Iran hasn't confirmed their attendance.",
+      "link": "https://www.npr.org/2026/04/21/nx-s1-5791613/ceasefire-agreement-between-the-u-s-and-iran-ends-wednesday",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776768188.0,
+      "hot": false
+    },
+    {
+      "id": "59de08d08f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The hidden power keeping wages low",
+      "summary": "For decades, economists gave short shrift to the idea of monopsony — a power employers can have to suppress wages. Now a wave of research suggests it's everywhere, and a new book argues it's key to un",
+      "link": "https://www.npr.org/sections/planet-money/2026/04/21/g-s1-118071/the-hidden-power-keeping-wages-low",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776767400.0,
+      "hot": false
+    },
+    {
+      "id": "c87874664a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Labor Secretary Resigns Amid Scandals, and F.B.I. Director Sues Over Drinking Claims",
+      "summary": "Plus, what to know about Apple’s next C.E.O.",
+      "link": "https://www.nytimes.com/2026/04/21/podcasts/the-headlines/labor-secretary-resigns-patel-excessive-drinking-atlantic.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21theheadline-Lori-Chavez-DeRemer-jkpv/21theheadline-Lori-Chavez-DeRemer-jkpv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776765611.0,
+      "hot": false
+    },
+    {
+      "id": "7a22856e78",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A Wish List for the Man Replacing Tim Cook as Apple’s C.E.O.",
+      "summary": "John Ternus, an Apple veteran who runs hardware engineering, will take over an extraordinarily profitable company in need of new ideas.",
+      "link": "https://www.nytimes.com/2026/04/21/technology/apple-cook-ternus-wish-list.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21biz-techfix-1-vpmt/21biz-techfix-1-vpmt-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776762212.0,
+      "hot": false
+    },
+    {
+      "id": "7f82c6814e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How the Cole Disaster Drove the U.S. to Develop New Warship Defenses",
+      "summary": "The Navy destroyers enforcing a blockade of Iranian ports carry weapons fielded after an American warship was attacked and nearly sunk more than 25 years ago.",
+      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/us-navy-ship-defense-iran-hormuz.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-ship-defense-1-cvjp/21int-ship-defense-1-cvjp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776762090.0,
+      "hot": false
+    },
+    {
+      "id": "d9f9a028f4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Virginia Gov. Abigail Spanberger Stressed Pragmatism, But Politics Hound Her",
+      "summary": "Gov. Abigail Spanberger of Virginia has emphasized practical governance as her brand, but the political fight over redistricting has dominated her term so far.",
+      "link": "https://www.nytimes.com/2026/04/21/us/elections/virginia-abigail-spanberger-redistricting-election.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/nat-spanberger-2-kwgq/nat-spanberger-2-kwgq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776762089.0,
       "hot": false
     },
     {
@@ -36,45 +216,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "56分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776762000.0,
       "hot": false
     },
     {
-      "id": "2f92de56a4",
+      "id": "e081f4a157",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "3 things to know about Fed chair nominee Kevin Warsh",
+      "title": "3 things to know about Trump's pick to head the Fed as his hearing gets underway",
       "summary": "President Trump's pick to lead the Federal Reserve goes before a Senate committee today — but Kevin Warsh's confirmation could be held up by forces that are outside his control.",
       "link": "https://www.npr.org/2026/04/21/nx-s1-5787863/federal-reserve-kevin-warsh-confirmation-hearing",
       "image": null,
       "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "56分前",
-      "pub_ts": 1776762000.0,
-      "hot": false
-    },
-    {
-      "id": "6fb2f837c3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tim Cook Will Step Down as Apple C.E.O.",
-      "summary": "The longtime leader of the iPhone maker will be replaced by John Ternus, the company’s head of hardware engineering.",
-      "link": "https://www.nytimes.com/2026/04/20/technology/tim-cook-apple-ceo-steps-down.html",
-      "image": "https://static01.nyt.com/images/2025/12/30/business/cook-succession-hfo/cook-succession-hfo-mediumSquareAt3X.jpg",
-      "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776761179.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776762000.0,
       "hot": false
     },
     {
@@ -90,8 +252,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776761047.0,
       "hot": false
     },
@@ -109,8 +271,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776760873.0,
       "hot": false
     },
@@ -127,8 +289,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776748733.0,
       "hot": false
     },
@@ -136,7 +298,7 @@
       "id": "b41013b0e9",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cuba confirms meeting with US officials on island, wants energy blockade lifted",
       "summary": "Cuba's government confirmed that it had recently met with U.S. officials on the island as tensions between the two sides remain high over the U.S. energy blockade of the Caribbean country.",
@@ -146,8 +308,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776748226.0,
       "hot": false
     },
@@ -155,7 +317,7 @@
       "id": "973352af78",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Japan approves scrapping a ban on lethal weapons exports",
       "summary": "The approval clears a final set of hurdles for Japan's postwar arms sales and facilitate its future sale of weapons such as a next-generation fighter jet and combat drones.",
@@ -164,45 +326,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776744296.0,
-      "hot": false
-    },
-    {
-      "id": "de2ebc73fa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Here are the results for Virginia's 2026 redistricting ballot measure",
-      "summary": "Live election results: Get the latest on Virginia's special election on redistricting.",
-      "link": "https://www.npr.org/2026/04/21/g-s1-118123/virginia-special-election-redistricting-results-2026",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776744060.0,
-      "hot": false
-    },
-    {
-      "id": "0bbc85bc8b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Lori Chavez-DeRemer, Trump’s Labor Secretary, Steps Down Amid Internal Investigation",
-      "summary": "Lori Chavez-DeRemer was facing multiple scandals and an internal inquiry into charges of misconduct.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/lori-chavez-deremer-labor-secretary-steps-down.html",
-      "image": "https://static01.nyt.com/images/2026/01/23/multimedia/20BIZ-LABOR-SEC/00biz-labor-probe-pzwc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776734591.0,
+      "ago": "10小时前",
+      "pub_ts": 1776744296.0,
       "hot": false
     },
     {
@@ -219,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776734535.0,
       "hot": false
     },
@@ -237,152 +363,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776734046.0,
-      "hot": false
-    },
-    {
-      "id": "d7e551201e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Canada's PM Carney indicates a move away from economic reliance on the U.S.",
-      "summary": "Canada's close economic ties with the U.S. are now a \"weakness,\" not a strength, Prime Minister Mark Carney says. In a video address to the nation, he outlines plans to expand trade beyond America.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791353/canadas-pm-carney-indicates-a-move-away-from-economic-reliance-on-the-u-s",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776722820.0,
-      "hot": false
-    },
-    {
-      "id": "3597a8e0a3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Onion has agreed to a new deal to take over Infowars",
-      "summary": "The Onion says it has a new deal to take over conspiracy theorist Alex Jones's Infowars media company. If approved, the satirical news website could turn Infowars into a parody of itself.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791726/the-onion-satirical-takeover-infowars-new-plan",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776722386.0,
-      "hot": false
-    },
-    {
-      "id": "1134837391",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Touska, the Iranian-Flagged Ship Seized by U.S. Forces, Was Under Sanctions",
-      "summary": "Marines are searching thousands of containers aboard the Touska, an Iranian cargo ship that the Navy disabled and seized on Sunday.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/military-blockade-iran-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-military-iran-hmzv/20dc-military-iran-hmzv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776722340.0,
-      "hot": false
-    },
-    {
-      "id": "be2b2962dd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Who Is John Ternus, Apple’s Low-Profile Leader?",
-      "summary": "John Ternus, a low-profile but influential executive at Apple, could be next in line to replace the company’s longtime chief executive, Tim Cook, if he steps aside.",
-      "link": "https://www.nytimes.com/2026/01/08/technology/apple-ceo-tim-cook-john-ternus.html",
-      "image": "https://static01.nyt.com/images/2026/01/07/business/00apple-ternus-SUB/00apple-ternus-SUB-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776718078.0,
-      "hot": false
-    },
-    {
-      "id": "0f55d4c633",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S.-Iran talks are uncertain as ceasefire is set to expire",
-      "summary": "As the clock ticks down on the ceasefire, Iran says it may not attend fresh talks with the U.S. That's as a temporary ceasefire between Israel and Hezbollah in Lebanon appears to be holding.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791630/u-s-iran-talks-are-uncertain-as-ceasefire-is-set-to-expire",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776716092.0,
-      "hot": false
-    },
-    {
-      "id": "1b8c391ec4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Kash Patel Sues The Atlantic for $250 Million Over Article Claiming Excessive Drinking",
-      "summary": "Mr. Patel accused the publication of defamation, asking for $250 million in damages. A spokeswoman for The Atlantic called the suit “meritless.”",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/kash-patel-atlantic-article-alcohol-drinking-fbi-lawsuit.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20trump-news-patel-atlantic-gpvk/20trump-news-patel-atlantic-gpvk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776709333.0,
-      "hot": false
-    },
-    {
-      "id": "b843373e77",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Israeli Soldier in Lebanon Sledgehammered a Statue of Jesus",
-      "summary": "The military is investigating the soldier. Prime Minister Benjamin Netanyahu expressed regret for any hurt caused to “believers in Lebanon and around the world.”",
-      "link": "https://www.nytimes.com/2026/04/20/world/middleeast/israeli-soldier-lebanon-sledgehammer-jesus.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-israel-soldier-new-zltj/21int-israel-soldier-new-zltj-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776704904.0,
-      "hot": false
-    },
-    {
-      "id": "2393af87e6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Peace talks are in doubt as the U.S. seizes an Iranian ship",
-      "summary": "President Trump said a U.S. delegation will head to Pakistan to resume talks to end the war with Iran, but Tehran expressed reluctance after the U.S. seized one of its cargo ships in the Strait of Hor",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5791256/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776682952.0,
       "hot": false
     },
     {
