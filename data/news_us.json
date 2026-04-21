@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-20T21:05:30.754901+00:00",
+  "updated_at": "2026-04-21T03:48:49.726163+00:00",
   "total": 23,
   "articles": [
     {
@@ -19,8 +19,44 @@
         "科技"
       ],
       "score": 72,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1776665400.0,
+      "hot": false
+    },
+    {
+      "id": "c3f8926469",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Democrat Betty Yee Leaves the California Governor’s Race",
+      "summary": "Xavier Becerra, who once struggled to gain traction, has found growing support after Eric Swalwell left the race amid sexual harassment allegations.",
+      "link": "https://www.nytimes.com/2026/04/20/us/california-governor-democrat-betty-yee.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20nat-ca-governor-tpmv/20nat-ca-governor-tpmv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776734535.0,
+      "hot": false
+    },
+    {
+      "id": "307d2e19c9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump and Iran Face Off in Iran War Negotiations",
+      "summary": "As the United States and Iran make a second attempt at a deal, their negotiating styles are on a collision course.",
+      "link": "https://www.nytimes.com/2026/04/20/us/politics/us-iran-negotiation-style.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20DC-TRUMP-top-hbjv/20DC-TRUMP-top-hbjv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776734045.0,
       "hot": false
     },
     {
@@ -36,26 +72,134 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1776718588.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776724618.0,
       "hot": false
     },
     {
-      "id": "1cce727eac",
+      "id": "d7e551201e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Canada's PM Carney indicates a move away from economic reliance on the U.S.",
+      "summary": "Canada's close economic ties with the U.S. are now a \"weakness,\" not a strength, Prime Minister Mark Carney says. In a video address to the nation, he outlines plans to expand trade beyond America.",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791353/canadas-pm-carney-indicates-a-move-away-from-economic-reliance-on-the-u-s",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776722820.0,
+      "hot": false
+    },
+    {
+      "id": "3597a8e0a3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Onion has agreed to a new deal to take over Infowars",
+      "summary": "The Onion says it has a new deal to take over conspiracy theorist Alex Jones's Infowars media company. If approved, the satirical news website could turn Infowars into a parody of itself.",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5791726/the-onion-satirical-takeover-infowars-new-plan",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776722386.0,
+      "hot": false
+    },
+    {
+      "id": "1134837391",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Apple’s John Ternus Could Be Tim Cook’s Successor as CEO",
+      "title": "The Touska, the Iranian-Flagged Ship Seized by U.S. Forces, Was Under Sanctions",
+      "summary": "Marines are searching thousands of containers aboard the Touska, an Iranian cargo ship that the Navy disabled and seized on Sunday.",
+      "link": "https://www.nytimes.com/2026/04/20/us/politics/military-blockade-iran-strait-hormuz.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-military-iran-hmzv/20dc-military-iran-hmzv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776722340.0,
+      "hot": false
+    },
+    {
+      "id": "cf76c814fc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "A New Apple C.E.O.",
+      "summary": "Also, JD Vance is set to travel to Pakistan for peace talks. Here’s the latest at the end of Monday.",
+      "link": "https://www.nytimes.com/2026/04/20/briefing/a-new-apple-ceo.html",
+      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20evening-nl-tim-cook-jwtk/20evening-nl-tim-cook-jwtk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776722307.0,
+      "hot": false
+    },
+    {
+      "id": "ea3d1148b0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Tim Cook to step down as Apple CEO. In letter, describes 15 years of emails",
+      "summary": "The 65-year-old Cook will turn over CEO duties to Apple's head of hardware products, John Ternus, in September. Cook will remain with the company as executive chairman.",
+      "link": "https://www.npr.org/2026/04/20/g-s1-118159/apple-ceo-tim-cook-stepping-down",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776722272.0,
+      "hot": false
+    },
+    {
+      "id": "9ca9853d12",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump's labor secretary resigns amid investigation into misconduct",
+      "summary": "Labor Secretary Lori Chavez-DeRemer, who was under internal investigation, is leaving her position. She becomes the third cabinet departure of President Trump's second term.",
+      "link": "https://www.npr.org/2026/04/20/nx-s1-5739251/labor-secretary-trump-chavez-deremer",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776721418.0,
+      "hot": false
+    },
+    {
+      "id": "be2b2962dd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who Is John Ternus, Apple’s Low-Profile Leader?",
       "summary": "John Ternus, a low-profile but influential executive at Apple, could be next in line to replace the company’s longtime chief executive, Tim Cook, if he steps aside.",
       "link": "https://www.nytimes.com/2026/01/08/technology/apple-ceo-tim-cook-john-ternus.html",
       "image": "https://static01.nyt.com/images/2026/01/07/business/00apple-ternus-SUB/00apple-ternus-SUB-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "17分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776718078.0,
       "hot": false
     },
@@ -72,27 +216,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "50分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776716092.0,
-      "hot": false
-    },
-    {
-      "id": "1134837391",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Touska, the Iranian-Flagged Ship Seized by U.S. Forces, Was Under Sanctions",
-      "summary": "Marines are searching thousands of containers aboard the Touska, an Iranian cargo ship that the Navy disabled and seized on Sunday.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/military-blockade-iran-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-military-iran-hmzv/20dc-military-iran-hmzv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776713802.0,
       "hot": false
     },
     {
@@ -108,27 +234,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776709333.0,
-      "hot": false
-    },
-    {
-      "id": "c3f8926469",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Democrat Betty Yee Leaves the California Governor’s Race",
-      "summary": "Betty Yee, the former state controller, had faced pressure to drop out after hovering near the bottom of polls for months. The move could help Democrats begin to unify behind a front-runner.",
-      "link": "https://www.nytimes.com/2026/04/20/us/california-governor-democrat-betty-yee.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20nat-ca-governor-mkgc/20nat-ca-governor-mkgc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776708481.0,
       "hot": false
     },
     {
@@ -144,27 +252,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1776706430.0,
-      "hot": false
-    },
-    {
-      "id": "b9b169569a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration Takes Steps to Refund $166 Billion in Tariffs",
-      "summary": "The government debuted a system to repay importers two months after the Supreme Court struck down tariffs at the heart of the president’s trade policy.",
-      "link": "https://www.nytimes.com/2026/04/20/us/politics/trump-administration-tariff-refunds.html",
-      "image": "https://static01.nyt.com/images/2026/04/20/multimedia/20dc-trump-tariffs-zgmf/20dc-trump-tariffs-zgmf-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776705017.0,
       "hot": false
     },
     {
@@ -180,8 +270,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1776704904.0,
       "hot": false
     },
@@ -199,7 +289,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1776682952.0,
       "hot": false
     },
@@ -218,7 +308,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1776682706.0,
       "hot": false
     },
@@ -237,26 +327,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776681010.0,
-      "hot": false
-    },
-    {
-      "id": "8f73554505",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why a Democratic Senate, Once Unthinkable, Is a Real Possibility",
-      "summary": "Helped by a favorable national environment and strong candidate recruitment, Democrats are tied or ahead in four Republican-held seats, polls show.",
-      "link": "https://www.nytimes.com/2026/04/20/upshot/democrats-senate-midterms-chances.html",
-      "image": "https://static01.nyt.com/images/2026/04/16/multimedia/00up-peltola1-gbtz/00up-peltola1-gbtz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776675831.0,
       "hot": false
     },
     {
@@ -273,62 +345,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776675600.0,
-      "hot": false
-    },
-    {
-      "id": "9d711545a2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Voters say they feel confused and misled on Virginia's redistricting vote",
-      "summary": "Contradictory election mailers, conflicting TV ads and vague wording on the ballot have Virginia voters saying that the campaigns on either side of the redistricting vote are muddying the waters.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5790809/virginia-redistricting-election-trump-gerrymandering",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776675600.0,
-      "hot": false
-    },
-    {
-      "id": "493565c0f8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Spanish speakers learn strategies to pass English-only driving test in Florida",
-      "summary": "A new English-only driving test rule in Florida is fueling a surge in strategy lessons for Spanish speakers where they learn to figure out the questions without having to take English language courses",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5783923/spanish-speakers-get-strategy-pass-english-only-driving-test-florida",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776675600.0,
-      "hot": false
-    },
-    {
-      "id": "66f2cc972d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Sonoran Desert teems with wildlife. These 3D scans could help protect its future",
-      "summary": "A new art exhibit in Phoenix features some of the world's prickliest plants. It could also help save them.",
-      "link": "https://www.npr.org/2026/04/20/nx-s1-5784031/sonoran-desert-pulse-scanlab-art-saguaro",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1776675600.0,
       "hot": false
     },
@@ -346,7 +363,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1776674524.0,
       "hot": false
     },
@@ -365,7 +382,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1776674505.0,
       "hot": false
     },
@@ -383,26 +400,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1776663259.0,
-      "hot": false
-    },
-    {
-      "id": "e1f3e04896",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. says it seized an Iranian cargo ship, ceasefire expires soon",
-      "summary": "The two-week ceasefire between the US and Iran is set to expire Wednesday. And the two sides seem far from a resolution. President Trump says the US has taken custody of an Iranian vessel.",
-      "link": "https://www.npr.org/2026/04/19/nx-s1-5790487/u-s-says-it-seized-an-iranian-cargo-ship-ceasefire-expires-soon",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776632499.0,
       "hot": false
     },
     {
