@@ -1,9 +1,135 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-21T21:08:39.357849+00:00",
-  "total": 22,
+  "updated_at": "2026-04-22T03:45:26.619512+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "a19bb9b9e4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Virginia Passes Gerrymandered Map to Help Democrats in Midterms: 4 Takeaways",
+      "summary": "Virginia’s approval of an aggressive gerrymander could give Democrats up to four additional House seats as they seek to win back Congress.",
+      "link": "https://www.nytimes.com/2026/04/21/us/elections/redistricting-gerrymandering-virginia-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21pol-takeaways1-zjgp/21pol-takeaways1-zjgp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1776827816.0,
+      "hot": false
+    },
+    {
+      "id": "4fdc192228",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Here’s Where the National Fight Over Gerrymandered Maps Stands",
+      "summary": "With Virginia’s vote on Tuesday, Democrats pulled close to even with Republicans, who may have further cards to play in the race to gain extra House seats.",
+      "link": "https://www.nytimes.com/2026/04/21/us/elections/democrats-republicans-gerrymandering-maps.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776825770.0,
+      "hot": false
+    },
+    {
+      "id": "e99bb812ac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Here’s What the New Virginia House Map Looks Like",
+      "summary": "Democrats now hold six of the state’s 11 seats in the U.S. House, but the new map could allow the party to win 10 of them.",
+      "link": "https://www.nytimes.com/2026/04/21/us/elections/heres-what-the-new-virginia-house-map-looks-like.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776822720.0,
+      "hot": false
+    },
+    {
+      "id": "f2a35df8b7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Virginia voters OK a Democratic effort to redraw the state's congressional map",
+      "summary": "Virginia voters have delivered a significant win to Democrats, as the party aims to pick up four more U.S. House seats in the state.",
+      "link": "https://www.npr.org/2026/04/21/nx-s1-5793878/virginia-redistricting-results-trump",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776819052.0,
+      "hot": false
+    },
+    {
+      "id": "88a0e69956",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Justice Dept. Charges Prominent Civil Rights Group With Financial Crimes",
+      "summary": "Republicans have accused the Southern Poverty Law Center, which is best known for investigating hate groups, of unfairly targeting conservative and Christian organizations.",
+      "link": "https://www.nytimes.com/2026/04/21/us/politics/southern-poverty-law-center-doj-investigation.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/dc-justice-wgvc/dc-justice-wgvc-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776816372.0,
+      "hot": false
+    },
+    {
+      "id": "2246e726d7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Southern Poverty Law Center indicted on federal fraud charges",
+      "summary": "The Justice Department alleges that the SPLC improperly raised millions of dollars to pay informants to infiltrate the Ku Klux Klan and other extremist groups.",
+      "link": "https://www.npr.org/2026/04/21/g-s1-118275/southern-poverty-law-center-fraud-charges-paid-informants",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776811947.0,
+      "hot": false
+    },
+    {
+      "id": "08cb398fa7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Virginia’s Vote Is Crucial in the Fight for Control of Congress",
+      "summary": "Also, Trump extends the cease-fire with Iran. Here’s the latest at the end of Tuesday.",
+      "link": "https://www.nytimes.com/2026/04/21/briefing/virginia-vote-trump-cease-fire.html",
+      "image": "https://static01.nyt.com/images/2026/04/21/admin/oakImage-1776804298292/oakImage-1776804298292-mediumSquareAt3X.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776808745.0,
+      "hot": false
+    },
     {
       "id": "b62633632f",
       "type": "news",
@@ -17,63 +143,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "17分前",
-      "pub_ts": 1776804643.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776804644.0,
       "hot": false
     },
     {
-      "id": "401c8ccf08",
+      "id": "5815564d36",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Kevin Warsh, Trump’s Fed Chair Pick, Faces Skepticism Over Claim of Independence",
-      "summary": "Kevin Warsh’s nomination to lead the Federal Reserve could still be delayed by a Justice Department investigation into the current chair, Jerome H. Powell.",
-      "link": "https://www.nytimes.com/2026/04/21/business/kevin-warsh-fed-chair-hearing-trump-independence.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21dc-fed-warsh-wkjz/21dc-fed-warsh-wkjz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1776804418.0,
-      "hot": false
-    },
-    {
-      "id": "1e103d6847",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Is Said to Be in Talks to Send Afghans Who Aided U.S. Forces to Congo",
-      "summary": "A U.S. aid worker said that the Afghans, who were evacuated to Qatar, would face a choice between moving to the Democratic Republic of Congo and living under the Taliban.",
-      "link": "https://www.nytimes.com/2026/04/21/world/europe/afghan-refugees-congo-us.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-afghan-deportees-new-zmlj/21int-afghan-deportees-new-zmlj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1776804024.0,
-      "hot": false
-    },
-    {
-      "id": "f5580a65d4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Virginia Redistricting Referendum: What to Watch",
-      "summary": "Republicans have built a small advantage from the gerrymandering clash so far, but Virginia voters could change that.",
-      "link": "https://www.nytimes.com/2026/04/21/us/elections/virginia-redistricting-referendum-what-to-watch.html",
-      "image": null,
+      "title": "U.S. Abruptly Rescinds Subpoenas in John Brennan Inquiry",
+      "summary": "The reversal came after the Justice Department replaced a career prosecutor with a loyalist to President Trump in the administration’s effort to charge the former C.I.A. chief with a crime.",
+      "link": "https://www.nytimes.com/2026/04/21/us/politics/justice-dept-john-brennan-subpoenas.html",
+      "image": "https://static01.nyt.com/images/2018/08/16/us/21dc-brennan/merlin_135808713_60ddf173-69b6-4f3b-b2ab-0f188680d7c4-moth.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "42分前",
-      "pub_ts": 1776803175.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776804563.0,
       "hot": false
     },
     {
@@ -89,8 +179,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "56分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776802339.0,
       "hot": false
     },
@@ -98,7 +188,7 @@
       "id": "4f7e120032",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
       "title": "As Pakistan seeks to broker U.S.–Iran peace, citizens watch for gains at home",
       "summary": "As Pakistan works to broker peace between the U.S. and Iran, many Pakistanis are watching closely to see whether the diplomatic boost will translate into improvements at home.",
@@ -107,8 +197,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776802244.0,
       "hot": false
     },
@@ -125,8 +215,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776802242.0,
       "hot": false
     },
@@ -143,8 +233,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776802007.0,
       "hot": false
     },
@@ -161,8 +251,8 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776801726.0,
       "hot": false
     },
@@ -179,63 +269,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776798790.0,
-      "hot": false
-    },
-    {
-      "id": "cf3dbe090c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Sheila Cherfilus-McCormick, a Florida Democrat, Resigns From Congress",
-      "summary": "Sheila Cherfilus-McCormick stands accused of stealing $5 million in federal funds. She announced she would step down minutes before the House Ethics Committee was to vote on a recommendation to expel",
-      "link": "https://www.nytimes.com/2026/04/21/us/cherfilus-mccormick-florida.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21nat-resign-bhzc/21nat-resign-bhzc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776798781.0,
-      "hot": false
-    },
-    {
-      "id": "8bec6144ef",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Southern Poverty Law Center Says It Is Under Investigation by Justice Dept.",
-      "summary": "The Southern Poverty Law Center, which is best known for investigating hate groups, has been accused by Republicans of unfairly targeting conservative and Christian organizations.",
-      "link": "https://www.nytimes.com/2026/04/21/us/politics/southern-poverty-law-center-doj-investigation.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/dc-justice-wgvc/dc-justice-wgvc-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776797798.0,
-      "hot": false
-    },
-    {
-      "id": "d4742b314a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Europe Wanted a Say on the Iran War, but It’s Still on the Sidelines",
-      "summary": "A British-French plan to secure the Strait of Hormuz would give the continent a role. But Tehran and Washington are still calling the shots.",
-      "link": "https://www.nytimes.com/2026/04/21/world/middleeast/iran-war-europe-macron-france.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21int-europe-ran-01-glhj/21int-europe-ran-01-glhj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776781925.0,
+      "ago": "8小时前",
+      "pub_ts": 1776798790.0,
       "hot": false
     },
     {
@@ -252,7 +288,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1776781483.0,
       "hot": false
     },
@@ -270,7 +306,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1776774255.0,
       "hot": false
     },
@@ -278,7 +314,7 @@
       "id": "e9a29e4d96",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "U.S.-Iran ceasefire nears its end. And, Fed chair nominee faces tough hearing",
       "summary": "The ceasefire between the U.S. and Iran is set to expire tomorrow. Peace talks between the countries remain uncertain. And, Trump's pick to lead the Federal Reserve faces a tough confirmation hearing",
@@ -288,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1776771486.0,
       "hot": false
     },
@@ -296,7 +332,7 @@
       "id": "802b572100",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Ceasefire agreement between the U.S. and Iran ends soon",
       "summary": "The ceasefire agreement between the U.S. and Iran ends soon. President Trump says a U.S. delegation is going to Pakistan for talks, but Iran hasn't confirmed their attendance.",
@@ -306,26 +342,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1776768188.0,
-      "hot": false
-    },
-    {
-      "id": "59de08d08f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The hidden power keeping wages low",
-      "summary": "For decades, economists gave short shrift to the idea of monopsony — a power employers can have to suppress wages. Now a wave of research suggests it's everywhere, and a new book argues it's key to un",
-      "link": "https://www.npr.org/sections/planet-money/2026/04/21/g-s1-118071/the-hidden-power-keeping-wages-low",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776767400.0,
       "hot": false
     },
     {
@@ -342,7 +360,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1776761047.0,
       "hot": false
     },
@@ -361,25 +379,25 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1776760873.0,
       "hot": false
     },
     {
-      "id": "145df5d608",
+      "id": "18b146780f",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Gunman shoots several tourists at historic pyramids in Mexico",
-      "summary": "A man standing atop one of the historic Teotihuacan pyramids opened fire on tourists Monday, killing one Canadian and leaving at least 13 people, authorities said.",
+      "title": "Gunman at Mexican pyramids carried materials related to Columbine massacre",
+      "summary": "The gunman who killed a Canadian tourist and left at least 13 people injured at Mexico's iconic Teotihuacan pyramids carried materials that were apparently related to the deadly 1999 high school shoot",
       "link": "https://www.npr.org/2026/04/21/g-s1-118185/gunman-pyramids-mexico",
       "image": null,
       "categories": [
-        "科技"
+        "教育"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1776748733.0,
       "hot": false
     },
