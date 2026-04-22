@@ -1,43 +1,116 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-22T06:16:35.733555+00:00",
-  "total": 22,
+  "updated_at": "2026-04-22T09:57:17.120430+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "121bd70cff",
+      "id": "9c089f1a7c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Priceless 2,500-year-old golden helmet returned to Romania after Dutch museum raid",
-      "summary": "The ornate Cotofenesti helmet, which was stolen in January 2025 while on loan to a Dutch museum, was recovered last month.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5795403/golden-helmet-romania-recovery",
+      "title": "RFK Jr. is on a congressional hearing blitz, after a long absence from Capitol Hill",
+      "summary": "Health Secretary Robert F. Kennedy Jr. caps off seven budget hearings in as many days, the first time he has testified before Congress since September.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5792840/rfk-jr-senate-house-budget-hearings-vaccines-cdc-medicaid",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
+      "hot": false
+    },
+    {
+      "id": "5f890f48b5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump administration delays rule aimed at improving disability access in schools",
+      "summary": "Schools, colleges and other public institutions originally had until this week to make online content accessible to people with disabilities. Now, the Justice Department has delayed that deadline.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5791680/doj-disability-web-access-delay-schools",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
+      "hot": false
+    },
+    {
+      "id": "e394ef1631",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How the airline industry could be impacted if Spirit Airlines is liquidated",
+      "summary": "Spirit has not confirmed a liquidation, though it has filed for bankruptcy protection twice. Experts predict rising fuel costs could push the company to close its doors for good.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5789050/spirit-airlines-liquidation-bankruptcy-impact",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1776835448.0,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
       "hot": false
     },
     {
-      "id": "6c81398afb",
+      "id": "1591313814",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Mexico to beef up security at tourist sites after shooting at pyramids",
-      "summary": "Mexico's government is boosting security at tourist sites in preparation for the World Cup after a man opened fire at the Teotihuacan pyramids.",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118305/mexico-to-beef-up-security-at-tourist-sites",
+      "title": "'We can do better,' FAA head says of work to update U.S. analog air traffic system",
+      "summary": "The U.S. aviation system is being modernized — but FAA Administrator Bryan Bedford and other leaders say it will take more money to make the system more efficient and flexible.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5791744/faa-dot-air-traffic-control-system-revamp",
       "image": null,
       "categories": [
-        "政治"
+        "科技"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1776835408.0,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
+      "hot": false
+    },
+    {
+      "id": "cd68deedac",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "From the Himalayas to Newt Gingrich, the 'tree-huggers' prevail",
+      "summary": "On Earth Day, we take a look back at the rocky history of \"tree-huggers.\" The term originated in the 1970s in the Himalayas and was later co-opted by American politics in the 1990s. Now, environmental",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5787684/tree-hugger-history-earth-day",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
+      "hot": false
+    },
+    {
+      "id": "16f09f71c7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "With Virginia vote, Democrats gain edge over Trump's national GOP redistricting push",
+      "summary": "After Virginia voters weighed in on Tuesday, the redistricting set off by President Trump to help the GOP in the midterms has been countered and possibly surpassed by Democrats.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5787989/redistricting-map-trump-midterms-congress",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1776848400.0,
       "hot": false
     },
     {
@@ -54,8 +127,44 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776827816.0,
+      "ago": "3小时前",
+      "pub_ts": 1776839516.0,
+      "hot": false
+    },
+    {
+      "id": "121bd70cff",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Priceless 2,500-year-old golden helmet returned to Romania after Dutch museum raid",
+      "summary": "The ornate Cotofenesti helmet, which was stolen in January 2025 while on loan to a Dutch museum, was recovered last month.",
+      "link": "https://www.npr.org/2026/04/22/nx-s1-5795403/golden-helmet-romania-recovery",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776835448.0,
+      "hot": false
+    },
+    {
+      "id": "6c81398afb",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Mexico to beef up security at tourist sites after shooting at pyramids",
+      "summary": "Mexico's government is boosting security at tourist sites in preparation for the World Cup after a man opened fire at the Teotihuacan pyramids.",
+      "link": "https://www.npr.org/2026/04/22/g-s1-118305/mexico-to-beef-up-security-at-tourist-sites",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776835408.0,
       "hot": false
     },
     {
@@ -71,8 +180,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776825770.0,
       "hot": false
     },
@@ -89,27 +198,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776822720.0,
-      "hot": false
-    },
-    {
-      "id": "f2a35df8b7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Virginia voters OK a Democratic effort to redraw the state's congressional map",
-      "summary": "Virginia voters have delivered a significant win to Democrats, as the party aims to pick up four more U.S. House seats in the state.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5793878/virginia-redistricting-results-trump",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776819052.0,
       "hot": false
     },
     {
@@ -126,7 +217,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1776816372.0,
       "hot": false
     },
@@ -144,26 +235,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776814053.0,
-      "hot": false
-    },
-    {
-      "id": "2246e726d7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Southern Poverty Law Center indicted on federal fraud charges",
-      "summary": "The Justice Department alleges that the SPLC improperly raised millions of dollars to pay informants to infiltrate the Ku Klux Klan and other extremist groups.",
-      "link": "https://www.npr.org/2026/04/21/g-s1-118275/southern-poverty-law-center-fraud-charges-paid-informants",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776811947.0,
       "hot": false
     },
     {
@@ -180,7 +253,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776804644.0,
       "hot": false
     },
@@ -198,33 +271,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776804563.0,
-      "hot": false
-    },
-    {
-      "id": "fc53386b50",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Instead of civil war, a naked mole rat colony changed queens peacefully",
-      "summary": "These matriarchal rodents often have  bloody succession wars to replace their queen. But in a colony in California, Queen Tere ceded the throne to her daughter, Arwen, without violence.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5789030/naked-mole-rat-colony-queens-succession",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776802339.0,
       "hot": false
     },
     {
       "id": "4f7e120032",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "As Pakistan seeks to broker U.S.–Iran peace, citizens watch for gains at home",
       "summary": "As Pakistan works to broker peace between the U.S. and Iran, many Pakistanis are watching closely to see whether the diplomatic boost will translate into improvements at home.",
@@ -234,7 +289,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776802244.0,
       "hot": false
     },
@@ -252,7 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776802242.0,
       "hot": false
     },
@@ -270,44 +325,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1776802007.0,
-      "hot": false
-    },
-    {
-      "id": "f770ca9e7f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Florida AG launches criminal investigation into ChatGPT over FSU shooting",
-      "summary": "Florida's attorney general is launching a criminal investigation into the alleged role of ChatGPT in a mass shooting at Florida State University last year.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5793967/florida-openai-investigation-mass-shooting-fsu",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776801726.0,
-      "hot": false
-    },
-    {
-      "id": "0aaca214ef",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Florida Democrat Rep. Sheila Cherfilus-McCormick, facing possible expulsion, resigns",
-      "summary": "The Florida Democrat faced a potential expulsion vote in the House as she prepares for a federal trial on allegations that she stole disaster funds and used some of the money to finance her campaign.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5793994/florida-democrat-rep-sheila-cherfilus-mccormick-facing-possible-expulsion-resigns",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776798790.0,
       "hot": false
     },
     {
@@ -324,7 +343,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1776774255.0,
       "hot": false
     },
@@ -342,7 +361,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1776771486.0,
       "hot": false
     },
@@ -360,7 +379,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1776768188.0,
       "hot": false
     },
@@ -377,8 +396,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776761047.0,
       "hot": false
     },
