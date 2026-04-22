@@ -1,25 +1,333 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-22T03:43:40.534378+00:00",
+  "updated_at": "2026-04-22T06:12:15.861994+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "c209fab915",
+      "id": "66e6a0e79b",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Hawke’s Bay flooding: Communities cut off, farmer describes it as ‘worse than Cyclone Bola’",
-      "summary": "'At one point, we were getting pushed around by the floodwaters crossing the road.'",
-      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/hawkes-bay-flooding-communities-cut-off-farmer-describes-it-as-worse-than-cyclone-bola/76VH65KKNZEP5BGX5NA6HPYXGI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ZZHSV2T525DHREOTAPFYJWJHRQ.jpg?auth=7404ad6e49a26ac0008fce94f0cc34e073eea441f3c393f8d8d82865b7fb862b&smart=true&width=300&height=300",
+      "title": "Wellington measles case possibly infected at Warbirds Over Wānaka or Ultra music festival",
+      "summary": "Possible exposure sites include Warbirds Over Wānaka and a music festival in the capital.",
+      "link": "https://www.nzherald.co.nz/nz/wellington-measles-case-possibly-infected-at-warbirds-over-wanaka-or-ultra-music-festival/L2LV2UDXYJHJHPIK62NT7B2CYE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/ZPTC27UL3FA4RENEKO6IAXCIWE.webp?auth=381dc00810769cffd0a5980708e8bd39f40fc7d438dcff1d1ff4e93da3a9fbf7&smart=true&width=300&height=300",
       "categories": [
-        "天气"
+        "本地"
       ],
       "score": 70,
-      "ago": "6分前",
-      "pub_ts": 1776829035.0,
+      "ago": "7分前",
+      "pub_ts": 1776837857.0,
+      "hot": false
+    },
+    {
+      "id": "478337dacf",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Third National MP denies allegations of leaking to the media",
+      "summary": "Prime Minister Christopher Luxon survived a leadership vote during an extraordinary day in Parliament on Tuesday.",
+      "link": "https://www.stuff.co.nz/politics/360967533/new-zealand-politics-live-blog",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQPoZsBswC5nldVa3qsUZ6VqRZ5vcgFjxOpc78iNX+ldR+E7i+oWctXCtcvEP+SxDTxVHLoV8UPDtdGdFvKAoDlOAPRU+IQmzh0khKkb67LN9cIZppQRLwC5yPt+1fNS8OAkkIvX+9C%2FIC5PggNx508o2qLYbuXF7uIVker1A1Mzjm8oKla5l2ZmDOIo8WBp2VI7h4lufgZV1wX%2FAr0WLNarc65PV%2FS0H2t3Wnim1ZCI88K1lgtZgigFyL3rcsKDm4cWcsMb8UKn+5ReHt7Lq%2FSgyJzOiy1LNmnKnYDififfi4O5kBArXdp1iIDQiuT%2FOYVidxMktP+8HQIaEpvz8MDIViG%2FWd+IqL4dA%2F5E+fZzBWitVAN4agdNTm1jwupU6WWMP6HZhhCSU+T37wHBAbGyylTtIwaFtAEGcN9PDRWzI2mG9o6KMRMVCoiF%2Fq+ZCMJC1R0oBOwq07GqBgGHSX4=?resolution=1240x700",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "10分前",
+      "pub_ts": 1776837672.0,
+      "hot": false
+    },
+    {
+      "id": "77597ccff2",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Family violence killer Tupaea Kerr guilty of murdering Charlie Watson in Glen Eden, Auckland",
+      "summary": "His partner was stabbed through the voice box and had his shoe print on her face.",
+      "link": "https://www.nzherald.co.nz/nz/crime/family-violence-killer-tupaea-kerr-guilty-of-murdering-charlie-watson-in-glen-eden-auckland/SZ24JR7U5RDMNGHZCVPVBDGD2E/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/46N2OWMCTJFYVIXA3CLOGZNV3I.jpg?auth=daee354153eb5129cbb6b75ec0653acb576a8d1e0a58f56246cd892d94f5d22c&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1776837600.0,
+      "hot": false
+    },
+    {
+      "id": "bc1946e99f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Would-be child sex offender John Tekuru unmonitored for hours after electronic tracker goes flat",
+      "summary": "The man's electronic tracker went flat meaning Corrections had no way to monitor him overnight.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/593110/would-be-child-sex-offender-john-tekuru-unmonitored-for-hours-after-electronic-tracker-goes-flat",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1776837325.0,
+      "hot": false
+    },
+    {
+      "id": "40302f01eb",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Fourteenth arrest made in Dilworth School historical sexual offending case",
+      "summary": "A 66-year-old man who was sought by police for several years has been arrested in Blenheim after returning to New Zealand from offshore.",
+      "link": "https://www.stuff.co.nz/nz-news/360968730/fourteenth-arrest-made-dilworth-school-historical-sexual-offending-case",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYex94vDssNvjbYKBlzTUFhr44gglss7BW9BsIj4VFNBHdmm8klzU1lxsKzdttFPXnILq1ggv%2FkOSpxInflpeOlZS4uvk%2FJaFFxJ7XjOI6RW4gKrGlbL2pDPQS9kwA1iRnkx%2FtxK5xXx%2FkSuZ6tJuPoQ=?resolution=1240x700",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1776837256.0,
+      "hot": false
+    },
+    {
+      "id": "e9c2390ad6",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Winston Peters declares coalition as stable as 'three-legged stool' after day of potshots",
+      "summary": "Despite tit-for-tat sledging the NZ First leader declared the coalition as stable as a \"three-legged stool\".",
+      "link": "https://www.rnz.co.nz/news/political/593093/winston-peters-declares-coalition-as-stable-as-three-legged-stool-after-day-of-potshots",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1776837144.0,
+      "hot": false
+    },
+    {
+      "id": "78d198b683",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Multiple injured in serious crash on coastal road",
+      "summary": "Multiple people have been injured in a serious crash that has shut a coastal road in Matawhero.",
+      "link": "https://www.stuff.co.nz/nz-news/360968710/multiple-injured-serious-crash-coastal-road",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdfK1QdcnM1CL1cOOyXbjFM2ovJC5wGYfQZvi+wRIiKaQ6xYccp+5RAh9GsIvyjN6hlN4gMD2Wysm6l%2FvKBmfZmvQoxVG1J3IPGnr31EAlXN+e5axYz%2FnTpPC49WyafK8TJWOYmZQr48kJCKmWvoJKSEsDnE5TCpMBLbxfYx9foGF0oCuTgT1dYeM1g5klAaR%2FgVYBMfx5tvt+vhGiCOp2plYw8RHwgc+y54idfltaUJdUg9xgOvmQe2mRS+PLOt9icIKqabBvnkte3uSCWprBbjR4TKUoKcvLjJr2G+kYa0KbgCHXST%2FUR4Fb8qHk%2F3vyvhbNiwMD7LG0Aj5H798UYYoTc0B0C10x3s7XLGizrMLOkphqPX7+NJMQv4OOL4kLOALDM0F28BSAy0AoU%2FFobdDZn5%2FzqFJzJLQbGAVEGsQzEWiZ8DwfeQ30SHLKQVo2V2oZY25yR0MpTZW+zRuxQ=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1776836475.0,
+      "hot": false
+    },
+    {
+      "id": "974d50fd49",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘One of a kind’ Waikato sportswoman dies while pregnant with first child",
+      "summary": "Courtney Johansen died of a brain aneurysm while pregnant with her first child, MJ.",
+      "link": "https://www.stuff.co.nz/nz-news/360968683/one-kind-waikato-sportswoman-dies-while-pregnant-first-child",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYV3h4LInrppUtoR9SIdJogHgr+tKjLciO7efzWZUEudEtizTLrPzYenR1tGmUYE68dc%2F7A9r8uHeUB9IuKs8Ze9wcgEpUo96YtWo2ZEf10ZG3nv1rsU6Vc3LcLEZt3tk6bU3TNk37uw28eL8Vi3taDOUxcj0Zk%2FDDbZDDBC4SrSshGH6iz0RMRjn2mRDTle1tY1rmJSEcZoMV8auih7ioTJdUcdIsTrwO1wwtHLjPxfed1myWGQYnf+0YzvfzqzGde3XNsKiVhyKdvnf67kps8kVjt0YD2kSrSt3vcU0RS0DOonbcM%2Ffln%2FizFt7EX9yKgu6UNV6hXuEmt87Zq5OWjucHD%2FrneOBdrevnAra+R5qy87H2EXJJkoftp4fTmGJXB8J%2FqZsNhvyQ9hEBdvMI8%2FT04JEs2NGMMVpJ7zHEwVF5nQKVsT0NAQBdlbVX5nKdg==?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1776836081.0,
+      "hot": false
+    },
+    {
+      "id": "edc0d51a71",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Nicola Willis demands apology after Chris Hipkins’ ‘medical help’ jibe",
+      "summary": "Nicola Willis highlighted recent runs with overseas finance chiefs to rebut the remark.",
+      "link": "https://www.nzherald.co.nz/nz/politics/nicola-willis-demands-apology-after-chris-hipkins-medical-help-jibe/premium/SBKJD6S6UFEQ3PY3M6CUP72OXY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/AHB5YLN4MVBQRNKIL7WDNQIHEE.jpg?auth=0fd545014bf0c9aca512321020742e1223a4f8912b3ffabe720da2ea85cf4a46&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1776836015.0,
+      "hot": false
+    },
+    {
+      "id": "0650e4a7bb",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Watch: Police say family of missing Christchurch woman Rowena Walker 'desperate to find her'",
+      "summary": "Police have been combing Christchurch's red zone for any signs of the missing woman.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/593062/watch-police-say-family-of-missing-christchurch-woman-rowena-walker-desperate-to-find-her",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1776835671.0,
+      "hot": false
+    },
+    {
+      "id": "b4b8035066",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Asian shares are mixed and oil prices little changed as investors watch for US-Iran talks",
+      "summary": "Shares were mixed in Asia on Wednesday as markets waited to see if the United States and Iran may resume talks to end their war.",
+      "link": "https://www.stuff.co.nz/business/360968702/asian-shares-are-mixed-and-oil-prices-little-changed-inve",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdjMrjrXdrIfZhMSycPurPS+BTJg+dGGsrWQue+gtXqGC2FirF4%2FImoXejrOwAn+tmX1sY4RhAhYrpoGiNx0jm%2FGQKs%2F%2FAuElLcSnZmHl5TUeNydP6mRaw3DjfHkf8525yrQkjRFgl4UXJJPHR9QlDeH7xCszWjgYZT5SYQV4UxhLss9FDSVZDWn8T76TV7Vg3rZ8MRNdcIsK2SfE+%2FdHRS+9Exi4di%2FbX8pdT8J6gJTi834UxVYlAiciUg5SYKT3MnoB0SM6LHubiWG3Emu%2FohS+vw3l8rqC8+Au6hQ7eGOOM1iKNk5t23xsRNCzDAtb8+CeU1g32utNEVdEH7zk12d3h+dCtHT8NS%2FvRH9RzX0nwRcH7zhekLMrdsN5tcg23DmXwBPdAS%2FgNb6Ab%2FfFPp2%2FDkI%2FS49MrhmlgeH62nV9l1nK68UdWARgGckvg++gaO3jX8lYGxBk6TUaEVAN58=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1776835619.0,
+      "hot": false
+    },
+    {
+      "id": "13629c65b3",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Fish and chips store by idyllic Auckland beach closes with more than $300k owed",
+      "summary": "A small fish and chip store near a popular North Island beach owes more than $300k to Inland Revenue.",
+      "link": "https://www.stuff.co.nz/business/360968586/fish-and-chips-store-idyllic-auckland-beach-closes-more-300k-owed",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfcagcEktwiQjzBMAUuCeB6AqfHrVSdWpzsdrIPDv0tA4dZAAA5juW+MzfFDdY1fbbSxUluldP8f094jqqu7%2Fht%2FP3M51w6+jvNeVENl1S0zxRdQ%2FGhaSaSSBIeJBZSVacccruNrgZYQOAVV+NvS2QGqbqxzMww98M8aUd1qA6q0J9UTrGlD9eKPFRc3XkJCV5Z+GpGNlfZkjAe6llD89ZCLpzHlJ9IEcHSxRsUgZOABXg1kWYTCyDSLbwKzklqA65%2FqIJ3xwqtIjuhOkpRYHwVjxRRrcsmzNA5N81IgfowsoqYzRQVAf9lG8KtZw+lgQDTrIFGTk4MT1+c0ZL32gEkevqNGtMkRvr%2FvVQScHAA0Wjr6prdPWGXk4sCU7Mj%2FVXk4qevNLDIxawg81E3Gx94DgKdelPhTmVAcQJJLfFLEnH5M2IxyP9t%2FelMmXvpTPQ==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "48分前",
+      "pub_ts": 1776835385.0,
+      "hot": false
+    },
+    {
+      "id": "b203927792",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland Council forced sale: Northcote home sold by auction over $219k rates debt",
+      "summary": "Auckland Council could not find the owner, who is believed to be overseas.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/auckland-council-forced-sale-northcote-home-sold-by-auction-over-219k-rates-debt/premium/R63YEM4XZFDUZM3CQBH5H2VI7U/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/RCJBT36JRBGQXHGNYV5DJPONOQ.jpg?auth=0f65fca58d6ec5809180a4e0a90bf94bd2206f20ef8be3b1f412e0df6007523d&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "55分前",
+      "pub_ts": 1776834994.0,
+      "hot": false
+    },
+    {
+      "id": "6bc661ee60",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Cyprus president says EU needs a clear play-book on helping members under attack",
+      "summary": "European Union leaders meeting in Cyprus need to start preparing a play-book on what should happen if an EU country under attack puts out a call for help from bloc partners, the president of Cyprus sa",
+      "link": "https://www.stuff.co.nz/world-news/360968691/ap-interview-cyprus-president-says-eu-needs-clear-play",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWj%2FB7NZbvH+FHdemduBUmuyyd22kiegNnZ%2FmBcZmwe0BchAf1uVTzsd81LQ6AuX3jpbs7IY2knLdryc4fQyDLaHVlKf7M0ye7f+VcnKAA2RQtm7zUyPTnuNI71S+1TNvN6INHRz9Fb4WtrbPI7ZRKl3+GucOWpYzcp+annXaxs%2FkDJgEWSFYED52yaQb7IYlolPwndcHmQeotAvLCaL4nnsnZka%2FR8X87VT98x+8nWex38TSwKkaiDuqcEEwldRXbCbpGu4xYnAYQsMLFp9xogR7v1U8uX221eRe9lwZd0umm1mJohpKVXOqOyWiDohcKqdSlQEqLWDZjicPhm1Y31xMsoVnIKQ9wIeppW1Bco3uw5UZ7pn7va%2Fu5MFjJGY6ZW0%2FcfxGbd+HXCW+PtPhyIUa8jSJRpgo8aftdyafNMd+y6cuUJ3whnglW+6C+6gGg==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1776834941.0,
+      "hot": false
+    },
+    {
+      "id": "b7840593d8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Trump’s Cuba threats revive exile hopes, fears over property claims",
+      "summary": "Deeply ingrained in Raul Valdes-Fauli's family lore is the November 1960 day when an agent of Fidel Castro's revolution showed up at his family's Pedroso Bank in Havana, with a machine gun, and demand",
+      "link": "https://www.stuff.co.nz/world-news/360968679/trumps-cuba-threats-revive-exile-hopes-fears-over-property-c",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeRhIStDMOnMolLFF6Qp3To5V5oiKrbK3UKG8JTHKrUIYjyBYO+1lbGIn9phShDgs6j0nP8HmJDf7pgk5W0CsHYSor7WzYzw+ax%2Fbn0HOjO75DUvDPWUvO1lVgpkzVKEvfwtwohzpEQ8sW%2FenvomHuiIn5msB30WOSXZNZrbpIUIMgfwWttV5qcYmAe75zihNB6RHlE+Vc1FXMsyXHYc%2F6Iv+dMhLpbC920faAa5j4k0jXSrkFmW3fTTbvDh1vSZfYMGFgiUM6oPIDKvIJ2LFeAVXJPKPKp3Qx%2FhntpVEj90ArRLoegTXPDduBSnm49nspoh5Zn+t59O6nZzZ139Xnuh%2F7yXctf%2FgvEMy3VrKWYWgwKsuO4ReHrcd4k39ezrkfCOrRlQFSlZqvz70XsYz9e6zCC5iL1LhC9xR7jzoRBrH38D2b2pmxYZq+ZdBnhO0aSNFz9d0owfJKSQBixvx6M=?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776834657.0,
+      "hot": false
+    },
+    {
+      "id": "e23b9fa763",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "EIT graduates have their day in Napier",
+      "summary": "A parade of 415 graduates rolled through the Napier CBD.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/eit-graduates-have-their-day-in-napier/6VOFFLPKOFB2XIS7C6GLASN2WY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/2YCFLZUIIZHCFGCE6QRM4TAFVY.jpg?auth=61516e063098fcfc2a5178a5e4beb4968713b9839e32b32025b1294b4eef9c07&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776834501.0,
+      "hot": false
+    },
+    {
+      "id": "89c87847f4",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "The new age of car buying: EVs, hybrids and the end of old myths – The Front Page",
+      "summary": "EV registrations have nearly doubled on this time last year.",
+      "link": "https://www.nzherald.co.nz/nz/the-new-age-of-car-buying-evs-hybrids-and-the-end-of-old-myths-the-front-page/TI74SQ6MTVHE3CMXEDZOVTFNRQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/BWLWTPH7LVCTZDAHM2EAFDOT54.jpg?auth=bae1af6eef279bed635597053e95daee35e6151f2a381f24fabb958790516490&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776834000.0,
+      "hot": false
+    },
+    {
+      "id": "3274467f77",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Manurewa stabbing: Motorist praised for heroic intervention",
+      "summary": "The victim might be alive because 'somebody decided to give a damn', a councillor says.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/manurewa-stabbing-motorist-praised-for-heroic-intervention/O2KVWWMGFNC37ORQKTQBVQVWRQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/STUIT6PUR5BZRA6KFDQ3Y3PFTI.jpg?auth=8f5a78c22224a938f992129acff5eee3dffda6d5b4a99762cbe2d7019ec7d047&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776834000.0,
       "hot": false
     },
     {
@@ -36,8 +344,62 @@
         "科技"
       ],
       "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1776828875.0,
+      "ago": "1小时前",
+      "pub_ts": 1776833855.0,
+      "hot": false
+    },
+    {
+      "id": "781fdd3ef0",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Body found in search for Philip Sutton, missing since Wellington storm",
+      "summary": "The body of Wellington man Philip Sutton has been found on the South Coast, near the mouth of Karori Stream.",
+      "link": "https://www.rnz.co.nz/news/weather/593071/body-found-in-search-for-philip-sutton-missing-since-wellington-storm",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776832909.0,
+      "hot": false
+    },
+    {
+      "id": "de33a533f6",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "1 person dead after serious crash on State Highway 1 in Dacre, Southland",
+      "summary": "Police are advising motorists to avoid the area at Dacre on SH1 and to expect delays.",
+      "link": "https://www.nzherald.co.nz/nz/one-dead-after-serious-crash-on-state-highway-1-in-dacre-southland/W5VIJFR6DVAFTBW4DSGA5OM6V4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/XJEB7IAWSREAFEK4WVBV3LFLN4.png?auth=396b2712b8013c2804b8e169bd029247689a0eacaf50de9a7e086a1b5d315cfa&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776832294.0,
+      "hot": false
+    },
+    {
+      "id": "2548793b24",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "One person dead after crash on SH1 north of Invercargill",
+      "summary": "Emergency services were called to the two-vehicle crash near Kerr Road, Dacre about 8.10am.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/593052/one-person-dead-after-crash-on-sh1-north-of-invercargill",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776831803.0,
       "hot": false
     },
     {
@@ -54,159 +416,33 @@
         "科技"
       ],
       "score": 70,
-      "ago": "10分前",
-      "pub_ts": 1776828755.0,
+      "ago": "1小时前",
+      "pub_ts": 1776831500.0,
       "hot": false
     },
     {
-      "id": "c10b162470",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "National’s chief whip speaks after staying silent on bombshell report for days",
-      "summary": "Prime Minister Christopher Luxon survived a leadership vote during an extraordinary day in Parliament on Tuesday.",
-      "link": "https://www.stuff.co.nz/politics/360967533/new-zealand-politics-live-blog",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVmdnxUm48MokE5vyf%2FjGQUsXMnW9WUElVBKe+XlpjoFCttHiV0vKMpwOshg1V9Eln28ZyBTtXAsYT66tlKiwpup3hB%2FIiyf05izH%2F53rvVdObHPJ1CdKBGAXvs93wvsJgsNmGTpz+OEVmRVBnMjiFWZbDhdRW7apDWc2mCI+r2mRaNIekTdn7N9NE2mfCBWXDxni0bVlIjpfwVw7yPtb9YJhRsI5grQmD19Vas94W6pup5rAnsVHmkhiMIfEpQ1+xtcdpnWtDcfcZYWAwLMDn8KFZML0faQ++RnPDwTYuPGsyZ7pb5H8OjxUNGbAXhiB7CNSyi4jDJyINELkjgimFAukJ+MzbpvdnN+immlyaFL+jRPd59Vs1Zvh%2FyD4F%2FyGvW1k1BOIIceAISq681wafDCJQ1CQ4IqKDUR9wjcZzUKRkTHcGePR6GX723tHLp8RA==?resolution=1240x700",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1776828585.0,
-      "hot": false
-    },
-    {
-      "id": "cd1e90e0f9",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Real Life: National MP Vanessa Weenink on upbringing, career and path to Parliament",
-      "summary": "Vanessa Weenink watched her dad’s arrest and nearly died aged 8. Now she’s an MP.",
-      "link": "https://www.nzherald.co.nz/nz/politics/real-life-national-mp-vanessa-weenink-on-upbringing-career-and-path-to-parliament/EAZO6OHBPNDMXDJFLNO6XHWTCE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/LIK3SNNPWRAPPK4WTEAI7ST26I.jpg?auth=869b9e8d28d67c0c7890bce6f550eb601357d8ecad5d79ff2a1212f6be3815ea&smart=true&width=300&height=300",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1776828386.0,
-      "hot": false
-    },
-    {
-      "id": "7fb9f3a5a7",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Roar ready: Busy season underway for taxidermists and wild game butchers",
-      "summary": "'We just get inundated with stags and hinds and all sorts.'",
-      "link": "https://www.nzherald.co.nz/the-country/news/roar-ready-busy-season-underway-for-taxidermists-and-wild-game-butchers/H4ZLCTBKZVGSXG7U4IPIAM42LI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/LH5CB2YM6VHIDIVTEWDJE3M25Q.jpg?auth=48391185659a90cd25848d60af1ae74e69bf65e70d6b8122425896ded38bd7e8&smart=true&width=300&height=300",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1776828150.0,
-      "hot": false
-    },
-    {
-      "id": "1cf332473d",
+      "id": "bd6cd00947",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Underage drinking, disorder in Nelson CBD prompts increased police patrols",
-      "summary": "Nelson police are urging parents to check on their children as late-night teen gatherings grow.",
-      "link": "https://www.rnz.co.nz/news/crime-and-justice/593105/underage-drinking-disorder-in-nelson-cbd-prompts-increased-police-patrols",
+      "title": "Public appeal for woman last seen boarding a bus on Auckland's Waiheke Island",
+      "summary": "Inna, 61. was last seen on Friday after boarding a bus to Matiatia.",
+      "link": "https://www.rnz.co.nz/news/regions_auckland/593109/public-appeal-for-woman-last-seen-boarding-a-bus-on-auckland-s-waiheke-island",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1776827744.0,
-      "hot": false
-    },
-    {
-      "id": "8510e008b7",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Elderly lion put down, five months after being saved from euthanasia",
-      "summary": "Twenty-year-old Abdullah was one of seven cats at Kamo Wildlife Sanctuary in Whangārei that were set to be euthanised in November last year.",
-      "link": "https://www.stuff.co.nz/nz-news/360968409/elderly-lion-set-be-put-down-five-months-after-being-saved-euthanasia",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRh+1qWLZYJkCWVhMkU1lXNDGGZ5OwIG208dVbM6Td%2FZQZIH9j7I1Wz3JTK2lK3BppFYIBRtVRWf6mjmMm0FfqOSWP1XU8Xz7bgLvJshDai%2F41k6DmP253B0jjMq1sDpt8T9n8wuostTgl3ezHarlCEtHP55GXcglbfI3NmCSDt7XuGpYoMCVxiKHrqd9rQMHRnUD+JM7OfEU1AtuUXuk0pF0V4sB7AFcDOBQnJ1SENEMqVkBOjBG+8Uz%2FFE++noMOl194nlEK2wF5SfS8YpqfftlrD3Y8FNaIielvc2Ue67q+Wz5leV4Rys6bs1Hsm2vgNgg96dJ1t19yTp90%2FKJOOYGT6dsBQ8rOcUac4It6n%2FMOeAWDMzRQ5GQscIuTjBhP9Q3moFVJ2zgssRXqa2NXO9SqroorOvnJuxvFLa68XgHhAtpgFOKiGMmrECoYKXXQ==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1776827608.0,
-      "hot": false
-    },
-    {
-      "id": "38bf90bc0d",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Auckland’s stalled Seascape tower goes up for sale",
-      "summary": "It was once set to become New Zealand's tallest building, but instead, a \"for sale\" sign is going up on the partially completed tower in Auckland's CBD.",
-      "link": "https://www.rnz.co.nz/news/business/593103/auckland-s-stalled-seascape-tower-goes-up-for-sale",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1776827551.0,
-      "hot": false
-    },
-    {
-      "id": "3a4b325a92",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Huntly gunshots investigation: Four arrests and more expected, police say",
-      "summary": "The three younger men face organised crime and firearms charges.",
-      "link": "https://www.nzherald.co.nz/waikato-news/news/huntly-gunshots-investigation-four-arrests-and-more-expected-police-say/7HAR3EULIRHJNPPHLQHJWGQS3I/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/D3YRXTIM6BGLRNM2FFALXKO424.jpg?auth=33a913aaeab4dc038733796556f85c0618bc1e86f1b1a8d89e45d615eaa5a9a8&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1776827518.0,
-      "hot": false
-    },
-    {
-      "id": "1c3da81afe",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Three arrested after gunshots exchanged at a Huntly property",
-      "summary": "A group approached a Cobham Cres address in early April, and exchanged gunshots with someone inside the property.",
-      "link": "https://www.stuff.co.nz/nz-news/360968526/three-arrested-after-gunshots-exchanged-huntly-property",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYEq7W+kg4mUobTs7SQ9Hq+4RLVgI2JOFkbly6m1zVtGy11VAZFT0Ztdk9k9T5YCAhXqJAHwK1J96HjHNuSfWfQ1eXteLGy0%2FdGSLbA4idEdwNP0HKAlhB9LxkD1aej8eLkulAIh6uzQCFAf%2FngXjNZW05AzdQrDbWAHYCQio9cU5BeeC2g6XAnMxxQPec78QTSMLx+vk6AOmcgG5WEEGoaA07TcPuu8ATWp5J8%2FWZ4dg5jNZ1ReFHLLcfsaB9dvLiZF+4YSAPpEwkyqFGZoYvsHLzgWpxu5KzxEL12qbA+kI8TtBpPq96nNGg%2F13gQASWetKL0afbsePe3B4plaEKEnsNi6f1g8565Z8maBlUVRS%2F%2FzPjKkikI3c11XuRERQc0mTgvrprZWktaLuRX7F2NaxcaRxCvFGpbtuzTLvPQcyy0aZWFPMmxAJArZX+MdGA==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1776827156.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776830221.0,
       "hot": false
     },
     {
       "id": "4476b9e572",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "National's Stuart Smith denies he tried to alert Christopher Luxon to flagging caucus support",
       "summary": "National's chief whip Stuart Smith has finally addressed media at Parliament, denying reports that he had tried to alert Christopher Luxon to flagging caucus support prior to Easter.",
@@ -215,246 +451,10 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "37分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1776827125.0,
       "hot": true
-    },
-    {
-      "id": "eaed3943fa",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Funding falls short as father tries to get a lift for his disabled daughter",
-      "summary": "Dinson Thomas said he carries his 13-year-old daughter, who has cerebral palsy, up several steps to get into their house.",
-      "link": "https://www.rnz.co.nz/news/health/593026/funding-falls-short-as-father-tries-to-get-a-lift-for-his-disabled-daughter",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1776827125.0,
-      "hot": false
-    },
-    {
-      "id": "ac0a5b6fd6",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Pope criticizes colonization of Africa's minerals as he arrives in Equatorial Guinea",
-      "summary": "Pope Leo XIV arrived in Equatorial Guinea on Tuesday on the fourth and final leg of his Africa journey, and denounced the “colonization” of Africa's minerals and the “lust for power” in a country whos",
-      "link": "https://www.stuff.co.nz/world-news/360968536/pope-criticizes-colonization-africas-minerals-he-arriv",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTO8lEybBDkNA6VY%2FP9PLFLNBM8ROeqMhj2MlIO4qVouv4Najf73KvAG+6LFM5ELlH%2FeK6dcJv1C6HFqtkcIv5khhrAG0C1TeKXRPe91TrhTqjTy1stx75zN4xsSavRSlVKkATgPIgvgWRrxbT31usq8FuNJBWIvYTZ4SfAq05iy2WAaKOyuWTS9D4HKJ5gTkIeaZVYsXeeH5s8+ZU+MOX53gxcBTA2alfGxGhPU6VLG13VO+85vtuDBTz1sCoNxX7f+Hy0GLsTCXPi4AJoFRn%2FB4K+yLSvvQ7TJYzb%2Fdr3K60kYuCuByacC2ngfdEol4+kj5a8oC9JKrR4q7%2FTly5fpNymigTfyAkitmKyuc4HgRJiSskoMYyR%2Fx1rgICZH7VqRpISHwQEiWmpN5Q7TetbLTfvQ6F7KvZifKPLDvJXKcyTEaRfj5fvvSPy%2Fspe1iQ2iIfOR8OI5ILOVhGYxFSM=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1776826933.0,
-      "hot": false
-    },
-    {
-      "id": "023d8fe358",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "NZ Herald comments: The stories open for discussion today",
-      "summary": "Want to have your say on our stories? Here's how.",
-      "link": "https://www.nzherald.co.nz/nz/nz-herald-comments-the-stories-open-for-discussion-today/BETD7I6HSZCYDPI7QGKL3VCC2U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/V7XWD7XWVZFGTKBLHPRTLHXUSA.jpg?auth=4734fedbd5296e2b6cac4662018331935ef3a7e79f027e5afe56572eea8acccf&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "42分前",
-      "pub_ts": 1776826876.0,
-      "hot": false
-    },
-    {
-      "id": "a95e8c22ba",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "An ‘ordinary’ storm with extraordinary impacts: What made Wellington’s deluge so intense?",
-      "summary": "More than 70mm of rain fell in just an hour in southern Wellington.",
-      "link": "https://www.nzherald.co.nz/nz/an-ordinary-storm-with-extraordinary-impacts-what-made-wellingtons-deluge-so-intense/AHVFIYTB6ZHETJHTTY6BYXJ4LQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/VO3WGCHZHRGQZAAJTRQPDKHOGU.jpg?auth=861ba2eb10e270a3bc5b8b684ef54cdbc7d9a290b9225349927d7ea821b88719&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1776826800.0,
-      "hot": false
-    },
-    {
-      "id": "6ea102ed64",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Christchurch court jails Blair Noble for AI-generated ‘mash up’ of child exploitation material",
-      "summary": "Blair Noble had digitally created the material using AI apps downloaded to his cell phone.",
-      "link": "https://www.nzherald.co.nz/nz/christchurch-court-jails-blair-noble-for-ai-generated-mash-up-of-child-exploitation-material/VPHMRZQQQNBMJMBBAUSQXXG4D4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/LKWZGGCISZF3LEUZEMFWN2AKQ4.jpg?auth=d5e3163e276d773c4ba23c3f87af66e19647937eb91edd35142b098a923d9db2&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1776826800.0,
-      "hot": false
-    },
-    {
-      "id": "44b93fea3a",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Herald afternoon quiz: April 22",
-      "summary": "Test your brain with the Herald's afternoon quiz.",
-      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-april-22/6OIOAY3I5BCHLBTSXUHNLHHLO4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/5M33TK65URAQZMAN3BI3ICHLBU.jpg?auth=cc1293f12ec369d218863c2f9dcbd6b7afb9c8170259e19887f9d05c4b00953b&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1776826800.0,
-      "hot": false
-    },
-    {
-      "id": "ba34ddfad8",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "PM quiz: What was the recent around-the-Moon NASA mission craft named?",
-      "summary": "Stuff afternoon quiz: Apr 22",
-      "link": "https://www.stuff.co.nz/quizzes/360961309/stuff-quiz-afternoon-trivia-challenge-april-22-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYe8JytHDbmjHDqeAXeTO7zHU91oqzdrz4E2LVUrMA2XN2QIjpWlYRRBBCyltiSSiEK6A4bg26s4kIng9LulR6QRrpo39qL57dQXVVfLTJaZtxmanCPGw6KkQpNzblRRTR5JFfbIfy+HOEFUJWJNwbbWybFz0gcM3%2F3S2RawKqYqD9fWT+1eddwwvOePA5U0%2F1Uzp8J27fdi90K4UAm29BnoedyFTb9CdUr5Ia0dj57xOGpl7tS9FbnWu+%2FXt8NeDv1XA3%2F6xXxKWwSS1Is9AK1JiIKyFZt012hr2Tjnmh8uxH2feCx+wKktZiZqxGhelYyN9Y2XwqAzcPyqypBMDEpqA+4MzBJ1cNkFGoiNzJ12JuiVTfe7wAvTRK2YtR+XhHiq1m3PN5tYsA3QydouNjZxzsTtq80ZUNwWSJRmnEBSavUP+Y%2FBtN4028eBwt1amz1Z6ZvB7RHaQVcltpdfPEGE=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1776826800.0,
-      "hot": false
-    },
-    {
-      "id": "781fdd3ef0",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Body found in search for Philip Sutton, missing since Wellington storm",
-      "summary": "Philip Sutton was reported as missing when floodwaters surged through a South Karori Road home.",
-      "link": "https://www.rnz.co.nz/news/weather/593071/body-found-in-search-for-philip-sutton-missing-since-wellington-storm",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1776826325.0,
-      "hot": false
-    },
-    {
-      "id": "717a57c15f",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Body of man who went missing in Wellington floods found",
-      "summary": "Sutton, aged in his 60s, had not been seen since floodwaters tore through the Karori property he was looking after for his sister on Monday.",
-      "link": "https://www.stuff.co.nz/nz-news/360968321/search-resumes-missing-karori-man-after-flood-tore-through-home",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXEUvdjR8xyPpbw2Rgnc36AmyHyRX22W0P+ydj9jR0+0Do5x7vkqXqd1XBHgeaUvkzRJ62nezEBIgnIDJR4SWocly7phDX6b19oFPDCLC8wItS6L0DKsI+J3ft99AtlRe%2FrwA5nm8phlIb6WqyZFZH+mTdstvbGYNaF%2Fn838JOu4%2FGE0Mwp5gCyGRCRXZKjhBzz9PuUfU+FF9CCGruiO2zfXpZ%2F5qAbPSgn8mrpDdm+a0lC17r+CwaBXZLNbg+ldb%2FF9IS7Xk%2Fwh0uYYn8PmIvPaqAHPP3t8UXD6l7wUvYmZT9rjxxuvIrSkePcbAvd59W4Mg9ur1M%2FU6b46Oj0wClq8thaI4XKU9L3RAiLqIzrK9J0LQVRXQlMQk574Ei5DTKK5rJQ21X48xOwliyTAJFgJmkKxPIgXY2JKzV%2F6teDEpRk%2FEPXld4s+H7OkhglBbPcZngK3PRBEJUUPSDD2WXY=?resolution=1240x700",
-      "categories": [
-        "天气"
-      ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1776825915.0,
-      "hot": false
-    },
-    {
-      "id": "32520465f3",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "How Leicester went from Premier League champions to third tier in 10 years",
-      "summary": "It has been argued in some quarters that the drop into the third tier is simply the cycle of football.",
-      "link": "https://www.stuff.co.nz/sport/360968311/how-leicester-went-premier-league-champions-third-tier-10-years",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTaP0IGYjhAf1K7IcD3Kk6HIygcIpBcX11sBCbaZ3CNcAh7hcJ26DqX8i%2FkgxCNEOI6SQJwbKv9ukCCG5SpGpx%2FaKGUX2x373yHW5XrAYU%2FCoNoG47sxtY9Do04xvO%2FjJ65syM1scNJyLt7W%2FqScR1GbrNaup+hRS13UYUC0Dw0gV4s4TQy4wazSw%2FlLeljV0IShmaoVDczTnqdJTx1gJlkZ6krZBsOkwaFeKQUDa0TL3A7xKOlvcpQCJ4B6koXqtInuHBdY2GaKqmdH0gSxMs1hpmcbu02r8IJ3rlbir0v1hH%2FoNRMr0dciMuxiAMQ0FTDmQ7jI6EdXuw%2Fa0eP2ToV9SBS8OnUxbBQOwFTB1hwHOt22FPOZ8Yyw+RotERUZx6WMV70p5FDEWsErV1viNmSOvrQSJg6bKSDx5rCisWjv3yfpHwbtdJvbGWulxaUYRNFaddnzbh4q7lcjSNDE%2FZM=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776825746.0,
-      "hot": false
-    },
-    {
-      "id": "0960210867",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Trump says the US will extend its ceasefire with Iran at Pakistan's request",
-      "summary": "President Donald Trump said Tuesday the United States was indefinitely extending its ceasefire with Iran — a day before it was to expire — as a new round of peace talks was on hold.",
-      "link": "https://www.stuff.co.nz/world-news/360968519/trump-says-us-will-extend-its-ceasefire-iran-pak",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWm+T3DovkeWYuV+pGw2NScDi%2FkzecdvlpEU5U7wSQl+Ghljs3mxgYXq1G03adLjb4b0hULDw%2FjRCwjZG88zQZLVHO3QRBVUQtLGjtZp1PUC4AwOHAk0LsL6GxWByRlmwivFvt%2Fnozah3Xsjohu51s8sMd4daQlP2dHrHtfxYiB2nkNKBwIQLMvJs40CJc96XcVX9l6McGHGkaVLb1R8wlzk4VQvWnnYoWumsYyV6zAdQkxwdc4%2FDaga848xS3B0KiNfaqBZGfc6B9BkH%2Fw4G1zNv97TpBflmCyth8iwn%2F7rHaW0uiD7hEAIGRqL1OXLUfCJNU0qalb+fr5DcU4xj4vULVXDhaG7meVJDvuYV5nN5B9ZF3O1jmwoDxRN4iSNUCgmtdYOnxwVpN1dshBzhcp%2FRqqxTtNduV0nQZ%2FSCzYKp+PBgh1CgOxJJhkZvd8YkfxVDtq3cDItLa6iAvIEjHU=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776825537.0,
-      "hot": false
-    },
-    {
-      "id": "1274dc54b5",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Sorry coeliacs, no more peanut M&Ms for you",
-      "summary": "The candy-covered chocolates have updated their list of ingredients and allergens this month.",
-      "link": "https://www.rnz.co.nz/life/food/sorry-coeliacs-no-more-peanut-m-and-ms-for-you",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776824212.0,
-      "hot": false
-    },
-    {
-      "id": "92d4b47525",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Coalition spat deepens as Christopher Luxon fires back at Winston Peters",
-      "summary": "The prime minister has accused the NZ First leader of \"scaremongering\" after critcism over National's leadership vote.",
-      "link": "https://www.rnz.co.nz/news/political/593093/coalition-spat-deepens-as-christopher-luxon-fires-back-at-winston-peters",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776821682.0,
-      "hot": false
     },
     {
       "id": "ffae0b255e",
@@ -470,7 +470,7 @@
         "政治"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1776820847.0,
       "hot": false
     },
@@ -488,7 +488,7 @@
         "政治"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776818999.0,
       "hot": false
     },
@@ -506,7 +506,7 @@
         "政治"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1776818111.0,
       "hot": false
     },
@@ -523,8 +523,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776816042.0,
       "hot": false
     },
@@ -542,8 +542,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776814080.0,
       "hot": false
     }
