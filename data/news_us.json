@@ -1,44 +1,242 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-23T10:01:08.986776+00:00",
-  "total": 22,
+  "updated_at": "2026-04-23T14:17:00.846161+00:00",
+  "total": 21,
   "articles": [
     {
-      "id": "d67c5e46c6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Senate GOP is kickstarting budget reconciliation to fund ICE. Here's how that works.",
-      "summary": "After a historic partial shutdown of the Department of Homeland Security, Congressional Republicans are looking to a budgetary tool called reconciliation which could enable them to fund immigration en",
-      "link": "https://www.npr.org/2026/04/23/g-s1-118330/congress-dhs-spending-reconciliation",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 80,
-      "ago": "1小时前",
-      "pub_ts": 1776934800.0,
-      "hot": false
-    },
-    {
-      "id": "c4b2a2d6fe",
+      "id": "a4b883ccac",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Senate Adopts G.O.P. Budget, Defeating Democrats’ Affordability Proposals",
+      "title": "Senate Adopts GOP Budget, Laying the Groundwork to Fund ICE and Reopen DHS",
       "summary": "Republicans pushed through a budget plan with a $70 billion increase for immigration enforcement after an overnight session in which they beat back Democratic proposals aimed at lowering costs.",
-      "link": "https://www.nytimes.com/2026/04/23/us/politics/senate-plunges-into-vote-marathon-as-gop-advances-ice-funding-boost.html",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/senate-gop-budget-immigration.html",
       "image": "https://static01.nyt.com/images/2026/03/27/multimedia/22dc-budget-wwk/27trump-news-promo-1015am-wkml-mediumSquareAt3X.jpg",
       "categories": [
         "移民",
         "科技"
       ],
+      "score": 80,
+      "ago": "39分前",
+      "pub_ts": 1776951436.0,
+      "hot": false
+    },
+    {
+      "id": "04ffc7cb39",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Senate GOP is kickstarting budget reconciliation to fund ICE. Here's how that works",
+      "summary": "After a historic partial shutdown of Homeland Security, congressional Republicans are looking to a budgetary tool that could enable them to fund immigration enforcement agencies without Democratic sup",
+      "link": "https://www.npr.org/2026/04/23/g-s1-118330/congress-dhs-spending-reconciliation",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
       "score": 75,
+      "ago": "5小时前",
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "105de710d4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Generals Who Are Now Running Iran",
+      "summary": "The killing of Ayatollah Ali Khamenei ushered in a new form of collective leadership in the country, with more power for the Revolutionary Guards.",
+      "link": "https://www.nytimes.com/2026/04/23/world/middleeast/iran-new-leadership-generals.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-iran-leaders-1-bmth/23int-iran-leaders-1-bmth-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1776952536.0,
+      "hot": false
+    },
+    {
+      "id": "670c02624c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Combative, Defensive and Occasionally Contrite, Kennedy Walks a Fine Line",
+      "summary": "In four days of congressional testimony, the health secretary sought to please the White House and his MAHA base at the same time.",
+      "link": "https://www.nytimes.com/2026/04/22/us/politics/rfk-vaccines-measles-testimony.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-rfk-lgcm/22dc-rfk-lgcm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1776950651.0,
+      "hot": false
+    },
+    {
+      "id": "0c149d78e0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "An Independent Senate Hopeful Tries to Scare Off Montana Democrats",
+      "summary": "Seth Bodnar, an independent, could have the best chance of breaking the Republican stranglehold in Montana, but the state’s Democrats are choosing to fight.",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/seth-bodnar-montana-senate.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23nat-montana-senate-01-tczf/23nat-montana-senate-01-tczf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1776950426.0,
+      "hot": false
+    },
+    {
+      "id": "4a8966245d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Candidates for California Governor Debate: 5 Takeaways",
+      "summary": "The nonpartisan primary remains volatile after the departure of Eric Swalwell. A televised debate featured six leading candidates, but produced few fireworks.",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/california-governor-debate-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23california-govenor-debate-wbgl-copy/23california-govenor-debate-wbgl-copy-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776947482.0,
+      "hot": false
+    },
+    {
+      "id": "37abdb0fd3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "House Republicans Ask ActBlue C.E.O., Regina Wallace-Jones, to Testify",
+      "summary": "The request is a significant escalation of G.O.P. pressure on the liberal fund-raising organization over its vetting of donations.",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/actblue-republicans-regina-wallace-jones.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/pol-actblue-vftc/pol-actblue-vftc-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776947405.0,
+      "hot": false
+    },
+    {
+      "id": "ddb914bb92",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Tensions rise in two ceasefires in the Middle East. And, the Navy secretary ousted",
+      "summary": "Tensions are rising in the Middle East as shaky ceasefire agreements between the U.S., Israel and Iran, and Lebanon and Israel, are tested. And, the Secretary of the Navy is out of the role.",
+      "link": "https://www.npr.org/2026/04/23/g-s1-118440/up-first-newsletter-us-iran-john-phelan-trump-republican-democrat-midterm-fundraising-budget-reconciliation-ice",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1776930205.0,
+      "pub_ts": 1776944230.0,
+      "hot": false
+    },
+    {
+      "id": "9b7e357a05",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The U.S. seizes another oil tanker as peace talks with Iran remain in limbo",
+      "summary": "President Trump says he ordered the Navy to \"shoot and kill any boat\" putting mines in the Strait of Hormuz as the U.S. ramps up minesweeping there.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776943841.0,
+      "hot": false
+    },
+    {
+      "id": "2ab9fec46c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Two startlingly different views on long-awaited data on America's anti-HIV efforts",
+      "summary": "After a year without data, the State Department released figures on PEPFAR, the program launched by George W. Bush and credited with saving millions of lives. How did Trump's aid cuts affect it?",
+      "link": "https://www.npr.org/2026/04/23/g-s1-118221/hiv-aids-pepfar-trump-foreign-aid",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776941472.0,
+      "hot": false
+    },
+    {
+      "id": "8bf113f478",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Peace talks between U.S. and Iran at a standstill as Trump extends ceasefire",
+      "summary": "President Trump has extended the ceasefire, but Iran says it's not enough if the naval blockade is still in place.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776941386.0,
+      "hot": false
+    },
+    {
+      "id": "7acb87313a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who Is Running Iran, and How Doctors Cashed In on a Consumer Protection Law",
+      "summary": "Plus, the Labubus linked to forced labor.",
+      "link": "https://www.nytimes.com/2026/04/23/podcasts/the-headlines/iran-breast-reductions.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23theheadlines23int-iran-leaders-1-bmth-copy/23theheadlines23int-iran-leaders-1-bmth-copy-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776938410.0,
+      "hot": false
+    },
+    {
+      "id": "53733acfc4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Sycophantic AI flatters and suggests you are not to blame",
+      "summary": "The AI models and chatbots that we interact with tend to affirm our feelings and viewpoints — more so than people do, with potentially worrisome consequences.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5792867/ai-chatbot-flattery-mental-health-risks",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776938400.0,
       "hot": false
     },
     {
@@ -54,8 +252,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "a1671e9e72",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "4 charts show where money is going in the midterms -- and who has the most cash",
+      "summary": "The latest campaign finance reports show Democratic enthusiasm in key House and Senate races, but national Republican groups have far more in the bank to potentially spend down the road.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5795841/democrats-senate-fundraising-republican-maga-cash-on-hand-campaign-finance",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776934800.0,
       "hot": false
     },
@@ -63,35 +279,17 @@
       "id": "6e20797d4b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "World Press Photo announces Photo of the Year 2026",
-      "summary": "The executive director of World Press Photo said this image shows the inconsolable grief of children losing their father in a place built for justice. It is a stark and necessary record of family sepa",
+      "summary": "The executive director of World Press Photo said the image shows the inconsolable grief of children losing their father in a place built for justice. It is a stark and necessary record of family separ",
       "link": "https://www.npr.org/sections/the-picture-show/2026/04/23/nx-s1-5793922/world-press-photo-announces-photo-of-the-year-2026",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776934800.0,
-      "hot": false
-    },
-    {
-      "id": "c7eac76b79",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Democrats dominate midterm fundraising, but Republicans have a huge cash advantage",
-      "summary": "The latest campaign finance reports show Democratic enthusiasm in key House and Senate races, but national Republican groups have far more in the bank to potentially spend down the road.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5795841/democrats-senate-fundraising-republican-maga-cash-on-hand-campaign-finance",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776934800.0,
       "hot": false
     },
@@ -108,8 +306,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776933951.0,
       "hot": false
     },
@@ -126,8 +324,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1776933947.0,
       "hot": false
     },
@@ -144,46 +342,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776933887.0,
-      "hot": false
-    },
-    {
-      "id": "f5b4b80a76",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "After being held up for months, Ukraine set to get $100B loan from EU",
-      "summary": "Taking advantage of the electoral defeat of Hungary's Viktor Orban, European Union countries have moved to approve a $100 billion loan to Ukraine.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5795803/after-being-held-up-for-months-ukraine-set-to-get-100b-loan-from-eu",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776933873.0,
-      "hot": false
-    },
-    {
-      "id": "f9593ecbab",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump administration flies 10-year-old back from Cuba amid custody fight",
-      "summary": "President Trump's Department of Justice sent a plane this week to Cuba to return a 10-year-old from Utah who is at the center of a custody fight involving the child's gender identity.",
-      "link": "https://www.npr.org/2026/04/23/g-s1-118427/trump-administration-child-cuba",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776925159.0,
+      "ago": "5小时前",
+      "pub_ts": 1776933887.0,
       "hot": false
     },
     {
@@ -199,189 +360,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776920558.0,
-      "hot": false
-    },
-    {
-      "id": "c741a692a1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "War in Iran Gives New Fuel to a Tax Debate in Australia",
-      "summary": "The world’s third-largest exporter of natural gas, Australia has been too lenient in taxing lucrative gas exports, many in the country argue.",
-      "link": "https://www.nytimes.com/2026/04/23/world/asia/iran-australia-natural-gas-tax.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-oz-gas-tax-01-zbht/23int-oz-gas-tax-01-zbht-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776916865.0,
-      "hot": false
-    },
-    {
-      "id": "670c02624c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Combative, Defensive and Occasionally Contrite, Kennedy Walks a Fine Line",
-      "summary": "In four days of congressional testimony, the health secretary sought to please the White House and his MAHA base at the same time.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/rfk-vaccines-measles-testimony.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-rfk-lgcm/22dc-rfk-lgcm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776909795.0,
-      "hot": false
-    },
-    {
-      "id": "8d28a4f923",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Chemical leak at a W.Va. plant kills 2 people, sends 30 more to hospitals, officials say",
-      "summary": "The leak occurred at the Catalyst Refiners plant, a silver recovery business. An emergency management official says workers were preparing to shut down at least part of the facility when the leak occu",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118416/chemical-leak-west-virginia-institute",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 60,
       "ago": "9小时前",
-      "pub_ts": 1776904610.0,
-      "hot": false
-    },
-    {
-      "id": "c6f22e3013",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Pentagon says Navy secretary is leaving, the latest departure of a top defense leader",
-      "summary": "Pentagon spokesman Sean Parnell said John Phelan, the Navy's top civilian official, was \"departing the administration, effective immediately.\" Navy Undersecretary Hung Cao will become acting secretary",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118406/navy-secretary-john-phelan-leaving-undersecretary-hung-cao",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776900641.0,
-      "hot": false
-    },
-    {
-      "id": "a3a5609557",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Tesla's making money. But it's planning to spend an awful lot more",
-      "summary": "Tesla's profits were up from this time last year. But the company warned investors to prepare for expensive investments in next-generation technology like humanoid robots and AI.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5791653/tesla-earnings-first-quarter-2026",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776900223.0,
-      "hot": false
-    },
-    {
-      "id": "5d30855ae4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How the War Powers Act Could Pressure Trump to End the Iran War",
-      "summary": "A decades-old law allows the president to wage war without congressional approval for 60 days, then limits his options for continuing. President Trump may seek to get around it.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/war-powers-act-explanation.html",
-      "image": "https://static01.nyt.com/images/2026/04/21/multimedia/21dc-warpowers-jpfw/21dc-warpowers-jpfw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776894234.0,
-      "hot": false
-    },
-    {
-      "id": "9c326b4a28",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "F.B.I. Said to Have Investigated Times Reporter After Article on Patel’s Girlfriend",
-      "summary": "The bureau said it is not pursuing a case, but the scrutiny is an example of the Trump administration weighing whether to criminalize routine news gathering.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/fbi-times-reporter.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-patel-top-ltgk/22dc-patel-top-ltgk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776893194.0,
-      "hot": false
-    },
-    {
-      "id": "01f795e8b3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "RFK Jr. Says His Department Advises All Children to Get Measles Vaccine",
-      "summary": "Testifying on Capitol Hill, Robert F. Kennedy Jr. continued to back away from his criticism of the measles shot. But he spoke on behalf of his department, not himself.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/kennedy-measles-vaccine.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-rfk-measles-qjfg/22dc-rfk-measles-qjfg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776890604.0,
-      "hot": false
-    },
-    {
-      "id": "3f90541f19",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran Again Tightens Its Grip on Shipping in the Strait of Hormuz",
-      "summary": "Traffic in the strait has all but halted as Iran renews its attacks, striking two vessels on Wednesday. More than 300 ships linked to Iran have passed through the strait since the war began.",
-      "link": "https://www.nytimes.com/2026/04/22/business/strait-of-hormuz-traffic-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22biz-iran-ship-count-wlpj/22biz-iran-ship-count-wlpj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1776890533.0,
-      "hot": false
-    },
-    {
-      "id": "79a116da1f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iranians are leaving the country just to access the internet",
-      "summary": "Iran has cut off its access to the global internet. To find an internet connection, some Iranians are traveling across the border with Turkey — even just to make video calls and then go back home.",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118339/iran-internet-access-turkey",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1776870729.0,
+      "pub_ts": 1776920558.0,
       "hot": false
     },
     {
