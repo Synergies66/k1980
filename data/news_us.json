@@ -1,43 +1,26 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-23T03:50:31.064891+00:00",
+  "updated_at": "2026-04-23T06:20:26.761407+00:00",
   "total": 24,
   "articles": [
     {
-      "id": "f8cc0b70fe",
+      "id": "0933ad2c4a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Iran Says It Seized Two Ships",
-      "summary": "Also, China quietly builds an island in disputed waters. Here’s the latest at the end of Wednesday.",
-      "link": "https://www.nytimes.com/2026/04/22/briefing/iran-says-it-seized-two-ships.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22evening-nl-iran-hormuz-still/22evening-nl-iran-hormuz-still-mediumSquareAt3X.jpg",
+      "title": "Senate Plunges Into Vote Marathon as G.O.P. Advances ICE Funding Boost",
+      "summary": "Republicans pressed to pass a budget plan with a $70 billion increase for immigration enforcement. But first, in an overnight session, they beat back Democratic proposals aimed at lowering costs.",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/senate-plunges-into-vote-marathon-as-gop-advances-ice-funding-boost.html",
+      "image": "https://static01.nyt.com/images/2026/03/27/multimedia/22dc-budget-wwk/27trump-news-promo-1015am-wkml-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "移民",
+        "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1776895076.0,
-      "hot": false
-    },
-    {
-      "id": "670c02624c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Combative, Defensive and Occasionally Contrite, Kennedy Walks a Fine Line",
-      "summary": "In four days of congressional testimony, the health secretary sought to please the White House and his MAHA base at the same time.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/rfk-vaccines-measles-testimony.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-rfk-lgcm/22dc-rfk-lgcm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
+      "score": 80,
       "ago": "1小时前",
-      "pub_ts": 1776909795.0,
+      "pub_ts": 1776918289.0,
       "hot": false
     },
     {
@@ -53,27 +36,45 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776908088.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776920558.0,
       "hot": false
     },
     {
-      "id": "5e13636404",
+      "id": "c741a692a1",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Not a Deal-Breaker: White House Downplays Iranian Action Near the Strait",
-      "summary": "President Trump’s threats have given way (for the moment, at least) to a more conciliatory tone about Iran’s actions in the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/2026/04/22/us/politics/trump-iran-strait-of-hormuz-ships.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-trump-lfjk/22dc-trump-lfjk-mediumSquareAt3X.jpg",
+      "title": "War in Iran Gives New Fuel to a Tax Debate in Australia",
+      "summary": "The world’s third-largest exporter of natural gas, Australia has been too lenient in taxing lucrative gas exports, many in the country argue.",
+      "link": "https://www.nytimes.com/2026/04/23/world/asia/iran-australia-natural-gas-tax.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23int-oz-gas-tax-01-zbht/23int-oz-gas-tax-01-zbht-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "经济"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1776907863.0,
+      "pub_ts": 1776916864.0,
+      "hot": false
+    },
+    {
+      "id": "670c02624c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Combative, Defensive and Occasionally Contrite, Kennedy Walks a Fine Line",
+      "summary": "In four days of congressional testimony, the health secretary sought to please the White House and his MAHA base at the same time.",
+      "link": "https://www.nytimes.com/2026/04/22/us/politics/rfk-vaccines-measles-testimony.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/multimedia/22dc-rfk-lgcm/22dc-rfk-lgcm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776909795.0,
       "hot": false
     },
     {
@@ -90,7 +91,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1776904610.0,
       "hot": false
     },
@@ -107,8 +108,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776900641.0,
       "hot": false
     },
@@ -125,8 +126,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776900223.0,
       "hot": false
     },
@@ -144,7 +145,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776894234.0,
       "hot": false
     },
@@ -162,7 +163,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1776893194.0,
       "hot": false
     },
@@ -180,7 +181,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776890604.0,
       "hot": false
     },
@@ -198,7 +199,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776890533.0,
       "hot": false
     },
@@ -216,7 +217,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1776879129.0,
       "hot": false
     },
@@ -235,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "14小时前",
       "pub_ts": 1776871312.0,
       "hot": false
     },
@@ -253,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1776870729.0,
       "hot": false
     },
@@ -271,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1776870004.0,
       "hot": false
     },
@@ -289,7 +290,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1776869192.0,
       "hot": false
     },
@@ -307,7 +308,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "16小时前",
       "pub_ts": 1776865602.0,
       "hot": false
     },
@@ -325,7 +326,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1776858618.0,
       "hot": false
     },
@@ -343,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1776855239.0,
       "hot": false
     },
@@ -360,8 +361,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776835448.0,
       "hot": false
     },
@@ -378,8 +379,8 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776835408.0,
       "hot": false
     },
