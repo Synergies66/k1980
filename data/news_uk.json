@@ -1,9 +1,65 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-22T21:27:13.711231+00:00",
-  "total": 29,
+  "updated_at": "2026-04-23T03:55:06.527973+00:00",
+  "total": 30,
   "articles": [
+    {
+      "id": "afa7278c49",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "中國一遊客死於英國村莊，警方稱「可能曾捲入衝突」",
+      "summary": "警方最初表示，相信該名男子在斯特拉斯佩弗（Strathpeffer）身亡一事屬於醫療事件。",
+      "link": "https://www.bbc.com/zhongwen/articles/c3w3v1yx85po/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/00a0/live/a3779360-3e29-11f1-8ba5-cfdd8d3337ac.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "18分前",
+      "pub_ts": 1776915397.0,
+      "hot": false
+    },
+    {
+      "id": "01c5ced5b7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "中國挺過了特朗普關稅，但現在伊朗戰爭的影響來了",
+      "summary": "中東的衝突正對中國以出口為導向的經濟造成衝擊，為工廠訂單、成本和就業帶來壓力。",
+      "link": "https://www.bbc.com/zhongwen/articles/ckg9q1zvg15o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/411e/live/38447e10-3e73-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "30分前",
+      "pub_ts": 1776914659.0,
+      "hot": false
+    },
+    {
+      "id": "55d9ee1159",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "China weathered Trump's tariffs - but the Iran war is taking a toll",
+      "summary": "The Middle East conflict is putting pressure on factory orders, costs and jobs in China's export-driven economy.",
+      "link": "https://www.bbc.com/news/articles/cn0ep28drllo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/411e/live/38447e10-3e73-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "经济",
+        "华人",
+        "天气"
+      ],
+      "score": 72,
+      "ago": "6小时前",
+      "pub_ts": 1776893005.0,
+      "hot": false
+    },
     {
       "id": "17107c3744",
       "type": "news",
@@ -17,117 +73,27 @@
       "categories": [
         "政治"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1776881520.0,
       "hot": false
     },
     {
-      "id": "9302511d24",
+      "id": "15e3d20666",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "PM's ex-chief of staff to give evidence on Mandelson vetting",
-      "summary": "The prime minister's former chief of staff will face questions about his role in the appointment of Lord Mandelson.",
-      "link": "https://www.bbc.com/news/articles/c5yjl1pmv55o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a03e/live/7dc5fd00-3e4c-11f1-bb02-b7764f8dd2b3.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1776892256.0,
-      "hot": false
-    },
-    {
-      "id": "1db32663c0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "More arrests over alleged Jewish site arson plot",
-      "summary": "Two men are held over an alleged plan to commit arson at a site connected to the Jewish community.",
-      "link": "https://www.bbc.com/news/articles/ckgej0x3lrdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8936/live/faf5cae0-dcbc-11f0-a8dc-93c15fe68710.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1776891924.0,
-      "hot": false
-    },
-    {
-      "id": "e41c928384",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Stars line red carpet at London premiere of Devil Wears Prada 2",
-      "summary": "Meryl Streep, Anne Hathaway, Stanley Tucci and Emily Blunt were among the actors who appeared on the red carpet.",
-      "link": "https://www.bbc.com/news/articles/cvgk9lpg002o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9f5/live/391d4550-3e88-11f1-8b47-adc79d9a5dfc.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1776890078.0,
-      "hot": false
-    },
-    {
-      "id": "748a6c89a4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'I can't stop using it' - under-16s have their say on possible social media ban",
-      "summary": "Thirty three children discussed possible limits the government are considering on social media.",
-      "link": "https://www.bbc.com/news/articles/cm2934ep3zro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/33ab/live/715f2480-3e81-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776888824.0,
-      "hot": false
-    },
-    {
-      "id": "91d2100672",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "'It's like someone waved a magic wand': Girl, 6, has sight restored by gene therapy",
-      "summary": "Saffie's mum says Luxturna therapy at Great Ormond Street has been like \"someone waved a magic wand\".",
-      "link": "https://www.bbc.com/news/articles/ce35x8759zzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6db1/live/90ebb190-3e74-11f1-b55d-0f258dce1735.jpg",
+      "title": "US Navy chief leaving post 'effective immediately', Pentagon says",
+      "summary": "US Navy Secretary John Phelan is the latest high-ranking military leader to leave the administration in recent months.",
+      "link": "https://www.bbc.com/news/articles/ce9ml02g5k7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f488/live/9ec92710-3e98-11f1-a4f7-2909a7c81847.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776886295.0,
-      "hot": false
-    },
-    {
-      "id": "5c678b4c69",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Girl, 6, has sight restored through gene therapy",
-      "summary": "Saffie's mum says Luxturna therapy at Great Ormond Street has been like \"someone waved a magic wand\".",
-      "link": "https://www.bbc.com/news/articles/ce35x8759zzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6db1/live/90ebb190-3e74-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776886295.0,
+      "pub_ts": 1776909380.0,
       "hot": false
     },
     {
@@ -144,7 +110,7 @@
         "政治"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1776844737.0,
       "hot": false
     },
@@ -162,7 +128,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "20小时前",
       "pub_ts": 1776842151.0,
       "hot": false
     },
@@ -180,7 +146,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1776840656.0,
       "hot": false
     },
@@ -198,26 +164,174 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "21小时前",
       "pub_ts": 1776837836.0,
       "hot": false
     },
     {
-      "id": "6dabe73e42",
+      "id": "34438df716",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "伊朗戰事迫使航班改道，機票價格飆升近25%",
-      "summary": "研究顯示，伊朗戰爭衝突所引發的空域限制推高了機票的價格。",
-      "link": "https://www.bbc.com/zhongwen/articles/cde50p32wkdo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1062/live/da6149f0-3d90-11f1-92be-b5fcda70efcc.jpg",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'My instinct was to help him': Runners help exhausted man finish Boston Marathon",
+      "summary": "The BBC spoke to Boston marathon runner, Ajay Haridasse, who was helped over the finish line by two strangers.",
+      "link": "https://www.bbc.com/news/videos/cj0v65l4y9yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3afb/live/77edd1a0-3e56-11f1-ac78-2112837ce2aa.png",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "16小时前",
-      "pub_ts": 1776833921.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776907995.0,
+      "hot": false
+    },
+    {
+      "id": "09c33f01b0",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches",
+      "summary": "Iran's chief negotiator says \"violations\" by the US and Israel make it impossible to open the strait.",
+      "link": "https://www.bbc.com/news/articles/c3w3vqv0edpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/87cc/live/970c5e30-3e97-11f1-a4f7-2909a7c81847.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1776906559.0,
+      "hot": false
+    },
+    {
+      "id": "3b14e94265",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'My baby scratches and scratches': Families say their homes are making their children sick",
+      "summary": "A cross-party report has called for safer conditions for the record number of families living in temporary accommodation.",
+      "link": "https://www.bbc.com/news/articles/cm2r70gwkjjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0355/live/a8569540-3e6d-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776904510.0,
+      "hot": false
+    },
+    {
+      "id": "1310fe445b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Fairway or driveway? Why golf courses are in the crosshairs of Britain's housing crisis",
+      "summary": "Are golf courses the right places to build housing, or are they simply a soft target?",
+      "link": "https://www.bbc.com/news/articles/ce8jjne5ereo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9c0e/live/9973aee0-3ca2-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776904277.0,
+      "hot": false
+    },
+    {
+      "id": "0e838238e9",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Riot police to deploy on French beaches under new deal to stop illegal Channel migrant crossings",
+      "summary": "The three-year agreement will see at least 50 riot-trained police officers drafted in to tackle violence and “hostile crowds”.",
+      "link": "https://www.bbc.com/news/articles/cz0ev7enk2lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55cc/live/a0a94e00-3e72-11f1-8f78-2b3776d2d1d0.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776904018.0,
+      "hot": false
+    },
+    {
+      "id": "dccbdbb6be",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "UK and France strike new £662m small boats deal",
+      "summary": "The three-year agreement will see at least 50 riot-trained police officers drafted in to tackle violence and “hostile crowds”.",
+      "link": "https://www.bbc.com/news/articles/cz0ev7enk2lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/55cc/live/a0a94e00-3e72-11f1-8f78-2b3776d2d1d0.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776904018.0,
+      "hot": false
+    },
+    {
+      "id": "2291dfcec1",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Ban 'forever chemicals' in uniforms and frying pans, MPs urge",
+      "summary": "School uniforms and non-stick pans are some of the everyday products that should stop using chemicals called PFAS, MPs say.",
+      "link": "https://www.bbc.com/news/articles/ckg98q1yx9vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba3e/live/5fbcb360-3e3f-11f1-bb02-b7764f8dd2b3.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776899484.0,
+      "hot": false
+    },
+    {
+      "id": "caf652f18e",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "One person diagnosed with cancer every 80 seconds in UK, report reveals",
+      "summary": "NHS struggling to cope with record numbers, which Cancer Research UK says puts progress on survival rates at riskThe number of people in the UK being diagnosed with cancer has reached a record high, w",
+      "link": "https://www.theguardian.com/society/2026/apr/23/one-person-diagnosed-with-cancer-every-80-seconds-in-uk-report-reveals",
+      "image": "https://i.guim.co.uk/img/media/dd8b078db8c3d975b15ca1b697c805eaf608a192/230_0_3333_2667/master/3333.jpg?width=140&quality=85&auto=format&fit=max&s=4ef98f38f4c778416f19eff8a360aecc",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776898899.0,
+      "hot": false
+    },
+    {
+      "id": "0fc02eb9f2",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "AI is flattening the jobs market for young people, says Sunak",
+      "summary": "The former prime minister said graduates' concerns about getting entry-level jobs are justified.",
+      "link": "https://www.bbc.com/news/articles/cvg07x4rejdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/268a/live/6167f5f0-3e8d-11f1-93dd-c79ff08bbda8.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1776898869.0,
       "hot": false
     },
     {
@@ -233,155 +347,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "18小时前",
-      "pub_ts": 1776828385.0,
-      "hot": false
-    },
-    {
-      "id": "f2783703c4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Analysis: Unhappy Labour MPs aren't ready to oust Starmer yet",
-      "summary": "Labour MPs say that while the prime minister is unpopular, a contest is unlikely as there isn't a candidate ready to replace him.",
-      "link": "https://www.bbc.com/news/articles/c78lp5jw8yxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/45d5/live/c37c3a30-3e6a-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776882217.0,
-      "hot": false
-    },
-    {
-      "id": "8b94fb9d61",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘Impossible’ to reopen strait of Hormuz amid ‘flagrant’ ceasefire breaches, Iran says",
-      "summary": "Iranian forces seize two ships in critical waterway as Washington and Tehran maintain separate blockadesMiddle East crisis – live updatesIranian forces have seized two ships in the strait of Hormuz as",
-      "link": "https://www.theguardian.com/world/2026/apr/22/iranian-forces-ships-seized-strait-of-hormuz-us-peace-talks",
-      "image": "https://i.guim.co.uk/img/media/4704403f9136cd917235d847d43e017ca99fc8a3/459_0_4599_3678/master/4599.jpg?width=140&quality=85&auto=format&fit=max&s=59f330cd2959378f04fd39ab34743630",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776879086.0,
-      "hot": false
-    },
-    {
-      "id": "104ed3362f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "No one can look Starmer in the eye … and the Mandy saga is not going away | John Crace",
-      "summary": "The PM’s failure was being a spectator as Morgan McSweeney set about finding jobs for his matesThis is the end, beautiful friend. It is the tragedy of almost all prime ministers that they are the last",
-      "link": "https://www.theguardian.com/politics/2026/apr/22/no-one-can-look-starmer-in-the-eye-and-the-mandy-saga-is-not-going-away",
-      "image": "https://i.guim.co.uk/img/media/489c8d55674d1c6b6556253c13e3559007f8cc67/0_0_5084_4068/master/5084.jpg?width=140&quality=85&auto=format&fit=max&s=757a928fb2c1129be8b78ef7039b4da5",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776874882.0,
-      "hot": false
-    },
-    {
-      "id": "7918ab7f33",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "US and Iran in blockade standoff as Pakistan pushes for talks",
-      "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
-      "link": "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dcd5/live/3a8762d0-3e6b-11f1-91e9-e97dba847610.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776874776.0,
-      "hot": false
-    },
-    {
-      "id": "345fe2ddc0",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Weekly bread rolls and an Irish bender: six readers on gestures that made them feel less lonely",
-      "summary": "We know what can cause loneliness, from online habits to other cultural shifts – but what makes us feel connected and cared for?The rise of social media, disappearing third spaces, displeasure with da",
-      "link": "https://www.theguardian.com/wellness/2026/apr/22/six-readers-on-gestures-to-feel-less-lonely",
-      "image": "https://i.guim.co.uk/img/media/12aced9f375f1c198da142b8399fca0c93f12e5d/0_357_5629_4504/master/5629.jpg?width=140&quality=85&auto=format&fit=max&s=8dd211fabac604b7a404648bb5379ba6",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776873630.0,
-      "hot": false
-    },
-    {
-      "id": "0581dabc07",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Black children eight times more likely to be strip searched by police, report says",
-      "summary": "A new report says while the number of strip searches has decreased, ethnic disparities in their use persist.",
-      "link": "https://www.bbc.com/news/articles/cn8de0dg5j9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dbae/live/d6b14920-3e73-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776873322.0,
-      "hot": false
-    },
-    {
-      "id": "76d9d1d191",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary": "Iran’s goal is to maintain chokehold on the global economy, even as some say it could run out of oil storage by SundayMiddle East crisis – live updatesDonald Trump’s indefinite shelving of the plan to",
-      "link": "https://www.theguardian.com/world/2026/apr/22/strait-of-hormuz-gunboat-diplomacy-us-iran-blockade",
-      "image": "https://i.guim.co.uk/img/media/2164f5c6d600dca7e64607feeb7f19498a029558/213_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=94873e1eaf250a7c1a256eb0c5a73964",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776872893.0,
-      "hot": false
-    },
-    {
-      "id": "e0680d1e74",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "霍爾木茲海峽：海上封鎖真的有用嗎？",
-      "summary": "美國宣布的封鎖決定，使戰爭時期最古老的脅迫手段之一——切斷海上航線以削弱經濟、擾亂貿易並迫使對手改變策略或讓步——再次成為焦點。",
-      "link": "https://www.bbc.com/zhongwen/articles/c5y7dge2513o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7f68/live/4f23d930-3d30-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 63,
       "ago": "昨日",
-      "pub_ts": 1776743725.0,
+      "pub_ts": 1776828385.0,
       "hot": false
     },
     {
@@ -398,44 +366,136 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1776735445.0,
       "hot": false
     },
     {
-      "id": "cbb16c9d90",
+      "id": "a66bd1a4b2",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Husband cleared of manslaughter over wife's suicide",
-      "summary": "Christopher Trybus is found not guilty of the manslaughter of Tarryn Baird after a five-week trial.",
-      "link": "https://www.bbc.com/news/articles/cqxl98zvvw5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5d1b/live/d3f3c4a0-1322-11f1-8080-b36026ca95b4.jpg",
+      "title": "Pet owners hit with steep bills after EU passport rule change",
+      "summary": "Rule change affects dogs, cats and ferrets, with some owners telling the BBC new health certificates cost hundreds of pounds.",
+      "link": "https://www.bbc.com/news/articles/cx2d9m3mgx3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bd53/live/de58e5e0-3e80-11f1-8e85-4f9fd1c65732.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1776868613.0,
+      "pub_ts": 1776894506.0,
       "hot": false
     },
     {
-      "id": "34438df716",
+      "id": "9302511d24",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "'My instinct was to help him': Runners help exhausted man finish Boston Marathon",
-      "summary": "After almost three hours on their feet and the finish line in sight, two runners sacrificed personal bests to come to the rescue of an exhausted competitor at the Boston Marathon.",
-      "link": "https://www.bbc.com/news/videos/cj0v65l4y9yo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3afb/live/77edd1a0-3e56-11f1-ac78-2112837ce2aa.png",
+      "title": "PM's ex-chief of staff to give evidence on Mandelson vetting",
+      "summary": "The prime minister's former chief of staff will face questions about his role in the appointment of Lord Mandelson.",
+      "link": "https://www.bbc.com/news/articles/c5yjl1pmv55o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a03e/live/7dc5fd00-3e4c-11f1-bb02-b7764f8dd2b3.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776892256.0,
+      "hot": false
+    },
+    {
+      "id": "ad13edac12",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two more arrests over alleged arson plot on Jewish site",
+      "summary": "Two men are held over an alleged plan to commit arson at a site connected to the Jewish community.",
+      "link": "https://www.bbc.com/news/articles/ckgej0x3lrdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8936/live/faf5cae0-dcbc-11f0-a8dc-93c15fe68710.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776891924.0,
+      "hot": false
+    },
+    {
+      "id": "e41c928384",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Stars line red carpet at London premiere of Devil Wears Prada 2",
+      "summary": "Meryl Streep, Anne Hathaway, Stanley Tucci and Emily Blunt were among the actors who appeared on the red carpet.",
+      "link": "https://www.bbc.com/news/articles/cvgk9lpg002o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e9f5/live/391d4550-3e88-11f1-8b47-adc79d9a5dfc.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1776867744.0,
+      "pub_ts": 1776890078.0,
+      "hot": false
+    },
+    {
+      "id": "104ed3362f",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "No one can look Starmer in the eye … and the Mandy saga is not going away | John Crace",
+      "summary": "The PM’s failure was being a spectator as Morgan McSweeney set about finding jobs for his matesThis is the end, beautiful friend. It is the tragedy of almost all prime ministers that they are the last",
+      "link": "https://www.theguardian.com/politics/2026/apr/22/no-one-can-look-starmer-in-the-eye-and-the-mandy-saga-is-not-going-away",
+      "image": "https://i.guim.co.uk/img/media/489c8d55674d1c6b6556253c13e3559007f8cc67/0_0_5084_4068/master/5084.jpg?width=140&quality=85&auto=format&fit=max&s=757a928fb2c1129be8b78ef7039b4da5",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1776874882.0,
+      "hot": false
+    },
+    {
+      "id": "345fe2ddc0",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Weekly bread rolls and an Irish bender: six readers on gestures that made them feel less lonely",
+      "summary": "We know what can cause loneliness, from online habits to other cultural shifts – but what makes us feel connected and cared for?The rise of social media, disappearing third spaces, displeasure with da",
+      "link": "https://www.theguardian.com/wellness/2026/apr/22/six-readers-on-gestures-to-feel-less-lonely",
+      "image": "https://i.guim.co.uk/img/media/12aced9f375f1c198da142b8399fca0c93f12e5d/0_357_5629_4504/master/5629.jpg?width=140&quality=85&auto=format&fit=max&s=8dd211fabac604b7a404648bb5379ba6",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1776873630.0,
+      "hot": false
+    },
+    {
+      "id": "76d9d1d191",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary": "Iran’s goal is to maintain chokehold on the global economy, even as some say it could run out of oil storage by SundayMiddle East crisis – live updatesDonald Trump’s indefinite shelving of the plan to",
+      "link": "https://www.theguardian.com/world/2026/apr/22/strait-of-hormuz-gunboat-diplomacy-us-iran-blockade",
+      "image": "https://i.guim.co.uk/img/media/2164f5c6d600dca7e64607feeb7f19498a029558/213_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=94873e1eaf250a7c1a256eb0c5a73964",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1776872893.0,
       "hot": false
     },
     {
@@ -452,7 +512,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1776866427.0,
       "hot": false
     },
@@ -470,7 +530,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1776866426.0,
       "hot": false
     },
@@ -489,45 +549,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1776863594.0,
-      "hot": false
-    },
-    {
-      "id": "299a109f12",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "This Is a Gardening Show review – Zach Galifianakis’ charming new series feels like perfect TV",
-      "summary": "Part lesson, part lark, these 15-minute episodes are a total joy. They have such a deliriously light touch they will make you want to run outside and plunge your hands into the soilThis might sound li",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/22/this-is-a-gardening-show-review-zach-galifianakis-netflix",
-      "image": "https://i.guim.co.uk/img/media/f6cd708fb64fc1d63964230b69b32b978eced51c/306_0_2700_2160/master/2700.jpg?width=140&quality=85&auto=format&fit=max&s=5db632c460dcd590f67e9c966b13d319",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776855964.0,
-      "hot": false
-    },
-    {
-      "id": "8e4a6b6cc1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "UK set for Lyrid meteor shower display with clear skies forecast",
-      "summary": "The Lyrid meteor shower is the oldest recorded and Wednesday brings near perfect weather conditions to see them as they peak. Simon King explains.",
-      "link": "https://www.bbc.com/weather/articles/cede7gpjn85o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e0c4/live/881d9100-3e79-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776846952.0,
       "hot": false
     }
   ]
