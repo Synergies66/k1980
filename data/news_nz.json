@@ -1,81 +1,411 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-23T14:13:40.238109+00:00",
+  "updated_at": "2026-04-23T17:47:58.953395+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "a2cc04b9c3",
+      "id": "b6ad8b524f",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "NZ Herald",
       "lang": "en",
-      "title": "Accused Australian war criminal Ben Roberts-Smith vacated his rental and booked international flight",
-      "summary": "Ben Roberts-Smith had vacated his Brisbane apartment, paid thousands of dollars to an immigration lawyer and booked flights to Spain, newly released court documents reveal.",
-      "link": "https://www.stuff.co.nz/world-news/360969457/accused-australian-war-criminal-ben-roberts-smith-vacated-his-rental-and-booked-international-flight",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdnx%2Fzscng1fyFUR5DAIq1V8tb4ivOEd970tcb6LYiWpvDQlVlztpj0FENaXSMtPEEX3j4B7g2JX4EvAx3oQ5pznPZ64pnJzlouMSz99BhIsTGULP0ZG0V9INZgBUgFYud+t1UeszYjWsJo6MGpRziQFm16PFRRX4GsSxLIk3FiLL2V6dRALBeb31ZiC3lWSfW4K13tZ%2FhLHMuGQRMUJMmqHAuIVibhaOmaECJIl6j1Ujpnv0rTcPXss3SP0x5RVdRyGeifbUNXZPFHmekudfepErIVhXWt%2FJ%2F3m%2FIZKJaTrHb5ub36Z2oAzfZByYGZUMKdwl4WDpa3mY%2FQSytK7gi0MgH00Xj3GgDyeT+AvOfQgtuFris3iIZJ+V9Y6z3vZN0fBeXz07w63Vh62GqWdKTdkkrhDBmJC90Dt%2FQbRfmdp9wBmLr%2FnwgLmPUISAk8%2FdA==?resolution=1240x700",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 75,
-      "ago": "3小时前",
-      "pub_ts": 1776942052.0,
-      "hot": false
-    },
-    {
-      "id": "75f2906396",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Black Caps lose Bangladesh ODI series decider by 55 runs",
-      "summary": "A determined late knock by Dean Foxcroft wasn’t enough to chase Bangladesh’s total in Chattogram as Bangladesh claimed the one-day series at home 2-1.",
-      "link": "https://www.stuff.co.nz/sport/360963511/live-black-caps-v-bangladesh-third-one-day-international",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXiy7is8wLstL15RuVn40vrGru9T+eWllzyxe1KG4oIP6k67voqANlnxr1nBWUVsN%2F06R1le60Zdga797Ocpozzwo7zrqwbTmwxl7kGOO0FN6VNe6g5Z+DFRbrG%2FpWwNrcKl%2Ffgm7D%2F9UExwHNjGcMIjzf7LEz2D5oW3fOR0ftU%2F9+Ycrrjxe%2F4CGo%2Fbv2RJSBdcGy4%2FUP4rFqk1QleQWaS3CJ6UmWt34Nb3uiNOHqTNuu7UIsraZgty4FvyP+QjYwpOiVe27ayDTyygMLDsqaroasqnUYJkYrgZsqgKrAt+9brh6GMttQAs7xBZXGtgpBGvXSjKHuQcaXbOIlUT3tiQ9Owj%2FuijzEngEXkStpL2AwGCDNhnlj9YY7u3yOdCqZDui5Mt97nmawQDoCsIzCrJUZb1vUc%2F8Mu448z%2FBSplfU+H0hJMWKRzu%2Fdhrk65pw==?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1776951084.0,
-      "hot": false
-    },
-    {
-      "id": "01c0c29192",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Trump threats against Iran are a boon for prediction markets, including some backed by his son",
-      "summary": "When a wagering event on Polymarket asked whether Trump was likely to send troops into Iran, nearly 100,000 bets were placed on April 8, leading to the biggest trading day of the year up to then.",
-      "link": "https://www.stuff.co.nz/world-news/360969476/trump-threats-against-iran-are-boon-prediction-markets",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcWRlzT6iaFEcToPi8Ifbb4q8QEAR90Ul38GFZAJfZozwc7I7MtFvFFUIkAZqo99uMwPgvQQYFKHWX6S%2FqKD1YrcihNk%2FD6bAg+T2A2pVX4FJWQ3eUW%2FVJir+W5LEmoWqz0FGIE63qOeN4Zha8K5AzeR0Lf36rkfIaTvKDCvt0pnh8ZDEcjsS7zOBy21u5rxK3M0ah5zh0hPrmSzT8V0Mt3PXWwJ81xD8psBrYtOBHh9dLG69RYclON7xxIua31lD5QhDObC0o0Ro1KrtK3eCK6qruC8L7cPD4gbMY3fTaCo7KDujOcJkqmFdnIwsQ1ex43M2CvL7GqRiVhKIYpoYimYrHO7xAjdMbB7wqDy8IrUPWrHPdYz%2Fpf2tqhzGycvqMQweA0vQxE3r4AhDGRFJUz78NhZMNT9TA2l7ch1WwC2hisqy7IJQnr6i99F+NrU4q6a%2FU1jrsnqs8qph0w40J4=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1776949136.0,
-      "hot": false
-    },
-    {
-      "id": "8bc6ce1de7",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "US still delivering weapons to Ukraine, Zelenskyy says, as Prince Harry visits Kyiv",
-      "summary": "While Russia presses its all-out invasion, which began on February 24, 2022, Ukraine is using its domestically developed drone and missile technology to strike Russian territory.",
-      "link": "https://www.stuff.co.nz/world-news/360969473/us-still-delivering-weapons-ukraine-zelenskyy-says-pri",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcGeQ6Ruqvvyq6Ytxv+qFfOO+bU9W8LyyOTn2wwCY8%2F5EI726703JXHUusSmn6%2Fi1deV5GFWy0zlA%2F6FfUCHwcBKf%2FyCSxXYwRDEiapkiKqBf2gK7uTwuF1A%2F1YEXsnDDdf1gWjExUO7toHJafNFK628CEi8rG+EeoARViO9Ppc7X36t5g+%2FfLtHgDsX5pIeSRX8VkR7cLoCKjQUMyB%2FJ85OJNAnu9O+Mx57hCIOvypBHSYlIVQMcxpROmLDuLWVJkW66O5V9mZ%2FtsZiuX6ofWJAYPf%2FvImAItKvHwKG%2Fe%2FZko2K590tgvTZ2+CUC0%2FLQA1ypLqqrNPkZAlvn+t6Ty6RYiQsJg+lA%2FFqsb6caKIug47dQR6er%2FVyvQGzqheRMkd5z382az3o42EGL%2FwgrAcc2ddluuW1BkK5dlo2l2JorIVTHmOxwehv5RziPg3nyclyoto+JZ6PG3YfNObWm1g=?resolution=1240x700",
+      "title": "MetService forecast: Northland deluge today before settled Anzac long weekend",
+      "summary": "Eastern Northland and parts of Auckland face orange heavy rain warnings today.",
+      "link": "https://www.nzherald.co.nz/nz/metservice-forecast-northland-deluge-today-before-settled-anzac-long-weekend/SVZ5YQASAZEINHLE3HZWLHYQPM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/2IV24BHIQJC5JJYOTVR5F6HRRU.png?auth=8013893af418061b3bd09c0356abf2bb976d72e089d101ccc156c93b873324de&smart=true&width=300&height=300",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1776965356.0,
+      "hot": false
+    },
+    {
+      "id": "a5abe07b3d",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "How WWII shaped generations of Māori names",
+      "summary": "Giving children names like Tunisia and Cairo was one way Māori remembered those killed in World War II battles.",
+      "link": "https://www.rnz.co.nz/life/people/identity/how-wwii-shaped-generations-of-maori-names",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1776965258.0,
+      "hot": false
+    },
+    {
+      "id": "c8ef27dc73",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "'End of an era' for sewing paper patterns in New Zealand?",
+      "summary": "For generations, sewists discovered their craft by leafing through catalogues, unfolding tissue sheets and choosing patterns from drawers of numbered envelopes. That ritual is under threat.",
+      "link": "https://www.rnz.co.nz/life/lifestyle/style/end-of-an-era-for-sewing-paper-patterns-in-new-zealand",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1776965250.0,
+      "hot": false
+    },
+    {
+      "id": "7280221135",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Christchurch stadium opening: Te Kaha opens after 15-year wait",
+      "summary": "Fifteen years after a 6.3-magnitude earthquake destroyed Lancaster Park, Canterbury is opening its new $683m stadium.",
+      "link": "https://www.rnz.co.nz/news/sport/593268/christchurch-stadium-opening-te-kaha-opens-after-15-year-wait",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1776965250.0,
+      "hot": false
+    },
+    {
+      "id": "b344192877",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "White Ferns great Suzie Bates calls time on international career, to retire after T20 World Cup",
+      "summary": "The 38-year-old has spent more than half of her life representing New Zealand.",
+      "link": "https://www.nzherald.co.nz/sport/cricket/white-ferns/white-ferns-great-suzie-bates-calls-time-on-international-career-to-retire-after-t20-world-cup/Z22D57RQHFGHTBVWNRWKVE6VSE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/3BAL2UUU5ND5JDFQ7Y4ANJEV5M.JPG?auth=0cd8a997b2013814fef8e339fee611d1d139ba1b90bc716a0632d9251a9b1488&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1776963660.0,
+      "hot": false
+    },
+    {
+      "id": "c84b19bb3e",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Letters: National can’t allow the tail to wag the dog if it forms another coalition Government",
+      "summary": "OPINION: National need to ensure they stay true to their principles.",
+      "link": "https://www.nzherald.co.nz/nz/letters-national-cant-allow-the-tail-to-wag-the-dog-if-it-forms-another-coalition-government/premium/UODFHI2ETFGVLNQIMCVW3IVDFM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/ALJVTLZYGJEP5DXPIXEGY43ASY.jpg?auth=71191e556e11889f8b1fc36e3f4889afd001d6e789a1a21c78a89ab44f134718&smart=true&width=300&height=300",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "93c7a96a0d",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Far North council under pressure to remove dangerous Kerikeri redwoods",
+      "summary": "Branches crashed onto Wendywood Lane as storms hit Kerikeri.",
+      "link": "https://www.nzherald.co.nz/northern-advocate/news/far-north-council-under-pressure-to-remove-dangerous-kerikeri-redwoods/6MRXRNO7WBD3VHF3WESGJNV44A/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/WPVBUCE3GRBPLPHCNT4RRIYIUM.JPG?auth=33d65bfbd574d6ccb3cfd009224eda64112477de41e8d226987a2c5b27563ab0&smart=true&width=300&height=300",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "e0a3d680d5",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "On The Up: New molecular biology laboratory in Gisborne to host bowel cancer screening project",
+      "summary": "A new bowel screening technology is to be researched in Gisborne.",
+      "link": "https://www.nzherald.co.nz/gisborne-herald/news/on-the-up-new-molecular-biology-laboratory-in-gisborne-to-host-bowel-cancer-screening-project/JERLUIFO5JHOZCKLW2MFEBWQLI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/YQ6OJN2SWVEB5M7CY53YHWRIOQ.jpg?auth=03b9b8207870c51b0233ae65dffb6245205c35a0f20455d618456bed3019374a&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "8a1f7a764d",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Waikato woman Paige Suisted, 27, dies after brain cancer battle",
+      "summary": "Paige Suisted, 27, died on Wednesday at Hospice Waikato with family beside her.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/waikato-woman-paige-suisted-27-dies-after-brain-cancer-battle/premium/FPDJUJ65IRC2TBW5SIMS3XIBXE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/VC4I4IB2WRFFLEZFDSAW7JHN54.jpg?auth=f25e72925f2ab28104bb5849cdf2c95f7bbb1fdb22184cb68035ec8f42501f68&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "9a05e9ae27",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Herald morning quiz: April 24",
+      "summary": "Test your brain with the Herald's morning quiz.",
+      "link": "https://www.nzherald.co.nz/nz/herald-morning-quiz-april-24/ZCNNTIPNCZDULK3HAEHVPTBECY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/AQMVWZWQ4VHWRJTDKP5UNNYO3Y.jpg?auth=413327dd403d7afe810ebf27d7c29fd3202a4d3e2a7f91d0989a76ed145fa9cb&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "35560cd888",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Minister for Children Karen Chhour visits all 72 Oranga Tamariki sites",
+      "summary": "'Sometimes the system can do everything right and we still don't get the outcome we want.'",
+      "link": "https://www.nzherald.co.nz/nz/politics/minister-for-children-karen-chhour-visits-all-72-oranga-tamariki-sites/NCE5SLXPPFEYVG4FYWG4N2PTHU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/Y76E3F7DBZCFPDRDXJSCPYFPVY.jpg?auth=1ff72cdaad0edff78fb70a7ec9ef6bd970fd7913a189f435fa054d2bda397a03&smart=true&width=300&height=300",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "a9e7b3c48c",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘One final mission’: White Ferns great to retire after T20 World Cup",
+      "summary": "One of the greatest to ever do it in a White Ferns shirt will pull stumps after June’s T20 World Cup in England.",
+      "link": "https://www.stuff.co.nz/sport/360969412/suzie-bates-next-world-cup-will-be-her-last",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfwBvP7mkRRBzfm7oguX6KWhcypCn8eZ46Ll0LQnPewQ+A7jtDORMoPvqoUJc3Bc5TqxpEgYBMlnvGpMOQXNmtTAd3eOk6AU%2F6J+j0LRde02JEm3ISMFSQrT17iI0hKV3QgYnRKtIIIGoYcVKvkqOKnHQWpcLvPcmVtAqy1CHB1gqhH1qcfaOlhZxHcv7FHx+3KcEwoEVPj+rGCuS%2FCzUQKdvJ1YlGbDWe6NBy0a0q+c6k9laGzakRdLiPFPOq5jkcxd2IJQJJrMrOOTDJQ8OyemwCgIt%2FQ0kTd9r8cy3qjdmyJZi9qeMpPHSSEzw%2FtmwBuj64q8XKpukOaCAW1jnAyBZsNl4NocAojIZMQLxeV25CkmlTRkqHANixB3KOLqifKIT5lU%2Fta5ZHtLF5mahgGFNxxKm0nFgDgoc3wDYN5pozJGJm3j9PGmsm1SkNQw7A==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1776963600.0,
+      "hot": false
+    },
+    {
+      "id": "f10b9ee64a",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Whānau carry legacy of Māori Battalion soldier George Manapiri Pitman",
+      "summary": "After being left for dead and taken prisoner in Crete, George Pitman was believed lost - until he stepped off a train in Whakapara.",
+      "link": "https://www.rnz.co.nz/news/te-manu-korihi/593264/whanau-carry-legacy-of-maori-battalion-soldier-george-manapiri-pitman",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1776963193.0,
+      "hot": false
+    },
+    {
+      "id": "5ed5099377",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Number of jobs advertised continues to grow, SEEK says",
+      "summary": "Competition for jobs has continued to ease, with applications per job ad falling 2.8 percent, SEEK says.",
+      "link": "https://www.rnz.co.nz/news/business/593263/number-of-jobs-advertised-continues-to-grow-seek-says",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1776963193.0,
+      "hot": false
+    },
+    {
+      "id": "0f0cf47b43",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Northland police officer claimed $29,000 for shifts he never worked",
+      "summary": "Kaitaia police officer Riki Toby claimed unworked overtime hours for more than a year before it was discovered, RNZ can reveal.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/593262/northland-police-officer-claimed-29-000-for-shifts-he-never-worked",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1776963192.0,
+      "hot": false
+    },
+    {
+      "id": "f855ad300f",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Trump administration’s handling of Epstein files faces formal investigation",
+      "summary": "The inspector general's review office will focus on how the department collected, reviewed and redacted materials in preparation for release and its process for addressing privacy concerns that arose",
+      "link": "https://www.stuff.co.nz/world-news/360969485/justice-departments-watchdog-reviewing-compliance-th",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfpTfbxmFOPuAena8SYgCwxpT5W09JT+GE94yKD6jILDTghZ0CHkKZapefVq5Gz3XLa5vIkfeduvppeE%2Fw4+Td5pWTO7vodg7ytJb4ZBFnDT1pDlJX7cC8EISAkBJnxUuB2ZbcoohrPXHaeHL1UW0IU0gg2R9LmPEykc7x40ycGYvq7SioAVDTI%2F%2FOZj+HI2lbMWBDjr8zbxMW9SCRamhAvSA70L74+%2FnSIsE8TkumJWEbvVSF9Cq64AKv%2FOYWLtayKihjsk53p9QarG3zv3hJLA%2FGvxm9zuI9sQABfZzirh3gpR4kpM6evRwFqdfOxPkNYM0GyiwpgCLC3eGFXIeQfyp7TNS+Z1r0196s75EbaMaUcdwnW9EpOlffZx1xKhdCvEXjdoHkVCKO9B2qMw49nPlo2b2DmrdbK4kBMbXq0lBYlkFrnrlp%2FMW3sFJSWCa+WC0P4nkLZPuuk0bXKdeMU=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776948095.0,
+      "pub_ts": 1776962064.0,
+      "hot": false
+    },
+    {
+      "id": "6dc629f09d",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Anzac Day: A man named Herb and his fascination with the Western Front",
+      "summary": "Few people know the Western Front battlefields like Herb Farrant.",
+      "link": "https://www.stuff.co.nz/nz-news/360968887/man-named-herb-and-his-fascination-western-front",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVFnw0ve22h9df9AcsJKM6SE9XbDQZiNdflao81LxW%2FboGJe8Dukdfzibs5qw0Tu%2FxNZt5BS8cKhMXNgCKCJE2n3FrPttoZmzw6V0GNWN6CmbvSDrSoSk9kKTTU8P3eAWIx0pW0FaD+0NRsQAsLFesVtojP2gPkxlJ%2F7DncuayoeIi6tOguJ5cF6IwEpsE1Es9ZcKt6sHTMZXUBvtnMhJIv0%2FMjRQ60+f3BFKCIWfIiNTNs7Q3SWCVeYG4+MK+1akOn+soZ5TldSBGBTri9%2Fb3RXEgLi%2Fe3%2FgbrKbILl+1ua1G58D25j9OFtWXAql58w0LxvkKIJOHwNBp+paeGwmywTqmY40ys44ODY32n+ILZ4ogAzWRBGJueuZoeAWWp1gOe1uI8UyzxUUImiALWcoSxWPmyMIYGWBDSXmeNoKNNCvgDfezOS7PNxtFxtQpHQV0DCFlhABQGu%2FbZpGDOdbL8=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
+      "hot": false
+    },
+    {
+      "id": "116bd79277",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "The Kiwi dream of ‘work hard, live well’ is falling to pieces",
+      "summary": "When social cohesion collapses, things start to feel very bleak.",
+      "link": "https://www.stuff.co.nz/money/360969303/kiwi-dream-work-hard-live-well-falling-pieces",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSH%2FyIMYA%2FsVUo%2Fcpx%2FGAmce3JywvW3TrT4YsOyb57+ac88ZfoLVzmqgBXzeCgIEkWrcXU2T%2F6132rDyT740rYviv6a%2FS7Wk+fa97u5KooZMN5rSRBskdITjAbL3EzmUhwtlvLhcoHRGO2qr8ptKXYsi59gilt8Pj0w5cEbUusMWHRvd0shgIZh+AHmnWI81dFYWFD5qh1jDKbAcJMwyTpVAPLpf6MfuDkmkJ+DrfqLwwWaLre4sZCzJKY2fddHdXAc1hU%2FiNrg4EEqHcAKDQ17vB7MNyaqIrQwGeeYFTjQOZsWsapuLjPj99ElCghqYvToMcCucwZDhOsAzxYoo1xx+QEGh44O4XHIsy+ONknEWrfJTuyzgFSL%2F%2Fi8IkSPvS9iuskqHMVX3HbwnTEkDomBaSi1wHIjKCX0aZg8NeJZ1Uh2KnPGBeTgJanIwW4l+GA==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
+      "hot": false
+    },
+    {
+      "id": "23ad33c058",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Inside the mouldy lunch investigation that pitted a senior minister against a school principal",
+      "summary": "Investigation notes released under the Official Information Act reveal just how officials drew the conclusion the school was likely at fault.",
+      "link": "https://www.stuff.co.nz/nz-news/360968081/inside-mouldy-lunch-investigation-pitted-senior-minister-against-school-principal",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcKiQ7N04q8JPmwxdZWbZUvJynBBC7UxYPqIypOgz3fgGHCjW8KvIYMLISwUxDN0+RZQQ7lb51z2rGmTxyIMxehya9ZZdtVrbIOHGXsIqrrv48yRpQbxJh7Ocj8gZh8JLDRBdFRZlu9bsKOLKX2mBhcEO3LjsgHHUXDlURMDCgWpWwIjx9sfIQb03DjP1OA4qjGv%2FikO7kttHh2EqTzXF5Ek8AUGXmAiR0Q%2FZqNbdnev+ySNurjcmkPny58XDGD%2FbuJgiQRHJCs8F7wc386S2o5QaWUtf0BJeGMEnljDdGf743xWrSZYn1HclZ%2F6eMqYCk4ED5cFmmhhysQC5nTT66XuW+FZESCNXB3o9PljpbPogjz93CwEEugCJ82gZlkHhELZBVaULbV1nPqVAlZGkdq89RAI8ALPme7l+9cu+SNtTLYop8dBHU55z2qoocA+Pg==?resolution=1240x700",
+      "categories": [
+        "政治",
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
+      "hot": false
+    },
+    {
+      "id": "bd3de27bcf",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Singh returns for Phoenix’s final game against Macarthur",
+      "summary": "Star playmaker Sarpreet Singh is set for a return from injury as the Wellington Phoenix play their final match of the season in Campbelltown.",
+      "link": "https://www.stuff.co.nz/sport/360967708/wellington-phoenix-v-macarthur-fc-all-you-need-know-about-round-26-league-men-fixture",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYPIKnac51b5xNDJ2ekVSWrG30tL3AHL50LA6zX5bvPyBJo3+HLzwMhMrqxxo8IA%2FZSpZx985Mvlj5q2FxM6eLl8%2F7EA66oPjC9cM4godlHcvlXNskiNb8vgGdo0q05KRpH%2Fm9I0HywN9KSTgticJtk=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
+      "hot": false
+    },
+    {
+      "id": "46b8bee175",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Super Rugby has quietly fixed itself, but it's lacking in one area",
+      "summary": "In New Zealand, rugby has traditionally relied on the product itself to do the talking. But that alone is not enough.",
+      "link": "https://www.stuff.co.nz/sport/360969301/super-rugby-doesnt-need-reinventing-it-does-need-evolve-modern-market",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcE6fi8VEg5Z5p484zqV8W58IlZVj47olVckk%2FIm9ghHo7VKVAwB%2FQn8xZJW9bkUK%2FwUy+10iwYZOoXuN2ZWY3srr9gy76e2lYAtgZuIYi%2FuglxhN7mkgU83GQeCY4xDw62mBgtU7UZzukoetWIeW9I=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
+      "hot": false
+    },
+    {
+      "id": "62acd919f8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Why there is a standless end at Christchurch's new indoor stadium",
+      "summary": "\"Why has that end of the stadium not got permanent seating?’’ Rugby fans may ask that question when they enter One NZ Stadium this weekend.",
+      "link": "https://www.stuff.co.nz/sport/360969274/why-there-extra-space-one-nz-stadium-ahead-super-round-christchurch",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWRdPqEzQKvG3ZnpvEPBSg3LrM4SWte3vadO+rcGfzJLkF8SrvxOotMXLwGtKTqZhfb5BlzGscV1CfgKrSw5wJUDA+9W5bjZ5Zoorbij%2F5HvpnSVF17rufKxordjgBv1NPuegit8Ag8Zl9SCBph4nwSa80HeJFWa58aC7azgddW5+kKCWk7oE1grXvFMlLc41a1uHwcLA6GrQGNQkoxJl+JDviECHMCnvZfMyLGyDBiPKzEQg3MVabH1pCRcAYtfuqv1MNBXzVgitzfp63HaILcfzBJu2MCP9Yx0+VqrMFHki03K6Z0com29ieWpw%2Fk1w0BAXjhvmi%2FgWkgNXdfCRglLUvYnhGeeedgri42ThP3CY8rouKQWfnHzIsMtphpl9gsBsUwdFpZ60ODiB+JkygTyFbea7lhm5QqamDpeqCpoziSNc48mzUAeQUemjH+zOGbWwsHHXQsiTvnXYUqqxUw=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776960000.0,
       "hot": false
     },
     {
@@ -93,80 +423,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776945201.0,
-      "hot": false
-    },
-    {
-      "id": "16e55f0d46",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "New cricket stadium in Southern California heralds the sport's Olympic return after 128 years",
-      "summary": "The stadium is being erected in the Fairplex fairgrounds as the home of the Los Angeles Knight Riders, a professional Major League Cricket team owned by the Mumbai-based Knight Riders Sports.",
-      "link": "https://www.stuff.co.nz/sport/360969464/new-cricket-stadium-southern-california-heralds-sport",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQkj2%2FHBndKEYIMxSZFJMVmVtrv29pCsa%2F4AlhyAftgQonzE4GaMZtybItFt7Kfb+buIiamgrNiHra8QQ6wstLwJmI9I0zhKRMhax4I2wog4%2FMMzN%2FxeDeqEbuVcjMmDOiS2PyYJahGAJJp2n6zkzh%2FyoEwjhb9MSd8L+wsR81FgCK1lu6elq5DV9PebJHhJQmXeoCPfgTYmCxSZBhXukzgSWLgdA9UTb37JSw0NIwETfBnvr8KnSPaFuwlpAnOSbLCLTVqK5u9I9+SiYm48Rl0Uq6NsM6ng68GHEMZuSRxVqFN8TyWgEyAvWGO2+bTNBuJN+rxfmR2AgAZ%2F2KjFw9iaNTDYTl%2F4bKvY%2FZVUWV%2FbUs10pUb6L80CgcRNio8CftUO%2FNEqz6m0ylkAOL6phLF4mI6KPfNX3JQfXoaJR%2FlLkslexWtaR52wax0cYfIkzi3cQSQf9WxQSqYgNXKbfV4=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776944718.0,
-      "hot": false
-    },
-    {
-      "id": "613e5e8e00",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Trump likes a naval blockade. But Iran presents big differences from Venezuela and Cuba",
-      "summary": "Unlike Cuba or Venezuela, Iran choked off a crucial trade route for energy shipments, meaning the longer the standoff persists, the more the global economy will suffer.",
-      "link": "https://www.stuff.co.nz/world-news/360969466/trump-likes-naval-blockade-iran-presents-big-differenc",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRj%2F+w52cF2LkxqemMuIlxkw9PQqBqIY95abJGRvJVuJ5DuYDl7RGaGDySamO3UCMCa06T5qOKBl3YV6nFJFbsti2YCjrlGcql%2F5R0ciftkGQJ05v9piqxPE1SR26CGnqu8PEhkXfDue75azt+6kOL7d5mcLXuEHNuE2Q%2FFKhGWOCO5NfywPFkq84jXqlxiPLJiwumKIGzgAnicq1+VWvDR4lCU6ipBq44dli36CeIp0HfUiUK%2FxQZjrr3ZdZiKiqWUwYwgyK9VqAIRMWFWdzARal89P06By8rIT6fAmikMPV3x9ruG1quQsll%2F87d7oNXanE9fDxeGy7opI3pUkxEn2Jf61l+SzJiFR+z8hakGTDfP8oJKi43pJv3RrAD9180TuRELaLkjcrjWej0WV1yCHHJ7sKx5pENgcX7lV0MwyxcyXy598%2FbB9RwDw1HzWTQ==?resolution=1240x700",
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776944291.0,
-      "hot": false
-    },
-    {
-      "id": "b56194274b",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Russell Brand: I had sex with a 16-year-old when I was 30",
-      "summary": "The comedian and actor admitted that sleeping with someone nearly half his age was “exploitative” and “selfish”, despite being legal.",
-      "link": "https://www.stuff.co.nz/world-news/360969463/russell-brand-i-had-sex-16yearold-when-i-was-30",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYe2u8nM01qTsKa%2FV9tTlMSRPj9q3BiNog8zOFr2EZRWFYGKpvYfMg6tuDF00u%2FSbv9XhJbDLdppgk%2FnTA5rJxNm9jm5DQOtaD56K6DqhI9rXP5VyHkTvti30Migg5mDvYLmUfKcVaI1JSKcTWXS0TAU=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776943634.0,
-      "hot": false
-    },
-    {
-      "id": "bcca0706fe",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Ex-Philippine president Duterte to face trial on crimes against humanity charges",
-      "summary": "Duterte, 80, was arrested in the Philippines last year. He denies the charges against him.",
-      "link": "https://www.stuff.co.nz/world-news/360969455/exphilippine-president-duterte-face-trial-crimes-again",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZU2nT1ABrhk5rnaMRcTeUyZ0oD89mUdeDtKW0ifzP0skVaUpTBJ0uIEfHv0NFgqRV0Xz%2FE%2F%2FxySEfr8wYT4FxdVJZxpQuMHdk4zLUZ0A0fHZy%2FP4VtFOKZ6IlgkdQg%2FhdoFIr3daaWhE7XxqnhAd2BUE0AaK+G7nQdSxe%2FO9mUrhJFMS+Vp5Wb4Irk+0oGXIPla7+8nIU7YYBkZGeAZVyW34+1jiox3TPWw+KWvwxSLYUjRv0GTqj48EGeW43u0y0O06UIZ+HGao2Ekx%2F8IjCX4PPMMpVSVQ64ifpea3Aoh7s1cNVTL8y5IL+58Ncu9MxId39ztuWJrxSJ0KVFTlMlAAPEvg8LMFQ5m6cbPM5isrgo9Jsz4P9IKpqEESRNEhCFoww1Vcj+kxHo%2FhflFdS0aEndq0417TRcO%2FRU8KUBJF1CrqjfOHLaGqSyJdQGLYfoyGbP3IrHezj9RIClsNIQ=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1776940967.0,
       "hot": false
     },
     {
@@ -182,171 +440,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776935965.0,
-      "hot": false
-    },
-    {
-      "id": "04b9ed8d95",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Residents and businesses count cost of Wellington floods",
-      "summary": "Homes will have to be gutted and businesses could be closed for months with damage estimated to potentially run hundreds of millions of dollars across the city.",
-      "link": "https://www.rnz.co.nz/news/community/593240/homes-gutted-and-businesses-closed-as-wellingtonians-count-the-cost-of-floods",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776935867.0,
-      "hot": false
-    },
-    {
-      "id": "1c21eef0f6",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Corrections to review how two prisoners escaped cells inside escort van",
-      "summary": "Corrections says it will conduct a full review into how two prisoners came to escape cells inside a prisoner escort van on Thursday.",
-      "link": "https://www.rnz.co.nz/news/crime-and-justice/593257/corrections-to-review-how-two-prisoners-escaped-cells-inside-escort-van",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776935668.0,
-      "hot": false
-    },
-    {
-      "id": "6946cfec83",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Police seek witnesses after cyclist seriously injured in Nelson crash",
-      "summary": "Police are appealing for witnesses after a cyclist was seriously injured in a crash with a ute in the Tasman district on Wednesday afternoon.",
-      "link": "https://www.rnz.co.nz/news/crime-and-justice/593256/police-seek-witnesses-after-cyclist-seriously-injured-in-nelson-crash",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1776935626.0,
-      "hot": false
-    },
-    {
-      "id": "ca3eb73e6a",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Child on bike struck by car in Tokoroa hit-and-run",
-      "summary": "Police are looking for a grey Nissan sedan driven by a fair skinned male wearing glasses with shoulder length hair.",
-      "link": "https://www.rnz.co.nz/news/emergencies_local/593249/child-on-bike-struck-by-car-in-tokoroa-hit-and-run",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776934802.0,
-      "hot": false
-    },
-    {
-      "id": "2d4a3d9af8",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Dunedin City Councillors opt for $270k in-house service to tackle rising homelessness",
-      "summary": "Dunedin City Councillors have voted to set up a council-led housing outreach service to address rising homelessness, at a cost of $270,000 annually.",
-      "link": "https://www.rnz.co.nz/news/community/593254/dunedin-city-councillors-opt-for-270k-in-house-service-to-tackle-rising-homelessness",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776931721.0,
-      "hot": false
-    },
-    {
-      "id": "d02d2c7403",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Nearly 1000 chicks fledged at Oamaru's blue penguin colony",
-      "summary": "Nearly 1000 chicks fledged at the blue penguin colony this year, up from 600 last year.",
-      "link": "https://www.rnz.co.nz/news/environment/593247/nearly-1000-chicks-fledged-at-oamaru-s-blue-penguin-colony",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776930420.0,
-      "hot": false
-    },
-    {
-      "id": "06afb679ec",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Young Wellington dealer Dillon Levi Havill avoids jail for $200k drug importation scheme",
-      "summary": "Dillon Havill imported the drugs inside packages of nuts and British confectionery.",
-      "link": "https://www.nzherald.co.nz/nz/crime/young-wellington-dealer-dillon-levi-havill-avoids-jail-for-200k-drug-importation-scheme/ZHPQPTDLZZGIVDQF6O4RPQVFOI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ABTGEIF3GREO3BHDYMFPLH43Q4.jpg?auth=2025660ecbdedb1e51020ed3352c9d65be100e9661b02f9923ef7c6b148e036c&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776927600.0,
-      "hot": false
-    },
-    {
-      "id": "84516902fa",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "India free-trade agreement: Businesses unconcerned about risk of Government’s $34b commitment to pro",
-      "summary": "Industry groups welcome Labour's backing of the India trade deal at the eleventh hour.",
-      "link": "https://www.nzherald.co.nz/business/economy/india-free-trade-agreement-businesses-unconcerned-about-risk-of-governments-34b-commitment-to-promote-investment-in-india/premium/H4HHYTJ64RED7N3KNDC3AL3ZKY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/VDHPA64QG5F3BEP54QTPCH2OPA.jpg?auth=3479aae62370e65d06f14a6a536d39019cdddeda58d54f541687cad4ed46cf08&smart=true&width=300&height=300",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776926555.0,
-      "hot": false
-    },
-    {
-      "id": "daaf3bd872",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Corrections launches review after prisoners escape cells in escort van",
-      "summary": "All three prisoners remained locked in the vehicle and are now at Whanganui Prison.",
-      "link": "https://www.nzherald.co.nz/nz/corrections-launches-review-after-prisoners-escape-cells-in-escort-van/DZLWXR2ZXFBBTGXDY7SSMKLDD4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/4QZAKULWQJF5PADNMXLRVOC4LY.jpg?auth=9af50665eedccbbc950fd1b05fdac92d1fadfef3c18df4083c1de79a7c0e55bf&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776926263.0,
       "hot": false
     },
     {
@@ -363,44 +459,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1776926087.0,
-      "hot": false
-    },
-    {
-      "id": "04763761fe",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Nelson court: Judge jails Jonathon Rogers over prolonged partner strangling and assault",
-      "summary": "Jonathon Rogers said he was sorry he could not be with the woman in her time of need.",
-      "link": "https://www.nzherald.co.nz/nz/crime/nelson-court-judge-jails-jonathon-rogers-over-prolonged-partner-strangling-and-assault/J7Z3PDN5PZHHNIVTBAJTTS4OQY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/LCR5TNJGVBFLTILL47UXM25Q6A.jpg?auth=409389ab4fddf05f6482cc5242c71c19459519df182f1daf7599999ddd7e6c03&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776925230.0,
-      "hot": false
-    },
-    {
-      "id": "1fe3cdff9b",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Tokoroa hit-and-run: Police seek driver after child seriously hurt",
-      "summary": "Police said the child is recovering in hospital after the incident in Tokoroa.",
-      "link": "https://www.nzherald.co.nz/nz/tokoroa-hit-and-run-police-seek-driver-after-child-seriously-hurt/ZDLULKWW6ZGIDP5XZWRTSI6O3Q/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/3PEBTVRVHZAHJLJMZGOUJIRQIU.jpg?auth=76e1c5dc470ae3d70895af7499423310504f5ab062afd474d17bd22f4f4c1209&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776924761.0,
       "hot": false
     },
     {
@@ -417,26 +477,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1776923878.0,
-      "hot": false
-    },
-    {
-      "id": "5b63b77021",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Act leader David Seymour floats giving Year 11 students $500 each to learn to invest",
-      "summary": "The Act leader suggested the teens could keep whatever money they earned.",
-      "link": "https://www.nzherald.co.nz/nz/politics/act-leader-david-seymour-floats-giving-year-11-students-500-each-to-learn-to-invest/FOY2CETVARCDTBUXT7JEQLNPMM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/37HHUVXRPVETFL2DH5JPJR2KB4.jpg?auth=018e7fcc7920b76343f0233349ac05f1e2cc3567571d5fd65b5c1dffce7ab3ed&smart=true&width=300&height=300",
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776922200.0,
       "hot": false
     },
     {
@@ -453,7 +495,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776921595.0,
       "hot": false
     },
@@ -471,44 +513,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1776920845.0,
-      "hot": false
-    },
-    {
-      "id": "781346cd14",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Housing market: House sales keep falling as first-home buyers drive demand – The Front Page",
-      "summary": "First-home buyers made more than 27% of national purchases in the first quarter.",
-      "link": "https://www.nzherald.co.nz/nz/housing-market-house-sales-keep-falling-as-first-home-buyers-drive-demand-the-front-page/5V553IRBCNCYXMUQTZWMITN4OM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/TRVNNKX7QRCWPO6EQDXQON6KWI.jpg?auth=148102806206b109def5ae6594df487ff5c368d14f2217b11bbe9f4bd4b0a56a&smart=true&width=300&height=300",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1776920400.0,
-      "hot": false
-    },
-    {
-      "id": "51ebe720ab",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Teacher censured after messaging vulnerable student ‘I love you’, referring to himself as her father",
-      "summary": "He also falsified her attendance records so she could skip class and gave her presents.",
-      "link": "https://www.nzherald.co.nz/nz/teacher-censured-after-messaging-vulnerable-student-i-love-you-referring-to-himself-as-her-father/VFABIVIEEBG2ZNGISSZWUAMAPU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/EE3TZG2ZPRGQ3FQ75UEO42P72E.jpg?auth=faacfb445701a3a8616a67198caa2dc1e21e33af4bc3a60381a644cfb63ee8c9&smart=true&width=300&height=300",
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1776920400.0,
       "hot": false
     },
     {
@@ -525,7 +531,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776919531.0,
       "hot": false
     },
@@ -543,7 +549,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776917733.0,
       "hot": false
     }
