@@ -1,26 +1,189 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-23T06:20:26.761407+00:00",
-  "total": 24,
+  "updated_at": "2026-04-23T10:01:08.986776+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "0933ad2c4a",
+      "id": "d67c5e46c6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Senate GOP is kickstarting budget reconciliation to fund ICE. Here's how that works.",
+      "summary": "After a historic partial shutdown of the Department of Homeland Security, Congressional Republicans are looking to a budgetary tool called reconciliation which could enable them to fund immigration en",
+      "link": "https://www.npr.org/2026/04/23/g-s1-118330/congress-dhs-spending-reconciliation",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "c4b2a2d6fe",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Senate Plunges Into Vote Marathon as G.O.P. Advances ICE Funding Boost",
-      "summary": "Republicans pressed to pass a budget plan with a $70 billion increase for immigration enforcement. But first, in an overnight session, they beat back Democratic proposals aimed at lowering costs.",
+      "title": "Senate Adopts G.O.P. Budget, Defeating Democrats’ Affordability Proposals",
+      "summary": "Republicans pushed through a budget plan with a $70 billion increase for immigration enforcement after an overnight session in which they beat back Democratic proposals aimed at lowering costs.",
       "link": "https://www.nytimes.com/2026/04/23/us/politics/senate-plunges-into-vote-marathon-as-gop-advances-ice-funding-boost.html",
       "image": "https://static01.nyt.com/images/2026/03/27/multimedia/22dc-budget-wwk/27trump-news-promo-1015am-wkml-mediumSquareAt3X.jpg",
       "categories": [
         "移民",
         "科技"
       ],
-      "score": 80,
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1776930205.0,
+      "hot": false
+    },
+    {
+      "id": "ac9725bdc5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How TikTok is driving American expats to Southeast Asia",
+      "summary": "Americans who moved to Vietnam and Thailand say their lives are now lower-stress and lower-cost. But glamorous videos on TikTok don't tell the whole story.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5763809/tiktok-moving-vietnam-thailand-american-expats",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1776918289.0,
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "6e20797d4b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "World Press Photo announces Photo of the Year 2026",
+      "summary": "The executive director of World Press Photo said this image shows the inconsolable grief of children losing their father in a place built for justice. It is a stark and necessary record of family sepa",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/04/23/nx-s1-5793922/world-press-photo-announces-photo-of-the-year-2026",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "c7eac76b79",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Democrats dominate midterm fundraising, but Republicans have a huge cash advantage",
+      "summary": "The latest campaign finance reports show Democratic enthusiasm in key House and Senate races, but national Republican groups have far more in the bank to potentially spend down the road.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5795841/democrats-senate-fundraising-republican-maga-cash-on-hand-campaign-finance",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776934800.0,
+      "hot": false
+    },
+    {
+      "id": "8d41b9797e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Candidates vying for U.N. secretary-general role face questions",
+      "summary": "Who will replace U.N. Secretary-General Antonio Guterres when he steps down this year? Four candidates field questions from member states this week at U.N. headquarters.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5786581/candidates-vying-for-u-n-secretary-general-role-face-questions",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776933951.0,
+      "hot": false
+    },
+    {
+      "id": "1d26d16bd5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Putin's approval rating falls amid state-imposed internet restrictions",
+      "summary": "In Russia, expanding state restrictions on the Internet are frustrating daily life for millions — and sending President Putin's approval ratings on a rare downward spiral.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5793960/putins-approval-rating-falls-amid-state-imposed-internet-restrictions",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776933947.0,
+      "hot": false
+    },
+    {
+      "id": "c651fc05a4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Istanbul plants over 3 million tulips for annual festival",
+      "summary": "Istanbul plants millions of tulips every spring, a reminder of the flower's origins far from the Netherlands.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5787849/istanbul-plants-over-3-million-tulips-for-annual-festival",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776933887.0,
+      "hot": false
+    },
+    {
+      "id": "f5b4b80a76",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "After being held up for months, Ukraine set to get $100B loan from EU",
+      "summary": "Taking advantage of the electoral defeat of Hungary's Viktor Orban, European Union countries have moved to approve a $100 billion loan to Ukraine.",
+      "link": "https://www.npr.org/2026/04/23/nx-s1-5795803/after-being-held-up-for-months-ukraine-set-to-get-100b-loan-from-eu",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1776933873.0,
+      "hot": false
+    },
+    {
+      "id": "f9593ecbab",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump administration flies 10-year-old back from Cuba amid custody fight",
+      "summary": "President Trump's Department of Justice sent a plane this week to Cuba to return a 10-year-old from Utah who is at the center of a custody fight involving the child's gender identity.",
+      "link": "https://www.npr.org/2026/04/23/g-s1-118427/trump-administration-child-cuba",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776925159.0,
       "hot": false
     },
     {
@@ -36,8 +199,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776920558.0,
       "hot": false
     },
@@ -54,9 +217,9 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1776916864.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1776916865.0,
       "hot": false
     },
     {
@@ -72,8 +235,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1776909795.0,
       "hot": false
     },
@@ -90,8 +253,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1776904610.0,
       "hot": false
     },
@@ -109,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776900641.0,
       "hot": false
     },
@@ -127,7 +290,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1776900223.0,
       "hot": false
     },
@@ -145,7 +308,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776894234.0,
       "hot": false
     },
@@ -163,7 +326,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1776893194.0,
       "hot": false
     },
@@ -181,7 +344,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776890604.0,
       "hot": false
     },
@@ -199,52 +362,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1776890533.0,
-      "hot": false
-    },
-    {
-      "id": "8632ceb672",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The tariff refund process has begun for businesses. What about customers?",
-      "summary": "While shipping companies are pledging refunds for customers who directly paid tariff fees, the situation is much trickier for retailers.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5791663/the-tariff-refund-customers",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776879129.0,
-      "hot": false
-    },
-    {
-      "id": "0f694349f0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Inside Linda McMahon's effort to dismantle the Department of Education",
-      "summary": "A former pro-wrestling executive, McMahon is now the education secretary Trump tasked with abolishing the agency. New Yorker writer Zach Helfand explains how her WWE experience led her to this role.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5794689/from-professional-wrestling-to-the-department-of-education-inside-linda-mcmahons-effort-to-dismantle-the-department-of-education",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1776871312.0,
       "hot": false
     },
     {
       "id": "79a116da1f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iranians are leaving the country just to access the internet",
       "summary": "Iran has cut off its access to the global internet. To find an internet connection, some Iranians are traveling across the border with Turkey — even just to make video calls and then go back home.",
@@ -254,170 +380,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776870729.0,
-      "hot": false
-    },
-    {
-      "id": "8174cd6bbe",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Gene therapy for a rare type of deafness shows lasting results",
-      "summary": "Researchers say a gene therapy allowed deaf children and adults as old as 32 to hear for the first time. The benefits have persisted for more than two years for some patients.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5791478/gene-therapy-deafness-hearing",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776870004.0,
-      "hot": false
-    },
-    {
-      "id": "b699e74da4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Family influencers make the lifestyle look good. But kids pay the price, new book says",
-      "summary": "What does it mean to monetize your offspring? To turn their childhood into content? In Like, Follow, Subscribe Fortesa Latifi explores what drives parents to become family influencers.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5794005/like-follow-subscribe-influencer-book-review",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1776869192.0,
-      "hot": false
-    },
-    {
-      "id": "dbe8aad7db",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from an Islamabad park, a peaceful vantage point in an uncertain world",
-      "summary": "The park, near the venue where inconclusive Iran-U.S. peace talks took place this month, provides respite to those who visit it.",
-      "link": "https://www.npr.org/2026/04/22/g-s1-117423/pakistan-islamabad-park",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1776865602.0,
-      "hot": false
-    },
-    {
-      "id": "b07e0dfff1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ships attacked in Strait of Hormuz. And, VA voters approve redistricting effort",
-      "summary": "Two ships came under attack in the Strait of Hormuz, hours after Trump extended the ceasefire with Iran. And, Virginia voters approved a measure allowing Democrats to redraw the congressional map.",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118328/up-first-newsletter-iran-us-ceasefire-virginia-redistricting-aca",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "18小时前",
-      "pub_ts": 1776858618.0,
-      "hot": false
-    },
-    {
-      "id": "909e8a7c2c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran says it seized ships in Strait of Hormuz as U.S. blockade continues amid ceasefire",
-      "summary": "Three vessels came under fire in the Strait of Hormuz, after the U.S. and Iran failed to meet in Pakistan for talks to end the war and as President Trump extended the ceasefire but kept the blockade.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5795405/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776855239.0,
-      "hot": false
-    },
-    {
-      "id": "121bd70cff",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Priceless 2,500-year-old golden helmet returned to Romania after Dutch museum raid",
-      "summary": "The ornate Cotofenesti helmet, which was stolen in January 2025 while on loan to a Dutch museum, was recovered last month.",
-      "link": "https://www.npr.org/2026/04/22/nx-s1-5795403/golden-helmet-romania-recovery",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776835448.0,
-      "hot": false
-    },
-    {
-      "id": "6c81398afb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Mexico to beef up security at tourist sites after shooting at pyramids",
-      "summary": "Mexico's government is boosting security at tourist sites in preparation for the World Cup after a man opened fire at the Teotihuacan pyramids.",
-      "link": "https://www.npr.org/2026/04/22/g-s1-118305/mexico-to-beef-up-security-at-tourist-sites",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776835408.0,
-      "hot": false
-    },
-    {
-      "id": "4f7e120032",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "As Pakistan seeks to broker U.S.–Iran peace, citizens watch for gains at home",
-      "summary": "As Pakistan works to broker peace between the U.S. and Iran, many Pakistanis are watching closely to see whether the diplomatic boost will translate into improvements at home.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5791760/as-pakistan-seeks-to-broker-u-s-iran-peace-citizens-watch-for-gains-at-home",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776802244.0,
-      "hot": false
-    },
-    {
-      "id": "ef63e517fb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "What would happen next if Iran agreed to surrender its highly enriched uranium",
-      "summary": "NPR's Scott Detrow speaks with Scott Roecker of the Nuclear Threat Initiative about how the U.S. might go about moving highly enriched uranium out of Iran.",
-      "link": "https://www.npr.org/2026/04/21/nx-s1-5788988/what-would-happen-next-if-iran-agreed-to-surrender-its-highly-enriched-uranium",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1776802242.0,
+      "pub_ts": 1776870729.0,
       "hot": false
     },
     {
