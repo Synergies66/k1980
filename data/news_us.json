@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-24T17:27:46.940577+00:00",
+  "updated_at": "2026-04-24T21:10:00.671399+00:00",
   "total": 22,
   "articles": [
     {
@@ -19,35 +19,71 @@
         "科技"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1777008072.0,
       "hot": false
     },
     {
-      "id": "02e1adbfb1",
+      "id": "4be81c9c63",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Administration Approves Firing Squad Executions for Death Penalty",
-      "summary": "The Justice Department also reauthorized the use of a death penalty drug, and will seek to shorten the length of some legal appeals.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/trump-firing-squad-executions-death-penalty.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/dc-justice-tfmk/dc-justice-tfmk-mediumSquareAt3X.jpg",
+      "title": "Gambling Companies Celebrate Indictments as Pressure Grows",
+      "summary": "Gambling companies have cited recent federal charges as proof that illegal activity is being rooted out. The companies’ critics say the cases do not address widespread illicit activity.",
+      "link": "https://www.nytimes.com/2026/04/24/nyregion/gambling-companies-indictments-regulation.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24met-gambling-01-qjcw/24met-gambling-01-qjcw-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1777049396.0,
+      "ago": "0分前",
+      "pub_ts": 1777064957.0,
       "hot": false
     },
     {
-      "id": "5f50690784",
+      "id": "76b6ecf2cc",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Both Iran and U.S. Blockade Strait of Hormuz",
+      "title": "Appeals Court Says Trump’s Ban on Asylum Claims at Border Is Illegal",
+      "summary": "The ruling could require the Trump administration to begin processing new applications from asylum seekers at the southern border.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/appeals-court-trump-asylum-claims.html",
+      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24trump-news-asylum-claims1/24DC-SCOTUS-ASYLUM-wplv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1777063846.0,
+      "hot": false
+    },
+    {
+      "id": "12fa41b5e9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Vessels seized by the U.S. this week were part of a global 'shadow fleet'",
+      "summary": "NPR's Juana Summers speaks with Elisabeth Braw, senior fellow at the Atlantic Council, about shadow vessels, after the U.S. military's seizure of two Iranian-linked oil tankers.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5795895/vessels-seized-by-the-u-s-this-week-were-part-of-a-global-shadow-fleet",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1777063148.0,
+      "hot": false
+    },
+    {
+      "id": "e7f2640720",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran and U.S. Blockades in the Strait of Hormuz: What to Know",
       "summary": "The foes are trying to exert control over the narrow passageway. Most ships aren’t moving. Here’s what to know.",
       "link": "https://www.nytimes.com/2026/04/24/world/middleeast/iran-us-strait-of-hormuz-blockade.html",
       "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23israel-iran-explainer-hgkb/23israel-iran-explainer-hgkb-mediumSquareAt3X.jpg",
@@ -55,8 +91,80 @@
         "科技"
       ],
       "score": 70,
-      "ago": "54分前",
-      "pub_ts": 1777048421.0,
+      "ago": "51分前",
+      "pub_ts": 1777061883.0,
+      "hot": false
+    },
+    {
+      "id": "ae73fe05bd",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A real-life Kraken stalked the seas of the late Cretaceous",
+      "summary": "Researchers discovered evidence of enormous Kraken-like creatures who hunted in the seas some 100 million years ago, competing with large apex predators.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5793988/giant-octopus-kraken-cretaceous-size",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777060985.0,
+      "hot": false
+    },
+    {
+      "id": "d1862b15ec",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says He Dislikes Prediction Markets. His Family Invests in Them.",
+      "summary": "The White House has warned staff not to wager on government decisions, but his family’s involvement with these firms undermines the president’s message.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/trump-prediction-markets.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/dc-trump-prediction-jqpz/dc-trump-prediction-jqpz-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777059892.0,
+      "hot": false
+    },
+    {
+      "id": "c922b8a897",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What Are Prediction Markets, and Why Are They Causing Controversy?",
+      "summary": "The indictment of a soldier who bet on the U.S. operation to capture President Nicolás Maduro of Venezuela put renewed focus on a new way to gamble, and a new way to cheat.",
+      "link": "https://www.nytimes.com/2026/04/24/business/what-are-prediction-markets.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24xp-prediction-01-ljqp/24xp-prediction-01-ljqp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777053504.0,
+      "hot": false
+    },
+    {
+      "id": "7b37b0ae0f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Todd Blanche Targets Trump’s Enemies Amid Jockeying to Lead DOJ",
+      "summary": "Mr. Blanche’s actions are meant to demonstrate progress on the president’s priorities, chief among them payback.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/todd-blanche-trump-doj.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/us/politics/dc-blanche/dc-blanche-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777053430.0,
       "hot": false
     },
     {
@@ -72,27 +180,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777045652.0,
-      "hot": false
-    },
-    {
-      "id": "1f51e1396a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "As Trump Officials Pushed Health Savings Accounts, RFK Jr. Aide Ran Wellness Company Poised to Benef",
-      "summary": "Calley Means remained president of a company that relied on health savings accounts last year as the Trump administration developed policies to expand them.",
-      "link": "https://www.nytimes.com/2026/04/24/health/calley-means-truemed-trump-health-savings.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-means-tbfj/24dc-means-tbfj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777045066.0,
       "hot": false
     },
     {
@@ -108,63 +198,45 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777043215.0,
       "hot": false
     },
     {
-      "id": "966ac749ab",
+      "id": "181538e1bf",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Justice Department drops inquiry into Fed Chair Jerome Powell",
+      "title": "Justice Department drops probe into Fed Chair Jerome Powell",
       "summary": "The move paves the way for the Senate to confirm Kevin Warsh, the president's nominee to head the central bank.",
       "link": "https://www.npr.org/2026/04/24/nx-s1-5798661/justice-department-drops-inquiry-into-fed-chair-jerome-powell",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777042937.0,
       "hot": false
     },
     {
-      "id": "51840d0082",
+      "id": "ae4b78eb10",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Decades-old, newly restored Smithsonian carousel reopens -- to children's delight",
+      "title": "Decades-old, newly restored Smithsonian carousel reopens — to children's delight",
       "summary": "The carousel was first desegregated when part of Gwynn Oak Amusement Park outside Baltimore in 1963. It was moved to the National Mall after the park closed.",
       "link": "https://www.npr.org/2026/04/24/nx-s1-5770103/smithsonian-carousel-reopens-national-mall-dc",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777042730.0,
-      "hot": false
-    },
-    {
-      "id": "74353a3249",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tariffs Raised Consumers’ Prices, but the Refunds Go Only to Businesses",
-      "summary": "Many families felt the sting of the president’s now-illegal tariffs, but companies have said little about whether they will share the $166 billion coming back to them.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/companies-consumers-tariff-refunds.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-trump-tariffs-01-blft/24dc-trump-tariffs-01-blft-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777039063.0,
       "hot": false
     },
     {
@@ -180,26 +252,26 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777035265.0,
       "hot": false
     },
     {
-      "id": "400b2cacf9",
+      "id": "cac5d98a05",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Israel-Lebanon ceasefire is extended by 3 weeks as tensions rise in Strait of Hormuz",
-      "summary": "Hezbollah and Israel traded fire just hours after the ceasefire extension was announced, underscoring its fragility.",
+      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
+      "summary": "Iran's foreign minister arrived in Islamabad, and the White House says Steve Witkoff and Jared Kushner will go there Saturday to try to \"move the ball forward towards a deal.\"",
       "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
       "image": null,
       "categories": [
-        "科技"
+        "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777031968.0,
       "hot": false
     },
@@ -217,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777028914.0,
       "hot": false
     },
@@ -235,26 +307,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777027610.0,
-      "hot": false
-    },
-    {
-      "id": "65888cfa1b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Who’s Getting a Tariff Refund?",
-      "summary": "Following a Supreme Court ruling that struck down several Trump administration tariffs, importers have begun applying for their share of $166 billion in refunds. As our economic policy reporter Tony R",
-      "link": "https://www.nytimes.com/video/business/100000010852324/whos-getting-a-tariff-refund.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777026677.0,
       "hot": false
     },
     {
@@ -271,61 +325,25 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1777024800.0,
       "hot": false
     },
     {
-      "id": "7b37b0ae0f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Todd Blanche Targets Trump’s Enemies Amid Jockeying to Lead DOJ",
-      "summary": "Mr. Blanche’s salvo of actions are meant to demonstrate progress on the president’s priorities, chief among them payback.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/todd-blanche-trump-doj.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/us/politics/dc-blanche/dc-blanche-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777021349.0,
-      "hot": false
-    },
-    {
-      "id": "327ca26c39",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "After 2 failed votes, Mike Johnson unveils new plan to extend key U.S. spy powers",
-      "summary": "With an April 30 deadline fast approaching, Johnson unveiled his latest proposal to extend the controversial surveillance program known as FISA 702.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797964/after-2-failed-votes-mike-johnson-unveils-new-plan-to-extend-key-u-s-spy-powers",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777021200.0,
-      "hot": false
-    },
-    {
-      "id": "266544bc7d",
+      "id": "f6b4b2476c",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Cuba's ambassador to Mexico says U.S. is to blame for island's crisis",
-      "summary": "Even as the U.S. threatens military action, Cuba's ambassador to Mexico blames Washington for the country's crisis and says Cuba is prepared for confrontation if diplomacy collapses.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797439/cubas-ambassador-to-mexico-says-us-is-to-blame-for-islands-crisis",
+      "title": "Cuban ambassador says U.S. is to blame for island's crisis",
+      "summary": "Even as the U.S. threatens military action, a senior Cuban ambassador blames Washington for the country's crisis and says Cuba is prepared for confrontation if diplomacy collapses.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5797439/cubas-ambassador-says-us-is-to-blame-for-islands-crisis",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777020238.0,
       "hot": false
     },
@@ -344,7 +362,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777007290.0,
       "hot": false
     },
@@ -363,26 +381,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1776982958.0,
-      "hot": false
-    },
-    {
-      "id": "92d8e05542",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Airlines in Europe slash thousands of flights as Iran war cuts jet fuel supplies",
-      "summary": "The soaring cost of jet fuel is forcing European airlines to cancel tens of thousands of flights, while energy authorities warned of a possible jet fuel shortage if supplies aren't replenished soon.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5797307/europe-airlines-jet-fuel-costs",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1776972546.0,
       "hot": false
     },
     {
