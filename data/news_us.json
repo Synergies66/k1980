@@ -1,9 +1,47 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-24T03:55:06.812245+00:00",
-  "total": 23,
+  "updated_at": "2026-04-24T06:22:59.534766+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "7d51254837",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump administration vows crackdown on Chinese firms 'exploiting' U.S. AI models",
+      "summary": "The Trump administration is vowing to crack down on foreign tech companies' exploitation of U.S. artificial intelligence models, singling out China at a time that country is narrowing the gap with the",
+      "link": "https://www.npr.org/2026/04/24/g-s1-118582/administration-crackdown-on-chinese-firms-exploiting-u-s-ai-models",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777008072.0,
+      "hot": false
+    },
+    {
+      "id": "7e6386beec",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "War and Sanctions Accelerate China’s Currency Push",
+      "summary": "China’s bid to build a renminbi-based financial system beyond the U.S. dollar’s reach is gaining traction as a way to sidestep sanctions.",
+      "link": "https://www.nytimes.com/2026/04/24/business/china-currency-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/business/00china-renminbi/00china-renminbi-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1777003216.0,
+      "hot": false
+    },
     {
       "id": "2fdc550141",
       "type": "news",
@@ -20,7 +58,7 @@
         "科技"
       ],
       "score": 77,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1776992672.0,
       "hot": false
     },
@@ -38,8 +76,63 @@
         "华人"
       ],
       "score": 77,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1776991344.0,
+      "hot": false
+    },
+    {
+      "id": "a08be6654a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "2 young people arrested in alleged plot to attack Houston synagogue",
+      "summary": "Two young people have been arrested in an alleged plot to attack a Texas synagogue that involved driving through the congregation to \"kill as many Jews as possible,\" according authorities.",
+      "link": "https://www.npr.org/2026/04/24/g-s1-118590/2-arrested-in-plot-to-attack-houston-synagogue",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1777009537.0,
+      "hot": false
+    },
+    {
+      "id": "44a837ca0b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "EU approves a $106 billion loan package to help Ukraine after Hungary lifts its veto",
+      "summary": "The European Union on Thursday approved a $106-billion loan package to help Ukraine meet its economic and military needs for two years, ending months of political deadlock.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5798455/eu-approves-a-106-billion-loan-package-to-help-ukraine-after-hungary-lifts-its-veto",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777007290.0,
+      "hot": false
+    },
+    {
+      "id": "405c23dcb2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Concern Grows Over Republican Congressman’s Mysterious Absence",
+      "summary": "A spokesman for Representative Thomas Kean Jr. said an unspecified “personal medical issue” has led the New Jersey Republican to miss House votes.",
+      "link": "https://www.nytimes.com/2026/04/23/nyregion/thomas-kean-jr-republican-missing.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/nyregion/24met-congressional-absence-nj/24met-congressional-absence-nj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1776999689.0,
       "hot": false
     },
     {
@@ -55,8 +148,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1776996822.0,
       "hot": false
     },
@@ -74,7 +167,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1776995554.0,
       "hot": false
     },
@@ -91,8 +184,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1776986957.0,
       "hot": false
     },
@@ -110,27 +203,9 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776982958.0,
-      "hot": false
-    },
-    {
-      "id": "bccd8ff1d3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Keeps Talking About Iran’s ‘Nuclear Dust.’ What Is It?",
-      "summary": "First of all, it isn’t dust. It’s Iran’s stockpile of near-bomb-grade uranium, which is stored in large canisters about the size of scuba tanks.",
-      "link": "https://www.nytimes.com/2026/04/23/us/politics/trump-iran-nuclear-dust-uranium.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23dc-nuclear-dust-gpqj/23dc-nuclear-dust-gpqj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776982429.0,
       "hot": false
     },
     {
@@ -146,27 +221,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1776981580.0,
-      "hot": false
-    },
-    {
-      "id": "90020405ec",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says Israel-Lebanon Cease-Fire Is Extended",
-      "summary": "Also, America’s premier opera company has money troubles. Here’s the latest at the end of Thursday.",
-      "link": "https://www.nytimes.com/2026/04/23/briefing/trump-says-israel-lebanon-cease-fire-is-extended.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23evening-nl-lebanon-kmqp/23evening-nl-lebanon-kmqp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1776981308.0,
       "hot": false
     },
     {
@@ -183,7 +240,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776977490.0,
       "hot": false
     },
@@ -201,7 +258,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1776977209.0,
       "hot": false
     },
@@ -219,7 +276,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1776975020.0,
       "hot": false
     },
@@ -237,62 +294,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776972546.0,
-      "hot": false
-    },
-    {
-      "id": "a34d245664",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Author details the spy network that took on America's post-WWII Nazi groups",
-      "summary": "In The Secret War Against Hate, Steven J. Ross details the racist, anti-Semitic groups that sprang up in the latter half of the 20th century — and the spy network that worked to bring them to justice.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5797402/author-details-the-spy-network-that-took-on-americas-post-wwii-nazi-groups",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "10小时前",
-      "pub_ts": 1776964548.0,
-      "hot": false
-    },
-    {
-      "id": "d155f5f3d3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Can a mentalist trick Trump? Oz Pearlman will try in a room full of journalists",
-      "summary": "The White House Correspondents' Dinner will be headlined by a mentalist instead of a comedian. Oz Pearlman tells NPR he hopes to unify, delight and puzzle the crowd — but can't reveal how.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5786573/oz-pearlman-mentalist-white-house-correspondents-dinner",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1776962813.0,
-      "hot": false
-    },
-    {
-      "id": "7dc3867a7d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How mosquitoes — and malaria — helped shape the whereabouts of early humankind",
-      "summary": "A new study looks at an unexpected force that played a critical role in shaping the lives of ancient humans.",
-      "link": "https://www.npr.org/2026/04/23/g-s1-118443/mosquitoes-malaria-human-civilization",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1776959418.0,
+      "pub_ts": 1776972546.0,
       "hot": false
     },
     {
@@ -309,7 +312,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1776944230.0,
       "hot": false
     },
@@ -327,7 +330,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1776943841.0,
       "hot": false
     },
@@ -345,26 +348,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1776941386.0,
-      "hot": false
-    },
-    {
-      "id": "6e20797d4b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "World Press Photo announces Photo of the Year 2026",
-      "summary": "The executive director of World Press Photo said the image shows the inconsolable grief of children losing their father in a place built for justice. It is a stark and necessary record of family separ",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/04/23/nx-s1-5793922/world-press-photo-announces-photo-of-the-year-2026",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1776934800.0,
       "hot": false
     },
     {
@@ -381,26 +366,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1776934800.0,
-      "hot": false
-    },
-    {
-      "id": "8d41b9797e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Candidates vying for U.N. secretary-general role face questions",
-      "summary": "Who will replace U.N. Secretary-General Antonio Guterres when he steps down this year? Four candidates field questions from member states this week at U.N. headquarters.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5786581/candidates-vying-for-u-n-secretary-general-role-face-questions",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1776933951.0,
       "hot": false
     },
     {
