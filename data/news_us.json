@@ -1,14 +1,14 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-24T09:58:43.491166+00:00",
+  "updated_at": "2026-04-24T14:12:24.179123+00:00",
   "total": 22,
   "articles": [
     {
       "id": "7d51254837",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump administration vows crackdown on Chinese firms 'exploiting' U.S. AI models",
       "summary": "The Trump administration is vowing to crack down on foreign tech companies' exploitation of U.S. artificial intelligence models, singling out China at a time that country is narrowing the gap with the",
@@ -18,28 +18,9 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1777008072.0,
-      "hot": false
-    },
-    {
-      "id": "7e6386beec",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "War and Sanctions Accelerate China’s Currency Push",
-      "summary": "China’s bid to build a renminbi-based financial system beyond the U.S. dollar’s reach is gaining traction as a way to sidestep sanctions.",
-      "link": "https://www.nytimes.com/2026/04/24/business/china-currency-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/business/00china-renminbi/00china-renminbi-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1777003216.0,
       "hot": false
     },
     {
@@ -58,44 +39,170 @@
         "科技"
       ],
       "score": 72,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1776992672.0,
       "hot": false
     },
     {
-      "id": "8fc7020725",
+      "id": "74353a3249",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Reposts Anti-Immigrant Tirade Calling China and India ‘Hellhole’ Places",
-      "summary": "The president touched off a furor with his post sharing a podcast episode in which the host referred to China and India as “hellhole” places.",
-      "link": "https://www.nytimes.com/2026/04/23/us/politics/trump-china-india-immigrants.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23nat-trump-asian-cjpg/23nat-trump-asian-cjpg-mediumSquareAt3X.jpg",
+      "title": "Tariffs Raised Consumers’ Prices, but the Refunds Go Only to Businesses",
+      "summary": "Many families felt the sting of the president’s now-illegal tariffs, but companies have said little about whether they will share the $166 billion coming back to them.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/companies-consumers-tariff-refunds.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-trump-tariffs-01-blft/24dc-trump-tariffs-01-blft-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "科技"
       ],
-      "score": 72,
-      "ago": "9小时前",
-      "pub_ts": 1776991344.0,
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1777039063.0,
       "hot": false
     },
     {
-      "id": "03f371b441",
+      "id": "ed04815c4c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Why Trump wants to spend $1 billion on Great Salt Lake",
-      "summary": "Utah's Great Salt Lake has been labeled an \"environmental nuclear bomb\" and it has the attention of the president of the United States.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5746844/why-trump-wants-to-spend-1-billion-on-great-salt-lake",
+      "title": "How Pittsburgh — host of this year's NFL draft — became a sports mecca",
+      "summary": "The Pennsylvania city is hosting the draft for the first time in almost 80 years. Pittsburghers say the city's passionate fanbases and winning teams make the selection a natural fit.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5794052/nfl-draft-pittsburgh-fans",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777035265.0,
+      "hot": false
+    },
+    {
+      "id": "400b2cacf9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israel-Lebanon ceasefire is extended by 3 weeks as tensions rise in Strait of Hormuz",
+      "summary": "Hezbollah and Israel traded fire just hours after the ceasefire extension was announced, underscoring its fragility.",
+      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777031968.0,
+      "hot": false
+    },
+    {
+      "id": "8ef0782730",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israel and Lebanon extend ceasefire. And, Trump eases medical marijuana rules",
+      "summary": "Israel and Lebanon have agreed to extend their ceasefire for three weeks, President Trump says. And, the Trump administration is easing rules on medical marijuana.",
+      "link": "https://www.npr.org/2026/04/24/g-s1-118594/up-first-newsletter-strait-of-hormuz-lebanon-israel-marijuana-reclassification-georgia-wildfires-polymarket",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1777021200.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777028914.0,
+      "hot": false
+    },
+    {
+      "id": "e4199b8a5e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Thousands of seafarers stranded by ongoing U.S. blockade on Strait of Hormuz",
+      "summary": "As the U.S. blockade on Iranian ports drags on, thousands of seafarers are stranded on ships, and economic shockwaves ripple around the world.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5797793/thousands-of-seafarers-stranded-by-ongoing-us-blockade-on-strait-of-hormuz",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777027610.0,
+      "hot": false
+    },
+    {
+      "id": "65888cfa1b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Who’s Getting a Tariff Refund?",
+      "summary": "Following a Supreme Court ruling that struck down several Trump administration tariffs, importers have begun applying for their share of $166 billion in refunds. As our economic policy reporter Tony R",
+      "link": "https://www.nytimes.com/video/business/100000010852324/whos-getting-a-tariff-refund.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777026677.0,
+      "hot": false
+    },
+    {
+      "id": "5e1450abfc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Approval Drops to New Low, and Condom Prices Rise Because of the War",
+      "summary": "Plus, your Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/04/24/podcasts/the-headlines/trump-approval-rating-war-condom-prices.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24headlines-trump-ratings-hbgp/24headlines-trump-ratings-hbgp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777024810.0,
+      "hot": false
+    },
+    {
+      "id": "0cc8e5cead",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Self-aware' robots can learn complex tasks by watching humans. Is that a good thing?",
+      "summary": "Scientists say they've made a key breakthrough that would allow robots to figure out complex tasks on their own, but experts say it raises questions about how much risk comes with letting robots be in",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5797863/self-aware-robots-future-laundry-work-home",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777024800.0,
+      "hot": false
+    },
+    {
+      "id": "7b37b0ae0f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Todd Blanche Targets Trump’s Enemies Amid Jockeying to Lead DOJ",
+      "summary": "Mr. Blanche’s salvo of actions are meant to demonstrate progress on the president’s priorities, chief among them payback.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/todd-blanche-trump-doj.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/us/politics/dc-blanche/dc-blanche-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777021349.0,
       "hot": false
     },
     {
@@ -111,8 +218,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "58分前",
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777021200.0,
+      "hot": false
+    },
+    {
+      "id": "03f371b441",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Why Trump wants to spend $1 billion on Great Salt Lake",
+      "summary": "Utah's Great Salt Lake has been labeled an \"environmental nuclear bomb\" and it has the attention of the president of the United States.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5746844/why-trump-wants-to-spend-1-billion-on-great-salt-lake",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777021200.0,
       "hot": false
     },
@@ -129,52 +254,34 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777020312.0,
       "hot": false
     },
     {
-      "id": "6d90cb1fe0",
+      "id": "266544bc7d",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Cuba's ambassador to Mexico says US is to blame for island's crisis",
+      "title": "Cuba's ambassador to Mexico says U.S. is to blame for island's crisis",
       "summary": "Even as the U.S. threatens military action, Cuba's ambassador to Mexico blames Washington for the country's crisis and says Cuba is prepared for confrontation if diplomacy collapses.",
       "link": "https://www.npr.org/2026/04/24/nx-s1-5797439/cubas-ambassador-to-mexico-says-us-is-to-blame-for-islands-crisis",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777020238.0,
-      "hot": false
-    },
-    {
-      "id": "a08be6654a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "2 young people arrested in alleged plot to attack Houston synagogue",
-      "summary": "Two young people have been arrested in an alleged plot to attack a Texas synagogue that involved driving through the congregation to \"kill as many Jews as possible,\" according authorities.",
-      "link": "https://www.npr.org/2026/04/24/g-s1-118590/2-arrested-in-plot-to-attack-houston-synagogue",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777009537.0,
+      "ago": "5小时前",
+      "pub_ts": 1777020238.0,
       "hot": false
     },
     {
       "id": "44a837ca0b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "EU approves a $106 billion loan package to help Ukraine after Hungary lifts its veto",
       "summary": "The European Union on Thursday approved a $106-billion loan package to help Ukraine meet its economic and military needs for two years, ending months of political deadlock.",
@@ -184,88 +291,34 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777007290.0,
       "hot": false
     },
     {
-      "id": "405c23dcb2",
+      "id": "0d2e26ac59",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Concern Grows Over Republican Congressman’s Mysterious Absence",
-      "summary": "A spokesman for Representative Thomas Kean Jr. said an unspecified “personal medical issue” has led the New Jersey Republican to miss House votes.",
-      "link": "https://www.nytimes.com/2026/04/23/nyregion/thomas-kean-jr-republican-missing.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/nyregion/24met-congressional-absence-nj/24met-congressional-absence-nj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1776999689.0,
-      "hot": false
-    },
-    {
-      "id": "6125655764",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Pentagon Fires Stars and Stripes Newspaper’s Ombudsman",
-      "summary": "The newspaper’s ombudsman, Jacqueline Smith, said she had been given no reason for her dismissal.",
-      "link": "https://www.nytimes.com/2026/04/23/business/pentagon-fires-stars-and-stripes-ombudsman.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23biz-stripes-ombudsman-pcbm/23biz-stripes-ombudsman-pcbm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1776996822.0,
-      "hot": false
-    },
-    {
-      "id": "5ddbf9ef4d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Soldier Used Classified Information to Bet on Maduro’s Ouster, U.S. Says",
-      "summary": "Federal prosecutors say that Sgt. Gannon Ken Van Dyke, who was involved in the operation to oust Nicolás Maduro from power in Venezuela, used the information to place bets on a prediction market.",
-      "link": "https://www.nytimes.com/2026/04/23/nyregion/polymarket-maduro-indictment-soldier.html",
-      "image": "https://static01.nyt.com/images/2026/02/27/multimedia/23met-maduro-betting-1/23met-maduro-betting-1-mediumSquareAt3X-v2.jpg",
+      "title": "Trump Says He’s Renovating ‘Filthy’ Reflecting Pool on the National Mall",
+      "summary": "The pool, which is more than 2,000 feet long, was the site of Martin Luther King Jr.’s “I Have a Dream” speech and other events.",
+      "link": "https://www.nytimes.com/2026/04/23/us/politics/trump-reflecting-pool-renovation.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23dc-trump-top-qjfb/23dc-trump-top-qjfb-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1776995554.0,
-      "hot": false
-    },
-    {
-      "id": "275655dbe1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. soldier charged with using classified information to bet on Maduro's removal",
-      "summary": "It's the first time suspected insider trading on Polymarket has led to criminal charges in the U.S.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5797957/maduro-raid-charges-polymarket-insider",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1776986957.0,
+      "ago": "15小时前",
+      "pub_ts": 1776984038.0,
       "hot": false
     },
     {
       "id": "0d45deb8dc",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "French police probe suspected weather device tampering after odd Polymarket bet",
       "summary": "The incident is the latest eyebrow-raising bet on Polymarket, as allegations of rigging and manipulation continue to haunt the popular prediction market site.",
@@ -276,7 +329,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1776982958.0,
       "hot": false
     },
@@ -294,7 +347,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1776981580.0,
       "hot": false
     },
@@ -312,7 +365,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1776977490.0,
       "hot": false
     },
@@ -330,62 +383,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1776972546.0,
-      "hot": false
-    },
-    {
-      "id": "ddb914bb92",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Tensions rise in two ceasefires in the Middle East. And, the Navy secretary ousted",
-      "summary": "Tensions are rising in the Middle East as shaky ceasefire agreements between the U.S., Israel and Iran, and Lebanon and Israel, are tested. And, the Secretary of the Navy is out of the role.",
-      "link": "https://www.npr.org/2026/04/23/g-s1-118440/up-first-newsletter-us-iran-john-phelan-trump-republican-democrat-midterm-fundraising-budget-reconciliation-ice",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776944230.0,
-      "hot": false
-    },
-    {
-      "id": "01233cbdd3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump announces a 3-week extension of the Israel-Lebanon ceasefire",
-      "summary": "President Trump said Thursday that Israel and Lebanon have agreed to extend their ceasefire for three weeks after the two sides met at the White House for a high-level negotiation.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5796719/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1776943841.0,
-      "hot": false
-    },
-    {
-      "id": "8bf113f478",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Peace talks between U.S. and Iran at a standstill as Trump extends ceasefire",
-      "summary": "President Trump has extended the ceasefire, but Iran says it's not enough if the naval blockade is still in place.",
-      "link": "https://www.npr.org/2026/04/23/nx-s1-5795829/peace-talks-between-us-and-iran-at-a-standstill-as-trump-extends-ceasefire",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1776941386.0,
       "hot": false
     },
     {
