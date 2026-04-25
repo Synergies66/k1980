@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-25T17:22:46.905289+00:00",
+  "updated_at": "2026-04-25T21:19:32.626974+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "ec88f45cc7",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(Yonhap Interview) UNC deputy chief cautions against changes to 'proven framework' over DMZ control",
+      "summary": "SEOUL, April 26 (Yonhap) -- The deputy commander of the U.N. Command (UNC) has s...",
+      "link": "https://en.yna.co.kr/view/AEN20260424009900315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/24/AEN20260424009900315_03_i_P2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1777150805.0,
+      "hot": false
+    },
     {
       "id": "f4a2175afc",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777118612.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777117800.0,
       "hot": false
     },
@@ -55,7 +73,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777105305.0,
       "hot": false
     },
@@ -73,7 +91,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777103296.0,
       "hot": false
     },
@@ -91,7 +109,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777101868.0,
       "hot": false
     },
@@ -109,7 +127,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777098322.0,
       "hot": false
     },
@@ -127,26 +145,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777095137.0,
-      "hot": false
-    },
-    {
-      "id": "82f228177a",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Today in Korean history",
-      "summary": "April 26",
-      "link": "https://en.yna.co.kr/view/AEN20260425001100315",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777093200.0,
       "hot": false
     }
   ]
