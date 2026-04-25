@@ -1,27 +1,9 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-25T09:28:43.300639+00:00",
-  "total": 30,
+  "updated_at": "2026-04-25T13:44:14.445615+00:00",
+  "total": 29,
   "articles": [
-    {
-      "id": "a8c752a5dd",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "My husband and son dived to see the wreck of the Titanic, and never came back – this is what happene",
-      "summary": "Christine Dawood found herself trapped on the ship, waiting for signs that the Titan submersible carrying her family would surface. She talks in detail for the first time about those harrowing four da",
-      "link": "https://www.theguardian.com/world/2026/apr/25/my-husband-and-son-titan-submersible-christine-dawood-what-happened",
-      "image": "https://i.guim.co.uk/img/media/0a8c8f876ca91e8a15a7a548011b7cf3aef51231/200_0_1255_1004/master/1255.jpg?width=140&quality=85&auto=format&fit=max&s=52727548a920ecb1257ce1fdd90de9a4",
-      "categories": [
-        "科技"
-      ],
-      "score": 77,
-      "ago": "4小时前",
-      "pub_ts": 1777093239.0,
-      "hot": false
-    },
     {
       "id": "6646b26ccc",
       "type": "news",
@@ -36,8 +18,26 @@
         "华人"
       ],
       "score": 75,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1776936732.0,
+      "hot": false
+    },
+    {
+      "id": "a8c752a5dd",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "My husband and son dived to see the wreck of the Titanic, and never came back – this is what happene",
+      "summary": "Christine Dawood found herself trapped on the ship, waiting for signs that the Titan submersible carrying her family would surface. She talks in detail for the first time about those harrowing four da",
+      "link": "https://www.theguardian.com/world/2026/apr/25/my-husband-and-son-titan-submersible-christine-dawood-what-happened",
+      "image": "https://i.guim.co.uk/img/media/0a8c8f876ca91e8a15a7a548011b7cf3aef51231/200_0_1255_1004/master/1255.jpg?width=140&quality=85&auto=format&fit=max&s=52727548a920ecb1257ce1fdd90de9a4",
+      "categories": [
+        "科技"
+      ],
+      "score": 72,
+      "ago": "8小时前",
+      "pub_ts": 1777093239.0,
       "hot": false
     },
     {
@@ -49,13 +49,13 @@
       "title": "Two children die in house fire in Wolverhampton",
       "summary": "Two other children and a woman were already out of the house before emergency services arrived.",
       "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e361/live/f08a87a0-4083-11f1-b7ed-156ae9f6d6df.png",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e5c/live/41595620-4093-11f1-bd52-e755d604ece4.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777107406.0,
+      "ago": "22分前",
+      "pub_ts": 1777123297.0,
       "hot": false
     },
     {
@@ -67,159 +67,175 @@
       "title": "Two young children die in Wolverhampton house fire",
       "summary": "Two other children and a woman were already out of the house before emergency services arrived.",
       "link": "https://www.bbc.com/news/articles/cdxd1e899r4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e361/live/f08a87a0-4083-11f1-b7ed-156ae9f6d6df.png",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c2/live/3c43f4a0-4094-11f1-b6fb-03782402328c.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777107406.0,
+      "ago": "22分前",
+      "pub_ts": 1777123297.0,
       "hot": false
     },
     {
-      "id": "e86b4ab082",
+      "id": "de6b61530c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Men and boys charged with raping teenage girl",
+      "summary": "Two men and three boys have been charged in connection with an alleged rape in Gravesend.",
+      "link": "https://www.bbc.com/news/articles/c70529wng5ro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1e8f/live/efe06c50-4080-11f1-b92d-1390db4c1e47.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1777121061.0,
+      "hot": false
+    },
+    {
+      "id": "0a570175ef",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Falklands veteran hopes King can speak to Trump over US 'review' of UK's sovereignty claim",
-      "summary": "Simon Weston says reports the US is reviewing the UK's claim to the territory makes his sacrifice feel \"irrelevant\".",
-      "link": "https://www.bbc.com/news/articles/c62lp853214o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3182/live/4522c360-4055-11f1-ac78-2112837ce2aa.png",
+      "title": "Relish and dread as Starmer 'shambles' hangs over Scotland and Wales elections",
+      "summary": "Laura Kuenssberg travels to Wales and Scotland to speak to candidates and voters ahead of May 7 polls.",
+      "link": "https://www.bbc.com/news/articles/cq59xvdzjv7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2a18/live/de8b4cc0-3fce-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777118874.0,
+      "hot": false
+    },
+    {
+      "id": "1435359f8c",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Tate at a turning point: new director must confront unwieldy ‘beast’ of an art institution",
+      "summary": "As Maria Balshaw steps down after nine years, her successor at the gallery needs to forge a fresh financial and cultural pathRoland Rudd, the chair of Tate, is in a bullish mood when we meet at his of",
+      "link": "https://www.theguardian.com/culture/2026/apr/25/tate-at-a-turning-point-new-director-must-confront-unwieldy-beast-of-an-art-institution",
+      "image": "https://i.guim.co.uk/img/media/43f021c18250fc08397291c54735da613d76b7ef/0_84_5288_4230/master/5288.jpg?width=140&quality=85&auto=format&fit=max&s=f6fee4a84a5998db115e33116120ac43",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777118446.0,
+      "hot": false
+    },
+    {
+      "id": "1274c71317",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Will I ever retire? It doesn’t look like it | Dave Schilling",
+      "summary": "Being financially equipped to retire feels like a fantasy. And yet plenty of people who could do so are avoiding it“Retirement.” A word I can hardly spell anymore, it seems so abstract and impossible",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/25/retirement-finances-work",
+      "image": "https://i.guim.co.uk/img/media/616b181f2467c8f2c152bb968de58427d70f71cd/1_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=00ab2932438260787bd137876e9850f5",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777114843.0,
+      "hot": false
+    },
+    {
+      "id": "36405c28e2",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Gladiator Giant claims he was axed from BBC show over girlfriend's job",
+      "summary": "Jamie Bigg says he wanted to publicise his relationship and was told he \"wouldn't be continuing\" on the show.",
+      "link": "https://www.bbc.com/news/articles/cpvx9yjk9ggo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d196/live/f6356e40-3fc5-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777114289.0,
+      "hot": false
+    },
+    {
+      "id": "81318c3fff",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Extradited teen in court over woman's murder",
+      "summary": "The London property manager, 27, who was also known as Angela, was stabbed in Westminster in 2024.",
+      "link": "https://www.bbc.com/news/articles/ce9mkxy0drro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3855/live/9daa5b90-4043-11f1-825b-b326ba12ad7f.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777113906.0,
+      "hot": false
+    },
+    {
+      "id": "198ea3adf6",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘Nigel is mad to accept his money’: who is Christopher Harborne, the mystery billionaire bankrolling",
+      "summary": "A crypto tycoon is giving record-breaking amounts to Farage’s party. But little is known about his motivesShortly before Christmas 2022, Chakrit Sakunkrit, owner of the Kamalaya Wellness Sanctuary on",
+      "link": "https://www.theguardian.com/politics/2026/apr/25/christopher-harborne-mystery-billionaire-bankrolling-reform-uk-nigel-farage",
+      "image": "https://i.guim.co.uk/img/media/6b8baf6e1ccf91414d4131e67241a294bfebe173/0_259_4665_3733/master/4665.jpg?width=140&quality=85&auto=format&fit=max&s=64f1d6ba6c88a77e3c9434db9c68a9c5",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1777097412.0,
+      "pub_ts": 1777111243.0,
       "hot": false
     },
     {
-      "id": "31dcd092ef",
+      "id": "db94d8b2fb",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Safety fears as UK hospitals use nurses to cover for doctors due to shortage of medics",
-      "summary": "Exclusive: Advanced practitioners are being deployed to cover doctor rota gaps across the NHS, figures showUK hospitals are using nurses to cover for doctors because of an NHS-wide shortage of medics,",
-      "link": "https://www.theguardian.com/society/2026/apr/25/safety-fears-as-uk-hospitals-use-nurses-to-cover-for-doctors-due-to-shortage-of-medics",
-      "image": "https://i.guim.co.uk/img/media/00657989ac26ebd563e84eb609817ff06a430ce4/168_0_2664_2132/master/2664.jpg?width=140&quality=85&auto=format&fit=max&s=56fd16f4a22f815a94f2dc45053a142f",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777096839.0,
-      "hot": false
-    },
-    {
-      "id": "1365ff2b5f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘They deserve to lose’: Labour at risk of ‘red wall’ collapsing in May elections",
-      "summary": "Voters in Barnsley, Sunderland and Wakefield express frustration with party amid strong Reform UK challengeWhen millions of voters across Great Britain go to the polls on 7 May, the result will have a",
-      "link": "https://www.theguardian.com/politics/2026/apr/25/labour-risk-red-wall-collapse-may-elections",
-      "image": "https://i.guim.co.uk/img/media/c6990701bddb2fcfafdad02fb6a460fb4c7ceb62/0_15_3711_2969/master/3711.jpg?width=140&quality=85&auto=format&fit=max&s=22dbd1e1c8ccc886be9b6e7c262a0039",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777096839.0,
-      "hot": false
-    },
-    {
-      "id": "b0050408d8",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Your UK pension is no longer safe from inheritance tax: what should you do?",
-      "summary": "Many people are taking action now, from taking family on holiday to paying off grandchildren’s student loans or giving tax-free giftsMany of us are still getting our heads around the price increases a",
-      "link": "https://www.theguardian.com/money/2026/apr/25/uk-pension-inheritance-tax-holiday-student-loans-tax-free-gifts",
-      "image": "https://i.guim.co.uk/img/media/2c13d3593def9754f78a39ba2fe7030edbeffbde/443_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=2e27e57022ba582b53d18f6ae6a4b1cb",
-      "categories": [
-        "经济",
-        "教育"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777096837.0,
-      "hot": false
-    },
-    {
-      "id": "7b6d3af3a8",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Blind date: ‘Most awkward moment? When he nearly set the menu alight’",
-      "summary": "Abby, 25, a partnerships manager for film, meets Charlie, 26, a finance analystWhat were you hoping for?\n A different kind of Friday night with good company and a fancy meal! Continue reading...",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/25/blind-date-most-awkward-moment-when-he-nearly-set-the-menu-alight",
-      "image": "https://i.guim.co.uk/img/media/f6b2252ff07bcf94a2564d08b014a7423aa992d0/0_0_5000_4001/master/5000.png?width=140&quality=85&auto=format&fit=max&s=2147aba6a326f6a6d231f2c9e71b1345",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777093239.0,
-      "hot": false
-    },
-    {
-      "id": "c2082a8427",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "59,000 runners, 93,024 energy gels and £100m for charity: the London Marathon is booming",
-      "summary": "The prodigious growth of running clubs, fuelled by young women, has seen the popularity of the event sky-rocketThere is always magic in the air on a London Marathon morning. But this year the event pr",
-      "link": "https://www.theguardian.com/sport/2026/apr/25/athletics-london-marathon-running-clubs-boom",
-      "image": "https://i.guim.co.uk/img/media/e891740609f76e5d0292771817a645f573b3e24b/332_0_3540_2832/master/3540.jpg?width=140&quality=85&auto=format&fit=max&s=2f1fc7e44804ea5a7e8544d75e94c3bc",
+      "title": "Tensions flare in heated I'm A Celebrity live final",
+      "summary": "Adam Thomas, Craig Charles, Mo Farah and Harry Redknapp were in the final of I'm A Celebrity... South Africa.",
+      "link": "https://www.bbc.com/news/articles/cy8138z5zn7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ede1/live/d777e110-3fbe-11f1-b61b-1d0ccf7b6022.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1777093237.0,
+      "pub_ts": 1777109617.0,
       "hot": false
     },
     {
-      "id": "8e5ba633d4",
+      "id": "ed69bf5e23",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Inside Chornobyl: 40 years after disaster, nuclear site still at risk in Russia’s war",
-      "summary": "In February 2025, a cheap Russian drone tore through Chornobyl’s confinement shelter. Workers warn the site of the world’s worst nuclear accident is not safe yetThe dosimeter clipped to your chest tic",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/25/chornobyl-power-plant-at-risk-amid-russia-war-ukraine",
-      "image": "https://i.guim.co.uk/img/media/785c7a6c838f62bc459ead38ab013dd390d24abc/156_0_4688_3750/master/4688.jpg?width=140&quality=85&auto=format&fit=max&s=61deb5a0b05cae9491db8458fb91d765",
+      "title": "Meghann Fahy: ‘My most embarrassing moment? Peeing my pants on stage’",
+      "summary": "The White Lotus actor on an awful audition, an important lesson and her first kiss with Leo WoodallBorn in Massachusetts, Meghann Fahy, 36, understudied for the musical Next to Normal in 2008 and went",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/25/meghann-fahy-my-most-embarrassing-moment-peeing-my-pants-on-stage",
+      "image": "https://i.guim.co.uk/img/media/930b090c691f38d7de00a26c9b7acb43ca699365/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3a90718a61723615d7fcb8ca07902796",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1777093236.0,
-      "hot": false
-    },
-    {
-      "id": "fb11aa8940",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Lily Allen’s ‘revenge’, Harry Styles’ Dorothy and Debbie Harry’s T-shirt – 20 onstage dresses ranked",
-      "summary": "To celebrate the release of the film Mother Mary, starring Anne Hathaway and Michaela Coel, in which a fashion designer creates a comeback dress for a pop star, we weigh up the best performative looks",
-      "link": "https://www.theguardian.com/fashion/2026/apr/25/lily-allen-revenge-harry-styles-dorothy-debbie-harry-t-shirt-20-onstage-dresses-ranked",
-      "image": "https://i.guim.co.uk/img/media/183a9851692c469323c3c0d87ae9d0db8fb7ace3/381_0_4647_3719/master/4647.jpg?width=140&quality=85&auto=format&fit=max&s=664d682a99a3f136e5eaa2f8d66d3c3c",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777089634.0,
+      "pub_ts": 1777107641.0,
       "hot": false
     },
     {
@@ -331,57 +347,112 @@
       "hot": false
     },
     {
-      "id": "a2458cddd7",
+      "id": "a402581ccd",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "Heated Rivalry, The Housemaid and Fourth Wing: TikTok launches BookTok bestseller list",
-      "summary": "The inaugural top 20 is entirely made up of female authors, with Chloe Walsh appearing most frequently.",
-      "link": "https://www.bbc.com/news/articles/c5yxmy5gnd0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d87d/live/ccf53e30-407d-11f1-bd52-e755d604ece4.jpg",
+      "title": "'Dad had a gun under his pillow' to protect largest UK medieval coin hoard",
+      "summary": "The Fishpool Hoard - consisting of more than 1,200 coins - was uncovered more than 60 years ago.",
+      "link": "https://www.bbc.com/news/articles/c4g6p452dn2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6da/live/889ef2e0-38cf-11f1-897a-bdd15f22bdb0.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777097666.0,
+      "hot": false
+    },
+    {
+      "id": "6e50db0493",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Falklands veteran hopes King can persuade Trump to 'back down'",
+      "summary": "Simon Weston says reports the US is reviewing the UK's claim to the territory makes his sacrifice feel \"irrelevant\".",
+      "link": "https://www.bbc.com/news/articles/c62lp853214o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3182/live/4522c360-4055-11f1-ac78-2112837ce2aa.png",
       "categories": [
         "科技"
       ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1777081139.0,
+      "pub_ts": 1777097412.0,
       "hot": false
     },
     {
-      "id": "b9600bc168",
+      "id": "31dcd092ef",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Man extradited from Dubai over murder of woman found stabbed at London home",
-      "summary": "The London property manager, 27, who was also known as Angela, was stabbed in Westminster in 2024.",
-      "link": "https://www.bbc.com/news/articles/ce9mkxy0drro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3855/live/9daa5b90-4043-11f1-825b-b326ba12ad7f.jpg",
+      "title": "Safety fears as UK hospitals use nurses to cover for doctors due to shortage of medics",
+      "summary": "Exclusive: Advanced practitioners are being deployed to cover doctor rota gaps across the NHS, figures showUK hospitals are using nurses to cover for doctors because of an NHS-wide shortage of medics,",
+      "link": "https://www.theguardian.com/society/2026/apr/25/safety-fears-as-uk-hospitals-use-nurses-to-cover-for-doctors-due-to-shortage-of-medics",
+      "image": "https://i.guim.co.uk/img/media/00657989ac26ebd563e84eb609817ff06a430ce4/168_0_2664_2132/master/2664.jpg?width=140&quality=85&auto=format&fit=max&s=56fd16f4a22f815a94f2dc45053a142f",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777080425.0,
+      "ago": "7小时前",
+      "pub_ts": 1777096839.0,
       "hot": false
     },
     {
-      "id": "aad13f4d81",
+      "id": "b0050408d8",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Touring is a costly struggle for bands like us. Now Harry Styles is helping",
-      "summary": "Ticket money from some stadium and arena gigs is helping support struggling grassroots artists and venues.",
-      "link": "https://www.bbc.com/news/articles/c2lwy12j2j8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1070/live/812f6230-407a-11f1-b794-bb661306431c.jpg",
+      "title": "Your UK pension is no longer safe from inheritance tax: what should you do?",
+      "summary": "Many people are taking action now, from taking family on holiday to paying off grandchildren’s student loans or giving tax-free giftsMany of us are still getting our heads around the price increases a",
+      "link": "https://www.theguardian.com/money/2026/apr/25/uk-pension-inheritance-tax-holiday-student-loans-tax-free-gifts",
+      "image": "https://i.guim.co.uk/img/media/2c13d3593def9754f78a39ba2fe7030edbeffbde/443_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=2e27e57022ba582b53d18f6ae6a4b1cb",
+      "categories": [
+        "经济",
+        "教育"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777096837.0,
+      "hot": false
+    },
+    {
+      "id": "7b6d3af3a8",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Blind date: ‘Most awkward moment? When he nearly set the menu alight’",
+      "summary": "Abby, 25, a partnerships manager for film, meets Charlie, 26, a finance analystWhat were you hoping for?\n A different kind of Friday night with good company and a fancy meal! Continue reading...",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/25/blind-date-most-awkward-moment-when-he-nearly-set-the-menu-alight",
+      "image": "https://i.guim.co.uk/img/media/f6b2252ff07bcf94a2564d08b014a7423aa992d0/0_0_5000_4001/master/5000.png?width=140&quality=85&auto=format&fit=max&s=2147aba6a326f6a6d231f2c9e71b1345",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "8小时前",
-      "pub_ts": 1777080156.0,
+      "pub_ts": 1777093239.0,
+      "hot": false
+    },
+    {
+      "id": "fcc5aa925f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Loud eaters, people on phones - the bad behaviour plaguing my cinema trip",
+      "summary": "Some people are being disruptive in cinemas - despite routine reminders to be considerate to others.",
+      "link": "https://www.bbc.com/news/articles/c2482ql0zp4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/986c/live/40712e30-3fd1-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "13小时前",
+      "pub_ts": 1777077141.0,
       "hot": false
     },
     {
@@ -393,22 +464,22 @@
       "title": "Katya Adler: Europe's Nato allies push back at reported US threat to Spain",
       "summary": "On Friday morning, souring relations between Europe and the United States  reared its Medusa-like head again, writes the BBC's Europe editor.",
       "link": "https://www.bbc.com/news/articles/cj40r2gw24wo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcbe/live/62677690-4038-11f1-b55d-0f258dce1735.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d53a/live/7b770e50-4099-11f1-bd52-e755d604ece4.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777075851.0,
       "hot": false
     },
     {
-      "id": "586c0576d7",
+      "id": "49bfee2f1a",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "King's 'high stakes' visit with Trump will be toughest test yet of his reign",
+      "title": "The King faces biggest test of his reign as he heads to visit Trump",
       "summary": "The state visit to the US looks fraught with difficulty - but could be key to rescuing the special relationship.",
       "link": "https://www.bbc.com/news/articles/ce35xkgjqd5o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/018f/live/30b79860-3f2e-11f1-8bc8-b593f442a966.jpg",
@@ -416,7 +487,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1777073818.0,
       "hot": false
     },
@@ -435,7 +506,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777073289.0,
       "hot": false
     },
@@ -443,7 +514,7 @@
       "id": "50a954d6b4",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "BBC 头条",
       "lang": "en",
       "title": "'Killing in prison is not difficult' - the rise in cold-blooded attacks behind bars",
       "summary": "Is a culture of prisoners intimidating inmates into inflicting pain on others too normalised to change?",
@@ -453,98 +524,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777071603.0,
-      "hot": false
-    },
-    {
-      "id": "7be0061d10",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "I'm A Celebrity 'legend' crowned in heated live final",
-      "summary": "Adam Thomas, Craig Charles, Mo Farah and Harry Redknapp were in the final of I'm A Celebrity... South Africa.",
-      "link": "https://www.bbc.com/news/articles/cy8138z5zn7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ede1/live/d777e110-3fbe-11f1-b61b-1d0ccf7b6022.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777069615.0,
-      "hot": false
-    },
-    {
-      "id": "d777f50318",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Ex-Channel 5 newsreader withdraws claims against Dan Walker",
-      "summary": "Dan Walker's employers ITN and Channel 5 agreed to pay Claudia-Liza Vanderpuije an undisclosed amount, with no admission of liability.",
-      "link": "https://www.bbc.com/news/articles/cdrmvx8m8vgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f46c/live/8b1e03b0-3ca0-11f1-8606-05fe34b06e1b.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1777054625.0,
-      "hot": false
-    },
-    {
-      "id": "4b55399429",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Chris Mason: A grim week for Starmer – but things could be about to get worse",
-      "summary": "The Mandelson vetting row has reignited questions over the PM's future just two weeks before crucial elections in Scotland, Wales and England.",
-      "link": "https://www.bbc.com/news/articles/cvg423lnlp5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d89d/live/10fb2170-3fda-11f1-9365-9d68a044e038.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777050972.0,
-      "hot": false
-    },
-    {
-      "id": "e4baaf8df1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "The assisted dying bill has failed - but the debate isn't over",
-      "summary": "In June 2025 MPs backed the legislation but now it has run out of time to become law.",
-      "link": "https://www.bbc.com/news/articles/cm2k59l2l02o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0c51/live/2c474080-3fdf-11f1-ba72-3dd058cb149f.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777045551.0,
-      "hot": false
-    },
-    {
-      "id": "d36f8f1481",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Man given life sentence for rape and religiously aggravated assault of Sikh woman",
-      "summary": "A judge tells John Ashby, 32, that he will serve at least 14 years in prison for the attack.",
-      "link": "https://www.bbc.com/news/articles/cpqxrzr29pxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8137/live/99f7a080-3d95-11f1-92e4-6b980ce20915.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1777043704.0,
       "hot": false
     }
   ]
