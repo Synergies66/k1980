@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-25T03:36:42.653759+00:00",
+  "updated_at": "2026-04-25T06:01:41.890890+00:00",
   "total": 24,
   "articles": [
+    {
+      "id": "a833e15e68",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Rubio’s Absence From Iran Talks Highlights Stay-at-Home Role",
+      "summary": "President Trump has outsourced much of his diplomacy to others, while Mr. Rubio focuses on his second job as national security adviser.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/marco-rubio-absence-iran-talks.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-rubio-iran-ztjc/24dc-rubio-iran-ztjc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1777094404.0,
+      "hot": false
+    },
     {
       "id": "d6f288ccf7",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "5小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1777067920.0,
       "hot": false
     },
@@ -36,9 +54,27 @@
         "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "22小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1777008072.0,
+      "hot": false
+    },
+    {
+      "id": "cf8532ccf0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Says Venezuelan Government Can Pay for Nicolás Maduro’s Defense",
+      "summary": "The issue had been hanging over the former Venezuelan leader’s federal criminal case for weeks. Last month, a judge indicated that he was skeptical of the U.S. government’s rationale for blocking the",
+      "link": "https://www.nytimes.com/2026/04/24/nyregion/us-venezuela-maduro-court-cost.html",
+      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/24met-maduro/24met-maduro-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777088370.0,
       "hot": false
     },
     {
@@ -54,8 +90,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "34分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1777086131.0,
       "hot": false
     },
@@ -73,26 +109,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777077602.0,
-      "hot": false
-    },
-    {
-      "id": "a833e15e68",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Rubio’s Absence From Iran Talks Highlights Stay-at-Home Role",
-      "summary": "President Trump has outsourced much of his diplomacy to others, while Mr. Rubio focuses on his second job as national security adviser.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/marco-rubio-absence-iran-talks.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-rubio-iran-ztjc/24dc-rubio-iran-ztjc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777075309.0,
       "hot": false
     },
     {
@@ -108,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777067085.0,
       "hot": false
     },
@@ -128,26 +146,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777065697.0,
-      "hot": false
-    },
-    {
-      "id": "35a7f967ee",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Justice Dept. Closes Criminal Investigation of Fed Chair",
-      "summary": "Also, the U.S. is sending top envoys to Pakistan for Iran peace talks. Here’s the latest at the end of Friday.",
-      "link": "https://www.nytimes.com/2026/04/24/briefing/fed-investigation-us-iran-peace-talks.html",
-      "image": "https://static01.nyt.com/images/2025/08/15/multimedia/24evening-dc-doj-fed/24evening-dc-doj-fed-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777065139.0,
       "hot": false
     },
     {
@@ -164,7 +164,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777063148.0,
       "hot": false
     },
@@ -182,7 +182,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1777060985.0,
       "hot": false
     },
@@ -200,7 +200,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777060871.0,
       "hot": false
     },
@@ -218,7 +218,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777059892.0,
       "hot": false
     },
@@ -236,7 +236,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777053504.0,
       "hot": false
     },
@@ -254,7 +254,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1777052087.0,
       "hot": false
     },
@@ -272,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "14小时前",
       "pub_ts": 1777042937.0,
       "hot": false
     },
@@ -290,7 +290,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1777042730.0,
       "hot": false
     },
@@ -308,7 +308,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1777035265.0,
       "hot": false
     },
@@ -326,7 +326,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1777031968.0,
       "hot": false
     },
@@ -344,7 +344,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1777028914.0,
       "hot": false
     },
@@ -362,7 +362,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777027610.0,
       "hot": false
     },
@@ -380,7 +380,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777020238.0,
       "hot": false
     },
@@ -398,8 +398,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777007290.0,
       "hot": false
     },
