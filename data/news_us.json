@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-24T21:10:00.671399+00:00",
-  "total": 22,
+  "updated_at": "2026-04-25T03:36:42.653759+00:00",
+  "total": 24,
   "articles": [
+    {
+      "id": "d6f288ccf7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Appeals court rules that Trump's asylum ban at the border is illegal",
+      "summary": "A U.S. appeals court ruled Friday that immigration laws allow people to apply for asylum at the border, and the president cannot bypass this. The decision stems from Trump declaring the border situati",
+      "link": "https://www.npr.org/2026/04/24/g-s1-118707/trump-asylum-ban-us-mexico-border-illegal",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "5小时前",
+      "pub_ts": 1777067920.0,
+      "hot": false
+    },
     {
       "id": "7d51254837",
       "type": "news",
@@ -19,8 +37,26 @@
         "科技"
       ],
       "score": 72,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1777008072.0,
+      "hot": false
+    },
+    {
+      "id": "c92471f6b5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Justice Department to allow firing squads for executions in move to ramp up capital punishment",
+      "summary": "The Justice Department will adopt firing squad as a permitted method of execution as the Trump administration moves to ramp up and expedite capital punishment cases.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5798990/doj-firing-squads-executions-trump-capital-punishment",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "34分前",
+      "pub_ts": 1777086131.0,
       "hot": false
     },
     {
@@ -36,27 +72,82 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "0分前",
-      "pub_ts": 1777064957.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777077602.0,
       "hot": false
     },
     {
-      "id": "76b6ecf2cc",
+      "id": "a833e15e68",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Appeals Court Says Trump’s Ban on Asylum Claims at Border Is Illegal",
-      "summary": "The ruling could require the Trump administration to begin processing new applications from asylum seekers at the southern border.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/appeals-court-trump-asylum-claims.html",
-      "image": "https://static01.nyt.com/images/2026/03/24/multimedia/24trump-news-asylum-claims1/24DC-SCOTUS-ASYLUM-wplv-mediumSquareAt3X.jpg",
+      "title": "Rubio’s Absence From Iran Talks Highlights Stay-at-Home Role",
+      "summary": "President Trump has outsourced much of his diplomacy to others, while Mr. Rubio focuses on his second job as national security adviser.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/marco-rubio-absence-iran-talks.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-rubio-iran-ztjc/24dc-rubio-iran-ztjc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777075309.0,
+      "hot": false
+    },
+    {
+      "id": "bbf31aca8c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The ‘Lasting Damage’ of Pirro’s Investigation of the Federal Reserve and Powell",
+      "summary": "The Trump administration’s attacks on the Federal Reserve have rattled confidence in the central bank’s ability to operate independently before a leadership transition.",
+      "link": "https://www.nytimes.com/2026/04/24/us/politics/federal-reserve-powell-pirro-investigation.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25dc-fed-investigation-01-mzhc/25dc-fed-investigation-01-mzhc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777067085.0,
+      "hot": false
+    },
+    {
+      "id": "f6065ee975",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "From night life in Egypt to rice farming in Vietnam, the war in Iran is a drain",
+      "summary": "Fuel costs more. Food is harder to get. Jobs are evaporating. And in Cairo, cafes and restaurants are ordered to close at 9 p.m.",
+      "link": "https://www.npr.org/2026/04/24/nx-s1-5775733/war-in-iran-food-fuel-global-south",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777065697.0,
+      "hot": false
+    },
+    {
+      "id": "35a7f967ee",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Justice Dept. Closes Criminal Investigation of Fed Chair",
+      "summary": "Also, the U.S. is sending top envoys to Pakistan for Iran peace talks. Here’s the latest at the end of Friday.",
+      "link": "https://www.nytimes.com/2026/04/24/briefing/fed-investigation-us-iran-peace-talks.html",
+      "image": "https://static01.nyt.com/images/2025/08/15/multimedia/24evening-dc-doj-fed/24evening-dc-doj-fed-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777063846.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777065139.0,
       "hot": false
     },
     {
@@ -72,27 +163,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "30分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777063148.0,
-      "hot": false
-    },
-    {
-      "id": "e7f2640720",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran and U.S. Blockades in the Strait of Hormuz: What to Know",
-      "summary": "The foes are trying to exert control over the narrow passageway. Most ships aren’t moving. Here’s what to know.",
-      "link": "https://www.nytimes.com/2026/04/24/world/middleeast/iran-us-strait-of-hormuz-blockade.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/23israel-iran-explainer-hgkb/23israel-iran-explainer-hgkb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1777061883.0,
       "hot": false
     },
     {
@@ -108,9 +181,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777060985.0,
+      "hot": false
+    },
+    {
+      "id": "efc538a0e7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Jet Fuel Shortages Could Affect Summer Travel to Europe and Beyond",
+      "summary": "Facing sky-high fuel costs linked to the war in Iran, airlines are cutting routes and raising prices. European vacations are looking a lot less affordable.",
+      "link": "https://www.nytimes.com/2026/04/24/travel/flight-cancellations-europe-summer-vacation.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24trav-flight-cancellations-zbwq/24trav-flight-cancellations-zbwq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777060871.0,
       "hot": false
     },
     {
@@ -126,8 +217,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777059892.0,
       "hot": false
     },
@@ -144,63 +235,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777053504.0,
       "hot": false
     },
     {
-      "id": "7b37b0ae0f",
+      "id": "36b4696123",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Todd Blanche Targets Trump’s Enemies Amid Jockeying to Lead DOJ",
-      "summary": "Mr. Blanche’s actions are meant to demonstrate progress on the president’s priorities, chief among them payback.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/todd-blanche-trump-doj.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/us/politics/dc-blanche/dc-blanche-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777053430.0,
-      "hot": false
-    },
-    {
-      "id": "0be48d7255",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Peril of Piloting Ships Through the Strait of Hormuz",
-      "summary": "Controllers for shipping companies face a daunting decision as they try to free vessels trapped in the Persian Gulf: “Basically you’re sending someone unarmed into war.”",
-      "link": "https://www.nytimes.com/2026/04/24/business/strait-hormuz-ship-captain.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24Biz-Iran-Hormuz-Pilot-01-pfzb/24Biz-Iran-Hormuz-Pilot-01-pfzb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777045652.0,
-      "hot": false
-    },
-    {
-      "id": "00eed49326",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Kevin Warsh Could Shrink the Fed’s Footprint in Financial Markets",
-      "summary": "President Trump’s nominee to become the next chair of the Federal Reserve wants to overhaul the central bank, including its more than $6 trillion balance sheet.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/kevin-warsh-fed-rates-balance-sheet.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/00dc-warsh-balancesheet-kqcl/00dc-warsh-balancesheet-kqcl-mediumSquareAt3X.jpg",
+      "title": "Justice Department Drops Criminal Investigation of Fed Chair Jerome Powell",
+      "summary": "The decision to end the inquiry into Jerome H. Powell’s handling of the Federal Reserve’s renovation could allow Kevin M. Warsh, the president’s pick for Fed chair, to be confirmed.",
+      "link": "https://www.nytimes.com/2026/04/24/business/doj-investigation-federal-reserve-powell.html",
+      "image": "https://static01.nyt.com/images/2026/03/13/multimedia/24dc-DOJ-FED/13dc-fed-vbkf-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777043215.0,
+      "ago": "10小时前",
+      "pub_ts": 1777052087.0,
       "hot": false
     },
     {
@@ -217,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1777042937.0,
       "hot": false
     },
@@ -235,7 +290,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1777042730.0,
       "hot": false
     },
@@ -253,7 +308,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "14小时前",
       "pub_ts": 1777035265.0,
       "hot": false
     },
@@ -271,7 +326,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "15小时前",
       "pub_ts": 1777031968.0,
       "hot": false
     },
@@ -279,7 +334,7 @@
       "id": "8ef0782730",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Israel and Lebanon extend ceasefire. And, Trump eases medical marijuana rules",
       "summary": "Israel and Lebanon have agreed to extend their ceasefire for three weeks, President Trump says. And, the Trump administration is easing rules on medical marijuana.",
@@ -289,7 +344,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1777028914.0,
       "hot": false
     },
@@ -297,7 +352,7 @@
       "id": "e4199b8a5e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Thousands of seafarers stranded by ongoing U.S. blockade on Strait of Hormuz",
       "summary": "As the U.S. blockade on Iranian ports drags on, thousands of seafarers are stranded on ships, and economic shockwaves ripple around the world.",
@@ -307,26 +362,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1777027610.0,
-      "hot": false
-    },
-    {
-      "id": "0cc8e5cead",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'Self-aware' robots can learn complex tasks by watching humans. Is that a good thing?",
-      "summary": "Scientists say they've made a key breakthrough that would allow robots to figure out complex tasks on their own, but experts say it raises questions about how much risk comes with letting robots be in",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797863/self-aware-robots-future-laundry-work-home",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777024800.0,
       "hot": false
     },
     {
@@ -343,7 +380,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1777020238.0,
       "hot": false
     },
@@ -362,7 +399,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1777007290.0,
       "hot": false
     },
@@ -380,8 +417,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1776982958.0,
       "hot": false
     },
