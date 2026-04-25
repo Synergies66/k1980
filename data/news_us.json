@@ -1,9 +1,81 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-25T13:41:35.086399+00:00",
-  "total": 24,
+  "updated_at": "2026-04-25T17:05:03.464992+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "a9698599a8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "They Survived Torture. Why Is the Program That Helped Them Closing?",
+      "summary": "Some Bellevue Hospital officials feared having to disclose patients’ immigration status. They will get care elsewhere at the hospital, administrators say.",
+      "link": "https://www.nytimes.com/2026/04/25/nyregion/nyc-torture-survivors-hospital-program-closing.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25met-bellevue-psot--04-gwbl/25met-bellevue-psot--04-gwbl-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1777132807.0,
+      "hot": false
+    },
+    {
+      "id": "90ca45d4c4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The 85-Year-Old Widow Snagged by Trump’s Immigration Crackdown",
+      "summary": "In her first interview since being deported, Marie-Thérèse Ross-Mahé, the French widow of a former G.I., recounted her experience in ICE detention.",
+      "link": "https://www.nytimes.com/2026/04/25/us/french-ross-mahe-ice-detention.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25france-ice-01-wtcm/25france-ice-01-wtcm-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1777130325.0,
+      "hot": false
+    },
+    {
+      "id": "cc27db838c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump to Dine With Reporters He’s Been Roasting All Week",
+      "summary": "President Trump has boycotted the White House Correspondents’ Association dinner in previous years.",
+      "link": "https://www.nytimes.com/2026/04/25/us/politics/trump-white-house-correspondents-dinner.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25dc-WHCA-kzhc/25dc-WHCA-kzhc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1777136153.0,
+      "hot": false
+    },
+    {
+      "id": "575c06e55a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Seeks to Abolish Iran’s Nuclear Stockpile, a Problem He Helped Create",
+      "summary": "President Trump withdrew from the Obama-era nuclear accord in 2018, saying it was the worst deal ever. But Iran responded with an enrichment spree that haunts the negotiations to this day.",
+      "link": "https://www.nytimes.com/2026/04/25/us/politics/trump-iran-nuclear.html",
+      "image": "https://static01.nyt.com/images/2026/02/22/multimedia/25dc-TRUMP-NUKES/22int-iran-larijani-lfwj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1777135209.0,
+      "hot": false
+    },
     {
       "id": "84a3310f36",
       "type": "news",
@@ -17,8 +89,8 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "3小时前",
+      "score": 70,
+      "ago": "7小时前",
       "pub_ts": 1777111200.0,
       "hot": false
     },
@@ -35,45 +107,9 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "4小时前",
+      "score": 70,
+      "ago": "8小时前",
       "pub_ts": 1777107756.0,
-      "hot": false
-    },
-    {
-      "id": "c477e6f735",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Opinion: A lesson in humanity at the Boston Marathon",
-      "summary": "Two runners in this week's Boston Marathon stopped to help a racer who had collapsed just short of the finish line. NPR's Scott Simon says their generosity is its own kind of \"personal best.\"",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5790431/opinion-a-lesson-in-humanity-at-the-boston-marathon",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777118400.0,
-      "hot": false
-    },
-    {
-      "id": "d6f288ccf7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Appeals court rules that Trump's asylum ban at the border is illegal",
-      "summary": "A U.S. appeals court ruled Friday that immigration laws allow people to apply for asylum at the border, and the president cannot bypass this. The decision stems from Trump declaring the border situati",
-      "link": "https://www.npr.org/2026/04/24/g-s1-118707/trump-asylum-ban-us-mexico-border-illegal",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "15小时前",
-      "pub_ts": 1777067920.0,
       "hot": false
     },
     {
@@ -96,21 +132,39 @@
       "hot": false
     },
     {
-      "id": "b139fd7887",
+      "id": "db47adb449",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Seeks to Abolish Iran’s Atomic Stockpile, a Problem He Helped Create",
-      "summary": "President Trump withdrew from the Obama-era nuclear accord in 2018, saying it was the worst deal ever. But Iran responded with an enrichment spree that haunts the negotiations to this day.",
-      "link": "https://www.nytimes.com/2026/04/25/us/politics/trump-iran-nuclear.html",
-      "image": "https://static01.nyt.com/images/2026/02/22/multimedia/25dc-TRUMP-NUKES/22int-iran-larijani-lfwj-mediumSquareAt3X.jpg",
+      "title": "Mali hit by wave of coordinated attacks from armed groups",
+      "summary": "Gunfire and explosions have rocked Mali's capital Bamako and other key cities in one of the most significant coordinated attacks in years, as armed groups, including jihadist insurgents and separatist",
+      "link": "https://www.npr.org/2026/04/25/nx-s1-5799439/mali-hit-by-wave-of-coordinated-attacks-from-armed-groups",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777107772.0,
+      "ago": "2小时前",
+      "pub_ts": 1777129043.0,
+      "hot": false
+    },
+    {
+      "id": "c477e6f735",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Opinion: A lesson in humanity at the Boston Marathon",
+      "summary": "Two runners in this week's Boston Marathon stopped to help a racer who had collapsed just short of the finish line. NPR's Scott Simon says their generosity is its own kind of \"personal best.\"",
+      "link": "https://www.npr.org/2026/04/25/nx-s1-5790431/opinion-a-lesson-in-humanity-at-the-boston-marathon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777118400.0,
       "hot": false
     },
     {
@@ -126,8 +180,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777107649.0,
       "hot": false
     },
@@ -144,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777107600.0,
       "hot": false
     },
@@ -162,26 +216,26 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777107600.0,
       "hot": false
     },
     {
-      "id": "ee94e8ca7b",
+      "id": "fcfe119b64",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Some Planned Parenthood clinics are using Botox to smooth over federal cuts",
+      "title": "Trump and Congress cut funding for Planned Parenthood. Can Botox keep it afloat?",
       "summary": "After President Trump and Congress cut certain Medicaid funding to Planned Parenthood in last year's budget, some clinics have started offering aesthetic services, including Botox, to stay afloat.",
       "link": "https://www.npr.org/2026/04/25/nx-s1-5763797/planned-parenthood-botox-medcaid-trump-congress",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777107600.0,
       "hot": false
     },
@@ -198,64 +252,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777105614.0,
       "hot": false
     },
     {
-      "id": "87f9967caf",
+      "id": "d14c8b885e",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Iran's foreign minister awaits U.S. delegation to Pakistan for peace talks",
-      "summary": "Iran's Abbas Araghchi arrived in Islamabad on Friday, as the White House confirmed Steve Witkoff and Jared Kushner will travel there Saturday to try to \"move the ball forward towards a deal.\"",
+      "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
+      "summary": "After arriving on Friday, Iran's Abbas Araghchi has left Islamabad, prompting President Trump to announce that his envoys Steve Witkoff and Jared Kushner will no longer travel there Saturday for peace",
       "link": "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates",
       "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777098921.0,
-      "hot": false
-    },
-    {
-      "id": "a833e15e68",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Rubio’s Absence From Iran Talks Highlights Stay-at-Home Role",
-      "summary": "President Trump has outsourced much of his diplomacy to others, while Mr. Rubio focuses on his second job as national security adviser.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/marco-rubio-absence-iran-talks.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24dc-rubio-iran-ztjc/24dc-rubio-iran-ztjc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777094404.0,
-      "hot": false
-    },
-    {
-      "id": "cf8532ccf0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Says Venezuelan Government Can Pay for Nicolás Maduro’s Defense",
-      "summary": "The issue had been hanging over the former Venezuelan leader’s federal criminal case for weeks. Last month, a judge indicated that he was skeptical of the U.S. government’s rationale for blocking the",
-      "link": "https://www.nytimes.com/2026/04/24/nyregion/us-venezuela-maduro-court-cost.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/24met-maduro/24met-maduro-mediumSquareAt3X.jpg",
       "categories": [
         "政治"
       ],
       "score": 60,
       "ago": "10小时前",
-      "pub_ts": 1777088370.0,
+      "pub_ts": 1777098921.0,
       "hot": false
     },
     {
@@ -272,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777086131.0,
       "hot": false
     },
@@ -290,7 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1777067085.0,
       "hot": false
     },
@@ -308,26 +325,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1777063148.0,
-      "hot": false
-    },
-    {
-      "id": "d1862b15ec",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says He Dislikes Prediction Markets. His Family Invests in Them.",
-      "summary": "The White House has warned staff not to wager on government decisions, but his family’s involvement with these firms undermines the president’s message.",
-      "link": "https://www.nytimes.com/2026/04/24/us/politics/trump-prediction-markets.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/dc-trump-prediction-jqpz/dc-trump-prediction-jqpz-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777059892.0,
       "hot": false
     },
     {
@@ -400,25 +399,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1777020238.0,
-      "hot": false
-    },
-    {
-      "id": "44a837ca0b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "EU approves a $106 billion loan package to help Ukraine after Hungary lifts its veto",
-      "summary": "The European Union on Thursday approved a $106-billion loan package to help Ukraine meet its economic and military needs for two years, ending months of political deadlock.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5798455/eu-approves-a-106-billion-loan-package-to-help-ukraine-after-hungary-lifts-its-veto",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777007290.0,
       "hot": false
     },
     {
