@@ -1,25 +1,79 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-26T06:21:36.728709+00:00",
-  "total": 23,
+  "updated_at": "2026-04-26T09:27:51.615127+00:00",
+  "total": 24,
   "articles": [
     {
-      "id": "db09c4a653",
+      "id": "56f4bf0b4a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Confusion and Fright at the White House Correspondents’ Dinner After Shots Were Fired",
-      "summary": "A sense of danger spread like a wave among high-profile politicians and journalists as an emergency unfolded at the White House Correspondents’ Association dinner.",
-      "link": "https://www.nytimes.com/2026/04/26/business/media/white-house-correspondents-dinner-shooting.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25dc-scene-ltpz/25trump-WHCA-live-ltpz-mediumSquareAt3X.jpg",
+      "title": "Trump Describes His Mind-Set After Shooting at White House Correspondents’ Dinner",
+      "summary": "Very little was clear about what had happened at the Washington Hilton on Saturday night. But the president wanted to talk about it.",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/trump-shooting-gunman-correspondents-dinner.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26dc-trump-mhvc/26dc-trump-mhvc-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777177841.0,
+      "ago": "7分前",
+      "pub_ts": 1777195215.0,
+      "hot": false
+    },
+    {
+      "id": "2b0255649b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Supreme Court case that could redefine your digital privacy",
+      "summary": "Police in Virginia used a technique called geofencing to tap into Google's databases to find out who was near the scene of a bank robbery. The Supreme Court will consider whether it is constitutional.",
+      "link": "https://www.npr.org/2026/04/26/g-s1-118359/supreme-court-geofencing-explainer-video",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1777194000.0,
+      "hot": false
+    },
+    {
+      "id": "062accf0b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "For students labeled 'emotionally disturbed,' separation can lead to isolation",
+      "summary": "Every school has problem students, but some are labeled emotionally disturbed (ED) and taught separately from others.",
+      "link": "https://www.npr.org/2026/04/26/g-s1-117447/school-disability-emotional-behavioral-disorder-special-education",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1777194000.0,
+      "hot": false
+    },
+    {
+      "id": "d7d552ef31",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "California Man in Custody After Shooting at Dinner Attended by Trump",
+      "summary": "Shots were fired at the hotel hosting the White House correspondents’ dinner. Authorities said the attack was carried out by a lone gunman who was brought down by the Secret Service.",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/correspondents-dinner-shooting-suspect-california-man.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25DC-WHCAShooting-mtvh/25DC-WHCAShooting-mtvh-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777179475.0,
       "hot": false
     },
     {
@@ -35,8 +89,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777170018.0,
       "hot": false
     },
@@ -53,9 +107,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777166334.0,
+      "hot": false
+    },
+    {
+      "id": "fd26ffc833",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Cancels Witkoff and Kushner’s Trip for Iran Talks, Saying, ‘We Have All the Cards.’",
+      "summary": "The last-minute scuttling of the trip to Pakistan was the latest sign of how far apart the two sides are on reaching a deal to end the Iran war.",
+      "link": "https://www.nytimes.com/2026/04/25/world/middleeast/trump-witkoff-kushner-pakistan-trip-canceled.html",
+      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25israel-iran-trump-cancels-topart-tlhf/25israel-iran-trump-cancels-topart-tlhf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777163619.0,
       "hot": false
     },
     {
@@ -71,8 +143,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777163548.0,
       "hot": false
     },
@@ -90,7 +162,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777158474.0,
       "hot": false
     },
@@ -108,7 +180,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777153771.0,
       "hot": false
     },
@@ -126,7 +198,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777153500.0,
       "hot": false
     },
@@ -144,7 +216,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777152395.0,
       "hot": false
     },
@@ -163,7 +235,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777151516.0,
       "hot": false
     },
@@ -181,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1777147027.0,
       "hot": false
     },
@@ -199,51 +271,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1777146024.0,
-      "hot": false
-    },
-    {
-      "id": "8f89c0c698",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Every Black Republican Is Leaving the House, Erasing Diversity Gains",
-      "summary": "All four Black House Republicans are retiring after this year, a reflection of the striking and persistent lack of diversity in the G.O.P. ranks of Congress.",
-      "link": "https://www.nytimes.com/2026/04/25/us/house-black-republicans-congress-diversity.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25dc-blackrepublicans-james-jghl/25dc-blackrepublicans-james-jghl-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777145819.0,
-      "hot": false
-    },
-    {
-      "id": "da3fa6e2a5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Pope Leo reiterates opposition to death penalty on same day U.S. approves firing squads",
-      "summary": "Pope Leo reiterated the Catholic Church's teaching that the death penalty is \"inadmissible,\" in a video message released hours after the Justice Department said it would allow firing squads for federa",
-      "link": "https://www.npr.org/2026/04/25/g-s1-118767/pope-leo-trump-death-penalty",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777139505.0,
       "hot": false
     },
     {
       "id": "db47adb449",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Mali hit by wave of coordinated attacks from armed groups",
       "summary": "Gunfire and explosions have rocked Mali's capital Bamako and other key cities in one of the most significant coordinated attacks in years, as armed groups, including jihadist insurgents and separatist",
@@ -253,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1777129043.0,
       "hot": false
     },
@@ -270,8 +306,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777107649.0,
       "hot": false
     },
@@ -288,8 +324,8 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777098921.0,
       "hot": false
     },
@@ -379,26 +415,8 @@
         "本地"
       ],
       "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777020238.0,
-      "hot": false
-    },
-    {
-      "id": "8e17bd0b4a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Has ‘Christ Is King’ Become a Controversial Statement?",
-      "summary": "For some, the three words have become encoded with a message of hate.",
-      "link": "https://www.nytimes.com/2026/04/23/style/christ-is-king-nick-fuentes-candace-owens.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/fashion/22ST-GROYPER-WHISTLE-topper/22ST-GROYPER-WHISTLE-topper-mediumSquareAt3X.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
       "ago": "2天前",
-      "pub_ts": 1776958192.0,
+      "pub_ts": 1777020238.0,
       "hot": false
     },
     {
