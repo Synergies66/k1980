@@ -1,9 +1,118 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-26T09:27:51.615127+00:00",
-  "total": 24,
+  "updated_at": "2026-04-26T13:44:20.938180+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "648e3bcd44",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "World Press Photo Contest winners cast a lens on resilience, pain and bliss",
+      "summary": "A selection of prize honorees from the 2026 World Press Photo Contest capture the pain of the past year — but also focus on moments of strength, determination and joy.",
+      "link": "https://www.npr.org/2026/04/26/g-s1-118511/world-press-photo-contest-winners",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777203884.0,
+      "hot": false
+    },
+    {
+      "id": "b364435c1f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
+      "summary": "A shooting incident at the White House Correspondent's Dinner took focus away from the war in Iran, as Iran's foreign minister planned to return to Islamabad, the site of previous peace talks.",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5800054/iran-talks-on-hold-shooting-talks-pakistan",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777203610.0,
+      "hot": false
+    },
+    {
+      "id": "9a54068789",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Kenya's Sabastian Sawe is first person to run sub-2-hour marathon to win in London",
+      "summary": "In a huge moment in sports history, Sabastian Sawe smashed the men's world record by 65 seconds in winning the London Marathon in 1 hour, 59 minutes and 30 seconds on Sunday.",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5800057/kenya-sabastian-sawe-first-person-2-hour-marathon-london",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777203287.0,
+      "hot": false
+    },
+    {
+      "id": "805c9c7605",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iranian Negotiators Set to Return to Pakistan to Try to Revive Truce Talks",
+      "summary": "It was not clear whether President Trump would send his negotiators for a new round of discussions after abruptly calling off a trip by his top advisers on Saturday.",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iranian-negotiators-set-to-return-to-pakistan-to-try-to-revive-truce-talks.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26-iran-us-fgzw/26-iran-us-fgzw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777198129.0,
+      "hot": false
+    },
+    {
+      "id": "5ff9df4207",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Islamabad Reopens After U.S.-Iran Talks Fail to Materialize",
+      "summary": "Officials had locked the city down, anticipating talks between U.S. and Iranian delegations. But they didn’t happen. “What did I close my business for?” one business owner asked.",
+      "link": "https://www.nytimes.com/2026/04/26/world/asia/islamabad-talks-iran-us.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26int-islamabad-talks-hbkt/26int-islamabad-talks-hbkt-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777197944.0,
+      "hot": false
+    },
+    {
+      "id": "5f3612a883",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "King Charles U.S. visit comes at tense moment in transatlantic relationship",
+      "summary": "King Charles and Queen Camilla arrive Monday for a four day U.S. state visit. Some hope the royal touch can heal the transatlantic rift that's emerged under Trump.",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5788696/king-queen-state-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777197600.0,
+      "hot": false
+    },
     {
       "id": "56f4bf0b4a",
       "type": "news",
@@ -17,27 +126,63 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "7分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777195215.0,
       "hot": false
     },
     {
-      "id": "2b0255649b",
+      "id": "7b9ef78b4b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "The Supreme Court case that could redefine your digital privacy",
-      "summary": "Police in Virginia used a technique called geofencing to tap into Google's databases to find out who was near the scene of a bank robbery. The Supreme Court will consider whether it is constitutional.",
-      "link": "https://www.npr.org/2026/04/26/g-s1-118359/supreme-court-geofencing-explainer-video",
-      "image": null,
+      "title": "Israel’s President, Putting Off Decision on Pardon for Netanyahu, Will Push for Plea Deal",
+      "summary": "President Isaac Herzog of Israel has decided not to issue a pardon to Prime Minister Benjamin Netanyahu in his corruption case at this time, and instead will seek mediation, officials say.",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/israel-netanyahu-pardon-herzog.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26int-israel-pardon-wfjv/26int-israel-pardon-wfjv-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "政治"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1777194000.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777195211.0,
+      "hot": false
+    },
+    {
+      "id": "8223d944fe",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Sanctions Zigzag in New World of Economic Warfare",
+      "summary": "With oil prices in mind, the Trump administration has deployed a haphazard approach to sanctions on Russia and Iran.",
+      "link": "https://www.nytimes.com/2026/04/26/business/economy/us-iran-russia-oil-sanctions.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26dc-sanctions-lbkc/26dc-sanctions-lbkc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777194150.0,
+      "hot": false
+    },
+    {
+      "id": "fa21a21bda",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Trump Administration Has Changed Almost Every Aspect of Food Stamps",
+      "summary": "Legislation and regulatory tweaks enacted over the past year have altered who is eligible, what recipients can buy and how much some receive in benefits, among other changes.",
+      "link": "https://www.nytimes.com/2026/04/26/us/trump-administration-food-stamps.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/us/politics/dc-foodstamps-promo/dc-foodstamps-promo-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777194136.0,
       "hot": false
     },
     {
@@ -53,45 +198,45 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "27分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777194000.0,
       "hot": false
     },
     {
-      "id": "d7d552ef31",
+      "id": "2b0255649b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Supreme Court case that could redefine your digital privacy",
+      "summary": "Police in Virginia used a technique called geofencing to tap into Google's databases to find out who was near the scene of a bank robbery. The Supreme Court will consider whether it is constitutional.",
+      "link": "https://www.npr.org/2026/04/26/g-s1-118359/supreme-court-geofencing-explainer-video",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777194000.0,
+      "hot": false
+    },
+    {
+      "id": "ff64788b38",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "California Man in Custody After Shooting at Dinner Attended by Trump",
+      "title": "California Man Identified as Cole Tomas Allen in Custody After Shooting at Dinner Attended by Trump",
       "summary": "Shots were fired at the hotel hosting the White House correspondents’ dinner. Authorities said the attack was carried out by a lone gunman who was brought down by the Secret Service.",
       "link": "https://www.nytimes.com/2026/04/26/us/politics/correspondents-dinner-shooting-suspect-california-man.html",
       "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25DC-WHCAShooting-mtvh/25DC-WHCAShooting-mtvh-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777179475.0,
-      "hot": false
-    },
-    {
-      "id": "575c06e55a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Seeks to Abolish Iran’s Nuclear Stockpile, a Problem He Helped Create",
-      "summary": "President Trump withdrew from the Obama-era nuclear accord in 2018, saying it was the worst deal ever. But Iran responded with an enrichment spree that haunts the negotiations to this day.",
-      "link": "https://www.nytimes.com/2026/04/25/us/politics/trump-iran-nuclear.html",
-      "image": "https://static01.nyt.com/images/2026/02/22/multimedia/25dc-TRUMP-NUKES/22int-iran-larijani-lfwj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777170018.0,
+      "ago": "8小时前",
+      "pub_ts": 1777179475.0,
       "hot": false
     },
     {
@@ -108,26 +253,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777166334.0,
-      "hot": false
-    },
-    {
-      "id": "fd26ffc833",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Cancels Witkoff and Kushner’s Trip for Iran Talks, Saying, ‘We Have All the Cards.’",
-      "summary": "The last-minute scuttling of the trip to Pakistan was the latest sign of how far apart the two sides are on reaching a deal to end the Iran war.",
-      "link": "https://www.nytimes.com/2026/04/25/world/middleeast/trump-witkoff-kushner-pakistan-trip-canceled.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25israel-iran-trump-cancels-topart-tlhf/25israel-iran-trump-cancels-topart-tlhf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777163619.0,
       "hot": false
     },
     {
@@ -144,51 +271,34 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "13小时前",
       "pub_ts": 1777163548.0,
       "hot": false
     },
     {
-      "id": "9bfee42f32",
+      "id": "06d41d96ea",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "In Deep Blue California, a G.O.P.-Backed Voter ID Proposal Makes the Ballot",
-      "summary": "A Republican-backed initiative has cleared the signature threshold for the November election. Critics say the measure could make it harder for people to vote.",
-      "link": "https://www.nytimes.com/2026/04/25/us/politics/california-voter-id-citizenship-ballot.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25pol-california-voter-id-01-mhgw/25pol-california-voter-id-01-mhgw-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777158474.0,
-      "hot": false
-    },
-    {
-      "id": "987cf42e6a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Dirk Kempthorne, former Idaho governor and U.S. Interior secretary, dies at 74",
-      "summary": "Dirk Kempthorne, a Republican, was elected mayor of Boise at age 34 and served seven years before serving one term in the U.S. Senate and then as governor until 2006.",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5799519/dirk-kempthorne-obit",
+      "title": "How the War in Iran Is Draining the U.S. of Critical Weapons",
+      "summary": "The United States has blown through weapons as the cost of the war in Iran has hit nearly $1 billion a day. Our national security correspondent Eric Schmitt explains how American costs may go beyond t",
+      "link": "https://www.nytimes.com/video/us/politics/100000010857432/how-the-war-in-iran-is-draining-the-us-of-critical-weapons.html",
       "image": null,
       "categories": [
-        "本地"
+        "天气",
+        "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777153771.0,
+      "ago": "14小时前",
+      "pub_ts": 1777160370.0,
       "hot": false
     },
     {
       "id": "8ac7fc9468",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "In a rare interview, a leader of the world's largest right-wing group talks to NPR",
       "summary": "The second-in-command of the RSS, a Hindu nationalist organization in India, rarely speaks to the Western press. Here's what he said about his group's controversial history.",
@@ -198,81 +308,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777153500.0,
-      "hot": false
-    },
-    {
-      "id": "58c3626f6b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Rocky Balboa statue takes up a new home inside Philly art museum",
-      "summary": "The bronze sculpture is on display inside the Philadelphia Museum of Art as part of a new exhibition on the impact and cultural importance of statues.",
-      "link": "https://www.npr.org/2026/04/25/g-s1-118769/rocky-balboa-statue-inside-philadelphia-art-museum",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777152395.0,
-      "hot": false
-    },
-    {
-      "id": "92d2bed3d4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Roommate charged with two counts of murder in death, disappearance of two USF students",
-      "summary": "Authorities have filed murder charges against the roommate of a Bangladeshi doctoral student who disappeared with his girlfriend from the University of South Florida.",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5799496/roommate-charged-disappearance-usf-students",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777151516.0,
-      "hot": false
-    },
-    {
-      "id": "4d49180af3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "A Year Later, Trump’s ‘Most Exclusive’ Memecoin Event Is a Lot Less Exclusive",
-      "summary": "Even a Times reporter qualified for the event, which caused outrage last year for providing access to President Trump in exchange for investment in one of his family’s crypto ventures.",
-      "link": "https://www.nytimes.com/2026/04/25/technology/trump-memecoin-conference.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/business/00-trump-memecoin/00-trump-memecoin-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777147027.0,
-      "hot": false
-    },
-    {
-      "id": "f2ffccc89d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Texas Can Arrest and Deport People Who Illegally Cross at Mexico Border, Court Says",
-      "summary": "The court that paused a 2023 law allowing state and local police officers to arrest migrants has now ruled that the measure is legal, a decision likely to be appealed.",
-      "link": "https://www.nytimes.com/2026/04/25/us/texas-mexico-border-arrest-deport-immigration.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26nat-texas-migrants-gkhc/26nat-texas-migrants-gkhc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777146024.0,
       "hot": false
     },
     {
@@ -289,26 +326,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1777129043.0,
-      "hot": false
-    },
-    {
-      "id": "a6b1d98409",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Firm Building Trump’s Ballroom Got a Secret No-Bid Contract for a Nearby Job",
-      "summary": "The National Park Service increased the value of the contract several times over and then awarded it to Maryland-based Clark Construction, in a process that experts said was highly unusual.",
-      "link": "https://www.nytimes.com/2026/04/25/us/politics/lafayette-park-fountains-trump-contract.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/us/politics/dc-lafayette-promo/dc-lafayette-promo-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777107649.0,
       "hot": false
     },
     {
@@ -361,7 +380,7 @@
         "政治"
       ],
       "score": 55,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1777031968.0,
       "hot": false
     },
@@ -379,44 +398,8 @@
         "本地"
       ],
       "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777028914.0,
-      "hot": false
-    },
-    {
-      "id": "e4199b8a5e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Thousands of seafarers stranded by ongoing U.S. blockade on Strait of Hormuz",
-      "summary": "As the U.S. blockade on Iranian ports drags on, thousands of seafarers are stranded on ships, and economic shockwaves ripple around the world.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797793/thousands-of-seafarers-stranded-by-ongoing-us-blockade-on-strait-of-hormuz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777027610.0,
-      "hot": false
-    },
-    {
-      "id": "f6b4b2476c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Cuban ambassador says U.S. is to blame for island's crisis",
-      "summary": "Even as the U.S. threatens military action, a senior Cuban ambassador blames Washington for the country's crisis and says Cuba is prepared for confrontation if diplomacy collapses.",
-      "link": "https://www.npr.org/2026/04/24/nx-s1-5797439/cubas-ambassador-says-us-is-to-blame-for-islands-crisis",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
       "ago": "2天前",
-      "pub_ts": 1777020238.0,
+      "pub_ts": 1777028914.0,
       "hot": false
     },
     {
