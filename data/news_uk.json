@@ -1,9 +1,27 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-26T09:31:35.590320+00:00",
-  "total": 28,
+  "updated_at": "2026-04-26T13:46:51.331371+00:00",
+  "total": 27,
   "articles": [
+    {
+      "id": "9fa283cdc8",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Adjoa Andoh on Shakespeare, Bridgerton and DEI: ‘I don’t have to be the only one in the room’",
+      "summary": "Acclaimed stage and screen actor has taken part in Washington DC’s Folger Shakespeare Library residency program during a troubling time for the CapitolAddressing an audience at the Folger Shakespeare",
+      "link": "https://www.theguardian.com/stage/2026/apr/26/adjoa-andoh-shakespare-bridgerton-dei",
+      "image": "https://i.guim.co.uk/img/media/ad81d264e375e7d5f3a24f0f156901a6d822cada/828_303_2744_2193/master/2744.jpg?width=140&quality=85&auto=format&fit=max&s=cd6c4c6eaad71ac2e96f2cfad729aadc",
+      "categories": [
+        "科技"
+      ],
+      "score": 75,
+      "ago": "4小时前",
+      "pub_ts": 1777194010.0,
+      "hot": false
+    },
     {
       "id": "0ee562564f",
       "type": "news",
@@ -17,9 +35,99 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1777183207.0,
+      "hot": false
+    },
+    {
+      "id": "fa46e71852",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Suspected gunman likely targeting Trump administration officials at White House press dinner, acting",
+      "summary": "Todd Blanche says 31-year-old suspect will be charged with assault of a federal officer, discharging a firearm and attempting to kill a federal officerSuspected gunman at White House press dinner name",
+      "link": "https://www.theguardian.com/us-news/live/2026/apr/26/white-house-correspondents-dinner-shooting-latest-donald-trump-suspect-washington-hilton",
+      "image": "https://i.guim.co.uk/img/media/374477beef3848ed176b7fc98d1d2531e65e40be/0_0_4850_3880/master/4850.jpg?width=140&quality=85&auto=format&fit=max&s=3aa0f543a67906ce7b3cfe12d9ae68c3",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1777210055.0,
+      "hot": false
+    },
+    {
+      "id": "428579ddad",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Man arrested following LGBT+ club blaze",
+      "summary": "An eyewitness says \"thousands\" of people were evacuated from the club.",
+      "link": "https://www.bbc.com/news/articles/c14548m75vlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/adaf/live/9bd6fea0-4155-11f1-ac78-2112837ce2aa.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "42分前",
+      "pub_ts": 1777208650.0,
+      "hot": false
+    },
+    {
+      "id": "f4b4bd8b3b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Sabastian Sawe breaks two-hour barrier to make history at London Marathon",
+      "summary": "Sabastian Sawe makes history at the London Marathon as the first person to run a sub-two-hour marathon in a competitive race.",
+      "link": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b363/live/5c67a4a0-4163-11f1-8a25-27287a9e092d.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777207189.0,
+      "hot": false
+    },
+    {
+      "id": "00e4b826a7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Sawe smashes two-hour barrier to make history in London",
+      "summary": "Sabastian Sawe makes history at the London Marathon as the first person to run a sub-two-hour marathon in a competitive race.",
+      "link": "https://www.bbc.com/sport/athletics/articles/crm1m7e0zwzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b363/live/5c67a4a0-4163-11f1-8a25-27287a9e092d.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777207189.0,
+      "hot": false
+    },
+    {
+      "id": "6a42ad227b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Shooting raises questions about Trump security",
+      "summary": "The shooting at the White House correspondents' dinner is the third time in three years Trump has been at the centre of a major security incident.",
+      "link": "https://www.bbc.com/news/articles/c2484nln8zeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b489/live/2bbdb320-4169-11f1-8a25-27287a9e092d.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777205259.0,
       "hot": false
     },
     {
@@ -35,8 +143,8 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "2小时前",
+      "score": 68,
+      "ago": "6小时前",
       "pub_ts": 1777186461.0,
       "hot": false
     },
@@ -53,8 +161,8 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "2小时前",
+      "score": 68,
+      "ago": "7小时前",
       "pub_ts": 1777185481.0,
       "hot": false
     },
@@ -71,8 +179,8 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "3小时前",
+      "score": 68,
+      "ago": "7小时前",
       "pub_ts": 1777184038.0,
       "hot": false
     },
@@ -89,8 +197,8 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "4小时前",
+      "score": 68,
+      "ago": "8小时前",
       "pub_ts": 1777179757.0,
       "hot": false
     },
@@ -107,46 +215,190 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "5小时前",
+      "score": 68,
+      "ago": "9小时前",
       "pub_ts": 1777177880.0,
       "hot": false
     },
     {
-      "id": "201c84888d",
+      "id": "2b16cd0d8d",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Starmer says ‘vast majority’ of Labour MPs still support him, despite Mandelson controversy – UK pol",
-      "summary": "Prime minister says ‘you never hear from … the people who are supportive, loyal and just want to get on with the job’Kirsty Blackman, SNP chief whip, responded on Sunday to a Daily Mail story quoting",
-      "link": "https://www.theguardian.com/politics/live/2026/apr/26/keir-starmer-labour-support-mandelson-controversy-uk-politics-live",
-      "image": "https://i.guim.co.uk/img/media/e2233161a16c4d80f3045abf95e64a7278303c97/255_0_5151_4121/master/5151.jpg?width=140&quality=85&auto=format&fit=max&s=4acf78a9183a439c45947e6e08c2654f",
+      "title": "Palace holding talks over plans for King's US visit after Washington shooting",
+      "summary": "The King is \"being kept fully informed of developments\" after the shooting, Buckingham Palace says.",
+      "link": "https://www.bbc.com/news/articles/cz0e0rn179eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0e0d/live/dd4fe010-414e-11f1-9d1f-0d69b57ee6a5.jpg",
       "categories": [
-        "政治",
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "6分前",
-      "pub_ts": 1777195478.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777203906.0,
       "hot": false
     },
     {
-      "id": "e67689568b",
+      "id": "cb21b78ffd",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Warning as fire breaks out at UK military base",
-      "summary": "The Gloucestershire base is being used by the United States Air Force to launch operations against Iran.",
-      "link": "https://www.bbc.com/news/articles/czjwj78gr7go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b1b8/live/cf7bb000-4143-11f1-9277-8d7f77643af6.jpg",
+      "title": "Car explosion at police station treated as attempted murder",
+      "summary": "A security incident is continuing following the incident late on Saturday on the outskirts of Belfast.",
+      "link": "https://www.bbc.com/news/articles/cp846668401o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f0b/live/32d85520-4155-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777203426.0,
+      "hot": false
+    },
+    {
+      "id": "dd80a4c85d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "I yearned to be a mother. Why did I feel nothing when my daughter was finally born?",
+      "summary": "I had presumed I would love her instantly – but a traumatic birth led to devastating numbnessIt wasn’t supposed to be like this. I was waiting for an overwhelming rush of love, but when I looked at my",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/26/i-yearned-to-be-a-mother-why-did-i-feel-nothing-when-my-daughter-was-finally-born",
+      "image": "https://i.guim.co.uk/img/media/e5d457c26c068558c3fe86d8357616a1768899f4/0_2004_5920_4734/master/5920.jpg?width=140&quality=85&auto=format&fit=max&s=2ac83d590d1588477a90012e5861a47f",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777190927.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777201212.0,
+      "hot": false
+    },
+    {
+      "id": "200ee0a92f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Fire breaks out on ship carrying 1,000 tonnes of scrap metal",
+      "summary": "The fire service says there is no threat to life and crews remain on scene to tackle the blaze.",
+      "link": "https://www.bbc.com/news/articles/c20q033z1gwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a5e/live/4f238a20-4159-11f1-9d1f-0d69b57ee6a5.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777199646.0,
+      "hot": false
+    },
+    {
+      "id": "b0f3eaca54",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "I’ve covered Trump for a decade. At the White House correspondents’ dinner, darkness came viscerally",
+      "summary": "Men in tuxedos and women in dresses dove under tables, like a scene from a dozen Hollywood movies, but now it was happening to meWhite House correspondents’ dinner shooting – latest updatesShocking. U",
+      "link": "https://www.theguardian.com/us-news/2026/apr/26/white-house-correspondents-dinner-shooting-covering-trump",
+      "image": "https://i.guim.co.uk/img/media/859773f8276596e2d8f92a327f2156019e8d29c9/468_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=acee8e84619a2c969cc9e25cd0477b43",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777197611.0,
+      "hot": false
+    },
+    {
+      "id": "d00dd636bc",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Higher prices could last for eight months after Iran war, minister says",
+      "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
+      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85f4/live/325b6350-415d-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777197293.0,
+      "hot": false
+    },
+    {
+      "id": "aba1e115e7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: How gunfire sparked chaos at Trump press dinner",
+      "summary": "President Trump and Vice-President Vance were rushed off the stage, after gunshots were heard at the event at the Washington Hilton hotel.",
+      "link": "https://www.bbc.com/news/videos/cgqkq18qqeeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1fce/live/2de9c770-4154-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777196622.0,
+      "hot": false
+    },
+    {
+      "id": "aea986bed6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Suspected gunman identified as 31-year-old Californian",
+      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
+      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8d7/live/e736b710-415e-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777196259.0,
+      "hot": false
+    },
+    {
+      "id": "b9aecc9cec",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Starmer insists 'majority' of Labour MPs back his leadership",
+      "summary": "This week has seen increasing speculation among Labour MPs about Sir Keir's judgement and leadership.",
+      "link": "https://www.bbc.com/news/articles/c705228kpx9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bd/live/7866b810-40fc-11f1-857b-6b8d8b32a9e7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777196074.0,
+      "hot": false
+    },
+    {
+      "id": "c6ce081075",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘We asked Billy Connolly to do 15 minutes. He said “I’ll do as long as I want”’: the sweary, shambol",
+      "summary": "Today it is a fundraising juggernaut, but when it was born 40 years ago this month, things were very different. Lenny Henry, Richard Curtis and more explain how they got the gang together for a good c",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/26/comic-relief-40-years-british-comedy",
+      "image": "https://i.guim.co.uk/img/media/bd824373a100838ebe38ddb7f921ed4a74bc9f85/75_21_2777_2220/master/2777.jpg?width=140&quality=85&auto=format&fit=max&s=81f80910fdaa367e94f84b5b15e3517b",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777194010.0,
       "hot": false
     },
     {
@@ -158,194 +410,13 @@
       "title": "What we know about the incident",
       "summary": "Donald Trump and First Lady Melania Trump were rushed from a ballroom after gunfire was heard.",
       "link": "https://www.bbc.com/news/articles/cdxd1x2qw2go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b596/live/fdc4dcb0-4112-11f1-b55d-0f258dce1735.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/25d9/live/f2e417e0-415b-11f1-9d1f-0d69b57ee6a5.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777190741.0,
-      "hot": false
-    },
-    {
-      "id": "953b8877c9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "How a crime that never happened sparked anti-immigration unrest",
-      "summary": "Misinformation about an alleged rape in Epsom became a real-world storm, but we've been here before.",
-      "link": "https://www.bbc.com/news/articles/c9370jqxy18o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1db6/live/370eb5a0-40c2-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "移民",
-        "天气"
-      ],
-      "score": 70,
-      "ago": "10小时前",
-      "pub_ts": 1777158206.0,
-      "hot": false
-    },
-    {
-      "id": "26abe2783d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "In pictures: Chaos as gunfire heard in Washington DC ballroom",
-      "summary": "Armed Secret Service agents flood the ballroom of a Washington DC hotel as President Trump is rushed off stage.",
-      "link": "https://www.bbc.com/news/articles/cgk0ky5zgvlo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1eb0/live/4a86fa90-4138-11f1-a08d-bd20ad597c45.jpg",
-      "categories": [
-        "天气"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777184673.0,
-      "hot": false
-    },
-    {
-      "id": "d4e4d024fb",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "From syringes to stents: Iran war exposes NHS dependency on petrochemicals",
-      "summary": "NHS chiefs fear rising costs and healthcare shortages due to the shipping standstill in the GulfThe war in Iran has put the NHS on high alert amid fears about looming shortages and rising costs for me",
-      "link": "https://www.theguardian.com/society/2026/apr/26/nhs-high-alert-healthcare-shortages-iran-war-petrochemicals",
-      "image": "https://i.guim.co.uk/img/media/1cedaab4e723fd82595023b68f1676ec02f1a17f/576_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=81323241d6b37db33ad72feb961557f0",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777183207.0,
-      "hot": false
-    },
-    {
-      "id": "50c71b7015",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Forget Florence: six of the best towns in Tuscany to escape overtourism",
-      "summary": "Beyond the Tuscan capital, there are exquisite towns with Medici fortresses, stunning frescoes, Roman amphitheatres – and not a selfie stick in sightFirst, it was Barcelona, Venice and Dubrovnik. Now,",
-      "link": "https://www.theguardian.com/travel/2026/apr/26/six-best-towns-escape-overtourism-tuscany-monteriggioni-pienza-arezzo-volterra-livorno-porto-ercole",
-      "image": "https://i.guim.co.uk/img/media/119de7fcb3c227cf65d8efadbfbbff5c31d76dbe/519_27_3565_2852/master/3565.jpg?width=140&quality=85&auto=format&fit=max&s=b9f3e7c795f33be1389adfcd70121259",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777183206.0,
-      "hot": false
-    },
-    {
-      "id": "9e35853b41",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Suspect in custody after Trump evacuated in shooting incident at White House correspondents’ dinner",
-      "summary": "US president and first lady were unharmed and suspect is being charged with two counts of felony firearms and assault chargesSign up for the Breaking News US newsletter emailDonald and Melania Trump w",
-      "link": "https://www.theguardian.com/us-news/2026/apr/26/donald-melania-trump-white-houe-correspondents-dinner",
-      "image": "https://i.guim.co.uk/img/media/f04d6c5e4dac331ee65e07dd09358810b26ae174/720_0_7200_5760/master/7200.jpg?width=140&quality=85&auto=format&fit=max&s=22219faf79227d799230438fd7f48c4c",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777180111.0,
-      "hot": false
-    },
-    {
-      "id": "5122a2ead6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘I wanted alcohol to take me to a place where I was not’: comedian John Robins on the moment he real",
-      "summary": "For most of his life, John Robins assumed he got more out of alcohol than it took from him. Now he knows it was the other way round• ‘I picked up the bottle of wine and drank straight out of it. I was",
-      "link": "https://www.theguardian.com/culture/2026/apr/26/i-wanted-alcohol-to-take-me-to-a-place-where-i-was-not-comedian-john-robins-on-the-moment-he-realised-he-had-a-drinking-problem",
-      "image": "https://i.guim.co.uk/img/media/6ab71e09ce15dd08f40410f09eb7d523356fefef/620_2893_5509_4406/master/5509.jpg?width=140&quality=85&auto=format&fit=max&s=0d21f9776b9ef042f99fc8ac3c64640c",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777179606.0,
-      "hot": false
-    },
-    {
-      "id": "e29fc67577",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Impala, London W1: ‘Shamelessly, brilliantly too much’ – restaurant review | Grace Dent on restauran",
-      "summary": "Impala is like no restaurant I’ve ever been to, yet it somehow has echoes of almost all of themLate last month, Impala drove into Soho already flaming hot in the hype stakes: this was a sizzling booki",
-      "link": "https://www.theguardian.com/food/2026/apr/26/impala-london-w1-grace-dent-restaurant-review",
-      "image": "https://i.guim.co.uk/img/media/8a8c84a31e1a052b476535b2b070dfe6d65de100/21_0_3890_3112/master/3890.jpg?width=140&quality=85&auto=format&fit=max&s=ec6a0c1a5eca338f9ace19157e1ec9d3",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777179606.0,
-      "hot": false
-    },
-    {
-      "id": "f9e4da4d4d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Bad movies, good business: how sanitised biopics became a Hollywood staple",
-      "summary": "As the interest in the lives of celebrities has intensified, we have become acclimatised to the fact that they will now curate and mercilessly monetise itLast month, Ryan Gosling addressed an audience",
-      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/26/bad-movies-good-business-how-sanitised-biopics-became-a-hollywood-staple",
-      "image": "https://i.guim.co.uk/img/media/e6163efc81ec9e9050bfc5d9b2e577d549f6a5fc/0_336_8000_6395/master/8000.jpg?width=140&quality=85&auto=format&fit=max&s=177c0cd5685609fefeae43c8d7817659",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777179605.0,
-      "hot": false
-    },
-    {
-      "id": "7fcb303b3d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Video shows suspect charge checkpoint",
-      "summary": "Surveillance video released by Donald Trump shows the suspect running past metal detectors as security agents draw their guns.",
-      "link": "https://www.bbc.com/news/videos/cj0v0484dmmo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/50c1/live/4ec79a30-4127-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777177628.0,
-      "hot": false
-    },
-    {
-      "id": "3f5f34a0c9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "What it was like in the room as shots rang out at Washington event",
-      "summary": "The BBC's Gary O'Donoghue describes the moment he and others dived for cover as shots rang out at the venue.",
-      "link": "https://www.bbc.com/news/articles/c62j23wzeqeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e265/live/00d6d2a0-414a-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777177379.0,
       "hot": false
     },
     {
@@ -367,147 +438,58 @@
       "hot": false
     },
     {
-      "id": "b29a1c5aae",
+      "id": "d4e4d024fb",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Homes evacuated after explosion near Northern Ireland police station",
-      "summary": "A security incident is continuing following the incident late on Saturday on the outskirts of Belfast.",
-      "link": "https://www.bbc.com/news/articles/cp846668401o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/010d/live/6ae8f6b0-4144-11f1-9277-8d7f77643af6.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777172621.0,
-      "hot": false
-    },
-    {
-      "id": "b9aecc9cec",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Starmer insists 'majority' of Labour MPs back his leadership",
-      "summary": "This week has seen increasing speculation among Labour MPs about Sir Keir's judgement and leadership.",
-      "link": "https://www.bbc.com/news/articles/c705228kpx9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d3bd/live/7866b810-40fc-11f1-857b-6b8d8b32a9e7.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777171421.0,
-      "hot": false
-    },
-    {
-      "id": "925efb6bdb",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Moment Trump rushed to safety after gunshots heard at venue",
-      "summary": "The US president was midway through a conversation before loud bangs rang out at the venue and he was quickly escorted to safety.",
-      "link": "https://www.bbc.com/news/videos/crm1gm7ez30o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fcaf/live/33b24490-410c-11f1-b55d-0f258dce1735.jpg",
+      "title": "From syringes to stents: Iran war exposes NHS dependency on petrochemicals",
+      "summary": "NHS chiefs fear rising costs and healthcare shortages due to the shipping standstill in the GulfThe war in Iran has put the NHS on high alert amid fears about looming shortages and rising costs for me",
+      "link": "https://www.theguardian.com/society/2026/apr/26/nhs-high-alert-healthcare-shortages-iran-war-petrochemicals",
+      "image": "https://i.guim.co.uk/img/media/1cedaab4e723fd82595023b68f1676ec02f1a17f/576_0_2915_2333/master/2915.jpg?width=140&quality=85&auto=format&fit=max&s=81323241d6b37db33ad72feb961557f0",
       "categories": [
         "本地"
       ],
       "score": 60,
       "ago": "7小时前",
-      "pub_ts": 1777168775.0,
+      "pub_ts": 1777183207.0,
       "hot": false
     },
     {
-      "id": "0123d2b4f7",
+      "id": "f9e4da4d4d",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Camilla takes missing Winnie-the-Pooh stuffed toy to New York to complete set",
-      "summary": "The city's library has the original stuffed animals that inspired the Winnie-the-Pooh collection - except from Roo.",
-      "link": "https://www.bbc.com/news/articles/cql7q7xk3d5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec5b/live/8e1d7730-40b5-11f1-9cb2-cda518707cb6.jpg",
+      "title": "Bad movies, good business: how sanitised biopics became a Hollywood staple",
+      "summary": "As interest in the lives of celebrities has intensified, we have become acclimatised to them curating and mercilessly monetising their imageLast month, Ryan Gosling addressed an audience about to see",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/26/bad-movies-good-business-how-sanitised-biopics-became-a-hollywood-staple",
+      "image": "https://i.guim.co.uk/img/media/e6163efc81ec9e9050bfc5d9b2e577d549f6a5fc/0_336_8000_6395/master/8000.jpg?width=140&quality=85&auto=format&fit=max&s=177c0cd5685609fefeae43c8d7817659",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777162188.0,
+      "ago": "8小时前",
+      "pub_ts": 1777179605.0,
       "hot": false
     },
     {
-      "id": "a1ce17797d",
+      "id": "cf24070c08",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "UK steps up plans for potential shortages caused by Iran war",
-      "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
-      "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/025b/live/4184f3d0-40b0-11f1-9cb2-cda518707cb6.jpg",
+      "title": "The crime that never happened - and sparked a rage bait frenzy",
+      "summary": "Misinformation about an alleged rape in Epsom became a real-world storm, but we've been here before.",
+      "link": "https://www.bbc.com/news/articles/c9370jqxy18o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b191/live/d5d85a90-416e-11f1-ac78-2112837ce2aa.jpg",
       "categories": [
+        "天气",
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777161325.0,
-      "hot": false
-    },
-    {
-      "id": "f0f543ebc0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "I didn't tell my boyfriend my age when we started dating. I worried he might end things",
-      "summary": "Two couples tell BBC News about overcoming social stigma in their age-gap relationships.",
-      "link": "https://www.bbc.com/news/articles/cz67vwd63wwo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2e6e/live/82e980e0-3a7d-11f1-879d-1b2f5c3919b8.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777158181.0,
-      "hot": false
-    },
-    {
-      "id": "728729c028",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Influencer dies days after being hit by car in London's Soho",
-      "summary": "Klaudia Zakrzewska, 32, from Essex, dies in hospital after a collision on Argyll Street in Soho.",
-      "link": "https://www.bbc.com/news/articles/cx29w1z1lkzo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/de51/live/ab3fa610-40cb-11f1-8142-39fa2cacf9a1.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777138015.0,
-      "hot": false
-    },
-    {
-      "id": "89193d88a0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman arrested after two children die in house fire",
-      "summary": "Police said two boys, aged one and three, died at the scene. They confirmed a woman was in custody.",
-      "link": "https://www.bbc.com/news/articles/ckg0vpeqk78o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f5c2/live/3c43f4a0-4094-11f1-b6fb-03782402328c.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777133491.0,
+      "ago": "14小时前",
+      "pub_ts": 1777158206.0,
       "hot": false
     }
   ]
