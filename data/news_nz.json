@@ -1,97 +1,241 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-26T06:20:19.377868+00:00",
-  "total": 28,
+  "updated_at": "2026-04-26T09:15:15.127106+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "f852af22e6",
+      "id": "c81a6dd7b1",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Wellington Water reports ‘minor discharge’ of wastewater into Lyall Bay",
+      "summary": "Wastewater spilled into the sea at Lyall Bay after a pump station blockage.",
+      "link": "https://www.nzherald.co.nz/nz/wellington-water-reports-minor-discharge-of-wastewater-into-lyall-bay/4WMF2GDFOZEE3GXPPKC4Z7Q2G4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/5NQPYPGR6JDQJL5UH5B5KY3JRA.jpg?auth=5fc13a4c7f6d8dc32c9a7fdb87b85659f004deb23477d86078859841a12ef10c&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1777194018.0,
+      "hot": false
+    },
+    {
+      "id": "fea75ff676",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "In photos: Shooting at White House press gala dinner",
+      "summary": "President Donald Trump was unharmed and other top White House officials were evacuated from an annual dinner of the White House Correspondents' Association after a man armed with guns and knives storm",
+      "link": "https://www.stuff.co.nz/world-news/360970733/photos-shooting-white-house-press-gala-dinner",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeBJZfa36gjM41i4yMxyEqFNHljTQzBS1B7rBc3Tj%2Fy2owr1uASvRqbLzGD7A6LecYowepC%2FxycdCEEMWhHri63uNtDcw4aEDhuVI3sw+qpVMW7OGSvbvDYFkczUaKwjMWzhJNzzRI14Bvuh1Uy8w%2F80e4Hxd87tvyhaprM8lAX7OBNoo6aFGWvnfBPrKWhZwQKURkW6vT4n25mNGrDJBwFV75TZZTDcGsI4Fb97JxxWxD2xfupDEIDolmxJxfxQjLiOu5e5vYZSSikIGT%2FUzAtz65%2FxHhhsv6MGGLVJm0a6z4jsDJ7pWQbVfYKnXFukK79KxX++tOdcwgrQXVZbaM88sBpqXiZ6LVsExCeXd8yp%2F36F4Grlq1ok9IDd4b5oWVJXyVGN8ivqN3+rKjDLU8eDuCwgPKAvQI5vcmTtc%2FrAlvVP8VNy%2FyF7aBwoXFMxXg==?resolution=1240x700",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1777192778.0,
+      "hot": false
+    },
+    {
+      "id": "2224f7fc0b",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Grand Designs NZ: Young couple’s ambitious build from straw and ‘left-overs’",
+      "summary": "Review: Elizabeth and Everett Norris design and build their own house from natural materials - there’s even cow dung in the plaster mix.",
+      "link": "https://www.stuff.co.nz/home-property/360968461/grand-designs-nz-young-couples-ambitious-build-straw-and-left-overs",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYepNSsvt13uK8voVg5tMfytHK%2FZwAX6%2Fjwg109Jj%2F16n9kRmtXrqSSHRumyD7WZaHc+GYL6%2FwMxiMInKX3QLR832uEUY9dCOLq2wMoU7S2nCLMPJLBgvj%2FbtWyFMdAZgn+LsLcNvdglCvVNHz05WfHifMsaj%2FUfAZFR%2F9UWzq1QYe+wcrJt8+yDnSa9B4lOEf5V2rV0e241%2FE4hMF2D4I8l7EL92Y1ORK9U7p8F8TAIBvA2ZWlKjkK2KB3vv7H6ieWsQbu0B70ffQbfJJ9HBbkSxPE2HKIyOZM9LFwTQJOlk2ysyDVFVnDK0FeqQrK%2FkU9SnZWxqWVVQmsUE0jYiG%2F2%2FO75BjM%2F%2FDWpOc7yCqMEny4vSx1w3n40QqcQl+p2Op9TO%2FUK4%2Fr4yfeCaIEMfrBwaZFkLr2TNLhuFzJ2r0D5%2FPj4Oh1lsDXTfirq9TPC8YQ==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1777192200.0,
+      "hot": false
+    },
+    {
+      "id": "bb73e092ea",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Super Rugby Pacific:",
-      "summary": "The charismatic coach said many in the Super Rugb Pacific club faced an uncertain future.",
-      "link": "https://www.rnz.co.nz/news/sport/593470/super-rugby-pacific",
+      "title": "Wellinton Water reports 'Minor discharge' of wastewater into Lyall Bay",
+      "summary": "The discharge was the result of a blockage to the 150mm CIRC inlet main into the pump station, the water services provider said.",
+      "link": "https://www.rnz.co.nz/news/community/593473/wellinton-water-reports-minor-discharge-of-wastewater-into-lyall-bay",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1777183973.0,
+      "ago": "58分前",
+      "pub_ts": 1777191378.0,
       "hot": false
     },
     {
-      "id": "708dcc2d91",
+      "id": "6c40bedc9b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Ōhura's state of emergency lifts, but locals face long road to recovery",
+      "summary": "Some residents have \"lost everything\", after floodwaters swept through the town a week ago, the district's civil defence controller says.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/593455/ohura-s-state-of-emergency-lifts-but-locals-face-long-road-to-recovery",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777190506.0,
+      "hot": false
+    },
+    {
+      "id": "795c47d21e",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Silver Ferns shooter haunts her former team in ANZ Premiership win",
-      "summary": "The Stars’ win over the Pulse would have tasted extra sweet for Amelia Walmsley.",
-      "link": "https://www.stuff.co.nz/sport/360970681/silver-ferns-shooter-amelia-walmsley-haunts-her-former-team-anz-premiership-win",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVgWaIHV+EkppZZN0tr0vM%2Fge4Ln9r3fQKv9n5OdI9XZqr6mb81WBuQbWVsFUR6KswCXib4NhDjgzsbfwXHw+nVhezZsiKRrjSNyWZgl0ARKW9kCBbDITSD7RHgwYNVZZxLxH0Q8BgDB2o5Rp0zXrw5Yz4aVvFPKm2rtI8YsEGCAogIe+nLZGJBUhBN378m3a200YVZzpbxezA0a3odUV857fOazVQ91v+5zYrT0Sr+Ea1nIN8krnah5IqQdX81y9JqcbKYkPpj6kgEq1XeSsmQ2KdVLVdRmyXZ5mCA6HOMFa8M4ODWslGJTyNS06qzdyaMzVgRzKEUotRSoyWztJtOMuT6gcDf+uajy8xnAhg63pu6Z6i2hFjLlUPuOcbpQm7t0tNp%2FtxjeCRxfYi8smbzDJ1gTZ3fQUYAqrK6ISjSveyqegNt7uV%2FNkprlBh3KmF1a0tx6pdFW2UzVQw821K8=?resolution=1240x700",
+      "title": "White Lotus star Morgana O’Reilly on why she’s showing it all",
+      "summary": "The Kiwi actress explains the decision to bring her raw, topless stage show about body image and birth to the screen.",
+      "link": "https://www.stuff.co.nz/style/360964902/white-lotus-star-morgana-oreilly-why-shes-showing-it-all",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbUUn5Z0QMRWG3L%2FqbA0663fE9qWBBkvGEsXw0Q8OAQL9+4o47ktLHzW5YOKT%2F3YtNaz4dayGnfN%2FKiorKZ7xK+nKFSohy%2Fqur+Z7Wif4yPFu9DZ8oxyAqd9WMmCMBH033uCngZ6VYkxG%2FgS5UJmkqNmKEsUJllYAyBi0QPzYYkK60c0GWWJxJ%2FLpnNx%2FbZuvAF6Bx6CvWMMvn33POG5PKJmU1tXYuWLDCMwVeWIANNElmuqx7BBRAEtI7ntIWqrc9F4DgqdkdH9itemEvIrTLWOpEo1GidgJWJrX6AG36lec0mQtdI1RUHQfmfgcLm2v2F69yFhGAxNsI7q6ZjWFPrZ%2FflLM%2FxzI+sByc7iGOJqgCo5oCM5LMEGDhaNukPAcZpN1XMkFy%2FmGSoaaXxKpyayplN4NiiN8yP%2F9p6QheQMdZhbwtxFKqvDTurhfjEwZmKhholEvxcVMcLMEZ9tqTE=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777190400.0,
+      "hot": false
+    },
+    {
+      "id": "e277ab6a80",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Super Rugby Pacific: Moana Pasifika coach Tana Umaga says players showed heart in loss",
+      "summary": "The Pacific team fell to the Highlanders at Super Rugby Pacific's 'Super Round' in Christchurch.",
+      "link": "https://www.rnz.co.nz/news/pacific/593471/super-rugby-pacific-moana-pasifika-coach-tana-umaga-says-players-showed-heart-in-loss",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1777182714.0,
+      "ago": "1小时前",
+      "pub_ts": 1777188418.0,
       "hot": false
     },
     {
-      "id": "7b2a1b7456",
+      "id": "6370b819be",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "ANZ Premiership round three: Wins for Stars, Tactix, Steel",
-      "summary": "Follow live coverage of the 2026 ANZ Premiership.",
-      "link": "https://www.stuff.co.nz/sport/360962853/live-anz-premiership-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYS92ooySmeBxgTUNo4pjXQ1bRGHa9tX3N+9lrCuwfHON0MvSKMX+ElnkwfnqZisf4CEx5h8h1tF+WSQsUVGL3RIS0THPH%2F9QIdFcUVGEToI7kMx8uvT1wTDxHd2lMXgBNjluUrSavAIF8Us2nNY4lroOnEIe2ctYjN4az5uePIKuJrusE8GAC+M63iv6XxcoRkiZZiw0E6xazl+UiewcH0XzG9j35Ca1366eUzqUGSlq5aarkFPe9EkLTvc1YZZ8tQ0nhJgk8ZtJNZQzPKCjaq4Rd5MVCPRCrp0FKJb6ITNPxbZ64UdvhnT9DkyILj+UMSiEmFvzmaqhrgOqyUBHdwqg9by91LbioZLCIuyL2oyNV0o+qDlUD%2FQWvVIr+XL1y30yInXNF2JyE91qaBNJTpPRWD2DXnEpDhum43OMnraTglRKM4pmTfz%2FllhFb9zLID4fY5QAXds4NDDGcv6Eua4=?resolution=1240x700",
+      "title": "‘Get down!’: In the room with Trump as the shots rang out",
+      "summary": "Guests waited in anticipation for the US president. Then chaos unfolded",
+      "link": "https://www.stuff.co.nz/world-news/360970726/i-was-room-trump-shots-rang-out",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfhoISgkY6j895dtCRPi56DPmtpLjr4hUD9ymj3Ps29WimCIYPhJ38Br4l3iWpDAiLB9e+rOxj0Nw2ltLwJQyqLbJHssJumNASOoYrUpi4hOtruDm15W9k2PBm2VNMHAWpUA9h02fNwBRpUp15+1VR3SriZkV7hCVASngE8FrfqAQc9tuxzhOpQVscHn6%2F+CtRG4%2F4tNhIQR0CgeT1XTvS1VqL5cBKzhcsWzTke6unvt6iXCmO3jD9E79MBIM6yfIc7bQzX3GL3lbTMCQGV5PAHye%2FV7JAfiY%2FivPoWWMPdSofLEBw9TH4E7l0HQE1zsGZIt8AiaRZ8Ru3yHWIQDrObmgRuUP6EuDXxzoQ+9rh8o0cMfi27jy1IcoGigKTjimw1A6paK%2FRtyFY5XgccRYQ98GvZZG8cogyoEroP3XHva94L3vqXxn6dq%2FLm6Js63Lg==?resolution=1240x700",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1777182561.0,
+      "ago": "1小时前",
+      "pub_ts": 1777187916.0,
       "hot": false
     },
     {
-      "id": "6d9343ee48",
+      "id": "607b1381c1",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Alleged White House shooter understood to be highly educated tutor and computer programmer",
-      "summary": "Social media posts that appear to match the California man arrested Saturday in the shooting at the White House correspondents’ dinner show he is a highly educated tutor and amateur video game develop",
-      "link": "https://www.stuff.co.nz/world-news/360970699/accused-wh-correspondents-dinner-attacker-tutor-and-compu",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQRNBzS46m4f66RineRXFB%2FJWreeG3qmETc+fmGkSud183E%2F9QDADDUN%2FNn8uMgy4abxNvBeP0JbnxqbkNNZjpRsGEg7QcPl0YkwnS6kCfm5HAsGOa6C9XCjzsmsQVYcQsd2KyESYebelFL4Uk2aOMuDTtJxr+PyeDe2SMegutEjrmSZ+xZvMHBxEUEHMHtlUKHH0vrfpYPVFf0lBfvqlgoneerbzuizs4r9aehK8onpv+iiIyd4+z36qk4YG5Vfat2yn88mEHDLAiTAAXPxHhj7Wd2o9yJB%2FVb+BlueorGB5ZLZXxTJUVV%2FIwQ4Xwfu9aAxGv54HlBc9OmYYd%2FRf1TQTJyc0NceQ+EjOHJPtzmrqXua7M4ymR32cDDO%2FsBzSpeUIXxy7fyrRkD3z9ndcMgcxtPSCmW+TYeTN02dKMZ3yznKXj8zhxDMWhUNgubA7Q==?resolution=1240x700",
+      "title": "Auckland FC score dramatic equaliser, but aren’t safe in second place yet",
+      "summary": "Auckland FC have to wait to see whether they finish second in A-League Men and get a weekend off to start the finals series.",
+      "link": "https://www.stuff.co.nz/sport/360963513/auckland-fc-face-wait-learn-finishing-position-after-dramatic-equaliser-away-sydney-fc",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYapdAJLV6t2YGOBNgE+cHlaiikG%2FQCqXeFKXTnG96Uc6oppA9rL662Cg0zSOVFYaj2pw1vHPsKRZK5qoHMmUwS6M%2FD1rZ6c5xB1GdGwN9XgkN4zDQEzUVJ+jXjsCYtB9d8oOfRftePteYGPHkek95Kadtgb+w1fTB1VjNvDAZnU0hBw75YlNDnuFxnmO9WSsO%2FsAtJtPMaHxPuSF5OX8LlwEjsoJWo8iR1AylvT+U5Sq11J9QB1ocRs6n%2FDGNzD1sojEbxiP605XuChfe8FEsyRwROcgEgGSSw56ixIdUXQ+%2FwbMeCiC+jSmMkNfyJMJtHvGHNo1gxK%2FXNJnvDcCAhoRj5%2FmpI4ahjaSRBLxhoJYOVr69XFmfkOLs8m9u3Tpyk7EBY5SzRH6g+MdSx1RxG0uN3b5ANotGMTgjMOO3N7WtTsPvFW+R3iyhtUTfDEQIIEnNvSD6+GlcJA8gWJvSH4=?resolution=1240x700",
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1777182376.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777187673.0,
       "hot": false
     },
     {
-      "id": "acfdd0cd8b",
+      "id": "47f9bacd8f",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Explosive device kills 13, injures 38 on bus in southwestern Colombia",
-      "summary": "An explosive device killed 13 people travelling on a bus in southwestern Colombia on Saturday, an attack the country's army chief described as a “terrorist act\" that also left at least 38 injured as v",
-      "link": "https://www.stuff.co.nz/world-news/360970694/explosive-device-kills-13-and-injures-38-bus-sout",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYX92xujOlBaOnLUtx7J9nbuMbp89135qXPc8hMqrjyvCcfBPpPtpbJ49W3OJ49pi9Tz2NI+A6%2F6po8JYFjM0x1zCB9c+WLoqKyVGc%2FnnagejDt5zTl5B2oqtOtI%2FsuVqEcnBeJPcEYXzNJ83BQlCLWcM9QgZhFaSx3vcqGXVNb8J7B5EjlsZzGmPLcmy3al5Q4LhYMDfB0sD0PeWA2j7NIxIe+isO7jMYOwjTu8os40DYf0qEf1rdk+TUONnOmmsvX07iY7++QA7TlEXlJ9QujnsK6qYKcsDbJf+k%2FKQSTV0wr+FuODNDfd6xE8fPrb6bM1lW+lJHPWGU7RalAhOyktZJ6pm7+Vsl%2FzmEVIrBYOgImudanJbA61JD5OmDMCqoK6iwRTBv2ftH0HvPjnT053bKmObikaCxsjxxpROuUcvV8xX%2FuiS0uuoi5y%2Fh8jIUPP7cuocPuqoVP5vClbq9g4=?resolution=1240x700",
+      "title": "Here's what we know about security measures at the hotel where Trump was targeted",
+      "summary": "The suspect detained after a shooting at the White House Correspondents' Association dinner is believed to have made it past the outermost layer of security at the event.",
+      "link": "https://www.stuff.co.nz/world-news/360970725/heres-what-we-know-about-security-measures-white-hous",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYU5nJ9qJH5Zh3lCKeuRpmDZGf26mY2SvRoEsPiKWlCFmszPfxdn4ZSaF48A5mJSV8p7ZmU6u2BfnAJZk6faAxwJy2gVzJ372Izzl5rK9tbDO9l9QMNl%2FMVTnpCcAvSZj5iX0orZUN2KvqusEKt2+9kWYkUyj+3SIkH6TECiLPBBbuacGiy6nFTMhDGXb3GYP5pyE5v7eaYaW8X7kxq9OY5pL2W7OlikdBViOYfLDfBe0Sk5aoPA4OzmwMHGuh3YKTYtWqdu6o3qhzlfanNZMaU104gaSNrBnbzdgKRHwlCTBSX5le%2F5fy7gEJaPJy3p8Q41kmx5wFNtq6FMVSbClbOTnnowS8y6zwwTDuwlpj%2F5j1lNX3mgnt%2FhGu4duX0jfmr3X2TVB3a7lANw3e4QbOfkSAYVWyiDkX5eqdH3tIoFrHXTbuhsmRuxGqPIo8OFtk0gIjMjPSyLwCpMogdEolfE=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777187541.0,
+      "hot": false
+    },
+    {
+      "id": "ced5ccffb1",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Recap: Auckland FC draw 2-2 with Sydney FC",
+      "summary": "Look back at live coverage of the A-League Men round 26 match between Auckland FC and Sydney FC.",
+      "link": "https://www.stuff.co.nz/sport/360963512/recap-auckland-fc-v-sydney-fc-league-men-round-26",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbdUdC6ApYgIGfeFQ3PgZa2SPfCyP8URlayFfbjN141U3O6axsHqMDpU%2FJg1aXEY6WDiuNMIr6tiLBeVBgZaHqBsm%2FAJyQ4IWLtnCNqgGzcA+eQUpvRRJSAQYnqdbE6C+Joxpmi9gKPm+I8Y+2rxE9mqeECcivVoc2mx%2FQDXuFYwruGThkBF8p%2F9lTUmPO2qwfr0b7Puc+WsuqNFSrpNSmG3LHap3fawgg+w4NuyasvjEuhAmHu833F4yGrFBZk1p94FHaSgPdDK6JocIQkM%2F7oTMRf7tn0pkL08eq4yAg96ASPE2%2Fq5Pxm2s6fkWi+CXWMeOtFu48y3YXJQcS0MAQQJ2onE+bAnQZXfd6bYZyCz8XDuL7FVrMQR7hB7AioaPu8O4YKYTO6Yol5+fR12iiU1TCSshUbCyWjwYyX7n2Kys5eeFrb5e4ByBdRfipwmQwu1%2FmBtBkNdbra6XsrklQw=?resolution=1240x700",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1777180836.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777187177.0,
+      "hot": false
+    },
+    {
+      "id": "1ee1bc7b53",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland boy racer manslaughter convict Micheal Ngamo named, prison sentence lengthened",
+      "summary": "'This offence uprooted my entire life,' his latest victim said.",
+      "link": "https://www.nzherald.co.nz/nz/crime/auckland-boy-racer-manslaughter-convict-micheal-ngamo-named-prison-sentence-lengthened/Y66IK7N7BVDPNC5WH2SKWTG7FM/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/Z27OQDWGYJGUTPQJVYMQ3JEWJE.jpg?auth=0768befa67347219aafeef6a0e4c3bdbe7e65cb01b88ac94d1c061c0c4cb98c7&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777185079.0,
+      "hot": false
+    },
+    {
+      "id": "d9f4d8678c",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Watch: Chiefs punish ‘mind boggling’ Drua blunder in big win",
+      "summary": "The Chiefs bagged all five points against the Drua in Christchurch to cap the Super Round.",
+      "link": "https://www.stuff.co.nz/sport/360968331/chiefs-v-fijian-drua-what-you-need-know-super-rugby-pacific-clash-christchurch",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZryafC9mgYkGOf2H2wOYtNfYBK3kO3vKeor+aRJraj7Mpl1aQ0nSXqRO8ndFyMZq0LLYcJ%2FkWSgayR+ez74bbAVtkEWPSFbBk1T%2FVA9sOwV7szHHNVuMMXRxHwCqk%2FEChZZARbhRh80WeNiU9dCz%2F8=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777184727.0,
       "hot": false
     },
     {
@@ -107,27 +251,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777179735.0,
-      "hot": false
-    },
-    {
-      "id": "2c6e3fd6ed",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Auckland FC face Sydney FC needing win to secure second place, finals bye",
-      "summary": "Follow live coverage of the A-League Men round 26 match between Auckland FC and Sydney FC.",
-      "link": "https://www.stuff.co.nz/sport/360963512/live-auckland-fc-v-sydney-fc-league-men-round-26",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbdUdC6ApYgIGfeFQ3PgZa2SPfCyP8URlayFfbjN141U3O6axsHqMDpU%2FJg1aXEY6WDiuNMIr6tiLBeVBgZaHqBsm%2FAJyQ4IWLtnCNqgGzcA+eQUpvRRJSAQYnqdbE6C+Joxpmi9gKPm+I8Y+2rxE9mqeECcivVoc2mx%2FQDXuFYwruGThkBF8p%2F9lTUmPO2qwfr0b7Puc+WsuqNFSrpNSmG3LHap3fawgg+w4NuyasvjEuhAmHu833F4yGrFBZk1p94FHaSgPdDK6JocIQkM%2F7oTMRf7tn0pkL08eq4yAg96ASPE2%2Fq5Pxm2s6fkWi+CXWMeOtFu48y3YXJQcS0MAQQJ2onE+bAnQZXfd6bYZyCz8XDuL7FVrMQR7hB7AioaPu8O4YKYTO6Yol5+fR12iiU1TCSshUbCyWjwYyX7n2Kys5eeFrb5e4ByBdRfipwmQwu1%2FmBtBkNdbra6XsrklQw=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777178770.0,
       "hot": false
     },
     {
@@ -143,45 +269,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777177201.0,
-      "hot": false
-    },
-    {
-      "id": "ff5595ee1e",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Chiefs hold healthy lead over Fijian Drua",
-      "summary": "Follow live as the Chiefs face the Drua to wrap up Super Round in Christchurch",
-      "link": "https://www.stuff.co.nz/sport/360968331/chiefs-v-fijian-drua-what-you-need-know-super-rugby-pacific-clash-christchurch",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZryafC9mgYkGOf2H2wOYtNfYBK3kO3vKeor+aRJraj7Mpl1aQ0nSXqRO8ndFyMZq0LLYcJ%2FkWSgayR+ez74bbAVtkEWPSFbBk1T%2FVA9sOwV7szHHNVuMMXRxHwCqk%2FEChZZARbhRh80WeNiU9dCz%2F8=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777176997.0,
-      "hot": false
-    },
-    {
-      "id": "77ea064b23",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Highlanders edge Moana Pasifika",
-      "summary": "The southeners kept their playoff hopes alive with an important victory.",
-      "link": "https://www.stuff.co.nz/sport/360969060/all-you-need-know-ahead-highlanders-v-moana-pasifika-super-round-clash",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRJGgUriShP5YtXH4M3Lhuoqm8Gzvf1PXOepLg1xt1bjBD7LmU2yCyrld8qkLwKxzfMwLC8xZLtFHtJ2cccr6%2FsLVO3Sa2WXqwtSc+Z+ryY8Ld2NSioE%2FIdwo6+N7JcEuaseSVp9O5DbHpsvNjGGeb8=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777176151.0,
       "hot": false
     },
     {
@@ -198,8 +288,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777172400.0,
       "hot": false
     },
@@ -216,8 +306,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777169441.0,
       "hot": false
     },
@@ -234,8 +324,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777168019.0,
       "hot": false
     },
@@ -252,8 +342,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777167711.0,
       "hot": false
     },
@@ -270,8 +360,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777165049.0,
       "hot": false
     },
@@ -279,7 +369,7 @@
       "id": "d0736b734e",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "Government invests $800,000 to repair part of NZ Cycle Trail network",
       "summary": "The funding will go towards Hauraki Rail Trail, Waikato River Trail, and Tasman's Great Taste Trail, following significant storm damage.",
@@ -291,44 +381,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777162476.0,
-      "hot": false
-    },
-    {
-      "id": "60c81a4afe",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Climate Change Commission warns NZ ETS could fail without reform",
-      "summary": "The commission says price spikes could lead to factories closing to reduce emissions, rather than investment in decarbonisation.",
-      "link": "https://www.rnz.co.nz/news/environment_climate/593459/climate-change-commission-warns-nz-ets-could-fail-without-reform",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777160615.0,
-      "hot": false
-    },
-    {
-      "id": "c6c33a2ff5",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "NZ bottom of world's savings rate - or is it?",
-      "summary": "A graphic circulating online from Visual Capitalist shows New Zealand ranked last in a comparison of countries' net household savings rate.",
-      "link": "https://www.rnz.co.nz/news/business/593458/nz-bottom-of-world-s-savings-rate-or-is-it",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777160615.0,
       "hot": false
     },
     {
@@ -345,44 +399,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777160221.0,
-      "hot": false
-    },
-    {
-      "id": "a23c2daa66",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Person dies in hospital two days after single-vehicle crash on Hororata Dunsandel Rd",
-      "summary": "The injured person died in hospital last night as police investigations continue.",
-      "link": "https://www.nzherald.co.nz/nz/person-dies-in-hospital-two-days-after-single-vehicle-crash-on-hororata-dunsandel-road/EZI7KIJVYZE4LJPBAIWIGYKSKE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/E7AJOPOLJ5GQRI3ZFZX7BM7ODU.jpg?auth=8522e4ab5ef31967c9ca5a94797a33d31dbf1c73d742c264a57fd73dce72aae9&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777157796.0,
-      "hot": false
-    },
-    {
-      "id": "a1c02e3661",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "On The Up: Rotorua’s Essjay Bennett competes in the Little Miss and Mister Aotearoa New Zealand 2026",
-      "summary": "Essjay Bennett's new clothing collection is inspired by Tāne Mahuta.",
-      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/on-the-up-rotoruas-essjay-bennett-competes-in-the-little-miss-and-mister-aotearoa-new-zealand-2026-pageant/7M5LRKC3T5HXPFMESH56LQ4LBY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/6ZTOHA5UFFAV3OBV5UQNCZYJGQ.jpg?auth=fb03fb0f4810672fb8dd858241081dd97a7cb9598f2a0f8fb5eaddf1efe24403&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777156620.0,
       "hot": false
     },
     {
@@ -399,7 +417,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777152796.0,
       "hot": false
     },
@@ -416,8 +434,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777100535.0,
       "hot": false
     },
@@ -510,7 +528,7 @@
         "科技"
       ],
       "score": 55,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1777015878.0,
       "hot": false
     }
