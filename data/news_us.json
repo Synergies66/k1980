@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-27T14:32:01.225825+00:00",
-  "total": 22,
+  "updated_at": "2026-04-27T17:46:32.982912+00:00",
+  "total": 21,
   "articles": [
     {
       "id": "9778155dc8",
@@ -18,9 +18,46 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "4小时前",
       "pub_ts": 1777294066.0,
+      "hot": false
+    },
+    {
+      "id": "9f526670de",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "China’s Economy Starts to Show Cracks From Iran War",
+      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
+      "link": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27Biz-China-Econ-zgvw/27Biz-China-Econ-zgvw-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "华人"
+      ],
+      "score": 77,
+      "ago": "5小时前",
+      "pub_ts": 1777292669.0,
+      "hot": false
+    },
+    {
+      "id": "f343f65532",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Florida's DeSantis unveils a voting map that could add to Trump's GOP redistricting",
+      "summary": "Florida's governor has called lawmakers to meet starting Tuesday. They'll consider a fast-track redistricting that could flip some House seats held by Democrats to Republicans.",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5797938/floridas-desantis-unveils-a-voting-map-that-could-add-to-trumps-gop-redistricting",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777306240.0,
       "hot": false
     },
     {
@@ -37,62 +74,8 @@
         "科技"
       ],
       "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1777298251.0,
-      "hot": false
-    },
-    {
-      "id": "4b16808c62",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court to Hear Arguments in Landmark Roundup Weedkiller Case",
-      "summary": "A victory for the manufacturer, Bayer, could end thousands of lawsuits against the company claiming that the herbicide causes cancer.",
-      "link": "https://www.nytimes.com/2026/04/26/climate/supreme-court-bayer-monsanto-roundup-glyphosate.html",
-      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18CLI-SCOTUS-WEEDKILLER-01-tljg/18CLI-SCOTUS-WEEDKILLER-01-tljg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1777297143.0,
-      "hot": false
-    },
-    {
-      "id": "d7c1d77b9a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Mint Buys Drug Cartel Gold and Sells It as ‘American’",
-      "summary": "As prices for the precious metal soar, the industry’s guardrails have broken down.",
-      "link": "https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html",
-      "image": "https://static01.nyt.com/images/2026/04/08/world/00Gold-Scrolly-05/00Gold-Scrolly-05-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "56分前",
-      "pub_ts": 1777296895.0,
-      "hot": false
-    },
-    {
-      "id": "594aa34e43",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Inside the Chaos at the Correspondents’ Dinner, and How the U.S. Mint Is Buying Drug Cartel Gold",
-      "summary": "Plus, marathon runners shatter a world record.",
-      "link": "https://www.nytimes.com/2026/04/27/podcasts/the-headlines/correspondents-dinner-shots-fired-us-mint-idrug-cartel-gold.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27headlines-001-wfgt/27headlines-001-wfgt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777295851.0,
+      "pub_ts": 1777305693.0,
       "hot": false
     },
     {
@@ -114,6 +97,78 @@
       "hot": false
     },
     {
+      "id": "9dc3c4492c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The War in Iran Has Upended the Global Economy. The U.S. Has Been Mostly Spared.",
+      "summary": "In just eight weeks, much of the global economy has been knocked sideways. America has mostly been spared from the tumult.",
+      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27Biz-Global-Econ-01-zckt/27Biz-Global-Econ-01-zckt-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777302225.0,
+      "hot": false
+    },
+    {
+      "id": "3348d23200",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Cellular Rejuvenation Has the Potential to Reverse Aging",
+      "summary": "A new therapy has the potential to cure hundreds of diseases — and even reverse aging.",
+      "link": "https://www.nytimes.com/2026/04/27/magazine/cell-rejuventation-biotech-longevity-research-altos-labs.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777297337.0,
+      "hot": false
+    },
+    {
+      "id": "4b16808c62",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court to Hear Arguments in Landmark Roundup Weedkiller Case",
+      "summary": "A victory for the manufacturer, Bayer, could end thousands of lawsuits against the company claiming that the herbicide causes cancer.",
+      "link": "https://www.nytimes.com/2026/04/26/climate/supreme-court-bayer-monsanto-roundup-glyphosate.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18CLI-SCOTUS-WEEDKILLER-01-tljg/18CLI-SCOTUS-WEEDKILLER-01-tljg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777297143.0,
+      "hot": false
+    },
+    {
+      "id": "26c98bf4e9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "King Charles Is Coming to the U.S. at a Very Delicate Time",
+      "summary": "Not since his mother, Queen Elizabeth II, traveled to Washington after the Suez Crisis has a visit by the British monarch come at such a fraught point in Anglo-American relations.",
+      "link": "https://www.nytimes.com/2026/04/27/world/europe/king-charles-us-visit-uk-relations.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/world/27int-uk-royals-trump-00001/27int-uk-royals-trump-00001-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777296706.0,
+      "hot": false
+    },
+    {
       "id": "81f6ec39d9",
       "type": "news",
       "region": "us",
@@ -127,17 +182,35 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777291878.0,
       "hot": false
     },
     {
-      "id": "2091b087f3",
+      "id": "85d135d757",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "8 Memorable Moments From Past British Royal Visits to the U.S.",
+      "summary": "With King Charles III and Queen Camilla set to arrive for a state visit with President Trump, we look back at some major moments in previous royal trips to the United States.",
+      "link": "https://www.nytimes.com/2026/04/27/world/europe/royal-visits-america-history-trump-uk.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27int-uk-royals-visual-03-hbvk/27int-uk-royals-visual-03-hbvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777289960.0,
+      "hot": false
+    },
+    {
+      "id": "5dcb870d1f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Iran's flurry of diplomacy, as Trump insists U.S. has 'the cards'",
+      "title": "Iran's flurry of diplomacy continues in Russia, as Trump insists U.S. has 'the cards'",
       "summary": "Iran's foreign minister arrived in Russia on Monday, after a whirlwind weekend of diplomacy, seeking to gain political leverage and foreign backing as peace talks with the U.S. remain on hold.",
       "link": "https://www.npr.org/2026/04/27/nx-s1-5800669/iran-middle-east-updates",
       "image": null,
@@ -145,45 +218,27 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777289575.0,
       "hot": false
     },
     {
-      "id": "1752a46b36",
+      "id": "30881bfec0",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Canada Says Its Gold Is Traceable and Clean. So We Traced It.",
-      "summary": "We ended up in a Colombian mine controlled by a drug cartel.",
-      "link": "https://www.nytimes.com/2026/04/27/world/canada/royal-canadian-mint-gold-drug-cartel-colombia.html",
-      "image": "https://static01.nyt.com/images/2026/04/22/world/00int-gold-canada/00int-gold-canada-mediumSquareAt3X.jpg",
+      "title": "East Africa redefines marathon limits as Sabastian Sawe leads historic charge",
+      "summary": "East Africa has rewritten marathon history as Sabastian Sawe produced a stunning breakthrough at the London Marathon, redefining what was thought possible over the marathon distance.",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5800113/kenya-sabastian-sawe-east-africa-london-marathon-2-hour-barrier",
+      "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777287877.0,
-      "hot": false
-    },
-    {
-      "id": "743863da27",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Even Before the Gunfire. Many Guests Bore the Scars of Political Violence",
-      "summary": "Gunfire at a press gala on Saturday underscored the ever growing club of political figures whose lives have been upended by violence.",
-      "link": "https://www.nytimes.com/2026/04/27/us/politics/politics-violence-trump-kirk.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26pol-violence-pkjc/26pol-violence-pkjc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777280663.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777287325.0,
       "hot": false
     },
     {
@@ -199,8 +254,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777280535.0,
       "hot": false
     },
@@ -219,8 +274,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
@@ -237,8 +292,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
@@ -256,44 +311,8 @@
         "经济",
         "天气"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777280400.0,
-      "hot": false
-    },
-    {
-      "id": "fd42620ee8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Ingenious? Orwellian? Or both? Supreme Court considers constitutionality of 'geofence' warrants",
-      "summary": "The technique allows police to tap into giant tech-firm databases to find out who was near the scene of a crime and may have been involved.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5777656/supreme-court-geofence-warrants",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777280400.0,
-      "hot": false
-    },
-    {
-      "id": "fa6c715071",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Scientists search the microbiome for clues to the rise in colorectal cancers",
-      "summary": "Unlike many cancers, colorectal cancer has become more lethal for people at younger ages. Doctors are sleuthing out why.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5766512/colorectal-cancer-rise-young-gut-microbes",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
@@ -312,26 +331,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777266543.0,
-      "hot": false
-    },
-    {
-      "id": "b7ede64f7d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘Shots Fired!’: Inside the Pandemonium at the Washington Hilton",
-      "summary": "Guests dived to the floor and took cover as Secret Service agents climbed over tables to protect some of the country’s most high-ranking officials, including President Trump.",
-      "link": "https://www.nytimes.com/2026/04/26/us/politics/shots-fired-inside-the-pandemonium-at-the-washington-hilton.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26dc-reconstruct-01-vgqm/26dc-reconstruct-01-vgqm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777241226.0,
       "hot": false
     },
     {
@@ -348,7 +349,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777241053.0,
       "hot": false
     },
@@ -370,24 +371,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1777205326.0,
-      "hot": false
-    },
-    {
-      "id": "b364435c1f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
-      "summary": "A shooting incident at the White House Correspondent's Dinner took focus away from the war in Iran, as Iran's foreign minister planned to return to Islamabad, the site of previous peace talks.",
-      "link": "https://www.npr.org/2026/04/26/nx-s1-5800054/iran-talks-on-hold-shooting-talks-pakistan",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777203610.0,
       "hot": false
     },
     {
