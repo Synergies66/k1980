@@ -1,62 +1,80 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-27T10:29:08.815435+00:00",
-  "total": 24,
+  "updated_at": "2026-04-27T14:32:01.225825+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "9f526670de",
+      "id": "9778155dc8",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "China’s Economy Starts to Show Cracks From Iran War",
-      "summary": "China’s strategic reserves of oil and natural gas have insulated it somewhat, but its manufacturing-based economy is beginning to falter.",
-      "link": "https://www.nytimes.com/2026/04/27/business/china-economy-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27Biz-China-Econ-zgvw/27Biz-China-Econ-zgvw-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "华人"
-      ],
-      "score": 82,
-      "ago": "10分前",
-      "pub_ts": 1777285100.0,
-      "hot": false
-    },
-    {
-      "id": "a6e7dae4fb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "How China is responding to the stalling of talks between the U.S. and Iran",
-      "summary": "NPR's Ayesha Rascoe speaks to Zongyuan Zoe Liu, a senior fellow at the Council on Foreign Relations, about how China views the current crisis in the Middle East",
-      "link": "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran",
+      "title": "China blocks Meta from acquiring AI startup Manus",
+      "summary": "Meta said Monday that the transaction \"complied fully with applicable law\" and that it anticipates \"an appropriate resolution to the inquiry.\"",
+      "link": "https://www.npr.org/2026/04/27/g-s1-118892/china-blocks-meta-from-acquiring-ai-startup-manus",
       "image": null,
       "categories": [
-        "华人"
+        "华人",
+        "科技"
       ],
-      "score": 72,
-      "ago": "22小时前",
-      "pub_ts": 1777205331.0,
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777294066.0,
       "hot": false
     },
     {
-      "id": "8b274c9740",
+      "id": "127b88d5f8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Top Iranian Official in Russia for Talks With Putin on Middle East War",
-      "summary": "Abbas Araghchi, Iran’s foreign minister, will meet with President Vladimir V. Putin for “necessary coordination,” as negotiations with the U.S. to end the conflict have stalled.",
-      "link": "https://www.nytimes.com/2026/04/27/world/europe/iran-foreign-minister-russia.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27int-russia-iran-ljvf/27int-russia-iran-ljvf-mediumSquareAt3X.jpg",
+      "title": "Cole Tomas Allen, Correspondents’ Dinner Shooting Suspect, Was Propelled by Outrage, Authorities Say",
+      "summary": "A man who has worked as a tutor and graduated from the California Institute of Technology is being held by authorities in connection with the armed attack at the White House correspondents’ dinner.",
+      "link": "https://www.nytimes.com/2026/04/27/us/politics/cole-allen-suspect-washington-correspondents-dinner-shooting.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26trump-whca-shooter-profile-kvtc/26trump-whca-shooter-profile-kvtc-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "科技"
       ],
       "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1777284479.0,
+      "ago": "34分前",
+      "pub_ts": 1777298251.0,
+      "hot": false
+    },
+    {
+      "id": "4b16808c62",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court to Hear Arguments in Landmark Roundup Weedkiller Case",
+      "summary": "A victory for the manufacturer, Bayer, could end thousands of lawsuits against the company claiming that the herbicide causes cancer.",
+      "link": "https://www.nytimes.com/2026/04/26/climate/supreme-court-bayer-monsanto-roundup-glyphosate.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/multimedia/18CLI-SCOTUS-WEEDKILLER-01-tljg/18CLI-SCOTUS-WEEDKILLER-01-tljg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777297143.0,
+      "hot": false
+    },
+    {
+      "id": "d7c1d77b9a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Mint Buys Drug Cartel Gold and Sells It as ‘American’",
+      "summary": "As prices for the precious metal soar, the industry’s guardrails have broken down.",
+      "link": "https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/world/00Gold-Scrolly-05/00Gold-Scrolly-05-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1777296895.0,
       "hot": false
     },
     {
@@ -73,8 +91,81 @@
         "本地"
       ],
       "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1777284009.0,
+      "ago": "1小时前",
+      "pub_ts": 1777295851.0,
+      "hot": false
+    },
+    {
+      "id": "a6e7dae4fb",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "How China is responding to the stalling of talks between the U.S. and Iran",
+      "summary": "NPR's Ayesha Rascoe speaks to Zongyuan Zoe Liu, a senior fellow at the Council on Foreign Relations, about how China views the current crisis in the Middle East",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5797410/how-china-is-responding-to-the-stalling-of-talks-between-the-u-s-and-iran",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 67,
+      "ago": "昨日",
+      "pub_ts": 1777205331.0,
+      "hot": false
+    },
+    {
+      "id": "81f6ec39d9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Alleged Correspondents' Dinner shooter to appear in court. And, Charles III visits U.S.",
+      "summary": "The suspect in the White House Correspondents' Dinner shooting incident is set to appear in federal court today. And, King Charles III and Queen Camilla arrive in Washington today for a state visit.",
+      "link": "https://www.npr.org/2026/04/27/g-s1-118874/up-first-newsletter-white-house-correspondence-dinner-cole-allen-king-charles-spacex-openai-elon-musk",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777291878.0,
+      "hot": false
+    },
+    {
+      "id": "2091b087f3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran's flurry of diplomacy, as Trump insists U.S. has 'the cards'",
+      "summary": "Iran's foreign minister arrived in Russia on Monday, after a whirlwind weekend of diplomacy, seeking to gain political leverage and foreign backing as peace talks with the U.S. remain on hold.",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5800669/iran-middle-east-updates",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777289575.0,
+      "hot": false
+    },
+    {
+      "id": "1752a46b36",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Canada Says Its Gold Is Traceable and Clean. So We Traced It.",
+      "summary": "We ended up in a Colombian mine controlled by a drug cartel.",
+      "link": "https://www.nytimes.com/2026/04/27/world/canada/royal-canadian-mint-gold-drug-cartel-colombia.html",
+      "image": "https://static01.nyt.com/images/2026/04/22/world/00int-gold-canada/00int-gold-canada-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777287877.0,
       "hot": false
     },
     {
@@ -90,45 +181,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777280662.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777280663.0,
       "hot": false
     },
     {
-      "id": "0b656ddf7c",
+      "id": "840f6fc471",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Grievance Propelled Gala Attack Suspect Across Country, Authorities Say",
-      "summary": "A man who has worked as a tutor and graduated from the California Institute of Technology is being held by authorities in connection with the armed attack at the White House correspondents’ dinner.",
-      "link": "https://www.nytimes.com/2026/04/27/us/politics/cole-allen-suspect-washington-correspondents-dinner-shooting.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26trump-whca-shooter-profile-kvtc/26trump-whca-shooter-profile-kvtc-mediumSquareAt3X.jpg",
+      "title": "Supreme Court Reviews Police Use of Cell Location Data to Find Criminals",
+      "summary": "Geofence searches allow law enforcement to find suspects and witnesses by sweeping up location data from cellphone users near crime scenes.",
+      "link": "https://www.nytimes.com/2026/04/27/us/politics/supreme-court-cell-data-geofence.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27dc-scotus-geofence-vgzk/27dc-scotus-geofence-vgzk-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777280656.0,
-      "hot": false
-    },
-    {
-      "id": "f2813a50ba",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The U.S. Started the War. The Rest of the World Is Feeling the Effects.",
-      "summary": "In just eight weeks, much of the global economy has been knocked sideways. America has mostly been spared from the tumult.",
-      "link": "https://www.nytimes.com/2026/04/27/business/economy/iran-war-global-growth.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27Biz-Global-Econ-01-zckt/27Biz-Global-Econ-01-zckt-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777280578.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777280535.0,
       "hot": false
     },
     {
@@ -146,27 +219,8 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777280400.0,
-      "hot": false
-    },
-    {
-      "id": "50d803ca8a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Climate disaster victims are rebuilding using prefab homes from boxy to bespoke",
-      "summary": "Wildfires, hurricanes, tornadoes and floods fueled by manmade climate change are changing the housing industry. That's because people seeking to rebuild in disaster-prone regions are turning away from",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5786911/climate-disaster-victims-are-rebuilding-using-prefab-homes-from-boxy-to-bespoke",
-      "image": null,
-      "categories": [
-        "经济",
-        "天气"
-      ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
@@ -183,44 +237,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
     {
-      "id": "fa6c715071",
+      "id": "50d803ca8a",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Scientists search the microbiome for clues to the rise in colorectal cancers",
-      "summary": "Unlike many cancers, colorectal cancer has become more lethal for people at younger ages. Doctors are sleuthing out why.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5766512/colorectal-cancer-rise-young-gut-microbes",
+      "title": "Climate disaster victims are rebuilding using prefab homes from boxy to bespoke",
+      "summary": "Wildfires, hurricanes, tornadoes and floods fueled by manmade climate change are changing the housing industry. That's because people are embracing prefab homes that can withstand extreme weather.",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5786911/climate-disaster-victims-are-rebuilding-using-prefab-homes-from-boxy-to-bespoke",
       "image": null,
       "categories": [
-        "本地"
+        "经济",
+        "天气"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777280400.0,
-      "hot": false
-    },
-    {
-      "id": "9d1754e272",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Musk vs. Altman: Tech CEOs head to court Monday over fate of OpenAI",
-      "summary": "The former OpenAI business partners are embroiled in a high-stakes dispute over the future of one of the world's top AI companies.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5795661/trial-openai-elon-musk-sam-altman",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
@@ -237,34 +274,34 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777280400.0,
       "hot": false
     },
     {
-      "id": "9b7fa89c4e",
+      "id": "fa6c715071",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Oil Rises and Stocks Waver as Peace Talks Stall",
-      "summary": "Oil prices rose and stocks fell after President Trump called off a trip to Pakistan by two U.S. negotiators for peace talks with Iran.",
-      "link": "https://www.nytimes.com/2026/04/26/business/oil-stocks-gas-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26biz-oil-stocks-gas-1-thpk/26biz-oil-stocks-gas-1-thpk-mediumSquareAt3X.jpg",
+      "title": "Scientists search the microbiome for clues to the rise in colorectal cancers",
+      "summary": "Unlike many cancers, colorectal cancer has become more lethal for people at younger ages. Doctors are sleuthing out why.",
+      "link": "https://www.npr.org/2026/04/27/nx-s1-5766512/colorectal-cancer-rise-young-gut-microbes",
+      "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777278544.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777280400.0,
       "hot": false
     },
     {
       "id": "9b948fa075",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Palestinian officials hail local elections in a Gaza community and the West Bank",
       "summary": "Palestinian officials say local elections in Gaza and the West Bank mark a step toward a long-delayed presidential election. The Palestinian Authority hasn't held a presidential election in 21 years.",
@@ -274,27 +311,9 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777266543.0,
-      "hot": false
-    },
-    {
-      "id": "07c9694e8b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Monte Coleman, who won 3 Super Bowls as a Washington linebacker, dies at age 68",
-      "summary": "The hard-nosed linebacker, who won three Super Bowls and later coached Arkansas-Pine Bluff, has died. UAPB and the Commanders announced his death Sunday. No cause of death was disclosed.",
-      "link": "https://www.npr.org/2026/04/27/g-s1-118848/monte-coleman-washington-linebacker-dies",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777266431.0,
       "hot": false
     },
     {
@@ -311,7 +330,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777241226.0,
       "hot": false
     },
@@ -329,8 +348,28 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777241053.0,
+      "hot": false
+    },
+    {
+      "id": "bc9b9805d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Chernobyl survivors have paid the ultimate price in the Russia-Ukraine war",
+      "summary": "In a Kyiv apartment building housing the families of Chernobyl workers, a wartime tragedy strikes three friends preparing to mark 40 years since the nuclear accident.",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5793661/chernobyl-survivors-have-paid-the-ultimate-price-in-the-russia-ukraine-war",
+      "image": null,
+      "categories": [
+        "经济",
+        "天气",
+        "科技"
+      ],
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1777205326.0,
       "hot": false
     },
     {
@@ -346,81 +385,9 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777203610.0,
-      "hot": false
-    },
-    {
-      "id": "5f3612a883",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "King Charles U.S. visit comes at tense moment in transatlantic relationship",
-      "summary": "King Charles and Queen Camilla arrive Monday for a four day U.S. state visit. Some hope the royal touch can heal the transatlantic rift that's emerged under Trump.",
-      "link": "https://www.npr.org/2026/04/26/nx-s1-5788696/king-queen-state-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777197600.0,
-      "hot": false
-    },
-    {
-      "id": "8ac7fc9468",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "In a rare interview, a leader of the world's largest right-wing group talks to NPR",
-      "summary": "The second-in-command of the RSS, a Hindu nationalist organization in India, rarely speaks to the Western press. Here's what he said about his group's controversial history.",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5795781/india-rss-rashtriya-swayamsevak-sangh-interview-hindu-nationalist",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777153500.0,
-      "hot": false
-    },
-    {
-      "id": "6e0f573f86",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Mali reeling after coordinated attacks hit multiple cities",
-      "summary": "Gunfire and explosions rocked Mali's capital and other key cities in one of the most significant coordinated attacks in years, as armed groups exploited worsening insecurity in the Sahel region.",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5799439/mali-hit-by-wave-of-coordinated-attacks-from-armed-groups",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777129043.0,
-      "hot": false
-    },
-    {
-      "id": "d14c8b885e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran's foreign minister leaves Pakistan, then Trump cancels U.S. delegation's travel",
-      "summary": "After arriving on Friday, Iran's Abbas Araghchi has left Islamabad, prompting President Trump to announce that his envoys Steve Witkoff and Jared Kushner will no longer travel there Saturday for peace",
-      "link": "https://www.npr.org/2026/04/25/nx-s1-5799372/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1777098921.0,
       "hot": false
     },
     {
