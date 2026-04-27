@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-27T17:51:56.908589+00:00",
+  "updated_at": "2026-04-27T21:38:06.241305+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "d81c8ceb57",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Biz sentiment rebounds in April as Middle East crisis reduces inventories: BOK",
+      "summary": "SEOUL, April 28 (Yonhap) -- Despite the ongoing Middle East crisis, business sen...",
+      "link": "https://en.yna.co.kr/view/AEN20260427011000320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/04/27/AEN20260427011000320_02_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1777323604.0,
+      "hot": false
+    },
     {
       "id": "699bf7fb64",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777299675.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777294215.0,
       "hot": false
     },
@@ -54,7 +72,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777290387.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777286631.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777282950.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777282790.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777280751.0,
-      "hot": false
-    },
-    {
-      "id": "b434bfcc59",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Lee, Google DeepMind CEO discuss responsible use of AI",
-      "summary": "SEOUL, April 27 (Yonhap) -- President Lee Jae Myung on Monday met with Demis Has...",
-      "link": "https://en.yna.co.kr/view/AEN20260427010800315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/27/PYH2026042716260001300_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777280732.0,
       "hot": false
     }
   ]
