@@ -1,43 +1,79 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-26T21:05:56.716690+00:00",
-  "total": 27,
+  "updated_at": "2026-04-27T04:08:02.556944+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "2d083ebb90",
+      "id": "87e0b4f661",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "「剛開始交往的時候，我因擔心分手而不告知男友我的年齡」",
+      "summary": "兩對情侶向BBC講述他們的戀愛故事，以及社會輿論加諸在他們身上的年齡焦慮討論。",
+      "link": "https://www.bbc.com/zhongwen/articles/cvgegdyvrz4o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/37b4/live/2b226c10-413e-11f1-b889-fb312676c7f5.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1777249585.0,
+      "hot": false
+    },
+    {
+      "id": "eab10f52d2",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Mali defence minister killed as country hit by wave of rebel attacks",
-      "summary": "A wave of coordinated attacks by jihadist militants and separatists has spread through the country.",
-      "link": "https://www.bbc.com/news/articles/c5yvy7v66ndo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bb7/live/32b8b2d0-418f-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1777236986.0,
-      "hot": false
-    },
-    {
-      "id": "fa46e71852",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Suspected gunman likely targeting Trump administration officials at White House press dinner, acting",
-      "summary": "Todd Blanche says 31-year-old suspect will be charged with assault of a federal officer, discharging a firearm and attempting to kill a federal officerSuspected gunman at White House press dinner name",
-      "link": "https://www.theguardian.com/us-news/live/2026/apr/26/white-house-correspondents-dinner-shooting-latest-donald-trump-suspect-washington-hilton",
-      "image": "https://i.guim.co.uk/img/media/374477beef3848ed176b7fc98d1d2531e65e40be/0_0_4850_3880/master/4850.jpg?width=140&quality=85&auto=format&fit=max&s=3aa0f543a67906ce7b3cfe12d9ae68c3",
+      "title": "King's visit to 'revitalise' relationship with US, says UK ambassador",
+      "summary": "The UK's ambassador to the US welcomes the state visit, at a difficult time for UK and US relations.",
+      "link": "https://www.bbc.com/news/articles/c4gjger58jzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1b92/live/4f31c840-41d8-11f1-8c86-d995ee1a7acb.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1777235936.0,
+      "ago": "1小时前",
+      "pub_ts": 1777258405.0,
+      "hot": false
+    },
+    {
+      "id": "dec5110e3a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
+      "summary": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
+      "link": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9d/live/566dacb0-41aa-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777257623.0,
+      "hot": false
+    },
+    {
+      "id": "aea986bed6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Suspected gunman identified as 31-year-old Californian",
+      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
+      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8d7/live/e736b710-415e-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777257086.0,
       "hot": false
     },
     {
@@ -54,7 +90,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777186461.0,
       "hot": false
     },
@@ -72,7 +108,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777185481.0,
       "hot": false
     },
@@ -90,7 +126,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777184038.0,
       "hot": false
     },
@@ -108,7 +144,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1777179757.0,
       "hot": false
     },
@@ -126,33 +162,141 @@
         "本地"
       ],
       "score": 68,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1777177880.0,
       "hot": false
     },
     {
-      "id": "dec5110e3a",
+      "id": "01f897d7a8",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Anti-Trump sentiment being examined as motive for White House press dinner shooting",
+      "summary": "Manifesto reportedly written by the suspect had Trump administration officials at top of listTrump tells 60 Minutes he ‘wasn’t worried’ during shooting How the White House press dinner shooting unfold",
+      "link": "https://www.theguardian.com/us-news/2026/apr/26/white-house-press-dinner-shooting-motive",
+      "image": "https://i.guim.co.uk/img/media/6cec5f957c3a72843514a308c93d2ab5d40c051d/556_0_5123_4099/master/5123.jpg?width=140&quality=85&auto=format&fit=max&s=3c695e5fcfbfdc96d7c75f0e845469d2",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777253111.0,
+      "hot": false
+    },
+    {
+      "id": "b06d56ab36",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "'It lit a fire in me' - the barrister who was told she'd never amount to much",
+      "summary": "Leonie Hughes was expelled from school aged 15. Now, she's joined the Bar - and become a viral star.",
+      "link": "https://www.bbc.com/news/articles/c05d3gqvvv1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/678c/live/a4fce870-41da-11f1-bd52-e755d604ece4.png",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777244547.0,
+      "hot": false
+    },
+    {
+      "id": "72f47bbc41",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Trump and officials 'likely' targets of press dinner shooting suspect, authorities believe",
-      "summary": "The suspect is expected to be charged with assault of a federal officer and using a firearm during a crime of violence, officials have said.",
-      "link": "https://www.bbc.com/news/articles/c2d8dg57rzdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8b9d/live/566dacb0-41aa-11f1-ac78-2112837ce2aa.jpg",
+      "title": "UK's biggest ever environmental pollution claim reaches High Court",
+      "summary": "One of the UK's largest chicken producers and a water company accused of polluting three rivers including the River Wye",
+      "link": "https://www.bbc.com/news/articles/cqxl5rjw58po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4e75/live/a4f7bc10-3fdc-11f1-9365-9d68a044e038.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777228646.0,
+      "ago": "5小时前",
+      "pub_ts": 1777244507.0,
+      "hot": false
+    },
+    {
+      "id": "2190369a66",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Israeli strikes kill 14 in Lebanon amid ongoing ceasefire",
+      "summary": "The US announced three days ago that the ceasefire was extended by three weeks after talks.",
+      "link": "https://www.bbc.com/news/articles/c4gxgv8j7zlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0b7e/live/19c42640-41b4-11f1-9742-e92aadbab0a2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777240965.0,
+      "hot": false
+    },
+    {
+      "id": "a94cc23d2c",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The Cage review – an astonishing, deeply moving state-of-the-nation thriller",
+      "summary": "The creator of The Responder’s new offering is the tale of two casino employees robbing their workplace. It’s a perfectly plotted thriller but it’s also so much more than thatFour years ago, Tony Schu",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/26/the-cage-review-bbc-one-iplayer-michael-socha",
+      "image": "https://i.guim.co.uk/img/media/59c0563aa50170779f1bddb53881ca3365f1a696/338_0_3571_2856/master/3571.jpg?width=140&quality=85&auto=format&fit=max&s=c109f6dd5218519894b5dfdf96172146",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777237224.0,
+      "hot": false
+    },
+    {
+      "id": "2d083ebb90",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Mali defence minister killed as country hit by wave of rebel attacks",
+      "summary": "A wave of coordinated attacks by jihadist militants and separatists has spread through the country.",
+      "link": "https://www.bbc.com/news/articles/c5yvy7v66ndo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bb7/live/32b8b2d0-418f-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777236986.0,
+      "hot": false
+    },
+    {
+      "id": "7ec0bdb5e7",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Washington in shock after White House press dinner shooting: ‘an angry, polarized nation’",
+      "summary": "Questions raised about political violence, security and gun control after brazen attack at event attended by top officialsA stunned Washington faced searching questions about political violence and gu",
+      "link": "https://www.theguardian.com/us-news/2026/apr/26/white-house-correspondents-dinner-shooting-washington-dc",
+      "image": "https://i.guim.co.uk/img/media/aacf83de4971def5aae4a8e88f653d393528f62c/24_0_4182_3346/master/4182.jpg?width=140&quality=85&auto=format&fit=max&s=afdb2bcc1d2e04141b0cf5a740be6258",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777229183.0,
       "hot": false
     },
     {
       "id": "2aad05442e",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "King's US visit will go ahead as planned, Buckingham Palace says",
       "summary": "The decision was made \"after discussions on both sides of the Atlantic through the day\", the Palace says.",
@@ -161,9 +305,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777228384.0,
+      "hot": false
+    },
+    {
+      "id": "4b11a2a14b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Arson arrest after fire at packed-out LGBT+ club",
+      "summary": "An eyewitness says \"thousands\" of people were evacuated from the club.",
+      "link": "https://www.bbc.com/news/articles/c14548m75vlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82ce/live/c90cdb60-4178-11f1-bfbc-178a5f8f3b92.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777227450.0,
       "hot": false
     },
     {
@@ -179,27 +341,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777227450.0,
-      "hot": false
-    },
-    {
-      "id": "cb21b78ffd",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Car explosion at police station treated as attempted murder",
-      "summary": "The police believe the attack may have been carried out by the dissident republican group known as the New IRA.",
-      "link": "https://www.bbc.com/news/articles/cp846668401o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f0b/live/32d85520-4155-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777226562.0,
       "hot": false
     },
     {
@@ -215,8 +359,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1777226458.0,
       "hot": false
     },
@@ -233,81 +377,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777218631.0,
-      "hot": false
-    },
-    {
-      "id": "a5ed6e3ada",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "GDP增長超預期，消費冷感揮之不去，中國經濟「溫差」何來？",
-      "summary": "疫情以來，中國經濟一直困於一個公認的結構性困境：供給強於需求，外需好於內需，出口一直被視為拉動增長的最重要引擎。如今內需貢獻率驟然躍至近85%，這個結論，與近年來經濟學家的分析、外界的普遍評價，乃至普通人的體感，都不太相符。",
-      "link": "https://www.bbc.com/zhongwen/articles/c2ev9nzp99yo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/aa80/live/74f8f0d0-3ef4-11f1-95e9-c9f2031e3375.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "2天前",
-      "pub_ts": 1776990399.0,
-      "hot": false
-    },
-    {
-      "id": "8da9ef89ff",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman released on bail after fatal house fire",
-      "summary": "Police said two boys, aged one and three, died at the scene. A woman in her 30s was arrested.",
-      "link": "https://www.bbc.com/news/articles/cwyxy7jy5w6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/73a6/live/f8a62660-4155-11f1-9d1f-0d69b57ee6a5.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777215663.0,
-      "hot": false
-    },
-    {
-      "id": "aea986bed6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Suspected gunman identified as 31-year-old Californian",
-      "summary": "The man arrested at the event attended by President Trump has been named in US media as Cole Tomas Allen from California.",
-      "link": "https://www.bbc.com/news/articles/cr717nglye0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e8d7/live/e736b710-415e-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777211989.0,
       "hot": false
     },
     {
       "id": "d00dd636bc",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Higher prices could last for eight months after Iran war, minister says",
       "summary": "Officials are monitoring stock levels and planning for any potential disruptions to the supply chain.",
       "link": "https://www.bbc.com/news/articles/cm29m98md2do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e770/live/74d53e30-414f-11f1-9d1f-0d69b57ee6a5.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/85f4/live/325b6350-415d-11f1-bd52-e755d604ece4.jpg",
       "categories": [
         "政治",
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1777211934.0,
       "hot": false
     },
@@ -325,7 +415,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777208416.0,
       "hot": false
     },
@@ -343,7 +433,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777208416.0,
       "hot": false
     },
@@ -361,7 +451,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777207189.0,
       "hot": false
     },
@@ -379,26 +469,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777207189.0,
-      "hot": false
-    },
-    {
-      "id": "dae64598ac",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Dining across the divide: ‘In France we’d be at each other’s throats, but in the UK you say the most",
-      "summary": "One moved to the UK 20 years ago. The other is considering a vote for Restore Britain. Could they agree on national symbols and Brexit?• Want to meet someone from across the divide? Click here to find",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/26/dining-across-the-divide-in-france-wed-be-at-each-others-throats-but-in-the-uk-you-say-the-most-horrible-things-smiling",
-      "image": "https://i.guim.co.uk/img/media/569ac8c9aeaba97c3016fcbd14ea2cc5adb08016/733_43_5050_4040/master/5050.jpg?width=140&quality=85&auto=format&fit=max&s=4820d4541b278476b862d52e76c5e894",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777201213.0,
       "hot": false
     },
     {
@@ -415,44 +487,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777201212.0,
-      "hot": false
-    },
-    {
-      "id": "b0f3eaca54",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "I’ve covered Trump for a decade. At the White House correspondents’ dinner, darkness came viscerally",
-      "summary": "Men in tuxedos and women in dresses dove under tables, like a scene from a dozen Hollywood movies, but now it was happening to meWhite House correspondents’ dinner shooting – latest updatesShocking. U",
-      "link": "https://www.theguardian.com/us-news/2026/apr/26/white-house-correspondents-dinner-shooting-covering-trump",
-      "image": "https://i.guim.co.uk/img/media/859773f8276596e2d8f92a327f2156019e8d29c9/468_0_4680_3744/master/4680.jpg?width=140&quality=85&auto=format&fit=max&s=acee8e84619a2c969cc9e25cd0477b43",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777197611.0,
-      "hot": false
-    },
-    {
-      "id": "aba1e115e7",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Watch: How gunfire sparked chaos at Trump press dinner",
-      "summary": "President Trump and Vice-President Vance were rushed off the stage, after gunshots were heard at the event at the Washington Hilton hotel.",
-      "link": "https://www.bbc.com/news/videos/cgqkq18qqeeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c223/live/c8629b30-4184-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777196622.0,
       "hot": false
     },
     {
@@ -469,7 +505,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777194010.0,
       "hot": false
     },
@@ -487,8 +523,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777158206.0,
       "hot": false
     }
