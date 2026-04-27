@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-26T21:01:09.442344+00:00",
-  "total": 23,
+  "updated_at": "2026-04-27T04:04:03.587416+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "a6e7dae4fb",
@@ -18,26 +18,98 @@
         "华人"
       ],
       "score": 72,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777205331.0,
       "hot": false
     },
     {
-      "id": "315cad4ce2",
+      "id": "f43c2ca9d7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Alleged Colorado attacker's family released after nearly a year in detention",
+      "summary": "A Texas judge ordered Hayam El Gamal and her five children released Thursday. Two days later, their lawyers say, ICE re-arrested and tried to deport them.",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5800196/alleged-colorado-attacker-family-released-detention",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777253423.0,
+      "hot": false
+    },
+    {
+      "id": "b7ede64f7d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "After Shooting, Trump Demands Approval for His White House Ballroom",
-      "summary": "An incident involving an armed man at the White House correspondents’ dinner has the president to renewing his push for a project slowed by litigation.",
-      "link": "https://www.nytimes.com/2026/04/26/us/politics/trump-white-house-ballroom-dinner-shooting.html",
-      "image": "https://static01.nyt.com/images/2026/04/07/multimedia/26trump-whca-white-house-ballroom-project/07dc-ballroom-steel07-pbjh-mediumSquareAt3X.jpg",
+      "title": "‘Shots Fired!’: Inside the Pandemonium at the Washington Hilton",
+      "summary": "Guests dived to the floor and took cover as Secret Service agents climbed over tables to protect some of the country’s most high-ranking officials, including President Trump.",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/shots-fired-inside-the-pandemonium-at-the-washington-hilton.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26dc-reconstruct-01-vgqm/26dc-reconstruct-01-vgqm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1777236018.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777241226.0,
+      "hot": false
+    },
+    {
+      "id": "2ccd1f41ee",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Security at Correspondents’ Dinner Worked as Intended, Experts Say",
+      "summary": "Officials noted that the suspect never made it into the hotel ballroom, where President Trump and hundreds of journalists were gathered for the White House correspondents’ dinner.",
+      "link": "https://www.nytimes.com/2026/04/26/us/politics/security-correspondents-dinner.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26dc-security-vqtk/26dc-security-vqtk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777241171.0,
+      "hot": false
+    },
+    {
+      "id": "ca8da040df",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Egypt's Grand Museum opens after many delays",
+      "summary": "We visit the new Grand Egyptian Museum, a spacious museum outside Cairo dedicated to displaying artifacts from ancient Egypt.  It has finally opened its doors after decades of planning and constructio",
+      "link": "https://www.npr.org/2026/04/26/nx-s1-5708771/egypts-grand-museum-opens-after-many-delays",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777241053.0,
+      "hot": false
+    },
+    {
+      "id": "d551d58a4a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "After Correspondents Dinner Shooting, Rumors and Conspiracy Theories Swirl Online",
+      "summary": "Influencers jumped to fill the information void with conspiracy theories about the attack at the White House Correspondents’ dinner on Saturday.",
+      "link": "https://www.nytimes.com/2026/04/26/technology/white-house-correspondents-dinner-shooting-conspiracy-theories.html",
+      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26biz-whcd-disinfo-security-lhfb/26biz-whcd-disinfo-security-lhfb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777236866.0,
       "hot": false
     },
     {
@@ -53,8 +125,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "32分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777235302.0,
       "hot": false
     },
@@ -71,27 +143,9 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777233143.0,
-      "hot": false
-    },
-    {
-      "id": "43c73b0a9d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What Our Reporter Saw During the D.C. Shooting",
-      "summary": "Our reporter was with President Trump at the White House correspondents’ dinner when a gunman breached security. He describes the frantic scenes that unfolded.",
-      "link": "https://www.nytimes.com/video/us/politics/100000010863950/white-house-correspondents-dinner-trump-gunman.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777230694.0,
       "hot": false
     },
     {
@@ -107,8 +161,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777230306.0,
       "hot": false
     },
@@ -125,27 +179,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777227558.0,
-      "hot": false
-    },
-    {
-      "id": "4bd108ada5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran and U.S. Sink Into Awkward Limbo of ‘No War, No Peace’",
-      "summary": "Each side is betting it can last longer than the other, analysts say. But there are risks in a stalemate without a deal.",
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/iran-united-states-israel-war-truce.html",
-      "image": "https://static01.nyt.com/images/2026/04/26/multimedia/26int-iran-strategy-assess-01-qwjh/26int-iran-strategy-assess-01-qwjh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777225266.0,
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777227559.0,
       "hot": false
     },
     {
@@ -161,8 +197,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777219140.0,
       "hot": false
     },
@@ -179,8 +215,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777217864.0,
       "hot": false
     },
@@ -197,8 +233,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777217573.0,
       "hot": false
     },
@@ -215,27 +251,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777216828.0,
       "hot": false
     },
     {
-      "id": "ff64788b38",
+      "id": "d7c1d77b9a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "California Man Identified as Cole Tomas Allen in Custody After Shooting at Dinner Attended by Trump",
-      "summary": "Shots were fired at the hotel hosting the White House correspondents’ dinner. Authorities said the attack was carried out by a lone gunman who was brought down by the Secret Service.",
-      "link": "https://www.nytimes.com/2026/04/26/us/politics/correspondents-dinner-shooting-suspect-california-man.html",
-      "image": "https://static01.nyt.com/images/2026/04/25/multimedia/25DC-WHCAShooting-mtvh/25DC-WHCAShooting-mtvh-mediumSquareAt3X.jpg",
+      "title": "U.S. Mint Buys Drug Cartel Gold and Sells It as ‘American’",
+      "summary": "As prices for the precious metal soar, the industry’s guardrails have broken down.",
+      "link": "https://www.nytimes.com/2026/04/26/world/americas/us-mint-gold-drug-cartel-colombia.html",
+      "image": "https://static01.nyt.com/images/2026/04/08/world/00Gold-Scrolly-05/00Gold-Scrolly-05-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777211985.0,
+      "ago": "16小时前",
+      "pub_ts": 1777204659.0,
       "hot": false
     },
     {
@@ -253,7 +289,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777203884.0,
       "hot": false
     },
@@ -261,7 +297,7 @@
       "id": "b364435c1f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump doubts shooter motivated by Iran war as peace talks on hold",
       "summary": "A shooting incident at the White House Correspondent's Dinner took focus away from the war in Iran, as Iran's foreign minister planned to return to Islamabad, the site of previous peace talks.",
@@ -271,7 +307,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777203610.0,
       "hot": false
     },
@@ -289,26 +325,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1777197600.0,
       "hot": false
     },
     {
-      "id": "fa21a21bda",
+      "id": "4401208c58",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Trump Administration Has Changed Almost Every Aspect of Food Stamps",
-      "summary": "Legislation and regulatory tweaks enacted over the past year have altered who is eligible, what recipients can buy and how much some receive in benefits, among other changes.",
-      "link": "https://www.nytimes.com/2026/04/26/us/trump-administration-food-stamps.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/us/politics/dc-foodstamps-promo/dc-foodstamps-promo-mediumSquareAt3X.jpg",
+      "title": "What Happened After The New York Times Found a Cartel Mine on a Colombian Military Base",
+      "summary": "Officers denied that an illegal, large-scale gold operation was underway within earshot of their posts. But we had seen it with our own eyes.",
+      "link": "https://www.nytimes.com/2026/04/26/world/americas/colombia-cartel-illegal-gold-mining-military-base.html",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777194136.0,
+      "ago": "18小时前",
+      "pub_ts": 1777197037.0,
       "hot": false
     },
     {
@@ -324,8 +360,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777153500.0,
       "hot": false
     },
@@ -381,24 +417,6 @@
       "score": 55,
       "ago": "2天前",
       "pub_ts": 1777063148.0,
-      "hot": false
-    },
-    {
-      "id": "cac5d98a05",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Kushner and U.S. envoy Witkoff will head to Pakistan for new Iran talks",
-      "summary": "Iran's foreign minister arrived in Islamabad, and the White House says Steve Witkoff and Jared Kushner will go there Saturday to try to \"move the ball forward towards a deal.\"",
-      "link": "https://www.npr.org/2026/04/24/g-s1-118595/middle-east-war-updates",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "2天前",
-      "pub_ts": 1777031968.0,
       "hot": false
     },
     {
