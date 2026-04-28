@@ -1,9 +1,65 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-28T10:28:01.229046+00:00",
-  "total": 24,
+  "updated_at": "2026-04-28T17:58:55.719408+00:00",
+  "total": 20,
   "articles": [
+    {
+      "id": "710f00a44c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "UAE Says It Will Leave OPEC as Iran War Strains Oil Markets",
+      "summary": "The Gulf government has long complained about the group’s quotas, which officials believe unfairly limited its exports. Its departure is expected to weaken OPEC’s influence.",
+      "link": "https://www.nytimes.com/2026/04/28/world/middleeast/uae-opec.html",
+      "image": null,
+      "categories": [
+        "政治",
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777395110.0,
+      "hot": false
+    },
+    {
+      "id": "f9a15eb1fa",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Elon Musk Assails Sam Altman on Social Media Before OpenAI Trial",
+      "summary": "Mr. Musk’s posts on X have pushed his narrative that OpenAI has lost its way.",
+      "link": "https://www.nytimes.com/2026/04/28/technology/elon-musk-social-posts-sam-altman-openai.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28openai-trial-elontweets-lpzt/28openai-trial-elontweets-lpzt-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777392744.0,
+      "hot": false
+    },
+    {
+      "id": "d8f8e20a3d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Here Are the Key Players in the OpenAI Trial",
+      "summary": "Elon Musk, Sam Altman and several other key artificial intelligence industry figures are slated to testify in the trial, which is expected to last several weeks.",
+      "link": "https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/arts/28openai-trial-tech-whos-who/28openai-trial-tech-whos-who-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777392556.0,
+      "hot": false
+    },
     {
       "id": "9778155dc8",
       "type": "news",
@@ -18,63 +74,171 @@
         "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "21小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1777294066.0,
       "hot": false
     },
     {
-      "id": "59656d6d1e",
+      "id": "cc049e8971",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "The Small U.K. Agency That’s a 911 for Ships in the Strait of Hormuz",
-      "summary": "At a military base outside Portsmouth, England, a 24-hour service monitors the Persian Gulf, the Red Sea and part of the Indian Ocean, responding to distress calls.",
-      "link": "https://www.nytimes.com/2026/04/28/world/europe/ukmto-shipping-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28int-uk-shipping-hormuz-1-fvzp/28int-uk-shipping-hormuz-1-fvzp-mediumSquareAt3X.jpg",
+      "title": "U.S. Gas Prices Hit Highest Level Since Beginning of War in Iran",
+      "summary": "The jump on Tuesday of 1.6 percent was the highest percentage increase in more than a month.",
+      "link": "https://www.nytimes.com/2026/04/28/business/oil-gas-stocks-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28biz-osg1-cwzg/28biz-osg1-cwzg-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777370890.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777391757.0,
       "hot": false
     },
     {
-      "id": "c5a7b1c98d",
+      "id": "f900401f51",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "King Charles Visits Trump as U.S.-U.K. Tensions Flare, and Airlines Ask White House for Help",
-      "summary": "Plus, how millions of people could become Canadian.",
-      "link": "https://www.nytimes.com/2026/04/28/podcasts/the-headlines/king-charles-trump-airlines-white-house.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28HP-theheadline-01-jckp/28HP-theheadline-01-jckp-mediumSquareAt3X.jpg",
+      "title": "First Fully Loaded L.N.G. Tanker Since War Began Appears to Have Crossed the Strait",
+      "summary": "Liquefied natural gas transit has been effectively halted. A ship managed by Abu Dhabi’s state oil company managed to cross, said Kpler, a maritime data firm.",
+      "link": "https://www.nytimes.com/2026/04/28/business/iran-war-strait-of-hormuz-ship-crossing.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28biz-iran-hormuz-tanker-wcbp/28biz-iran-hormuz-tanker-wcbp-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1777370410.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777390905.0,
       "hot": false
     },
     {
-      "id": "fc7226036e",
+      "id": "7260a7b1b9",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "The MAHA movement is mad about glyphosate and Trump's EPA",
-      "summary": "Some people in the MAHA movement are angry with the Trump administration's stance on environmental toxins — including its current support for the maker of the pesticide glyphosate.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5801645/maha-epa-pesticide-glyphosate-trump",
+      "title": "South Korean court extends prison sentence for wife of ousted president",
+      "summary": "In January, Kim Keon Hee was sentenced to 20 months for accepting gifts from the Unification Church, which sought political favors.",
+      "link": "https://www.npr.org/2026/04/28/g-s1-119050/south-korean-court-extends-prison-sentence-for-wife-of-ousted-president",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1777370400.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777389849.0,
+      "hot": false
+    },
+    {
+      "id": "16451daefd",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Natural disasters can cause another crisis for those recovering from opioid addiction",
+      "summary": "People recovering from opioid addiction risk relapse when they can't get their medications after natural disasters. A group of doctors is calling for lawmakers to ease access to the meds.",
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5801463/natural-disasters-medication-access-opioid-addiction",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777387590.0,
+      "hot": false
+    },
+    {
+      "id": "5c7c183e07",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "One Person Who Appears to Be Missing From King Charles’s U.S. Itinerary: Prince Harry",
+      "summary": "On a state visit designed in part to repair U.S.-British relations, King Charles’s schedule does not include plans to see his younger son, who lives in the United States with his family.",
+      "link": "https://www.nytimes.com/2026/04/28/us/prince-harry-king-charles-us-visit.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28royal-visit-harry-mtzb/28royal-visit-harry-mtzb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777386976.0,
+      "hot": false
+    },
+    {
+      "id": "24b76d1b44",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The United Arab Emirates is quitting OPEC oil cartel after nearly 60 years",
+      "summary": "The Arab oil producer has long expressed frustration with the quotas it has to follow as part of OPEC, the cartel of major state-owned oil producers.",
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5802735/uae-leaves-opec-oil",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777385393.0,
+      "hot": false
+    },
+    {
+      "id": "522df0c692",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Epstein Scandal Looms Over King Charles’s U.S. Visit",
+      "summary": "The king is not planning to meet with victims of Jeffrey Epstein during his state visit because of “ongoing police inquiries” in Britain. The king’s brother was close to Mr. Epstein, a convicted sex o",
+      "link": "https://www.nytimes.com/2026/04/28/us/king-charles-visit-epstein.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27royal-visit-epstein-ljkq/27royal-visit-epstein-ljkq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777378906.0,
+      "hot": false
+    },
+    {
+      "id": "a0c6b6b78a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "WHCA dinner shooter charged. And, Charles III to address Congress",
+      "summary": "Cole Allen, the man who tried to storm the White House Correspondents' Dinner, is being charged with trying to assassinate President Trump. And, King Charles III is set to address Congress today.",
+      "link": "https://www.npr.org/2026/04/28/g-s1-119015/up-first-newsletter-cole-allen-king-charles-iii-congress-lebanon-ceasefire-state-farm",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777376594.0,
+      "hot": false
+    },
+    {
+      "id": "48d4c1b868",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts",
+      "summary": "Two months after the U.S.-Israeli attack on Iran started the war, peace talks are on hold, with control of the Strait of Hormuz and the future of Iran's nuclear program as the two main points of conte",
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777373984.0,
       "hot": false
     },
     {
@@ -90,8 +254,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "27分前",
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777370400.0,
+      "hot": false
+    },
+    {
+      "id": "421481df4b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The MAHA movement is mad about the weedkiller glyphosate and Trump's EPA",
+      "summary": "The coalition focused on making Americans healthier is frustrated with the Trump administration's stance on environmental toxins and most recently, its support of the company that makes the pesticide.",
+      "link": "https://www.npr.org/2026/04/28/nx-s1-5801645/maha-epa-pesticide-glyphosate-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777370400.0,
       "hot": false
     },
@@ -102,178 +284,33 @@
       "source": "NPR News",
       "lang": "en",
       "title": "Millions of homes in the U.S. are uninsured. NPR wants to hear your story",
-      "summary": "Millions of home in the U.S. are uninsured, partly because insurance costs have soared in recent years. NPR wants to hear about the coverage decisions you're making as premiums rise.",
+      "summary": "Millions of homes in the U.S. are uninsured, partly because insurance costs have soared in recent years. NPR wants to hear about the coverage decisions you're making as premiums rise.",
       "link": "https://www.npr.org/2026/04/28/nx-s1-5801468/home-insurance-disasters-climate-change",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777368180.0,
       "hot": false
     },
     {
-      "id": "3ae9a42cb1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Lawsuits accuse State Farm of secretly working to cut insurance payouts",
-      "summary": "Lawsuits allege that State Farm tries to avoid paying what it owes for hail damage. The litigation is happening as homeowners face soaring insurance costs, partly due to threats from climate change.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5793997/state-farm-home-insurance-hail-climate-change",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777368060.0,
-      "hot": false
-    },
-    {
-      "id": "c10774cce6",
+      "id": "dfa6c06394",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Transition to a New Fed Chair Is Unlikely to Mean Immediate Rate Cuts",
-      "summary": "The Federal Reserve is expected to hold interest rates steady this week as Jerome H. Powell presides over what is likely to be his last meeting as chair.",
-      "link": "https://www.nytimes.com/2026/04/28/business/federal-reserve-chair-rates-warsh-powell.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28dc-fed-wjfh/28dc-fed-wjfh-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777367071.0,
-      "hot": false
-    },
-    {
-      "id": "fbdbc99681",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Republicans Brace for Brutal Midterms as Trump’s Popularity Slips",
-      "summary": "The elections are still six months off, and some within the G.O.P. say there is still time to right the ship.",
-      "link": "https://www.nytimes.com/2026/04/28/us/politics/republicans-midterms-trump-popularity-decline.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/pol-gop-midterms-new-header-pmql/pol-gop-midterms-new-header-pmql-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777367048.0,
-      "hot": false
-    },
-    {
-      "id": "26b4152fe6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Graduates Reset Ambitions in Pursuit of First Jobs",
-      "summary": "Young people aiming to build careers are entering fields they had not considered to find their footing.",
-      "link": "https://www.nytimes.com/2026/04/28/business/economy/college-graduates-job-market.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/00biz-jobseekers-ghzt/00biz-jobseekers-ghzt-mediumSquareAt3X.jpg",
+      "title": "What Elon Musk’s Clash With Sam Altman of OpenAI Is Really About",
+      "summary": "Mr. Musk’s lawsuit against Mr. Altman and OpenAI makes the case that all-encompassing greed is Silicon Valley’s defining feature.",
+      "link": "https://www.nytimes.com/2026/04/28/technology/elon-musk-sam-altman-trial.html",
+      "image": "https://static01.nyt.com/images/2026/04/18/business/00-ai-trial/00-ai-trial-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777367008.0,
-      "hot": false
-    },
-    {
-      "id": "71c91591ea",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Oil Prices Jump Again as U.S.-Iran Talks Appear Deadlocked",
-      "summary": "Investors parsed reports that President Trump told advisers that he was not satisfied with Iran’s latest proposal to reopen the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/2026/04/28/business/oil-gas-stocks-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28biz-osg1-cwzg/28biz-osg1-cwzg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777366972.0,
-      "hot": false
-    },
-    {
-      "id": "8bce49329c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Should schools get rid of homework? Some educators are saying yes",
-      "summary": "Some experts worry that less homework could be a problem for math achievement, at a time when test scores nationwide are already at a dismal low.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5795647/should-schools-get-rid-of-homework",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777366800.0,
-      "hot": false
-    },
-    {
-      "id": "5f35cd62b8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Stuck in limbo: millions of professionals risk losing legal status under Trump pause",
-      "summary": "Their experiences — of sudden financial insecurity, months of unemployment, and crippling anxiety — come as the administration seeks to restrict legal migration and boost mass deportation.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5775869/trump-travel-ban-pause-limbo-professionals",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777366800.0,
-      "hot": false
-    },
-    {
-      "id": "7cb6c84e67",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "So far, Florida has failed to end vaccine mandates. Now there's a last-ditch effort",
-      "summary": "Florida Republicans have pushed hard to drop some vaccine requirements for children. But after many months, their efforts stalled out. Could this week's special legislative session get the job done?",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5798698/florida-school-vaccine-mandates-ladapo-desantis",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777366800.0,
-      "hot": false
-    },
-    {
-      "id": "d307e407e6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump's embrace of King Charles comes at a fraught time for U.S.-UK relations",
-      "summary": "Trump seems to be looking forward to hosting, in recent weeks bringing up the royal visit multiple times.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5800874/trump-king-charles-relationship-congress-state-dinner",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777366800.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777366924.0,
       "hot": false
     },
     {
@@ -290,8 +327,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1777361938.0,
       "hot": false
     },
@@ -308,119 +345,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777353605.0,
-      "hot": false
-    },
-    {
-      "id": "3d5695a820",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Is Dissatisfied With Iran’s Plan to Reopen Strait of Hormuz",
-      "summary": "The proposal would have set aside questions about what to do with Iran’s nuclear program.",
-      "link": "https://www.nytimes.com/2026/04/27/us/trump-iran-proposal.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/27dc-diplo-iran-gkpm/27dc-diplo-iran-gkpm-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777345231.0,
-      "hot": false
-    },
-    {
-      "id": "e91f39eb1e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "C.E.O.s Lean In on ‘Resilience’ to Manage Global Turmoil",
-      "summary": "The ability to stay calm and lead through any kind of shock is the new normal for corporate executives.",
-      "link": "https://www.nytimes.com/2026/04/27/business/ceo-companies-resilience-iran-war-inflation.html",
-      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/00biz-ceo-resilience-02-mvwk/00biz-ceo-resilience-02-mvwk-mediumSquareAt3X-v4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777332330.0,
-      "hot": false
-    },
-    {
-      "id": "81f6ec39d9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Alleged Correspondents' Dinner shooter to appear in court. And, Charles III visits U.S.",
-      "summary": "The suspect in the White House Correspondents' Dinner shooting incident is set to appear in federal court today. And, King Charles III and Queen Camilla arrive in Washington today for a state visit.",
-      "link": "https://www.npr.org/2026/04/27/g-s1-118874/up-first-newsletter-white-house-correspondence-dinner-cole-allen-king-charles-spacex-openai-elon-musk",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1777291878.0,
-      "hot": false
-    },
-    {
-      "id": "f97e97fd7d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran's flurry of diplomacy continues in Russia, as Trump reviews Iran's latest proposal",
-      "summary": "Iran's foreign minister arrived in Russia on Monday, after a whirlwind weekend of diplomacy, seeking to gain political leverage and foreign backing as peace talks with the U.S. remain on hold.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5800669/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1777289575.0,
-      "hot": false
-    },
-    {
-      "id": "30881bfec0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "East Africa redefines marathon limits as Sabastian Sawe leads historic charge",
-      "summary": "East Africa has rewritten marathon history as Sabastian Sawe produced a stunning breakthrough at the London Marathon, redefining what was thought possible over the marathon distance.",
-      "link": "https://www.npr.org/2026/04/27/nx-s1-5800113/kenya-sabastian-sawe-east-africa-london-marathon-2-hour-barrier",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1777287325.0,
-      "hot": false
-    },
-    {
-      "id": "9b948fa075",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Palestinian officials hail local elections in a Gaza community and the West Bank",
-      "summary": "Palestinian officials say local elections in Gaza and the West Bank mark a step toward a long-delayed presidential election. The Palestinian Authority hasn't held a presidential election in 21 years.",
-      "link": "https://www.npr.org/2026/04/27/g-s1-118847/local-elections-in-gaza-and-the-west-bank",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777266543.0,
       "hot": false
     },
     {
