@@ -1,62 +1,44 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-29T06:41:06.498320+00:00",
+  "updated_at": "2026-04-29T10:21:20.181079+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "d5b20a6c6f",
+      "id": "bc381db8b0",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Red cards can be given to players who cover their mouths while confronting opponents",
-      "summary": "The International Football Association Board approved a rule that would penalize players with a red card if they cover their mouths when confronting another player. The measure will be in place at thi",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119149/red-cards-cover-mouths",
-      "image": null,
+      "title": "Musk vs. Altman, and a Pivotal Immigration Case at the Supreme Court",
+      "summary": "Plus, why nursing homes are hiring M.M.A. fighters.",
+      "link": "https://www.nytimes.com/2026/04/29/podcasts/the-headlines/musk-altman-trial-immigration-supreme-court.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29theheadline-001-vkgw/29theheadline-001-vkgw-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "移民"
       ],
-      "score": 70,
-      "ago": "25分前",
-      "pub_ts": 1777443299.0,
+      "score": 80,
+      "ago": "21分前",
+      "pub_ts": 1777456809.0,
       "hot": false
     },
     {
-      "id": "d73d861719",
+      "id": "d34158efbe",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "U.S. to issue commemorative passports with Trump's picture for America's 250th birthday",
-      "summary": "The State Department said that it is preparing a limited release of commemorative U.S. passports celebrating America's 250th birthday that feature a picture of President Donald Trump.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119146/us-to-issue-passports-with-trumps-picture-for-americas-250th-birthday",
-      "image": null,
+      "title": "In France, American Universities Lose Their Allure in the Trump Era",
+      "summary": "Worries about visas, academic freedom and safety are making foreign schools, like Sciences Po in Paris, more attractive to some students than the Ivy League.",
+      "link": "https://www.nytimes.com/2026/04/29/world/europe/france-american-universities-trump-sciences-po.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29int-french-college-promo-clgb/29int-french-college-promo-clgb-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "移民",
+        "教育"
       ],
-      "score": 70,
-      "ago": "48分前",
-      "pub_ts": 1777441973.0,
-      "hot": false
-    },
-    {
-      "id": "96e2b60c6a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Australia moves to tax Meta, Google and TikTok to fund newsrooms",
-      "summary": "Australia is proposing to tax Meta, Google and TikTok a proportion of their revenue to pay for news reporters. The government intends to introduce the draft legislation to Parliament by July.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119142/australia-moves-to-tax-meta-google-and-tiktok-to-fund-newsrooms",
-      "image": null,
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777440004.0,
+      "score": 80,
+      "ago": "30分前",
+      "pub_ts": 1777456274.0,
       "hot": false
     },
     {
@@ -68,13 +50,322 @@
       "title": "At State Dinner, King Charles Charms the Court of Trump",
       "summary": "King Charles III presented President Trump with a golden bell. “Should you ever need to get hold of us,” the king said, “well, just give us a ring!”",
       "link": "https://www.nytimes.com/2026/04/29/us/politics/at-state-dinner-king-charles-enters-the-court-of-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28dc-scene-gwvz/28dc-scene-gwvz-mediumSquareAt3X.jpg",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29int-trumpdinner-cover-fgcp/29int-trumpdinner-cover-fgcp-mediumSquareAt3X.jpg",
       "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1777457329.0,
+      "hot": false
+    },
+    {
+      "id": "a3967e8a8f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Judge Asks Justice Department: Will You Oppose Trump?",
+      "summary": "A federal judge has ordered the Justice Department to explain whether it intends to contest President Trump’s $10 billion lawsuit against the I.R.S. over the disclosure of his tax returns.",
+      "link": "https://www.nytimes.com/2026/04/29/us/politics/trump-justice-department-lawsuit-tax-returns-disclosure.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29dc-trump-irs-tbwz/29dc-trump-irs-tbwz-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453444.0,
+      "hot": false
+    },
+    {
+      "id": "1ca3bc7f54",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Considers Trump’s Plan to Revoke Deportation Protections",
+      "summary": "The Trump administration wants to terminate humanitarian protections known as Temporary Protected Status for hundreds of thousands of migrants from Haiti and Syria.",
+      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-trump-deportations.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29DC-SCOTUS-TPS-vzth/29DC-SCOTUS-TPS-vzth-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453352.0,
+      "hot": false
+    },
+    {
+      "id": "5fc92e109b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a Supreme Court fight over fish oil could raise your prescription drug costs",
+      "summary": "The justices are set to hear Hikma v. Amarin, a battle over drug patents that could raise costs for patients and change the way generic companies do business.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5803137/supreme-court-generic-drugs-hikma",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "021c565d86",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "It's set to be Jerome Powell's last meeting as Fed chair -- as a big change looms",
+      "summary": "The Fed is expected to hold rates steady, at what's likely to be Jerome Powell's last meeting as chair — with Kevin Warsh looking set to replace him.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5802911/federal-reserve-meeting-jerome-powell-kevin-warsh",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "698764d29b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "RFK Jr. wants to treat addiction by creating wellness farms. Does it work?",
+      "summary": "U.S. Secretary of Health and Human Services Robert F. Kennedy Jr. says a farm community in Italy for people with addiction is a model for wellness camps designed to ease the U.S. overdose crisis. Crit",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5798733/rfk-jr-addiction-treatment-centers",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "b9ec74f378",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a Republican state lawmaker tried to let Holocaust deniers hijack history lessons",
+      "summary": "A New Hampshire Republican. A German Holocaust denier. A suspicious bottle of baby oil. An NPR investigation reveals how the alarming rise of antisemitic conspiracy theories reached a state capitol.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5708847/holocaust-denial-conspiracy-theory-politics",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "602407df62",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Could this conference be a 'turning point' for the world's use of fossil fuels?",
+      "summary": "Against the backdrop of an energy crisis and a warming planet, more than 50 countries have come to Santa Marta, Colombia, to discuss concrete ways to phase out oil, gas, and coal.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5786914/colombia-conference-fossil-fuels",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "ecf5edc0c5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Supreme Court weighs Trump's effort to end Temporary Protected Status for Haitians, Syrians",
+      "summary": "At issue is the TPS program, which permits eligible individuals to live and work in the United States if they cannot return to their home countries because of \"extraordinary or temporary conditions.\"",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5794042/supeme-court-tps",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777453200.0,
+      "hot": false
+    },
+    {
+      "id": "d3710c1923",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "EU says Meta is failing to keep underage users off Facebook and Instagram",
+      "summary": "The European Union accused Meta on Wednesday of failing to stop underage users from accessing Facebook and Instagram, in violation of the bloc's digital rules that require sites to protect minors.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119157/eu-meta-underage-users",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777452278.0,
+      "hot": false
+    },
+    {
+      "id": "e9fa00ae1e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Palestinian refugee uses art to share the story of his childhood with his daughter",
+      "summary": "Basel Zaraa was a Palestinian refugee. When his 5-year-old daughter started asking him questions, he told her this story.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5788021/palestinian-refugee-uses-art-to-share-the-story-of-his-childhood-with-his-daughter",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777451835.0,
+      "hot": false
+    },
+    {
+      "id": "f787a40383",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "King Charles argues for stronger cooperation in speech to a joint meeting of Congress",
+      "summary": "In an address before a joint meeting of Congress on Tuesday, King Charles III sought to highlight the importance of the transatlantic relationship between the United States and Great Britain.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5802955/king-charles-argues-for-stronger-cooperation-in-speech-to-a-joint-meeting-of-congress",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777451814.0,
+      "hot": false
+    },
+    {
+      "id": "e7d20068b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "How the U.K. is reacting to King Charles' visit to the U.S.",
+      "summary": "NPR's Steve Inskeep speaks with Lord Peter Ricketts, a member of the House of Lords and a former British diplomat, about King Charles' visit to the U.S. during a tumultuous time.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5802924/how-the-u-k-is-reacting-to-king-charles-visit-to-the-u-s",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777451807.0,
+      "hot": false
+    },
+    {
+      "id": "51e6c8b33b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Will UAE's departure from OPEC affect the oil cartel's future influence?",
+      "summary": "What are the impacts of the UAE's decision to pull out of the OPEC oil cartel? NPR's A Martinez speaks with Helima Croft, global head of commodity strategy at RBC Capital Markets.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5802933/will-uaes-departure-from-opec-affect-the-oil-cartels-future-influence",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777451772.0,
+      "hot": false
+    },
+    {
+      "id": "739ae97edf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Ukraine accuses Israel of importing grain 'stolen' by Russia",
+      "summary": "Ukraine accused Israel of allowing the import of grain it claims Russia stole from occupied areas. Israel claimed that the vessel had not entered the port and had not yet submitted its documents.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119153/ukraine-accuses-israel-of-importing-grain-stolen-by-russia",
+      "image": null,
+      "categories": [
+        "天气",
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1777436633.0,
+      "pub_ts": 1777450664.0,
+      "hot": false
+    },
+    {
+      "id": "d5b20a6c6f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Red cards can be given to players who cover their mouths while confronting opponents",
+      "summary": "The International Football Association Board approved a rule that would penalize players with a red card if they cover their mouths when confronting another player. The measure will be in place at thi",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119149/red-cards-cover-mouths",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777443299.0,
+      "hot": false
+    },
+    {
+      "id": "96e2b60c6a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Australia moves to tax Meta, Google and TikTok to fund newsrooms",
+      "summary": "Australia is proposing to tax Meta, Google and TikTok a proportion of their revenue to pay for news reporters. The government intends to introduce the draft legislation to Parliament by July.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119142/australia-moves-to-tax-meta-google-and-tiktok-to-fund-newsrooms",
+      "image": null,
+      "categories": [
+        "政治",
+        "经济"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777440004.0,
+      "hot": false
+    },
+    {
+      "id": "3bb88f9940",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Gallows Humor Provides Respite From Mideast Wars",
+      "summary": "Arab digital creators on social media are turning out edgy material to cope with the conflicts and bring levity to a pain that often feels too raw.",
+      "link": "https://www.nytimes.com/2026/04/29/world/middleeast/mideast-war-humor.html",
+      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/00int-mideast-memes-lhzv/00int-mideast-memes-lhzv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777435266.0,
       "hot": false
     },
     {
@@ -90,45 +381,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777430719.0,
-      "hot": false
-    },
-    {
-      "id": "448e932a50",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Full Guest List for Trump’s State Dinner With Charles and Camilla",
-      "summary": "Six members of the Supreme Court were invited to the dinner, alongside top administration officials, billionaires and Republican lawmakers.",
-      "link": "https://www.nytimes.com/2026/04/28/us/politics/state-dinner-guest-list.html",
-      "image": "https://static01.nyt.com/images/2026/05/28/multimedia/28dc-guest-list-vclp/28dc-guest-list-vclp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777426317.0,
-      "hot": false
-    },
-    {
-      "id": "52c6f0e80b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "See the Menu for the British Royal State Dinner",
-      "summary": "Spring-herbed ravioli and Dover sole meunière are among the dishes at the dinner honoring King Charles III of Britain and Queen Camilla.",
-      "link": "https://www.nytimes.com/2026/04/28/us/politics/menu-british-royal-state-dinner.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28dc-menu-sub2-mgpf/28dc-menu-sub2-mgpf-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777425110.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777430720.0,
       "hot": false
     },
     {
@@ -145,260 +400,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777421301.0,
-      "hot": false
-    },
-    {
-      "id": "45c5448021",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "OpenAI Trial Starts With Two Very Different Tales of a Company’s Early Years",
-      "summary": "In the trial’s first day of testimony, Elon Musk said greed led co-founder Sam Altman to pull the A.I. lab away from its nonprofit roots. OpenAI says that’s nonsense.",
-      "link": "https://www.nytimes.com/2026/04/28/technology/openai-trial-elon-musk-sam-altman.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28biz-ai-trial-ledeall-musk-kblp/28biz-ai-trial-ledeall-musk-kblp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777419907.0,
-      "hot": false
-    },
-    {
-      "id": "e0f12edd8d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Yomif Kejelcha broke the 2-hour marathon but got 2nd place. He's still happy",
-      "summary": "Ethiopia's Yomif Kejelcha ran the London Marathon in under two hours, but he only got second place. He told NPR he hopes to run his next marathon a minute faster.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5803016/marathon-world-record-yomif-kejelcha",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777418632.0,
-      "hot": false
-    },
-    {
-      "id": "4f25a4a746",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Scientists see Trump's firing of the National Science Board as an attack on research",
-      "summary": "The move follows an administration push for cuts to the NSF and raises concerns in the scientific community that it could jeopardize a tradition of independent decisions about federal science grants.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5801465/national-science-board-trump-firing",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777415527.0,
-      "hot": false
-    },
-    {
-      "id": "5d7c7bd545",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Linda McMahon punches back at senators questioning Education Department cuts",
-      "summary": "In her first appearance on Capitol Hill this year, lawmakers questioned Education Secretary Linda McMahon about students' civil rights and cuts to federal education spending.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802968/education-secretary-linda-mcmahon-senate-hearing",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777414695.0,
-      "hot": false
-    },
-    {
-      "id": "ebe6eaf3b0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "FCC Orders a Review of ABC’s Licenses Amid Feud Between Trump and Kimmel",
-      "summary": "The agency said the review was related to the network’s diversity and inclusion policies. But it came amid a fight between the president and the network’s late night host, Jimmy Kimmel.",
-      "link": "https://www.nytimes.com/2026/04/28/business/media/fcc-abc-television-kimmel.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/00biz-fcc-abc-cvjm/00biz-fcc-abc-cvjm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777412755.0,
-      "hot": false
-    },
-    {
-      "id": "37b258c4ce",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "With no radical footprint, what drove suspect to try and assassinate Trump?",
-      "summary": "An attempted shooting at the White House Correspondents Dinner on Saturday has, again, highlighted the climate of political violence in the U.S. But there are still many questions about the motive.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5801467/cole-allen-suspect-washington-correspondents-dinner-shooting",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777410331.0,
-      "hot": false
-    },
-    {
-      "id": "bc57ffcc20",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "FCC orders early license renewal for ABC stations following Kimmel's first lady joke",
-      "summary": "The Federal Communications Commission has ordered Disney's ABC to seek early broadcast license renewals for the eight TV stations it owns amid backlash over Jimmy Kimmel's joke about Melania Trump.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802997/fcc-abc-license-renewal-melania-trump-jimmy-kimmel",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777409542.0,
-      "hot": false
-    },
-    {
-      "id": "bf97cd5d1a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "King Charles urges 'reconciliation' in address to U.S. Congress amid Trump tensions",
-      "summary": "In an address to the U.S. Congress, King Charles told lawmakers that \"time and again, our two countries have always found ways to come together,\" and called for \"reconciliation and renewal.\"",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802803/king-charles-urges-reconciliation-in-address-to-u-s-congress-amid-trump-tensions",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "10小时前",
-      "pub_ts": 1777405991.0,
-      "hot": false
-    },
-    {
-      "id": "29671df0ee",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About the Kimmel vs. Trump Feud",
-      "summary": "The president and first lady took exception to a joke. Jimmy Kimmel defended it.",
-      "link": "https://www.nytimes.com/2026/04/28/arts/television/jimmy-kimmel-donald-trump-feud.html",
-      "image": "https://static01.nyt.com/images/2026/03/15/multimedia/28-XP-cpqw-COPY/28-XP-cpqw-COPY-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777403110.0,
-      "hot": false
-    },
-    {
-      "id": "7260a7b1b9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "South Korean court extends prison sentence for wife of ousted president",
-      "summary": "In January, Kim Keon Hee was sentenced to 20 months for accepting gifts from the Unification Church, which sought political favors.",
-      "link": "https://www.npr.org/2026/04/28/g-s1-119050/south-korean-court-extends-prison-sentence-for-wife-of-ousted-president",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1777389849.0,
-      "hot": false
-    },
-    {
-      "id": "24b76d1b44",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The United Arab Emirates is quitting OPEC oil cartel after nearly 60 years",
-      "summary": "The Arab oil producer has long expressed frustration with the quotas it has to follow as part of OPEC, the cartel of major state-owned oil producers.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802735/uae-leaves-opec-oil",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777385393.0,
-      "hot": false
-    },
-    {
-      "id": "a0c6b6b78a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "WHCA dinner shooter charged. And, Charles III to address Congress",
-      "summary": "Cole Allen, the man who tried to storm the White House Correspondents' Dinner, is being charged with trying to assassinate President Trump. And, King Charles III is set to address Congress today.",
-      "link": "https://www.npr.org/2026/04/28/g-s1-119015/up-first-newsletter-cole-allen-king-charles-iii-congress-lebanon-ceasefire-state-farm",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1777376594.0,
-      "hot": false
-    },
-    {
-      "id": "48d4c1b868",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Deadlock over Iran's nuclear program and the Strait of Hormuz cripples peace efforts",
-      "summary": "Two months after the U.S.-Israeli attack on Iran started the war, peace talks are on hold, with control of the Strait of Hormuz and the future of Iran's nuclear program as the two main points of conte",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5802283/iran-middle-east-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777373984.0,
-      "hot": false
-    },
-    {
-      "id": "3f78d8f0b3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "'We don't know what will happen to us': U.S. deportees in limbo in DRC",
-      "summary": "15 South American migrants and asylum seekers deported from the U.S. to the DRC are now living in uncertainty in a country an with ongoing armed conflict, where they have no ties.",
-      "link": "https://www.npr.org/2026/04/28/nx-s1-5798775/drc-latin-america-deportees-asylum-migration",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1777370400.0,
+      "pub_ts": 1777421301.0,
       "hot": false
     },
     {
