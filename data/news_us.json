@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-29T10:21:20.181079+00:00",
-  "total": 23,
+  "updated_at": "2026-04-29T14:34:54.441624+00:00",
+  "total": 24,
   "articles": [
+    {
+      "id": "2e5c7c5fce",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Senior citizens join the immigration fight to protect caregivers",
+      "summary": "As the Supreme Court weighs the Trump administration's termination of Temporary Protected Status for Haitians and Syrians, seniors are advocating for protections for their immigrant caregivers.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5804448/tps-seniors-long-term-care-supreme-court",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "11分前",
+      "pub_ts": 1777472618.0,
+      "hot": false
+    },
     {
       "id": "bc381db8b0",
       "type": "news",
@@ -17,8 +36,8 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "21分前",
+      "score": 75,
+      "ago": "4小时前",
       "pub_ts": 1777456809.0,
       "hot": false
     },
@@ -36,27 +55,173 @@
         "移民",
         "教育"
       ],
-      "score": 80,
-      "ago": "30分前",
+      "score": 75,
+      "ago": "4小时前",
       "pub_ts": 1777456274.0,
       "hot": false
     },
     {
-      "id": "6672b0b257",
+      "id": "d70675ba82",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Supreme Court calls Louisiana's House map an 'unconstitutional racial gerrymander'",
+      "summary": "Although the court kept Section 2 of the Voting Rights Act intact, Wednesday's decision all but guts the landmark law that came out of the Civil Rights Movement and protected the collective voting pow",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5754657/supreme-court-louisiana-redistricting",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "10分前",
+      "pub_ts": 1777472661.0,
+      "hot": false
+    },
+    {
+      "id": "3888ac5a06",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Greetings from Syria, where a postwar olive harvest offers a long-lost taste of home",
+      "summary": "In the warm sun, gathering handfuls of hard olives promised a taste of home that residents of a village in the Homs countryside had been missing for nearly 14 years of civil war.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-118663/syria-olive-harvest-homs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1777472201.0,
+      "hot": false
+    },
+    {
+      "id": "186bcd7e37",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Trump team is quietly eliminating U.S. support for birth control abroad",
+      "summary": "Congress has allocated more than $500 million for family planning work internationally. The Trump administration hasn't spent it — and the consequences are already being felt.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-118041/family-planning-birth-control-condoms-aid-cuts-rubio",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1777471790.0,
+      "hot": false
+    },
+    {
+      "id": "3fe765c17b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Welcome to 'Anxietyland' theme park, where the rides are no fun",
+      "summary": "From the Emotional Roller Coaster to the Worry-go-round, cartoonist Gemma Correll walks us through her brain's not-so-amusing amusement park in a darkly funny memoir.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5803158/anxietyland-review-gemma-correll",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1777471391.0,
+      "hot": false
+    },
+    {
+      "id": "2c185a8b90",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Families sue OpenAI over Canadian mass shooter's use of ChatGPT",
+      "summary": "The lawsuits claim OpenAI was negligent for failing to report the shooter to authorities after her account was flagged for \"gun violence activity and planning.\"",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5798896/tumbler-ridge-mass-shooting-chat-gpt-lawsuit",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777468174.0,
+      "hot": false
+    },
+    {
+      "id": "82c1a77448",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Baby teeth hold clues to the harms of toxic metals for infants — and older kids",
+      "summary": "By analyzing layers in these teeth, scientists have pinpointed a critical window when baby brains are most vulnerable to toxic metals — and linked that to behavior problems later in life.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5803561/baby-teeth-toxic-metals-brain-infants-kids",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777467600.0,
+      "hot": false
+    },
+    {
+      "id": "62d3f1a98a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
       "title": "At State Dinner, King Charles Charms the Court of Trump",
       "summary": "King Charles III presented President Trump with a golden bell. “Should you ever need to get hold of us,” the king said, “well, just give us a ring!”",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/at-state-dinner-king-charles-enters-the-court-of-trump.html",
+      "link": "https://www.nytimes.com/2026/04/29/us/politics/king-charles-trump-state-dinner.html",
       "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29int-trumpdinner-cover-fgcp/29int-trumpdinner-cover-fgcp-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1777457329.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777463173.0,
+      "hot": false
+    },
+    {
+      "id": "728eca6678",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "SCOTUS weighs Temporary Protected Status cases. And, jury indicts James Comey again",
+      "summary": "The Supreme Court is set to hear arguments on whether to end Temporary Protected Status for Haitians and Syrians. And, a grand jury has indicted former FBI Director James Comey for a second time.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119171/up-first-newsletter-james-comey-king-charles-scotus-temporary-protected-status-jerome-powell-federal-reserve",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777461986.0,
+      "hot": false
+    },
+    {
+      "id": "c3038b9306",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "South Korean court sentences ex-President Yoon to 7 years in prison",
+      "summary": "An appeals court sentenced ousted President Yoon Suk Yeol to 7 years in prison for resisting arrest and bypassing a Cabinet meeting before his brief imposition of martial law in December 2024.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119165/south-korean-court-sentences-ex-president-yoon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777459774.0,
       "hot": false
     },
     {
@@ -73,134 +238,26 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453444.0,
-      "hot": false
-    },
-    {
-      "id": "1ca3bc7f54",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Considers Trump’s Plan to Revoke Deportation Protections",
-      "summary": "The Trump administration wants to terminate humanitarian protections known as Temporary Protected Status for hundreds of thousands of migrants from Haiti and Syria.",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-trump-deportations.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29DC-SCOTUS-TPS-vzth/29DC-SCOTUS-TPS-vzth-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453352.0,
-      "hot": false
-    },
-    {
-      "id": "5fc92e109b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How a Supreme Court fight over fish oil could raise your prescription drug costs",
-      "summary": "The justices are set to hear Hikma v. Amarin, a battle over drug patents that could raise costs for patients and change the way generic companies do business.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5803137/supreme-court-generic-drugs-hikma",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453200.0,
-      "hot": false
-    },
-    {
-      "id": "021c565d86",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "It's set to be Jerome Powell's last meeting as Fed chair -- as a big change looms",
-      "summary": "The Fed is expected to hold rates steady, at what's likely to be Jerome Powell's last meeting as chair — with Kevin Warsh looking set to replace him.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5802911/federal-reserve-meeting-jerome-powell-kevin-warsh",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453200.0,
-      "hot": false
-    },
-    {
-      "id": "698764d29b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "RFK Jr. wants to treat addiction by creating wellness farms. Does it work?",
-      "summary": "U.S. Secretary of Health and Human Services Robert F. Kennedy Jr. says a farm community in Italy for people with addiction is a model for wellness camps designed to ease the U.S. overdose crisis. Crit",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5798733/rfk-jr-addiction-treatment-centers",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453200.0,
-      "hot": false
-    },
-    {
-      "id": "b9ec74f378",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How a Republican state lawmaker tried to let Holocaust deniers hijack history lessons",
-      "summary": "A New Hampshire Republican. A German Holocaust denier. A suspicious bottle of baby oil. An NPR investigation reveals how the alarming rise of antisemitic conspiracy theories reached a state capitol.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5708847/holocaust-denial-conspiracy-theory-politics",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453200.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777453445.0,
       "hot": false
     },
     {
       "id": "602407df62",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Could this conference be a 'turning point' for the world's use of fossil fuels?",
-      "summary": "Against the backdrop of an energy crisis and a warming planet, more than 50 countries have come to Santa Marta, Colombia, to discuss concrete ways to phase out oil, gas, and coal.",
+      "summary": "Against the backdrop of an energy crisis and a warming planet, more than 50 countries have come to Santa Marta, Colombia, to discuss concrete ways to phase out oil, gas and coal.",
       "link": "https://www.npr.org/2026/04/29/nx-s1-5786914/colombia-conference-fossil-fuels",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777453200.0,
-      "hot": false
-    },
-    {
-      "id": "ecf5edc0c5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court weighs Trump's effort to end Temporary Protected Status for Haitians, Syrians",
-      "summary": "At issue is the TPS program, which permits eligible individuals to live and work in the United States if they cannot return to their home countries because of \"extraordinary or temporary conditions.\"",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5794042/supeme-court-tps",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777453200.0,
       "hot": false
     },
@@ -208,7 +265,7 @@
       "id": "d3710c1923",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "EU says Meta is failing to keep underage users off Facebook and Instagram",
       "summary": "The European Union accused Meta on Wednesday of failing to stop underage users from accessing Facebook and Instagram, in violation of the bloc's digital rules that require sites to protect minors.",
@@ -217,8 +274,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777452278.0,
       "hot": false
     },
@@ -235,27 +292,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777451835.0,
-      "hot": false
-    },
-    {
-      "id": "f787a40383",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "King Charles argues for stronger cooperation in speech to a joint meeting of Congress",
-      "summary": "In an address before a joint meeting of Congress on Tuesday, King Charles III sought to highlight the importance of the transatlantic relationship between the United States and Great Britain.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5802955/king-charles-argues-for-stronger-cooperation-in-speech-to-a-joint-meeting-of-congress",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777451814.0,
       "hot": false
     },
     {
@@ -271,8 +310,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777451807.0,
       "hot": false
     },
@@ -289,8 +328,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777451772.0,
       "hot": false
     },
@@ -308,46 +347,9 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777450664.0,
-      "hot": false
-    },
-    {
-      "id": "d5b20a6c6f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Red cards can be given to players who cover their mouths while confronting opponents",
-      "summary": "The International Football Association Board approved a rule that would penalize players with a red card if they cover their mouths when confronting another player. The measure will be in place at thi",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119149/red-cards-cover-mouths",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777443299.0,
-      "hot": false
-    },
-    {
-      "id": "96e2b60c6a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Australia moves to tax Meta, Google and TikTok to fund newsrooms",
-      "summary": "Australia is proposing to tax Meta, Google and TikTok a proportion of their revenue to pay for news reporters. The government intends to introduce the draft legislation to Parliament by July.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119142/australia-moves-to-tax-meta-google-and-tiktok-to-fund-newsrooms",
-      "image": null,
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777440004.0,
       "hot": false
     },
     {
@@ -364,7 +366,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777435266.0,
       "hot": false
     },
@@ -382,26 +384,44 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1777430720.0,
       "hot": false
     },
     {
-      "id": "deb34e6980",
+      "id": "8a65c9fbc6",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "DOJ Secures New James Comey Indictment Over Alleged Threat Against Trump",
-      "summary": "The new case stems from a social media post showing seashells on a North Carolina beach that the Trump administration characterized as a threat against the president.",
-      "link": "https://www.nytimes.com/2026/04/28/us/politics/james-comey-indictment.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28dc-comey-wlbk/28dc-comey-wlbk-mediumSquareAt3X.jpg",
+      "title": "Jay-Z Breaks Down the Stories Behind His Most Famous Songs",
+      "summary": "The artist shares stories behind his famous songs, the writing challenges he sets for himself and how he has sustained a hip-hop career.",
+      "link": "https://www.nytimes.com/2026/04/28/magazine/jayz-songs-lyrics-rhythm-process.html",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777421301.0,
+      "ago": "21小时前",
+      "pub_ts": 1777394917.0,
+      "hot": false
+    },
+    {
+      "id": "a52ca1515f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Taylor Swift Writes a Song, In Her Own Words",
+      "summary": "The artist shares stories behind some of her biggest hits, her love of a “rant bridge” and how life in the public eye informs the stories she tells in her songs.",
+      "link": "https://www.nytimes.com/2026/04/28/magazine/taylor-swift-songwriting-process-interview.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1777364083.0,
       "hot": false
     },
     {
