@@ -1,26 +1,43 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-29T17:54:20.451684+00:00",
+  "updated_at": "2026-04-29T21:36:04.104125+00:00",
   "total": 24,
   "articles": [
     {
-      "id": "af4275d9dc",
+      "id": "7f4b0114f0",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "As Supreme Court weighs Trump's immigration policy, senior citizens join the fight",
-      "summary": "As the Supreme Court weighs the Trump administration's termination of Temporary Protected Status for Haitians and Syrians, seniors are advocating for protections for their immigrant caregivers.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5804448/tps-seniors-long-term-care-supreme-court",
+      "title": "Long a dream, it's now real: a fast and accurate TB test that doesn't need phlegm",
+      "summary": "TB tests use phlegm — not the easiest thing to get or work with. It takes time for results. And there can be false negatives and positives. A new test is more accurate and takes less than half an hour",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5802789/tb-tuberculosis-rapid-test",
       "image": null,
       "categories": [
-        "移民",
-        "科技"
+        "本地"
       ],
-      "score": 75,
-      "ago": "3小时前",
-      "pub_ts": 1777472618.0,
+      "score": 70,
+      "ago": "34分前",
+      "pub_ts": 1777496506.0,
+      "hot": false
+    },
+    {
+      "id": "337f51f104",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "DOD officials say Iran war has cost $25 billion so far during Congressional grilling",
+      "summary": "The Pentagon says that the cost of the war with Iran is estimated to be some $25 billion. Defense officials were appearing on the Hill for budget discussions.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5804516/dod-officials-say-iran-war-has-cost-25-billion-so-far-during-congressional-grilling",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1777496319.0,
       "hot": false
     },
     {
@@ -37,8 +54,98 @@
         "科技"
       ],
       "score": 70,
-      "ago": "4分前",
-      "pub_ts": 1777484992.0,
+      "ago": "54分前",
+      "pub_ts": 1777495285.0,
+      "hot": false
+    },
+    {
+      "id": "ae33bb4d3a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What the Supreme Court’s Voting Rights Ruling Could Mean for the Midterms",
+      "summary": "Democrats stand to lose at least one blue-leaning district in Louisiana, but the timing was unclear. Florida has approved a redder map, and Republicans in several other states are weighing new distric",
+      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-voting-rights-midterms.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29voting-rights-scotus-midterms-ktbl/29voting-rights-scotus-midterms-ktbl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777493787.0,
+      "hot": false
+    },
+    {
+      "id": "1277ae913f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Iran war now has a price tag ($25 billion), but still no end date",
+      "summary": "The Pentagon estimates the war has cost $25 billion over the past two months. In congressional testimony, Defense Secretary Pete Hegseth did not say when the war might end.",
+      "link": "https://www.npr.org/2026/04/29/g-s1-119333/the-iran-war-now-has-a-price-tag-25-billion-but-still-no-end-date",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777492104.0,
+      "hot": false
+    },
+    {
+      "id": "0d511354d9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Pentagon Puts Iran War Cost at $25 Billion as Hegseth Berates Skeptics",
+      "summary": "During his first public appearance on Capitol Hill since the war began, the defense secretary lashed out at lawmakers in both parties who have questioned the conflict.",
+      "link": "https://www.nytimes.com/2026/04/29/us/politics/hegseth-iran-war-cost.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29DC-HEGSETH-ghwk/29DC-HEGSETH-ghwk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777491005.0,
+      "hot": false
+    },
+    {
+      "id": "e51f5a0a51",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Powell Says He Will Stay On as Fed Governor After Term as Chair Ends",
+      "summary": "Jerome H. Powell cited lingering legal threats against him and the Federal Reserve in explaining his decision to remain at the central bank.",
+      "link": "https://www.nytimes.com/2026/04/29/business/economy/powell-fed-stay-governor.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/29SUBfed-meeting-powell-fwqz/29fed-meeting-powell-fwqz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777491000.0,
+      "hot": false
+    },
+    {
+      "id": "1196d8b7e3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Florida lawmakers pass a voting map that could help Republicans flip 4 House seats",
+      "summary": "The map drawn by Florida Gov. Ron DeSantis boosts President Trump's effort to reshape voting before the midterm elections. The GOP likely holds a slight edge over Democrats in redistricting now.",
+      "link": "https://www.npr.org/2026/04/29/nx-s1-5804703/florida-redistricting-voting-map-republicans-house-seats",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777489525.0,
       "hot": false
     },
     {
@@ -54,8 +161,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "23分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777483827.0,
       "hot": false
     },
@@ -72,8 +179,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777479738.0,
       "hot": false
     },
@@ -90,45 +197,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777478530.0,
-      "hot": false
-    },
-    {
-      "id": "70b39a3a94",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "New Details Released About Cole Tomas Allen, Gunman at Correspondents’ Dinner",
-      "summary": "The details, combined with video, seem to suggest that the gunman was not the person who shot an officer in his protective vest.",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/correspondents-dinner-shooting-cole-tomas-allen.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29dc-whcd-tlfp/29dc-whcd-tlfp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777477174.0,
-      "hot": false
-    },
-    {
-      "id": "ae33bb4d3a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What the Supreme Court’s Voting Rights Ruling Could Mean for the Midterms",
-      "summary": "Democrats will lose at least one blue-leaning district in Louisiana, and Florida is drawing a redder map. South Carolina, Tennessee and Missouri could try to draw new maps before voting begins.",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-voting-rights-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29voting-rights-scotus-midterms-ztcp/29voting-rights-scotus-midterms-ztcp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777476970.0,
       "hot": false
     },
     {
@@ -144,8 +215,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777476174.0,
       "hot": false
     },
@@ -162,8 +233,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777475395.0,
       "hot": false
     },
@@ -180,34 +251,16 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777473349.0,
-      "hot": false
-    },
-    {
-      "id": "d70675ba82",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court calls Louisiana's House map an 'unconstitutional racial gerrymander'",
-      "summary": "The court kept Section 2 of the Voting Rights Act intact, but the decision all but guts a landmark law that came out of the Civil Rights Movement and protected the collective voting power of racial mi",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5754657/supreme-court-louisiana-redistricting",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777472661.0,
       "hot": false
     },
     {
       "id": "3888ac5a06",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Greetings from Syria, where a postwar olive harvest offers a long-lost taste of home",
       "summary": "In the warm sun, gathering handfuls of hard olives promised a taste of home that residents of a village in the Homs countryside had been missing for nearly 14 years of civil war.",
@@ -216,27 +269,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777472201.0,
-      "hot": false
-    },
-    {
-      "id": "186bcd7e37",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Trump team is quietly eliminating U.S. support for birth control abroad",
-      "summary": "Congress has allocated more than $500 million for family planning work internationally. The Trump administration hasn't spent it — and the consequences are already being felt.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-118041/family-planning-birth-control-condoms-aid-cuts-rubio",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777471790.0,
       "hot": false
     },
     {
@@ -253,7 +288,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777463173.0,
       "hot": false
     },
@@ -271,7 +306,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777459774.0,
       "hot": false
     },
@@ -289,7 +324,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777453388.0,
       "hot": false
     },
@@ -307,7 +342,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777453200.0,
       "hot": false
     },
@@ -325,7 +360,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777452278.0,
       "hot": false
     },
@@ -343,7 +378,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777451835.0,
       "hot": false
     },
@@ -361,7 +396,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777451807.0,
       "hot": false
     },
@@ -379,45 +414,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777451772.0,
-      "hot": false
-    },
-    {
-      "id": "739ae97edf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ukraine accuses Israel of importing grain 'stolen' by Russia",
-      "summary": "Ukraine accused Israel of allowing the import of grain it claims Russia stole from occupied areas. Israel claimed that the vessel had not entered the port and had not yet submitted its documents.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119153/ukraine-accuses-israel-of-importing-grain-stolen-by-russia",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777450664.0,
-      "hot": false
-    },
-    {
-      "id": "a52ca1515f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Taylor Swift Writes a Song, In Her Own Words",
-      "summary": "The artist shares stories behind some of her biggest hits, her love of a “rant bridge” and how life in the public eye informs the stories she tells in her songs.",
-      "link": "https://www.nytimes.com/2026/04/28/magazine/taylor-swift-songwriting-process-interview.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777364083.0,
       "hot": false
     },
     {
