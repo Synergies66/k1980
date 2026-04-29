@@ -1,116 +1,350 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-29T04:04:11.422307+00:00",
-  "total": 28,
+  "updated_at": "2026-04-29T06:39:07.459978+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "321228d416",
+      "id": "4d1a333aa8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "'Here to stay': Crusaders' hybrid experiment gets support from unlikely source",
+      "summary": "After a breathtaking debut in the pack, Leicester Fainga’anuku is proving that the number on your back no longer defines your game.",
+      "link": "https://www.stuff.co.nz/sport/360972024/here-stay-hurricanes-coach-can-see-value-crusaders-hybrid-experiment",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdwop6woHcA6viQBGmRiYKXHzmx2TJwEJtRqNjd8zY7pR6U0k+Z1s+p3V+WiSHZceawPfz2GrMC6FN57DqBQXaNf37TuvfdwmolpO0DiWB5q+glIrq4q2tiylCIolYf6VpARU1eEETOyD1ml4m0QvhctgGgYLSRXhdXqIX7ritDsLKZzE5Bvtx7szBhaW+O6Q6keL1fUDbBfyQe2W3NpPcI6SzqA2EEjJGiGELqrFNR+EjomAhNTI31ofjOF3n8NoVuIAiVh+MOmF%2FnUOfEv7vg%2FU4b8XDGfCvGa501YvNNXRapCHo8H6cOag4NtTtbIKrKgteoocPoGFQsFdxhe9B3IWBMidSAXx+5aLRTeSu2SPX5knAv4REZfwnT85lCzdOb1fbYqdmfcCc6hphn%2FZcQNcA1ItZa0ellLsyElYUZ9Y93gWSiKu5iJFMNMylBsKw==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1777444004.0,
+      "hot": false
+    },
+    {
+      "id": "15bda080a9",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Country's fuel stocks increase across the board, government says",
-      "summary": "The data accurate to Sunday shows more than 52 days of petrol, about 46 days of diesel and about 49 days of jet fuel.",
-      "link": "https://www.rnz.co.nz/news/political/593709/country-s-fuel-stocks-increase-across-the-board-government-says",
+      "title": "Wellington council considers support for struggling businesses after Moa Point disaster",
+      "summary": "Dive Wellington owner Dave Drane says he's lost up to a quarter of his revenue since the treatment plant failed in February, pumping sewage into the sea.",
+      "link": "https://www.rnz.co.nz/news/regions_wellington/593646/wellington-council-considers-support-for-struggling-businesses-after-moa-point-disaster",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "25分前",
+      "pub_ts": 1777443203.0,
+      "hot": false
+    },
+    {
+      "id": "aee75bf53e",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Modern Slavery bill passes first reading under new Parliament rule",
+      "summary": "The bill uses a new rule introduced in 2020 which allows a member's bill to be progressed so long as it has support from a majority of MPs who are not in the executive.",
+      "link": "https://www.rnz.co.nz/news/political/593743/modern-slavery-bill-passes-first-reading-under-new-parliament-rule",
       "image": null,
       "categories": [
         "政治"
       ],
       "score": 70,
-      "ago": "10分前",
-      "pub_ts": 1777434793.0,
+      "ago": "28分前",
+      "pub_ts": 1777443043.0,
       "hot": false
     },
     {
-      "id": "9e82636db6",
+      "id": "5e0c218ed9",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "NZ20: New NZ Cricket chief executive hopeful of launch despite club v country divide",
+      "summary": "Chief executive Geoff Allott knows emphasises balance between T20 and internationals.",
+      "link": "https://www.nzherald.co.nz/sport/cricket/nz20-new-nz-cricket-chief-executive-hopeful-of-launch-despite-club-v-country-divide/I3HEDV7OFJAB5IWYD3FQMWRSEE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/I6I3YPFOHZFWBPTOGTDGMXQE7M.JPG?auth=2bdc4ac4b381ad0a2f4bbcdddf07e3b529851314fe73ec22ad4dd1676a1425e8&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1777442720.0,
+      "hot": false
+    },
+    {
+      "id": "729e9d0a7f",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Trade Minister Todd McClay questioned by Indian media over Shane Jones' 'butter chicken tsunami' bar",
-      "summary": "Trade Minister Todd McClay said he told media the New Zealand First MP was \"entitled to say what he wanted\" - but it was not a widely held view.",
-      "link": "https://www.rnz.co.nz/news/political/593727/trade-minister-todd-mcclay-questioned-by-indian-media-over-shane-jones-butter-chicken-tsunami-barb",
+      "title": "Otago sea lion colony hits major population milestone - with 38 new pups",
+      "summary": "For the first time in more than a century, the Otago Pakake/sea lion population has delivered more than 35 pups in a season.",
+      "link": "https://www.rnz.co.nz/news/environment/593741/otago-sea-lion-colony-hits-major-population-milestone-with-38-new-pups",
       "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1777442471.0,
+      "hot": false
+    },
+    {
+      "id": "4f6b1c7fb9",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Coroglen Tavern owners praise police after gun incident and pub lockdown",
+      "summary": "Three people sheltered in remote pub as armed police appealed to man seen with gun nearby.",
+      "link": "https://www.nzherald.co.nz/nz/coroglen-tavern-owners-praise-police-after-gun-incident-and-pub-lockdown/FJ2Q6OG7BRAC5FCXN2QEPGL5SY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/27A3LFQWFVBFLMUBVZAOPN2ILY.jpg?auth=6f79b89e460b147ab488435a912a67d10d17715c942a95f3352fdae9b0ed52f8&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1777442400.0,
+      "hot": false
+    },
+    {
+      "id": "06ce876a88",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Whakatāne urupā housing fight: Trustees vow to keep challenging ruling",
+      "summary": "The court kept the authority but cut the housing area to under half the site.",
+      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/whakatane-urupa-housing-fight-trustees-vow-to-keep-challenging-ruling/NSJMUH6UWBC6ZMVPQSYZDW6KNE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/M5RN2IYCVBCZLIFEDV5ZVSIHEM.jpg?auth=77ced00f9c6579924cca66dfddc8c52eadc7f8da85fc5bf73d0b2c662290d59b&smart=true&width=300&height=300",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "38分前",
+      "pub_ts": 1777442400.0,
+      "hot": false
+    },
+    {
+      "id": "05dab7ee4c",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Mother of baby who suffered serious injuries desperate for answers",
+      "summary": "A police investigation is under way after the baby was taken to Christchurch Hospital on Monday with serious unexplained injuries.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/593742/mother-of-baby-who-suffered-serious-injuries-desperate-for-answers",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1777442261.0,
+      "hot": false
+    },
+    {
+      "id": "367b195011",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘It’s who you know’: The tip-off which led to the recovery of stolen classic car",
+      "summary": "A tip-off about a stolen car led its owner to a shed, and police to execute a search warrant.",
+      "link": "https://www.stuff.co.nz/nz-news/360971917/its-who-you-know-tip-which-led-recovery-stolen-classic-car",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVC7PGwLsUK1IzLyg%2FapRRy897U+4m6%2FueRlL4OUeBBuXUgXRewr4IeRu0esGSsfva+N6duRHxpoPxd8CEFoZpOwhXBC1nA9RSvP8m8fwIP+vZcp+VAYgEedr%2FtEg14nB3oI59MoJcD5wklQ73OPNPEV7CXDAAgSo5sVCWTEVo2DyyVvw3pUbJ1kwYc1MLkqMuii6UiiB36LgFHyz3lxW8EMGu9q42DE63QcIu8xHKi+SNRQXEfNh8KGIKridFVO1%2Fl1a%2FQ1Xr9OOouUdHJsHYcUbZqFhK0jV4242Fk%2FqHqAbE5xy4DqaxhUYFc4QB6eAgRzapYooHxZg5H7d4EceuW7BzqATKolGaz92pkp8Z83L8A4z8CnTI4544iyQbBJDukIuiOqgG2pNTflAYrOx9A5oYeYmGJeIoAuPsE+1bQ+xrSQlXBxAXxrGgs91nJsGw==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1777441157.0,
+      "hot": false
+    },
+    {
+      "id": "d5148ec3ae",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Ultra-marathon swimmer Jono Ridler delivers petition to ban bottom trawling to Parliament",
+      "summary": "After swimming almost 1400km, Jono Ridler delivered the petition to ban bottom trawling, signed by 73,647 people, and called for an end to the practice.",
+      "link": "https://www.rnz.co.nz/news/political/593731/ultra-marathon-swimmer-jono-ridler-delivers-petition-to-ban-bottom-trawling-to-parliament",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777440829.0,
+      "hot": false
+    },
+    {
+      "id": "8a8474079e",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Environmental cost of cruise ships not worth the economic benefit, expert says",
+      "summary": "Studies have found cruise passengers spend less money than other tourists, while the ships themselves cause widespread pollution.",
+      "link": "https://www.rnz.co.nz/news/environment/593740/environmental-cost-of-cruise-ships-not-worth-the-economic-benefit-expert-says",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777440677.0,
+      "hot": false
+    },
+    {
+      "id": "8dbbd9a3cf",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Crewe murders: Arthur Allan Thomas campaigner Pat Vesey dies aged 97",
+      "summary": "He was a pivotal figure in securing a retrial and then a pardon for Arthur Thomas.",
+      "link": "https://www.nzherald.co.nz/nz/crewe-murders-arthur-allan-thomas-campaigner-pat-vesey-dies-aged-97/26NDDSR45JANTDKS2MWBJJ4L5U/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/3OK44BFNVJFH7FLIJAFD3K2CAA.jpg?auth=e7ddd44b30ac22ebd55706319fd9d56e835622bb5bd4677c8483f62df7bfd8bf&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777439835.0,
+      "hot": false
+    },
+    {
+      "id": "4d8e998d0b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Proposed leave bill will make workers' lives 'materially worse', select committee hears",
+      "summary": "Part-time and shift workers say they'll lose money under leave changes - but the minister in charge says it's unavoidable.",
+      "link": "https://www.rnz.co.nz/news/political/593693/proposed-leave-bill-will-make-workers-lives-materially-worse-select-committee-hears",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777439788.0,
+      "hot": false
+    },
+    {
+      "id": "26b2e46ce8",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Why the workouts of Formula 1 drivers might help computer users with 'tech neck'",
+      "summary": "Keeping your eyes on the road is vital if your car travels at a speed of 322 kph. A strong neck helps.",
+      "link": "https://www.stuff.co.nz/world-news/360972002/why-workouts-formula-1-drivers-might-help-computer-users-tech-neck",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYX8X3a6TgBW5yCp5gTQKG5uQVlQsH+5xrMOa6Ipib9zwld+SZS7zIsJY%2FaYJa4ZstluUPqobEwow3mlAgO7e12ZC0xVxSxxG4wk1oHSmrCwL+y12o7L8sIv0lduUmiv5JuvKn%2FoH8Nd6CpEdzF9D2HObqSXF5SgyJ36ZA6p8wxomlL2ZanxHrMDGaxdH0Bzl%2F9y23THk343NROMLWqJ2PuFAmGdHKTjMbe1yEvA7HzPn8YzKhi5BKXsZh8akhrsaWXCENpVWG9tRJCY%2F56v6njzhi6TgVETRkvmU63XfS3o+Nalw4M2hWy2q3SpLp34gkdYq+QSWfsNgmaGEkzr4cZUfIJ7+7YMf1lJN0%2FStrhI4pV6qHsVEb33B6w%2FAueZ5X5zmlpqn7Tyec+kF0wjdu9+f1rNOKsJNunpCHKZSaUYecHkIjzAqY+1S1WKH1r3HNlsGSeUMAXaNK9UAinal+oY=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777439457.0,
+      "hot": false
+    },
+    {
+      "id": "659e4fb141",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Peters: ‘So wrong’ to suggest MFAT not helping Kiwi held in ICE detention",
+      "summary": "Foreign Minister Winston Peters has hit back at claims that New Zealand’s consulate in the US has not been helping Everlee Wihongi.",
+      "link": "https://www.stuff.co.nz/politics/360971985/peters-so-wrong-suggest-mfat-not-helping-kiwi-held-ice-detention",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYl7MoAFeUNnecFe5bqMNeQ+2U9suA5l3KN4jJGaFtnN%2FmhY9JkgGI7iwUZOCThE6rCuuhKlKLCyA6UzOrtFojlgYKcyKtZrKj6IgXhD7ZhSBYbo38lakoHSGYFN25PcvPoK1OiXcIortE0Z9SmaMDxYMDugUJc1D07j7Smw9pJs7+WRrjZCMQkrWRn4DoWuBmFuwmB1yI9usTiNV2Dou7kQyRQr0HeO%2FFg114Oh5QP4r5UG3Vr7CNCpg2aRFuEEbpPCkErTYWAWETbpHfEhWkVlhD04obTRNzHJ+eECDhwVhkFfFP9OEIO6KfgDMRtWHgIR8vPfr+0Sv4fnn+ft3KcuKTuNE6zff8kb88l97M7LlD8OEWFFDjNBuUashSNp0+vSzqnoGozW+yX9rB6%2FlKtYLiH1pPZcYuHMyapilHzjl4BSLrMwaVV3CD4fDNvQ1w==?resolution=1240x700",
       "categories": [
         "政治",
         "科技"
       ],
       "score": 70,
-      "ago": "11分前",
-      "pub_ts": 1777434746.0,
+      "ago": "1小时前",
+      "pub_ts": 1777439270.0,
       "hot": false
     },
     {
-      "id": "5ab9be4cd5",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Question Time begins with a showdown between Minister and ... Minister?",
-      "summary": "Parliament began this week with a Question Time in which the government was being pressed by ... another member of the government.",
-      "link": "https://www.rnz.co.nz/news/political/593726/question-time-begins-with-a-showdown-between-minister-and-minister",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1777434457.0,
-      "hot": false
-    },
-    {
-      "id": "9f52210e2e",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Locked up for 22 hours a day: What life is like for New Zealander Everlee Wihongi detained in ICE fa",
-      "summary": "Everlee Wihongi is entering her third week in US detention after being detained in an ICE processing centre in California. Her mother is speaking out.",
-      "link": "https://www.rnz.co.nz/news/world/593630/locked-up-for-22-hours-a-day-what-life-is-like-for-new-zealander-everlee-wihongi-detained-in-ice-facility",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777434273.0,
-      "hot": false
-    },
-    {
-      "id": "d82b98655d",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Government cracking down on large nitrous oxide canisters as misuse continues to grow",
-      "summary": "The canisters will automatically be classed as psychoactive substances if they do not have a lawful use.",
-      "link": "https://www.rnz.co.nz/news/political/593695/government-cracking-down-on-large-nitrous-oxide-canisters-as-misuse-continues-to-grow",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777434247.0,
-      "hot": false
-    },
-    {
-      "id": "e8fb733b7e",
+      "id": "6718c1aae1",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "King Charles III highlights US-UK bond during busy day of diplomacy with Trump and Congress",
-      "summary": "King Charles III marked the 250th anniversary of American independence from Britain with gratitude that the two countries united to build “one of the most consequential alliances in human history” whi",
-      "link": "https://www.stuff.co.nz/world-news/360971926/king-charles-iii-highlights-usuk-bond-during-busy-day-dip",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfZGiG0cfM0SsHgvSWBoIdu5F5y6SkjTm8%2F7Vi2lQEQsFdISuHWM+eq%2Fv9dCrBKwm9torfOdKypQjfYrpX3N3FVo5LE1FZpzySh8O4vfd7G4BugfatMERK5G0kRKUm9qoNClG5zXzqVQNqDVQVIxu3y3zjDRP+W9fMjEuiFeebv8Qgsa3J4dWDWONEW0CaFoswKlRHZn9zFqcqwTYvDOpbIZ7vVze5Chzn38eBaLbZnUygDKQrjUd+LVS2LCBfaUN2FO1dPGslVSdgDIl+nsWWNSvhBz3jYF+wqJLEwYWfyIUMl4VCDbHgztp1mKDYi%2Friz1sANCEGylL4FIT+6qSCWGZqNBY%2FN7yD+Ba4p3ToRVzKXqcPIwS%2FF2K%2FCqSSkhdR%2FU5Iy61f1sABZUShxmJ1yHwOLMgtiLenIOs1sPa2yAPTB+uM6Fz6z33AHtn9SveyZc+k9cxtMJTTiDG0TmEQw=?resolution=1240x700",
+      "title": "‘Shame on you Shane’: Nicola Willis unleashes on NZ First over India deal",
+      "summary": "Shane Jones had said the India free trade deal would create a “butter chicken tsunami”.",
+      "link": "https://www.stuff.co.nz/politics/360971802/shame-you-shane-jones-nicola-willis-unleashes-nz-first-over-india-deal",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeKzwEgy8PIygJlrHyQnQijQds9EDhjtXyPQpfrVtBD3e0Jpc+duRXk%2FV0QNMNBEuYV+5hW9DNDlPwU02%2FFECvdG3wQM5XIRu91Ccowpnpg2HB%2FysYo9QfFm00D4hVc++rnSngZHSra5KPbmIl4jWVrOmsfDJvlHdkw4bww6rVrn+4hlEUn6%2FImqp+p5yWNf69VFsJHDl0VmaV+QxHSwrNXdYQ57aA2BvAE28md6AycM%2Fusbw2rdEQyyFlZBdCSiMtZatyeXz92q6FeML27mYJx9htQgWvSmhcRARfua5WWc%2F6enfygWo2ITA+0GPxQcntrBJ0uvCJH+0NDxRPaZF6ohvpS4G0+Z0I3b+yxjGOYr99o3V80wY2H6IJQkbJ28snA7hVL2cIZKT3GX9j0IGefVYKGw1yZBFpaK+l%2FEn6+dXINFPbwjQ1qtlKYJRrE6arl8gG9VKpA1Bj0kOvZGNr4=?resolution=1240x700",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777433534.0,
+      "ago": "1小时前",
+      "pub_ts": 1777438811.0,
+      "hot": false
+    },
+    {
+      "id": "998e4de46e",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "‘Formidable’ El Niño set to reshape New Zealand winter weather patterns – The Front Page",
+      "summary": "Winter’s on the way, but it might not follow the script.",
+      "link": "https://www.nzherald.co.nz/nz/el-nino-forecast-what-a-formidable-event-means-for-new-zealand-winter-the-front-page/QVXE2VMFKRCZZAMAOH6X5GKBQQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/JZQPV7DPWFBETEFDJ7YVHA42SE.jpg?auth=17c0d0e059a6fe6e11d7a789bfcc19f7128944a2b9dd402a5f47145b06d67b41&smart=true&width=300&height=300",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777438800.0,
+      "hot": false
+    },
+    {
+      "id": "e6914a54c9",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "'The people make the place': Why Supercars stars are backing new Kiwi track",
+      "summary": "It’s not the flashiest or the biggest, but the club run track on the outskirts of Christchurch is punching above its weight in Supercars land.",
+      "link": "https://www.stuff.co.nz/sport/360969304/why-supercars-stars-are-backing-ruapuna",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTOYf6OhdlbbbWFnkzYLUhIyhMWKht2uevObJ5MenIBxALBTU2ge2xoCfLlYOr14KZxL+yqyCr6LRvlRD2S+hIndMCkeh1CNY7fIlv4UXSvRWwuvn9W6KUJ5Wf6GgInGBAe6vAHeYhNinifCxzUBLaGLbGz%2FHlPJmMu+ro%2FxwnKmFKZxivgrSj6jloN2AaBcjvLR+yYX2zIzHE6bg2vbcxHowCJYqw4D4G8NvkEIqWFX9pASOyJyOfk+haKr4d0TS12Y1NolmWB+F+cqbxoXf+F2wiI3%2FPkn+mi%2FiTrFmqMcIFzZLQQwZLw2cyoEZgW9kSDTReSn4kpQZsgwxtx5rCe3JpPS9ip5WWsP7ss3AdbobztMHHS0YotdyFE%2FG4gYEW7J%2FLcU6oo13F8n92WBRJNuAAHPK9tsagQYtL3JM71S2o++g7pca+VaqNS8gP3uFQk7RE6O2URGWcv0cho0nAY=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777438712.0,
+      "hot": false
+    },
+    {
+      "id": "428aadf210",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "‘My dad’s car’s broken… he’s coming back’: Child’s words capture heartbreak of Desert Road tragedy",
+      "summary": "What began as a simple day trip ended in tragedy — and a young child’s words capture the devastating reality facing a family who had only just begun building a life in NZ.",
+      "link": "https://www.stuff.co.nz/nz-news/360971942/my-dads-cars-broken-hes-coming-back-childs-words-capture-heartbreak-desert-road-tragedy",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYU%2Fer2SehqGfn4TgQlZZpgG5yqpR11P8L0eTr4w6yDZZl6IFy1wyJofee2HG3slsFhLCyEPgNiiPgCbgJnOofGL6BG%2FblkXLFjb9cX62Z8wLhXkwWCq24tmBrT424aM2FkZNqnbH5tD3ftQs6yEe0iaNVeZgzaBDc2AS0HL+DXNHZeSqxB5R%2F82U8nDFQM5dgC758Y07WH5JIQ2+bODhGiOszkp49t0b1UmwUdhTzSaQty7wp4HEPjkKETISBx36fPqEUqW%2F0zpglcYbFJxYHIuEplrZhthgv4ukM1YFwF2M2o4Imul+u18noXHGzrGxbPZl15KHMBdaaYDw4YJBmGHgid28bYWnI5F49xwc0yqqR13+TwLUZTHxmO6kS8pinODfQDITgZJ3nCG1isQAXDdFEeLM98+CIc9j0rEVlOsV0xKxwarGPAdXkBl%2FRSh8NBJKbYhlNONgnP1SdDeqMrU=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777438255.0,
       "hot": false
     },
     {
@@ -127,153 +361,153 @@
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777433529.0,
+      "ago": "1小时前",
+      "pub_ts": 1777438159.0,
       "hot": false
     },
     {
-      "id": "30eae3e781",
+      "id": "77e22d8e1c",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "Stuff NZ",
       "lang": "en",
-      "title": "Board votes against statue remembering Korean war sex slaves proposed for Takapuna",
-      "summary": "The votes were 4-2 against the statue, labelled as a 'political statement'.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/board-votes-against-statue-remembering-korean-war-sex-slaves-proposed-for-takapuna/OXZWHLQW3VF67P2PU2XERL33A4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/KXEKZTJJKFCAJOLSOZYBPBJ6BI.jpg?auth=f042425f606f8eadf4009baa109132143f895c0d2cc2eb6147352da115df8f08&smart=true&width=300&height=300",
+      "title": "Trumps call for ABC to fire Jimmy Kimmel — again — after morbid joke about first lady",
+      "summary": "Donald and Melania Trump both called for ABC to fire Jimmy Kimmel on Monday after a joke last week in which the late-night comic described the first lady as having “the glow of an expectant widow.”",
+      "link": "https://www.stuff.co.nz/world-news/360971996/trumps-call-abc-fire-jimmy-kimmel-again-after-morbi",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTK2KZKznL2PJ8gCN%2FIWEgkHupzuMJfOUfXU5LKFt45HSFm7F8drN3AQYqAh2lKtrPGkPq4Ooyrm5fBTMEK034uVz2ucsyDLS77FtqZTNJc93CIS9pV22uZz9YoM3yI84n10athVT8R6Pt2YOb11MHH0i%2F85NbcZGy+rtdEkknbh9+AJ9kXji8%2F2U%2Fud1nlhH6vEDC3Apm0x0YkE2hIGg0tfAnOOU8LLcKcP5dA3nINUl0pMF+NS6Lx0lZWicNcT19ytknP6miJ55EUVximSI3zikjI4vx7oA9dfr9WJsL5f3zhaOXHgwV4giPK%2FLBv53m0KkUxjBCzIlv5I9sOi3TVmamgqDKHCZMLF8PT05UVR46B5wuZ2TDk3zJk%2FP4yy+SqSqGNGCWmXMnAAWpzOuCsaq%2Ffn%2FjRxzBcznfiQq0PndJjUoeR8VBfSpg2uUD3Nc5j2rGAS8UxxtrjRI36tQBg=?resolution=1240x700",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "49分前",
-      "pub_ts": 1777432435.0,
+      "ago": "1小时前",
+      "pub_ts": 1777438014.0,
       "hot": false
     },
     {
-      "id": "f4d288ec1f",
+      "id": "96c59a30f6",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
-      "title": "Police delay final phase of withdrawal from mental health call-outs",
-      "summary": "The Public Service Association's national secretary Fleur Fitzsimons said the delays to phase four showed police are aware that the changes aren't working.",
-      "link": "https://www.rnz.co.nz/news/emergency/593650/police-delay-final-phase-of-withdrawal-from-mental-health-call-outs",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1777432345.0,
-      "hot": false
-    },
-    {
-      "id": "b6854994d3",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Can your nervous system really be overloaded? Can it reset?",
-      "summary": "Is this the 'nervous breakdown' of our times? And can you reset?",
-      "link": "https://www.rnz.co.nz/life/wellbeing/can-your-nervous-system-really-be-overloaded-can-it-reset",
+      "title": "Greens defend Māngere candidate Michel Mulipola for past social media posts",
+      "summary": "Past social media posts have surfaced of the Green Party Māngere candidate ripping up the New Zealand flag, calling police 'pigs'.",
+      "link": "https://www.rnz.co.nz/news/political/593728/greens-defend-mangere-candidate-michel-mulipola-for-past-social-media-posts",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777431755.0,
+      "pub_ts": 1777437919.0,
       "hot": false
     },
     {
-      "id": "c7f2f2048e",
+      "id": "e17deee50b",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Energy policy needs less panic and more honest arithmetic – Richard Prebble",
-      "summary": "OPINION: When the Māui gas platform closes this year, dry-year power shortages may loom.",
-      "link": "https://www.nzherald.co.nz/business/companies/energy/energy-policy-needs-less-panic-and-more-honest-arithmetic-richard-prebble/premium/PTTCK2XA3NFRPNM2BB6ULALOXA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/NBZNDLTHSJEJXO7WP5INWEXD2M.JPG?auth=25e52b2db137970d04fe00661233653be4d36c2aed503f1b4d205db873cb62ba&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777431600.0,
-      "hot": false
-    },
-    {
-      "id": "ad86735b7f",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Herald afternoon quiz: April 29",
-      "summary": "Test your brain with the Herald's afternoon quiz.",
-      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-april-29/2B3CTEUCQFGTVL5S5RLEB3CVXQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/4E74SNPLFBACFOYVVAS4SAUVAU.jpg?auth=8c93ee99163c522dd415f038fb0b1e47453e568580f08c67adb4c79687579e23&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777431600.0,
-      "hot": false
-    },
-    {
-      "id": "662cd64ed6",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "PM quiz: How many eyes do honeybees have?",
-      "summary": "Stuff afternoon quiz: Apr 29",
-      "link": "https://www.stuff.co.nz/quizzes/360964956/stuff-quiz-afternoon-trivia-challenge-april-29-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXbBzXHcAlpEQummNzTzW6AUU4FNs7EKLdKhAvdthxgms5x2bpYOQk1zFKMor2P8LI0Vaj3xEKmBsnHhl07Pid93ObMu8qzaCsIsluNtQcSkPhPuRRW2+jg2yAaiqebuAfZv68V58uBw+6kEyIOQyWa8JQhDW07jyKdsyV4FM+oUDsQc1jR+ahdqovdqCdBHZOgrg7OSloIkVp%2FMXwn6JdSNWkDKK49zFWtzWn7km+DSHByPzsFGpF5dl2Vz4Q4YJCi%2FfaiAp04LV7vsRHqfeg+hWH0869hVLOCWlhhzMSEvT7rCc7emH4hvqaXKLU585jqUcCFm7sYWJ5hDAswPHvtVp3xzf6LrQ31LG9c8%2FwIkZUURayezIaErumfWJJ3jAp4%2FJH3vnVOFhrVAaR6YWg82NdeUlk%2FU9xr6vePXE0P2kze52kijcK4rOau3EnlK+A==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777431600.0,
-      "hot": false
-    },
-    {
-      "id": "d431476e26",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "‘I was crying like a newborn’: Simon Barnett opens up on first Celebrity Treasure Island elimination",
-      "summary": "Emotions ran high on episode two as the first contestant was sent packing.",
-      "link": "https://www.stuff.co.nz/culture/360971841/i-was-crying-newborn-simon-barnett-opens-first-celebrity-treasure-island-elimination",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYA9aMV72ck72DMdoXqN9iQ1NxA3Q%2F%2FXaJTnAOOLXHIYQDEMqRAGWDudXirPRstDMEgPecgnDCoZh5tgmXREZUchcpXXRUNL8l4nflSIsmZBOJzh1ygKLTeLyfb%2FbauzmYgkakEN7pTVW1HAxK1gUC8Fu72UjH8lRli3RM3XONP%2F7lIPfxXEv5+%2Fu4ZHOwFqKGHt+uC9arjAqQncQqytpuJIqC3B9GfJIUchheyL%2FLGDogR6AnrHhhl6vR58uT964V28nblmXeq+L6GT141ZBuMsga5jrCecvmIXjdM8Pr0PKjunspwmFC5S9PH+qrF1XIFUQhi9Q1hd2Bq2UoL3YFcU+vIBXF2fj%2FibwRqcluRYS54g%2Fj8HR2I29tDqcd7hUAektCeB%2Fwv5oHwS0M5iSKJTKsJvmK%2F5dFTZ4T3%2FBqbhiKKgqT4ytFkJeV7qDXy3pI8BKscY+XEUXa0vw9qZGZ0=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777431336.0,
-      "hot": false
-    },
-    {
-      "id": "0181387c55",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Teenage girl missing in Hamilton for five days",
-      "summary": "Paige was last seen in Frankton on Friday.",
-      "link": "https://www.stuff.co.nz/nz-news/360971869/teenage-girl-missing-hamilton-five-days",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXTJq45ErQIDFz7V+Obphv3plvXcz%2FUZhcPP5uwivYRek4D5BHRwlnMqn6ma%2FG2pvJvOXMSlI2wN9jkdqylj5mSPFCDk%2FtmMDVuSQYiXVsDExfN0RlRmAxOwkMVSy7tIjqh6lszkbyscx2X%2FttHQCZTSoC2C2tCFi3AeJsp0PtJELxIoIgP2NAoyqve1NOSjwEZZHSva6HlR4K6h1yhN50JH3p7wOtQOIlyTxZlOZ5aP7XVojOrzIl7cP4EyrS1Qfm%2FCJpx92dZDcNgZCwm%2FS7SirZp3DODriUg7%2Fk6bX7METjTIHDXoOFVlIysclo3jPllg8FnRZCLyKTZ0wsdFpWgVrKcbhivZuYPbYKpfHhNnPOe%2FZYGkaGve5nuXbH12N%2FQzMhMWbIuZyplcy2FVapMaco+LSglRYLb8R9sbt91NEqniczRGZHX3swvHYCqrVw==?resolution=1240x700",
+      "title": "Identity and financial details leaked in Lower Hutt council cyber attack",
+      "summary": "A further 732 people may have had financial data taken from council emails.",
+      "link": "https://www.nzherald.co.nz/nz/identity-and-financial-details-leaked-in-lower-hutt-council-cyber-attack/3P2XCVQ365H3DCYXQ5HRQVE73I/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/5L5SFXV6NFHBBBIHWH7UQLE3DY.jpg?auth=aaa9afd79a59ba26ff4bfdd0d8601a42943386c2f224db30ff1e7a5e7b734e98&smart=true&width=300&height=300",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777431219.0,
+      "pub_ts": 1777437787.0,
+      "hot": false
+    },
+    {
+      "id": "c08def763f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ 政治",
+      "lang": "en",
+      "title": "New Zealand and Australia collaborate on fuel, fertiliser pressures with agriculture, aviation",
+      "summary": "Australia acted 'hard and early' to secure diesel and urea fertiliser, while New Zealand tried to do the same but could have done better.",
+      "link": "https://www.rnz.co.nz/news/political/593734/new-zealand-and-australia-collaborate-on-fuel-fertiliser-pressures-with-agriculture-aviation",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777437722.0,
+      "hot": false
+    },
+    {
+      "id": "aaa28a0f38",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Napier murder trial told victim Boy Taylor was ‘armed and dangerous’ in fatal fracas",
+      "summary": "Two of the four men who attacked Boy Taylor received injuries from broken glass.",
+      "link": "https://www.nzherald.co.nz/nz/napier-murder-trial-told-that-boy-taylor-was-armed-and-dangerous-in-fatal-fracas/IYTL5EM4MJG4BOOUST4B7J6Y44/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/7UCUDJSSFBE3FOBGSC756T3O2M.jpg?auth=62f95179db4117d7add158bace7f6f0ca5eb6b94807bd09934042fda41d6b8dc&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777435509.0,
+      "hot": false
+    },
+    {
+      "id": "37b128985c",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Jury hears complainant introduced herself to rape accused Donny Moses",
+      "summary": "Donny Moses' defence says sex was consensual and the young woman later regretted it.",
+      "link": "https://www.nzherald.co.nz/nz/jury-hears-complainant-introduced-herself-to-rape-accused-donny-moses/KDVD3BEEC5CFTOBBJ7L5PTCVII/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/EBOSU7ELVFHFLAXAKX6XXU5MQE.jpg?auth=cbc5aff5184479a35a6a6f11833e95009a25d88dc94ce52a3a8930030218b774&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777435200.0,
+      "hot": false
+    },
+    {
+      "id": "9e82636db6",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ 政治",
+      "lang": "en",
+      "title": "Trade Minister Todd McClay questioned by Indian media over Shane Jones' 'butter chicken tsunami' bar",
+      "summary": "Trade Minister Todd McClay said he told media the New Zealand First MP was \"entitled to say what he wanted\" - but it was not a widely held view.",
+      "link": "https://www.rnz.co.nz/news/political/593727/trade-minister-todd-mcclay-questioned-by-indian-media-over-shane-jones-butter-chicken-tsunami-barb",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777434746.0,
+      "hot": false
+    },
+    {
+      "id": "5ab9be4cd5",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ 政治",
+      "lang": "en",
+      "title": "Question Time begins with a showdown between Minister and ... Minister?",
+      "summary": "Parliament began this week with a Question Time in which the government was being pressed by ... another member of the government.",
+      "link": "https://www.rnz.co.nz/news/political/593726/question-time-begins-with-a-showdown-between-minister-and-minister",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777434457.0,
       "hot": false
     },
     {
@@ -289,227 +523,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777431122.0,
-      "hot": false
-    },
-    {
-      "id": "501cd425fe",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Education Ministry’s attempt to change school union meeting rules rejected",
-      "summary": "A long-standing practice of secondary schools offering “supervision only” while teachers attend union meetings is sufficient to keep them legally open, a judge has found.",
-      "link": "https://www.stuff.co.nz/nz-news/360971862/education-ministrys-attempt-change-school-union-meeting-rules-rejected",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXdlyJw3ZbV8JHroZdqnrm05FP2DjC6OdsuZ6vUOWUHxQDjaxnUfnJORc92AsJTBbCXr6AxHZ9X6mQI0fdEDk2Yys5CyEDZmxYMnkVawd%2F0IWuDj2bfE3sPNcZ1J7iuYHykPjkn9CHWrAi1OjciWbR0OcxYziybMgjb+df7MbkJgOueUnj9PjUUKk7f2zxO6eHsRsAlJ04OaL82vO75+QXGXeLO2ZQOREiDmRmHDEW1X7Uri+RMs3lDR8Q1ulNyX9fBLR+C7534LJ1OdUon6888iTk5hkfY2yB1pD06sZkvBmVNkZ1ZhocLa15Qt7rgf8KMqYHS1Iil%2F0r3Uu10XO5lC+8VRWZPLmC%2FRZx8iEVi%2FcBnrx1P52SD1X14iMWtuUfbZotbmXC8PeraX6AK6FhZzbWJhVdoWHPwpXsJVam98ZqEcQNlm0u9DpAZQ7y5P2FbZndpNUOo1dOQEKRCuPe4=?resolution=1240x700",
-      "categories": [
-        "教育"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777430997.0,
-      "hot": false
-    },
-    {
-      "id": "d1e94bfcf4",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "BMW and Mini roll out app-free EV charging tech in NZ",
-      "summary": "New partnership allows select electric vehicles to charge at public stations without the need for apps or cards.",
-      "link": "https://www.stuff.co.nz/motoring/360971822/bmw-and-mini-roll-out-appfree-ev-charging-tech-nz",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYb4AlG5tN1MLkAKKWJX+L%2FX7I1yrBBQcJFEjRpduovThDbT0XQQL2ZUtCnNwNwrACeWpowMJLzKth%2F68JHtkGUjWdksPSiwYM8endTBakeAXcJi17PYgbVjyj58QFNndllUu80NB6urNxJE1ABWhVyg=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777430589.0,
-      "hot": false
-    },
-    {
-      "id": "7b2b79d014",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Whanganui police aware of online posts targeting Treaty signing",
-      "summary": "Online posts urge people to bring shotguns and block the road to Kaiwhaiki Marae.",
-      "link": "https://www.nzherald.co.nz/nz/whanganui-police-aware-of-online-posts-targeting-treaty-signing/BWDDFNERKZAQ5A3JHEZYQPL5BM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/KW5IMMW73NCYVODVTGODBPVCAE.jpg?auth=9d4e225aa358f7de2e7df6218251b83d28cf1c41e4efaaffe72c0b773ea704ae&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777430316.0,
-      "hot": false
-    },
-    {
-      "id": "c69c00b6ad",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Ukraine says it shot down 33,000 Russian drones in March, a monthly record",
-      "summary": "Ukraine used interceptor systems to shoot down more than 33,000 Russian drones of various types in March, a record monthly figure since Moscow launched its all-out invasion more than four years ago, U",
-      "link": "https://www.stuff.co.nz/world-news/360971845/ukraine-says-it-shot-down-33000-russian-drones-march-mo",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSQKcaNIm75Xr5UV0%2FbcDy59E8i78IVQZQIXXDKQsxLicOTFIMdO0M8o1mkqVwLmN4sk5UigZyOIw56UjjJ93glQZy5b7n95L8eIvbbVPhOQiqvhbGMnYSM9FtmmXBrjo5uE9GcbzhezcT4MHfRoIvkAZtBtxhU5tfONwypo6NCP%2FQSt4w7Xq+egWm2FepNa5X3M%2FuzAb74tPuRYqYNzmpbMt5sbD7+3f%2FPQZ1%2Fdp%2FfnorUp1FAKCNIZVmNGtDKmgrvvI7ogl3jyE+%2Fr8q1OWG7EWHK+y0rxG0Nle8lCcFG1ZhmvRol4nYp5UNJE7VCRzFAlVENhrE4OxYNDMkEeNvhFUBvY58NJ4ufryxM0stjVKqOebEyyys31fFXQ326hYDOdqwi5uHPCVNv%2FxQONuFwL491qsNbQY4Dp0bdG9Z6mLDNmU0%2F1zhFiRKWCvmxHBQ==?resolution=1240x700",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777429882.0,
-      "hot": false
-    },
-    {
-      "id": "b5360ed9bd",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Staffing shortages being linked to baby deaths in NZ hospitals a ‘national tragedy’",
-      "summary": "The cases have been detailed in a Stuff investigation into the maternity system.",
-      "link": "https://www.stuff.co.nz/nz-news/360971816/staffing-shortages-being-linked-baby-deaths-nz-hospitals-national-tragedy",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdukM%2FOnjK9yl8BRCiTkGhNhJ0yt4GM2Pl3RdKnimiQeCzptNqWuyVQs%2FcOcmYzCcXM8R6o82kMqpWqW+96G%2FcF+c+1FXbDKmeJ+WoPu48q2mqJDjy39dBaTzGncJxUKbvEdSc21mIQv3AheBErXf2lG408cTbukLbDjtiUX26vx6Fbdu0P5JYsygUoz9Ye4jKgpUbTZB+RqTrn%2FBLwMzGVwVA7SRcKVbGlpfN6cPkZkBA9ptzDlMBf0wAA%2FlsC7xaibKvsHTWLMX%2FuqYDq75mphVsCFbsZ%2FyQs%2FKCQERhmLpWcfJWgkQgB1qFWrcNmIetRHNrq4imR5ro3KdstRjcBWfY64l8jd+HXg7Njpsw%2FMo48Y6qvWQmlrqSTXrNKIGaVjlHPi7BfLe8QdkCKGD8pY9JTw925YtXxsyFoOsrklK7jkAaslmMmzhKuuacPvZt79fupqC4t7xq4OLFLY4C4=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777429160.0,
-      "hot": false
-    },
-    {
-      "id": "a5bd030706",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Te Puke Jet Sport Racer chasing World Finals dream in the US",
-      "summary": "The 23-year-old Mainfreight worker has clinched major jet sport titles.",
-      "link": "https://www.nzherald.co.nz/bay-of-plenty-times/news/te-puke-jet-sport-racer-chasing-world-finals-dream-in-the-us/U2AULO4OKRAULORFTREITOJBDM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ZQZ3OFYKTJHEVGIGELPFP75L5A.jpg?auth=6850e0541869f85567cc9e54f6b9f3984c7e80e911aef6829410666be88dda50&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777428240.0,
-      "hot": false
-    },
-    {
-      "id": "7c8d6708ee",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Listen to The Country: Christopher Luxon on his relationship with the media",
-      "summary": "On today's show: Christopher Luxon, Mike Petersen, Matt Keyte and Hunter McGregor.",
-      "link": "https://www.nzherald.co.nz/the-country/news/listen-to-the-country-christopher-luxon-on-his-relationship-with-the-media/L2POQHCVSBGIDBSQLL7MDCNSJM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/DWU3O6Q3XJAMXI5EVVFOSFFIMY.jpg?auth=1aed734969da26bbf02e8f2a1c10105c512985bcb76479ef59e3871643685664&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777427975.0,
-      "hot": false
-    },
-    {
-      "id": "d02a1a5ec9",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "6% pay rise agreed for junior doctors",
-      "summary": "Union president Jordan Tewhaiti-Smith said reaching an agreement without having to take industrial action was \"a huge win\".",
-      "link": "https://www.rnz.co.nz/news/health/593701/6-percent-pay-rise-agreed-for-junior-doctors",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777427212.0,
-      "hot": false
-    },
-    {
-      "id": "9887888b3a",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Wellington woman sentenced decades after unlawful sexual connection with her 14yo cousin",
-      "summary": "'You were, at all times, aware of the victim’s age,' judge tells offender at sentencing.",
-      "link": "https://www.nzherald.co.nz/nz/wellington/wellington-woman-sentenced-decades-after-unlawful-sexual-connection-with-her-14yo-cousin/E2HJRGTUGZGF5BBEGT7O7XSO6E/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/O2CSMTTNS5B4PL2KN5DG2MQNPQ.jpg?auth=9755ff598550de16a089128045add786479027956e774d7f371728ac1c7351e9&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777426658.0,
-      "hot": false
-    },
-    {
-      "id": "c34baf99ee",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Fuel update: MBIE reveals latest stock levels amid stalled efforts to end Iran war",
-      "summary": "The ministry said levels remain well above the minimum requirements.",
-      "link": "https://www.nzherald.co.nz/nz/politics/fuel-update-mbie-reveals-latest-stock-levels-amid-stalled-efforts-to-end-iran-war/A4U2OGMVFNE2DIJJPJOUU3RMR4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/527CSSJ5EBBJJGKR7EZ3KY3RDA.jpg?auth=2389886b3e84255e23965b6f884bb765fb86e5ee4efde5d692c01b50879907cb&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777426199.0,
-      "hot": false
-    },
-    {
-      "id": "4d8e998d0b",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Proposed leave bill will make workers' lives 'materially worse', select committee hears",
-      "summary": "Part-time and shift workers say they'll lose money under leave changes - but the minister in charge says it's unavoidable.",
-      "link": "https://www.rnz.co.nz/news/political/593693/proposed-leave-bill-will-make-workers-lives-materially-worse-select-committee-hears",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1777421175.0,
-      "hot": false
-    },
-    {
-      "id": "ebe8317429",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Where does your tax money actually go?",
-      "summary": "In the year to 30 June, 2025, total government spending was $183.5 billion.",
-      "link": "https://www.rnz.co.nz/news/business/593644/where-does-your-tax-money-actually-go",
-      "image": null,
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777396471.0,
+      "pub_ts": 1777431122.0,
       "hot": false
     }
   ]
