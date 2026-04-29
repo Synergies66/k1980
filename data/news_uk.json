@@ -1,9 +1,27 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-29T07:05:12.767164+00:00",
-  "total": 28,
+  "updated_at": "2026-04-29T10:26:12.250261+00:00",
+  "total": 29,
   "articles": [
+    {
+      "id": "e4a9d74b30",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "《穿Prada的惡魔2》陷種族歧視爭議：亞洲首映受關注，有專家稱這是能影響一代人的「嚴肅問題」",
+      "summary": "《穿Prada的惡魔2》釋出影片中的亞裔角色形象惹爭議，學者指出這樣落後扁平、非常刻板印象化的亞裔形象會影響一代人的心理健康。",
+      "link": "https://www.bbc.com/zhongwen/articles/c86dlxxv1dzo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/2833/live/fd04f2d0-43a9-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "8分前",
+      "pub_ts": 1777457843.0,
+      "hot": false
+    },
     {
       "id": "a7afdb9cc3",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "56分前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1777442918.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1777441970.0,
       "hot": false
     },
@@ -54,26 +72,80 @@
         "本地"
       ],
       "score": 73,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777438620.0,
       "hot": false
     },
     {
-      "id": "a6a0e34c95",
+      "id": "d1833dc349",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "英王查爾斯三世訪美：向美國國會發表歷史性演說的五大要點",
-      "summary": "演說中有一些部分，可能令民主黨人備受鼓舞，卻讓白宮方面側目。",
-      "link": "https://www.bbc.com/zhongwen/articles/c93x525wkppo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/04dd/live/4be42d20-4347-11f1-92c0-150b8e44bb63.jpg",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Musk accuses Altman of stealing a charity as courtroom battle begins",
+      "summary": "The case over OpenAI's history and public commitments could have major implications for the future of AI.",
+      "link": "https://www.bbc.com/news/articles/cz027nyz529o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/28ec/live/9d22f0c0-4330-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1777457566.0,
+      "hot": false
+    },
+    {
+      "id": "e5787e757b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Religious group targeted in modern slavery inquiry",
+      "summary": "Police raid properties and make \"several arrests\" at Crewe's Ahmadi Religion of Peace and Light group.",
+      "link": "https://www.bbc.com/news/articles/c759n2lnxz0o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/efd5/live/1d506fd0-43ad-11f1-9d89-8526d1435c1c.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "15分前",
+      "pub_ts": 1777457455.0,
+      "hot": false
+    },
+    {
+      "id": "792298d72d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Crewe religious group raided by police investigating allegations of serious sexual offences",
+      "summary": "About 500 officers deployed as part of operation at headquarters of Ahmadi Religion of Peace and Light Police have raided the headquarters of the Ahmadi Religion of Peace and Light following an invest",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/29/crewe-police-raid-ahmadi-religion-peace-light",
+      "image": "https://i.guim.co.uk/img/media/69341fc4bcc43cacc7f5f6a53986cf906ae42372/934_0_6990_5592/master/6990.jpg?width=140&quality=85&auto=format&fit=max&s=9e6f6b1e4deb9277bdbee8e5e7b403dc",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "22分前",
+      "pub_ts": 1777456988.0,
+      "hot": false
+    },
+    {
+      "id": "2ffa75ebb3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Sheep trampling over graves and eating flowers at cemetery",
+      "summary": "Residents are angry that loved ones' graves are being damaged and council has taken no action.",
+      "link": "https://www.bbc.com/news/articles/cm2pn1eje7eo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4037/live/6e38a5e0-4310-11f1-8d32-27ce5a537ca2.jpg",
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "2小时前",
-      "pub_ts": 1777436479.0,
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1777455681.0,
       "hot": false
     },
     {
@@ -90,8 +162,44 @@
         "科技"
       ],
       "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1777443808.0,
+      "ago": "1小时前",
+      "pub_ts": 1777452488.0,
+      "hot": false
+    },
+    {
+      "id": "a6a0e34c95",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "英王查爾斯三世訪美：向美國國會發表歷史性演說的五大要點",
+      "summary": "演說中有一些部分，可能令民主黨人備受鼓舞，卻讓白宮方面側目。",
+      "link": "https://www.bbc.com/zhongwen/articles/c93x525wkppo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/04dd/live/4be42d20-4347-11f1-92c0-150b8e44bb63.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 68,
+      "ago": "6小时前",
+      "pub_ts": 1777436479.0,
+      "hot": false
+    },
+    {
+      "id": "6977eb3a79",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Advert for £49 serum banned over 'five years younger' claim",
+      "summary": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
+      "link": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d36/live/1d7b7ab0-42ed-11f1-a707-eb91aea0f6a5.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777448896.0,
       "hot": false
     },
     {
@@ -107,8 +215,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777442448.0,
       "hot": false
     },
@@ -125,27 +233,9 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777439527.0,
-      "hot": false
-    },
-    {
-      "id": "52f7291dd9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "伊朗戰爭：美國在中東地區「偷雲」的虛假說法是如何流傳的？",
-      "summary": "從伊拉克到伊朗，毫無根據的「天氣戰爭」指控正於網上蔓延。",
-      "link": "https://www.bbc.com/zhongwen/articles/cg7p90mx45vo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1940/live/f2014b30-421a-11f1-af30-5bf899ef6a6b.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 68,
-      "ago": "23小时前",
-      "pub_ts": 1777362116.0,
       "hot": false
     },
     {
@@ -162,7 +252,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777438846.0,
       "hot": false
     },
@@ -175,68 +265,13 @@
       "title": "Al Fayed survivor was modern slavery victim, says Home Office",
       "summary": "Rachael Louw says she feels \"vindication\" and \"validation\" that her case has been recognised by the British government.",
       "link": "https://www.bbc.com/news/articles/c4g0qer941jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eabd/live/3e372dc0-4334-11f1-b41f-6d23471e6e69.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5992/live/fa67f210-43af-11f1-ac78-2112837ce2aa.jpg",
       "categories": [
         "政治"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777438812.0,
-      "hot": false
-    },
-    {
-      "id": "75341ab0f8",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘It’ll be in my Guardian obituary’: David Balfe on inspiring Blur’s Country House and tripping on To",
-      "summary": "He was the burned-out bigwig who moved to a very big house. Now back with his first music for decades, he talks about signing the Proclaimers, being punched by Julian Cope – and his Scott Walker-inspi",
-      "link": "https://www.theguardian.com/music/2026/apr/29/dave-balfe-inspiring-blur-country-house-tripping-top-of-the-pops",
-      "image": "https://i.guim.co.uk/img/media/b90791a3ed07685ca1145f29ead9d085d8800954/291_0_2918_2334/master/2918.jpg?width=140&quality=85&auto=format&fit=max&s=5752e927c289719dcbbdcbce9d50958d",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777435246.0,
-      "hot": false
-    },
-    {
-      "id": "c229c07893",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "All the right moves! 17 personal trainers on the exercise they always recommend – from planks to fac",
-      "summary": "Whether you are starting from scratch, or have a well-honed routine, moving can help us feel happier and healthier. Experts share their one essential exercise and how to get the most out of itMany of",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/29/17-personal-trainers-exercise-they-always-recommend-planks-face-pulls",
-      "image": "https://i.guim.co.uk/img/media/989742ce7816cff5441f90d8f227ee5e34b878a9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2bc2b030b37ce476efa1378966dc99a7",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777435245.0,
-      "hot": false
-    },
-    {
-      "id": "1dc6006c22",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Widow’s Bay review – Matthew Rhys’ intoxicating comedy-horror is an absolute blast",
-      "summary": "Mare of Easttown meets Schitt’s Creek in this rich, wonderful and laugh-out-loud series, in which a put-upon mayor tries to turn a cursed New England island into a tourist hotspotWhat do you do if you",
-      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/29/widows-bay-review-matthew-rhys-intoxicating-comedy-horror-is-an-absolute-blast",
-      "image": "https://i.guim.co.uk/img/media/5ff07cf3f70f57587ed7e9337d1371d602b57719/499_0_4397_3517/master/4397.jpg?width=140&quality=85&auto=format&fit=max&s=7836b93697736d9f32b27272db7e0b83",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777435245.0,
       "hot": false
     },
     {
@@ -294,21 +329,77 @@
       "hot": false
     },
     {
-      "id": "5941246fd7",
+      "id": "75341ab0f8",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Former FBI director charged with threatening Trump's life in Instagram post",
-      "summary": "The new case stems from a 2025 seashell photo posted by the former FBI director that the justice department says calls for violence against Trump.",
-      "link": "https://www.bbc.com/news/articles/cvgz4rvlem5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ec6b/live/49b65430-4395-11f1-ac78-2112837ce2aa.jpg",
+      "title": "‘It’ll be in my Guardian obituary’: David Balfe on inspiring Blur’s Country House and tripping on To",
+      "summary": "He was the burned-out bigwig who moved to a very big house. Now back with his first music for decades, he talks about signing the Proclaimers, being punched by Julian Cope – and his Scott Walker-inspi",
+      "link": "https://www.theguardian.com/music/2026/apr/29/dave-balfe-inspiring-blur-country-house-tripping-top-of-the-pops",
+      "image": "https://i.guim.co.uk/img/media/b90791a3ed07685ca1145f29ead9d085d8800954/291_0_2918_2334/master/2918.jpg?width=140&quality=85&auto=format&fit=max&s=5752e927c289719dcbbdcbce9d50958d",
       "categories": [
         "科技"
       ],
       "score": 60,
       "ago": "6小时前",
-      "pub_ts": 1777422245.0,
+      "pub_ts": 1777435246.0,
+      "hot": false
+    },
+    {
+      "id": "c229c07893",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "All the right moves! 17 personal trainers on the exercise they always recommend – from planks to fac",
+      "summary": "Whether you are starting from scratch, or have a well-honed routine, moving can help us feel happier and healthier. Experts share their one essential exercise and how to get the most out of itMany of",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/apr/29/17-personal-trainers-exercise-they-always-recommend-planks-face-pulls",
+      "image": "https://i.guim.co.uk/img/media/989742ce7816cff5441f90d8f227ee5e34b878a9/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=2bc2b030b37ce476efa1378966dc99a7",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777435245.0,
+      "hot": false
+    },
+    {
+      "id": "1dc6006c22",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Widow’s Bay review – Matthew Rhys’ intoxicating comedy-horror is an absolute blast",
+      "summary": "Mare of Easttown meets Schitt’s Creek in this rich, wonderful and laugh-out-loud series, in which a put-upon mayor tries to turn a cursed New England island into a tourist hotspotWhat do you do if you",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/apr/29/widows-bay-review-matthew-rhys-intoxicating-comedy-horror-is-an-absolute-blast",
+      "image": "https://i.guim.co.uk/img/media/5ff07cf3f70f57587ed7e9337d1371d602b57719/499_0_4397_3517/master/4397.jpg?width=140&quality=85&auto=format&fit=max&s=7836b93697736d9f32b27272db7e0b83",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777435245.0,
+      "hot": false
+    },
+    {
+      "id": "78f05c1e57",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Former US officials criticise Pentagon silence on deadly Iran school attack",
+      "summary": "In the two months since the deadly strike, the Pentagon has said only that the incident is under investigation.",
+      "link": "https://www.bbc.com/news/articles/cwy2482pn0lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3dd5/live/94401ea0-4354-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777428110.0,
       "hot": false
     },
     {
@@ -325,17 +416,17 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777420061.0,
       "hot": false
     },
     {
-      "id": "fbd80a555a",
+      "id": "87b5380882",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Eleven cancers on the rise in young people - scientists find first clue why it's happening",
+      "title": "Eleven cancers on the rise in young people - scientists find first clue on why it's happening",
       "summary": "Researchers stress that simple lifestyle changes can still significantly reduce the risk of cancer.",
       "link": "https://www.bbc.com/news/articles/crepdjdj0z4o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e3f1/live/15103300-4394-11f1-b55d-0f258dce1735.jpg",
@@ -343,7 +434,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777419652.0,
       "hot": false
     },
@@ -361,44 +452,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1777418278.0,
-      "hot": false
-    },
-    {
-      "id": "65db3f49cc",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Reform is not racist, Welsh leader says in heated election debate",
-      "summary": "Wales' big six parties clashed in the TV debate less than two weeks before the Senedd election.",
-      "link": "https://www.bbc.com/news/articles/c0r2w79n9w1o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7a06/live/a71afaa0-4394-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777417645.0,
-      "hot": false
-    },
-    {
-      "id": "55262ef8a1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Face serum advert banned over 'five years younger' claim",
-      "summary": "Eucerin asked 160 people to use the serum for four weeks then say how much younger they thought they looked.",
-      "link": "https://www.bbc.com/news/articles/c78kl05en7po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d36/live/1d7b7ab0-42ed-11f1-a707-eb91aea0f6a5.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777417335.0,
       "hot": false
     },
     {
@@ -415,26 +470,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777417299.0,
-      "hot": false
-    },
-    {
-      "id": "f56389141d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Starmer sees off major Labour rebellion over call for Mandelson inquiry",
-      "summary": "No 10 deploys full weight to block parliamentary inquiry bid as MPs warn PM running out of political capitalKeir Starmer has seen off a major Labour rebellion over a bid to force a parliamentary inves",
-      "link": "https://www.theguardian.com/politics/2026/apr/28/starmer-sees-off-tory-calls-for-inquiry-into-mandelson-role-after-no-10-flexes-muscle",
-      "image": "https://i.guim.co.uk/img/media/6b0b6883246aacfbb62949680c1c2501874ba1a6/459_0_4044_3235/master/4044.jpg?width=140&quality=85&auto=format&fit=max&s=46976f22415ecd172f2354ab17b4fde7",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777416001.0,
       "hot": false
     },
     {
@@ -452,7 +489,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777415166.0,
       "hot": false
     },
@@ -460,7 +497,7 @@
       "id": "f7c9136521",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Starmer sees off inquiry call - but he doesn't escape unscathed",
       "summary": "No 10 has expended considerable political capital in keeping Labour MPs onside over the Mandelson vetting row.",
@@ -470,27 +507,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777413248.0,
-      "hot": false
-    },
-    {
-      "id": "fb27f3ae6f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "PM won't face inquiry over claims he misled MPs on Mandelson vetting",
-      "summary": "A Conservative-led motion sought to have the prime minister's remarks assessed by Privileges Committee.",
-      "link": "https://www.bbc.com/news/articles/cx21lx9ne83o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/78cd/live/2b4e6140-39ef-11f1-a10f-5774d1029b81.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
       "ago": "12小时前",
-      "pub_ts": 1777402128.0,
+      "pub_ts": 1777413248.0,
       "hot": false
     },
     {
@@ -507,7 +525,7 @@
         "移民"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1777396949.0,
       "hot": false
     }
