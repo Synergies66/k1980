@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-30T14:37:24.746886+00:00",
+  "updated_at": "2026-04-30T17:54:40.547969+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "4a09f31714",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Pentagon declines to comment on potential USFK troop cut, reaffirms 'unwavering' commitment to S. Ko",
+      "summary": "WASHINGTON, April 30 (Yonhap) -- A Pentagon official on Thursday declined to com...",
+      "link": "https://en.yna.co.kr/view/AEN20260501000200315",
+      "image": "https://img.yna.co.kr/photo/ap/2026/03/06/PAP20260306268101009_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777565189.0,
+      "hot": false
+    },
     {
       "id": "6e2c67ca09",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777554489.0,
       "hot": false
     },
@@ -36,8 +54,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777552908.0,
       "hot": false
     },
@@ -55,7 +73,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777550933.0,
       "hot": false
     },
@@ -72,8 +90,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777547375.0,
       "hot": false
     },
@@ -90,8 +108,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777547062.0,
       "hot": false
     },
@@ -108,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777546395.0,
       "hot": false
     },
@@ -126,27 +144,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777543955.0,
-      "hot": false
-    },
-    {
-      "id": "0bc4a79778",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Lee to host Labor Day event with major umbrella labor unions",
-      "summary": "SEOUL, April 30 (Yonhap) -- President Lee Jae Myung will host an event commemora...",
-      "link": "https://en.yna.co.kr/view/AEN20260430013500320",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/30/PYH2026043012630001300_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777541650.0,
       "hot": false
     }
   ]
