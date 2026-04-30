@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-04-30T17:54:40.547969+00:00",
+  "updated_at": "2026-04-30T21:38:48.639836+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "2a3bfb6268",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Top U.S., Chinese officials hold talks ahead of planned Trump-Xi summit",
+      "summary": "WASHINGTON, April 30 (Yonhap) -- Top diplomatic and economic officials of the Un...",
+      "link": "https://en.yna.co.kr/view/AEN20260501000300315",
+      "image": "https://img.yna.co.kr/photo/ap/2026/02/13/PAP20260213293201009_P2.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777578304.0,
+      "hot": false
+    },
     {
       "id": "4a09f31714",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777565189.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777554489.0,
       "hot": false
     },
@@ -54,8 +72,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777552908.0,
       "hot": false
     },
@@ -72,8 +90,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777550933.0,
       "hot": false
     },
@@ -91,7 +109,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777547375.0,
       "hot": false
     },
@@ -109,7 +127,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777547062.0,
       "hot": false
     },
@@ -127,26 +145,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777546395.0,
-      "hot": false
-    },
-    {
-      "id": "9f309afa42",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(LEAD) S. Korea, Australia agree to enhance cooperation on stable energy supplies amid Middle East c",
-      "summary": "SEOUL, April 30 (Yonhap) -- Top diplomats of South Korea and Australia held talk...",
-      "link": "https://en.yna.co.kr/view/AEN20260430008151315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/30/PYH2026043018590001300_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777543955.0,
       "hot": false
     }
   ]
