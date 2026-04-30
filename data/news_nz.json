@@ -1,68 +1,344 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-04-30T14:25:08.729267+00:00",
+  "updated_at": "2026-04-30T17:46:53.653628+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "b99a3119dd",
+      "id": "b8e459c123",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Immigration New Zealand visa rejection rate falls to post-Covid low",
+      "summary": "Visa declines fell to 65,000 in 2025, from more than 83,000 in 2024.",
+      "link": "https://www.nzherald.co.nz/nz/immigration-new-zealand-visa-rejection-rate-falls-to-post-covid-low/UDQPT7FTWBDIVKBDO7AM222JDQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/XA22AIRH7FCZ3D6JB7E2J7VWV4.jpg?auth=904ca13e5f182eec0a3a41dc099ec01b96cb64c64f1464916ae9579d598f3e6c&smart=true&width=300&height=300",
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "dd67187148",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Lindsey Vonn is not ready to decide if she will race again after horror Olympics crash",
-      "summary": "Vonn has undergone eight surgeries after suffering a complex left leg fracture — one that nearly led to a leg amputation — in the women’s downhill skiing race on February 8. She needs at least one mor",
-      "link": "https://www.stuff.co.nz/sport/360972617/lindsey-vonn-tells-ap-she-not-yet-position-emotion",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTZ3IWfOTrE%2FZyE%2FmJjwSmRWnTSl5MrIWWzrXq6lPB%2FotWdSrmA8rV944ymCR9ZHu%2FWR6DeXhPE%2FivUUIns1ZyoRKjTpUqnEpfZkuWVABLA1Nl8eq4sglMBKtQ13t9GCFhZD8UOM1YNG7VI20Hpw4zsDEQ0otS2eMUoA9OOYIdJOL4BSgaPLxkxQbc%2FN32nfNxTzj1zQpA7%2F5AuIXeveSIA+NbJ3zEitUfbSlTSPInqDQKguBZSjgX9wa4hAQfruMM4EQUSnZ7Rs2y3%2F5zX4BoahIsdXI8EIo++6jE5mHsXZLgx0fIXBmHWGBf8heGXem5q+zLwuUCm5RAeDy7Vl2rjAwV5dgn3Ku40tNhUpa2z+dbiELFo3VHcb3XJqACt9BSmevLFQ3hT7q%2FNL5evTn5ccWCLTVoiV1mWmTvQGUejecFcixmKCiJ8juttvF7RgS69Mrmsgb1%2Fk9Mk+fSiUi80=?resolution=1240x700",
+      "title": "UK raises national terror threat level after the stabbing of 2 Jewish men",
+      "summary": "LONDON (AP) — The U.K. government on Thursday said that the country is facing an antisemitism emergency and pledged to increase security for Jewish communities after a string of arson attacks and a do",
+      "link": "https://www.stuff.co.nz/world-news/360972651/uk-raises-national-terror-threat-level-after-stabbing",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYRgA2CAcmysuqRJ2RYygYc9lhVNtIsScoGTF6ELl4ACiu43AiGOxXOh6mKU%2F1TNs5J7xlB13Hf+DWYSgzeMnrNVtCA+dJ76UtlN4N6SNVVRLH6J7OVzD28xeO7hVSQHHPIT1V5yWwtH9qTtInuw3Wao=?resolution=1240x700",
       "categories": [
+        "政治",
         "科技"
       ],
       "score": 70,
-      "ago": "57分前",
-      "pub_ts": 1777555648.0,
+      "ago": "2分前",
+      "pub_ts": 1777571038.0,
       "hot": false
     },
     {
-      "id": "6907407fe9",
+      "id": "25bcce4422",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "New 'bluster' from Trump? Germany faces new threat about reduced US military presence in Europe",
-      "summary": "Trump's social media post on Wednesday followed comments by Chancellor Friedrich Merz that the US was being “humiliated” by Tehran as it slow-walks its diplomacy over the US-Israel war against Iran.",
-      "link": "https://www.stuff.co.nz/world-news/360972611/new-bluster-trump-germany-faces-new-threat-about-reduce",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdb0A5wResNbLRnrTSSDCV+%2F9mya5Ux5PzV7qK3Qgre5GXuqtrTHyclJQQpx6TTAKtTL3EJs+AM8SYqG4m7Z3nmSOIs1s3b+BftGjetPVLaFY51tn2Z%2FWswxsUR4GQ4smlxSsr7hJNMg+MGZ%2FOOSM3hItqJPlBVH4qDXH%2Fuxq7BIm%2F30hZbDfFAAdV+%2FLdODNbvo85ZQy%2Fd3DgUvktqXJXpG8uGSVqGLveeAQYfg6UDIDjdJNyaFKLJZcw84VYS5JCqsMw4AuGgxhPz4KRx+Z0nE+NPSIkvmhkqDua7oH5ttsK3rnkTomu3HEiw4dd2VvicS+uKDr1nSmptlWhmu%2FMS%2FroTk+J4p3pUVeBsEtmH6J+nKqlZUem3PyAf+IZD5g575yt8atm+lMVCytVSCukU3%2Fxu+d0ipFLihWTJPc8TOzi7tRAW1xkGFBtwsskoy8UHTAGsLVjEXm9uhv%2Fbkgi4=?resolution=1240x700",
+      "title": "‘I know you’re in heaven’: Mother mourns her Little Baby after tragic end to Alice Springs search",
+      "summary": "The mother of a five-year-old girl abducted and found dead near Alice Springs has penned a heartbreaking tribute to her daughter just hours after police discovered her body by a river bank.",
+      "link": "https://www.stuff.co.nz/world-news/360972640/i-know-youre-heaven-mother-mourns-her-little-baby-after-tragic-end-alice-springs-search",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfQSXXUZOIMnC9j5Zm8VsnCIxskZqK6m2gJiOnTyIxZNtj8WSj54BLIk20K8mzTbnqfVLcXMYgXTnLtRjRqbUCgaUTG08qLVHinY6Wu7PX2oIF4Pn7KISLBHO6DScDWCx3OQ+h8Fta9ft9ZLHK7XGxssL4ywXtNrFidxLj8TmbdL1dWFAFG+eCISyg9TFUjbyDj6GJ0YjN8tFbASuT7d2BdQsPuZ4YsfQfesM6opP+wImuUJ4vpnDGjupyzQ2n%2F2lSEB8BXxBtnDWW2x3XOMD3ciu%2F0ignGbPtRclaMmHN38D8ppSWYYghapPtFba+tpTkcusVDawUuOjjf7LqFDc+dOvaWMvK7FKTqjmyN7kgqENuNqK0Y99IpC76PbbzmAn8RS+OvDw6mgV7EzAony4ZpxRMGA+5fBG6Fy72PD3hrTj637mw1QIY3qCjPCXlbaAg==?resolution=1240x700",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777549877.0,
+      "score": 70,
+      "ago": "5分前",
+      "pub_ts": 1777570852.0,
       "hot": false
     },
     {
-      "id": "b307f6ddc2",
+      "id": "92edf1c340",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "UK vows to tackle antisemitism as reports claim stabbing suspect had been referred to counter-terror",
-      "summary": "Counterterrorism police are investigating whether the stabbings are linked to recent arson attacks on synagogues and other Jewish sites in the British capital.",
-      "link": "https://www.stuff.co.nz/world-news/360972608/uk-vows-tackle-antisemitism-emergency-police-probe-dou",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWqqaRC%2FY3APwc8P0nFR7aPQrKF95PmlqpBaxzu9mAe2q36uNUNiZhjehy8dKIRFb8izRfAHqJ4f05kbyYSkj7A62NSV3cYT3wtnHWmtLGLex8CAA5bE7XA0b6FoTENdtHIypkSQegdToPdpQO0g1so0WtMAswNzjev4YZxKKosyzWLfS2PBaVyvQ8EToYuXYxt5Dec83bsnEgRflP+UBT5UWzNW3RMhOoqha5zsiSX0teQs8yBTV+NEBMiwD5lWhUw5bzdAJUSsZEP4qA9Rvx+DhB72NDy4R7rCS4Fi71zAMptc116cdhza0pdkSA9hl%2FNK85xSII6TF2N6aPMUlAQ1e8ibQEZZ0awcJpbtDvq2zYigJbZ+66pKJDyv1bS3gAw8hqK4bEqQakkuqULjTC3zouKlCJToq7jMiF8QXPfAJ9ksXhZUMvo0Tz7URBITbwRx30PEuhTKj63xPZxAtx4=?resolution=1240x700",
+      "title": "Worst March month for liquidations in 11 years",
+      "summary": "More companies went into liquidation in March 2026 than in any other March since 2015, new data shows. Centrix's latest update showed 3023 liquidations in the year to March. In...",
+      "link": "https://www.rnz.co.nz/news/business/593908/worst-march-month-for-liquidations-in-11-years",
+      "image": null,
       "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1777570081.0,
+      "hot": false
+    },
+    {
+      "id": "ea51f458e1",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Edgy, raw: New Zealand musicians captured live in pictures",
+      "summary": "To mark the beginning of NZ Music Month we showcase a selection images courtesy of FromThePit.",
+      "link": "https://www.rnz.co.nz/life/music/edgy-raw-new-zealand-musicians-captured-live",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1777569495.0,
+      "hot": false
+    },
+    {
+      "id": "3672da71f8",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Would you eat a horse meat pie?",
+      "summary": "An Auckland bakery's horse meat pies have been going down well with customers, but some people don't like the idea.",
+      "link": "https://www.rnz.co.nz/life/food/would-you-eat-a-horse-meat-pie",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1777569494.0,
+      "hot": false
+    },
+    {
+      "id": "499a15fac7",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Cold snap bringing frosts and clear skies across the country",
+      "summary": "Despite the cold, good weather conditions are on the way.",
+      "link": "https://www.nzherald.co.nz/nz/cold-snap-to-bring-frosts-and-sunny-skies-across-the-country/U2VAKTMHBVHE3LVKADJB5ANRHA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/BGTM6KR43BAXTHS5N2WFG4C6VA.jpg?auth=60b2c056349df6ad6ea84929c4e804450b9a6ff3ff68a29db15c93b347e2bf4c&smart=true&width=300&height=300",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "6ef69ac4c3",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "University of Auckland professor Jonathan Sperry accused of attempting to sexually assault exchange ",
+      "summary": "Investigators said the professor had shown a “pattern of concerning behaviour\".",
+      "link": "https://www.nzherald.co.nz/nz/university-of-auckland-professor-jonathan-sperry-accused-of-attempting-to-sexually-assault-exchange-student-in-bullying-investigation/premium/DZGJQ4KHL5C4XCRQVSCHTIQD7A/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/PTAUJBRJKJE5NF334DIJXGSWPE.jpg?auth=bdcf88853134c93fcfb353b0367571ccd69cb1c2e14799c57d42033eaea20b45&smart=true&width=300&height=300",
+      "categories": [
+        "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777548600.0,
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "0fb3199dde",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Letters: King Charles should be applauded for his speech to the US Congress",
+      "summary": "OPINION: Unexpectedly wise words from the King.",
+      "link": "https://www.nzherald.co.nz/nz/letters-king-charles-should-be-applauded-for-his-speech-to-the-us-congress/premium/ZGZ3LY53CFFIVBDO7CAV6KNWLA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/WSFVF7PPIZDD5CDT66LES2ZYWU.jpg?auth=76c4b1624821da7a8d64021c77f4590e65682fa2eb21bd464ac4c0108b92d5c6&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "9e9114d2be",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Wellington City Council sends the wrong message with mayor’s office – Editorial",
+      "summary": "OPINION: Wellington's council put the mayor on level one and executives on level 10.",
+      "link": "https://www.nzherald.co.nz/nz/wellington-city-council-sends-the-wrong-message-with-mayors-office-editorial/premium/T5NSWELSBZEHXP6WTTIRQGPW7Y/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/7OSXLVPDDZFPBALEKBGUZRLE4Y.jpg?auth=35d2527804b663f1c9eca96bed64d5d7139b0f7c90589ab0eb4a7cc7ceaade00&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "481641d3b4",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Herald morning quiz: May 1",
+      "summary": "Test your brain with the Herald's morning quiz.",
+      "link": "https://www.nzherald.co.nz/nz/herald-morning-quiz-may-1/XUKV4IR4BBFVRDTQT3CIWASYGU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/4DOP4LZ4BNHNPIDMEG6T4ZJ46Q.jpg?auth=408f0d7a640c2cc430f16392c40b99c249b9387682c8092376ccb7c4589995ee&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "953628b7fd",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland school ball tickets hit $230, parents lash out at soaring costs",
+      "summary": "Ōrewa College parents say the price of ball tickets is an 'obscene' cost for families.",
+      "link": "https://www.nzherald.co.nz/nz/education/auckland-school-ball-tickets-hit-230-parents-lash-out-at-soaring-costs/5CPLUF5PGBBCZNQZ6NJFCZQHBA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/O2RCO3YCANFB3GAACEDIFE7MXA.jpg?auth=b5c1bb925408a3ab15289ac59e727c8e763e7ee6ab6f6e66948c61803006bcc5&smart=true&width=300&height=300",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "eb3ff65475",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "School lunch complaints: David Seymour urges ‘context’ after revelations of food safety probes",
+      "summary": "Seven cases involved metal in meals and one involved glass.",
+      "link": "https://www.nzherald.co.nz/nz/politics/school-lunch-complaints-david-seymour-urges-context-after-revelations-of-food-safety-probes/Z5C6ZXXXP5F2JOLZJN35VEMXY4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/BKJLY6WS4NCNZJHEO6EK4Y25SQ.JPG?auth=af78ba7b17dbe5c9cd868e1a42e363b6c3e97f360a4aec44685617d77a6cf3a6&smart=true&width=300&height=300",
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1777568400.0,
+      "hot": false
+    },
+    {
+      "id": "bce498d596",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Union wants one employment agreement for polytechs despite dissolution of national institute",
+      "summary": "The Tertiary Education Union said the different institutes had a single collective agreement under the now-dissolved national institute Te Pūkenga.",
+      "link": "https://www.rnz.co.nz/news/education/593903/union-wants-one-employment-agreement-for-polytechs-despite-dissolution-of-national-institute",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
+      "hot": false
+    },
+    {
+      "id": "7e9f088c0b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Cancer Society calls on politicians for fully funded cervical screening ahead of election",
+      "summary": "The charity has launched its election manifesto at Parliament, and also wants the government to deliver on the 90 percent HPV immunisation target by 2030.",
+      "link": "https://www.rnz.co.nz/news/health/593902/cancer-society-calls-on-politicians-for-fully-funded-cervical-screening-ahead-of-election",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
+      "hot": false
+    },
+    {
+      "id": "161f1a8964",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Bay of Plenty MP Tom Rutherford to ask government for Mt Maunganui restoration funding",
+      "summary": "Hundreds of residents attended a community meeting for updates on the re-opening of Mauao, nearly 100 days after a landslide killed six holiday-makers.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/593901/bay-of-plenty-mp-tom-rutherford-to-ask-government-for-mt-maunganui-restoration-funding",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
+      "hot": false
+    },
+    {
+      "id": "3a8ae733e5",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "State Highway 3 closure forces Taranaki patients into gruelling post-op road trips",
+      "summary": "What was normally a two-and-a-half to three-hour drive ended up being closer to seven hours for one patient.",
+      "link": "https://www.rnz.co.nz/news/health/593900/state-highway-3-closure-forces-taranaki-patients-into-gruelling-post-op-road-trips",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
+      "hot": false
+    },
+    {
+      "id": "4a9fb0df68",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "National insists coalition is stable, even as cracks begin to show",
+      "summary": "Analysis - National MPs say they have confidence in the coalition's stability, even as they criticise Foreign Minister Winston Peters for releasing emails without notifying the prime minister.",
+      "link": "https://www.rnz.co.nz/news/political/593899/national-insists-coalition-is-stable-even-as-cracks-begin-to-show",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
       "hot": false
     },
     {
       "id": "592283043e",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "Winston Peters didn't release Iran war stance emails to embarrass PM - Helen Clark",
       "summary": "A political spat has broken out over the release of emails showing the prime minister wanted to express \"explicit public support\" for the US within days of the war in Iran starting.",
@@ -72,281 +348,118 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777546259.0,
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777568025.0,
       "hot": false
     },
     {
-      "id": "b025a47d75",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Teen killed in Whangārei's Abbey Caves had concerns about trip, grieving mother says",
-      "summary": "Karnin Petera, who was 15, died during a Whangārei Boys' High School trip to Abbey Caves in May 2023.",
-      "link": "https://www.rnz.co.nz/news/regions_northland/593897/teen-killed-in-whangarei-s-abbey-caves-had-concerns-about-trip-grieving-mother-says",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777542528.0,
-      "hot": false
-    },
-    {
-      "id": "73fa129a44",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Moa Point failure a 'nightmare' for Wellington businesses, group says",
-      "summary": "The council has announced a financial support package of $200,000 which would be a \"matter of survival\" for some businesses, a local group says.",
-      "link": "https://www.rnz.co.nz/news/community/593893/moa-point-failure-a-nightmare-for-wellington-businesses-group-says",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777542448.0,
-      "hot": false
-    },
-    {
-      "id": "0c2f4d98fe",
+      "id": "7eb6762b55",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Storm coach Craig Bellamy diagnosed with neurodegenerative disorder",
-      "summary": "Multiple grand final winning Melbourne Storm coach Craig Bellamy has been diagnosed with a form of neurodegenerative disorder after undergoing health tests.",
-      "link": "https://www.stuff.co.nz/sport/360972602/storm-coach-craig-bellamy-diagnosed-neurodegenerative-disorder",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYd4Kan8btlab9ZKoU5W9wU0xdA4z0nnJxgnAV2T4E2P3geMX%2F9S5cXA0yXkcxPctUNyrF6xALPS37GAQQuo0o0ROOUTUWKCNsV6dGfMw30Ddvh8PlIGGtsehoqqduYkCav5ugY9DB0LkhO8MNmRUwWo=?resolution=1240x700",
+      "title": "Man accused of trying to kill Trump at correspondents' gala agrees to remain jailed for now",
+      "summary": "Allen was injured during the attack but was not shot. A Secret Service officer was shot but was wearing a bullet-resistant vest and survived, officials say.",
+      "link": "https://www.stuff.co.nz/world-news/360972631/man-accused-trying-kill-trump-correspondents-gala",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYf%2FXMuV77PYicWsKbadI5jYyPxAw2duoT+jTF2evn2%2FTamfkq%2FmZYUF40bTj%2FoQqjraK+%2F+5Xr0yUxrnxu1V+FiPJ8NgQYI9leo8t%2Fu8XTA9ZXwFMct0UfbhMqnyib2tLcYCiiYS%2FkgnNCdvG6i2ToZnPx%2Ft57jMACoE+CyAVaSyhCXzsaUMnpGz8+fg+uT+FxVhEZ8YbB5GSuLE0AAkmqYDjnk42VbS+agxZG+j6MCNyvTES3vr6699z+%2FwVIDvzoI8yxDXyFXXp9QbNqlFtbK%2FjpIdDi%2FKs7Q1bHt34yhJRm7qslxEiZibQk87gPqL7aUF0yF1mEOj1vcCq3mTK7EgVODxf7XQLzVWdFhdzMkEB7squlVxF4T8JWgxLPJz7WWY4bA1GqcZh2n6gSJ7LIW47vwd7eWceB1vmUHMaxyki%2FuROPQBuVgGrwV9hJPOyBECGKKUe6BPaUa%2FbcZGENc=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777566150.0,
+      "hot": false
+    },
+    {
+      "id": "e3422463bd",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Trump hails ‘the greatest King’ as royal couple leave Washington",
+      "summary": "“The greatest King, in my book,” Mr Trump remarked as the two couples posed for photographs before entering the White House. He later told a small group of reporters: “We need more people like that in",
+      "link": "https://www.stuff.co.nz/world-news/360972633/trump-hails-greatest-king-royal-couple-leave-washingt",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYUqW1aRLBZD6ow%2FoR7VETjijL7xJvxPAvFhxi2zR6gsqe7vIgpaR%2F3OXHfJeIuj2+9fDyLVNvTX3vjHel+A2S6G+cYrdpkJt66YBHbAuw3N9ea2HmCClPPQpK9SDJeMPTVnk02D1g3Yd6KVKUFjNOD8jbZb2wbw2uUnFI6mTuvZzLgJuVERLYyzCawQHyN1GqyzZz+eWVWV6Li20rnkDgMfww6WC11FaLz%2FQsj1KQaaAFeLcLvWFhw7ay56mH7iQH0Ug+5D9JMozkmmcDXQauFE1NVoY7qoYA8M6EGyVY5Q3qLF6KekboS7plfv+x2DlKdT9SUhF71FS8dS6hOKfkJ1DDJYAvIlIfedwGI3LTeaS3qjnf1lf98Za0+v6ifOkOmvFGk8ilE51qgIqm9mQ7XEXRYKwDVFPFoBQBgJDvy%2FIhV8r2vuIFuZDfVIMfXmCZg==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777565821.0,
+      "hot": false
+    },
+    {
+      "id": "edd13eaf58",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "A minor typo turned into a $7200 nightmare. Why Air NZ wouldn’t fix it",
+      "summary": "One Kiwi woman is highlighting the unfairness of airlines’ name correction policies.",
+      "link": "https://www.stuff.co.nz/travel/360972382/minor-typing-error-turned-7200-nightmare-why-airline-wouldnt-fix-it",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcX7SHD%2FNr6DCdm%2FpvUMQdn%2F7j4LpIAYmxJxdecSbNvnW1fgAOMC02c9AIn+IJDtP+zMFTeBnXuEJIyzeK4KKsUSDGbCrrCF+1qYaCV6cxc2XqVSDpn4qRM5PRKSdo%2FrLHKjt6D2ncuqcWmLOQqAtgPcIsnSgbHY7OdNwWYmxRwsC9I91U00+niKgQeXGdeYRGourbeRaarmSeMv00dMTQ1t+FCfGIZ8NjVxdWPZ9Npd2N%2FkWQeUxNJVI2sF8POBQXsUIsY8MC%2F6d9MKHjEJZHer%2FrAVVF3CNE5x3seNwtyke5aUull7TEdIS8CQYTtOIoBPkZu9LoSRuBD%2FqVNZpYtdj2l1yZj10sBk2XIpeTJE+AYXjpcTy810f1TzdLxgqgpwhoyqQ12XaBqXSkY%2FIRrDyoG2k1+p2FEfPuIxLAJHf36U4oWjrzOq+Qsqll5oNQ==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777564800.0,
+      "hot": false
+    },
+    {
+      "id": "7c3bc161d5",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "The death of the fair go: Why Kiwis are losing faith in the job market",
+      "summary": "Kiwis no longer believe they will have a fair go at getting a job.",
+      "link": "https://www.stuff.co.nz/money/360972504/death-fair-go-why-kiwis-are-losing-faith-job-market",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTb+FzkFFdPfhUu8lkXlgXD8Xd4K%2FJhD8Gj3PYuf6gtx0ni+tpRITHhz0b3CPssWLM93ursTs8Iy0yGkpg4ZOK9qJ1hvyVNqz4uUGJVfyLcdlEp0HnE56uQbZAnfdSgZUPQII9VegHKcwnPsbY1oKisaiZqHDDUm0cz4WzkiK1lP1b0OQplDQOJWds8nlm7tP%2FlgfEwDw12UoP7MoiaJl0lYY9UakAKm+gX8odIixw4UPT1b0thEmjc0lORa6SRjRbjnIdbHTSXwQvgsylyGRVU2Nup6utL0C00wjRc4%2FKi+TL8YgreOX1wQI%2F+TLa5ETVNsqhURg0mihvRfdkXnZRdZUPEvcmFcQYJNqhUPd9o0LzTfnqiu7NSiaDz3ZClrXtajrg9GKSK5F%2FjRBUme4N0nu4KXLcOWJzSoWfyegP6siD3U7xp2z6iRlCVusqy+jV44NPhp8Gs0OP5Mwr6ZNBU=?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777564800.0,
+      "hot": false
+    },
+    {
+      "id": "7d270b7062",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Three years, many feuds: Tracking the decline of the National-NZ First partnership",
+      "summary": "National-NZ First relations are increasingly strained. A dispute over the Iran War is the latest bump in the road for the coalition.",
+      "link": "https://www.stuff.co.nz/nz-news/360972459/three-years-many-feuds-tracking-decline-national-nz-first-partnership",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYWlGQx0flTGU8UQUvzb1QB9YRqbayPUnOJLfeMqbs3Giz4IySgL%2FS2AH3WbR2Jq2l7fngL%2F5niUnlgfgcKvm5CgNt154nJgQDZ2a5Ei9RR5X9ezzdD89r3ppfsdbi6A0evbqy%2F8bo6Th2vNyMDMXGCE=?resolution=1240x700",
       "categories": [
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777540700.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777564800.0,
       "hot": false
     },
     {
-      "id": "27a1491a55",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "TVNZ's political editor suspended from Parliament for five days",
-      "summary": "Maiki Sherman has been suspended from Parliament from May 1 to May 6.",
-      "link": "https://www.rnz.co.nz/news/media-technology/593872/tvnz-political-editor-maiki-sherman-suspended-from-parliament-for-five-days",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777540055.0,
-      "hot": false
-    },
-    {
-      "id": "09ecd8c4f2",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Three vehicles involved in serious North Otago crash",
-      "summary": "Part of State Highway 1 is closed near Hampden in North Otago.",
-      "link": "https://www.rnz.co.nz/news/emergencies_local/593859/three-vehicles-involved-in-serious-north-otago-crash",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777538877.0,
-      "hot": false
-    },
-    {
-      "id": "d7519d9eba",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Up to six New Zealanders caught up in Israeli Defence Force’s interception of flotilla bound for Gaz",
-      "summary": "MFAT says its ability to help is limited as New Zealand has no embassy in Israel.",
-      "link": "https://www.nzherald.co.nz/nz/up-to-six-new-zealanders-caught-up-in-israeli-defence-forces-interception-of-flotilla-bound-for-gaza/VPLZGHESXJDOZCAN6CKY2RG7QU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/VUTOFNEVFBAGTAMQDE6Y7Z6CLA.jpg?auth=b56c5ae7fea2766e2e99509b8b8bf492226a2744cbd6cad82352d423475de0fb&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777537291.0,
-      "hot": false
-    },
-    {
-      "id": "7e36adc8a3",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Confidence slumps, costs surge as businesses face ‘perfect storm’, ANZ survey shows",
-      "summary": "The bank's latest business outlook survey shows headline confidence dropped from a net 32.5 percent in March to minus 10.6 percent in April.",
-      "link": "https://www.rnz.co.nz/news/business/593890/confidence-slumps-costs-surge-as-businesses-face-perfect-storm-anz-survey-shows",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777536948.0,
-      "hot": false
-    },
-    {
-      "id": "b0f164e432",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Rare comet C/2025 R3: How and when to see it in New Zealand night skies",
-      "summary": "It is best seen within an hour after sunset low in the western sky.",
-      "link": "https://www.nzherald.co.nz/nz/rare-comet-c2025-r3-how-and-when-to-see-it-in-new-zealand-night-skies/JQ3NHIELVNHIPAWHR7QOYW734M/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/3WQESDRYKRHK5JMSRE32HBTX7E.jpg?auth=7e9cbb5ec71c983ca9038a4cdef8297dfa588f2e84ef354872b8f618ff1eaccd&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777536000.0,
-      "hot": false
-    },
-    {
-      "id": "aa6c1e090b",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "South Auckland dancer jailed for indecent assaults on teen performers",
-      "summary": "Panapa Fagaio's victims thought of him 'like a brother'.",
-      "link": "https://www.nzherald.co.nz/nz/south-auckland-dancer-jailed-for-indecent-assaults-on-teen-performers/6JYFLWE7CBFQNHKQZXL6I6BCVU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/JWQ237UTRK6UT5WGDVCAE36KIA.jpg?auth=88cbd291754fa9841abedd405f587d12079de618522cc0e013bf6b6a9ca17e3d&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777536000.0,
-      "hot": false
-    },
-    {
-      "id": "b0eb2362e1",
+      "id": "190ca27ced",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Four New Zealanders caught up in Israel’s interception of the Global Sumud Flotilla",
-      "summary": "One participant, Samuel Leason, told Stuff they had no clue where the four were taken.",
-      "link": "https://www.stuff.co.nz/nz-news/360972478/four-new-zealanders-are-being-held-israel-after-global-sumud-flotilla-intercepted",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYV+DCFUurYD5z6KOi6TFLPUzA4FnAqTWrxnQNl18P3O7BiRSZ8MEjSiO7lgSEzY4+248hemTDW9PG5zgqy0J4f81MlT2c0uT+c%2F1sqlO2gZOrc5JJUIdm9jhFDs1FH+vcd6ljcP8hg4gvRRV%2FigzijSB58MC6kdvoJ99jzRy8r2m11xUbowZt9b76W9BXKluY0aIsLeIXey8A2PrT3Gc29XD3RU6nsU8SAGWFZY%2FW0r1GzIVsSCOxPohJpFLA%2F2q5YqAdpRLXfrrGIn04jJeozb6SX7wwTj4JU0OiumQPCisiQOkZL9yrtme2wrofriq4Jmm61gI64lo9XxFreem7OV%2FwC5OpMfXex5+R9H4+DZttcK2x+Jd+wNeorm167noABANoP5VjfTSH7KkDAWajSPMtov2Kofdmdf4GuSmRiRadsMCuq0NnV6MNIM%2FzRRoNa0dRpaeJ+cgUqLOL5JcB0U=?resolution=1240x700",
+      "title": "Property rights vs cultural heritage: The costly legal battle over a Taranaki pā site",
+      "summary": "After a 20-year saga involving cancelled roads and legal battles, the Environment Court has decided where the line between private rights and heritage protection lies.",
+      "link": "https://www.stuff.co.nz/nz-news/360969561/property-rights-vs-cultural-heritage-costly-legal-battle-over-taranaki-pa-site",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdpdH7t83ay0fMrXOHNaWPfnUKWAiy%2FIPv%2Fo6b8btXWJ0HJ7RAFSjYJLDhflldWUO20OaC2AGGRihMP4cD54VVKXK3G0cqcEuAuyG2oHrw6hRYfZeJj1M7UIY0xPl5xBDT+bXYpW78JdyZN1ZKzcqw14ymoM3gEOihxK%2FX9McjnOOe%2Fxijoj7iJ7Nub1HiMXd54oDVqAjhclXTH%2FsRvvHHkLCVCKSUTVODT3+W+i4e0cCnPPrEnsAPASDc9H4KkHsYaM6OIXAnlWMedDolUdd0+z++rljljdEEE6gB5RwQSbDjbjx1fsBKwEvJHFqFpPz74jagxhiBrWUn3D8f7R1G6w+B8RciiWzTzOL2Xfsw4w6rXlO0KjNBM9X9ZhjFqduDlAtlLKwU4pgYE+UjIsVD1D2cpID+0bdFugK3VhCA3wy4W2EABUjMY%2FW5ASGsl6eg==?resolution=1240x700",
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777535813.0,
-      "hot": false
-    },
-    {
-      "id": "8881f5c588",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Police to crack down on Auckland bike riders",
-      "summary": "A number of informal bike rides are planned across Auckland, they say.",
-      "link": "https://www.rnz.co.nz/news/community/593889/police-to-crack-down-on-auckland-bike-riders",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777535561.0,
-      "hot": false
-    },
-    {
-      "id": "292e85d7bf",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Brent crude surges to $123 a barrel on Iran war worries, while world stocks retreat",
-      "summary": "The price of Brent crude oil surged to around $123 a barrel early Thursday as stalled U.S.-Iran talks raised doubts over the reopening of the Strait of Hormuz and a permanent end to the Iran war.",
-      "link": "https://www.stuff.co.nz/world-news/360972589/brent-crude-surges-123-barrel-iran-war-worries-while",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQY73YtWJBnr+phevACN66PNnYeKPuJsQ%2FkcL75Jfm3nYr97yCCausAALl13ZNPLz+GI2HwncxgTPsPjwh1HjhXLwTAxnHbapXPexjnk7FFKT0h+WEYwcSMTSaU2Hvq%2Fw3he2AMgXkOoUIl2nmKyi5w=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777535377.0,
-      "hot": false
-    },
-    {
-      "id": "704f70b4f9",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "The anxious wait for the Phoenix's breakout star ahead of semifinal",
-      "summary": "The 17-year-old standout has been named in the squad for the first leg against Brisbane Roar despite an injury cloud hanging over her.",
-      "link": "https://www.stuff.co.nz/sport/360972580/star-teen-pia-vlok-race-fitness-ahead-wellington-phoenix-semifinal",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYTF0RdLwtIzFBnbqPnEV%2FsKuj6oO4UBtTCwO9RUtgl4W1hFAtJOosbPDJrGR5Sd+LtmMbERxRWZTZsJytRprIEvrfo98xKvTnyKvf4zWi4v3EklOBtwAjgk5nEB%2FFNzREOlZtjggk+DCHXJ1KUTbls5%2FRmsJ37GeIkk%2FXtfIUj9LWvCN2+sr6JhKaHEE9xt1h%2F8dlsMbCa6nNAXy7RQpdWeioCB5x%2Fb%2FEGbdw80IPjDVConkXJPqt+2blYuU%2FfGjSBGVVyjklj7rbMx9xbZ1bljCMvYtnJJ%2FEAYVytXX7qJE0eFXT7IkauYp0EopZnpUv6pUvvXLtF8QDyLC4l%2Fx3rfpnX7hYVA3OCXsrOibRSq4uzP0%2FgNqE1sQNvMhaeya%2FZOI2JpccKaFp1unaB1YP92YSHlzKydJpe%2FAHb%2FOGlicjzyFOrciNY1jVrSqW5Bb6g==?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777535148.0,
-      "hot": false
-    },
-    {
-      "id": "8a83eabcdd",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Nearly 200,000 people affected by misleading City Fitness membership prices - Commerce Commission",
-      "summary": "Gym chain City Fitness has battled claims in court it deceived customers with misleading membership prices.",
-      "link": "https://www.stuff.co.nz/nz-news/360972581/nearly-200000-people-affected-misleading-city-fitness-membership-prices-commerce-commission",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeAdDpA7FhwmI3IxuB9wcnsijtW7NAaXBZaKtVla5MW9j0p45Ua6y5mtzbFZWKFSx0FxcSkoh567+qsXmBO9CFK3i9mNkPAgyAqcoHFgpFFCJj%2F8eOqn7+woS9CMUvY146nmfRFb9W5sQ1zFO5yU154=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777534666.0,
-      "hot": false
-    },
-    {
-      "id": "d88a6eb7a9",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Auckland Southwestern Motorway lanes reopen after rock spill near Onehunga",
-      "summary": "The closure caused major delays, with traffic backing up towards Hillsborough.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/spill-of-rocks-closes-southwestern-southbound-lanes-near-onehunga/WTPYDXNCURAGHEU5LZCYMDUQAE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/6CWLZGGLPZGRZDSMMVRXCW5KNU.jpg?auth=e2211e32d36f47e55d816b8c637391afb5a971080c1f0dc947a88c516f6d8760&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777533699.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777564800.0,
       "hot": false
     },
     {
@@ -364,26 +477,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777533229.0,
-      "hot": false
-    },
-    {
-      "id": "0bdc3bd8f1",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Indian migrants killed on Desert Rd, Waiōuru in car v tanker crash had car seat in vehicle",
-      "summary": "The trio from India were known as \"hardworking and grateful\" and worked in NZ from 2023.",
-      "link": "https://www.nzherald.co.nz/nz/indian-migrants-killed-on-desert-rd-waiouru-in-car-v-tanker-crash-had-car-seat-in-vehicle/VV3VMNU77ZB2DCA2UF4RI4Y65M/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/IUPXJAY7CJDQJERO6ODIBTCYNQ.jpeg?auth=d03003fd53877c2d76c1a8a388644779326d4fb2e7fd23eefb996075f7264e8a&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777532400.0,
       "hot": false
     },
     {
@@ -401,26 +496,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777532190.0,
       "hot": false
     },
     {
-      "id": "9ecc3f90c5",
+      "id": "cf2f0d9ce8",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "RNZ 政治",
       "lang": "en",
-      "title": "Loud explosions as forklift catches fire at Port Nelson",
-      "summary": "Firefighters are working to contain the oil and diesel runoff.",
-      "link": "https://www.nzherald.co.nz/nz/loud-explosions-as-forklift-catches-fire-at-port-nelson/P5MPY2QOGFFUZDZLVTCSFNDAAU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/O73N3BCMWJBUBGMAAEPKX4J3EQ.JPG?auth=8602792b98f7cdc8d532733f594a2c070713be84b8456af82c33e0facb60c8ba&smart=true&width=300&height=300",
+      "title": "Virginity testing ban bill drawn from ballot",
+      "summary": "Labour list MP Priyanca Radhakrishnan's bill would make both virginity testing and hymenoplasty criminal offences, addressing what she says is a gap in current law.",
+      "link": "https://www.rnz.co.nz/news/indonz/593877/virginity-testing-ban-bill-drawn-from-ballot",
+      "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777530528.0,
+      "ago": "11小时前",
+      "pub_ts": 1777530765.0,
       "hot": false
     },
     {
@@ -438,62 +533,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777528992.0,
-      "hot": false
-    },
-    {
-      "id": "b64e992156",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Police target informal Auckland bike rides after safety concerns",
-      "summary": "Officers will monitor May weekend rides in Counties Manukau and Auckland City.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/police-target-informal-auckland-bike-rides-after-safety-concerns/IWEDECAVVFCGXIT4MH3XUZ5WMA/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/M3B4WH5T4JARHC5Z5BLWGJEH6Y.JPG?auth=b1cfb0e4957aeae186ed5b3fa6fb2680fadbd0c8008e8206ab94a7ab75d8fab6&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777528821.0,
-      "hot": false
-    },
-    {
-      "id": "351b328429",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Serious SH1 crash near Hampden leaves one dead, one critically injured",
-      "summary": "One person with critical injuries is in hospital and two others have minor injuries.",
-      "link": "https://www.nzherald.co.nz/nz/serious-sh1-crash-near-hampden-leaves-one-dead-one-critically-injured/OCP2VTNRGNB3TJO2LF6TINM4KM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/4AVD6W3UQVGZDAFNMPMMKHHFEQ.png?auth=a9941823b7caab686e9a823ac8e2bd8321b40f76d5ea16ddd2c6fc62b5fc8b28&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777526521.0,
-      "hot": false
-    },
-    {
-      "id": "558d73d982",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Dunedin City Councillor Benedict Ong defends leaking email",
-      "summary": "First-term councillor Benedict Ong is accused of disclosing confidential information in emails copied to journalists last week.",
-      "link": "https://www.rnz.co.nz/news/political/593865/dunedin-city-councillor-benedict-ong-defends-leaking-email",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777522034.0,
       "hot": false
     },
     {
@@ -510,45 +551,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1777514909.0,
-      "hot": false
-    },
-    {
-      "id": "8fa05a0e05",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "No incentive to stop catching undersized fish, minister says",
-      "summary": "Jones says opponents of his plans to scrap minimum size limits for commercial fishers have actually given the industry what they wanted all along.",
-      "link": "https://www.rnz.co.nz/news/political/593849/no-incentive-to-stop-catching-undersized-fish-minister-says",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777513406.0,
-      "hot": false
-    },
-    {
-      "id": "a27d9988da",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Winston Peters' release of Iran war emails 'no mistake', former Foreign Minister Phil Goff",
-      "summary": "Former Foreign Minister Phil Goff says he believes the Foreign Minister is undermining his coalition partner.",
-      "link": "https://www.rnz.co.nz/news/political/593847/winston-peters-release-of-iran-war-emails-no-mistake-former-foreign-minister-phil-goff",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777512638.0,
       "hot": false
     }
   ]
