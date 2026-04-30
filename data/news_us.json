@@ -1,32 +1,286 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-30T06:45:16.529589+00:00",
-  "total": 22,
+  "updated_at": "2026-04-30T10:21:22.184063+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "71ca824724",
+      "id": "47de0cc32c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "How a father and daughter duped NYC's art world with fake Warhols and Banksys",
-      "summary": "A father and daughter in New Jersey have pleaded guilty to running a years-long counterfeiting scheme to trick art galleries and auction houses into buying forged paintings",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119482/how-a-father-and-daughter-duped-nycs-art-world-with-fake-warhols-and-banksys",
+      "title": "These fans are boycotting the World Cup. Will they make it a bust?",
+      "summary": "Some fans in the U.S. and around the world are unhappy with World Cup ticket prices — and U.S. immigration policies. So they're deciding not to come, raising concerns across the travel industry.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5803486/fifa-world-cup-soccer-football-tickets",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1777539600.0,
+      "hot": false
+    },
+    {
+      "id": "23edb8ce2f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What the Voting Rights Act Decision Means, and Hegseth’s Heated Testimony",
+      "summary": "Plus, chatbots told scientists how to make bioweapons.",
+      "link": "https://www.nytimes.com/2026/04/30/podcasts/the-headlines/voting-rights-supreme-court-hegseth-testimony.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30dc-scotus-race-headlines-pmbh/30dc-scotus-race-headlines-pmbh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1777543208.0,
+      "hot": false
+    },
+    {
+      "id": "7ae5817272",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "To catch colorectal cancer early, advocates push to make 'poop talk' OK",
+      "summary": "It's a very treatable form of cancer if caught early, yet younger adults rarely get screened. Patient advocates want more people to talk to their doctors about risk factors and number 2.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5762752/colorectal-cancer-rates-young-screening",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1777543200.0,
+      "hot": false
+    },
+    {
+      "id": "d562a01e5a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Hit a New Wartime High as Iran Standoff Shows No End in Sight",
+      "summary": "The longer the disruption to Middle East fuel supplies lasts, the risk grows that higher energy costs will feed into broader inflation that could dent economic growth.",
+      "link": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-oil-stocks-hgkj/30biz-oil-stocks-hgkj-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1777541817.0,
+      "hot": false
+    },
+    {
+      "id": "97a8fadb5e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Democrats Regret Creating Independent Redistricting Commissions After Supreme Court Ruling",
+      "summary": "A decade ago, the party sought independent redistricting commissions. Now, in an era of extreme gerrymandering, such efforts could slow Democrats as they try to keep up with Republicans.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/democrats-independent-redistricting-commissions.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30pol-redistricting-commissions-qbzg/30pol-redistricting-commissions-qbzg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539886.0,
+      "hot": false
+    },
+    {
+      "id": "c270878974",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Some Black Southerners Say Voting Rights Ruling ‘Missed the Mark’",
+      "summary": "Veterans of the civil rights movement and others said the Supreme Court decision felt like a bleak end to decades of gains in Black representation in the region.",
+      "link": "https://www.nytimes.com/2026/04/30/us/some-black-southerners-say-voting-rights-ruling-missed-the-mark.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30nat-vra-south-reax-gplk/30nat-vra-south-reax-gplk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539885.0,
+      "hot": false
+    },
+    {
+      "id": "e9859a077e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In Blow to Voting Rights Act, Supreme Court Embraces Claim of Racial Progress",
+      "summary": "The majority said the law was a victim of its own success and no longer needed. Dissenters responded that Congress should make the call.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/supreme-court-voting-rights-act-conservatives.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/us/politics/29DC-SCOTUS-RACE/29DC-SCOTUS-RACE-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539878.0,
+      "hot": false
+    },
+    {
+      "id": "be8fa3ffb1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iranians Live With Pain and Powerlessness, Beneath a Smooth Veneer",
+      "summary": "After months of upheaval, many are attempting to get on with their lives while quietly grappling with grief, economic stress and a loss of hope.",
+      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/iranian-mood-after-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30Iran-mood-01-fptk/30Iran-mood-01-fptk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539867.0,
+      "hot": false
+    },
+    {
+      "id": "61c1be3ff8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Iraq vet redefining mindfulness, one bourbon at a time",
+      "summary": "Like many vets, it took Fred Minnick time to find the best way to cope with what he would learn was PTSD. For Minnick, sense and peace came with bourbon — and \"taste mindfulness.\"",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5786543/veteran-bourbon-mindfulness",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539600.0,
+      "hot": false
+    },
+    {
+      "id": "de6ce505c8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Mirroring Gaza, Israel is destroying towns and villages in southern Lebanon",
+      "summary": "In southern Lebanon, towns near the border with Israel have been largely destroyed by Israeli demolitions and strikes. Israel says it has been attacking Hezbollah infrastructure, but civilian infrastr",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119210/lebanon-israel-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539600.0,
+      "hot": false
+    },
+    {
+      "id": "1f53eea2d5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Supreme Court paves the way for largest-ever drop in Black representation in Congress",
+      "summary": "By weakening Voting Rights Act protections against racial discrimination in redistricting, the Supreme Court has paved the way for the largest-ever drop in representation by Black members of Congress.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805050/supreme-court-voting-rights-congressional-black-caucus",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1777528343.0,
+      "ago": "1小时前",
+      "pub_ts": 1777539600.0,
+      "hot": false
+    },
+    {
+      "id": "3b7c9360b8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After lackluster tour turnout, Turning Point wraps things up with excited crowd in Idaho",
+      "summary": "The final stop on Turning Point USA's college campus tour at the University of Idaho seemed more like the organization's previous events, with audience member debates and an energetic, young crowd.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5803865/turning-point-idaho-college-campus-tour-kirk",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777539600.0,
+      "hot": false
+    },
+    {
+      "id": "9d47c7190d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Trump says he spoke with Putin about a possible ceasefire in Ukraine",
+      "summary": "President Trump said he talked to Russian President Putin Wednesday about the wars in Ukraine and Iran.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805188/trump-says-he-spoke-with-putin-about-a-possible-ceasefire-in-ukraine",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777538633.0,
+      "hot": false
+    },
+    {
+      "id": "353e1cd0c9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Activists say Israel has intercepted their Gaza aid flotilla near Crete",
+      "summary": "Activists sailing on dozens of boats attempting to break Israel's blockade of the Gaza Strip to deliver aid say Israeli forces intercepted them, detaining the crews while the flotilla was sailing near",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119486/israel-intercept-gaza-aid-flotilla",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777535977.0,
+      "hot": false
+    },
+    {
+      "id": "6446a8a33c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How rising jet fuel prices are driving up the cost of fighting wildfires",
+      "summary": "The Iran war has nearly doubled jet fuel prices in the United States. That means the bill for firefighting aircraft operations this summer will likely rise by tens of millions of dollars.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5775794/fuel-costs-iran-war-wildfires",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777532400.0,
       "hot": false
     },
     {
       "id": "9a3a8e655b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
       "summary": "President Trump suggested he could soon reduce the U.S. military presence in Germany as he continues to feud with Chancellor Friedrich Merz over the U.S-Israel war against Iran.",
@@ -35,161 +289,52 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777527704.0,
       "hot": false
     },
     {
-      "id": "ae67f88afd",
+      "id": "fcb11b84cc",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "British Royals Crisscross Manhattan in Brief Visit Packed With Photo Ops",
-      "summary": "King Charles III and Queen Camilla laid flowers at the Sept. 11 memorial before stopping by an urban farm, the New York Public Library, a business event and a gala.",
-      "link": "https://www.nytimes.com/2026/04/29/world/europe/king-charles-camilla-royals-nyc-visit.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29met-royal-visit-1/29met-royal-visit-1-mediumSquareAt3X.jpg",
+      "title": "Rising Fuel Prices Could Force Excruciating Choices on Economic Policies",
+      "summary": "The European Central Bank and Bank of England were expected to hold interest rates steady on Thursday while searching for signs of possible longer-term damage.",
+      "link": "https://www.nytimes.com/2026/04/30/business/bank-of-england-european-central-bank.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-europe-econ-bmzk/30biz-europe-econ-bmzk-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777511175.0,
-      "hot": false
-    },
-    {
-      "id": "60c6af494e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mamdani’s Advice to Royals: Give That Priceless Diamond Back to India",
-      "summary": "Mayor Zohran Mamdani and King Charles did not meet privately. But if they had, the mayor said, he probably would have raised the issue of the Koh-i-Noor Diamond.",
-      "link": "https://www.nytimes.com/2026/04/29/us/mamdani-diamond-king-charles.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29royal-visit-mamdani-diamond-jbpz/29royal-visit-mamdani-diamond-jbpz-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777511062.0,
-      "hot": false
-    },
-    {
-      "id": "949b39b2a0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Queen Camilla Unites Winnie-the-Pooh With a Long-Lost Friend",
-      "summary": "On Wednesday, the Queen of England presented the New York Public Library with a bespoke replica of Roo, the smallest companion of the Bear of Very Little Brain.",
-      "link": "https://www.nytimes.com/2026/04/29/books/queen-camilla-winnie-the-pooh.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29TBR-Queen-Pooh--mplt/29TBR-Queen-Pooh--mplt-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
+        "经济"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777504777.0,
+      "ago": "6小时前",
+      "pub_ts": 1777521672.0,
       "hot": false
     },
     {
-      "id": "03a484fe69",
+      "id": "9c1ecb0da3",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What the Royal State Dinner Guest List Says About Trump’s America",
-      "summary": "There were at least 10 American billionaires, six Fox News hosts, assorted presidential pals, no Democratic politicians and not so many British.",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/trump-white-house-state-dinner.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29dc-guestlist-fvkz/29dc-guestlist-fvkz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777504355.0,
-      "hot": false
-    },
-    {
-      "id": "e48201c79e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Strikes Down Louisiana Map, Another Blow to Voting Rights Act",
-      "summary": "The court struck down the voting map as an unconstitutional racial gerrymander in a move that could make it harder for lawmakers to create majority-minority voting districts.",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-voting-rights-act.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29dc-scotus-voting-top-hvbp/29dc-scotus-voting-top-hvbp-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777502677.0,
-      "hot": false
-    },
-    {
-      "id": "ae33bb4d3a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What the Supreme Court’s Voting Rights Ruling Could Mean for the Midterms",
-      "summary": "Democrats stand to lose at least one blue-leaning district in Louisiana, but the timing was unclear. Florida has approved a redder map, and Republicans in several other states are weighing new distric",
-      "link": "https://www.nytimes.com/2026/04/29/us/politics/supreme-court-voting-rights-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29voting-rights-scotus-midterms-ktbl/29voting-rights-scotus-midterms-ktbl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777502095.0,
-      "hot": false
-    },
-    {
-      "id": "ecfc0c7fb5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Fed Meeting Underscores Tough Task Ahead for Warsh",
-      "summary": "Jerome H. Powell on Wednesday announced he would stay on as a governor at the central bank as internal divisions sharpen about the policy path forward.",
-      "link": "https://www.nytimes.com/2026/04/29/business/economy/what-to-watch-at-the-federal-reserves-april-meeting.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29dc-fed-qbfz/29dc-fed-qbfz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777500389.0,
-      "hot": false
-    },
-    {
-      "id": "1e9560830c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court appears to lean toward ending TPS for some migrants",
-      "summary": "The U.S. Supreme Court appeared sympathetic to the Trump administration's move to end temporary protected status for Haitians and Syrians in the country.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5804707/supreme-court-tps",
+      "title": "Why the U.A.E. is Quitting OPEC",
+      "summary": "The United Arab Emirates is walking away from OPEC this May. The New York Times’ energy reporter, Rebecca Elliott, breaks down how the war with Iran provided the perfect opening for the U.A.E. to go s",
+      "link": "https://www.nytimes.com/video/business/100000010867871/why-the-uae-is-quitting-opec.html",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777500277.0,
+      "ago": "11小时前",
+      "pub_ts": 1777503078.0,
       "hot": false
     },
     {
       "id": "538279e090",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The Austrian nuns who fled their care home are now in Rome and visited the Vatican",
       "summary": "The three octogenarian nuns, who made headlines last year after they broke back into their convent, joined others at St. Peter's Square for a general audience with Pope Leo XIV on Wednesday morning.",
@@ -199,87 +344,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777499297.0,
-      "hot": false
-    },
-    {
-      "id": "2c53d740fb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Civil rights leaders see the voting rights ruling as a ‘betrayal.’",
-      "summary": "Leaders and activists said a Supreme Court ruling had the potential to unravel decades of work toward giving Black Americans fair representation.",
-      "link": "https://www.nytimes.com/live/2026/04/29/us/supreme-court-voting-rights/civil-rights-leaders-see-the-voting-rights-ruling-as-a-betrayal",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29voting-rights-scotus-reax1-tmkj/29voting-rights-scotus-reax1-tmkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777499086.0,
-      "hot": false
-    },
-    {
-      "id": "a876023e18",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "House extends a controversial spy tool, but Senate path is unclear ahead of deadline",
-      "summary": "The House has approved a three year extension of the surveillance program known as FISA Section 702. The bill now heads to the Senate, where it faces a difficult path to final passage.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119094/congress-fisa-702",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777498234.0,
-      "hot": false
-    },
-    {
-      "id": "7f4b0114f0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Long a dream, it's now real: a fast and accurate TB test that doesn't need phlegm",
-      "summary": "TB tests use phlegm — not the easiest thing to get or work with. It takes time for results. And there can be false negatives and positives. A new test is more accurate and takes less than half an hour",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5802789/tb-tuberculosis-rapid-test",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777496506.0,
-      "hot": false
-    },
-    {
-      "id": "337f51f104",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "DOD officials say Iran war has cost $25 billion so far during Congressional grilling",
-      "summary": "The Pentagon says that the cost of the war with Iran is estimated to be some $25 billion. Defense officials were appearing on the Hill for budget discussions.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5804516/dod-officials-say-iran-war-has-cost-25-billion-so-far-during-congressional-grilling",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777496319.0,
       "hot": false
     },
     {
       "id": "1277ae913f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The Iran war now has a price tag ($25 billion), but still no end date",
       "summary": "The Pentagon estimates the war has cost $25 billion over the past two months. In congressional testimony, Defense Secretary Pete Hegseth did not say when the war might end.",
@@ -289,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777492104.0,
       "hot": false
     },
@@ -307,7 +380,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1777472201.0,
       "hot": false
     },
@@ -325,62 +398,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1777459774.0,
-      "hot": false
-    },
-    {
-      "id": "11439df388",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "In the midst of an energy crisis, countries make plans to ditch oil, gas and coal",
-      "summary": "Against the backdrop of an energy crisis and a warming planet, more than 50 countries have come to Santa Marta, Colombia, to discuss concrete ways to phase out oil, gas and coal.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5786914/colombia-conference-fossil-fuels",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1777453200.0,
-      "hot": false
-    },
-    {
-      "id": "d3710c1923",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "EU says Meta is failing to keep underage users off Facebook and Instagram",
-      "summary": "The European Union accused Meta on Wednesday of failing to stop underage users from accessing Facebook and Instagram, in violation of the bloc's digital rules that require sites to protect minors.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119157/eu-meta-underage-users",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1777452278.0,
-      "hot": false
-    },
-    {
-      "id": "e9fa00ae1e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Palestinian refugee uses art to share the story of his childhood with his daughter",
-      "summary": "Basel Zaraa was a Palestinian refugee. When his 5-year-old daughter started asking him questions, he told her this story.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5788021/palestinian-refugee-uses-art-to-share-the-story-of-his-childhood-with-his-daughter",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1777451835.0,
       "hot": false
     },
     {
