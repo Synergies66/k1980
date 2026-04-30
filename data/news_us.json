@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-30T17:48:28.195182+00:00",
-  "total": 21,
+  "updated_at": "2026-04-30T21:30:13.369563+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "04f65cb163",
@@ -17,8 +17,8 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1777566207.0,
       "hot": false
     },
@@ -35,27 +35,172 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "11分前",
+      "score": 75,
+      "ago": "3小时前",
       "pub_ts": 1777570606.0,
       "hot": false
     },
     {
-      "id": "1592483119",
+      "id": "5c794105a6",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Withdraws Nomination of Casey Means for Surgeon General",
+      "title": "After Supreme Court Decision, Louisiana Weighs Redrawing House Maps",
+      "summary": "The Louisiana secretary of state said the House primary election would be delayed after the court ruled the state’s congressional districts unconstitutional. The Senate primary will go forward on May",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/louisiana-suspend-primaries-supreme-court.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30pol-louisiana-maps-jwvk/30pol-louisiana-maps-jwvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1777581493.0,
+      "hot": false
+    },
+    {
+      "id": "7290bf5411",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Will.i.am wants to future-proof a new generation",
+      "summary": "The Black Eyed Peas co-founder turned entrepreneur is now teaching a class on \"agentic AI\" for Arizona State.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5803133/black-eyed-peas-will-i-am-profile-arizona-state-ai-agent",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777579200.0,
+      "hot": false
+    },
+    {
+      "id": "643d972a8a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Voting Rights Ruling Could Fuel New Era of Redistricting Wars",
+      "summary": "The expected flood of new congressional maps is likely to produce fewer competitive districts, fewer ways for voters to hold elected officials accountable and more polarized politics.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/supreme-courts-voting-rights-gerrymandering.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30pol-redistricting-democracy-01-bfpl/30pol-redistricting-democracy-01-bfpl-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777578963.0,
+      "hot": false
+    },
+    {
+      "id": "8b8ceaa7d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump pulls Casey Means' stalled surgeon general nomination, announces new pick",
+      "summary": "President Trump says he's nominating former Fox News Channel contributor Dr. Nicole Saphier for surgeon general after Dr. Casey Means' path forward stalled in the Senate over questions about her exper",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119571/nicole-saphier-trump-casey-means-surgeon-general-nomination",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777577584.0,
+      "hot": false
+    },
+    {
+      "id": "c829bd2287",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Hegseth Says Iran Cease-Fire Stops Clock for Congressional Approval",
+      "summary": "The defense secretary testified on the eve of the 60-day mark of the war, a major statutory deadline for the president to withdraw forces or seek approval from Congress to continue the fight.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/hegseth-iran-cease-fire-congress.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30DC-HEGSETH-cmbl/30DC-HEGSETH-cmbl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777576480.0,
+      "hot": false
+    },
+    {
+      "id": "bc595255a1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. House primaries in Louisiana are suspended after Voting Rights Act ruling",
+      "summary": "Louisiana suspended its upcoming primaries for the U.S. House, following Wednesday's U.S. Supreme Court ruling that the state's congressional map is an \"unconstitutional racial gerrymander.\"",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5806000/louisiana-suspends-house-primaries-supreme-court",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777576124.0,
+      "hot": false
+    },
+    {
+      "id": "45d448b6cc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Picks Nicole Saphier for Surgeon General After Withdrawing Casey Means Nomination",
       "summary": "Dr. Means’s nomination had stalled in part over her views on vaccines. The president said he was instead nominating Dr. Nicole B. Saphier, a radiologist at Memorial Sloan Kettering Cancer Center.",
       "link": "https://www.nytimes.com/2026/04/30/us/politics/casey-means-surgeon-general-withdraw.html",
       "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30DC-MEANS-kfph/30DC-MEANS-kfph-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1777570498.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777572114.0,
+      "hot": false
+    },
+    {
+      "id": "5dc8623d4e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "In real-world test, an AI model did better than ER doctors at diagnosing patients",
+      "summary": "Researchers evaluated how well an AI model could diagnose and make decisions about patient care.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777572035.0,
+      "hot": false
+    },
+    {
+      "id": "4b58762e5b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Onion's bid to take over Infowars hits another snag",
+      "summary": "A Texas appeals court granted Jones's request to pause a deal that would allow the satirical website The Onion to license the Infowars brand name and turn the show into a mockery of itself.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5806038/the-onion-infowars-alex-jones-takeover",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777571777.0,
       "hot": false
     },
     {
@@ -71,81 +216,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "21分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777569983.0,
       "hot": false
     },
     {
-      "id": "edb8fe3e00",
+      "id": "bf2e8ed49e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "House Passes Stalled Homeland Security Funding Bill, Ending Shutdown",
-      "summary": "Republicans were forced to use a special maneuver to steer around opposition in their own party and speed the measure to the floor, relying on Democrats to push it through.",
-      "link": "https://www.nytimes.com/2026/04/30/us/politics/house-homeland-security-funding-bill.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/dc-spend-qwbm/dc-spend-qwbm-mediumSquareAt3X-v2.jpg",
+      "title": "How the Voting Rights Decision May Block the Rise of Young Black Leaders",
+      "summary": "Black Democrats in the South already face steep challenges when seeking political office. But the Supreme Court’s ruling could be felt for a generation.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/voting-rights-act-young-black-democrats.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30nat-vra-pipeline-zfpw/30nat-vra-pipeline-zfpw-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777569407.0,
-      "hot": false
-    },
-    {
-      "id": "640f2705dd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran’s Supreme Leader Signals Plan to Maintain Control Over Strait of Hormuz",
-      "summary": "Ayatollah Mojtaba Khamenei said in a statement that Iran would establish “new legal frameworks” for the Strait of Hormuz. He also said his country would retain its nuclear capabilities.",
-      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/iran-war-supreme-leader-mojtaba-khamenei-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30int-iran-supremeleader-jhlm/30int-iran-supremeleader-jhlm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777567286.0,
-      "hot": false
-    },
-    {
-      "id": "1d58c3cb37",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Economy Grew 2 Percent in Early 2026 Even as War in Iran Began to Hit Energy Prices",
-      "summary": "Gross domestic product expanded at a 2 percent annual rate in the first three months of the year, a period including first weeks of conflict in the Middle East.",
-      "link": "https://www.nytimes.com/2026/04/30/business/us-economy-gdp-oil-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-gdp-qgvk/30biz-gdp-qgvk-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777563201.0,
-      "hot": false
-    },
-    {
-      "id": "877381c49d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues",
-      "summary": "The longer the disruption to Middle East fuel supplies lasts, the risk grows that higher energy costs will feed into broader inflation that could dent economic growth.",
-      "link": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-oil-stocks-hgkj/30biz-oil-stocks-hgkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777562642.0,
+      "ago": "4小时前",
+      "pub_ts": 1777567169.0,
       "hot": false
     },
     {
@@ -161,8 +252,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777562560.0,
       "hot": false
     },
@@ -179,34 +270,16 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777562022.0,
-      "hot": false
-    },
-    {
-      "id": "ec076849f2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'Fool me once…' Lawyers argue Kennedy Center should not meet same fate as the East Wing",
-      "summary": "Lawyers made arguments in hearings for two separate lawsuits against President Trump and the Kennedy Center's board this week. Both lawsuits want to halt plans to close the performing arts venue for t",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5803003/fool-me-once-lawyers-argue-kennedy-center-should-not-meet-same-fate-as-the-east-wing",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777560041.0,
       "hot": false
     },
     {
       "id": "b3718f6cef",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "U.K. calls antisemitism an emergency after arson and stabbing attacks on Jewish people",
       "summary": "The British government pledged to increase security for Jewish communities after a string of arson attacks and a double stabbing. But members of the community lashed out at the government.",
@@ -215,8 +288,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777559477.0,
       "hot": false
     },
@@ -233,8 +306,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777559379.0,
       "hot": false
     },
@@ -242,7 +315,7 @@
       "id": "c68c3c2e4b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iran war has cost $25B, Pentagon says. And, SCOTUS strikes blow to Voting Rights Act",
       "summary": "The Pentagon estimates the war with Iran has cost $25 billion so far. And, the Supreme Court ruled that Louisiana's 2024 election map was \"an unconstitutional racial gerrymander.\"",
@@ -252,33 +325,15 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777549095.0,
-      "hot": false
-    },
-    {
-      "id": "7ae5817272",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "To catch colorectal cancer early, advocates push to make 'poop talk' OK",
-      "summary": "It's a very treatable form of cancer if caught early, yet younger adults rarely get screened. Patient advocates want more people to talk to their doctors about risk factors and number two.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5762752/colorectal-cancer-rates-young-screening",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777543200.0,
       "hot": false
     },
     {
       "id": "de6ce505c8",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Mirroring Gaza, Israel is destroying towns and villages in southern Lebanon",
       "summary": "In southern Lebanon, towns near the border with Israel have been largely destroyed by Israeli demolitions and strikes. Israel says it has been attacking Hezbollah infrastructure, but civilian infrastr",
@@ -288,7 +343,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777539600.0,
       "hot": false
     },
@@ -307,7 +362,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777538633.0,
       "hot": false
     },
@@ -325,7 +380,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777535977.0,
       "hot": false
     },
@@ -343,7 +398,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1777527704.0,
       "hot": false
     },
@@ -361,7 +416,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1777499297.0,
       "hot": false
     },
