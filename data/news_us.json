@@ -1,9 +1,45 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-30T04:09:03.792737+00:00",
-  "total": 23,
+  "updated_at": "2026-04-30T06:45:16.529589+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "71ca824724",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a father and daughter duped NYC's art world with fake Warhols and Banksys",
+      "summary": "A father and daughter in New Jersey have pleaded guilty to running a years-long counterfeiting scheme to trick art galleries and auction houses into buying forged paintings",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119482/how-a-father-and-daughter-duped-nycs-art-world-with-fake-warhols-and-banksys",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777528343.0,
+      "hot": false
+    },
+    {
+      "id": "9a3a8e655b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
+      "summary": "President Trump suggested he could soon reduce the U.S. military presence in Germany as he continues to feud with Chancellor Friedrich Merz over the U.S-Israel war against Iran.",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119480/trump-weighing-reducing-american-troops-in-germany-after-iran-feud",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777527704.0,
+      "hot": false
+    },
     {
       "id": "ae67f88afd",
       "type": "news",
@@ -18,7 +54,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1777511175.0,
       "hot": false
     },
@@ -36,8 +72,27 @@
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1777511062.0,
+      "hot": false
+    },
+    {
+      "id": "949b39b2a0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Queen Camilla Unites Winnie-the-Pooh With a Long-Lost Friend",
+      "summary": "On Wednesday, the Queen of England presented the New York Public Library with a bespoke replica of Roo, the smallest companion of the Bear of Very Little Brain.",
+      "link": "https://www.nytimes.com/2026/04/29/books/queen-camilla-winnie-the-pooh.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29TBR-Queen-Pooh--mplt/29TBR-Queen-Pooh--mplt-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777504777.0,
       "hot": false
     },
     {
@@ -53,8 +108,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777504355.0,
       "hot": false
     },
@@ -71,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777502677.0,
       "hot": false
     },
@@ -89,8 +144,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777502095.0,
       "hot": false
     },
@@ -108,7 +163,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777500389.0,
       "hot": false
     },
@@ -126,26 +181,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777500277.0,
-      "hot": false
-    },
-    {
-      "id": "489a5f7080",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Limits Reach of Voting Rights Act",
-      "summary": "Also, the Pentagon estimates the Iran war cost at $25 billion. Here’s the latest at the end of Wednesday.",
-      "link": "https://www.nytimes.com/2026/04/29/briefing/supreme-court-voting-rights-act.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29evening-scotus-voting-vjkm/29evening-scotus-voting-vjkm-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777500259.0,
       "hot": false
     },
     {
@@ -162,7 +199,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777499297.0,
       "hot": false
     },
@@ -180,7 +217,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777499086.0,
       "hot": false
     },
@@ -198,7 +235,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777498234.0,
       "hot": false
     },
@@ -216,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1777496506.0,
       "hot": false
     },
@@ -234,7 +271,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1777496319.0,
       "hot": false
     },
@@ -252,44 +289,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777492104.0,
-      "hot": false
-    },
-    {
-      "id": "1196d8b7e3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Florida lawmakers pass a voting map that could help Republicans flip 4 House seats",
-      "summary": "The map drawn by Florida Gov. Ron DeSantis boosts President Trump's effort to reshape voting before the midterm elections. The GOP likely holds a slight edge over Democrats in redistricting now.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5804703/florida-redistricting-voting-map-republicans-house-seats",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777489525.0,
-      "hot": false
-    },
-    {
-      "id": "28374e6bfa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Elon Musk accuses OpenAI's leaders of 'looting the nonprofit' in court testimony",
-      "summary": "In his second day on the stand in the trial he launched against OpenAI, Elon Musk said the AI start-up he'd helped found had strayed from its charitable mission.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5803833/elon-musk-testimony-openai-altman-day-2",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "10小时前",
-      "pub_ts": 1777483827.0,
+      "pub_ts": 1777492104.0,
       "hot": false
     },
     {
@@ -306,7 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1777472201.0,
       "hot": false
     },
@@ -324,7 +325,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1777459774.0,
       "hot": false
     },
@@ -342,7 +343,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1777453200.0,
       "hot": false
     },
@@ -360,7 +361,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1777452278.0,
       "hot": false
     },
@@ -378,26 +379,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1777451835.0,
-      "hot": false
-    },
-    {
-      "id": "e7d20068b2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "How the U.K. is reacting to King Charles' visit to the U.S.",
-      "summary": "NPR's Steve Inskeep speaks with Lord Peter Ricketts, a member of the House of Lords and a former British diplomat, about King Charles' visit to the U.S. during a tumultuous time.",
-      "link": "https://www.npr.org/2026/04/29/nx-s1-5802924/how-the-u-k-is-reacting-to-king-charles-visit-to-the-u-s",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777451807.0,
       "hot": false
     },
     {
