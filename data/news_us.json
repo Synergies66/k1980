@@ -1,80 +1,115 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-04-30T14:29:22.815965+00:00",
-  "total": 23,
+  "updated_at": "2026-04-30T17:48:28.195182+00:00",
+  "total": 21,
   "articles": [
     {
-      "id": "47de0cc32c",
+      "id": "04f65cb163",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Trump’s Iran Blockade Is Complicating a High-Stakes Trip to China",
+      "summary": "If President Trump flies to China as planned in May, the primary topic will clearly be the rippling economic effects of a war that Beijing has made clear it viewed as unnecessary.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/trump-china-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/29DC-PREXY-vmcf/29DC-PREXY-vmcf-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777566207.0,
+      "hot": false
+    },
+    {
+      "id": "174cbb386c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "These fans are boycotting the World Cup. Will they make it a bust?",
-      "summary": "Some fans in the U.S. and around the world are unhappy with World Cup ticket prices — and U.S. immigration policies. So they're deciding not to come, raising concerns across the travel industry.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5803486/fifa-world-cup-soccer-football-tickets",
+      "title": "Congress ends record shutdown at the Department of Homeland Security",
+      "summary": "Thursday's vote in the House provides funding for DHS after a more than two-month shutdown,  but does not include dollars for Immigration and Customs Enforcement and Customs and Border Protection.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5806054/congress-dhs-shutdown",
       "image": null,
       "categories": [
-        "移民",
-        "科技"
+        "移民"
       ],
-      "score": 75,
-      "ago": "5小时前",
-      "pub_ts": 1777539600.0,
+      "score": 80,
+      "ago": "11分前",
+      "pub_ts": 1777570606.0,
       "hot": false
     },
     {
-      "id": "877381c49d",
+      "id": "1592483119",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues",
-      "summary": "The longer the disruption to Middle East fuel supplies lasts, the risk grows that higher energy costs will feed into broader inflation that could dent economic growth.",
-      "link": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-oil-stocks-hgkj/30biz-oil-stocks-hgkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1777558921.0,
-      "hot": false
-    },
-    {
-      "id": "78b7a17f06",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Behind Powell’s High-Stakes Decision to Stay at the Fed",
-      "summary": "Jerome H. Powell will remain a governor at the Federal Reserve after his term as chair ends, in a bid to guard against a further incursion by the Trump administration on the central bank’s independenc",
-      "link": "https://www.nytimes.com/2026/04/30/business/powell-fed-trump.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30dc-fed-wljc/30dc-fed-wljc-mediumSquareAt3X.jpg",
+      "title": "Trump Withdraws Nomination of Casey Means for Surgeon General",
+      "summary": "Dr. Means’s nomination had stalled in part over her views on vaccines. The president said he was instead nominating Dr. Nicole B. Saphier, a radiologist at Memorial Sloan Kettering Cancer Center.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/casey-means-surgeon-general-withdraw.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30DC-MEANS-kfph/30DC-MEANS-kfph-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1777558391.0,
+      "ago": "13分前",
+      "pub_ts": 1777570498.0,
       "hot": false
     },
     {
-      "id": "0adc811a26",
+      "id": "aa4234bc82",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Myanmar junta says Suu Kyi moved to house arrest, doubts linger",
+      "summary": "The secrecy surrounding Suu Kyi's new location has alarmed her son, Kim Aris, who says he has received no authoritative confirmation of her wellbeing.",
+      "link": "https://www.npr.org/2026/04/30/g-s1-119543/myanmar-junta-says-suu-kyi-moved-to-house-arrest-doubts-linger",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1777569983.0,
+      "hot": false
+    },
+    {
+      "id": "edb8fe3e00",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Rising Fuel Prices Force Policymakers to Weigh Excruciating Choices",
-      "summary": "The Bank of England and European Central Bank held interest rates steady on Thursday, as officials search for signs of possible longer-term damage and warn of the impact of a prolonged energy shock.",
-      "link": "https://www.nytimes.com/2026/04/30/business/bank-of-england-european-central-bank.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-europe-econ-bmzk/30biz-europe-econ-bmzk-mediumSquareAt3X.jpg",
+      "title": "House Passes Stalled Homeland Security Funding Bill, Ending Shutdown",
+      "summary": "Republicans were forced to use a special maneuver to steer around opposition in their own party and speed the measure to the floor, relying on Democrats to push it through.",
+      "link": "https://www.nytimes.com/2026/04/30/us/politics/house-homeland-security-funding-bill.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/dc-spend-qwbm/dc-spend-qwbm-mediumSquareAt3X-v2.jpg",
       "categories": [
-        "经济"
+        "本地"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1777558129.0,
+      "ago": "31分前",
+      "pub_ts": 1777569407.0,
+      "hot": false
+    },
+    {
+      "id": "640f2705dd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran’s Supreme Leader Signals Plan to Maintain Control Over Strait of Hormuz",
+      "summary": "Ayatollah Mojtaba Khamenei said in a statement that Iran would establish “new legal frameworks” for the Strait of Hormuz. He also said his country would retain its nuclear capabilities.",
+      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/iran-war-supreme-leader-mojtaba-khamenei-strait-hormuz.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30int-iran-supremeleader-jhlm/30int-iran-supremeleader-jhlm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777567286.0,
       "hot": false
     },
     {
@@ -90,27 +125,117 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1777556845.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777563201.0,
       "hot": false
     },
     {
-      "id": "41c01d8a8e",
+      "id": "877381c49d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Why the U.A.E. Is Quitting OPEC",
-      "summary": "The United Arab Emirates is walking away from OPEC this May. The New York Times’ energy reporter, Rebecca Elliott, breaks down how the war with Iran provided the perfect opening for the Emirates to go",
-      "link": "https://www.nytimes.com/video/business/100000010867871/why-the-uae-is-quitting-opec.html",
+      "title": "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues",
+      "summary": "The longer the disruption to Middle East fuel supplies lasts, the risk grows that higher energy costs will feed into broader inflation that could dent economic growth.",
+      "link": "https://www.nytimes.com/2026/04/30/business/oil-gas-price-iran.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30biz-oil-stocks-hgkj/30biz-oil-stocks-hgkj-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777562642.0,
+      "hot": false
+    },
+    {
+      "id": "c98daedf1b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Crop Undercount Raises Questions About Reliability of U.S.D.A. Data",
+      "summary": "Corn estimates were off by 4.5 million acres last year. A lack of survey responses, not job cuts, led to the miss, the Agriculture Department said.",
+      "link": "https://www.nytimes.com/2026/04/30/business/usda-farmers-crops-data.html",
+      "image": "https://static01.nyt.com/images/2026/04/23/multimedia/00biz-agdata-zhjl/00biz-agdata-zhjl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777562560.0,
+      "hot": false
+    },
+    {
+      "id": "dfe766ffe8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Craig Venter, pioneering human genome decoder, dies at 79",
+      "summary": "Pioneering scientist J. Craig Venter has died at 79. His \"whole genome shotgun method\" helped genome sequencing become faster and cheaper.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805891/craig-venter-decoding-human-genome-dies-79",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1777555779.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777562022.0,
+      "hot": false
+    },
+    {
+      "id": "ec076849f2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Fool me once…' Lawyers argue Kennedy Center should not meet same fate as the East Wing",
+      "summary": "Lawyers made arguments in hearings for two separate lawsuits against President Trump and the Kennedy Center's board this week. Both lawsuits want to halt plans to close the performing arts venue for t",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5803003/fool-me-once-lawyers-argue-kennedy-center-should-not-meet-same-fate-as-the-east-wing",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777560041.0,
+      "hot": false
+    },
+    {
+      "id": "b3718f6cef",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.K. calls antisemitism an emergency after arson and stabbing attacks on Jewish people",
+      "summary": "The British government pledged to increase security for Jewish communities after a string of arson attacks and a double stabbing. But members of the community lashed out at the government.",
+      "link": "https://www.npr.org/2026/04/30/nx-s1-5805890/uk-stabbing-jewish-community-attacks-antisemitism",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777559477.0,
+      "hot": false
+    },
+    {
+      "id": "4eac4bbe77",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Vaccine Skeptic in Trump’s New C.D.C. Leadership Team",
+      "summary": "Dr. Sara Brenner is a physician, an F.D.A. official and a “MAHA mom” who has said people should not reflexively believe in the benefits of vaccines.",
+      "link": "https://www.nytimes.com/2026/04/30/health/sara-brenner-cdc-kennedy.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/dc-brenner-vjhl/dc-brenner-vjhl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777559379.0,
       "hot": false
     },
     {
@@ -126,27 +251,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777549095.0,
-      "hot": false
-    },
-    {
-      "id": "23edb8ce2f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What the Voting Rights Act Decision Means, and Hegseth’s Heated Testimony",
-      "summary": "Plus, chatbots told scientists how to make bioweapons.",
-      "link": "https://www.nytimes.com/2026/04/30/podcasts/the-headlines/voting-rights-supreme-court-hegseth-testimony.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30dc-scotus-race-headlines-pmbh/30dc-scotus-race-headlines-pmbh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777543208.0,
       "hot": false
     },
     {
@@ -162,99 +269,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777543200.0,
-      "hot": false
-    },
-    {
-      "id": "be8fa3ffb1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iranians Live With Pain and Powerlessness, Beneath a Smooth Veneer",
-      "summary": "After months of upheaval, many are attempting to get on with their lives while quietly grappling with grief, economic stress and a loss of hope.",
-      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/iranian-mood-after-war.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30Iran-mood-01-fptk/30Iran-mood-01-fptk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777539867.0,
-      "hot": false
-    },
-    {
-      "id": "30fb7ede9b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How the War in Iran is Affecting Africa’s Economy and Fuel Supply",
-      "summary": "Despite the fragile cease-fire in the Middle East, many Africans say they are bracing for tougher times ahead and making difficult decisions about the future.",
-      "link": "https://www.nytimes.com/2026/04/30/world/africa/iran-war-africa-economic-consequences.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30int-africa-iran-consequences-1-gpvw/30int-africa-iran-consequences-1-gpvw-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777539861.0,
-      "hot": false
-    },
-    {
-      "id": "61c1be3ff8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Iraq vet redefining mindfulness, one bourbon at a time",
-      "summary": "Like many vets, it took Fred Minnick time to find the best way to cope with what he would learn was PTSD. For Minnick, sense and peace came with bourbon — and \"taste mindfulness.\"",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5786543/veteran-bourbon-mindfulness",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777539600.0,
-      "hot": false
-    },
-    {
-      "id": "3b7c9360b8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "After lackluster tour turnout, Turning Point wraps things up with excited crowd in Idaho",
-      "summary": "The final stop on Turning Point USA's college campus tour at the University of Idaho seemed more like the organization's previous events, with audience member debates and an energetic, young crowd.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5803865/turning-point-idaho-college-campus-tour-kirk",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777539600.0,
-      "hot": false
-    },
-    {
-      "id": "1f53eea2d5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court paves the way for largest-ever drop in Black representation in Congress",
-      "summary": "By weakening Voting Rights Act protections against racial discrimination in redistricting, the Supreme Court has paved the way for the largest-ever drop in representation by Black members of Congress.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5805050/supreme-court-voting-rights-congressional-black-caucus",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777539600.0,
       "hot": false
     },
     {
@@ -270,8 +287,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777539600.0,
       "hot": false
     },
@@ -289,27 +306,9 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777538633.0,
-      "hot": false
-    },
-    {
-      "id": "79616536af",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The U.S. economy shows resilience despite the war with Iran",
-      "summary": "The U.S. economy revved up in the first three months of the year, despite a spike in energy prices caused by the war with Iran.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5802945/economy-gdp-energy-oil-prices-iran-war",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777538602.0,
       "hot": false
     },
     {
@@ -326,7 +325,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777535977.0,
       "hot": false
     },
@@ -344,7 +343,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777527704.0,
       "hot": false
     },
@@ -362,44 +361,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777499297.0,
-      "hot": false
-    },
-    {
-      "id": "1277ae913f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The Iran war now has a price tag ($25 billion), but still no end date",
-      "summary": "The Pentagon estimates the war has cost $25 billion over the past two months. In congressional testimony, Defense Secretary Pete Hegseth did not say when the war might end.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-119333/the-iran-war-now-has-a-price-tag-25-billion-but-still-no-end-date",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1777492104.0,
-      "hot": false
-    },
-    {
-      "id": "3888ac5a06",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from Syria, where a postwar olive harvest offers a long-lost taste of home",
-      "summary": "In the warm sun, gathering handfuls of hard olives promised a taste of home that residents of a village in the Homs countryside had been missing for nearly 14 years of civil war.",
-      "link": "https://www.npr.org/2026/04/29/g-s1-118663/syria-olive-harvest-homs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777472201.0,
       "hot": false
     },
     {
