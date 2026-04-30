@@ -1,9 +1,27 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-30T07:09:54.208774+00:00",
-  "total": 26,
+  "updated_at": "2026-04-30T10:25:37.949593+00:00",
+  "total": 28,
   "articles": [
+    {
+      "id": "617b9a87f3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "2026高雄「亞洲同志運動會」：中國大陸選手為何全數被拒入境",
+      "summary": "2026高雄亞洲同志運動會因中國選手報名人數大幅增加而引發爭議。超過800人報名，最終當地政府因安全疑慮全部拒絕後者入境。一位中國參賽者表示，報名後在當地遭多次約談，甚至影響工作，也被台灣拒絕入境，是被「雙重封殺」的苦主。",
+      "link": "https://www.bbc.com/zhongwen/articles/cgkp7n4k0v1o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/9c7c/live/21e800a0-446e-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 78,
+      "ago": "20分前",
+      "pub_ts": 1777543490.0,
+      "hot": false
+    },
     {
       "id": "ff126fe0d0",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "4小时前",
       "pub_ts": 1777526834.0,
       "hot": false
     },
@@ -35,9 +53,99 @@
       "categories": [
         "本地"
       ],
-      "score": 78,
-      "ago": "1小时前",
+      "score": 73,
+      "ago": "5小时前",
       "pub_ts": 1777526728.0,
+      "hot": false
+    },
+    {
+      "id": "5291f48c1b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Farringdon station shut due to suspected gas leak",
+      "summary": "A small number of passengers said they had felt unwell, British Transport Police said.",
+      "link": "https://www.bbc.com/news/articles/c707wj5k4d2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6aa3/live/2c04f840-447d-11f1-88ff-575186ed76aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "0分前",
+      "pub_ts": 1777544685.0,
+      "hot": false
+    },
+    {
+      "id": "d92c5b0ac4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "What we know about the Golders Green stabbings",
+      "summary": "Two Jewish men have been stabbed in Golders Green, north London, an attack police have declared a terrorist incident.",
+      "link": "https://www.bbc.com/news/articles/cvgzdn665x6o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be20/live/7f15ba90-4457-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1分前",
+      "pub_ts": 1777544657.0,
+      "hot": false
+    },
+    {
+      "id": "eb6cc2d0fe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Oil price jumps after report Trump to be given new Iran options",
+      "summary": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
+      "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/e9ca4ae0-442a-11f1-84a0-55946b952877.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "4分前",
+      "pub_ts": 1777544444.0,
+      "hot": false
+    },
+    {
+      "id": "e3246c74fe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Statue with Banksy's signature appears in London",
+      "summary": "A sculpture of a man marching off a plinth in St James's appears to bear the artist's name.",
+      "link": "https://www.bbc.com/news/articles/c5y9wlnwl85o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ee0a/live/a69362f0-4477-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "8分前",
+      "pub_ts": 1777544229.0,
+      "hot": false
+    },
+    {
+      "id": "0a9f1f0bc9",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Israel intercepts Gaza flotilla near Crete and detains 175 activists",
+      "summary": "Pro-Palestinian activists say 22 boats carrying aid for Gaza were illegally intercepted in international waters near the Greek island.",
+      "link": "https://www.bbc.com/news/articles/c4g4lk9m77vo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ef63/live/b4c1f7c0-4471-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777540067.0,
       "hot": false
     },
     {
@@ -53,63 +161,9 @@
       "categories": [
         "政治"
       ],
-      "score": 73,
-      "ago": "2小时前",
+      "score": 68,
+      "ago": "6小时前",
       "pub_ts": 1777522333.0,
-      "hot": false
-    },
-    {
-      "id": "71995d4d16",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Oil price jumps after report Trump to be briefed on new Iran options",
-      "summary": "Axios reported that US Central Command has prepared a plan for a wave of \"short and powerful\" strikes on Iran.",
-      "link": "https://www.bbc.com/news/articles/cx21m88rd14o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f095/live/e9ca4ae0-442a-11f1-84a0-55946b952877.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1777532142.0,
-      "hot": false
-    },
-    {
-      "id": "6c279e95b0",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Revealed: British ad firm’s billion-dollar greenwash of US oil industry",
-      "summary": "WPP accused of breaching its climate policy after report reveals firm linked to twice as much oil advertising as US rivalsA British advertising conglomerate has helped the oil companies ExxonMobil, Ch",
-      "link": "https://www.theguardian.com/media/2026/apr/30/revealed-british-ad-firm-billion-dollar-greenwash-of-us-oil-industry",
-      "image": "https://i.guim.co.uk/img/media/2ac1717333b4b26311858c7d8f5d291847f7157e/274_0_4380_3504/master/4380.jpg?width=140&quality=85&auto=format&fit=max&s=8aedd427813d91db12ea9cd8de6b0146",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777528809.0,
-      "hot": false
-    },
-    {
-      "id": "72dc69c14a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "What we know about the attack",
-      "summary": "Two Jewish men have been stabbed in Golders Green, north London, an attack police have declared a terrorist incident.",
-      "link": "https://www.bbc.com/news/articles/cvgzdn665x6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be20/live/7f15ba90-4457-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777527478.0,
       "hot": false
     },
     {
@@ -126,7 +180,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777508041.0,
       "hot": false
     },
@@ -145,7 +199,7 @@
         "科技"
       ],
       "score": 68,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777507896.0,
       "hot": false
     },
@@ -163,8 +217,44 @@
         "本地"
       ],
       "score": 68,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777466092.0,
+      "hot": false
+    },
+    {
+      "id": "6d92903156",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "UK to invest further £25m in security for Jewish communities after London attack",
+      "summary": "Home secretary says she will ‘take every step’ to protect Jews as police say suspect is Somalia-born UK nationalShabana Mahmood has promised to “do everything in my power” to keep British Jews safe, a",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/30/uk-invest-security-jewish-communities-after-golders-green-stabbing-london",
+      "image": "https://i.guim.co.uk/img/media/8b8e4aa106d3519bb07bc588b28a1a977d90afa3/229_0_3750_3000/master/3750.jpg?width=140&quality=85&auto=format&fit=max&s=1675c7ada0b8179077591d9dfba3c3a2",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777535788.0,
+      "hot": false
+    },
+    {
+      "id": "6c279e95b0",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Revealed: British ad firm’s billion-dollar greenwash of US oil industry",
+      "summary": "WPP accused of breaching its climate policy after report reveals firm linked to twice as much oil advertising as US rivalsA British advertising conglomerate has helped the oil companies ExxonMobil, Ch",
+      "link": "https://www.theguardian.com/media/2026/apr/30/revealed-british-ad-firm-billion-dollar-greenwash-of-us-oil-industry",
+      "image": "https://i.guim.co.uk/img/media/2ac1717333b4b26311858c7d8f5d291847f7157e/274_0_4380_3504/master/4380.jpg?width=140&quality=85&auto=format&fit=max&s=8aedd427813d91db12ea9cd8de6b0146",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777528809.0,
       "hot": false
     },
     {
@@ -183,7 +273,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777525211.0,
       "hot": false
     },
@@ -201,7 +291,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777525210.0,
       "hot": false
     },
@@ -219,100 +309,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777525204.0,
-      "hot": false
-    },
-    {
-      "id": "f65f642ce1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Simply divine: the extraordinary supernatural visions of Francisco de Zurbarán",
-      "summary": "He painted sea battles, the labours of Hercules and breathtaking still lifes. But, as a major new exhibition makes clear, it was in his thrilling depictions of the spiritual that the Spanish master sh",
-      "link": "https://www.theguardian.com/artanddesign/2026/apr/30/simply-divine-the-extraordinary-supernatural-visions-of-francisco-de-zurbaran",
-      "image": "https://i.guim.co.uk/img/media/2a1b61e67b817dec41a3d845d69833e8bc857623/30_32_1826_1461/master/1826.jpg?width=140&quality=85&auto=format&fit=max&s=494619991fa9503b923fd6ceaa5a9c28",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777521608.0,
-      "hot": false
-    },
-    {
-      "id": "b616168e12",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "The Rendlesham Forest mystery: ‘It’s the perfect storm of a UFO case’",
-      "summary": "In 1980, two US airmen reported an extraordinary encounter near a military base in the east of England. What really happened?In 1996, Nick Pope wrote his first book. Open Skies, Closed Minds was a sem",
-      "link": "https://www.theguardian.com/world/2026/apr/30/the-rendlesham-forest-mystery-its-the-perfect-storm-of-a-ufo-case",
-      "image": "https://i.guim.co.uk/img/media/5c865ffdce7393f3d3e05ba1851a8294456c8561/843_0_4542_3634/master/4542.jpg?width=140&quality=85&auto=format&fit=max&s=487fd9f473704418ef16559de4b76ca5",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777521608.0,
-      "hot": false
-    },
-    {
-      "id": "3a7eee3740",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "As a Ukrainian journalist, I’ve covered the US for 20 years. I find it increasingly shocking",
-      "summary": "My country has been under occupation, dogged by corruption and war. Yet even I’ve been bewildered by the way the US seems to be fracturingA version of this piece appeared in the Dial under the headlin",
-      "link": "https://www.theguardian.com/world/2026/apr/30/as-a-ukrainian-journalist-ive-covered-the-us-for-20-years-i-find-it-increasingly-shocking",
-      "image": "https://i.guim.co.uk/img/media/ae8262d4100ab2b0e9321d0a42fa1af2daed972c/960_0_6484_5187/master/6484.jpg?width=140&quality=85&auto=format&fit=max&s=e3abadd4a23d655b5a8e5a3585f69235",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777521607.0,
-      "hot": false
-    },
-    {
-      "id": "983314adc7",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Have the royals got their mojo back from US visit?",
-      "summary": "Many commentators, even critics of the monarchy, seem delighted at the spectacle.",
-      "link": "https://www.bbc.com/news/articles/cqxpr404053o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15f6/live/1b425cd0-445c-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777520933.0,
-      "hot": false
-    },
-    {
-      "id": "a7afdb9cc3",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "分析：為什麼阿聯酋退出OPEC會帶來深遠影響？",
-      "summary": "這對目前的封鎖影響不大，但在那之後，一切都可能改變。",
-      "link": "https://www.bbc.com/zhongwen/articles/c4g4ey44k3ko/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/f4fa/live/1d2d8520-4316-11f1-8d32-27ce5a537ca2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1777442918.0,
       "hot": false
     },
     {
@@ -334,6 +332,80 @@
       "hot": false
     },
     {
+      "id": "f65f642ce1",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Simply divine: the extraordinary supernatural visions of Francisco de Zurbarán",
+      "summary": "He painted sea battles, the labours of Hercules and breathtaking still lifes. But, as a major new exhibition makes clear, it was in his thrilling depictions of the spiritual that the Spanish master sh",
+      "link": "https://www.theguardian.com/artanddesign/2026/apr/30/simply-divine-the-extraordinary-supernatural-visions-of-francisco-de-zurbaran",
+      "image": "https://i.guim.co.uk/img/media/2a1b61e67b817dec41a3d845d69833e8bc857623/30_32_1826_1461/master/1826.jpg?width=140&quality=85&auto=format&fit=max&s=494619991fa9503b923fd6ceaa5a9c28",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777521608.0,
+      "hot": false
+    },
+    {
+      "id": "b616168e12",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The Rendlesham Forest mystery: ‘It’s the perfect storm of a UFO case’",
+      "summary": "In 1980, two US airmen reported an extraordinary encounter near a military base in the east of England. What really happened?In 1996, Nick Pope wrote his first book. Open Skies, Closed Minds was a sem",
+      "link": "https://www.theguardian.com/world/2026/apr/30/the-rendlesham-forest-mystery-its-the-perfect-storm-of-a-ufo-case",
+      "image": "https://i.guim.co.uk/img/media/5c865ffdce7393f3d3e05ba1851a8294456c8561/843_0_4542_3634/master/4542.jpg?width=140&quality=85&auto=format&fit=max&s=487fd9f473704418ef16559de4b76ca5",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777521608.0,
+      "hot": false
+    },
+    {
+      "id": "3a7eee3740",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "As a Ukrainian journalist, I’ve covered the US for 20 years. I find it increasingly shocking",
+      "summary": "My country has been under occupation, dogged by corruption and war. Yet even I’ve been bewildered by the way the US seems to be fracturingA version of this piece appeared in the Dial under the headlin",
+      "link": "https://www.theguardian.com/world/2026/apr/30/as-a-ukrainian-journalist-ive-covered-the-us-for-20-years-i-find-it-increasingly-shocking",
+      "image": "https://i.guim.co.uk/img/media/ae8262d4100ab2b0e9321d0a42fa1af2daed972c/960_0_6484_5187/master/6484.jpg?width=140&quality=85&auto=format&fit=max&s=e3abadd4a23d655b5a8e5a3585f69235",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777521607.0,
+      "hot": false
+    },
+    {
+      "id": "983314adc7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Have the royals got their mojo back from US visit?",
+      "summary": "Many commentators, even critics of the monarchy, seem delighted at the spectacle.",
+      "link": "https://www.bbc.com/news/articles/cqxpr404053o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/15f6/live/1b425cd0-445c-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777520933.0,
+      "hot": false
+    },
+    {
       "id": "35666ae892",
       "type": "news",
       "region": "uk",
@@ -347,15 +419,33 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777508994.0,
+      "hot": false
+    },
+    {
+      "id": "6cfa78d283",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Endometriosis could be diagnosed earlier with new scan technique",
+      "summary": "A new scan technique could spot areas of endometriosis missed by conventional scans, scientists say.",
+      "link": "https://www.bbc.com/news/articles/clyplwvgxjvo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a852/live/6c3989f0-4462-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1777507739.0,
       "hot": false
     },
     {
       "id": "dc59fe6c8f",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Women can wait years for an endometriosis diagnosis. New tech could change that",
       "summary": "A new scan technique could spot areas of endometriosis missed by conventional scans, scientists say.",
@@ -365,7 +455,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777507739.0,
       "hot": false
     },
@@ -383,27 +473,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777507690.0,
-      "hot": false
-    },
-    {
-      "id": "2f709cf614",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Interest rates expected to be held as uncertainty over Iran war continues",
-      "summary": "Future base rate changes are hard to predict as analysts judge the economic impact of the Iran war.",
-      "link": "https://www.bbc.com/news/articles/cg7p89mp2rjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5bbe/live/b1192200-43d7-11f1-a133-a9dbeae5d5f3.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777503664.0,
       "hot": false
     },
     {
@@ -420,44 +491,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777499631.0,
-      "hot": false
-    },
-    {
-      "id": "572064a00b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Hereditary peers' last hurrah as 700-year-old system abolished",
-      "summary": "It comes after legislation to remove their right to sit in the upper chamber passed last month.",
-      "link": "https://www.bbc.com/news/articles/ckgp5j5gpplo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4149/live/802947b0-43fa-11f1-a314-cde9f81d6d3e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "12小时前",
-      "pub_ts": 1777488322.0,
-      "hot": false
-    },
-    {
-      "id": "ac456e7cb1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Police treating stabbing of two men in Golders Green as terrorism",
-      "summary": "Assailant was reportedly hunting for anyone ‘visibly Jewish’ in suspected antisemitic attack in north LondonPolice are treating the stabbing of two men in Golders Green, north London, as terrorism, wi",
-      "link": "https://www.theguardian.com/uk-news/2026/apr/29/stabbing-golders-green-london",
-      "image": "https://i.guim.co.uk/img/media/49fa7e78b1a2ffe992bdc1b277acbcc7491dd806/57_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=824be3ae5c29db7a955b8344169078e6",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1777482247.0,
+      "pub_ts": 1777499631.0,
       "hot": false
     },
     {
@@ -474,7 +509,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1777478595.0,
       "hot": false
     }
