@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-01T09:59:52.134338+00:00",
-  "total": 23,
+  "updated_at": "2026-05-01T13:57:49.229579+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "d181fc4ab1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A tech worker in China is laid off and replaced by AI. Is it legal?",
+      "summary": "A tech worker in eastern China's Hangzhou city was dismissed after his job was replaced by AI. An appeals court in the city has ruled the dismissal unlawful.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1777631751.0,
+      "hot": false
+    },
     {
       "id": "8adb981a5f",
       "type": "news",
@@ -17,9 +36,27 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1777625041.0,
+      "hot": false
+    },
+    {
+      "id": "5451a889ac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Republicans Want Tennessee’s Last Democratic House District",
+      "summary": "Republicans sliced Nashville into three G.O.P.-leaning congressional districts in 2022. After the Supreme Court decision on voting rights, Memphis could be next.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/republicans-want-tennessees-last-democratic-house-district.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01nat-vra-partisan-fpmb/01nat-vra-partisan-fpmb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1777641730.0,
       "hot": false
     },
     {
@@ -36,8 +73,8 @@
         "本地"
       ],
       "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1777626825.0,
+      "ago": "58分前",
+      "pub_ts": 1777640331.0,
       "hot": false
     },
     {
@@ -55,8 +92,44 @@
         "科技"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1777626439.0,
+      "ago": "1小时前",
+      "pub_ts": 1777637739.0,
+      "hot": false
+    },
+    {
+      "id": "2faf4caab6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Record-breaking DHS shutdown ends. And, May Day protests to draw crowds nationwide",
+      "summary": "Congress has ended the record-breaking shutdown of the Department of Homeland Security. And, May Day demonstrations across the U.S. are expected to draw crowds protesting the Trump administration.",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119694/up-first-newsletter-iran-us-strait-of-hormuz-dhs-shutdown-trump-surgeon-general",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777635857.0,
+      "hot": true
+    },
+    {
+      "id": "47956a734d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How well can EVs handle the heat — and the cold? AAA put them to the test",
+      "summary": "Electric vehicles lose some range in the winter — and, to a lesser degree, in the summer. But exactly how much? AAA has brand-new data.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5794657/aaa-electric-vehicle-batteries-range-summer-winter",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777633200.0,
       "hot": false
     },
     {
@@ -72,9 +145,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1777626435.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777632253.0,
       "hot": false
     },
     {
@@ -90,8 +163,8 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "57分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777626122.0,
       "hot": false
     },
@@ -109,8 +182,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "58分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777626060.0,
       "hot": false
     },
@@ -127,27 +200,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "58分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777626060.0,
-      "hot": false
-    },
-    {
-      "id": "5451a889ac",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Republicans Want Tennessee’s Last Democratic House District",
-      "summary": "Republicans sliced Nashville into three G.O.P.-leaning congressional districts in 2022. After the Supreme Court decision on voting rights, Memphis could be next.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/republicans-want-tennessees-last-democratic-house-district.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01nat-vra-partisan-fpmb/01nat-vra-partisan-fpmb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1777626012.0,
       "hot": false
     },
     {
@@ -163,8 +218,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777626000.0,
+      "hot": false
+    },
+    {
+      "id": "e44541a886",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Decimate' means much more today than it did in ancient Rome",
+      "summary": "Today, most people know the word as a synonym for \"destroy.\" But fewer realize its origins — or that it's come to mean something strikingly different than it once did.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5775464/decimate-ancient-rome-punishment-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777626000.0,
       "hot": false
     },
@@ -183,71 +256,16 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777626000.0,
-      "hot": false
-    },
-    {
-      "id": "a39eb494c3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Passenger railroads see a sharp jump in ridership as gas prices climb",
-      "summary": "More Americans are turning to the train as gas prices reach their highest point since the war in Iran began. Brightline, the privately-run railroad in Florida, had its best month ever in March.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5801525/gas-prices-rail-ridership-jumps",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1777626000.0,
-      "hot": false
-    },
-    {
-      "id": "e44541a886",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'Decimate' means much more today than it did in ancient Rome",
-      "summary": "Today, most people know the word as a synonym for \"destroy.\" But fewer realize its origins — or that it's come to mean something strikingly different than it once did.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5775464/decimate-ancient-rome-punishment-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1777626000.0,
-      "hot": false
-    },
-    {
-      "id": "768605bc1a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Morning news brief",
-      "summary": "Negotiations between the U.S. and Iran at a stalemate, Congress votes to end record DHS shutdown, Trump announces new nominee for surgeon general.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5798791/morning-news-brief",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777625078.0,
       "hot": false
     },
     {
       "id": "ad3903110f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Myanmar attempts to rehabilitate image with Suu Kyi move",
       "summary": "State television in Myanmar says detained opposition leader Aung San Suu Kyi has been transferred from prison to house arrest, more than five years after the military coup that removed her from power.",
@@ -256,8 +274,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777624226.0,
       "hot": false
     },
@@ -274,8 +292,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777622970.0,
       "hot": false
     },
@@ -292,8 +310,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777618244.0,
       "hot": false
     },
@@ -310,28 +328,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777612757.0,
-      "hot": false
-    },
-    {
-      "id": "a502a9eb03",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Zelenskyy says he's seeking details of Putin's May 9 ceasefire proposal",
-      "summary": "Ukrainian President Volodymyr Zelenskyy is seeking details of a short-term ceasefire Russia proposed to U.S. President Donald Trump.",
-      "link": "https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777611878.0,
       "hot": false
     },
     {
@@ -348,26 +347,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777590151.0,
-      "hot": false
-    },
-    {
-      "id": "f30fffb2b3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "20,000 civilian sailors are stuck in the gulf that opens to the Strait of Hormuz",
-      "summary": "Thousands of seafarers remain stuck as the Strait of Hormuz blockade continues. The United Nations urges for a plan to facilitate their release.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5802991/20-000-civilian-sailors-are-stuck-in-the-gulf-that-opens-to-the-strait-of-hormuz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777586004.0,
       "hot": false
     },
     {
@@ -385,7 +366,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777583418.0,
       "hot": false
     },
@@ -403,7 +384,7 @@
         "天气"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1777578963.0,
       "hot": false
     },
