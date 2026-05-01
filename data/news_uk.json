@@ -1,79 +1,97 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-04-30T21:33:06.625298+00:00",
-  "total": 29,
+  "updated_at": "2026-05-01T04:36:10.027530+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "f99f3eff26",
+      "id": "2d298473ed",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "緬甸軍方稱昂山素季已轉為「居家軟禁」",
+      "summary": "緬甸官方稱前領導人昂山素季（翁山蘇姬）已被軍政府從監獄移至軟禁，並公布其照片。80歲的她自2021年政變後遭長期關押。但其子對此消息持懷疑態度，向BBC表示照片是舊照，在未親自聯繫不會相信她仍活在人世。",
+      "link": "https://www.bbc.com/zhongwen/articles/c4g05ny4x5xo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/3899/live/6d4a1180-4510-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 78,
+      "ago": "24分前",
+      "pub_ts": 1777608704.0,
+      "hot": false
+    },
+    {
+      "id": "a106129b5e",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "不只有石油——伊朗戰爭及中國出口管制正威脅亞洲糧食安全",
+      "summary": "亞洲各國的播種季開始，但霍爾木茲海峽關閉和中國的出口限制已經對肥料供應造成打擊。",
+      "link": "https://www.bbc.com/zhongwen/articles/c1m297m15n9o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/adce/live/0e1318c0-3a60-11f1-879d-1b2f5c3919b8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1777597626.0,
+      "hot": false
+    },
+    {
+      "id": "93e4c65040",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "為什麼AI公司想讓你害怕？",
+      "summary": "他們開發了它。他們害怕它。然後他們又仍然在販售它。",
+      "link": "https://www.bbc.com/zhongwen/articles/cp8pl9g24gdo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/b01d/live/66b85600-445d-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 73,
+      "ago": "3小时前",
+      "pub_ts": 1777596790.0,
+      "hot": false
+    },
+    {
+      "id": "7e865431b2",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Rubio downplays reports US could review UK's claim to Falklands",
-      "summary": "The US secretary of state says a leaked memo suggesting America's position on the territory could be changed \"was just an email\".",
-      "link": "https://www.bbc.com/news/articles/c809r2721ymo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3360/live/0dc581d0-3fee-11f1-ac78-2112837ce2aa.jpg",
+      "title": "Public told 'be alert, not alarmed' as terror threat level raised after Golders Green attack",
+      "summary": "The UK's threat level has been lifted from \"substantial\" to \"severe\" for the first time in more than four years.",
+      "link": "https://www.bbc.com/news/articles/cq6p4pz6p62o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9ba4/live/12d58d20-44c4-11f1-9273-a335ca8f6d64.png",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "17分前",
-      "pub_ts": 1777583712.0,
-      "hot": false
+      "ago": "54分前",
+      "pub_ts": 1777606885.0,
+      "hot": true
     },
     {
-      "id": "844c8167b3",
+      "id": "c2162e8949",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Trump to remove whisky tariffs after King's visit",
-      "summary": "The US president said he would lift restrictions on Scotland's ability to work with the state of Kentucky on whisky and bourbon.",
-      "link": "https://www.bbc.com/news/articles/cjrp3pew2d5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e655/live/847b17c0-44cd-11f1-8de1-593a7bb5acaa.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1777581262.0,
-      "hot": false
-    },
-    {
-      "id": "516270d108",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Synagogue and homes evacuated due to property fire",
-      "summary": "The fire on Cazenove Road was brought under control and three people treated for smoke inhalation.",
-      "link": "https://www.bbc.com/news/articles/crlp81eddwdo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1240/live/67beeef0-44bd-11f1-b55d-0f258dce1735.png",
+      "title": "New footage shows how Trump dinner gunman charged through security in four seconds",
+      "summary": "The CCTV shows an officer draw a firearm and open fire as the suspect sprints past.",
+      "link": "https://www.bbc.com/news/articles/c4g7rmrlm17o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f4d8/live/a89e3ff0-44ec-11f1-ac78-2112837ce2aa.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777579535.0,
-      "hot": false
-    },
-    {
-      "id": "03a11edbd6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "King and Queen end US state visit with trip to small-town America",
-      "summary": "On the final day of the state visit, the royal couple headed to Virginia for a more informal experience of the US.",
-      "link": "https://www.bbc.com/news/articles/cdrpjm47jv4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ba8f/live/196a5720-44cd-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777579481.0,
+      "pub_ts": 1777603146.0,
       "hot": false
     },
     {
@@ -90,7 +108,7 @@
         "政治"
       ],
       "score": 68,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1777543490.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1777526834.0,
       "hot": false
     },
@@ -126,26 +144,153 @@
         "本地"
       ],
       "score": 68,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1777526728.0,
       "hot": false
     },
     {
-      "id": "7d91bd5995",
+      "id": "a1795992b4",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "美國前FBI局長科米的貼文讓其遭起訴，但專家懷疑政府能否勝訴",
-      "summary": "代理司法部長托德·布蘭奇表示，該案件已調查數月，並補充說：「威脅總統是件很嚴重的事。」",
-      "link": "https://www.bbc.com/zhongwen/articles/cq8pxz24l4zo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5293/live/218ec610-440b-11f1-8343-8378511e4aa9.png",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "King arrives in Bermuda after ending US trip with visit to small town America",
+      "summary": "On the final day of the state visit, the royal couple headed to Virginia for a more informal experience of the US.",
+      "link": "https://www.bbc.com/news/articles/cdrpjm47jv4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f8b/live/5aa30b60-44ff-11f1-ac10-efe18ee947fe.jpg",
       "categories": [
-        "政治"
+        "本地"
       ],
-      "score": 68,
-      "ago": "17小时前",
-      "pub_ts": 1777522333.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777601946.0,
+      "hot": false
+    },
+    {
+      "id": "4781b6dd9b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "May's full 'Flower Moon' will light up the sky on Friday 1 May",
+      "summary": "With spring flowers in full bloom, May's full Flower Moon rises on Friday as Darren Bett explains.",
+      "link": "https://www.bbc.com/weather/articles/cp846n0wkk6o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c51f/live/10b7a810-4475-11f1-b545-b533bcf4cad2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777595087.0,
+      "hot": false
+    },
+    {
+      "id": "ab6a8fb109",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "The struggle to get hold of medication in England is set to get worse",
+      "summary": "People living with conditions include heart problems, stroke risks, eye infections and bipolar are unable to get hold of the drugs they rely on.",
+      "link": "https://www.bbc.com/news/articles/c202jqn3jzro?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/84cc/live/daba4ac0-44b4-11f1-9caf-0fcd4fb68138.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777594980.0,
+      "hot": false
+    },
+    {
+      "id": "6075636af3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Chippies sell catfish as 'traditional fish supper'",
+      "summary": "A BBC investigation finds chip shop owners passing off cheaper species as \"traditional fish and chips\".",
+      "link": "https://www.bbc.com/news/articles/cvg0337n0y1o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c4fa/live/a21983f0-37dc-11f1-a488-f5dec36f7fff.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777594287.0,
+      "hot": false
+    },
+    {
+      "id": "210e99b2b5",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Restore Britain party refunds crypto project's donations",
+      "summary": "A Labour MP raised concerns about the donations with the Electoral Commission.",
+      "link": "https://www.bbc.com/news/articles/clypvwjjlgzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f782/live/8df007e0-43d1-11f1-bf3e-3d07e81b01ce.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777594032.0,
+      "hot": false
+    },
+    {
+      "id": "85ff10118e",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "UK should not keep changing prime ministers, warns John Major",
+      "summary": "The former Tory PM tells the BBC political leaders are letting young people down by failing tackle long-term problems.",
+      "link": "https://www.bbc.com/news/articles/cgepy0xw1nzo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/657d/live/70809e50-44b6-11f1-b55d-0f258dce1735.png",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777592694.0,
+      "hot": false
+    },
+    {
+      "id": "c680f2e1db",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Fertiliser boss says Iran war puts 10 billion meals a week at risk",
+      "summary": "A shortage of fertiliser due to the Iran conflict could reduce crop yields and push prices higher, says the boss of Yara.",
+      "link": "https://www.bbc.com/news/articles/cpwp50v4ye7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d953/live/27603670-44cc-11f1-8de1-593a7bb5acaa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777590489.0,
+      "hot": false
+    },
+    {
+      "id": "307c907c77",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Martha’s rule may have saved more than 500 lives in England since 2024",
+      "summary": "Patient safety mechanism which gives patients the right to seek a second opinion having ‘lifesaving impact’, says health secretary‘I am invoking Martha’s rule’: how a woman saved her father from near",
+      "link": "https://www.theguardian.com/society/2026/may/01/marthas-rule-may-have-saved-more-than-500-lives-in-england-since-2024",
+      "image": "https://i.guim.co.uk/img/media/642696c76ea7e1778a18347b9c91e73e4af85fb9/0_194_1629_1303/master/1629.jpg?width=140&quality=85&auto=format&fit=max&s=af2c9cab76a275b0b04d1cab84cef4ce",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777590031.0,
       "hot": false
     },
     {
@@ -161,263 +306,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "21小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1777508041.0,
-      "hot": false
-    },
-    {
-      "id": "4bf57e0d28",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "AI衝擊教育：中國家長怕孩子成了「科舉被廢後的秀才」",
-      "summary": "頻繁出現在她腦海的一幕是：1905年，清朝正式廢除了實行逾1300年的科舉制度。彼時，全國數以百萬的讀書人，十年寒窗，卻發現在這一道諭旨之後，整個仕途體系轟然瓦解。",
-      "link": "https://www.bbc.com/zhongwen/articles/clypne023mgo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/1f5c/live/13853a20-437c-11f1-acef-2f3f988d1704.jpg",
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 68,
-      "ago": "21小时前",
-      "pub_ts": 1777507896.0,
-      "hot": false
-    },
-    {
-      "id": "6cdf255a2f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "WW2 bomb to be blown up as 1,200 homes evacuated",
-      "summary": "Teams are working through the night to limit most of the damage to the surrounding area.",
-      "link": "https://www.bbc.com/news/articles/c62650ld8p3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/90d1/live/670ce360-44c5-11f1-9273-a335ca8f6d64.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777574926.0,
-      "hot": false
-    },
-    {
-      "id": "598beb6604",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "PM vows to act against people ‘venerating the murder of Jews’ as terror threat level rises",
-      "summary": "Keir Starmer pledges crackdown on protesters chanting or displaying antisemitic slogans as terror attack is assessed to be ‘highly likely’ Keir Starmer has pledged to crack down on those “venerating t",
-      "link": "https://www.theguardian.com/uk-news/2026/apr/30/starmer-calls-on-public-to-open-their-eyes-to-jewish-pain-in-wake-of-golders-green-attack",
-      "image": "https://i.guim.co.uk/img/media/bc2e695ce0e93995d58e76d7b8aadc3782732559/537_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=c5b759b26c8f1f13a4a9281099486057",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777574453.0,
-      "hot": false
-    },
-    {
-      "id": "2ca255136a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Hegseth ‘dangerously exaggerated’ US military triumph in Iran, Senate hears",
-      "summary": "Senator Jack Reed says at hearing that defense secretary failed to give Trump accurate picture of war in IranUS politics live – latest updatesSign up for the Breaking News US newsletter emailPete Hegs",
-      "link": "https://www.theguardian.com/us-news/2026/apr/30/pete-hegseth-iran-war-hearing",
-      "image": "https://i.guim.co.uk/img/media/b69af007fd435a6e1ca0e81d815410466de61aad/66_0_4585_3667/master/4585.jpg?width=140&quality=85&auto=format&fit=max&s=825988081c3b73f8c050e1e3560d454f",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777574270.0,
-      "hot": false
-    },
-    {
-      "id": "d92c5b0ac4",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "What we know about the Golders Green stabbings",
-      "summary": "Two Jewish men have been stabbed in Golders Green, north London, an attack police have declared a terrorist incident.",
-      "link": "https://www.bbc.com/news/articles/cvgzdn665x6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be20/live/7f15ba90-4457-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777573168.0,
-      "hot": false
-    },
-    {
-      "id": "b6e35cd8c3",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Elections watchdog considers looking into £5m gift to Farage",
-      "summary": "Reform UK mega donor Christopher Harborne gave the money to Nigel Farage in early 2024.",
-      "link": "https://www.bbc.com/news/articles/c62xg40w4ero?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be6e/live/5ef5d870-44b7-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777572118.0,
-      "hot": false
-    },
-    {
-      "id": "23cf478e59",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Banksy confirms he's behind statue in central London",
-      "summary": "The sculpture in central London of a man walking off a plinth while holding a flag has been drawing crowds.",
-      "link": "https://www.bbc.com/news/articles/c5y9wlnwl85o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97c0/live/1b3b5620-4497-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777569161.0,
-      "hot": false
-    },
-    {
-      "id": "30664d2a22",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "It's a miracle I survived, Golders Green victim tells BBC",
-      "summary": "Shloime Rand says he is thankful he survived after being stabbed during the attack in north London on Wednesday.",
-      "link": "https://www.bbc.com/news/articles/cdxprzdjewjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/cf9e/live/682a6480-44c9-11f1-8de1-593a7bb5acaa.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777567189.0,
-      "hot": false
-    },
-    {
-      "id": "77ffe4363a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Teens who lured man to beach to kill him sentenced to between five and seven years' custody",
-      "summary": "Alexander Cashford was attacked on a Kent beach by three teenagers who thought he was a paedophile.",
-      "link": "https://www.bbc.com/news/articles/c1m290e0x3xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4c8f/live/7b1945b0-44b1-11f1-9caf-0fcd4fb68138.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777566710.0,
-      "hot": false
-    },
-    {
-      "id": "afc66521a8",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Ex-Spandau Ballet star Ross Davidson jailed for rape",
-      "summary": "The former musical theatre star was found guilty of a series of rapes and sexual assaults against six women.",
-      "link": "https://www.bbc.com/news/articles/ce3pwkkp25jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1075/live/2e3a6b80-44a1-11f1-b55d-0f258dce1735.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777565742.0,
-      "hot": false
-    },
-    {
-      "id": "334cc3f39d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘Making the scarlet letter into my career’: my life as a sex writer",
-      "summary": "I thought my mother was ashamed of my taboo profession. Then I realized our experiences were more similar than I thoughtMy first viral personal essay was titled: “In Defense of Casual Sex”.It was 2008",
-      "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/apr/30/sex-writer-book",
-      "image": "https://i.guim.co.uk/img/media/f338c2015c1b125899d333f91a2c9ea5758fef23/31_655_2154_1722/master/2154.jpg?width=140&quality=85&auto=format&fit=max&s=0a89bb0748e133c05a9e0d27d68c9f96",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777564821.0,
-      "hot": false
-    },
-    {
-      "id": "b09cb2d959",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Political donations are poison to our democracy – but there’s an easy antidote to that | George Monb",
-      "summary": "As revelations about Reform UK’s donors emerge, it’s clear that increasingly complex forms of patronage can’t be regulated effectively. We need a clean sweepHow do we know whether political funding is",
-      "link": "https://www.theguardian.com/commentisfree/2026/apr/30/political-donations-poison-democracy-antidote-reform-uk",
-      "image": "https://i.guim.co.uk/img/media/c4e8790bfcfdc6b80d74c2f732ed139039119f1f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=85da2ce053b3749caaadd62188155d02",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777564738.0,
-      "hot": false
-    },
-    {
-      "id": "454020f47e",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "It’s amazing how much damage Kemi can do to herself in five minutes on local radio | John Crace",
-      "summary": "Echoes of Liz Truss as Badenoch blusters and blunders through series of short interviews, saving the worst for almost lastIt was the sort of day that every politician dreads. One where you can’t not s",
-      "link": "https://www.theguardian.com/politics/2026/apr/30/kemi-badenoch-five-minutes-local-radio-sketch",
-      "image": "https://i.guim.co.uk/img/media/d2d90c53bf70773a8b32b77fb5a6549363e3694e/1558_55_3306_2645/master/3306.jpg?width=140&quality=85&auto=format&fit=max&s=feac2e75f11aac9fde95a3fe59178399",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777563887.0,
-      "hot": false
-    },
-    {
-      "id": "1c1ca0f02b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Trainee driver crashes bus into River Seine near Paris",
-      "summary": "The driver hit a parked car and veered off the road into the river - about 12 miles south of Paris - early on Thursday.",
-      "link": "https://www.bbc.com/news/articles/cm2pyxpwmdro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92f2/live/92b58250-4499-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777563249.0,
       "hot": false
     },
     {
@@ -439,21 +330,147 @@
       "hot": false
     },
     {
-      "id": "2086e9f944",
+      "id": "d92c5b0ac4",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "「AI造黃謠」再引熱議，中國官媒下場斥責9.9元「一鍵脫衣」黑產",
-      "summary": "從DeepSeek到豆包，中國AI快速迭代發展，亦在近期被民眾發現有用戶在濫用AI創作淫穢制品廣為傳播，此現象在中國快速引起廣泛討論。",
-      "link": "https://www.bbc.com/zhongwen/articles/c3w26eqp8zpo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/7658/live/3af96a50-42a4-11f1-ac78-2112837ce2aa.jpg",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "What we know about the Golders Green stabbings",
+      "summary": "Two Jewish men have been stabbed in Golders Green, north London, an attack police have declared a terrorist incident.",
+      "link": "https://www.bbc.com/news/articles/cvgzdn665x6o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/be20/live/7f15ba90-4457-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777588374.0,
+      "hot": false
+    },
+    {
+      "id": "6db8e6416a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Britney Spears charged with driving under influence in California",
+      "summary": "The pop star is facing one misdemeanour count of driving under the influence of any alcohol and drug.",
+      "link": "https://www.bbc.com/news/articles/clyp6r9dzedo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1d14/live/28616b10-44d2-11f1-8de1-593a7bb5acaa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777585578.0,
+      "hot": false
+    },
+    {
+      "id": "f99f3eff26",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Rubio downplays reports US could review UK's claim to Falklands",
+      "summary": "The US secretary of state says a leaked memo suggesting America's position on the territory could be changed \"was just an email\".",
+      "link": "https://www.bbc.com/news/articles/c809r2721ymo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3360/live/0dc581d0-3fee-11f1-ac78-2112837ce2aa.jpg",
       "categories": [
         "科技"
       ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1777441970.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777583712.0,
+      "hot": false
+    },
+    {
+      "id": "80788d5c79",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'I held down Golders Green suspect' says volunteer who grabbed ankle",
+      "summary": "\"If eyes could kill, I'd be dead,\" he tells the BBC when recounting the moment he saw the suspect.",
+      "link": "https://www.bbc.com/news/articles/cn7pyp13y8no?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9bac/live/18a96960-44d3-11f1-8de1-593a7bb5acaa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777582490.0,
+      "hot": false
+    },
+    {
+      "id": "598beb6604",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "PM vows to act against people ‘venerating the murder of Jews’ as terror threat level rises",
+      "summary": "Keir Starmer pledges crackdown on protesters chanting or displaying antisemitic slogans as terror attack is assessed to be ‘highly likely’ Keir Starmer has pledged to crack down on those “venerating t",
+      "link": "https://www.theguardian.com/uk-news/2026/apr/30/starmer-calls-on-public-to-open-their-eyes-to-jewish-pain-in-wake-of-golders-green-attack",
+      "image": "https://i.guim.co.uk/img/media/bc2e695ce0e93995d58e76d7b8aadc3782732559/537_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=c5b759b26c8f1f13a4a9281099486057",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777574453.0,
+      "hot": false
+    },
+    {
+      "id": "334cc3f39d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘Making the scarlet letter into my career’: my life as a sex writer",
+      "summary": "I thought my mother was ashamed of my taboo profession. Then I realized our experiences were more similar than I thoughtMy first viral personal essay was titled: “In Defense of Casual Sex”.It was 2008",
+      "link": "https://www.theguardian.com/lifeandstyle/ng-interactive/2026/apr/30/sex-writer-book",
+      "image": "https://i.guim.co.uk/img/media/f338c2015c1b125899d333f91a2c9ea5758fef23/31_655_2154_1722/master/2154.jpg?width=140&quality=85&auto=format&fit=max&s=0a89bb0748e133c05a9e0d27d68c9f96",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777564821.0,
+      "hot": false
+    },
+    {
+      "id": "b09cb2d959",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Political donations are poison to our democracy – but there’s an easy antidote to that | George Monb",
+      "summary": "As revelations about Reform UK’s donors emerge, it’s clear that increasingly complex forms of patronage can’t be regulated effectively. We need a clean sweepHow do we know whether political funding is",
+      "link": "https://www.theguardian.com/commentisfree/2026/apr/30/political-donations-poison-democracy-antidote-reform-uk",
+      "image": "https://i.guim.co.uk/img/media/c4e8790bfcfdc6b80d74c2f732ed139039119f1f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=85da2ce053b3749caaadd62188155d02",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777564738.0,
+      "hot": false
+    },
+    {
+      "id": "454020f47e",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "It’s amazing how much damage Kemi can do to herself in five minutes on local radio | John Crace",
+      "summary": "Echoes of Liz Truss as Badenoch blusters and blunders through series of short interviews, saving the worst for almost lastIt was the sort of day that every politician dreads. One where you can’t not s",
+      "link": "https://www.theguardian.com/politics/2026/apr/30/kemi-badenoch-five-minutes-local-radio-sketch",
+      "image": "https://i.guim.co.uk/img/media/d2d90c53bf70773a8b32b77fb5a6549363e3694e/1558_55_3306_2645/master/3306.jpg?width=140&quality=85&auto=format&fit=max&s=feac2e75f11aac9fde95a3fe59178399",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777563887.0,
       "hot": false
     },
     {
@@ -470,7 +487,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1777561346.0,
       "hot": false
     },
@@ -488,7 +505,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1777559697.0,
       "hot": false
     },
@@ -506,7 +523,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1777557620.0,
       "hot": false
     },
@@ -524,7 +541,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777550545.0,
       "hot": false
     }
