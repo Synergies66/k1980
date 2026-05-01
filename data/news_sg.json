@@ -1,134 +1,263 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-04-30T21:40:01.587475+00:00",
+  "updated_at": "2026-05-01T04:39:49.396529+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "53313bf3fd",
+      "id": "3cabb24056",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "China holds naval, air patrols near Scarborough Shoal as Philippines, US stage drills",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/world/naval-air-force-military-patrol-south-china-sea-6093416",
-      "image": "https://dam.mediacorp.sg/image/upload/s--FnCFgQbm--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-30T121656Z_2_LYNXMPEM3T0J2_RTROPTP_3_SOUTHCHINASEA-CHINA.JPG?itok=Cj9A4DL2",
+      "title": "Over half of 2026 condo launches expected in suburban Singapore as buyer preferences shift",
+      "summary": "Developers are increasingly focusing on the Outside Central Region, as buyers prioritise connectivity, amenities and future growth over more central locations.",
+      "link": "https://www.channelnewsasia.com/singapore/over-half-2026-condo-launches-outside-central-region-6093876",
+      "image": "https://dam.mediacorp.sg/image/upload/s--CLrA5uZZ--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/04/27/screenshot_2026-04-27_100530.png?itok=2xTjC3TH",
       "categories": [
-        "华人",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1777608546.0,
+      "hot": false
+    },
+    {
+      "id": "f498c214ca",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Taxi drivers and operators welcome enhanced cross-border taxi scheme, although some cautious",
+      "summary": "Some are waiting to see how the measures will affect business.",
+      "link": "https://www.straitstimes.com/singapore/transport/taxi-drivers-and-operators-welcome-enhanced-cross-border-taxi-scheme-although-some-cautious",
+      "image": null,
+      "categories": [
+        "经济",
         "科技"
       ],
-      "score": 82,
+      "score": 70,
       "ago": "38分前",
-      "pub_ts": 1777582860.0,
+      "pub_ts": 1777608060.0,
       "hot": false
     },
     {
-      "id": "cd9a0aa150",
+      "id": "4612ee7fd9",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "S&P 500 and Nasdaq end at records, logging best month since 2020",
-      "summary": "US stocks hit record highs, with one analyst saying “corporate profits” are driving the gains.",
-      "link": "https://www.channelnewsasia.com/world/us-stocks-record-highs-economy-wall-street-6093461",
-      "image": "https://dam.mediacorp.sg/image/upload/s--HN3aCcgq--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/01/ap26112531756407.jpg?itok=1Drnn5gL",
+      "title": "Freight forwarders in Singapore see profits fall 20% as Middle East conflict drives up costs",
+      "summary": "Rerouted shipments and higher fuel prices are squeezing margins, with some companies introducing new fees to stay afloat.",
+      "link": "https://www.channelnewsasia.com/singapore/freight-fowarders-profits-fall-middle-east-conflict-costs-6093841",
+      "image": "https://dam.mediacorp.sg/image/upload/s---VvH_Vy6--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-03-12T151650Z_1_LYNXMPEM2B10J_RTROPTP_3_SINGAPORE-ECONOMY-CENBANK.JPG?itok=dL2scsyb",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1777607880.0,
+      "hot": false
+    },
+    {
+      "id": "ca2ff82621",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "NTUC to commit $37 million to help workers in 2026",
+      "summary": "NTUC, MOM and SNEF also formed the Tripartite Jobs Council to collectively help workers and businesses.",
+      "link": "https://www.straitstimes.com/singapore/politics/ntuc-to-commit-37-million-to-help-workers-in-2026",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1777607100.0,
+      "hot": false
+    },
+    {
+      "id": "840c4abc23",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Urban farming providers in Singapore see rise in micro-garden demand",
+      "summary": "More schools, companies and community spaces are hosting small gardens, with some solution providers reporting up to a 30 per cent increase in demand.",
+      "link": "https://www.channelnewsasia.com/singapore/urbam-farming-singapore-rise-micro-garden-demand-6093771",
+      "image": "https://dam.mediacorp.sg/image/upload/s--w6NXkdRL--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/01/urbanfarms-1.png?itok=NwLJ2ryp",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1777606979.0,
+      "hot": false
+    },
+    {
+      "id": "1df5a5b0b1",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Govt can’t protect every job in AI shift, but will protect every worker: PM Wong",
+      "summary": "To aid the AI transition, Singapore will scale up company training committees across various sectors.",
+      "link": "https://www.straitstimes.com/singapore/politics/govt-cant-protect-every-job-in-ai-shift-but-will-protect-every-worker-pm-wong",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777604955.0,
+      "hot": false
+    },
+    {
+      "id": "1d09a56b35",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "PM Wong pledges 'new and better' jobs as AI disrupts industries, transforms economy",
+      "summary": "“We may not be able to protect every job. But we will protect every worker,” says Prime Minister Lawrence Wong.",
+      "link": "https://www.channelnewsasia.com/singapore/may-day-rally-lawrence-wong-new-better-jobs-ai-6093801",
+      "image": "https://dam.mediacorp.sg/image/upload/s--0aHmiBQF--/c_crop,h_900,w_1600,x_0,y_70/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/01/sya_1517.jpg?itok=uMWn28r1",
+      "categories": [
+        "政治",
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777604820.0,
+      "hot": false
+    },
+    {
+      "id": "efaaf822a3",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Indonesia court jails ex-chief executive of tech startup eFishery for 9 years for embezzlement",
+      "summary": "Gibran Huzaifah admitted to manipulating eFishery's financial statements during an earlier interview with Bloomberg, but denied stealing any money.",
+      "link": "https://www.channelnewsasia.com/asia/efishery-embezzlement-money-laundering-court-6093891",
+      "image": "https://dam.mediacorp.sg/image/upload/s--0Od_cBy5--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2023/01/05/20220803-efs01724.jpg?itok=Isa8OiHP",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "11分前",
-      "pub_ts": 1777584480.0,
+      "ago": "1小时前",
+      "pub_ts": 1777604075.0,
       "hot": false
     },
     {
-      "id": "d4fb73b77a",
+      "id": "275d45f87c",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Verstappen taking his time on F1 future, says rule tweaks only a tickle",
+      "title": "Japan's Marubeni targets second year of record profit on asset gains",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/verstappen-taking-his-time-f1-future-says-rule-tweaks-only-tickle-6093506",
+      "link": "https://www.channelnewsasia.com/business/japans-marubeni-targets-second-year-record-profit-asset-gains-6093906",
+      "image": "https://dam.mediacorp.sg/image/upload/s--HL0Lwqmp--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-01T025426Z_1_LYNXMPEM4022E_RTROPTP_3_MARUBENI-RESULTS.JPG?itok=3gdCvRgf",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777604066.0,
+      "hot": false
+    },
+    {
+      "id": "e05cd335d6",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Japanese trailblazer Nishikori to retire at end of season",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/japanese-trailblazer-nishikori-retire-end-season-6093861",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777603087.0,
+      "hot": false
+    },
+    {
+      "id": "2422c6c37e",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "S’pore must brace itself for difficult times ahead, but Govt will do more to help if needed: PM Wong",
+      "summary": "Singapore is better prepared for crisis and in a much stronger position today, said PM Wong at the May Day Rally.",
+      "link": "https://www.straitstimes.com/singapore/politics/spore-must-brace-itself-for-difficult-times-ahead-but-govt-will-do-more-to-help-if-needed-pm-wong",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777602949.0,
+      "hot": false
+    },
+    {
+      "id": "a6459f4cd3",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Hormuz reopening won't end global crisis, but Singapore enters it from position of strength: PM Wong",
+      "summary": "Singapore must brace for a difficult period ahead, but can face the challenges with “quiet confidence”, says Prime Minister Lawrence Wong at the May Day Rally.",
+      "link": "https://www.channelnewsasia.com/singapore/may-day-rally-lawrence-wong-iran-war-hormuz-6093811",
+      "image": "https://dam.mediacorp.sg/image/upload/s--aB9n4HHy--/c_crop,h_900,w_1600,x_0,y_57/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/01/sya_0775.jpg?itok=N7cb3JBa",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777602660.0,
+      "hot": false
+    },
+    {
+      "id": "70e1f725d3",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Watch: PM Lawrence Wong’s May Day Rally speech",
+      "summary": "More details on help for workers to cope with AI and other new technologies are expected from the keynote speech.",
+      "link": "https://www.straitstimes.com/singapore/watch-live-pm-wong-ntuc-chief-ng-chee-meng-to-speak-at-may-day-rally",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777597200.0,
+      "hot": false
+    },
+    {
+      "id": "74573d7a61",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "‘Don’t look down on yourself’: Teen navigates critical illnesses with grit",
+      "summary": "Isaac Ng recently had his wish fulfilled by Make-A-Wish Singapore, and went for a tour of Google Singapore.",
+      "link": "https://www.straitstimes.com/singapore/dont-look-down-on-yourself-teen-navigates-critical-illnesses-with-grit",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1777584195.0,
-      "hot": false
-    },
-    {
-      "id": "46dd1cca3b",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Dorgeles strikes late as Braga edge Freiburg 2-1 in Europa League semi-final",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/dorgeles-strikes-late-braga-edge-freiburg-2-1-in-europa-league-semi-final-6093511",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777584023.0,
-      "hot": false
-    },
-    {
-      "id": "fe7f6ba854",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Infantino to seek fourth term as FIFA president",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/infantino-seek-fourth-term-fifa-president-6093481",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1777583809.0,
-      "hot": false
-    },
-    {
-      "id": "a7d10cab7b",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Mexico's goalkeeper Ochoa set to hang up gloves after his sixth World Cup",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/mexicos-goalkeeper-ochoa-set-hang-up-gloves-after-his-sixth-world-cup-6093466",
-      "image": "https://dam.mediacorp.sg/image/upload/s--aBAl8BHh--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-30T210801Z_2_LYNXMPEM3T1TV_RTROPTP_3_SOCCER-WORLDCUP-MEX-POR.JPG?itok=yq--n2V7",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777583281.0,
-      "hot": false
-    },
-    {
-      "id": "c63536c344",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Wood penalty hands Forest win over Villa in Europa League semi first leg",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/wood-penalty-hands-forest-win-over-villa-in-europa-league-semi-first-leg-6093471",
-      "image": "https://dam.mediacorp.sg/image/upload/s--lInZ0MbL--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-30T210546Z_1_LYNXMPEM3T1TN_RTROPTP_3_SOCCER-EUROPA-NFO-AVL.JPG?itok=ZAgcKatU",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1777583146.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777590000.0,
       "hot": false
     },
     {
@@ -144,27 +273,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "39分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777582800.0,
-      "hot": false
-    },
-    {
-      "id": "27001c6b05",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Meta CEO Zuckerberg blames layoffs on capital spending, won't rule out more job cuts",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/meta-ceo-zuckerberg-blames-layoffs-capital-spending-wont-rule-out-more-job-cuts-6093436",
-      "image": "https://dam.mediacorp.sg/image/upload/s--y2aCC0mu--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-04-30T204819Z_1_LYNXMPEM3T1TD_RTROPTP_3_META-PLATFORMS-VIRTUAL-REALITY.JPG?itok=iCr6Stbm",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1777582099.0,
       "hot": false
     },
     {
@@ -181,116 +292,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1777559374.0,
-      "hot": false
-    },
-    {
-      "id": "9f18210de4",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Nearly 3 out of 4 firms in Singapore have not adopted AI: MOM survey",
-      "summary": "Larger firms showed higher adoption rates and deeper levels of integration than smaller firms.",
-      "link": "https://www.straitstimes.com/tech/nearly-3-out-of-4-firms-in-singapore-have-not-adopted-ai-mom-survey",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777558500.0,
-      "hot": false
-    },
-    {
-      "id": "d808fa9bbf",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Pre-schools now report all child abuse directly to anti-violence hotline, no longer via ECDA: MSF",
-      "summary": "The update comes after a review panel report on Megan Khung’s fatal abuse case  in Singapore.",
-      "link": "https://www.straitstimes.com/singapore/community/pre-schools-now-report-all-child-abuse-directly-to-anti-violence-hotline-no-longer-via-ecda-msf",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777557000.0,
-      "hot": false
-    },
-    {
-      "id": "a075a3625e",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "President’s Challenge to support 121 programmes in 2026, more than double from 2025",
-      "summary": "It was refreshed in 2025, and aims to help programmes through multi-year funding.",
-      "link": "https://www.straitstimes.com/singapore/community/presidents-challenge-to-support-121-programmes-in-2026-more-than-double-from-2025",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777553880.0,
-      "hot": false
-    },
-    {
-      "id": "8d124c18db",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "2 women who helped nab alleged ‘upskirter’ in MRT get public spiritedness award from police",
-      "summary": "SaferSG awards recognise those who intervene in cases of voyeurism, molestation and public nuisance.",
-      "link": "https://www.straitstimes.com/singapore/transport/2-women-who-helped-nab-alleged-upskirter-in-mrt-get-public-spiritedness-award-from-police",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777553100.0,
-      "hot": false
-    },
-    {
-      "id": "285635a448",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "3 members of transnational housebreaking syndicate get over 5 years’ jail each",
-      "summary": "Two members of the housebreaking syndicate remain at large, making away with more than $56,000.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/3-members-of-transnational-housebreaking-syndicate-get-over-5-years-jail-each",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777553100.0,
-      "hot": true
-    },
-    {
-      "id": "89b5ddf542",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Heavy departure traffic at Woodlands, Tuas checkpoints; wait time of at least two hours expected",
-      "summary": "Travellers are encouraged to travel during non-peak hours, such as early morning and late evening.",
-      "link": "https://www.straitstimes.com/singapore/heavy-departure-traffic-at-woodlands-tuas-checkpoints-wait-time-of-at-least-two-hours-expected",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777549863.0,
       "hot": false
     }
   ]
