@@ -1,152 +1,187 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-01T14:00:01.548910+00:00",
-  "total": 27,
+  "updated_at": "2026-05-01T17:33:15.530666+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "73daa72f83",
+      "id": "21585f54ca",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘Temu Range Rover’: what the bestselling Jaecoo 7 says about China’s electric car ascendancy",
+      "summary": "Loaded with extras and produced at a cut price, the crossover SUV has overtaken rival cars from US, Japanese and Korean firmsThe UK is no stranger to foreign cars. The bestseller lists in recent years",
+      "link": "https://www.theguardian.com/business/2026/may/01/jaecoo-7-china-electric-car-chery-price-temu-range-rover",
+      "image": "https://i.guim.co.uk/img/media/181e8dbff0dc41c3e13a821dcd4e217057dfbb43/865_0_6827_5464/master/6827.jpg?width=140&quality=85&auto=format&fit=max&s=8ff5f7a10c43c3160b758cf25a3a3e62",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1777644000.0,
+      "hot": false
+    },
+    {
+      "id": "dfb55b6661",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "No evidence of widespread fuel price-gouging, watchdog says",
-      "summary": "Profit margins were \"broadly unchanged\" between February and March, the UK's competition watchdog says.",
-      "link": "https://www.bbc.com/news/articles/c62djjj0z09o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/affa/live/ed749810-4544-11f1-8ea3-630273c214ab.jpg",
+      "title": "Zayn Malik cancels US tour and cuts UK dates after hospital bed photo shared",
+      "summary": "The former One Direction singer has taken to Instagram to update fans as he cuts his world tour dates",
+      "link": "https://www.bbc.com/news/articles/cd6pv55y51wo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bded/live/7919a190-c56f-11f0-b9b5-d9ab78bbe49c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1777656222.0,
+      "hot": false
+    },
+    {
+      "id": "59a05042f5",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Polanski apologises for sharing post criticising officers who arrested Golders Green suspect",
+      "summary": "The Green leader was facing a growing backlash for appearing to back criticism of arresting officers.",
+      "link": "https://www.bbc.com/news/articles/cp8p7k4k8xno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/dfd9/live/0a9e2d10-4573-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1777655744.0,
+      "hot": false
+    },
+    {
+      "id": "b14e4aa42d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Man charged after explosion at NI police station",
+      "summary": "The 66-year-old was arrested under the Terrorism Act on Tuesday 28 April in the Dunmurry area.",
+      "link": "https://www.bbc.com/news/articles/ce9pg8k4lrdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7f0b/live/32d85520-4155-11f1-ac78-2112837ce2aa.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "24分前",
-      "pub_ts": 1777642505.0,
+      "pub_ts": 1777655343.0,
       "hot": false
     },
     {
-      "id": "7f07a8a57e",
+      "id": "32ce515cb2",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Kemi Badenoch use of Bloody Sunday footage 'disgusting', says MP",
-      "summary": "The footage of soldiers on Bloody Sunday appeared in a Conservative Party video opposing reforms to the Legacy Act.",
-      "link": "https://www.bbc.com/news/articles/c1l2gnvd0lgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b9a2/live/0d4cea70-4554-11f1-a4b0-8306ec2ff5e9.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1777642225.0,
-      "hot": false
-    },
-    {
-      "id": "74045553e1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Watch: Moment WW2 bomb detonated in Plymouth",
-      "summary": "A loud explosion was heard as bomb disposal experts made the 250kg device safe.",
-      "link": "https://www.bbc.com/news/videos/cn0pd1dxgydo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb34/live/c9812610-455f-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "35分前",
-      "pub_ts": 1777641855.0,
-      "hot": false
-    },
-    {
-      "id": "804b334d0f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Woman charged over fatal Wimbledon school crash",
-      "summary": "Nuria Sajjad and Selena Lau died after a car crashed into the Study Preparatory School in July 2023.",
-      "link": "https://www.bbc.com/news/articles/c2026d7586zo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/86f6/live/4319c8c0-37a9-11f1-885a-813da2408700.png",
-      "categories": [
-        "教育"
-      ],
-      "score": 70,
-      "ago": "49分前",
-      "pub_ts": 1777641019.0,
-      "hot": false
-    },
-    {
-      "id": "286a7fc552",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman jailed for murdering sister and taking Rolex",
-      "summary": "Nancy Pexton stabbed her sister Jennifer Abbott Dauward and took her diamond-encrusted Rolex watch.",
-      "link": "https://www.bbc.com/news/articles/cddp060n1ylo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88b7/live/dcae6ed0-4552-11f1-a4b0-8306ec2ff5e9.png",
+      "title": "Andy Burnham has plan to return to Westminster ‘within weeks’, allies say",
+      "summary": "Exclusive: Greater Manchester mayor said to have identified seats where MPs would step aside to allow leadership bid‘No other plan comes close’: Labour MPs turn to Burnham as pressure mounts on Starme",
+      "link": "https://www.theguardian.com/politics/2026/may/01/andy-burnham-westminster-return-plan-within-weeks",
+      "image": "https://i.guim.co.uk/img/media/7dfdfc19628844d06515db4621323c59bd0f7f77/0_0_3000_2400/master/3000.jpg?width=140&quality=85&auto=format&fit=max&s=4c5e136cc57db7d006e80399b7807710",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777639671.0,
+      "ago": "33分前",
+      "pub_ts": 1777654801.0,
       "hot": false
     },
     {
-      "id": "42d0339f0c",
+      "id": "2e12f7a6b3",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Missing Oscar found after Academy Award winner blocked from taking it on flight",
-      "summary": "The airline said the Academy Award was safely in its care in Frankfurt and was arranging its return.",
-      "link": "https://www.bbc.com/news/articles/cz72j59znw3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9fe5/live/c5211800-44f6-11f1-b31a-1d206af1842d.jpg",
+      "title": "A British minority faces a murderous threat on our streets. Where are the so-called anti-racists? | ",
+      "summary": "As Jews face the deadly menace of antisemitism, they should not be alone. It’s time for their fellow Britons to step upFor me, it’s mostly sadness. Among others, the overriding emotion is fear. For so",
+      "link": "https://www.theguardian.com/commentisfree/2026/may/01/antisemitism-racism-jews-britain",
+      "image": "https://i.guim.co.uk/img/media/68693bfb27b3829184694da66135f79d1817e0cb/0_0_5150_4118/master/5150.jpg?width=140&quality=85&auto=format&fit=max&s=4530de86fbbf95b4a487468fe1f25bce",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777639349.0,
+      "ago": "37分前",
+      "pub_ts": 1777654530.0,
       "hot": false
     },
     {
-      "id": "fb4891c610",
+      "id": "d9b393f6f3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "WW2 bomb detonated after building site discovery",
+      "summary": "Residents of more than 1,200 homes are able to return home after the bomb's detonation.",
+      "link": "https://www.bbc.com/news/articles/ce3py195237o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f37f/live/0e913f90-457b-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "39分前",
+      "pub_ts": 1777654391.0,
+      "hot": false
+    },
+    {
+      "id": "a991032452",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Superdry co-founder found guilty of rape",
-      "summary": "James Holder, 54, attacked the woman after a night out in Cheltenham in May 2022.",
-      "link": "https://www.bbc.com/news/articles/czx2gwpe9evo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1abf/live/afa7d410-455e-11f1-ac78-2112837ce2aa.png",
+      "title": "Trump says he will hike tariffs on EU cars to 25%",
+      "summary": "The current level of tariffs charged on goods entering the US from the EU is 15%, under a deal negotiated last July.",
+      "link": "https://www.bbc.com/news/articles/c4g8zpylzz9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0bef/live/f58ee210-4578-11f1-86ec-5992fe9627d8.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1777653706.0,
+      "hot": false
+    },
+    {
+      "id": "eba4afbe15",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Elon Musk's latest Tesla pay valued at $158bn - but he can't pocket it",
+      "summary": "Musk must meet a range of ambitious milestones at Tesla to justify the monster pay packet - so far he has not.",
+      "link": "https://www.bbc.com/news/articles/c302pd565pqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5821/live/10e628e0-4577-11f1-86ec-5992fe9627d8.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777638012.0,
+      "pub_ts": 1777652593.0,
       "hot": false
     },
     {
-      "id": "4bdf546e2a",
+      "id": "c766475154",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "Pro-Palestinian marches have been hijacked, says minister",
-      "summary": "But Alex Davies-Jones says further restrictions must be balanced against the \"fundamental right\" to protest.",
-      "link": "https://www.bbc.com/news/articles/cddp0021pq4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/16d2/live/94ebd620-4550-11f1-a4b0-8306ec2ff5e9.png",
+      "title": "Zack Polanski apologises for sharing tweet criticising police at Golders Green stabbings",
+      "summary": "Apology comes after head of Met police said Green party leader risked undermining public confidence in his officersZack Polanski has apologised for sharing a social media post critical of police follo",
+      "link": "https://www.theguardian.com/politics/2026/may/01/zack-polanski-apologises-criticising-police-golders-green-stabbings",
+      "image": "https://i.guim.co.uk/img/media/cc9c8f39b41f30858456fcd31810e58463218775/995_250_2813_2252/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=9a7f79c80ec60407436ea4f2255e6d8c",
       "categories": [
-        "政治",
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777637578.0,
+      "pub_ts": 1777651679.0,
       "hot": false
     },
     {
@@ -163,7 +198,7 @@
         "科技"
       ],
       "score": 68,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777622212.0,
       "hot": false
     },
@@ -181,7 +216,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777619388.0,
       "hot": false
     },
@@ -199,7 +234,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777617945.0,
       "hot": false
     },
@@ -217,7 +252,7 @@
         "政治"
       ],
       "score": 68,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777608704.0,
       "hot": false
     },
@@ -235,26 +270,44 @@
         "本地"
       ],
       "score": 68,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777597626.0,
       "hot": false
     },
     {
-      "id": "b444f8adb8",
+      "id": "5b2fd49ee8",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "Small boat migrant guilty of attempting knife attack on Israeli embassy",
-      "summary": "Abdullah Albadri was arrested in April last year as he tried to climb over the railings of the embassy in London.",
-      "link": "https://www.bbc.com/news/articles/cze25yz8dnxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/182b/live/7fedcb60-42f4-11f1-b55d-0f258dce1735.jpg",
+      "title": "Teen who took laughing gas before driving into couple outside club guilty of murder",
+      "summary": "Shelley Davies died in hospital three weeks after Kian Bateman drove into her and her partner.",
+      "link": "https://www.bbc.com/news/articles/crmpz7lz77lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a8c6/live/26d8a090-4574-11f1-bd52-e755d604ece4.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1777634944.0,
+      "pub_ts": 1777649363.0,
+      "hot": false
+    },
+    {
+      "id": "73daa72f83",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "No evidence of widespread fuel price-gouging, watchdog says",
+      "summary": "Profit margins were \"broadly unchanged\" between February and March, the UK's competition watchdog says.",
+      "link": "https://www.bbc.com/news/articles/c62djjj0z09o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/affa/live/ed749810-4544-11f1-8ea3-630273c214ab.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777648336.0,
       "hot": false
     },
     {
@@ -264,7 +317,7 @@
       "source": "BBC 头条",
       "lang": "en",
       "title": "Man appears in court charged with attempted murder of two Jewish men",
-      "summary": "Essa Suleiman, 45, is also accused of attempting to murder a third man on the same day.",
+      "summary": "Essa Suleiman, 45, is also accused of attempting to murder a third man on the same day in south London.",
       "link": "https://www.bbc.com/news/articles/c3r2lr434wlo?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7db1/live/aea551d0-4556-11f1-b55d-0f258dce1735.png",
       "categories": [
@@ -272,98 +325,115 @@
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1777633851.0,
+      "pub_ts": 1777646992.0,
       "hot": false
     },
     {
-      "id": "6ff382d6a0",
+      "id": "6df28ea47d",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "How did Banksy put up a statue in central London?",
-      "summary": "The sculpture depicts a suited man walking forward off a plinth while carrying a flag that covers his face.",
-      "link": "https://www.bbc.com/news/articles/cn4pvyw82exo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0dc3/live/b1889340-4564-11f1-ac78-2112837ce2aa.jpg",
+      "title": "Superdry co-founder guilty of rape",
+      "summary": "James Holder, 54, attacked a woman after a night out in Cheltenham in May 2022.",
+      "link": "https://www.bbc.com/news/articles/czx2gwpe9evo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1abf/live/afa7d410-455e-11f1-ac78-2112837ce2aa.png",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777633253.0,
+      "ago": "3小时前",
+      "pub_ts": 1777645908.0,
       "hot": false
     },
     {
-      "id": "ce28169f54",
+      "id": "7b9dabf550",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Woman charged over death of two eight-year-old girls after Wimbledon car crash",
-      "summary": "Claire Freemantle accused of causing death and serious injury by dangerous driving when four-wheel drive hit school in 2023The driver of a four-wheel drive that crashed into a south-west London primar",
-      "link": "https://www.theguardian.com/uk-news/2026/may/01/woman-charged-death-two-eight-year-old-girls-wimbledon-car-crash",
-      "image": "https://i.guim.co.uk/img/media/4aa9b19ad0bb21a162913fa2e7c2220bf6196a00/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=a17fbcba68766576cd0cc21a31c9f09f",
+      "title": "You are what you keep: why we cling to clutter and how to free yourself of it",
+      "summary": "Feeling overwhelmed by all the stuff in your life? Understanding why we hold on to things is the first step in finding a healthy way to let goMost of us have a complicated relationship with our stuff.",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/may/01/you-are-what-you-keep-why-we-cling-to-clutter-and-how-to-free-yourself-of-it",
+      "image": "https://i.guim.co.uk/img/media/1686882639b5cb62b230627d86c1e3527d9dee79/0_0_8323_6658/master/8323.jpg?width=140&quality=85&auto=format&fit=max&s=e752f0a31bef12b65464dbf48bd4b130",
       "categories": [
-        "教育",
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777633219.0,
+      "ago": "3小时前",
+      "pub_ts": 1777644001.0,
       "hot": false
     },
     {
-      "id": "f6b2b2593b",
+      "id": "74045553e1",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: Moment WW2 bomb detonated in Plymouth",
+      "summary": "A loud explosion was heard as bomb disposal experts made the 250kg device safe.",
+      "link": "https://www.bbc.com/news/videos/cn0pd1dxgydo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb34/live/c9812610-455f-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777641855.0,
+      "hot": false
+    },
+    {
+      "id": "804b334d0f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Woman charged over fatal Wimbledon school crash",
+      "summary": "Nuria Sajjad and Selena Lau died after a car crashed into the Study Preparatory School in July 2023.",
+      "link": "https://www.bbc.com/news/articles/c2026d7586zo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/86f6/live/4319c8c0-37a9-11f1-885a-813da2408700.png",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777641019.0,
+      "hot": false
+    },
+    {
+      "id": "caaa0ecc65",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "The Artist review – this flamboyant period comedy is like nothing else on TV",
+      "summary": "The creator of this singular work of art founded his own TV network to get it aired – and its cast is an absolute dream. Mandy Patinkin, Janet McTeer and Patti LuPone are just superbDetails about how",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/may/01/the-artist-review-thomas-edison-mgmplus",
+      "image": "https://i.guim.co.uk/img/media/2f44a56e9843326b720c0257ac1dd8d13a2f15c1/125_0_1000_800/master/1000.jpg?width=140&quality=85&auto=format&fit=max&s=c7be9cd83ed8b17cd2f48a8030c49fcf",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777640253.0,
+      "hot": false
+    },
+    {
+      "id": "286a7fc552",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Martha's Rule helplines get more than 1,700 calls from worried NHS staff",
-      "summary": "The scheme encourages staff and families to seek an urgent second opinion if they fear a patient's condition is worsening.",
-      "link": "https://www.bbc.com/news/articles/c4g9drqn2l3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e5a3/live/38c2ec60-4543-11f1-be1a-bdd45fc37339.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777632892.0,
-      "hot": false
-    },
-    {
-      "id": "50666d9beb",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Kneecap: Fenian review | Alexis Petridis's album of the week",
-      "summary": "(Heavenly)With strong words for Keir Starmer, the Irish rave-rap trio remain unbowed by the controversy around them – and yet this is a more ruminative record than you might expectFive tracks into Fen",
-      "link": "https://www.theguardian.com/music/2026/may/01/kneecap-fenian-review-first-album-since-dismissed-terror-charge-is-terrific-triumphant-yet-tortured",
-      "image": "https://i.guim.co.uk/img/media/4a7b1816f931ee0d8cd54312f942462d79f6de1d/512_838_4829_3864/master/4829.jpg?width=140&quality=85&auto=format&fit=max&s=5ae78433a22ee28b771aa4317f02ec1c",
+      "title": "Woman jailed for murdering sister and taking Rolex",
+      "summary": "Nancy Pexton stabbed her sister Jennifer Abbott Dauward and took her diamond-encrusted Rolex watch.",
+      "link": "https://www.bbc.com/news/articles/cddp060n1ylo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/88b7/live/dcae6ed0-4552-11f1-a4b0-8306ec2ff5e9.png",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777630631.0,
-      "hot": false
-    },
-    {
-      "id": "910463588a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "King Charles has saved the special relationship – for now | Ted Widmer",
-      "summary": "The King charmed Americans – including the president – while artfully asserting his views on climate and executive powerIn the end, it was a royal triumph, as King Charles and Queen Camilla managed to",
-      "link": "https://www.theguardian.com/commentisfree/2026/may/01/king-charles-us-visit",
-      "image": "https://i.guim.co.uk/img/media/8bcaaeb22ac6ff4efcba20ab6e5c9c533740f5f0/199_0_2752_2201/master/2752.jpg?width=140&quality=85&auto=format&fit=max&s=0a5a16a05b24a60b012c6cbcc631ac5a",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777622440.0,
+      "ago": "4小时前",
+      "pub_ts": 1777639671.0,
       "hot": false
     },
     {
@@ -421,76 +491,39 @@
       "hot": false
     },
     {
-      "id": "44fe27f376",
+      "id": "6646d803b4",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Hope is contagious and science is king: 10 big lessons on ending the fossil fuel era",
-      "summary": "At world-first Santa Marta climate meeting, delegates say it was ‘euphoric’ to finally be focusing on concrete solutionsAfter a landmark climate meeting in Santa Marta, Colombia, where nearly 60 count",
-      "link": "https://www.theguardian.com/environment/2026/may/01/santa-marta-colombia-climate-conference-ending-fossil-fuel-era",
-      "image": "https://i.guim.co.uk/img/media/7288c505272fd7916feb1dced4e14a10afcaed65/698_846_1759_1407/master/1759.jpg?width=140&quality=85&auto=format&fit=max&s=035c6ca8c1c8c93ffeaf4c4612bccb8a",
+      "title": "Out of tune: why does Hollywood struggle to capture pop stardom?",
+      "summary": "Pop psychodrama Mother Mary might look and sound the part but it’s the latest failed attempt to turn the life of an arena-touring singer into a compelling movieFor anyone with even the slightest inter",
+      "link": "https://www.theguardian.com/film/2026/may/01/mother-mary-film-pop-stardom-hollywood",
+      "image": "https://i.guim.co.uk/img/media/3192c97f70f7b6e84c12170985edd35eb230b770/240_0_1919_1536/master/1919.jpg?width=140&quality=85&auto=format&fit=max&s=6551ada1b25e8f866734bb700987e201",
       "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777611640.0,
-      "hot": false
-    },
-    {
-      "id": "5727f67843",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Leicester’s stunning Premier League win 10 years on, recalled by Ranieri and his fellow Foxes",
-      "summary": "Training ground fun, rock star fans and a Christmas party in Copenhagen were ingredients in the rank outsiders’ triumph, sealed on 2 May 2016 I remember in January, February that season Riyad Mahrez a",
-      "link": "https://www.theguardian.com/football/2026/may/01/leicester-city-stunning-premier-league-win-10-years-on-recalled-by-ranieri-and-his-fellow-foxes",
-      "image": "https://i.guim.co.uk/img/media/a9161ede3fe7d2549e6eb4e7d3adf67d294bc3a6/414_0_2916_2333/master/2916.jpg?width=140&quality=85&auto=format&fit=max&s=8745b7c60b58722f04d19caf7b1e85aa",
-      "categories": [
-        "天气",
         "科技"
       ],
       "score": 60,
       "ago": "8小时前",
-      "pub_ts": 1777611639.0,
+      "pub_ts": 1777626043.0,
       "hot": false
     },
     {
-      "id": "fe0414e66a",
+      "id": "708a673a5a",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "The devil wears Primark: is the romcom reporter about to get the sack?",
-      "summary": "Glamour? Money? Hope? They’re so last season. With fashion magazines on their knees, where does that leave The Devil Wears Prada 2 – and its famously relatable heroine?Runway magazine is collapsing. M",
-      "link": "https://www.theguardian.com/film/2026/may/01/the-devil-wears-prada-2-romcom-reporter-heroine",
-      "image": "https://i.guim.co.uk/img/media/2cf5b5d2ec752440f0203684e404d9a3818f6e9c/0_0_2083_1667/master/2083.jpg?width=140&quality=85&auto=format&fit=max&s=160257f159ed1ed9558a97ee5c9536a7",
+      "title": "Premier League: 10 things to look out for this weekend",
+      "summary": "Eddie Howe is under pressure, Rayan needs protection at Bournemouth and John Stones returns to Everton with CityPremier League top scorers: latest standingsThe equation is simple. If Leeds beat relega",
+      "link": "https://www.theguardian.com/football/2026/may/01/premier-league-10-things-to-look-out-for-this-weekend",
+      "image": "https://i.guim.co.uk/img/media/2fe81126f0f9d7eb5669ab57f1cbe5542a494529/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=e4fb2b143831530ddb2dd0be25b2da86",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777608037.0,
-      "hot": false
-    },
-    {
-      "id": "66c6d1f227",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘I am invoking Martha’s rule’: how a woman saved her father from near death in hospital",
-      "summary": "David Osenton almost died because of medical mistakes and delays, but new rule allowed Karen to demand a second opinionMartha’s rule may have saved more than 500 lives in England since 2024For six awf",
-      "link": "https://www.theguardian.com/society/2026/may/01/marthas-rule-how-a-woman-saved-her-father-from-near-death-in-hospital-oxford",
-      "image": "https://i.guim.co.uk/img/media/d2784ea108b566eba23dfb23b16a627a9a91aca9/692_0_7920_6336/master/7920.jpg?width=140&quality=85&auto=format&fit=max&s=9224d6a662690d534f7f4cb77d1bda2e",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1777590090.0,
+      "ago": "18小时前",
+      "pub_ts": 1777590031.0,
       "hot": false
     }
   ]
