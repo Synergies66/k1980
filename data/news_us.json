@@ -1,81 +1,337 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-01T04:33:25.024606+00:00",
-  "total": 24,
+  "updated_at": "2026-05-01T09:59:52.134338+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "e5c2ff11dc",
+      "id": "8adb981a5f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "The U.S. once had a monopoly on rare earths. How it lost to China",
+      "summary": "Planet Money tells the story of how the U.S. lost to China on rare earths.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5800873/the-u-s-once-had-a-monopoly-on-rare-earths-how-it-lost-to-china",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777625041.0,
+      "hot": false
+    },
+    {
+      "id": "01e6785626",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Oil Companies’ Huge Profits Revive Calls for Temporary Windfall Taxes",
-      "summary": "European nations imposed temporary taxes in the 2022 energy shock when Russia invaded Ukraine, but whether they can effectively help households is up for debate.",
-      "link": "https://www.nytimes.com/2026/05/01/business/economy/iran-war-oil-profits-tax.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01biz-oil-profits-01-cjhp/01biz-oil-profits-01-cjhp-mediumSquareAt3X.jpg",
+      "title": "As Israel Entrenches, Frustration With Hezbollah Turns to Support",
+      "summary": "With the cease-fire fraying and Israel demolishing villages in the south, many Hezbollah supporters in Lebanon are putting aside their annoyance with the group and turning to it for protection.",
+      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/lebanon-hezbollah-ceasefire-israel.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/00int-lebanon-south-promo-mqjt/00int-lebanon-south-promo-mqjt-mediumSquareAt3X.jpg",
       "categories": [
-        "经济",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "45分前",
+      "pub_ts": 1777626825.0,
+      "hot": false
+    },
+    {
+      "id": "c60428ba3c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About the Maine Senate Race After Janet Mills Drops Out",
+      "summary": "The exit of Gov. Janet Mills kicked off the general election early in what is likely to be one of the most important, expensive and combative Senate races of 2026.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/maine-senate-race-platner-collins-mills-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/podcasts/01pol-maine-takeaways/01pol-maine-takeaways-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777626439.0,
+      "hot": false
+    },
+    {
+      "id": "1f237986a1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Billionaire Chris Larsen Plans to Spend $3.5 Million in NY House Race Amid Midterm Clash Over A.I.",
+      "summary": "Chris Larsen, who hails from California, plans to spend $3.5 million to help Alex Bores, a New York congressional candidate at the center of a proxy war over A.I. regulation.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/alex-bores-chris-larsen-open-ai-jack-schlossberg.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01pol-ai-money-01-kvth/01pol-ai-money-01-kvth-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1777626435.0,
+      "hot": false
+    },
+    {
+      "id": "208eebc11c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Obamacare Enrollment Drops Sharply as Costs Rise",
+      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
+      "link": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
+      "image": "https://static01.nyt.com/images/2024/04/11/multimedia/00biz-aca/11pol-swiper-trump-health-care-aca-repeal-bczk-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "57分前",
+      "pub_ts": 1777626122.0,
+      "hot": false
+    },
+    {
+      "id": "dda3d1e275",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Fill in the blank for the quiz: The Trump admin took aim at _____ this week",
+      "summary": "This week, the federal government's been busy. There are paint jobs, fresh indictments, commemorative items and more. If you've been paying attention — good job!",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119353/trump-kimmel-king-charles-comey-musk-news-quiz",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1777626060.0,
+      "hot": false
+    },
+    {
+      "id": "893888ecb8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How to talk to boys about looksmaxxing",
+      "summary": "The trend among boys and young men of optimizing their physical appearance includes dangerous practices. Experts offer advice on how to talk to their sons about body image and healthy behaviors.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5795549/looksmaxxing-teen-boys-clavicular",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1777626060.0,
+      "hot": false
+    },
+    {
+      "id": "5451a889ac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Republicans Want Tennessee’s Last Democratic House District",
+      "summary": "Republicans sliced Nashville into three G.O.P.-leaning congressional districts in 2022. After the Supreme Court decision on voting rights, Memphis could be next.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/republicans-want-tennessees-last-democratic-house-district.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01nat-vra-partisan-fpmb/01nat-vra-partisan-fpmb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1777626012.0,
+      "hot": false
+    },
+    {
+      "id": "323260b404",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "It's Day 1 of Medicaid work requirements in Nebraska. People are worried",
+      "summary": "Starting May 1, many people covered by Medicaid in Nebraska have to prove they are working. It's a requirement most states will have to implement under President Trump's budget law, beginning in Janua",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5806260/trump-medicaid-work-requirements-nebraska-big-beautiful-bill-hr1-obbba",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1777626000.0,
+      "hot": false
+    },
+    {
+      "id": "bbf0a3f637",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Nationwide May Day protests expected to pick up mantle of 'No Kings'",
+      "summary": "The protest organizers are calling for a boycott of work, school and shopping to protest Trump administration policies and what activists describe as a billionaire takeover of government.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5805805/may-day-protests-boycott-schools-trump",
+      "image": null,
+      "categories": [
+        "政治",
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1777626000.0,
+      "hot": false
+    },
+    {
+      "id": "a39eb494c3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Passenger railroads see a sharp jump in ridership as gas prices climb",
+      "summary": "More Americans are turning to the train as gas prices reach their highest point since the war in Iran began. Brightline, the privately-run railroad in Florida, had its best month ever in March.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5801525/gas-prices-rail-ridership-jumps",
+      "image": null,
+      "categories": [
         "天气",
         "科技"
       ],
       "score": 70,
-      "ago": "32分前",
-      "pub_ts": 1777608027.0,
+      "ago": "59分前",
+      "pub_ts": 1777626000.0,
       "hot": false
     },
     {
-      "id": "174cbb386c",
+      "id": "e44541a886",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Congress ends record shutdown at the Department of Homeland Security",
-      "summary": "Thursday's vote in the House provides funding for DHS after a more than two-month shutdown,  but does not include dollars for Immigration and Customs Enforcement and Customs and Border Protection.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5806054/congress-dhs-shutdown",
+      "title": "'Decimate' means much more today than it did in ancient Rome",
+      "summary": "Today, most people know the word as a synonym for \"destroy.\" But fewer realize its origins — or that it's come to mean something strikingly different than it once did.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5775464/decimate-ancient-rome-punishment-trump",
       "image": null,
       "categories": [
-        "移民"
+        "本地"
       ],
       "score": 70,
-      "ago": "10小时前",
-      "pub_ts": 1777570606.0,
+      "ago": "59分前",
+      "pub_ts": 1777626000.0,
       "hot": false
     },
     {
-      "id": "d1733b6f7c",
+      "id": "768605bc1a",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Takeaways From Hegseth’s Second Day of Testimony on the Iran War",
-      "summary": "The secretary was also questioned over civilian deaths, an accusation of antisemitic remarks and women in combat.",
-      "link": "https://www.nytimes.com/2026/04/30/us/politics/hegseth-senate-hearing-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30dc-hegseth-takeaways-sub/30trump-news-header-post-conf-pwmq-mediumSquareAt3X.jpg",
+      "title": "Morning news brief",
+      "summary": "Negotiations between the U.S. and Iran at a stalemate, Congress votes to end record DHS shutdown, Trump announces new nominee for surgeon general.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5798791/morning-news-brief",
+      "image": null,
       "categories": [
         "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777625078.0,
+      "hot": false
+    },
+    {
+      "id": "ad3903110f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Myanmar attempts to rehabilitate image with Suu Kyi move",
+      "summary": "State television in Myanmar says detained opposition leader Aung San Suu Kyi has been transferred from prison to house arrest, more than five years after the military coup that removed her from power.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5807098/myanmar-suu-kyi-house-arrest",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777624226.0,
+      "hot": false
+    },
+    {
+      "id": "20df958a93",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Man charged with attempted murder after stabbings of Jewish men in London",
+      "summary": "A 45-year-old man was charged with attempted murder in the stabbings of two Jewish men in London, the latest in a string of attacks that have sparked fear and anger in Britain's Jewish community.",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119674/man-charged-with-attempted-murder-after-london-stabbings",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777622970.0,
+      "hot": false
+    },
+    {
+      "id": "0b22ea838e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Hegseth faces questions about Iran in first congressional appearance since war began",
+      "summary": "Making his first appearance before Congress since the Trump administration went to war against Iran, Defense Secretary Pete Hegseth faced withering questioning from skeptical Democrats.",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119666/hegseth-faces-questions-about-iran",
+      "image": null,
+      "categories": [
+        "科技"
       ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1777599012.0,
+      "pub_ts": 1777618244.0,
       "hot": false
     },
     {
-      "id": "62447f6715",
+      "id": "42e67845f9",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Trump gives the go-ahead for a major new Canada-U.S. oil pipeline",
-      "summary": "More state and federal approvals are needed for the 3-foot-wide Bridger Pipeline Expansion, which would stretch from the Canadian border with Montana down through eastern Montana and Wyoming, where it",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119648/trump-canada-us-oil-bridger-pipeline-expansion",
+      "title": "The Venice Biennale jury resigns amid tensions over awards ban, Russian participation",
+      "summary": "The international jury of the Venice Biennale resigned Thursday amid tensions over Russia's participation and the panel's decision to bar prizes for countries accused of crimes against humanity.",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119661/the-venice-biennale-jury-resigns",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777591095.0,
+      "ago": "4小时前",
+      "pub_ts": 1777612757.0,
+      "hot": false
+    },
+    {
+      "id": "a502a9eb03",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Zelenskyy says he's seeking details of Putin's May 9 ceasefire proposal",
+      "summary": "Ukrainian President Volodymyr Zelenskyy is seeking details of a short-term ceasefire Russia proposed to U.S. President Donald Trump.",
+      "link": "https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777611878.0,
       "hot": false
     },
     {
@@ -91,45 +347,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1777590151.0,
-      "hot": false
-    },
-    {
-      "id": "43980b687f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Here’s What States Might Do After the Voting Rights Decision",
-      "summary": "The effect of the Supreme Court’s ruling could be as little as one House seat in Louisiana in 2026, but pressure is building on Tennessee and South Carolina Republicans to act.",
-      "link": "https://www.nytimes.com/2026/04/30/us/elections/states-redistricting-voting-rights.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30nat-vra-states-ga-htfj/30nat-vra-states-ga-htfj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777588288.0,
-      "hot": false
-    },
-    {
-      "id": "c829bd2287",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hegseth Says Iran Cease-Fire Stops Clock for Congressional Approval",
-      "summary": "The defense secretary testified on the eve of the 60-day mark of the war, a major statutory deadline for the president to withdraw forces or seek approval from Congress to continue the fight.",
-      "link": "https://www.nytimes.com/2026/04/30/us/politics/hegseth-iran-cease-fire-congress.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30DC-HEGSETH-cmbl/30DC-HEGSETH-cmbl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777587505.0,
       "hot": false
     },
     {
@@ -146,44 +366,27 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1777586004.0,
       "hot": false
     },
     {
-      "id": "7df7099fc6",
+      "id": "8b60a740f8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What Peak Gerrymandering Could Look Like Now",
-      "summary": "The redrawing of America’s congressional districts is sure to escalate after the Supreme Court’s decision, with some maps that would have seemed laughable a year ago.",
-      "link": "https://www.nytimes.com/2026/04/30/upshot/gerrymanders-redistricting-democrats-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/2025-10-09-vra-map-changes-new-promo/2025-10-09-vra-map-changes-new-promo-mediumSquareAt3X-v5.png",
+      "title": "Hezbollah Using Fiber-Optic Drones Against Israeli Targets",
+      "summary": "The Lebanese militant group is attacking Israeli troops with explosive drones controlled by fiber-optic cables, like those commonly used in the war in Ukraine.",
+      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/hezbollah-fiber-optic-drones.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30int-israel-drones-mvgp/30int-israel-drones-mvgp-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777579998.0,
-      "hot": false
-    },
-    {
-      "id": "7290bf5411",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Will.i.am wants to future-proof a new generation",
-      "summary": "The Black Eyed Peas co-founder turned entrepreneur is now teaching a class on \"agentic AI\" for Arizona State.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5803133/black-eyed-peas-will-i-am-profile-arizona-state-ai-agent",
-      "image": null,
-      "categories": [
+        "天气",
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777579200.0,
+      "ago": "12小时前",
+      "pub_ts": 1777583418.0,
       "hot": false
     },
     {
@@ -200,225 +403,8 @@
         "天气"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777578963.0,
-      "hot": false
-    },
-    {
-      "id": "8b8ceaa7d6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump pulls Casey Means' stalled surgeon general nomination, announces new pick",
-      "summary": "President Trump says he's nominating former Fox News Channel contributor Dr. Nicole Saphier for surgeon general after Dr. Casey Means' path forward stalled in the Senate over questions about her exper",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119571/nicole-saphier-trump-casey-means-surgeon-general-nomination",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777577584.0,
-      "hot": false
-    },
-    {
-      "id": "bc595255a1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. House primaries in Louisiana are suspended after Voting Rights Act ruling",
-      "summary": "Louisiana suspended its upcoming primaries for the U.S. House, following Wednesday's U.S. Supreme Court ruling that the state's congressional map is an \"unconstitutional racial gerrymander.\"",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5806000/louisiana-suspends-house-primaries-supreme-court",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777576124.0,
-      "hot": false
-    },
-    {
-      "id": "7b74a63e53",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Conservatives on the Supreme Court Weakened the Voting Rights Act",
-      "summary": "The Supreme Court just overturned Louisiana’s congressional voting map, landing the latest blow to the landmark Voting Rights Act. Abbie VanSickle, a reporter covering the court for The New York Times",
-      "link": "https://www.nytimes.com/video/us/100000010870969/how-conservatives-on-the-supreme-court-weakened-the-voting-rights-act.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777575913.0,
-      "hot": false
-    },
-    {
-      "id": "5dc8623d4e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "In real-world test, an AI model did better than ER doctors at diagnosing patients",
-      "summary": "Researchers evaluated how well an AI model could diagnose and make decisions about patient care.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5804474/ai-doctors-openai-patient-care-diagnosis",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777572035.0,
-      "hot": false
-    },
-    {
-      "id": "51e61654e0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Onion's bid to take over Infowars moves to the Texas Supreme Court",
-      "summary": "The state's highest court will now consider a deal that would allow the Onion to license the Infowars brand name and turn the show into a mockery of itself.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5806038/the-onion-infowars-alex-jones-texas-supreme-court",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777571777.0,
-      "hot": false
-    },
-    {
-      "id": "aa4234bc82",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Myanmar junta says Suu Kyi moved to house arrest, doubts linger",
-      "summary": "The secrecy surrounding Suu Kyi's new location has alarmed her son, Kim Aris, who says he has received no authoritative confirmation of her wellbeing.",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119543/myanmar-junta-says-suu-kyi-moved-to-house-arrest-doubts-linger",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1777569983.0,
-      "hot": false
-    },
-    {
-      "id": "b3718f6cef",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.K. calls antisemitism an emergency after arson and stabbing attacks on Jewish people",
-      "summary": "The British government pledged to increase security for Jewish communities after a string of arson attacks and a double stabbing. But members of the community lashed out at the government.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5805890/uk-stabbing-jewish-community-attacks-antisemitism",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
       "ago": "14小时前",
-      "pub_ts": 1777559477.0,
-      "hot": false
-    },
-    {
-      "id": "c68c3c2e4b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran war has cost $25B, Pentagon says. And, SCOTUS strikes blow to Voting Rights Act",
-      "summary": "The Pentagon estimates the war with Iran has cost $25 billion so far. And, the Supreme Court ruled that Louisiana's 2024 election map was \"an unconstitutional racial gerrymander.\"",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119496/up-first-newsletter-pentagon-iran-war-jerome-powell-scotus-voting-rights-wildfire-fuel-costs",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777549095.0,
-      "hot": false
-    },
-    {
-      "id": "de6ce505c8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Mirroring Gaza, Israel is destroying towns and villages in southern Lebanon",
-      "summary": "In southern Lebanon, towns near the border with Israel have been largely destroyed by Israeli demolitions and strikes. Israel says it has been attacking Hezbollah infrastructure, but civilian infrastr",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119210/lebanon-israel-war",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777539600.0,
-      "hot": false
-    },
-    {
-      "id": "9d47c7190d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says he spoke with Putin about a possible ceasefire in Ukraine",
-      "summary": "President Trump said he talked to Russian President Putin Wednesday about the wars in Ukraine and Iran.",
-      "link": "https://www.npr.org/2026/04/30/nx-s1-5805188/trump-says-he-spoke-with-putin-about-a-possible-ceasefire-in-ukraine",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777538633.0,
-      "hot": false
-    },
-    {
-      "id": "353e1cd0c9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Activists say Israel has intercepted their Gaza aid flotilla near Crete",
-      "summary": "Activists sailing on dozens of boats attempting to break Israel's blockade of the Gaza Strip to deliver aid say Israeli forces intercepted them, detaining the crews while the flotilla was sailing near",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119486/israel-intercept-gaza-aid-flotilla",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1777535977.0,
-      "hot": false
-    },
-    {
-      "id": "9a3a8e655b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says he is weighing reducing American troop presence in Germany after Iran feud",
-      "summary": "President Trump suggested he could soon reduce the U.S. military presence in Germany as he continues to feud with Chancellor Friedrich Merz over the U.S-Israel war against Iran.",
-      "link": "https://www.npr.org/2026/04/30/g-s1-119480/trump-weighing-reducing-american-troops-in-germany-after-iran-feud",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1777527704.0,
+      "pub_ts": 1777578963.0,
       "hot": false
     },
     {
