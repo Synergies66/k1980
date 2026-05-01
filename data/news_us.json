@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-01T13:57:49.229579+00:00",
-  "total": 22,
+  "updated_at": "2026-05-01T17:31:06.764742+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "d181fc4ab1",
@@ -18,8 +18,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1777631751.0,
       "hot": false
     },
@@ -36,27 +36,135 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1777625041.0,
       "hot": false
     },
     {
-      "id": "5451a889ac",
+      "id": "208eebc11c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Republicans Want Tennessee’s Last Democratic House District",
-      "summary": "Republicans sliced Nashville into three G.O.P.-leaning congressional districts in 2022. After the Supreme Court decision on voting rights, Memphis could be next.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/republicans-want-tennessees-last-democratic-house-district.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01nat-vra-partisan-fpmb/01nat-vra-partisan-fpmb-mediumSquareAt3X.jpg",
+      "title": "Obamacare Enrollment Drops Sharply as Costs Rise",
+      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
+      "link": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/video/167262_florida-health-affordability_1/167262_florida-health-affordability_1-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "经济"
+      ],
+      "score": 70,
+      "ago": "4分前",
+      "pub_ts": 1777656366.0,
+      "hot": false
+    },
+    {
+      "id": "12f26b2297",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "FEMA Disaster Aid is Flowing Slowly In Trump’s Second Term",
+      "summary": "During President Trump’s second term, the disaster declarations that unlock money are taking longer than in the past. Blue states wait the longest and they hear ‘no’ more often.",
+      "link": "https://www.nytimes.com/2026/05/01/climate/fema-disaster-aid-slowdowns.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02cli-disaster-declarations-whcf/02cli-disaster-declarations-whcf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1777655891.0,
+      "hot": false
+    },
+    {
+      "id": "6ae67d3e6c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Authorities Release Video of Gunman in White House Correspondents’ Dinner Attack",
+      "summary": "The F.B.I. and prosecutors shared an annotated video showing the suspect sprinting through a checkpoint and raising a gun. A frame-by-frame analysis suggests that he may have fired.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/correspondents-dinner-gunman-attack-video.html",
+      "image": null,
+      "categories": [
+        "科技"
       ],
       "score": 70,
       "ago": "35分前",
-      "pub_ts": 1777641730.0,
+      "pub_ts": 1777654503.0,
+      "hot": false
+    },
+    {
+      "id": "38747bc549",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Pentagon Makes Deals With A.I. Companies to Expand Classified Work",
+      "summary": "The agreements with the technology companies come amid the Defense Department’s dispute with Anthropic.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-military-ai-tlgj/01dc-military-ai-tlgj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777651179.0,
+      "hot": false
+    },
+    {
+      "id": "bb2e4cb67d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Kneecap is used to controversy. On new album 'Fenian,' they're leaning further in",
+      "summary": "NPR's Juana Summers talks with Mo Chara and Móglaí Bap of the Irish hip-hop trio Kneecap about their new album Fenian.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5692750/kneecap-fenian-album-hip-hop",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777649408.0,
+      "hot": false
+    },
+    {
+      "id": "d57a92d793",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Several states — and the LA public schools — are setting limits on screen time",
+      "summary": "Four states have recently passed legislation to limit teaching and assessments via screens for students. So has the United States' second-largest school district.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5791657/states-schools-restricting-screen-time",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777644400.0,
+      "hot": false
+    },
+    {
+      "id": "4861b6898b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The expert on 'super aging' breaks down the science — and grift — in anti-aging",
+      "summary": "From peptides and protein to sleep hygiene and vaccines, what actually helps you age well? Physician Eric Topol breaks down the science — and the myths — of longevity and anti-aging.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5770418/expert-super-aging-science-anti-aging",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777643991.0,
       "hot": false
     },
     {
@@ -72,28 +180,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "58分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777640331.0,
-      "hot": false
-    },
-    {
-      "id": "c60428ba3c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About the Maine Senate Race After Janet Mills Drops Out",
-      "summary": "The exit of Gov. Janet Mills kicked off the general election early in what is likely to be one of the most important, expensive and combative Senate races of 2026.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/maine-senate-race-platner-collins-mills-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/podcasts/01pol-maine-takeaways/01pol-maine-takeaways-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777637739.0,
       "hot": false
     },
     {
@@ -110,7 +199,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777635857.0,
       "hot": true
     },
@@ -127,45 +216,45 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777633200.0,
       "hot": false
     },
     {
-      "id": "1f237986a1",
+      "id": "4f62d4694b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Billionaire Chris Larsen Plans to Spend $3.5 Million in NY House Race Amid Midterm Clash Over A.I.",
-      "summary": "Chris Larsen, who hails from California, plans to spend $3.5 million to help Alex Bores, a New York congressional candidate at the center of a proxy war over A.I. regulation.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/alex-bores-chris-larsen-open-ai-jack-schlossberg.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01pol-ai-money-01-kvth/01pol-ai-money-01-kvth-mediumSquareAt3X.jpg",
+      "title": "As Iranians Face War, There’s Still Solace in a Cafe",
+      "summary": "Cafes and coffee shops give Iranians affordable places to talk about their hopes, fears and the cost of living as well as to seek company in uncertain times.",
+      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/iran-war-cafes.html",
+      "image": "https://static01.nyt.com/images/2026/04/30/world/00int-iran-cafes-promo/00int-iran-cafes-06-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777632253.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777626434.0,
       "hot": false
     },
     {
-      "id": "208eebc11c",
+      "id": "f737a918c9",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Obamacare Enrollment Drops Sharply as Costs Rise",
-      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
-      "link": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
-      "image": "https://static01.nyt.com/images/2024/04/11/multimedia/00biz-aca/11pol-swiper-trump-health-care-aca-repeal-bczk-mediumSquareAt3X.jpg",
+      "title": "Jared Kushner, Steve Witkoff and the Profitable Business of Peace",
+      "summary": "The Trump administration is turning diplomacy into an asset to be leveraged.",
+      "link": "https://www.nytimes.com/2026/05/01/magazine/kushner-witkoff-board-of-peace-iran.html",
+      "image": null,
       "categories": [
-        "经济"
+        "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777626122.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777626083.0,
       "hot": false
     },
     {
@@ -182,52 +271,34 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777626060.0,
       "hot": false
     },
     {
-      "id": "893888ecb8",
+      "id": "1aa1f3cee0",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "How to talk to boys about looksmaxxing",
+      "title": "Taking a look at looksmaxxing — and what parents should know",
       "summary": "The trend among boys and young men of optimizing their physical appearance includes dangerous practices. Experts offer advice on how to talk to their sons about body image and healthy behaviors.",
       "link": "https://www.npr.org/2026/05/01/nx-s1-5795549/looksmaxxing-teen-boys-clavicular",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777626060.0,
-      "hot": false
-    },
-    {
-      "id": "323260b404",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "It's Day 1 of Medicaid work requirements in Nebraska. People are worried",
-      "summary": "Starting May 1, many people covered by Medicaid in Nebraska have to prove they are working. It's a requirement most states will have to implement under President Trump's budget law, beginning in Janua",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5806260/trump-medicaid-work-requirements-nebraska-big-beautiful-bill-hr1-obbba",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777626000.0,
       "hot": false
     },
     {
       "id": "e44541a886",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "'Decimate' means much more today than it did in ancient Rome",
       "summary": "Today, most people know the word as a synonym for \"destroy.\" But fewer realize its origins — or that it's come to mean something strikingly different than it once did.",
@@ -236,28 +307,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777626000.0,
-      "hot": false
-    },
-    {
-      "id": "bbf0a3f637",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Nationwide May Day protests expected to pick up mantle of 'No Kings'",
-      "summary": "The protest organizers are calling for a boycott of work, school and shopping to protest Trump administration policies and what activists describe as a billionaire takeover of government.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5805805/may-day-protests-boycott-schools-trump",
-      "image": null,
-      "categories": [
-        "政治",
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777626000.0,
       "hot": false
     },
@@ -274,8 +325,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777624226.0,
       "hot": false
     },
@@ -292,8 +343,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777622970.0,
       "hot": false
     },
@@ -311,7 +362,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777618244.0,
       "hot": false
     },
@@ -329,7 +380,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777612757.0,
       "hot": false
     },
@@ -347,45 +398,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1777590151.0,
-      "hot": false
-    },
-    {
-      "id": "8b60a740f8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hezbollah Using Fiber-Optic Drones Against Israeli Targets",
-      "summary": "The Lebanese militant group is attacking Israeli troops with explosive drones controlled by fiber-optic cables, like those commonly used in the war in Ukraine.",
-      "link": "https://www.nytimes.com/2026/04/30/world/middleeast/hezbollah-fiber-optic-drones.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30int-israel-drones-mvgp/30int-israel-drones-mvgp-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777583418.0,
-      "hot": false
-    },
-    {
-      "id": "643d972a8a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Voting Rights Ruling Could Fuel New Era of Redistricting Wars",
-      "summary": "The expected flood of new congressional maps is likely to produce fewer competitive districts, fewer ways for voters to hold elected officials accountable and more polarized politics.",
-      "link": "https://www.nytimes.com/2026/04/30/us/politics/supreme-courts-voting-rights-gerrymandering.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/30pol-redistricting-democracy-01-bfpl/30pol-redistricting-democracy-01-bfpl-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
       "ago": "18小时前",
-      "pub_ts": 1777578963.0,
+      "pub_ts": 1777590151.0,
       "hot": false
     },
     {
