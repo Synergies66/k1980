@@ -1,25 +1,152 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-02T17:10:44.580911+00:00",
+  "updated_at": "2026-05-02T21:04:13.362885+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "f7010c391c",
+      "id": "f084aed815",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Taiwan's Lai lands in Eswatini in a trip delayed by lack of overflight clearance",
+      "summary": "Eswatini remains the only African nation without tariff-free access to China's market due to its ties with Taiwan.",
+      "link": "https://www.npr.org/2026/05/02/g-s1-119911/taiwans-lai-lands-in-eswatini-in-a-trip-delayed-by-lack-of-overflight-clearance",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1777751310.0,
+      "hot": false
+    },
+    {
+      "id": "440f8b6edd",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Spirit Airlines Shuts Down After Years of Struggle",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "link": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02biz-spirit-demise-01-sub-gkfb/02biz-spirit-demise-01-sub-gkfb-mediumSquareAt3X.jpg",
+      "title": "Trump’s Vision for D.C. ‘Garden of Heroes’ Statues Grows in Size and Cost",
+      "summary": "Plans for the project include formal gardens, reflecting pools and plazas alongside the statues of 250 notable Americans, according to documents obtained by The New York Times.",
+      "link": "https://www.nytimes.com/2026/05/02/us/politics/trump-garden-of-heroes-statues.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02dc-trump-garden-TOP-vkph/02dc-trump-garden-TOP-vkph-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "23分前",
-      "pub_ts": 1777740420.0,
+      "ago": "11分前",
+      "pub_ts": 1777755172.0,
+      "hot": false
+    },
+    {
+      "id": "0e303378dc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Timmy the stranded whale rescued after weekslong effort",
+      "summary": "Timmy captured the hearts of whale lovers across the globe who rooted for a happy ending for the humpback.",
+      "link": "https://www.npr.org/2026/05/02/g-s1-119913/timmy-the-stranded-whale-rescued-after-weekslong-effort",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1777755084.0,
+      "hot": false
+    },
+    {
+      "id": "c49050dbee",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Academy announces major overhaul to rules",
+      "summary": "The new rules focus on areas such as AI protections for writers and actors and expanded eligibility for international films.",
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5808894/oscars-2027-99th-academy-awards-rule-changes",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1777754099.0,
+      "hot": false
+    },
+    {
+      "id": "8365c385c5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Abortion Providers Forced to Adapt After Court Ruling Blocks Pill Access by Mail",
+      "summary": "The Fifth Circuit court’s ruling, which is being appealed, reinstates a requirement that patients visit a health care provider in person to obtain mifepristone, upending abortion access in the United",
+      "link": "https://www.nytimes.com/2026/05/02/us/abortion-pill-mifepristone-5th-circuit-court-ruling.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-abortion-pill-wfcp/02nat-abortion-pill-wfcp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1777754043.0,
+      "hot": false
+    },
+    {
+      "id": "2b811eb9c2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About the Mideast Standoff",
+      "summary": "Negotiations to end the war are at an impasse over Iran’s nuclear program and the Strait of Hormuz, which remains mostly shut.",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/iran-us-talks-topart-new-qhvk/iran-us-talks-topart-new-qhvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777749739.0,
+      "hot": false
+    },
+    {
+      "id": "bf4c606e89",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Asked to Restore Access to Abortion Pill by Mail",
+      "summary": "A federal appeals court temporarily halted a Food and Drug Administration regulation that has greatly expanded access to the abortion pill mifepristone.",
+      "link": "https://www.nytimes.com/2026/05/02/us/politics/supreme-court-mail-abortion-pill.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/00dc-scotus-abortionpill-01-cfwg/00dc-scotus-abortionpill-01-cfwg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777744724.0,
+      "hot": false
+    },
+    {
+      "id": "cb5b7decc2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Banksy confirms new statue installed in central London is his work",
+      "summary": "The statue in Waterloo Place, which appeared early Wednesday, depicts a man proudly hoisting a flag— but the flag is blinding him.",
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5808871/banksy-statue-london",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777742740.0,
       "hot": false
     },
     {
@@ -35,8 +162,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "52分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777738712.0,
       "hot": false
     },
@@ -53,8 +180,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777737463.0,
       "hot": false
     },
@@ -71,28 +198,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777737415.0,
-      "hot": false
-    },
-    {
-      "id": "d181fc4ab1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "A tech worker in China is laid off and replaced by AI. Is it legal?",
-      "summary": "A tech worker in eastern China's Hangzhou city was dismissed after his job was replaced by AI. An appeals court in the city has ruled the dismissal unlawful.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5807131/tech-worker-china-ai",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1777631751.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777737416.0,
       "hot": false
     },
     {
@@ -108,8 +216,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777733999.0,
       "hot": false
     },
@@ -126,8 +234,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777723200.0,
       "hot": false
     },
@@ -145,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777717920.0,
       "hot": false
     },
@@ -163,7 +271,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777717800.0,
       "hot": false
     },
@@ -171,7 +279,7 @@
       "id": "ed162e239e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "New Netflix documentary reexamines Winnie Mandela's divisive legacy",
       "summary": "Winnie Madikizela-Mandela is one of the most revered — and controversial — women in South African history. In a new documentary her granddaughters examine the liberation icon in all her complexity.",
@@ -181,33 +289,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1777716000.0,
-      "hot": false
-    },
-    {
-      "id": "6c36318e3f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hegseth’s and Moulton’s Parallel Lives Collide Over Iran",
-      "summary": "The defense secretary and Representative Seth Moulton, a Democrat, debated the Iran war through the prism of their shared experiences fighting Iraq.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/hegseth-moulton-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02dc-hegseth-moulton-01-bzlk/02dc-hegseth-moulton-01-bzlk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777712525.0,
       "hot": false
     },
     {
       "id": "934b8a1b9f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "After Assad's fall, Syria's Kurds are left in limbo, feeling abandoned by the U.S.",
       "summary": "Caught in limbo after the fall of Syria's Bashar al-Assad, Kurdish families struggle with cold, loss and uncertainty — feeling abandoned by the U.S. allies they once fought alongside.",
@@ -217,26 +307,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777712520.0,
-      "hot": false
-    },
-    {
-      "id": "9ad348c3c4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mace, Boebert and Luna Want Congress Members to Pay a Price for Sexual Abuse. Will It Work?",
-      "summary": "Three Republican women who had a hand in forcing the resignations of lawmakers accused of sexual misconduct said they are out to name and shame more offenders. It is not clear how far they will go.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/boebert-mace-luna-republican-women.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02DC-GOPWOMEN-TOP-pvcz/02DC-GOPWOMEN-TOP-pvcz-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777712509.0,
       "hot": false
     },
     {
@@ -253,44 +325,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777712490.0,
-      "hot": false
-    },
-    {
-      "id": "49387dd0bc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "2026 Senate races to watch: From most likely to flip to Democratic long shots",
-      "summary": "Democrats could have a narrow path to winning the Senate, with these specific states on the table.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5806271/2026-midterm-elections-control-senate-race",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777712400.0,
-      "hot": false
-    },
-    {
-      "id": "33c8a19aa0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Spirit Airlines ceases operations after escalating financial struggles",
-      "summary": "The low-cost carrier, which had been struggling for years, announced it will cease operations. Spirit had been seeking a $500 million lifeline from the White House, but talks failed to yield a deal.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5807933/spirit-airlines-ceases-operations-folds",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777704134.0,
       "hot": false
     },
     {
@@ -307,7 +343,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777700962.0,
       "hot": false
     },
@@ -325,26 +361,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777700034.0,
-      "hot": false
-    },
-    {
-      "id": "145b3c79cc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Eric Swalwell Was Proficient in Social Media. So Were His Accusers.",
-      "summary": "Eric Swalwell used social media to boost his image and meet women, accusers said. Some of those same women used apps and influencers to join forces years later.",
-      "link": "https://www.nytimes.com/2026/05/01/us/eric-swalwell-social-media.html",
-      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24nat-swalwell-social-media-khzm/24nat-swalwell-social-media-khzm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1777676501.0,
       "hot": false
     },
     {
@@ -360,28 +378,10 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1777667171.0,
-      "hot": false
-    },
-    {
-      "id": "2faf4caab6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Record-breaking DHS shutdown ends. And, May Day protests to draw crowds nationwide",
-      "summary": "Congress has ended the record-breaking shutdown of the Department of Homeland Security. And, May Day demonstrations across the U.S. are expected to draw crowds protesting the Trump administration.",
-      "link": "https://www.npr.org/2026/05/01/g-s1-119694/up-first-newsletter-iran-us-strait-of-hormuz-dhs-shutdown-trump-surgeon-general",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1777635857.0,
-      "hot": true
+      "pub_ts": 1777667171.0,
+      "hot": false
     },
     {
       "id": "ce74aedbe9",
