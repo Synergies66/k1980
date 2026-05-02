@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-02T03:56:05.715139+00:00",
-  "total": 24,
+  "updated_at": "2026-05-02T06:22:41.642218+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "d181fc4ab1",
@@ -19,7 +19,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1777631751.0,
       "hot": false
     },
@@ -37,8 +37,63 @@
         "华人"
       ],
       "score": 72,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1777625041.0,
+      "hot": false
+    },
+    {
+      "id": "e5ecb1d935",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Air Force says former Qatari 747 will be ready to fly as Air Force One this summer",
+      "summary": "The U.S. Air Force has finished modifying and testing a Boeing 747 jet donated by Qatar for temporary use as Air Force One and expects to have it ready for President Trump to use this summer.",
+      "link": "https://www.npr.org/2026/05/02/g-s1-119866/trump-new-air-force-one",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1777700962.0,
+      "hot": false
+    },
+    {
+      "id": "881d12d54d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. to withdraw 5,000 troops from Germany in next 6-12 months",
+      "summary": "The United States will withdraw about 5,000 troops from Germany, the Pentagon said Friday, fulfilling President Donald Trump's threat as he clashes with the German leader over the U.S. war with Iran.",
+      "link": "https://www.npr.org/2026/05/02/g-s1-119864/u-s-withdraw-troops-germany",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "48分前",
+      "pub_ts": 1777700034.0,
+      "hot": false
+    },
+    {
+      "id": "4104eb42d4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Wyoming celebrates 'nuclear renaissance' as feds approve license for a new reactor",
+      "summary": "Construction of an advanced nuclear power plant partly funded by the U.S. government -billed as the first of its kind this century, is now underway in Wyoming. The Bill Gates-backed company says its t",
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5798892/wyoming-celebrates-nuclear-renaissance-as-feds-approve-license-for-a-new-reactor",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777694460.0,
       "hot": false
     },
     {
@@ -55,7 +110,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777684582.0,
       "hot": false
     },
@@ -73,8 +128,26 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1777683099.0,
+      "hot": false
+    },
+    {
+      "id": "b46db1380b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Bard College’s President, Leon Botstein, Will Retire After Epstein Revelations",
+      "summary": "The president, Leon Botstein, who had run Bard for 50 years, faced scrutiny over his connections to Jeffrey Epstein.",
+      "link": "https://www.nytimes.com/2026/05/01/us/bard-president-leon-botstein-jeffrey-epstein.html",
+      "image": "https://static01.nyt.com/images/2026/02/20/multimedia/hfo-botstein-out-gptz/hfo-botstein-out-gptz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777679137.0,
       "hot": false
     },
     {
@@ -90,8 +163,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777676501.0,
       "hot": false
     },
@@ -108,8 +181,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777675212.0,
       "hot": false
     },
@@ -126,27 +199,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777672800.0,
-      "hot": false
-    },
-    {
-      "id": "cb8b0a3e83",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says He’s ‘Not Satisfied’ With Iran’s Latest Proposal",
-      "summary": "Also, Spirit Airlines prepares to shut down. Here’s the latest at the end of Friday.",
-      "link": "https://www.nytimes.com/2026/05/01/briefing/trump-iran-proposal-spirit-airlines.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01evening-nl-iran-proposal/01evening-nl-iran-proposal-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777671392.0,
+      "ago": "8小时前",
+      "pub_ts": 1777672800.0,
       "hot": false
     },
     {
@@ -163,7 +218,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777670903.0,
       "hot": false
     },
@@ -181,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1777670565.0,
       "hot": false
     },
@@ -199,7 +254,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777670328.0,
       "hot": false
     },
@@ -217,7 +272,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1777667171.0,
       "hot": false
     },
@@ -235,9 +290,27 @@
         "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777662908.0,
       "hot": false
+    },
+    {
+      "id": "84dc16f21e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Running Shoes Have Evolved, From Ancient Greece to a Record-Breaking Marathon Time",
+      "summary": "The race to near-weightlessness has been a driving force of innovation in running sneakers and helped lead to records shattering at the London Marathon.",
+      "link": "https://www.nytimes.com/2026/05/01/sports/running-shoe-history-adidas-sneakers-london-marathon.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01xp-sneakers-promo-tgvc/01xp-sneakers-promo-tgvc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "13小时前",
+      "pub_ts": 1777653312.0,
+      "hot": true
     },
     {
       "id": "bb2e4cb67d",
@@ -253,7 +326,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "14小时前",
       "pub_ts": 1777649408.0,
       "hot": false
     },
@@ -271,33 +344,15 @@
         "教育"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1777644400.0,
-      "hot": false
-    },
-    {
-      "id": "4861b6898b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The expert on 'super aging' breaks down the science — and grift — in anti-aging",
-      "summary": "From peptides and protein to sleep hygiene and vaccines, what actually helps you age well? Physician Eric Topol breaks down the science — and the myths — of longevity and anti-aging.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5770418/expert-super-aging-science-anti-aging",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777643991.0,
       "hot": false
     },
     {
       "id": "2faf4caab6",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Record-breaking DHS shutdown ends. And, May Day protests to draw crowds nationwide",
       "summary": "Congress has ended the record-breaking shutdown of the Department of Homeland Security. And, May Day demonstrations across the U.S. are expected to draw crowds protesting the Trump administration.",
@@ -307,45 +362,9 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1777635857.0,
       "hot": true
-    },
-    {
-      "id": "47956a734d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How well can EVs handle the heat — and the cold? AAA put them to the test",
-      "summary": "Electric vehicles lose some range in the winter — and, to a lesser degree, in the summer. But exactly how much? AAA has brand-new data.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5794657/aaa-electric-vehicle-batteries-range-summer-winter",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777633200.0,
-      "hot": false
-    },
-    {
-      "id": "23c030e02d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "After Prison, a Financial Titan Plots an Unlikely Comeback",
-      "summary": "Bill McGlashan served time for trying to buy his son’s way into college during the Varsity Blues scandal. He hopes his new venture will restore his name — and save the planet.",
-      "link": "https://www.nytimes.com/2026/05/01/business/after-prison-a-financial-titan-plots-an-unlikely-comeback.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01cli-mcglashan-01-chjk/01cli-mcglashan-01-chjk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1777626010.0,
-      "hot": false
     },
     {
       "id": "e44541a886",
@@ -361,7 +380,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777626000.0,
       "hot": false
     },
@@ -379,44 +398,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777624226.0,
-      "hot": false
-    },
-    {
-      "id": "20df958a93",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Man charged with attempted murder after stabbings of Jewish men in London",
-      "summary": "A 45-year-old man was charged with attempted murder in the stabbings of two Jewish men in London, the latest in a string of attacks that have sparked fear and anger in Britain's Jewish community.",
-      "link": "https://www.npr.org/2026/05/01/g-s1-119674/man-charged-with-attempted-murder-after-london-stabbings",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777622970.0,
-      "hot": false
-    },
-    {
-      "id": "0b22ea838e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Hegseth faces questions about Iran in first congressional appearance since war began",
-      "summary": "Making his first appearance before Congress since the Trump administration went to war against Iran, Defense Secretary Pete Hegseth faced withering questioning from skeptical Democrats.",
-      "link": "https://www.npr.org/2026/05/01/g-s1-119666/hegseth-faces-questions-about-iran",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
       "ago": "21小时前",
-      "pub_ts": 1777618244.0,
+      "pub_ts": 1777624226.0,
       "hot": false
     },
     {
