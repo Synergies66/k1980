@@ -1,14 +1,14 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-01T21:11:11.444346+00:00",
-  "total": 23,
+  "updated_at": "2026-05-02T03:56:05.715139+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "d181fc4ab1",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "A tech worker in China is laid off and replaced by AI. Is it legal?",
       "summary": "A tech worker in eastern China's Hangzhou city was dismissed after his job was replaced by AI. An appeals court in the city has ruled the dismissal unlawful.",
@@ -19,7 +19,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777631751.0,
       "hot": false
     },
@@ -37,117 +37,116 @@
         "华人"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777625041.0,
       "hot": false
     },
     {
-      "id": "1f1c32f52c",
+      "id": "e2c355a930",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump ‘Not Satisfied’ With Iran’s Proposal on Ending War",
-      "summary": "The details of the latest plan were unclear, and President Trump did not specify his objections.",
-      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/iran-new-proposal-peace-talks.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01int-iran-proposal-qvlb/01int-iran-proposal-qvlb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1777668997.0,
-      "hot": false
-    },
-    {
-      "id": "5048f1477d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "After Canada loosens citizenship requirements, thousands of people apply",
-      "summary": "After Canada changed a law opening up citizenship opportunities, thousands of Americans are trying to become citizens of their northern neighbor. It's partly for political and personal reasons.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5804529/after-canada-loosens-citizenship-requirements-thousands-of-people-apply",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "44分前",
-      "pub_ts": 1777667171.0,
-      "hot": false
-    },
-    {
-      "id": "11b3f70456",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Israel Said to Have Helped Defend Emirates in Iran War With Iron Dome",
-      "summary": "It appeared to be the first time the missile defense system was sent to an Arab country. The Emirates bore the brunt of Iran’s retaliatory attacks on Gulf countries during the war.",
-      "link": "https://www.nytimes.com/2026/05/01/world/middleeast/israel-emirates-iron-dome.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01int-UAE-IronDome-01-bghv/01int-UAE-IronDome-01-bghv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777664880.0,
-      "hot": false
-    },
-    {
-      "id": "a77446df93",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "As Iran War Reaches 60-Day Mark, Republicans in Congress Grow Impatient With Trump",
-      "summary": "Months into the operation and with midterms looming, some lawmakers are calling for Congress to restrain the president’s war power or set terms for bringing the conflict to a close.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/trump-war-powers-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-warpowers-top-czvw/01dc-warpowers-top-czvw-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777664136.0,
-      "hot": false
-    },
-    {
-      "id": "208eebc11c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Obamacare Enrollment Drops Sharply as Costs Rise",
-      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
-      "link": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/video/167262_florida-health-affordability_1/167262_florida-health-affordability_1-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777662907.0,
-      "hot": false
-    },
-    {
-      "id": "12f26b2297",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "FEMA Disaster Aid is Flowing Slowly In Trump’s Second Term",
-      "summary": "During President Trump’s second term, the disaster declarations that unlock money are taking longer than in the past. Blue states wait the longest and they hear ‘no’ more often.",
-      "link": "https://www.nytimes.com/2026/05/01/climate/fema-disaster-aid-slowdowns.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02cli-disaster-declarations-whcf/02cli-disaster-declarations-whcf-mediumSquareAt3X.jpg",
+      "title": "Federal Appeals Court Temporarily Halts Abortion Pill Access by Mail",
+      "summary": "The court order, in a lawsuit by the state of Louisiana, pauses a Food and Drug Administration regulation that greatly expanded access to the abortion pill mifepristone.",
+      "link": "https://www.nytimes.com/2026/05/01/well/abortion-drugs-mail-order.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01WELL-ABORTION-PILL-ORDER/01mifepristone-alert-kzgm-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1777659153.0,
+      "pub_ts": 1777684582.0,
+      "hot": false
+    },
+    {
+      "id": "7a0c37be91",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. to Withdraw 5,000 Troops From Germany, Pentagon Says",
+      "summary": "Officials announced the decision after President Trump expressed annoyance with the German chancellor’s remarks about the Iran war.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/us-troops-germany.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-military-germany-qgpk/01dc-military-germany-qgpk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777683099.0,
+      "hot": false
+    },
+    {
+      "id": "145b3c79cc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Eric Swalwell Was Proficient in Social Media. So Were His Accusers.",
+      "summary": "Eric Swalwell used social media to boost his image and meet women, accusers said. Some of those same women used apps and influencers to join forces years later.",
+      "link": "https://www.nytimes.com/2026/05/01/us/eric-swalwell-social-media.html",
+      "image": "https://static01.nyt.com/images/2026/04/24/multimedia/24nat-swalwell-social-media-khzm/24nat-swalwell-social-media-khzm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777676501.0,
+      "hot": false
+    },
+    {
+      "id": "13af058529",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Court restricts abortion access across the US by blocking the mailing of mifepristone",
+      "summary": "A federal appeals court has restricted access to one of the most common means of abortion in the U.S. by blocking the mailing of mifepristone.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5808328/court-restricts-abortion-access-mailing-mifepristone",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777675212.0,
+      "hot": false
+    },
+    {
+      "id": "776f35d1d7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Tells Congress Why He Doesn’t Need Its Authorization for the Iran War",
+      "summary": "In letters to the House and Senate, the president asserted that the hostilities had “terminated,” in an apparent attempt to avoid having to seek congressional approval.",
+      "link": "https://www.nytimes.com/2026/05/01/us/politics/trump-congress-authorization-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01trump-news-letter1-hkqm/01trump-news-letter1-hkqm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777672800.0,
+      "hot": false
+    },
+    {
+      "id": "cb8b0a3e83",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says He’s ‘Not Satisfied’ With Iran’s Latest Proposal",
+      "summary": "Also, Spirit Airlines prepares to shut down. Here’s the latest at the end of Friday.",
+      "link": "https://www.nytimes.com/2026/05/01/briefing/trump-iran-proposal-spirit-airlines.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01evening-nl-iran-proposal/01evening-nl-iran-proposal-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777671392.0,
       "hot": false
     },
     {
@@ -163,27 +162,81 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777652234.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777670903.0,
       "hot": false
     },
     {
-      "id": "38747bc549",
+      "id": "ab33d9495e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "AI robot tech bros dogs run wild in Berlin gallery",
+      "summary": "In Germany, robotic AI dogs with the faces of tech's most powerful men are on the loose — courtesy of American artist Beeple.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5795427/a-pack-of-ai-controlled-robotic-dogs-berlin",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777670565.0,
+      "hot": false
+    },
+    {
+      "id": "fe4a3f2b5d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran war shakes Global economy as energy costs surge and recession fears grow",
+      "summary": "From energy markets to everyday prices, the fallout from the Iran war is reshaping the global economy.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5801826/the-global-economic-impact-of-war-from-energy-markets-to-everyday-prices",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777670328.0,
+      "hot": false
+    },
+    {
+      "id": "5048f1477d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "After Canada loosens citizenship requirements, thousands of people apply",
+      "summary": "After Canada changed a law opening up citizenship opportunities, thousands of Americans are trying to become citizens of their northern neighbor. It's partly for political and personal reasons.",
+      "link": "https://www.npr.org/2026/05/01/nx-s1-5804529/after-canada-loosens-citizenship-requirements-thousands-of-people-apply",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777667171.0,
+      "hot": false
+    },
+    {
+      "id": "208eebc11c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Pentagon Makes Deals With A.I. Companies to Expand Classified Work",
-      "summary": "The agreements with the technology companies come amid the Defense Department’s dispute with Anthropic.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/pentagon-ai-companies-deals.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-military-ai-tlgj/01dc-military-ai-tlgj-mediumSquareAt3X.jpg",
+      "title": "Obamacare Enrollment Drops Sharply as Costs Rise",
+      "summary": "Americans can’t afford the higher health insurance premiums that resulted from Congress’s refusal to extend federal tax credits.",
+      "link": "https://www.nytimes.com/2026/05/01/business/obamacare-enrollment-decline.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/video/167262_florida-health-affordability_1/167262_florida-health-affordability_1-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777651179.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777662908.0,
       "hot": false
     },
     {
@@ -199,8 +252,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1777649408.0,
       "hot": false
     },
@@ -218,7 +271,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1777644400.0,
       "hot": false
     },
@@ -236,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1777643991.0,
       "hot": false
     },
@@ -254,7 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777635857.0,
       "hot": true
     },
@@ -272,63 +325,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1777633200.0,
       "hot": false
     },
     {
-      "id": "f737a918c9",
+      "id": "23c030e02d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Jared Kushner, Steve Witkoff and the Profitable Business of Peace",
-      "summary": "The Trump administration is turning diplomacy into an asset to be leveraged.",
-      "link": "https://www.nytimes.com/2026/05/01/magazine/kushner-witkoff-board-of-peace-iran.html",
-      "image": null,
+      "title": "After Prison, a Financial Titan Plots an Unlikely Comeback",
+      "summary": "Bill McGlashan served time for trying to buy his son’s way into college during the Varsity Blues scandal. He hopes his new venture will restore his name — and save the planet.",
+      "link": "https://www.nytimes.com/2026/05/01/business/after-prison-a-financial-titan-plots-an-unlikely-comeback.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01cli-mcglashan-01-chjk/01cli-mcglashan-01-chjk-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777626083.0,
-      "hot": false
-    },
-    {
-      "id": "dda3d1e275",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Fill in the blank for the quiz: The Trump admin took aim at _____ this week",
-      "summary": "This week, the federal government's been busy. There are paint jobs, fresh indictments, commemorative items and more. If you've been paying attention — good job!",
-      "link": "https://www.npr.org/2026/05/01/g-s1-119353/trump-kimmel-king-charles-comey-musk-news-quiz",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777626060.0,
-      "hot": false
-    },
-    {
-      "id": "1aa1f3cee0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Taking a look at looksmaxxing — and what parents should know",
-      "summary": "The trend among boys and young men of optimizing their physical appearance includes dangerous practices. Experts offer advice on how to talk to their sons about body image and healthy behaviors.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5795549/looksmaxxing-teen-boys-clavicular",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777626060.0,
+      "ago": "18小时前",
+      "pub_ts": 1777626010.0,
       "hot": false
     },
     {
@@ -345,7 +361,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1777626000.0,
       "hot": false
     },
@@ -363,7 +379,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777624226.0,
       "hot": false
     },
@@ -381,7 +397,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1777622970.0,
       "hot": false
     },
@@ -399,7 +415,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777618244.0,
       "hot": false
     },
