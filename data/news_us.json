@@ -1,61 +1,79 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-02T13:51:59.414341+00:00",
+  "updated_at": "2026-05-02T17:10:44.580911+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "7adee839a1",
+      "id": "f7010c391c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "How Germany May Have Misjudged Trump’s Anger on Iran",
-      "summary": "Germany had appeared not to believe President Trump’s threats to pull troops from the country. Once it was announced, Berlin offered a measured response.",
-      "link": "https://www.nytimes.com/2026/05/02/world/europe/germany-trump-merz-troops-withdrawal.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02int-Germany-troops-01-ztjb/02int-Germany-troops-01-ztjb-mediumSquareAt3X.jpg",
+      "title": "Spirit Airlines Shuts Down After Years of Struggle",
+      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
+      "link": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02biz-spirit-demise-01-sub-gkfb/02biz-spirit-demise-01-sub-gkfb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1777740420.0,
+      "hot": false
+    },
+    {
+      "id": "ddc0988c3c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Fast-Tracks Arms Deals Valued at $8.6 Billion to Mideast Partners",
+      "summary": "The Persian Gulf countries and Israel have faced repeated Iranian attacks during the U.S.-Israeli war with Iran. The State Department move bypassed congressional review.",
+      "link": "https://www.nytimes.com/2026/05/02/world/middleeast/us-fast-track-arms-deal-middle-east.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02mideast-arm-deal-cpbg/02mideast-arm-deal-cpbg-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1777728265.0,
+      "ago": "52分前",
+      "pub_ts": 1777738712.0,
       "hot": false
     },
     {
-      "id": "310406e90e",
+      "id": "bb13eb251c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Imprisoned Iranian Nobel Peace Prize winner in critical condition",
+      "summary": "Narges Mohammadi, an Iranian activist and 2023 Nobel Peace Prize laureate, was hospitalized after collapsing in prison. Her family says her condition has deteriorated since a March heart attack.",
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5808841/jailed-iranian-nobel-prize-winner-critical-condition",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777737463.0,
+      "hot": false
+    },
+    {
+      "id": "bc2ce75fa0",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Not Even Japanese Bathhouses Are Immune From Shocks of Iran War",
-      "summary": "High fuel costs are imperiling the Japanese sento, a long-declining industry that remains a vital social lifeline for the country’s isolated elderly.",
-      "link": "https://www.nytimes.com/2026/05/02/business/japan-bathhouse-oil-iran.html",
-      "image": null,
+      "title": "U.S. to Withdraw 5,000 Troops From Germany. But Thousands Will Remain.",
+      "summary": "The U.S. military has tens of thousands of personnel in Germany, more than in any other foreign country but Japan. Their significance extends well beyond Europe.",
+      "link": "https://www.nytimes.com/2026/05/02/world/europe/us-troops-germany-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02int-germany-troops-wtk-qblh/02int-germany-troops-wtk-qblh-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777725033.0,
-      "hot": false
-    },
-    {
-      "id": "ad6dc5491a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Opinion: The everyday tragedy of gun violence",
-      "summary": "The White House Correspondents Association Dinner was one of several incidents of gun violence in the U.S. last week. Others ended in injuries and fatalities.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5798789/opinion-the-everyday-tragedy-of-gun-violence",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777723200.0,
+      "pub_ts": 1777737415.0,
       "hot": false
     },
     {
@@ -78,6 +96,42 @@
       "hot": false
     },
     {
+      "id": "7adee839a1",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Germany May Have Misjudged Trump’s Anger on Iran",
+      "summary": "Germany had appeared not to believe President Trump’s threats to pull troops from the country. Once it was announced, Berlin offered a measured response.",
+      "link": "https://www.nytimes.com/2026/05/02/world/europe/germany-trump-merz-troops-withdrawal.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02int-Germany-troops-01-ztjb/02int-Germany-troops-01-ztjb-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777733999.0,
+      "hot": false
+    },
+    {
+      "id": "ad6dc5491a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Opinion: The everyday tragedy of gun violence",
+      "summary": "The White House Correspondents Association Dinner was one of several incidents of gun violence in the U.S. last week. Others ended in injuries and fatalities.",
+      "link": "https://www.npr.org/2026/05/02/nx-s1-5798789/opinion-the-everyday-tragedy-of-gun-violence",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777723200.0,
+      "hot": false
+    },
+    {
       "id": "bf9c4f3732",
       "type": "news",
       "region": "us",
@@ -90,8 +144,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777717920.0,
       "hot": false
     },
@@ -108,8 +162,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777717800.0,
       "hot": false
     },
@@ -126,8 +180,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777716000.0,
       "hot": false
     },
@@ -144,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777712525.0,
       "hot": false
     },
@@ -162,8 +216,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777712520.0,
       "hot": false
     },
@@ -180,8 +234,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777712509.0,
       "hot": false
     },
@@ -198,8 +252,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777712490.0,
       "hot": false
     },
@@ -216,27 +270,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777712400.0,
-      "hot": false
-    },
-    {
-      "id": "f7010c391c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Spirit Airlines Shuts Down After Years of Struggle",
-      "summary": "Spirit once upended the industry by offering very low fares but was in its second bankruptcy in two years after years of struggle.",
-      "link": "https://www.nytimes.com/2026/05/02/business/spirit-airlines-shutdown.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02biz-spirit-demise-lfcj/02biz-spirit-demise-lfcj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777704680.0,
+      "ago": "8小时前",
+      "pub_ts": 1777712400.0,
       "hot": false
     },
     {
@@ -253,7 +289,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777704134.0,
       "hot": false
     },
@@ -261,7 +297,7 @@
       "id": "e5ecb1d935",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Air Force says former Qatari 747 will be ready to fly as Air Force One this summer",
       "summary": "The U.S. Air Force has finished modifying and testing a Boeing 747 jet donated by Qatar for temporary use as Air Force One and expects to have it ready for President Trump to use this summer.",
@@ -271,7 +307,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777700962.0,
       "hot": false
     },
@@ -289,26 +325,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777700034.0,
-      "hot": false
-    },
-    {
-      "id": "7a0c37be91",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. to Withdraw 5,000 Troops From Germany, Pentagon Says",
-      "summary": "Officials announced the decision after President Trump expressed annoyance with the German chancellor’s remarks about the Iran war.",
-      "link": "https://www.nytimes.com/2026/05/01/us/politics/us-troops-germany.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/01dc-military-germany-qgpk/01dc-military-germany-qgpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777683100.0,
       "hot": false
     },
     {
@@ -325,7 +343,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1777676501.0,
       "hot": false
     },
@@ -343,7 +361,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1777667171.0,
       "hot": false
     },
@@ -364,24 +382,6 @@
       "ago": "昨日",
       "pub_ts": 1777635857.0,
       "hot": true
-    },
-    {
-      "id": "e44541a886",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "'Decimate' means much more today than it did in ancient Rome",
-      "summary": "Today, most people know the word as a synonym for \"destroy.\" But fewer realize its origins — or that it's come to mean something strikingly different than it once did.",
-      "link": "https://www.npr.org/2026/05/01/nx-s1-5775464/decimate-ancient-rome-punishment-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777626000.0,
-      "hot": false
     },
     {
       "id": "ce74aedbe9",
