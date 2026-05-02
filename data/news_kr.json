@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-02T06:29:07.038144+00:00",
-  "total": 7,
+  "updated_at": "2026-05-02T09:45:04.777484+00:00",
+  "total": 8,
   "articles": [
+    {
+      "id": "0fbd5fddfe",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Yonhap, Save the Children host mini marathon to support children of migrant workers",
+      "summary": "SEOUL, May 2 (Yonhap) -- South Korea's key news service Yonhap News Agency and i...",
+      "link": "https://en.yna.co.kr/view/AEN20260502001600315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/02/PYH2026050202200031500_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777704339.0,
+      "hot": false
+    },
     {
       "id": "265c1c103d",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777698001.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777687491.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777685752.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777680467.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777680369.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777674326.0,
       "hot": false
     },
@@ -126,7 +144,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777664219.0,
       "hot": false
     }
