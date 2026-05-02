@@ -1,97 +1,369 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-05-02T06:21:11.049074+00:00",
-  "total": 29,
+  "updated_at": "2026-05-02T09:34:32.708129+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "b41926ef97",
+      "id": "34231edf9f",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Person left seriously injured after vehicle slams house in Auckland’s Freemans Bay",
+      "summary": "A tow has been arranged for the vehicle.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/person-left-seriously-injured-after-vehicle-slams-house-in-aucklands-freemans-bay/NQY3X5B4IVGLDCWFZE4N2JLCM4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/KRQ6G5IFFBD2HFPT4I4VS5STNQ.jpg?auth=2b318bfbce41b30d34aab5dd6b0757ae1fd908282943772f9565222f317bdcc9&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1777713659.0,
+      "hot": false
+    },
+    {
+      "id": "cbe2d8548b",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Auckland FC lead Melbourne City in second half of cagey elimination final",
-      "summary": "Follow live coverage of the A-League Men elimination final between Auckland FC and Melbourne City on Saturday evening.",
-      "link": "https://www.stuff.co.nz/sport/360970742/live-auckland-fc-v-melbourne-city-league-men-elimination-final",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYaFbhekYWEggon5QnRGIdSFZeFRdCk18UgXV6H4b6gq5n%2FkyxEbszNEMInJVKJzUDaNgaHnebjZdn4GYRUFEY9vi55tNImKsyfwA6h1zkn2lEzBzW3VTOhudzq4ptj91BTivCYYVlDnbu+863cDqlx6ankXB7BGdu+LImRC%2FuMWQBTPLL6reAuoh8odEcjlFMMEip32oNlJUa7mjibkoT9lSCI0AlVcE5QeOhgkpRqzGIqxpXBhSYj+nD4Mc2TQJbvAq9JCtWGP3i4+DJoLHpr%2FBwp%2F+JPfa3CgnghgJGL3DVAkJRW1vh0ECE3BCByAmTZwdIeAOdLpbz0Y6eq9bJsLIHvJ+JhS34AhUtXYxd9UP31HH2gycd4IHW6kz8nzr6jvrsiIm2ags5fMw%2Fz43LYNi%2FMErYp0ISsLk44V7Y0+Hgroy7oH3U46y6%2FtUDKZAH86tZOGjjrKexqPalPRfbXc=?resolution=1240x700",
+      "title": "Blues defeat Moana Pasifika at North Harbour Stadium",
+      "summary": "Relive Moana Pasifika’s clash with the Blues at North Harbour Stadium in round 12 of Super Rugby Pacific.",
+      "link": "https://www.stuff.co.nz/sport/360971977/moana-pasifika-v-blues-what-you-need-know-super-rugby-pacific-clash-auckland",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbJ7zpZhgkZOdi6h9h5E4hGGqkJ+%2FeyabIxsc19EBakCAQeZ1NWzh6V0Fa4UN+D%2FHL%2F5c75iAibi3rAjkKULbXhfKyg0esKEjVXU6Zw7aXW1qyVPVOg94Y5yVLKzYdFeabSI6PDjpDfLOv65JXdClkPPrF4dok%2FTBYBkvXtuQTtE9SNRl%2FiX5HsmyIzb3LuzAxFNsMDHiF7eeUg%2FYPxu5TQ3FM2IgSkYckYNctCrCUAPX9r5eudQE5oAcWnX8qDiY86plNB1c1aufWTrDjLFflmQsWFage27jj3NWDuGFBgBnwrk6KZJqsfeAGDFe9OJOQni04WRZtvjnZVpH0qKlOx%2F5XSxLBLYO5xiWIfk%2FZmz%2FxFgR7l6EoKPm%2FeqpgrOmSb+RYIjqzYxatW1fy8g7EPCqh3sjNnBwKPFzio+xumtUoglStXsSJnG66YuwHUZaFT8kbIldPiC+1GBW7r4MsM=?resolution=1240x700",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1777701854.0,
+      "ago": "21分前",
+      "pub_ts": 1777713143.0,
       "hot": false
     },
     {
-      "id": "544c6c5607",
+      "id": "875c49b664",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Live: Super Rugby Pacific - Moana Pasifika v Blues",
-      "summary": "Follow all the Super Rugby Pacific action at North Harbour Stadium in Auckland.",
-      "link": "https://www.rnz.co.nz/news/sport/594058/live-super-rugby-pacific-moana-pasifika-v-blues",
+      "title": "Vehicle crashes into house in central Auckland",
+      "summary": "Emergency services have rushed to the scene of a crash where a vehicle struck a home.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/594069/vehicle-crashes-into-house-in-central-auckland",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "19分前",
-      "pub_ts": 1777701677.0,
+      "ago": "29分前",
+      "pub_ts": 1777712699.0,
       "hot": false
     },
     {
-      "id": "b6f11ae756",
+      "id": "a67014f460",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "Stuff NZ",
       "lang": "en",
-      "title": "Tiwai Point aluminium smelter workers announce strike",
-      "summary": "Workers at the Tiwai Point aluminium smelter have voted to take industrial action from Monday, following unsuccessful bargaining, but the smelter - owned by Rio Tinto, says it provides a competitive p",
-      "link": "https://www.rnz.co.nz/news/business/594062/tiwai-point-aluminium-smelter-workers-announce-strike",
-      "image": null,
+      "title": "Blues climb to second place with commanding win over Moana Pasifika",
+      "summary": "The Blues regained second place with a big win over Moana Pasifika to keep them well in the race for top spot in Super Rugby Pacific.",
+      "link": "https://www.stuff.co.nz/sport/360973113/blues-climb-second-spot-another-win-over-moana-pasifika-super-rugby-pacific",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcW7n7Rl846J9jDqSmEo8hNOdq80rLI8cmtnP14SGs1OzQqrWecrg2WHXQkjOpr8dWuhYlQlZ%2F+KOQeYFdSlbGXOc4YUxZwm04gJPOJtHBRacYAPlJG%2FFSmIuFc+F4UkCsStXaDCWE5Ad+ZKhuOZF8ZdP2PYtLFwV7oZ8j0bJVaCHM8Gzy3kupU29MqrIDEWOcVMtbiriDMajaHZgLKw83ErF2U9kSChmY%2FMtlWWRikiQ0+O1UorUv7CggMenJaFY2Zh%2FlXHQ%2FYf0ZxLYzK6n+vpwNX%2FN9u3SvUFcS4SOlHlMiteq0XfxKrM3ZpYaEgg%2F90t5mk6wbtOtsO+GxAG2I5LtEKmlWdQ7IoOMLelV9Gj4dJzor5PsbnTJKX%2FIDnuO414EqwZ4MLCKRuUGz58FssO1w8XsxnCht48XIXEmgozuvDlHmgc3czNUDitDapXPg==?resolution=1240x700",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1777700980.0,
+      "ago": "39分前",
+      "pub_ts": 1777712110.0,
       "hot": false
     },
     {
-      "id": "d333096ab2",
+      "id": "54b7d6d3b2",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "Hayley Holt ready for TV return",
-      "summary": "The former Breakfast host reveals why she’s eyeing a return to reality TV while living at home with her parents and two young sons.",
-      "link": "https://www.stuff.co.nz/culture/360973413/hayley-holt-ready-television-return-she-navigates-life-parents",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYR9fDy2C5KZWcMZeqGZfzz0Q4Ak96QYCEAiHs89dGPvqHzz%2FC1fwGLrjV6faCpM0vM9v0G007sOzsczaAgD8YslvbebaSfFjEI%2FdOugbmaSd2ulePMrmxdFgcf81l0VX4bh4R+oYBL0twYZZLDkFLutFw0guiCqW3prkGatrfYvff+8rD15KWuOkI9mG+jp%2FNrv9M4x235hgKO14Bpn3Q9pe3RrCJcGgp8dp1EvM5Vf2cHvhpPhDgj8km8arzJbzjiCz40DtAz7dKIh8tIrOphO0qUI+KCj490z93Qs7KV0V5noAySqtuyKwE8Y2zM6Zj7q6LCmc0rO006WZHpvFINIYAOTPpuPEGhqHyHbxL%2F%2FhSDFSDqGjC%2FkUXShcDfb0L5x0AeLoI7TZHmvl39w6KRoinoQmaaE26dhgCY6WwI4HFX7RdKZ2uOZVXx3lOceSUQ==?resolution=1240x700",
+      "title": "Fijian Drua beat Highlanders for the first time",
+      "summary": "The Fijian Drua defeated the Highlanders for the first time in the Super Rugby Pacific competition on Saturday, with a 24-14 win.",
+      "link": "https://www.rnz.co.nz/news/pacific/594068/fijian-drua-beat-highlanders-for-the-first-time",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1777700123.0,
+      "ago": "48分前",
+      "pub_ts": 1777711566.0,
       "hot": false
     },
     {
-      "id": "14f01472b2",
+      "id": "dd3769b1cd",
       "type": "news",
       "region": "nz",
-      "source": "Stuff NZ",
+      "source": "RNZ News",
       "lang": "en",
-      "title": "Highlanders slump to defeat against Drua",
-      "summary": "The southerners’ playoff hopes are on life support after a 7th loss of the season.",
-      "link": "https://www.stuff.co.nz/sport/360972183/all-you-need-know-ahead-highlanders-v-fijian-drua-match-ba",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfuLTHe%2FRLoZeHcGQ2WGsZBxpVqdhV6ENLxMJXIVciWLNLv6EJNsywi9MpVopJmJCMfw6UI3lqyT35ZWKWZFfkSWDqxAlytIY%2FjIcCLTw53TuDojf1h6KEVxOPq%2FMyheEsE87hWbfEFEjqTRhiI2LavQp97Dbarvs%2FvZFjx7OYcmKF+vatCnbQJXbVqPmoQujJwdeGq+gKRUQt2FHYXfAS+dSgxVJZ9zOjDEftvcNOGq%2FaPWyxjaLurjPA87NJInkx1JF7Z9PCHRYqZzc8Tk7petONLOxcNROc9hoMs7vgCs0J62TPKqF1YM62q6R854NVUGjn5at7CSCbpfOjTWt7hLgpZWHcifrN33vlXmOpXm74%2FlDTjfrOjLZRlTqHwCCEYR+K7tasaDDeUZ3cJpYoc2rF9JFXu+LBbXs9cYNF%2F+OI2Q+WCaIv30jS1T9TjBLQ==?resolution=1240x700",
+      "title": "Live: NRL -  Parramatta Eels v NZ Warriors",
+      "summary": "Follow all the NRL action from CommBank Stadium in Sydney.",
+      "link": "https://www.rnz.co.nz/news/sport/594058/live-nrl-parramatta-eels-v-nz-warriors",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777710419.0,
+      "hot": false
+    },
+    {
+      "id": "1d5dd85028",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Bilingual singer Geneva AM: 'I just want to keep making music and uniting everybody'",
+      "summary": "Geneva Alexander-Masters honours the history of Māori songwriting on her Taite Award-winning debut album Pikipiki.",
+      "link": "https://www.rnz.co.nz/life/music/geneva",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777699062.0,
+      "pub_ts": 1777709983.0,
+      "hot": false
+    },
+    {
+      "id": "973efce993",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Lotto Powerball: Six million dollars up for grabs tonight - are you the winner?",
+      "summary": "One lucky winner walked away $1m richer in last week's Lotto draw.",
+      "link": "https://www.nzherald.co.nz/nz/lotto-powerball-six-million-dollars-up-for-grabs-tonight-are-you-the-winner/5NYLEH6PBRF47HQANUILSZR77Y/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/MT4QXJ6APNCABHJH35SQQMQOEA.jpg?auth=f8a4f593d6b92f9419fa75fc471a9fd081088f0fbbf510f7ddcd55266f94f93f&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777709109.0,
+      "hot": false
+    },
+    {
+      "id": "46623ca0a2",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Warriors ease clear of Eels - NRL",
+      "summary": "Follow live as the Warriors face the Eels in Sydney.",
+      "link": "https://www.stuff.co.nz/sport/360971349/warriors-v-eels-all-you-need-know-about-nrl-round-nine-match",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYY6TDMgrZ4cELksDL1+ZU3eNq3gQwt1m5zMwjfSdfnMiy3JF4CQqt0Ppvgo0ljhig6sP7hvZkIG1e7TjBW3raN35QbSidJjm322zcPSbseAFPi5SomTdoChHAOkcai2OgXNEpdtUd1kDcN4SOKITsKgueZFUrwrtun9N%2FdecID6tAesniFxKb0o43ijfdwGlDv2Z6SnOsDo8j32DdyLKk+xqU4QKrqFMLWB8%2FScanzjZvzQ8ujP5NhIcjGTr2eSQK2qxJ3EiRdi0S3P+F0lFk2gnFzVEL%2Fj9D5H22yBlHiVBMqHr+5CYzfJQwl4d0Vgo1vI52EncUVgpPTMdUy3bY5d5G5cp%2F4pwVts%2F1Ly8zZ1X3ulQM43C%2FwSfdqj3vz0pwnFNHOWcwKt3HFatkwdtBP+QU4g5Cobo6hl0jOZD6MBIxjLPNn4%2Fv4up+cmLkaKGTvShQalAZ2Pw4Cq78830m+c=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777708701.0,
+      "hot": false
+    },
+    {
+      "id": "ef828583cb",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Auckland FC advance in A-League Men finals",
+      "summary": "Look back at live coverage of the A-League Men elimination final between Auckland FC and Melbourne City on Saturday evening.",
+      "link": "https://www.stuff.co.nz/sport/360970742/recap-auckland-fc-v-melbourne-city-league-men-elimination-final",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYaFbhekYWEggon5QnRGIdSFZeFRdCk18UgXV6H4b6gq5n%2FkyxEbszNEMInJVKJzUDaNgaHnebjZdn4GYRUFEY9vi55tNImKsyfwA6h1zkn2lEzBzW3VTOhudzq4ptj91BTivCYYVlDnbu+863cDqlx6ankXB7BGdu+LImRC%2FuMWQBTPLL6reAuoh8odEcjlFMMEip32oNlJUa7mjibkoT9lSCI0AlVcE5QeOhgkpRqzGIqxpXBhSYj+nD4Mc2TQJbvAq9JCtWGP3i4+DJoLHpr%2FBwp%2F+JPfa3CgnghgJGL3DVAkJRW1vh0ECE3BCByAmTZwdIeAOdLpbz0Y6eq9bJsLIHvJ+JhS34AhUtXYxd9UP31HH2gycd4IHW6kz8nzr6jvrsiIm2ags5fMw%2Fz43LYNi%2FMErYp0ISsLk44V7Y0+Hgroy7oH3U46y6%2FtUDKZAH86tZOGjjrKexqPalPRfbXc=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777708630.0,
+      "hot": false
+    },
+    {
+      "id": "1385bd3cdc",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Auckland FC win penalty shootout to advance to A-League Men semifinals",
+      "summary": "The two teams couldn’t be separated after 120 minutes of action.",
+      "link": "https://www.stuff.co.nz/sport/360972231/auckland-fc-beat-melbourne-city-penalty-shootout-win-league-men-elimination-final",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZGiyqTq50hmZefbyabKUK4WEx9WGa+FHkbeE41RLWC2eMQ8TcUVwR0Qv4STv24NXQN4StGKBCqgGNwdm5hkHK4N2IONC17HJCKU+lspydP9mIL8IRgWAFNoksy6Up5Z0yn%2FAYz3NCfGaxanWJqERMJMc3sHY1yb9LEQIJXWDnqkSO3PplKJqMJPlm%2FvXuY06kqfrrn0gbAfG0BOcMcWXcTK2UwYVqmYT3wL08QzsW0Rko0cd%2Fu7grh%2FemJRYOggCN6xRMw0KWYaYuIT8JMChSPC+8FYubZ5OQpJwWFX7pK6qx2528dL8ikpM+X4OV7AW7uxNbldAeM8WrRLFJv5dcJwzMAM0AkeKNDmxjc2IbsbiuqLCdKvlDo9jYNYPJ22xnIO2Lm7UKw5LgMzaBjOR7NzzGBuRIE7KqsGnrBJaS2UtUOPSRkqskS04qxruSPRbR+FeHdweD2A0VIcpoRyfc0=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777708467.0,
+      "hot": false
+    },
+    {
+      "id": "b87cbb862d",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Peace activist urges NZ Government to reject US proposal to help reopen Strait of Hormuz",
+      "summary": "Valerie Morse says backing the US plan would endorse an illegal war.",
+      "link": "https://www.nzherald.co.nz/nz/peace-activist-urges-nz-government-to-reject-us-proposal-to-help-reopen-strait-of-hormuz/YZCXOZ3VTJHVFMZEWS5V5OFSUY/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/DB5N7FW4GZBPFHBLXX4SZISOSI.jpg?auth=20afed3e0777bcc41080c0aea0a2e1afd4a5a08d57392e02d18587172ea798ff&smart=true&width=300&height=300",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777707874.0,
+      "hot": false
+    },
+    {
+      "id": "1b2c1fa2a8",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Silver Fern legend Casey Kopua comes out of retirement to help Magic",
+      "summary": "The Waikato Bay of Plenty Magic have named Silver Fern legend Casey Kopua as an interim replacement player ahead of their ANZ Premiership clash against the Stars.",
+      "link": "https://www.rnz.co.nz/news/sport/594066/silver-fern-legend-casey-kopua-comes-out-of-retirement-to-help-magic",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777707873.0,
+      "hot": false
+    },
+    {
+      "id": "ec2f3de907",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Africa’s cellphone towers turn to solar as diesel costs surge",
+      "summary": "Rising diesel prices linked to the Iran war are adding urgency to a shift already underway across Africa to move cellphone towers off fossil fuels and onto solar power.",
+      "link": "https://www.stuff.co.nz/world-news/360973455/africas-cellphone-towers-turn-solar-diesel-costs-surge",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYLz0dsyrJRRgEHEV8lI90j0bEMD4Pvu+tPovbKZ3olp16j%2FtBUJ8iIyzZe9N2Rr+Ek2bYWWYLUXXsLe8PuQK3IxL4U7iwhcTgZCYLcBLe5ogzxUWjIecjXeasHeGJPd4ZtVwsZ5CTeOIrQQnGOsEk6S3M2Wj+VyD1B0CXPt0DBeQzyJU%2FTGEqE02ei5WQYM7vwsGzzcrHEcINdsdPARSZ2zjj+ceh6kukj5Uoh4FIHj05o1fmklCDda2UzM1iNsqw+xNSEge4pw2G+lhp+u+v8t6IEySnRPt9au5bVjc1rckTa9VctRJFDTCIPGjqDGEX0rWbK1+ETbyLySPvdf1WncGJiunWpLbAenpuZvQqBh90T1tOW5Lx6HCTjOeC1gG3LntdG0aCKgOwMkvS%2FKhAC8P69DoKQz+uQ4Oy3fSkrCebSpnLX8z6ukJR2WT9KYUQ==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777707748.0,
+      "hot": false
+    },
+    {
+      "id": "40af2b2b2f",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Mexico City is sinking so quickly, it can be seen from space",
+      "summary": "Mexico City is sinking by nearly 25cm a year, according to new satellite imagery released this week by NASA, making it one of the world’s fastest-subsiding metropolises.",
+      "link": "https://www.stuff.co.nz/world-news/360973453/mexico-city-sinking-so-quickly-it-can-be-seen-space",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZxjfWVaWa1ATjLpiADzKx6v+xTl645ogbtJyKff31%2FIfXrx+I+4GAcFprFuZV4x8M1fsW7s4QY+b4UaNIx675Y49nN9iOR3QD6mfJJokiVHJPnq%2FemyjmGzj2D7BqcucCQ33WnIGucLHYA2VA2i5L26q1Qs2ZIKb2lEUJUfUmyNVvgxO3BTzHY%2FQelKrlmBCvjsSBtDyiWBbAmB7b7dgdE3LbyEcBmMNGIY5Gvme1RlDsbWDEC3GdeombfRoyArouXiPgA6XCtuwbGMT5BhkIMsYtWp39uyandm4PuTzUI+AkLO%2F1loTbQZta7car+2ZpoMsN5K7qUW%2F8c1e19RPhZkEBf7Mm2zSThOfIcevi4wf2M3016vNIfcmvuaGsF5ZThA1dPY4EUMK4lIrWAgiM1KkKTbBz3RhX4Y3tuHKtgMFXZ9MTV6tEicT07g%2FUBY9w==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777707547.0,
+      "hot": false
+    },
+    {
+      "id": "d50f840363",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Rain disrupts Black Caps T20 against Bangladesh",
+      "summary": "Follow live coverage as the Black Caps face Bangladesh in the third T20 international in Mirpur",
+      "link": "https://www.stuff.co.nz/sport/360970655/live-black-caps-v-bangladesh-third-t20-international",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXiy7is8wLstL15RuVn40vrGru9T+eWllzyxe1KG4oIP6k67voqANlnxr1nBWUVsN%2F06R1le60Zdga797Ocpozzwo7zrqwbTmwxl7kGOO0FN6VNe6g5Z+DFRbrG%2FpWwNrcKl%2Ffgm7D%2F9UExwHNjGcMLWzXjT2SI0FbSD%2FYcagLxSn1TWlvuW6Y2x%2Fmm3AbCErk6W7PcFi6OdSjbbSDUGFd68nXXgIuRH0MI+fQkQ41ZGWqG57AJmxgHx2ck99v%2FAiOCuHuomfDMjOytjqm2bf+UZZTtyhKsVJGKwLluFbk+hd+e8tOVABYNwm0I07ud7AkgXgB31Rob0gZbf43ApNiyG814Jai1mNhQDAuq5LGTiDaMUBySmLdcU8stujqbmUm+TmuSF96OwDv3RvaAPu7wZovUUIcBI7tGNEpfTwgL6LYzA%2FpkbCEujYf0zz3FU%2Fw==?resolution=1240x700",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777707000.0,
+      "hot": false
+    },
+    {
+      "id": "014abb7647",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland bus driver allegedly punched by female passenger refusing to pay her fare",
+      "summary": "The driver said he and his colleagues are told to 'just let' non-paying passengers board.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/auckland-bus-driver-allegedly-punched-by-female-passenger-refusing-to-pay-her-fare/OZNNXMYNSJALVHTPZIPMIIZ6QQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/ITS6VQZIZVGE7J7CBQR44M5WDM.jpg?auth=a6aef6a2973c195aacb0dd3b3e9fc63540f936f6e683360a01f1142c6e3030d3&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777705930.0,
+      "hot": false
+    },
+    {
+      "id": "59360c86f9",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Netball: Mystics beat Tactix in grand-final rematch",
+      "summary": "The Mystics have ended the unbeaten run of the Tactix, with a 52-43 win over the team that upset them in last year's ANZ Premiership grand final.",
+      "link": "https://www.rnz.co.nz/news/sport/594065/netball-mystics-beat-tactix-in-grand-final-rematch",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777705896.0,
+      "hot": false
+    },
+    {
+      "id": "979c0738c6",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Tiwai Point aluminium smelter workers announce strike",
+      "summary": "The union says Rio Tinto is blocking a collective deal and stifling workers' voice.",
+      "link": "https://www.nzherald.co.nz/nz/tiwai-point-aluminium-smelter-workers-announce-strike/2NSRXXVTGNFJHIKA6S5SBLOPZQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/J4FRI7GFUZAHFKLH4Z5HVV6BVY.jpg?auth=50dd2251ae4632f476f020e19136b8c92151ae82c17bb61dde1ec8ba27b41b4d&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777703311.0,
+      "hot": false
+    },
+    {
+      "id": "8e76463a55",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Super Rugby Pacific - Fijian Drua prove too tough at home for Highlanders",
+      "summary": "Follow all the Super Rugby Pacific action at Four N Stadium in Ba.",
+      "link": "https://www.rnz.co.nz/news/sport/594009/super-rugby-pacific-fijian-drua-prove-too-tough-at-home-for-highlanders",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777702524.0,
       "hot": false
     },
     {
@@ -107,45 +379,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777698000.0,
-      "hot": false
-    },
-    {
-      "id": "4db63fa56a",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Rescue crews use cutting gear to free driver after car flips on SH1",
-      "summary": "A person was trapped after their car rolled and landed upside down on State Highway 1, blocking the road for more than an hour on Saturday.",
-      "link": "https://www.stuff.co.nz/nz-news/360973387/rescue-crews-use-cutting-gear-free-driver-after-car-flips-sh1",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYwqqy28HOEtB1R9o+MEBcr67wcuNSLOiAoh6+J%2FL334Km0NkQ4LsdTRDuijv+p965jbjUAWbp3ASYeSygPQ4lpVvBaDmU%2Fp3DpY+Fd4+9VtYT9MGAfprGRIR1ZdHqW4qI97jNMwvtoeWRz4Jnosq%2F9jbvX60vQodj6JiSRsaPzTRABMzo%2FDDoE8JSoBlZyIw7YUmmloXkeMaE7x6U7EDGZ1PgjmqM7F7OsQPDbRR8L+QT0YTJQ5hm6wXouzI35HhC1sR%2FxHmEyLwX8Rg+sKyoV6rUzElXX6FJUVu0wj1q5U7KZs9Ruc+sNrHQtVCD6JfUE52ScKK++V09bo2wH9uOhTA5pydBsUX6ldTpoxdcnMZ8uTH5oUDyLLl8wYV4jkIg6UvTo6V87Sq9%2FhPBVEA%2FCjuzsp1oBB5k+jLa1O67h7%2FYFc%2FWCTrqKjvE13IPsi2A==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777697942.0,
-      "hot": false
-    },
-    {
-      "id": "66d5462e57",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "One dead after boat capsizes in Kaikōura",
-      "summary": "Emergency services are at the scene in South Bay after a boat capsized on Saturday afternoon.",
-      "link": "https://www.stuff.co.nz/nz-news/360973407/rescue-operation-under-way-after-boat-capsizes-kaikoura",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYKMyjRUfgwMr4y+l2GW8IdgWcUF%2FjNNJJn1RLxRg2Nl343QbF7DGaYPaKycjuajnYKM4PBWRVKGRMd7Q6e5vB8yJOwRoivDzZhfHveOHlnWnV7IBxFzfZ6C9IRTkTb%2FRJKwZL7aFzngD8bGNPale7o=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777696047.0,
       "hot": false
     },
     {
@@ -161,8 +397,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1777695741.0,
       "hot": false
     },
@@ -180,33 +416,15 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777694457.0,
-      "hot": false
-    },
-    {
-      "id": "8da8c6a6eb",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Majority of NZ drug and alcohol users experience no negative effects, study shows",
-      "summary": "Two Class A drugs sit at the bottom of the scale for causing individual acute harm.",
-      "link": "https://www.nzherald.co.nz/nz/politics/majority-of-nz-drug-and-alcohol-users-experience-no-negative-effects-study-shows/premium/5XROPIMBXVEKDPLL6M5OK77BMI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/GS6PVMQIDGKL5WMC3VTREQE474.jpg?auth=73b7b5032089a270e023248ac3d0c76c074da536383149fa68d50adeeb1539b0&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777694262.0,
       "hot": false
     },
     {
       "id": "29256b1591",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "NZer in flotilla intercepted by Israel has concussion and possible broken rib, wife says",
       "summary": "Jay O'Connor, Mousa Taher, Julien Blondel and Sean Janssen were among almost 180 people who had disembarked on the Greek island of Crete.",
@@ -216,190 +434,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777693620.0,
-      "hot": false
-    },
-    {
-      "id": "099bcd6633",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "A naturopath's school-lunch hack: 'Put fruit and vegetables in a thermos'",
-      "summary": "No one, including kids, wants to eat a warm carrot stick, says Catie Gett.",
-      "link": "https://www.rnz.co.nz/life/food/a-naturopath-s-school-lunch-hack-put-fruit-and-vegetables-in-a-thermos",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777692776.0,
-      "hot": false
-    },
-    {
-      "id": "6349c4250a",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "ANZ Premiership round four: Mystics v Tactix",
-      "summary": "Follow live coverage of the 2026 ANZ Premiership.",
-      "link": "https://www.stuff.co.nz/sport/360962853/live-anz-premiership-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYS92ooySmeBxgTUNo4pjXQ1bRGHa9tX3N+9lrCuwfHON0MvSKMX+ElnkwfnqZisf4CEx5h8h1tF+WSQsUVGL3RIS0THPH%2F9QIdFcUVGEToI7kMx8uvT1wTDxHd2lMXgBNjluUrSavAIF8Us2nNY4lroOnEIe2ctYjN4az5uePIKuJrusE8GAC+M63iv6XxcoRkiZZiw0E6xazl+UiewcH0XzG9j35Ca1366eUzqUGSlq5aarkFPe9EkLTvc1YZZ8tQ0nhJgk8ZtJNZQzPKCjaq4Rd5MVCPRCrp0FKJb6ITNPxbZ64UdvhnT9DkyILj+UMSiEmFvzmaqhrgOqyUBHdwqg9by91LbioZLCIuyL2oyNV0o+qDlUD%2FQWvVIr+XL1y30yInXNF2JyE91qaBNJTpPRWD2DXnEpDhum43OMnraTglRKM4pmTfz%2FllhFb9zLID4fY5QAXds4NDDGcv6Eua4=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777692603.0,
-      "hot": false
-    },
-    {
-      "id": "cb5ca4380f",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Manurewa bus station stabbing: Woman intervenes to save man",
-      "summary": "Jade Bennett and partner Danny Lama put their safety at risk in a dash to save the man.",
-      "link": "https://www.nzherald.co.nz/nz/manurewa-bus-station-stabbing-woman-intervenes-to-save-man/3MUZR2UYOVD3BLI6NNB7U5DZ4E/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/Y2LIPUJZGZGTDJO4TB7WKWVMRI.jpg?auth=6d661d5d7425e2753969f0cb8acbf5d8220f46644a9c0a2dded6a39e38caed4b&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777692213.0,
-      "hot": false
-    },
-    {
-      "id": "49a5aadf9e",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "The 'vicious cycle' driving Tauranga families to Waikato for cheaper cremations",
-      "summary": "Some Tauranga families are taking their loved ones outside the city for cremations because it is cheaper, funeral directors say.",
-      "link": "https://www.stuff.co.nz/nz-news/360973409/vicious-cycle-driving-tauranga-families-waikato-cheaper-cremations",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYbMNgDy8J51ZVjhjQBPitOxwfc6CEYRj4x%2F7%2FoNvSKoEaFpqfmuS89QsMcD%2Fc0CebAKELVWdAtTS3axz1jFs20jAZLJfOv47Aa2BD2BM4YCMR5gueLhJ+wPqy1sf+lawEzpgLyjxFnWLifyflcNw6q24gbgPySahzB4748QDZKLlWe94VtusyZrIuHtUMwpatTALf+jnooXfQ2osPWLL0KlkS2GyjlOaUXgdxYoEYaty9%2F3k%2FOxow0fZnCm+mnNsEynmynJLw7ObvbRUrHr2hgEeBXD6hAObGJiu62PQcVzb5jS27xyt8kSd5DjUtKf0d2qqU1H1pe6jvtZfo8C5nUWWZRV5A%2F1VJJCbbsxB%2FvjuoxKIClnRrrjkDu9LqKL2wPx2ByAyGdlkMGprmGJifD7Skl%2FxImJW5anzknk+ZwaOgiPGdMdu4p1BMgPcmQf8fw==?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777691614.0,
-      "hot": false
-    },
-    {
-      "id": "ea1762aa4b",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Herald afternoon quiz: May 2",
-      "summary": "Test your brain with the Herald's afternoon quiz.",
-      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-may-2/MDKOJOHKJNCDZEFY4PTSG2W2FU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/ZN5TWYE6QNAU3NWDRKJ2JGLBOU.jpg?auth=3b1bfe7b9dad7f3a8d0331d38810e1b5b3ce1ea767ac32f14c7229743b686aea&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777690800.0,
-      "hot": false
-    },
-    {
-      "id": "c62589f374",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Kiwi team behind Roblox hit 99 Nights in the Forest lands movie deal",
-      "summary": "Kieft, Hufton and Angland met on Roblox as 13-year-olds and now develop games fulltime.",
-      "link": "https://www.nzherald.co.nz/nz/kiwi-team-behind-roblox-hit-99-nights-in-the-forest-land-movie-deal/DYAPEWGMP5E7TL7JYGE2KJJHCY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/NC5HHJWVNRHVROCSML3HJBCDHE.jpeg?auth=e73e4153c86832bfa40e1e8c70f21d040e80c12d071a0ed3e97d735f06a4dd28&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777690800.0,
-      "hot": false
-    },
-    {
-      "id": "f5971c7727",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Don’t like peace and quiet? Then this off-grid home with ‘wow’ views won’t be for you",
-      "summary": "When Marlon Kruijer first laid eyes on the two-bedroom West Coast property, he didn’t muck around.",
-      "link": "https://www.stuff.co.nz/home-property/360971749/dont-peace-and-quiet-then-grid-home-wow-views-wont-be-you",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYX0mqjNNL9MFzGCLggQStI8a4REa+QJVwQbuAZKAhm9Kiyq+Cv+DPO%2FoIgnu7rTnRhz7v5UWA%2F4JF6sLHjAGkptMgYOCwwzKseFAygxJIJf%2FIzJZ9dkeSQJ5rnunIHDbA1KWpWNNuN7F59aUAXfrRdk85%2FOSXr6yIOTDxxSDSlssw3eW4rtedI2urGse8EoQPKZoIwgo9KBc6ISR5VTS3pQMsJAp1HdzMtfLLTp7Nfw%2FwBqFilPk5azi1OX2mkYEMte+LG3dSZLvA2RF%2F6CA1uzRNq67Ju7yJYx8E3zNlHfgJQ+uiuSlWHmaOv1OmqdKNXa7uLtDH78YpdAhsrbn0TlyIuxm88YBG%2FTfZIzzW3znGWF4PfBnVynTjm2ghhfgeWq+w3Pa4F80WbXezWsOd%2F2I5d%2FgDN8RaZ9JSFirs8V69xfkVccPV1%2FPmjOdr2pRRxWrbcIS3kUQMQVIguN3Y6c=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777690800.0,
-      "hot": false
-    },
-    {
-      "id": "4e27051181",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "University of Canterbury investigates incident where student was banned from wearing Palestinian kef",
-      "summary": "The student said they felt 'demeaned and belittled' and unable to refuse.",
-      "link": "https://www.nzherald.co.nz/nz/wellington/canterbury-university-investigates-incident-where-student-was-banned-from-wearing-palestinian-keffiyeh-at-graduation/UKDF5Y6NSJGS7JJ6S7YTOLI7HY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/I3RUJFL7XVHOJP4YS5WBFTOPQM.png?auth=0a6119ff94529cf539b4fa2b9a5903ef525e5256a6c62dfec149f7fd6bc21093&smart=true&width=300&height=300",
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777689549.0,
-      "hot": false
-    },
-    {
-      "id": "1343357001",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "A-League finals football arrives at last for Phoenix women",
-      "summary": "Coach Bev Priestman is struggling to contain her excitement as a two-leg A-League women's semi-final against Brisbane Roar looms into view.",
-      "link": "https://www.rnz.co.nz/news/sport/594050/a-league-finals-football-arrives-at-last-for-phoenix-women",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777688917.0,
-      "hot": false
-    },
-    {
-      "id": "35bf5a8090",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Queen guitarist Brian May barred from planting daffodils in his village on safety grounds",
-      "summary": "The legendary rocker's plans to brighten up a church green in his quiet English village have bitten the dust.",
-      "link": "https://www.rnz.co.nz/life/lifestyle/home/queen-guitarist-brian-may-barred-from-planting-daffodils-in-his-village-on-safety-grounds",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1777684624.0,
+      "pub_ts": 1777693620.0,
       "hot": false
     },
     {
@@ -415,8 +451,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777683001.0,
       "hot": false
     },
@@ -434,8 +470,8 @@
         "政治",
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1777624820.0,
       "hot": false
     },
@@ -510,24 +546,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1777592963.0,
-      "hot": false
-    },
-    {
-      "id": "c4f3822054",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "'As damaging as the Treaty Principles Bill': Proposed changes to Treaty clauses revealed",
-      "summary": "Documents filed with the Waitangi Tribunal show what the changes could mean.",
-      "link": "https://www.rnz.co.nz/news/te-manu-korihi/593922/as-damaging-as-the-treaty-principles-bill-proposed-changes-to-treaty-clauses-revealed",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777588776.0,
       "hot": false
     }
   ]
