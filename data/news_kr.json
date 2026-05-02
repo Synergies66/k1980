@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-02T04:02:21.041534+00:00",
+  "updated_at": "2026-05-02T06:29:07.038144+00:00",
   "total": 7,
   "articles": [
+    {
+      "id": "265c1c103d",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Today in Korean history",
+      "summary": "May 3",
+      "link": "https://en.yna.co.kr/view/AEN20260502000700315",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777698001.0,
+      "hot": false
+    },
     {
       "id": "b6854ec9ab",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777687491.0,
       "hot": false
     },
@@ -36,7 +54,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1777685752.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777680467.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1777680369.0,
       "hot": false
     },
@@ -89,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777674326.0,
       "hot": false
     },
@@ -108,26 +126,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1777664219.0,
-      "hot": false
-    },
-    {
-      "id": "d2361cc551",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(LEAD) Trump says he's 'not satisfied' with Iran proposal, calls Tehran leadership 'extremely disjoi",
-      "summary": "WASHINGTON, May 1 (Yonhap) -- U.S. President Donald Trump said Friday that he wa...",
-      "link": "https://en.yna.co.kr/view/AEN20260502000351315",
-      "image": "https://img.yna.co.kr/photo/ap/2026/05/02/PAP20260502016101009_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777659218.0,
       "hot": false
     }
   ]
