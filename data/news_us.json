@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-03T09:43:18.379883+00:00",
+  "updated_at": "2026-05-03T13:52:07.935474+00:00",
   "total": 23,
   "articles": [
     {
@@ -19,26 +19,152 @@
         "科技"
       ],
       "score": 72,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1777751310.0,
       "hot": false
     },
     {
-      "id": "19c36634be",
+      "id": "2b811eb9c2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Says He Is Reviewing Iran’s Latest Offer but Doubts It Is Acceptable",
-      "summary": "The comments came one day after President Trump flatly rejected the proposal. He later clarified he was only briefed on the “concept of the deal.”",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/trump-us-iran-plan.html",
-      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03trump-news-iran-talks-update-fzkv/03trump-news-iran-talks-update-fzkv-mediumSquareAt3X.jpg",
+      "title": "What to Know About the Mideast Standoff",
+      "summary": "Negotiations to end the war are at an impasse over Iran’s nuclear program and the Strait of Hormuz, which remains mostly shut.",
+      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
+      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/iran-us-talks-topart-new-qhvk/iran-us-talks-topart-new-qhvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777804787.0,
+      "hot": false
+    },
+    {
+      "id": "24a5c39641",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "He recorded his quest for tariff refunds. It shows why billions may never get repaid",
+      "summary": "After the Supreme Court struck down most of President Trump's tariffs, Richard Brown began lining up the paperwork he needed to get his refund. Experts say many businesses may never get their money ba",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5805045/tariff-refunds-small-business",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777802400.0,
+      "hot": false
+    },
+    {
+      "id": "0d33750537",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Faces the Complicated Reality of a Costly, Unpopular War in Iran",
+      "summary": "President Trump’s predictions of a relatively short-term conflict with minimal economic consequences appear to be crumbling.",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/trump-unpopular-war-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03dc-trump-iran-qbhw/03dc-trump-iran-qbhw-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1777799552.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798894.0,
+      "hot": false
+    },
+    {
+      "id": "f70cacb25e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Behind Supreme Court Voting Rights Ruling, a Clash Over the Reality of Racism",
+      "summary": "The Supreme Court ruling said there must be proof that a racial group was “intentionally” disadvantaged. The dissent called it “well-nigh impossible.”",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/supreme-court-voting-rights-act.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-vra-racism-mlpv/02nat-vra-racism-mlpv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798882.0,
+      "hot": false
+    },
+    {
+      "id": "7abe38dd1b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "One Issue Uniting Democrats and Republicans? Worries About A.I.",
+      "summary": "The growing unease over artificial intelligence is something elements of the left and the right can agree on in a polarized age.",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/democrats-republicans-ai.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03pol-ai-google-tcjf/03pol-ai-google-tcjf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798882.0,
+      "hot": false
+    },
+    {
+      "id": "4baa7526bb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Tariffs, Rebates, Chaos: Boutique Businesses Wonder What’s Next",
+      "summary": "A Brooklyn general store that sells Taiwanese imports was pummeled by tariffs. A rebate would help, but the confusion still lingers.",
+      "link": "https://www.nytimes.com/2026/05/03/nyregion/nyc-tariffs-yun-hai-taiwan-pantry.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03met-tariffs-nyc-01-ptmg/03met-tariffs-nyc-01-ptmg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798867.0,
+      "hot": false
+    },
+    {
+      "id": "dc92874ef8",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "MAHA Awaits Robert F. Kennedy Jr.’s Definition of Ultraprocessed Foods",
+      "summary": "Some yogurts and peanut butters could be considered ultraprocessed as scientists and MAHA supporters push for a strict definition.",
+      "link": "https://www.nytimes.com/2026/05/03/business/ultraprocessed-foods-rfk-maha.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/00biz-ultra-food-fight-02-vlgp/00biz-ultra-food-fight-02-vlgp-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798844.0,
+      "hot": false
+    },
+    {
+      "id": "9132a682fd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Indiana Primary Election Will Test Trump’s Influence With Republicans",
+      "summary": "The election on Tuesday will test the influence of President Trump, who endorsed challengers to Republican state senators who scuttled his push to redraw political maps.",
+      "link": "https://www.nytimes.com/2026/05/03/us/indiana-senate-republican-primaries-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-indiana-republicans-1-zthv/02nat-indiana-republicans-1-zthv-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777798814.0,
       "hot": false
     },
     {
@@ -54,8 +180,8 @@
       "categories": [
         "天气"
       ],
-      "score": 70,
-      "ago": "43分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
@@ -72,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "43分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
@@ -92,7 +218,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777769879.0,
       "hot": false
     },
@@ -110,7 +236,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777766970.0,
       "hot": false
     },
@@ -129,7 +255,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1777765478.0,
       "hot": false
     },
@@ -147,44 +273,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777764901.0,
-      "hot": false
-    },
-    {
-      "id": "3f6cffb0a5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About the U.S.-Iran Peace Talks",
-      "summary": "Negotiations to end the war are at an impasse over Iran’s nuclear program and the Strait of Hormuz, which remains mostly shut.",
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/iran-us-talks-topart-new-qhvk/iran-us-talks-topart-new-qhvk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777764465.0,
-      "hot": false
-    },
-    {
-      "id": "bf4c606e89",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Asked to Restore Access to Abortion Pill by Mail",
-      "summary": "A federal appeals court temporarily halted a Food and Drug Administration regulation that has greatly expanded access to the abortion pill mifepristone.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/supreme-court-mail-abortion-pill.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/00dc-scotus-abortionpill-01-cfwg/00dc-scotus-abortionpill-01-cfwg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777763812.0,
       "hot": false
     },
     {
@@ -201,7 +291,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777757965.0,
       "hot": false
     },
@@ -219,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777757715.0,
       "hot": false
     },
@@ -237,44 +327,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777756939.0,
-      "hot": false
-    },
-    {
-      "id": "8365c385c5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Abortion Providers Forced to Adapt After Court Ruling Blocks Pill Access by Mail",
-      "summary": "The Fifth Circuit court’s ruling, which is being appealed, reinstates a requirement that patients visit a health care provider in person to obtain mifepristone, upending abortion access in the United",
-      "link": "https://www.nytimes.com/2026/05/02/us/abortion-pill-mifepristone-5th-circuit-court-ruling.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-abortion-pill-wfcp/02nat-abortion-pill-wfcp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777756658.0,
-      "hot": false
-    },
-    {
-      "id": "440f8b6edd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Vision for D.C. ‘Garden of Heroes’ Statues Grows in Size and Cost",
-      "summary": "Plans for the project include formal gardens, reflecting pools and plazas alongside the statues of 250 notable Americans, according to documents obtained by The New York Times.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/trump-garden-of-heroes-statues.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02dc-trump-garden-TOP-vkph/02dc-trump-garden-TOP-vkph-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777755172.0,
       "hot": false
     },
     {
@@ -291,26 +345,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "17小时前",
       "pub_ts": 1777755084.0,
-      "hot": false
-    },
-    {
-      "id": "c49050dbee",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Academy announces major overhaul to rules",
-      "summary": "The new rules focus on areas such as AI protections for writers and actors and expanded eligibility for international films.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808894/oscars-2027-99th-academy-awards-rule-changes",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777754099.0,
       "hot": false
     },
     {
@@ -327,44 +363,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1777742740.0,
-      "hot": false
-    },
-    {
-      "id": "c7707222cd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Americans Who Could Be in Trump’s ‘Garden of Heroes’ Statue Park in D.C.",
-      "summary": "President Trump plans to build a park along the Potomac River featuring life-size statues of 250 Americans.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/trump-garden-of-heroes-national-statues-list.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/us/politics/dc-heroes-still/dc-heroes-still-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777740913.0,
-      "hot": false
-    },
-    {
-      "id": "ddc0988c3c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Fast-Tracks Arms Deals Valued at $8.6 Billion to Mideast Partners",
-      "summary": "The Persian Gulf countries and Israel have faced repeated Iranian attacks during the U.S.-Israeli war with Iran. The State Department move bypassed congressional review.",
-      "link": "https://www.nytimes.com/2026/05/02/world/middleeast/us-fast-track-arms-deal-middle-east.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02mideast-arm-deal-cpbg/02mideast-arm-deal-cpbg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777738713.0,
       "hot": false
     },
     {
@@ -381,26 +381,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1777737463.0,
       "hot": false
     },
     {
-      "id": "bc2ce75fa0",
+      "id": "618ed0d0a8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "U.S. to Withdraw 5,000 Troops From Germany. But Thousands Will Remain.",
-      "summary": "The U.S. military has tens of thousands of personnel in Germany, more than in any other foreign country but Japan. Their significance extends well beyond Europe.",
-      "link": "https://www.nytimes.com/2026/05/02/world/europe/us-troops-germany-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02int-germany-troops-wtk-qblh/02int-germany-troops-wtk-qblh-mediumSquareAt3X.jpg",
+      "title": "Jordanians Struggle as Mideast Wars Scare Tourists Away",
+      "summary": "Though Jordan mostly sat out the conflicts, its tourism high season was nearly wiped out at popular sites. Visitors canceled flights, hotels and tours.",
+      "link": "https://www.nytimes.com/2026/05/02/world/middleeast/jordan-travel-tourists-war.html",
+      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/28Jordan-Tourism-01-qmcb/28Jordan-Tourism-01-qmcb-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777737416.0,
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1777712456.0,
       "hot": false
     },
     {
