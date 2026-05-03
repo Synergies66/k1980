@@ -1,26 +1,97 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-03T17:26:06.841207+00:00",
-  "total": 26,
+  "updated_at": "2026-05-03T21:11:01.058306+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "f405655a16",
+      "id": "9b18d38854",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'I was trying to save a life,' man who intervened in Golders Green attack tells BBC",
+      "summary": "Ashkan Asadian said he acted on the spur of the moment without thinking about the danger of the situation.",
+      "link": "https://www.bbc.com/news/articles/c1529vgdvlgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/76db/live/591039d0-46d5-11f1-a1bb-13ca62b3ded8.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "10分前",
+      "pub_ts": 1777842011.0,
+      "hot": false
+    },
+    {
+      "id": "7b64599eff",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Three dead in suspected virus outbreak on Atlantic cruise ship",
+      "summary": "The World Health Organization said one case of hantavirus infection has been confirmed, with five more suspected cases under investigation.",
+      "link": "https://www.bbc.com/news/articles/cy0294829ndo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7798/live/b7202c10-472f-11f1-92b3-95f249f40d33.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "34分前",
+      "pub_ts": 1777840594.0,
+      "hot": false
+    },
+    {
+      "id": "18ed0a7af0",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Iran says US has responded to its latest peace proposal",
+      "summary": "The US is yet to formally confirm it has responded. However, Trump reportedly told Israel's Kan News it was unacceptable.",
+      "link": "https://www.bbc.com/news/articles/cn0px2x53k2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0168/live/a60aab20-470d-11f1-8bd0-c9ca96b627c7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "45分前",
+      "pub_ts": 1777839925.0,
+      "hot": false
+    },
+    {
+      "id": "29f62e62c0",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Serious injuries as man falls 'number of floors'",
+      "summary": "Police seal off a bar in Colmore Row as the venue closes and apologises to customers.",
+      "link": "https://www.bbc.com/news/articles/cn0p89zgeyno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1662/live/8338e7b0-4726-11f1-80d5-0b395826c00c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777838440.0,
+      "hot": false
+    },
+    {
+      "id": "133a49f419",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Trump may not be a fan of clean energy but Iran war is accelerating global shift from oil and gas | ",
-      "summary": "Unintended consequence of US president’s actions will be boon for China, the leading renewables manufacturerOperation Epic Fury has thus far achieved none of Donald Trump’s war aims, but it may well a",
-      "link": "https://www.theguardian.com/business/2026/may/03/trump-clean-energy-iran-war-global-shift-oil-gas",
-      "image": "https://i.guim.co.uk/img/media/f1c491a5506784bd28ee111a6c61bbd54f1637cb/158_0_3706_2964/master/3706.jpg?width=140&quality=85&auto=format&fit=max&s=b889ec761f34b36beab8072fdd848c9c",
+      "title": "Making Life on Earth: Attenborough’s Greatest Adventure review – the anecdotes are just amazing",
+      "summary": "From tales of giant tortoises trampling tents to almost getting shot, this is a relentlessly entertaining documentary about one of David Attenborough’s greatest pieces of TVLife on Earth has a good cl",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/may/03/making-life-on-earth-attenboroughs-greatest-adventure-review-the-anecdotes-are-just-amazing",
+      "image": "https://i.guim.co.uk/img/media/68b608321093b4ae8234b1bc70e0be0d25f57520/134_0_3692_2954/master/3692.jpg?width=140&quality=85&auto=format&fit=max&s=8f0ea7e76b54716b5b6b69e61cfe5332",
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "7小时前",
-      "pub_ts": 1777803461.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777838402.0,
       "hot": false
     },
     {
@@ -38,25 +109,7 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777824600.0,
-      "hot": false
-    },
-    {
-      "id": "5c98035cba",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "AI facial recognition oversight lagging far behind technology, watchdogs warn",
-      "summary": "Exclusive: Biometrics commissioners say face-scanning not as effective as claimed and new laws needed to regulate useHow does live facial recognition work and how many police forces use it? Guilty unt",
-      "link": "https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn",
-      "image": "https://i.guim.co.uk/img/media/1c1b06bc7a14c84ec55ad4bed812f6d4df67ff2e/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=345c197901b0d40585077683b7726996",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777824002.0,
+      "pub_ts": 1777836039.0,
       "hot": false
     },
     {
@@ -73,7 +126,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1777800041.0,
       "hot": false
     },
@@ -91,7 +144,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1777790652.0,
       "hot": false
     },
@@ -109,7 +162,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1777780859.0,
       "hot": false
     },
@@ -127,134 +180,81 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "18小时前",
       "pub_ts": 1777774814.0,
       "hot": false
     },
     {
-      "id": "d96267083d",
+      "id": "98bb9e1d6f",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Fish, eels and birds killed in river pollution incident",
-      "summary": "Fly fishers say the salmon population at the burn in Moray has been wiped out and could take years to recover.",
-      "link": "https://www.bbc.com/news/articles/c78k57py38do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fea/live/142c50e0-46f0-11f1-9217-a5b6a670d3f7.jpg",
+      "title": "Police conclude search at religious group's HQ",
+      "summary": "Cheshire Police were searching a property used by the Ahmadi Religion of Peace and Light.",
+      "link": "https://www.bbc.com/news/articles/c87q8ygj5l4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f3e9/live/c3b94b40-4712-11f1-bd52-e755d604ece4.png",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777820970.0,
+      "ago": "3小时前",
+      "pub_ts": 1777829486.0,
       "hot": false
     },
     {
-      "id": "e68ebe349a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Sir Alex Ferguson taken to hospital as precaution before Man Utd v Liverpool",
-      "summary": "Sir Alex Ferguson is taken to hospital after falling unwell at Old Trafford shortly before Manchester United's Premier League match with Liverpool on Sunday.",
-      "link": "https://www.bbc.com/sport/football/articles/c0r2nvpvylxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc64/live/27c200f0-46fa-11f1-9217-a5b6a670d3f7.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777820200.0,
-      "hot": false
-    },
-    {
-      "id": "ba541d3b1d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Police probe link between drive-by shooting and stabbing",
-      "summary": "The possibility a drive-by shooting and a stabbing in Brixton are linked is being examined by police.",
-      "link": "https://www.bbc.com/news/articles/c6267xve17xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64c0/live/1441c2c0-46f2-11f1-9217-a5b6a670d3f7.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777819500.0,
-      "hot": false
-    },
-    {
-      "id": "7b69fccdb3",
+      "id": "5c98035cba",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Jewish Londoners deserve to live without fear – we are taking action to ensure their safety | Sadiq ",
-      "summary": "During dark times, we must stand by our Jewish neighbours as generations of Londoners have done before usSadiq Khan is the mayor of LondonJewish people are living in fear – a fear that has been buildi",
-      "link": "https://www.theguardian.com/commentisfree/2026/may/03/jewish-community-london-safety-sadiq-khan",
-      "image": "https://i.guim.co.uk/img/media/f736427c9cc36091fbdbf3e90f3aae14b14a683c/362_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=10db620d4a3dd69461f2d44acf24a240",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777812523.0,
-      "hot": false
-    },
-    {
-      "id": "59a960aedf",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Two women die trying to cross Channel in small boat",
-      "summary": "The boat, carrying 82 people, ran aground on a beach in northern France, says local official.",
-      "link": "https://www.bbc.com/news/articles/cvgz6q7p7n7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec9/live/fb525530-46e8-11f1-bfea-256a0d3b8301.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777811209.0,
-      "hot": false
-    },
-    {
-      "id": "2c0817521d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘We don’t want to make the same mistakes’: Jamie’s Italian reopens in London",
-      "summary": "Jamie Oliver’s head of restaurants is optimistic about new recipe of smaller site, slimmed-down menu and no burgersWhen Jamie’s Italian crashed and burned in 2019, with the company in £83m of debt and",
-      "link": "https://www.theguardian.com/food/2026/may/03/jamies-italian-reopens-jamie-oliver-london",
-      "image": "https://i.guim.co.uk/img/media/43dfca3d43b97a8e8f0eeff7f25340be4f2e7ea6/547_0_9796_7837/master/9796.jpg?width=140&quality=85&auto=format&fit=max&s=2cba9dd41ea033b65044ac2cab77a0e7",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777809600.0,
-      "hot": false
-    },
-    {
-      "id": "e5a65fb396",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Polanski says he would discourage ‘globalise the intifada’ chant but warns against march bans",
-      "summary": "Green party leader says specifically outlawing controversial phrase would restrict freedom of speechZack Polanski has said he would discourage pro-Palestine protesters from using the chant “globalise",
-      "link": "https://www.theguardian.com/politics/2026/may/03/zack-polanski-warns-against-banning-london-pro-palestine-protest-green-party",
-      "image": "https://i.guim.co.uk/img/media/2b3ea0273e0f2ba44207b21da94b1f525499bdac/272_0_2601_2081/master/2601.jpg?width=140&quality=85&auto=format&fit=max&s=7c2ada5c7dcea228555f13c8381ed7ca",
+      "title": "AI facial recognition oversight lagging far behind technology, watchdogs warn",
+      "summary": "Exclusive: Biometrics commissioners say face-scanning not as effective as claimed and new laws needed to regulate useHow does live facial recognition work and how many police forces use it? Guilty unt",
+      "link": "https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn",
+      "image": "https://i.guim.co.uk/img/media/1c1b06bc7a14c84ec55ad4bed812f6d4df67ff2e/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=345c197901b0d40585077683b7726996",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1777807578.0,
+      "pub_ts": 1777824002.0,
+      "hot": false
+    },
+    {
+      "id": "f5413896fa",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Police officer lowered into crocodile-infested river to recover human remains",
+      "summary": "Police suspect the human remains belong to a businessman swept away by floodwater last week.",
+      "link": "https://www.bbc.com/news/articles/cz92gk18xn4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3393/live/3818ab40-4707-11f1-bd22-17beaec4bfbd.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777823279.0,
+      "hot": false
+    },
+    {
+      "id": "b0213e11f8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Mild and mostly dry bank holiday but heavy showers possible for some",
+      "summary": "Temperatures across the UK are expected to take a dip, with the potential for some heavy showers and thunder in some areas.",
+      "link": "https://www.bbc.com/news/articles/cj4p92049nlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/92d8/live/4c631940-46f9-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777822878.0,
       "hot": false
     },
     {
@@ -330,10 +330,100 @@
       "hot": false
     },
     {
+      "id": "ba541d3b1d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Police probe link between drive-by shooting and stabbing",
+      "summary": "The possibility a drive-by shooting and a stabbing in Brixton are linked is being examined by police.",
+      "link": "https://www.bbc.com/news/articles/c6267xve17xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64c0/live/1441c2c0-46f2-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777819500.0,
+      "hot": false
+    },
+    {
+      "id": "7b69fccdb3",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Jewish Londoners deserve to live without fear – we are taking action to ensure their safety | Sadiq ",
+      "summary": "During dark times, we must stand by our Jewish neighbours as generations of Londoners have done before usSadiq Khan is the mayor of LondonJewish people are living in fear – a fear that has been buildi",
+      "link": "https://www.theguardian.com/commentisfree/2026/may/03/jewish-community-london-safety-sadiq-khan",
+      "image": "https://i.guim.co.uk/img/media/f736427c9cc36091fbdbf3e90f3aae14b14a683c/362_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=10db620d4a3dd69461f2d44acf24a240",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777812523.0,
+      "hot": false
+    },
+    {
+      "id": "59a960aedf",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two women die trying to cross Channel in small boat",
+      "summary": "The boat, carrying 82 people, ran aground on a beach in northern France, says local official.",
+      "link": "https://www.bbc.com/news/articles/cvgz6q7p7n7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec9/live/fb525530-46e8-11f1-bfea-256a0d3b8301.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777811209.0,
+      "hot": false
+    },
+    {
+      "id": "2c0817521d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘We don’t want to make the same mistakes’: Jamie’s Italian reopens in London",
+      "summary": "Jamie Oliver’s head of restaurants is optimistic about new recipe of smaller site, slimmed-down menu and no burgersWhen Jamie’s Italian crashed and burned in 2019, with the company in £83m of debt and",
+      "link": "https://www.theguardian.com/food/2026/may/03/jamies-italian-reopens-jamie-oliver-london",
+      "image": "https://i.guim.co.uk/img/media/43dfca3d43b97a8e8f0eeff7f25340be4f2e7ea6/547_0_9796_7837/master/9796.jpg?width=140&quality=85&auto=format&fit=max&s=2cba9dd41ea033b65044ac2cab77a0e7",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777809600.0,
+      "hot": false
+    },
+    {
+      "id": "e5a65fb396",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Polanski says he would discourage ‘globalise the intifada’ chant but warns against march bans",
+      "summary": "Green party leader says specifically outlawing controversial phrase would restrict freedom of speechZack Polanski has said he would discourage pro-Palestine protesters from using the chant “globalise",
+      "link": "https://www.theguardian.com/politics/2026/may/03/zack-polanski-warns-against-banning-london-pro-palestine-protest-green-party",
+      "image": "https://i.guim.co.uk/img/media/2b3ea0273e0f2ba44207b21da94b1f525499bdac/272_0_2601_2081/master/2601.jpg?width=140&quality=85&auto=format&fit=max&s=7c2ada5c7dcea228555f13c8381ed7ca",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777807578.0,
+      "hot": false
+    },
+    {
       "id": "89c5d0ae20",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Polanski says police 'should not be above scrutiny' over Golders Green response",
       "summary": "The Green Party leader says he apologised for reposting a tweet criticising the officers' response because it was \"not the appropriate forum\".",
@@ -343,7 +433,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777807460.0,
       "hot": false
     },
@@ -361,7 +451,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777806054.0,
       "hot": false
     },
@@ -379,7 +469,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777806054.0,
       "hot": false
     },
@@ -397,27 +487,8 @@
         "教育"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777806053.0,
-      "hot": false
-    },
-    {
-      "id": "c7e816bc6b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Airlines can cancel flights in advance over fuel shortages under new plans",
-      "summary": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
-      "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777799634.0,
       "hot": false
     },
     {
@@ -434,26 +505,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777797683.0,
-      "hot": false
-    },
-    {
-      "id": "89cbad44d8",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "King's speech was a 'high stakes' moment of US visit, Palace says",
-      "summary": "The state visit to the US draws a positive response after what was a difficult diplomatic challenge.",
-      "link": "https://www.bbc.com/news/articles/cy72d4g5pdyo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6c8/live/4dd9de60-4683-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777766612.0,
       "hot": false
     },
     {
@@ -471,7 +524,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777763967.0,
       "hot": false
     }
