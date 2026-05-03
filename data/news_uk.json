@@ -1,8 +1,8 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-03T13:54:43.566718+00:00",
-  "total": 28,
+  "updated_at": "2026-05-03T17:26:06.841207+00:00",
+  "total": 26,
   "articles": [
     {
       "id": "f405655a16",
@@ -18,9 +18,45 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1777803461.0,
+      "hot": false
+    },
+    {
+      "id": "f7a8f8fc0f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Man and woman die and three injured in house blast",
+      "summary": "Police said the explosion was \"suspicious\" but was not being treated as a terrorist incident.",
+      "link": "https://www.bbc.com/news/articles/c202w3lzdvjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82e7/live/10eb2fa0-46f0-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777824600.0,
+      "hot": false
+    },
+    {
+      "id": "5c98035cba",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "AI facial recognition oversight lagging far behind technology, watchdogs warn",
+      "summary": "Exclusive: Biometrics commissioners say face-scanning not as effective as claimed and new laws needed to regulate useHow does live facial recognition work and how many police forces use it? Guilty unt",
+      "link": "https://www.theguardian.com/technology/ng-interactive/2026/may/03/ai-facial-recognition-oversight-lagging-far-behind-technology-watchdogs-warn",
+      "image": "https://i.guim.co.uk/img/media/1c1b06bc7a14c84ec55ad4bed812f6d4df67ff2e/1_0_2499_2000/master/2499.jpg?width=140&quality=85&auto=format&fit=max&s=345c197901b0d40585077683b7726996",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777824002.0,
       "hot": false
     },
     {
@@ -36,136 +72,9 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "4小时前",
+      "score": 68,
+      "ago": "8小时前",
       "pub_ts": 1777800041.0,
-      "hot": false
-    },
-    {
-      "id": "8b0c4348f1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Tributes after teen killed by falling tree",
-      "summary": "Police said the youngster was pronounced dead at the scene in Stafford.",
-      "link": "https://www.bbc.com/news/articles/cy02ley5jxeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b8e9/live/35b626d0-46de-11f1-bfea-256a0d3b8301.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "7分前",
-      "pub_ts": 1777816050.0,
-      "hot": false
-    },
-    {
-      "id": "2c8ff1c068",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Two dead and major incident declared after explosion",
-      "summary": "Avon and Somerset Police said the incident was not believed to be terrorism related.",
-      "link": "https://www.bbc.com/news/articles/c202w3lzdvjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82e7/live/10eb2fa0-46f0-11f1-9217-a5b6a670d3f7.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1777814488.0,
-      "hot": false
-    },
-    {
-      "id": "6baceb5520",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Starmer adviser held 16 undisclosed meetings with top US tech bosses",
-      "summary": "Exclusive: Varun Chandra’s talks with Google, Meta, Apple and others raise fears of ‘lobbying behind closed doors’An influential government adviser close to Keir Starmer and Rachel Reeves held 16 undi",
-      "link": "https://www.theguardian.com/politics/2026/may/03/starmer-adviser-varun-chandra-undisclosed-meetings-us-tech-bosses",
-      "image": "https://i.guim.co.uk/img/media/fd72921c02e037d44dbdc1104802e731da64c1cf/493_0_4314_3450/master/4314.jpg?width=140&quality=85&auto=format&fit=max&s=10c565cb6095a5ab63b69c2433497f52",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "54分前",
-      "pub_ts": 1777813203.0,
-      "hot": false
-    },
-    {
-      "id": "7b69fccdb3",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Jewish Londoners deserve to live without fear – we are taking action to ensure their safety | Sadiq ",
-      "summary": "During dark times, we must stand by our Jewish neighbours as generations of Londoners have done before usSadiq Khan is the mayor of LondonJewish people are living in fear – a fear that has been buildi",
-      "link": "https://www.theguardian.com/commentisfree/2026/may/03/jewish-community-london-safety-sadiq-khan",
-      "image": "https://i.guim.co.uk/img/media/f736427c9cc36091fbdbf3e90f3aae14b14a683c/362_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=10db620d4a3dd69461f2d44acf24a240",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777812523.0,
-      "hot": false
-    },
-    {
-      "id": "d96267083d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Fish, eels and birds killed in river pollution incident",
-      "summary": "Fly fishers say the salmon population at the burn in Moray has been wiped out and could take years to recover.",
-      "link": "https://www.bbc.com/news/articles/c78k57py38do?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fea/live/142c50e0-46f0-11f1-9217-a5b6a670d3f7.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777811968.0,
-      "hot": false
-    },
-    {
-      "id": "59a960aedf",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Two women die trying to cross Channel in small boat",
-      "summary": "The boat, carrying 82 people, ran aground on a beach in northern France, says local official.",
-      "link": "https://www.bbc.com/news/articles/cvgz6q7p7n7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec9/live/fb525530-46e8-11f1-bfea-256a0d3b8301.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777811209.0,
-      "hot": false
-    },
-    {
-      "id": "2c0817521d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘We don’t want to make the same mistakes’: Jamie’s Italian reopens in London",
-      "summary": "Jamie Oliver’s head of restaurants is optimistic about new recipe of smaller site, slimmed-down menu and no burgersWhen Jamie’s Italian crashed and burned in 2019, with the company in £83m of debt and",
-      "link": "https://www.theguardian.com/food/2026/may/03/jamies-italian-reopens-jamie-oliver-london",
-      "image": "https://i.guim.co.uk/img/media/43dfca3d43b97a8e8f0eeff7f25340be4f2e7ea6/547_0_9796_7837/master/9796.jpg?width=140&quality=85&auto=format&fit=max&s=2cba9dd41ea033b65044ac2cab77a0e7",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777809600.0,
       "hot": false
     },
     {
@@ -182,7 +91,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777790652.0,
       "hot": false
     },
@@ -200,7 +109,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777780859.0,
       "hot": false
     },
@@ -218,8 +127,116 @@
         "本地"
       ],
       "score": 68,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777774814.0,
+      "hot": false
+    },
+    {
+      "id": "d96267083d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Fish, eels and birds killed in river pollution incident",
+      "summary": "Fly fishers say the salmon population at the burn in Moray has been wiped out and could take years to recover.",
+      "link": "https://www.bbc.com/news/articles/c78k57py38do?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5fea/live/142c50e0-46f0-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777820970.0,
+      "hot": false
+    },
+    {
+      "id": "e68ebe349a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Sir Alex Ferguson taken to hospital as precaution before Man Utd v Liverpool",
+      "summary": "Sir Alex Ferguson is taken to hospital after falling unwell at Old Trafford shortly before Manchester United's Premier League match with Liverpool on Sunday.",
+      "link": "https://www.bbc.com/sport/football/articles/c0r2nvpvylxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fc64/live/27c200f0-46fa-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777820200.0,
+      "hot": false
+    },
+    {
+      "id": "ba541d3b1d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Police probe link between drive-by shooting and stabbing",
+      "summary": "The possibility a drive-by shooting and a stabbing in Brixton are linked is being examined by police.",
+      "link": "https://www.bbc.com/news/articles/c6267xve17xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/64c0/live/1441c2c0-46f2-11f1-9217-a5b6a670d3f7.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777819500.0,
+      "hot": false
+    },
+    {
+      "id": "7b69fccdb3",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Jewish Londoners deserve to live without fear – we are taking action to ensure their safety | Sadiq ",
+      "summary": "During dark times, we must stand by our Jewish neighbours as generations of Londoners have done before usSadiq Khan is the mayor of LondonJewish people are living in fear – a fear that has been buildi",
+      "link": "https://www.theguardian.com/commentisfree/2026/may/03/jewish-community-london-safety-sadiq-khan",
+      "image": "https://i.guim.co.uk/img/media/f736427c9cc36091fbdbf3e90f3aae14b14a683c/362_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=10db620d4a3dd69461f2d44acf24a240",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777812523.0,
+      "hot": false
+    },
+    {
+      "id": "59a960aedf",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two women die trying to cross Channel in small boat",
+      "summary": "The boat, carrying 82 people, ran aground on a beach in northern France, says local official.",
+      "link": "https://www.bbc.com/news/articles/cvgz6q7p7n7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ec9/live/fb525530-46e8-11f1-bfea-256a0d3b8301.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777811209.0,
+      "hot": false
+    },
+    {
+      "id": "2c0817521d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘We don’t want to make the same mistakes’: Jamie’s Italian reopens in London",
+      "summary": "Jamie Oliver’s head of restaurants is optimistic about new recipe of smaller site, slimmed-down menu and no burgersWhen Jamie’s Italian crashed and burned in 2019, with the company in £83m of debt and",
+      "link": "https://www.theguardian.com/food/2026/may/03/jamies-italian-reopens-jamie-oliver-london",
+      "image": "https://i.guim.co.uk/img/media/43dfca3d43b97a8e8f0eeff7f25340be4f2e7ea6/547_0_9796_7837/master/9796.jpg?width=140&quality=85&auto=format&fit=max&s=2cba9dd41ea033b65044ac2cab77a0e7",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777809600.0,
       "hot": false
     },
     {
@@ -236,117 +253,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777807578.0,
-      "hot": false
-    },
-    {
-      "id": "89c5d0ae20",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Polanski says police 'should not be above scrutiny' over Golders Green response",
-      "summary": "The Green Party leader says he apologised for reposting a tweet criticising the officers' response because it was \"not the appropriate forum\".",
-      "link": "https://www.bbc.com/news/articles/c78q6w1vzz7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b842/live/ffd561c0-46e7-11f1-bfea-256a0d3b8301.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777807460.0,
-      "hot": false
-    },
-    {
-      "id": "ef48fd6519",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘This is just disarray’: alarm inside Pentagon after Hegseth staff purges",
-      "summary": "Insiders portray defense secretary as increasingly isolated after officers with impeccable reputations forced outSince Donald Trump’s first term, they have been viewed comfortingly as the “adults in t",
-      "link": "https://www.theguardian.com/us-news/2026/may/03/pentagon-pete-hegseth-us-military",
-      "image": "https://i.guim.co.uk/img/media/4a412863b89454bf4c5a47947c83ebb7172189cb/699_0_5033_4024/master/5033.jpg?width=140&quality=85&auto=format&fit=max&s=f9f985dd4fcb85fcc3bc30f0cf7cfe90",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777806054.0,
-      "hot": false
-    },
-    {
-      "id": "249b11668a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Cuba gets trickle of intrepid tourists as Trump’s oil blockade continues",
-      "summary": "Island’s tourism industry been hit hard by severe US pressure – but some say foreigners should still visitLeslie Simon and Marc Bender had arrived in Havana for a 10-day holiday, despite their preside",
-      "link": "https://www.theguardian.com/world/2026/may/03/cuba-tourism-us-oil-blockade",
-      "image": "https://i.guim.co.uk/img/media/9acfc1d18cb52bc613837a658f5a59b0d8691af2/1033_0_6184_4947/master/6184.jpg?width=140&quality=85&auto=format&fit=max&s=ba6ef0c0e3b1faa33ec342cf3c17cb26",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777806054.0,
-      "hot": false
-    },
-    {
-      "id": "64b13645f6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘I was mortally offended’: writers on the throwaway comments that changed their lives",
-      "summary": "Can a sentence affect the course of your life? Five authors reveal the interactions that transformed the way they saw themselves – and the worldWhen I was 14, I had to start a new school. I wasn’t gre",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/may/03/sentence-comment-changed-my-life-yomi-adegoke-matt-haig-bella-mackie-megan-nolan-nikesh-shukla",
-      "image": "https://i.guim.co.uk/img/media/ead562a2459511b447d94c2e85e5928ab05c6f73/7_0_1403_1122/master/1403.jpg?width=140&quality=85&auto=format&fit=max&s=f2491824c32021d25b7c54653b24e2ca",
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777806053.0,
-      "hot": false
-    },
-    {
-      "id": "c7e816bc6b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Airlines can cancel flights in advance over fuel shortages under new plans",
-      "summary": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
-      "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777799634.0,
-      "hot": false
-    },
-    {
-      "id": "41d3522c2d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
-      "summary": "The chairs of the House and Senate armed services committees said withdrawing 5,000 service personnel risked undermining deterrence.",
-      "link": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19a5/live/745df6a0-46c6-11f1-8675-51b72e8f4a66.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1777797683.0,
+      "pub_ts": 1777807578.0,
       "hot": false
     },
     {
@@ -422,39 +330,112 @@
       "hot": false
     },
     {
-      "id": "8f4b94625f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "I ran the London Marathon 45 times but now it is time to rest",
-      "summary": "Mac Speake, 84, is coming to terms with ending his tradition of running every London Marathon.",
-      "link": "https://www.bbc.com/news/articles/cnvpjynjjq5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/08d9/live/60ed8b70-25ee-11f0-a2c2-9525794a9c0a.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777784619.0,
-      "hot": false
-    },
-    {
-      "id": "ece02eb81c",
+      "id": "89c5d0ae20",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Musk's AI told me people were coming to kill me. I grabbed a hammer and prepared for war",
-      "summary": "Several people told the BBC they experienced delusions after intense conversations with AI.",
-      "link": "https://www.bbc.com/news/articles/c242pzr1zp2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5df4/live/b21d07e0-4560-11f1-bd52-e755d604ece4.jpg",
+      "title": "Polanski says police 'should not be above scrutiny' over Golders Green response",
+      "summary": "The Green Party leader says he apologised for reposting a tweet criticising the officers' response because it was \"not the appropriate forum\".",
+      "link": "https://www.bbc.com/news/articles/c78q6w1vzz7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b842/live/ffd561c0-46e7-11f1-bfea-256a0d3b8301.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777807460.0,
+      "hot": false
+    },
+    {
+      "id": "ef48fd6519",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘This is just disarray’: alarm inside Pentagon after Hegseth staff purges",
+      "summary": "Insiders portray defense secretary as increasingly isolated after officers with impeccable reputations forced outSince Donald Trump’s first term, they have been viewed comfortingly as the “adults in t",
+      "link": "https://www.theguardian.com/us-news/2026/may/03/pentagon-pete-hegseth-us-military",
+      "image": "https://i.guim.co.uk/img/media/4a412863b89454bf4c5a47947c83ebb7172189cb/699_0_5033_4024/master/5033.jpg?width=140&quality=85&auto=format&fit=max&s=f9f985dd4fcb85fcc3bc30f0cf7cfe90",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777806054.0,
+      "hot": false
+    },
+    {
+      "id": "249b11668a",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Cuba gets trickle of intrepid tourists as Trump’s oil blockade continues",
+      "summary": "Island’s tourism industry been hit hard by severe US pressure – but some say foreigners should still visitLeslie Simon and Marc Bender had arrived in Havana for a 10-day holiday, despite their preside",
+      "link": "https://www.theguardian.com/world/2026/may/03/cuba-tourism-us-oil-blockade",
+      "image": "https://i.guim.co.uk/img/media/9acfc1d18cb52bc613837a658f5a59b0d8691af2/1033_0_6184_4947/master/6184.jpg?width=140&quality=85&auto=format&fit=max&s=ba6ef0c0e3b1faa33ec342cf3c17cb26",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777806054.0,
+      "hot": false
+    },
+    {
+      "id": "64b13645f6",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "‘I was mortally offended’: writers on the throwaway comments that changed their lives",
+      "summary": "Can a sentence affect the course of your life? Five authors reveal the interactions that transformed the way they saw themselves – and the worldWhen I was 14, I had to start a new school. I wasn’t gre",
+      "link": "https://www.theguardian.com/lifeandstyle/2026/may/03/sentence-comment-changed-my-life-yomi-adegoke-matt-haig-bella-mackie-megan-nolan-nikesh-shukla",
+      "image": "https://i.guim.co.uk/img/media/ead562a2459511b447d94c2e85e5928ab05c6f73/7_0_1403_1122/master/1403.jpg?width=140&quality=85&auto=format&fit=max&s=f2491824c32021d25b7c54653b24e2ca",
+      "categories": [
+        "教育"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777806053.0,
+      "hot": false
+    },
+    {
+      "id": "c7e816bc6b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Airlines can cancel flights in advance over fuel shortages under new plans",
+      "summary": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
+      "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777799634.0,
+      "hot": false
+    },
+    {
+      "id": "41d3522c2d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Germany troop cuts send wrong signal to Russia, say two top US Republicans",
+      "summary": "The chairs of the House and Senate armed services committees said withdrawing 5,000 service personnel risked undermining deterrence.",
+      "link": "https://www.bbc.com/news/articles/cewpx5yvwyxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/19a5/live/745df6a0-46c6-11f1-8675-51b72e8f4a66.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777772935.0,
+      "ago": "8小时前",
+      "pub_ts": 1777797683.0,
       "hot": false
     },
     {
@@ -471,7 +452,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1777766612.0,
       "hot": false
     },
@@ -490,26 +471,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1777763967.0,
-      "hot": false
-    },
-    {
-      "id": "626da4a21a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "The clandestine network smuggling Starlink tech into Iran to beat internet blackout",
-      "summary": "Sahand tells the BBC World Service he sends satellite internet terminals into Iran to help show \"the real picture\".",
-      "link": "https://www.bbc.com/news/articles/cvgzk91leweo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8c14/live/20b8b580-44c8-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1777763837.0,
       "hot": false
     }
   ]
