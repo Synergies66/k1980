@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-03T13:52:07.935474+00:00",
-  "total": 23,
+  "updated_at": "2026-05-03T17:12:21.647014+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "f0c7e8f3d3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In a Reversal, Doctors From Countries Under Trump’s Travel Ban Are Allowed to Stay in U.S.",
+      "summary": "In a reversal, the Trump administration has exempted foreign physicians from a visa application freeze that was pushing many out of jobs in underserved areas.",
+      "link": "https://www.nytimes.com/2026/05/03/us/trump-travel-ban-doctors-us-immigration.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03nat-foreign-docs-whjg/03nat-foreign-docs-whjg-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "7分前",
+      "pub_ts": 1777827860.0,
+      "hot": false
+    },
     {
       "id": "f084aed815",
       "type": "news",
@@ -19,26 +37,62 @@
         "科技"
       ],
       "score": 72,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777751310.0,
       "hot": false
     },
     {
-      "id": "2b811eb9c2",
+      "id": "9132a682fd",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What to Know About the Mideast Standoff",
-      "summary": "Negotiations to end the war are at an impasse over Iran’s nuclear program and the Strait of Hormuz, which remains mostly shut.",
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/iran-us-talks-topart-new-qhvk/iran-us-talks-topart-new-qhvk-mediumSquareAt3X.jpg",
+      "title": "Indiana Primary Election Will Test Trump’s Influence With Republicans",
+      "summary": "The election on Tuesday will test the influence of President Trump, who endorsed challengers to Republican state senators who scuttled his push to redraw political maps.",
+      "link": "https://www.nytimes.com/2026/05/03/us/indiana-senate-republican-primaries-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-indiana-republicans-1-zthv/02nat-indiana-republicans-1-zthv-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "36分前",
+      "pub_ts": 1777826170.0,
+      "hot": false
+    },
+    {
+      "id": "8962212c77",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "OPEC Plus, in Symbolic Gesture, to Increase Oil Production",
+      "summary": "The announcement came days after the United Arab Emirates withdrew from the group. The higher output will have little effect on global supplies.",
+      "link": "https://www.nytimes.com/2026/05/03/business/opec-plus-oil-production-united-arab-emirates.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03biz-opec-mhcg/03biz-opec-mhcg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777819535.0,
+      "hot": false
+    },
+    {
+      "id": "dbda9261e9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'I just want to see her again' says son of imprisoned Myanmar ex-leader Aung San Suu Kyi",
+      "summary": "On Thursday, authorities in Myanmar claimed they had transferred Nobel laureate Aung San Suu Kyi from prison to house arrest. Her son Kim Aris spoke to NPR about his doubts about the regime's account.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5808875/aung-san-suu-kyi-myanmar-son-house-arrest",
+      "image": null,
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777804787.0,
+      "ago": "5小时前",
+      "pub_ts": 1777810027.0,
       "hot": false
     },
     {
@@ -54,8 +108,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777802400.0,
       "hot": false
     },
@@ -72,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777798894.0,
       "hot": false
     },
@@ -90,45 +144,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777798882.0,
       "hot": false
     },
     {
-      "id": "7abe38dd1b",
+      "id": "913a43f8a8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "One Issue Uniting Democrats and Republicans? Worries About A.I.",
-      "summary": "The growing unease over artificial intelligence is something elements of the left and the right can agree on in a polarized age.",
-      "link": "https://www.nytimes.com/2026/05/03/us/politics/democrats-republicans-ai.html",
-      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03pol-ai-google-tcjf/03pol-ai-google-tcjf-mediumSquareAt3X.jpg",
+      "title": "A California Dream? Some Democrats Fear Harris Picked the Wrong Race.",
+      "summary": "Some wish Kamala Harris had decided to run for governor in California, where Democrats are struggling to break through, rather than weigh another White House run.",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/kamala-harris-california-governor-democrats.html",
+      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02pol-harris-mjfq/02pol-harris-mjfq-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777798882.0,
-      "hot": false
-    },
-    {
-      "id": "4baa7526bb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tariffs, Rebates, Chaos: Boutique Businesses Wonder What’s Next",
-      "summary": "A Brooklyn general store that sells Taiwanese imports was pummeled by tariffs. A rebate would help, but the confusion still lingers.",
-      "link": "https://www.nytimes.com/2026/05/03/nyregion/nyc-tariffs-yun-hai-taiwan-pantry.html",
-      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03met-tariffs-nyc-01-ptmg/03met-tariffs-nyc-01-ptmg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777798867.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777798873.0,
       "hot": false
     },
     {
@@ -144,27 +180,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777798844.0,
-      "hot": false
-    },
-    {
-      "id": "9132a682fd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Indiana Primary Election Will Test Trump’s Influence With Republicans",
-      "summary": "The election on Tuesday will test the influence of President Trump, who endorsed challengers to Republican state senators who scuttled his push to redraw political maps.",
-      "link": "https://www.nytimes.com/2026/05/03/us/indiana-senate-republican-primaries-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-indiana-republicans-1-zthv/02nat-indiana-republicans-1-zthv-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777798814.0,
       "hot": false
     },
     {
@@ -180,8 +198,8 @@
       "categories": [
         "天气"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
@@ -198,8 +216,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
@@ -218,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777769879.0,
       "hot": false
     },
@@ -236,7 +254,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1777766970.0,
       "hot": false
     },
@@ -255,7 +273,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1777765478.0,
       "hot": false
     },
@@ -273,7 +291,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1777764901.0,
       "hot": false
     },
@@ -291,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777757965.0,
       "hot": false
     },
@@ -309,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777757715.0,
       "hot": false
     },
@@ -327,26 +345,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777756939.0,
-      "hot": false
-    },
-    {
-      "id": "0e303378dc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Timmy the stranded whale rescued after weekslong effort",
-      "summary": "Timmy captured the hearts of whale lovers across the globe who rooted for a happy ending for the humpback.",
-      "link": "https://www.npr.org/2026/05/02/g-s1-119913/timmy-the-stranded-whale-rescued-after-weekslong-effort",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1777755084.0,
       "hot": false
     },
     {
@@ -363,26 +363,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "20小时前",
+      "ago": "23小时前",
       "pub_ts": 1777742740.0,
-      "hot": false
-    },
-    {
-      "id": "bb13eb251c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Imprisoned Iranian Nobel Peace Prize winner in critical condition",
-      "summary": "Narges Mohammadi, an Iranian activist and 2023 Nobel Peace Prize laureate, was hospitalized after collapsing in prison. Her family says her condition has deteriorated since a March heart attack.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808841/jailed-iranian-nobel-prize-winner-critical-condition",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1777737463.0,
       "hot": false
     },
     {
