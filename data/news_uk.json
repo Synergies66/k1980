@@ -1,43 +1,171 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-02T21:09:15.234354+00:00",
-  "total": 28,
+  "updated_at": "2026-05-03T04:28:15.073097+00:00",
+  "total": 29,
   "articles": [
     {
-      "id": "9d6ec3a1df",
+      "id": "51d7188b24",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "台灣總統賴清德指責中國導致行程取消數日後，宣佈抵達史瓦帝尼進行國是訪問",
+      "summary": "目前尚不清楚賴清德如何抵達史瓦帝尼。中國則將他的訪問形容為一場「偷渡式」外竄。",
+      "link": "https://www.bbc.com/zhongwen/articles/c5y78xd84pno/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/323e/live/c03cec40-4642-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 78,
+      "ago": "27分前",
+      "pub_ts": 1777780859.0,
+      "hot": false
+    },
+    {
+      "id": "215c0a2ffe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "「地球上最嚴酷的地方之一」：1960年代試圖重塑世界的綠色「烏托邦」",
+      "summary": "該村莊依靠本土發明生存：從低成本的太陽能熱水器和兼作水泵的兒童蹺蹺板，到可食用森林花園和生物燃料。",
+      "link": "https://www.bbc.com/zhongwen/articles/c809rkm54d5o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/acba/live/a39da660-37f1-11f1-9d5c-8ba507d7dbde.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1777774814.0,
+      "hot": false
+    },
+    {
+      "id": "5838d2d34f",
       "type": "news",
       "region": "uk",
       "source": "BBC 头条",
       "lang": "en",
-      "title": "Four injured in Brixton drive-by shooting",
-      "summary": "One man is in a life-threatening condition after the attack in the early hours of Saturday.",
-      "link": "https://www.bbc.com/news/articles/cj3pmgpgneno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/def2/live/77c55b70-4640-11f1-ac78-2112837ce2aa.jpg",
+      "title": "Germany says US troop withdrawal 'foreseeable' as Trump warns of more 'cuts'",
+      "summary": "In the US, two senior Republicans voice concern over President Trump's decision to pull out 5,000 troops.",
+      "link": "https://www.bbc.com/news/articles/cd9pn541jjlo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be1/live/a8b851f0-463c-11f1-aa14-ad910202f501.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "18分前",
-      "pub_ts": 1777755059.0,
+      "pub_ts": 1777781374.0,
       "hot": false
     },
     {
-      "id": "5de0abdc81",
+      "id": "835aa90dad",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "King launches Space Agency project on final day in Bermuda",
-      "summary": "The King concludes his visit to the British overseas territory after landing from the US on Thursday.",
-      "link": "https://www.bbc.com/news/articles/cn4pvnpejw9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8530/live/d147fad0-4641-11f1-aa14-ad910202f501.jpg",
+      "title": "‘You’re not one of us, are you?’: How a Ukrainian soldier survived two weeks in a Russian dugout",
+      "summary": "When Vadym Lietunov spotted a fortified position after his own had been blown up, he didn’t realise it belonged to the enemyThe bombing began the morning after Vadym Lietunov arrived on the frontline.",
+      "link": "https://www.theguardian.com/news/ng-interactive/2026/may/03/youre-not-one-of-us-are-you-how-a-ukrainian-soldier-survived-two-weeks-in-a-russian-dugout",
+      "image": "https://i.guim.co.uk/img/media/3fde23422aab80759a2753452bc54e767af3edbb/1496_123_4245_3396/master/4245.jpg?width=140&quality=85&auto=format&fit=max&s=2786c09164c5482f7a3ba5add6998822",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1777780844.0,
+      "hot": false
+    },
+    {
+      "id": "06665a68ae",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Welcome to Anxietyland: I used alcohol to hide my fear – but booze became a very bad friend",
+      "summary": "Gemma Correll has suffered from anxiety and depression disorders since childhood, and at 16 she discovered a magical elixir that promised to make her feel better. In this extract from her new book, sh",
+      "link": "https://www.theguardian.com/society/ng-interactive/2026/may/02/dissociation-confusion-and-the-downward-spiral-welcome-to-anxietyland",
+      "image": "https://i.guim.co.uk/img/media/7ecf70632a9f6d2c89c667fbfd93d526cb890070/78_0_3718_2975/master/3718.jpg?width=140&quality=85&auto=format&fit=max&s=cbb75890b731b029dcabe029a2b8da9c",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777752461.0,
+      "ago": "27分前",
+      "pub_ts": 1777780843.0,
+      "hot": false
+    },
+    {
+      "id": "ece02eb81c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Musk's AI told me people were coming to kill me. I grabbed a hammer and prepared for war",
+      "summary": "Several people told the BBC they experienced delusions after intense conversations with AI.",
+      "link": "https://www.bbc.com/news/articles/c242pzr1zp2o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5df4/live/b21d07e0-4560-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777772935.0,
+      "hot": false
+    },
+    {
+      "id": "cca9599c8e",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Miami race brought forward because of storm threat",
+      "summary": "Sunday's Miami Grand Prix is moved forward by three hours to 18:00 BST because of the threat of thunderstorms.",
+      "link": "https://www.bbc.com/sport/formula1/articles/c1j20lppnl3o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b118/live/0ba89fe0-467e-11f1-8298-c3012ad6da4f.jpg",
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777772000.0,
+      "hot": false
+    },
+    {
+      "id": "89cbad44d8",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "King's speech was a 'high stakes' moment of US visit, Palace says",
+      "summary": "The state visit to the US draws a positive response after what was a difficult diplomatic challenge.",
+      "link": "https://www.bbc.com/news/articles/cy72d4g5pdyo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e6c8/live/4dd9de60-4683-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777766612.0,
+      "hot": false
+    },
+    {
+      "id": "6a0c8794e6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "summary": "President Zelensky has been visiting the Gulf to demonstrate his country's military nous.",
+      "link": "https://www.bbc.com/news/articles/cgjp7vpee03o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e40e/live/8c9eb970-4626-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777763967.0,
       "hot": false
     },
     {
@@ -53,8 +181,8 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "19小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1777685413.0,
       "hot": false
     },
@@ -71,8 +199,8 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "20小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1777682558.0,
       "hot": false
     },
@@ -89,153 +217,9 @@
       "categories": [
         "政治"
       ],
-      "score": 68,
-      "ago": "20小时前",
-      "pub_ts": 1777681881.0,
-      "hot": false
-    },
-    {
-      "id": "9a6cff7007",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Some protests may need to stop, PM suggests, after calls for pause on pro-Palestinian marches",
-      "summary": "The PM tells the BBC he is concerned about the \"cumulative\" effect of marches on the Jewish community.",
-      "link": "https://www.bbc.com/news/articles/cj9pn2v7m2wo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a58/live/40ab4c50-45f8-11f1-849c-31633e0e0c7e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777747504.0,
-      "hot": false
-    },
-    {
-      "id": "81126b7b90",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Protests may need to be stopped in some cases, PM suggests",
-      "summary": "The PM tells the BBC he is concerned about the \"cumulative\" effect of marches on the Jewish community.",
-      "link": "https://www.bbc.com/news/articles/cj9pn2v7m2wo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6a58/live/40ab4c50-45f8-11f1-849c-31633e0e0c7e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777747504.0,
-      "hot": false
-    },
-    {
-      "id": "f638540e2a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Concern for jailed Iranian Nobel laureate as family say health deteriorating",
-      "summary": "On Friday her family said the 54-year-old had been taken from prison to a local hospital after a sharp deterioration in her health.",
-      "link": "https://www.bbc.com/news/articles/c362pd8epw9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/94bb/live/7de3ccb0-4638-11f1-aa14-ad910202f501.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777744506.0,
-      "hot": false
-    },
-    {
-      "id": "12d815afee",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Germany says US troop withdrawal 'foreseeable' as Nato seeks clarification",
-      "summary": "In the US, two senior Republicans voice concern over President Trump's decision to pull out 5,000 troops.",
-      "link": "https://www.bbc.com/news/articles/cd9pn541jjlo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2be1/live/a8b851f0-463c-11f1-aa14-ad910202f501.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777739718.0,
-      "hot": false
-    },
-    {
-      "id": "8e8c132279",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Dig deep! Reform frontbench promotes JCBs after £200,000 donation from firm",
-      "summary": "Nigel Farage, Lee Anderson and Robert Jenrick, among others, have sung the praises of the JCB PotHole Pro Reform UK’s leading figures have repeatedly promoted a new pothole-fixing machine by the const",
-      "link": "https://www.theguardian.com/politics/2026/may/02/reform-uk-funding-promoting-jcb-machine-farage-jenrick-anderson",
-      "image": "https://i.guim.co.uk/img/media/45d1a2677a5ce93ba9a513b02ce3972cc7f328fa/784_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=f05dd9f3fe6a787ed3230526f67c3416",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777737629.0,
-      "hot": false
-    },
-    {
-      "id": "d8855fa3a6",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Organisers challenge Starmer’s threat to ban some pro-Palestine marches",
-      "summary": "PM says there are instances in which he would support bans but organisers say this would ‘strike at root of free speech’Organisers of pro-Palestine marches have said Keir Starmer’s threat to ban some",
-      "link": "https://www.theguardian.com/uk-news/2026/may/02/organisers-challenge-starmer-threat-to-ban-some-pro-palestine-marches",
-      "image": "https://i.guim.co.uk/img/media/28cedd1e827dd394f3fb62fc8747fff55b6943cd/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=1ba6ae8dc001c29b9924eb75ea3e4bfd",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777737236.0,
-      "hot": false
-    },
-    {
-      "id": "58f89751ef",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Kemi Badenoch apologises after Bloody Sunday footage used in video",
-      "summary": "Foyle MP Colum Eastwood called on Badenoch to personally apologise after the video was posted online.",
-      "link": "https://www.bbc.com/news/articles/cx21n5kx4d9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e94/live/fe0c8ae0-4632-11f1-b14f-8905f097c360.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777734865.0,
-      "hot": false
-    },
-    {
-      "id": "bef66924d0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "AI科技如何協助「無精症」男性 解決不孕症",
-      "summary": "哥倫比亞大學開發的Star人工智慧系統，能在無精子症男性樣本中快速找出「隱藏精子」。曾被診斷為不孕的男性因此成功讓妻子受孕。這項技術為全球數百萬曾被告知無法擁有親生子女的男性帶來新希望。",
-      "link": "https://www.bbc.com/zhongwen/articles/c5yx3y0zgggo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/82d6/live/16916690-451a-11f1-bd52-e755d604ece4.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 63,
       "ago": "昨日",
-      "pub_ts": 1777622212.0,
+      "pub_ts": 1777681881.0,
       "hot": false
     },
     {
@@ -270,7 +254,7 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1777597626.0,
       "hot": false
     },
@@ -293,6 +277,133 @@
       "hot": false
     },
     {
+      "id": "885353c43c",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Man charged after bomb hoax at Peter Kay show",
+      "summary": "Omar Majed, of Washwood Heath, Birmingham will appear in court on Monday, police said.",
+      "link": "https://www.bbc.com/news/articles/c1d2pvle9lqo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f28a/live/f9febe70-466c-11f1-aba0-8570dd7f4fe5.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777758638.0,
+      "hot": false
+    },
+    {
+      "id": "8a039efd10",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Airlines can cancel flights in advance over fuel shortages, under new plans",
+      "summary": "Ministers hope move would help avoid last-minute flight cancellations for passengers this summer over Middle East fuel supplies.",
+      "link": "https://www.bbc.com/news/articles/c794zd1vqn4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/789b/live/f0ccbee0-4664-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777757709.0,
+      "hot": false
+    },
+    {
+      "id": "e4e1329749",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Tories pledge to tighten household benefit cap rules",
+      "summary": "The party says removing some exemptions to the household benefit cap would save £1bn a year.",
+      "link": "https://www.bbc.com/news/articles/cm2pm41z1nxo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/82fd/live/5227e730-4590-11f1-a9a8-25cedec53657.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777755645.0,
+      "hot": false
+    },
+    {
+      "id": "9d6ec3a1df",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Four injured in Brixton drive-by shooting",
+      "summary": "One man is in a life-threatening condition after the attack in the early hours of Saturday.",
+      "link": "https://www.bbc.com/news/articles/cj3pmgpgneno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/def2/live/77c55b70-4640-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777755059.0,
+      "hot": false
+    },
+    {
+      "id": "5de0abdc81",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "King launches Space Agency project on final day in Bermuda",
+      "summary": "The King concludes his visit to the British overseas territory after landing from the US on Thursday.",
+      "link": "https://www.bbc.com/news/articles/cn4pvnpejw9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8530/live/d147fad0-4641-11f1-aa14-ad910202f501.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777752461.0,
+      "hot": false
+    },
+    {
+      "id": "8e8c132279",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Dig deep! Reform frontbench promotes JCBs after £200,000 donation from firm",
+      "summary": "Nigel Farage, Lee Anderson and Robert Jenrick, among others, have sung the praises of the JCB PotHole Pro Reform UK’s leading figures have repeatedly promoted a new pothole-fixing machine by the const",
+      "link": "https://www.theguardian.com/politics/2026/may/02/reform-uk-funding-promoting-jcb-machine-farage-jenrick-anderson",
+      "image": "https://i.guim.co.uk/img/media/45d1a2677a5ce93ba9a513b02ce3972cc7f328fa/784_0_4583_3667/master/4583.jpg?width=140&quality=85&auto=format&fit=max&s=f05dd9f3fe6a787ed3230526f67c3416",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777737629.0,
+      "hot": false
+    },
+    {
+      "id": "d8855fa3a6",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Organisers challenge Starmer’s threat to ban some pro-Palestine marches",
+      "summary": "PM says there are instances in which he would support bans but organisers say this would ‘strike at root of free speech’Organisers of pro-Palestine marches have said Keir Starmer’s threat to ban some",
+      "link": "https://www.theguardian.com/uk-news/2026/may/02/organisers-challenge-starmer-threat-to-ban-some-pro-palestine-marches",
+      "image": "https://i.guim.co.uk/img/media/28cedd1e827dd394f3fb62fc8747fff55b6943cd/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=1ba6ae8dc001c29b9924eb75ea3e4bfd",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777737236.0,
+      "hot": false
+    },
+    {
       "id": "d240895185",
       "type": "news",
       "region": "uk",
@@ -306,26 +417,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1777726826.0,
-      "hot": false
-    },
-    {
-      "id": "a7ccab4902",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Peter Kay show goes ahead after bomb hoax arrest",
-      "summary": "A teenage man remains in custody and police say no items of a suspicious nature were found.",
-      "link": "https://www.bbc.com/news/articles/c4g4xkw87p5o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f155/live/3ce84e50-459f-11f1-ac78-2112837ce2aa.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777726314.0,
       "hot": false
     },
     {
@@ -342,7 +435,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777719821.0,
       "hot": false
     },
@@ -360,7 +453,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777719626.0,
       "hot": false
     },
@@ -378,7 +471,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777719625.0,
       "hot": false
     },
@@ -386,7 +479,7 @@
       "id": "107842cf94",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Celebrity Traitors line-up announced - 21 famous faces set to enter castle",
       "summary": "Miranda Hart, Maya Jama, and Eastenders legend Ross Kemp are among the stars who will go head-to-head in the second series of The Celebrity Traitors.",
@@ -396,7 +489,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777719237.0,
       "hot": false
     },
@@ -414,44 +507,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "18小时前",
       "pub_ts": 1777717673.0,
-      "hot": false
-    },
-    {
-      "id": "83f007657f",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Juliet Stevenson: ‘My biggest disappointment? I never got a role in Harry Potter’",
-      "summary": "The actor on struggling with body image, her U-turn on marriage and her obsession with Instagram dogsBorn in Essex, Juliet Stevenson, 69, studied at Rada and made her film debut in Drowning By Numbers",
-      "link": "https://www.theguardian.com/lifeandstyle/2026/may/02/juliet-stevenson-actor-interview-stage-film-jane-austen",
-      "image": "https://i.guim.co.uk/img/media/422c64c57bf13ff6b56fa678703256911d541a3f/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=7447dd389ca5b2a97e62b2b443de8b2c",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777712421.0,
-      "hot": false
-    },
-    {
-      "id": "d5f6217302",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "These twins were born within minutes of each other - but have different dads",
-      "summary": "Lavinia and Michelle are the only case of twins with different fathers to be recorded in the UK.",
-      "link": "https://www.bbc.com/news/articles/cx21k6rzpdpo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/83e8/live/ee2cd010-453a-11f1-a613-4794dd5170f2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1777708790.0,
       "hot": false
     },
     {
@@ -468,44 +525,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777705219.0,
-      "hot": false
-    },
-    {
-      "id": "8d788ab51d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "‘People can see it – but can’t use it’: mystery of completed East-West Rail line that has no passeng",
-      "summary": "The East West Rail project linking Oxford to Milton Keynes was finished in 2024. There’s just one hitch: no servicesThe rumbling noise in the night, still enough to waken the unhabituated, is what rea",
-      "link": "https://www.theguardian.com/uk-news/2026/may/02/east-west-rail-oxford-milton-keynes-chiltern-railways-delays",
-      "image": "https://i.guim.co.uk/img/media/1793d730055842ef8ba15f43b8feb8deb53f4ca7/0_0_4640_3712/master/4640.jpg?width=140&quality=85&auto=format&fit=max&s=ab3f520a0578518b8fa5905197cc25a4",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1777701617.0,
-      "hot": false
-    },
-    {
-      "id": "deb7f03463",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "'I bought a baseball cap to hide my kippah': Jews observe first Shabbat after Golders Green attack",
-      "summary": "British Jews tell the BBC they are agonising over whether to stick to their usual routine this Sabbath.",
-      "link": "https://www.bbc.com/news/articles/c3w2qp5gzn0o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/63db/live/340cde60-4543-11f1-be1a-bdd45fc37339.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777698019.0,
       "hot": false
     }
   ]
