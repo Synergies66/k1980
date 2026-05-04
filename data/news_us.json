@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-03T21:07:04.526335+00:00",
-  "total": 22,
+  "updated_at": "2026-05-04T04:14:16.540796+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "7fbb2174d0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says the US will 'guide' stranded ships from the Strait of Hormuz",
+      "summary": "The United States will launch an effort on Monday to \"guide\" stranded ships from the Iran-gripped Strait of Hormuz, President Donald Trump said, as two ships around the strait reported attacks.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1777866444.0,
+      "hot": false
+    },
     {
       "id": "f0c7e8f3d3",
       "type": "news",
@@ -17,28 +35,189 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "4小时前",
+      "score": 70,
+      "ago": "11小时前",
       "pub_ts": 1777827860.0,
       "hot": false
     },
     {
-      "id": "f084aed815",
+      "id": "737e0a03f3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says U.S. Will Help Stranded Ships Leave Strait of Hormuz",
+      "summary": "President Trump offered few details on how the new program, which he called Project Freedom, would work, but said interference would be dealt with “forcefully.”",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/strait-hormuz-stranded-ships.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03trump-news-iran-hormuz-cwkj/03trump-news-iran-hormuz-cwkj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777860615.0,
+      "hot": false
+    },
+    {
+      "id": "8751647992",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Rudy Giuliani Hospitalized in Florida in ‘Critical Condition’",
+      "summary": "A spokesman for the former mayor of New York City said Mr. Giuliani was critical but stable.",
+      "link": "https://www.nytimes.com/2026/05/03/nyregion/rudy-giuliani-hospital-critical-condition.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03met-giuliani-jthq/03met-giuliani-jthq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777851238.0,
+      "hot": false
+    },
+    {
+      "id": "c1cd2bb5bd",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Hantavirus outbreak kills 3 on cruise ship in the Atlantic Ocean, WHO says",
+      "summary": "Hantaviruses are usually spread by exposure to urine, saliva or feces from infected rodents, such as rats or mice. Hantavirus infections are rare but can cause deadly respiratory infections.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5809495/hantavirus-outbreak-cruise-ship-atlantic-ocean",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777851014.0,
+      "hot": false
+    },
+    {
+      "id": "86c9bfd93f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "link": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03biz-oil-stocks-gas-1-zlfj/03biz-oil-stocks-gas-1-zlfj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777849748.0,
+      "hot": false
+    },
+    {
+      "id": "5fd86bdf51",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gas prices went up more than 30 cents a gallon last week. How high could they go?",
+      "summary": "U.S. gas prices were nearly $3 an average prior to the start of the war in Iran.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5809433/gas-prices-rise-week-hormuz-iran-war",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777847077.0,
+      "hot": false
+    },
+    {
+      "id": "bf00d93b49",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Taiwan's Lai lands in Eswatini in a trip delayed by lack of overflight clearance",
-      "summary": "Eswatini remains the only African nation without tariff-free access to China's market due to its ties with Taiwan.",
-      "link": "https://www.npr.org/2026/05/02/g-s1-119911/taiwans-lai-lands-in-eswatini-in-a-trip-delayed-by-lack-of-overflight-clearance",
+      "title": "Entrepreneurs fight pile-up of garbage in the West Bank",
+      "summary": "Israeli restrictions on movement in the West Bank are impeding garbage trucks from reaching landfills, leaving Palestinians living amid mounds of trash. Two Palestinian entrepreneurs are trying to cha",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5787449/entrepreneurs-fight-pile-up-of-garbage-in-the-west-bank",
       "image": null,
       "categories": [
-        "华人",
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777843445.0,
+      "hot": false
+    },
+    {
+      "id": "150c584705",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Blasting beats and neon lights: inside Nairobi's 'nganya' bus culture",
+      "summary": "In Nairobi, the matatu isn't just a ride—it's a rolling nightclub, art gallery, and heartbeat of the city all in one.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5797891/blasting-beats-and-neon-lights-inside-nairobis-nganya-bus-culture",
+      "image": null,
+      "categories": [
         "科技"
       ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1777751310.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777843439.0,
+      "hot": false
+    },
+    {
+      "id": "a1d04d468a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Modern economic chokepoints in war and the impact on geopolitics",
+      "summary": "Hoover Institution fellow Eyck Freymann explains what the Iran war and the blockade of the Straight of Hormuz reveals about modern economic chokepoints, geopolitics and war strategies.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5804691/modern-economic-chokepoints-in-war-and-the-impact-on-geopolitics",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777843356.0,
+      "hot": false
+    },
+    {
+      "id": "06fc7e28db",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "How does diplomacy work during a military deadlock?",
+      "summary": "Suzanne DiMaggio, senior fellow at the Carnegie Endowment for International Peace, explains the nuances of diplomatic moves at a time of military stalemate.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5789910/how-does-diplomacy-work-during-a-military-deadlock",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777842987.0,
+      "hot": false
+    },
+    {
+      "id": "1447a0b2a0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pellet found in Secret Service agent's vest links suspect to WHCD attack, Pirro says",
+      "summary": "The pellet \"definitively\" links the suspect, Cole Tomas Allen, to the attack, U.S. Attorney Jeanine Pirro told CNN on Sunday.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5809482/correspondents-dinner-shooter-bullet-vest-secret-service",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777842560.0,
       "hot": false
     },
     {
@@ -54,27 +233,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777832533.0,
       "hot": false
     },
     {
-      "id": "2b811eb9c2",
+      "id": "cca6ef6b5b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What to Know About the Mideast Standoff",
-      "summary": "Negotiations to end the war are at an impasse over Iran’s nuclear program and the Strait of Hormuz, which remains mostly shut.",
-      "link": "https://www.nytimes.com/2026/04/26/world/middleeast/us-iran-peace-talks-pakistan.html",
-      "image": "https://static01.nyt.com/images/2026/05/01/multimedia/iran-us-talks-topart-new-qhvk/iran-us-talks-topart-new-qhvk-mediumSquareAt3X.jpg",
+      "title": "Inquiry Into Fed Chair Jerome Powell Could Be Resurrected, Jeanine Pirro Says",
+      "summary": "Jeanine Pirro, the U.S. attorney in Washington, dropped an inquiry into Jerome Powell last month after a federal judge blocked her grand jury subpoenas.",
+      "link": "https://www.nytimes.com/2026/05/03/us/politics/justice-department-fed-chair-powell-inquiry-pirro.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03trump-news-pirro-powell-lgpq/03trump-news-pirro-powell-lgpq-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777831105.0,
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1777831182.0,
       "hot": false
     },
     {
@@ -90,27 +269,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777822692.0,
-      "hot": false
-    },
-    {
-      "id": "8962212c77",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "OPEC Plus, in Symbolic Gesture, to Increase Oil Production",
-      "summary": "The announcement came days after the United Arab Emirates withdrew from the group. The higher output will have little effect on global supplies.",
-      "link": "https://www.nytimes.com/2026/05/03/business/opec-plus-oil-production-united-arab-emirates.html",
-      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03biz-opec-mhcg/03biz-opec-mhcg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777819535.0,
+      "ago": "12小时前",
+      "pub_ts": 1777822692.0,
       "hot": false
     },
     {
@@ -127,7 +288,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "16小时前",
       "pub_ts": 1777810027.0,
       "hot": false
     },
@@ -145,26 +306,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1777802400.0,
-      "hot": false
-    },
-    {
-      "id": "f70cacb25e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Behind Supreme Court Voting Rights Ruling, a Clash Over the Reality of Racism",
-      "summary": "The Supreme Court ruling said there must be proof that a racial group was “intentionally” disadvantaged. The dissent called it “well-nigh impossible.”",
-      "link": "https://www.nytimes.com/2026/05/03/us/politics/supreme-court-voting-rights-act.html",
-      "image": "https://static01.nyt.com/images/2026/05/02/multimedia/02nat-vra-racism-mlpv/02nat-vra-racism-mlpv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777798882.0,
       "hot": false
     },
     {
@@ -181,7 +324,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777798852.0,
       "hot": false
     },
@@ -199,7 +342,7 @@
         "天气"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
@@ -217,172 +360,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1777798800.0,
-      "hot": false
-    },
-    {
-      "id": "f4e56739cb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Germany says U.S. troop withdrawal 'anticipated', Spain and Italy could be next",
-      "summary": "Germany's defense minister is playing down the impact of the Pentagon's decision to pull 5,000 troops from the country, but the move has rattled NATO allies and added to growing fears that Europe can",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808891/europe-allies-germany-troop-withdrawal-us",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1777769879.0,
-      "hot": false
-    },
-    {
-      "id": "6a15be4002",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Bard College's president to retire after scrutiny of relationship with Jeffrey Epstein",
-      "summary": "The longtime president of Bard College in New York has announced his retirement, months after it was revealed that he had a much deeper relationship than was previously known with Jeffrey Epstein.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808942/bard-college-president-leon-botstein-retire-jeffrey-epstein",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1777766970.0,
-      "hot": false
-    },
-    {
-      "id": "4033abbaae",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Golden Tempo takes the Kentucky Derby as Cherie DeVaux becomes the 1st woman to train its winner",
-      "summary": "Golden Tempo has won the Kentucky Derby at odds of 23-1 to make Cherie DeVaux the first woman to train the winner of the opening leg of the Triple Crown.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808929/golden-tempo-kentucky-derby-winner-cherie-devaux",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1777765478.0,
-      "hot": false
-    },
-    {
-      "id": "ae98a1e636",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Iran submits 14-point response to U.S. proposal to end war",
-      "summary": "Iran has presented a 14-point response to the U.S. proposal to end the war, according to Iranian state media.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808924/iran-response-trump-proposal",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1777764901.0,
-      "hot": false
-    },
-    {
-      "id": "a3fde741b7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Is there a 'standard' Indian body?",
-      "summary": "India recently published a survey to 'standardize' the Indian body sizes, so its manufacturers don't have to use the U.S. and E.U. sizes for a billion people. But is there a 'standard' Indian body?",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5734003/is-there-a-standard-indian-body",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1777757965.0,
-      "hot": false
-    },
-    {
-      "id": "0fe3aa8317",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Collaboration helps NPR journalists get you the story of the Iran war up close",
-      "summary": "Three NPR journalists talk about the challenge of producing independent, accurate coverage of the war with Iran.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5802996/collaboration-helps-npr-journalists-get-you-the-story-of-the-iran-war-up-close",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1777757715.0,
-      "hot": false
-    },
-    {
-      "id": "6c5949cce0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "ICRC President Mirjana Spoljaric warns of the war's impact on civilians",
-      "summary": "The ICRC president talks about her recent trip to Iran, and warns about the impact of the Iran war on civilians.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5807914/icrc-president-mirjana-spoljaric-warns-of-the-wars-impact-on-civilians",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1777756939.0,
-      "hot": false
-    },
-    {
-      "id": "8b5119c36b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "New Video Analysis Suggests Suspect in Correspondents’ Dinner Attack Fired First",
-      "summary": "A Times analysis of footage released by the F.B.I. on Thursday night appears to show the assailant shot at a Secret Service officer, who then returned fire.",
-      "link": "https://www.nytimes.com/2026/05/02/us/politics/white-house-correspondents-dinner-shooting-suspect-video.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777745337.0,
-      "hot": false
-    },
-    {
-      "id": "cb5b7decc2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Banksy confirms new statue installed in central London is his work",
-      "summary": "The statue in Waterloo Place, which appeared early Wednesday, depicts a man proudly hoisting a flag— but the flag is blinding him.",
-      "link": "https://www.npr.org/2026/05/02/nx-s1-5808871/banksy-statue-london",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1777742740.0,
       "hot": false
     },
     {
