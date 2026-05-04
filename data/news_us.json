@@ -1,25 +1,43 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-04T04:14:16.540796+00:00",
+  "updated_at": "2026-05-04T07:29:48.009458+00:00",
   "total": 21,
   "articles": [
     {
-      "id": "7fbb2174d0",
+      "id": "86c9bfd93f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Edge Down While Stock Futures Inch Up",
+      "summary": "Oil prices fell and futures on the S&P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
+      "link": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03biz-oil-stocks-gas-1-zlfj/03biz-oil-stocks-gas-1-zlfj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777876173.0,
+      "hot": false
+    },
+    {
+      "id": "1b3aeb26ff",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Trump says the US will 'guide' stranded ships from the Strait of Hormuz",
-      "summary": "The United States will launch an effort on Monday to \"guide\" stranded ships from the Iran-gripped Strait of Hormuz, President Donald Trump said, as two ships around the strait reported attacks.",
-      "link": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+      "title": "2 US service members missing after military exercises in Morocco",
+      "summary": "Two U.S. service members are missing in southwestern Morocco after taking part in annual multinational military exercises in the North African country, the United States Africa Command (AFRICOM) said.",
+      "link": "https://www.npr.org/2026/05/04/g-s1-119963/2-us-service-members-missing-in-morocco",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1777866444.0,
+      "ago": "1小时前",
+      "pub_ts": 1777874629.0,
       "hot": false
     },
     {
@@ -36,8 +54,26 @@
         "移民"
       ],
       "score": 70,
-      "ago": "11小时前",
+      "ago": "14小时前",
       "pub_ts": 1777827860.0,
+      "hot": false
+    },
+    {
+      "id": "e9461d9239",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says the U.S will 'guide' stranded ships from the Strait of Hormuz",
+      "summary": "The United States will launch an effort on Monday to \"guide\" stranded ships from the Iran-gripped Strait of Hormuz, President Donald Trump said, as two ships around the strait reported attacks.",
+      "link": "https://www.npr.org/2026/05/03/nx-s1-5809536/trump-strait-hormuz",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1777866444.0,
       "hot": false
     },
     {
@@ -54,7 +90,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1777860615.0,
       "hot": false
     },
@@ -71,8 +107,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777851238.0,
       "hot": false
     },
@@ -89,27 +125,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777851014.0,
-      "hot": false
-    },
-    {
-      "id": "86c9bfd93f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Oil Prices Edge Down While Stock Futures Inch Up",
-      "summary": "Oil prices fell and futures on the S&P 500 rose slightly on Sunday as investors reacted to continued uncertainty about the war in Iran.",
-      "link": "https://www.nytimes.com/2026/05/03/business/oil-prices-stocks-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/03/multimedia/03biz-oil-stocks-gas-1-zlfj/03biz-oil-stocks-gas-1-zlfj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777849748.0,
       "hot": false
     },
     {
@@ -125,8 +143,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1777847077.0,
       "hot": false
     },
@@ -144,7 +162,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777843445.0,
       "hot": false
     },
@@ -162,7 +180,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777843439.0,
       "hot": false
     },
@@ -180,7 +198,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777843356.0,
       "hot": false
     },
@@ -198,7 +216,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1777842987.0,
       "hot": false
     },
@@ -216,7 +234,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777842560.0,
       "hot": false
     },
@@ -234,7 +252,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1777832533.0,
       "hot": false
     },
@@ -252,7 +270,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1777831182.0,
       "hot": false
     },
@@ -270,7 +288,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1777822692.0,
       "hot": false
     },
@@ -288,7 +306,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1777810027.0,
       "hot": false
     },
@@ -306,7 +324,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777802400.0,
       "hot": false
     },
@@ -324,7 +342,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1777798852.0,
       "hot": false
     },
@@ -342,25 +360,7 @@
         "天气"
       ],
       "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1777798800.0,
-      "hot": false
-    },
-    {
-      "id": "a973a4cca1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How algorithms wreaked havoc with these workers' schedules and cut their pay",
-      "summary": "Hourly workers across a number of industries have long been grappling with unstable schedules and pay as their employers use software to slash labor costs and maximize productivity.",
-      "link": "https://www.npr.org/2026/05/03/nx-s1-5786926/jobs-labor-productivity-languageline-unionize",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1777798800.0,
       "hot": false
     },
