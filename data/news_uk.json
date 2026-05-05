@@ -1,27 +1,9 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-05T17:59:36.256874+00:00",
-  "total": 30,
+  "updated_at": "2026-05-05T21:36:04.881097+00:00",
+  "total": 29,
   "articles": [
-    {
-      "id": "26c8d509a3",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Middle East crisis live: Donald Trump says Iran ‘know what not to do’ to avoid violating ceasefire w",
-      "summary": "US president dismisses Tehran’s military capability during Oval Office address after Hegseth’s earlier comments that the ceasefire ‘is not over’Iran’s foreign minister, Abbas Araghchi, is travelling t",
-      "link": "https://www.theguardian.com/world/live/2026/may/05/iran-us-israel-lebanon-strait-of-hormuz-ships-oil-uae-latest-news-updates",
-      "image": "https://i.guim.co.uk/img/media/c278414f05ed85d864cbff570c7fe16377909170/451_0_4491_3595/master/4491.jpg?width=140&quality=85&auto=format&fit=max&s=a0e5019217245b61a2636db2d52ebb67",
-      "categories": [
-        "政治"
-      ],
-      "score": 82,
-      "ago": "26分前",
-      "pub_ts": 1778002398.0,
-      "hot": false
-    },
     {
       "id": "207f13e9f5",
       "type": "news",
@@ -36,8 +18,26 @@
         "华人"
       ],
       "score": 80,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1777940339.0,
+      "hot": false
+    },
+    {
+      "id": "0ac25756db",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Nothing will bring back my son': How 10 minutes of bombing by Israel shattered lives in Lebanon",
+      "summary": "The bombs started falling at 14:15 in the afternoon - bringing chaos and destruction across the country.",
+      "link": "https://www.bbc.com/news/articles/c202652vvnjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d19c/live/d2e8e220-48c9-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1778016151.0,
       "hot": false
     },
     {
@@ -53,189 +53,9 @@
       "categories": [
         "本地"
       ],
-      "score": 73,
-      "ago": "5小时前",
+      "score": 68,
+      "ago": "9小时前",
       "pub_ts": 1777983091.0,
-      "hot": false
-    },
-    {
-      "id": "6b2fbfb1ce",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Woman, 35, died in explosion after ex-partner 'forced entry' into her home",
-      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
-      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1778001919.0,
-      "hot": false
-    },
-    {
-      "id": "8ff7b15347",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman died after ex 'with explosive device forced entry to house'",
-      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
-      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "34分前",
-      "pub_ts": 1778001919.0,
-      "hot": false
-    },
-    {
-      "id": "9c32a17a75",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Hantavirus explained: how does it spread and who is most at risk? – podcast",
-      "summary": "Three people have died after an outbreak of hantavirus onboard a cruise ship travelling from Argentina to Cape Verde. The World Health Organization says that a total of seven cases – two confirmed by",
-      "link": "https://www.theguardian.com/science/audio/2026/may/05/hantavirus-explained-how-does-it-spread-and-who-is-most-at-risk-podcast",
-      "image": "https://i.guim.co.uk/img/media/e0b7ef8bba28577b9ed5f03b206b43d68e947e72/281_0_2813_2250/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04b193b02b66c1fe5171a6e7b43c7953",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "46分前",
-      "pub_ts": 1778001194.0,
-      "hot": false
-    },
-    {
-      "id": "78e46c02f1",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Farage’s partner refuses to confirm how she paid for house in his constituency",
-      "summary": "French publication Le Monde says Laure Ferrari ‘dodged’ question when quizzed over property purchase in ClactonNigel Farage’s partner, Laure Ferrari, has refused to confirm how she paid for a house in",
-      "link": "https://www.theguardian.com/politics/2026/may/05/farage-partner-refuses-confirm-house-constituency-clacton-laure-ferrari",
-      "image": "https://i.guim.co.uk/img/media/27beec98aa036df3636bad90a53f135e87d9e202/0_0_6880_5504/master/6880.jpg?width=140&quality=85&auto=format&fit=max&s=7dc589e68003224e5059806c361e1e3e",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1778000797.0,
-      "hot": false
-    },
-    {
-      "id": "3a99bc7a6a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Hate crime prosecutions to be fast-tracked after antisemitic attacks",
-      "summary": "The director of public prosecutions has told prosecutors in England and Wales to bring charges more quickly.",
-      "link": "https://www.bbc.com/news/articles/cz72eye5zzeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e28/live/828cdc00-48a1-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778000197.0,
-      "hot": false
-    },
-    {
-      "id": "4e896a4fc9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Killer discharged as NHS staff 'could not find him'",
-      "summary": "Emma Robinson tells an inquiry staff \"couldn't work with\" or find Valdo Calocane when he was discharged.",
-      "link": "https://www.bbc.com/news/articles/c8d89r6lp48o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b68b/live/467bf340-4883-11f1-96b8-b5080add422e.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777999274.0,
-      "hot": false
-    },
-    {
-      "id": "889452e6c8",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Hantavirus may have spread between passengers on cruise ship, WHO says",
-      "summary": "Two cases of the virus, which rarely spreads between humans, have been confirmed on the ship, and three people have died.",
-      "link": "https://www.bbc.com/news/articles/cm2p186gyp2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6224/live/70793b40-489b-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777999130.0,
-      "hot": false
-    },
-    {
-      "id": "7e67af26a0",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "UK long-term borrowing costs reach 28-year high",
-      "summary": "There have been extra jitters in UK government debt markets ahead of Thursday's local and national elections.",
-      "link": "https://www.bbc.com/news/articles/c936qn69016o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2125/live/9eec4b60-489c-11f1-9d2b-c9f441ed383e.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777998623.0,
-      "hot": false
-    },
-    {
-      "id": "4fc93f697d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Farage deploys the rottweiler to distract from awkward £5m gift story | John Crace",
-      "summary": "Zia Yusuf’s mad idea of building migrant detention centres exclusively in areas that vote Green works a treatIt’s a classic from the Donald Trump playbook: everything’s been going a bit tits up, so yo",
-      "link": "https://www.theguardian.com/politics/2026/may/05/farage-deploys-the-rottweiler-to-distract-from-awkward-5m-gift-story",
-      "image": "https://i.guim.co.uk/img/media/63de9690f2b7559e8c86bd04606351a0f9b8b65b/415_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=0b9c0cc45327b6984d803fb2ea3781f7",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777998182.0,
-      "hot": false
-    },
-    {
-      "id": "bea793fedd",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Murder-accused teacher 'begged medics to save baby'",
-      "summary": "Preston Davey was abused and murdered after being adopted by two men, a jury has been told.",
-      "link": "https://www.bbc.com/news/articles/c1m25zmee23o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f046/live/e49de1d0-4321-11f1-ac78-2112837ce2aa.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777998085.0,
       "hot": false
     },
     {
@@ -252,7 +72,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1777967176.0,
       "hot": false
     },
@@ -270,7 +90,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1777961408.0,
       "hot": false
     },
@@ -288,7 +108,7 @@
         "科技"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1777954891.0,
       "hot": false
     },
@@ -306,26 +126,62 @@
         "本地"
       ],
       "score": 68,
-      "ago": "14小时前",
+      "ago": "17小时前",
       "pub_ts": 1777952291.0,
       "hot": false
     },
     {
-      "id": "dab73ef723",
+      "id": "b22c6ed79a",
       "type": "news",
       "region": "uk",
-      "source": "BBC 英国",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "All of society must tackle 'crisis' of antisemitism, Starmer says",
-      "summary": "The PM hosts a summit of leaders from the police, arts and universities, after a spate of attacks against British Jews.",
-      "link": "https://www.bbc.com/news/articles/czd2l55d1e7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1af/live/32c2da80-486a-11f1-ac78-2112837ce2aa.jpg",
+      "title": "US-Iran truce teeters on meltdown as stalemate takes toll on each side",
+      "summary": "Conflict appears to have reached impasse, but leaders in Tehran and Washington seem to think victory is nearThe month-old ceasefire between Iran and the US appeared to be in new peril on Tuesday with",
+      "link": "https://www.theguardian.com/world/2026/may/05/us-iran-truce-teeters-on-meltdown-as-stalemate-takes-toll-on-each-side",
+      "image": "https://i.guim.co.uk/img/media/5760101a3c7cc4eabc7d9e45ad8e76c606653bdf/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3f3fa6671bad9f43e31458f9f00ee77a",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778008279.0,
+      "hot": false
+    },
+    {
+      "id": "1f552dfcbe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "No obligation to declare £5m gift, Farage says",
+      "summary": "The Reform UK leader says the gift was \"purely private\" and \"wasn't political in any sense at all\".",
+      "link": "https://www.bbc.com/news/articles/c8jv8xl17l8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d58e/live/d16791c0-48a7-11f1-90e6-350a323e11ac.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778007107.0,
+      "hot": false
+    },
+    {
+      "id": "7831d62ead",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: Captain of stranded ship in Strait of Hormuz tells BBC of 'pressure'",
+      "summary": "Capt Raman Kapoor's ship is one of several to be stranded in the strait in the midst of the power struggle between the US and Iran.",
+      "link": "https://www.bbc.com/news/videos/czx2k3eprpgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ca6/live/d630e000-48af-11f1-90e6-350a323e11ac.jpg",
       "categories": [
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777996419.0,
+      "ago": "3小时前",
+      "pub_ts": 1778005715.0,
       "hot": false
     },
     {
@@ -342,118 +198,171 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777996151.0,
-      "hot": false
-    },
-    {
-      "id": "3c136b18c1",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Nissan to close one UK production line and cut 900 jobs in Europe",
-      "summary": "Nissan says it is considering working with a third party to fully utilise its Sunderland plant.",
-      "link": "https://www.bbc.com/news/articles/cdep9g8dp36o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a091/live/661c6030-ebe1-11f0-9332-4db5e65f7000.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777995572.0,
-      "hot": false
-    },
-    {
-      "id": "feed50a9a7",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Rice cooker leads to £260k payout to sacked university cleaner",
-      "summary": "The cleaner says she was accused of buying a student a rice cooker, which are banned.",
-      "link": "https://www.bbc.com/news/articles/c3d25p3kpeno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ee4/live/437b5940-488a-11f1-bcab-efc229dd9518.png",
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1777992381.0,
+      "pub_ts": 1778004663.0,
       "hot": false
     },
     {
-      "id": "cfed7f3e38",
+      "id": "9fda248172",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Blake Lively and Justin Baldoni’s legal trainwreck has taught us this: never go to court. Ever | Mar",
-      "summary": "The alleged conflict between the pair began on a film set and has been disastrous for everyone involved. Apart from the lawyers, naturallyLadies, gentlemen, cineastes: our long nightmare is over. The",
-      "link": "https://www.theguardian.com/commentisfree/2026/may/05/blake-lively-justin-baldoni-legal-trainwreck-court",
-      "image": "https://i.guim.co.uk/img/media/31dcd21eff6f03c8a85b8dc234a50ec9cffb2376/239_0_2626_2100/master/2626.jpg?width=140&quality=85&auto=format&fit=max&s=3ea9c3b5c8e984afcefffeb02732053d",
+      "title": "Stop plotting to oust Keir Starmer, ex-deputy Labour leader urges MPs",
+      "summary": "Tom Watson, who had role in attempted coup against Tony Blair in 2006, said move would go down extremely badly with votersLabour MPs have been urged to stop plotting to remove Keir Starmer by Tom Wats",
+      "link": "https://www.theguardian.com/politics/2026/may/05/stop-plotting-to-oust-keir-starmer-ex-deputy-labour-leader-urges-mps",
+      "image": "https://i.guim.co.uk/img/media/38a0208532b3430431f73de1ab2e5038d92b9b10/1040_33_4048_3239/master/4048.jpg?width=140&quality=85&auto=format&fit=max&s=625b96f7df10cd1920610a12334e3e6f",
       "categories": [
-        "天气",
         "科技"
       ],
       "score": 65,
       "ago": "3小时前",
-      "pub_ts": 1777990839.0,
+      "pub_ts": 1778004223.0,
       "hot": false
     },
     {
-      "id": "53a49f92cc",
+      "id": "6b2fbfb1ce",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "How I Shop with Kim Cattrall: ‘If it’s necessary to wear underwear, I like luxury’",
-      "summary": "Always wondered what everyday stuff celebrities buy, where they shop for food, and the basic they scrimp on? The actor talks well-brewed tea, never lending books, and the joy of dining at home with th",
-      "link": "https://www.theguardian.com/thefilter/2026/may/05/how-i-shop-with-kim-cattrall",
-      "image": "https://i.guim.co.uk/img/media/98441ccdaf2d1c8d91c8da8b3f1ae3f30f0dd686/0_0_2480_1984/master/2480.jpg?width=140&quality=85&auto=format&fit=max&s=c46160bdee5e471f4c53484b3ad65695",
+      "title": "Woman, 35, died in explosion after ex-partner 'forced entry' into her home",
+      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
+      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777989642.0,
+      "ago": "4小时前",
+      "pub_ts": 1778001919.0,
       "hot": false
     },
     {
-      "id": "52721110c4",
+      "id": "8ff7b15347",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Woman died after ex 'with explosive device forced entry to house'",
+      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
+      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778001919.0,
+      "hot": false
+    },
+    {
+      "id": "9c32a17a75",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "Lubaina Himid’s British pavilion at the Venice Biennale review – alienation in a green and pleasant ",
-      "summary": "Amid a calming soundtrack of lapping waves and cooing birds, workers in brightly coloured paintings share glances that say: ‘What the hell are we doing here?’ But isn’t there more to not belonging tha",
-      "link": "https://www.theguardian.com/artanddesign/2026/may/05/lubaina-himid-british-pavillion-at-the-venice-biennale-review",
-      "image": "https://i.guim.co.uk/img/media/36f9c2ad309268713cb8dbcab92fd0757d20fc2f/2204_1236_4379_3503/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=0b6c8549bdbc3ff2faab9d57f1811597",
+      "title": "Hantavirus explained: how does it spread and who is most at risk? – podcast",
+      "summary": "Three people have died after an outbreak of hantavirus onboard a cruise ship travelling from Argentina to Cape Verde. The World Health Organization says a total of seven cases – two confirmed by labor",
+      "link": "https://www.theguardian.com/science/audio/2026/may/05/hantavirus-explained-how-does-it-spread-and-who-is-most-at-risk-podcast",
+      "image": "https://i.guim.co.uk/img/media/e0b7ef8bba28577b9ed5f03b206b43d68e947e72/281_0_2813_2250/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04b193b02b66c1fe5171a6e7b43c7953",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1777986642.0,
+      "pub_ts": 1778001194.0,
       "hot": false
     },
     {
-      "id": "67070acd0b",
+      "id": "3a99bc7a6a",
       "type": "news",
       "region": "uk",
-      "source": "The Guardian",
+      "source": "BBC 头条",
       "lang": "en",
-      "title": "Body as masterpiece: nipples, skeletons and tattoos dominate at record-breaking Met Gala",
-      "summary": "Opening of ‘the dressed body’ show inspires Beyoncé, Kardashians and Skepta, as others pay tribute to fashion moments in art historyMet Gala 2026 red carpet: the best looks in picturesTwo assets the m",
-      "link": "https://www.theguardian.com/fashion/2026/may/05/body-masterpiece-nipples-skeletons-tattoos-record-breaking-met-gala-beyonce-kardashians",
-      "image": "https://i.guim.co.uk/img/media/0b1666b6dbb5bda989b3f180da52aa8e63f2bc9b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=05938e0a1ea629abc7960380858efd12",
+      "title": "Hate crime prosecutions to be fast-tracked after antisemitic attacks",
+      "summary": "The director of public prosecutions has told prosecutors in England and Wales to bring charges more quickly.",
+      "link": "https://www.bbc.com/news/articles/cz72eye5zzeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e28/live/828cdc00-48a1-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778000197.0,
+      "hot": false
+    },
+    {
+      "id": "4da758bfbb",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Lidl's new loyalty scheme less generous, shoppers say",
+      "summary": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
+      "link": "https://www.bbc.com/news/articles/ckgp7y5jg59o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1777982573.0,
-      "hot": true
+      "pub_ts": 1777998630.0,
+      "hot": false
+    },
+    {
+      "id": "4fc93f697d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Farage deploys the rottweiler to distract from awkward £5m gift story | John Crace",
+      "summary": "Zia Yusuf’s mad idea of building migrant detention centres exclusively in areas that vote Green works a treatIt’s a classic from the Donald Trump playbook: everything’s been going a bit tits up, so yo",
+      "link": "https://www.theguardian.com/politics/2026/may/05/farage-deploys-the-rottweiler-to-distract-from-awkward-5m-gift-story",
+      "image": "https://i.guim.co.uk/img/media/63de9690f2b7559e8c86bd04606351a0f9b8b65b/415_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=0b9c0cc45327b6984d803fb2ea3781f7",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777998182.0,
+      "hot": false
+    },
+    {
+      "id": "bea793fedd",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Murder-accused teacher 'begged medics to save baby'",
+      "summary": "Preston Davey was abused and murdered after being adopted by two men, a jury has been told.",
+      "link": "https://www.bbc.com/news/articles/c1m25zmee23o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f046/live/e49de1d0-4321-11f1-ac78-2112837ce2aa.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777998085.0,
+      "hot": false
+    },
+    {
+      "id": "dab73ef723",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "All of society must tackle 'crisis' of antisemitism, Starmer says",
+      "summary": "The PM hosts a summit of leaders from the police, arts and universities, after a spate of attacks against British Jews.",
+      "link": "https://www.bbc.com/news/articles/czd2l55d1e7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1af/live/32c2da80-486a-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777996419.0,
+      "hot": false
     },
     {
       "id": "b16f1ccbf6",
@@ -492,6 +401,97 @@
       "hot": false
     },
     {
+      "id": "feed50a9a7",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Rice cooker leads to £260k payout to sacked university cleaner",
+      "summary": "The cleaner says she was accused of buying a student a rice cooker, which are banned.",
+      "link": "https://www.bbc.com/news/articles/c3d25p3kpeno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ee4/live/437b5940-488a-11f1-bcab-efc229dd9518.png",
+      "categories": [
+        "教育"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777992381.0,
+      "hot": false
+    },
+    {
+      "id": "cfed7f3e38",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Blake Lively and Justin Baldoni’s legal trainwreck has taught us this: never go to court. Ever | Mar",
+      "summary": "The alleged conflict between the pair began on a film set and has been disastrous for everyone involved. Apart from the lawyers, naturallyLadies, gentlemen, cineastes: our long nightmare is over. The",
+      "link": "https://www.theguardian.com/commentisfree/2026/may/05/blake-lively-justin-baldoni-legal-trainwreck-court",
+      "image": "https://i.guim.co.uk/img/media/31dcd21eff6f03c8a85b8dc234a50ec9cffb2376/239_0_2626_2100/master/2626.jpg?width=140&quality=85&auto=format&fit=max&s=3ea9c3b5c8e984afcefffeb02732053d",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777990839.0,
+      "hot": false
+    },
+    {
+      "id": "53a49f92cc",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "How I Shop with Kim Cattrall: ‘If it’s necessary to wear underwear, I like luxury’",
+      "summary": "Always wondered what everyday stuff celebrities buy, where they shop for food, and the basic they scrimp on? The actor talks well-brewed tea, never lending books, and the joy of dining at home with th",
+      "link": "https://www.theguardian.com/thefilter/2026/may/05/how-i-shop-with-kim-cattrall",
+      "image": "https://i.guim.co.uk/img/media/98441ccdaf2d1c8d91c8da8b3f1ae3f30f0dd686/0_0_2480_1984/master/2480.jpg?width=140&quality=85&auto=format&fit=max&s=c46160bdee5e471f4c53484b3ad65695",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777989642.0,
+      "hot": false
+    },
+    {
+      "id": "52721110c4",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Lubaina Himid’s British pavilion at the Venice Biennale review – alienation in a green and pleasant ",
+      "summary": "Amid a calming soundtrack of lapping waves and cooing birds, workers in brightly coloured paintings share glances that say: ‘What the hell are we doing here?’ But isn’t there more to not belonging tha",
+      "link": "https://www.theguardian.com/artanddesign/2026/may/05/lubaina-himid-british-pavillion-at-the-venice-biennale-review",
+      "image": "https://i.guim.co.uk/img/media/36f9c2ad309268713cb8dbcab92fd0757d20fc2f/2204_1236_4379_3503/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=0b6c8549bdbc3ff2faab9d57f1811597",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777986642.0,
+      "hot": false
+    },
+    {
+      "id": "67070acd0b",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Body as masterpiece: nipples, skeletons and tattoos dominate at record-breaking Met Gala",
+      "summary": "Opening of ‘the dressed body’ show inspires Beyoncé, Kardashians and Skepta, as others pay tribute to fashion moments in art historyMet Gala 2026 red carpet: the best looks in picturesTwo assets the m",
+      "link": "https://www.theguardian.com/fashion/2026/may/05/body-masterpiece-nipples-skeletons-tattoos-record-breaking-met-gala-beyonce-kardashians",
+      "image": "https://i.guim.co.uk/img/media/0b1666b6dbb5bda989b3f180da52aa8e63f2bc9b/0_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=05938e0a1ea629abc7960380858efd12",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1777982573.0,
+      "hot": true
+    },
+    {
       "id": "0a8f1755f9",
       "type": "news",
       "region": "uk",
@@ -505,33 +505,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1777981083.0,
-      "hot": false
-    },
-    {
-      "id": "0c0d12b452",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Poverty and technology leading to record levels of slavery in UK",
-      "summary": "An independent report warns cost of living pressures are driving up exploitation levels in Britain.",
-      "link": "https://www.bbc.com/news/articles/c1j2gd8yr6go?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/48c8/live/94639940-4843-11f1-a408-2f3a24e8f02d.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1777965442.0,
       "hot": false
     },
     {
       "id": "7470dc3ed5",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
       "title": "Dangerous baby-sleep advice given to parents by self-described experts, secret filming reveals",
       "summary": "The advice puts babies at risk of serious harm, even death, medical professionals have told the BBC.",
@@ -541,7 +523,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1777957278.0,
       "hot": false
     }
