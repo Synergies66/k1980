@@ -1,79 +1,243 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-05-05T07:05:01.757847+00:00",
-  "total": 16,
+  "updated_at": "2026-05-05T10:25:10.335929+00:00",
+  "total": 15,
   "articles": [
     {
-      "id": "c05d7b6d62",
+      "id": "e75347a42c",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "S’pore passes laws to manage incidents on cross-border railways ahead of RTS Link’s opening",
+      "summary": "A key feature of the RTS Link is co-located immigration facilities at each station.",
+      "link": "https://www.straitstimes.com/singapore/politics/spore-passes-laws-to-manage-incidents-on-cross-border-railways-ahead-of-rts-links-opening",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "35分前",
+      "pub_ts": 1777974600.0,
+      "hot": false
+    },
+    {
+      "id": "fe481eab87",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "McFarlane rues Chelsea's poor start in Nottingham loss",
+      "title": "First Russian oil arrives in Japan since Iran war: Media",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/mcfarlane-rues-chelseas-poor-start-in-nottingham-loss-6100506",
-      "image": "https://dam.mediacorp.sg/image/upload/s--LinbiHBM--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T064329Z_1_LYNXMPEM44090_RTROPTP_3_SOCCER-ENGLAND-CHE-NFO-PREVIEW.JPG?itok=4sVvoPG6",
+      "link": "https://www.channelnewsasia.com/east-asia/first-russian-oil-arrives-in-japan-iran-war-media-6100921",
+      "image": "https://dam.mediacorp.sg/image/upload/s--pAujmMau--/c_crop,h_576,w_1024,x_0,y_55/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/000_a72p3g9.jpg?itok=O4LcLFQZ",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1777963409.0,
+      "ago": "8分前",
+      "pub_ts": 1777976220.0,
       "hot": false
     },
     {
-      "id": "69eed6f26d",
+      "id": "4f29bb3f87",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Pant not feeling the price tag pressure in IPL, says coach Langer",
+      "title": "Bullish to buy Equiniti in $4.2 billion deal",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/pant-not-feeling-price-tag-pressure-in-ipl-says-coach-langer-6100476",
-      "image": "https://dam.mediacorp.sg/image/upload/s--y8dhmVs5--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T061858Z_1_LYNXMPEM4407X_RTROPTP_3_CRICKET-IPL-MI-LSG.JPG?itok=GprBZCFn",
+      "link": "https://www.channelnewsasia.com/business/bullish-buy-equiniti-in-42-billion-deal-6100931",
+      "image": "https://dam.mediacorp.sg/image/upload/s--QC6rOx6k--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T101651Z_1_LYNXMPEM440JG_RTROPTP_3_BULLISH-IPO.JPG?itok=pC7wNjo3",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1777961938.0,
+      "ago": "8分前",
+      "pub_ts": 1777976211.0,
       "hot": false
     },
     {
-      "id": "b6a8bd800c",
+      "id": "7e46f8d40f",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Joo Seng Road fire: Couple in their 80s huddled in toilet as smoke from flat below filled their home",
+      "summary": "Several residents said the suspect lives with his elderly parents in the burnt unit.",
+      "link": "https://www.straitstimes.com/singapore/courts-crime/joo-seng-road-fire-couple-in-their-80s-huddled-in-toilet-as-smoke-from-flat-below-filled-their-home",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "17分前",
+      "pub_ts": 1777975680.0,
+      "hot": false
+    },
+    {
+      "id": "fe9b2393ec",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Spain's Sabadell, Bankinter set to join European stablecoin consortium, Expansion says",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/spains-sabadell-bankinter-set-join-european-stablecoin-consortium-expansion-says-6100446",
-      "image": "https://dam.mediacorp.sg/image/upload/s--P0tmo-Eu--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T061123Z_3_LYNXMPEM4407G_RTROPTP_3_SPAIN-SABADELL-HEADQUARTERS.JPG?itok=eGfeacdR",
+      "title": "Delivery riders expected to fulfil orders regardless of tips: Grab",
+      "summary": "Grab's comments come in the wake of reports that a delivery rider had threatened to cancel an order if a tip was not provided.",
+      "link": "https://www.channelnewsasia.com/singapore/grab-delivery-rider-threaten-cancel-large-kfc-order-no-tips-6100826",
+      "image": "https://dam.mediacorp.sg/image/upload/s--UUTZE0rQ--/c_crop,h_540,w_960,x_0,y_0/f_auto,q_auto/c_fill,g_auto,h_468,w_830/singapore-food-delivery.jpg?itok=kxfl8Edn",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1777974900.0,
+      "hot": false
+    },
+    {
+      "id": "c689468f2c",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Flash flood at KPE slip road near Buangkok; risk alerts for areas in Tanjong Pagar, Tampines Road",
+      "summary": "Heavy rain was expected over the southern, eastern and central areas of Singapore from 5.30pm to 6.30pm.",
+      "link": "https://www.straitstimes.com/singapore/flash-flood-at-kpe-slip-road-near-buangkok-risk-alerts-for-areas-in-tanjong-pagar-tampines-road",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "42分前",
+      "pub_ts": 1777974133.0,
+      "hot": true
+    },
+    {
+      "id": "8d33c1c45c",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "SMRT bus catches fire near Woodgrove Primary School in Woodlands; no injuries reported",
+      "summary": "SCDF was alerted to the vehicle fire along Woodlands Ave 1 at around 1.40pm and extinguished it using a water jet and a hosereel.",
+      "link": "https://www.channelnewsasia.com/singapore/smrt-bus-catches-fire-woodgrove-primary-school-woodlands-avenue-1-6100736",
+      "image": "https://dam.mediacorp.sg/image/upload/s--_PvH7i5G--/c_crop,h_646,w_1150,x_0,y_183/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/687542041_18583818145021919_1019536749974393779_n.jpg?itok=Z_jSD7D9",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1777973640.0,
+      "hot": false
+    },
+    {
+      "id": "c5db13149e",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Maid accused of stealing employer's clothes claims they were thrown away",
+      "summary": "The judge set aside her conviction since her claim that the clothes had been thrown away showed that she had no intention to steal.",
+      "link": "https://www.channelnewsasia.com/singapore/maid-accused-stealing-clothes-thrown-away-6100666",
+      "image": "https://dam.mediacorp.sg/image/upload/s--jAkum78S--/c_crop,h_900,w_1600,x_0,y_143/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/03/12/jem_0152.jpg?itok=4EzRFnY8",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "53分前",
-      "pub_ts": 1777961483.0,
+      "pub_ts": 1777973485.0,
       "hot": false
     },
     {
-      "id": "d92cdbc417",
+      "id": "3fa26f0e4f",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "What we know about big wins for Modi's BJP in India's state elections - and why it matters",
-      "summary": "Prime Minister Narendra Modi's Bharatiya Janata Party scored a landmark victory in the opposition stronghold of West Bengal on Monday (May 4) - a state that the party has never ruled before.",
-      "link": "https://www.channelnewsasia.com/asia/india-west-bengal-win-modi-state-elections-6100236",
-      "image": "https://dam.mediacorp.sg/image/upload/s--8TBI1t3r--/c_crop,h_1377,w_2448,x_0,y_128/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/000_a9r277m.jpg?itok=WP02Bt0M",
+      "title": "Some florists see withering Mother’s Day demand amid higher shipping costs",
+      "summary": "With supply disruptions pushing up the cost of importing blooms, florists say they are doing what they can to balance costs, competition and demand.",
+      "link": "https://www.channelnewsasia.com/singapore/florists-flowers-blooms-mothers-day-iran-war-shipping-impact-higher-costs-6100521",
+      "image": "https://dam.mediacorp.sg/image/upload/s--eGYBEXAD--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/screenshot_2026-05-05_132225.png?itok=XeYIkLnu",
       "categories": [
-        "政治"
+        "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777960020.0,
+      "pub_ts": 1777972628.0,
+      "hot": false
+    },
+    {
+      "id": "8f54d6f63e",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Hong Kong Q1 GDP expands at strongest pace in nearly five years",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/hong-kong-q1-gdp-expands-strongest-pace-in-nearly-five-years-6100771",
+      "image": "https://dam.mediacorp.sg/image/upload/s--m3EPFnvR--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T090324Z_1_LYNXMPEM440FX_RTROPTP_3_HONGKONG-EVONOMY-GDP.JPG?itok=_0uLtqBi",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777971804.0,
+      "hot": false
+    },
+    {
+      "id": "d70487b9d3",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Indonesia's first-quarter economic growth is fastest in over three years",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/business/indonesias-first-quarter-economic-growth-fastest-in-over-three-years-6100776",
+      "image": "https://dam.mediacorp.sg/image/upload/s--vm--qF42--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T090108Z_1_LYNXMPEM440FW_RTROPTP_3_INDONESIA-WEATHER.JPG?itok=2DlSUTv2",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777971668.0,
+      "hot": false
+    },
+    {
+      "id": "f33ef1b630",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Fresh grads take longer to land first jobs, but no broad decline in employment: Tan See Leng",
+      "summary": "Among graduates aged 25 to 29, employment rates have remained “broadly stable” over the past decade, he said.",
+      "link": "https://www.straitstimes.com/singapore/politics/fresh-grads-take-longer-to-land-first-jobs-but-no-broad-decline-in-employment-tan-see-leng",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1777971592.0,
+      "hot": false
+    },
+    {
+      "id": "da5a8b413c",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Tuberculosis clusters in Bedok: Eating at food centre is safe, says Ong Ye Kung",
+      "summary": "The Health Minister urged people to not avoid the Bedok food centre, saying it is safe for diners amid TB cases.",
+      "link": "https://www.straitstimes.com/singapore/health/singaporeans-understand-tb-better-and-are-working-together-to-suppress-the-spread-ong-ye-kung",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1777966800.0,
       "hot": false
     },
     {
@@ -89,211 +253,27 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1777959900.0,
       "hot": false
     },
     {
-      "id": "b980f441f5",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Real Madrid's Mendy suffers fresh injury setback",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/real-madrids-mendy-suffers-fresh-injury-setback-6100396",
-      "image": "https://dam.mediacorp.sg/image/upload/s--o9_PRNOl--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T053033Z_1_LYNXMPEM4406C_RTROPTP_3_SOCCER-CHAMPIONS-FCB-RMA.JPG?itok=GI6ynjA6",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777959033.0,
-      "hot": false
-    },
-    {
-      "id": "e1266e2c23",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Thailand to borrow US$12.2 billion as Mideast crisis bites",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/asia/thailand-borrow-122-billion-mideast-crisis-iran-war-6100376",
-      "image": "https://dam.mediacorp.sg/image/upload/s--0spqwyyc--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T052704Z_1_LYNXMPEM44066_RTROPTP_3_THAILAND-POLITICS.JPG?itok=YP0tjXkj",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777958820.0,
-      "hot": false
-    },
-    {
-      "id": "77d5225d26",
+      "id": "f6c4fc7918",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Chiefs of banks met with MAS to discuss measures against AI threats following Mythos’ limited releas",
-      "summary": "",
+      "title": "Chiefs of financial institutions met MAS to discuss measures against AI threats following Mythos’ li",
+      "summary": "Letters will also be sent to owners of critical information infrastructure to urge them to review their cyber risk posture.",
       "link": "https://www.straitstimes.com/singapore/politics/chiefs-of-banks-met-with-mas-to-discuss-measures-against-ai-threats-following-mythos-limited-release",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777958694.0,
-      "hot": false
-    },
-    {
-      "id": "6b03e436e7",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "No need to raise penalties for late retrenchment notices for now: Tan See Leng",
-      "summary": "The Manpower Minister said compliance rates remain high, and delays are often due to oversight.",
-      "link": "https://www.straitstimes.com/singapore/politics/no-need-to-raise-penalties-for-late-retrenchment-notices-for-now-tan-see-leng",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777958507.0,
-      "hot": false
-    },
-    {
-      "id": "8ff3a1e85e",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "ComfortDelGro launches QR codes to make ride bookings easier for seniors, caregivers, tourists",
-      "summary": "Passengers can just scan the QR codes at designated locations using the “Scan & Ride” feature on the Zig app.",
-      "link": "https://www.straitstimes.com/singapore/transport/comfortdelgro-launches-qr-codes-to-make-ride-bookings-easier-for-seniors-caregivers-tourists",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777958400.0,
-      "hot": false
-    },
-    {
-      "id": "c7510c9a38",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Exclusive-Tesla faces EU skepticism over automated-driving tech, records show",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/exclusive-tesla-faces-eu-skepticism-over-automated-driving-tech-records-show-6100331",
-      "image": "https://dam.mediacorp.sg/image/upload/s--Y8AF2k1O--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-05T051158Z_2_LYNXMPEM44059_RTROPTP_3_TESLA-FSD-EUROPE.JPG?itok=TkcohxHO",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777957591.0,
-      "hot": false
-    },
-    {
-      "id": "f46b4b5d37",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "5 taken to hospital, ATMs hit by power outage after Hougang coffee shop fire",
-      "summary": "Several stalls within the coffee shop were on fire when the SCDF arrived at the scene.",
-      "link": "https://www.straitstimes.com/singapore/5-taken-to-hospital-atms-hit-by-power-outage-after-hougang-coffee-shop-fire",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777956797.0,
-      "hot": false
-    },
-    {
-      "id": "04c11e5c13",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Caning used only as last resort in schools, when other disciplinary measures are inadequate: Desmond",
-      "summary": "Research links frequent corporal punishment to negative outcomes, but the context in schools is different, says Education Minister Desmond Lee.",
-      "link": "https://www.channelnewsasia.com/singapore/school-caning-bullying-punishment-vaping-misconduct-6100131",
-      "image": "https://dam.mediacorp.sg/image/upload/s--IqS5Q5FT--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/screenshot-2026-05-05-at-12.30.53.png?itok=JrmYoFp5",
-      "categories": [
-        "政治",
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777956660.0,
-      "hot": false
-    },
-    {
-      "id": "0d7057aae4",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Man charged with theft after side windows of several cars in Tengah, Bukit Batok found shattered",
-      "summary": "Chandran Sinnathamby is accused of stealing $100 in cash from a vehicle at a multi-storey carpark in Plantation Crescent.",
-      "link": "https://www.straitstimes.com/singapore/courts-crime/man-charged-with-theft-after-side-windows-of-several-cars-in-tengah-bukit-batok-found-shattered",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777956180.0,
-      "hot": false
-    },
-    {
-      "id": "b0d092f56c",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Crest Secondary offers Direct School Admission under football for 2027 intake",
-      "summary": "The DSA exercise for admission to secondary schools in 2027 opens for application on May 6 and closes on June 2.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/crest-secondary-offers-direct-school-admission-under-football-for-2027-intake",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1777955700.0,
-      "hot": false
-    },
-    {
-      "id": "f7001cca86",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Live: Parliament discusses jobs amid AI disruption, school bullying review",
-      "summary": "MPs have raised 23 questions on MOE’s review of bullying in schools.",
-      "link": "https://www.straitstimes.com/singapore/politics/live-parliament-discusses-jobs-amid-ai-disruption-school-bullying-review",
-      "image": null,
-      "categories": [
-        "政治",
-        "教育",
-        "科技"
-      ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1777945567.0,
+      "pub_ts": 1777958694.0,
       "hot": false
     }
   ]
