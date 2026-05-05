@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-05T14:30:01.202187+00:00",
-  "total": 22,
+  "updated_at": "2026-05-05T17:57:08.418584+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "be632a8a55",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "ICE is giving local police big money to help with immigration enforcement",
+      "summary": "The federal government is offering local law enforcement incentives to join a program that gives their officers authority to make immigration arrests. Police leaders say the funds, which include money",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5805996/ice-pays-local-police-incentives-immigration",
+      "image": null,
+      "categories": [
+        "移民",
+        "政治"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1777999323.0,
+      "hot": false
+    },
     {
       "id": "674db6c968",
       "type": "news",
@@ -18,34 +37,16 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "48分前",
+      "score": 77,
+      "ago": "4小时前",
       "pub_ts": 1777988517.0,
-      "hot": false
-    },
-    {
-      "id": "7e645ed3f0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Minneapolis grapples with the impact of Trump's largest immigration crackdown yet",
-      "summary": "The impact of Operation Metro Surge in the Twin Cities can still be felt, even three months after it ended.  For immigrants, the impact has been devastating — many are at risk of losing their homes an",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5801473/minneapolis-immigrants-grapple-with-economic-impact-of-operation-metro-surge",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 75,
-      "ago": "5小时前",
-      "pub_ts": 1777972320.0,
       "hot": false
     },
     {
       "id": "f61c0060d7",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "An explosion at a fireworks plant in China kills at least 26 people, state media says",
       "summary": "Authorities said search and rescue at a fireworks plant in a central Chinese province has largely been completed, but verification of the casualties and identification of the victims are still underwa",
@@ -56,26 +57,26 @@
         "科技"
       ],
       "score": 72,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777964383.0,
       "hot": false
     },
     {
-      "id": "25d7f54321",
+      "id": "1b406aeffc",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Here's a look at the 36 races for governor this year",
-      "summary": "The political environment doesn't look good for Republicans right now, but the party could make gains in the many races for governor across the country this November.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5739331/governor-2026-election",
+      "title": "Did FBI Director Kash Patel use AI to rip off the Beastie Boys?",
+      "summary": "An analysis by NPR suggests that frames from an iconic music video were used to generate content for a tweet by the FBI director.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5812509/kash-patel-fbi-beastie-boys-spike-jonze-ai",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1777988074.0,
+      "ago": "41分前",
+      "pub_ts": 1778001311.0,
       "hot": false
     },
     {
@@ -93,142 +94,70 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777986251.0,
+      "pub_ts": 1777999103.0,
       "hot": false
     },
     {
-      "id": "0ae9c439ad",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "If you are struggling to make ends meet, NPR wants to hear from you",
-      "summary": "With gas prices and other necessities at record highs, families are struggling with costs. NPR wants to know how you're coping.",
-      "link": "https://www.npr.org/2026/05/05/g-s1-120051/cost-of-living-gas-prices-jobs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1777984947.0,
-      "hot": false
-    },
-    {
-      "id": "120f3c662c",
+      "id": "74f0cc823b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "In Venezuela, Trump Vowed to Show Accountability. But Secret Oil Deals Linger.",
-      "summary": "Trump officials and their Venezuelan allies have promised a new era of accountability to unlock Venezuela’s immense oil wealth. But the country’s oil industry remains a black hole.",
-      "link": "https://www.nytimes.com/2026/05/05/world/trump-venezuela-oil-deals.html",
-      "image": "https://static01.nyt.com/images/2026/04/28/multimedia/00int-venezuela-oil-promo/00int-venezuela-oil-gclh-mediumSquareAt3X.jpg",
+      "title": "U.S. Trade Deficit Grew in March",
+      "summary": "Both exports and imports rose after the Supreme Court struck down many of the president’s highest levies in February.",
+      "link": "https://www.nytimes.com/2026/05/05/business/economy/us-trade-deficit-grew-in-march.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05dc-trade-wbtj/05dc-trade-wbtj-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1777984762.0,
+      "pub_ts": 1777998541.0,
       "hot": false
     },
     {
-      "id": "23198324c3",
+      "id": "7e645ed3f0",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "SCOTUS temporarily restores mifepristone access. And, Indiana, Ohio vote in primaries",
-      "summary": "The Supreme Court temporarily restored access to the abortion pill mifepristone. And, Indiana's primaries will test President Trump's influence as he tries to oust incumbent Republican senators.",
-      "link": "https://www.npr.org/2026/05/05/g-s1-120151/up-first-newsletter-iran-us-strait-of-hormuz-ohio-indiana-primaries-medication-abortion",
+      "title": "Minneapolis grapples with the impact of Trump's largest immigration crackdown yet",
+      "summary": "Operation Metro Surge's impact in the Twin Cities can still be felt three months after it ended. Many immigrants are at risk of losing homes and businesses, and some are dealing with mental health cha",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5801473/minneapolis-immigrants-grapple-with-economic-impact-of-operation-metro-surge",
       "image": null,
       "categories": [
-        "本地"
+        "移民"
+      ],
+      "score": 70,
+      "ago": "8小时前",
+      "pub_ts": 1777972320.0,
+      "hot": false
+    },
+    {
+      "id": "cee2432d78",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What We Know About ‘Project Freedom’ in the Strait of Hormuz",
+      "summary": "Violence flared in the waterway on Monday after President Trump said the United States would help guide stranded ships. It’s not clear exactly how the plan is working.",
+      "link": "https://www.nytimes.com/2026/05/05/world/middleeast/trump-strait-hormuz-plan-project-freedom-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05live-mideast-wwk-qpht/05live-mideast-wwk-qpht-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1777982027.0,
+      "pub_ts": 1777995992.0,
       "hot": false
     },
     {
-      "id": "913d25e09d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Canadian prime minister says Europe will anchor world order",
-      "summary": "Canada's Prime Minister Mark Carney tells European leaders they, not the U.S., will anchor the world order in the future.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5810533/canadian-prime-minister-says-europe-will-anchor-world-order",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777978183.0,
-      "hot": false
-    },
-    {
-      "id": "24ad0ed2a7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. attempt to open Strait of Hormuz tests fragile Iran war ceasefire",
-      "summary": "The Iran war risked reigniting after the U.S. tried to force open the Strait of Hormuz, though a ceasefire seemed to be holding Tuesday even after the United Arab Emirates said Iran fired missiles and",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1777977581.0,
-      "hot": false
-    },
-    {
-      "id": "9520bae2d9",
+      "id": "01a75adc12",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Ships Under Fire in Strait of Hormuz, and Kennedy’s Pushback on Antidepressants",
-      "summary": "Plus, the gowns — and the backlash — at the Met Gala.",
-      "link": "https://www.nytimes.com/2026/05/05/podcasts/the-headlines/ships-strait-hormuz-kennedy-antidepressants.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05live-iran-war-theheadline-twmj/05live-iran-war-theheadline-twmj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777975211.0,
-      "hot": false
-    },
-    {
-      "id": "256e3c7012",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "This flashy group of Portland mall walkers puts neon pep into their step",
-      "summary": "Krista Catwood wanted a fun way to exercise, so she started a mall-walking group whose unofficial costume was 1980s garb. The festive, all-ages event has exploded in popularity over the past year.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5806606/portland-mall-walkers-lloyd-center-food-court-5000",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1777973400.0,
-      "hot": false
-    },
-    {
-      "id": "9a30fe4d46",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Can Ken Paxton Win a Senate Primary in Texas Without His Biggest Donors?",
+      "title": "Paxton’s Fund-Raising Struggles in Texas Underscore Deep Rift in G.O.P.",
       "summary": "The Texas attorney general is heading into the runoff against Senator John Cornyn without the support of some of his longtime backers.",
       "link": "https://www.nytimes.com/2026/05/05/us/ken-paxton-john-cornyn-senate-donors.html",
       "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-paxton-donors-1-tjhp/05nat-paxton-donors-1-tjhp-mediumSquareAt3X.jpg",
@@ -236,26 +165,8 @@
         "科技"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777971707.0,
-      "hot": false
-    },
-    {
-      "id": "c5dd89f1cb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "President Trump Seeks Retribution in Republican Primaries",
-      "summary": "President Trump is endorsing candidates in a series of primary elections this month, trying to defeat incumbents in his own party who have crossed him. Our national political correspondent Shane Goldm",
-      "link": "https://www.nytimes.com/video/us/politics/100000010873895/president-trump-seeks-retribution-in-republican-primaries.html",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777971701.0,
+      "ago": "3小时前",
+      "pub_ts": 1777992785.0,
       "hot": false
     },
     {
@@ -272,26 +183,134 @@
         "政治"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777971692.0,
+      "ago": "3小时前",
+      "pub_ts": 1777992065.0,
       "hot": false
     },
     {
-      "id": "f481a9eed2",
+      "id": "25d7f54321",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Primary elections in Ohio, Indiana offer latest temperature check on Trump popularity",
-      "summary": "The president seeks to oust Indiana Republicans who blocked a redistricting push in that state, while growing dissatisfaction with Trump's agenda gives Democrats an opening in Ohio.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5807910/2026-midterm-primary-election-ohio-indiana",
+      "title": "Here's a look at the 36 races for governor this year",
+      "summary": "The political environment doesn't look good for Republicans right now, but the party could make gains in the many races for governor across the country this November.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5739331/governor-2026-election",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1777988074.0,
+      "hot": false
+    },
+    {
+      "id": "0ae9c439ad",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "If you are struggling to make ends meet, NPR wants to hear from you",
+      "summary": "With gas prices and other necessities at record highs, families are struggling with costs. NPR wants to know how you're coping.",
+      "link": "https://www.npr.org/2026/05/05/g-s1-120051/cost-of-living-gas-prices-jobs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1777984947.0,
+      "hot": false
+    },
+    {
+      "id": "23198324c3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "SCOTUS temporarily restores mifepristone access. And, Indiana, Ohio vote in primaries",
+      "summary": "The Supreme Court temporarily restored access to the abortion pill mifepristone. And, Indiana's primaries will test President Trump's influence as he tries to oust incumbent Republican senators.",
+      "link": "https://www.npr.org/2026/05/05/g-s1-120151/up-first-newsletter-iran-us-strait-of-hormuz-ohio-indiana-primaries-medication-abortion",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1777982027.0,
+      "hot": false
+    },
+    {
+      "id": "913d25e09d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Canadian prime minister says Europe will anchor world order",
+      "summary": "Canada's Prime Minister Mark Carney tells European leaders they, not the U.S., will anchor the world order in the future.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5810533/canadian-prime-minister-says-europe-will-anchor-world-order",
       "image": null,
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777971600.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777978183.0,
+      "hot": false
+    },
+    {
+      "id": "c3f251c597",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. says the Iran ceasefire holds despite attacks in Strait of Hormuz and against UAE",
+      "summary": "So far, only two merchant ships are known to have passed a new U.S.-guarded route through the Strait of Hormuz.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1777977581.0,
+      "hot": false
+    },
+    {
+      "id": "256e3c7012",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This flashy group of Portland mall walkers puts neon pep into their step",
+      "summary": "Krista Catwood wanted a fun way to exercise, so she started a mall-walking group whose unofficial costume was 1980s garb. The festive, all-ages event has exploded in popularity over the past year.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5806606/portland-mall-walkers-lloyd-center-food-court-5000",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777973400.0,
+      "hot": false
+    },
+    {
+      "id": "c5dd89f1cb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "President Trump Seeks Retribution in Republican Primaries",
+      "summary": "President Trump is endorsing candidates in a series of primary elections this month, trying to defeat incumbents in his own party who have crossed him. Our national political correspondent Shane Goldm",
+      "link": "https://www.nytimes.com/video/us/politics/100000010873895/president-trump-seeks-retribution-in-republican-primaries.html",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1777971701.0,
       "hot": false
     },
     {
@@ -308,7 +327,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777960160.0,
       "hot": false
     },
@@ -327,26 +346,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777960044.0,
       "hot": false
     },
     {
-      "id": "6fb6f57fd7",
+      "id": "a3bc983a80",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Tries to Downplay Economic Effects of the Iran War",
-      "summary": "At a White House event for Small Business Week, he described the economy as “roaring” and predicted that gas prices would go down soon.",
-      "link": "https://www.nytimes.com/2026/05/04/us/politics/trump-economy-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/04DC-TRUMP-01-lftq/04DC-TRUMP-01-lftq-mediumSquareAt3X.jpg",
+      "title": "Kennedy Starts a Push to Help Americans Quit Antidepressants",
+      "summary": "The health secretary has long complained that Americans overuse psychiatric medications. New policies he is introducing aim to change that.",
+      "link": "https://www.nytimes.com/2026/05/04/science/rfk-antidepressants-ssris-hhs-maha.html",
+      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/04sci-kennedy-antidepressant-01-bwmf/04sci-kennedy-antidepressant-01-bwmf-mediumSquareAt3X.jpg",
       "categories": [
-        "经济"
+        "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777945206.0,
+      "ago": "17小时前",
+      "pub_ts": 1777940984.0,
       "hot": false
     },
     {
@@ -363,7 +382,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1777927088.0,
       "hot": false
     },
@@ -381,7 +400,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1777925910.0,
       "hot": false
     },
