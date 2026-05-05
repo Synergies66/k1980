@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-05T18:02:07.261175+00:00",
+  "updated_at": "2026-05-05T21:40:22.646902+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "861b2879ef",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Coupang swings to net loss in Q1 amid fallout from data breach",
+      "summary": "SEOUL, May 6 (Yonhap) -- U.S.-listed e-commerce giant Coupang Inc. said Wednesda...",
+      "link": "https://en.yna.co.kr/view/AEN20260506000400320",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/01/29/PYH2026012909850001300_P2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "21分前",
+      "pub_ts": 1778015925.0,
+      "hot": false
+    },
     {
       "id": "8814eb23a0",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "55分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778000817.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777990139.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1777988694.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1777978500.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1777973583.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777971445.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1777970514.0,
-      "hot": false
-    },
-    {
-      "id": "3dd10c6e2b",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(2nd LD) S. Korea says likely to take days to analyze cause of fire on HMM-operated vessel in Strait",
-      "summary": "SEOUL, May 5 (Yonhap) -- The presidential office said Tuesday it will likely tak...",
-      "link": "https://en.yna.co.kr/view/AEN20260505001252320",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/05/04/PRU20260504215901009_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777968800.0,
       "hot": false
     }
   ]
