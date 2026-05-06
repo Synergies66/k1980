@@ -1,7 +1,7 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-05T21:36:04.881097+00:00",
+  "updated_at": "2026-05-06T04:23:01.048892+00:00",
   "total": 29,
   "articles": [
     {
@@ -17,27 +17,99 @@
       "categories": [
         "华人"
       ],
-      "score": 80,
-      "ago": "21小时前",
+      "score": 75,
+      "ago": "昨日",
       "pub_ts": 1777940339.0,
       "hot": false
     },
     {
-      "id": "0ac25756db",
+      "id": "dae39cc7db",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "中國發布東海海底科研報告   展示「軍民融合」戰略巨大彈性",
+      "summary": "中國發布東海海底化學元素圖集，基於近20年調查資料，強調用於資源勘探與環境保護，但有專家指其軍民融合戰略強化東海主權主張，蒐集潛艇戰關鍵數據，同時向日本及展現實力。",
+      "link": "https://www.bbc.com/zhongwen/articles/clyp71jkqlvo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/0d5a/live/98201f80-4858-11f1-9db4-19df36ab272c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1778031903.0,
+      "hot": false
+    },
+    {
+      "id": "9d33f9a3c6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "「她是亞洲人，我們不考慮她」菲律賓百老匯瑰寶麗婭·薩隆加的打拼經歷",
+      "summary": "百老匯舞台劇與迪士尼傳奇演員麗婭·薩隆加（Lea Salonga）為亞洲藝人開拓了康莊大道，但她一路走來並不平坦。",
+      "link": "https://www.bbc.com/zhongwen/articles/ce9pnxyr58go/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/bba6/live/74362050-4476-11f1-b545-b533bcf4cad2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "2小时前",
+      "pub_ts": 1778030844.0,
+      "hot": false
+    },
+    {
+      "id": "d9b1db9152",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
       "lang": "en",
-      "title": "'Nothing will bring back my son': How 10 minutes of bombing by Israel shattered lives in Lebanon",
-      "summary": "The bombs started falling at 14:15 in the afternoon - bringing chaos and destruction across the country.",
-      "link": "https://www.bbc.com/news/articles/c202652vvnjo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d19c/live/d2e8e220-48c9-11f1-b55d-0f258dce1735.jpg",
+      "title": "‘Everyone knows an Amanda!’ Joanna Lumley and Lucy Punch on the return of comedy smash, Amandaland",
+      "summary": "The funniest comedy on British TV is back. Its stars talk about scruffiness, mortifying encounters with the public and why they’ve loved each other for two decadesIn a north London TV studio, there’s",
+      "link": "https://www.theguardian.com/tv-and-radio/2026/may/06/joanna-lumley-lucy-punch-return-amandaland",
+      "image": "https://i.guim.co.uk/img/media/d7edd3e1a2c67e0eb23d92420987bb36b0970172/0_546_5312_4246/master/5312.jpg?width=140&quality=85&auto=format&fit=max&s=adad1a61a19519c8eb04638feec23fe4",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1778016151.0,
+      "ago": "22分前",
+      "pub_ts": 1778040002.0,
+      "hot": false
+    },
+    {
+      "id": "f655e7d288",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "How to survive the information crisis: ‘We once talked about fake news – now reality itself feels fa",
+      "summary": "In this age of crisis, technology is pulling us apart. At its best, journalism can bring us together again, writes Guardian editor-in-chief Katharine VinerI have a confession to make. It has taken me",
+      "link": "https://www.theguardian.com/media/ng-interactive/2026/may/06/how-to-survive-the-information-crisis-we-once-talked-about-fake-news-now-reality-itself-feels-fake",
+      "image": "https://i.guim.co.uk/img/media/ed64e185803770cd183d670bb69c087d67071ee9/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=e99979609e23642396f53c828888c841",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "22分前",
+      "pub_ts": 1778040001.0,
+      "hot": false
+    },
+    {
+      "id": "6c0baf6ddc",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "What we know about Trump's 'Project Freedom' in Strait of Hormuz",
+      "summary": "What does the operation entail and could it lead to a resumption of hostilities?",
+      "link": "https://www.bbc.com/news/articles/c4g437depzpo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/959a/live/50900610-48e6-11f1-b75b-95129d40843d.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778034216.0,
       "hot": false
     },
     {
@@ -54,7 +126,7 @@
         "本地"
       ],
       "score": 68,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777983091.0,
       "hot": false
     },
@@ -72,26 +144,99 @@
         "本地"
       ],
       "score": 68,
-      "ago": "13小时前",
+      "ago": "20小时前",
       "pub_ts": 1777967176.0,
       "hot": false
     },
     {
-      "id": "af858dfc47",
+      "id": "50ea006fb7",
       "type": "news",
       "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "特朗普的霍爾木茲海峽「自由計劃」會如何保護船隻通行",
-      "summary": "有分析指，「自由計劃」的重點將放在提供空中掩護，以及防禦導彈與無人機攻擊，而非實際為船隻提供穿越霍爾木茲海峽的軍事護航。",
-      "link": "https://www.bbc.com/zhongwen/articles/c775r1z4y65o/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/61b4/live/4880d090-47aa-11f1-bd52-e755d604ece4.jpg",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Trump says US to pause operation to guide vessels through Strait of Hormuz",
+      "summary": "\"Project Freedom\", which began on Monday, will be halted because progress has been made toward a deal with Iran, the US president says.",
+      "link": "https://www.bbc.com/news/articles/clypekl71gdo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2c3f/live/af9c9120-48da-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778033925.0,
+      "hot": false
+    },
+    {
+      "id": "9a6bfc1d16",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Trump puts ‘Project Freedom’ on hold, saying he hopes to finalise a deal with Iran",
+      "summary": "US president says he is pausing US effort to guide stranded vessels out of the strait of Hormuz but blockade remainsDonald Trump announced he is pausing ‘Project Freedom’, the US effort to guide stran",
+      "link": "https://www.theguardian.com/world/2026/may/06/trump-project-freedom-strait-of-hormuz-ships-iran-ceasefire",
+      "image": "https://i.guim.co.uk/img/media/1c9e72dc370c51631c0a2879769d48958d312ec9/763_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b630f49c46244a360059b22b9da5ab6d",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778028950.0,
+      "hot": false
+    },
+    {
+      "id": "c4d26ebc20",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Campaigning sprint finish ahead of elections around Britain tomorrow",
+      "summary": "A mesmerising mix of results are expected after candidates make their final pitches, our political editor writes.",
+      "link": "https://www.bbc.com/news/articles/c759z9w7z3yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/bed9/live/ed3fe1e0-48c5-11f1-b000-cd419c6b9b09.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778026528.0,
+      "hot": false
+    },
+    {
+      "id": "d5fa9e55e6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Catherine to return to overseas visits with Italy trip",
+      "summary": "The Princess of Wales will go to Italy next week on her first official overseas engagement for more than three years.",
+      "link": "https://www.bbc.com/news/articles/c707k90lplno?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/62c6/live/8267b5e0-48a3-11f1-bfdc-23174677b43e.jpg",
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "15小时前",
-      "pub_ts": 1777961408.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778025878.0,
+      "hot": false
+    },
+    {
+      "id": "bc2bf0b860",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Cruise ship with hantavirus outbreak to sail to Canary Islands",
+      "summary": "Spain's health ministry said the MV Hondius is expected to arrive within three to four days.",
+      "link": "https://www.bbc.com/news/articles/ce8pypvjx1ko?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4548/live/388b7610-48cf-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778025688.0,
       "hot": false
     },
     {
@@ -107,8 +252,8 @@
       "categories": [
         "科技"
       ],
-      "score": 68,
-      "ago": "17小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1777954891.0,
       "hot": false
     },
@@ -125,261 +270,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "17小时前",
-      "pub_ts": 1777952291.0,
-      "hot": false
-    },
-    {
-      "id": "b22c6ed79a",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "US-Iran truce teeters on meltdown as stalemate takes toll on each side",
-      "summary": "Conflict appears to have reached impasse, but leaders in Tehran and Washington seem to think victory is nearThe month-old ceasefire between Iran and the US appeared to be in new peril on Tuesday with",
-      "link": "https://www.theguardian.com/world/2026/may/05/us-iran-truce-teeters-on-meltdown-as-stalemate-takes-toll-on-each-side",
-      "image": "https://i.guim.co.uk/img/media/5760101a3c7cc4eabc7d9e45ad8e76c606653bdf/1000_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=3f3fa6671bad9f43e31458f9f00ee77a",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778008279.0,
-      "hot": false
-    },
-    {
-      "id": "1f552dfcbe",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "No obligation to declare £5m gift, Farage says",
-      "summary": "The Reform UK leader says the gift was \"purely private\" and \"wasn't political in any sense at all\".",
-      "link": "https://www.bbc.com/news/articles/c8jv8xl17l8o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d58e/live/d16791c0-48a7-11f1-90e6-350a323e11ac.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778007107.0,
-      "hot": false
-    },
-    {
-      "id": "7831d62ead",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Watch: Captain of stranded ship in Strait of Hormuz tells BBC of 'pressure'",
-      "summary": "Capt Raman Kapoor's ship is one of several to be stranded in the strait in the midst of the power struggle between the US and Iran.",
-      "link": "https://www.bbc.com/news/videos/czx2k3eprpgo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ca6/live/d630e000-48af-11f1-90e6-350a323e11ac.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778005715.0,
-      "hot": false
-    },
-    {
-      "id": "b3afbe84b6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Palestine Action activists guilty of criminal damage",
-      "summary": "The group of four activists were accused of breaking into the Elbit Systems factory near Bristol.",
-      "link": "https://www.bbc.com/news/articles/cm2p99rxr5po?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce57/live/398d6640-488e-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778004663.0,
-      "hot": false
-    },
-    {
-      "id": "9fda248172",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Stop plotting to oust Keir Starmer, ex-deputy Labour leader urges MPs",
-      "summary": "Tom Watson, who had role in attempted coup against Tony Blair in 2006, said move would go down extremely badly with votersLabour MPs have been urged to stop plotting to remove Keir Starmer by Tom Wats",
-      "link": "https://www.theguardian.com/politics/2026/may/05/stop-plotting-to-oust-keir-starmer-ex-deputy-labour-leader-urges-mps",
-      "image": "https://i.guim.co.uk/img/media/38a0208532b3430431f73de1ab2e5038d92b9b10/1040_33_4048_3239/master/4048.jpg?width=140&quality=85&auto=format&fit=max&s=625b96f7df10cd1920610a12334e3e6f",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778004223.0,
-      "hot": false
-    },
-    {
-      "id": "6b2fbfb1ce",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Woman, 35, died in explosion after ex-partner 'forced entry' into her home",
-      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
-      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778001919.0,
-      "hot": false
-    },
-    {
-      "id": "8ff7b15347",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Woman died after ex 'with explosive device forced entry to house'",
-      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
-      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778001919.0,
-      "hot": false
-    },
-    {
-      "id": "9c32a17a75",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Hantavirus explained: how does it spread and who is most at risk? – podcast",
-      "summary": "Three people have died after an outbreak of hantavirus onboard a cruise ship travelling from Argentina to Cape Verde. The World Health Organization says a total of seven cases – two confirmed by labor",
-      "link": "https://www.theguardian.com/science/audio/2026/may/05/hantavirus-explained-how-does-it-spread-and-who-is-most-at-risk-podcast",
-      "image": "https://i.guim.co.uk/img/media/e0b7ef8bba28577b9ed5f03b206b43d68e947e72/281_0_2813_2250/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04b193b02b66c1fe5171a6e7b43c7953",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778001194.0,
-      "hot": false
-    },
-    {
-      "id": "3a99bc7a6a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Hate crime prosecutions to be fast-tracked after antisemitic attacks",
-      "summary": "The director of public prosecutions has told prosecutors in England and Wales to bring charges more quickly.",
-      "link": "https://www.bbc.com/news/articles/cz72eye5zzeo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e28/live/828cdc00-48a1-11f1-b55d-0f258dce1735.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778000197.0,
-      "hot": false
-    },
-    {
-      "id": "4da758bfbb",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Lidl's new loyalty scheme less generous, shoppers say",
-      "summary": "Under the changed system customers collect points rather than reward coupons, with £1 spent equalling one point.",
-      "link": "https://www.bbc.com/news/articles/ckgp7y5jg59o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/733d/live/839af900-4893-11f1-9c3f-fddcc2cc89aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777998630.0,
-      "hot": false
-    },
-    {
-      "id": "4fc93f697d",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Farage deploys the rottweiler to distract from awkward £5m gift story | John Crace",
-      "summary": "Zia Yusuf’s mad idea of building migrant detention centres exclusively in areas that vote Green works a treatIt’s a classic from the Donald Trump playbook: everything’s been going a bit tits up, so yo",
-      "link": "https://www.theguardian.com/politics/2026/may/05/farage-deploys-the-rottweiler-to-distract-from-awkward-5m-gift-story",
-      "image": "https://i.guim.co.uk/img/media/63de9690f2b7559e8c86bd04606351a0f9b8b65b/415_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=0b9c0cc45327b6984d803fb2ea3781f7",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777998182.0,
-      "hot": false
-    },
-    {
-      "id": "bea793fedd",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Murder-accused teacher 'begged medics to save baby'",
-      "summary": "Preston Davey was abused and murdered after being adopted by two men, a jury has been told.",
-      "link": "https://www.bbc.com/news/articles/c1m25zmee23o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f046/live/e49de1d0-4321-11f1-ac78-2112837ce2aa.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777998085.0,
-      "hot": false
-    },
-    {
-      "id": "dab73ef723",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "All of society must tackle 'crisis' of antisemitism, Starmer says",
-      "summary": "The PM hosts a summit of leaders from the police, arts and universities, after a spate of attacks against British Jews.",
-      "link": "https://www.bbc.com/news/articles/czd2l55d1e7o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1af/live/32c2da80-486a-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777996419.0,
-      "hot": false
-    },
-    {
-      "id": "b16f1ccbf6",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "漢他病毒：大西洋郵輪疑爆疫情，三人死亡",
-      "summary": "「洪迪斯號」（MV Hondius）的營運商表示，一對荷蘭夫婦以及一名德國公民已經死亡，但死因尚未確定。",
-      "link": "https://www.bbc.com/zhongwen/articles/c8r8j7lze0ro/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/d141/live/9a7c9710-479d-11f1-970b-c9a1b7950074.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 63,
       "ago": "昨日",
-      "pub_ts": 1777900937.0,
+      "pub_ts": 1777952291.0,
       "hot": false
     },
     {
@@ -401,21 +294,201 @@
       "hot": false
     },
     {
-      "id": "feed50a9a7",
+      "id": "25ab705180",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Zack Polanski falsely claimed to be British Red Cross spokesperson, charity says",
+      "summary": "Green party leader also accused of incorrectly stating he was a full member of the National Council of HypnotherapyZack Polanski falsely claimed to be a spokesperson for the British Red Cross while ca",
+      "link": "https://www.theguardian.com/politics/2026/may/05/zack-polanski-falsely-claimed-to-be-british-red-cross-spokesperson-charity-says",
+      "image": "https://i.guim.co.uk/img/media/07c51cacf5b64645d06f238c09570f7facbd55d3/500_0_5000_4000/master/5000.jpg?width=140&quality=85&auto=format&fit=max&s=b404d260e057f1453f1ca9883636a46e",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778016826.0,
+      "hot": false
+    },
+    {
+      "id": "0ac25756db",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'Nothing will bring back my son': How 10 minutes of bombing by Israel shattered lives in Lebanon",
+      "summary": "The bombs started falling at 14:15 in the afternoon - bringing chaos and destruction across the country.",
+      "link": "https://www.bbc.com/news/articles/c202652vvnjo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d19c/live/d2e8e220-48c9-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1778016151.0,
+      "hot": false
+    },
+    {
+      "id": "1f552dfcbe",
       "type": "news",
       "region": "uk",
       "source": "BBC 英国",
       "lang": "en",
-      "title": "Rice cooker leads to £260k payout to sacked university cleaner",
-      "summary": "The cleaner says she was accused of buying a student a rice cooker, which are banned.",
-      "link": "https://www.bbc.com/news/articles/c3d25p3kpeno?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ee4/live/437b5940-488a-11f1-bcab-efc229dd9518.png",
+      "title": "No obligation to declare £5m gift, Farage says",
+      "summary": "The Reform UK leader says the gift was \"purely private\" and \"wasn't political in any sense at all\".",
+      "link": "https://www.bbc.com/news/articles/c8jv8xl17l8o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d58e/live/d16791c0-48a7-11f1-90e6-350a323e11ac.jpg",
       "categories": [
-        "教育"
+        "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777992381.0,
+      "ago": "9小时前",
+      "pub_ts": 1778007107.0,
+      "hot": false
+    },
+    {
+      "id": "7831d62ead",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Watch: Captain of stranded ship in Strait of Hormuz tells BBC of 'pressure'",
+      "summary": "Capt Raman Kapoor's ship is one of several to be stranded in the strait in the midst of the power struggle between the US and Iran.",
+      "link": "https://www.bbc.com/news/videos/czx2k3eprpgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3ca6/live/d630e000-48af-11f1-90e6-350a323e11ac.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1778005715.0,
+      "hot": false
+    },
+    {
+      "id": "b3afbe84b6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Palestine Action activists guilty of criminal damage",
+      "summary": "The group of four activists were accused of breaking into the Elbit Systems factory near Bristol.",
+      "link": "https://www.bbc.com/news/articles/cm2p99rxr5po?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ce57/live/398d6640-488e-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1778004663.0,
+      "hot": false
+    },
+    {
+      "id": "8ff7b15347",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Woman died after ex 'with explosive device forced entry to house'",
+      "summary": "Police officers are treating the death of Jo Shaw as a homicide.",
+      "link": "https://www.bbc.com/news/articles/cx21q55gz12o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e992/live/28330590-4897-11f1-b55d-0f258dce1735.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1778001919.0,
+      "hot": false
+    },
+    {
+      "id": "9c32a17a75",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Hantavirus explained: how does it spread and who is most at risk? – podcast",
+      "summary": "Three people have died after an outbreak of hantavirus onboard a cruise ship travelling from Argentina to Cape Verde. The World Health Organization says a total of seven cases – two confirmed by labor",
+      "link": "https://www.theguardian.com/science/audio/2026/may/05/hantavirus-explained-how-does-it-spread-and-who-is-most-at-risk-podcast",
+      "image": "https://i.guim.co.uk/img/media/e0b7ef8bba28577b9ed5f03b206b43d68e947e72/281_0_2813_2250/master/2813.jpg?width=140&quality=85&auto=format&fit=max&s=04b193b02b66c1fe5171a6e7b43c7953",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1778001194.0,
+      "hot": false
+    },
+    {
+      "id": "3a99bc7a6a",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Hate crime prosecutions to be fast-tracked after antisemitic attacks",
+      "summary": "The director of public prosecutions has told prosecutors in England and Wales to bring charges more quickly.",
+      "link": "https://www.bbc.com/news/articles/cz72eye5zzeo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7e28/live/828cdc00-48a1-11f1-b55d-0f258dce1735.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1778000197.0,
+      "hot": false
+    },
+    {
+      "id": "4fc93f697d",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "Farage deploys the rottweiler to distract from awkward £5m gift story | John Crace",
+      "summary": "Zia Yusuf’s mad idea of building migrant detention centres exclusively in areas that vote Green works a treatIt’s a classic from the Donald Trump playbook: everything’s been going a bit tits up, so yo",
+      "link": "https://www.theguardian.com/politics/2026/may/05/farage-deploys-the-rottweiler-to-distract-from-awkward-5m-gift-story",
+      "image": "https://i.guim.co.uk/img/media/63de9690f2b7559e8c86bd04606351a0f9b8b65b/415_0_7911_6328/master/7911.jpg?width=140&quality=85&auto=format&fit=max&s=0b9c0cc45327b6984d803fb2ea3781f7",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1777998182.0,
+      "hot": false
+    },
+    {
+      "id": "bea793fedd",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Murder-accused teacher 'begged medics to save baby'",
+      "summary": "Preston Davey was abused and murdered after being adopted by two men, a jury has been told.",
+      "link": "https://www.bbc.com/news/articles/c1m25zmee23o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f046/live/e49de1d0-4321-11f1-ac78-2112837ce2aa.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777998085.0,
+      "hot": false
+    },
+    {
+      "id": "dab73ef723",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "All of society must tackle 'crisis' of antisemitism, Starmer says",
+      "summary": "The PM hosts a summit of leaders from the police, arts and universities, after a spate of attacks against British Jews.",
+      "link": "https://www.bbc.com/news/articles/czd2l55d1e7o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e1af/live/32c2da80-486a-11f1-ac78-2112837ce2aa.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1777996419.0,
       "hot": false
     },
     {
@@ -433,44 +506,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1777990839.0,
-      "hot": false
-    },
-    {
-      "id": "53a49f92cc",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "How I Shop with Kim Cattrall: ‘If it’s necessary to wear underwear, I like luxury’",
-      "summary": "Always wondered what everyday stuff celebrities buy, where they shop for food, and the basic they scrimp on? The actor talks well-brewed tea, never lending books, and the joy of dining at home with th",
-      "link": "https://www.theguardian.com/thefilter/2026/may/05/how-i-shop-with-kim-cattrall",
-      "image": "https://i.guim.co.uk/img/media/98441ccdaf2d1c8d91c8da8b3f1ae3f30f0dd686/0_0_2480_1984/master/2480.jpg?width=140&quality=85&auto=format&fit=max&s=c46160bdee5e471f4c53484b3ad65695",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1777989642.0,
-      "hot": false
-    },
-    {
-      "id": "52721110c4",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Lubaina Himid’s British pavilion at the Venice Biennale review – alienation in a green and pleasant ",
-      "summary": "Amid a calming soundtrack of lapping waves and cooing birds, workers in brightly coloured paintings share glances that say: ‘What the hell are we doing here?’ But isn’t there more to not belonging tha",
-      "link": "https://www.theguardian.com/artanddesign/2026/may/05/lubaina-himid-british-pavillion-at-the-venice-biennale-review",
-      "image": "https://i.guim.co.uk/img/media/36f9c2ad309268713cb8dbcab92fd0757d20fc2f/2204_1236_4379_3503/master/4379.jpg?width=140&quality=85&auto=format&fit=max&s=0b6c8549bdbc3ff2faab9d57f1811597",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1777986642.0,
       "hot": false
     },
     {
@@ -487,45 +524,9 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777982573.0,
       "hot": true
-    },
-    {
-      "id": "0a8f1755f9",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Bowen: Strait of Hormuz standoff raises risk of sliding back into all-out war",
-      "summary": "The US and Iran's determination to keep the pressure on each other has put the fragile Gulf ceasefire in serious jeopardy.",
-      "link": "https://www.bbc.com/news/articles/cgrpnq00j5vo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a283/live/cfeeea60-4879-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1777981083.0,
-      "hot": false
-    },
-    {
-      "id": "7470dc3ed5",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Dangerous baby-sleep advice given to parents by self-described experts, secret filming reveals",
-      "summary": "The advice puts babies at risk of serious harm, even death, medical professionals have told the BBC.",
-      "link": "https://www.bbc.com/news/articles/ce84e1vn1l2o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/37a2/live/250ea2e0-42eb-11f1-ac78-2112837ce2aa.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1777957278.0,
-      "hot": false
     }
   ]
 }
