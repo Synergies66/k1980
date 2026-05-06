@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-05T21:31:35.812475+00:00",
-  "total": 23,
+  "updated_at": "2026-05-06T04:10:38.202014+00:00",
+  "total": 24,
   "articles": [
+    {
+      "id": "114dceda67",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump and Rubio Insist Iran War Is Over, Even as Missiles Fly During Cease-Fire",
+      "summary": "The White House is turning to rhetorical leaps as President Trump tries to put the biggest political crisis of his presidency behind him.",
+      "link": "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05dc-ceasefire01-photo-mgph/05dc-ceasefire01-photo-mgph-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 75,
+      "ago": "2小时前",
+      "pub_ts": 1778030507.0,
+      "hot": false
+    },
     {
       "id": "f61c0060d7",
       "type": "news",
@@ -19,26 +37,171 @@
         "科技"
       ],
       "score": 72,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1777964383.0,
       "hot": false
     },
     {
-      "id": "3af4383bef",
+      "id": "81dc22acfb",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "These 7 Primary Elections Will Test President Trump’s Power in Indiana",
-      "summary": "Indiana voters were deciding whether to support Republican state lawmakers who rejected the president’s push to redraw the state’s political map last year. Mr. Trump backed challengers.",
-      "link": "https://www.nytimes.com/2026/05/05/us/indiana-legistature-election-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-indiana-curtainraiser-sub-wtmz/05nat-indiana-curtainraiser-sub-wtmz-mediumSquareAt3X.jpg",
+      "title": "Suspect in National Mall Shooting Expressed Hostility Toward White House, Authorities Say",
+      "summary": "Michael Marx, a 45-year-old Texan, is accused of shooting at Secret Service agents by the Washington Monument on Monday.",
+      "link": "https://www.nytimes.com/2026/05/05/us/politics/secret-service-shooting-gunman-identified.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05trump-news-mall-shooting-topart-kqfg/05trump-news-mall-shooting-topart-kqfg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778036751.0,
+      "hot": false
+    },
+    {
+      "id": "092694004f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Takeaways From Indiana Primary Elections 2026: Trump Gets Payback",
+      "summary": "The president helped unseat most of the state lawmakers he targeted after they rebuffed his call to draw new House maps to help Republicans.",
+      "link": "https://www.nytimes.com/2026/05/05/us/politics/trump-indiana-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-indiana-takeaways-cmwf/05nat-indiana-takeaways-cmwf-mediumSquareAt3X.jpg",
       "categories": [
         "政治"
       ],
       "score": 70,
-      "ago": "8分前",
-      "pub_ts": 1778016187.0,
+      "ago": "1小时前",
+      "pub_ts": 1778035849.0,
+      "hot": false
+    },
+    {
+      "id": "bd88ab15c9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In Indiana Primary Elections, Most Trump-Backed Challengers Beat Incumbents",
+      "summary": "President Trump endorsed primary opponents against seven Republican lawmakers who opposed his redistricting push. At least five of the Trump-backed candidates have won their races.",
+      "link": "https://www.nytimes.com/2026/05/05/us/trump-candidates-win-indiana-republican-primary.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-indiana-results-HFO-poll-bkvf/05nat-indiana-results-HFO-poll-bkvf-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778035342.0,
+      "hot": false
+    },
+    {
+      "id": "796d9a01f6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "From ICE detention to center stage: The Texas mariachi brothers opening for Kacey Musgraves",
+      "summary": "The brothers and their parents were taken into federal custody earlier this year during a required immigration check-in. The story caught the ear of a country music icon.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5806609/from-ice-detention-to-center-stage-texas-mariachi-brothers-opening-for-kacey-musgraves",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 70,
+      "ago": "7小时前",
+      "pub_ts": 1778014046.0,
+      "hot": false
+    },
+    {
+      "id": "423a2503b2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "To Rename Its Airport After Trump, Palm Beach Had to License His Name",
+      "summary": "The Trumps won’t profit from airport-branded merchandise sold on site. But the agreement doesn’t prevent them from profiting off such items sold elsewhere.",
+      "link": "https://www.nytimes.com/2026/05/05/us/palm-beach-florida-trump-airport.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-trump-airport-flvb/05nat-trump-airport-flvb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778027909.0,
+      "hot": false
+    },
+    {
+      "id": "3e136a1eb6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump-backed Ramaswamy wins Ohio governor primary, setting up a competitive Nov. race",
+      "summary": "In Ohio, where a Democrat hasn't won an election for governor in 20 years, Republican Vivek Ramaswamy and Democrat Amy Acton could be in for a tight race this fall.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5812914/ramaswamy-trump-ohio-governor",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778026295.0,
+      "hot": false
+    },
+    {
+      "id": "2d3a0a97dc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Indiana’s Primary Elections Will Test Trump’s Influence",
+      "summary": "Also, about 150 people are stuck on a cruise ship with a deadly outbreak. Here’s the latest at the end of Tuesday.",
+      "link": "https://www.nytimes.com/2026/05/05/briefing/indiana-trump-elections-tony-nominations.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05evening-nl-indiana-election-wtgv/05evening-nl-indiana-election-wtgv-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778018474.0,
+      "hot": false
+    },
+    {
+      "id": "1e78015901",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Looks for a Silver Bullet to End the Iran War. There May Be None.",
+      "summary": "The president is trying to ratchet up the economic pressure on Tehran, but Iran’s government is unlikely to make a deal without a big, face-saving compromise.",
+      "link": "https://www.nytimes.com/2026/05/05/world/middleeast/trump-blockade-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06int-iran-blockade-analysis-01-lbgh/06int-iran-blockade-analysis-01-lbgh-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778017352.0,
+      "hot": false
+    },
+    {
+      "id": "8259c78796",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Pennsylvania sues Character.AI over claims chatbot posed as doctor",
+      "summary": "State officials allege a Character.AI bot claimed to be a licensed psychiatrist and provided a fake state medical license number.",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5812861/characterai-chatbot-medical-advice-pennsylvania-lawsuit",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778016415.0,
       "hot": false
     },
     {
@@ -55,8 +218,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "18分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778015590.0,
       "hot": false
     },
@@ -73,27 +236,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "22分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778015317.0,
-      "hot": false
-    },
-    {
-      "id": "00f74a386e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Will Control His Image at Palm Beach’s Newly Named Trump Airport",
-      "summary": "The Trump family won’t profit from branded merchandise sold at the airport. But it will have control over any biographical material presented about President Trump there.",
-      "link": "https://www.nytimes.com/2026/05/05/us/palm-beach-florida-trump-airport.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-trump-airport-flvb/05nat-trump-airport-flvb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1778014889.0,
       "hot": false
     },
     {
@@ -109,45 +254,45 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "47分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778013849.0,
       "hot": false
     },
     {
-      "id": "1e78015901",
+      "id": "ab60a93d69",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Looks for a Silver Bullet to End the Iran War. There May Be None.",
-      "summary": "The president is trying to ratchet up the economic pressure on Tehran, but Iran’s government is unlikely to make a deal without a big, face-saving compromise.",
-      "link": "https://www.nytimes.com/2026/05/05/world/middleeast/trump-blockade-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06int-iran-blockade-analysis-01-lbgh/06int-iran-blockade-analysis-01-lbgh-mediumSquareAt3X.jpg",
+      "title": "The oldest U.S. Jewish seminary, Hebrew Union College, shuts down a rabbinical program",
+      "summary": "Hebrew Union College, the oldest Jewish seminary in the United States, was established in 1875 in Cincinnati by the founder of Reform Judaism in North America. The college has other campuses, but its",
+      "link": "https://www.npr.org/2026/05/05/nx-s1-5805224/the-oldest-u-s-jewish-seminary-hebrew-union-college-shuts-down-the-rabbinical-program-where-it-all-began",
+      "image": null,
       "categories": [
-        "政治"
+        "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778011992.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1778012133.0,
       "hot": false
     },
     {
-      "id": "c5824b7998",
+      "id": "b6e4741ea8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Democrats Urge N.Y. Leaders to Redistrict After Supreme Court Ruling",
-      "summary": "The House minority leader, Hakeem Jeffries, sent a familiar emissary to the New York State Capitol to convey the party’s urgency to draw more favorable maps.",
-      "link": "https://www.nytimes.com/2026/05/05/nyregion/redistricting-ny-democrats.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05met-redistricting-01-zqwc/05met-redistricting-01-zqwc-mediumSquareAt3X.jpg",
+      "title": "Judge Refers Justice Dept. Lawyer for Possible Discipline, Calling Out ‘Lack of Candor’",
+      "summary": "Officials withheld a detainee’s overseas arrest warrant from a federal judge. When she ordered his release, they used the same information to attack her publicly.",
+      "link": "https://www.nytimes.com/2026/05/05/us/politics/rhode-island-judge-justice-department-immigrant.html",
+      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05dc-judgesub-photo-lfqb/05dc-judgesub-photo-lfqb-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778011972.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1778011819.0,
       "hot": false
     },
     {
@@ -163,8 +308,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778008397.0,
       "hot": false
     },
@@ -181,52 +326,16 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778006768.0,
-      "hot": false
-    },
-    {
-      "id": "8162c4a0d2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "F.D.A. Blocked Publication of Research Finding Covid and Shingles Vaccines Were Safe",
-      "summary": "The agency’s scientists and data contractors reviewed millions of patient records for studies that were pulled back before release.",
-      "link": "https://www.nytimes.com/2026/05/05/us/politics/fda-covid-vaccine-studies.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05dc-fda-vaccine01-photo-ztvh/05dc-fda-vaccine01-photo-ztvh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778006255.0,
-      "hot": false
-    },
-    {
-      "id": "4db43b1b07",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A legal scholar and 'Backtalker' defends critical race theory -- a term she helped coin",
-      "summary": "Kimberlé Williams Crenshaw helped name two contested ideas in U.S. politics — intersectionality and critical race theory. Her memoir chronicles the personal and legal framework for her thinking.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5806015/kimberle-williams-crenshaw-backtalker",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778006039.0,
       "hot": false
     },
     {
       "id": "152803de06",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The Iran war sent jet fuel prices sky-high. Here's what air travelers should know",
       "summary": "Fuel is airlines' second-largest expense, and getting even costlier due to the U.S. war with Iran. Airlines are looking for ways to cope, starting by hiking checked baggage fees for most fliers.",
@@ -235,81 +344,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778005999.0,
-      "hot": false
-    },
-    {
-      "id": "03a40dc84a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A nearly year-long deployment at sea takes a toll on military families",
-      "summary": "Families in Norfolk, Va., await the return of roughly 15,000 sailors and Marines as the USS Ford continues a deployment that started more than 10 months ago.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5812641/uss-ford-deployment",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778004161.0,
-      "hot": false
-    },
-    {
-      "id": "1b406aeffc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Did FBI Director Kash Patel use AI to rip off the Beastie Boys?",
-      "summary": "An analysis by NPR suggests that frames from an iconic music video were used to generate content for a tweet by the FBI director.",
-      "link": "https://www.npr.org/2026/05/05/nx-s1-5812509/kash-patel-fbi-beastie-boys-spike-jonze-ai",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778001311.0,
-      "hot": false
-    },
-    {
-      "id": "cee2432d78",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What We Know About ‘Project Freedom’ in the Strait of Hormuz",
-      "summary": "Violence flared in the waterway on Monday after President Trump said the United States would help guide stranded ships. It’s not clear exactly how the plan is working.",
-      "link": "https://www.nytimes.com/2026/05/05/world/middleeast/trump-strait-hormuz-plan-project-freedom-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05live-mideast-wwk-qpht/05live-mideast-wwk-qpht-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1777995992.0,
-      "hot": false
-    },
-    {
-      "id": "01a75adc12",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Paxton’s Fund-Raising Struggles in Texas Underscore Deep Rift in G.O.P.",
-      "summary": "The Texas attorney general is heading into the runoff against Senator John Cornyn without the support of some of his longtime backers.",
-      "link": "https://www.nytimes.com/2026/05/05/us/ken-paxton-john-cornyn-senate-donors.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05nat-paxton-donors-1-tjhp/05nat-paxton-donors-1-tjhp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1777992785.0,
+      "ago": "9小时前",
+      "pub_ts": 1778005999.0,
       "hot": false
     },
     {
@@ -326,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1777982027.0,
       "hot": false
     },
@@ -344,44 +381,26 @@
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777978183.0,
       "hot": false
     },
     {
-      "id": "c3f251c597",
+      "id": "1595866bdd",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "U.S. says the Iran ceasefire holds despite attacks in Strait of Hormuz and against UAE",
-      "summary": "So far, only two merchant ships are known to have passed a new U.S.-guarded route through the Strait of Hormuz.",
+      "title": "Trump says he's paused U.S. effort to guide stranded vessels out of Strait of Hormuz",
+      "summary": "President Trump says that he is pausing the U.S. effort to guide stranded vessels out of the Strait of Hormuz to finalize an Iran deal, but that the American forces' blockade of the Iranian ports woul",
       "link": "https://www.npr.org/2026/05/05/nx-s1-5811770/iran-war-updates",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1777977581.0,
-      "hot": false
-    },
-    {
-      "id": "fc8370e441",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Ohio’s 2026 Senate Primary Election Kicks Off With Attacks About Epstein",
-      "summary": "Ohio’s unusual contest — with a little-known incumbent and a well-known challenger — shows how Democrats are hoping to capitalize on G.O.P. voters’ anger at the Jeffrey Epstein scandal.",
-      "link": "https://www.nytimes.com/2026/05/05/us/politics/ohio-senate-jeffrey-epstein-john-husted-sherrod-brown.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/us/politics/05pol-ohio-senate/05pol-ohio-senate-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1777971674.0,
       "hot": false
     },
     {
@@ -398,7 +417,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1777960160.0,
       "hot": false
     },
