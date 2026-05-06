@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-06T17:56:25.298408+00:00",
-  "total": 22,
+  "updated_at": "2026-05-06T21:35:40.165703+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "8eff85419f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Republicans want to add $1 billion for Trump's ballroom security to ICE funding plan",
+      "summary": "Republicans in Congress are proposing $1 billion in funding for security for President Trump's White House ballroom as part of their partisan plan to fund Immigration and Customs Enforcement.",
+      "link": "https://www.npr.org/2026/05/06/g-s1-120455/republicans-trump-ballroom-billion",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1778091391.0,
+      "hot": false
+    },
     {
       "id": "1a735075aa",
       "type": "news",
@@ -19,63 +37,26 @@
         "科技"
       ],
       "score": 72,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778057173.0,
       "hot": false
     },
     {
-      "id": "353f7ccd13",
+      "id": "bf89be0d16",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Ted Turner, Creator of CNN and the 24-Hour News Cycle, Dies at 87",
-      "summary": "As one of the most important figures in media history, he oversaw a vast cable empire of news, sports and entertainment channels.",
-      "link": "https://www.nytimes.com/2026/05/06/business/media/ted-turner-dead.html",
-      "image": "https://static01.nyt.com/images/2016/10/07/business/turner-video-obit-photo-1/turner-obit-1-moth.jpg",
+      "title": "Attack on French Cargo Ship Highlights Continued Risks in Strait of Hormuz",
+      "summary": "U.S. Central Command and the ship’s owner disagreed on whether the vessel coordinated safe passage with the United States military.",
+      "link": "https://www.nytimes.com/2026/05/06/business/french-ship-hormuz-central-command.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06biz-Iran-French-ship-ghkl/06biz-Iran-French-ship-ghkl-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "3分前",
-      "pub_ts": 1778089948.0,
-      "hot": false
-    },
-    {
-      "id": "55913a6cdc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
-      "summary": "Tehran says it can endure the pain, but its oil may soon have nowhere to go.",
-      "link": "https://www.nytimes.com/2026/05/06/world/middleeast/irans-oil-capacity-blockade.html",
-      "image": "https://static01.nyt.com/images/2025/06/16/multimedia/05int-iran-economy-2/16iran-oil-print-ltkf-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "15分前",
-      "pub_ts": 1778089274.0,
-      "hot": false
-    },
-    {
-      "id": "1ce78fe48c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Is Gas So Much More Expensive in Some States Than Others?",
-      "summary": "Shipping, taxes, competition and environmental regulations all play a part in the cost of gasoline. That can lead to stark differences in pump prices.",
-      "link": "https://www.nytimes.com/2026/05/06/business/energy-environment/gasoline-prices-states-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06biz-iran-gas-prices-pqkc/06biz-iran-gas-prices-pqkc-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1778088392.0,
+      "ago": "30分前",
+      "pub_ts": 1778101494.0,
       "hot": false
     },
     {
@@ -92,44 +73,44 @@
         "科技"
       ],
       "score": 70,
-      "ago": "29分前",
-      "pub_ts": 1778088389.0,
+      "ago": "59分前",
+      "pub_ts": 1778099781.0,
       "hot": false
     },
     {
-      "id": "40e6a396f6",
+      "id": "08e583005b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Macron Wants U.S. and Iran to Open Strait While They Negotiate",
-      "summary": "Emmanuel Macron, the French president, hopes the Strait of Hormuz can reopen even before the U.S.-Iran war formally ends. His plan has many pitfalls.",
-      "link": "https://www.nytimes.com/2026/05/06/world/middleeast/france-macron-strait-of-hormuz-iran-us.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06mideast-macron-qkhm/06mideast-macron-qkhm-mediumSquareAt3X.jpg",
+      "title": "Tennessee Republicans Unveil New Congressional Map Carving Up Majority-Black House District",
+      "summary": "The General Assembly is expected to quickly approve the map, which slices up Memphis, a majority-Black city that makes up most of the state’s lone Democratic district.",
+      "link": "https://www.nytimes.com/2026/05/06/us/gop-memphis-tennessee-house-map.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06nat-tennessee-redistrict-btgv/06nat-tennessee-redistrict-btgv-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 70,
-      "ago": "32分前",
-      "pub_ts": 1778088245.0,
+      "ago": "1小时前",
+      "pub_ts": 1778099393.0,
       "hot": false
     },
     {
-      "id": "186614e0c1",
+      "id": "353f7ccd13",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Oil Prices Fall on Hope U.S.-Iran War Turmoil in the Gulf May Be Easing",
-      "summary": "Oil prices fell and stocks rose after President Trump’s about-face to pause the U.S. operation to escort commercial ships through the Strait of Hormuz",
-      "link": "https://www.nytimes.com/2026/05/06/business/oil-gas-price-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06Biz-Oil-Stocks-Gas-promo-clgw/06Biz-Oil-Stocks-Gas-promo-clgw-mediumSquareAt3X.jpg",
+      "title": "Ted Turner, Creator of CNN and the 24-Hour News Cycle, Dies at 87",
+      "summary": "As one of the most important figures in media history, he oversaw a vast cable empire of news, sports and entertainment channels.",
+      "link": "https://www.nytimes.com/2026/05/06/business/media/ted-turner-dead.html",
+      "image": "https://static01.nyt.com/images/2016/10/07/business/turner-video-obit-photo-1/turner-obit-1-moth.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778085000.0,
+      "pub_ts": 1778098637.0,
       "hot": false
     },
     {
@@ -147,25 +128,98 @@
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778083671.0,
+      "pub_ts": 1778097120.0,
       "hot": false
     },
     {
-      "id": "114dceda67",
+      "id": "79a0e69501",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "These companies help parents try to pick their babies' traits. Experts are wary",
+      "summary": "Prospective parents can now pick embryos based on risk predictions for thousands of diseases and odds for specific traits. But should they?",
+      "link": "https://www.npr.org/2026/05/06/nx-s1-5704317/genetic-embryo-screening",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778092238.0,
+      "hot": false
+    },
+    {
+      "id": "e6ff44a7a7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Preserving pollinators is good for health -- and income",
+      "summary": "Pollinators have economic and health benefits, but those benefits have been difficult to quantify. A new study puts some numbers to how important pollinators are for both nutrition and income.",
+      "link": "https://www.npr.org/2026/05/06/nx-s1-5807663/preserving-pollinators-is-good-for-health-and-income",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778090759.0,
+      "hot": false
+    },
+    {
+      "id": "017deca6ea",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump and Rubio Insist Iran War Is Over, Even as Missiles Fly During Cease-Fire",
-      "summary": "The White House is turning to rhetorical leaps as President Trump tries to put the biggest political crisis of his presidency behind him.",
-      "link": "https://www.nytimes.com/2026/05/05/us/politics/trump-iran-war-political-crisis-rhetoric.html",
-      "image": "https://static01.nyt.com/images/2026/05/05/multimedia/05dc-ceasefire01-photo-mgph/05dc-ceasefire01-photo-mgph-mediumSquareAt3X.jpg",
+      "title": "How the Fight Over Israel Is Playing Out Inside MAGA",
+      "summary": "The war in Iran has added to a tectonic shift in public opinion — a bipartisan swing away from Israel. Some on the far-right are fighting to keep President Trump’s movement aligned with the Jewish sta",
+      "link": "https://www.nytimes.com/2026/05/06/us/politics/israel-maga-republicans.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06dc-maga-israel-loomer-top-qtbg/06dc-maga-israel-loomer-top-qtbg-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "16小时前",
-      "pub_ts": 1778030507.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778089632.0,
+      "hot": false
+    },
+    {
+      "id": "55913a6cdc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
+      "summary": "Tehran says it can endure the pain, but its oil may soon have nowhere to go.",
+      "link": "https://www.nytimes.com/2026/05/06/world/middleeast/irans-oil-capacity-blockade.html",
+      "image": "https://static01.nyt.com/images/2025/06/16/multimedia/05int-iran-economy-2/16iran-oil-print-ltkf-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778089274.0,
+      "hot": false
+    },
+    {
+      "id": "1ce78fe48c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Why Is Gas So Much More Expensive in Some States Than Others?",
+      "summary": "Shipping, taxes, competition and environmental regulations all play a part in the cost of gasoline. That can lead to stark differences in pump prices.",
+      "link": "https://www.nytimes.com/2026/05/06/business/energy-environment/gasoline-prices-states-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06biz-iran-gas-prices-pqkc/06biz-iran-gas-prices-pqkc-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778088392.0,
       "hot": false
     },
     {
@@ -181,8 +235,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778081671.0,
       "hot": false
     },
@@ -199,8 +253,8 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778078323.0,
       "hot": false
     },
@@ -217,8 +271,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778077405.0,
       "hot": false
     },
@@ -235,8 +289,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778073963.0,
       "hot": false
     },
@@ -253,8 +307,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778070789.0,
       "hot": false
     },
@@ -262,7 +316,7 @@
       "id": "b890c74bc3",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Democrats gain midterm edge, NPR poll shows. And, U.S. pauses 'Project Freedom'",
       "summary": "Democrats outpace Republicans in voter enthusiasm for the midterm elections, according to NPR's latest poll. And Trump says \"Project Freedom\" is paused because of progress toward an Iran agreement.",
@@ -273,45 +327,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778067172.0,
-      "hot": false
-    },
-    {
-      "id": "72203ec8bb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A new Medicare option for weight loss drugs is coming: Here's what to know",
-      "summary": "Millions of people with Medicare will soon be eligible to get discounted GLP-1 drugs for weight loss. Here's how it will work.",
-      "link": "https://www.npr.org/2026/05/06/nx-s1-5812662/medicare-bridge-glp1-drugs-copay",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778061600.0,
-      "hot": false
-    },
-    {
-      "id": "2868753fa4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Poll: Trump blamed for gas prices as Democrats gain midterm edge",
-      "summary": "A new NPR/PBS News/Marist poll finds strong support for Democrats this midterm season. It also shows increasing concern about the war in Iran and the economy, particularly the price of gas.",
-      "link": "https://www.npr.org/2026/05/06/nx-s1-5810555/trump-iran-gas-prices-midterms-polling",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778058060.0,
       "hot": false
     },
     {
@@ -328,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778058000.0,
       "hot": false
     },
@@ -347,7 +364,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1778048868.0,
       "hot": false
     },
@@ -366,7 +383,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1778047657.0,
       "hot": false
     },
@@ -383,8 +400,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778013849.0,
       "hot": false
     },
