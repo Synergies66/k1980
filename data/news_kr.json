@@ -1,7 +1,7 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-06T15:14:32.788976+00:00",
+  "updated_at": "2026-05-06T18:05:37.378315+00:00",
   "total": 8,
   "articles": [
     {
@@ -17,9 +17,27 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1778062695.0,
+      "hot": false
+    },
+    {
+      "id": "2faf73e1c5",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Auto officials tout hydrogen as complementary to BEVs at 2026 ITF",
+      "summary": "LEIPZIG, Germany, May 6 (Yonhap) -- Automobile industry officials at this year's...",
+      "link": "https://en.yna.co.kr/view/AEN20260507000200320",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/07/AEN20260507000200320_02_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778085590.0,
       "hot": false
     },
     {
@@ -35,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778075095.0,
       "hot": false
     },
@@ -54,7 +72,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1778072991.0,
       "hot": false
     },
@@ -72,7 +90,7 @@
         "政治"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778071196.0,
       "hot": false
     },
@@ -90,7 +108,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778070770.0,
       "hot": false
     },
@@ -107,8 +125,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778062229.0,
       "hot": false
     },
@@ -125,27 +143,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778059895.0,
-      "hot": false
-    },
-    {
-      "id": "a586a66d79",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "S. Korean, Jordanian FMs discuss Middle East crisis, post-war reconstruction efforts",
-      "summary": "SEOUL, May 6 (Yonhap) -- Foreign Minister Cho Hyun held phone talks with his Jor...",
-      "link": "https://en.yna.co.kr/view/AEN20260506012000315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/06/AEN20260506012000315_01_i_P2.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778059655.0,
       "hot": false
     }
   ]
