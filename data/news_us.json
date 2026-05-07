@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-07T18:00:23.571617+00:00",
-  "total": 22,
+  "updated_at": "2026-05-07T21:28:55.513897+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "f5d5bf329d",
@@ -19,9 +19,227 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1778164736.0,
+      "hot": false
+    },
+    {
+      "id": "35f76273d4",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Panel Recommends FEMA Respond to Fewer Disasters",
+      "summary": "A White House task force called for speeding up aid and responding to fewer disasters. But some of its ideas would require action by Congress to become reality.",
+      "link": "https://www.nytimes.com/2026/05/07/climate/fema-review-panel-trump.html",
+      "image": "https://static01.nyt.com/images/2025/07/09/multimedia/07cli-FEMA/07cli-FEMA-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1778188149.0,
+      "hot": false
+    },
+    {
+      "id": "9d3f897415",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Hosts Brazil’s President Lula at White House After Months of Ups and Downs",
+      "summary": "President Trump and President Luiz Inácio Lula da Silva, who have had a rocky relationship, met for talks on trade and other issues. But they skipped a planned joint appearance.",
+      "link": "https://www.nytimes.com/2026/05/07/world/americas/trump-brazil-lula-meeting.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07int-brazil-lula-trump-hzgt/07int-brazil-lula-trump-hzgt-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "30分前",
+      "pub_ts": 1778187497.0,
+      "hot": false
+    },
+    {
+      "id": "65ad2af16c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She helps families in need. As gas and grocery prices rise, she needs help, too",
+      "summary": "She has spent decades helping others struggling to make ends meet. Now the rising cost of gas and groceries has left Dalene Basden feeling the strain herself.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5813500/she-helps-families-in-need-as-costs-for-gas-and-groceries-rise-now-she-needs-help-too",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1778186081.0,
+      "hot": false
+    },
+    {
+      "id": "c4e9395eae",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Confused about the abortion pill news? Here's where things stand",
+      "summary": "The courts are considering ending telemedicine access to mifepristone, one of the two pills used in a medication abortion. Here's what's happened this week and what's to come.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5815294/abortion-pill-mifepristone-supreme-court-telemedicine",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1778186034.0,
+      "hot": false
+    },
+    {
+      "id": "2a53cce88d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "As Stockpiles Fall, U.S. Sells More Missiles Worth $17 Billion to Gulf Nations",
+      "summary": "The United States and its partners have burned through an enormous amount of air defense missiles in the Iran war, and production is slow.",
+      "link": "https://www.nytimes.com/2026/05/07/us/politics/weapons-stockpiles-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07dc-mideast-weapons-photo-fkbt/07dc-mideast-weapons-photo-fkbt-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1778185963.0,
+      "hot": false
+    },
+    {
+      "id": "8f0181fbee",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Former U.S. analyst, once jailed for spying for Israel, to run for Israeli parliament",
+      "summary": "Jonathan Pollard, a former U.S. intelligence analyst who served 30 years for spying for Israel, says he will run in the upcoming Israeli elections.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5812527-e1/former-u-s-analyst-once-jailed-for-spying-for-israel-to-run-for-israeli-parliament",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778183884.0,
+      "hot": false
+    },
+    {
+      "id": "d882389250",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A Trump council recommends overhauling FEMA. Here are 3 key changes",
+      "summary": "A group of emergency experts wants the Trump administration to raise the bar for federal help after disasters, and also make it easier for survivors to get money quickly.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5803121/trump-fema-reform-wildfire-flood-hurricane",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778182359.0,
+      "hot": false
+    },
+    {
+      "id": "366448532e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Health Officials Race to Track Hantavirus Cruise Ship Outbreak but Predict ‘Limited’ Spread",
+      "summary": "A Dutch flight attendant and French national were among the latest to be tested in connection with a deadly outbreak on a cruise ship. But an analysis in South Africa showed no mutations in viral samp",
+      "link": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07xp-cruise-02-zlbm/07xp-cruise-02-zlbm-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778181826.0,
+      "hot": false
+    },
+    {
+      "id": "6f779915bd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Appeals Court Looks Unlikely to Allow Hegseth to Punish Mark Kelly for Video",
+      "summary": "A three-judge panel in Washington heard arguments in the lawsuit aimed at stopping the Pentagon from disciplining Senator Mark Kelly for a video warning about illegal military orders.",
+      "link": "https://www.nytimes.com/2026/05/07/us/politics/mark-kelly-pete-hegseth-video-lawsuit.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07dc-kelly-top-wvbp/07dc-kelly-top-wvbp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778181794.0,
+      "hot": false
+    },
+    {
+      "id": "2d0966d437",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "DHS blames funding lapse for shutdown of internal detention oversight",
+      "summary": "The office investigates detainee deaths and access to medical care, among other issues. It's being wound down, even as the number of detention deaths and length of detention stays has grown.",
+      "link": "https://www.npr.org/2026/05/07/g-s1-120834/trump-immigration-detention-ombudsman-shutdown",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778180716.0,
+      "hot": false
+    },
+    {
+      "id": "e029bc297d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A judge unsealed Epstein's purported 2019 suicide note. More documents could follow",
+      "summary": "At the request of the New York Times, a judge unsealed a goodbye note that Jeffrey Epstein's former cellmate says he found after the convicted sex offender's first suicide attempt in July 2019.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5814808/jeffrey-epstein-suicide-note",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778180175.0,
+      "hot": false
+    },
+    {
+      "id": "de457c1311",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Tennessee Republicans pass a map to break up the state's lone Democratic House seat",
+      "summary": "Tennessee Republicans' map would crack Shelby County — home to majority-Black Memphis — into three different districts, in an effort to eliminate the state's lone remaining Democratic-held seat.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5815023/tennessee-redistricting-map-passage",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778180061.0,
       "hot": false
     },
     {
@@ -37,27 +255,9 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "23分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778175388.0,
-      "hot": false
-    },
-    {
-      "id": "35f76273d4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Panel Recommends FEMA Respond to Fewer Disasters",
-      "summary": "A White House task force also called for speeding up aid, but some of its ideas would require action by Congress to become reality.",
-      "link": "https://www.nytimes.com/2026/05/07/climate/fema-review-panel-trump.html",
-      "image": "https://static01.nyt.com/images/2025/07/09/multimedia/07cli-FEMA/07cli-FEMA-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1778175200.0,
       "hot": false
     },
     {
@@ -73,8 +273,8 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "29分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778175062.0,
       "hot": false
     },
@@ -91,8 +291,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778171876.0,
       "hot": false
     },
@@ -109,71 +309,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778170701.0,
-      "hot": false
-    },
-    {
-      "id": "95be1811aa",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Federal and State Officials Discuss Closing Florida’s ‘Alligator Alcatraz’",
-      "summary": "The immigrant detention center in the Everglades, which Gov. Ron DeSantis, a Republican, opened last July, may be too expensive to keep operating.",
-      "link": "https://www.nytimes.com/2026/05/07/us/florida-alligator-alcatraz-possible-closure.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/00nat-alligator-alcatraz-lpjq/00nat-alligator-alcatraz-lpjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778168572.0,
-      "hot": false
-    },
-    {
-      "id": "a856f4bac5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Studying these young Alzheimer's patients led to breakthroughs. Trump cut the funding",
-      "summary": "Families with rare gene mutations that cause Alzheimer's in middle age are giving scientists a unique window on the disease, and a quick way to test potential treatments.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5759696/early-alzheimers-families-network-risk",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778160733.0,
-      "hot": false
-    },
-    {
-      "id": "cb919cc561",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What My Father’s Experience Taught Me About Memory and the Brain",
-      "summary": "In the final stages of his dementia, a long-lost memory from childhood returned, perfectly formed. What was going on in his brain?",
-      "link": "https://www.nytimes.com/2026/05/07/science/dementia-memory-brain-injury.html",
-      "image": "https://static01.nyt.com/images/2026/04/30/multimedia/00sci-memory-creation-gr-05-zhtk/00sci-memory-creation-gr-05-zhtk-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1778158531.0,
+      "pub_ts": 1778170701.0,
       "hot": false
     },
     {
       "id": "833ee3a97a",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iran reviews U.S. proposal. And, Rubio to meet Pope Leo after Trump's criticism",
       "summary": "Iran is reviewing the Trump administration's latest proposal to end the war. And, Secretary of State Marco Rubio is meeting Pope Leo XIV amid President Trump's harsh criticism of him.",
@@ -183,116 +328,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778151869.0,
-      "hot": false
-    },
-    {
-      "id": "bc799ab998",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "As federal scientists faced turmoil, the Devils Hole pupfish reached a crisis point",
-      "summary": "The Devils hole pupfish lives in just one spot in Death Valley. Wildlife officials have managed this iconic fish for decades, and last spring, just as the Trump administration was laying off all kinds",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5803173/devils-hole-pupfish-crisis-federal-science-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "9e27497605",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Psychiatrists say RFK Jr.'s take on SSRIs is an 'oversimplification' of the problem",
-      "summary": "The American Psychiatric Association says too few patients can access comprehensive mental health care in the United States. It welcomes new investments in improving access to evidence-based care.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814083/rfk-jr-hhs-ssri-antidepressant-psychiatry-therapy-mental-health",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "6bbd1b42e9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Gas prices keep rising, but do big oil companies plan to drill more? Not so far",
-      "summary": "The war in Iran has pushed global oil prices higher, which boosts oil company revenues. But major U.S. oil companies aren't signaling plans to increase production to bring down prices at the pump.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5810511/oil-company-earnings-production-gas-prices",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "23ff1465f0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Jeffrey Epstein’s Purported Suicide Note Is Released by Federal Judge",
-      "summary": "A federal judge released the note, which Jeffrey Epstein’s former cellmate said he found in a graphic novel. The New York Times has not authenticated that Mr. Epstein wrote it.",
-      "link": "https://www.nytimes.com/2026/05/06/nyregion/epstein-suicide-note.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778145141.0,
-      "hot": false
-    },
-    {
-      "id": "3b06e06663",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Retracing Henry Knox’s Revolutionary War Trek Across the Wilderness",
-      "summary": "In 1775, George Washington sent Henry Knox, a Boston bookseller, to fetch 60 tons of artillery. We followed Knox’s route to see how the country has changed.",
-      "link": "https://www.nytimes.com/2026/05/07/travel/henry-knox-trip-revolutionary-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/00trav-rev-knox-02-bzfl/00trav-rev-knox-02-bzfl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778144441.0,
-      "hot": false
-    },
-    {
-      "id": "3eedb06749",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Making a podcast helped one family talk about aging, dementia and death",
-      "summary": "This year's winner in NPR's College Podcast Challenge is a letter to a grandparent that grapples with health issues including dementia. It's the story of a family learning to talk about hard things.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5766358/dementia-college-podcast-aging-family",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778144400.0,
       "hot": false
     },
     {
@@ -309,25 +346,25 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778144400.0,
       "hot": false
     },
     {
-      "id": "586bc4bd66",
+      "id": "a9b7973561",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "About 40 passengers previously left ship hit by hantavirus at island of St. Helena",
-      "summary": "The dozens of passengers, including the wife of a Dutch man who died, left the cruise ship during a stop at the British territory, the Dutch foreign ministry said on Thursday.",
+      "title": "Health officials track dozens who left hantavirus-stricken ship after 1st fatality",
+      "summary": "Oceanwide Expeditions has revealed that 30 passengers disembarked from its cruise ship hit by a hantavirus outbreak on April 24, on the remote island of St. Helena, nearly two weeks after the first pa",
       "link": "https://www.npr.org/2026/05/07/nx-s1-5814632/passengers-left-ship-hantavirus-st-helena",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778143446.0,
       "hot": false
     },
@@ -345,7 +382,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778143309.0,
       "hot": false
     },
@@ -363,26 +400,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778143291.0,
-      "hot": false
-    },
-    {
-      "id": "e25963b50b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former U.S. ambassador to the Holy See on Rubio's visit to the Vatican",
-      "summary": "NPR's Leila Fadel speaks with former U.S. Ambassador to the Holy See Miguel Diaz about Secretary of State Marco Rubio's visit to the Vatican.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813651/former-u-s-ambassador-to-the-holy-see-on-rubios-visit-to-the-vatican",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778143286.0,
       "hot": false
     },
     {
