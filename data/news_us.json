@@ -1,25 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-07T10:37:51.161818+00:00",
-  "total": 24,
+  "updated_at": "2026-05-07T15:08:37.424323+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "b37e0b9311",
+      "id": "f5d5bf329d",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Border czar promises 'mass deportations are coming' to fulfill Trump's promises",
-      "summary": "The remarks contrast with Border Czar Tom Homan's softer messaging earlier this year, after two U.S. citizens were killed by immigration officials in Minneapolis.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120580/trump-border-czar-mass-deportations",
+      "title": "China gives suspended death sentences to 2 ex-defense ministers",
+      "summary": "Both were the latest to be sentenced in President Xi Jinping's ongoing anti-corruption campaign, which started more than a decade ago.",
+      "link": "https://www.npr.org/2026/05/07/g-s1-120688/china-gives-suspended-death-sentences-to-2-former-defense-ministers-accused-of-bribery",
       "image": null,
       "categories": [
-        "移民"
+        "政治",
+        "华人",
+        "科技"
       ],
-      "score": 80,
-      "ago": "1小时前",
-      "pub_ts": 1778144400.0,
+      "score": 82,
+      "ago": "29分前",
+      "pub_ts": 1778164736.0,
       "hot": false
     },
     {
@@ -35,335 +37,27 @@
       "categories": [
         "华人"
       ],
-      "score": 72,
-      "ago": "6小时前",
-      "pub_ts": 1778126407.0,
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778159756.0,
       "hot": false
     },
     {
-      "id": "e80815e5a9",
+      "id": "8be17dce14",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "World in Waiting Game Over Iran Peace Proposal Response",
-      "summary": "An Iranian official said that Tehran would convey its reply through Pakistan, a key mediator. Another Iranian official earlier dismissed a reported proposal to end the war as a “list of American wishe",
-      "link": "https://www.nytimes.com/2026/05/07/world/middleeast/world-in-waiting-game-over-iran-peace-proposal-response.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07int-iran-gjwp/07int-iran-gjwp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1778148613.0,
-      "hot": false
-    },
-    {
-      "id": "5e4047a6e3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Surging Gas Prices Shake Americans, and How Ted Turner Unleashed 24-Hour News",
-      "summary": "Plus, the conflicting messages on the state of the war.",
-      "link": "https://www.nytimes.com/2026/05/07/podcasts/the-headlines/high-gas-prices-cnn-legacy.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06biz-econ-gas-lkwc-theheadline/06biz-econ-gas-lkwc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1778148009.0,
-      "hot": false
-    },
-    {
-      "id": "6bbd1b42e9",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Gas prices keep rising, but do big oil companies plan to drill more? Not so far",
-      "summary": "The war in Iran has pushed global oil prices higher, which boosts oil company revenues. But major U.S. oil companies aren't signaling plans to increase production to bring down prices at the pump.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5810511/oil-company-earnings-production-gas-prices",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "bc799ab998",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "As federal scientists faced turmoil, the Devils Hole pupfish reached a crisis point",
-      "summary": "The Devils hole pupfish lives in just one spot in Death Valley. Wildlife officials have managed this iconic fish for decades, and last spring, just as the Trump administration was laying off all kinds",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5803173/devils-hole-pupfish-crisis-federal-science-trump",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "9e27497605",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Psychiatrists say RFK Jr.'s take on SSRIs is an 'oversimplification' of the problem",
-      "summary": "The American Psychiatric Association says too few patients can access comprehensive mental health care in the United States. It welcomes new investments in improving access to evidence-based care.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814083/rfk-jr-hhs-ssri-antidepressant-psychiatry-therapy-mental-health",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1778148000.0,
-      "hot": false
-    },
-    {
-      "id": "23ff1465f0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Jeffrey Epstein’s Purported Suicide Note Is Released by Federal Judge",
-      "summary": "A federal judge released the note, which Jeffrey Epstein’s former cellmate said he found in a graphic novel. The New York Times has not authenticated that Mr. Epstein wrote it.",
-      "link": "https://www.nytimes.com/2026/05/06/nyregion/epstein-suicide-note.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778145140.0,
-      "hot": false
-    },
-    {
-      "id": "3eedb06749",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Making a podcast helped one family talk about aging, dementia and death",
-      "summary": "This year's winner in NPR's College Podcast Challenge is a letter to a grandparent that grapples with health issues including dementia. It's the story of a family learning to talk about hard things.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5766358/dementia-college-podcast-aging-family",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778144400.0,
-      "hot": false
-    },
-    {
-      "id": "e46195ea82",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "In new poll, Americans voice broad bipartisan support for age caps in Congress",
-      "summary": "The vast majority of Americans — 8 in 10 — say there should be age caps for members of Congress, as well as term limits, according to the latest NPR/PBS News/Marist Poll.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5806294/congress-age-caps-term-limits-npr-poll",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778144400.0,
-      "hot": false
-    },
-    {
-      "id": "cc7059792f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Dirty nickel: The cost of mining in Indonesia",
-      "summary": "Across six locations in Indonesia, NPR spoke with locals about how nickel mining is changing the land and daily life. It's brought jobs, but also concerns about environmental damage and public health.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-118218/indonesia-nickel-mineral-mining",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778144400.0,
-      "hot": false
-    },
-    {
-      "id": "3c7cd5153f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Campaign staffers tell NPR they make 'thousands' betting on their own candidates",
-      "summary": "Campaign staffers are turning private polling data into personal paydays. They describe election prediction market as a \"Wild West\" for staffers.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5795891/prediction-markets-kalshi-polymarket-campaigns",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778144400.0,
-      "hot": false
-    },
-    {
-      "id": "5d60dbc4f1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "About 40 passengers previously left ship hit by Hantavirus at island of St. Helena",
-      "summary": "The dozens of passengers, including the wife of a Dutch man who died, left the cruise ship during a stop at the British territory, the Dutch foreign ministry said on Thursday.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814632/passengers-left-ship-hantavirus-st-helena",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778143446.0,
-      "hot": false
-    },
-    {
-      "id": "9d1c6d07ba",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Affected by the Iran war, residents in Southeast Asian countries voice their concerns",
-      "summary": "Southeast Asian countries are voicing concern about President Trump and the war with Iran.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813503/affected-by-the-iran-war-residents-in-southeast-asian-countries-voice-their-concerns",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778143309.0,
-      "hot": false
-    },
-    {
-      "id": "cf009ea050",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Secretary of State Marco Rubio meets with Pope Leo after Trump's criticism",
-      "summary": "Secretary of State Marco Rubio meets with Pope Leo after critical comments by President Trump.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813720/secretary-of-state-marco-rubio-meets-with-pope-leo-after-trumps-criticism",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778143291.0,
-      "hot": false
-    },
-    {
-      "id": "e25963b50b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former U.S. ambassador to the Holy See on Rubio's visit to the Vatican",
-      "summary": "NPR's Leila Fadel speaks with former U.S. Ambassador to the Holy See Miguel Diaz about Secretary of State Marco Rubio's visit to the Vatican.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813651/former-u-s-ambassador-to-the-holy-see-on-rubios-visit-to-the-vatican",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778143286.0,
-      "hot": false
-    },
-    {
-      "id": "975560dc04",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former U.S. analyst, once jailed for spying for Israel, to run for Israeli parliament",
-      "summary": "Jonathan Pollard, a former U.S. intelligence analyst who served 30 years for spying for Israel, says he will run in upcoming Israeli elections.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5812527/former-u-s-analyst-once-jailed-for-spying-for-israel-to-run-for-israeli-parliament",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778143245.0,
-      "hot": false
-    },
-    {
-      "id": "64cc250702",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Paris Saint-Germain returns to Champions League final after beating Bayern Munich",
-      "summary": "The French league leader will face Arsenal in the final in Budapest, Hungary, on May 30, after the Gunners defeated Atletico Madrid 1-0 on Tuesday to progress 2-1 on aggregate.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120662/psg-champions-league-final",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778142168.0,
-      "hot": false
-    },
-    {
-      "id": "a71fa3aeed",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump's counterterrorism strategy makes targeting drug cartels the top priority",
-      "summary": "President Trump has signed off on a new U.S. counterterrorism strategy that sets eliminating drug cartels in the Western Hemisphere as the administration's highest priority.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120655/trump-counterterrorism-western-hemisphere",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778136099.0,
-      "hot": false
-    },
-    {
-      "id": "832ab8d3eb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "5 Takeaways From the Last Televised California Governor Debate",
+      "title": "5 Takeaways From the California Governor Debate",
       "summary": "Candidates debated housing and insurance policy in the first half, then furiously attacked one another at the end.",
       "link": "https://www.nytimes.com/2026/05/07/us/politics/california-governors-debate-takeaways.html",
       "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06nat-ca-debate-wrapup-mgzq/06nat-ca-debate-wrapup-mgzq-mediumSquareAt3X.jpg",
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778130413.0,
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1778165969.0,
       "hot": false
     },
     {
@@ -379,9 +73,63 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778120115.0,
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1778163152.0,
+      "hot": false
+    },
+    {
+      "id": "8694754d8d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "These families help researchers find Alzheimer's treatments. Their network is at risk",
+      "summary": "Families with rare gene mutations that cause Alzheimer's in middle age are giving scientists a unique window on the disease, and a quick way to test potential treatments.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5759696/early-alzheimers-families-network-risk",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778160733.0,
+      "hot": false
+    },
+    {
+      "id": "5e4047a6e3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Surging Gas Prices Shake Americans, and How Ted Turner Unleashed 24-Hour News",
+      "summary": "Plus, the conflicting messages on the state of the war.",
+      "link": "https://www.nytimes.com/2026/05/07/podcasts/the-headlines/high-gas-prices-cnn-legacy.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06biz-econ-gas-lkwc-theheadline/06biz-econ-gas-lkwc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778156566.0,
+      "hot": false
+    },
+    {
+      "id": "10957449b5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Florida Creates a More Conservative Course to Rival A.P. History",
+      "summary": "Here are ways Florida’s advanced high school history program, which students can use for college credit, differs from other curriculums.",
+      "link": "https://www.nytimes.com/2026/05/07/us/florida-conservative-history-course-ap.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07nat-florida-history-lgkt/07nat-florida-history-lgkt-mediumSquareAt3X.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778154884.0,
       "hot": false
     },
     {
@@ -398,27 +146,243 @@
         "政治",
         "科技"
       ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778119068.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778154867.0,
       "hot": false
     },
     {
-      "id": "068feae73e",
+      "id": "833ee3a97a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran reviews U.S. proposal. And, Rubio to meet Pope Leo after Trump's criticism",
+      "summary": "Iran is reviewing the Trump administration's latest proposal to end the war. And, Secretary of State Marco Rubio is meeting Pope Leo XIV amid President Trump's harsh criticism of him.",
+      "link": "https://www.npr.org/2026/05/07/g-s1-120673/up-first-newsletter-iran-trump-oil-production-pope-leo-marco-rubio-prediction-markets",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778151869.0,
+      "hot": false
+    },
+    {
+      "id": "bc799ab998",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As federal scientists faced turmoil, the Devils Hole pupfish reached a crisis point",
+      "summary": "The Devils hole pupfish lives in just one spot in Death Valley. Wildlife officials have managed this iconic fish for decades, and last spring, just as the Trump administration was laying off all kinds",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5803173/devils-hole-pupfish-crisis-federal-science-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778148000.0,
+      "hot": false
+    },
+    {
+      "id": "9e27497605",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Psychiatrists say RFK Jr.'s take on SSRIs is an 'oversimplification' of the problem",
+      "summary": "The American Psychiatric Association says too few patients can access comprehensive mental health care in the United States. It welcomes new investments in improving access to evidence-based care.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5814083/rfk-jr-hhs-ssri-antidepressant-psychiatry-therapy-mental-health",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778148000.0,
+      "hot": false
+    },
+    {
+      "id": "6bbd1b42e9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gas prices keep rising, but do big oil companies plan to drill more? Not so far",
+      "summary": "The war in Iran has pushed global oil prices higher, which boosts oil company revenues. But major U.S. oil companies aren't signaling plans to increase production to bring down prices at the pump.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5810511/oil-company-earnings-production-gas-prices",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778148000.0,
+      "hot": false
+    },
+    {
+      "id": "23ff1465f0",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump’s Indiana Victory Shows His Enduring Grip on Core Republican Supporters",
-      "summary": "Low approval ratings? MAGA divisions? The president was able to turn out party loyalists in an Indiana primary to help him oust Republican state lawmakers who had crossed him.",
-      "link": "https://www.nytimes.com/2026/05/06/us/politics/trump-indiana-republican-base.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/06pol-indiana-trump-alt2-ckvp/06pol-indiana-trump-alt2-ckvp-mediumSquareAt3X.jpg",
+      "title": "Jeffrey Epstein’s Purported Suicide Note Is Released by Federal Judge",
+      "summary": "A federal judge released the note, which Jeffrey Epstein’s former cellmate said he found in a graphic novel. The New York Times has not authenticated that Mr. Epstein wrote it.",
+      "link": "https://www.nytimes.com/2026/05/06/nyregion/epstein-suicide-note.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778145141.0,
+      "hot": false
+    },
+    {
+      "id": "3b06e06663",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Retracing Henry Knox’s Revolutionary War Trek Across the Wilderness",
+      "summary": "In 1775, George Washington sent Henry Knox, a Boston bookseller, to fetch 60 tons of artillery. We followed Knox’s route to see how the country has changed.",
+      "link": "https://www.nytimes.com/2026/05/07/travel/henry-knox-trip-revolutionary-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/00trav-rev-knox-02-bzfl/00trav-rev-knox-02-bzfl-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778105842.0,
+      "ago": "6小时前",
+      "pub_ts": 1778144441.0,
+      "hot": false
+    },
+    {
+      "id": "3eedb06749",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Making a podcast helped one family talk about aging, dementia and death",
+      "summary": "This year's winner in NPR's College Podcast Challenge is a letter to a grandparent that grapples with health issues including dementia. It's the story of a family learning to talk about hard things.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5766358/dementia-college-podcast-aging-family",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778144400.0,
+      "hot": false
+    },
+    {
+      "id": "cc7059792f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Dirty nickel: The cost of mining in Indonesia",
+      "summary": "Across six locations in Indonesia, NPR spoke with locals about how nickel mining is changing the land and daily life. It's brought jobs, but also concerns about environmental damage and public health.",
+      "link": "https://www.npr.org/2026/05/07/g-s1-118218/indonesia-nickel-mineral-mining",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778144400.0,
+      "hot": false
+    },
+    {
+      "id": "5d60dbc4f1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "About 40 passengers previously left ship hit by Hantavirus at island of St. Helena",
+      "summary": "The dozens of passengers, including the wife of a Dutch man who died, left the cruise ship during a stop at the British territory, the Dutch foreign ministry said on Thursday.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5814632/passengers-left-ship-hantavirus-st-helena",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778143446.0,
+      "hot": false
+    },
+    {
+      "id": "9d1c6d07ba",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Affected by the Iran war, residents in Southeast Asian countries voice their concerns",
+      "summary": "Southeast Asian countries are voicing concern about President Trump and the war with Iran.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5813503/affected-by-the-iran-war-residents-in-southeast-asian-countries-voice-their-concerns",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778143309.0,
+      "hot": false
+    },
+    {
+      "id": "cf009ea050",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Secretary of State Marco Rubio meets with Pope Leo after Trump's criticism",
+      "summary": "Secretary of State Marco Rubio meets with Pope Leo after critical comments by President Trump.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5813720/secretary-of-state-marco-rubio-meets-with-pope-leo-after-trumps-criticism",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778143291.0,
+      "hot": false
+    },
+    {
+      "id": "e25963b50b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Former U.S. ambassador to the Holy See on Rubio's visit to the Vatican",
+      "summary": "NPR's Leila Fadel speaks with former U.S. Ambassador to the Holy See Miguel Diaz about Secretary of State Marco Rubio's visit to the Vatican.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5813651/former-u-s-ambassador-to-the-holy-see-on-rubios-visit-to-the-vatican",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778143286.0,
+      "hot": false
+    },
+    {
+      "id": "743a7178e3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Ex-spy who sold U.S. secrets to Israel says he's sorry, and will run for parliament",
+      "summary": "Jonathan Pollard, a former U.S. intelligence analyst who served 30 years for spying for Israel, says he will run in upcoming Israeli elections.",
+      "link": "https://www.npr.org/2026/05/07/nx-s1-5812527/former-u-s-analyst-once-jailed-for-spying-for-israel-to-run-for-israeli-parliament",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778143245.0,
       "hot": false
     },
     {
