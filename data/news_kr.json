@@ -1,9 +1,27 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-08T14:25:37.086053+00:00",
+  "updated_at": "2026-05-08T17:55:59.055711+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "0f3be5f7f2",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "'The King's Warden' duo scores wins at Baeksang Awards",
+      "summary": "SEOUL, May 9 (Yonhap) -- The historical drama film \"The King's Warden\" scored ma...",
+      "link": "https://en.yna.co.kr/view/AEN20260509000200315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/09/AEN20260509000200315_01_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778256289.0,
+      "hot": false
+    },
     {
       "id": "b2f7a261f7",
       "type": "news",
@@ -17,8 +35,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778244605.0,
       "hot": false
     },
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778239135.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778236805.0,
       "hot": false
     },
@@ -71,8 +89,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778235014.0,
       "hot": false
     },
@@ -89,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778230347.0,
       "hot": false
     },
@@ -108,7 +126,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778228243.0,
       "hot": false
     },
@@ -126,26 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778227443.0,
-      "hot": false
-    },
-    {
-      "id": "b575e6eaa1",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Samsung Electronics' labor union, management to hold follow-up wage talks next week",
-      "summary": "SEOUL, May 8 (Yonhap) -- Samsung Electronics Co.'s labor union said Friday it wi...",
-      "link": "https://en.yna.co.kr/view/AEN20260508010600320",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/04/17/PYH2026041706770001300_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778227292.0,
       "hot": false
     }
   ]
