@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-08T06:12:37.660294+00:00",
-  "total": 23,
+  "updated_at": "2026-05-08T09:59:33.995184+00:00",
+  "total": 22,
   "articles": [
     {
       "id": "7f90c34805",
@@ -19,54 +19,198 @@
         "天气",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1778215418.0,
       "hot": false
     },
     {
-      "id": "f5d5bf329d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "China gives suspended death sentences to 2 ex-defense ministers",
-      "summary": "Both were the latest to be sentenced in President Xi Jinping's ongoing anti-corruption campaign, which started more than a decade ago.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120688/china-gives-suspended-death-sentences-to-2-former-defense-ministers-accused-of-bribery",
-      "image": null,
-      "categories": [
-        "政治",
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "15小时前",
-      "pub_ts": 1778164736.0,
-      "hot": false
-    },
-    {
-      "id": "4522e7c140",
+      "id": "9151b06ce1",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "March Madness tournaments will expand to 76 teams each starting next season",
-      "summary": "The NCAA will expand its March Madness tournaments by eight teams each next season. It will add more early-round games in the first week without altering the overall format.",
-      "link": "https://www.npr.org/2026/05/08/g-s1-121050/march-madness-tournaments-expansion",
+      "title": "Prices are up, but Mother's Day still means brunch",
+      "summary": "It's the biggest day for America's restaurants, and one of the biggest for flower sales. Despite anxieties over rising gas prices, people are ready to splurge to celebrate.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5813684/prices-mothers-day-brunch-restaurants-flowers",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "40分前",
-      "pub_ts": 1778218318.0,
+      "ago": "29分前",
+      "pub_ts": 1778232600.0,
+      "hot": false
+    },
+    {
+      "id": "e20289420c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Spain readies for evacuations as a hantavirus-hit cruise ship heads for Canary Islands",
+      "summary": "Spanish authorities are preparing to receive more than 140 passengers and crew members on board a hantavirus-stricken cruise ship headed for the Canary Islands.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-121055/spain-readies-for-evacuations",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1778232599.0,
+      "hot": false
+    },
+    {
+      "id": "2fb482dd2b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "What video got Kash Patel in the headlines this week? The quiz knows",
+      "summary": "Plus: The Met Gala, GameStop, Canada and Banksy (again!).",
+      "link": "https://www.npr.org/2026/05/08/g-s1-120810/met-gala-fbi-lord-flies-banksy-gamestop",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1778230860.0,
+      "hot": false
+    },
+    {
+      "id": "efa13d5057",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump's Truth Social lays bare narrow obsessions of an extremely online president",
+      "summary": "The bulk of the president's social media posts don't make news. But taken together they show what's on his mind as he leads the nation through war and domestic turmoil.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1778230800.0,
+      "hot": false
+    },
+    {
+      "id": "7c871c7ff4",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "European countries emerge as NATO leaders as U.S. role recedes",
+      "summary": "President Trump's decision to leave NATO in the dark before launching strikes on Iran has inflamed tensions and is putting new urgency on rethinking the alliance.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5810515/us-war-trump-nato-iran-europe-canada-germany",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1778230800.0,
+      "hot": false
+    },
+    {
+      "id": "12ae209549",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "With Spirit in liquidation, here's what happens next to its planes",
+      "summary": "When Spirit Airlines stopped flying last weekend, it left more than 90 planes scattered across the country. Many will go back to the companies that own them, while Spirit tries to monetize the rest.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5812851/spirit-liquidation-next-step-planes",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1778230800.0,
+      "hot": false
+    },
+    {
+      "id": "adee795bd2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "David Attenborough celebrates his 100th birthday",
+      "summary": "He was born before the Great Depression, came of age in WWII, and is still making wildlife documentaries. Brits call David Attenborough a national hero, as he celebrates his 100th birthday.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5802305/david-attenborough-celebrates-his-100th-birthday",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "59分前",
+      "pub_ts": 1778230800.0,
+      "hot": false
+    },
+    {
+      "id": "c33cc15dce",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "U.S. and Iran trade fire amid month-old ceasefire, Tennessee becomes first state to draw new U.S. House map after SCOTUS decision, U.S.'s continued strikes on alleged drug boats raise questions.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5810087/morning-news-brief",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778229903.0,
+      "hot": false
+    },
+    {
+      "id": "a99047145f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "As war on Ukraine continues, Russia prepares for smaller Victory Day parade",
+      "summary": "Russia's annual Victory Day parade will be smaller than previous ones as the effects of the war on Ukraine take a toll.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5810926/as-war-on-ukraine-continues-russia-prepares-for-smaller-victory-day-parade",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778229876.0,
+      "hot": false
+    },
+    {
+      "id": "d52fb2f0ed",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Some people in Iran have kept internet access despite government-imposed blackout",
+      "summary": "Iran is experiencing the longest internet blackout ever recorded with 99% of the population offline. But certain people  — with \"white internet\" — have stayed connected this entire time.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5773963/some-people-in-iran-have-kept-internet-access-despite-government-imposed-blackout",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778229866.0,
       "hot": false
     },
     {
       "id": "b6ae037167",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "North Korea says it will deploy new artillery guns targeting Seoul",
       "summary": "North Korea says it'll deploy new long-range artillery systems capable of striking the capital region of rival South Korea this year and commission its first naval destroyer in coming weeks.",
@@ -75,8 +219,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778216677.0,
       "hot": false
     },
@@ -94,7 +238,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778212809.0,
       "hot": false
     },
@@ -111,8 +255,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778210291.0,
       "hot": false
     },
@@ -129,8 +273,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778201732.0,
       "hot": false
     },
@@ -147,8 +291,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778200017.0,
       "hot": false
     },
@@ -167,33 +311,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778198680.0,
-      "hot": false
-    },
-    {
-      "id": "1527852072",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trade court strikes down a second round of Trump tariffs",
-      "summary": "The Court of International Trade has struck down a second round of global tariffs ordered by President Trump, after his earlier import taxes were outlawed by the U.S. Supreme Court.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5815343/trade-court-strikes-down-10-percent-tariffs",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778193331.0,
       "hot": false
     },
     {
       "id": "249b5e3281",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "U.S. military says it intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz",
       "summary": "The U.S. military also says that it \"targeted Iranian military facilities responsible for attacking U.S. forces.\" The exchange occurred Thursday as U.S. Navy destroyers transited the Strait of Hormuz,",
@@ -203,63 +329,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778193167.0,
-      "hot": false
-    },
-    {
-      "id": "1f69c76f53",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Is hantavirus the next COVID? Is the U.S. response on point? An outbreak update",
-      "summary": "The outbreak began in early April on a cruise ship. Now health authorities around the world are working to contain it. Here's what infectious disease experts have to say.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814761/hantavirus-likely-not-the-next-covid",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778186607.0,
-      "hot": false
-    },
-    {
-      "id": "83d22ecbe5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "She helps families in need. As gas and grocery prices rise, she needs help, too",
-      "summary": "She has spent decades helping others struggling to make ends meet. Now the rising cost of gas and groceries has left Dalene Basden feeling the strain herself.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813500/gasoline-grocery-prices-increase-people-struggling",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778186081.0,
-      "hot": false
-    },
-    {
-      "id": "4be790b4da",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "With legal briefs in, Supreme Court weighs telehealth access for the abortion pill",
-      "summary": "After an appeals court tried to end telemedicine access to mifepristone, one of the two pills used in a medication abortion, the Supreme Court stepped in. Here's what's happened and what's to come.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5815294/abortion-pill-mifepristone-supreme-court-telemedicine",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778186034.0,
       "hot": false
     },
     {
@@ -277,26 +348,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1778183884.0,
-      "hot": false
-    },
-    {
-      "id": "d882389250",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A Trump council recommends overhauling FEMA. Here are 3 key changes",
-      "summary": "A group of emergency experts wants the Trump administration to raise the bar for federal help after disasters, and also make it easier for survivors to get money quickly.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5803121/trump-fema-reform-wildfire-flood-hurricane",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778182359.0,
       "hot": false
     },
     {
@@ -313,7 +366,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1778175062.0,
       "hot": false
     },
@@ -331,80 +384,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1778171876.0,
-      "hot": false
-    },
-    {
-      "id": "109125d369",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Rubio visits Vatican amid escalating tensions between Trump and Pope Leo",
-      "summary": "Secretary of State Marco Rubio traveled to Rome in an effort to preserve a crucial relationship between Washington and the Holy See.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120813/rubio-visits-vatican-amid-escalating-tensions-between-trump-and-pope-leo",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1778170701.0,
-      "hot": false
-    },
-    {
-      "id": "833ee3a97a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Iran reviews U.S. proposal. And, Rubio to meet Pope Leo after Trump's criticism",
-      "summary": "Iran is reviewing the Trump administration's latest proposal to end the war. And, Secretary of State Marco Rubio is meeting Pope Leo XIV amid President Trump's harsh criticism of him.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120673/up-first-newsletter-iran-trump-oil-production-pope-leo-marco-rubio-prediction-markets",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1778151869.0,
-      "hot": false
-    },
-    {
-      "id": "cc7059792f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Dirty nickel: The cost of mining in Indonesia",
-      "summary": "Across six locations in Indonesia, NPR spoke with locals about how nickel mining is changing the land and daily life. It's brought jobs, but also concerns about environmental damage and public health.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-118218/indonesia-nickel-mineral-mining",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1778144400.0,
-      "hot": false
-    },
-    {
-      "id": "a9b7973561",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Health officials track dozens who left hantavirus-stricken ship after 1st fatality",
-      "summary": "Oceanwide Expeditions has revealed that 30 passengers disembarked from its cruise ship hit by a hantavirus outbreak on April 24, on the remote island of St. Helena, nearly two weeks after the first pa",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814632/passengers-left-ship-hantavirus-st-helena",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1778143446.0,
       "hot": false
     },
     {
