@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-08T09:59:33.995184+00:00",
-  "total": 22,
+  "updated_at": "2026-05-08T14:20:15.360884+00:00",
+  "total": 20,
   "articles": [
+    {
+      "id": "e415a6c671",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Military drills on the edge: U.S. and allies test capabilities near Asia's flash points",
+      "summary": "From drone boats to long-range missiles, the U.S. and its allies tested new military tactics in the Philippines, sharpening deterrence as tensions with China intensify.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-120681/drills-us-allies-test-capabilities-asia-flash-points",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778236200.0,
+      "hot": false
+    },
     {
       "id": "7f90c34805",
       "type": "news",
@@ -19,9 +37,119 @@
         "天气",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1778215418.0,
+      "hot": false
+    },
+    {
+      "id": "cdb37c1dd5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Pentagon Releases Files on U.F.O.s",
+      "summary": "The initial files are murky images that show what could be anything. The government said more would be released on a rolling basis.",
+      "link": "https://www.nytimes.com/2026/05/08/us/politics/pentagon-ufo-files.html",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1778248550.0,
+      "hot": false
+    },
+    {
+      "id": "d00fa3858d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Emirates Doubles Down on U.S. and Israeli Ties Amid Iran War",
+      "summary": "The United Arab Emirates has borne the brunt of Iranian attacks throughout the war, hardening the government’s resolve to reassess its list of friends and foes.",
+      "link": "https://www.nytimes.com/2026/05/08/world/middleeast/uae-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08int-uae-strategy-1-qcpg/08int-uae-strategy-1-qcpg-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778245194.0,
+      "hot": false
+    },
+    {
+      "id": "abafdc9ebd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Calls Iran Strikes a ‘Trifle,’ and the Latest on the Hantavirus Outbreak",
+      "summary": "Plus, the Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/05/08/podcasts/the-headlines/trump-iran-strikes-hantavirus-outbreak.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08theheadlines-trump-mpvt/08theheadlines-trump-mpvt-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778239825.0,
+      "hot": false
+    },
+    {
+      "id": "e65b719803",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. intercepts Iranian attacks on 3 ships. And, what to know about hantavirus",
+      "summary": "The U.S. says it intercepted Iranian attacks yesterday targeting three Navy ships. And, what to know about the hantavirus outbreak that started on a cruise ship.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-121064/up-first-newsletter-iran-us-tennessee-congressional-maps-hantavirus-tariffs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778239597.0,
+      "hot": false
+    },
+    {
+      "id": "618ec0a146",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The U.S. awaits Iran's response as the UAE reports another missile barrage",
+      "summary": "The Iran war's shaky ceasefire was further strained on Friday as the United Arab Emirates responded to a missile and drone strikes.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778237076.0,
+      "hot": false
+    },
+    {
+      "id": "7ff379519e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Schools Face a Crisis as the Number of Children Drops",
+      "summary": "With fewer students, many public school districts are confronting unfilled classrooms, and hard choices about school closures.",
+      "link": "https://www.nytimes.com/2026/05/08/upshot/public-schools-enrollment-crisis.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/2026-03-19-school-enrollment-dark-mode-promos/2026-03-19-school-enrollment-dark-mode-promos-mediumSquareAt3X.png",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778234928.0,
       "hot": false
     },
     {
@@ -37,8 +165,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "29分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778232600.0,
       "hot": false
     },
@@ -55,9 +183,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "29分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778232599.0,
+      "hot": false
+    },
+    {
+      "id": "6b5044d464",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘Fired From Retirement’: Financially Insecure, Older Americans Return to the Grind",
+      "summary": "People return to work for many reasons, but the biggest is financial need. As costs remain high, more retirees could be looking to re-enter the job market.",
+      "link": "https://www.nytimes.com/2026/05/08/business/retirees-back-to-work-money.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/00biz-unretirees-archer-1-kplg/00biz-unretirees-archer-1-kplg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778230861.0,
       "hot": false
     },
     {
@@ -73,45 +219,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "58分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778230860.0,
-      "hot": false
-    },
-    {
-      "id": "efa13d5057",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump's Truth Social lays bare narrow obsessions of an extremely online president",
-      "summary": "The bulk of the president's social media posts don't make news. But taken together they show what's on his mind as he leads the nation through war and domestic turmoil.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5749358/trump-truth-social-online-posts-iran-white-house-ballroom",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1778230800.0,
-      "hot": false
-    },
-    {
-      "id": "7c871c7ff4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "European countries emerge as NATO leaders as U.S. role recedes",
-      "summary": "President Trump's decision to leave NATO in the dark before launching strikes on Iran has inflamed tensions and is putting new urgency on rethinking the alliance.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5810515/us-war-trump-nato-iran-europe-canada-germany",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "59分前",
-      "pub_ts": 1778230800.0,
       "hot": false
     },
     {
@@ -127,8 +237,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778230800.0,
       "hot": false
     },
@@ -145,27 +255,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "59分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778230800.0,
       "hot": false
     },
     {
-      "id": "c33cc15dce",
+      "id": "b94fd2e024",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Morning news brief",
-      "summary": "U.S. and Iran trade fire amid month-old ceasefire, Tennessee becomes first state to draw new U.S. House map after SCOTUS decision, U.S.'s continued strikes on alleged drug boats raise questions.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5810087/morning-news-brief",
+      "title": "Fallout from the Iran war may include a NATO where the U.S. is no longer its leader",
+      "summary": "President Trump's decision to leave NATO in the dark before launching strikes on Iran has inflamed tensions and is putting new urgency on rethinking the alliance.",
+      "link": "https://www.npr.org/2026/05/08/nx-s1-5810515/us-war-trump-nato-iran-europe-canada-germany",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778229903.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778230800.0,
       "hot": false
     },
     {
@@ -182,8 +292,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778229876.0,
       "hot": false
     },
@@ -201,81 +311,9 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778229866.0,
-      "hot": false
-    },
-    {
-      "id": "b6ae037167",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "North Korea says it will deploy new artillery guns targeting Seoul",
-      "summary": "North Korea says it'll deploy new long-range artillery systems capable of striking the capital region of rival South Korea this year and commission its first naval destroyer in coming weeks.",
-      "link": "https://www.npr.org/2026/05/08/g-s1-121048/north-korea-new-artillery-guns-targeting-seoul",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778216677.0,
-      "hot": false
-    },
-    {
-      "id": "03e76289fa",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Energy Prices Are Driving Demand for Solar Panels and Heat Pumps",
-      "summary": "Already having faced an energy crisis five years ago, more European consumers believe they are “one Trump-ignited war away” from crushing costs.",
-      "link": "https://www.nytimes.com/2026/05/08/business/europe-solar-panels-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/00biz-europe-energy-01-vpqg/00biz-europe-energy-01-vpqg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1778212809.0,
-      "hot": false
-    },
-    {
-      "id": "e031b71420",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. to Review Mexican Consulates After Right-Wing Claims Against Them",
-      "summary": "The State Department said it would review all Mexican consulates in the United States, following claims in conservative media that the consulates interfere in politics.",
-      "link": "https://www.nytimes.com/2026/05/07/us/politics/mexico-consulates-state-department.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07dc-mexico-zhpk/07dc-mexico-zhpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778210291.0,
-      "hot": false
-    },
-    {
-      "id": "366448532e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Health Officials Race to Track Hantavirus Cruise Ship Outbreak but Predict ‘Limited’ Spread",
-      "summary": "A Dutch flight attendant and French national were among the latest to be tested in connection with a deadly outbreak on a cruise ship. But an analysis in South Africa showed no mutations in viral samp",
-      "link": "https://www.nytimes.com/2026/05/07/world/europe/hantavirus-cruise-ship-outbreak.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07xp-cruise-02-zlbm/07xp-cruise-02-zlbm-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778201732.0,
+      "pub_ts": 1778229866.0,
       "hot": false
     },
     {
@@ -292,7 +330,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1778200017.0,
       "hot": false
     },
@@ -311,81 +349,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778198680.0,
-      "hot": false
-    },
-    {
-      "id": "249b5e3281",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. military says it intercepted Iranian attacks on 3 Navy ships in Strait of Hormuz",
-      "summary": "The U.S. military also says that it \"targeted Iranian military facilities responsible for attacking U.S. forces.\" The exchange occurred Thursday as U.S. Navy destroyers transited the Strait of Hormuz,",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120978/u-s-military-intercepted-iran-attacks-navy-ships-hormuz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778193167.0,
-      "hot": false
-    },
-    {
-      "id": "8f0181fbee",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former U.S. analyst, once jailed for spying for Israel, to run for Israeli parliament",
-      "summary": "Jonathan Pollard, a former U.S. intelligence analyst who served 30 years for spying for Israel, says he will run in the upcoming Israeli elections.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5812527-e1/former-u-s-analyst-once-jailed-for-spying-for-israel-to-run-for-israeli-parliament",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
       "ago": "14小时前",
-      "pub_ts": 1778183884.0,
-      "hot": false
-    },
-    {
-      "id": "9f1d8f53d1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Debt Hits a Concerning Milestone, and Experts Say Trump’s Policies Could Worsen It",
-      "summary": "The debt is outgrowing the size of America’s economy. The president’s policies could accelerate the country’s fiscal headaches, experts say, unless policymakers intervene.",
-      "link": "https://www.nytimes.com/2026/05/07/business/us-debt-trump-policies-budget.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07dc-trump-debt-vjgk/07dc-trump-debt-vjgk-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1778175062.0,
-      "hot": false
-    },
-    {
-      "id": "2bebfb3cc2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Stocks and Bonds Are Responding Differently to the Iran War",
-      "summary": "Stock investors are betting that companies will make enormous profits, despite the war. But investors in bonds, including U.S. Treasuries, have other concerns.",
-      "link": "https://www.nytimes.com/2026/05/07/business/stocks-bonds-markets-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/08biz-strategies-investing-tjwb/08biz-strategies-investing-tjwb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1778171876.0,
+      "pub_ts": 1778198680.0,
       "hot": false
     },
     {
