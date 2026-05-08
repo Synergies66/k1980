@@ -1,9 +1,29 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-08T03:56:58.799090+00:00",
-  "total": 24,
+  "updated_at": "2026-05-08T06:12:37.660294+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "7f90c34805",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "China Sees a ‘Giant With a Limp’ as U.S. Drains Weapons on Iran War",
+      "summary": "America’s ability to deter China in a war over Taiwan is weakened, Chinese analysts say, giving Beijing leverage in an upcoming summit with President Trump.",
+      "link": "https://www.nytimes.com/2026/05/08/world/asia/trump-xi-china-us-iran-munitions.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/00int-china-iran-us-01-tfgz/00int-china-iran-us-01-tfgz-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "天气",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778215418.0,
+      "hot": false
+    },
     {
       "id": "f5d5bf329d",
       "type": "news",
@@ -20,8 +40,62 @@
         "科技"
       ],
       "score": 72,
-      "ago": "13小时前",
+      "ago": "15小时前",
       "pub_ts": 1778164736.0,
+      "hot": false
+    },
+    {
+      "id": "4522e7c140",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "March Madness tournaments will expand to 76 teams each starting next season",
+      "summary": "The NCAA will expand its March Madness tournaments by eight teams each next season. It will add more early-round games in the first week without altering the overall format.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-121050/march-madness-tournaments-expansion",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "40分前",
+      "pub_ts": 1778218318.0,
+      "hot": false
+    },
+    {
+      "id": "b6ae037167",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "North Korea says it will deploy new artillery guns targeting Seoul",
+      "summary": "North Korea says it'll deploy new long-range artillery systems capable of striking the capital region of rival South Korea this year and commission its first naval destroyer in coming weeks.",
+      "link": "https://www.npr.org/2026/05/08/g-s1-121048/north-korea-new-artillery-guns-targeting-seoul",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778216677.0,
+      "hot": false
+    },
+    {
+      "id": "03e76289fa",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Energy Prices Are Driving Demand for Solar Panels and Heat Pumps",
+      "summary": "Already having faced an energy crisis five years ago, more European consumers believe they are “one Trump-ignited war away” from crushing costs.",
+      "link": "https://www.nytimes.com/2026/05/08/business/europe-solar-panels-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/00biz-europe-energy-01-vpqg/00biz-europe-energy-01-vpqg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778212809.0,
       "hot": false
     },
     {
@@ -37,8 +111,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "38分前",
+      "score": 65,
+      "ago": "2小时前",
       "pub_ts": 1778210291.0,
       "hot": false
     },
@@ -56,7 +130,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778201732.0,
       "hot": false
     },
@@ -74,7 +148,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778200017.0,
       "hot": false
     },
@@ -92,8 +166,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778198680.0,
       "hot": false
     },
@@ -110,8 +184,8 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778193331.0,
       "hot": false
     },
@@ -128,27 +202,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778193167.0,
-      "hot": false
-    },
-    {
-      "id": "14acf1a2f2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Court Rules Against Trump’s 10% Tariff",
-      "summary": "Also, the U.S. and Iran exchange fire. Here’s the latest at the end of Thursday.",
-      "link": "https://www.nytimes.com/2026/05/07/briefing/trade-court-trump-tariffs.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/07evening-nl-trump-tariffs-zcjb/07evening-nl-trump-tariffs-zcjb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778192415.0,
       "hot": false
     },
     {
@@ -165,7 +221,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1778186607.0,
       "hot": false
     },
@@ -184,7 +240,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1778186081.0,
       "hot": false
     },
@@ -202,7 +258,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1778186034.0,
       "hot": false
     },
@@ -221,7 +277,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1778183884.0,
       "hot": false
     },
@@ -239,62 +295,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1778182359.0,
-      "hot": false
-    },
-    {
-      "id": "9e6eaea87b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Should You Worry About Hantavirus?",
-      "summary": "Here’s what to know about the virus, how it spreads and the risk to the general public.",
-      "link": "https://www.nytimes.com/2026/05/06/well/hantavirus-symptoms-strains.html",
-      "image": "https://static01.nyt.com/images/2026/05/06/multimedia/WELL-HANTAVIRUS-QUESTIONS2-fphl/WELL-HANTAVIRUS-QUESTIONS2-fphl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778180857.0,
-      "hot": false
-    },
-    {
-      "id": "2d0966d437",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "DHS blames funding lapse for shutdown of internal detention oversight",
-      "summary": "The office investigates detainee deaths and access to medical care, among other issues. It's being wound down, even as the number of detention deaths and length of detention stays has grown.",
-      "link": "https://www.npr.org/2026/05/07/g-s1-120834/trump-immigration-detention-ombudsman-shutdown",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778180716.0,
-      "hot": false
-    },
-    {
-      "id": "e029bc297d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A judge unsealed Epstein's purported 2019 suicide note. More documents could follow",
-      "summary": "At the request of the New York Times, a judge unsealed a goodbye note that Jeffrey Epstein's former cellmate says he found after the convicted sex offender's first suicide attempt in July 2019.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5814808/jeffrey-epstein-suicide-note",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778180175.0,
       "hot": false
     },
     {
@@ -311,7 +313,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "12小时前",
       "pub_ts": 1778175062.0,
       "hot": false
     },
@@ -329,7 +331,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1778171876.0,
       "hot": false
     },
@@ -347,7 +349,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "13小时前",
       "pub_ts": 1778170701.0,
       "hot": false
     },
@@ -365,7 +367,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1778151869.0,
       "hot": false
     },
@@ -383,7 +385,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1778144400.0,
       "hot": false
     },
@@ -401,26 +403,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "21小时前",
       "pub_ts": 1778143446.0,
-      "hot": false
-    },
-    {
-      "id": "9d1c6d07ba",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Affected by the Iran war, residents in Southeast Asian countries voice their concerns",
-      "summary": "Southeast Asian countries are voicing concern about President Trump and the war with Iran.",
-      "link": "https://www.npr.org/2026/05/07/nx-s1-5813503/affected-by-the-iran-war-residents-in-southeast-asian-countries-voice-their-concerns",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1778143309.0,
       "hot": false
     },
     {
