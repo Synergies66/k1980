@@ -1,9 +1,47 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-09T09:49:54.807972+00:00",
-  "total": 22,
+  "updated_at": "2026-05-09T13:56:16.582914+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "04d43e7179",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How China May Have Sought to Recruit a House Aide to Spy on the U.S.",
+      "summary": "A staff member on the House China Committee was promised $10,000 for U.S. policy insights, on issues like Venezuela and rare-earth minerals.",
+      "link": "https://www.nytimes.com/2026/05/09/us/politics/china-us-spy-congressional-aide.html",
+      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/dc-china-spy-4-clgb/dc-china-spy-4-clgb-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "4小时前",
+      "pub_ts": 1778317309.0,
+      "hot": false
+    },
+    {
+      "id": "f467725ff0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How China’s Leader Lost Faith in His Generals",
+      "summary": "Xi Jinping spent 13 years building a military to rival that of the United States. But the stronger the Chinese forces grew, the less he trusted the generals he had handpicked to run them.",
+      "link": "https://www.nytimes.com/2026/05/09/world/asia/china-military-generals.html",
+      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/00int-china-xi-military-01-lbcv/00int-china-xi-military-01-lbcv-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 72,
+      "ago": "9小时前",
+      "pub_ts": 1778299270.0,
+      "hot": false
+    },
     {
       "id": "9d9b376721",
       "type": "news",
@@ -19,26 +57,135 @@
         "科技"
       ],
       "score": 72,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1778272229.0,
       "hot": false
     },
     {
-      "id": "e415a6c671",
+      "id": "5812d59a34",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Republicans Are Building an Advantage in Redistricting. How Much Is It Worth?",
+      "summary": "Where things stands in the race for House control after recent court rulings.",
+      "link": "https://www.nytimes.com/2026/05/08/upshot/redistricting-midterms-republicans-house.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00up-nashville1-glft/00up-nashville1-glft-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1778333533.0,
+      "hot": false
+    },
+    {
+      "id": "4fab24fc59",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "An expert on Iranian politics reviews the status of negotiations to end the war on Iran",
+      "summary": "NPR's Elissa Nadworny talks to Mehrzad Boroujerdi of the Missouri University of Science and Technology about the status of the Trump Administration's negotiations to end the war on Iran.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5814972/an-expert-on-iranian-politics-review-the-status-of-negotiations-to-end-the-war-on-iran",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778326982.0,
+      "hot": false
+    },
+    {
+      "id": "e75c13ec28",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Military drills on the edge: U.S. and allies test capabilities near Asia's flash points",
-      "summary": "From drone boats to long-range missiles, the U.S. and its allies tested new military tactics in the Philippines, sharpening deterrence as tensions with China intensify.",
-      "link": "https://www.npr.org/2026/05/08/g-s1-120681/drills-us-allies-test-capabilities-asia-flash-points",
+      "title": "Revisiting Guy Goma's iconic accidental BBC interview 20 years ago this week",
+      "summary": "NPR's Elissa Nadworny talks to Guy Goma who thought he was being interviewed for an IT job at the BBC but instead found himself live on air. His interview 20 years ago became a viral sensation.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5814110/revisiting-guy-gomas-iconic-accidental-bbc-interview-20-years-ago-this-week",
       "image": null,
       "categories": [
-        "华人"
+        "科技"
       ],
-      "score": 72,
-      "ago": "23小时前",
-      "pub_ts": 1778236200.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778326980.0,
+      "hot": false
+    },
+    {
+      "id": "66b5e51980",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Why saying hello to strangers can be good for you",
+      "summary": "A study establishes that \"social ties\" — a fancy way of saying being nice to other, even those you don't know — has benefits. A teacher asked her students to test the thesis in real life.",
+      "link": "https://www.npr.org/2026/05/09/g-s1-119761/hello-greeting-strangers-benefit-social-ties",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778325644.0,
+      "hot": false
+    },
+    {
+      "id": "35168ff3b3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How the 1994 World Cup kicked off America's love affair with soccer",
+      "summary": "Soccer — or football as it's known around the globe — was far from mainstream in the U.S. leading up to the 1994 World Cup. But in the end, the tournament was considered a resounding success. How exac",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5795791/2026-history-soccer-fifa-world-cup-fans",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778320800.0,
+      "hot": false
+    },
+    {
+      "id": "e65e80cf07",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "They graduate to six figure salaries, and grueling work",
+      "summary": "Cadets from the nation's Merchant Marine academies are finding lots of demand and great salaries because of a shortage of licensed mariners.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5789051/merchant-marine-sealift-jobs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778320800.0,
+      "hot": false
+    },
+    {
+      "id": "e730dc0fb3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Southern Republicans redistrict after Supreme Court rules, Dems lose big in Virginia",
+      "summary": "The Supreme Court weakened minority voting rights and prompted Republicans in four states to move to redistrict as part of Trump's push. A court nullified Democratic redistricting in Virginia.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5812908/trump-midterms-redistricting-election",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778320800.0,
       "hot": false
     },
     {
@@ -55,9 +202,99 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "25分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778318685.0,
+      "hot": false
+    },
+    {
+      "id": "635a0c49aa",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Republicans Gained an Edge on the Midterm House Map Over 10 Days",
+      "summary": "Republicans are charging ahead in the nation’s redistricting race, and showing new bullishness after months of growing midterm fears.",
+      "link": "https://www.nytimes.com/2026/05/09/us/politics/midterm-redistricting-house-map-republicans.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09pol-midterms-house-pzbj/09pol-midterms-house-pzbj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778317343.0,
+      "hot": false
+    },
+    {
+      "id": "ee65eb819f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Minority Districts Fueled the G.O.P.’s Southern Ascendancy in Congress",
+      "summary": "The “majority-minority” House districts struck down by the Supreme Court last week sent a surge of Black and Hispanic lawmakers to Congress. They also opened opportunities for the G.O.P.",
+      "link": "https://www.nytimes.com/2026/05/09/us/politics/how-minority-districts-fueled-the-gops-southern-ascendancy-in-congress.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09dc-redistrict-lczp/09dc-redistrict-lczp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778317321.0,
+      "hot": false
+    },
+    {
+      "id": "920d5c8e53",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Two Court Decisions Have Unleashed an Era of Perpetual Redistricting",
+      "summary": "Four states are considering drawing new maps in the coming weeks. Another dozen or more could join the fray next year.",
+      "link": "https://www.nytimes.com/2026/05/09/us/politics/redistricting-midterms.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/us/09pol-state-leg-redistricting/09pol-state-leg-redistricting-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778317315.0,
+      "hot": false
+    },
+    {
+      "id": "df38587c5b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Long Overlooked, Caspian Sea Provides Strategic Trade Route for Iran",
+      "summary": "The landlocked body of water has taken on new significance, with Russia shipping military and commercial goods to bolster Tehran’s ability to withstand the U.S. assault.",
+      "link": "https://www.nytimes.com/2026/05/09/world/middleeast/caspian-sea-iran-russia.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09int-iran-caspian-sea-01-kwbz/09int-iran-caspian-sea-01-kwbz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778317286.0,
+      "hot": false
+    },
+    {
+      "id": "4becae22c0",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Taiwan’s Plastic Habit Collides With Shortages Caused by a Faraway War",
+      "summary": "Taiwan, one of the world’s biggest plastic users, is facing supply disruptions caused by the war in Iran. The crunch is already trickling down into everyday life.",
+      "link": "https://www.nytimes.com/2026/05/09/business/taiwan-plastic-bag-shortage.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/Biz-Plastic-Panic-20-tbjz/Biz-Plastic-Panic-20-tbjz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778317239.0,
       "hot": false
     },
     {
@@ -73,8 +310,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "49分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778317200.0,
       "hot": false
     },
@@ -91,89 +328,16 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "49分前",
-      "pub_ts": 1778317200.0,
-      "hot": false
-    },
-    {
-      "id": "6988dedb6b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Lawmakers May Continue to Inspect ICE Detention Centers, Appeals Court Rules",
-      "summary": "A federal appeals court declined, for now, to halt an order requiring D.H.S. to permit unannounced visits to immigration detention centers by Democrats in Congress.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/lawmakers-democrats-ice-detention.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08dc-immig-new-fgvz/08dc-immig-new-fgvz-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "11小时前",
-      "pub_ts": 1778277828.0,
-      "hot": false
-    },
-    {
-      "id": "0bae6533c0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Facing Pressure, Trump Officials Reject Claims They’re Softening on Immigration",
-      "summary": "Immigration hard-liners have grown frustrated with the level of deportations and the Department of Homeland Security’s attempts, under its new secretary, to stay under the radar.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/markwayne-mullin-immigration-dhs.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00dc-dhs-direction01-photo-pfvm/00dc-dhs-direction01-photo-pfvm-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "12小时前",
-      "pub_ts": 1778276531.0,
-      "hot": false
-    },
-    {
-      "id": "3b90109349",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mahmoud Khalil Hurtles Toward Potential Deportation as U.S. Speeds Case",
-      "summary": "A key judicial decision in Mr. Khalil’s immigration case was expedited significantly and included the recusal of multiple judges.",
-      "link": "https://www.nytimes.com/2026/05/08/nyregion/mahmoud-khalil-deportation-case.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/00met-khalil-lbkc/00met-khalil-lbkc-mediumSquareAt3X.jpg",
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "14小时前",
-      "pub_ts": 1778269249.0,
-      "hot": false
-    },
-    {
-      "id": "ff670ab341",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "ABC argues Trump administration is trying to chill free speech",
-      "summary": "In a filing, ABC accuses the Trump administration of trying to chill its constitutionally protected free speech. The point of contention: \"The View,\" and whether it's subject to equal time rules.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5816844/abc-trump-administration-free-speech",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778301463.0,
+      "ago": "4小时前",
+      "pub_ts": 1778317200.0,
       "hot": false
     },
     {
       "id": "f820d2b62e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump says Russia and Ukraine have agreed to his request for a 3-day ceasefire",
       "summary": "President Volodymyr Zelenskyy and Yuri Ushakov, President Vladimir Putin's foreign affairs adviser, both confirmed the agreement for a three-day ceasefire and an exchange of prisoners.",
@@ -183,99 +347,9 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778299466.0,
-      "hot": false
-    },
-    {
-      "id": "0cff0af66c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Conducts Third Boat Strike in 5 Days, Killing 2 and Leaving a Survivor",
-      "summary": "Of the 57 attacks in the Caribbean and eastern Pacific against boats accused of drug trafficking, there have rarely been survivors.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/trump-pentagon-boat-strike.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08dc-boatstrike-hwtz/08dc-boatstrike-hwtz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778291152.0,
-      "hot": false
-    },
-    {
-      "id": "1a1b1af1a3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.F.O. Files Released by U.S. Shed Light on What the Government Knows",
-      "summary": "The Pentagon on Friday released online what it called “new, never-before-seen” files, dating back decades, related to unidentified flying objects.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/ufo-sightings-us-government.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08xp-ufo-shape-jmcw/08xp-ufo-shape-jmcw-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778291004.0,
-      "hot": false
-    },
-    {
-      "id": "90a22fd49d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration Wants to Strip 12 Immigrants of U.S. Citizenship",
-      "summary": "The targeted Americans are accused of misdeeds that can qualify them to lose citizenship, but denaturalization has rarely been invoked in the past.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/trump-immigrants-citizenship.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08dc-naturalization-photo-wzph/08dc-naturalization-photo-wzph-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778282817.0,
-      "hot": false
-    },
-    {
-      "id": "5705539d52",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Gave Out a No-Bid Contract to Turn D.C.’s Reflecting Pool Blue",
-      "summary": "President Trump handpicked a firm he said had worked on his swimming pool to repair the iconic site near the Lincoln Memorial.",
-      "link": "https://www.nytimes.com/2026/05/08/us/politics/reflecting-pool-trump-contract.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/us/dc-reflecting-pool-promo/dc-reflecting-pool-promo-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778282466.0,
-      "hot": false
-    },
-    {
-      "id": "14a0a5102d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Plans to Fire F.D.A. Commissioner Marty Makary",
-      "summary": "Dr. Makary has been a supporter of the Make American Healthy Again Movement but made some enemies in the administration over vaping, the abortion pill and rejections of new drugs.",
-      "link": "https://www.nytimes.com/2026/05/08/us/trump-fda-commissioner-makary.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/08dc-makary-photo-glqt/08dc-makary-photo-glqt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778281689.0,
       "hot": false
     },
     {
@@ -293,52 +367,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1778270946.0,
-      "hot": false
-    },
-    {
-      "id": "45c22aaacd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "UFO files spanning decades are released by Defense Department",
-      "summary": "Cold War reports of mysterious rotating saucers; recent sightings of metallic elliptical objects floating in mid-air. Those and other reports of unidentified anomalous phenomena or UAPs — the military",
-      "link": "https://www.npr.org/2026/05/08/g-s1-121186/ufo-files-released-defense-department",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1778269185.0,
-      "hot": false
-    },
-    {
-      "id": "b6178f6e60",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Canvas is back online, but questions — and final exam disruptions — linger",
-      "summary": "Some schools are warning users not to log back into Canvas yet, after a ransomware group claimed credit for a data breach. Half of North America's higher education institutions use the platform.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5815956/canvas-data-breach-school-finals",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1778263782.0,
       "hot": false
     },
     {
       "id": "7a8d58d540",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Colombia's rogue hippos could find refuge in India",
       "summary": "In Colombia, a plan to cull Pablo Escobar's invasive hippos is challenged by an Indian billionaire's offer to relocate dozens of the animals to India's wildlife reserve instead.",
@@ -348,7 +385,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "17小时前",
+      "ago": "21小时前",
       "pub_ts": 1778257459.0,
       "hot": false
     },
@@ -365,27 +402,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "22小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778239597.0,
-      "hot": false
-    },
-    {
-      "id": "0f67341341",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The U.S. fires on Iranian tankers trying to evade its blockade amid a Hormuz standoff",
-      "summary": "U.S. forces fired on two Iranian oil tankers after exchanging fire with Iranian forces in the Strait of Hormuz. And the United Arab Emirates reported another Iranian missile and drone attack.",
-      "link": "https://www.npr.org/2026/05/08/g-s1-121061/iran-war-updates",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1778237076.0,
       "hot": false
     },
     {
