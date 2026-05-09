@@ -1,47 +1,9 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-09T17:26:26.577642+00:00",
-  "total": 23,
+  "updated_at": "2026-05-09T21:06:25.451216+00:00",
+  "total": 24,
   "articles": [
-    {
-      "id": "04d43e7179",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How China May Have Sought to Recruit a House Aide to Spy on the U.S.",
-      "summary": "A staff member on the House China Committee was promised $10,000 for U.S. policy insights, on issues like Venezuela and rare-earth minerals.",
-      "link": "https://www.nytimes.com/2026/05/09/us/politics/china-us-spy-congressional-aide.html",
-      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/dc-china-spy-4-clgb/dc-china-spy-4-clgb-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "8小时前",
-      "pub_ts": 1778317309.0,
-      "hot": false
-    },
-    {
-      "id": "f467725ff0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How China’s Leader Lost Faith in His Generals",
-      "summary": "Xi Jinping spent 13 years building a military to rival that of the United States. But the stronger the Chinese forces grew, the less he trusted the generals he had handpicked to run them.",
-      "link": "https://www.nytimes.com/2026/05/09/world/asia/china-military-generals.html",
-      "image": "https://static01.nyt.com/images/2026/04/29/multimedia/00int-china-xi-military-01-lbcv/00int-china-xi-military-01-lbcv-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1778299270.0,
-      "hot": false
-    },
     {
       "id": "9d9b376721",
       "type": "news",
@@ -56,9 +18,63 @@
         "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "20小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1778272229.0,
+      "hot": false
+    },
+    {
+      "id": "575794dd5a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Bobby Cox, Hall of Fame manager of Atlanta Braves, dies at age 84",
+      "summary": "The Braves announced Cox's death on Saturday. He managed the team to prominence during the 1990s and the team's only championship in 1995, before retiring after the 2010 season.",
+      "link": "https://www.npr.org/2026/05/09/g-s1-121311/bobby-cox-atlanta-braves-dies",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778352067.0,
+      "hot": false
+    },
+    {
+      "id": "3569462484",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "CDC says threat of widespread outbreak of hantavirus remains low",
+      "summary": "As hantavirus has dominated headlines, sparking fears of another debilitating pandemic, the CDC stressed that the risk of sweeping contagion was small.",
+      "link": "https://www.npr.org/2026/05/09/g-s1-121307/cdc-says-threat-of-widespread-outbreak-of-hantavirus-remains-low",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778348482.0,
+      "hot": false
+    },
+    {
+      "id": "ef4f0df913",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Deadly Israeli Strikes Erode Cease-Fire in Lebanon",
+      "summary": "Fighting between Israel and Hezbollah has shown little sign of abating, with Hezbollah also continuing to attack Israeli troops, and both sides accusing the other of violating a U.S.-brokered truce.",
+      "link": "https://www.nytimes.com/2026/05/09/world/middleeast/israel-strikes-lebanon-ceasefire.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09mideast-lebanon-saksakieh-cmhg/09mideast-lebanon-saksakieh-cmhg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778348265.0,
       "hot": false
     },
     {
@@ -74,9 +90,27 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778339041.0,
+      "hot": false
+    },
+    {
+      "id": "29cefc5a0a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How ‘The View’ Landed at the Center of a Free Speech Battle",
+      "summary": "The Trump administration’s focus on the show is testament to the enduring influence of an old-fashioned broadcast TV program started 29 years ago.",
+      "link": "https://www.nytimes.com/2026/05/09/business/media/the-view-fcc-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/business/09biz-fcc-view-1/09biz-fcc-view-1-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778338881.0,
       "hot": false
     },
     {
@@ -92,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778333533.0,
       "hot": false
     },
@@ -111,8 +145,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778326982.0,
       "hot": false
     },
@@ -129,8 +163,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778326980.0,
       "hot": false
     },
@@ -148,7 +182,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778325644.0,
       "hot": false
     },
@@ -166,7 +200,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778320800.0,
       "hot": false
     },
@@ -184,7 +218,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778320800.0,
       "hot": false
     },
@@ -202,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778320800.0,
       "hot": false
     },
@@ -210,7 +244,7 @@
       "id": "3fdb69c4a1",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Moscow marks Victory Day with a Red Square parade under tight security",
       "summary": "Security was tight in Moscow as Putin and several foreign leaders attended the parade, even as a U.S.-brokered three-day ceasefire eased concerns about possible Ukrainian attempts to disrupt the festi",
@@ -221,8 +255,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778318685.0,
+      "hot": false
+    },
+    {
+      "id": "2d0fe327cb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Which Trump Tariffs Are in Place, in the Works or Ruled Illegal",
+      "summary": "The president has reworked his tariffs repeatedly — sometimes because they have been declared illegal — with more updates still to come.",
+      "link": "https://www.nytimes.com/2026/05/09/business/economy/trump-tariff-timeline.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/2026-tariff-tracker-embeds-index/2026-tariff-tracker-embeds-index-mediumSquareAt3X-v7.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1778317344.0,
       "hot": false
     },
     {
@@ -239,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778317343.0,
       "hot": false
     },
@@ -257,7 +309,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778317321.0,
       "hot": false
     },
@@ -275,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778317315.0,
       "hot": false
     },
@@ -293,44 +345,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778317286.0,
-      "hot": false
-    },
-    {
-      "id": "4becae22c0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Taiwan’s Plastic Habit Collides With Shortages Caused by a Faraway War",
-      "summary": "Taiwan, one of the world’s biggest plastic users, is facing supply disruptions caused by the war in Iran. The crunch is already trickling down into everyday life.",
-      "link": "https://www.nytimes.com/2026/05/09/business/taiwan-plastic-bag-shortage.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/Biz-Plastic-Panic-20-tbjz/Biz-Plastic-Panic-20-tbjz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778317239.0,
-      "hot": false
-    },
-    {
-      "id": "2521a52e85",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "What is a radical? It's the question of M.I.A.'s vexing career",
-      "summary": "Fans who danced to \"Paper Planes\" might hardly recognize the conspiracy-touting artist before them today — but in a certain way, she's the same button-pusher as ever.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5814978/mia-politics-cudi-tour-conspiracy-theories",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778317200.0,
       "hot": false
     },
     {
@@ -348,7 +364,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1778299466.0,
       "hot": false
     },
@@ -366,8 +382,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778270946.0,
       "hot": false
     },
