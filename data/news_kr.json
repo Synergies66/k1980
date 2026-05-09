@@ -1,7 +1,7 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-09T04:06:12.727791+00:00",
+  "updated_at": "2026-05-09T06:36:00.124675+00:00",
   "total": 8,
   "articles": [
     {
@@ -18,8 +18,26 @@
         "华人"
       ],
       "score": 77,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778288288.0,
+      "hot": false
+    },
+    {
+      "id": "726b704ecc",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Today in Korean history",
+      "summary": "May 10",
+      "link": "https://en.yna.co.kr/view/AEN20260509001200320",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778302800.0,
       "hot": false
     },
     {
@@ -35,8 +53,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778295967.0,
       "hot": false
     },
@@ -53,8 +71,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778295731.0,
       "hot": false
     },
@@ -72,8 +90,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778295116.0,
       "hot": false
     },
@@ -91,7 +109,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778290232.0,
       "hot": false
     },
@@ -109,7 +127,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778287967.0,
       "hot": false
     },
@@ -127,26 +145,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778287514.0,
-      "hot": false
-    },
-    {
-      "id": "829f6206f7",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(2nd LD) S. Korea, U.S. sign MOU to advance shipbuilding cooperation",
-      "summary": "WASHINGTON, May 8 (Yonhap) -- South Korea and the United States on Friday signed...",
-      "link": "https://en.yna.co.kr/view/AEN20260509000552315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/03/12/PYH2026031215250005200_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778284510.0,
       "hot": false
     }
   ]
