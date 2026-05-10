@@ -1,24 +1,96 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-05-10T10:02:17.635119+00:00",
+  "updated_at": "2026-05-10T14:07:54.139880+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "3cc69af128",
+      "id": "4c55db32a0",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Ducati's Marquez undergoes successful double surgery after French GP crash",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/ducatis-marquez-undergoes-successful-double-surgery-after-french-gp-crash-6112111",
+      "image": "https://dam.mediacorp.sg/image/upload/s--aClgdgq7--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-10T135059Z_1_LYNXMPEM49073_RTROPTP_3_MOTOR-MOTOGP-FRANCE.JPG?itok=nex0I98e",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1778421059.0,
+      "hot": false
+    },
+    {
+      "id": "1032cc2618",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Celtic keep Scottish title race alive with 3-1 win over Rangers",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/celtic-keep-scottish-title-race-alive-3-1-win-over-rangers-6112101",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1778419399.0,
+      "hot": false
+    },
+    {
+      "id": "2e79e48144",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Martin claims first win in 588 days as Aprilia sweep French GP podium",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/martin-claims-first-win-in-588-days-aprilia-sweep-french-gp-podium-6112071",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778417787.0,
+      "hot": false
+    },
+    {
+      "id": "cfcf1ede1d",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "South Korean ship in Strait of Hormuz hit by unidentified object, ministry says",
+      "summary": "A week ago, Seoul reported a blast and fire aboard the vessel - the HMM Namu - in the strait, while it was anchored near the United Arab Emirates.",
+      "link": "https://www.channelnewsasia.com/world/south-korean-ship-strait-hormuz-hit-unidentified-object-6111976",
+      "image": "https://dam.mediacorp.sg/image/upload/s--UCzxTK3k--/c_crop,h_900,w_1600,x_0,y_154/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/07/2026-05-06t082445z_1588296201_rc2tuia1on3a_rtrmadp_3_iran-crisis-southkorea.jpg?itok=rO00riQK",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778411280.0,
+      "hot": false
+    },
+    {
+      "id": "58e5d99a85",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Muslim couples to receive support for parenthood journey as pilot programme is made permanent",
+      "title": "Muslim couples to get early support for parenthood journey as pilot programme is made permanent",
       "summary": "The pilot programme has supported about 12,000 people.",
       "link": "https://www.straitstimes.com/singapore/muslim-couples-to-receive-support-for-parenthood-journey-as-pilot-programme-is-made-permanent",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "17分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778406300.0,
       "hot": false
     },
@@ -29,32 +101,32 @@
       "source": "Straits Times",
       "lang": "en",
       "title": "Elderly woman rescued after being pinned under car near Jalan Besar",
-      "summary": "The 84-year-old was freed her using hydraulic rescue equipment, said SCDF.",
+      "summary": "The 84-year-old was taken conscious to Tan Tock Seng Hospital.",
       "link": "https://www.straitstimes.com/singapore/elderly-woman-rescued-by-scdf-after-being-pinned-under-car-near-jalan-besar",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "22分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778406000.0,
       "hot": false
     },
     {
-      "id": "16e9311e2c",
+      "id": "362c922adf",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Unlocking the vault: Meet NYP trio using AI to ‘immortalise’ part of Singapore history",
+      "title": "Unlocking the vault: NYP trio uses AI to ‘immortalise’ part of Singapore history",
       "summary": "The team is behind ArchAIve, a tool used to digitise historical artefacts and pictures.",
       "link": "https://www.straitstimes.com/singapore/parenting-education/unlocking-the-vault-meet-nyp-trio-using-ai-to-immortalise-part-of-spore-history",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778403600.0,
       "hot": false
     },
@@ -71,8 +143,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778400420.0,
       "hot": false
     },
@@ -89,8 +161,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778393700.0,
       "hot": false
     },
@@ -107,8 +179,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778392620.0,
       "hot": false
     },
@@ -125,8 +197,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778392560.0,
       "hot": false
     },
@@ -143,8 +215,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778392440.0,
       "hot": false
     },
@@ -155,32 +227,32 @@
       "source": "CNA Singapore",
       "lang": "en",
       "title": "Don Don Donki at HarbourFront Centre to close on Jul 19 with clearance sale",
-      "summary": "Selected items are going for up to 70 per cent off from now till its last day while stocks last.",
+      "summary": "Selected items are going for up to 70 per cent off from now till its last day, while stocks last.",
       "link": "https://www.channelnewsasia.com/living/don-don-donki-harbourfront-closing-sale-singapore-july-2026-6111766",
       "image": "https://dam.mediacorp.sg/image/upload/s--3i72JCjN--/c_crop,h_899,w_1599,x_1,y_36/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/10/don_don_donki_harbourfront_centre.jpg?itok=46J_m060",
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778390640.0,
       "hot": false
     },
     {
-      "id": "1f7247643d",
+      "id": "67465cda2e",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Missing: Girl, 11, last seen in Jurong West on May 9",
+      "title": "Found: Girl, 11, who was last seen in Jurong West",
       "summary": "She was wearing a white shirt and red shorts, said the police.",
       "link": "https://www.straitstimes.com/singapore/missing-girl-11-last-seen-in-jurong-west-on-may-9",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778389140.0,
       "hot": false
     },
@@ -197,45 +269,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778389137.0,
-      "hot": false
-    },
-    {
-      "id": "25e5c5a496",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Sabalenka exits Rome with injury concern ahead of French Open",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/sabalenka-exits-rome-injury-concern-ahead-french-open-6111826",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778388130.0,
-      "hot": false
-    },
-    {
-      "id": "02f96b620b",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "South Korea welcomes rare baby bump as population shrinks",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/east-asia/south-korea-rare-baby-bump-population-shrinks-6111811",
-      "image": "https://dam.mediacorp.sg/image/upload/s--9YMGZg5i--/c_crop,h_1124,w_1999,x_1,y_77/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/10/000_a9xm9t3_mod.jpg?itok=F6ZG0fVI",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778388001.0,
       "hot": false
     },
     {
@@ -251,46 +287,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778386500.0,
-      "hot": false
-    },
-    {
-      "id": "fd506fc736",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Rajasthan rue poor bowling as mid-season slump deepens in IPL",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/rajasthan-rue-poor-bowling-mid-season-slump-deepens-in-ipl-6111776",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778386408.0,
-      "hot": false
-    },
-    {
-      "id": "6398a435e7",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Two Singaporeans confirmed dead in Indonesia volcano eruption, official says",
-      "summary": "Local search and rescue chief Iwan Ramdani told CNA that the bodies have been found and are in a safe zone, but rain is delaying evacuation.",
-      "link": "https://www.channelnewsasia.com/asia/indonesia-mount-dukono-singaporeans-dead-search-rescue-investigation-6111696",
-      "image": "https://dam.mediacorp.sg/image/upload/s--tDnjlMh_--/c_crop,h_720,w_1280,x_0,y_0/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/10/whatsapp_image_2026-05-10_at_7.01.42_am_1.jpeg?itok=MPLh-LwI",
-      "categories": [
-        "天气",
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778385240.0,
+      "ago": "9小时前",
+      "pub_ts": 1778386500.0,
       "hot": false
     }
   ]
