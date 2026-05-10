@@ -1,52 +1,88 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-10T13:58:42.659822+00:00",
+  "updated_at": "2026-05-10T17:27:06.467540+00:00",
   "total": 22,
   "articles": [
     {
-      "id": "eadb5e31d8",
+      "id": "f328a17f6e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "U.S.-China Rivalry Reaches South American Skies",
-      "summary": "The U.S. has pressed Argentina and Chile to review two Chinese telescope projects in the Andean deserts. Astronomers are worried about setbacks to research.",
-      "link": "https://www.nytimes.com/2026/05/10/world/americas/us-china-telescope-argentina-chile.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09int-argentina-china-telescope-kzgm/09int-argentina-china-telescope-kzgm-mediumSquareAt3X.jpg",
+      "title": "After Virginia Redistricting Map Is Tossed, Democrats Search Desperately for a Response",
+      "summary": "A conversation involving House members from Virginia and the top House Democrat reflected the fury and desperation that has gripped the party after Friday’s ruling in the state.",
+      "link": "https://www.nytimes.com/2026/05/10/us/politics/democrats-virginia-plans-gerrymandering.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10pol-democrats-virginia2-bvfm/10pol-democrats-virginia2-bvfm-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "本地"
       ],
-      "score": 77,
-      "ago": "2小时前",
-      "pub_ts": 1778412569.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778428685.0,
       "hot": false
     },
     {
-      "id": "505f57ec0c",
+      "id": "d0ceb9f193",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Strait of Hormuz Remains Effectively Blocked After Naval Skirmishes",
-      "summary": "The U.S. Navy’s blockade continued to intercept ships trying to leave or enter Iranian ports, while fear of Iranian attacks kept other ships from attempting passage through the narrows.",
-      "link": "https://www.nytimes.com/2026/05/09/world/middleeast/strait-hormuz-ships-blockade-us-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09mideast-shipping-file-qtfv/09mideast-shipping-file-qtfv-mediumSquareAt3X.jpg",
+      "title": "Lebanese Mourn Eight Members of One Family Killed in Israeli Strike",
+      "summary": "Israel has escalated attacks on Lebanon since Thursday, further unraveling a truce in its war with Hezbollah. Among those killed on Saturday was a 6-month-old infant, relatives said.",
+      "link": "https://www.nytimes.com/2026/05/10/world/middleeast/lebanon-family-funeral-israel-strikes.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10int-lebanon-funeral-01-jwvp/10int-lebanon-funeral-01-jwvp-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1778419616.0,
+      "ago": "1小时前",
+      "pub_ts": 1778426937.0,
       "hot": false
     },
     {
-      "id": "36ce42073e",
+      "id": "ae13facc27",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Administration Is Considering Pausing the Federal Gas Tax to Lower Prices, Energy Secretary Sa",
+      "summary": "The tax is a little over 18 cents a gallon for gasoline. With the average national price above $4.50, the measure will provide little relief.",
+      "link": "https://www.nytimes.com/2026/05/10/us/politics/energy-secretary-federal-gas-tax.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10trump-news-gas-prices-tfjq/10trump-news-gas-prices-tfjq-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778426178.0,
+      "hot": false
+    },
+    {
+      "id": "4d1a780491",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Keir Starmer's party lost big in U.K. local elections. Here's what comes next.",
+      "title": "A chocolate laboratory in Italy will be good for chocolate eaters — and farmers",
+      "summary": "The chocolate biz is raising the bar with a lab to assess cacao beans from around the world. (Talk about a sweet gig!) Consumers and farmers stand to benefit from the \"Standard of Excellence\" program.",
+      "link": "https://www.npr.org/2026/05/10/g-s1-120911/chocolate-certified-cacao-standards-evaluate-coffee-wine",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778422026.0,
+      "hot": false
+    },
+    {
+      "id": "c0dc958822",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Keir Starmer's party lost big in U.K. local elections. Here's what comes next",
       "summary": "U.K. Prime Minister Keir Starmer's Labour party suffered major losses in local elections held across Britain last week. So far, Starmer has rejected calls for his resignation.",
       "link": "https://www.npr.org/2026/05/10/nx-s1-5817491/uk-elections-keir-starmer-resign-reform-green",
       "image": null,
@@ -54,8 +90,8 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778416056.0,
       "hot": false
     },
@@ -72,28 +108,9 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778415130.0,
-      "hot": false
-    },
-    {
-      "id": "04d43e7179",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How China May Have Sought to Recruit a House Aide to Spy on the U.S.",
-      "summary": "A staff member on the House China Committee was promised $10,000 for U.S. policy insights, on issues like Venezuela and rare-earth minerals.",
-      "link": "https://www.nytimes.com/2026/05/09/us/politics/china-us-spy-congressional-aide.html",
-      "image": "https://static01.nyt.com/images/2026/05/04/multimedia/dc-china-spy-4-clgb/dc-china-spy-4-clgb-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1778317309.0,
       "hot": false
     },
     {
@@ -110,7 +127,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778413242.0,
       "hot": false
     },
@@ -127,8 +144,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778410800.0,
       "hot": false
     },
@@ -145,8 +162,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778410800.0,
       "hot": false
     },
@@ -163,8 +180,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778407200.0,
       "hot": false
     },
@@ -181,8 +198,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778404223.0,
       "hot": false
     },
@@ -199,9 +216,27 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778403735.0,
+      "hot": false
+    },
+    {
+      "id": "8ffa29b65b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Vance or Rubio? Trump Muses on Successor as the ‘Kids’ Fill Bigger Roles.",
+      "summary": "Vice President JD Vance and Secretary of State Marco Rubio are boosting their profiles, generating speculation about who’s lining up for the 2028 presidential nomination.",
+      "link": "https://www.nytimes.com/2026/05/10/us/politics/vance-rubio-trump-succession.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00dc-rubio-vance-1-vjht/00dc-rubio-vance-1-vjht-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1778403730.0,
       "hot": false
     },
     {
@@ -217,8 +252,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778403693.0,
       "hot": false
     },
@@ -235,27 +270,29 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778403687.0,
       "hot": false
     },
     {
-      "id": "d4c9f449a9",
+      "id": "041012ec13",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Gas, groceries and getting by: How voters in one Ohio district see affordability",
-      "summary": "Ohio voters headed to the polls last week for primary elections, and in competitive districts like the one where Toledo is primarily located, the message was clear: affordability is a top priority.",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/05/10/g-s1-121112/ohio-voters-affordability-2026-midsterms-video",
-      "image": null,
+      "title": "G.O.P. Fatigue in Iowa Strains the Republican Primary for Governor",
+      "summary": "Five candidates are battling for the nomination in the June 2 primary. The winner will oppose Rob Sand, a Democrat, in the November election.",
+      "link": "https://www.nytimes.com/2026/05/10/us/elections/republican-primary-governor-iowa.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09nat-iowa-gop-bqwm/09nat-iowa-gop-bqwm-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "政治",
+        "天气",
+        "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778403600.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1778403606.0,
       "hot": false
     },
     {
@@ -272,26 +309,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1778377300.0,
-      "hot": false
-    },
-    {
-      "id": "c42898b995",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Redistricting Ruling in Virginia Adds to Gov. Abigail Spanberger’s Headaches",
-      "summary": "Gov. Abigail Spanberger had initially been skeptical of the push for new maps, but as the state’s leading Democrat she had a political stake in its fate.",
-      "link": "https://www.nytimes.com/2026/05/09/us/politics/virginia-redistricting-democrats-abigail-spanberger.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09NAT-SPANBERGER-01-hvwb/09NAT-SPANBERGER-01-hvwb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1778372448.0,
       "hot": false
     },
     {
@@ -308,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1778360983.0,
       "hot": false
     },
@@ -366,24 +385,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1778318685.0,
-      "hot": false
-    },
-    {
-      "id": "8a3b9275e2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why the Trump-Xi Summit Matters, Even if Little Seems to Come of It",
-      "summary": "The war in Iran, trade, artificial intelligence and Taiwan are expected to be on the agenda. But expectations are modest.",
-      "link": "https://www.nytimes.com/2026/05/09/world/asia/trump-xi-china-us-summit.html",
-      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/OakArticle-69fd448d-fbvp/OakArticle-69fd448d-fbvp-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778317705.0,
       "hot": false
     },
     {
