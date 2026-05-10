@@ -1,9 +1,45 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-10T04:29:30.946722+00:00",
-  "total": 23,
+  "updated_at": "2026-05-10T09:51:26.065788+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "17b59dcdc1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Iran ceasefire tested as cargo ship catches fire after being hit off Qatar's coast",
+      "summary": "A cargo ship caught fire Sunday after being hit by an unknown projectile off Qatar's coast, the British military said.",
+      "link": "https://www.npr.org/2026/05/10/nx-s1-5817437/iran-cargo-ship-hit-off-qatar",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "40分前",
+      "pub_ts": 1778404223.0,
+      "hot": false
+    },
+    {
+      "id": "d4c9f449a9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gas, groceries and getting by: How voters in one Ohio district see affordability",
+      "summary": "Ohio voters headed to the polls last week for primary elections, and in competitive districts like the one where Toledo is primarily located, the message was clear: affordability is a top priority.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/05/10/g-s1-121112/ohio-voters-affordability-2026-midsterms-video",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1778403600.0,
+      "hot": false
+    },
     {
       "id": "9d9b376721",
       "type": "news",
@@ -36,8 +72,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778377300.0,
       "hot": false
     },
@@ -54,8 +90,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778372448.0,
       "hot": false
     },
@@ -73,7 +109,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1778363004.0,
       "hot": false
     },
@@ -91,7 +127,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1778360983.0,
       "hot": false
     },
@@ -109,7 +145,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1778353424.0,
       "hot": false
     },
@@ -127,7 +163,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "15小时前",
       "pub_ts": 1778352067.0,
       "hot": false
     },
@@ -138,14 +174,14 @@
       "source": "NPR News",
       "lang": "en",
       "title": "CDC says threat of widespread outbreak of hantavirus remains low",
-      "summary": "As hantavirus has dominated headlines, sparking fears of another debilitating pandemic, the CDC stressed that the risk of sweeping contagion was small.",
+      "summary": "As hantavirus dominates the headlines, sparking fears of another debilitating pandemic, the CDC stresses that the risk of sweeping contagion is small.",
       "link": "https://www.npr.org/2026/05/09/g-s1-121307/cdc-says-threat-of-widespread-outbreak-of-hantavirus-remains-low",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1778348482.0,
       "hot": false
     },
@@ -163,7 +199,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1778348266.0,
       "hot": false
     },
@@ -181,7 +217,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1778339041.0,
       "hot": false
     },
@@ -199,7 +235,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1778338881.0,
       "hot": false
     },
@@ -217,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "20小时前",
       "pub_ts": 1778333533.0,
       "hot": false
     },
@@ -236,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1778326982.0,
       "hot": false
     },
@@ -254,44 +290,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1778326980.0,
-      "hot": false
-    },
-    {
-      "id": "66b5e51980",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Why saying hello to strangers can be good for you",
-      "summary": "A study establishes that \"social ties\" — a fancy way of saying being nice to other, even those you don't know — has benefits. A teacher asked her students to test the thesis in real life.",
-      "link": "https://www.npr.org/2026/05/09/g-s1-119761/hello-greeting-strangers-benefit-social-ties",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1778325644.0,
-      "hot": false
-    },
-    {
-      "id": "e65e80cf07",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "They graduate to six figure salaries, and grueling work",
-      "summary": "Cadets from the nation's Merchant Marine academies are finding lots of demand and great salaries because of a shortage of licensed mariners.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5789051/merchant-marine-sealift-jobs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1778320800.0,
       "hot": false
     },
     {
@@ -308,8 +308,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778318685.0,
       "hot": false
     },
@@ -326,8 +326,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778317343.0,
       "hot": false
     },
@@ -344,8 +344,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778317322.0,
       "hot": false
     },
@@ -362,8 +362,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778317286.0,
       "hot": false
     },
@@ -384,25 +384,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1778299466.0,
-      "hot": false
-    },
-    {
-      "id": "795f3051f6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Russia's Victory Day celebrations are dampened by ongoing war with Ukraine",
-      "summary": "World War 2 Victory Day celebrations in Moscow will be muted this year because of fears of drone attacks, as the public tires of the Ukraine war.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5810080/russias-victory-day-celebrations-are-dampened-by-ongoing-war-with-ukraine",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778270946.0,
       "hot": false
     },
     {
