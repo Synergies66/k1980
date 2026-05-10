@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-09T21:06:25.451216+00:00",
-  "total": 24,
+  "updated_at": "2026-05-10T04:29:30.946722+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "9d9b376721",
@@ -24,6 +24,96 @@
       "hot": false
     },
     {
+      "id": "823b647d2c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Protests and boycotts rock prestigious Venice Biennale",
+      "summary": "The 61st edition of the international art event launched on Saturday in an atmosphere marked by geopolitical strife.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5817005/protests-and-boycotts-rock-prestigious-venice-biennale",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778377300.0,
+      "hot": false
+    },
+    {
+      "id": "c42898b995",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Redistricting Ruling in Virginia Adds to Gov. Abigail Spanberger’s Headaches",
+      "summary": "Gov. Abigail Spanberger had initially been skeptical of the push for new maps, but as the state’s leading Democrat she had a political stake in its fate.",
+      "link": "https://www.nytimes.com/2026/05/09/us/politics/virginia-redistricting-democrats-abigail-spanberger.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09NAT-SPANBERGER-01-hvwb/09NAT-SPANBERGER-01-hvwb-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778372448.0,
+      "hot": false
+    },
+    {
+      "id": "505f57ec0c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Strait of Hormuz Remains Effectively Blocked After Naval Skirmishes",
+      "summary": "The U.S. Navy’s blockade continued to intercept ships trying to leave or enter Iranian ports, while fear of Iranian attacks kept other ships from attempting passage through the narrows.",
+      "link": "https://www.nytimes.com/2026/05/09/world/middleeast/strait-hormuz-ships-blockade-us-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09mideast-shipping-file-qtfv/09mideast-shipping-file-qtfv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778363004.0,
+      "hot": false
+    },
+    {
+      "id": "cab69c11e8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Mideast war worsens conflict between elephants and villagers in Sri Lanka",
+      "summary": "Conflict between farmers and elephants in Sri Lanka has grown worse as food and fuel are scarcer due to war in the Middle East.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5809389/mideast-war-worsens-conflict-between-elephants-and-villagers-in-sri-lanka",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1778360983.0,
+      "hot": false
+    },
+    {
+      "id": "447b02a93f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'We're dry:' The new U.S. Wildland Fire Service prepares for extreme fire season",
+      "summary": "Brian Fennessy, new head of the U.S. Wildland Fire Service, says his agency is 'trying to bring on additional aircraft and bring them on early,' and dismisses criticism of prevention methods.",
+      "link": "https://www.npr.org/2026/05/09/nx-s1-5804693/prevention-wildfires-firefighters-vegetation-wildland-fire-service",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1778353424.0,
+      "hot": false
+    },
+    {
       "id": "575794dd5a",
       "type": "news",
       "region": "us",
@@ -36,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778352067.0,
       "hot": false
     },
@@ -54,8 +144,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1778348482.0,
       "hot": false
     },
@@ -72,9 +162,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778348265.0,
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1778348266.0,
       "hot": false
     },
     {
@@ -91,7 +181,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1778339041.0,
       "hot": false
     },
@@ -109,7 +199,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1778338881.0,
       "hot": false
     },
@@ -127,7 +217,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1778333533.0,
       "hot": false
     },
@@ -146,7 +236,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1778326982.0,
       "hot": false
     },
@@ -164,7 +254,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1778326980.0,
       "hot": false
     },
@@ -182,7 +272,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1778325644.0,
       "hot": false
     },
@@ -200,43 +290,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778320800.0,
-      "hot": false
-    },
-    {
-      "id": "e730dc0fb3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Southern Republicans redistrict after Supreme Court rules, Dems lose big in Virginia",
-      "summary": "The Supreme Court weakened minority voting rights and prompted Republicans in four states to move to redistrict as part of Trump's push. A court nullified Democratic redistricting in Virginia.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5812908/trump-midterms-redistricting-election",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778320800.0,
-      "hot": false
-    },
-    {
-      "id": "31c53d0da6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Soccer was once considered niche in the U.S. Then came the 1994 World Cup",
-      "summary": "Soccer — or football as it's known around the globe — was far from mainstream in the U.S. leading up to the 1994 World Cup. But in the end, the tournament was considered a resounding success. How exac",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5795791/2026-history-soccer-fifa-world-cup-fans",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1778320800.0,
       "hot": false
     },
@@ -255,26 +309,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1778318685.0,
-      "hot": false
-    },
-    {
-      "id": "2d0fe327cb",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Which Trump Tariffs Are in Place, in the Works or Ruled Illegal",
-      "summary": "The president has reworked his tariffs repeatedly — sometimes because they have been declared illegal — with more updates still to come.",
-      "link": "https://www.nytimes.com/2026/05/09/business/economy/trump-tariff-timeline.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/2026-tariff-tracker-embeds-index/2026-tariff-tracker-embeds-index-mediumSquareAt3X-v7.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778317344.0,
       "hot": false
     },
     {
@@ -291,7 +327,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1778317343.0,
       "hot": false
     },
@@ -309,26 +345,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778317321.0,
-      "hot": false
-    },
-    {
-      "id": "920d5c8e53",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Two Court Decisions Have Unleashed an Era of Perpetual Redistricting",
-      "summary": "Four states are considering drawing new maps in the coming weeks. Another dozen or more could join the fray next year.",
-      "link": "https://www.nytimes.com/2026/05/09/us/politics/redistricting-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/us/09pol-state-leg-redistricting/09pol-state-leg-redistricting-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778317315.0,
+      "ago": "19小时前",
+      "pub_ts": 1778317322.0,
       "hot": false
     },
     {
@@ -345,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1778317286.0,
       "hot": false
     },
@@ -363,8 +381,8 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "17小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778299466.0,
       "hot": false
     },
@@ -385,42 +403,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1778270946.0,
-      "hot": false
-    },
-    {
-      "id": "7a8d58d540",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Colombia's rogue hippos could find refuge in India",
-      "summary": "In Colombia, a plan to cull Pablo Escobar's invasive hippos is challenged by an Indian billionaire's offer to relocate dozens of the animals to India's wildlife reserve instead.",
-      "link": "https://www.npr.org/2026/05/08/nx-s1-5814169/cocaine-hippos-colombia-india",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778257459.0,
-      "hot": false
-    },
-    {
-      "id": "e65b719803",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. intercepts Iranian attacks on 3 ships. And, what to know about hantavirus",
-      "summary": "The U.S. says it intercepted Iranian attacks yesterday targeting three Navy ships. And, what to know about the hantavirus outbreak that started on a cruise ship.",
-      "link": "https://www.npr.org/2026/05/08/g-s1-121064/up-first-newsletter-iran-us-tennessee-congressional-maps-hantavirus-tariffs",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778239597.0,
       "hot": false
     },
     {
