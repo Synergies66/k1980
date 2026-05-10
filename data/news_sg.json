@@ -1,118 +1,242 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-05-10T17:37:13.699551+00:00",
+  "updated_at": "2026-05-10T21:33:27.150684+00:00",
   "total": 16,
   "articles": [
     {
-      "id": "dc01a322c1",
+      "id": "937dc0e1f2",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "China, US to hold trade talks in Seoul ahead of Trump-Xi summit",
-      "summary": "Amidst conflict the in the Middle East and rising oil costs, the meeting between the world's largest two economies aims to focus on easing international tensions.",
-      "link": "https://www.channelnewsasia.com/world/china-us-hold-trade-talks-in-seoul-ahead-trump-xi-summit-6112241",
-      "image": "https://dam.mediacorp.sg/image/upload/s--U_VJ-wow--/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/Trump_China_62916.jpg?itok=CL8WkodJ",
+      "title": "PSG move to the cusp of fifth successive Ligue 1 title",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/psg-move-cusp-fifth-successive-ligue-1-title-6112471",
+      "image": null,
       "categories": [
-        "华人",
-        "科技"
+        "本地"
       ],
-      "score": 82,
-      "ago": "32分前",
-      "pub_ts": 1778432650.0,
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1778447933.0,
       "hot": false
     },
     {
-      "id": "6209c6fbb6",
+      "id": "32932baef7",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Latvian defence minister resigns after Ukrainian drones hit oil tanks",
-      "summary": "Russia has used electronic warfare to disrupt the path of Ukrainian drones.",
-      "link": "https://www.channelnewsasia.com/world/latvian-defence-minister-resigns-after-ukrainian-drones-hit-oil-tanks-6112251",
-      "image": "https://dam.mediacorp.sg/image/upload/s--cddTfgBJ--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-10T163916Z_1_LYNXMPEM4909R_RTROPTP_3_UKRAINE-CRISIS-GERMANY-LATVIA.JPG?itok=L_tdD2oO",
+      "title": "Trump calls Iran's response to US peace proposal 'unacceptable'",
+      "summary": "The White House continues to face mounting pressure from US citizens over rising gas prices caused by the Iranian blockade over the Strait of Hormuz.",
+      "link": "https://www.channelnewsasia.com/world/trump-calls-irans-response-us-peace-proposal-unacceptable-6112436",
+      "image": "https://dam.mediacorp.sg/image/upload/s--nEtfTcCL--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-10T074423Z_1_LYNXMPEM4903J_RTROPTP_3_IRAN-CRISIS-DAILY-LIFE.JPG?itok=Tqds7ffG",
       "categories": [
-        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "20分前",
+      "pub_ts": 1778447581.0,
+      "hot": false
+    },
+    {
+      "id": "2b1db1ebad",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Barcelona seal 29th LaLiga title with 2-0 Clasico win over Real Madrid",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/barcelona-seal-29th-laliga-title-2-0-clasico-win-over-real-madrid-6112451",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "25分前",
+      "pub_ts": 1778447296.0,
+      "hot": false
+    },
+    {
+      "id": "bb95224961",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "AC Milan’s top-four bid hit by late 3-2 home defeat to Atalanta",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/ac-milans-top-four-bid-hit-late-3-2-home-defeat-atalanta-6112456",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "28分前",
+      "pub_ts": 1778447115.0,
+      "hot": false
+    },
+    {
+      "id": "6e6e0bf23f",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Humanoid robots at MRT stations in 10-15 years: Panellists at ST roundtable on future of transport",
+      "summary": "AI should support human workers, not replace them, say experts.",
+      "link": "https://www.straitstimes.com/singapore/transport/humanoid-robots-at-mrt-stations-in-10-15-years-panellists-at-st-roundtable-on-future-of-transport",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1778446800.0,
+      "hot": false
+    },
+    {
+      "id": "823cd93f84",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Hormones of humpback whales indicate mating patterns, stressors at sea",
+      "summary": "Changes in the ocean caused by marine heatwaves, pollution and industrial activity can affect the whales' stress levels.",
+      "link": "https://www.straitstimes.com/singapore/environment/stress-hormones-of-humpback-whales-point-to-marine-environment",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1778446800.0,
+      "hot": false
+    },
+    {
+      "id": "90a54f865d",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "SIT-designed AI, VR tools used to assess workers’ skills and address gaps",
+      "summary": "SIT is working with SkillsFuture Singapore to create a national standard for testing a variety of professional skills.",
+      "link": "https://www.straitstimes.com/singapore/sit-designed-ai-vr-tools-used-to-assess-workers-skills-and-address-gaps",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1778446800.0,
+      "hot": false
+    },
+    {
+      "id": "27451e0a07",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Maintaining MRT system more complex as network ages: ST roundtable panellists",
+      "summary": "One maintenance challenge is that older systems behave differently from newer ones, said the panellists.",
+      "link": "https://www.straitstimes.com/singapore/transport/maintaining-mrt-system-more-complex-as-network-ages-st-roundtable-panellists",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1778446800.0,
+      "hot": false
+    },
+    {
+      "id": "37485235bf",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "LTA to remove most of live traffic video feeds, some electronic signboards in transition to ERP 2",
+      "summary": "It will provide key traffic information directly to motorists via ERP 2’s on-board unit.",
+      "link": "https://www.straitstimes.com/singapore/transport/lta-to-remove-most-live-traffic-video-feed-some-electronic-signboards-in-transition-to-erp-2",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "33分前",
+      "pub_ts": 1778446800.0,
+      "hot": false
+    },
+    {
+      "id": "f0bb245cdb",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Arsenal's Arteta praises courage of referee after pivotal decision",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/arsenals-arteta-praises-courage-referee-after-pivotal-decision-6112411",
+      "image": "https://dam.mediacorp.sg/image/upload/s--9dYoFr6B--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-10T202640Z_1_LYNXMPEM490CB_RTROPTP_3_SOCCER-ENGLAND-WHU-ARS.JPG?itok=0zYD_xCq",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778444800.0,
+      "hot": false
+    },
+    {
+      "id": "5e04e02618",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Mumbai, Lucknow out of IPL playoffs as RCB win thriller, CSK stay alive",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/mumbai-lucknow-out-ipl-playoffs-rcb-win-thriller-csk-stay-alive-6112366",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778442007.0,
+      "hot": false
+    },
+    {
+      "id": "95f90619ed",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Ukraine, Russia trade accusations of violating US-backed ceasefire",
+      "summary": "The fragile ceasefire has come under strain as both countries search for a permanent to end the war.",
+      "link": "https://www.channelnewsasia.com/world/ukraine-russia-trade-accusations-violating-us-backed-ceasefire-6112291",
+      "image": "https://dam.mediacorp.sg/image/upload/s--0Ycus9gl--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-10T172933Z_1_LYNXMPEM490AF_RTROPTP_3_UKRAINE-CRISIS-DAILYLIFE.JPG?itok=77WjydzW",
+      "categories": [
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1778434033.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778437688.0,
       "hot": false
     },
     {
-      "id": "ff70c5cc6c",
+      "id": "dca308a4e5",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Villa held by Burnley as Everton falter and Forest edge toward safety",
+      "title": "Trossard secures vital win for Arsenal at West Ham",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/villa-held-burnley-everton-falter-and-forest-edge-toward-safety-6112256",
+      "link": "https://www.channelnewsasia.com/sport/trossard-secures-vital-win-arsenal-west-ham-6112266",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "21分前",
-      "pub_ts": 1778433341.0,
-      "hot": false
-    },
-    {
-      "id": "335bb33b37",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Everton's European hopes fade further, but Moyes not waving white flag",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/evertons-european-hopes-fade-further-moyes-not-waving-white-flag-6112236",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1778431321.0,
-      "hot": false
-    },
-    {
-      "id": "0e3af8d1a7",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Nottingham Forest strike late to grab precious point against Newcastle",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/nottingham-forest-strike-late-grab-precious-point-against-newcastle-6112176",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778428164.0,
-      "hot": false
-    },
-    {
-      "id": "248b34aabe",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Villa stumble again in 2-2 draw with Burnley",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/villa-stumble-again-in-2-2-draw-burnley-6112171",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778427932.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778435154.0,
       "hot": false
     },
     {
@@ -129,26 +253,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778427300.0,
-      "hot": false
-    },
-    {
-      "id": "3d935cdd0f",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Singaporean hiker who died in Mount Dukono eruption remembered for his selflessness, adventurous spi",
-      "summary": "Mr Timothy Heng put others before himself, and his family has found comfort in knowing that he spent his last moments trying to help someone else, his step-sister told CNA.",
-      "link": "https://www.channelnewsasia.com/singapore/hiker-died-mount-dukono-timothy-heng-wen-qiang-6112116",
-      "image": "https://dam.mediacorp.sg/image/upload/s--p0-udJe6--/c_crop,h_480,w_854,x_0,y_267/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/10/whatsapp_image_2026-05-10_at_8.22.30_pm.jpeg?itok=T7RjEAAn",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778427000.0,
       "hot": false
     },
     {
@@ -164,27 +270,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778426700.0,
-      "hot": false
-    },
-    {
-      "id": "09f3c4c3bc",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Magnier triumphs again to win Giro stage three in Sofia",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/magnier-triumphs-again-win-giro-stage-three-in-sofia-6112156",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778424554.0,
       "hot": false
     },
     {
@@ -201,98 +289,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778406300.0,
-      "hot": false
-    },
-    {
-      "id": "136eb57263",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Elderly woman rescued after being pinned under car near Jalan Besar",
-      "summary": "The 84-year-old was taken conscious to Tan Tock Seng Hospital.",
-      "link": "https://www.straitstimes.com/singapore/elderly-woman-rescued-by-scdf-after-being-pinned-under-car-near-jalan-besar",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778406000.0,
-      "hot": false
-    },
-    {
-      "id": "362c922adf",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Unlocking the vault: NYP trio uses AI to ‘immortalise’ part of Singapore history",
-      "summary": "The team is behind ArchAIve, a tool used to digitise historical artefacts and pictures.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/unlocking-the-vault-meet-nyp-trio-using-ai-to-immortalise-part-of-spore-history",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778403600.0,
-      "hot": false
-    },
-    {
-      "id": "4c52b7cbf3",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Canvas cyberattack: NUS, SIM ask users to reset passwords as added precaution",
-      "summary": "The cyberattack on May 7 blocked access to the Canvas learning platform used by many institutions globally.",
-      "link": "https://www.straitstimes.com/singapore/canvas-cyberattack-nus-sim-ask-users-to-reset-passwords-as-added-precaution",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778393700.0,
-      "hot": false
-    },
-    {
-      "id": "88497c128f",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "PSLE Companion subscribers can try out cher.ai for free",
-      "summary": "And in June, they will receive a special discount to continue using the platform.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/psle-companion-subscribers-can-try-out-cher-ai-for-free",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778392620.0,
-      "hot": false
-    },
-    {
-      "id": "617290c0e9",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "How AI tools can help level up your child’s PSLE English oral performance",
-      "summary": "AI-powered platforms have made highly personalised feedback more accessible.",
-      "link": "https://www.straitstimes.com/singapore/parenting-education/how-ai-tools-can-help-level-up-your-childs-psle-english-oral-performance",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778392560.0,
       "hot": false
     }
   ]
