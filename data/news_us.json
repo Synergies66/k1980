@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-10T21:09:45.956656+00:00",
-  "total": 22,
+  "updated_at": "2026-05-11T04:40:54.854802+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "4a6c474205",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What Middle Powers Fear from the Trump-Xi Summit",
+      "summary": "Asian nations worry that the president might trade security commitments for better economic terms with China during his planned meeting with Xi Jinping this week.",
+      "link": "https://www.nytimes.com/2026/05/11/world/asia/trump-xi-china-summit-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11trump-xi-asia-01-vkcf/11trump-xi-asia-01-vkcf-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "39分前",
+      "pub_ts": 1778472068.0,
+      "hot": false
+    },
     {
       "id": "916fd65885",
       "type": "news",
@@ -17,28 +35,117 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "4分前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1778447090.0,
       "hot": false
     },
     {
-      "id": "074c0bf908",
+      "id": "8a3b9275e2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "With Commissioner Under Pressure, F.D.A. Opens Door to Flavored Vapes",
-      "summary": "Though illicit e-cigarettes have flooded in from China, the new policy could allow major tobacco companies to sell from prime shelf space at thousands of stores.",
-      "link": "https://www.nytimes.com/2026/05/10/science/fda-flavored-vapes.html",
-      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10dc-fda-vapes1-zhcj/10dc-fda-vapes1-zhcj-mediumSquareAt3X.jpg",
+      "title": "Why the Trump-Xi Summit Matters, Even if Little Seems to Come of It",
+      "summary": "The war in Iran, trade, artificial intelligence and Taiwan are expected to be on the agenda. But expectations are modest.",
+      "link": "https://www.nytimes.com/2026/05/09/world/asia/trump-xi-china-us-summit.html",
+      "image": "https://static01.nyt.com/images/2026/05/07/multimedia/OakArticle-69fd448d-fbvp/OakArticle-69fd448d-fbvp-mediumSquareAt3X-v3.jpg",
       "categories": [
-        "华人",
-        "天气"
+        "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
-      "pub_ts": 1778430896.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778463770.0,
+      "hot": false
+    },
+    {
+      "id": "f059ea9e2a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. cruise passengers head to Nebraska for hantavirus monitoring",
+      "summary": "Passengers are returning to their home countries after weeks on the ship at the center of a hantavirus outbreak. The Americans aboard are headed for Nebraska to be evaluated by health officials.",
+      "link": "https://www.npr.org/2026/05/10/nx-s1-5817578/hantavirus-cruise-ship-nebraska-us-passengers",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778463744.0,
+      "hot": false
+    },
+    {
+      "id": "7501f5a8f5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says Iran’s Response to Latest U.S. Proposal ‘Totally Unacceptable’",
+      "summary": "The United States and Iran have been discussing a 30-day extension to their cease-fire and a reopening of the Strait of Hormuz.",
+      "link": "https://www.nytimes.com/2026/05/10/us/politics/iran-war-us-peace-proposal-response.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10trump-news-iran-response-mhcv/10trump-news-iran-response-mhcv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778460510.0,
+      "hot": false
+    },
+    {
+      "id": "6173ed6284",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israeli settlers force Palestinian family to exhume and rebury their father",
+      "summary": "The relatives of Hussein Asasa described to NPR how they were forced to exhume and rebury their father when Israeli settlers interfered with his grave.",
+      "link": "https://www.npr.org/2026/05/10/nx-s1-5817496/israeli-settlers-palestinian-exhume-grave-west-bank-jenin",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778455587.0,
+      "hot": false
+    },
+    {
+      "id": "cb556476a2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle",
+      "summary": "Oil prices rose and stock futures ticked down as investors reacted after the two sides failed to agree on a U.S.-Iran peace deal.",
+      "link": "https://www.nytimes.com/2026/05/10/business/oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle.html",
+      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10biz-oil-stocks-gas-1-hbjg/10biz-oil-stocks-gas-1-hbjg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778455176.0,
+      "hot": false
+    },
+    {
+      "id": "3785edc442",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump rejects Iran's latest response to U.S. ceasefire proposal",
+      "summary": "Iran delivered its response to Pakistani mediators on Sunday, according to the state-run Islamic Republic News Agency.",
+      "link": "https://www.npr.org/2026/05/10/nx-s1-5817605/trump-rejects-iran-ceasefire-proposal",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778451502.0,
       "hot": false
     },
     {
@@ -54,9 +161,9 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "54分前",
-      "pub_ts": 1778444125.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778449851.0,
       "hot": false
     },
     {
@@ -72,64 +179,26 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778442764.0,
       "hot": false
     },
     {
-      "id": "041012ec13",
+      "id": "603b76559d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "G.O.P. Fatigue in Iowa Strains the Republican Primary for Governor",
-      "summary": "Five candidates are battling for the nomination in the June 2 primary. The winner will oppose Rob Sand, a Democrat, in the November election.",
-      "link": "https://www.nytimes.com/2026/05/10/us/elections/republican-primary-governor-iowa.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/09nat-iowa-gop-bqwm/09nat-iowa-gop-bqwm-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778442718.0,
-      "hot": false
-    },
-    {
-      "id": "8ffa29b65b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Vance or Rubio? Trump Muses on Successor as the ‘Kids’ Fill Bigger Roles.",
-      "summary": "Vice President JD Vance and Secretary of State Marco Rubio are boosting their profiles, generating speculation about who’s lining up for the 2028 presidential nomination.",
-      "link": "https://www.nytimes.com/2026/05/10/us/politics/vance-rubio-trump-succession.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00dc-rubio-vance-1-vjht/00dc-rubio-vance-1-vjht-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778442661.0,
-      "hot": false
-    },
-    {
-      "id": "e104520e4b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Fearing an All-Republican Governor’s Race, Democrats Push for New Primary Rules in California",
+      "title": "Democratic Angst Could Lead California to Change Primary Rules",
       "summary": "The prospect of Democrats getting shut out of the general election for governor has spurred an effort to eliminate the state’s “top-two” open primary approach.",
       "link": "https://www.nytimes.com/2026/05/10/us/california-primary-rules-change-democrats.html",
       "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10nat-ca-election-system-tmgw/10nat-ca-election-system-tmgw-mediumSquareAt3X.jpg",
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778440191.0,
       "hot": false
     },
@@ -146,8 +215,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1778428685.0,
       "hot": false
     },
@@ -165,7 +234,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1778422026.0,
       "hot": false
     },
@@ -184,7 +253,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "16小时前",
       "pub_ts": 1778416056.0,
       "hot": false
     },
@@ -202,7 +271,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "16小时前",
       "pub_ts": 1778415130.0,
       "hot": false
     },
@@ -220,7 +289,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1778413242.0,
       "hot": false
     },
@@ -238,25 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778410800.0,
-      "hot": false
-    },
-    {
-      "id": "a9c2823398",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How a pill approved 25 years ago transformed cancer treatment",
-      "summary": "When the Food and Drug Administration approved Gleevec to treat a form of leukemia in 2001, it ushered in a new era in cancer care.",
-      "link": "https://www.npr.org/2026/05/10/nx-s1-5779279/gleevec-leukemia-cancer-treatment",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1778410800.0,
       "hot": false
     },
@@ -264,7 +315,7 @@
       "id": "299da1979f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cape Verde: Tiny nation, massive World Cup dream",
       "summary": "In Cape Verde, a small island nation off West Africa, World Cup qualification is transforming dreams on and off the pitch.",
@@ -274,7 +325,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1778407200.0,
       "hot": false
     },
@@ -282,7 +333,7 @@
       "id": "17b59dcdc1",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Iran ceasefire tested as cargo ship catches fire after being hit off Qatar's coast",
       "summary": "A cargo ship caught fire Sunday after being hit by an unknown projectile off Qatar's coast, the British military said.",
@@ -292,26 +343,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "19小时前",
       "pub_ts": 1778404223.0,
-      "hot": false
-    },
-    {
-      "id": "77d9073d65",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Mass Layoffs in Iran as Businesses Buckle Under Wartime Pressures",
-      "summary": "Iran was already struggling economically before 2026 brought widespread instability. A government-imposed internet shutdown has crippled an entire sector.",
-      "link": "https://www.nytimes.com/2026/05/10/world/middleeast/iran-economy-layoffs.html",
-      "image": "https://static01.nyt.com/images/2026/05/10/multimedia/10int-iran-layoffs-01-jgfb/10int-iran-layoffs-01-jgfb-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778403687.0,
       "hot": false
     },
     {
@@ -327,64 +360,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "19小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778377300.0,
-      "hot": false
-    },
-    {
-      "id": "cab69c11e8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Mideast war worsens conflict between elephants and villagers in Sri Lanka",
-      "summary": "Conflict between farmers and elephants in Sri Lanka has grown worse as food and fuel are scarcer due to war in the Middle East.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5809389/mideast-war-worsens-conflict-between-elephants-and-villagers-in-sri-lanka",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1778360983.0,
-      "hot": false
-    },
-    {
-      "id": "4fab24fc59",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "An expert on Iranian politics reviews the status of negotiations to end the war on Iran",
-      "summary": "NPR's Elissa Nadworny talks to Mehrzad Boroujerdi of the Missouri University of Science and Technology about the status of the Trump Administration's negotiations to end the war on Iran.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5814972/an-expert-on-iranian-politics-review-the-status-of-negotiations-to-end-the-war-on-iran",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778326982.0,
-      "hot": false
-    },
-    {
-      "id": "e75c13ec28",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Revisiting Guy Goma's iconic accidental BBC interview 20 years ago this week",
-      "summary": "NPR's Elissa Nadworny talks to Guy Goma who thought he was being interviewed for an IT job at the BBC but instead found himself live on air. His interview 20 years ago became a viral sensation.",
-      "link": "https://www.npr.org/2026/05/09/nx-s1-5814110/revisiting-guy-gomas-iconic-accidental-bbc-interview-20-years-ago-this-week",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778326980.0,
       "hot": false
     },
     {
