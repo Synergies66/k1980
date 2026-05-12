@@ -1,9 +1,83 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-12T07:21:18.195581+00:00",
+  "updated_at": "2026-05-12T10:55:27.257300+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "cc0a49bf7e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "China Sought Access to Anthropic’s Newest A.I. The Answer Was No.",
+      "summary": "The latest artificial intelligence models from Anthropic and OpenAI are extending the United States’ lead over China and intensifying the rivalry between the countries.",
+      "link": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/dc-ai-china-lfmc/dc-ai-china-lfmc-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778576622.0,
+      "hot": false
+    },
+    {
+      "id": "7419bf4d94",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As Trump goes to China, what do Americans say about tariffs, Iran and world standing?",
+      "summary": "Most Americans see China as one of the United States' biggest rivals or adversaries, but largely as an economic threat, according to a new Chicago Council/NPR/Ipsos poll.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5817601/trump-xi-china-tariffs-poll",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "e935819d39",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump goes to China as Iran war smolders",
+      "summary": "President Trump says he has a great relationship with President Xi. His trip to China will provide a temperature check.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818529/trump-china-iran-war",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "4c663d1cf9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The economic chilling effect of Trump's immigration crackdown",
+      "summary": "New research finds that ICE raids and deportation fears disrupted local economies, reduced work among undocumented immigrants, and may have hurt some U.S.-born workers too.",
+      "link": "https://www.npr.org/sections/planet-money/2026/05/12/g-s1-121493/the-economic-chilling-effect-of-trumps-immigration-crackdown",
+      "image": null,
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "25分前",
+      "pub_ts": 1778581800.0,
+      "hot": false
+    },
     {
       "id": "8ff11c1d61",
       "type": "news",
@@ -18,8 +92,8 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "59分前",
+      "score": 77,
+      "ago": "4小时前",
       "pub_ts": 1778566916.0,
       "hot": false
     },
@@ -37,8 +111,8 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1778564170.0,
       "hot": false
     },
@@ -55,100 +129,153 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1778558407.0,
       "hot": false
     },
     {
-      "id": "c33a387326",
+      "id": "7decb89b0e",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump heads to China amid ongoing war with Iran",
-      "summary": "President Trump's trip to China is going forward despite the war with Iran casting a shadow over the state visit.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5816150/trump-heads-to-china-amid-ongoing-war-with-iran",
-      "image": null,
+      "title": "How Iran’s Internet Blackout Is Crippling Its Economy, and the Fight Over Fruit-Flavored Vapes",
+      "summary": "Plus, how everything became a subscription.",
+      "link": "https://www.nytimes.com/2026/05/12/podcasts/the-headlines/iran-internet-blackout-ieconomy-fruit-flavored-vapes.html",
+      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12thehealdines-iraneco-03-tmpc/12thehealdines-iraneco-03-tmpc-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "经济"
       ],
-      "score": 72,
-      "ago": "20小时前",
-      "pub_ts": 1778496089.0,
+      "score": 70,
+      "ago": "55分前",
+      "pub_ts": 1778580009.0,
       "hot": false
     },
     {
-      "id": "151cae1c43",
+      "id": "1cfa3da393",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "AI on the agenda as Trump heads to China",
-      "summary": "Artificial intelligence on the agenda for President Trump's upcoming meeting with Chinese President Xi Jinping.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5812681/ai-on-the-agenda-as-trump-heads-to-china",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "22小时前",
-      "pub_ts": 1778488973.0,
-      "hot": false
-    },
-    {
-      "id": "dc89a819d7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Israeli lawmakers set up tribunal, allow for death penalty for October 2023 attackers",
-      "summary": "The measure passed 93-0 in the 120-seat Knesset, or parliament, reflecting widespread support for punishing those found responsible for what was the deadliest attack in Israel's history.",
-      "link": "https://www.npr.org/2026/05/12/g-s1-121583/israeli-lawmakers-set-up-a-special-tribunal",
+      "title": "Who Might Challenge Starmer in a Leadership Contest?",
+      "summary": "Health Secretary Wes Streeting, Mayor of Greater Manchester Andy Burnham and former deputy prime minister Angela Rayner are among possible contenders.",
+      "link": "https://www.nytimes.com/2026/05/12/world/europe/who-could-replace-starmer-uk-prime-minister.html",
       "image": null,
       "categories": [
         "政治"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778565752.0,
+      "pub_ts": 1778579541.0,
       "hot": false
     },
     {
-      "id": "d54c7390f2",
+      "id": "049d160639",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Craig Morton, former quarterback for Cowboys and Broncos, dies at 83",
-      "summary": "Craig Morton, who spent 18 years in the NFL and became the first quarterback to start the Super Bowl for two franchises — the Dallas Cowboys and Denver Broncos — has died. He was 83.",
-      "link": "https://www.npr.org/2026/05/12/g-s1-121585/craig-morton-quarterback-dies",
+      "title": "U.S. ambassador to Israel says Israel sent Iron Dome batteries, personnel to UAE",
+      "summary": "Israel sent Iron Dome anti-missile batteries and personnel to operate them to the United Arab Emirates to defend the country during the Iran war, the U.S. ambassador to the country said Tuesday.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5819174/israel-sent-iron-dome-uae",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778565741.0,
+      "pub_ts": 1778577319.0,
       "hot": false
     },
     {
-      "id": "e170b218d6",
+      "id": "67fc3ba3a2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How an ‘Impossible’ Idea Led to a Pancreatic Cancer Breakthrough",
+      "summary": "The new strategy also holds promise for lung and colon tumors. Here’s how scientists discovered it.",
+      "link": "https://www.nytimes.com/2026/05/12/health/pancreatic-cancer-daraxonrasib-kras.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00HS-cancer-kras-stillpromo-gzfw/00HS-cancer-kras-stillpromo-gzfw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778576530.0,
+      "hot": false
+    },
+    {
+      "id": "e35de803e5",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "EU diplomats agree to sanction Hamas leaders and Israeli settlers",
-      "summary": "The unanimous decision by the European Union, agreed to on Monday, was sparked by growing outrage over the devastation in Gaza during the Israel-Hamas war.",
-      "link": "https://www.npr.org/2026/05/12/g-s1-121581/eu-sanction-hamas-leaders-israeli-settlers",
+      "title": "24 hours with 3 teenage birders: Welcome to the World Series of Birding",
+      "summary": "The three high-school birders, dubbed The Pete Dunnelins, have one day to count as many bird species across the state of New Jersey as physically possible. Here's what it takes.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5801539/world-series-of-birding-new-jersey",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "ef79c5a255",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The clipping economy: How short-form video 'clippers' are overrunning\nthe internet",
+      "summary": "Short-form clips of long interviews and shows are taking over the internet. But behind the sea of social media clips are marketplaces offering freelance clippers money per view.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5794670/influencers-creators-video-clips",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "1a9258a8ae",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Drive 5 hours or fly 20 minutes? Remote towns suffer from lack of year-round flights",
+      "summary": "A federal program that pays airlines to operate in small and rural communities could have its budget cut in half, leaving parts of the country with no flight options.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5796244/aviation-rural-flights",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "b4d4cf82ae",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She's trying to outrun pancreatic cancer. Breakthrough treatments give her hope",
+      "summary": "Pancreatic cancer is notoriously lethal. But new treatments mean that may be changing, and people with the disease now have more reason to hope than ever before.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5783797/pancreatic-cancer-breakthroughs-daraxonrasib-mrna",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778564822.0,
+      "pub_ts": 1778576400.0,
       "hot": false
     },
     {
@@ -165,244 +292,116 @@
         "移民"
       ],
       "score": 70,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1778499091.0,
       "hot": false
     },
     {
-      "id": "dd9a904291",
+      "id": "c33a387326",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Why Republicans Are Still Drawing House Maps, While Democrats Are Stuck",
-      "summary": "The G.O.P. has seized an edge on redistricting thanks to two court rulings, and it has more room to maneuver for extra seats before the midterms.",
-      "link": "https://www.nytimes.com/2026/05/11/us/politics/redistricting-republicans-democrats.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11pol-redistricting-explainer-fvhc/11pol-redistricting-explainer-fvhc-mediumSquareAt3X-v2.jpg",
+      "title": "Trump heads to China amid ongoing war with Iran",
+      "summary": "President Trump's trip to China is going forward despite the war with Iran casting a shadow over the state visit.",
+      "link": "https://www.npr.org/2026/05/11/nx-s1-5816150/trump-heads-to-china-amid-ongoing-war-with-iran",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 67,
+      "ago": "昨日",
+      "pub_ts": 1778496089.0,
+      "hot": false
+    },
+    {
+      "id": "5bf8f006f1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Israel to hold military tribunal for Palestinians accused in 2023 Hamas-led attacks",
+      "summary": "Israel is planning a military tribunal to prosecute several hundred Palestinians accused of perpetrating the Hamas-led attacks of Oct. 7, 2023.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818455/israel-to-hold-military-tribunal-for-palestinians-accused-in-2023-hamas-led-attacks",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778575424.0,
+      "hot": false
+    },
+    {
+      "id": "91aaa9e53d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Military drills in the Philippines affect the country's most vulnerable communities",
+      "summary": "Military drills disrupted fishing livelihoods in the Philippines, sparking protests as locals are caught between a great power rivalry and rising economic pressures linked to the Iran war.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5816021/military-drills-in-the-philippines-affect-the-countrys-most-vulnerable-communities",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778575411.0,
+      "hot": false
+    },
+    {
+      "id": "dc89a819d7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Israeli lawmakers set up tribunal, allow for death penalty for October 2023 attackers",
+      "summary": "The measure passed 93-0 in the 120-seat Knesset, or parliament, reflecting widespread support for punishing those found responsible for what was the deadliest attack in Israel's history.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121583/israeli-lawmakers-set-up-a-special-tribunal",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778565752.0,
+      "hot": false
+    },
+    {
+      "id": "e170b218d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "EU diplomats agree to sanction Hamas leaders and Israeli settlers",
+      "summary": "The unanimous decision by the European Union, agreed to on Monday, was sparked by growing outrage over the devastation in Gaza during the Israel-Hamas war.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121581/eu-sanction-hamas-leaders-israeli-settlers",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1778550692.0,
+      "pub_ts": 1778564822.0,
       "hot": false
     },
     {
-      "id": "c7a02e8691",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump taps former FEMA director to lead the disaster agency again",
-      "summary": "Cameron Hamilton led FEMA briefly in 2025. He was removed by the Trump administration after telling Congress that the agency should continue to exist. Now, he's been nominated to lead it once again.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818675/trump-fema-disaster-emergency-hamilton-nominate",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778547554.0,
-      "hot": false
-    },
-    {
-      "id": "96864cc893",
+      "id": "8bb5f1df37",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Supreme Court Clears Path for Alabama to Use New Voting Map",
-      "summary": "A majority of the justices sided with Alabama in a move that could speed up efforts to put in place a congressional district map that would eliminate a majority-Black district.",
-      "link": "https://www.nytimes.com/2026/05/11/us/politics/supreme-court-alabama-map.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11dc-scotus-alabama-mhkj/11dc-scotus-alabama-mhkj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778545982.0,
-      "hot": false
-    },
-    {
-      "id": "f6a640dd2e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Nonprofit sues the federal government over plans to paint Lincoln Memorial Reflecting Pool blue",
-      "summary": "The Cultural Landscape Foundation, a nonprofit advocacy organization, is asking a federal judge to halt President Trump's plans to resurface the reflecting pool on the National Mall.",
-      "link": "https://www.npr.org/2026/05/11/g-s1-121548/a-nonprofit-has-sued-the-federal-government-over-its-plans-to-paint-the-lincoln-memorial-reflecting-pool-blue",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778544636.0,
-      "hot": false
-    },
-    {
-      "id": "1fe68fff86",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Virginia Officials Ask Supreme Court to Restore Voting Map Drawn by Democrats",
-      "summary": "State officials asked the justices to overturn a Virginia Supreme Court decision that struck down a congressional map, a major defeat for Democrats.",
-      "link": "https://www.nytimes.com/2026/05/11/us/politics/supreme-court-virginia-redistricting.html",
-      "image": "https://static01.nyt.com/images/2026/05/09/multimedia/00dc-scotus-virginia-wfvt/00dc-scotus-virginia-wfvt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778543960.0,
-      "hot": false
-    },
-    {
-      "id": "00b1b20aa2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Why cruise ship passengers with possible hantavirus exposure went to Nebraska",
-      "summary": "The University of Nebraska is home to the only federally funded quarantine unit in the U.S. and a separate biocontainment unit that can treat people exposed to infectious diseases.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818277/hantavirus-quarantine-cruise-ship",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778537958.0,
-      "hot": false
-    },
-    {
-      "id": "9888e52ec8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "New poll finds a majority of Americans unsure if attempts on Trump's life were real",
-      "summary": "When given the options of \"true,\" \"false\" or \"not sure,\" and asked whether each of the incidents \"was staged,\" a majority of respondents said they thought each event was either staged or were unsure.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818557/poll-trump-assassination-attempts-conspiracy-theories",
-      "image": null,
+      "title": "Nations Brace for Long-Term Economic Woes as Trump Calls Iran Truce Plan ‘Garbage’",
+      "summary": "President Trump said the fragile cease-fire was on “life support,” and India’s leader urged residents to cut back on purchases and travel.",
+      "link": "https://www.nytimes.com/2026/05/11/world/middleeast/economic-woes-trump-iran-truce.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11int-iran-ledeall-1-hwvf/11int-iran-ledeall-1-hwvf-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778534275.0,
-      "hot": false
-    },
-    {
-      "id": "5e858ac5e2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Abortion pill by mail allowed for at least 3 more days, the Supreme Court says",
-      "summary": "Full access to the abortion pill mifepristone, including through telemedicine and the mail, will continue for at least three more days, the high court said on Monday.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818316/supreme-court-mifepristone-telemedicine-alito-delay",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778534076.0,
-      "hot": false
-    },
-    {
-      "id": "5d37d59ce2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "RFK Jr. Is Driving a Vast Inquiry Into Vaccines, Despite His Public Silence",
-      "summary": "Health Secretary Robert F. Kennedy Jr. has toned down his public criticism of vaccines, under orders from the White House. But inside his department, a sprawling research effort is a top priority.",
-      "link": "https://www.nytimes.com/2026/05/11/health/kennedy-vaccine-safety.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11dc-kennedy-measles-01-pqjf/11dc-kennedy-measles-01-pqjf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778529724.0,
-      "hot": false
-    },
-    {
-      "id": "79276118ab",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Voting Rights Decision Might Silence Black People in Fayette County, Tennessee",
-      "summary": "Black residents, who make up 25 percent of Fayette County, Tenn., won a new electoral map last year to change an all-white board of commissioners. They worry the Supreme Court’s ruling could threaten",
-      "link": "https://www.nytimes.com/2026/05/11/us/fayette-county-tennessee-voting-rights.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11nat-vra-districts-btzw/11nat-vra-districts-btzw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778528977.0,
-      "hot": false
-    },
-    {
-      "id": "20a3b83bcd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Nobel laureate Narges Mohammadi transferred to a Tehran hospital, her foundation says",
-      "summary": "Nobel Peace laureate and activist Narges Mohammadi has been transferred to a Tehran hospital more than a week after collapsing in prison, her foundation said Sunday.",
-      "link": "https://www.npr.org/2026/05/11/g-s1-121365/nobel-laureate-mohammadi-transferred-to-a-tehran-hospital",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1778490052.0,
-      "hot": false
-    },
-    {
-      "id": "07c7a1b16d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Remains of a U.S. soldier who went missing in Morocco have been recovered",
-      "summary": "The remains of a U.S. soldier who went missing during military drills in Morocco were recovered in the Atlantic Ocean, the army said. Military teams are searching for a second missing soldier.",
-      "link": "https://www.npr.org/2026/05/11/g-s1-121363/remains-of-missing-us-soldier",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778480222.0,
-      "hot": false
-    },
-    {
-      "id": "c4fed8992b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. cruise passengers arrive in the U.S. after one tests positive for hantavirus",
-      "summary": "One of the 18 Americans tested \"mildly\" positive for the virus during the U.S. return flight. A French woman has also tested positive — she was was among five French passengers repatriated to Paris.",
-      "link": "https://www.npr.org/2026/05/10/nx-s1-5817578/hantavirus-cruise-ship-nebraska-us-passengers",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778463744.0,
+      "ago": "13小时前",
+      "pub_ts": 1778535480.0,
       "hot": false
     },
     {
