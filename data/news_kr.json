@@ -1,9 +1,45 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-12T18:24:15.738982+00:00",
+  "updated_at": "2026-05-12T21:53:26.707403+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "5e8274cae2",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(2nd LD) Trump heads to China for high-stakes summit with Xi",
+      "summary": "BEIJING, May 13 (Yonhap) -- U.S. President Donald Trump departed for Beijing on ...",
+      "link": "https://en.yna.co.kr/view/AEN20260512011352315",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/05/07/PRU20260507206801009_P2.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1778613426.0,
+      "hot": false
+    },
+    {
+      "id": "0b8a7dcc73",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(LEAD) Trump to depart for China for high-stakes summit with Xi",
+      "summary": "BEIJING, May 13 (Yonhap) -- U.S. President Donald Trump was set to depart for Be...",
+      "link": "https://en.yna.co.kr/view/AEN20260512011351315",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/05/07/PRU20260507206801009_P2.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778611132.0,
+      "hot": false
+    },
     {
       "id": "1b7418f78e",
       "type": "news",
@@ -18,7 +54,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778588062.0,
       "hot": false
     },
@@ -36,26 +72,26 @@
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778586675.0,
       "hot": false
     },
     {
-      "id": "51ad9b758a",
+      "id": "02e95e7911",
       "type": "news",
       "region": "kr",
       "source": "Yonhap News",
       "lang": "en",
-      "title": "Lee to meet Bessent to discuss tariffs, U.S.-China summit",
-      "summary": "SEOUL, May 12 (Yonhap) -- President Lee Jae Myung will meet visiting U.S. Treasu...",
-      "link": "https://en.yna.co.kr/view/AEN20260512010900320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/12/AEN20260512010900320_02_i_P2.jpg",
+      "title": "Samsung Electronics management, labor union fail to narrow differences in mediation talks",
+      "summary": "SEOUL/SEJONG, May 13 (Yonhap) -- The labor union and management at Samsung Elect...",
+      "link": "https://en.yna.co.kr/view/AEN20260513000300315",
+      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/13/PYH2026051300050001300_P2.jpg",
       "categories": [
-        "华人"
+        "科技"
       ],
-      "score": 72,
-      "ago": "7小时前",
-      "pub_ts": 1778583067.0,
+      "score": 70,
+      "ago": "2分前",
+      "pub_ts": 1778622633.0,
       "hot": false
     },
     {
@@ -71,8 +107,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778592783.0,
       "hot": false
     },
@@ -90,7 +126,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778585761.0,
       "hot": false
     },
@@ -108,44 +144,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1778584879.0,
-      "hot": false
-    },
-    {
-      "id": "52299c8c69",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "SK hynix CEO to meet Bill Gates, Microsoft CEO: sources",
-      "summary": "SEOUL, May 12 (Yonhap) -- Kwak Noh-jung, chief executive officer (CEO) of chip g...",
-      "link": "https://en.yna.co.kr/view/AEN20260512010800320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/12/AEN20260512010800320_01_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778576962.0,
-      "hot": false
-    },
-    {
-      "id": "7ede0a8ca2",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Special counsel seeks 4-yr prison term for ex-President Yoon in 'free opinion poll' case",
-      "summary": "SEOUL, May 12 (Yonhap) -- A special counsel team on Tuesday sought a four-year p...",
-      "link": "https://en.yna.co.kr/view/AEN20260512010600320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/12/AEN20260512010600320_01_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778576219.0,
       "hot": false
     }
   ]
