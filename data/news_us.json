@@ -1,62 +1,26 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-12T10:55:27.257300+00:00",
+  "updated_at": "2026-05-12T15:15:46.334015+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "cc0a49bf7e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "China Sought Access to Anthropic’s Newest A.I. The Answer Was No.",
-      "summary": "The latest artificial intelligence models from Anthropic and OpenAI are extending the United States’ lead over China and intensifying the rivalry between the countries.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/dc-ai-china-lfmc/dc-ai-china-lfmc-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1778576622.0,
-      "hot": false
-    },
-    {
-      "id": "7419bf4d94",
+      "id": "d2cd9827f1",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "As Trump goes to China, what do Americans say about tariffs, Iran and world standing?",
-      "summary": "Most Americans see China as one of the United States' biggest rivals or adversaries, but largely as an economic threat, according to a new Chicago Council/NPR/Ipsos poll.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5817601/trump-xi-china-tariffs-poll",
+      "title": "Trump heads to China for state visit. And, how the war in Iran has affected inflation",
+      "summary": "Trump leaves for Beijing today for a state visit with Chinese President Xi Jinping. And, a new inflation report is expected to show the war in Iran's impact on the U.S.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121602/up-first-newsletter-trump-china-xi-jinping-inflation-mifepristone-cameron-hamilton",
       "image": null,
       "categories": [
+        "经济",
         "华人"
       ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1778576400.0,
-      "hot": false
-    },
-    {
-      "id": "e935819d39",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump goes to China as Iran war smolders",
-      "summary": "President Trump says he has a great relationship with President Xi. His trip to China will provide a temperature check.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5818529/trump-china-iran-war",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1778576400.0,
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778585279.0,
       "hot": false
     },
     {
@@ -73,18 +37,73 @@
         "移民",
         "科技"
       ],
-      "score": 80,
-      "ago": "25分前",
+      "score": 75,
+      "ago": "4小时前",
       "pub_ts": 1778581800.0,
       "hot": false
     },
     {
-      "id": "8ff11c1d61",
+      "id": "cc0a49bf7e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Xi Is Poised to Press Trump on Arms Sales to Taiwan",
+      "title": "China Sought Access to Anthropic’s Newest A.I. The Answer Was No.",
+      "summary": "The latest artificial intelligence models from Anthropic and OpenAI are extending the United States’ lead over China and intensifying the rivalry between the countries.",
+      "link": "https://www.nytimes.com/2026/05/12/us/politics/china-ai-anthropic-openai-mythos-chatgpt.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/dc-ai-china-lfmc/dc-ai-china-lfmc-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 72,
+      "ago": "6小时前",
+      "pub_ts": 1778576622.0,
+      "hot": false
+    },
+    {
+      "id": "e935819d39",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump goes to China as Iran war smolders",
+      "summary": "President Trump says he has a great relationship with President Xi. His trip to China will provide a temperature check.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818529/trump-china-iran-war",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 72,
+      "ago": "6小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "7419bf4d94",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "As Trump goes to China, what do Americans say about tariffs, Iran and world standing?",
+      "summary": "Most Americans see China as one of the United States' biggest rivals or adversaries, but largely as an economic threat, according to a new Chicago Council/NPR/Ipsos poll.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5817601/trump-xi-china-tariffs-poll",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 72,
+      "ago": "6小时前",
+      "pub_ts": 1778576400.0,
+      "hot": false
+    },
+    {
+      "id": "79e2b40925",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Xi Is Poised to Press Trump on Arms Sales to Taiwan During China Summit",
       "summary": "Beijing has called Taiwan the “core of China’s core interests.” Xi Jinping is likely to focus on getting President Trump to slow approval of more weapons for the self-governing island.",
       "link": "https://www.nytimes.com/2026/05/12/world/asia/xi-trump-china-taiwan-arms-sales.html",
       "image": "https://static01.nyt.com/images/2026/05/11/multimedia/00int-China-US-taiwan-pcmh/00int-China-US-taiwan-pcmh-mediumSquareAt3X.jpg",
@@ -92,8 +111,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1778566916.0,
       "hot": false
     },
@@ -111,8 +130,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1778564170.0,
       "hot": false
     },
@@ -130,8 +149,62 @@
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "11小时前",
       "pub_ts": 1778558407.0,
+      "hot": false
+    },
+    {
+      "id": "bb01bca740",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "She spent a year using AI to do almost everything. Here's what she learned",
+      "summary": "Tech writer Joanna Stern used AI to read medical results, respond to texts and serve as her therapist. She says her emotional connection to it was unsettling. Her new book is I Am Not a Robot.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5816163/she-spent-a-year-using-ai-to-do-almost-everything-heres-what-she-learned",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "16分前",
+      "pub_ts": 1778597923.0,
+      "hot": false
+    },
+    {
+      "id": "b1867f38f6",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Inflation Jumps, Oil Prices Rise on U.S.-Iran Standoff",
+      "summary": "President Trump has declared the cease-fire on “life support,” and investors are taking a cautious approach as the economic effects of the war become more apparent.",
+      "link": "https://www.nytimes.com/2026/05/12/business/oil-prices-rise-us-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12biz-oil-stocks-gas1-kcbp/12biz-oil-stocks-gas1-kcbp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778593969.0,
+      "hot": false
+    },
+    {
+      "id": "2be9859c19",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Inflation jumps to its highest level since 2023. Here are 3 things costing a lot more",
+      "summary": "Rising gasoline prices pushed inflation to its highest level in almost three years in April.  Consumer prices were up 3.8% from a year ago.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818279/inflation-cpi-gas-prices-housing-fuel-iran-war",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778589408.0,
       "hot": false
     },
     {
@@ -143,31 +216,31 @@
       "title": "How Iran’s Internet Blackout Is Crippling Its Economy, and the Fight Over Fruit-Flavored Vapes",
       "summary": "Plus, how everything became a subscription.",
       "link": "https://www.nytimes.com/2026/05/12/podcasts/the-headlines/iran-internet-blackout-ieconomy-fruit-flavored-vapes.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12thehealdines-iraneco-03-tmpc/12thehealdines-iraneco-03-tmpc-mediumSquareAt3X.jpg",
+      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12thehealdines-iraneco-03-tmpc/12thehealdines-iraneco-03-tmpc-mediumSquareAt3X-v2.jpg",
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "55分前",
-      "pub_ts": 1778580009.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778580010.0,
       "hot": false
     },
     {
-      "id": "1cfa3da393",
+      "id": "ec487a66e8",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Who Might Challenge Starmer in a Leadership Contest?",
-      "summary": "Health Secretary Wes Streeting, Mayor of Greater Manchester Andy Burnham and former deputy prime minister Angela Rayner are among possible contenders.",
-      "link": "https://www.nytimes.com/2026/05/12/world/europe/who-could-replace-starmer-uk-prime-minister.html",
+      "title": "Trump rejects Iran's ceasefire proposal response. And, Congress to tackle ICE funding",
+      "summary": "Trump rejected Iran's response to a U.S. peace proposal, calling it \"totally unacceptable.\" And, Congressional Republicans are trying to push for three years of funding for immigration enforcement.",
+      "link": "https://www.npr.org/2026/05/11/g-s1-121375/up-first-newsletter-trump-iran-congress-ice-cbp-hantavirus",
       "image": null,
       "categories": [
-        "政治"
+        "移民"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778579541.0,
+      "score": 65,
+      "ago": "昨日",
+      "pub_ts": 1778499091.0,
       "hot": false
     },
     {
@@ -183,27 +256,27 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778577319.0,
       "hot": false
     },
     {
-      "id": "67fc3ba3a2",
+      "id": "de9b70cb87",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "How an ‘Impossible’ Idea Led to a Pancreatic Cancer Breakthrough",
-      "summary": "The new strategy also holds promise for lung and colon tumors. Here’s how scientists discovered it.",
-      "link": "https://www.nytimes.com/2026/05/12/health/pancreatic-cancer-daraxonrasib-kras.html",
-      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00HS-cancer-kras-stillpromo-gzfw/00HS-cancer-kras-stillpromo-gzfw-mediumSquareAt3X.jpg",
+      "title": "Steel Tariffs Are Raising the Price of Canned Foods",
+      "summary": "The cost to put food in cans remains high because manufacturers must still import steel from overseas. U.S. Steel plans to reopen a tin-plate factory.",
+      "link": "https://www.nytimes.com/2026/05/12/business/steel-tariffs-tin-cans-food-prices.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00biz-tin-cans-hjfw/00biz-tin-cans-hjfw-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778576530.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778576489.0,
       "hot": false
     },
     {
@@ -219,8 +292,8 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778576400.0,
       "hot": false
     },
@@ -237,81 +310,9 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778576400.0,
-      "hot": false
-    },
-    {
-      "id": "1a9258a8ae",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Drive 5 hours or fly 20 minutes? Remote towns suffer from lack of year-round flights",
-      "summary": "A federal program that pays airlines to operate in small and rural communities could have its budget cut in half, leaving parts of the country with no flight options.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5796244/aviation-rural-flights",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778576400.0,
-      "hot": false
-    },
-    {
-      "id": "b4d4cf82ae",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "She's trying to outrun pancreatic cancer. Breakthrough treatments give her hope",
-      "summary": "Pancreatic cancer is notoriously lethal. But new treatments mean that may be changing, and people with the disease now have more reason to hope than ever before.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5783797/pancreatic-cancer-breakthroughs-daraxonrasib-mrna",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778576400.0,
-      "hot": false
-    },
-    {
-      "id": "ec487a66e8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump rejects Iran's ceasefire proposal response. And, Congress to tackle ICE funding",
-      "summary": "Trump rejected Iran's response to a U.S. peace proposal, calling it \"totally unacceptable.\" And, Congressional Republicans are trying to push for three years of funding for immigration enforcement.",
-      "link": "https://www.npr.org/2026/05/11/g-s1-121375/up-first-newsletter-trump-iran-congress-ice-cbp-hantavirus",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "23小时前",
-      "pub_ts": 1778499091.0,
-      "hot": false
-    },
-    {
-      "id": "c33a387326",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump heads to China amid ongoing war with Iran",
-      "summary": "President Trump's trip to China is going forward despite the war with Iran casting a shadow over the state visit.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5816150/trump-heads-to-china-amid-ongoing-war-with-iran",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1778496089.0,
       "hot": false
     },
     {
@@ -327,8 +328,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778575424.0,
       "hot": false
     },
@@ -345,8 +346,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778575411.0,
       "hot": false
     },
@@ -363,8 +364,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778565752.0,
       "hot": false
     },
@@ -381,27 +382,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778564822.0,
       "hot": false
     },
     {
-      "id": "8bb5f1df37",
+      "id": "d0267bea7c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Nations Brace for Long-Term Economic Woes as Trump Calls Iran Truce Plan ‘Garbage’",
-      "summary": "President Trump said the fragile cease-fire was on “life support,” and India’s leader urged residents to cut back on purchases and travel.",
-      "link": "https://www.nytimes.com/2026/05/11/world/middleeast/economic-woes-trump-iran-truce.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11int-iran-ledeall-1-hwvf/11int-iran-ledeall-1-hwvf-mediumSquareAt3X.jpg",
+      "title": "Kari Lake, Who Led Effort to Shutter Voice of America, Is Named Ambassador to Jamaica",
+      "summary": "Ms. Lake tried and failed to fire hundreds of Voice of America journalists and to cut funding for other federally funded news groups like Radio Free Europe/Radio Liberty.",
+      "link": "https://www.nytimes.com/2026/05/11/us/politics/kari-lake-jamaica-ambassador.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/11trump-news-kari-lake-hqtk/11trump-news-kari-lake-hqtk-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1778535480.0,
+      "ago": "11小时前",
+      "pub_ts": 1778558757.0,
       "hot": false
     },
     {
