@@ -1,16 +1,16 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-12T04:11:53.369374+00:00",
-  "total": 25,
+  "updated_at": "2026-05-12T07:21:18.195581+00:00",
+  "total": 23,
   "articles": [
     {
-      "id": "b3b49ec785",
+      "id": "8ff11c1d61",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Xi Poised to Press Trump on Arms Sales to Taiwan",
+      "title": "Xi Is Poised to Press Trump on Arms Sales to Taiwan",
       "summary": "Beijing has called Taiwan the “core of China’s core interests.” Xi Jinping is likely to focus on getting President Trump to slow approval of more weapons for the self-governing island.",
       "link": "https://www.nytimes.com/2026/05/12/world/asia/xi-trump-china-taiwan-arms-sales.html",
       "image": "https://static01.nyt.com/images/2026/05/11/multimedia/00int-China-US-taiwan-pcmh/00int-China-US-taiwan-pcmh-mediumSquareAt3X.jpg",
@@ -19,17 +19,17 @@
         "科技"
       ],
       "score": 82,
-      "ago": "11分前",
-      "pub_ts": 1778558415.0,
+      "ago": "59分前",
+      "pub_ts": 1778566916.0,
       "hot": false
     },
     {
-      "id": "7d053fd6cb",
+      "id": "8a247726cb",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Chinese A.I. Firms Push Beyond Nvidia as DeepSeek Turns to Huawei",
+      "title": "China Seeks A.I. Independence, Weakening Trump’s Leverage",
       "summary": "Before this week’s U.S.-Chinese summit, Beijing reached a milestone in its quest for technological self-sufficiency.",
       "link": "https://www.nytimes.com/2026/05/12/business/china-semiconductor-ai-deepseek.html",
       "image": "https://static01.nyt.com/images/2026/05/08/multimedia/00biz-china-chips-fqbm/00biz-china-chips-fqbm-mediumSquareAt3X.jpg",
@@ -38,8 +38,8 @@
         "科技"
       ],
       "score": 82,
-      "ago": "11分前",
-      "pub_ts": 1778558413.0,
+      "ago": "1小时前",
+      "pub_ts": 1778564170.0,
       "hot": false
     },
     {
@@ -55,28 +55,9 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "11分前",
-      "pub_ts": 1778558406.0,
-      "hot": false
-    },
-    {
-      "id": "cedd21327a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Can Chinese AI solve inequality? + How dementia comes for your bank account",
-      "summary": "",
-      "link": "https://www.npr.org/2026/05/11/g-s1-121351/can-chinese-ai-solve-inequality-how-dementia-comes-for-your-bank-account",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "9小时前",
-      "pub_ts": 1778524970.0,
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778558407.0,
       "hot": false
     },
     {
@@ -93,7 +74,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "17小时前",
+      "ago": "20小时前",
       "pub_ts": 1778496089.0,
       "hot": false
     },
@@ -112,8 +93,62 @@
         "科技"
       ],
       "score": 72,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1778488973.0,
+      "hot": false
+    },
+    {
+      "id": "dc89a819d7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Israeli lawmakers set up tribunal, allow for death penalty for October 2023 attackers",
+      "summary": "The measure passed 93-0 in the 120-seat Knesset, or parliament, reflecting widespread support for punishing those found responsible for what was the deadliest attack in Israel's history.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121583/israeli-lawmakers-set-up-a-special-tribunal",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778565752.0,
+      "hot": false
+    },
+    {
+      "id": "d54c7390f2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Craig Morton, former quarterback for Cowboys and Broncos, dies at 83",
+      "summary": "Craig Morton, who spent 18 years in the NFL and became the first quarterback to start the Super Bowl for two franchises — the Dallas Cowboys and Denver Broncos — has died. He was 83.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121585/craig-morton-quarterback-dies",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778565741.0,
+      "hot": false
+    },
+    {
+      "id": "e170b218d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "EU diplomats agree to sanction Hamas leaders and Israeli settlers",
+      "summary": "The unanimous decision by the European Union, agreed to on Monday, was sparked by growing outrage over the devastation in Gaza during the Israel-Hamas war.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121581/eu-sanction-hamas-leaders-israeli-settlers",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778564822.0,
       "hot": false
     },
     {
@@ -130,7 +165,7 @@
         "移民"
       ],
       "score": 70,
-      "ago": "16小时前",
+      "ago": "19小时前",
       "pub_ts": 1778499091.0,
       "hot": false
     },
@@ -148,7 +183,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778550692.0,
       "hot": false
     },
@@ -165,8 +200,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778547554.0,
       "hot": false
     },
@@ -183,8 +218,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778545982.0,
       "hot": false
     },
@@ -202,8 +237,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778544636.0,
       "hot": false
     },
@@ -220,8 +255,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778543960.0,
       "hot": false
     },
@@ -239,8 +274,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778537958.0,
       "hot": false
     },
@@ -258,7 +293,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778534275.0,
       "hot": false
     },
@@ -276,7 +311,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778534076.0,
       "hot": false
     },
@@ -294,7 +329,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778529724.0,
       "hot": false
     },
@@ -312,44 +347,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778528977.0,
-      "hot": false
-    },
-    {
-      "id": "d8b160f392",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump wants to suspend the federal gas tax as prices soar amid war with Iran",
-      "summary": "Suspending the federal gas tax would require an act of Congress.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818446/trump-gas-tax",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
       "ago": "11小时前",
-      "pub_ts": 1778518778.0,
-      "hot": false
-    },
-    {
-      "id": "9829fa514b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'Atlanta Journal-Constitution' chief steps down as bold goals yield to tough realities",
-      "summary": "The owners of the Atlanta Journal-Constitution invested $150 million to reinvent the paper. The changes have been significant. Three years in, the payoff has been modest.",
-      "link": "https://www.npr.org/2026/05/11/nx-s1-5818208/ajc-andrew-morse-leaving",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778512463.0,
+      "pub_ts": 1778528977.0,
       "hot": false
     },
     {
@@ -366,7 +365,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1778490052.0,
       "hot": false
     },
@@ -383,8 +382,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778480222.0,
       "hot": false
     },
@@ -404,42 +403,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1778463744.0,
-      "hot": false
-    },
-    {
-      "id": "6173ed6284",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israeli settlers force Palestinian family to exhume and rebury their father",
-      "summary": "The relatives of Hussein Asasa described to NPR how they were forced to exhume and rebury their father when Israeli settlers interfered with his grave.",
-      "link": "https://www.npr.org/2026/05/10/nx-s1-5817496/israeli-settlers-palestinian-exhume-grave-west-bank-jenin",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778455587.0,
-      "hot": false
-    },
-    {
-      "id": "0c22d29c3d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says the Iran ceasefire is 'on life support' after rejecting an Iranian proposal",
-      "summary": "President Trump said Iran's latest response to a U.S. proposal was \"unacceptable\" and didn't address the country's nuclear program.",
-      "link": "https://www.npr.org/2026/05/10/nx-s1-5817605/trump-rejects-iran-ceasefire-proposal",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1778451502.0,
       "hot": false
     },
     {
