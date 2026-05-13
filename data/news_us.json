@@ -1,14 +1,69 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-12T21:45:56.632739+00:00",
+  "updated_at": "2026-05-13T04:26:51.258673+00:00",
   "total": 24,
   "articles": [
+    {
+      "id": "81376f3768",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Shrinking Ambitions on China",
+      "summary": "The president came into office planning harsher trade moves on China than on the rest of the world. Here’s why he’s had to scale them back.",
+      "link": "https://www.nytimes.com/2026/05/13/us/politics/trumps-shrinking-ambitions-on-china.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/13dc-china-trump-trade-zkmj/13dc-china-trump-trade-zkmj-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "25分前",
+      "pub_ts": 1778644864.0,
+      "hot": false
+    },
+    {
+      "id": "688092effd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How China Could Wield Its Control of Rare Earths Against Trump",
+      "summary": "A central question hanging over the summit this week is whether China will agree to extend a temporary postponement of even tougher rare-earth export controls.",
+      "link": "https://www.nytimes.com/2026/05/13/business/china-trump-xi-rare-earths.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/00biz-china-rare-01-ljzc/00biz-china-rare-01-ljzc-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "26分前",
+      "pub_ts": 1778644815.0,
+      "hot": false
+    },
+    {
+      "id": "404c2044da",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Lecturer and Philosopher King: Xi Jinping Behind Closed Doors",
+      "summary": "Encounters with other world leaders reveal a side of China’s leader that the public rarely sees, and offer clues to how he will approach President Trump in Beijing.",
+      "link": "https://www.nytimes.com/2026/05/13/world/asia/xi-jinping-china-leader-trump-summit.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/13int-china-xi-leaders-gfmj/13int-china-xi-leaders-gfmj-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "26分前",
+      "pub_ts": 1778644806.0,
+      "hot": false
+    },
     {
       "id": "2019b058c0",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
       "title": "How Americans see China now",
       "summary": "As President Trump heads to China this week, a new NPR-Chicago Council-Ipsos poll finds most Americans think U.S. tariffs have hurt both economies, and that the Iran war is bad for America.",
@@ -17,46 +72,9 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "27分前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1778620696.0,
-      "hot": false
-    },
-    {
-      "id": "6be3364528",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump and Xi Enter China Summit Distracted by Iran War",
-      "summary": "The war in Iran has cast a shadow of uncertainty on both superpowers, dimming early hopes that they could begin to address the larger issues that have frayed their relationship.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/trump-xi-summit.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12dc-prexy-kvqg/12dc-prexy-kvqg-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 77,
-      "ago": "2小时前",
-      "pub_ts": 1778614207.0,
-      "hot": false
-    },
-    {
-      "id": "cae08e71a6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Hegseth to Accompany Trump on Trip to China",
-      "summary": "Defense secretaries have previously traveled with presidents on overseas trips, to provide advice and represent the U.S. military.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/hegseth-trump-china-xi.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12trump-news-hegseth-china-add-mhbf/12trump-news-hegseth-china-add-mhbf-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "4小时前",
-      "pub_ts": 1778605335.0,
       "hot": false
     },
     {
@@ -74,7 +92,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1778585279.0,
       "hot": false
     },
@@ -93,7 +111,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1778577319.0,
       "hot": false
     },
@@ -111,44 +129,118 @@
         "华人"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1778576400.0,
       "hot": false
     },
     {
-      "id": "0a0f537eff",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "About 7 million kids live in a home with a loaded and unlocked gun, a study finds",
-      "summary": "The new study in JAMA Network Open also finds that more parents leave their guns loaded and unlocked when they have teenagers, despite the fact that suicide risk goes up for this age group.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5818460/gun-safe-storage-children-suicide-homicide",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "26分前",
-      "pub_ts": 1778620736.0,
-      "hot": false
-    },
-    {
-      "id": "5f7d7a67b8",
+      "id": "475b7b18bf",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "How Mamdani and Hochul Are Solving New York City’s Budget Crisis",
-      "summary": "A generous influx of state resources from Gov. Kathy Hochul and a new tax on luxury second homes will help Mayor Zohran Mamdani balance a $125 billion budget.",
-      "link": "https://www.nytimes.com/2026/05/12/nyregion/mamdani-budget-nyc.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12met-mamdani-budget1-tpml/12met-mamdani-budget1-tpml-mediumSquareAt3X.jpg",
+      "title": "Will Trump and Xi Try to Slow the A.I. Arms Race?",
+      "summary": "The leaders of both countries are expected to discuss the risks from artificial intelligence, but neither country is willing to be the first to slow down.",
+      "link": "https://www.nytimes.com/2026/05/13/world/asia/us-china-trump-xi-beijing-ai.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/13int-china-us-ai01-photo-zchp/13int-china-us-ai01-photo-zchp-mediumSquareAt3X.jpg",
       "categories": [
-        "经济"
+        "本地"
       ],
       "score": 70,
-      "ago": "30分前",
-      "pub_ts": 1778620511.0,
+      "ago": "22分前",
+      "pub_ts": 1778645025.0,
+      "hot": false
+    },
+    {
+      "id": "1825ceed69",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Kids' test scores began declining way before COVID. These schools are making gains",
+      "summary": "Remember those devastating learning losses that began during the pandemic? Turns out, they began years before COVID-19. Some states are finally turning things around.",
+      "link": "https://www.npr.org/2026/05/13/nx-s1-5812483/reading-math-scores-data",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "25分前",
+      "pub_ts": 1778644860.0,
+      "hot": false
+    },
+    {
+      "id": "c78e21958e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Former private prison official to serve as acting ICE chief",
+      "summary": "Compared to the start of President Trump's second term, David Venturella takes over an agency with a larger workforce, more financial resources — and also a continued funding lapse.",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121766/ice-acting-director-venturella",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778634773.0,
+      "hot": false
+    },
+    {
+      "id": "7dc3c3dd56",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Justice Dept. Officials Consider Settling Trump Suit Against I.R.S.",
+      "summary": "One of the settlement terms under review is for the I.R.S. to drop any audits of the president, his family members and businesses.",
+      "link": "https://www.nytimes.com/2026/05/12/business/trump-suit-irs.html",
+      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12dc-trump-irs-mpbl/12dc-trump-irs-mpbl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778634127.0,
+      "hot": false
+    },
+    {
+      "id": "3adc76fa3b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Battle Over the Strait of Hormuz Leaves Safe Passage a Gamble",
+      "summary": "Vessels are traveling without transmitting critical information meant to keep the waters safe, maritime intelligence experts say.",
+      "link": "https://www.nytimes.com/2026/05/12/world/middleeast/strait-of-hormuz-conrol.html",
+      "image": "https://static01.nyt.com/images/2026/05/08/multimedia/12mideast-ships-Hormuz1/08Biz-Iran-Ship-2-zckl-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778633439.0,
+      "hot": false
+    },
+    {
+      "id": "37800c5e11",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Jason Collins, NBA's first openly gay player, dies at 47 of brain tumor",
+      "summary": "Jason Collins, the NBA's first openly gay player who went on to become a pioneer for inclusion and an ambassador for the league, has died after an eight-month battle with an aggressive form of a brain",
+      "link": "https://www.npr.org/2026/05/12/g-s1-121763/jason-collins-nba-dies",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778631465.0,
       "hot": false
     },
     {
@@ -164,63 +256,83 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "38分前",
-      "pub_ts": 1778620064.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778626916.0,
       "hot": false
     },
     {
-      "id": "e735f22401",
+      "id": "062fcf13df",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "See How Trump Is Renovating the Lincoln Memorial Reflecting Pool",
-      "summary": "A rundown of the problems at the pool and what President Trump is trying to do to fix them.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/trump-reflecting-pool-renovation.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/12dc-pool-visual-01-tpfk/12dc-pool-visual-01-tpfk-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "46分前",
-      "pub_ts": 1778619537.0,
-      "hot": false
-    },
-    {
-      "id": "388f0c49f0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Reflecting Pool Repairs Appear Uneven and Behind Schedule, Officials Say",
-      "summary": "Work on the iconic National Mall basin appears behind schedule. President Trump initially said he had picked the contractor, then said he did not know it.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/lincoln-memorial-pool-repairs.html",
-      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/dc-pool-2-kvtj/dc-pool-2-kvtj-mediumSquareAt3X.jpg",
+      "title": "OpenAI's Sam Altman takes the stand to fend off Elon Musk's accusations he 'stole a charity'",
+      "summary": "The trial pits two of tech's most famous personalities against each other and could lead to seismic changes for the maker of ChatGPT.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5811730/openai-sam-altman-testimony-elon-musk-trial",
+      "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1778618819.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778623087.0,
       "hot": false
     },
     {
-      "id": "6298105bbf",
+      "id": "fa7a133997",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "How a Hantavirus Cruise Passenger Is Spending His Quarantine in Nebraska",
-      "summary": "Jake Rosmarin, a travel influencer from Boston, is one of 15 passengers from the virus-stricken cruise ship being monitored at the National Quarantine Unit in Nebraska.",
-      "link": "https://www.nytimes.com/2026/05/12/us/hantavirus-quarantine-nebraska-travel-influencer.html",
+      "title": "Inflation Accelerates as Iran War Drives Up Energy Costs",
+      "summary": "Also, Russia keeps attacking U.S. companies in Ukraine. Here’s the latest at the end of Tuesday.",
+      "link": "https://www.nytimes.com/2026/05/12/briefing/iran-war-costs-inflation.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/12evening-nl-may-cpi/2026-may-biz-promos-inflation-mediumSquareAt3X-v7.png",
+      "categories": [
+        "经济",
+        "天气",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778622377.0,
+      "hot": false
+    },
+    {
+      "id": "2504e5c57f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Omaha's U.S. House race will test candidates' ability to reach beyond party lines",
+      "summary": "Omaha, Neb., is home to a toss-up Congressional race this year. Voters have shown a willingness to vote for moderate candidates from both parties, but has the definition of a moderate now changed?",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5815289/omaha-and-centrist-politics",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778618126.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778621749.0,
+      "hot": false
+    },
+    {
+      "id": "0a0f537eff",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "About 7 million kids live in a home with a loaded and unlocked gun, a study finds",
+      "summary": "The new study in JAMA Network Open also finds that more parents leave their guns loaded and unlocked when they have teenagers, despite the fact that suicide risk goes up for this age group.",
+      "link": "https://www.npr.org/2026/05/12/nx-s1-5818460/gun-safe-storage-children-suicide-homicide",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1778620736.0,
       "hot": false
     },
     {
@@ -236,70 +348,16 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778617757.0,
-      "hot": false
-    },
-    {
-      "id": "e8f18bff15",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "FDA commissioner resigns after tumultuous tenure",
-      "summary": "The resignation ends Dr. Marty Makary's management of the Food and Drug Administration, which was marked by turmoil and controversy.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5819722/fda-commissioner-makary-resigns",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778614504.0,
-      "hot": false
-    },
-    {
-      "id": "3e60b265e2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Alabama will split U.S. House primaries, after the Supreme Court's voting ruling",
-      "summary": "Alabama will hold a special primary election for four of its seven congressional districts, after the U.S. Supreme Court cleared the way for Alabama to use a map that had been blocked by the courts.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5819600/alabama-congressional-redistricting-special-election",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778613845.0,
-      "hot": false
-    },
-    {
-      "id": "24113578a1",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Marty Makary, Trump’s F.D.A. Commissioner, Resigns After Weeks of Pressure",
-      "summary": "The agency’s top food official will step in to the role after Dr. Makary privately said he opposed the administration decision to approve flavored vapes.",
-      "link": "https://www.nytimes.com/2026/05/12/us/politics/trump-fires-fda-commissioner-makary.html",
-      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/00dc-makary-hfo-lwcz/00dc-makary-hfo-lwcz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778612170.0,
       "hot": false
     },
     {
       "id": "9ef321f8f0",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Israel's government is expected to collapse over ultra-Orthodox military draft",
       "summary": "An ultra-Orthodox Jewish party in Israeli Prime Minister Benjamin Netanyahu's coalition has called for parliament to be dissolved, threatening to bring down the government.",
@@ -308,63 +366,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778611408.0,
-      "hot": false
-    },
-    {
-      "id": "417bccfff2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Transportation Secretary Duffy filmed a reality show, funded by firms he regulates",
-      "summary": "Secretary Duffy, his wife and nine kids took a \"Great American Road Trip\" to celebrate America's 250th. They say no taxpayers funded the project. But a nonprofit with transport-related sponsors did.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5818190/sean-duffy-road-trip-reality-show-sponsors",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778602298.0,
-      "hot": false
-    },
-    {
-      "id": "bb01bca740",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "She spent a year using AI to do almost everything. Here's what she learned",
-      "summary": "Tech writer Joanna Stern used AI to read medical results, respond to texts and serve as her therapist. She says her emotional connection to it was unsettling. Her new book is I Am Not a Robot.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5816163/she-spent-a-year-using-ai-to-do-almost-everything-heres-what-she-learned",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778597923.0,
-      "hot": false
-    },
-    {
-      "id": "2be9859c19",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Inflation jumps to its highest level since 2023. Here are 3 things costing a lot more",
-      "summary": "Rising gasoline prices pushed inflation to its highest level in almost three years in April.  Consumer prices were up 3.8% from a year ago.",
-      "link": "https://www.npr.org/2026/05/12/nx-s1-5818279/inflation-cpi-gas-prices-housing-fuel-iran-war",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
       "score": 60,
       "ago": "9小时前",
-      "pub_ts": 1778589408.0,
+      "pub_ts": 1778611408.0,
       "hot": false
     },
     {
@@ -381,7 +385,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1778575424.0,
       "hot": false
     },
@@ -399,7 +403,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1778575411.0,
       "hot": false
     },
@@ -417,7 +421,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1778565752.0,
       "hot": false
     },
