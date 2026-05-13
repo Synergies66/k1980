@@ -1,8 +1,8 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-13T18:26:41.584361+00:00",
-  "total": 8,
+  "updated_at": "2026-05-13T21:59:07.143758+00:00",
+  "total": 6,
   "articles": [
     {
       "id": "ae2e0bc7db",
@@ -18,9 +18,28 @@
         "政治",
         "华人"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1778680527.0,
+      "hot": false
+    },
+    {
+      "id": "91094fb93f",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(EDITORIAL from Korea JoongAng Daily on May 14)",
+      "summary": "Candidate registration for the June 3 local elections will take place over two d...",
+      "link": "https://en.yna.co.kr/view/AEN20260514000600320",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1778707974.0,
       "hot": false
     },
     {
@@ -36,8 +55,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778677841.0,
       "hot": false
     },
@@ -54,8 +73,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778676059.0,
       "hot": false
     },
@@ -72,8 +91,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778676032.0,
       "hot": false
     },
@@ -91,63 +110,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778674102.0,
-      "hot": false
-    },
-    {
-      "id": "550e024287",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Trump arrives in Beijing for summit talks with Xi on trade, Iran, Taiwan, other topics",
-      "summary": "BEIJING, May 13 (Yonhap) -- U.S. President Donald Trump arrived in Beijing on We...",
-      "link": "https://en.yna.co.kr/view/AEN20260513012300315",
-      "image": "https://img.yna.co.kr/photo/reuters/2026/05/13/PRU20260513219301009_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778673190.0,
-      "hot": false
-    },
-    {
-      "id": "e31d851bfe",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Lee to meet Nobel economic laureate Howitt on economic policy this week",
-      "summary": "SEOUL, May 13 (Yonhap) -- President Lee Jae Myung will meet Nobel economics laur...",
-      "link": "https://en.yna.co.kr/view/AEN20260513012500315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/13/AEN20260513012500315_02_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778672703.0,
-      "hot": false
-    },
-    {
-      "id": "b1912ad9ed",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "U.N. human rights chief says non-refoulement principle applies to N.K. POWs in Ukraine",
-      "summary": "SEOUL, May 13 (Yonhap) -- United Nations High Commissioner for Human Rights Volk...",
-      "link": "https://en.yna.co.kr/view/AEN20260513012400315",
-      "image": "https://img.yna.co.kr/photo/yna/YH/2026/05/13/PYH2026051318740001300_P2.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778668708.0,
       "hot": false
     }
   ]
