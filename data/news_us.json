@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-14T18:13:05.192267+00:00",
-  "total": 20,
+  "updated_at": "2026-05-14T21:40:57.503489+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "209946f0ad",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s and Xi’s Body Language at the Summit Mirrored Their Styles",
+      "summary": "Although at odds over issues like trade and Taiwan, the U.S. and Chinese leaders met in Beijing with a show of friendly gestures.",
+      "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-xi-body-language.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14int-trumpxi-bodylanguage-02-hbvg/14int-trumpxi-bodylanguage-02-hbvg-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778790702.0,
+      "hot": false
+    },
     {
       "id": "080b1a9f77",
       "type": "news",
@@ -18,8 +37,8 @@
         "华人"
       ],
       "score": 82,
-      "ago": "0分前",
-      "pub_ts": 1778782331.0,
+      "ago": "1小时前",
+      "pub_ts": 1778789114.0,
       "hot": false
     },
     {
@@ -36,8 +55,8 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "14分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1778781500.0,
       "hot": false
     },
@@ -55,52 +74,35 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "29分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1778780625.0,
       "hot": false
     },
     {
-      "id": "3f34704e40",
+      "id": "671bac1e47",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Might Welcome Chinese Investment, but America Is Wary",
-      "summary": "A pledge for more Chinese investment could face backlash given longstanding national security concerns in the United States.",
-      "link": "https://www.nytimes.com/2026/05/14/business/trump-china-xi-investment.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14dc-china-invest-fqgb/14dc-china-invest-fqgb-mediumSquareAt3X.jpg",
+      "title": "What People in China Say of Trump",
+      "summary": "Residents in four Chinese cities described a mixture of amusement and anger, blaming U.S. tensions for a slowing economy and rising fuel prices.",
+      "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-china-people-street.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14int-china-trump-people-01-lqmw/14int-china-trump-people-01-lqmw-mediumSquareAt3X-v2.jpg",
       "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "4小时前",
-      "pub_ts": 1778767605.0,
-      "hot": false
-    },
-    {
-      "id": "c751552526",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "An LA-area mayor acted as an agent for China. Experts say it's part of a pattern",
-      "summary": "Eileen Wang, now the former mayor of the City of Arcadia, agreed to plead guilty to one felony charge that she acted as an illegal foreign agent of China.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5819933/china-trump-trip-la-agent-mayor-arcardia",
-      "image": null,
-      "categories": [
+        "经济",
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
-      "pub_ts": 1778760377.0,
+      "ago": "8小时前",
+      "pub_ts": 1778764642.0,
       "hot": false
     },
     {
       "id": "5377ca0348",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump tries to make deals in China. And, Senate confirms Kevin Warsh as Fed leader",
       "summary": "President Trump is vying to make deals with China during his visit with President Xi Jinping. And, the Senate confirmed Kevin Warsh as the next leader of the Federal Reserve.",
@@ -110,7 +112,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778758341.0,
       "hot": false
     },
@@ -118,7 +120,7 @@
       "id": "3a28c08ca2",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Cordial Trump-Xi meeting is a 'good sign,' says longtime U.S. diplomat",
       "summary": "Longtime U.S. diplomat Richard Haass interprets President Trump's meeting with China leader, Xi Jinping. He said though the two have different priorities the cordial summit could be a 'good sign.'",
@@ -129,7 +131,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778757306.0,
       "hot": false
     },
@@ -137,7 +139,7 @@
       "id": "fd93fde875",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "China's leader warns Trump that differences over Taiwan could lead to a clash",
       "summary": "At the summit, the Chinese leader placed Taiwan, a key point of friction between the U.S. and China, at the center, calling it \"the most important issue\" between the two countries.",
@@ -148,7 +150,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1778756520.0,
       "hot": false
     },
@@ -166,8 +168,134 @@
         "华人"
       ],
       "score": 72,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778755180.0,
+      "hot": false
+    },
+    {
+      "id": "5f5a83f795",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The 10 best songs competing at (a very contentious) Eurovision",
+      "summary": "Glitter, vocal gymnastics, on-stage flames — the show goes on on the Eurovision stage in Vienna, even though five countries are boycotting this year's contest due to Israel's participation.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5813511/eurovision-2026-predictions-top-songs",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "7分前",
+      "pub_ts": 1778794395.0,
+      "hot": false
+    },
+    {
+      "id": "d3d9886dc1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Native kids with disabilities were held in wooden boxes. Sweeping reforms are coming",
+      "summary": "State officials in New York say the Salmon River district's special education program confined young children with disabilities in wooden boxes. Parents weren't notified.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5821682/salmon-river-mohawk-children",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1778793408.0,
+      "hot": false
+    },
+    {
+      "id": "8238c77d80",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Should Every Party Be Allowed to Vote in a Primary?",
+      "summary": "New research claims that bipartisan primaries have broad societal benefit, but opposition is growing, and Louisiana voters this weekend will participate in the state’s first closed primary since 1978.",
+      "link": "https://www.nytimes.com/2026/05/14/us/politics/open-primaries-improve-lives.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14nat-open-primaries-01-jpck/14nat-open-primaries-01-jpck-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1778793247.0,
+      "hot": false
+    },
+    {
+      "id": "ab77e4afed",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Mystery Grows Around Representative Thomas Kean Jr.’s Absence",
+      "summary": "Representative Thomas Kean Jr. last voted in Washington on March 5, citing a medical issue. An appearance planned for late May has been canceled.",
+      "link": "https://www.nytimes.com/2026/05/14/nyregion/tom-kean-congress-missing.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14met-kean-debate-01-whvl/14met-kean-debate-01-whvl-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1778791755.0,
+      "hot": false
+    },
+    {
+      "id": "721724a9c5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Linda McMahon defends dismantling the Education Department, shifting its work",
+      "summary": "The education secretary faced questions about the shrinking of her agency, limits on federal student loan borrowing and oversight of the education of students with disabilities.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5815213/education-secretary-linda-mcmahon-house-hearing",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1778791349.0,
+      "hot": false
+    },
+    {
+      "id": "50a78257ab",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Cuba's power grid collapses and plunges eastern provinces into a major blackout",
+      "summary": "Cuba's aging power grid has eroded in recent years as it faces a prolonged economic crisis, made worse by a U.S. energy blockade of the island.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5822583/cuba-blackout",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778790643.0,
+      "hot": false
+    },
+    {
+      "id": "0d525657ca",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Saudi Arabia and U.A.E. Carried Out Secret Attacks in Iran, U.S. Officials Say",
+      "summary": "The Gulf Arab states have been grappling with how to deter Iran after the war made clear the limits of American security guarantees.",
+      "link": "https://www.nytimes.com/2026/05/14/world/middleeast/saudi-arabia-uae-iran-attacks.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14int-gulf-attacks-mlvt/14int-gulf-attacks-mlvt-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778787432.0,
       "hot": false
     },
     {
@@ -183,63 +311,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778782259.0,
-      "hot": false
-    },
-    {
-      "id": "7e9d4ba4f7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "U.S. Set to Drop Charges Against Indian Billionaire Accused of Fraud",
-      "summary": "The decision came after a meeting in which a lawyer for the billionaire, Gautam Adani, made an unusual offer, according to people familiar with the matter.",
-      "link": "https://www.nytimes.com/2026/05/14/nyregion/gautam-adani-billionaire-doj-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/00met-eastern-billionaire1-tzpj/00met-eastern-billionaire1-tzpj-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1778780102.0,
-      "hot": false
-    },
-    {
-      "id": "9db42ef56b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Inside Jack Schlossberg’s Chaotic Campaign to Revive Camelot",
-      "summary": "Erratic behavior and staff turnover have colored Mr. Schlossberg’s bid for a House seat in New York, raising questions about his readiness for office.",
-      "link": "https://www.nytimes.com/2026/05/14/nyregion/jack-schlossberg-campaign.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/00met-schlossberg--02-zlcw/00met-schlossberg--02-zlcw-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1778779370.0,
-      "hot": false
-    },
-    {
-      "id": "7ae27b910e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Strategist Tied to Becerra and Newsom Pleads Guilty in Corruption Case",
-      "summary": "Dana Williamson, a former political strategist for Xavier Becerra and a former aide to Gov. Gavin Newsom, appeared in federal court on Thursday.",
-      "link": "https://www.nytimes.com/2026/05/14/us/becerra-newsom-strategist-plea-california-governor-race.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14nat-becerra-williamson-charges-hfo-gcpb/14nat-becerra-williamson-charges-hfo-gcpb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1778779299.0,
       "hot": false
     },
     {
@@ -255,8 +329,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778777247.0,
       "hot": false
     },
@@ -273,81 +347,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778765387.0,
       "hot": false
     },
     {
-      "id": "4655bb3670",
+      "id": "47152469ed",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "In a City of Big Dreams, Many Young Adults See a Cloudy Future",
-      "summary": "A bleak job market. Rising rents. Huge debt. In New York and other cities, traditional milestones of adulthood feel further away for some 20- and 30-year-olds.",
-      "link": "https://www.nytimes.com/2026/05/14/nyregion/gen-z-nyc-unaffordable.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/nyregion/17met-young-adult-print1/14met-young-adult1-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778763927.0,
-      "hot": false
-    },
-    {
-      "id": "79045fe6a8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The New Yorker's Evan Osnos shares his thoughts on the Trump-Xi summit",
-      "summary": "NPR's Steve Inskeep talks with the New Yorker's Evan Osnos about his impressions of the Trump-Xi summit.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5820726/the-new-yorkers-evan-osnos-shares-his-thoughts-on-the-trump-xi-summit",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778755176.0,
-      "hot": false
-    },
-    {
-      "id": "6f862506ee",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israel and Lebanon meet in D.C. again for peace talks",
-      "summary": "Representatives for Israel and Lebanon meet in Washington, D.C., for a second time to end the war, as their ceasefire frays.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5821274/israel-and-lebanon-meet-in-d-c-again-for-peace-talks",
-      "image": null,
+      "title": "Iran War Powers Vote Fails Again in Senate, but GOP Opposition Grows",
+      "summary": "Senator Lisa Murkowski of Alaska became the latest Republican to switch her vote to halt the conflict and require President Trump to win congressional approval to continue it.",
+      "link": "https://www.nytimes.com/2026/05/13/us/politics/iran-war-powers-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/13trump-news-warpowers-murkowski-mglk/13trump-news-warpowers-murkowski-mglk-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1778755172.0,
-      "hot": false
-    },
-    {
-      "id": "a1f1338be4",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why the Migrant Child Crisis Is Roiling the California Governor Race",
-      "summary": "The Times broke the story that has become a dominant line of attack against Xavier Becerra, the Democratic front-runner. Here are five things to know about it.",
-      "link": "https://www.nytimes.com/2026/05/14/us/politics/xavier-becerra-migrant-children.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14inv-becerra-kids-02-vphb/14inv-becerra-kids-02-vphb-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778749520.0,
+      "score": 55,
+      "ago": "昨日",
+      "pub_ts": 1778704554.0,
       "hot": false
     },
     {
