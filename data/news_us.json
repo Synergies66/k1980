@@ -1,26 +1,81 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-14T15:01:47.837405+00:00",
-  "total": 22,
+  "updated_at": "2026-05-14T18:13:05.192267+00:00",
+  "total": 20,
   "articles": [
     {
-      "id": "671bac1e47",
+      "id": "080b1a9f77",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "What People in China Say of Trump",
-      "summary": "Residents in four Chinese cities described a mixture of amusement and anger, blaming U.S. tensions for a slowing economy and rising fuel prices.",
-      "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-china-people-street.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14int-china-trump-people-01-lqmw/14int-china-trump-people-01-lqmw-mediumSquareAt3X-v2.jpg",
+      "title": "Trump Was Flattering, Xi Was Resolute. The Difference Spoke Volumes.",
+      "summary": "In contrast to his rhetoric about China at home, President Trump spoke in conciliatory terms with Xi Jinping, the Chinese leader.",
+      "link": "https://www.nytimes.com/2026/05/14/world/asia/trump-xi-jinping-us-china.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14INT-PREXY-SANGER-bfcq/14INT-PREXY-SANGER-bfcq-mediumSquareAt3X.jpg",
       "categories": [
-        "经济",
         "华人"
       ],
       "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1778764642.0,
+      "ago": "0分前",
+      "pub_ts": 1778782331.0,
+      "hot": false
+    },
+    {
+      "id": "0a7d11ff60",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As Trump meets with Xi, security expert says China now faces the U.S. as a peer",
+      "summary": "Former national security official Rush Doshi says President Trump's sky-high tariffs on Chinese goods sparked a clash in which China prevailed. We look at the current state of U.S.-China relations.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5821644/as-trump-meets-with-xi-security-expert-says-china-now-faces-the-u-s-as-a-peer",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "14分前",
+      "pub_ts": 1778781500.0,
+      "hot": false
+    },
+    {
+      "id": "b948fdc409",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Spies, Sanctions, Cyberattacks: China and the U.S. Clash Behind the Scenes",
+      "summary": "After months of avoiding confrontation, the Trump administration has taken recent steps to call out China on Iran, artificial intelligence and spying.",
+      "link": "https://www.nytimes.com/2026/05/14/us/politics/china-us-sanctions-ai-cybersecurity.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14dc-china-violations-top-jvfm/14dc-china-violations-top-jvfm-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "29分前",
+      "pub_ts": 1778780625.0,
+      "hot": false
+    },
+    {
+      "id": "3f34704e40",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Might Welcome Chinese Investment, but America Is Wary",
+      "summary": "A pledge for more Chinese investment could face backlash given longstanding national security concerns in the United States.",
+      "link": "https://www.nytimes.com/2026/05/14/business/trump-china-xi-investment.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14dc-china-invest-fqgb/14dc-china-invest-fqgb-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "4小时前",
+      "pub_ts": 1778767605.0,
       "hot": false
     },
     {
@@ -36,8 +91,8 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "2小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1778760377.0,
       "hot": false
     },
@@ -54,26 +109,27 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1778758341.0,
       "hot": false
     },
     {
-      "id": "f5f71691a8",
+      "id": "3a28c08ca2",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Richard Haass talks about accounts from U.S. and China on Trump-Xi meeting",
-      "summary": "NPR's Steve Inskeep speaks with veteran diplomat Richard Haass about the differences in Chinese and U.S. readouts from President Trump's meeting with China's leader Xi Jinping.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5822225/richard-haass-talks-about-accounts-from-u-s-and-china-on-trump-xi-meeting",
+      "title": "Cordial Trump-Xi meeting is a 'good sign,' says longtime U.S. diplomat",
+      "summary": "Longtime U.S. diplomat Richard Haass interprets President Trump's meeting with China leader, Xi Jinping. He said though the two have different priorities the cordial summit could be a 'good sign.'",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5822225/richard-haass-trump-xi-meeting-china-summit",
       "image": null,
       "categories": [
-        "华人"
+        "华人",
+        "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1778757306.0,
       "hot": false
     },
@@ -91,8 +147,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1778756520.0,
       "hot": false
     },
@@ -109,100 +165,45 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1778755180.0,
       "hot": false
     },
     {
-      "id": "bb368025db",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "China’s Growing Leverage Over the U.S., and How Oil Companies Hit the Jackpot",
-      "summary": "Plus, a surprise reversal in the Murdaugh murder case.",
-      "link": "https://www.nytimes.com/2026/05/14/podcasts/the-headlines/china-leverage-us-oil-companies.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14theheadlines-china-cfth/14theheadlines-china-cfth-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1778752814.0,
-      "hot": false
-    },
-    {
-      "id": "595d269b8e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "How Asia is reacting to Trump's summit in China",
-      "summary": "President Trump is in Beijing for his big summit with Chinese leaders. How Asia is reacting to the summit.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5822179/how-asia-is-reacting-to-trumps-summit-in-china",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1778749657.0,
-      "hot": false
-    },
-    {
-      "id": "8913368f89",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Consumers Spent More in April Despite High Gas Prices",
-      "summary": "Retail sales rose 0.5 percent despite higher prices for gas, food and other goods. But there are signs consumers are under some strain.",
-      "link": "https://www.nytimes.com/2026/05/14/business/retail-sales-consumer-spending-april.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/14biz-consumers/13biz-ppi-lkqt-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "44分前",
-      "pub_ts": 1778768246.0,
-      "hot": false
-    },
-    {
-      "id": "ddbf89ebe2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Bo French Challenges Texas Oil Regulator in GOP Runoff",
-      "summary": "Bo French, a hard-liner known for wild social media posts, is seeking a bigger megaphone. Big oil companies, and top officials like Greg Abbott, want to stop him.",
-      "link": "https://www.nytimes.com/2026/05/14/us/gop-race-for-texas-oil-regulator-tests-the-strength-of-the-hard-right.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/arts/14nat-texas-hardright/14nat-texas-hardright-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778766833.0,
-      "hot": false
-    },
-    {
-      "id": "2e7b6988cb",
+      "id": "8e35b3eb16",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "A Philippine senator wanted by the International Criminal Court flees from Senate",
-      "summary": "A police investigation is underway in the Philippines, with suspicions that the incident was staged to help Sen. Ronald dela Rosa escape.",
-      "link": "https://www.npr.org/2026/05/14/g-s1-122021/philippines-senator-escape-wanted-icc",
+      "title": "Jury orders Boeing to pay $49.5 million to family of 737 MAX crash victim",
+      "summary": "A federal jury in Chicago awarded $49.5 million to the family of Samya Stumo, a young woman who was killed in the second of two Boeing 737 MAX crashes within months of each other in 2018 and 2019.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5822441/jury-award-737-max-crash-ethiopian-airlines",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778765387.0,
+      "ago": "1分前",
+      "pub_ts": 1778782259.0,
+      "hot": false
+    },
+    {
+      "id": "7e9d4ba4f7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Set to Drop Charges Against Indian Billionaire Accused of Fraud",
+      "summary": "The decision came after a meeting in which a lawyer for the billionaire, Gautam Adani, made an unusual offer, according to people familiar with the matter.",
+      "link": "https://www.nytimes.com/2026/05/14/nyregion/gautam-adani-billionaire-doj-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/00met-eastern-billionaire1-tzpj/00met-eastern-billionaire1-tzpj-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1778780102.0,
       "hot": false
     },
     {
@@ -219,46 +220,80 @@
         "科技"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778764506.0,
+      "ago": "50分前",
+      "pub_ts": 1778779370.0,
       "hot": false
     },
     {
-      "id": "93f1594539",
+      "id": "7ae27b910e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "A Fact Check of Trump’s Claims on Inflation and Gas Prices in Iran War",
-      "summary": "He has minimized soaring gas prices, rising inflation and the American economy’s need for the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/2026/05/14/us/politics/trump-iran-war-economy-cost.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14dc-factcheck-vlpb/14dc-factcheck-vlpb-mediumSquareAt3X.jpg",
+      "title": "Strategist Tied to Becerra and Newsom Pleads Guilty in Corruption Case",
+      "summary": "Dana Williamson, a former political strategist for Xavier Becerra and a former aide to Gov. Gavin Newsom, appeared in federal court on Thursday.",
+      "link": "https://www.nytimes.com/2026/05/14/us/becerra-newsom-strategist-plea-california-governor-race.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/14nat-becerra-williamson-charges-hfo-gcpb/14nat-becerra-williamson-charges-hfo-gcpb-mediumSquareAt3X.jpg",
       "categories": [
-        "经济",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778763605.0,
+      "score": 70,
+      "ago": "51分前",
+      "pub_ts": 1778779299.0,
       "hot": false
     },
     {
-      "id": "ef75ed2dd6",
+      "id": "27902410f3",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "A brain-controlled system may help listeners with hearing loss cut through the noise",
-      "summary": "A hearing system that monitors brain waves could help people with hearing loss communicate in noisy environments.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5821161/brain-controlled-hearing-aids-cocktail-party-effect",
+      "title": "Researchers unearth Southeast Asia's largest dinosaur",
+      "summary": "They're calling it the \"last titan\" of Thailand. The sauropod — an herbivore with a long neck and tail — comes from the late Early Cretaceous period, some 100 to 120 million years ago.",
+      "link": "https://www.npr.org/2026/05/14/nx-s1-5819740/dinosaur-thailand-sauropod-giant-asia-paleontology",
       "image": null,
       "categories": [
-        "天气",
         "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778777247.0,
+      "hot": false
+    },
+    {
+      "id": "2e7b6988cb",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A Philippine senator wanted by the International Criminal Court flees from Senate",
+      "summary": "A police investigation is underway in the Philippines, with suspicions that the incident was staged to help Sen. Ronald dela Rosa escape.",
+      "link": "https://www.npr.org/2026/05/14/g-s1-122021/philippines-senator-escape-wanted-icc",
+      "image": null,
+      "categories": [
+        "本地"
       ],
       "score": 65,
       "ago": "4小时前",
-      "pub_ts": 1778756400.0,
+      "pub_ts": 1778765387.0,
+      "hot": false
+    },
+    {
+      "id": "4655bb3670",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In a City of Big Dreams, Many Young Adults See a Cloudy Future",
+      "summary": "A bleak job market. Rising rents. Huge debt. In New York and other cities, traditional milestones of adulthood feel further away for some 20- and 30-year-olds.",
+      "link": "https://www.nytimes.com/2026/05/14/nyregion/gen-z-nyc-unaffordable.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/nyregion/17met-young-adult-print1/14met-young-adult1-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778763927.0,
       "hot": false
     },
     {
@@ -274,8 +309,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778755176.0,
       "hot": false
     },
@@ -292,8 +327,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778755172.0,
       "hot": false
     },
@@ -310,81 +345,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778749520.0,
-      "hot": false
-    },
-    {
-      "id": "517836dfb0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Voters are caught in the middle as the redistricting battle intensifies",
-      "summary": "Much of the focus of the ongoing redistricting war has been on which political party will come out on top. But it's voters who will pay a cost, say voting experts and voting rights advocates.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5818507/redistricting-voters-louisiana-alabama-virginia",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778749200.0,
-      "hot": false
-    },
-    {
-      "id": "682ed08a31",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Ex-DOJ official goes public with blistering criticism of his former bosses",
-      "summary": "Until recently, Jonathan Gross was a Trump political appointee at the Department of Justice and worked on its \"Weaponization Working Group.\" He has now become a vocal critic of the department.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5802959/doj-trump-doj-todd-blanche-jan-6-capitol-riot",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778749200.0,
-      "hot": false
-    },
-    {
-      "id": "362baa1495",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The MAHA movement is coming to school cafeterias. Here's what that means for kids",
-      "summary": "U.S. school districts worry it could get even more expensive to prepare a meal under new federal dietary guidelines, as they also contend with cuts to programs that helped them buy local food.",
-      "link": "https://www.npr.org/2026/05/14/nx-s1-5688946/school-lunches-dietary-guidelines-maha",
-      "image": null,
-      "categories": [
-        "教育"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778749200.0,
-      "hot": false
-    },
-    {
-      "id": "efd3d30c7b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Remark on Americans’ Finances and Iran War Points to GOP Midterm Challenges",
-      "summary": "Asked if he was motivated by Americans’ financial woes to make a deal to end the war with Iran, he responded, “Not even a little bit.”",
-      "link": "https://www.nytimes.com/2026/05/13/us/politics/trump-iran-war-american-finances-republicans-midterms.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/13pol-on-politics-newsletter-trump-pcmh/13pol-on-politics-newsletter-trump-pcmh-mediumSquareAt3X-v3.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1778719365.0,
       "hot": false
     },
     {
