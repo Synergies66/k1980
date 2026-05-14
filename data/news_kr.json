@@ -1,9 +1,28 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-14T11:01:36.902705+00:00",
-  "total": 6,
+  "updated_at": "2026-05-14T15:09:14.015634+00:00",
+  "total": 8,
   "articles": [
+    {
+      "id": "d82816a8e7",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(6th LD) U.S., China agree Iran can never have nuke, Strait of Hormuz must remain open: White House",
+      "summary": "BEIJING, May 14 (Yonhap) -- The United States and China agreed Thursday that Ira...",
+      "link": "https://en.yna.co.kr/view/AEN20260514000956315",
+      "image": "https://img.yna.co.kr/photo/reuters/2026/05/14/PRU20260514247901009_P2.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778757038.0,
+      "hot": false
+    },
     {
       "id": "89b2bb379f",
       "type": "news",
@@ -18,27 +37,64 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "5小时前",
       "pub_ts": 1778750531.0,
       "hot": false
     },
     {
-      "id": "c720f51a3b",
+      "id": "849909255a",
       "type": "news",
       "region": "kr",
       "source": "Yonhap News",
       "lang": "en",
-      "title": "(URGENT) U.S., China discussed economic cooperation, including expanding market access for U.S. busi",
-      "summary": "(END)",
-      "link": "https://en.yna.co.kr/view/AEN20260514010100315",
-      "image": "https://img.yna.co.kr/photo/cms/2023/08/24/07/PCM20230824000107990_P2.jpg",
+      "title": "U.S. Senate to hold confirmation hearing for ambassador nominee to S. Korea next week",
+      "summary": "SEOUL, May 14 (Yonhap) -- The U.S. Senate plans to hold a confirmation hearing n...",
+      "link": "https://en.yna.co.kr/view/AEN20260514010800315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/14/AEN20260514010800315_02_i_P2.jpg",
       "categories": [
-        "华人"
+        "本地"
       ],
-      "score": 77,
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1778767843.0,
+      "hot": false
+    },
+    {
+      "id": "9666a659cd",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Industry minister warns of emergency arbitration if Samsung unions launch strike",
+      "summary": "SEOUL, May 14 (Yonhap) -- Industry Minister Kim Jung-kwan said Thursday that the...",
+      "link": "https://en.yna.co.kr/view/AEN20260514010700315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/14/AEN20260514010700315_01_i_P2.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1778748216.0,
+      "pub_ts": 1778761371.0,
+      "hot": false
+    },
+    {
+      "id": "2d1fbe1e20",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "Lee visits traditional market in Seongnam, meets merchants and shoppers",
+      "summary": "SEOUL, May 14 (Yonhap) -- President Lee Jae Myung visited a traditional market i...",
+      "link": "https://en.yna.co.kr/view/AEN20260514010600315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/14/AEN20260514010600315_01_i_P2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778757829.0,
       "hot": false
     },
     {
@@ -54,8 +110,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "13分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778755714.0,
       "hot": false
     },
@@ -72,8 +128,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "22分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778755156.0,
       "hot": false
     },
@@ -91,27 +147,9 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778749529.0,
-      "hot": false
-    },
-    {
-      "id": "b37b29f574",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "SK hynix to break ground on 2nd phase of 1st fab in Yongin chip cluster in Aug.: sources",
-      "summary": "SEOUL, May 14 (Yonhap) -- SK hynix Inc. will break ground on the second phase of...",
-      "link": "https://en.yna.co.kr/view/AEN20260514010200320",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/14/AEN20260514010200320_02_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778749477.0,
       "hot": false
     }
   ]
