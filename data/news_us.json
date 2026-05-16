@@ -1,16 +1,34 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-16T09:54:03.859836+00:00",
-  "total": 22,
+  "updated_at": "2026-05-16T14:02:50.094899+00:00",
+  "total": 20,
   "articles": [
     {
-      "id": "3b3211c9bc",
+      "id": "c94cc495f0",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Turns Taiwan Arms Sales Into Bargaining Chip With China",
+      "title": "Rubio, Once a China Hawk, Strikes Softer Tone to Align With Trump",
+      "summary": "As a senator, Marco Rubio even hinted at the need for regime change in China. Now he talks about cooperation.",
+      "link": "https://www.nytimes.com/2026/05/16/us/politics/rubio-china-trump-trip.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/xxdc-rubio-china-vtkw/xxdc-rubio-china-vtkw-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "10分前",
+      "pub_ts": 1778939508.0,
+      "hot": false
+    },
+    {
+      "id": "a6c6e8c162",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Uses Taiwan Arms Sales as Bargaining Chip With China, in a Risky Move",
       "summary": "The president said a potential arms deal for Taiwan was a “very good negotiating chip” in talks with Beijing. His words raise questions about the steadfastness of U.S. support.",
       "link": "https://www.nytimes.com/2026/05/16/world/asia/trump-taiwan-arms-bargaining-chip-china.html",
       "image": "https://static01.nyt.com/images/2026/05/16/world/16int-taiwan-us-analysis-patriot/16int-taiwan-us-analysis-patriot-mediumSquareAt3X.jpg",
@@ -19,82 +37,172 @@
         "科技"
       ],
       "score": 82,
+      "ago": "14分前",
+      "pub_ts": 1778939302.0,
+      "hot": false
+    },
+    {
+      "id": "a6602e5a33",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "China Will Host Putin, Days After Trump’s Visit",
+      "summary": "The Russian leader will go to Beijing on Tuesday for talks with President Xi Jinping. The Kremlin said he had watched President Trump’s visit closely.",
+      "link": "https://www.nytimes.com/2026/05/16/world/europe/putin-china-visit-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16int-russia-china-lwth/16int-russia-china-lwth-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1778930623.0,
+      "hot": false
+    },
+    {
+      "id": "4d5090e602",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How a Nature Cruise Turned Into a Nightmare",
+      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer.",
+      "link": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/00int-hantavirus-cruise-top-mwgz/00int-hantavirus-cruise-top-mwgz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "8分前",
+      "pub_ts": 1778939639.0,
+      "hot": false
+    },
+    {
+      "id": "06348a3746",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In Congress, a Sexual Harassment ‘Minefield’ Persists, Aides and Former Staff Say",
+      "summary": "Nearly 10 years after Congress instituted measures to make it easier for women to lodge harassment complaints, lawmakers and aides say the behavior is still rampant.",
+      "link": "https://www.nytimes.com/2026/05/16/us/politics/on-capitol-hill-a-sexual-harassment-minefield-persists.html",
+      "image": "https://static01.nyt.com/images/2026/05/11/multimedia/00dc-cong-culture-top-hbcw/00dc-cong-culture-top-hbcw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1778939467.0,
+      "hot": false
+    },
+    {
+      "id": "62c53a4300",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Push to Indict Raúl Castro, Cuba’s Former President",
+      "summary": "With Raúl Castro, Cuba’s former president, possibly facing charges in the 1996 killings, here’s a look back at what happened that day.",
+      "link": "https://www.nytimes.com/2026/05/15/world/americas/cuba-raul-castro-us-indictment.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15int-cuba-brothers01-photo-thlm/15int-cuba-brothers01-photo-thlm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778920771.0,
+      "pub_ts": 1778936133.0,
       "hot": false
     },
     {
-      "id": "805457f010",
+      "id": "6b41d8b1ee",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Why Were These C.E.O.s in Beijing With Trump?",
-      "summary": "Some of America’s most powerful C.E.O.s accompanied President Trump to Beijing during his summit with President Xi Jinping of China. Our reporter Ana Swanson explains what they were hoping to gain fro",
-      "link": "https://www.nytimes.com/video/us/politics/100000010906537/why-were-these-ceos-in-beijing-with-trump.html",
-      "image": null,
+      "title": "What to Watch in Saturday’s Republican Senate Primary in Louisiana",
+      "summary": "Senator Bill Cassidy, who has drawn President Trump’s ire, is fighting for political survival.",
+      "link": "https://www.nytimes.com/2026/05/16/us/politics/what-to-watch-louisiana-senate-primary.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16pol-louisiana-wtw-01-wzcl/16pol-louisiana-wtw-01-wzcl-mediumSquareAt3X.jpg",
       "categories": [
-        "华人",
-        "科技"
+        "本地"
       ],
-      "score": 72,
-      "ago": "8小时前",
-      "pub_ts": 1778893078.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778935397.0,
       "hot": false
     },
     {
-      "id": "3ab32512f5",
+      "id": "6919d79c0d",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump’s ‘Learning Curve’ on China Ends With Conciliation at Summit",
-      "summary": "The president has shifted the foundations of American policy toward China, throwing aside the adversarial approach of recent years.",
-      "link": "https://www.nytimes.com/2026/05/15/world/europe/trump-xi-china-summit.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15dc-china-trump-ledeall01-photo-chvq/15dc-china-trump-ledeall01-photo-chvq-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1778875169.0,
-      "hot": false
-    },
-    {
-      "id": "31daa706c5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "SCOTUS upholds abortion pill telehealth access. And, Trump returns from China visit",
-      "summary": "The Supreme Court kept access to the abortion pill mifepristone available via telehealth. And, Trump says he made multiple trade deals during his state visit to China.",
-      "link": "https://www.npr.org/2026/05/15/g-s1-122218/up-first-newsletter-mifepristone-trump-china-keir-starmer-new-york-salmon-river-students",
+      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
+      "summary": "Louisiana Sen. Bill Cassidy was one of seven Republican senators who voted to convict President Trump. Now he's running for reelection in a race that will test Trump's hold on the GOP.",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122486/louisiana-senate-cassidy-trump",
       "image": null,
       "categories": [
-        "华人",
-        "科技"
+        "政治"
       ],
-      "score": 72,
-      "ago": "22小时前",
-      "pub_ts": 1778845663.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778935113.0,
       "hot": false
     },
     {
-      "id": "93bdc826dc",
+      "id": "86a0abdfe8",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "Key takeaways from Trump's China trip",
-      "summary": "President Trump returns to the U.S. after wrapping up his whirlwind trip to China.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5822512/trump-china-xi-summit-takeaways",
+      "title": "The war in Ukraine is at a standstill as societal fatigue grows in Russia",
+      "summary": "With the peace process stalled, there are signs of growing public fatigue in Russia with the Kremlin's war as Ukraine uses robotic warfare to stay in the fight.",
+      "link": "https://www.npr.org/2026/05/16/nx-s1-5822468/the-war-in-ukraine-is-at-a-standstill-as-societal-fatigue-grows-in-russia",
       "image": null,
       "categories": [
-        "华人"
+        "天气",
+        "科技"
       ],
-      "score": 72,
-      "ago": "22小时前",
-      "pub_ts": 1778842816.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778931821.0,
+      "hot": false
+    },
+    {
+      "id": "6c6671a8a2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Elephants eat their crops. Farmers strike back. It's a war that's only getting worse",
+      "summary": "In Sri Lanka, the islanders revere elephants. But for farmers, there's rising tension that's leading to more fatal encounters — for both humans and hungry pachyderms.",
+      "link": "https://www.npr.org/2026/05/16/g-s1-121654/elephants-farmers-crops-sri-lanka",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778930365.0,
+      "hot": false
+    },
+    {
+      "id": "cc6f6173b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The townspeople of Vilseck, Germany, worry that Trump may pull out 5,000 U.S. troops",
+      "summary": "President Trump's troop withdrawal threat rattles residents of a small Bavarian town reliant on U.S. military personnel and their families for both income and friendships built over decades.",
+      "link": "https://www.npr.org/2026/05/16/nx-s1-5815881/trump-germany-withdrawal-nato-us-troops-vilseck",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778925600.0,
       "hot": false
     },
     {
@@ -110,26 +218,8 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "53分前",
-      "pub_ts": 1778922000.0,
-      "hot": false
-    },
-    {
-      "id": "07193239c8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
-      "summary": "Louisiana Sen. Bill Cassidy was one of seven Republican senators who voted to impeach President Trump. Now he's running for reelection in a race that will test Trump's hold on the GOP.",
-      "link": "https://www.npr.org/2026/05/16/nx-s1-5808979/louisiana-senate-cassidy-trump",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "53分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778922000.0,
       "hot": false
     },
@@ -146,8 +236,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778919815.0,
       "hot": false
     },
@@ -165,45 +255,27 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778910290.0,
       "hot": false
     },
     {
-      "id": "7588cc7e7f",
+      "id": "c8c1581d25",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Gaza airstrike targeted Hamas military wing leader, Israel says",
-      "summary": "An Israeli airstrike in Gaza on Friday targeted the leader of Hamas' military wing, Israeli officials said, but it wasn't immediately clear if Izz al-Din al-Haddad was killed or injured.",
+      "title": "Israel says it killed the leader of Hamas' military wing",
+      "summary": "Israel says it has killed the leader of Hamas' military wing, one of the architects of the Oct, 7, 2023, attacks that triggered the war in Gaza.",
       "link": "https://www.npr.org/2026/05/16/g-s1-122453/gaza-airstrike-hamas-military-leader",
       "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778908557.0,
-      "hot": false
-    },
-    {
-      "id": "fea5d7e81c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Rejects Virginia Democrats’ Effort to Reinstate New Voting Map",
-      "summary": "State officials had asked the justices to step in to allow the state to use a congressional map in the midterms that was drawn by Democrats and recently approved by voters.",
-      "link": "https://www.nytimes.com/2026/05/15/us/politics/supreme-court-virginia-redistricting.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/00dc-scotus-virginia-lvgj/00dc-scotus-virginia-lvgj-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1778892486.0,
+      "ago": "8小时前",
+      "pub_ts": 1778908557.0,
       "hot": false
     },
     {
@@ -220,44 +292,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "14小时前",
       "pub_ts": 1778888483.0,
-      "hot": false
-    },
-    {
-      "id": "6bd735c2bf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court is death knell for Virginia's Democratic-friendly congressional maps",
-      "summary": "The new map was drawn by Democrats and approved by Virginia voters, but the state Supreme Court declared the referendum null and void because lawmakers failed to follow the proper procedures to get th",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5823911/supreme-court-virginia-redistricting",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778885922.0,
-      "hot": false
-    },
-    {
-      "id": "62c53a4300",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Push to Indict Raúl Castro, Cuba’s Former President",
-      "summary": "Mr. Castro, Cuba’s former president, could soon face charges in the 1996 killings of four volunteer airmen who were members of a humanitarian group that searched for migrants at sea.",
-      "link": "https://www.nytimes.com/2026/05/15/world/americas/cuba-raul-castro-us-indictment.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15int-cuba-brothers01-photo-thlm/15int-cuba-brothers01-photo-thlm-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1778883999.0,
       "hot": false
     },
     {
@@ -275,26 +311,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1778882587.0,
-      "hot": false
-    },
-    {
-      "id": "bf11b3fc95",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Photos: Cuba Plunges Into Darkness as U.S. Cuts Off Oil Supply",
-      "summary": "The United States has choked off Cuba’s fuel supply, plunging the already impoverished island into an acute energy crisis.",
-      "link": "https://www.nytimes.com/2026/05/15/world/americas/cuba-energy-crisis-photos.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15int-cuba-blackout-stack01-photo-zqcm/15int-cuba-blackout-stack01-photo-zqcm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778881143.0,
       "hot": false
     },
     {
@@ -311,63 +329,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1778879630.0,
-      "hot": false
-    },
-    {
-      "id": "4601a3850d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Colorado's Democratic governor will let Trump ally Tina Peters out of prison early",
-      "summary": "Gov. Jared Polis' controversial commutation follows a pressure campaign by the Trump administration to free Tina Peters, an ex-county official who was convicted of tampering with election equipment.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5690286/tina-peters-polis-commutation-trump",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1778877900.0,
-      "hot": false
-    },
-    {
-      "id": "eaa0da80fd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Texas Supreme Court Rejects Abbott Effort to Remove Democrats After Walkout",
-      "summary": "Republican state leaders tried to expel Democratic lawmakers during their fight over redistricting last year. The court said it was not necessary.",
-      "link": "https://www.nytimes.com/2026/05/15/us/texas-supreme-court-abbott-democrats-walkout-redistricting.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15nat-gene-wu-1-hkpf/15nat-gene-wu-1-hkpf-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1778875071.0,
-      "hot": false
-    },
-    {
-      "id": "1abdc963fb",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Hantavirus countdown: U.S. cruise passengers settle in for 42 days of waiting",
-      "summary": "The hantavirus outbreak on a cruise ship has potentially exposed passengers to a deadly disease. Most returning Americans are now housed in Nebraska. Some may be cleared to quarantine at home.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5819872/hantavirus-quarantine",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1778873283.0,
       "hot": false
     },
     {
@@ -384,7 +347,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1778872941.0,
       "hot": false
     },
