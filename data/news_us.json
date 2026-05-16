@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-16T17:29:21.371864+00:00",
-  "total": 20,
+  "updated_at": "2026-05-16T21:07:44.297419+00:00",
+  "total": 22,
   "articles": [
+    {
+      "id": "bc42e72d84",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Calls Xi a ‘Friend.’ But He Left China Without Any Breakthroughs.",
+      "summary": "The lack of concrete agreements with Beijing shows the risks of President Trump’s personality-driven foreign policy, which rests on the belief that he can defend U.S. interests through charm and force",
+      "link": "https://www.nytimes.com/2026/05/16/world/europe/trump-xi-china-summit.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-trump-diplo-mzvf/16dc-trump-diplo-mzvf-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "4小时前",
+      "pub_ts": 1778950870.0,
+      "hot": false
+    },
     {
       "id": "a6c6e8c162",
       "type": "news",
@@ -19,26 +37,8 @@
         "科技"
       ],
       "score": 77,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778944285.0,
-      "hot": false
-    },
-    {
-      "id": "c94cc495f0",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Rubio, Once a China Hawk, Strikes Softer Tone to Align With Trump",
-      "summary": "As a senator, Marco Rubio even hinted at the need for regime change in China. Now he talks about cooperation.",
-      "link": "https://www.nytimes.com/2026/05/16/us/politics/rubio-china-trump-trip.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/xxdc-rubio-china-vtkw/xxdc-rubio-china-vtkw-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "3小时前",
-      "pub_ts": 1778939508.0,
       "hot": false
     },
     {
@@ -56,8 +56,82 @@
         "科技"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778930623.0,
+      "hot": false
+    },
+    {
+      "id": "9509595494",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A new Ebola outbreak has already killed 87 people in Democratic Republic of Congo",
+      "summary": "Health officials are working to contain a new Ebola outbreak in the DRC of a virus strain with no known vaccine.",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122494/a-new-ebola-outbreak-has-already-killed-87-people",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778956656.0,
+      "hot": false
+    },
+    {
+      "id": "121fe40711",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Voters in Louisiana Head to the Polls, Uncertain but Determined",
+      "summary": "Votes cast for the House candidates on Saturday’s primary ballot won’t count after state officials moved the election to November to provide time to redraw congressional maps.",
+      "link": "https://www.nytimes.com/2026/05/16/us/voters-louisiana-primary-gerrymander.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16nat-louisiana-confusion-01-pvwc/16nat-louisiana-confusion-01-pvwc-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778956094.0,
+      "hot": false
+    },
+    {
+      "id": "640a48ab5d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "At Supreme Court, Virginia Democrats Pressed Legal Theory Embraced by Trump",
+      "summary": "A long-shot emergency request to restore a voting map was the latest salvo in an all-out legal war over control of the House.",
+      "link": "https://www.nytimes.com/2026/05/16/us/at-supreme-court-virginia-democrats-pressed-legal-theory-embraced-by-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-scotus-vote-fjlh/16dc-scotus-vote-fjlh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778955043.0,
+      "hot": false
+    },
+    {
+      "id": "3d5cf115bf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "North America poised for light display of aurora borealis",
+      "summary": "The splashy nighttime phenomenon will be best observed on Saturday and Sunday nights",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122492/north-america-poised-for-light-display-of-aurora-borealis",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778954879.0,
       "hot": false
     },
     {
@@ -73,8 +147,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "3分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1778952354.0,
       "hot": false
     },
@@ -91,8 +165,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "54分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778949276.0,
       "hot": false
     },
@@ -110,26 +184,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1778944364.0,
-      "hot": false
-    },
-    {
-      "id": "6b41d8b1ee",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Watch in Saturday’s Republican Senate Primary in Louisiana",
-      "summary": "Senator Bill Cassidy, who has drawn President Trump’s ire, is fighting for political survival.",
-      "link": "https://www.nytimes.com/2026/05/16/us/politics/what-to-watch-louisiana-senate-primary.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16pol-louisiana-wtw-01-wzcl/16pol-louisiana-wtw-01-wzcl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1778935397.0,
       "hot": false
     },
     {
@@ -145,8 +201,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778935113.0,
       "hot": false
     },
@@ -164,8 +220,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778931821.0,
       "hot": false
     },
@@ -183,7 +239,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778930365.0,
       "hot": false
     },
@@ -201,7 +257,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1778925600.0,
       "hot": false
     },
@@ -219,26 +275,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778922022.0,
-      "hot": false
-    },
-    {
-      "id": "343e5c7b78",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Political Money Is Flowing to Influencers. But From Whom?",
-      "summary": "Social media stars have become a magnet for campaigns and political groups that want to push priorities without disclosing where their money is going.",
-      "link": "https://www.nytimes.com/2026/05/16/business/media/influencers-political-financing-disclosure.html",
-      "image": "https://static01.nyt.com/images/2026/04/10/multimedia/00biz-paid-influencers-Jessica-Kraus-02-jfhq/00biz-paid-influencers-Jessica-Kraus-02-jfhq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1778922008.0,
       "hot": false
     },
     {
@@ -255,7 +293,7 @@
         "教育"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778922000.0,
       "hot": false
     },
@@ -263,7 +301,7 @@
       "id": "ed5be7fd09",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump says Islamic State group leader was killed in a joint U.S.-Nigerian mission",
       "summary": "Trump announced the joint operation in Africa's most populous country in a late-night social media post. He said Abu Bakr al-Mainuki was second in command of the Islamic State group globally.",
@@ -273,7 +311,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778919815.0,
       "hot": false
     },
@@ -281,7 +319,7 @@
       "id": "4ac091a984",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The Eurovision Song Contest reaches its grand final with pop and protests",
       "summary": "The final of the Eurovision Contest arrives Saturday, with tight security and rainy weather failing to dent the enthusiasm of fans, or the opposition of critics who think Israel shouldn't be invited.",
@@ -292,7 +330,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1778910290.0,
       "hot": false
     },
@@ -310,7 +348,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1778908557.0,
       "hot": false
     },
@@ -329,7 +367,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1778882587.0,
       "hot": false
     },
@@ -347,7 +385,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "20小时前",
+      "ago": "23小时前",
       "pub_ts": 1778879630.0,
       "hot": false
     },
