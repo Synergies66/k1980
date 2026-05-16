@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-16T04:06:57.284240+00:00",
-  "total": 23,
+  "updated_at": "2026-05-16T06:38:36.686618+00:00",
+  "total": 22,
   "articles": [
     {
       "id": "805457f010",
@@ -19,7 +19,7 @@
         "科技"
       ],
       "score": 77,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778893078.0,
       "hot": false
     },
@@ -37,15 +37,34 @@
         "华人"
       ],
       "score": 72,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1778875169.0,
+      "hot": false
+    },
+    {
+      "id": "9acdeabdf2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Xi Pitches His Vision for Avoiding Conflict With the U.S.",
+      "summary": "Having fought the Trump administration to a draw, China’s Xi Jinping is proposing “constructive strategic stability,” aimed at drawing lines he thinks the U.S. should not cross.",
+      "link": "https://www.nytimes.com/2026/05/15/world/asia/xi-trump-superpower-thucydides-stability.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15china-xi-swap-bqmj/15china-xi-swap-bqmj-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 72,
+      "ago": "16小时前",
+      "pub_ts": 1778853958.0,
       "hot": false
     },
     {
       "id": "31daa706c5",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "SCOTUS upholds abortion pill telehealth access. And, Trump returns from China visit",
       "summary": "The Supreme Court kept access to the abortion pill mifepristone available via telehealth. And, Trump says he made multiple trade deals during his state visit to China.",
@@ -56,7 +75,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "16小时前",
+      "ago": "18小时前",
       "pub_ts": 1778845663.0,
       "hot": false
     },
@@ -74,7 +93,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1778842816.0,
       "hot": false
     },
@@ -92,26 +111,45 @@
         "华人"
       ],
       "score": 72,
-      "ago": "17小时前",
+      "ago": "19小时前",
       "pub_ts": 1778842805.0,
       "hot": false
     },
     {
-      "id": "faae322243",
+      "id": "4ac091a984",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "How the relationship between the U.S. and China has changed under Trump",
-      "summary": "NPR's Steve Inskeep talks with Chinese scholar Da Wei about the history of the U.S.-China relationship and how it has changed under President Trump.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5819194/how-the-relationship-between-the-u-s-and-china-has-changed-under-trump",
+      "title": "The Eurovision Song Contest reaches its grand final with pop and protests",
+      "summary": "The final of the Eurovision Contest arrives Saturday, with tight security and rainy weather failing to dent the enthusiasm of fans, or the opposition of critics who think Israel shouldn't be invited.",
+      "link": "https://www.npr.org/2026/05/16/nx-s1-5824325/eurovision-final-vienna",
       "image": null,
       "categories": [
-        "华人"
+        "天气",
+        "科技"
       ],
-      "score": 72,
-      "ago": "19小时前",
-      "pub_ts": 1778834748.0,
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1778910290.0,
+      "hot": false
+    },
+    {
+      "id": "7588cc7e7f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gaza airstrike targeted Hamas military wing leader, Israel says",
+      "summary": "An Israeli airstrike in Gaza on Friday targeted the leader of Hamas' military wing, Israeli officials said, but it wasn't immediately clear if Izz al-Din al-Haddad was killed or injured.",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122453/gaza-airstrike-hamas-military-leader",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778908557.0,
       "hot": false
     },
     {
@@ -128,7 +166,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1778892486.0,
       "hot": false
     },
@@ -145,8 +183,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778888483.0,
       "hot": false
     },
@@ -163,8 +201,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778885922.0,
       "hot": false
     },
@@ -181,27 +219,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778883999.0,
-      "hot": false
-    },
-    {
-      "id": "5f4925ee0b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran-Backed Commander Accused of Plotting U.S. Attacks",
-      "summary": "Also, the Eurovision finale. Here’s the latest at the end of Friday.",
-      "link": "https://www.nytimes.com/2026/05/15/briefing/kataib-hezbollah-castro-eurovision.html",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1778883060.0,
       "hot": false
     },
     {
@@ -219,7 +239,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1778882587.0,
       "hot": false
     },
@@ -237,7 +257,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "8小时前",
       "pub_ts": 1778881143.0,
       "hot": false
     },
@@ -255,7 +275,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778879630.0,
       "hot": false
     },
@@ -274,7 +294,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1778877900.0,
       "hot": false
     },
@@ -292,7 +312,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "10小时前",
       "pub_ts": 1778875071.0,
       "hot": false
     },
@@ -310,7 +330,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778873283.0,
       "hot": false
     },
@@ -328,7 +348,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778872941.0,
       "hot": false
     },
@@ -346,7 +366,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778868452.0,
       "hot": false
     },
@@ -364,45 +384,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778868154.0,
-      "hot": false
-    },
-    {
-      "id": "ab2f924a60",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Can the NFL's Rooney Rule survive the DEI backlash?",
-      "summary": "Florida's attorney general says the NFL's Rooney Rule, which requires teams to interview minority candidates for top jobs, is discriminatory. Trump's EEOC has challenged such policies elsewhere.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5823441/rooney-rule-dei-diverse-slates-discrimination",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "12小时前",
-      "pub_ts": 1778857707.0,
-      "hot": false
-    },
-    {
-      "id": "e34ca725e4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Death toll in attack on Kyiv apartment building now stands at 24",
-      "summary": "Ukrainian President Volodymyr Zelenskyy led an official day of mourning in Kyiv a day after a Russian cruise missile flattened an apartment building. It was one of the deadliest attacks on the capital",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5823388/death-toll-in-attack-on-kyiv-apartment-building-now-stands-at-24",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1778837282.0,
+      "pub_ts": 1778868154.0,
       "hot": false
     },
     {
