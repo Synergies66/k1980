@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-16T06:38:36.686618+00:00",
+  "updated_at": "2026-05-16T09:54:03.859836+00:00",
   "total": 22,
   "articles": [
+    {
+      "id": "3b3211c9bc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Turns Taiwan Arms Sales Into Bargaining Chip With China",
+      "summary": "The president said a potential arms deal for Taiwan was a “very good negotiating chip” in talks with Beijing. His words raise questions about the steadfastness of U.S. support.",
+      "link": "https://www.nytimes.com/2026/05/16/world/asia/trump-taiwan-arms-bargaining-chip-china.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/world/16int-taiwan-us-analysis-patriot/16int-taiwan-us-analysis-patriot-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1778920771.0,
+      "hot": false
+    },
     {
       "id": "805457f010",
       "type": "news",
@@ -18,8 +37,8 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "8小时前",
       "pub_ts": 1778893078.0,
       "hot": false
     },
@@ -37,27 +56,8 @@
         "华人"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1778875169.0,
-      "hot": false
-    },
-    {
-      "id": "9acdeabdf2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Xi Pitches His Vision for Avoiding Conflict With the U.S.",
-      "summary": "Having fought the Trump administration to a draw, China’s Xi Jinping is proposing “constructive strategic stability,” aimed at drawing lines he thinks the U.S. should not cross.",
-      "link": "https://www.nytimes.com/2026/05/15/world/asia/xi-trump-superpower-thucydides-stability.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15china-xi-swap-bqmj/15china-xi-swap-bqmj-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "16小时前",
-      "pub_ts": 1778853958.0,
       "hot": false
     },
     {
@@ -75,7 +75,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "18小时前",
+      "ago": "22小时前",
       "pub_ts": 1778845663.0,
       "hot": false
     },
@@ -93,26 +93,62 @@
         "华人"
       ],
       "score": 72,
-      "ago": "19小时前",
+      "ago": "22小时前",
       "pub_ts": 1778842816.0,
       "hot": false
     },
     {
-      "id": "07a7eb1c49",
+      "id": "dbe6de0e48",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "China economist shares takeaways from the Trump-Xi summit",
-      "summary": "Steve Inskeep speaks with Chinese economist Keyu Jin about what came out of the Trump-Xi summit.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5822445/china-economist-shares-takeaways-from-the-trump-xi-summit",
+      "title": "Colleges got more rural students to apply. The challenge is getting them to attend",
+      "summary": "Some of the nation's most selective institutions are slowly increasing their rural enrollment with the help of millions of dollars from a rural alumnus of the University of Chicago.",
+      "link": "https://www.npr.org/2026/05/16/nx-s1-5797420/selective-colleges-woo-rural-students",
       "image": null,
       "categories": [
-        "华人"
+        "教育"
       ],
-      "score": 72,
-      "ago": "19小时前",
-      "pub_ts": 1778842805.0,
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1778922000.0,
+      "hot": false
+    },
+    {
+      "id": "07193239c8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
+      "summary": "Louisiana Sen. Bill Cassidy was one of seven Republican senators who voted to impeach President Trump. Now he's running for reelection in a race that will test Trump's hold on the GOP.",
+      "link": "https://www.npr.org/2026/05/16/nx-s1-5808979/louisiana-senate-cassidy-trump",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "53分前",
+      "pub_ts": 1778922000.0,
+      "hot": false
+    },
+    {
+      "id": "ed5be7fd09",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says Islamic State group leader was killed in a joint U.S.-Nigerian mission",
+      "summary": "Trump announced the joint operation in Africa's most populous country in a late-night social media post. He said Abu Bakr al-Mainuki was second in command of the Islamic State group globally.",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122461/islamic-state-leader-killed",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778919815.0,
       "hot": false
     },
     {
@@ -129,8 +165,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "53分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778910290.0,
       "hot": false
     },
@@ -147,8 +183,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1778908557.0,
       "hot": false
     },
@@ -165,8 +201,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778892486.0,
       "hot": false
     },
@@ -184,7 +220,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1778888483.0,
       "hot": false
     },
@@ -202,7 +238,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1778885922.0,
       "hot": false
     },
@@ -220,7 +256,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778883999.0,
       "hot": false
     },
@@ -239,7 +275,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1778882587.0,
       "hot": false
     },
@@ -257,7 +293,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1778881143.0,
       "hot": false
     },
@@ -275,7 +311,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1778879630.0,
       "hot": false
     },
@@ -294,7 +330,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1778877900.0,
       "hot": false
     },
@@ -312,7 +348,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1778875071.0,
       "hot": false
     },
@@ -330,7 +366,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "14小时前",
       "pub_ts": 1778873283.0,
       "hot": false
     },
@@ -338,7 +374,7 @@
       "id": "a1fb71146e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Shakira returns to official World Cup song duty, this time with Burna Boy",
       "summary": "FIFA's official 2026 World Cup song is \"Dai Dai\" from Shakira and Burna Boy. There are a number of factors that shape which songs define a tournament — and endure beyond it.",
@@ -348,44 +384,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "14小时前",
       "pub_ts": 1778872941.0,
-      "hot": false
-    },
-    {
-      "id": "35cf5473e1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Trump administration is planning a prayer event on the National Mall. All but one of the speaker",
-      "summary": "The event comes as a new survey finds that many Americans aren't comfortable mixing religion and politics.",
-      "link": "https://www.npr.org/2026/05/15/g-s1-122276/the-trump-administration-is-planning-a-prayer-event-on-the-national-mall-all-but-one-of-the-speakers-is-christian",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778868452.0,
-      "hot": false
-    },
-    {
-      "id": "ee7fad7f21",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Harvey Weinstein's third sex crimes trial in New York ends in mistrial",
-      "summary": "It was the second time in a year a jury was unable to reach a verdict on a rape charge brought by Jessica Mann.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5823745/harvey-weinstein-trial-hung-jury-mistrial-2026",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1778868154.0,
       "hot": false
     },
     {
