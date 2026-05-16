@@ -1,300 +1,188 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-05-16T04:04:08.104120+00:00",
+  "updated_at": "2026-05-16T06:36:07.398858+00:00",
   "total": 30,
   "articles": [
     {
-      "id": "023d8fe358",
+      "id": "07cef8183a",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "WorkSafe charges Scott Technology over worker death",
+      "summary": "The charge of failing to ensure the health and safety of workers carries a maximum $1.5m fine.",
+      "link": "https://www.rnz.co.nz/news/business/595436/worksafe-charges-scott-technology-over-worker-death",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "4分前",
+      "pub_ts": 1778913108.0,
+      "hot": false
+    },
+    {
+      "id": "00ac48b40a",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Dunedin robotics company charged over worker’s death",
+      "summary": "Father-of-two Michael Sherry died in a workplace accident at Scott Technology.",
+      "link": "https://www.stuff.co.nz/nz-news/360979836/dunedin-robotics-company-charged-over-workers-death",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfjAcjQkGRXj52qTBKPGXcK4fCvVxm4gVVLY6sG+7OhaFHLPBjS9peTpRPkqr%2FK%2FsjUqUZxgB%2FkijrDI10jYCI6RGkVvtyTYqPi2QjJkdOmZGkiXVh0q7Tz63XX%2FAFdJpcCrfbKSaaQkP5xAD%2FFAd15amgIQ1NCw67SlLEk25mOw2n4KayNWfXpYlJTi8LvkOc8n6e%2F2gW17+75Qb3SiRs2WfEgNN85o7+FFaEvT4tlAbWLAXwfMTc4BY3fxJS05MpcEP+8N2ryz5u0UYkg4i5kQHk4ZUuhrhw6RAo5GXVBAqaMYEDQiwOp%2Fswx9VoGY6A5ViRPs6+0PlPUqY5AobvTlwC7hxlwN0UbdyP8ewLcMhv4WUrpTlIQrqkXn7pVsDOPFLU1blq4LtirkVC1gINsXPI7xsGxvQqH1c4Cuf7epsPv+ShGBOYFhIvfa1rIAgg==?resolution=1240x700",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "7分前",
+      "pub_ts": 1778912919.0,
+      "hot": false
+    },
+    {
+      "id": "26d22c44d2",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Waratahs hit 50 in vital victory over Fijian Drua in Suva",
+      "summary": "Relive coverage of the Super Rugby Pacific game between the Fijian Drua and Waratahs in Suva.",
+      "link": "https://www.stuff.co.nz/sport/360978444/live-drua-v-waratahs-super-rugby-pacific",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYQfjD04SpQjmlW0uNP4ER0KDhUifDQDlASMk0dO0oJmvzItvPR1P6sZdFlOWzb8hj5hisVy7NPId71diAYrGzkVYmAkuQCIZebIbjn02kiz1NuCr8fTsaQQzayb5WgdcqcTvpzxPKubyluLEUeGHMG4sXWx9llkpc7c3oRH4wHqrcilb6wsrE9ZbytI4NoMSUmmoAd0F30xMv7lgZnSY3e6PEmWW1X58uYi3oDWQl0noHtSmyA0snzGfBB5Ccrs5HgvdZKbMuGcJ30GT0d%2FoQkM3zdIsjY0y0RRRIeQ8j0GyaNKzCrIGa3T1zSw5lZoOniaxK6VPvdyhDjigVYUIQMufnrwX7YAiFQvoGNLh67K+6lYlP4qReXlBJdWrdViD31jahIt7XB0ypwYhXhEtKB5iYLnFy68LkdQG8ZPG9oHOZTP7mcdYNoTQZp7zOqZtSIOqMNw3iN7G1sW4mBBWYZg=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1778912570.0,
+      "hot": false
+    },
+    {
+      "id": "cd535586ae",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Blues make late change with veteran ruled out of huge Hurricanes clash",
+      "summary": "Follow live coverage as the Blues host the Hurricanes in round 14 of Super Rugby Pacific.",
+      "link": "https://www.stuff.co.nz/sport/360978961/blues-v-hurricanes-what-you-need-know-super-rugby-pacific-clash-eden-park",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYYn6jW5W%2F5thW1UqmDT8lxvJM8hzODwZ%2FuJtM8HJzeb4+vZ9wyS9%2FJMYQvPjwHMPirZuOoLj3GR+pg090VSJrWpNRLvUmZFFfVi8X5l1zzUcHiecTVfe6xEWDLztRdTKqAFFxhQ6BaA6XM0r9YVNAOG6m8PeBBwjQQhhgdsYC1TavknkUnkruOYysa%2Fh7w%2F899n1ufW3Ue37ZARzE5x7SYxUgehzlXFjOqqXhpqYaZwtZU79CdEOkV7XBtBJhsC8VaUMHJXEY1fVX6AHzc04FsIxrM7RZ+V2uEBDPWTDugbe%2FhM8opvjIu%2FcriJx5%2FsBSxnp6ci9XcuShTkvSqO0YRM+dxwUU1unRrYrEHM3fHMvQfEuKDPSTjj631Ue5rmgFo9f0r%2FFLbnpKZygvrzDxlNxtZyAZ0vBfFSB0okGRK5fa1vPdecbowT0jngLaa63IUq62NE01h536aU4aabrc6s=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "29分前",
+      "pub_ts": 1778911557.0,
+      "hot": false
+    },
+    {
+      "id": "c9035c8222",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "NZ Herald comments: The stories open for discussion today",
-      "summary": "Want to have your say on our stories? Here's how.",
-      "link": "https://www.nzherald.co.nz/nz/nz-herald-comments-the-stories-open-for-discussion-today/BETD7I6HSZCYDPI7QGKL3VCC2U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/LLYWXGESEBEHZAGGA7XKI267IQ.gif?auth=b17c53a4c58336c3efbf8db6708d6b00add9aff3250b6f1d7b784f26e258bae3&smart=true&width=300&height=300",
+      "title": "Far North ‘death trap’ SH10 intersection has dozens of crashes, no fix planned",
+      "summary": "Across a 2.9km stretch of SH10, 39 people have been injured and one has died.",
+      "link": "https://www.nzherald.co.nz/northern-advocate/news/far-north-death-trap-sh10-intersection-has-dozens-of-crashes-no-fix-planned/EX6Y4OGUH5D3NMTRA3IU6HR5BE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/C3YABVW6WBBO7G2HGFYFMXLRPY.jpg?auth=f6ab9ee8bc970ed1752b21797a51af08e531d847e4b24e00e652c75834bae470&smart=true&width=300&height=300",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "14分前",
-      "pub_ts": 1778903382.0,
+      "ago": "35分前",
+      "pub_ts": 1778911200.0,
       "hot": false
     },
     {
-      "id": "999b3c4c80",
+      "id": "0fdd630d43",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Tactix v Magic - ANZ Premiership",
-      "summary": "Follow live score updates of the ANZ Premiership.",
-      "link": "https://www.stuff.co.nz/sport/360962853/live-anz-premiership-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeYu%2FocynFFZSHq11Ddj0Y%2F%2F3uPsVNdp4VeTl2pViqW5NN6XeE1gTkZV9UKN%2FMfEPEBRQPBf0S6F2MSfS9FFlp5Rc7dh%2F6wjtPOffPO1sa4P3w2gTRE7lz5sBq0liT0CsjbQnXMCxNyQ8Atu%2FHFQcVU=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "15分前",
-      "pub_ts": 1778903289.0,
-      "hot": false
-    },
-    {
-      "id": "92301b9241",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "'We want to be pioneers': Everything on the line as Phoenix face City in grand final",
+      "title": "Phoenix chasing first A-League title in women’s grand final against Melbourne City",
       "summary": "Coach Bev Priestman says the team is ready to find another level as they chase a maiden title in Melbourne.",
       "link": "https://www.stuff.co.nz/sport/360976974/live-wellington-phoenix-v-melbourne-city-league-women-grand-final",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZ0eSki2tNYvQUJgkjWO7gloyi1Ra6GboLggas0%2FRsD2mTPlA30WbdZeSmX6N4C1nzlbTRS2kFIk0su6u0k3tzE8iYVOi+Q0Yr88s0akApl2ko7B9uXmBBLXTcxRIsc8N0Ov9xGHteM3VVQrSvuYET%2FoD9ATuqf2k9ggejdxLiqLMrfpgT6bpYQf19dxb6wdZOpATJBwuFPGc46Qv94HITq%2FQQXS7wAgoZYo9Be8VpVbEGMUFgqiIpCZSpeFZC5jJLQ5LjX%2F3La2aenh%2FGf0OdhtTfkQFZaIxQizZKYEYFzs6YCoQvYSzWGdEtQTevGj5AT4kWcWx7ErFEmwIE9aV+GGAn1GvGIBo0U0dg0J2eonYu80OBL2MAF1gbYZPeEUKOUryYAeV7K7ac9qv%2FVNhKYeHiYSVSdgZRSYMy5y9bNLe+Kp24OUZ5EmLwat2KweQ8zvMmMkreSunptxUpVQJ9c=?resolution=1240x700",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXEl5V1gSzb7yAj5HZSIj+WLeqRj3+uu9m9wKOgyy8219LlmDyIa04ZSAiZNIIMAZ+3U45cewqlxpaSxModWaJ3D6KWvttCHvy8wD0FGZeOydoy16tC0ljU0PIQoP7tLcECUpy8E51Xmy48T3gWvt%2FPULuMiTq+8nZ93spBpypiCvAmSs2cC9CXMTC9g+JfUYIjMVm16cI30e%2FjkeAi90qIzR089IslftScJLJEWkpbnXe+d6PvV00OCVB45SzJEFoo8BXD7Ovf3SxnNL9Dbo+6BTpt1HQZq8Ys2N1aWUrWOQ8NySVpNYsyVk%2FA6UWy4IRUPkoUjaWjaQp92JO1NBXeAPeSoLjgOiMVE5pPxW7quyr52g4rIBrCmV6npEcBclxXlr0jZg8T127RaNKIiclmAfnZ1OHlrc52Mk+Km3Btd4mT6WAuwlx6V8tCOCb0gbr%2FSOk13+f1GUtAGrPlux%2Fk=?resolution=1240x700",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1778902975.0,
+      "ago": "49分前",
+      "pub_ts": 1778910365.0,
       "hot": false
     },
     {
-      "id": "7fb514b78c",
+      "id": "37b4b04c34",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Man in critical condition after Rottnest Island shark attack in Australia",
-      "summary": "A man in his 30s is critical after he was bitten by a shark at Rottnest Island on Saturday morning.",
-      "link": "https://www.stuff.co.nz/world-news/360979827/man-critical-condition-after-rottnest-island-shark-attack-australia",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXIdM6OzcJDmPd+frIO2zrd1wQkkQq%2FOu%2FCFwg9EwGxYYEvTZCdA8c4YQe0OnzmOeKBTWgL6cDcw09EVmr2OzL%2FAy8StO3shWwBQn0odX9RDnEm1ExQvoxDcSG%2FcL61m6CquhlCApywsY2JWcgfTNun%2FdRZFZrLBYyZKMmwD7khy%2Fnx5ItdSTSkQI9cjuG+4whWnvtLaHMINxuMDxVXsyWuuPu7j8Hs5%2F7R0ohtyvZzKiDRERjXUBeA4n9%2FLxzm%2FFGRV6uPwyZ4fmyShvSCL4bl02iChQQIZnlE7eD7HnC4ii58ae+8k9S81m2sXlGbxKZTkJmD5NMr6mfMCCpKzUswjdcWuS88KS60r8OFjUDBbJwSrXziiHLroBG1kn5Tq6nyz7TZyn+PHYsS3fvkIJxXcLwWFj7tJ4nD0eOEJ2JjLKtmYIXgUarN96mfHpYjlIw==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "22分前",
-      "pub_ts": 1778902891.0,
-      "hot": false
-    },
-    {
-      "id": "de0f2ee925",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Government confirms NCEA replacement details",
-      "summary": "Education Minister Erica Stanford confirmed the NCEA replacement would bring a new grading scale, compulsory subjects, and assessment requirements.",
-      "link": "https://www.rnz.co.nz/news/political/595424/government-confirms-ncea-replacement-details",
-      "image": null,
-      "categories": [
-        "政治",
-        "教育",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "51分前",
-      "pub_ts": 1778901146.0,
-      "hot": false
-    },
-    {
-      "id": "849d05d198",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Kayaker dies after suffering medical event off Auckland's Hobsonville Marina",
-      "summary": "Police were notified of the incident near the Hobsonville Marina shortly before 9.15am.",
-      "link": "https://www.rnz.co.nz/news/emergencies_local/595420/kayaker-dies-after-suffering-medical-event-off-auckland-s-hobsonville-marina",
-      "image": null,
+      "title": "Tactix beat Magic in round six of ANZ Premiership",
+      "summary": "Follow live score updates of the ANZ Premiership.",
+      "link": "https://www.stuff.co.nz/sport/360962853/live-anz-premiership-2026",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeYu%2FocynFFZSHq11Ddj0Y%2F%2F3uPsVNdp4VeTl2pViqW5NN6XeE1gTkZV9UKN%2FMfEPEBRQPBf0S6F2MSfS9FFlp5Rc7dh%2F6wjtPOffPO1sa4PHk8nMlL+5dcooxEA6uucvWjCVhnp4j8VW7TGrp+1dYTcpn7x7MMpeLx3PYQLUyjOu0JtYNxHKTjSlB+RgsVcDCHnyvDVME0ien7nKBFbwq6wc%2FP7vp0aOqxvEN0YbnbKdE2pXG5+ok8%2F7drwr22S6KecqVN3Kd6l%2FhLW7jA7mfP5JcFxulT139IMKcxLq%2F9kCtYcsg6s5tdFgOzYmvtG4XKyeUNtMv5j3GgFflyCoFFhPN%2FzHfYjcLkjKyjhjwZcSDqXBgeCjGRskEXHuwpycV0kxyA0TNGlcwldjd4dVLxfjnieBQjjvJ%2FR63A5GA78AF4cEVmR838nr7d9HiRIiA==?resolution=1240x700",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "53分前",
-      "pub_ts": 1778901041.0,
+      "pub_ts": 1778910112.0,
       "hot": false
     },
     {
-      "id": "319256c619",
+      "id": "9cb5a0aee3",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "All Whites' group opponents Belgium recall star striker for World Cup",
-      "summary": "Romelu Lukaku, midfield great Kevin de Bruyne and Real Madrid goalkeeper Thibaut Courtois are set to play their fourth World Cup campaigns.",
-      "link": "https://www.stuff.co.nz/sport/360979823/injury-hit-romelu-lukaku-included-belgiums-world-cup-squad-fourth-time",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYenY4dqTJQcLc6D3XMBoBpNJSCzj7FU1khD2RaKbE5FlQ6metQR73jxYEgy+AWoFKfNbofSPeZImEdziY8sPRyZAR1XcX%2FtvuXv+mSEzN0xVvA1s3gWSHhOq2vbZPm1DdT5bLoRBTDueYImxrqymkNJv%2FZxvysnaNk4yLXkqEgdupr%2FU8eOS566wH+M%2Fhoil%2FVurdImVGwAe2I06xJoK+DGc7+0kmh4lduDT7%2FGlwgmjMadILzqj7cBoUEyVUHPZ6H3oRCx3Ge8Me0HsgQoNI14+dpiUvIY4CePOLZUgg3UQgOs+RNSHew3Xnu4koe3%2FGIa8XiF8EH3pbIcHpM4sp2h1+VRRl0tzcQwhyIjtWd8aq5Ax9s5cB5JzkQYVO3kxZfta4oKbuocB24G9DYRnyFds08EcCdGtCo54xPLgmGjbF4OtpWiXoSSrYKMq6HZxClRJixGDv6pTYyqTlgHoi%2F4=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "56分前",
-      "pub_ts": 1778900821.0,
-      "hot": false
-    },
-    {
-      "id": "4d14159579",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Auckland’s Tour De Hoods bike ride leader rejects gang label",
-      "summary": "Organiser Kimami Ngaluafe says the rides are a positive outlet for troubled youth.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/aucklands-tour-de-hoods-bike-ride-leader-rejects-gang-label/AFTNGZFIHVDTHMNEGI3VIY7R7Q/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/TDN2AZSKJNFDTGT4LJ6EBPKON4.jpg?auth=84992dee11782580ff4f1f469e364a2aaffa6c2a8659c099cc537b28aeb2eacc&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778900400.0,
-      "hot": false
-    },
-    {
-      "id": "1944efd2b4",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Herald afternoon quiz: May 16",
-      "summary": "Test your brain with the Herald's afternoon quiz.",
-      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-may-16/GZKI33I2KNCKDDTEK5EILY7GLE/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/2SSTZ7DK55EI5ANGYTU6I3AY2M.jpg?auth=b8a55e2384a9ad41a81d4e51ce843aa0a4274fe9ee40d893763f008e122e4cff&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778900400.0,
-      "hot": false
-    },
-    {
-      "id": "706f95269a",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Indian man ‘attacked with sickle’ in land feud denied refugee status in New Zealand",
-      "summary": "The man feared he would be harmed by a 'mentally unstable man' from his village in India.",
-      "link": "https://www.nzherald.co.nz/nz/indian-man-attacked-with-sickle-in-land-feud-denied-refugee-status-in-new-zealand/6IR44IWCO5ESTBNUVCYRZQIPMU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/MC3V2MN2HVBOBNGG2POLG5CMBA.jpg?auth=71e79b8c6e06c4e5da0e7fdfb4e6b7e0a3e80be9cc9c7785c72dbc318c15fd1e&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778900400.0,
-      "hot": false
-    },
-    {
-      "id": "9ea9c571a5",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Quiz: The Really Hard Word ... serving to expound, set forth or explain",
-      "summary": "One word, one clue, one minute. Can you solve today’s Hard Word?",
-      "link": "https://www.stuff.co.nz/quizzes/360965170/stuff-quiz-really-hard-word-may-16-2026",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYUyGh%2FoAmyGDJQzT4w1t+8NUG7qpQR4UEyX3QiSvF5qB0fXtRL0U2LxTrtZ2oAQsZPeqOLEv9OcwY%2Fn3a0p628xsgLSB47ZjabNMCPbgLLV96JUJ8YkZyHVlFMTrh4JEDInqm%2FNdPg%2F4ORidk3+ofio6Y6ZKQmzJSMnHpnoJJjPOJIPQDz+yqltce%2F2MltENw9DIfuFsoX8EWX+XpH+k1FR51MlwahyAHdH4XIhIE5Cdb%2FCAlnZ7rnwrhDT%2Fvn0%2FiyyVRIsD7omUgkr8Q3k8al91Za+YVs88W5%2FYhhvFCvSN?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778900400.0,
-      "hot": false
-    },
-    {
-      "id": "43bb812bf1",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Lydia Ko shoots into title contention with five birdies in eight holes",
-      "summary": "The Kiwi golfer was just two shots off the lead and outright fourth after day two of the Kroger Queen City Championship in Cincinnati.",
-      "link": "https://www.stuff.co.nz/sport/360979815/lydia-ko-contention-after-five-birdies-eight-holes-kroger-queen-city-championship",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYX3VrJaskse1zLv215LL1re0wdI+fXrWK+aF7VIaXDJg9srEpyY+reBMRNcdWdSh82tHBvVRbKcy7GS9QJtXxzY93BE0LzYQFNjbwOx%2FqIo0KVKF8063+PYSLU0Um7jYanfOiEZycZq7NUUUiKu0zTvj6prEDyUbgad2Mtl60SSb0cVQ+DKuSw4l0HvqJd%2FQUpLD%2FV%2FqzA43T3wTqwtUlJzmXo%2F7rVpJKRV+txTNloHCifjlyeHb4kpJIOUVxMnoRZfVdwb4QxGmMIkm4XMtOyHHGdj+y8IisAGr1WYcvUYoe2xb8bxhNACERpQBuMFGeJv4w5d5JpZ1thzSxAiu5KNPTnN7E1SQIT5IUTncXXNThtsuqZt2JmZa9KiJdjsBiFyTz5k8WlQVZVpnMePP543TMVtC2bB7d5z38pdI86yUvCzY8bss8EhzeYf8Q%2FzBknA7XKYHNa%2F1dWCdbiuHQbY=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778900087.0,
-      "hot": false
-    },
-    {
-      "id": "31bbf4beff",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Flight turns back to Auckland after sky lanterns spark air safety scare",
-      "summary": "Air traffic controllers raised the alarm after lanterns were seen entering airspace used by incoming aircraft at around 9pm on Friday.",
-      "link": "https://www.stuff.co.nz/travel/360979782/flight-turns-back-auckland-after-lanterns-spark-air-safety-scare-near-tauranga",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXhe+4FfyXGRIPPJzx1msgLGJ5K%2FjLkHKAqmwp0PcHhU6gzcheryHaNrbALu62OnbWS+8Ytai+fprlxIUBNwtp0cOeH22vKCJjuIyYu2MruzrDLo%2F%2FUgrw+KPUyLrx82dX0xkJZTOsvPu+xP3whTmtal++wURaMQFCPrUBamrq2nD5qsiVVIx8Uz04LkLAXh8c3XTk9lsV6665BzF3PB6lpc2NzQftvlWXIpLpPOTlNG6PgKU%2F%2FFAfnO0p1DZEnAg7gxgZoJQn3DCCz611PKHdGgKzJCexApoe%2FOOjdbG4GOsj2%2F24DI6sk37cvRMPPYWh1FF7Q5JTrnN0EziK7E0%2F9RBAfK7PDirZCbXt1sJ4CXnpjR6OZ4ckmAsj7Ucbk0B4udQ4mFc2n1HhBAEn9l8taOiuAFWdDhAlKLpCm3wsvCRocjglPzpPxFy+npEGxpsejjPhboC29lSzMEAAsYgVQ=?resolution=1240x700",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778899752.0,
-      "hot": false
-    },
-    {
-      "id": "06eb7e7400",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "‘Bringing back something called grades’, details of NCEA replacement announced",
+      "title": "NCEA replacement ‘not going to suit our young people’ says teachers’ union",
       "summary": "Education Minister Erica Stanford has announced the new programme that will include a grading scale from A+ to E, and how school subjects will be assessed.",
       "link": "https://www.stuff.co.nz/nz-news/360979795/ncea-replacement-details-revealed-high-school-education-set-major-overhaul",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYVrcSQNCBldpW+EJuS6oaMTzPlHXnIKB%2FlY4nvqWXszAd+2hZslQoZOOvKc7PMtlSR5QEEtkTt7PTUPTVGUVUDe9s4YlNOgNrlilUIYEQIw5IAPSXGmuR5rQFspfeHJI3txj7FizCGA8yFoZ7giLU4B8313kR3wVoJZR3NnDfzCUhPCH2M80YxRscvlAXClrIzS8qV1wlCCeczpPHQ9auPnq9uygMLPJTTTNgVysdrtpNeIdXp%2FbVK+Tgo2hOk+LvZo0TQT42PqSP1aE6QAbmI19pCEfpGYVmIPitp4ALEX1oTZXLTS1FCf9laFDu6VgJLnWvYMEbRcjB0g0yb3pcTageymOEWjHAJ1mqABr10Wceghsw4dljKrdCxG0y0f4gpegT5OOdQPa7CKNvc34+qdfKb+jXEIUVgoAehvjAcEKWz4s9EXlqNMA+zQiUi7XGA==?resolution=1240x700",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYZV2eQUkn+yukuc47HRF2OuDOc1Mw5JWM0f+IageOdIRsUpEHa2%2FCd12%2FcakGYSldLaqLdh96SVc7a5ZBEZxCWv8gBLQmv%2FDOHDRCcwyfUOVCA7b5ByfWRWnv4zzMLqN+RYi2pCcNXqvI2LK0wNJ7e4c3FJld3TV5SGGM0K5GaxZwuW+78e+xnYBCCHfjagIuHEw80cuHa6fIwxvVH8LiugLN4BlhwGi2Qp0mG2NxLMPGm4ZBKgVuBiN8v8pmtyqDszJ2M+KsQYjju9Ky%2F0UwO1w+JqTd+tm016KgnVcSOV47zwmI8fydN3I36agAvRAIaMof7I%2FvlK6N29s6FI8+gVviLHodKYVBEIosxvzx+kxpGHwr4j%2FaUnfsxzI%2FA5apFwT4iD%2FDJAqr0DEVtgvWw5spIaim7DkxYALgLWLjcbEbLb5fsgG%2FtHwo853rdGjGOoYvORVDU91T9+7t8t3Yxk=?resolution=1240x700",
       "categories": [
         "政治",
-        "教育",
-        "科技"
+        "教育"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778899151.0,
+      "pub_ts": 1778908762.0,
       "hot": false
     },
     {
-      "id": "6a4315070f",
+      "id": "034a89d7bf",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Auckland to Tauranga flight redirected after sky lanterns floated into airspace",
-      "summary": "The lanterns were being released from an unknown location in Tauranga.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/auckland-to-tauranga-flight-redirected-after-sky-lanterns-raised-safety-alarm/U5NO3MDBV5CRPMBQDLEO7O3LEM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/KBP6GUDISJEMTG4TXQOMFB3CFM.jpg?auth=eae6a9c971fb97721c018fe390f308b8c8f51b0f38a73c886b80cb9aff3e12a1&smart=true&width=300&height=300",
+      "title": "IR staff Smita Nalawade, Gina Thompson, Punipuao Fatu and Bimlesh Sharma fired after breaching taxpa",
+      "summary": "They were told not to engage but within minutes they had looked into the account.",
+      "link": "https://www.nzherald.co.nz/nz/ir-staff-smita-nalawade-gina-thompson-punipuao-fatu-and-bimlesh-sharma-fired-after-breaching-taxpayer-privacy/3JJAQINBRVBXBONQKHTSMBTVGI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/WVZNYQLG25HAHJRQNVVKZUANBY.JPG?auth=6162a3fa3b4e2798e64703e529d465da24f8d28bcf9715ad79021f96128e34f3&smart=true&width=300&height=300",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1778907600.0,
+      "hot": false
+    },
+    {
+      "id": "71957f341e",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Sex worker claims engineer deleted illegal smart glasses footage",
+      "summary": "She believes the tech worker used his Apple Watch to wipe the video from his devices.",
+      "link": "https://www.nzherald.co.nz/nz/sex-worker-claims-engineer-deleted-illegal-smart-glasses-footage/PG25WKMHDFHPDHYOSUV5K5VR2Y/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/B4GUO5RD5FCGXO2XW4NZDSE3Q4.jpg?auth=eafba7d7a4b772315ef9565f103195f6e21c27889993060b16a086715fd92c92&smart=true&width=300&height=300",
       "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1778898880.0,
-      "hot": false
-    },
-    {
-      "id": "e7e717fe9e",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Noel Leeming to open new branch on Auckland's Queen Street",
-      "summary": "The electronics company, which is owned by The Warehouse Group, moved out of Queen Street in 2021 because of pressure from the Covid pandemic and when its lease expired.",
-      "link": "https://www.rnz.co.nz/news/business/595426/noel-leeming-to-open-new-branch-on-auckland-s-queen-street",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778897239.0,
+      "pub_ts": 1778906400.0,
       "hot": false
     },
     {
@@ -317,57 +205,186 @@
       "hot": false
     },
     {
-      "id": "5ff04cbdcc",
+      "id": "eec5efc4e4",
       "type": "news",
       "region": "nz",
-      "source": "NZ Herald",
+      "source": "Stuff NZ",
       "lang": "en",
-      "title": "Christchurch house fire: Grandmother who lost home in fatal blaze faces bleak double family funeral",
-      "summary": "A relative said the grandmother had been left with 'nothing but the clothes on her back'.",
-      "link": "https://www.nzherald.co.nz/nz/christchurch/christchurch-house-fire-grandma-who-lost-home-in-fatal-blaze-faces-bleak-double-family-funeral/XK7BDS5MOFF2ZMFF5IEY5PWPQU/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/S66VHY45FVGC7AHVUG2WBSS4YE.jpg?auth=c62dcdf7713c336732ae236b0279fbf096281f4decbf48bb8cc8786e0b677648&smart=true&width=300&height=300",
+      "title": "US and Nigeria kill 'world's most active terrorist', Trump says",
+      "summary": "Trump said the US and Nigeria killed senior ISIS leader Abu-Bilal al-Minuki in a joint mission.",
+      "link": "https://www.stuff.co.nz/world-news/360979831/us-and-nigeria-kill-worlds-most-active-terrorist-trump-says",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYfqH9d96ok7BOdWhleq7Jro0shKaYJN55W935LwKLqvTkMk3j3YpA3f430xA448E30ahzYM6blrgjT2GKGrdYGJHA087dCGQu38YnT23k6xCz+3unxaNWqkp9vNsqZfeDphrQjJGv+wzPKEstcg0dH6XtyAzam+9s0QmNhpdE0GVol0QbF+niC4Lov1B1Xdb7HeAGPM2c1RlOhAj1BLYPqr+QJRv1%2FCrDyx3QJWlZBAq7odkaRtK7ZCvuxaGNJORBfNC2KHQtVpZJ7Y4q%2FWo8qtfvqLXxAdjf6OPnhFHdtQhz9aXKG5zjWTogEQ1uBq4tiOypX4zB3Qkd6Ir0HsF8%2FOd6o4pzSTLNT5jMDdToXIOe3ChZ9jGXaGzeYdoCHNGV+BqIqpJD%2FZ5BKQ+2ns6gcriLHUmRCpo2Lw2%2FKgaiqk2zIKdNhNEtNi+G9uGyW47npFolPupcvh+LR6La0Oc1Is=?resolution=1240x700",
       "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1778896218.0,
+      "pub_ts": 1778905797.0,
       "hot": false
     },
     {
-      "id": "4bee44624e",
+      "id": "063be71d1f",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "New NZCE qualification unveiled for Years 12-13 to include compulsory exams in every subject",
-      "summary": "Grades marked A+ to E and compulsory science for Year 11 are among the changes.",
-      "link": "https://www.nzherald.co.nz/nz/auckland/new-nzce-qualification-unveiled-for-years-12-13-to-include-compulsory-exams-in-every-subject/TQSOQI42KRBFLLJ42TACW4VTQQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/FI2XJFGM77ZJ6USKFAVOFOGQAM.jpg?auth=0e303311db07d33c4330dda0314b06e54b144a87123d3cdcd9fa35ce3be63b13&smart=true&width=300&height=300",
+      "title": "Weightlifting, crystals and green tea: How ‘Bonsaiville’ came to Auckland’s Sandringham",
+      "summary": "Anna Heath talks weightlifting, crystals and green tea with Sandringham's bonsai master.",
+      "link": "https://www.nzherald.co.nz/nz/weightlifting-crystals-and-green-tea-how-bonsaiville-came-to-aucklands-sandringham/premium/62SDAV7XGFH5HG2ZKAW4XRJ6TE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/BAXID25E5BBL7EXYTNZGYZGEQA.jpg?auth=a55e090a709362d47a0f02a81ccdb9136e549d8e9d9345ba3d4526692124fd07&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778904000.0,
+      "hot": false
+    },
+    {
+      "id": "ead11d9143",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Northland pin-up mum Lady Sugarbelle chases Miss Vintage Australasia crown",
+      "summary": "The 33-year-old mum will be the only Northland pin-up on the Christchurch stage.",
+      "link": "https://www.nzherald.co.nz/northern-advocate/news/northland-pinup-mum-lady-sugarbelle-chases-miss-vintage-australasia-crown/AHTB43IF2JCLPJPGUP37Y5OBNA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/HHAOMEHUEFGUJHANU7OBJO6U2Y.JPG?auth=0f4c8c7d19b4bb79a8516daa983e93bc764780159a79225581017fb08be11577&smart=true&width=300&height=300",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1778896037.0,
+      "pub_ts": 1778904000.0,
       "hot": false
     },
     {
-      "id": "f134b528bb",
+      "id": "023d8fe358",
       "type": "news",
       "region": "nz",
       "source": "NZ Herald",
       "lang": "en",
-      "title": "Missing man search: Police ask for help finding Andrew, 63, last seen at Greymouth Hospital",
-      "summary": "Diabetic man could be trying to get to other towns, police say.",
-      "link": "https://www.nzherald.co.nz/nz/missing-man-search-police-ask-for-help-finding-andrew-63-last-seen-at-greymouth-hospital/IZ342ZX7B5B75AQK2BOHQYJZHM/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/SQALM2ONNVELRFTDQHMGVO74NQ.jpg?auth=6cb8de573ecd872291d32fed388cbb8a9e5dc6e1f6ca08313d6888bfb1f06206&smart=true&width=300&height=300",
+      "title": "NZ Herald comments: The stories open for discussion today",
+      "summary": "Want to have your say on our stories? Here's how.",
+      "link": "https://www.nzherald.co.nz/nz/nz-herald-comments-the-stories-open-for-discussion-today/BETD7I6HSZCYDPI7QGKL3VCC2U/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/LLYWXGESEBEHZAGGA7XKI267IQ.gif?auth=b17c53a4c58336c3efbf8db6708d6b00add9aff3250b6f1d7b784f26e258bae3&smart=true&width=300&height=300",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1778895079.0,
+      "pub_ts": 1778903382.0,
+      "hot": false
+    },
+    {
+      "id": "7fb514b78c",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Man in critical condition after Rottnest Island shark attack in Australia",
+      "summary": "A man in his 30s is critical after he was bitten by a shark at Rottnest Island on Saturday morning.",
+      "link": "https://www.stuff.co.nz/world-news/360979827/man-critical-condition-after-rottnest-island-shark-attack-australia",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXIdM6OzcJDmPd+frIO2zrd1wQkkQq%2FOu%2FCFwg9EwGxYYEvTZCdA8c4YQe0OnzmOeKBTWgL6cDcw09EVmr2OzL%2FAy8StO3shWwBQn0odX9RDnEm1ExQvoxDcSG%2FcL61m6CquhlCApywsY2JWcgfTNun%2FdRZFZrLBYyZKMmwD7khy%2Fnx5ItdSTSkQI9cjuG+4whWnvtLaHMINxuMDxVXsyWuuPu7j8Hs5%2F7R0ohtyvZzKiDRERjXUBeA4n9%2FLxzm%2FFGRV6uPwyZ4fmyShvSCL4bl02iChQQIZnlE7eD7HnC4ii58ae+8k9S81m2sXlGbxKZTkJmD5NMr6mfMCCpKzUswjdcWuS88KS60r8OFjUDBbJwSrXziiHLroBG1kn5Tq6nyz7TZyn+PHYsS3fvkIJxXcLwWFj7tJ4nD0eOEJ2JjLKtmYIXgUarN96mfHpYjlIw==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1778902891.0,
+      "hot": false
+    },
+    {
+      "id": "de0f2ee925",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Government confirms NCEA replacement details",
+      "summary": "Education Minister Erica Stanford confirmed the NCEA replacement would bring a new grading scale, compulsory subjects, and assessment requirements.",
+      "link": "https://www.rnz.co.nz/news/political/595424/government-confirms-ncea-replacement-details",
+      "image": null,
+      "categories": [
+        "政治",
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778901146.0,
+      "hot": false
+    },
+    {
+      "id": "849d05d198",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Kayaker dies after suffering medical event off Auckland's Hobsonville Marina",
+      "summary": "Police were notified of the incident near the Hobsonville Marina shortly before 9.15am.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/595420/kayaker-dies-after-suffering-medical-event-off-auckland-s-hobsonville-marina",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778901041.0,
+      "hot": false
+    },
+    {
+      "id": "4d14159579",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Auckland’s Tour De Hoods bike ride leader rejects gang label",
+      "summary": "Organiser Kimami Ngaluafe says the rides are a positive outlet for troubled youth.",
+      "link": "https://www.nzherald.co.nz/nz/auckland/aucklands-tour-de-hoods-bike-ride-leader-rejects-gang-label/AFTNGZFIHVDTHMNEGI3VIY7R7Q/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/TDN2AZSKJNFDTGT4LJ6EBPKON4.jpg?auth=84992dee11782580ff4f1f469e364a2aaffa6c2a8659c099cc537b28aeb2eacc&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778900400.0,
+      "hot": false
+    },
+    {
+      "id": "1944efd2b4",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Herald afternoon quiz: May 16",
+      "summary": "Test your brain with the Herald's afternoon quiz.",
+      "link": "https://www.nzherald.co.nz/nz/herald-afternoon-quiz-may-16/GZKI33I2KNCKDDTEK5EILY7GLE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/2SSTZ7DK55EI5ANGYTU6I3AY2M.jpg?auth=b8a55e2384a9ad41a81d4e51ce843aa0a4274fe9ee40d893763f008e122e4cff&smart=true&width=300&height=300",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778900400.0,
+      "hot": false
+    },
+    {
+      "id": "e7e717fe9e",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Noel Leeming to open new branch on Auckland's Queen Street",
+      "summary": "The electronics company moved out of Queen Street in 2021 because of pressure from the Covid pandemic and when its lease expired.",
+      "link": "https://www.rnz.co.nz/news/business/595426/noel-leeming-to-open-new-branch-on-auckland-s-queen-street",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778897239.0,
       "hot": false
     },
     {
@@ -383,8 +400,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778889024.0,
       "hot": false
     },
@@ -401,8 +418,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778888643.0,
       "hot": false
     },
@@ -419,8 +436,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778887143.0,
       "hot": false
     },
@@ -438,26 +455,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1778880749.0,
-      "hot": false
-    },
-    {
-      "id": "bd9bff009f",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Papakura woman arrested after police find hoard of gas heating equipment, LPG bottles",
-      "summary": "Police say a search warrant revealed a number of 45kg gas bottles and eight gas califonts.",
-      "link": "https://www.rnz.co.nz/news/crime-and-justice/595408/papakura-woman-arrested-after-police-find-hoard-of-gas-heating-equipment-lpg-bottles",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1778880549.0,
       "hot": false
     },
     {
@@ -476,7 +475,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "9小时前",
       "pub_ts": 1778878340.0,
       "hot": false
     },
@@ -494,7 +493,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "20小时前",
+      "ago": "23小时前",
       "pub_ts": 1778829508.0,
       "hot": false
     },
@@ -513,8 +512,8 @@
         "教育",
         "科技"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778821106.0,
       "hot": false
     },
