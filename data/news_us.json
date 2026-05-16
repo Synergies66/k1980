@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-15T21:32:01.730745+00:00",
-  "total": 22,
+  "updated_at": "2026-05-16T04:06:57.284240+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "805457f010",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Why Were These C.E.O.s in Beijing With Trump?",
+      "summary": "Some of America’s most powerful C.E.O.s accompanied President Trump to Beijing during his summit with President Xi Jinping of China. Our reporter Ana Swanson explains what they were hoping to gain fro",
+      "link": "https://www.nytimes.com/video/us/politics/100000010906537/why-were-these-ceos-in-beijing-with-trump.html",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1778893078.0,
+      "hot": false
+    },
     {
       "id": "3ab32512f5",
       "type": "news",
@@ -17,46 +36,9 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1778875169.0,
-      "hot": false
-    },
-    {
-      "id": "d0b4542545",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "For Xi’s Critics, Trump’s China Visit Is Fuel for Jokes They Can’t Tell",
-      "summary": "On Threads and other sites, liberal-minded Chinese accounts were mocking the proceedings and offering a rare window into opinions on Xi Jinping and his leadership style.",
-      "link": "https://www.nytimes.com/2026/05/15/business/trump-xi-meeting-china-social-media.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15biz-newworld-summit-jokes-mcpk/15biz-newworld-summit-jokes-mcpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "3小时前",
-      "pub_ts": 1778866930.0,
-      "hot": false
-    },
-    {
-      "id": "9acdeabdf2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Xi Pitches His Vision for Avoiding Conflict With the U.S.",
-      "summary": "Having fought the Trump administration to a draw, China’s Xi Jinping is proposing “constructive strategic stability,” aimed at drawing lines he thinks the U.S. should not cross.",
-      "link": "https://www.nytimes.com/2026/05/15/world/asia/xi-trump-superpower-thucydides-stability.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15china-xi-swap-bqmj/15china-xi-swap-bqmj-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
       "score": 72,
-      "ago": "7小时前",
-      "pub_ts": 1778853958.0,
+      "ago": "8小时前",
+      "pub_ts": 1778875169.0,
       "hot": false
     },
     {
@@ -74,7 +56,7 @@
         "科技"
       ],
       "score": 72,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1778845663.0,
       "hot": false
     },
@@ -82,7 +64,7 @@
       "id": "93bdc826dc",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Key takeaways from Trump's China trip",
       "summary": "President Trump returns to the U.S. after wrapping up his whirlwind trip to China.",
@@ -92,7 +74,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1778842816.0,
       "hot": false
     },
@@ -110,7 +92,7 @@
         "华人"
       ],
       "score": 72,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1778842805.0,
       "hot": false
     },
@@ -128,80 +110,26 @@
         "华人"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1778834748.0,
       "hot": false
     },
     {
-      "id": "67b5cea3bf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "At this electronics market in China, buyers can find parts for just about everything",
-      "summary": "NPR's Steve Inskeep visits a massive electronics market in Shenzhen, China, where buyers can source parts for just about anything.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5821702/at-this-electronics-market-in-china-buyers-can-find-parts-for-just-about-everything",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 72,
-      "ago": "12小时前",
-      "pub_ts": 1778834723.0,
-      "hot": false
-    },
-    {
-      "id": "d1b5647dbc",
+      "id": "fea5d7e81c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Snorkeling at Pearl Harbor: Kash Patel’s Travels Add to Focus on Ethical Issues",
-      "summary": "The F.B.I. director continues to come under scrutiny for mixing government business with dates, vacation and leisure time.",
-      "link": "https://www.nytimes.com/2026/05/15/us/politics/patel-fbi-travel-snorkeling-pearl-harbor.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/us/dc-kash-1/dc-kash-1-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "10分前",
-      "pub_ts": 1778880087.0,
-      "hot": false
-    },
-    {
-      "id": "52d0a88e89",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "CIA director's visit to Cuba echoes past memories of U.S. in Latin America",
-      "summary": "CIA Director John Ratcliffe makes a surprise visit to Cuba as the spy agency calls on the nation to make \"fundamental changes.\" Cuba says it has run out of fuel and is suffering massive blackouts.",
-      "link": "https://www.npr.org/2026/05/15/nx-s1-5823466/cia-directors-visit-to-cuba-echoes-past-memories-of-u-s-in-latin-america",
-      "image": null,
+      "title": "Supreme Court Rejects Virginia Democrats’ Effort to Reinstate New Voting Map",
+      "summary": "State officials had asked the justices to step in to allow the state to use a congressional map in the midterms that was drawn by Democrats and recently approved by voters.",
+      "link": "https://www.nytimes.com/2026/05/15/us/politics/supreme-court-virginia-redistricting.html",
+      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/00dc-scotus-virginia-lvgj/00dc-scotus-virginia-lvgj-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "18分前",
-      "pub_ts": 1778879630.0,
-      "hot": false
-    },
-    {
-      "id": "61b16bc1f8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Kataib Hezbollah: What to Know",
-      "summary": "A commander of one of the most-hard line and powerful Iranian proxies in Iraq has been charged with plotting to attack Jewish sites in the United States.",
-      "link": "https://www.nytimes.com/2026/05/15/world/middleeast/what-is-kataib-hezbollah.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15int-hezbollah-kataib-wtk-bpgh/15int-hezbollah-kataib-wtk-bpgh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "38分前",
-      "pub_ts": 1778878413.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1778892486.0,
       "hot": false
     },
     {
@@ -217,27 +145,82 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "38分前",
-      "pub_ts": 1778878390.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1778888483.0,
       "hot": false
     },
     {
-      "id": "fe67bbd811",
+      "id": "6bd735c2bf",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Kataib Hezbollah Commander Accused of Planning Attacks on N.Y.C.",
-      "summary": "Mohammad Baqer Saad Dawood Al-Saadi is accused of leading attacks in Europe and being part of a retaliation campaign by Iran. Prosecutors say he is a leader of Kataib Hezbollah, an Iraqi militia with",
-      "link": "https://www.nytimes.com/2026/05/15/nyregion/hezbollah-arrest-nyc-jewish-targets.html",
+      "title": "Supreme Court is death knell for Virginia's Democratic-friendly congressional maps",
+      "summary": "The new map was drawn by Democrats and approved by Virginia voters, but the state Supreme Court declared the referendum null and void because lawmakers failed to follow the proper procedures to get th",
+      "link": "https://www.npr.org/2026/05/15/nx-s1-5823911/supreme-court-virginia-redistricting",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "44分前",
-      "pub_ts": 1778878044.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778885922.0,
+      "hot": false
+    },
+    {
+      "id": "62c53a4300",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Push to Indict Raúl Castro, Cuba’s Former President",
+      "summary": "Mr. Castro, Cuba’s former president, could soon face charges in the 1996 killings of four volunteer airmen who were members of a humanitarian group that searched for migrants at sea.",
+      "link": "https://www.nytimes.com/2026/05/15/world/americas/cuba-raul-castro-us-indictment.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15int-cuba-brothers01-photo-thlm/15int-cuba-brothers01-photo-thlm-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778883999.0,
+      "hot": false
+    },
+    {
+      "id": "5f4925ee0b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran-Backed Commander Accused of Plotting U.S. Attacks",
+      "summary": "Also, the Eurovision finale. Here’s the latest at the end of Friday.",
+      "link": "https://www.nytimes.com/2026/05/15/briefing/kataib-hezbollah-castro-eurovision.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1778883060.0,
+      "hot": false
+    },
+    {
+      "id": "23e28b3426",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Iran has been confiscating property from critics of the regime",
+      "summary": "Iran's government has been confiscating property from people it deems traitors or critics of the regime.",
+      "link": "https://www.npr.org/2026/05/15/nx-s1-5764842/iran-has-been-confiscating-property-from-critics-of-the-regime",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778882587.0,
       "hot": false
     },
     {
@@ -253,9 +236,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "46分前",
-      "pub_ts": 1778877918.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778881143.0,
+      "hot": false
+    },
+    {
+      "id": "52d0a88e89",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "CIA director's visit to Cuba echoes past memories of U.S. in Latin America",
+      "summary": "CIA Director John Ratcliffe makes a surprise visit to Cuba as the spy agency calls on the nation to make \"fundamental changes.\" Cuba says it has run out of fuel and is suffering massive blackouts.",
+      "link": "https://www.npr.org/2026/05/15/nx-s1-5823466/cia-directors-visit-to-cuba-echoes-past-memories-of-u-s-in-latin-america",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1778879630.0,
       "hot": false
     },
     {
@@ -272,9 +273,27 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "46分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1778877900.0,
+      "hot": false
+    },
+    {
+      "id": "eaa0da80fd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Texas Supreme Court Rejects Abbott Effort to Remove Democrats After Walkout",
+      "summary": "Republican state leaders tried to expel Democratic lawmakers during their fight over redistricting last year. The court said it was not necessary.",
+      "link": "https://www.nytimes.com/2026/05/15/us/texas-supreme-court-abbott-democrats-walkout-redistricting.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/15nat-gene-wu-1-hkpf/15nat-gene-wu-1-hkpf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1778875071.0,
       "hot": false
     },
     {
@@ -290,8 +309,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778873283.0,
       "hot": false
     },
@@ -308,8 +327,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1778872941.0,
       "hot": false
     },
@@ -326,8 +345,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778868452.0,
       "hot": false
     },
@@ -344,8 +363,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1778868154.0,
       "hot": false
     },
@@ -363,7 +382,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1778857707.0,
       "hot": false
     },
@@ -374,7 +393,7 @@
       "source": "NPR 世界",
       "lang": "en",
       "title": "Death toll in attack on Kyiv apartment building now stands at 24",
-      "summary": "Ukrainian President Volodymyr Zelenskyy said Friday that a Russian missile attack on a Kyiv apartment building the previous day killed 24 people, including three children.",
+      "summary": "Ukrainian President Volodymyr Zelenskyy led an official day of mourning in Kyiv a day after a Russian cruise missile flattened an apartment building. It was one of the deadliest attacks on the capital",
       "link": "https://www.npr.org/2026/05/15/nx-s1-5823388/death-toll-in-attack-on-kyiv-apartment-building-now-stands-at-24",
       "image": null,
       "categories": [
@@ -382,7 +401,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1778837282.0,
       "hot": false
     },
