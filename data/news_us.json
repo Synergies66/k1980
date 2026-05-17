@@ -1,7 +1,7 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-17T17:30:40.368525+00:00",
+  "updated_at": "2026-05-17T21:11:09.150535+00:00",
   "total": 23,
   "articles": [
     {
@@ -19,8 +19,26 @@
         "科技"
       ],
       "score": 72,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779008520.0,
+      "hot": false
+    },
+    {
+      "id": "c22e63db9e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How a Jared Polis Came to Release Election Denier Tina Peters from Prison",
+      "summary": "Gov. Jared Polis’s decision to commute the sentence of Tina Peters came after months of tense discussions, including one with President Trump.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/jared-polis-trump-tina-peters.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17pol-colorado-peters-01-mfqz/17pol-colorado-peters-01-mfqz-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1779049114.0,
       "hot": false
     },
     {
@@ -30,52 +48,15 @@
       "source": "NYT 头条",
       "lang": "en",
       "title": "Trump Administration Pushes Narrative of Christian Nation at Prayer Rally in D.C.",
-      "summary": "The nine-hour prayer event will feature speakers from President Trump’s cabinet and a program that connects the nation’s founding with Christianity.",
+      "summary": "The nine-hour prayer event features speakers from President Trump’s cabinet and a program that connects the nation’s founding with Christianity.",
       "link": "https://www.nytimes.com/2026/05/17/us/trump-prayer-rally-national-mall.html",
       "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17nat-christian-rally1-tfbm/17nat-christian-rally1-tfbm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "20分前",
-      "pub_ts": 1779037819.0,
-      "hot": false
-    },
-    {
-      "id": "a6fbeb0c5f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "To Critics, Trump Remarks Reveal a Billionaire Out of Touch",
-      "summary": "The president has never pretended to be an ordinary American, but a recent “truth bomb” has opened him to criticism that he doesn’t grasp the economic strain of his war with Iran.",
-      "link": "https://www.nytimes.com/2026/05/17/us/politics/trump-billionaire-iran-war-cost.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17dc-memo-mhgl/17dc-memo-mhgl-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "45分前",
-      "pub_ts": 1779036334.0,
-      "hot": false
-    },
-    {
-      "id": "9449f0cfd7",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Bus riders to Montgomery retrace old steps while fighting a new fight",
-      "summary": "Thousands of people rallied Saturday in Montgomery, Alabama, to push back against conservative states' efforts to dismantle congressional districts that helped secure Black political representation.",
-      "link": "https://www.npr.org/2026/05/17/nx-s1-5824960/bus-riders-to-montgomery-retrace-old-steps-while-fighting-a-new-fight",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779034863.0,
+      "pub_ts": 1779045667.0,
       "hot": false
     },
     {
@@ -85,14 +66,14 @@
       "source": "NPR News",
       "lang": "en",
       "title": "One clinic tracks the heavy toll Trump's immigration crackdown takes on mental health",
-      "summary": "Zocalo Health, a clinic in Los Angeles, screens all its patients for depression, anxiety and suicidal thoughts. It documented a marked increase in those conditions since ICE enforcement actions began.",
+      "summary": "Zocalo Health, a primary care organization, screens all its patients for depression, anxiety and suicidal thoughts. It documented a marked increase in those conditions since ICE enforcement actions be",
       "link": "https://www.npr.org/2026/05/17/nx-s1-5779576/immigration-ice-cbp-mental-health-children",
       "image": null,
       "categories": [
         "移民"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779015600.0,
       "hot": false
     },
@@ -111,8 +92,63 @@
         "科技"
       ],
       "score": 70,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779008400.0,
+      "hot": false
+    },
+    {
+      "id": "423f857a24",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Iran War Is Crippling One of the World’s Wealthiest Nations",
+      "summary": "Iranian attacks and the stoppage of seaborne transit have paralyzed Qatar’s vital gas exports, stalling the economic pivots intended to anchor the country’s growth.",
+      "link": "https://www.nytimes.com/2026/05/17/business/qatar-economy-iran-war.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/00biz-qatar-economy-hbgm/00biz-qatar-economy-hbgm-mediumSquareAt3X-v2.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779043083.0,
+      "hot": false
+    },
+    {
+      "id": "a6fbeb0c5f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "To Critics, Trump Remarks Reveal a Billionaire Out of Touch",
+      "summary": "The president has never pretended to be an ordinary American, but a recent “truth bomb” has opened him to criticism that he doesn’t grasp the economic strain of his war with Iran.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/trump-billionaire-iran-war-cost.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17dc-memo-mhgl/17dc-memo-mhgl-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779036334.0,
+      "hot": false
+    },
+    {
+      "id": "9449f0cfd7",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Bus riders to Montgomery retrace old steps while fighting a new fight",
+      "summary": "Thousands of people rallied Saturday in Montgomery, Alabama, to push back against conservative states' efforts to dismantle congressional districts that helped secure Black political representation.",
+      "link": "https://www.npr.org/2026/05/17/nx-s1-5824960/bus-riders-to-montgomery-retrace-old-steps-while-fighting-a-new-fight",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779034863.0,
       "hot": false
     },
     {
@@ -128,8 +164,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779029413.0,
       "hot": false
     },
@@ -147,27 +183,9 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779029347.0,
-      "hot": false
-    },
-    {
-      "id": "24b39370b9",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Kentucky’s Curious Cast of Political Characters",
-      "summary": "The state, where a rebellious Republican faces a tough primary challenge on Tuesday, has an unpredictable political landscape that has produced a long list of surprising figures.",
-      "link": "https://www.nytimes.com/2026/05/17/us/politics/kentuckys-curious-cast-of-political-characters.html",
-      "image": "https://static01.nyt.com/images/2025/05/15/us/ky-characters-promo/ky-characters-promo-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779027979.0,
       "hot": false
     },
     {
@@ -183,27 +201,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779023914.0,
       "hot": false
     },
     {
-      "id": "50dc59eca7",
+      "id": "44330b9f00",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Tightens Grasp on G.O.P. as Cassidy Loss Shows Cost of Defiance",
-      "summary": "The defeat showed the president’s dominance in his party, even as a broader range of views about Mr. Trump could be a major Republican liability in the midterms.",
-      "link": "https://www.nytimes.com/2026/05/17/us/politics/trump-cassidy-midterms-louisiana-primary.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17pol-louisiana-folo-cfpv/17pol-louisiana-folo-cfpv-mediumSquareAt3X.jpg",
+      "title": "In Iraqi Desert, Two Israeli Outposts Were Kept Secret for Months",
+      "summary": "Israel spent over a year preparing a covert site in Iraq for its operations against Iran, regional officials say. Iraqi officials later confirmed the existence of a second base.",
+      "link": "https://www.nytimes.com/2026/05/17/world/europe/israel-iraq-iran-bases.html",
+      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/00int-iraq-israel-base-01-vqlz/00int-iraq-israel-base-01-vqlz-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779023702.0,
+      "score": 60,
+      "ago": "10小时前",
+      "pub_ts": 1779012840.0,
       "hot": false
     },
     {
@@ -221,26 +239,8 @@
         "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779008532.0,
-      "hot": false
-    },
-    {
-      "id": "05bb756f3d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Lamar Alexander Wants Republicans to Stand Up to Trump",
-      "summary": "In a new memoir, the former senator, governor and cabinet member says President Trump committed an impeachable offense on Jan. 6 and calls on Congress to assert its power.",
-      "link": "https://www.nytimes.com/2026/05/17/us/politics/lamar-alexander-republicans-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/00dc-lamar-mvkp/00dc-lamar-mvkp-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779008406.0,
       "hot": false
     },
     {
@@ -258,7 +258,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779008400.0,
       "hot": false
     },
@@ -276,7 +276,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1778991828.0,
       "hot": false
     },
@@ -294,7 +294,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1778986954.0,
       "hot": false
     },
@@ -312,7 +312,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1778978907.0,
       "hot": false
     },
@@ -329,8 +329,8 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778965593.0,
       "hot": false
     },
@@ -347,8 +347,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778965413.0,
       "hot": false
     },
