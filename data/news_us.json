@@ -1,62 +1,156 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-17T04:36:08.435579+00:00",
+  "updated_at": "2026-05-17T10:02:26.546533+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "d65886fe9c",
+      "id": "bddd08d19b",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "China Indicates Tariffs Were Discussed at Trump Summit",
-      "summary": "China’s Ministry of Commerce said Saturday that the countries had struck a preliminary agreement to reduce some tariffs, seemingly contradicting statements by President Trump",
-      "link": "https://www.nytimes.com/2026/05/16/business/economy/china-tariffs-trump-summit.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/16dc-trade/16dc-trade-mediumSquareAt3X.jpg",
+      "title": "The foreign fighters who helped topple Assad — and why China worries about them",
+      "summary": "Thousands of Uyghurs became key fighters against Syria's Assad regime. For the first time, they agreed to be interviewed. NPR spent weeks with some of them to understand why they fled China for Syria.",
+      "link": "https://www.npr.org/2026/05/17/g-s1-113270/uyghurs-china-syria-war-fighters-rebels-bashar-al-assad",
+      "image": null,
       "categories": [
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1778973956.0,
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1779008520.0,
       "hot": false
     },
     {
-      "id": "bc42e72d84",
+      "id": "e30052275a",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Calls Xi a ‘Friend.’ But He Left China Without Any Breakthroughs.",
-      "summary": "The lack of concrete agreements with Beijing shows the risks of President Trump’s personality-driven foreign policy, which rests on the belief that he can defend U.S. interests through charm and force",
-      "link": "https://www.nytimes.com/2026/05/16/world/europe/trump-xi-china-summit.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-trump-diplo-mzvf/16dc-trump-diplo-mzvf-mediumSquareAt3X.jpg",
+      "title": "New burn bans and Trump's battle with immigration and DEI are impacting forest fires",
+      "summary": "Firefighters say setting fires on purpose is one of the best  ways to protect against massive wildfires later. But the Trump administration is banning or stalling preventative burning across the U.S.",
+      "link": "https://www.npr.org/2026/05/17/nx-s1-5777660/forest-service-wildfire-safety-prevention-trump-administration",
+      "image": null,
       "categories": [
-        "华人"
+        "移民",
+        "科技"
       ],
-      "score": 72,
-      "ago": "11小时前",
-      "pub_ts": 1778950870.0,
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1779008400.0,
       "hot": false
     },
     {
-      "id": "06ff752f13",
+      "id": "9beb5b6a7f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Cassidy Loses Senate Primary in Louisiana, as Trump Vanquishes G.O.P. Foe",
-      "summary": "Senator Bill Cassidy, a two-term Republican who voted to convict President Trump in his 2021 impeachment trial, could not muster enough votes to continue to a runoff next month.",
-      "link": "https://www.nytimes.com/2026/05/16/us/politics/cassidy-louisiana-race-trump.html",
-      "image": "https://static01.nyt.com/images/2026/06/16/multimedia/16dc-louisiana-senate-pzbv/16dc-louisiana-senate-pzbv-mediumSquareAt3X.jpg",
+      "title": "To Critics, Trump Remarks Reveal a Billionaire Out of Touch",
+      "summary": "The president has never pretended to be an ordinary American, but a recent “truth bomb” has opened him to criticism that he doesn’t grasp the economic strain of his war with Iran.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/to-critics-trump-remarks-reveal-a-billionaire-out-of-touch.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17dc-memo-mhgl/17dc-memo-mhgl-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779008538.0,
+      "hot": false
+    },
+    {
+      "id": "a662b3f09a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "For Trump, Soaring Prices Test Voters’ Finances and Patience",
+      "summary": "Just months before another election that may hinge on the economy, the war in Iran has sent gas and other goods soaring.",
+      "link": "https://www.nytimes.com/2026/05/17/business/for-trump-soaring-prices-test-voters-finances-and-patience.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-trump-econ-01-gqcj/16dc-trump-econ-01-gqcj-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779008532.0,
+      "hot": false
+    },
+    {
+      "id": "b9d5a7a8cb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Flexes Hold on G.O.P., Even as It Braces for Midterm Backlash",
+      "summary": "The defeat of Senator Bill Cassidy showed the president’s dominance in his party at a moment when a broader range of views about Mr. Trump could be a major liability for November.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/trump-flexes-hold-on-gop-even-as-it-braces-for-midterm-backlash.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17pol-louisiana-folo-cfpv/17pol-louisiana-folo-cfpv-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "6分前",
-      "pub_ts": 1778992179.0,
+      "ago": "1小时前",
+      "pub_ts": 1779008526.0,
+      "hot": false
+    },
+    {
+      "id": "24b39370b9",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Kentucky’s Curious Cast of Political Characters",
+      "summary": "The state, where a rebellious Republican faces a tough primary challenge on Tuesday, has an unpredictable political landscape that has produced a long list of surprising figures.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/kentuckys-curious-cast-of-political-characters.html",
+      "image": "https://static01.nyt.com/images/2025/05/15/us/ky-characters-promo/ky-characters-promo-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779008518.0,
+      "hot": false
+    },
+    {
+      "id": "05bb756f3d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Lamar Alexander Wants Republicans to Stand Up to Trump",
+      "summary": "In a new memoir, the former senator, governor and cabinet member says President Trump committed an impeachable offense on Jan. 6 and calls on Congress to assert its power.",
+      "link": "https://www.nytimes.com/2026/05/17/us/politics/lamar-alexander-republicans-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/00dc-lamar-mvkp/00dc-lamar-mvkp-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779008406.0,
+      "hot": false
+    },
+    {
+      "id": "1c5140627f",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How a CEO and Trump donor is weaponizing tariffs against his rivals",
+      "summary": "Cambria CEO Marty Davis has successfully asked the U.S. government to put tariffs on quartz. His business competitors are crying foul.",
+      "link": "https://www.npr.org/2026/05/17/nx-s1-5726366/ceo-trump-donor-quartz-kitchen-countertop-tariffs",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779008400.0,
       "hot": false
     },
     {
@@ -72,8 +166,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "12分前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1778991828.0,
       "hot": false
     },
@@ -90,81 +184,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "56分前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778989154.0,
       "hot": false
     },
     {
-      "id": "d5be643e83",
+      "id": "a1813e8167",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Louisiana Sen. Bill Cassidy loses in Republican primary, does not advance to runoff",
-      "summary": "Sen. Bill Cassidy is one of few remaining Republican senators who voted for President Trump's impeachment after the Jan. 6 attack on the Capitol. Trump endorsed his opponent, Rep. Julia Letlow.",
+      "title": "Louisiana senator who voted to convict Trump loses Republican primary",
+      "summary": "Sen. Bill Cassidy is one of few remaining Republican senators who voted to convict President Trump after the Jan. 6 attack on the Capitol. Trump endorsed his opponent, Rep. Julia Letlow.",
       "link": "https://www.npr.org/2026/05/16/nx-s1-5824533/bill-cassidy-lost-louisiana-primary-letlow-trump",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1778986954.0,
-      "hot": false
-    },
-    {
-      "id": "2620c61123",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Senate Ruling Threatens Ballroom Funding in G.O.P. Budget Bill",
-      "summary": "Democrats announced Saturday night that the Senate’s top parliamentary referee had determined that the $1 billion provision did not comply with budget rules.",
-      "link": "https://www.nytimes.com/2026/05/16/us/politics/white-house-ballroom-senate.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-ballroom-vwqk/16dc-ballroom-vwqk-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1778985811.0,
-      "hot": false
-    },
-    {
-      "id": "4d5090e602",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How a Nature Cruise Turned Into a Nightmare",
-      "summary": "The hantavirus outbreak on the MV Hondius set off alarms for a world still traumatized by Covid. For those on board, the danger was much closer.",
-      "link": "https://www.nytimes.com/2026/05/16/world/europe/hantavirus-hondius-cruise.html",
-      "image": "https://static01.nyt.com/images/2026/05/13/multimedia/00int-hantavirus-cruise-top-mwgz/00int-hantavirus-cruise-top-mwgz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1778985170.0,
-      "hot": false
-    },
-    {
-      "id": "dc06ef5a58",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Venezuela Extradites Billionaire Tycoon Alex Saab to U.S.",
-      "summary": "The extradition of Alex Saab, who is tied to a huge graft scheme, is part of a purge of powerful figures who helped the deposed president, Nicolás Maduro, stay in power.",
-      "link": "https://www.nytimes.com/2026/05/16/world/americas/venezuela-extradites-tycoon-alex-saab.html",
-      "image": "https://static01.nyt.com/images/2026/01/10/multimedia/16int-venezuela-saab/16int-venezuela-saab-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778981162.0,
       "hot": false
     },
     {
@@ -180,8 +220,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778979140.0,
       "hot": false
     },
@@ -198,27 +238,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1778978907.0,
-      "hot": false
-    },
-    {
-      "id": "c0f3dcab20",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Bulgaria Wins Eurovision Song Contest as Israel Comes Second",
-      "summary": "Five countries boycotted this year’s contest over Israel’s involvement, but politics took a back seat once the show in Vienna got underway.",
-      "link": "https://www.nytimes.com/2026/05/16/arts/music/dara-bulgaria-bangaranga-eurovision-winner.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16cul-eurovision-leadall-topart-vgbt/16cul-eurovision-leadall-topart-vgbt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1778978801.0,
       "hot": false
     },
     {
@@ -235,7 +257,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1778965593.0,
       "hot": false
     },
@@ -253,52 +275,34 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1778965413.0,
       "hot": false
     },
     {
-      "id": "9509595494",
+      "id": "09d25dd3c8",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "A new Ebola outbreak has already killed 87 people in Democratic Republic of Congo",
+      "title": "World Health Organization declares Ebola outbreak in Congo a global health emergency",
       "summary": "Health officials are working to contain a new Ebola outbreak in the DRC of a virus strain with no known vaccine.",
-      "link": "https://www.npr.org/2026/05/16/g-s1-122494/a-new-ebola-outbreak-has-already-killed-87-people",
+      "link": "https://www.npr.org/2026/05/16/g-s1-122494/new-ebola-outbreak-drc-who-global-emergency",
       "image": null,
       "categories": [
         "天气",
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "15小时前",
       "pub_ts": 1778956656.0,
-      "hot": false
-    },
-    {
-      "id": "3d5cf115bf",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "North America poised for light display of aurora borealis",
-      "summary": "The splashy nighttime phenomenon will be best observed on Saturday and Sunday nights",
-      "link": "https://www.npr.org/2026/05/16/g-s1-122492/north-america-poised-for-light-display-of-aurora-borealis",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1778954879.0,
       "hot": false
     },
     {
       "id": "7604a36d7f",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Timmy the humpback whale found dead off Danish coast",
       "summary": "A humpback whale found dead this week off a Danish island has been identified as the animal released two weeks ago in a spectacular and controversial rescue effort after repeatedly becoming stranded o",
@@ -308,26 +312,44 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1778944364.0,
       "hot": false
     },
     {
-      "id": "6919d79c0d",
+      "id": "09c8e3a473",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "This Republican voted to convict Trump. Now he's up for reelection. Can he survive?",
-      "summary": "Louisiana Sen. Bill Cassidy was one of seven Republican senators who voted to convict President Trump. Now he's running for reelection in a race that will test Trump's hold on the GOP.",
-      "link": "https://www.npr.org/2026/05/16/g-s1-122486/louisiana-senate-cassidy-trump",
-      "image": null,
+      "title": "Inside the Secret History of the DeGrange Family",
+      "summary": "One fateful decision 100 years ago created parallel lives. How does a family broken by the bizarre rules of racism heal itself after three generations apart?",
+      "link": "https://www.nytimes.com/2026/05/15/us/degrange-family-history-race.html",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17nat-family-secret-vpjz/17nat-family-secret-vpjz-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "本地"
       ],
       "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1778935113.0,
+      "ago": "19小时前",
+      "pub_ts": 1778943369.0,
+      "hot": false
+    },
+    {
+      "id": "d0cc822fec",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "U.S. Debt Is Now Bigger Than the Economy. That’s Not the Real Problem.",
+      "summary": "Washington quickly brushed off a startling milestone in a mounting problem.",
+      "link": "https://www.nytimes.com/2026/05/16/business/dealbook/debt-100-percent-gdp.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/business/00db-debt/00db-debt-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 60,
+      "ago": "22小时前",
+      "pub_ts": 1778932803.0,
       "hot": false
     },
     {
@@ -345,7 +367,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1778931821.0,
       "hot": false
     },
@@ -362,8 +384,8 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "18小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778925600.0,
       "hot": false
     },
@@ -380,28 +402,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1778919815.0,
-      "hot": false
-    },
-    {
-      "id": "4ac091a984",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The Eurovision Song Contest reaches its grand final with pop and protests",
-      "summary": "The final of the Eurovision Contest arrives Saturday, with tight security and rainy weather failing to dent the enthusiasm of fans, or the opposition of critics who think Israel shouldn't be invited.",
-      "link": "https://www.npr.org/2026/05/16/nx-s1-5824325/eurovision-final-vienna",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1778910290.0,
       "hot": false
     },
     {
