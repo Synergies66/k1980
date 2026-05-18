@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-18T18:16:05.815558+00:00",
-  "total": 23,
+  "updated_at": "2026-05-18T21:42:48.044440+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "a7f45fda52",
@@ -18,8 +18,116 @@
         "移民"
       ],
       "score": 80,
-      "ago": "11分前",
-      "pub_ts": 1779127499.0,
+      "ago": "28分前",
+      "pub_ts": 1779138829.0,
+      "hot": false
+    },
+    {
+      "id": "b2696517f5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Federal Prosecutors Move to Drop Bribery Case Against Indian Magnate",
+      "summary": "Gautam Adani had been accused of lying to American investors about payoffs in India. The end of the case came as President Trump has signaled a transactional approach to justice.",
+      "link": "https://www.nytimes.com/2026/05/18/nyregion/gautam-adani-indictment-trump.html",
+      "image": "https://static01.nyt.com/images/2025/02/11/multimedia/00Trump-Adani-ghbf/00Trump-Adani-ghbf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "31分前",
+      "pub_ts": 1779138684.0,
+      "hot": false
+    },
+    {
+      "id": "56d14e889f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says He Authorized New Strikes on Iran, but Has Decided to Hold Off",
+      "summary": "President Trump has repeatedly threatened new military action against Iran, only to pull back from resuming major fighting in a deeply unpopular, expensive conflict.",
+      "link": "https://www.nytimes.com/2026/05/18/us/politics/trump-iran-strikes.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18DC-PREXY-zbpk/18DC-PREXY-zbpk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1779138048.0,
+      "hot": false
+    },
+    {
+      "id": "b080fc5e8a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Tuesday is a big primary day. Here's what you need to know",
+      "summary": "Six states are holding primaries May 19 that could help to decide the balance of power in Congress and in key state governments.",
+      "link": "https://www.npr.org/2026/05/18/g-s1-122235/primary-day-alabama-georgia-idaho-kentucky-oregon-pennsylvania",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "44分前",
+      "pub_ts": 1779137880.0,
+      "hot": false
+    },
+    {
+      "id": "17b9abacfa",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What is Trump’s $1.776 Billion ‘Anti-Weaponization’ Fund?",
+      "summary": "The Trump administration is creating a $1.8 billion fund to compensate people it says were wronged by the federal government, a group that could be largely made up of the president’s allies.",
+      "link": "https://www.nytimes.com/2026/05/18/us/politics/trump-anti-weaponization-fund.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-wtk-fund-jzwq/18dc-wtk-fund-jzwq-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779136152.0,
+      "hot": false
+    },
+    {
+      "id": "57d839cfb9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "This Ebola outbreak raises questions about when it all began — and the U.S. response",
+      "summary": "The sheer number of cases and deaths are a sign that the outbreak might have been smoldering before the virus was identified.",
+      "link": "https://www.npr.org/2026/05/18/g-s1-122655/ebola-outbreak-democratic-republic-congo-uganda",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779135041.0,
+      "hot": false
+    },
+    {
+      "id": "d1d1ae2a97",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About Elon Musk’s Trial Against OpenAI",
+      "summary": "A jury in Oakland, Calif., reached a decision after a three-week-long trial seen as pivotal for the future of OpenAI and the artificial intelligence race.",
+      "link": "https://www.nytimes.com/2026/05/18/technology/openai-trial-elon-musk-sam-altman.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779132929.0,
       "hot": false
     },
     {
@@ -35,8 +143,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "12分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779127414.0,
       "hot": false
     },
@@ -53,8 +161,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "13分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779127339.0,
       "hot": false
     },
@@ -72,8 +180,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "24分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779126707.0,
       "hot": false
     },
@@ -90,27 +198,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "33分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779126178.0,
-      "hot": false
-    },
-    {
-      "id": "8930ea2b2e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Keisha Lance Bottoms Was Atlanta’s Mayor in the Pandemic. Can She Win the Governor’s Race?",
-      "summary": "Keisha Lance Bottoms is the Democrats’ front-runner as the Georgia primary for governor approaches. But her party rivals are trying to ensure she has to face a runoff.",
-      "link": "https://www.nytimes.com/2026/05/18/us/keisha-lance-bottoms-georgia-governor-primary.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18nat-georgia-dems-cbkl/18nat-georgia-dems-cbkl-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779123977.0,
       "hot": false
     },
     {
@@ -126,45 +216,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779117172.0,
-      "hot": false
-    },
-    {
-      "id": "a166ab8e4f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How a Funding Pause Derailed an Artificial Heart for Babies",
-      "summary": "James Antaki’s efforts to develop a baby’s heart were close to success when his federal funding was cut off. The grants were eventually restored; rebuilding what was lost wasn’t so easy.",
-      "link": "https://www.nytimes.com/2026/05/18/well/federal-cuts-artificial-baby-heart-cornell.html",
-      "image": "https://static01.nyt.com/images/2026/05/14/multimedia/00SCI-BABY-ARTIFICIAL-HEART-01-vtlh/00SCI-BABY-ARTIFICIAL-HEART-01-vtlh-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779117028.0,
-      "hot": false
-    },
-    {
-      "id": "eadaa0c8c2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Brookings Institution Report: Over 100,000 Family Separations in Trump Crackdown",
-      "summary": "The Brookings Institution suggests that federal statistics are an undercount because immigrant parents are not being asked about or not disclosing their American children.",
-      "link": "https://www.nytimes.com/2026/05/18/us/brookings-institution-report-family-separations.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18nat-immig-kids-b-cfhq/18nat-immig-kids-b-cfhq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779116765.0,
       "hot": false
     },
     {
@@ -180,27 +234,9 @@
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779116329.0,
-      "hot": false
-    },
-    {
-      "id": "e74bec3433",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Why Did Some LIRR Unions Decide to Strike?",
-      "summary": "Members of the five unions that are on strike made more than $136,000 last year on average, according to M.T.A. figures. But they have not received a raise since 2022.",
-      "link": "https://www.nytimes.com/2026/05/18/nyregion/lirr-strike-mta-why-unions.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18lirr-strike-why-topart-cjpq/18lirr-strike-why-topart-cjpq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779111520.0,
       "hot": false
     },
     {
@@ -217,33 +253,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779104683.0,
-      "hot": false
-    },
-    {
-      "id": "f1b5ff9eb2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Why catching insider trading is so tricky nowadays, and just how helpful is it for kids to sleep in?",
-      "summary": "Millions of dollars have been made through eerily well-timed bets on prediction markets like Polymarket. We look at why they're so hard to police. And, a new study that supports kids sleeping in.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122515/why-catching-insider-trading-is-so-tricky-nowadays-and-just-how-helpful-is-it-for-kids-to-sleep-in",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779101292.0,
       "hot": false
     },
     {
       "id": "55b29d5896",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Pop star Shakira is acquitted in a Spanish tax fraud case",
       "summary": "The decision follows years of tax troubles in Spain for the Colombian superstar. Spanish tax authorities did not prove that the singer was a resident of Spain, the court said in its decision.",
@@ -254,7 +272,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1779099901.0,
       "hot": false
     },
@@ -267,12 +285,12 @@
       "title": "Trump’s Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects",
       "summary": "With the midterms nearing, President Trump’s approval rating has hit a second-term low as voters question his handling of the economy, according to the latest New York Times/Siena poll.",
       "link": "https://www.nytimes.com/2026/05/18/us/politics/poll-trump-republicans-midterms-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/2026-05-07-may-poll-graphics-story1/2026-05-07-may-poll-graphics-story1-mediumSquareAt3X-v5.png",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/2026-05-07-may-poll-graphics-story1/2026-05-07-may-poll-graphics-story1-mediumSquareAt3X-v6.png",
       "categories": [
         "经济"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779094921.0,
       "hot": false
     },
@@ -291,7 +309,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779094032.0,
       "hot": false
     },
@@ -309,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779094027.0,
       "hot": false
     },
@@ -327,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779093963.0,
       "hot": false
     },
@@ -345,7 +363,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779083423.0,
       "hot": false
     },
@@ -363,7 +381,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1779082620.0,
       "hot": false
     },
@@ -381,7 +399,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1779062460.0,
       "hot": false
     },
