@@ -1,25 +1,80 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-18T11:56:57.438056+00:00",
+  "updated_at": "2026-05-18T16:00:01.479041+00:00",
   "total": 23,
   "articles": [
     {
-      "id": "5959550c76",
+      "id": "197db8d057",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Taiwan Gambit is Already a Gift to China",
+      "summary": "President Trump’s open willingness to hold up a $14 billion Taiwan arms package is a win for Beijing. Now China could be weighing how to keep the weapons on ice for as long as it can.",
+      "link": "https://www.nytimes.com/2026/05/18/world/asia/trump-taiwan-china-weapons.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18int-china-trump-taiwan-01-tvfq/18int-china-trump-taiwan-01-tvfq-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1779106309.0,
+      "hot": false
+    },
+    {
+      "id": "c4ab4dd35f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Sen. Bill Cassidy loses primary. And, WHO declares Ebola outbreak a global emergency",
-      "summary": "Sen. Bill Cassidy, who voted to convict Trump, lost the Republican primary in Louisiana. And, the WHO has declared a global health emergency over a new Ebola outbreak.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122577/up-first-newsletter-bill-cassidy-trump-ebola-elon-musk-openai-sam-altman-idaho-airshow-collision",
+      "title": "The Supreme Court avoids taking up a fight over Voting Rights Act enforcement for now",
+      "summary": "After recently weakening the Voting Rights Act, the Supreme Court avoided for now taking up a legal question that may severely limit enforcement of the law's remaining protections for minority voters.",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5616665/supreme-court-voting-rights-act-private-right",
       "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "46分前",
+      "pub_ts": 1779117172.0,
+      "hot": false
+    },
+    {
+      "id": "eadaa0c8c2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Brookings Institution Report: Over 100,000 Family Separations in Trump Crackdown",
+      "summary": "The Brookings Institution suggests that federal statistics are an undercount because immigrant parents are not being asked about or not disclosing their American children.",
+      "link": "https://www.nytimes.com/2026/05/18/us/brookings-institution-report-family-separations.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18nat-immig-kids-b-cfhq/18nat-immig-kids-b-cfhq-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "12分前",
-      "pub_ts": 1779104683.0,
+      "ago": "53分前",
+      "pub_ts": 1779116765.0,
+      "hot": false
+    },
+    {
+      "id": "f440c2c012",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump drops IRS lawsuit, paving the way for a settlement",
+      "summary": "The president sued the IRS and the Treasury Department in January, demanding $10 billion over the leak of his tax returns years ago.",
+      "link": "https://www.npr.org/2026/05/18/g-s1-119783/trump-irs-lawsuit-settlement",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779116329.0,
       "hot": false
     },
     {
@@ -36,8 +91,26 @@
         "本地"
       ],
       "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1779102244.0,
+      "ago": "1小时前",
+      "pub_ts": 1779114128.0,
+      "hot": false
+    },
+    {
+      "id": "5959550c76",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Sen. Bill Cassidy loses primary. And, WHO declares Ebola outbreak a global emergency",
+      "summary": "Sen. Bill Cassidy, who voted to convict Trump, lost the Republican primary in Louisiana. And, the WHO has declared a global health emergency over a new Ebola outbreak.",
+      "link": "https://www.npr.org/2026/05/18/g-s1-122577/up-first-newsletter-bill-cassidy-trump-ebola-elon-musk-openai-sam-altman-idaho-airshow-collision",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779104683.0,
       "hot": false
     },
     {
@@ -53,8 +126,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779101292.0,
       "hot": false
     },
@@ -72,8 +145,8 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779099901.0,
       "hot": false
     },
@@ -90,8 +163,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779098400.0,
       "hot": false
     },
@@ -108,8 +181,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779098015.0,
       "hot": false
     },
@@ -126,8 +199,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779095919.0,
       "hot": false
     },
@@ -144,27 +217,9 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779095100.0,
-      "hot": false
-    },
-    {
-      "id": "eadaa0c8c2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Brookings Institution Report: Over 100,000 Family Separations in Trump Crackdown",
-      "summary": "The Brookings Institution suggests that federal statistics are an undercount because immigrant parents are not being asked about or not disclosing their American children.",
-      "link": "https://www.nytimes.com/2026/05/18/us/brookings-institution-report-family-separations.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18nat-immig-kids-b-cfhq/18nat-immig-kids-b-cfhq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779094955.0,
       "hot": false
     },
     {
@@ -176,31 +231,13 @@
       "title": "Trump’s Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects",
       "summary": "With the midterms nearing, President Trump’s approval rating has hit a second-term low as voters question his handling of the economy, according to the latest New York Times/Siena poll.",
       "link": "https://www.nytimes.com/2026/05/18/us/politics/poll-trump-republicans-midterms-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/2026-05-07-may-poll-graphics-story1/2026-05-07-may-poll-graphics-story1-mediumSquareAt3X-v4.png",
+      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/2026-05-07-may-poll-graphics-story1/2026-05-07-may-poll-graphics-story1-mediumSquareAt3X-v5.png",
       "categories": [
         "经济"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779094921.0,
-      "hot": false
-    },
-    {
-      "id": "5dcc3b5584",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Supreme Court’s Voting Rights Decision Spurred Swift Action in Louisiana and Alabama",
-      "summary": "The timing brought the court into the middle of a fight to redraw voting maps across the South, even as some primaries were underway.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/supreme-court-voting-rights-act-timing.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-scotus-timing-wzvb/16dc-scotus-timing-wzvb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779094917.0,
       "hot": false
     },
     {
@@ -216,8 +253,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779094915.0,
       "hot": false
     },
@@ -234,44 +271,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779094800.0,
-      "hot": false
-    },
-    {
-      "id": "08a11343a6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Montana tribes combine traditional knowledge and Western science in climate plan",
-      "summary": "The Confederated Salish and Kootenai Tribes are moving forward with their climate plan despite the loss of state support and federal funding.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5734484/trump-montana-climate-change-indigenous-tribes-wildfires",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779094800.0,
-      "hot": false
-    },
-    {
-      "id": "da1a97a03d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "In Georgia primary, Republicans dominate spending and Democrats drive record turnout",
-      "summary": "Tuesday's primary in Georgia features contentious Republican contests for governor and U.S. Senate while Democrats hope an enthusiasm advantage is enough to flip two state supreme court seats.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5822479/2026-midterms-georgia-primary-election",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779094800.0,
       "hot": false
     },
@@ -288,8 +289,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779094733.0,
       "hot": false
     },
@@ -307,26 +308,26 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779094032.0,
       "hot": false
     },
     {
-      "id": "06e88ec071",
+      "id": "6f613b71d8",
       "type": "news",
       "region": "us",
       "source": "NPR 世界",
       "lang": "en",
-      "title": "How Trump's approach with Iran mirrors similar choices made with North Korea",
-      "summary": "Trump shifts from diplomacy to force on Iran's nuclear ambitions, echoing past U.S. dilemmas with North Korea, where similar choices by presidents produced very different outcomes.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5820631/how-trumps-approach-with-iran-mirrors-similar-choices-made-with-north-korea",
+      "title": "North Korea is relieved its nuclear weapons have prevented a fate like Iran's",
+      "summary": "The U.S. long pushed for both Iran and North Korea to quit their nuclear plans. After seeing Iran's leader get killed, North Korea's Kim Jong Un believes he made the right choice to stay the course.",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5820631/trump-north-korea-nuclear",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779094027.0,
       "hot": false
     },
@@ -343,8 +344,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779093963.0,
       "hot": false
     },
@@ -362,7 +363,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779083423.0,
       "hot": false
     },
@@ -380,7 +381,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779082620.0,
       "hot": false
     },
@@ -398,7 +399,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1779062460.0,
       "hot": false
     },
