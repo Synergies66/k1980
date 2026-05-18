@@ -1,8 +1,8 @@
 {
   "region": "uk",
   "name": "英国",
-  "updated_at": "2026-05-17T21:27:40.933058+00:00",
-  "total": 28,
+  "updated_at": "2026-05-18T04:50:42.869352+00:00",
+  "total": 30,
   "articles": [
     {
       "id": "d011fcb174",
@@ -17,9 +17,99 @@
       "categories": [
         "华人"
       ],
-      "score": 80,
-      "ago": "17小时前",
+      "score": 75,
+      "ago": "昨日",
       "pub_ts": 1778991564.0,
+      "hot": false
+    },
+    {
+      "id": "244dad3653",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "科學家如何反擊佔領城市下水道的「脂肪山」",
+      "summary": "下水道內油脂與垃圾結合形成「脂肪山」，在全球城市造成堵塞及污染問題。各地正利用人工智能與機器人技術，提早偵測並清理這些隱藏於地下的巨大威脅。",
+      "link": "https://www.bbc.com/zhongwen/articles/ckgplxdxdg4o/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/5ba7/live/aca428d0-4f55-11f1-bd52-e755d604ece4.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 73,
+      "ago": "4小时前",
+      "pub_ts": 1779063384.0,
+      "hot": false
+    },
+    {
+      "id": "5ee298c883",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 中文",
+      "lang": "zh",
+      "title": "特朗普結束訪華後，中俄即宣佈普京下週二起對中國進行國事訪問",
+      "summary": "普京訪華的消息，是在特朗普結束訪華行程後不足24小時公佈，普京的訪華行程亦緊接在特朗普到訪之後的一星期舉行。",
+      "link": "https://www.bbc.com/zhongwen/articles/cr5pevzv76yo/trad?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/be06/live/8e64c820-51c6-11f1-a719-87164179ee6c.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 73,
+      "ago": "4小时前",
+      "pub_ts": 1779063097.0,
+      "hot": false
+    },
+    {
+      "id": "e5ce55b0d2",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "How to survive the information crisis: ‘We once talked about fake news – now reality itself feels fa",
+      "summary": "In this age of crisis, technology is pulling us apart. At its best, journalism can bring us together again. Written and read by the Guardian editor-in-chief Katharine Viner Continue reading...",
+      "link": "https://www.theguardian.com/news/audio/2026/may/18/how-to-survive-the-information-crisis-we-once-talked-about-fake-news-now-reality-itself-feels-fake-podcast",
+      "image": "https://i.guim.co.uk/img/media/ed64e185803770cd183d670bb69c087d67071ee9/0_0_1350_1080/master/1350.jpg?width=140&quality=85&auto=format&fit=max&s=e99979609e23642396f53c828888c841",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1779076858.0,
+      "hot": false
+    },
+    {
+      "id": "ae7ebf4d08",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Trump warns 'clock is ticking' for Iran as peace progress stalls",
+      "summary": "Iranian media reports the US has not made concrete concessions in response to Tehran's latest proposals.",
+      "link": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9dd8/live/5f851240-526f-11f1-8b8c-6d33e1d5abb6.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "56分前",
+      "pub_ts": 1779076416.0,
+      "hot": false
+    },
+    {
+      "id": "8e6c8f1dbe",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "The Papers: 'Burnham faces perilous race' and 'WHO declares Ebola emergency'",
+      "summary": "The race to potentially challenge Prime Minister Sir Keir Starmer for Labour leadership continues to dominate Monday's papers.",
+      "link": "https://www.bbc.com/news/articles/c0m2x21r739o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6d08/live/0036ef50-5244-11f1-89a3-d1f559421220.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "58分前",
+      "pub_ts": 1779076354.0,
       "hot": false
     },
     {
@@ -37,8 +127,8 @@
         "政治",
         "科技"
       ],
-      "score": 75,
-      "ago": "2小时前",
+      "score": 70,
+      "ago": "10小时前",
       "pub_ts": 1779043161.0,
       "hot": false
     },
@@ -56,26 +146,8 @@
         "本地"
       ],
       "score": 68,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779008265.0,
-      "hot": false
-    },
-    {
-      "id": "5ee298c883",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "特朗普結束訪華後，中俄即宣佈普京下週二起對中國進行國事訪問",
-      "summary": "普京訪華的消息，是在特朗普結束訪華行程後不足24小時公佈，普京的訪華行程亦緊接在特朗普到訪之後的一星期舉行。",
-      "link": "https://www.bbc.com/zhongwen/articles/cr5pevzv76yo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/be06/live/8e64c820-51c6-11f1-a719-87164179ee6c.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 68,
-      "ago": "13小时前",
-      "pub_ts": 1779004743.0,
       "hot": false
     },
     {
@@ -92,8 +164,190 @@
         "本地"
       ],
       "score": 68,
-      "ago": "15小时前",
+      "ago": "23小时前",
       "pub_ts": 1778996587.0,
+      "hot": false
+    },
+    {
+      "id": "8f37a7dae3",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Early intervention and tougher action against parents to tackle youth crime",
+      "summary": "The measures aim to prevent reoffending but campaigners say they fall short of the \"ambitious action\" needed.",
+      "link": "https://www.bbc.com/news/articles/cx21p5qp23xo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2097/live/ca45b780-51f5-11f1-86f6-35d8fdccc492.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779066223.0,
+      "hot": false
+    },
+    {
+      "id": "52e5c8a122",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Moment two fighter jets collide mid-air at US air show",
+      "summary": "Four crew members safely ejected from US Navy jets and are in a stable condition after the collision.",
+      "link": "https://www.bbc.com/news/videos/ce8pzkg7klgo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/ed3a/live/01705be0-5253-11f1-b682-cf91850925ea.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779065365.0,
+      "hot": false
+    },
+    {
+      "id": "a055ccf62b",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Am I part of the luckiest generation in history?",
+      "summary": "As young graduates criticise the terms of their student debt, Evan Davis asks whether baby boomers really were the luckiest generation",
+      "link": "https://www.bbc.com/news/articles/cj6pyk7e3w4o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a9c5/live/3dab7570-4f9e-11f1-8b8c-6d33e1d5abb6.jpg",
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779059497.0,
+      "hot": false
+    },
+    {
+      "id": "70c8f08e0d",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "HS2 failings blamed on high-speed focus and political pressure",
+      "summary": "A new reviews confirms the high-speed rail line's \"original sins\" include a technical design, changing political priorities and ballooning costs.",
+      "link": "https://www.bbc.com/news/articles/c936xeeye41o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e29e/live/7de080e0-5237-11f1-ab05-b32c08414332.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779059277.0,
+      "hot": false
+    },
+    {
+      "id": "d2269cfcf4",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'This may be the last time you hear my voice': Political executions surge in Iran since start of war",
+      "summary": "Since the US and Israel attacked Iran on  28 February, the UN says it’s verified the execution of at least 32 political prisoners.",
+      "link": "https://www.bbc.com/news/articles/cn8p392nl7yo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b138/live/6fba9b00-5042-11f1-acce-79302838e29f.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058976.0,
+      "hot": false
+    },
+    {
+      "id": "18e5f839d6",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "'All I thought about was running for my life': Footballer recalls train stabbing attack",
+      "summary": "Footballer Jonathan Gjoshe was among the 11 passengers seriously injured in a knife attack on a train as it travelled through Cambridgeshire last November.",
+      "link": "https://www.bbc.com/sport/football/articles/cp8py1n500lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8649/live/7628a460-5212-11f1-89a3-d1f559421220.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058933.0,
+      "hot": false
+    },
+    {
+      "id": "0affc7df42",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Footballer in mass train attack reveals he was stabbed seven times",
+      "summary": "Footballer Jonathan Gjoshe was among the 11 passengers seriously injured in a knife attack on a train as it travelled through Cambridgeshire last November.",
+      "link": "https://www.bbc.com/sport/football/articles/cp8py1n500lo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/8649/live/7628a460-5212-11f1-89a3-d1f559421220.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058933.0,
+      "hot": false
+    },
+    {
+      "id": "b61c8447a9",
+      "type": "news",
+      "region": "uk",
+      "source": "The Guardian",
+      "lang": "en",
+      "title": "UK firms halt investments and hiring as Iran war pushes up costs, bosses warn",
+      "summary": "Survey shows businesses ‘struggling to absorb latest economic shock’, while data says April vacancies down 7.7%The worsening fallout from the Iran war is forcing businesses to halt their UK investment",
+      "link": "https://www.theguardian.com/business/2026/may/18/uk-firms-halt-investments-and-hiring-as-iran-war-pushes-up-costs-bosses-warn",
+      "image": "https://i.guim.co.uk/img/media/0646a80e9fe385ac054e18903fde96056aeccce0/656_69_4484_3590/master/4484.jpg?width=140&quality=85&auto=format&fit=max&s=258139e37cc804b06af59ec040023820",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058912.0,
+      "hot": false
+    },
+    {
+      "id": "fba155fbf0",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 头条",
+      "lang": "en",
+      "title": "Rai first Englishman to win US PGA Championship since 1919",
+      "summary": "England's Aaron Rai wins the first major title of his career with a magnificent final-round 65 in the US PGA Championship at Aronimink.",
+      "link": "https://www.bbc.com/sport/golf/articles/c86d4lv37vwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/095a/live/87486e70-5248-11f1-b682-cf91850925ea.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058517.0,
+      "hot": false
+    },
+    {
+      "id": "57c1bc5187",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Two gloves, one major - England's Rai wins US PGA title",
+      "summary": "England's Aaron Rai wins the first major title of his career with a magnificent final-round 65 in the US PGA Championship at Aronimink.",
+      "link": "https://www.bbc.com/sport/golf/articles/c86d4lv37vwo?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7990/live/690a38b0-5268-11f1-b682-cf91850925ea.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779058517.0,
       "hot": false
     },
     {
@@ -109,153 +363,9 @@
       "categories": [
         "本地"
       ],
-      "score": 68,
-      "ago": "17小时前",
+      "score": 63,
+      "ago": "昨日",
       "pub_ts": 1778990413.0,
-      "hot": false
-    },
-    {
-      "id": "ae7ebf4d08",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Trump warns 'clock is ticking' for Iran as peace progress stalls",
-      "summary": "Iranian media reports the US has not made concrete concessions in response to Tehran's latest proposals.",
-      "link": "https://www.bbc.com/news/articles/cd0p4y9y48xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4914/live/9ba8d540-5215-11f1-8b8c-6d33e1d5abb6.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779045800.0,
-      "hot": false
-    },
-    {
-      "id": "591ef81a9d",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "London mayor warning over northern Olympic bid",
-      "summary": "The government has commissioned UK Sport to conduct an \"initial strategic assessment\" into a potential bid for the north of England to host the Olympics and Paralympics in the 2040s.",
-      "link": "https://www.bbc.com/sport/olympics/articles/clypl9pzy6jo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/fd51/live/ad5cd140-5154-11f1-a307-0d3da2ea1bdc.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779042543.0,
-      "hot": false
-    },
-    {
-      "id": "0c5a9a3725",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Two police officers 'seriously injured' and 14 arrests during Celtic disorder",
-      "summary": "Riot police had to clear the streets after thousands of fans gathered in Glasgow to celebrate a fifth successive Scottish Premiership title.",
-      "link": "https://www.bbc.com/news/articles/c0e2xxz5rl9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/c21d/live/1294fda0-51e9-11f1-89a3-d1f559421220.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779041828.0,
-      "hot": false
-    },
-    {
-      "id": "65203d553a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Eurovision winner Dara arrives to screaming fans in Bulgaria",
-      "summary": "The 27-year-old's tune Bangaranga won Bulgaria its first ever title in the song contest.",
-      "link": "https://www.bbc.com/news/videos/c2k2p8qkk58o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2f0c/live/6c3abf20-521b-11f1-b682-cf91850925ea.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779041432.0,
-      "hot": false
-    },
-    {
-      "id": "84a6f4372a",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "England see off spirited France to clinch Six Nations",
-      "summary": "England combine nerve and accuracy to overcome France and a raucous record crowd and clinch their eight successive Women's Six Nations title in Bordeaux.",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/c62x0np51y6o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/af54/live/7a1b7150-5231-11f1-84e8-c9d35decabd2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779041323.0,
-      "hot": false
-    },
-    {
-      "id": "4d2e251371",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "How worrying is the Ebola outbreak in DR Congo?",
-      "summary": "An outbreak in DR Congo has been declared a health emergency, with almost 250 suspected cases reported.",
-      "link": "https://www.bbc.com/news/articles/c9q311nj5r3o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/0fab/live/4cc2b0d0-51ee-11f1-86f6-35d8fdccc492.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779041191.0,
-      "hot": false
-    },
-    {
-      "id": "4332c69a35",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "Where does UK-EU relationship stand and how might bid to rejoin bloc be received?",
-      "summary": "Labour leadership contender Wes Streeting calls Brexit a ‘catastrophic mistake’ while Andy Burnham sees ‘long-term case’ for rejoining EUWes Streeting, who resigned as Britain’s health secretary last",
-      "link": "https://www.theguardian.com/politics/2026/may/17/explainer-uk-eu-relationship-brexit-bid-rejoining",
-      "image": "https://i.guim.co.uk/img/media/9bd548436f97d326a52eddc7c390215a15a14dab/0_0_6005_4805/master/6005.jpg?width=140&quality=85&auto=format&fit=max&s=d7188b8bc04b94599d7a6e0cce722d83",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779035352.0,
-      "hot": false
-    },
-    {
-      "id": "5b1981738f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "Scotland rugby great Scott Hastings dies at 61",
-      "summary": "One of Scotland's best and most loved rugby union players, Scott Hastings, has died at 61.",
-      "link": "https://www.bbc.com/sport/rugby-union/articles/ce8p60nj9e9o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9658/live/15536510-520f-11f1-b682-cf91850925ea.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779034922.0,
       "hot": false
     },
     {
@@ -277,24 +387,6 @@
       "hot": false
     },
     {
-      "id": "136fd44c1b",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 中文",
-      "lang": "zh",
-      "title": "MAGA運動中的中國批評者如何看待特朗普的北京之行",
-      "summary": "特朗普重返白宮時，身邊聚集了一批將批評中國視為標誌性立場的重要盟友：國務卿盧比奧、副總統萬斯，以及高級經濟顧問納瓦羅——他們一致指責北京「佔美國便宜」、大規模竊取技術，並讓芬太尼流入美國街頭。",
-      "link": "https://www.bbc.com/zhongwen/articles/cwy2wdmdx2xo/trad?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/68fb/live/10803dd0-507d-11f1-b637-39d6d94b351f.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 63,
-      "ago": "昨日",
-      "pub_ts": 1778902436.0,
-      "hot": false
-    },
-    {
       "id": "950bf14c98",
       "type": "news",
       "region": "uk",
@@ -308,44 +400,44 @@
         "本地"
       ],
       "score": 63,
-      "ago": "昨日",
+      "ago": "2天前",
       "pub_ts": 1778895907.0,
       "hot": false
     },
     {
-      "id": "98b9348d89",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Probe over claims royal police officers slept on duty",
-      "summary": "Officers protecting the Royal Family in Berkshire investigated over allegations of sleeping on duty.",
-      "link": "https://www.bbc.com/news/articles/c4g83mvk137o?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3f39/live/d099e0c0-51d7-11f1-8d79-4731acfb89e0.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779030128.0,
-      "hot": false
-    },
-    {
-      "id": "67f13a5b7c",
+      "id": "4332c69a35",
       "type": "news",
       "region": "uk",
       "source": "The Guardian",
       "lang": "en",
-      "title": "What should win this year’s International Booker?",
-      "summary": "Political oppression in Tehran, a witch’s tale from France, a film-maker in Nazi Germany …  we weigh up the contenders for the International Booker prize 2026This year’s International Booker prize sho",
-      "link": "https://www.theguardian.com/books/2026/may/17/what-should-win-this-years-international-booker",
-      "image": "https://i.guim.co.uk/img/media/04a8f4e3a9724a8669b062aed8a6810a345f4fed/0_0_2953_2362/master/2953.jpg?width=140&quality=85&auto=format&fit=max&s=04590affbc6d70ed8f0e34fb7cdf507d",
+      "title": "Where does UK-EU relationship stand and how might bid to rejoin bloc be received?",
+      "summary": "Labour leadership contender Wes Streeting calls Brexit a ‘catastrophic mistake’ while Andy Burnham sees ‘long-term case’ for rejoining EUWes Streeting, who resigned as Britain’s health secretary last",
+      "link": "https://www.theguardian.com/politics/2026/may/17/explainer-uk-eu-relationship-brexit-bid-rejoining",
+      "image": "https://i.guim.co.uk/img/media/9bd548436f97d326a52eddc7c390215a15a14dab/0_0_6005_4805/master/6005.jpg?width=140&quality=85&auto=format&fit=max&s=d7188b8bc04b94599d7a6e0cce722d83",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1779035352.0,
+      "hot": false
+    },
+    {
+      "id": "5b1981738f",
+      "type": "news",
+      "region": "uk",
+      "source": "BBC 英国",
+      "lang": "en",
+      "title": "Scotland rugby great Scott Hastings dies at 61",
+      "summary": "One of Scotland's best and most loved rugby union players, Scott Hastings, has died at 61.",
+      "link": "https://www.bbc.com/sport/rugby-union/articles/ce8p60nj9e9o?at_medium=RSS&at_campaign=rss",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/9658/live/15536510-520f-11f1-b682-cf91850925ea.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779030044.0,
+      "ago": "12小时前",
+      "pub_ts": 1779034922.0,
       "hot": false
     },
     {
@@ -362,17 +454,17 @@
         "经济"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1779030042.0,
       "hot": false
     },
     {
-      "id": "e3128315a5",
+      "id": "060ac80894",
       "type": "news",
       "region": "uk",
-      "source": "BBC 头条",
+      "source": "BBC 英国",
       "lang": "en",
-      "title": "Swatch stores close for second day after rush for new watch sparks safety concerns",
+      "title": "Swatch stores close for second day after crowds",
       "summary": "The launch of a new £335 pocket watch has drawn criticism after queues of shoppers built up again.",
       "link": "https://www.bbc.com/news/articles/c302vjqz563o?at_medium=RSS&at_campaign=rss",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/964a/live/017beab0-51fd-11f1-8cef-69c0db7c54a0.png",
@@ -380,26 +472,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "14小时前",
       "pub_ts": 1779028524.0,
-      "hot": false
-    },
-    {
-      "id": "951172ae6f",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 英国",
-      "lang": "en",
-      "title": "Murder investigation launched after man dies following break-in",
-      "summary": "Nicholas (Nicky) Gordon was attacked as a number of intruders entered an apartment in east Belfast early on Tuesday morning.",
-      "link": "https://www.bbc.com/news/articles/cvgzk902z7mo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3507/live/3fc541a0-51f7-11f1-86f6-35d8fdccc492.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779027391.0,
       "hot": false
     },
     {
@@ -416,7 +490,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1779022840.0,
       "hot": false
     },
@@ -429,31 +503,13 @@
       "title": "Personal decision for Starmer on whether to fight leadership contest, minister says",
       "summary": "Culture Secretary Lisa Nandy tells the BBC that the prime minister has \"shown before that he's up for a fight\" and she \"wouldn't write [him] off\".",
       "link": "https://www.bbc.com/news/articles/clypg60k25ro?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/4840/live/a983c310-51d3-11f1-88a8-f9e787ff27f2.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eb42/live/923d1f10-5270-11f1-b682-cf91850925ea.jpg",
       "categories": [
         "政治"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1779016291.0,
-      "hot": false
-    },
-    {
-      "id": "1bdfc267ee",
-      "type": "news",
-      "region": "uk",
-      "source": "The Guardian",
-      "lang": "en",
-      "title": "WHO says Ebola outbreak in DRC and Uganda is ‘emergency’ of international concern",
-      "summary": "At least 80 deaths and more than 300 suspected cases in the DRC, while Uganda reports spread from travellersWhat is Ebola and why is WHO treating outbreak as global emergency?An Ebola outbreak in the",
-      "link": "https://www.theguardian.com/world/2026/may/17/who-ebola-outbreak-congo-uganda-global-health-emergency",
-      "image": "https://i.guim.co.uk/img/media/405ff6ecdb65f7c061687223f2aea862f934b007/464_0_3558_2846/master/3558.jpg?width=140&quality=85&auto=format&fit=max&s=bef36edfca3d5f98dd18784de1175067",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779012417.0,
       "hot": false
     },
     {
@@ -470,7 +526,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "21小时前",
       "pub_ts": 1779001231.0,
       "hot": false
     },
@@ -488,26 +544,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1778994029.0,
-      "hot": false
-    },
-    {
-      "id": "15d700e198",
-      "type": "news",
-      "region": "uk",
-      "source": "BBC 头条",
-      "lang": "en",
-      "title": "The UK is churning through leaders. Is the country becoming harder to govern?",
-      "summary": "Discontent with the political class is greater than ever - has the UK become ungovernable?",
-      "link": "https://www.bbc.com/news/articles/cqjpe7q0j1xo?at_medium=RSS&at_campaign=rss",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/edfd/live/b4133310-5057-11f1-8b8c-6d33e1d5abb6.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1778974001.0,
       "hot": false
     }
   ]
