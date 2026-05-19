@@ -1,9 +1,45 @@
 {
   "region": "kr",
   "name": "韩国",
-  "updated_at": "2026-05-19T11:41:53.658361+00:00",
+  "updated_at": "2026-05-19T16:01:31.415779+00:00",
   "total": 8,
   "articles": [
+    {
+      "id": "e3c558ddc6",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "U.S. to host G20 trade ministerial talks in Wisconsin this fall to discuss forced labor, excess capa",
+      "summary": "WASHINGTON, May 19 (Yonhap) -- The Office of U.S. Trade Representative (USTR) sa...",
+      "link": "https://en.yna.co.kr/view/AEN20260519012800315",
+      "image": "https://img.yna.co.kr/photo/etc/up/2026/04/17/PUP20260417004601009_P2.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779199718.0,
+      "hot": false
+    },
+    {
+      "id": "3334cf40a4",
+      "type": "news",
+      "region": "kr",
+      "source": "Yonhap News",
+      "lang": "en",
+      "title": "(7th LD) Lee, Takaichi agree to boost cooperation in supply chains, procurement of crude oil, LNG",
+      "summary": "SEOUL, May 19 (Yonhap) -- President Lee Jae Myung said Tuesday he and Japanese P...",
+      "link": "https://en.yna.co.kr/view/AEN20260519006757315",
+      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/19/AEN20260519006757315_09_i_P2.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779194618.0,
+      "hot": false
+    },
     {
       "id": "5faf6e9936",
       "type": "news",
@@ -17,8 +53,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "28分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779189195.0,
       "hot": false
     },
@@ -35,8 +71,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779186622.0,
       "hot": false
     },
@@ -53,8 +89,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779183233.0,
       "hot": true
     },
@@ -71,8 +107,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779183017.0,
       "hot": false
     },
@@ -89,8 +125,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779181437.0,
       "hot": false
     },
@@ -107,45 +143,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779181033.0,
-      "hot": false
-    },
-    {
-      "id": "3f5bea19eb",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "(5th LD) Lee, Takaichi agree to boost cooperation in supply chains, procurement of crude oil, LNG",
-      "summary": "SEOUL, May 19 (Yonhap) -- President Lee Jae Myung said Tuesday he and Japanese P...",
-      "link": "https://en.yna.co.kr/view/AEN20260519006755315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/19/AEN20260519006755315_09_i_P2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779178894.0,
-      "hot": false
-    },
-    {
-      "id": "eea7ae7283",
-      "type": "news",
-      "region": "kr",
-      "source": "Yonhap News",
-      "lang": "en",
-      "title": "Yonhap News Summary",
-      "summary": "The following is the second summary of major stories moved by Yonhap News Agency...",
-      "link": "https://en.yna.co.kr/view/AEN20260519011000315",
-      "image": "https://img.yna.co.kr/etc/inner/EN/2026/05/19/AEN20260519011000315_01_i_P2.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779177601.0,
       "hot": false
     }
   ]
