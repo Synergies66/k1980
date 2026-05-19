@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-19T11:35:59.140507+00:00",
-  "total": 24,
+  "updated_at": "2026-05-19T15:54:18.791763+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "c64a879114",
@@ -18,9 +18,100 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "9小时前",
       "pub_ts": 1779170520.0,
+      "hot": false
+    },
+    {
+      "id": "c876dfae11",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran War Exposes Shortcomings in U.S. Military Industrial Base",
+      "summary": "Defense Secretary Pete Hegseth is taking on a problem that the Pentagon and Congress have tried, and mostly failed, to address for years.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/pentagon-weapons-drones-iran-war-hegseth.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-military-industrial-bwgt/16dc-military-industrial-bwgt-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779201414.0,
+      "hot": false
+    },
+    {
+      "id": "1179a7e034",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A study investigates: Did the abrupt end of USAID have an impact on violence?",
+      "summary": "That's the provocative question that researchers dug into after the U.S. shut down its premier aid agency.",
+      "link": "https://www.npr.org/2026/05/19/g-s1-122281/u-s-aid-usaid-trump-violence",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779199957.0,
+      "hot": false
+    },
+    {
+      "id": "00239b0ae7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Says He Postponed a ‘Very Major Attack’ on Iran, Leaving Mideast on Edge",
+      "summary": "President Trump said he had postponed a “very major attack” against Iran, as Pakistan continued its mediation efforts to end the war.",
+      "link": "https://www.nytimes.com/2026/05/19/world/middleeast/iran-trump-tension.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-iran-trump-02-lqfw/19int-iran-trump-02-lqfw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779197910.0,
+      "hot": false
+    },
+    {
+      "id": "17d3ee0b98",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Justices Hint at Strains as Supreme Court Comes Under Scrutiny",
+      "summary": "Traveling across the country, justices defend the role of the court even as strained relations among its members emerge in writing and remarks.",
+      "link": "https://www.nytimes.com/2026/05/18/us/politics/supreme-court-political-tensions.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-scotus-tensions-czwf/18dc-scotus-tensions-czwf-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779197080.0,
+      "hot": false
+    },
+    {
+      "id": "9d644416b1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Activists say Israel tries to expel a whole Palestinian neighborhood in East Jerusalem",
+      "summary": "Israeli authorities are issuing Palestinians demolition orders in East Jerusalem at an accelerated rate since Israel launched war with Iran, human rights groups and U.N. experts say.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5823861/israel-palestinians-east-jerusalem",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779196836.0,
       "hot": false
     },
     {
@@ -36,9 +127,45 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1779189756.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779195450.0,
+      "hot": false
+    },
+    {
+      "id": "5ea4d95753",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "To revive an extinct bird, you first need an artificial egg",
+      "summary": "Colossal Biosciences, a Texas company trying to bring extinct species back to life, reports creating artificial eggs that would be necessary to revive extinct birds such as the dodo.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5805950/artificial-eggs-dodo-moa",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779192016.0,
+      "hot": false
+    },
+    {
+      "id": "bb4d4cbc22",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "California mosque shooting leaves 5 dead. And, judge dismisses Trump's IRS lawsuit",
+      "summary": "San Diego authorities are investigating a deadly shooting at a mosque as a hate crime. And, Trump dropped his lawsuit against the IRS, paving the way for an \"anti-weaponization fund.\"",
+      "link": "https://www.npr.org/2026/05/19/g-s1-122806/up-first-newsletter-islamic-center-san-diego-primary-elections-trump-irs-elon-musk-openai",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779190418.0,
       "hot": false
     },
     {
@@ -54,8 +181,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "19分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779189370.0,
       "hot": false
     },
@@ -72,27 +199,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "35分前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779188400.0,
-      "hot": false
-    },
-    {
-      "id": "a025ebd90d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Race to Control Congress",
-      "summary": "We look at where the parties stand leading up to the midterms.",
-      "link": "https://www.nytimes.com/2026/05/19/briefing/the-race-to-control-congress.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19themorning-nl-massie-hpcf/19themorning-nl-massie-hpcf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "47分前",
-      "pub_ts": 1779187695.0,
       "hot": false
     },
     {
@@ -108,63 +217,9 @@
       "categories": [
         "教育"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779186600.0,
-      "hot": false
-    },
-    {
-      "id": "9e1be9f75b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "G.O.P. Supporters Back Trump, but a Third Seek a New Direction for the Party",
-      "summary": "While President Trump remains overwhelmingly popular within the Republican coalition, a New York Times/Siena poll found, a sizable share wants the party’s next nominee to take a different approach.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/poll-trump-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/2026-05-07-may-poll-graphics-story2/2026-05-07-may-poll-graphics-story2-mediumSquareAt3X-v8.png",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779181295.0,
-      "hot": false
-    },
-    {
-      "id": "e15b091c22",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The French Open courts are clay, a tricky surface for some. Here's how the pros do it",
-      "summary": "In tennis, clay has a reputation for being one of the harder surfaces to play on. But a few pros shared some of their tips for staying sharp.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5822888/french-open-clay-hailey-baptiste",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779181200.0,
-      "hot": false
-    },
-    {
-      "id": "f0026f54a8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "NTSB hearing will probe cause of fiery UPS jet crash that killed 15 in Louisville",
-      "summary": "The nation's top safety investigators will launch a two-day hearing beginning Tuesday into what caused a UPS cargo plane to crash shortly after takeoff in Louisville last year, killing 15 people.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5823467/ups-crash-md-11-ntsb-louisville",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779181200.0,
       "hot": false
     },
     {
@@ -180,8 +235,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779181200.0,
       "hot": false
     },
@@ -198,63 +253,27 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779181200.0,
       "hot": false
     },
     {
-      "id": "68154aa69e",
+      "id": "e15b091c22",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "'We're not kids anymore': The DACA generation hits their 30s with an unstable future",
-      "summary": "Recipients of the Obama-era DACA program are aging, even as the Trump administration moves to weaken the program's protections and benefits.",
-      "link": "https://www.npr.org/2026/05/19/g-s1-121405/immigration-trump-daca-generation-limbo",
+      "title": "The French Open courts are clay, a tricky surface for some. Here's how the pros do it",
+      "summary": "In tennis, clay has a reputation for being one of the harder surfaces to play on. But a few pros shared some of their tips for staying sharp.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5822888/french-open-clay-hailey-baptiste",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779181200.0,
-      "hot": false
-    },
-    {
-      "id": "b3fbdd7bea",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "These men voted for President Trump. They have very different views of how he's doing",
-      "summary": "Two Black men from Georgia who voted for President Trump in 2024 have very different views of how the country is doing now, in the first installment of Swing Shift from NPR's Tamara Keith.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5788971/swing-voters-trump-president-approval-2026-midterms",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779181200.0,
-      "hot": false
-    },
-    {
-      "id": "7ef53aac68",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The LIRR Strike Is Over. Here’s What Commuters Can Expect on Tuesday.",
-      "summary": "A deal was reached on Monday night to end the strike that shut down America’s busiest passenger rail line, but officials said the service will not fully resume until Tuesday afternoon.",
-      "link": "https://www.nytimes.com/2026/05/19/nyregion/lirr-strike-update-train-commute.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/00met-lirr-deal-tjfg/00met-lirr-deal-tjfg-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779180597.0,
       "hot": false
     },
     {
@@ -270,8 +289,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779177651.0,
       "hot": false
     },
@@ -289,35 +308,53 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779168478.0,
       "hot": false
     },
     {
-      "id": "2da449e253",
+      "id": "c54cfceecf",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Last-Minute Donation Could Upend G.O.P. Primary for Texas Attorney General",
-      "summary": "A single donor’s contribution of $2.75 million could help propel Representative Chip Roy in his clash with a self-funded state senator, Mayes Middleton.",
-      "link": "https://www.nytimes.com/2026/05/19/us/chip-roy-donation-texas-attorney-general.html",
-      "image": null,
+      "title": "Oil Slick Reaches a Pristine Persian Gulf Island in Iran",
+      "summary": "Videos show birds, turtles and crabs trapped inside mounds of tar around Shidvar island, a protected wildlife sanctuary with turquoise waters and white sand beaches.",
+      "link": "https://www.nytimes.com/2026/05/19/world/europe/oil-spill-iran-shidvar-island.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-iran-oil-photo-pbkz/19int-iran-oil-photo-pbkz-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779165579.0,
+      "ago": "11小时前",
+      "pub_ts": 1779163265.0,
       "hot": false
     },
     {
-      "id": "f4ea3cc5af",
+      "id": "d85fbc8e28",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "A Fearful Phone Call and Frantic Search Preceded San Diego Mosque Shooting",
+      "title": "Top Treasury Lawyer Resigns After Creation of ‘Anti-Weaponization Fund’",
+      "summary": "Brian Morrissey, the department’s general counsel, stepped down hours after the Trump administration announced the $1.8 billion fund.",
+      "link": "https://www.nytimes.com/2026/05/18/business/anti-weaponization-fund-brian-morrissey-treasury.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18DC-TRUMP-TREASURY-hltv/18DC-TRUMP-TREASURY-hltv-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "12小时前",
+      "pub_ts": 1779162707.0,
+      "hot": false
+    },
+    {
+      "id": "9ad1e7ac0c",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Before the San Diego Mosque Shooting, a Fearful Mother’s Phone Call Set Off a Frantic Search",
       "summary": "San Diego police arrived to find three people dead. Nearby, they found two teenagers, the attackers, dead in a car. The violence shattered an idyllic Southern California city.",
       "link": "https://www.nytimes.com/2026/05/18/us/san-diego-mosque-shooting-search.html",
       "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19nat-mosque-shooting-tjpz/19nat-mosque-shooting-tjpz-mediumSquareAt3X.jpg",
@@ -325,27 +362,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779159813.0,
-      "hot": false
-    },
-    {
-      "id": "17d3ee0b98",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Justices Hint at Strains as Supreme Court Comes Under Scrutiny",
-      "summary": "Traveling across the country, justices defend the role of the court even as strained relations among its members emerge in writing and remarks.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/supreme-court-political-tensions.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-scotus-tensions-czwf/18dc-scotus-tensions-czwf-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779157413.0,
       "hot": false
     },
     {
@@ -362,7 +380,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "19小时前",
       "pub_ts": 1779135914.0,
       "hot": false
     },
@@ -379,47 +397,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "23小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1779104683.0,
-      "hot": false
-    },
-    {
-      "id": "55b29d5896",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Pop star Shakira is acquitted in a Spanish tax fraud case",
-      "summary": "The decision follows years of tax troubles in Spain for the Colombian superstar. Spanish tax authorities did not prove that the singer was a resident of Spain, the court said in its decision.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122563/pop-star-shakira-is-acquitted-in-a-spanish-tax-fraud-case",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779099901.0,
-      "hot": false
-    },
-    {
-      "id": "53e7c7803c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Ukraine launches large-scale drone strikes on Russia",
-      "summary": "As peace talks stall, Ukraine launches one of the biggest drone strikes against Russia since the beginning of Russia's full-scale invasion in an attempt to weaken Russia's war machine.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5824988/ukraine-launches-large-scale-drone-strikes-on-russia",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779094032.0,
       "hot": false
     },
     {
