@@ -1,61 +1,151 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-18T21:42:48.044440+00:00",
-  "total": 24,
+  "updated_at": "2026-05-19T04:38:16.792727+00:00",
+  "total": 25,
   "articles": [
     {
-      "id": "a7f45fda52",
+      "id": "6e42855e34",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "ICE Agent Charged in Shooting of a Venezuelan Immigrant in Minnesota",
-      "summary": "The agent is the second federal officer to face felony charges in Minnesota stemming from Operation Metro Surge, the Trump administration’s immigration crackdown.",
-      "link": "https://www.nytimes.com/2026/05/18/us/ice-agent-charges-venezuelan-immigrant.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/us/18nat-minneapolis-ice-charges-1/18nat-minneapolis-ice-charges-1-mediumSquareAt3X.jpg",
+      "title": "Oil Slick Reaches a Pristine Persian Gulf Island in Iran",
+      "summary": "Videos show birds, turtles and crabs trapped inside mounds of tar around Shidvar island, a protected wildlife sanctuary with turquoise waters and white sand beaches.",
+      "link": "https://www.nytimes.com/2026/05/19/world/europe/oil-slick-reaches-a-pristine-persian-gulf-island-in-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-iran-oil-photo-pbkz/19int-iran-oil-photo-pbkz-mediumSquareAt3X.jpg",
       "categories": [
-        "移民"
+        "本地"
       ],
-      "score": 80,
-      "ago": "28分前",
-      "pub_ts": 1779138829.0,
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1779163265.0,
       "hot": false
     },
     {
-      "id": "b2696517f5",
+      "id": "74c027efaf",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Federal Prosecutors Move to Drop Bribery Case Against Indian Magnate",
-      "summary": "Gautam Adani had been accused of lying to American investors about payoffs in India. The end of the case came as President Trump has signaled a transactional approach to justice.",
-      "link": "https://www.nytimes.com/2026/05/18/nyregion/gautam-adani-indictment-trump.html",
-      "image": "https://static01.nyt.com/images/2025/02/11/multimedia/00Trump-Adani-ghbf/00Trump-Adani-ghbf-mediumSquareAt3X.jpg",
+      "title": "San Diego Mosque Shooting Comes Amid Rising Reports of Islamophobia in the U.S.",
+      "summary": "The Council on American-Islamic Relations said complaints about bias against Muslims are at levels unseen in decades.",
+      "link": "https://www.nytimes.com/2026/05/18/us/san-diego-mosque-shooting-islamaphobia.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18mosque-shooting-islamaphobia-vert-jzhv/18mosque-shooting-islamaphobia-vert-jzhv-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "31分前",
-      "pub_ts": 1779138684.0,
+      "ago": "49分前",
+      "pub_ts": 1779162501.0,
       "hot": false
     },
     {
-      "id": "56d14e889f",
+      "id": "f4ea3cc5af",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Says He Authorized New Strikes on Iran, but Has Decided to Hold Off",
-      "summary": "President Trump has repeatedly threatened new military action against Iran, only to pull back from resuming major fighting in a deeply unpopular, expensive conflict.",
+      "title": "A Fearful Phone Call and Frantic Search Preceded San Diego Mosque Shooting",
+      "summary": "San Diego police arrived to find three people dead. Nearby, they found two teenagers, the attackers, dead in a car. The violence shattered an idyllic Southern California city.",
+      "link": "https://www.nytimes.com/2026/05/18/us/san-diego-mosque-shooting-search.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19nat-mosque-shooting-tjpz/19nat-mosque-shooting-tjpz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779159812.0,
+      "hot": false
+    },
+    {
+      "id": "2d2587979e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "What to Know About San Diego’s Islamic Center",
+      "summary": "A visitor said that the mosque is highly diverse. Its services are in English, because attendees come from all over the world.",
+      "link": "https://www.nytimes.com/2026/05/18/us/islamic-center-san-diego-mosque.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18mosque-shooting-islamic-center-sub-ljhv/18mosque-shooting-islamic-center-sub-ljhv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779153315.0,
+      "hot": false
+    },
+    {
+      "id": "794e055e08",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Here’s How Iran Could Respond to Renewed U.S.-Israeli Strikes",
+      "summary": "In any new round of fighting, Iranian officials could adopt new tactics, including intensified strikes on neighbors and trying to close off a second strait.",
+      "link": "https://www.nytimes.com/2026/05/18/world/middleeast/iran-war-retaliation-options.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18int-iran-strategy-wmfz/18int-iran-strategy-wmfz-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779150703.0,
+      "hot": false
+    },
+    {
+      "id": "f9d414fb6a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Threatens Iran and Then Pulls Back, All in the Same Day",
+      "summary": "President Trump has repeatedly said he’ll restart military action against Iran, only to stop short of plunging the United States directly back into an unpopular war.",
       "link": "https://www.nytimes.com/2026/05/18/us/politics/trump-iran-strikes.html",
       "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18DC-PREXY-zbpk/18DC-PREXY-zbpk-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1779138048.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779149912.0,
+      "hot": false
+    },
+    {
+      "id": "c84df984a3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Why you should care about 2 power companies merging. Hint: affordability",
+      "summary": "NextEra Energy plans to acquire Dominion Energy to create the largest electricity producer in the United States.",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5825871/electricity-prices-nextera-dominion-merger-utilities",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779141612.0,
+      "hot": false
+    },
+    {
+      "id": "de5a4811bc",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "L-I-R-R vs. Lurr: The Debate Splitting New York Commuters",
+      "summary": "Initialism or acronym? It doesn’t matter. No one can agree on how to pronounce it.",
+      "link": "https://www.nytimes.com/2026/05/18/nyregion/lirr-pronunciation-long-island.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18lirr-strike-pronunciation2-qjgh/18lirr-strike-pronunciation2-qjgh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779141605.0,
       "hot": false
     },
     {
@@ -71,27 +161,27 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "44分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779137880.0,
       "hot": false
     },
     {
-      "id": "17b9abacfa",
+      "id": "45ecd88116",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "What is Trump’s $1.776 Billion ‘Anti-Weaponization’ Fund?",
-      "summary": "The Trump administration is creating a $1.8 billion fund to compensate people it says were wronged by the federal government, a group that could be largely made up of the president’s allies.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/trump-anti-weaponization-fund.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-wtk-fund-jzwq/18dc-wtk-fund-jzwq-mediumSquareAt3X.jpg",
+      "title": "Is Kennedy heir Jack Schlossberg ready to lead?",
+      "summary": "NPR's Juana Summers speaks with Jack Schlossberg, Democratic candidate for New York's 12th Congressional District and the grandson of President John F. Kennedy.",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5823879/is-kennedy-heir-jack-schlossberg-ready-to-lead",
+      "image": null,
       "categories": [
-        "政治"
+        "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779136152.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1779136259.0,
       "hot": false
     },
     {
@@ -107,27 +197,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779135041.0,
-      "hot": false
-    },
-    {
-      "id": "d1d1ae2a97",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About Elon Musk’s Trial Against OpenAI",
-      "summary": "A jury in Oakland, Calif., reached a decision after a three-week-long trial seen as pivotal for the future of OpenAI and the artificial intelligence race.",
-      "link": "https://www.nytimes.com/2026/05/18/technology/openai-trial-elon-musk-sam-altman.html",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779132929.0,
       "hot": false
     },
     {
@@ -143,8 +215,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779127414.0,
       "hot": false
     },
@@ -161,8 +233,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779127339.0,
       "hot": false
     },
@@ -180,8 +252,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779126707.0,
       "hot": false
     },
@@ -198,8 +270,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779126178.0,
       "hot": false
     },
@@ -217,33 +289,15 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "13小时前",
       "pub_ts": 1779117172.0,
-      "hot": false
-    },
-    {
-      "id": "f440c2c012",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump drops IRS lawsuit, paving the way for a settlement",
-      "summary": "The president sued the IRS and the Treasury Department in January, demanding $10 billion over the leak of his tax returns years ago.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-119783/trump-irs-lawsuit-settlement",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779116329.0,
       "hot": false
     },
     {
       "id": "5959550c76",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Sen. Bill Cassidy loses primary. And, WHO declares Ebola outbreak a global emergency",
       "summary": "Sen. Bill Cassidy, who voted to convict Trump, lost the Republican primary in Louisiana. And, the WHO has declared a global health emergency over a new Ebola outbreak.",
@@ -253,7 +307,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1779104683.0,
       "hot": false
     },
@@ -272,26 +326,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "18小时前",
       "pub_ts": 1779099901.0,
-      "hot": false
-    },
-    {
-      "id": "af999d78b2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Approval Sinks Amid Unpopular War, Darkening G.O.P. Prospects",
-      "summary": "With the midterms nearing, President Trump’s approval rating has hit a second-term low as voters question his handling of the economy, according to the latest New York Times/Siena poll.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/poll-trump-republicans-midterms-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/2026-05-07-may-poll-graphics-story1/2026-05-07-may-poll-graphics-story1-mediumSquareAt3X-v6.png",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779094921.0,
       "hot": false
     },
     {
@@ -309,7 +345,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779094032.0,
       "hot": false
     },
@@ -327,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779094027.0,
       "hot": false
     },
@@ -345,7 +381,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779093963.0,
       "hot": false
     },
@@ -363,7 +399,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1779083423.0,
       "hot": false
     },
@@ -381,7 +417,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1779082620.0,
       "hot": false
     },
@@ -398,27 +434,9 @@
       "categories": [
         "本地"
       ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1779062460.0,
-      "hot": false
-    },
-    {
-      "id": "86322d97b6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tonys 2026 Predictions: Who Will Win? And Who Should?",
-      "summary": "Our chief theater critic looks at this year’s nominees and makes some predictions (and recommendations).",
-      "link": "https://www.nytimes.com/2026/05/17/theater/tonys-2026-predictions.html",
-      "image": "https://static01.nyt.com/images/2026/05/17/multimedia/17CUL-TONYS-CRITICPREDIX-wkqt/17CUL-TONYS-CRITICPREDIX-wkqt-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1779008426.0,
+      "pub_ts": 1779062460.0,
       "hot": false
     },
     {
