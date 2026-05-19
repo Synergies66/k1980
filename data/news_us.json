@@ -1,43 +1,314 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-19T04:38:16.792727+00:00",
-  "total": 25,
+  "updated_at": "2026-05-19T11:35:59.140507+00:00",
+  "total": 24,
   "articles": [
     {
-      "id": "6e42855e34",
+      "id": "c64a879114",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Oil Slick Reaches a Pristine Persian Gulf Island in Iran",
-      "summary": "Videos show birds, turtles and crabs trapped inside mounds of tar around Shidvar island, a protected wildlife sanctuary with turquoise waters and white sand beaches.",
-      "link": "https://www.nytimes.com/2026/05/19/world/europe/oil-slick-reaches-a-pristine-persian-gulf-island-in-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-iran-oil-photo-pbkz/19int-iran-oil-photo-pbkz-mediumSquareAt3X.jpg",
+      "title": "Putin visits China to reaffirm Russia ties",
+      "summary": "The Kremlin has said Putin and Xi plan to discuss economic cooperation between the two countries, but also \"key international and regional issues.\"",
+      "link": "https://www.npr.org/2026/05/19/g-s1-122775/putin-visits-china",
+      "image": null,
       "categories": [
-        "本地"
+        "华人",
+        "科技"
       ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1779163265.0,
+      "score": 77,
+      "ago": "5小时前",
+      "pub_ts": 1779170520.0,
       "hot": false
     },
     {
-      "id": "74c027efaf",
+      "id": "5c12dfb18f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "San Diego Mosque Shooting Comes Amid Rising Reports of Islamophobia in the U.S.",
-      "summary": "The Council on American-Islamic Relations said complaints about bias against Muslims are at levels unseen in decades.",
-      "link": "https://www.nytimes.com/2026/05/18/us/san-diego-mosque-shooting-islamaphobia.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18mosque-shooting-islamaphobia-vert-jzhv/18mosque-shooting-islamaphobia-vert-jzhv-mediumSquareAt3X.jpg",
+      "title": "San Diego Mosque Shooting: What to Know About the Suspects and What Happened",
+      "summary": "Three men were killed in the attack at the Islamic Center of San Diego. Two teenage suspects were found dead in a car nearby, police said.",
+      "link": "https://www.nytimes.com/2026/05/19/us/san-diego-mosque-shooting.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19xp-mosque-wwk-vtkf/19xp-mosque-wwk-vtkf-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "49分前",
-      "pub_ts": 1779162501.0,
+      "ago": "13分前",
+      "pub_ts": 1779189756.0,
+      "hot": false
+    },
+    {
+      "id": "a09dc7e70d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s New $1.8 Billion Pot of Money, and a Deadly Mosque Attack in California",
+      "summary": "Plus, a North Korean soccer team hits the road.",
+      "link": "https://www.nytimes.com/2026/05/19/podcasts/the-headlines/trump-irs-mosque-attack-california.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19theheadlines-revenue-cwbg/19theheadlines-revenue-cwbg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "19分前",
+      "pub_ts": 1779189370.0,
+      "hot": false
+    },
+    {
+      "id": "c6e45ed499",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Some plants have a genetic superpower that may help them survive a cataclysm",
+      "summary": "Get ready for a biology lesson. Certain plants have extra sets of chromosomes. And it turns out, it's a useful trait for a species facing a dramatic event like climate change.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5825903/plants-polyploidy-genetics-climate-change",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "35分前",
+      "pub_ts": 1779188400.0,
+      "hot": false
+    },
+    {
+      "id": "a025ebd90d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The Race to Control Congress",
+      "summary": "We look at where the parties stand leading up to the midterms.",
+      "link": "https://www.nytimes.com/2026/05/19/briefing/the-race-to-control-congress.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19themorning-nl-massie-hpcf/19themorning-nl-massie-hpcf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1779187695.0,
+      "hot": false
+    },
+    {
+      "id": "c4c30f58a1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The missing men of the American marriage market",
+      "summary": "A new study suggests the growing educational and economic divide between men and women is reshaping marriage and family life in America — leaving many women with a shrinking pool of economically stabl",
+      "link": "https://www.npr.org/sections/planet-money/2026/05/19/g-s1-122695/the-missing-men-of-the-american-marriage-market",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779186600.0,
+      "hot": false
+    },
+    {
+      "id": "9e1be9f75b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "G.O.P. Supporters Back Trump, but a Third Seek a New Direction for the Party",
+      "summary": "While President Trump remains overwhelmingly popular within the Republican coalition, a New York Times/Siena poll found, a sizable share wants the party’s next nominee to take a different approach.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/poll-trump-republicans.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/2026-05-07-may-poll-graphics-story2/2026-05-07-may-poll-graphics-story2-mediumSquareAt3X-v8.png",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181295.0,
+      "hot": false
+    },
+    {
+      "id": "e15b091c22",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The French Open courts are clay, a tricky surface for some. Here's how the pros do it",
+      "summary": "In tennis, clay has a reputation for being one of the harder surfaces to play on. But a few pros shared some of their tips for staying sharp.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5822888/french-open-clay-hailey-baptiste",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "f0026f54a8",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "NTSB hearing will probe cause of fiery UPS jet crash that killed 15 in Louisville",
+      "summary": "The nation's top safety investigators will launch a two-day hearing beginning Tuesday into what caused a UPS cargo plane to crash shortly after takeoff in Louisville last year, killing 15 people.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5823467/ups-crash-md-11-ntsb-louisville",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "2cf9be9f4e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "House holds off on prediction market ban despite bipartisan calls for prohibition",
+      "summary": "Minority Leader Jeffries is urging Speaker Johnson to \"swiftly\" hold vote on House prediction market ban.",
+      "link": "https://www.npr.org/2026/05/19/g-s1-121820/house-holds-off-on-prediction-market-ban-despite-bipartisan-calls-for-prohibition",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "8bb35ac8f0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "What we know about how the U.S. government uses spyware (and what we don't)",
+      "summary": "Critics of spyware, which can be used to remotely hack into phones, worry the Trump administration is eroding policies that stigmatized the commercial spyware industry.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5826085/spyware-trump-dhs-paragon",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "68154aa69e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'We're not kids anymore': The DACA generation hits their 30s with an unstable future",
+      "summary": "Recipients of the Obama-era DACA program are aging, even as the Trump administration moves to weaken the program's protections and benefits.",
+      "link": "https://www.npr.org/2026/05/19/g-s1-121405/immigration-trump-daca-generation-limbo",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "b3fbdd7bea",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "These men voted for President Trump. They have very different views of how he's doing",
+      "summary": "Two Black men from Georgia who voted for President Trump in 2024 have very different views of how the country is doing now, in the first installment of Swing Shift from NPR's Tamara Keith.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5788971/swing-voters-trump-president-approval-2026-midterms",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779181200.0,
+      "hot": false
+    },
+    {
+      "id": "7ef53aac68",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The LIRR Strike Is Over. Here’s What Commuters Can Expect on Tuesday.",
+      "summary": "A deal was reached on Monday night to end the strike that shut down America’s busiest passenger rail line, but officials said the service will not fully resume until Tuesday afternoon.",
+      "link": "https://www.nytimes.com/2026/05/19/nyregion/lirr-strike-update-train-commute.html",
+      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/00met-lirr-deal-tjfg/00met-lirr-deal-tjfg-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779180597.0,
+      "hot": false
+    },
+    {
+      "id": "41096cc990",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "One Palestinian man's life of survival",
+      "summary": "A 90-year-old Palestinian man in Gaza says his life has never felt safe as he recalls displacements and wars",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5825865/one-palestinian-mans-life-of-survival",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779177651.0,
+      "hot": false
+    },
+    {
+      "id": "ed1b851929",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Trump says he's called off Iran strike at request of Gulf allies",
+      "summary": "President Donald Trump says he is holding off on a military strike on Iran planned for Tuesday because \"serious negotiations\" are underway to end the war.",
+      "link": "https://www.npr.org/2026/05/19/g-s1-122762/trump-says-hes-called-off-iran-strike",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779168478.0,
+      "hot": false
+    },
+    {
+      "id": "2da449e253",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Last-Minute Donation Could Upend G.O.P. Primary for Texas Attorney General",
+      "summary": "A single donor’s contribution of $2.75 million could help propel Representative Chip Roy in his clash with a self-funded state senator, Mayes Middleton.",
+      "link": "https://www.nytimes.com/2026/05/19/us/chip-roy-donation-texas-attorney-general.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779165579.0,
       "hot": false
     },
     {
@@ -53,244 +324,46 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779159812.0,
-      "hot": false
-    },
-    {
-      "id": "2d2587979e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Know About San Diego’s Islamic Center",
-      "summary": "A visitor said that the mosque is highly diverse. Its services are in English, because attendees come from all over the world.",
-      "link": "https://www.nytimes.com/2026/05/18/us/islamic-center-san-diego-mosque.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18mosque-shooting-islamic-center-sub-ljhv/18mosque-shooting-islamic-center-sub-ljhv-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779153315.0,
-      "hot": false
-    },
-    {
-      "id": "794e055e08",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Here’s How Iran Could Respond to Renewed U.S.-Israeli Strikes",
-      "summary": "In any new round of fighting, Iranian officials could adopt new tactics, including intensified strikes on neighbors and trying to close off a second strait.",
-      "link": "https://www.nytimes.com/2026/05/18/world/middleeast/iran-war-retaliation-options.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18int-iran-strategy-wmfz/18int-iran-strategy-wmfz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779150703.0,
-      "hot": false
-    },
-    {
-      "id": "f9d414fb6a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Threatens Iran and Then Pulls Back, All in the Same Day",
-      "summary": "President Trump has repeatedly said he’ll restart military action against Iran, only to stop short of plunging the United States directly back into an unpopular war.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/trump-iran-strikes.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18DC-PREXY-zbpk/18DC-PREXY-zbpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779149912.0,
-      "hot": false
-    },
-    {
-      "id": "c84df984a3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Why you should care about 2 power companies merging. Hint: affordability",
-      "summary": "NextEra Energy plans to acquire Dominion Energy to create the largest electricity producer in the United States.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5825871/electricity-prices-nextera-dominion-merger-utilities",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779141612.0,
-      "hot": false
-    },
-    {
-      "id": "de5a4811bc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "L-I-R-R vs. Lurr: The Debate Splitting New York Commuters",
-      "summary": "Initialism or acronym? It doesn’t matter. No one can agree on how to pronounce it.",
-      "link": "https://www.nytimes.com/2026/05/18/nyregion/lirr-pronunciation-long-island.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18lirr-strike-pronunciation2-qjgh/18lirr-strike-pronunciation2-qjgh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779141605.0,
-      "hot": false
-    },
-    {
-      "id": "b080fc5e8a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Tuesday is a big primary day. Here's what you need to know",
-      "summary": "Six states are holding primaries May 19 that could help to decide the balance of power in Congress and in key state governments.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122235/primary-day-alabama-georgia-idaho-kentucky-oregon-pennsylvania",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779137880.0,
-      "hot": false
-    },
-    {
-      "id": "45ecd88116",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Is Kennedy heir Jack Schlossberg ready to lead?",
-      "summary": "NPR's Juana Summers speaks with Jack Schlossberg, Democratic candidate for New York's 12th Congressional District and the grandson of President John F. Kennedy.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5823879/is-kennedy-heir-jack-schlossberg-ready-to-lead",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 60,
       "ago": "8小时前",
-      "pub_ts": 1779136259.0,
+      "pub_ts": 1779159813.0,
       "hot": false
     },
     {
-      "id": "57d839cfb9",
+      "id": "17d3ee0b98",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "This Ebola outbreak raises questions about when it all began — and the U.S. response",
-      "summary": "The sheer number of cases and deaths are a sign that the outbreak might have been smoldering before the virus was identified.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122655/ebola-outbreak-democratic-republic-congo-uganda",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779135041.0,
-      "hot": false
-    },
-    {
-      "id": "a5ba04d53f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Jury dismisses all claims in Elon Musk's lawsuit against OpenAI CEO Sam Altman",
-      "summary": "Musk had sought to oust Altman from his leadership position over claims that he and others breached their duty to OpenAI's original nonprofit mission and unjustly enriched themselves.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5822366/musk-altman-openai-jury-verdict-claims-dismissed",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779127414.0,
-      "hot": false
-    },
-    {
-      "id": "d965cb430c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "NPR trims jobs in newsroom overhaul as it confronts era without public funding",
-      "summary": "NPR is offering buyouts to journalists as it overhauls its newsroom, with the threat of layoffs to follow. Two recent gifts totaling $113 million are primarily dedicated to NPR's tech infrastructure.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5821622/npr-buyouts-layoffs-reorganization",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779127339.0,
-      "hot": false
-    },
-    {
-      "id": "3b9347d720",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Son of radicals, Zayd Ayers Dohrn details a childhood underground and on the run",
-      "summary": "Dohrn's parents, Bill Ayers and Bernardine Dohrn, helped found the the Weather Underground. \"I knew that the FBI was chasing us,\" he says. His memoir is Dangerous, Dirty, Violent, and Young.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5823595/zayd-ayers-dohrn-dangerous-dirty-violent-young",
-      "image": null,
+      "title": "Justices Hint at Strains as Supreme Court Comes Under Scrutiny",
+      "summary": "Traveling across the country, justices defend the role of the court even as strained relations among its members emerge in writing and remarks.",
+      "link": "https://www.nytimes.com/2026/05/18/us/politics/supreme-court-political-tensions.html",
+      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-scotus-tensions-czwf/18dc-scotus-tensions-czwf-mediumSquareAt3X.jpg",
       "categories": [
         "天气",
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779126707.0,
+      "ago": "9小时前",
+      "pub_ts": 1779157413.0,
       "hot": false
     },
     {
-      "id": "290666db9c",
+      "id": "add50e4a7a",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "Abortion Pill Lawsuit Leaves Trump in a Political Bind Ahead of the Midterms",
-      "summary": "Louisiana wants the Food and Drug Administration to curtail access to the medication. Doing so could cost Republicans at the polls.",
-      "link": "https://www.nytimes.com/2026/05/18/us/politics/abortion-pill-trump-politics.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/18dc-abortionpill-politics-jvfc/18dc-abortionpill-politics-jvfc-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779126178.0,
-      "hot": false
-    },
-    {
-      "id": "c4ab4dd35f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Supreme Court avoids taking up a fight over Voting Rights Act enforcement for now",
-      "summary": "After recently weakening the Voting Rights Act, the Supreme Court avoided for now taking up a legal question that may severely limit enforcement of the law's remaining protections for minority voters.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5616665/supreme-court-voting-rights-act-private-right",
+      "title": "Israeli Navy intercepts activists trying to break Gaza blockade with aid ships",
+      "summary": "On Monday, the Israeli navy intercepted a flotilla of 54 boats of activists headed to Gaza with humanitarian aid.",
+      "link": "https://www.npr.org/2026/05/18/nx-s1-5825816/israeli-navy-intercepts-activist-trying-to-break-gaza-blockade-with-aid-ships",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1779117172.0,
+      "ago": "15小时前",
+      "pub_ts": 1779135914.0,
       "hot": false
     },
     {
@@ -307,7 +380,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1779104683.0,
       "hot": false
     },
@@ -325,8 +398,8 @@
         "经济",
         "科技"
       ],
-      "score": 60,
-      "ago": "18小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1779099901.0,
       "hot": false
     },
@@ -344,99 +417,9 @@
         "天气",
         "科技"
       ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779094032.0,
-      "hot": false
-    },
-    {
-      "id": "6f613b71d8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "North Korea is relieved its nuclear weapons have prevented a fate like Iran's",
-      "summary": "The U.S. long pushed for both Iran and North Korea to quit their nuclear plans. After seeing Iran's leader get killed, North Korea's Kim Jong Un believes he made the right choice to stay the course.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5820631/trump-north-korea-nuclear",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779094027.0,
-      "hot": false
-    },
-    {
-      "id": "bffc5c529b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. and Israel prepare for potential return to full-scale war with Iran",
-      "summary": "Events over the weekend highlight the risk of renewed war, as the United States and Israel signal they would be ready to fight Iran again.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5825574/u-s-and-iran-signal-readiness-to-fight-again-as-weekend-tensions-mount",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779093963.0,
-      "hot": false
-    },
-    {
-      "id": "4d45c9f501",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Peru's electoral board confirms June 7 presidential runoff",
-      "summary": "Authorities confirmed on Sunday the official results of the first round of the presidential elections in early April, with Keiko Fujimori and Roberto Sánchez advancing to the runoff on June 7.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122536/peru-presidential-runoff",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "22小时前",
-      "pub_ts": 1779083423.0,
-      "hot": false
-    },
-    {
-      "id": "ccbec433b4",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Drone strikes UAE nuclear plant highlighting risk of renewed war",
-      "summary": "A drone strike sparked a fire on the edge of the United Arab Emirates' sole nuclear power plant on Sunday in what authorities called an \"unprovoked terrorist attack.\"",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122534/drone-strikes-uae-nuclear-plant",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1779082620.0,
-      "hot": false
-    },
-    {
-      "id": "921f869d33",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Executions nearly doubled in the U.S. last year, and soared abroad",
-      "summary": "The number of people killed in state-sanctioned executions worldwide rose to a 44-year high in 2025, according to a new report from Amnesty International.",
-      "link": "https://www.npr.org/2026/05/17/nx-s1-5824521/executions-amnesty-international-report",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1779062460.0,
+      "pub_ts": 1779094032.0,
       "hot": false
     },
     {
