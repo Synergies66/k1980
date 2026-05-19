@@ -1,9 +1,46 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-19T18:19:01.697529+00:00",
+  "updated_at": "2026-05-19T21:51:09.540122+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "1ade92887c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
+      "summary": "The novel is the first work translated from Mandarin Chinese to win the award, which celebrates its 10th anniversary this year.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 82,
+      "ago": "19分前",
+      "pub_ts": 1779226307.0,
+      "hot": false
+    },
+    {
+      "id": "d7baac2ef7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "As a Weakened Putin Follows Trump to Beijing, Iran War Offers an Opening",
+      "summary": "With the upheaval in the Persian Gulf disrupting oil and gas supplies, Russia is looking to deepen its energy ties to China.",
+      "link": "https://www.nytimes.com/2026/05/19/world/europe/putin-china-state-visit.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-russia-china01sub-photo-blpg/19int-russia-china01sub-photo-blpg-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1779213871.0,
+      "hot": false
+    },
     {
       "id": "bd56c7c9c8",
       "type": "news",
@@ -19,44 +56,98 @@
         "科技"
       ],
       "score": 72,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779170520.0,
       "hot": false
     },
     {
-      "id": "5c12dfb18f",
+      "id": "a55ccbdfec",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "San Diego Mosque Shooting: What to Know About the Suspects and What Happened",
-      "summary": "Three men were killed in the attack at the Islamic Center of San Diego. Two teenage suspects were found dead in a car nearby, police said.",
-      "link": "https://www.nytimes.com/2026/05/19/us/san-diego-mosque-shooting.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19xp-mosque-wwk-vtkf/19xp-mosque-wwk-vtkf-mediumSquareAt3X.jpg",
+      "title": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
+      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
+      "link": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/2026-may-biz-promos-bond-yields/2026-may-biz-promos-bond-yields-mediumSquareAt3X-v10.png",
       "categories": [
-        "科技"
+        "经济"
       ],
       "score": 70,
-      "ago": "38分前",
-      "pub_ts": 1779212453.0,
+      "ago": "33分前",
+      "pub_ts": 1779225444.0,
       "hot": false
     },
     {
-      "id": "57eb438004",
+      "id": "380d287800",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "A Generational Fracture Emerges for Republicans Over Foreign Policy",
-      "summary": "Younger Republicans are less likely to support overseas interventions and aid, a Times/Siena poll shows.",
-      "link": "https://www.nytimes.com/2026/05/19/upshot/republicans-times-siena-poll-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/00up-tucker1-vjtz/00up-tucker1-vjtz-mediumSquareAt3X.jpg",
+      "title": "Trump Endorses Ken Paxton in Texas Senate Runoff Race Against John Cornyn",
+      "summary": "The president embraced Ken Paxton, a MAGA loyalist, over Senator John Cornyn, despite warnings from Republican leaders about Mr. Paxton’s history of scandal.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-paxton-endorsement-cornyn-texas-senate.html",
+      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/00pol-trump-cornyn-PAXTON-HFO-hzgf/00pol-trump-cornyn-PAXTON-HFO-hzgf-mediumSquareAt3X-v2.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "39分前",
-      "pub_ts": 1779212355.0,
+      "ago": "1小时前",
+      "pub_ts": 1779222392.0,
+      "hot": false
+    },
+    {
+      "id": "cc4cb7cbff",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "I.R.S. Must Drop Audits of Trump and Family",
+      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779221875.0,
+      "hot": false
+    },
+    {
+      "id": "89036f3231",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "The IRS Thought it Could Fight Trump’s Lawsuit, but it Struck a Deal Anyway",
+      "summary": "Officials wrote a memo outlining ways to challenge President Trump’s suit against the Internal Revenue Service. The administration is instead creating a compensation fund.",
+      "link": "https://www.nytimes.com/2026/05/19/admin/irs-trump-lawsuit-deal.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irs-qkwp/19dc-trump-irs-qkwp-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779218738.0,
+      "hot": false
+    },
+    {
+      "id": "57c9ce24ac",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Republican Senators Are Livid at Trump’s Endorsement of Paxton",
+      "summary": "News that President Trump had snubbed Senator John Cornyn of Texas, the four-term incumbent, was met with shock, anger and fear that the G.O.P. could lose his seat.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/republican-senators-trump-paxton.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19midterms-cong-paxton-cornyn-mlch/19midterms-cong-paxton-cornyn-mlch-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779218035.0,
       "hot": false
     },
     {
@@ -72,45 +163,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779209621.0,
-      "hot": false
-    },
-    {
-      "id": "18aef0c4bd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The IRS Thought it Could Fight Trump’s Lawsuit, but it Reached a Deal Anyway",
-      "summary": "Officials wrote a memo outlining ways to challenge President Trump’s suit against the Internal Revenue Service. The administration is instead creating an “anti-weaponization” fund.",
-      "link": "https://www.nytimes.com/2026/05/19/admin/irs-trump-lawsuit-deal.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irs-qkwp/19dc-trump-irs-qkwp-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779208703.0,
-      "hot": false
-    },
-    {
-      "id": "b5fa6905e7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Inflation Fears Cloud G7 Economic Agenda as Iran War Persists",
-      "summary": "The United States and Europe were at odds over the Trump administration’s decision to ease oil sanctions on Russia.",
-      "link": "https://www.nytimes.com/2026/05/19/business/inflation-g7-economic-agenda-iran-war.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-g7-kzvw/19dc-g7-kzvw-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779208149.0,
       "hot": false
     },
     {
@@ -126,8 +181,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779208112.0,
       "hot": false
     },
@@ -145,8 +200,8 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779207541.0,
       "hot": false
     },
@@ -163,27 +218,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779207540.0,
-      "hot": false
-    },
-    {
-      "id": "00239b0ae7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Says He Postponed a ‘Very Major Attack’ on Iran, Leaving Mideast on Edge",
-      "summary": "President Trump threatened “another big hit” on Iran, saying the country had days to return to the negotiating table, as Pakistan continued its mediation efforts to end the war.",
-      "link": "https://www.nytimes.com/2026/05/19/world/middleeast/iran-trump-tension.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-iran-trump-02-lqfw/19int-iran-trump-02-lqfw-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779207133.0,
+      "ago": "5小时前",
+      "pub_ts": 1779207540.0,
       "hot": false
     },
     {
@@ -199,8 +236,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779201414.0,
       "hot": false
     },
@@ -217,8 +254,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779199957.0,
       "hot": false
     },
@@ -235,8 +272,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779196836.0,
       "hot": false
     },
@@ -254,7 +291,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779192016.0,
       "hot": false
     },
@@ -262,7 +299,7 @@
       "id": "bb4d4cbc22",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "California mosque shooting leaves 5 dead. And, judge dismisses Trump's IRS lawsuit",
       "summary": "San Diego authorities are investigating a deadly shooting at a mosque as a hate crime. And, Trump dropped his lawsuit against the IRS, paving the way for an \"anti-weaponization fund.\"",
@@ -272,26 +309,26 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779190418.0,
       "hot": false
     },
     {
-      "id": "9e1be9f75b",
+      "id": "2d49bd43a8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "G.O.P. Supporters Back Trump, but a Third Seek a New Direction for the Party",
-      "summary": "While President Trump remains overwhelmingly popular within the Republican coalition, a New York Times/Siena poll found, a sizable share wants the party’s next nominee to take a different approach.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/poll-trump-republicans.html",
-      "image": "https://static01.nyt.com/images/2026/05/18/multimedia/2026-05-07-may-poll-graphics-story2/2026-05-07-may-poll-graphics-story2-mediumSquareAt3X-v8.png",
+      "title": "What to Watch in Tuesday’s Primary Elections in Kentucky, Georgia and Beyond",
+      "summary": "A prominent Republican critic of President Trump is trying to hang on in Kentucky, and other states are also holding primaries that will test Mr. Trump’s power over his party.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/kentucky-georgia-primary-election-midterms-massie-gallrein.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19pol-whattowatch-qczl/19pol-whattowatch-qczl-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779181295.0,
+      "ago": "12小时前",
+      "pub_ts": 1779181222.0,
       "hot": false
     },
     {
@@ -308,7 +345,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779181200.0,
       "hot": false
     },
@@ -326,7 +363,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1779177651.0,
       "hot": false
     },
@@ -344,26 +381,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1779168478.0,
-      "hot": false
-    },
-    {
-      "id": "9ad1e7ac0c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Before the San Diego Mosque Shooting, a Fearful Mother’s Phone Call Set Off a Frantic Search",
-      "summary": "San Diego police arrived to find three people dead. Nearby, they found two teenagers, the attackers, dead in a car. The violence shattered an idyllic Southern California city.",
-      "link": "https://www.nytimes.com/2026/05/18/us/san-diego-mosque-shooting-search.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19nat-mosque-shooting-tjpz/19nat-mosque-shooting-tjpz-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1779159813.0,
       "hot": false
     },
     {
@@ -379,27 +398,9 @@
       "categories": [
         "科技"
       ],
-      "score": 60,
-      "ago": "21小时前",
-      "pub_ts": 1779135914.0,
-      "hot": false
-    },
-    {
-      "id": "5959550c76",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Sen. Bill Cassidy loses primary. And, WHO declares Ebola outbreak a global emergency",
-      "summary": "Sen. Bill Cassidy, who voted to convict Trump, lost the Republican primary in Louisiana. And, the WHO has declared a global health emergency over a new Ebola outbreak.",
-      "link": "https://www.npr.org/2026/05/18/g-s1-122577/up-first-newsletter-bill-cassidy-trump-ebola-elon-musk-openai-sam-altman-idaho-airshow-collision",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
       "score": 55,
       "ago": "昨日",
-      "pub_ts": 1779104683.0,
+      "pub_ts": 1779135914.0,
       "hot": false
     },
     {
