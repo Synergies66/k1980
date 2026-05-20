@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-19T21:51:09.540122+00:00",
-  "total": 23,
+  "updated_at": "2026-05-20T04:42:01.810043+00:00",
+  "total": 24,
   "articles": [
     {
       "id": "1ade92887c",
@@ -18,27 +18,9 @@
         "华人",
         "科技"
       ],
-      "score": 82,
-      "ago": "19分前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1779226307.0,
-      "hot": false
-    },
-    {
-      "id": "d7baac2ef7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "As a Weakened Putin Follows Trump to Beijing, Iran War Offers an Opening",
-      "summary": "With the upheaval in the Persian Gulf disrupting oil and gas supplies, Russia is looking to deepen its energy ties to China.",
-      "link": "https://www.nytimes.com/2026/05/19/world/europe/putin-china-state-visit.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19int-russia-china01sub-photo-blpg/19int-russia-china01sub-photo-blpg-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人"
-      ],
-      "score": 77,
-      "ago": "3小时前",
-      "pub_ts": 1779213871.0,
       "hot": false
     },
     {
@@ -56,8 +38,154 @@
         "科技"
       ],
       "score": 72,
-      "ago": "15小时前",
+      "ago": "22小时前",
       "pub_ts": 1779170520.0,
+      "hot": false
+    },
+    {
+      "id": "161038d092",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Crushes Republican Dissent: 8 Takeaways From Tuesday’s Primaries",
+      "summary": "President Trump unseated Representative Thomas Massie, a top Republican critic in Congress, and also got his way in other primary contests.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-massie-primary-takeaways.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19pol-takeaways-massie-ptfh/19pol-takeaways-massie-ptfh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "18分前",
+      "pub_ts": 1779250985.0,
+      "hot": false
+    },
+    {
+      "id": "deba44d183",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Iran Gained Leverage in the War",
+      "summary": "Outmatched militarily, Iran used “triangular coercion” by attacking Gulf states and closing the Strait of Hormuz. It points to a long-term U.S. vulnerability.",
+      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-strait-of-hormuz-triang.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-coercion01-photo-fwzq/20int-iran-coercion01-photo-fwzq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1779249606.0,
+      "hot": false
+    },
+    {
+      "id": "3a57e2577f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "I.R.S. to Drop Audits of Trump and Family",
+      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779245788.0,
+      "hot": false
+    },
+    {
+      "id": "7c1fecc945",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "In Georgia, two GOP Trump backers vie to face former Atlanta mayor for governor",
+      "summary": "Georgia is a swing state where both Democrats and Republicans are deciding the direction their parties will take in the fall in races for the senate and the governor's mansion.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5823613/georgia-primaries-elections-governor-senate",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779237917.0,
+      "hot": false
+    },
+    {
+      "id": "d0d3fbf08b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. government to drop tax claims against Trump in broadening of IRS settlement",
+      "summary": "As part of the settlement agreement, the U.S. is \"forever barred and precluded\" from examining or prosecuting President Trump, his sons and the Trump organization's current tax issues, according to a",
+      "link": "https://www.npr.org/2026/05/19/g-s1-122938/irs-trump-settlement-tax-returns-audit",
+      "image": null,
+      "categories": [
+        "政治",
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779236430.0,
+      "hot": false
+    },
+    {
+      "id": "a746c6f77e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Endorsed by Trump, Ed Gallrein defeats Rep. Thomas Massie in GOP House primary",
+      "summary": "In a major victory for President Trump, his hand-picked challenger, Ed Gallrein, beat out U.S. House Rep. Thomas Massie in a Kentucky House GOP primary, ending Massie's reelection bid.",
+      "link": "https://www.npr.org/2026/05/19/nx-s1-5827183/massie-gallrein-kentucky-race-results-trump",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779235040.0,
+      "hot": false
+    },
+    {
+      "id": "99816095df",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Early War Goal Was to Install Hard Line Former President as Iran’s Leader",
+      "summary": "An Israeli strike designed to free Mahmoud Ahmadinejad from house arrest in Tehran, U.S. officials said, was part of an effort to bring about regime change and put him in power.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/iran-israel-us-leader-ahmadinejad.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-iran-ahmadinejad-top-hfjq/19dc-iran-ahmadinejad-top-hfjq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779234968.0,
+      "hot": false
+    },
+    {
+      "id": "df8a72a734",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Senate Votes to Take Up Measure to Force Trump to End Iran War",
+      "summary": "With four Republican backers, Democrats won a vote to advance a resolution that would force the president to end hostilities or win authorization from Congress.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/senate-iran-war-authorization.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-cong-iran-vwtg/19dc-cong-iran-vwtg-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779231649.0,
       "hot": false
     },
     {
@@ -73,81 +201,46 @@
       "categories": [
         "经济"
       ],
-      "score": 70,
-      "ago": "33分前",
-      "pub_ts": 1779225444.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779229024.0,
       "hot": false
     },
     {
-      "id": "380d287800",
+      "id": "83c719d84f",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Endorses Ken Paxton in Texas Senate Runoff Race Against John Cornyn",
-      "summary": "The president embraced Ken Paxton, a MAGA loyalist, over Senator John Cornyn, despite warnings from Republican leaders about Mr. Paxton’s history of scandal.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-paxton-endorsement-cornyn-texas-senate.html",
-      "image": "https://static01.nyt.com/images/2026/04/03/multimedia/00pol-trump-cornyn-PAXTON-HFO-hzgf/00pol-trump-cornyn-PAXTON-HFO-hzgf-mediumSquareAt3X-v2.jpg",
+      "title": "Blanche Defends $1.8 Billion Fund as Skepticism Mounts",
+      "summary": "The acting attorney general told lawmakers the fund would review claims from an array of people, not just Republicans.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/blanche-congress-compensation-fund.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-blanche-hfmb/19dc-blanche-hfmb-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779222392.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779228746.0,
       "hot": false
     },
     {
-      "id": "cc4cb7cbff",
+      "id": "7e2753ffd7",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "I.R.S. Must Drop Audits of Trump and Family",
-      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
+      "title": "Manager at Trump’s N.J. Golf Club Helped Plan Reflecting Pool Repairs",
+      "summary": "David Schutzenhofer, a Trump Organization employee, reached out to one of the vendors the government later hired for the iconic site near the Lincoln Memorial, documents show.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/reflecting-pool-trump-schutzenhofer.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19DC-REFLECTING-POOL-01-lqfg/19DC-REFLECTING-POOL-01-lqfg-mediumSquareAt3X.jpg",
       "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779221875.0,
-      "hot": false
-    },
-    {
-      "id": "89036f3231",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The IRS Thought it Could Fight Trump’s Lawsuit, but it Struck a Deal Anyway",
-      "summary": "Officials wrote a memo outlining ways to challenge President Trump’s suit against the Internal Revenue Service. The administration is instead creating a compensation fund.",
-      "link": "https://www.nytimes.com/2026/05/19/admin/irs-trump-lawsuit-deal.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irs-qkwp/19dc-trump-irs-qkwp-mediumSquareAt3X.jpg",
-      "categories": [
+        "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779218738.0,
-      "hot": false
-    },
-    {
-      "id": "57c9ce24ac",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Republican Senators Are Livid at Trump’s Endorsement of Paxton",
-      "summary": "News that President Trump had snubbed Senator John Cornyn of Texas, the four-term incumbent, was met with shock, anger and fear that the G.O.P. could lose his seat.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/republican-senators-trump-paxton.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19midterms-cong-paxton-cornyn-mlch/19midterms-cong-paxton-cornyn-mlch-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779218035.0,
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1779210800.0,
       "hot": false
     },
     {
@@ -163,8 +256,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1779209621.0,
       "hot": false
     },
@@ -181,8 +274,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1779208112.0,
       "hot": false
     },
@@ -200,8 +293,8 @@
         "教育",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1779207541.0,
       "hot": false
     },
@@ -218,52 +311,16 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1779207540.0,
-      "hot": false
-    },
-    {
-      "id": "c876dfae11",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran War Exposes Shortcomings in U.S. Military Industrial Base",
-      "summary": "Defense Secretary Pete Hegseth is taking on a problem that the Pentagon and Congress have tried, and mostly failed, to address for years.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/pentagon-weapons-drones-iran-war-hegseth.html",
-      "image": "https://static01.nyt.com/images/2026/05/16/multimedia/16dc-military-industrial-bwgt/16dc-military-industrial-bwgt-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779201414.0,
-      "hot": false
-    },
-    {
-      "id": "1179a7e034",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A study investigates: Did the abrupt end of USAID have an impact on violence?",
-      "summary": "That's the provocative question that researchers dug into after the U.S. shut down its premier aid agency.",
-      "link": "https://www.npr.org/2026/05/19/g-s1-122281/u-s-aid-usaid-trump-violence",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779199957.0,
       "hot": false
     },
     {
       "id": "16e85c5920",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Israel's trying to expel a whole Palestinian district in East Jerusalem, activists say",
       "summary": "Israeli authorities are issuing Palestinians demolition orders in East Jerusalem at an accelerated rate since Israel launched war with Iran, human rights groups and U.N. experts say.",
@@ -273,26 +330,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "15小时前",
       "pub_ts": 1779196836.0,
-      "hot": false
-    },
-    {
-      "id": "5ea4d95753",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "To revive an extinct bird, you first need an artificial egg",
-      "summary": "Colossal Biosciences, a Texas company trying to bring extinct species back to life, reports creating artificial eggs that would be necessary to revive extinct birds such as the dodo.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5805950/artificial-eggs-dodo-moa",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779192016.0,
       "hot": false
     },
     {
@@ -309,26 +348,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1779190418.0,
-      "hot": false
-    },
-    {
-      "id": "2d49bd43a8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "What to Watch in Tuesday’s Primary Elections in Kentucky, Georgia and Beyond",
-      "summary": "A prominent Republican critic of President Trump is trying to hang on in Kentucky, and other states are also holding primaries that will test Mr. Trump’s power over his party.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/kentucky-georgia-primary-election-midterms-massie-gallrein.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19pol-whattowatch-qczl/19pol-whattowatch-qczl-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779181222.0,
       "hot": false
     },
     {
@@ -345,7 +366,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779181200.0,
       "hot": false
     },
@@ -363,7 +384,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "20小时前",
       "pub_ts": 1779177651.0,
       "hot": false
     },
@@ -381,7 +402,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "23小时前",
       "pub_ts": 1779168478.0,
       "hot": false
     },
