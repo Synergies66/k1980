@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-20T11:23:59.581179+00:00",
-  "total": 23,
+  "updated_at": "2026-05-20T16:02:09.899864+00:00",
+  "total": 21,
   "articles": [
     {
       "id": "ce73ca701e",
@@ -17,8 +17,8 @@
       "categories": [
         "华人"
       ],
-      "score": 77,
-      "ago": "2小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1779266894.0,
       "hot": false
     },
@@ -36,28 +36,46 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "5小时前",
+      "score": 72,
+      "ago": "10小时前",
       "pub_ts": 1779254780.0,
       "hot": false
     },
     {
-      "id": "1ade92887c",
+      "id": "31e396dc3b",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
-      "summary": "The novel is the first work translated from Mandarin Chinese to win the award, which celebrates its 10th anniversary this year.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5823677/2026-booker-prize-winner-taiwan-travelogue",
+      "title": "How contagious is Ebola? And how worried should you be about the current outbreak?",
+      "summary": "This outbreak is being called \"the perfect storm.\" How did it start, what are the characteristics of the strain that's causing it and how much of a threat is it to global health?",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5826910/ebola-outbreak-africa-risks",
       "image": null,
       "categories": [
-        "华人",
+        "天气",
         "科技"
       ],
-      "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1779226307.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779289091.0,
+      "hot": false
+    },
+    {
+      "id": "bf20de157c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Barney Frank, former congressman and gay-rights pioneer, dies at 86",
+      "summary": "The former congressman was politically engaged until the end. As GBH reports, Even in hospice, Frank was actively working to spread the message of his forthcoming book, \"The Hard Path to Unity: Why We",
+      "link": "https://www.npr.org/2026/05/20/g-s1-123012/barney-frank",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779288828.0,
       "hot": false
     },
     {
@@ -74,8 +92,118 @@
         "本地"
       ],
       "score": 70,
-      "ago": "16分前",
-      "pub_ts": 1779275217.0,
+      "ago": "1小时前",
+      "pub_ts": 1779288231.0,
+      "hot": false
+    },
+    {
+      "id": "c243b0fd1b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
+      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779287827.0,
+      "hot": false
+    },
+    {
+      "id": "7732f7106d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How one Oregon city has raised a billion dollars for climate change",
+      "summary": "The Portland Clean Energy Fund has raised a billion dollars for climate change action via a retail tax on large corporations in the city. Other cities are starting to shape similar funds.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5734498/portland-funding-climate-change-corporations-retail-tax",
+      "image": null,
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779285600.0,
+      "hot": false
+    },
+    {
+      "id": "31e08f8415",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Early War Goal Was to Install Hard-Line Former President as Iran’s Leader",
+      "summary": "An Israeli strike designed to free Mahmoud Ahmadinejad from house arrest in Tehran, U.S. officials said, was part of an effort to bring about regime change and put him in power.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/iran-israel-us-leader-ahmadinejad.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-iran-ahmadinejad-top-hfjq/19dc-iran-ahmadinejad-top-hfjq-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779283326.0,
+      "hot": false
+    },
+    {
+      "id": "3a57e2577f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "I.R.S. to Drop Audits of Trump and Family",
+      "summary": "As part of the Justice Department’s deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779281520.0,
+      "hot": false
+    },
+    {
+      "id": "b63d5c8ec3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Prison to Pardons to Payouts: Jan. 6 Rioters Are Elated at Trump’s $1.8 Billion Fund",
+      "summary": "The possibility that people who ransacked the Capitol could get money from the government they attacked is the latest head-spinning twist in President Trump’s effort to rewrite the history of Jan. 6.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/jan-6-rioters-trump-fund-payouts.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-jan6-tlvk/19dc-jan6-tlvk-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779281391.0,
+      "hot": false
+    },
+    {
+      "id": "3a6dcdaf07",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Takeaways from Tuesday's primaries. And, victims of mosque shooting revealed",
+      "summary": "Trump-backed Ed Gallrein ousted Congressman Thomas Massie in Kentucky's Republican House primary. And, police have identified the victims in California's mosque shooting.",
+      "link": "https://www.npr.org/2026/05/20/g-s1-122996/up-first-newsletter-primary-elections-iran-war-mosque-shooting-victims-minnesota-prediction-markets",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779277370.0,
       "hot": false
     },
     {
@@ -92,82 +220,45 @@
         "政治",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779271382.0,
       "hot": false
     },
     {
-      "id": "a875a31735",
+      "id": "966aec81ba",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "New Immunity for President Trump, and an Audacious Plan for Regime Change in Iran",
-      "summary": "Plus, Tesla’s big bet on big rigs.",
-      "link": "https://www.nytimes.com/2026/05/20/podcasts/the-headlines/-trump-irs-audit-regime-change-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/20theheadlines-iran-regime02/19dc-iran-admahdinejad-5-phwj-mediumSquareAt3X.jpg",
+      "title": "Candidates Backed by Trump, Ocasio-Cortez Triumph in Key House Primaries",
+      "summary": "The president’s preferred candidate ousted an incumbent in Kentucky, while a Democratic primary in Pennsylvania was a win for the democratic socialists.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/house-primaries-trump-ocasio-cortez.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19pol-house-roundup-01-hgtc/19pol-house-roundup-01-hgtc-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779271209.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779267842.0,
       "hot": false
     },
     {
-      "id": "65ad2daedb",
+      "id": "3bb54aab5c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Prison to Pardons to Payouts: Jan. 6 Rioters Are Elated at Trump Compensation Fund",
-      "summary": "The possibility that people who ransacked the Capitol could get money from the government they attacked is the latest head-spinning twist in President Trump’s effort to rewrite the history of Jan. 6.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/jan-6-rioters-trump-fund-payouts.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-jan6-tlvk/19dc-jan6-tlvk-mediumSquareAt3X.jpg",
+      "title": "With Massie’s Primary Defeat in Kentucky, Trump’s Revenge Tour Continues. But Headwinds Loom.",
+      "summary": "He has used his sway with his base to oust wayward Republicans more than he has made inroads with the independents his party needs to defeat Democrats in November.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/kentucky-trump-gop.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20pol-trump-gop-TOP-jmfw/20pol-trump-gop-TOP-jmfw-mediumSquareAt3X.jpg",
       "categories": [
-        "政治"
+        "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779267827.0,
-      "hot": false
-    },
-    {
-      "id": "e8ae6c305d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Overworked and understaffed: Special ed teachers turn to AI for help",
-      "summary": "A fast-growing number of special educators nationwide are using AI to create customized education plans. Despite the risks, some research shows it could improve the quality of teachers' work.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5810192/special-education-teachers-ai-ieps",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779267600.0,
-      "hot": false
-    },
-    {
-      "id": "49e423eff5",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Bees have coexisted with us for over a millennia. Their name remains a mystery",
-      "summary": "Its name is short — like its size — but bees are one of Earth's most important and busy creatures.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5825919/bees-have-coexisted-with-us-for-over-a-millennia-their-name-remains-a-mystery",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779267600.0,
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779267813.0,
       "hot": false
     },
     {
@@ -183,27 +274,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779267600.0,
-      "hot": false
-    },
-    {
-      "id": "f25e5de2aa",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "4 takeaways from Tuesday's primary night in half a dozen states",
-      "summary": "While Trump continues to rack up victories on his vengeance tour, general election opponents are waiting in swing districts and swing states. Can front-line GOP candidates navigate these choppy waters",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5826937/takeaways-primaries-trump-massey-gallrein",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779267600.0,
       "hot": false
     },
@@ -220,45 +292,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779267600.0,
       "hot": false
     },
     {
-      "id": "017ebf1f6e",
+      "id": "4bca89846f",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Morning news brief",
-      "summary": "A look at primary results from around the country, Trump and Vance share conflicting messages on state of Iran war, shooting at San Diego mosque being investigated as possible \"hate crime.\"",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5820718/morning-news-brief",
+      "title": "Bees have coexisted with us for over a millennium. Their name remains a mystery",
+      "summary": "Its name is short — like its size — but the bee is one of Earth's most important and busy creatures.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5825919/bees-have-coexisted-with-us-for-over-a-millennia-their-name-remains-a-mystery",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779266898.0,
-      "hot": false
-    },
-    {
-      "id": "f0c474dadc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Montana could soon ease restrictions on mining precious metals",
-      "summary": "Restrictions on mining for precious metals like gold in Montana that were put in place 30 years ago could soon be relaxed as the mining industry makes a comeback in the U.S.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5806316/montana-could-soon-ease-restrictions-on-mining-precious-metals",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779266864.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779267600.0,
       "hot": false
     },
     {
@@ -274,8 +328,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779266859.0,
       "hot": false
     },
@@ -292,27 +346,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779256122.0,
-      "hot": false
-    },
-    {
-      "id": "99816095df",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Early War Goal Was to Install Hard Line Former President as Iran’s Leader",
-      "summary": "An Israeli strike designed to free Mahmoud Ahmadinejad from house arrest in Tehran, U.S. officials said, was part of an effort to bring about regime change and put him in power.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/iran-israel-us-leader-ahmadinejad.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-iran-ahmadinejad-top-hfjq/19dc-iran-ahmadinejad-top-hfjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779255560.0,
       "hot": false
     },
     {
@@ -328,82 +364,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779255388.0,
-      "hot": false
-    },
-    {
-      "id": "3a57e2577f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "I.R.S. to Drop Audits of Trump and Family",
-      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779245788.0,
-      "hot": false
-    },
-    {
-      "id": "e0a3dd911a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "With Trump’s Settlement, a Possible $100 Million I.R.S. Penalty Melts Away",
-      "summary": "The tax service argued that the Trump Organization tried to claim the same losses twice. The president said the audit was a “disgrace.”",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-settlement-irs.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irsaudit-tlfc/19dc-trump-irsaudit-tlfc-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779234228.0,
-      "hot": false
-    },
-    {
-      "id": "df8a72a734",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Senate Votes to Take Up Measure to Force Trump to End Iran War",
-      "summary": "With four Republican backers, Democrats won a vote to advance a resolution that would force the president to end hostilities or win authorization from Congress.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/senate-iran-war-authorization.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-cong-iran-vwtg/19dc-cong-iran-vwtg-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779231649.0,
-      "hot": false
-    },
-    {
-      "id": "89036f3231",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The IRS Thought it Could Fight Trump’s Lawsuit, but it Struck a Deal Anyway",
-      "summary": "Officials wrote a memo outlining ways to challenge President Trump’s suit against the Internal Revenue Service. The administration is instead creating a compensation fund.",
-      "link": "https://www.nytimes.com/2026/05/19/admin/irs-trump-lawsuit-deal.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irs-qkwp/19dc-trump-irs-qkwp-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1779218738.0,
       "hot": false
     },
     {
