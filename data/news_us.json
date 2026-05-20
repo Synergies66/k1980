@@ -1,14 +1,51 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-20T04:42:01.810043+00:00",
-  "total": 24,
+  "updated_at": "2026-05-20T11:23:59.581179+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "ce73ca701e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Russian President Putin meets with China's Xi Jinping, days after Trump's visit",
+      "summary": "President Vladimir Putin is in Beijing for talks with President Xi Jinping, in a closely watched visit that comes just days after President Trump's high-profile trip to China.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5826921/russian-president-putin-meets-with-chinas-xi-jinping-days-after-trumps-visit",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1779266894.0,
+      "hot": false
+    },
+    {
+      "id": "45f35fa390",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Xi and Putin meet to reaffirm China-Russia ties days after Trump's visit",
+      "summary": "Russian President Vladimir Putin praised his close ties with Chinese leader Xi Jinping and said their countries are partners as they opened bilateral talks Wednesday on his trip to Beijing.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828196/xi-putin-meet-beijing",
+      "image": null,
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "5小时前",
+      "pub_ts": 1779254780.0,
+      "hot": false
+    },
     {
       "id": "1ade92887c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "'Taiwan Travelogue' wins the 2026 International Booker Prize",
       "summary": "The novel is the first work translated from Mandarin Chinese to win the award, which celebrates its 10th anniversary this year.",
@@ -19,137 +56,245 @@
         "科技"
       ],
       "score": 72,
-      "ago": "7小时前",
+      "ago": "13小时前",
       "pub_ts": 1779226307.0,
       "hot": false
     },
     {
-      "id": "bd56c7c9c8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Putin visits China to reaffirm Russia ties, as Xi also seeks stable U.S. relations",
-      "summary": "The Kremlin has said Putin and Xi plan to discuss economic cooperation between the two countries, but also \"key international and regional issues.\"",
-      "link": "https://www.npr.org/2026/05/19/g-s1-122775/putin-visits-china",
-      "image": null,
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 72,
-      "ago": "22小时前",
-      "pub_ts": 1779170520.0,
-      "hot": false
-    },
-    {
-      "id": "161038d092",
+      "id": "3a1404ed9a",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump Crushes Republican Dissent: 8 Takeaways From Tuesday’s Primaries",
-      "summary": "President Trump unseated Representative Thomas Massie, a top Republican critic in Congress, and also got his way in other primary contests.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-massie-primary-takeaways.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19pol-takeaways-massie-ptfh/19pol-takeaways-massie-ptfh-mediumSquareAt3X.jpg",
+      "title": "Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks",
+      "summary": "The warning was issued as President Trump and Vice President JD Vance say progress is being made toward a deal, while keeping open the threat of renewed strikes.",
+      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-threat-us-attacks-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-irgc-qptm/20int-iran-irgc-qptm-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "18分前",
-      "pub_ts": 1779250985.0,
+      "ago": "16分前",
+      "pub_ts": 1779275217.0,
       "hot": false
     },
     {
-      "id": "deba44d183",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How Iran Gained Leverage in the War",
-      "summary": "Outmatched militarily, Iran used “triangular coercion” by attacking Gulf states and closing the Strait of Hormuz. It points to a long-term U.S. vulnerability.",
-      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-strait-of-hormuz-triang.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-coercion01-photo-fwzq/20int-iran-coercion01-photo-fwzq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1779249606.0,
-      "hot": false
-    },
-    {
-      "id": "3a57e2577f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "I.R.S. to Drop Audits of Trump and Family",
-      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779245788.0,
-      "hot": false
-    },
-    {
-      "id": "7c1fecc945",
+      "id": "80f80d74f3",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "In Georgia, two GOP Trump backers vie to face former Atlanta mayor for governor",
-      "summary": "Georgia is a swing state where both Democrats and Republicans are deciding the direction their parties will take in the fall in races for the senate and the governor's mansion.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5823613/georgia-primaries-elections-governor-senate",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779237917.0,
-      "hot": false
-    },
-    {
-      "id": "d0d3fbf08b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. government to drop tax claims against Trump in broadening of IRS settlement",
-      "summary": "As part of the settlement agreement, the U.S. is \"forever barred and precluded\" from examining or prosecuting President Trump, his sons and the Trump organization's current tax issues, according to a",
-      "link": "https://www.npr.org/2026/05/19/g-s1-122938/irs-trump-settlement-tax-returns-audit",
+      "title": "Former Spanish Prime Minister Zapatero is under investigation",
+      "summary": "A Spanish court is investigating former Prime Minister José Luis Rodríguez Zapatero for alleged influence peddling and other possible crimes tied to a government airline bailout.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828248/former-spanish-pm-zapatero-investigation",
       "image": null,
       "categories": [
         "政治",
-        "经济",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779236430.0,
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779271382.0,
       "hot": false
     },
     {
-      "id": "a746c6f77e",
+      "id": "a875a31735",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Endorsed by Trump, Ed Gallrein defeats Rep. Thomas Massie in GOP House primary",
-      "summary": "In a major victory for President Trump, his hand-picked challenger, Ed Gallrein, beat out U.S. House Rep. Thomas Massie in a Kentucky House GOP primary, ending Massie's reelection bid.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5827183/massie-gallrein-kentucky-race-results-trump",
-      "image": null,
+      "title": "New Immunity for President Trump, and an Audacious Plan for Regime Change in Iran",
+      "summary": "Plus, Tesla’s big bet on big rigs.",
+      "link": "https://www.nytimes.com/2026/05/20/podcasts/the-headlines/-trump-irs-audit-regime-change-iran.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/20theheadlines-iran-regime02/19dc-iran-admahdinejad-5-phwj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779271209.0,
+      "hot": false
+    },
+    {
+      "id": "65ad2daedb",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Prison to Pardons to Payouts: Jan. 6 Rioters Are Elated at Trump Compensation Fund",
+      "summary": "The possibility that people who ransacked the Capitol could get money from the government they attacked is the latest head-spinning twist in President Trump’s effort to rewrite the history of Jan. 6.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/jan-6-rioters-trump-fund-payouts.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-jan6-tlvk/19dc-jan6-tlvk-mediumSquareAt3X.jpg",
       "categories": [
         "政治"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779235040.0,
+      "ago": "2小时前",
+      "pub_ts": 1779267827.0,
+      "hot": false
+    },
+    {
+      "id": "e8ae6c305d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Overworked and understaffed: Special ed teachers turn to AI for help",
+      "summary": "A fast-growing number of special educators nationwide are using AI to create customized education plans. Despite the risks, some research shows it could improve the quality of teachers' work.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5810192/special-education-teachers-ai-ieps",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779267600.0,
+      "hot": false
+    },
+    {
+      "id": "49e423eff5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Bees have coexisted with us for over a millennia. Their name remains a mystery",
+      "summary": "Its name is short — like its size — but bees are one of Earth's most important and busy creatures.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5825919/bees-have-coexisted-with-us-for-over-a-millennia-their-name-remains-a-mystery",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779267600.0,
+      "hot": false
+    },
+    {
+      "id": "12933eef74",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gun rights groups see 'golden age' under Trump administration",
+      "summary": "New gun rules and lawsuits against states signal how this Trump administration is using its powers to align itself with the wishes of the gun rights movement.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5810190/gun-rights-trump-rules-atf",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779267600.0,
+      "hot": false
+    },
+    {
+      "id": "f25e5de2aa",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "4 takeaways from Tuesday's primary night in half a dozen states",
+      "summary": "While Trump continues to rack up victories on his vengeance tour, general election opponents are waiting in swing districts and swing states. Can front-line GOP candidates navigate these choppy waters",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5826937/takeaways-primaries-trump-massey-gallrein",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779267600.0,
+      "hot": false
+    },
+    {
+      "id": "789f8c3741",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Denver has a plan to heat and cool buildings without fossil fuels. It involves … sewage?",
+      "summary": "Like many cities, Denver's largest source of greenhouse gas emissions is its buildings. Heating and cooling skyscrapers requires a lot of fossil fuels. Now, the city is trying a surprising solution.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5734477/denver-geothermal-network-sewage",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779267600.0,
+      "hot": false
+    },
+    {
+      "id": "017ebf1f6e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Morning news brief",
+      "summary": "A look at primary results from around the country, Trump and Vance share conflicting messages on state of Iran war, shooting at San Diego mosque being investigated as possible \"hate crime.\"",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5820718/morning-news-brief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779266898.0,
+      "hot": false
+    },
+    {
+      "id": "f0c474dadc",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Montana could soon ease restrictions on mining precious metals",
+      "summary": "Restrictions on mining for precious metals like gold in Montana that were put in place 30 years ago could soon be relaxed as the mining industry makes a comeback in the U.S.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5806316/montana-could-soon-ease-restrictions-on-mining-precious-metals",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779266864.0,
+      "hot": false
+    },
+    {
+      "id": "c32425cbb6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Report finds global aid system is failing to address today's humanitarian crises",
+      "summary": "A new report finds that global humanitarian aid is failing, with cuts from major donors like the United States and increased attacks on health workers further eroding the system.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5825863/report-finds-global-aid-system-is-failing-to-address-todays-humanitarian-crises",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779266859.0,
+      "hot": false
+    },
+    {
+      "id": "c7ce7a543a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Bolivia's capital under siege as protests deepen crisis for President Paz",
+      "summary": "Bolivia's President Rodrigo Paz faces a deepening crisis as widespread protests and blockades leave the political capital under siege less than six months after he took office.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828203/bolivia-capital-protests-crisis",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779256122.0,
       "hot": false
     },
     {
@@ -166,8 +311,63 @@
         "科技"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779234968.0,
+      "ago": "5小时前",
+      "pub_ts": 1779255560.0,
+      "hot": false
+    },
+    {
+      "id": "312d14607c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "WHO chief concerned over 'scale and speed' of Ebola outbreak",
+      "summary": "The World Health Organization top official has expressed concern over the rapid spread of a rare type of Ebola in Congo. Authorities have reported at least 134 suspected deaths and over 500 cases.",
+      "link": "https://www.npr.org/2026/05/20/g-s1-122971/who-chief-concerned-over-scale-and-speed-of-ebola-outbreak",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779255388.0,
+      "hot": false
+    },
+    {
+      "id": "3a57e2577f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "I.R.S. to Drop Audits of Trump and Family",
+      "summary": "As part of the Justice Department’s compensation fund deal, officials vowed not to pursue any matters, including those involving President Trump’s tax returns, that are pending.",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-irs-doj-lawsuit-audit.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-audits-fgjp/19dc-audits-fgjp-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1779245788.0,
+      "hot": false
+    },
+    {
+      "id": "e0a3dd911a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "With Trump’s Settlement, a Possible $100 Million I.R.S. Penalty Melts Away",
+      "summary": "The tax service argued that the Trump Organization tried to claim the same losses twice. The president said the audit was a “disgrace.”",
+      "link": "https://www.nytimes.com/2026/05/19/us/politics/trump-settlement-irs.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irsaudit-tlfc/19dc-trump-irsaudit-tlfc-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "11小时前",
+      "pub_ts": 1779234228.0,
       "hot": false
     },
     {
@@ -183,245 +383,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1779231649.0,
       "hot": false
     },
     {
-      "id": "a55ccbdfec",
+      "id": "89036f3231",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Bond Yields Hit Highest Level Since 2007 as Inflation Fears Set In",
-      "summary": "The 30-year U.S. Treasury yield hasn’t been this high since the lead-up to the global financial crisis. Across Europe and Asia, yields are also elevated.",
-      "link": "https://www.nytimes.com/2026/05/19/business/bond-market-iran-war-inflation.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/2026-may-biz-promos-bond-yields/2026-may-biz-promos-bond-yields-mediumSquareAt3X-v10.png",
-      "categories": [
-        "经济"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779229024.0,
-      "hot": false
-    },
-    {
-      "id": "83c719d84f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Blanche Defends $1.8 Billion Fund as Skepticism Mounts",
-      "summary": "The acting attorney general told lawmakers the fund would review claims from an array of people, not just Republicans.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/blanche-congress-compensation-fund.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-blanche-hfmb/19dc-blanche-hfmb-mediumSquareAt3X.jpg",
+      "title": "The IRS Thought it Could Fight Trump’s Lawsuit, but it Struck a Deal Anyway",
+      "summary": "Officials wrote a memo outlining ways to challenge President Trump’s suit against the Internal Revenue Service. The administration is instead creating a compensation fund.",
+      "link": "https://www.nytimes.com/2026/05/19/admin/irs-trump-lawsuit-deal.html",
+      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-trump-irs-qkwp/19dc-trump-irs-qkwp-mediumSquareAt3X-v2.jpg",
       "categories": [
         "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779228746.0,
-      "hot": false
-    },
-    {
-      "id": "7e2753ffd7",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Manager at Trump’s N.J. Golf Club Helped Plan Reflecting Pool Repairs",
-      "summary": "David Schutzenhofer, a Trump Organization employee, reached out to one of the vendors the government later hired for the iconic site near the Lincoln Memorial, documents show.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/reflecting-pool-trump-schutzenhofer.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19DC-REFLECTING-POOL-01-lqfg/19DC-REFLECTING-POOL-01-lqfg-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779210800.0,
-      "hot": false
-    },
-    {
-      "id": "2ea5d2a22e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Trump endorses Ken Paxton over incumbent John Cornyn in Texas Senate primary runoff",
-      "summary": "President Trump has endorsed Texas Attorney General Ken Paxton over incumbent Sen. John Cornyn in the Texas GOP runoff for U.S. Senate, one week before voting ends in the contentious and expensive pri",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5736175/trump-endorses-ken-paxton-texas-senate",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779209621.0,
-      "hot": false
-    },
-    {
-      "id": "5b25a87e2b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Minnesota becomes first state to ban prediction markets",
-      "summary": "While dozens of states have taken legal action against the controversial industry, Minnesota is the first state to pass a law making it a felony for companies like Kalshi and Polymarket to operate.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5821265/minnesota-ban-prediction-markets",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779208112.0,
-      "hot": false
-    },
-    {
-      "id": "b6d3134394",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "States sue over new student loan limits on certain nursing and healthcare degrees",
-      "summary": "New York, Arizona, North Carolina, Kentucky and Nevada are among the states challenging a rule that limits federal student loans for graduate degrees in nursing, physical therapy and more.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5826688/lawsuit-student-loans-nursing-healthcare-graduate-degree",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779207541.0,
-      "hot": false
-    },
-    {
-      "id": "7a8038e36d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Can't keep a habit? This comic shares a proven formula to make it stick",
-      "summary": "In this illustrated guide, behavioral scientist BJ Fogg breaks down his Tiny Habits framework to help you rethink your approach to starting (or restarting) a habit.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5825984/cant-keep-a-habit-this-comic-shares-a-proven-formula-to-make-it-stick",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779207540.0,
-      "hot": false
-    },
-    {
-      "id": "16e85c5920",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israel's trying to expel a whole Palestinian district in East Jerusalem, activists say",
-      "summary": "Israeli authorities are issuing Palestinians demolition orders in East Jerusalem at an accelerated rate since Israel launched war with Iran, human rights groups and U.N. experts say.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5823861/israel-palestinians-east-jerusalem",
-      "image": null,
-      "categories": [
-        "本地"
       ],
       "score": 60,
       "ago": "15小时前",
-      "pub_ts": 1779196836.0,
-      "hot": false
-    },
-    {
-      "id": "bb4d4cbc22",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "California mosque shooting leaves 5 dead. And, judge dismisses Trump's IRS lawsuit",
-      "summary": "San Diego authorities are investigating a deadly shooting at a mosque as a hate crime. And, Trump dropped his lawsuit against the IRS, paving the way for an \"anti-weaponization fund.\"",
-      "link": "https://www.npr.org/2026/05/19/g-s1-122806/up-first-newsletter-islamic-center-san-diego-primary-elections-trump-irs-elon-musk-openai",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1779190418.0,
-      "hot": false
-    },
-    {
-      "id": "e15b091c22",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The French Open courts are clay, a tricky surface for some. Here's how the pros do it",
-      "summary": "In tennis, clay has a reputation for being one of the harder surfaces to play on. But a few pros shared some of their tips for staying sharp.",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5822888/french-open-clay-hailey-baptiste",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779181200.0,
-      "hot": false
-    },
-    {
-      "id": "41096cc990",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "One Palestinian man's life of survival",
-      "summary": "A 90-year-old Palestinian man in Gaza says his life has never felt safe as he recalls displacements and wars",
-      "link": "https://www.npr.org/2026/05/19/nx-s1-5825865/one-palestinian-mans-life-of-survival",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "20小时前",
-      "pub_ts": 1779177651.0,
-      "hot": false
-    },
-    {
-      "id": "ed1b851929",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump says he's called off Iran strike at request of Gulf allies",
-      "summary": "President Donald Trump says he is holding off on a military strike on Iran planned for Tuesday because \"serious negotiations\" are underway to end the war.",
-      "link": "https://www.npr.org/2026/05/19/g-s1-122762/trump-says-hes-called-off-iran-strike",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1779168478.0,
-      "hot": false
-    },
-    {
-      "id": "add50e4a7a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Israeli Navy intercepts activists trying to break Gaza blockade with aid ships",
-      "summary": "On Monday, the Israeli navy intercepted a flotilla of 54 boats of activists headed to Gaza with humanitarian aid.",
-      "link": "https://www.npr.org/2026/05/18/nx-s1-5825816/israeli-navy-intercepts-activist-trying-to-break-gaza-blockade-with-aid-ships",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779135914.0,
+      "pub_ts": 1779218738.0,
       "hot": false
     },
     {
