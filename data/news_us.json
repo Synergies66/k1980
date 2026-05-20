@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-20T18:36:45.973254+00:00",
-  "total": 22,
+  "updated_at": "2026-05-20T22:08:08.998336+00:00",
+  "total": 23,
   "articles": [
+    {
+      "id": "ea60ceea96",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The U.S. threatens to revoke the Palestinian U.N. ambassador's visa",
+      "summary": "A leaked State Department memo shows the U.S. threatened to revoke Palestinian visas if they pushed for a senior United Nations post.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828826/us-palestinians-un",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1779303485.0,
+      "hot": false
+    },
     {
       "id": "ce73ca701e",
       "type": "news",
@@ -18,154 +36,116 @@
         "华人"
       ],
       "score": 72,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1779266894.0,
       "hot": false
     },
     {
-      "id": "b1b59cb731",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Meta slashes 8,000 jobs as it pivots towards AI",
-      "summary": "Facebook and Instagram's parent company has been investing huge sums of money in AI, but it lags behind competitors.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "13分前",
-      "pub_ts": 1779301376.0,
-      "hot": false
-    },
-    {
-      "id": "d17882ba98",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "After the Kars4Kids ad is banned in California, we check in on nostalgic jingles past",
-      "summary": "A California judge has given Kars4Kids 30 days to either take its ads off the air or update them to disclose its affiliations to a Jewish charity based in the Northeast.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828257/kars4kids-california-false-advertising-jingles",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "28分前",
-      "pub_ts": 1779300493.0,
-      "hot": false
-    },
-    {
-      "id": "20561a856e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. grand jury indicts Raul Castro, ex-Cuban president",
-      "summary": "The 94-year-old former leader of Cuba faces several charges, including four counts of murder for an attack on a humanitarian group more than 30 years ago.",
-      "link": "https://www.npr.org/2026/05/20/g-s1-122383/us-cuba-raul-castro-indictment",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1779299597.0,
-      "hot": false
-    },
-    {
-      "id": "d7e172680b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Bipartisan home affordability bill passes the House",
-      "summary": "The bill is meant to encourage home construction, and would ban corporate investors from buying up more homes to rent out.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5827166/house-passes-housing-affordability-bill",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1779298661.0,
-      "hot": false
-    },
-    {
-      "id": "53bab62c7e",
+      "id": "046e0e3cf8",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump’s $1.8 Billion Fund Tests Constitutional Limits",
-      "summary": "The deal the president reached with his own subordinates relies on a mechanism created by Congress that legal experts had warned was subject to manipulation.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-legal-questions.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20DC-TRUMPLEGAL-top-qvmc/20DC-TRUMPLEGAL-top-qvmc-mediumSquareAt3X.jpg",
+      "title": "Musk’s SpaceX Reveals Its Finances for the First Time as It Readies for IPO",
+      "summary": "Mr. Musk’s rocket and satellite maker disclosed its financial performance as it prepares to go public in what is set to be one of the largest offerings to date.",
+      "link": "https://www.nytimes.com/2026/05/20/technology/elon-musk-spacex-ipo.html",
+      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/00biz-spacex-finances-hfo-zktq/00biz-spacex-finances-hfo-zktq-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779297943.0,
+      "ago": "5分前",
+      "pub_ts": 1779314545.0,
       "hot": false
     },
     {
-      "id": "0c23e3d3a2",
+      "id": "703fad4672",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "The Justice Department gives Trump an unprecedented settlement",
-      "summary": "D.O.J. gave Trump and his family immunity from tax audits and set up a $1.8 billion fund for victims of \"government weaponization.\" Former government lawyer Andrew Weissmann explains the settlement.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828414/the-justice-department-gives-trump-an-unprecedented-settlement",
+      "title": "Advice for 2026 commencement speakers: Don't bring up AI",
+      "summary": "Commencement speakers who bring up the sweeping changes that artificial intelligence is driving are facing boos from the Class of 2026.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5822419/ai-colleges-commencement-booing",
       "image": null,
       "categories": [
-        "政治",
-        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "24分前",
+      "pub_ts": 1779313402.0,
+      "hot": false
+    },
+    {
+      "id": "4037440729",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Elon Musk's SpaceX files paperwork for what's likely to be the biggest IPO in history",
+      "summary": "The company is on track to pull off the largest IPO in history — making CEO Elon Musk even wealthier.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5812731/elon-musk-spacex-ai-ipo",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "40分前",
+      "pub_ts": 1779312476.0,
+      "hot": false
+    },
+    {
+      "id": "28d77ac1cf",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Cuba's Raúl Castro indicted over 1996 fatal downing of two aircraft",
+      "summary": "Miami prosecutors have prepared an indictment against former Cuban president Raúl Castro over the 1996 downing of two NGO planes that killed four people onboard.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5827010/cubas-raul-castro-indicted-over-1996-fatal-downing-of-two-aircraft",
+      "image": null,
+      "categories": [
         "科技"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779297386.0,
+      "pub_ts": 1779310925.0,
       "hot": false
     },
     {
-      "id": "038aebc397",
+      "id": "b651e1b2ae",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "The San Diego mosque shooting victims remembered as 'heroes' for protecting children",
-      "summary": "Amin Abdullah, Nadir Awad and Mansour Kaziha distracted and delayed two gunmen at the Islamic Center of San Diego. Their actions saved the many children and staff inside the mosque and cost them their",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5827053/san-diego-mosque-shooting-victims",
+      "title": "Supreme Court voting rights ruling could play a big role at the local level",
+      "summary": "The Supreme Court's recent ruling threatens the power of racial-minority voters in Voting Rights Act cases about not just Congress, but also at least 17 state and local governments, NPR finds.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5812837-e1/why-the-supreme-courts-voting-rights-ruling-could-play-a-big-role-at-the-local-level",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779309714.0,
+      "hot": false
+    },
+    {
+      "id": "5bee2d00f1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "How to help children cope after shootings like the San Diego mosque killings",
+      "summary": "Children closest to an incident of gun violence have the most risk of lasting psychological effects. Here's what all parents should know about how to buffer trauma.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828810/mass-shooting-san-diego-mosque-trauma-children-buffer",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779296194.0,
-      "hot": false
-    },
-    {
-      "id": "3cbb26c85e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Greetings from Bali, where a kecak dance shows the triumph of good over evil",
-      "summary": "The kecak dance involves a retelling of one of the stories in the Ramayana, the Hindu epic poem. At the story's climax, there is an eruption of fire as tufts of dried coconut husks are set aflame.",
-      "link": "https://www.npr.org/2026/05/20/g-s1-122603/bali-indonesia-kecak-dance-ramayana",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779296121.0,
+      "pub_ts": 1779308659.0,
       "hot": false
     },
     {
@@ -182,8 +162,44 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779290740.0,
+      "ago": "2小时前",
+      "pub_ts": 1779307341.0,
+      "hot": false
+    },
+    {
+      "id": "9e9f767d27",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Cuba Says the Trump Administration Is Not Negotiating in Good Faith",
+      "summary": "Cuba’s ambassador to the United Nations said in an interview that Havana wanted to talk but the Trump administration was creating pretexts for military action.",
+      "link": "https://www.nytimes.com/2026/05/20/world/americas/guzman-cuba-us-negotiations-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-cuba-ambassador-photo-vbtc/20int-cuba-ambassador-photo-vbtc-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779307212.0,
+      "hot": false
+    },
+    {
+      "id": "53bab62c7e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s $1.8 Billion Fund Tests Constitutional Limits",
+      "summary": "The deal the president reached with his own subordinates relies on a mechanism created by Congress that legal experts had warned was subject to manipulation.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-legal-questions.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20DC-TRUMPLEGAL-top-qvmc/20DC-TRUMPLEGAL-top-qvmc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779307033.0,
       "hot": false
     },
     {
@@ -200,64 +216,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779290043.0,
-      "hot": false
-    },
-    {
-      "id": "0c0cbb364a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A rare Ebola strain is spreading with no vaccine. Here's what you need to know",
-      "summary": "This outbreak is being called \"the perfect storm.\" How did it start, what are the characteristics of the strain that's causing it and how much of a threat is it to global health?",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5826910/ebola-outbreak-africa-risks",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779289091.0,
-      "hot": false
-    },
-    {
-      "id": "3a1404ed9a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks",
-      "summary": "The warning was issued as President Trump and Vice President JD Vance say progress is being made toward a deal, while keeping open the threat of renewed strikes.",
-      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-threat-us-attacks-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-irgc-qptm/20int-iran-irgc-qptm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779288231.0,
-      "hot": false
-    },
-    {
-      "id": "c243b0fd1b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Barney Frank, Gay Pioneer and Liberal Stalwart in Congress, Dies at 86",
-      "summary": "Often voted the “brainiest,” “funniest” and “most eloquent” member of the House, he was also the first to come out voluntarily and helped normalize being openly gay in public office.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/barney-frank-dead.html",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779287828.0,
+      "ago": "2小时前",
+      "pub_ts": 1779306385.0,
       "hot": false
     },
     {
@@ -274,8 +234,98 @@
         "科技"
       ],
       "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779302668.0,
+      "hot": false
+    },
+    {
+      "id": "b1b59cb731",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Meta slashes 8,000 jobs as it pivots towards AI",
+      "summary": "Facebook and Instagram's parent company has been investing huge sums of money in AI, but it lags behind competitors.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779301376.0,
+      "hot": false
+    },
+    {
+      "id": "d17882ba98",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After the Kars4Kids ad is banned in California, we check in on nostalgic jingles past",
+      "summary": "A California judge has given Kars4Kids 30 days to either take its ads off the air or update them to disclose its affiliations to a Jewish charity based in the Northeast.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5828257/kars4kids-california-false-advertising-jingles",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779300493.0,
+      "hot": false
+    },
+    {
+      "id": "20561a856e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. grand jury indicts Raul Castro, ex-Cuban president",
+      "summary": "The 94-year-old former leader of Cuba faces several charges, including four counts of murder for an attack on a humanitarian group more than 30 years ago.",
+      "link": "https://www.npr.org/2026/05/20/g-s1-122383/us-cuba-raul-castro-indictment",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779299597.0,
+      "hot": false
+    },
+    {
+      "id": "3cbb26c85e",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Greetings from Bali, where a kecak dance shows the triumph of good over evil",
+      "summary": "The kecak dance involves a retelling of one of the stories in the Ramayana, the Hindu epic poem. At the story's climax, there is an eruption of fire as tufts of dried coconut husks are set aflame.",
+      "link": "https://www.npr.org/2026/05/20/g-s1-122603/bali-indonesia-kecak-dance-ramayana",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
       "ago": "5小时前",
-      "pub_ts": 1779283326.0,
+      "pub_ts": 1779296121.0,
+      "hot": false
+    },
+    {
+      "id": "3a1404ed9a",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks",
+      "summary": "The warning was issued as President Trump and Vice President JD Vance say progress is being made toward a deal, while keeping open the threat of renewed strikes.",
+      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-threat-us-attacks-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-irgc-qptm/20int-iran-irgc-qptm-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779288231.0,
       "hot": false
     },
     {
@@ -291,8 +341,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779281391.0,
       "hot": false
     },
@@ -310,7 +360,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "10小时前",
       "pub_ts": 1779277370.0,
       "hot": false
     },
@@ -329,7 +379,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779271382.0,
       "hot": false
     },
@@ -347,44 +397,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1779267600.0,
-      "hot": false
-    },
-    {
-      "id": "c32425cbb6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Report finds global aid system is failing to address today's humanitarian crises",
-      "summary": "A new report finds that global humanitarian aid is failing, with cuts from major donors like the United States and increased attacks on health workers further eroding the system.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5825863/report-finds-global-aid-system-is-failing-to-address-todays-humanitarian-crises",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779266859.0,
-      "hot": false
-    },
-    {
-      "id": "c7ce7a543a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Bolivia's capital under siege as protests deepen crisis for President Paz",
-      "summary": "Bolivia's President Rodrigo Paz faces a deepening crisis as widespread protests and blockades leave the political capital under siege less than six months after he took office.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828203/bolivia-capital-protests-crisis",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779256122.0,
       "hot": false
     },
     {
