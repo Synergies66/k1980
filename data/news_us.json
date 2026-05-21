@@ -1,50 +1,104 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-21T04:50:19.917032+00:00",
-  "total": 23,
+  "updated_at": "2026-05-21T11:41:05.201930+00:00",
+  "total": 24,
   "articles": [
     {
-      "id": "81fda7e265",
+      "id": "b2f8470b7e",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Liberal U.S. mayors team up with European counterparts to fight authoritarianism",
-      "summary": "Ten U.S. mayors from cities such as Chicago and Cincinnati have joined a pact with European mayors to defend democracy and progressive values and fight right-wing populists and authoritarianism.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5827032/liberal-u-s-mayor-trump-europe-pact-of-free-cities-democracy-authoritarianism-orban",
-      "image": null,
+      "title": "Inside Trump’s Pressure Campaign on Cuba, and Why Food Banks Are Getting Squeezed",
+      "summary": "Plus, Stephen Colbert’s last show.",
+      "link": "https://www.nytimes.com/2026/05/21/podcasts/the-headlines/trump-cuba-food-banks.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21theheadlines-cuba-hvtf/21theheadlines-cuba-hvtf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "37分前",
+      "pub_ts": 1779361392.0,
+      "hot": false
+    },
+    {
+      "id": "9e7c3a643b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Fund Puts Blanche in a Tight Spot as He Aims to Lead Justice Dept.",
+      "summary": "Once seen by some as the most conventional of President Trump’s political appointees, Todd Blanche has taken off the gloves in his new role as acting attorney general.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/trump-fund-todd-blanche-doj.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-blanche-qmpk/20dc-blanche-qmpk-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "41分前",
+      "pub_ts": 1779361154.0,
+      "hot": false
+    },
+    {
+      "id": "472c7cb9b3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘We’ve Never Been This Bad.’ Eastern Pennsylvania Weighs Rising Costs.",
+      "summary": "With two swing districts, the region from Scranton to Allentown could decide control of the House, and voters are expressing profound economic distress.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/pennsylvania-affordability-politics.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21nat-pa-affordability-mcwj/21nat-pa-affordability-mcwj-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
-      "ago": "49分前",
-      "pub_ts": 1779336060.0,
+      "ago": "1小时前",
+      "pub_ts": 1779358025.0,
       "hot": false
     },
     {
-      "id": "a53681ccb6",
+      "id": "80d8b37a26",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Senate panel hears testimony on online sports betting, prediction markets",
-      "summary": "Senate lawmakers grilled sports betting industry officials during a hearing focused on recent cheating scandals, companies' marketing tactics and regulatory battles.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5829166/senate-panel-hears-testimony-on-online-sports-betting-prediction-markets",
+      "title": "Researchers say the Trump administration is finding new ways to punish science",
+      "summary": "Even with federal grants largely restored, scientists say the Trump administration is still preventing those funds from reaching them. The consequences, they say, are already becoming clear.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5828768/science-funding-cuts-nih-trump-administration",
       "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779332465.0,
+      "pub_ts": 1779357600.0,
+      "hot": false
+    },
+    {
+      "id": "d6c3bb62c0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Amid allegations of abuse on Epstein's 'Zorro Ranch,' New Mexico opens new probes",
+      "summary": "Epstein owned a 10,000-acre property with a mansion. After calls by the public, the state attorney general searched the property and the state House created a \"Truth Commission.\"",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5816037/amid-allegations-of-abuse-on-epsteins-zorro-ranch-new-mexico-opens-new-probes",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779357600.0,
       "hot": false
     },
     {
       "id": "ea60ceea96",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "The U.S. threatens to revoke the Palestinian U.N. ambassador's visa",
       "summary": "A leaked State Department memo shows the U.S. threatened to revoke Palestinian visas if they pushed for a senior United Nations post.",
@@ -54,8 +108,229 @@
         "移民"
       ],
       "score": 70,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1779303485.0,
+      "hot": false
+    },
+    {
+      "id": "9416f38f33",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Democrats’ Midterm Strength Masks Fierce Divides and Frustration, Poll Shows",
+      "summary": "Democratic voters are in a combative, anti-establishment mood, unhappy with their party and disagreeing about its best path forward, a New York Times/Siena poll found.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/poll-democrats-midterms-house-senate.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/2026-05-07-may-poll-graphics-story3/2026-05-07-may-poll-graphics-story3-mediumSquareAt3X-v8.png",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354054.0,
+      "hot": false
+    },
+    {
+      "id": "ba1da1100b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Even as anxieties grow under Trump, these swing voters aren't ready to back Democrats",
+      "summary": "Swing voters in North Carolina say they are frustrated with President Trump and the state of the economy, but aren't ready to abandon him or his party as the midterms inch closer.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5828924/north-carolina-swing-voter-focus-group",
+      "image": null,
+      "categories": [
+        "经济"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "4f274575e3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "COVID is shaping Americans' reaction to Ebola and hantavirus",
+      "summary": "Some Americans seem to be extra-alarmed about Ebola and hantavirus in the wake of COVID-19. But public health experts say they don't expect another pandemic this time.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5825891/hantavirus-ebola-covid-pandemic-virus",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "981e9c6658",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A guide to converting your lawn into a wildlife friendly garden",
+      "summary": "Turning your grass into a garden isn't as complicated as you think, but it will take time and effort. This step-by-step guide breaks down the process, from killing your lawn to picking plants to grow.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5821165/a-guide-to-converting-your-lawn-into-a-wildlife-friendly-garden",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "b74e18e5d6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Spencer Pratt is 'winning the internet,' but can he become mayor of Los Angeles?",
+      "summary": "Pratt, a former reality TV star, is flooding social media with edgy humor, AI slop and combative rhetoric as a way of grabbing attention and winning the vote of the very online. It's a strategy some p",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5827724/spencer-pratt-los-angeles-mayor-ai-slop-manosphere",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "adfb2c2f08",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Education Department is hiring — while it's being dismantled",
+      "summary": "The Federal Student Aid office lost half its staff last year as part of Trump administration downsizing. Now, it's hiring hundreds of new workers.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5820922/education-department-firings-now-hiring",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "3eb20e5208",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "As floods get worse, Britain tries a new solution: beavers",
+      "summary": "About 400 years ago, beavers were hunted to extinction across Britain. Now they're being reintroduced as little climate warriors, as communities harness their dam-building skills to mitigate flooding.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5738979/beavers-britain-climate-change-flooding",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779354000.0,
+      "hot": false
+    },
+    {
+      "id": "647230c46c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Aid cuts may have slowed identification of current Ebola outbreak",
+      "summary": "The Ebola outbreak in eastern Africa was announced last week, then quickly declared an emergency by the WHO. It's likely cuts in U.S. aid to the DRC contributed to a delay in identifying the outbreak.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5828951/aid-cuts-may-have-contributed-to-delay-in-identifying-current-ebola-outbreak",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779352878.0,
+      "hot": false
+    },
+    {
+      "id": "473753a574",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Netanyahu scolds Israeli security minister for videos taunting flotilla activists",
+      "summary": "Israel's national security minister triggered a backlash after releasing videos taunting detained flotilla activists who tried to breach the blockade of Gaza, telling them they should be imprisoned.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5829616/israeli-security-minister-flotilla",
+      "image": null,
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779344992.0,
+      "hot": false
+    },
+    {
+      "id": "3b1594b4b3",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Ebola fears surge on the ground in Congo over rapid spread of a rare type",
+      "summary": "Healthcare workers in eastern Congo said Wednesday they are underprotected and undertrained in a rapidly spreading Ebola outbreak of a rare type of the virus in one of the world's most vulnerable plac",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5829610/ebola-fears-surge",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779343808.0,
+      "hot": false
+    },
+    {
+      "id": "81fda7e265",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Liberal U.S. mayors team up with European counterparts to fight authoritarianism",
+      "summary": "Ten U.S. mayors from cities such as Chicago and Cincinnati have joined a pact with European mayors to defend democracy and progressive values and fight right-wing populists and authoritarianism.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5827032/liberal-u-s-mayor-trump-europe-pact-of-free-cities-democracy-authoritarianism-orban",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779336060.0,
+      "hot": false
+    },
+    {
+      "id": "867c8baece",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Colorado Governor Censured for Commuting Sentence of Election Denier",
+      "summary": "The Colorado State Democratic Party, reflecting the anger of rank-and-file Democratic voters, rebuked Gov. Jared Polis on Wednesday over his decision to release Tina Peters from prison.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/colorado-governor-polis-tina-peters.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20nat-polis-1-bthl/20nat-polis-1-bthl-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779335615.0,
       "hot": false
     },
     {
@@ -67,86 +342,13 @@
       "title": "How the $1.8 Billion Trump Fund May Violate Past Practice and Policy",
       "summary": "The fund that could offer payouts to Trump allies who accuse the government of mistreatment is not only highly unusual but also appears to violate the administration’s own policies.",
       "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-explainer.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-explainer-jkzc/20dc-explainer-jkzc-mediumSquareAt3X.jpg",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-explainer-jkzc/20dc-explainer-jkzc-mediumSquareAt3X-v2.jpg",
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779330048.0,
-      "hot": false
-    },
-    {
-      "id": "3db0f2d769",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Nimitz Aircraft Carrier Enters Caribbean as Trump Pressures Cuba",
-      "summary": "The carrier arrived in the southern Caribbean on the same day that the Justice Department announced charges against Raul Castro.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/aircraft-carrier-caribbean-cuba-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20trump-news-nimitz-bfhw/20trump-news-nimitz-bfhw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779325296.0,
-      "hot": false
-    },
-    {
-      "id": "f890b3089f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "News of U.S. Indictment Slow to Reach Cubans Waiting for a Breakthrough",
-      "summary": "While many Cubans were divided over the legitimacy of the U.S. charging Raul Castro with murder, the hope for developments that might ease their suffering is widespread. “This has to change.”",
-      "link": "https://www.nytimes.com/2026/05/20/world/americas/cuba-reaction-castro-indictment.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/2int-cuba-reax-02-alt-kbjw/2int-cuba-reax-02-alt-kbjw-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779325113.0,
-      "hot": false
-    },
-    {
-      "id": "046e0e3cf8",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Musk’s SpaceX Reveals Its Finances for the First Time as It Readies for IPO",
-      "summary": "Mr. Musk’s rocket and satellite maker disclosed its financial performance as it prepares to go public in what is set to be one of the largest offerings to date.",
-      "link": "https://www.nytimes.com/2026/05/20/technology/elon-musk-spacex-ipo.html",
-      "image": "https://static01.nyt.com/images/2026/04/14/multimedia/00biz-spacex-finances-hfo-zktq/00biz-spacex-finances-hfo-zktq-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779323023.0,
-      "hot": false
-    },
-    {
-      "id": "c4789709f5",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Justice Dept. Charges Raúl Castro as Trump Escalates Pressure Campaign Against Cuba",
-      "summary": "The indictment was an extraordinary escalation of the Trump administration’s multifaceted pressure campaign against Cuba’s Communist government.",
-      "link": "https://www.nytimes.com/2026/05/20/us/raul-castro-cuba-doj-indictment.html",
-      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/dc-cuba-lmgf/dc-cuba-lmgf-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779321900.0,
       "hot": false
     },
     {
@@ -163,45 +365,27 @@
         "政治",
         "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "12小时前",
       "pub_ts": 1779319590.0,
       "hot": false
     },
     {
-      "id": "703fad4672",
+      "id": "c9aa00cd5c",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Advice for 2026 commencement speakers: Don't bring up AI",
-      "summary": "Commencement speakers who bring up the sweeping changes that artificial intelligence is driving are facing boos from the Class of 2026.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5822419/ai-colleges-commencement-booing",
-      "image": null,
+      "title": "Trump Gets His Payback in Primary Elections, but It Comes at a Cost in Congress",
+      "summary": "Republican senators are angry the president is working to unseat their colleagues. But he is also creating more free agents in his own party in Congress willing to defy him.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-republicans-congress.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-senate-trump-thcl/20dc-senate-trump-thcl-mediumSquareAt3X-v2.jpg",
       "categories": [
-        "科技"
+        "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779313402.0,
-      "hot": false
-    },
-    {
-      "id": "09cedd4f17",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Elon Musk's SpaceX IPO plans reveal blockbuster spending on rockets and AI",
-      "summary": "The company is on track to pull off the largest IPO in history — making CEO Elon Musk even wealthier.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5812731/elon-musk-spacex-ai-ipo",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779312476.0,
+      "ago": "13小时前",
+      "pub_ts": 1779315156.0,
       "hot": false
     },
     {
@@ -218,98 +402,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1779310925.0,
-      "hot": false
-    },
-    {
-      "id": "b651e1b2ae",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Supreme Court voting rights ruling could play a big role at the local level",
-      "summary": "The Supreme Court's recent ruling threatens the power of racial-minority voters in Voting Rights Act cases about not just Congress, but also at least 17 state and local governments, NPR finds.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5812837-e1/why-the-supreme-courts-voting-rights-ruling-could-play-a-big-role-at-the-local-level",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779309714.0,
-      "hot": false
-    },
-    {
-      "id": "5bee2d00f1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "How to help children cope after shootings like the San Diego mosque killings",
-      "summary": "Children closest to an incident of gun violence have the most risk of lasting psychological effects. Here's what all parents should know about how to buffer trauma.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828810/mass-shooting-san-diego-mosque-trauma-children-buffer",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779308659.0,
-      "hot": false
-    },
-    {
-      "id": "9e9f767d27",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Cuba Says the Trump Administration Is Not Negotiating in Good Faith",
-      "summary": "Cuba’s ambassador to the United Nations said in an interview that Havana wanted to talk but the Trump administration was creating pretexts for military action.",
-      "link": "https://www.nytimes.com/2026/05/20/world/americas/guzman-cuba-us-negotiations-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-cuba-ambassador-photo-vbtc/20int-cuba-ambassador-photo-vbtc-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779307213.0,
-      "hot": false
-    },
-    {
-      "id": "f1b82b912f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Jan. 6 Police Officers Sue to Block Trump’s Payout Fund",
-      "summary": "The two officers accused the administration of creating a “slush fund” to reward rioters and groups that committed violence on behalf of President Trump.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/jan-6-officers-lawsuit-trump-fund.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-jan6-police-new-gcfm/20dc-jan6-police-new-gcfm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779306386.0,
-      "hot": false
-    },
-    {
-      "id": "b1b59cb731",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Meta slashes 8,000 jobs as it pivots towards AI",
-      "summary": "Facebook and Instagram's parent company has been investing huge sums of money in AI, but it lags behind competitors.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5826917/meta-layoffs-ai-jobs",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779301376.0,
       "hot": false
     },
     {
@@ -326,81 +420,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779299597.0,
-      "hot": false
-    },
-    {
-      "id": "3cbb26c85e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Greetings from Bali, where a kecak dance shows the triumph of good over evil",
-      "summary": "The kecak dance involves a retelling of one of the stories in the Ramayana, the Hindu epic poem. At the story's climax, there is an eruption of fire as tufts of dried coconut husks are set aflame.",
-      "link": "https://www.npr.org/2026/05/20/g-s1-122603/bali-indonesia-kecak-dance-ramayana",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779296121.0,
-      "hot": false
-    },
-    {
-      "id": "3a6dcdaf07",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Takeaways from Tuesday's primaries. And, victims of mosque shooting revealed",
-      "summary": "Trump-backed Ed Gallrein ousted Congressman Thomas Massie in Kentucky's Republican House primary. And, police have identified the victims in California's mosque shooting.",
-      "link": "https://www.npr.org/2026/05/20/g-s1-122996/up-first-newsletter-primary-elections-iran-war-mosque-shooting-victims-minnesota-prediction-markets",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
       "ago": "17小时前",
-      "pub_ts": 1779277370.0,
-      "hot": false
-    },
-    {
-      "id": "80f80d74f3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Former Spanish Prime Minister Zapatero is under investigation",
-      "summary": "A Spanish court is investigating former Prime Minister José Luis Rodríguez Zapatero for alleged influence peddling and other possible crimes tied to a government airline bailout.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828248/former-spanish-pm-zapatero-investigation",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1779271382.0,
-      "hot": false
-    },
-    {
-      "id": "4bca89846f",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Bees have coexisted with us for over a millennium. Their name remains a mystery",
-      "summary": "Its name is short — like its size — but the bee is one of Earth's most important and busy creatures.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5825919/bees-have-coexisted-with-us-for-over-a-millennia-their-name-remains-a-mystery",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779267600.0,
+      "pub_ts": 1779299597.0,
       "hot": false
     },
     {
