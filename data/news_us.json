@@ -1,9 +1,45 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-20T22:08:08.998336+00:00",
+  "updated_at": "2026-05-21T04:50:19.917032+00:00",
   "total": 23,
   "articles": [
+    {
+      "id": "81fda7e265",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Liberal U.S. mayors team up with European counterparts to fight authoritarianism",
+      "summary": "Ten U.S. mayors from cities such as Chicago and Cincinnati have joined a pact with European mayors to defend democracy and progressive values and fight right-wing populists and authoritarianism.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5827032/liberal-u-s-mayor-trump-europe-pact-of-free-cities-democracy-authoritarianism-orban",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "49分前",
+      "pub_ts": 1779336060.0,
+      "hot": false
+    },
+    {
+      "id": "a53681ccb6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Senate panel hears testimony on online sports betting, prediction markets",
+      "summary": "Senate lawmakers grilled sports betting industry officials during a hearing focused on recent cheating scandals, companies' marketing tactics and regulatory battles.",
+      "link": "https://www.npr.org/2026/05/20/nx-s1-5829166/senate-panel-hears-testimony-on-online-sports-betting-prediction-markets",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779332465.0,
+      "hot": false
+    },
     {
       "id": "ea60ceea96",
       "type": "news",
@@ -17,27 +53,63 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "3小时前",
+      "score": 70,
+      "ago": "9小时前",
       "pub_ts": 1779303485.0,
       "hot": false
     },
     {
-      "id": "ce73ca701e",
+      "id": "8b9e825284",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Russian President Putin meets with China's Xi Jinping, days after Trump's visit",
-      "summary": "President Vladimir Putin is in Beijing for talks with President Xi Jinping, in a closely watched visit that comes just days after President Trump's high-profile trip to China.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5826921/russian-president-putin-meets-with-chinas-xi-jinping-days-after-trumps-visit",
-      "image": null,
+      "title": "How the $1.8 Billion Trump Fund May Violate Past Practice and Policy",
+      "summary": "The fund that could offer payouts to Trump allies who accuse the government of mistreatment is not only highly unusual but also appears to violate the administration’s own policies.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-explainer.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-explainer-jkzc/20dc-explainer-jkzc-mediumSquareAt3X.jpg",
       "categories": [
-        "华人"
+        "政治"
       ],
-      "score": 72,
-      "ago": "13小时前",
-      "pub_ts": 1779266894.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779330048.0,
+      "hot": false
+    },
+    {
+      "id": "3db0f2d769",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Nimitz Aircraft Carrier Enters Caribbean as Trump Pressures Cuba",
+      "summary": "The carrier arrived in the southern Caribbean on the same day that the Justice Department announced charges against Raul Castro.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/aircraft-carrier-caribbean-cuba-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20trump-news-nimitz-bfhw/20trump-news-nimitz-bfhw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779325296.0,
+      "hot": false
+    },
+    {
+      "id": "f890b3089f",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "News of U.S. Indictment Slow to Reach Cubans Waiting for a Breakthrough",
+      "summary": "While many Cubans were divided over the legitimacy of the U.S. charging Raul Castro with murder, the hope for developments that might ease their suffering is widespread. “This has to change.”",
+      "link": "https://www.nytimes.com/2026/05/20/world/americas/cuba-reaction-castro-indictment.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/2int-cuba-reax-02-alt-kbjw/2int-cuba-reax-02-alt-kbjw-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779325113.0,
       "hot": false
     },
     {
@@ -53,9 +125,47 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "5分前",
-      "pub_ts": 1779314545.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779323023.0,
+      "hot": false
+    },
+    {
+      "id": "c4789709f5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Justice Dept. Charges Raúl Castro as Trump Escalates Pressure Campaign Against Cuba",
+      "summary": "The indictment was an extraordinary escalation of the Trump administration’s multifaceted pressure campaign against Cuba’s Communist government.",
+      "link": "https://www.nytimes.com/2026/05/20/us/raul-castro-cuba-doj-indictment.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/dc-cuba-lmgf/dc-cuba-lmgf-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779321900.0,
+      "hot": false
+    },
+    {
+      "id": "db527ed566",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Government Moves to Spare an Unhappy Taxpayer Named Trump",
+      "summary": "No president has ever used the federal government to advance his own personal interests and those of his family and allies as expansively and openly as Mr. Trump has.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-presidents-self-dealing.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-corruption-01-hmlc/20dc-corruption-01-hmlc-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "经济"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779319590.0,
       "hot": false
     },
     {
@@ -71,26 +181,26 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "24分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779313402.0,
       "hot": false
     },
     {
-      "id": "4037440729",
+      "id": "09cedd4f17",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Elon Musk's SpaceX files paperwork for what's likely to be the biggest IPO in history",
+      "title": "Elon Musk's SpaceX IPO plans reveal blockbuster spending on rockets and AI",
       "summary": "The company is on track to pull off the largest IPO in history — making CEO Elon Musk even wealthier.",
       "link": "https://www.npr.org/2026/05/20/nx-s1-5812731/elon-musk-spacex-ai-ipo",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
-      "score": 70,
-      "ago": "40分前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779312476.0,
       "hot": false
     },
@@ -107,8 +217,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779310925.0,
       "hot": false
     },
@@ -125,8 +235,8 @@
       "categories": [
         "政治"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779309714.0,
       "hot": false
     },
@@ -143,27 +253,9 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779308659.0,
-      "hot": false
-    },
-    {
-      "id": "af601eabec",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Rubio, in Video, Urges Cubans to Align With Trump Administration",
-      "summary": "In a rare direct address, Secretary of State Marco Rubio blamed the former leader Raúl Castro for the country’s longstanding electricity and resource shortages.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/rubio-cuba-us-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20trump-news-rubio-cuba-1-bkhc/20trump-news-rubio-cuba-1-bkhc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779307341.0,
       "hot": false
     },
     {
@@ -179,27 +271,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779307212.0,
-      "hot": false
-    },
-    {
-      "id": "53bab62c7e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s $1.8 Billion Fund Tests Constitutional Limits",
-      "summary": "The deal the president reached with his own subordinates relies on a mechanism created by Congress that legal experts had warned was subject to manipulation.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-legal-questions.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20DC-TRUMPLEGAL-top-qvmc/20DC-TRUMPLEGAL-top-qvmc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779307033.0,
+      "score": 60,
+      "ago": "8小时前",
+      "pub_ts": 1779307213.0,
       "hot": false
     },
     {
@@ -215,27 +289,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779306385.0,
-      "hot": false
-    },
-    {
-      "id": "31e08f8415",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Early War Goal Was to Install Hard-Line Former President as Iran’s Leader",
-      "summary": "An Israeli strike designed to free Mahmoud Ahmadinejad from house arrest in Tehran, U.S. officials said, was part of an effort to bring about regime change and put him in power.",
-      "link": "https://www.nytimes.com/2026/05/19/us/politics/iran-israel-us-leader-ahmadinejad.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-iran-ahmadinejad-top-hfjq/19dc-iran-ahmadinejad-top-hfjq-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779302668.0,
+      "score": 60,
+      "ago": "9小时前",
+      "pub_ts": 1779306386.0,
       "hot": false
     },
     {
@@ -251,44 +307,26 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779301376.0,
       "hot": false
     },
     {
-      "id": "d17882ba98",
+      "id": "3baff4907b",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "After the Kars4Kids ad is banned in California, we check in on nostalgic jingles past",
-      "summary": "A California judge has given Kars4Kids 30 days to either take its ads off the air or update them to disclose its affiliations to a Jewish charity based in the Northeast.",
-      "link": "https://www.npr.org/2026/05/20/nx-s1-5828257/kars4kids-california-false-advertising-jingles",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779300493.0,
-      "hot": false
-    },
-    {
-      "id": "20561a856e",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "U.S. grand jury indicts Raul Castro, ex-Cuban president",
+      "title": "U.S. grand jury indicts Raúl Castro, former Cuban president",
       "summary": "The 94-year-old former leader of Cuba faces several charges, including four counts of murder for an attack on a humanitarian group more than 30 years ago.",
       "link": "https://www.npr.org/2026/05/20/g-s1-122383/us-cuba-raul-castro-indictment",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779299597.0,
       "hot": false
     },
@@ -305,45 +343,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1779296121.0,
-      "hot": false
-    },
-    {
-      "id": "3a1404ed9a",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran Threatens to Strike Beyond the Middle East if the U.S. Resumes Attacks",
-      "summary": "The warning was issued as President Trump and Vice President JD Vance say progress is being made toward a deal, while keeping open the threat of renewed strikes.",
-      "link": "https://www.nytimes.com/2026/05/20/world/middleeast/iran-threat-us-attacks-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20int-iran-irgc-qptm/20int-iran-irgc-qptm-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779288231.0,
-      "hot": false
-    },
-    {
-      "id": "b63d5c8ec3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Prison to Pardons to Payouts: Jan. 6 Rioters Are Elated at Trump’s $1.8 Billion Fund",
-      "summary": "The possibility that people who ransacked the Capitol could get money from the government they attacked is the latest head-spinning twist in President Trump’s effort to rewrite the history of Jan. 6.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/jan-6-rioters-trump-fund-payouts.html",
-      "image": "https://static01.nyt.com/images/2026/05/19/multimedia/19dc-jan6-tlvk/19dc-jan6-tlvk-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779281391.0,
       "hot": false
     },
     {
@@ -360,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "17小时前",
       "pub_ts": 1779277370.0,
       "hot": false
     },
@@ -379,7 +381,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "18小时前",
       "pub_ts": 1779271382.0,
       "hot": false
     },
@@ -397,7 +399,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "19小时前",
       "pub_ts": 1779267600.0,
       "hot": false
     },
