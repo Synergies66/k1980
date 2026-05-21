@@ -1,127 +1,469 @@
 {
   "region": "nz",
   "name": "新西兰",
-  "updated_at": "2026-05-21T15:52:13.567029+00:00",
-  "total": 29,
+  "updated_at": "2026-05-21T18:14:17.469411+00:00",
+  "total": 30,
   "articles": [
     {
-      "id": "ebe18afc33",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Berlin will bid to rehost Olympics 100 years after 1936 Games under the Nazis",
-      "summary": "The bid relies mostly on existing sports facilities and envisages using city landmarks such as the Brandenburg Gate and the former airport, Tempelhof.",
-      "link": "https://www.stuff.co.nz/sport/360982280/berlin-oks-bid-rehost-olympics-or-after-100th-annivers",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYeykEakdxgUHo0kWxQXbC%2FNzscRATHu5cD18nskgMPwSH42ntEPJGGGfYeawwk49Oa9eohJki5wzbTwypZjugZDLc29UcsG+pNXUz9fTKwdZxMnNhLjD4J9iTFaUNciGfWnycapSdSbZpOpx7RD5ptE=?resolution=1240x700",
-      "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 80,
-      "ago": "26分前",
-      "pub_ts": 1779377135.0,
-      "hot": false
-    },
-    {
-      "id": "fe6a55c0fc",
+      "id": "89847a1aab",
       "type": "news",
       "region": "nz",
       "source": "RNZ News",
       "lang": "en",
-      "title": "Too many barriers to hiring overseas teachers, secondary school principal says",
-      "summary": "Sam Mortimer from Greymouth High said newly-qualified teachers weren't paid enough to meet minimum pay rates for a \"Green List\" work visa, and the paper work is excessive.",
-      "link": "https://www.rnz.co.nz/news/education/595949/too-many-barriers-to-hiring-overseas-teachers-secondary-school-principal-says",
+      "title": "Do you eat fruit and vegetable skin?",
+      "summary": "Some people like to munch on the fibrous peels of bananas, feijoas and roasted pumpkins, but what's the benefit? And how can you reuse them?",
+      "link": "https://www.rnz.co.nz/life/food/do-you-eat-fruit-and-vegetable-skin",
       "image": null,
       "categories": [
-        "移民",
+        "本地"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1779386546.0,
+      "hot": false
+    },
+    {
+      "id": "5d4681b0de",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "PPTA says schools' operational funding needs inflation catch-up",
+      "summary": "The union said annual increases to the ops grant kept up with inflation from 2011 to 2021 but then fell behind.",
+      "link": "https://www.rnz.co.nz/news/education/595972/ppta-says-schools-operational-funding-needs-inflation-catch-up",
+      "image": null,
+      "categories": [
+        "经济",
         "教育",
         "科技"
       ],
       "score": 70,
-      "ago": "8小时前",
-      "pub_ts": 1779348339.0,
+      "ago": "11分前",
+      "pub_ts": 1779386546.0,
       "hot": false
     },
     {
-      "id": "ad38b87870",
+      "id": "44aa46c75b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Manawatū man convicted of killing Marice McGregor maintains innocence - 15 years on",
+      "summary": "Dean Richard Mulligan was sentenced to life in jail, after being found guilty of murdering McGregor and is once again seeking parole.",
+      "link": "https://www.rnz.co.nz/news/crime-and-justice/595971/manawatu-man-convicted-of-killing-marice-mcgregor-maintains-innocence-15-years-on",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1779386546.0,
+      "hot": false
+    },
+    {
+      "id": "0cef5f182f",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Te reo Māori advocate Vincent Olsen-Reeder criticises govt branding changes",
+      "summary": "Advocate Dr Vincent Olsen-Reeder (Tauranga Moana, Te Arawa) believes the shift sends a damaging message about te reo Māori.",
+      "link": "https://www.rnz.co.nz/news/political/595970/te-reo-maori-advocate-vincent-olsen-reeder-criticises-govt-branding-changes",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1779386545.0,
+      "hot": false
+    },
+    {
+      "id": "af002a8a31",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Soaring fuel prices lead to sharp increase in patient no-shows at Northland GPs",
+      "summary": "One doctor is worried about the long-term effects, saying her clinic has seen a more than 400 percent increase in no-shows.",
+      "link": "https://www.rnz.co.nz/news/health/595969/soaring-fuel-prices-lead-to-sharp-increase-in-patient-no-shows-at-northland-gps",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1779386545.0,
+      "hot": false
+    },
+    {
+      "id": "7c7132e2f2",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Yachtie missing in Cook Strait overnight rescued",
+      "summary": "The yacht the person was sailing on had been near Baring Head and was having difficulties returning to Wellington.",
+      "link": "https://www.rnz.co.nz/news/emergencies_local/595968/yachtie-missing-in-cook-strait-overnight-rescued",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "11分前",
+      "pub_ts": 1779386545.0,
+      "hot": false
+    },
+    {
+      "id": "f07d9f5a2b",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Hundreds of cell towers to be upgraded to protect 111 calls in natural disasters",
+      "summary": "Hundreds of towers set to get better backup batteries, delaying blackouts after disasters.",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/hundreds-of-cell-towers-to-be-upgraded-to-protect-111-calls-in-natural-disasters/premium/7OC6ZEQJ2JDXVJOFO44J2DZUYI/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/47EEWLXVEZFA3LZ7RA6723Y3HQ.JPG?auth=89eb95daa31c3d985fd797e44a211ef311f158dbdbcd7fecd282ed4b121d91a2&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1779386401.0,
+      "hot": false
+    },
+    {
+      "id": "3b1f919053",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Electricity shouldn’t be a luxury in NZ - Sophia Bristow",
+      "summary": "OPINION: Many households pay a built-in premium for fixed power price certainty.",
+      "link": "https://www.nzherald.co.nz/nz/electricity-shouldnt-be-a-luxury-in-nz-sophia-bristow/premium/X52SOWAP4ZA4RH45VZ77XTZLXU/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/CSY6HA6BVVF37CDROMP7EJRQZU.jpg?auth=54db384d7d10a83f6798c88373746565e39f33099af7282610c9bd18abafbbff&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1779386401.0,
+      "hot": false
+    },
+    {
+      "id": "ddb578ace9",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Havelock North restaurant going unplugged for candlelit World Environment Day",
+      "summary": "'My mother and my father fed seven kids day in, day out, cooking on a fire.'",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/havelock-north-restaurant-goes-unplugged-for-candlelit-world-environment-day/RG5JBARBG5DNFCGXWBETAKHG3A/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/Z6GB2UODGVF23FEWPA737TFMFE.jpg?auth=740e8767dc844838ddaff7f9668cbd987cb59641295e55f32aba0c63a7e2dc57&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1779386401.0,
+      "hot": false
+    },
+    {
+      "id": "82058ee70b",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Rotorua courthouse black mould forces judges out, sentencings delayed",
+      "summary": "Judges now work from nearby offices and walk to court for each hearing.",
+      "link": "https://www.nzherald.co.nz/rotorua-daily-post/news/rotorua-courthouse-black-mould-forces-judges-out-sentencings-delayed/MGH5BO77AZECRFE6AV7WMIGNUQ/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/7QYMLM7XRZDO3GA6MABNUQV4A4.jpg?auth=4be3e32d020839f2a0d0ab62668ddf34cb9e5664eaced37ba05905598c81fea8&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1779386400.0,
+      "hot": false
+    },
+    {
+      "id": "f45927dbb4",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Hawke’s Bay police officer becomes first in New Zealand to receive two royal bravery awards",
+      "summary": "'We were doing what any of our colleagues would have done.'",
+      "link": "https://www.nzherald.co.nz/hawkes-bay-today/news/hawkes-bay-police-officer-becomes-first-in-new-zealand-to-receive-two-royal-bravery-awards/RCMRGN7CTJC2TCXQCPZAOYDAJE/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/PYRVPFOOFBA27PIX5WI5XXEABE.jpg?auth=c347cdc827fcc796148f4065a7a5e7bb470ce019ad370e3cf9de5e92a9a68462&smart=true&width=300&height=300",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "13分前",
+      "pub_ts": 1779386400.0,
+      "hot": false
+    },
+    {
+      "id": "34d16d2614",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Appeals in Congo for urgent supplies as aid groups warn Ebola outbreak is ‘gaining momentum’",
-      "summary": "There is no available vaccine or medicine for the Bundibugyo strain responsible for the outbreak, which spread undetected for weeks.",
-      "link": "https://www.stuff.co.nz/world-news/360982276/appeals-congo-urgent-supplies-aid-groups-warn-ebol",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYdQEQY9hQTHoTL9NVKMtg+E1AJ19PPsiHgofAe1hrWG1o5HfQk8MSTT%2Fgs%2Fl%2FUNYIGmN02ZEsEaXB3loTXEruiQpE9cihXzFdn1wSHmmau%2Fpi2qCTyFs1+rSYw4vf+lcxxfkNCsZDBc4mjoTIRJW4O9G3Pq1g3kqY57FzqkNCgG9h0+Tytidg%2FrbQh7GYHJw3gjEyzPyR42oeMRfC3lstp3XoWcmuTusFi1ostf+KhqgTAw4DxWA7defq24Ztq%2FjYyg2lnt2PZXAaht75Y9YoWF2qeicjestdrbEdLTPUvKDQkXCeKPoWaWGve8F5Fbljhb5eVSWXnm6tpEKlYyQH6aMoiiicrUnQWRMIoFnqYLro+4BmrSfdf6UzwrEfh21hHNaBHiGqrCJrP00x584U9Mn+VvSF041xPAnfl23zwUEaBvL3URwQq1%2Fg+Uwi02MZg==?resolution=1240x700",
+      "title": "Iran unveils plan for total control of Strait of Hormuz",
+      "summary": "Iran has announced it is expanding its control over the Strait of Hormuz into foreign territory, angering neighbouring countries.",
+      "link": "https://www.stuff.co.nz/world-news/360982305/iran-unveils-plan-total-control-strait-hormuz",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYcDryhHukPYw9bFp8910V2DEUziMuy+zKA6DYiFopB6iiszG%2F1x+yGAkuS%2FtgorE7ScvlXfgeIKQQ%2Fs8cfg0c0jIPKyq+YM%2FGWml2pB6tNPXOH2o3yHpsL1EJQSDZ%2FOzAX5LxTZNBxY3YF+PEP4bXHuxtFrTkQ%2FmTNd+xSwXn+xPy8VyiBwZG9Kl0pThgJzzsNEYDZmrdZUYrrgr2Envw9UI1rZtXppeMGj6ILefPqyPIA1ppdKjWz3cUG31L1VQ+Qeo6iCqmMgjoOrhR1ByifsyA+lTEC3zO1NRutJg8gdC4Osdgx0rgeW68QiBFsa0S1fbWIB29JYFhZlf5U1UxnVSC3R5x2cHgeLCcUJ6lbfSs286+%2Fk4dSGPI%2Fq%2Fc+vOzRz8UA3B9Iz7+PPZnozogy3A7KCXqGDceLAyxHtna4AFChBA3e3JFTaUVf5d61ZLOv%2Fa%2FNvcVaJJRRzqxGf3CxM=?resolution=1240x700",
       "categories": [
-        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "23分前",
+      "pub_ts": 1779385841.0,
+      "hot": false
+    },
+    {
+      "id": "f6dcb1ba5b",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Five reasons Colbert is one of the most important satirists in US history",
+      "summary": "Analysis: The best satirists leave lasting marks on political life. Stephen Colbert earned a spot in the top tier.",
+      "link": "https://www.rnz.co.nz/life/people/celebrity/five-reasons-stephen-colbert-is-one-of-the-most-important-satirists-in-american-history",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "40分前",
+      "pub_ts": 1779384792.0,
+      "hot": false
+    },
+    {
+      "id": "7ac2aa67bb",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ News",
+      "lang": "en",
+      "title": "Docuseries featuring Kaitaia choir wins two awards at US festival",
+      "summary": "Filmmaker Leanne Pooley's Choir Games was praised for its \"moving depiction of the uplifting and healing power of music\".",
+      "link": "https://www.rnz.co.nz/life/screens/docuseries-featuring-kaitaia-choir-wins-two-awards-at-us-festival",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779383350.0,
+      "hot": false
+    },
+    {
+      "id": "e6c77f9ed1",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Labour’s Ginny Andersen challenges Erica Stanford’s education overhaul",
+      "summary": "She believes Stanford is micromanaging and her ‘knowledge-rich’ system is too rigid.",
+      "link": "https://www.nzherald.co.nz/nz/politics/labours-ginny-andersen-challenges-erica-stanfords-education-overhaul/premium/J6YX3HIR2ZFGNLQSIBR4EE3PG4/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/FJEIZFMVI5CEDPNHPURCG23KIE.jpg?auth=5fa2e8f8d8f7f24cdd1cc4cfc61bc8c0a3747465e247cfc6e1f79e0642a40ca1&smart=true&width=300&height=300",
+      "categories": [
+        "教育"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382800.0,
+      "hot": false
+    },
+    {
+      "id": "480bd527fd",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Hollywood stars in New Zealand: A-listers spotted in Waikato and Auckland for Minecraft movie sequel",
+      "summary": "Filming of the Minecraft sequel began in Huntly in late April.",
+      "link": "https://www.nzherald.co.nz/entertainment/hollywood-stars-in-new-zealand-a-listers-spotted-in-waikato-and-auckland-for-minecraft-movie-sequel/STGOBAY3NRGKXK7MZJTWIDZJBA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/4I5K6O3DZFA6TMUBJ4QXPJW4EQ.jpg?auth=dbe4a97735ef249c5b97e94356f0f5332039486441441c27fd5b4af56f00d8af&smart=true&width=300&height=300",
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382800.0,
+      "hot": false
+    },
+    {
+      "id": "93c26fc0c8",
+      "type": "news",
+      "region": "nz",
+      "source": "NZ Herald",
+      "lang": "en",
+      "title": "Letters: Money tech giants send offshore could go a long way to helping NZ fund services",
+      "summary": "OPINION: Tax shopping hurting nations like New Zealand.",
+      "link": "https://www.nzherald.co.nz/nz/letters-money-tech-giants-send-offshore-could-go-a-long-way-to-helping-nz-fund-services/premium/652PW6X65VH23JWBRBFD3W4KCA/",
+      "image": "https://www.nzherald.co.nz/resizer/v2/ZMS23DVYQVAHVB5BF5UF77V6SQ.jpg?auth=943e050714c7993f513d329b334956987e0720b51146f55d75cb2853e711b84e&smart=true&width=300&height=300",
+      "categories": [
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382800.0,
+      "hot": false
+    },
+    {
+      "id": "49d88f8ed3",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Lorde among media heavyweights backing new Kiwi-made streaming app",
+      "summary": "Pop star Ella Yelich-O'Connor is among a prominent group of investors backing Lume, a new app designed to rescue the music album from the streaming era.",
+      "link": "https://www.stuff.co.nz/culture/360982132/lorde-joins-media-heavyweights-back-new-app-aiming-revive-music-album",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYe38Ma53simCbDV9cOnqvkJtjhHBx2zQ6vuS5e9b5zcKOrFlQRGbcAevn8yDj8yUX6DfNNF4BdFsA0JLUNIEVx5NONe6JQRiAhFgFsFldNQOriMejxtIiyYdu0kfkl%2FSzt09FIUIbxsSGXueeLnNbyxlp+NwBXS2M88MwR490lEf4OKKMJcGzTzNKNdCSu7o0edctDDcbbJk7it7y1g1tzdlwurFq2UViFmnZZkpSriuT1zkMA6TIM2oum2eN41R7GnwX66P+t6igQKb4UAkyDQPYqb1TSE2GtSIrw%2F6P5ykrIzEshwpzwd9kYHNXUwJU4O7dWxjORTiJxGX6Ulk1KNjF4ZYn5%2FrqI5Fh8hv+rMRRAmy3gBBjeux5smQlt%2FBaetnqDXIL3FwR4QFUUbzI73GWxM7aYbutnswXCVDWT1uEhTY2bOyZrqoqZRbFkfIsg==?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382800.0,
+      "hot": false
+    },
+    {
+      "id": "fa0eb75a0a",
+      "type": "news",
+      "region": "nz",
+      "source": "RNZ 政治",
+      "lang": "en",
+      "title": "Support services blindsided by government social housing shake up",
+      "summary": "Ministers said the current system was unfair because some private renters have a worse deal than social housing tenants.",
+      "link": "https://www.rnz.co.nz/news/political/595959/support-services-blindsided-by-government-social-housing-shake-up",
+      "image": null,
+      "categories": [
+        "政治",
+        "经济",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382610.0,
+      "hot": false
+    },
+    {
+      "id": "757d19b462",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Ebola centre burned in Congo as fear and anger grows over the outbreak",
+      "summary": "People set fire to an Ebola treatment centre at the heart of the outbreak after being prevented from retrieving the body of a local man, as fear and anger grow over a health crisis.",
+      "link": "https://www.stuff.co.nz/world-news/360982294/ebola-center-burned-congo-fear-and-anger-grows-o",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYReA+%2F44UN8kKz5x1ulkqETq3KD8eCTnPYi3L5L58d2Uwo9p9fmMYj8Ic4XjXxadgKN%2FlG9f3LqWxx0%2FDxURqWXq65hD2qa3ZCZ7Uxmx7gD9CoUi9WHZ6teSlnt8rj1Cp%2Fm3c16JP1EcgpC11YQ8%2F9ZOQk+0meVhY89y5Pp36v5goX2K+be%2FcAGIINyWzqi1WwWZZypCq+rzC1YvMh+O32VDtqBc6PF6qSWFYYBnfmnscIiNH+jNKjROBTfmE8CuDIQ664%2F0L3GxAWnOyTzsvyjU9qox7TWWfcJOlxOKeySAYjI%2F1m59444p5sK+jLB5d0SxOnx%2FhA3EIcCZAOhHprXCKuKd2OrFWnLaqYSC7TW5A8jAtKppgLSN7k5i3%2FNsH7fLh0Q4oLBuR70UQnQt2JeEnly8hRF9g%2FUvyW%2FYz+ODQi7nCLJnEkudzqr9ARZuvHUnP5nmp2HLxEBVMA9DfFc=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382295.0,
+      "hot": false
+    },
+    {
+      "id": "f65b80c3a4",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "Father of eight drowned after being pulled into treacherous creek current",
+      "summary": "A fellow whitebaiter watched a wave wash into Paul Thomas Finlay's waders moments before the 78-year-old was sucked into a river current and drowned.",
+      "link": "https://www.stuff.co.nz/nz-news/360980786/father-eight-drowned-after-being-pulled-treacherous-creek-current",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYS9JtyI8gqFhuObGpKb6ZhKrAF5fqasyd5DCveCmoK6ff2NHE84eCWyJyRzMLeScCHnyRGGakVm9YV7xQjT0RnT2L8aEBDzukuppXeXk31uqFDUakf2WUucBklRwMYWpbnNgvYjhKXzij2FbmBkOT%2F%2FQ1G%2FUFybQyHlW87YOyx0OLrZ89bbUJLZ+xVMfjqdXCBZL%2F7yExXGiBAnTJeNcEBbBCQOS2gLOoqrOEwjbJYdHSlFPMXEs1HXHhgFKidx8VIDSDj4ke0zdu3IQYgqWRAv3siRvhJaBLDEwFp01XWrbuqORMjILpd%2FMqjhZcz+MAkt4zkOR5NfiE6OjZAnFA08awccwqVLFg6lQUNi%2FWU1Au8LZGZ4WEn17q3d3UmCU7Zb2Nd9CfyxZ4Q+kZpXQxJAGhty0mBqoppnPtju2tteZOXDJVA1H1eDBVb6sxSlvyA==?resolution=1240x700",
+      "categories": [
         "科技"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1779370955.0,
+      "pub_ts": 1779379200.0,
       "hot": false
     },
     {
-      "id": "66ece58d75",
+      "id": "ef1c0b75ad",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Cheaper chocolate and tickets to the zoo - the UK’s cost of living solution",
-      "summary": "Treasury chief Rachel Reeves has announced modest handouts to help alleviate rising costs sparked by the Iran war.",
-      "link": "https://www.stuff.co.nz/world-news/360982271/uk-offers-cheaper-chocolate-and-tickets-zoo-bid",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXPOsM6dp7Ntl7Pz5uFnW9vCrCCy5%2F%2FjZ+NAw1QjFtMGp9pgsvkk66Ug8iYUrsGn3Q3kWX9j+hfTclSD1olDWqkeosuVgyE2NLhkk9Sb7rERCeYy9poc+88Rg9O+xV8QrjSBDO2mrbOQXg+pTybuiJS4Eu4AcqZEeirJOnqOT5lnYhQtmQ5jLUil0LBoRaC4bg2Jhk2U%2FSM2wUvLMbZVo1L8ozoyJd+204VLrQ90Q%2FeZp0F5qAFWxF1GDsFJb9Wvq7JwYMJ2%2F5dbaZvyStWtEMPzPdP0OWYNrX9dwdYt3IYKYyuk85hVyGEvZ+2Ras9eNFsGID3dkDBkpQv2re%2FnauaaSj0tDy3mWyWlXE3z9hYEfARLtQQH5OLdih2HX+OLboM7K6Ur1IHx%2FftmTJmAS4DDlT8Kdg3v%2F77guQ0%2FLqLP99OMjlNVG%2FoOQstG+f9Z1fyp4YSLsRxYmeDdAO5z2pA=?resolution=1240x700",
+      "title": "‘Your kids are being hurt’: Expert’s plea to New Zealand lawmakers on social media ban",
+      "summary": "A former Meta employee who helped the company to develop its algorithms says the time to act is now.",
+      "link": "https://www.stuff.co.nz/nz-news/360982163/your-kids-are-being-hurt-experts-plea-new-zealand-lawmakers-social-media-ban",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYXbV5+FtniVluk8DV01hdf8OQ0r4ljSGUg0Sm38zghiz35KTDbESQMV94ohvZ30ROrPDKMoaA9CkleGlbNJ3z7+dYEoxaFL4QeePqRlQ1A0lgFWEDA0prbg76k7ZiXlA6Yu8vmU2%2F%2FzkqP%2FvVCm41WQoOgy5FRcfVs3cNvhj76vg8Mtmw3S2%2FLIUAmXWFcNrkVxauC0bWm302E%2Fnwxkcy4a5TvfGMhaRHho9iO+yAUV%2FkvlD8ILozia4prkngDg2ayrTYlRJPYYxH66pz9HNTYA6mQLy2mxbcMwCmW+NyZBa6Uvo166n+nNPIfRdU2RfbQkFKPdEK+qoZFZpn5lZYTgiednRGQzaceY6eD83CmzBtN4Kbr6qv9n7tB2rdKzt49cEeZJQHOxryLY0u8dQTo1O0KmAZGHLwmv57Yj%2FCSJoGpLFUeFLhoQ74BrhGVe%2FtcMBQz6nFzPHf%2FJpF2bOtfg=?resolution=1240x700",
       "categories": [
         "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1779369555.0,
+      "pub_ts": 1779379200.0,
       "hot": false
     },
     {
-      "id": "1e1c5df35c",
+      "id": "7780fe0d5b",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Europe faces stray Ukrainian drones as Kyiv targets Russian oil exports",
-      "summary": "Over the past months, Ukrainian drones have crashed into the chimney of a power plant in Estonia, hit empty fuel tanks in Latvia and been shot down by Romanian fighter jets stationed in Lithuania.",
-      "link": "https://www.stuff.co.nz/world-news/360982263/europe-faces-stray-ukrainian-drones-kyiv-targets-russian",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYV%2FRfR0Abc9D%2FUgqvOcBsTUlc%2F2MB0s9DaGl41Mw39gZJeJVy%2FFTv1QogrpUlzSYfXsnC8aQYINV+R314b46RBPPOGBYwbnk3aYtlfynjB63444eB26%2FTEI5U00DKn17oq9S16FiZaKr%2FymbXczDiYgwCiBD2BmegQu9mNDiBqBzyyrUAUtT5fZhYQw4IUJTxp7P9oBZY3cxFgXfkCfdC9Bth9e%2FLEvKqFfotjaTXMpZ4QX%2Fqpx94f1loKu+1%2FJuK0o0lDCASS+Ic3lV0uQGJCbnQkLCtOmcr0d4113vsNzsjbWqNtSjYjCCpiVDUrHRmqwL2URb8zX+9huEX7JPRFlW%2F3wGm21cmYYkuOmr60hEi7giOGZskXdLgWonXTnfEhA5WEb8+V3Onxbe4tFjj10SZJ+VyuiwJ6OwvM6E+suzIe41FzgsEZHND2%2FpURCgvg==?resolution=1240x700",
+      "title": "Missed out on securing a Great Walks pass? Own the backyard instead",
+      "summary": "Trade Me Property reveals the gateway towns where you can swap a Great Walks hut pass for a lifetime of backyard access",
+      "link": "https://www.stuff.co.nz/home-property/360982113/missed-out-securing-great-walks-pass-own-backyard-instead",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYY+jbOaf+6fEGRQWBgZ2c7uDR7W3AplanKhsNbYqOLMsdx8CMz6lbaTC0J9c4t2E69Uxok11ZVtstzI7%2FRXvsLVIGkZtLWP5jGdoeWR6IMV2h+Inr8mYS6ACYwSpG1zwSH+s8rDowHPm9JlJRfrs1nQ=?resolution=1240x700",
       "categories": [
-        "天气",
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779365289.0,
+      "ago": "2小时前",
+      "pub_ts": 1779379200.0,
       "hot": false
     },
     {
-      "id": "6669fe6198",
+      "id": "a07d82f38c",
       "type": "news",
       "region": "nz",
       "source": "Stuff NZ",
       "lang": "en",
-      "title": "Search operation underway after mayday call from yacht in Cook Strait",
-      "summary": "A search operation is underway following a mayday call from a troubled vessel in the Cook Strait.",
-      "link": "https://www.stuff.co.nz/nz-news/360982251/search-operation-underway-after-mayday-call-yacht-cook-strait",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYW3ihXD%2Fo07h3ZnSdQ3FqwtgjjRBZ5FG+jsZQQOAGCb4Acq7G29GmjLrpeCqRV+EyYS11W6dF09n%2F4gDUuyy%2F5V1iA63iZavcnhPmGswTsSBPSyU+n8q6ZJ3Tau8QZsC6o%2Fi+eG7LSzE3whw4foOvWYFz33l%2FQRhdUtdeHQpanoZ2dpFweMypApAKIdqoh5uTfblDHtP4x2H7zC+hUR5M2r%2F8gKGgK4T8Gzn%2FCcQSzSGMLgSSyypLtHwmkm8p7cq3dHle8P6DGleNpuGfVrMQzKF9AjrwWm82DqjMJw0wRaGzp+afxsFDefeFmYOHoZGguyhvziYZMrVK0u%2FDaa%2FPTuu4U%2FY5HiULfipfg3mdN%2FJ6L%2FFHsfL6oGpf6kNdDo36w==?resolution=1240x700",
+      "title": "‘Silver tongued’ building boss bankrupted by same bank that repossessed his Range Rover",
+      "summary": "Hardik Mungpara lauded his skills and expertise, only to leave family homes unfinished and $1.2m of debt before flying overseas.",
+      "link": "https://www.stuff.co.nz/nz-news/360982099/silver-tongued-building-boss-bankrupted-same-bank-repossessed-his-range-rover",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSF%2F32b06WFPNcZ6GR9SjfxqwBWWCUxBSfO2QMhGD6S6Tr8SXuv8HLZTsqBT5RJ%2FPZ8yiyTYegU5NdULGRdvvt4WajSVHE3EerE46llEy3aYNC%2FWsSDEDH+IA6So+CQEvw%2FFPqnQdsVpDA3Vbb%2Fk01DzGsaC37BGxiX19aVUcxQeG1N%2FmZ2ao7Y6yuQ73KlDi7Rlrm4WPAMw%2FUkbEwJs4h17zK8E5HJSaHsfDh0HfyuhLukXrxpVBt4h+cN3wLeZRznduNSpDr66PySKCFGwEmn5vPMGegBsecTAcCghk5%2F%2FNFrdiu5%2F4VJxAe8ILZyQ8p7GiYXnqdosoy3n0lauj7C0Y5nAFYIG2fW9cQwUgDCZSzHvsdkdJTl5OTmh38l6HD8grKl0n1rZbyEfZ0KCQ4XlFwBgplEbJSsKUxUpYfQEu5LiEQmoxdnyG1a2qnfh8owWlB7Pk+%2FTCnietSfmGDQ=?resolution=1240x700",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779359561.0,
+      "ago": "2小时前",
+      "pub_ts": 1779379200.0,
+      "hot": false
+    },
+    {
+      "id": "fea0851b1a",
+      "type": "news",
+      "region": "nz",
+      "source": "Stuff NZ",
+      "lang": "en",
+      "title": "End to All White’s goal drought would make for a perfect Auckland FC farewell",
+      "summary": "Jesse Randall hasn’t scored for 10 matches. While he’s still been providing assists, there would be no better time to bulge the net than Saturday’s grand final",
+      "link": "https://www.stuff.co.nz/sport/360979962/end-all-white-jesse-randalls-goal-drought-would-make-perfect-auckland-fc-farewell",
+      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYSd7UcCSj+CGAf4inuSjnKoDFzG4L2xjPpWEm1oRCJbTqaH9M2jGnPJTunrCVhSjCFq4UEMlm5x0K5bd4VCXmVq+hESsTkNH7jxGe0xsPYAvUS0H5POZR7sE0kFj9FIzQKnMQf1Tp2P0oCCEQiPDay6SAU28IHwiHu9IAFMwZcJYeRzLXnobV8tx%2F4vxqkswyAxwIQa9HEmMvq8shnRqbPCceqBDJMejHLFb25k%2F0MeeQXQ8fwyIYix407HwqwyULLcj0jlpFNF+T06Dw77hyC3pPYBEUnkE4TF0oPHVX%2F8VY2VN5liF6UxsOjQ+7my0MCSEd7jmMNC+8l5K6B2VfVNGQ7ww+3WQzcBXw8Nu8KEtC5WNF4kO3v0sctI2l9lLbhjwBpeQoBzSNaLoSlGdCkVz+zAIMJOs9aSYMPEQDOsP1Gdmi1V4dPu8+ymeSjLQQF0qcGpQ+CKJ9jaZj2zrVvI=?resolution=1240x700",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779379200.0,
       "hot": false
     },
     {
       "id": "5252821349",
       "type": "news",
       "region": "nz",
-      "source": "RNZ News",
+      "source": "RNZ 政治",
       "lang": "en",
       "title": "Labour and Greens say social housing shake-up will see public housing tenants evicted",
       "summary": "The finance minister says she \"reached for the wrong metaphor\" when asked about the social housing shake-up.",
@@ -131,189 +473,9 @@
         "政治",
         "经济"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779357573.0,
-      "hot": false
-    },
-    {
-      "id": "59c7d2c4f9",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Teacher who represented NZ in boxing avoids losing registration after ‘highly dangerous’ assault",
-      "summary": "After a domestic violence conviction involving a mild concussion and separate threats with a weapon, a Māori youth mentor has been allowed to keep teaching under strict oversight.",
-      "link": "https://www.stuff.co.nz/nz-news/360982033/teacher-keeps-registration-after-slamming-woman-headfirst-floor",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYY48GM3PCll1p4bMwoI6GRY2Dqt%2FDULNkN1j78YBYGEQ4WCQc8vEdlkbDMOw97arNb+ZOcO64iwWFhMNOGTWopehfhWfwhCh6NCcWz+TLjrMwkitfBy9osz19dC4bNC7pzVv4aos5BPmHUESsFKCmMHrjRaOz4fPWy97Q3V4z1t%2FbkBtjxNSCGq+FTe5M%2Fl+9eDNlX+ZVMVbDOpT05hk0q%2FlDCRTFn7E8Fwktq75hCSQoOOGEGR3MJUdw2nlzmq2vaOzXOMvj4QbSFytkDytUjLdz1WvHEm6eog%2FV3u5QbSpXspd1Bpp+DaGAtNXR189%2FoYubp3FY5b6IGJN9KKI2BSRgQPL+KCTzPz%2Fe6AfbdKSZpbTp2U2hIc5FNN1uogY0SiEEQOtkvaTYrCp8KV%2FLIb0My%2FNXCmRjhJmZJoWiWDtrWSXeWnGgVG9QvS8+kR51g==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779355842.0,
-      "hot": false
-    },
-    {
-      "id": "a08aaf7ebc",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Major search operation underway for yacht missing in the Cook Strait",
-      "summary": "Police are working with Coastguard and Maritime New Zealand to find the vessel.",
-      "link": "https://www.nzherald.co.nz/nz/major-search-operation-underway-for-yacht-in-trouble-off-baring-head/4L4WUPIVQBHXBBRZ7Q24ZOX6P4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/6TSMZRFKMJFXVKKSNXWASWI7BY.png?auth=f7bd20b228e6d3507510c428726bc1db9c961698a8662276b2069ad17d56d674&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779354337.0,
-      "hot": false
-    },
-    {
-      "id": "975b8f415c",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Minor parties steal spotlight from Willis' Budget",
-      "summary": "Analysis - The week leading up to Budget Day has been all about New Zealand First and ACT. Nicola Willis has seven days to wrestle the attention back.",
-      "link": "https://www.rnz.co.nz/news/political/595938/minor-parties-steal-spotlight-from-nicola-willis-budget",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779352175.0,
-      "hot": false
-    },
-    {
-      "id": "487f0c46c6",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "'Chewing it over': Auckland mayor might buy beleaguered timber mills",
-      "summary": "Wayne Brown is considering coming to the rescue of Kaitāia's beleaguered timber mills - but in his capacity as a private businessman.",
-      "link": "https://www.rnz.co.nz/news/business/595904/chewing-it-over-auckland-mayor-wayne-brown-mulls-buying-at-risk-kaitaia-mills",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779352054.0,
-      "hot": false
-    },
-    {
-      "id": "2c79dc4c09",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Why Nvidia's result matters for KiwiSaver investors",
-      "summary": "Nvidia, the world's largest listed company, posted record first-quarter earnings on Thursday of more than NZ$136 billion.",
-      "link": "https://www.rnz.co.nz/news/business/595901/why-nvidia-s-result-matters-for-kiwisaver-investors",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779351944.0,
-      "hot": false
-    },
-    {
-      "id": "9a733f7537",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Church Unlimited inquest: Pastor recalls moment roller door killed Helen Verry",
-      "summary": "Church Unlimited pastor Helen Verry died in 2022 after a roller door fell on her.",
-      "link": "https://www.nzherald.co.nz/nz/church-unlimited-inquest-pastor-recalls-moment-roller-door-killed-helen-verry/3VK6XYODBVA4FLG4M72OGLL67E/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/2PG5XDFKNN72NRJH4NXBZ42IUE.jpg?auth=4580c0c208b2fd69152b7579e851fb602f0946150d445dfa7ca448916aaeaad5&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779350400.0,
-      "hot": false
-    },
-    {
-      "id": "a97041f48a",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "Mel homer shares ‘major step forward’ in cancer journey",
-      "summary": "The broadcaster, who is now cancer free, had another health update.",
-      "link": "https://www.stuff.co.nz/nz-news/360982234/mel-homer-shares-major-step-forward-cancer-journey",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYero+Ah8mKjtMXLlApUXyyzq1suUto4OTzE7wq1w+rsQn6ynvdBzxJSVGbBMfmnEbAF3f%2FXUOfb2npX5L8bwTVoHO5%2F5oiWMotHoKFlVhu6X638UvY8atA+Zw%2FzQipRuawJECwnvulj+1t3EpIHobrhko%2F+tKutHampvJc67qlCTb1ZKjj2Ia4YY0sMncnnhUki22QssGJhfcHzqH%2F+TkgPLfIN6sPqRNU9wdJYcSLOFJoe4nO9SBLnTeJzy8glf0JcCIGKGK+kCUuo6nY+0PtEGgNyOxUVoEl00ygLB%2F6ybOnu8SZ62VzjcxKcdTRYLS3gL5yqXi0SwdEJ6v4SGKuKjSxBdp4rXkY+RMMo3jeKDDj0UylPEMCk1M9lftDXYtyHjJfCr8fCUwQ+TLa+Z5EFmwL+dJOOfI74HNN1342uAyhaOGKWj7d8VFa+x4hF1insIooSsmhZys2pisaPr2MY=?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779350237.0,
-      "hot": false
-    },
-    {
-      "id": "f3810c1dc7",
-      "type": "news",
-      "region": "nz",
-      "source": "Stuff NZ",
-      "lang": "en",
-      "title": "MPs clash over ‘move on orders’ targeting beggars as young as 14",
-      "summary": "The bill would allow police to issue move on orders to people as young as 14 for begging or rough sleeping in public spaces.",
-      "link": "https://www.stuff.co.nz/politics/360982114/mps-clash-over-move-orders-targeting-beggars-young-14",
-      "image": "https://www.stuff.co.nz/media/images/9Tzi8ywRz924XE3uHaD6DZ3Ef+IdbOiYlvIROR5vlqUeRrexTocZGobKRJ9od%2Fgnk3B%2FCeKTmTAsIjj6Q0YaYd9jBwzP1BC3LjdGJ9jPY3Vqb8VLz+ZsN9PvqpYMplczB%2F7f6ZyRlXF4i4nBt3dpS+zt6M4UqzzskMnkKw2VgAA9aepGLriuTLlPc+4slop8O0dh8a3TynImFEFZdkizXq+C4Newe4ybgKZeExqtiUAr%2F2fHvPbIIB%2F38hzM6sVCNtPUaYz%2F8wSjEnWKaLwCR28UCBxHniFXPbRdE8Fd858bkz4gqVWd0LLNPkTrxFGc1Lkx71NmapFbx7EPsNz9bwesSAK7MiqAHpZFVwcwgmXzAQ3tOfKcXO5Yt+pBj4SfiSTCARZk35t32oLamcs2SfjjIXEzARMFQ25CawCks5AEMQ%2FeI5g+WP5mQOK6ZwmX3gQvWDzqBWSIXsy5wnVj3yEuRvvkFYmZpBie62VAmTCPDl+SX7aOc2fmzjpt38sH9RC0BReSvi5NnPwvaSDJ4Q==?resolution=1240x700",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779349172.0,
-      "hot": false
-    },
-    {
-      "id": "b71c135bd5",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Whānau grieve mother and daughter who died in Christchurch house fire",
-      "summary": "Three-year-old Sapphy died in the fire while her mother, Rose-Maree Couch, died in hospital the next day, surrounded by family.",
-      "link": "https://www.rnz.co.nz/news/emergencies_local/595927/whanau-grieve-mother-and-daughter-who-died-in-christchurch-house-fire",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779348051.0,
-      "hot": false
-    },
-    {
-      "id": "1a2b3c3ec8",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ News",
-      "lang": "en",
-      "title": "Projected health funding falls short to maintain status quo",
-      "summary": "A new report has considered factors like rising labour market costs, population growth, and the aging population when asking how much funding is needed.",
-      "link": "https://www.rnz.co.nz/news/health/595844/projected-health-funding-falls-short-to-maintain-status-quo",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779347875.0,
       "hot": false
     },
     {
@@ -330,7 +492,7 @@
         "经济"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1779347319.0,
       "hot": false
     },
@@ -348,7 +510,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1779347102.0,
       "hot": false
     },
@@ -366,174 +528,26 @@
         "政治"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1779346983.0,
       "hot": false
     },
     {
-      "id": "40fb22cf3c",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Renata Leaf set fire to his father’s Waikato Kāinga Ora home, stood by and watched it burn",
-      "summary": "Renata Leaf faces court after destroying the Waikato house, valued at about $160,000.",
-      "link": "https://www.nzherald.co.nz/nz/renata-leaf-set-fire-to-his-fathers-waikato-kainga-ora-home-stood-by-and-watched-it-burn/MKOGNMDXCJG7DN5DQI66QR3P2U/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/C6BTBVKZQJCKLJP5IZZSOOVYVE.jpg?auth=a4f2c8d43cae8bc5596ea2100051c317e7958e9a744348f92dec4476660a6b17&smart=true&width=300&height=300",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779346800.0,
-      "hot": false
-    },
-    {
-      "id": "7f18253654",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Mel Homer celebrates ‘major step forward’ in cancer journey as medical device removed",
-      "summary": "The update comes after Mel Homer announced she was “cancer-free”.",
-      "link": "https://www.nzherald.co.nz/nz/mel-homer-celebrates-major-step-forward-in-cancer-journey-as-medical-device-removed/CVDTVJTINZG6XOEMBIDAPVXH6E/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/HDDQPMGAABEUNIS3CF7U3PUI4A.png?auth=286fd897be39cee9c571231ea84500bb27c72741218c5518b07160e616f95c8d&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779346800.0,
-      "hot": false
-    },
-    {
-      "id": "2f9049c5c0",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Cambridge man dies in gardening accident months after his wife arrived in New Zealand",
-      "summary": "Police say the man had been working up a tree when the fatal accident happened.",
-      "link": "https://www.nzherald.co.nz/nz/cambridge-man-dies-in-gardening-accident-months-after-his-wife-arrived-in-new-zealand/LOHIDHFTTNBXZCAZITJ6LWW2QY/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/GWISSO2H3RFUZJTHLPHXTGV4QM.jpg?auth=4f6653bf776edbafa0a3f2ecdd0b024d70c8c128eaa6a977f7e57c796056b6d3&smart=true&width=300&height=300",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779344394.0,
-      "hot": false
-    },
-    {
-      "id": "cb083ef634",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Budget 2026: Nicola Willis issues statement expressing ‘regret’ about social housing comment",
-      "summary": "'I reached for the wrong metaphor,' Willis said of a comment she made earlier today.",
-      "link": "https://www.nzherald.co.nz/nz/politics/budget-2026-nicola-willis-issues-statement-expressing-regret-about-social-housing-comment/DKG5DIWHE5BCTNQOMVPFSALZLI/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/XA26DZHT2JCRTLXAOF5PWGSFRY.jpg?auth=366419fa4d21eec3058033e07d8b137c2394b424701f7b78fa61969b00f523bf&smart=true&width=300&height=300",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779343979.0,
-      "hot": false
-    },
-    {
-      "id": "b27aa4a29d",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "NZ First wants KiwiSaver members to help the Government buy BNZ, believes credit rating agencies wil",
-      "summary": "ANALYSIS: Party reckons rating agencies will be fine with the Govt taking out more debt.",
-      "link": "https://www.nzherald.co.nz/business/companies/banking-finance/nz-first-wants-kiwisaver-members-to-help-the-government-buy-bnz-believes-credit-rating-agencies-will-be-fine-with-debt-burden/premium/E3IQSSERPBDJPGPJERFA2HPTJ4/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/CNRHDSBD6ZCDNCQAE4MKK5VHBY.webp?auth=466b4c9f54fa2c90ed685747b11061df486ce7a5623fb514cb7471082c8f6f46&smart=true&width=300&height=300",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779343779.0,
-      "hot": false
-    },
-    {
-      "id": "b8283496e5",
-      "type": "news",
-      "region": "nz",
-      "source": "NZ Herald",
-      "lang": "en",
-      "title": "Contactless payments down on Metlink buses one month after they launched",
-      "summary": "The outage did not affect trains or ferries, which are also run by the transport provider.",
-      "link": "https://www.nzherald.co.nz/nz/wellington/contactless-payments-down-on-metlink-buses-one-month-after-they-launched/4ZTFS4SIBJBIJNM3SYYIEENEKQ/",
-      "image": "https://www.nzherald.co.nz/resizer/v2/4SXMFKCO75EBXCECABZMAYLKYI.JPG?auth=b60acdc2593ced33b6be177b36e10159abd66fd755912381efc3da7c34b37ed8&smart=true&width=300&height=300",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779343341.0,
-      "hot": false
-    },
-    {
-      "id": "ddffcab9f7",
+      "id": "3d986c719b",
       "type": "news",
       "region": "nz",
       "source": "RNZ 政治",
       "lang": "en",
-      "title": "Chamber blowback: The third law of political motion",
-      "summary": "In the interplay between government and Parliament actions spark reactions, like a political version of Newton's third law of motion.",
-      "link": "https://www.rnz.co.nz/news/political/595928/chamber-blowback-the-third-law-of-political-motion",
+      "title": "Minor parties steal spotlight from Nicola Willis' Budget",
+      "summary": "Analysis - The week leading up to Budget Day has been all about New Zealand First and ACT. Nicola Willis has seven days to wrestle the attention back.",
+      "link": "https://www.rnz.co.nz/news/political/595938/minor-parties-steal-spotlight-from-nicola-willis-budget",
       "image": null,
       "categories": [
-        "政治"
+        "本地"
       ],
       "score": 60,
       "ago": "12小时前",
-      "pub_ts": 1779335204.0,
-      "hot": false
-    },
-    {
-      "id": "0d400768fe",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "No evidence to back Luxon's claim Peters mischaracterised view of Iran, PM's office says",
-      "summary": "The prime minister said the Foreign Minister mischaracterised his view on the Iran war after their dispute made headlines.",
-      "link": "https://www.rnz.co.nz/news/political/595893/no-evidence-to-back-luxon-s-claim-peters-mischaracterised-view-of-iran-pm-s-office-says",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1779319195.0,
-      "hot": false
-    },
-    {
-      "id": "03c80f74f8",
-      "type": "news",
-      "region": "nz",
-      "source": "RNZ 政治",
-      "lang": "en",
-      "title": "Replacing public servants with AI could come with hidden costs, critics warn",
-      "summary": "The government's basic recipe for cutting the wage bill is to reduce the head-count and use of technology - but critics have a warning.",
-      "link": "https://www.rnz.co.nz/news/political/595847/replacing-public-servants-with-ai-could-come-with-hidden-costs-critics-warn",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1779315112.0,
+      "pub_ts": 1779341808.0,
       "hot": false
     }
   ]
