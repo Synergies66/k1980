@@ -1,97 +1,116 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-21T11:41:05.201930+00:00",
+  "updated_at": "2026-05-21T15:53:56.409241+00:00",
   "total": 24,
   "articles": [
     {
-      "id": "b2f8470b7e",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Inside Trump’s Pressure Campaign on Cuba, and Why Food Banks Are Getting Squeezed",
-      "summary": "Plus, Stephen Colbert’s last show.",
-      "link": "https://www.nytimes.com/2026/05/21/podcasts/the-headlines/trump-cuba-food-banks.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21theheadlines-cuba-hvtf/21theheadlines-cuba-hvtf-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "37分前",
-      "pub_ts": 1779361392.0,
-      "hot": false
-    },
-    {
-      "id": "9e7c3a643b",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Fund Puts Blanche in a Tight Spot as He Aims to Lead Justice Dept.",
-      "summary": "Once seen by some as the most conventional of President Trump’s political appointees, Todd Blanche has taken off the gloves in his new role as acting attorney general.",
-      "link": "https://www.nytimes.com/2026/05/21/us/politics/trump-fund-todd-blanche-doj.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-blanche-qmpk/20dc-blanche-qmpk-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "41分前",
-      "pub_ts": 1779361154.0,
-      "hot": false
-    },
-    {
-      "id": "472c7cb9b3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘We’ve Never Been This Bad.’ Eastern Pennsylvania Weighs Rising Costs.",
-      "summary": "With two swing districts, the region from Scranton to Allentown could decide control of the House, and voters are expressing profound economic distress.",
-      "link": "https://www.nytimes.com/2026/05/21/us/politics/pennsylvania-affordability-politics.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21nat-pa-affordability-mcwj/21nat-pa-affordability-mcwj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779358025.0,
-      "hot": false
-    },
-    {
-      "id": "80d8b37a26",
+      "id": "a22a7b5270",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Researchers say the Trump administration is finding new ways to punish science",
-      "summary": "Even with federal grants largely restored, scientists say the Trump administration is still preventing those funds from reaching them. The consequences, they say, are already becoming clear.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5828768/science-funding-cuts-nih-trump-administration",
+      "title": "Smokers in China are being chided by anti-smoking women",
+      "summary": "Many many many men smoke in China. A small but outspoken group of women are becoming anti-smoking advocates, confronting those who light up in public.",
+      "link": "https://www.npr.org/2026/05/21/g-s1-122873/smoking-cigarettes-china",
       "image": null,
       "categories": [
-        "本地"
+        "华人"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779357600.0,
+      "score": 82,
+      "ago": "39分前",
+      "pub_ts": 1779376427.0,
       "hot": false
     },
     {
-      "id": "d6c3bb62c0",
+      "id": "8b938bc8b3",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Amid allegations of abuse on Epstein's 'Zorro Ranch,' New Mexico opens new probes",
-      "summary": "Epstein owned a 10,000-acre property with a mansion. After calls by the public, the state attorney general searched the property and the state House created a \"Truth Commission.\"",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5816037/amid-allegations-of-abuse-on-epsteins-zorro-ranch-new-mexico-opens-new-probes",
+      "title": "GOP races to fund immigration enforcement. And, U.S. indicts former Cuban president",
+      "summary": "Republicans are racing to pass a $72 billion immigration enforcement package. And, the U.S. has indicted former Cuban President Raúl Castro for his alleged role in the 1996 downing of two planes.",
+      "link": "https://www.npr.org/2026/05/21/g-s1-123307/up-first-newsletter-congress-ice-border-patrol-funding-iran-war-raul-castro",
       "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1779364824.0,
+      "hot": false
+    },
+    {
+      "id": "db527ed566",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Government Moves to Spare an Unhappy Taxpayer Named Trump",
+      "summary": "No president has ever used the federal government to advance his own personal interests and those of his family and allies as expansively and openly as Mr. Trump has.",
+      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-presidents-self-dealing.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-corruption-01-hmlc/20dc-corruption-01-hmlc-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "经济"
+      ],
+      "score": 70,
+      "ago": "9分前",
+      "pub_ts": 1779378278.0,
+      "hot": false
+    },
+    {
+      "id": "d0699ad59d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A trillion dollar question: Will SpaceX's Starship launch go well?",
+      "summary": "Ahead of a much anticipated IPO, SpaceX is carrying out a critical test of its giant, stainless steel rocket. Investors will be watching closely.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5823583/spacex-starship-musk-ipo",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "27分前",
+      "pub_ts": 1779377190.0,
+      "hot": false
+    },
+    {
+      "id": "58cc4e6eab",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Walmart plans price cuts using tariff refunds as shoppers get skittish",
+      "summary": "Now that the U.S. government must refund most tariffs, Walmart says it might put its refund money toward lowering store prices. Executives say the cost of gas has shoppers increasingly under stress.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5829712/walmart-price-cuts-gas-tariff-refunds",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 70,
+      "ago": "52分前",
+      "pub_ts": 1779375671.0,
+      "hot": false
+    },
+    {
+      "id": "9dff905b5d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Permits Lawsuits Over U.S. Assets Seized by Cuba in 1960",
+      "summary": "The Trump administration backed lawsuits brought by the Havana Docks Corporation that would allow the U.S.-owned entity to get compensation for property confiscated by Fidel Castro’s regime.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/supreme-court-cuba-cruises-oil.html",
+      "image": "https://static01.nyt.com/images/2026/02/23/us/politics/00dc-scotus-cuba/00dc-scotus-cuba-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779357600.0,
+      "pub_ts": 1779374955.0,
       "hot": false
     },
     {
@@ -108,8 +127,116 @@
         "移民"
       ],
       "score": 70,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1779303485.0,
+      "hot": false
+    },
+    {
+      "id": "3e549d289b",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Fund Shows Blanche Choosing Loyalty Over Pushing Back",
+      "summary": "Once seen by some as the most conventional of President Trump’s political appointees, Todd Blanche has taken off the gloves in his new role as acting attorney general.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/trump-fund-todd-blanche-doj.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-blanche-qmpk/20dc-blanche-qmpk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779370319.0,
+      "hot": false
+    },
+    {
+      "id": "472c7cb9b3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "‘We’ve Never Been This Bad.’ Eastern Pennsylvania Weighs Rising Costs.",
+      "summary": "With two swing districts, the region from Scranton to Allentown could decide control of the House, and voters are expressing profound economic distress.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/pennsylvania-affordability-politics.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21nat-pa-affordability-mcwj/21nat-pa-affordability-mcwj-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779368757.0,
+      "hot": false
+    },
+    {
+      "id": "a2a08bcae5",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Susan Collins brings federal dollars to Maine. She's hoping that's worth it to voters",
+      "summary": "As Maine's Senate matchup is all but set, incumbent Republican Sen. Susan Collins urges voters to pick her over Democrat Graham Platner because she can fund state priorities due to her seniority.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5823448/susan-collins-maine-senate-graham-platner",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779367676.0,
+      "hot": false
+    },
+    {
+      "id": "b2f8470b7e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Inside Trump’s Pressure Campaign on Cuba, and Why Food Banks Are Getting Squeezed",
+      "summary": "Plus, Stephen Colbert’s last show.",
+      "link": "https://www.nytimes.com/2026/05/21/podcasts/the-headlines/trump-cuba-food-banks.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21theheadlines-cuba-hvtf/21theheadlines-cuba-hvtf-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779364251.0,
+      "hot": false
+    },
+    {
+      "id": "80d8b37a26",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Researchers say the Trump administration is finding new ways to punish science",
+      "summary": "Even with federal grants largely restored, scientists say the Trump administration is still preventing those funds from reaching them. The consequences, they say, are already becoming clear.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5828768/science-funding-cuts-nih-trump-administration",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779357600.0,
+      "hot": false
+    },
+    {
+      "id": "d6c3bb62c0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Amid allegations of abuse on Epstein's 'Zorro Ranch,' New Mexico opens new probes",
+      "summary": "Epstein owned a 10,000-acre property with a mansion. After calls by the public, the state attorney general searched the property and the state House created a \"Truth Commission.\"",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5816037/amid-allegations-of-abuse-on-epsteins-zorro-ranch-new-mexico-opens-new-probes",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779357600.0,
       "hot": false
     },
     {
@@ -125,45 +252,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779354054.0,
-      "hot": false
-    },
-    {
-      "id": "ba1da1100b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Even as anxieties grow under Trump, these swing voters aren't ready to back Democrats",
-      "summary": "Swing voters in North Carolina say they are frustrated with President Trump and the state of the economy, but aren't ready to abandon him or his party as the midterms inch closer.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5828924/north-carolina-swing-voter-focus-group",
-      "image": null,
-      "categories": [
-        "经济"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779354000.0,
-      "hot": false
-    },
-    {
-      "id": "4f274575e3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "COVID is shaping Americans' reaction to Ebola and hantavirus",
-      "summary": "Some Americans seem to be extra-alarmed about Ebola and hantavirus in the wake of COVID-19. But public health experts say they don't expect another pandemic this time.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5825891/hantavirus-ebola-covid-pandemic-virus",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779354000.0,
       "hot": false
     },
     {
@@ -179,46 +270,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779354000.0,
-      "hot": false
-    },
-    {
-      "id": "b74e18e5d6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Spencer Pratt is 'winning the internet,' but can he become mayor of Los Angeles?",
-      "summary": "Pratt, a former reality TV star, is flooding social media with edgy humor, AI slop and combative rhetoric as a way of grabbing attention and winning the vote of the very online. It's a strategy some p",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5827724/spencer-pratt-los-angeles-mayor-ai-slop-manosphere",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779354000.0,
-      "hot": false
-    },
-    {
-      "id": "adfb2c2f08",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "The Education Department is hiring — while it's being dismantled",
-      "summary": "The Federal Student Aid office lost half its staff last year as part of Trump administration downsizing. Now, it's hiring hundreds of new workers.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5820922/education-department-firings-now-hiring",
-      "image": null,
-      "categories": [
-        "教育",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779354000.0,
       "hot": false
     },
@@ -226,7 +279,7 @@
       "id": "3eb20e5208",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "As floods get worse, Britain tries a new solution: beavers",
       "summary": "About 400 years ago, beavers were hunted to extinction across Britain. Now they're being reintroduced as little climate warriors, as communities harness their dam-building skills to mitigate flooding.",
@@ -236,8 +289,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779354000.0,
       "hot": false
     },
@@ -254,8 +307,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779352878.0,
       "hot": false
     },
@@ -273,8 +326,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779344992.0,
       "hot": false
     },
@@ -292,8 +345,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779343808.0,
       "hot": false
     },
@@ -311,7 +364,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1779336060.0,
       "hot": false
     },
@@ -329,8 +382,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779335615.0,
+      "ago": "12小时前",
+      "pub_ts": 1779335616.0,
       "hot": false
     },
     {
@@ -347,45 +400,8 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779330048.0,
-      "hot": false
-    },
-    {
-      "id": "db527ed566",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Government Moves to Spare an Unhappy Taxpayer Named Trump",
-      "summary": "No president has ever used the federal government to advance his own personal interests and those of his family and allies as expansively and openly as Mr. Trump has.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-presidents-self-dealing.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-corruption-01-hmlc/20dc-corruption-01-hmlc-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779319590.0,
-      "hot": false
-    },
-    {
-      "id": "c9aa00cd5c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Gets His Payback in Primary Elections, but It Comes at a Cost in Congress",
-      "summary": "Republican senators are angry the president is working to unseat their colleagues. But he is also creating more free agents in his own party in Congress willing to defy him.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-republicans-congress.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-senate-trump-thcl/20dc-senate-trump-thcl-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
       "ago": "13小时前",
-      "pub_ts": 1779315156.0,
+      "pub_ts": 1779330048.0,
       "hot": false
     },
     {
@@ -402,26 +418,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "14小时前",
+      "ago": "18小时前",
       "pub_ts": 1779310925.0,
-      "hot": false
-    },
-    {
-      "id": "3baff4907b",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "U.S. grand jury indicts Raúl Castro, former Cuban president",
-      "summary": "The 94-year-old former leader of Cuba faces several charges, including four counts of murder for an attack on a humanitarian group more than 30 years ago.",
-      "link": "https://www.npr.org/2026/05/20/g-s1-122383/us-cuba-raul-castro-indictment",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1779299597.0,
       "hot": false
     },
     {
