@@ -1,8 +1,8 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-21T15:53:56.409241+00:00",
-  "total": 24,
+  "updated_at": "2026-05-21T18:17:02.459570+00:00",
+  "total": 23,
   "articles": [
     {
       "id": "a22a7b5270",
@@ -17,9 +17,63 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "39分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1779376427.0,
+      "hot": false
+    },
+    {
+      "id": "0c6542fd9c",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Abortion pills \"just in case\"? Planned Parenthood will offer them in two states",
+      "summary": "In Washington state and Hawaii, residents can now get mifepristone and misoprostol from Planned Parenthood to keep in their cabinets in case they need to end a pregnancy at a later time.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5827444/abortion-pills-mifepristone-misoprostol-planned-parenthood-advance-provision",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "47分前",
+      "pub_ts": 1779384575.0,
+      "hot": false
+    },
+    {
+      "id": "2651c16539",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Federal Panel Approves Trump’s Plans for a 250-foot Arch in Washington",
+      "summary": "The panel, whose members were selected by President Trump, has an advisory role on the design of the project but no enforcement power.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/trump-arch-approved.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/us/21dc-arch/21dc-arch-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779383008.0,
+      "hot": false
+    },
+    {
+      "id": "326ab5a619",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Forecasters expect slightly fewer hurricanes than usual this year, but the risk of destructive storm",
+      "summary": "Forecasters expect 8 to 14 storms will form in the Atlantic between June 1 and November 30. But the danger is more serious than the numbers suggest.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5810607/2026-atlantic-hurricane-season-forecast-trump-fema-climate",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779382601.0,
       "hot": false
     },
     {
@@ -35,82 +89,9 @@
       "categories": [
         "移民"
       ],
-      "score": 75,
-      "ago": "3小时前",
+      "score": 70,
+      "ago": "6小时前",
       "pub_ts": 1779364824.0,
-      "hot": false
-    },
-    {
-      "id": "db527ed566",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Government Moves to Spare an Unhappy Taxpayer Named Trump",
-      "summary": "No president has ever used the federal government to advance his own personal interests and those of his family and allies as expansively and openly as Mr. Trump has.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-presidents-self-dealing.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-corruption-01-hmlc/20dc-corruption-01-hmlc-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "经济"
-      ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1779378278.0,
-      "hot": false
-    },
-    {
-      "id": "d0699ad59d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A trillion dollar question: Will SpaceX's Starship launch go well?",
-      "summary": "Ahead of a much anticipated IPO, SpaceX is carrying out a critical test of its giant, stainless steel rocket. Investors will be watching closely.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5823583/spacex-starship-musk-ipo",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 70,
-      "ago": "27分前",
-      "pub_ts": 1779377190.0,
-      "hot": false
-    },
-    {
-      "id": "58cc4e6eab",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Walmart plans price cuts using tariff refunds as shoppers get skittish",
-      "summary": "Now that the U.S. government must refund most tariffs, Walmart says it might put its refund money toward lowering store prices. Executives say the cost of gas has shoppers increasingly under stress.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5829712/walmart-price-cuts-gas-tariff-refunds",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 70,
-      "ago": "52分前",
-      "pub_ts": 1779375671.0,
-      "hot": false
-    },
-    {
-      "id": "9dff905b5d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Supreme Court Permits Lawsuits Over U.S. Assets Seized by Cuba in 1960",
-      "summary": "The Trump administration backed lawsuits brought by the Havana Docks Corporation that would allow the U.S.-owned entity to get compensation for property confiscated by Fidel Castro’s regime.",
-      "link": "https://www.nytimes.com/2026/05/21/us/politics/supreme-court-cuba-cruises-oil.html",
-      "image": "https://static01.nyt.com/images/2026/02/23/us/politics/00dc-scotus-cuba/00dc-scotus-cuba-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779374955.0,
       "hot": false
     },
     {
@@ -127,8 +108,116 @@
         "移民"
       ],
       "score": 70,
-      "ago": "20小时前",
+      "ago": "23小时前",
       "pub_ts": 1779303485.0,
+      "hot": false
+    },
+    {
+      "id": "862c503127",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "After the sirens: Lebanon's first responders swing between duty and grief",
+      "summary": "Nearly 3,000 people have been killed and nearly 1 million have been displaced the war in southern Lebanon began in March. Nearly 400 have been killed since a ceasefire began in April.",
+      "link": "https://www.npr.org/sections/the-picture-show/2026/05/21/nx-s1-5821157/lebanons-first-responders-balance-duty-and-grief",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779380006.0,
+      "hot": false
+    },
+    {
+      "id": "5e14445989",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s $1.8 Billion Fund in the Cross Hairs",
+      "summary": "Critics say the deal creates a “slush fund,” a term with a colorful maritime history.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/the-docket-trump-fund.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/us/21thedocket-nl-top/21thedocket-nl-top-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779379279.0,
+      "hot": false
+    },
+    {
+      "id": "d0699ad59d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A trillion dollar question: Will SpaceX's Starship launch go well?",
+      "summary": "Ahead of a much anticipated IPO, SpaceX is carrying out a critical test of its giant, stainless steel rocket. Investors will be watching closely.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5823583/spacex-starship-musk-ipo",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779377190.0,
+      "hot": false
+    },
+    {
+      "id": "58cc4e6eab",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Walmart plans price cuts using tariff refunds as shoppers get skittish",
+      "summary": "Now that the U.S. government must refund most tariffs, Walmart says it might put its refund money toward lowering store prices. Executives say the cost of gas has shoppers increasingly under stress.",
+      "link": "https://www.npr.org/2026/05/21/nx-s1-5829712/walmart-price-cuts-gas-tariff-refunds",
+      "image": null,
+      "categories": [
+        "政治"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779375671.0,
+      "hot": false
+    },
+    {
+      "id": "9dff905b5d",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Supreme Court Permits Lawsuits Over U.S. Assets Seized by Cuba in 1960",
+      "summary": "The Trump administration backed lawsuits brought by the Havana Docks Corporation that would allow the U.S.-owned entity to get compensation for property confiscated by Fidel Castro’s regime.",
+      "link": "https://www.nytimes.com/2026/05/21/us/politics/supreme-court-cuba-cruises-oil.html",
+      "image": "https://static01.nyt.com/images/2026/02/23/us/politics/00dc-scotus-cuba/00dc-scotus-cuba-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779374955.0,
+      "hot": false
+    },
+    {
+      "id": "8641a89e24",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "In Blackout-Hit Cuba, Word of U.S. Castro Indictment Spreads Slowly",
+      "summary": "While many Cubans were divided over the legitimacy of the U.S. charging Raúl Castro with murder, the hope for developments that might ease their suffering is widespread.",
+      "link": "https://www.nytimes.com/2026/05/20/world/americas/cuba-reaction-castro-indictment.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/2int-cuba-reax-02-alt-kbjw/2int-cuba-reax-02-alt-kbjw-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779372580.0,
       "hot": false
     },
     {
@@ -145,26 +234,8 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "4小时前",
       "pub_ts": 1779370319.0,
-      "hot": false
-    },
-    {
-      "id": "472c7cb9b3",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘We’ve Never Been This Bad.’ Eastern Pennsylvania Weighs Rising Costs.",
-      "summary": "With two swing districts, the region from Scranton to Allentown could decide control of the House, and voters are expressing profound economic distress.",
-      "link": "https://www.nytimes.com/2026/05/21/us/politics/pennsylvania-affordability-politics.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21nat-pa-affordability-mcwj/21nat-pa-affordability-mcwj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779368757.0,
       "hot": false
     },
     {
@@ -181,62 +252,44 @@
         "科技"
       ],
       "score": 65,
-      "ago": "3小时前",
+      "ago": "5小时前",
       "pub_ts": 1779367676.0,
       "hot": false
     },
     {
-      "id": "b2f8470b7e",
+      "id": "be43618f85",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Inside Trump’s Pressure Campaign on Cuba, and Why Food Banks Are Getting Squeezed",
-      "summary": "Plus, Stephen Colbert’s last show.",
-      "link": "https://www.nytimes.com/2026/05/21/podcasts/the-headlines/trump-cuba-food-banks.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21theheadlines-cuba-hvtf/21theheadlines-cuba-hvtf-mediumSquareAt3X.jpg",
+      "title": "Stephen Colbert’s Final ‘Late Show’ Marks the End of an Era",
+      "summary": "Stephen Colbert’s “Colbert Report” satirized politics. Then his “Late Show” confronted a moment when politics became self-satirizing.",
+      "link": "https://www.nytimes.com/2026/05/21/arts/television/stephen-colbert-late-show-ending-cbs.html",
+      "image": "https://static01.nyt.com/images/2026/05/15/multimedia/00cul-colbert-notebook-cwpq/00cul-colbert-notebook-cwpq-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779361643.0,
+      "hot": false
+    },
+    {
+      "id": "70006ecc16",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Experimental Drug Yields Dramatic Weight Loss",
+      "summary": "People who got the injection, retatrutide, lost 28 percent of their body weight on average after 80 weeks, Eli Lilly said.",
+      "link": "https://www.nytimes.com/2026/05/21/science/retatrutide-weight-loss-drug.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/science/21ci-obesity-drug/21ci-obesity-drug-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779364251.0,
-      "hot": false
-    },
-    {
-      "id": "80d8b37a26",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Researchers say the Trump administration is finding new ways to punish science",
-      "summary": "Even with federal grants largely restored, scientists say the Trump administration is still preventing those funds from reaching them. The consequences, they say, are already becoming clear.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5828768/science-funding-cuts-nih-trump-administration",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779357600.0,
-      "hot": false
-    },
-    {
-      "id": "d6c3bb62c0",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Amid allegations of abuse on Epstein's 'Zorro Ranch,' New Mexico opens new probes",
-      "summary": "Epstein owned a 10,000-acre property with a mansion. After calls by the public, the state attorney general searched the property and the state House created a \"Truth Commission.\"",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5816037/amid-allegations-of-abuse-on-epsteins-zorro-ranch-new-mexico-opens-new-probes",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779357600.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779360305.0,
       "hot": false
     },
     {
@@ -253,26 +306,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779354054.0,
-      "hot": false
-    },
-    {
-      "id": "981e9c6658",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A guide to converting your lawn into a wildlife friendly garden",
-      "summary": "Turning your grass into a garden isn't as complicated as you think, but it will take time and effort. This step-by-step guide breaks down the process, from killing your lawn to picking plants to grow.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5821165/a-guide-to-converting-your-lawn-into-a-wildlife-friendly-garden",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779354000.0,
       "hot": false
     },
     {
@@ -290,26 +325,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779354000.0,
-      "hot": false
-    },
-    {
-      "id": "647230c46c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Aid cuts may have slowed identification of current Ebola outbreak",
-      "summary": "The Ebola outbreak in eastern Africa was announced last week, then quickly declared an emergency by the WHO. It's likely cuts in U.S. aid to the DRC contributed to a delay in identifying the outbreak.",
-      "link": "https://www.npr.org/2026/05/21/nx-s1-5828951/aid-cuts-may-have-contributed-to-delay-in-identifying-current-ebola-outbreak",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "7小时前",
-      "pub_ts": 1779352878.0,
       "hot": false
     },
     {
@@ -327,7 +344,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "11小时前",
       "pub_ts": 1779344992.0,
       "hot": false
     },
@@ -346,7 +363,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779343808.0,
       "hot": false
     },
@@ -364,44 +381,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "14小时前",
       "pub_ts": 1779336060.0,
-      "hot": false
-    },
-    {
-      "id": "867c8baece",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Colorado Governor Censured for Commuting Sentence of Election Denier",
-      "summary": "The Colorado State Democratic Party, reflecting the anger of rank-and-file Democratic voters, rebuked Gov. Jared Polis on Wednesday over his decision to release Tina Peters from prison.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/colorado-governor-polis-tina-peters.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20nat-polis-1-bthl/20nat-polis-1-bthl-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779335616.0,
-      "hot": false
-    },
-    {
-      "id": "8b9e825284",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How the $1.8 Billion Trump Fund May Violate Past Practice and Policy",
-      "summary": "The fund that could offer payouts to Trump allies who accuse the government of mistreatment is not only highly unusual but also appears to violate the administration’s own policies.",
-      "link": "https://www.nytimes.com/2026/05/20/us/politics/trump-fund-explainer.html",
-      "image": "https://static01.nyt.com/images/2026/05/20/multimedia/20dc-explainer-jkzc/20dc-explainer-jkzc-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1779330048.0,
       "hot": false
     },
     {
@@ -418,7 +399,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "18小时前",
+      "ago": "21小时前",
       "pub_ts": 1779310925.0,
       "hot": false
     },
