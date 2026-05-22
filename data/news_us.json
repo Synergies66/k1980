@@ -1,25 +1,99 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-22T11:21:50.027059+00:00",
+  "updated_at": "2026-05-22T15:28:22.180003+00:00",
   "total": 24,
   "articles": [
     {
-      "id": "fa743c7547",
+      "id": "12f190b8ab",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Trump Faces Rare G.O.P. Revolt, and Democrats Mock Their Own Party’s Report",
-      "summary": "Plus, the Friday news quiz.",
-      "link": "https://www.nytimes.com/2026/05/22/podcasts/the-headlines/trump-republicans-democrats-report.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22theheadlines-republicans-wgkc/22theheadlines-republicans-wgkc-mediumSquareAt3X.jpg",
+      "title": "The aftermath of Trump-Xi summit: comparing U.S. and China announcements",
+      "summary": "Analysts say a comparison of the readouts issued by the U.S. and China reveals \"minor inconsistencies\" on issues such as agriculture, tariffs and rare earths. But, experts argue, those differences are",
+      "link": "https://www.npr.org/2026/05/22/g-s1-123647/comparing-u-s-and-china-announcements",
+      "image": null,
+      "categories": [
+        "华人"
+      ],
+      "score": 77,
+      "ago": "3小时前",
+      "pub_ts": 1779449977.0,
+      "hot": false
+    },
+    {
+      "id": "3d95537df9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "GOP senators delay immigration funding. And, what to expect this hurricane season",
+      "summary": "Congressional Republicans left for recess without passing Trump's top immigration enforcement package. And, forecasters are predicting fewer storms than average for the 2026 hurricane season.",
+      "link": "https://www.npr.org/2026/05/22/g-s1-123649/up-first-newsletter-gop-trump-legislation-dnc-2024-hurricane-season-predictions-abortion-rights",
+      "image": null,
+      "categories": [
+        "移民",
+        "天气"
+      ],
+      "score": 75,
+      "ago": "3小时前",
+      "pub_ts": 1779450594.0,
+      "hot": false
+    },
+    {
+      "id": "78e50a2157",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Drive slower, go electric, don't drive at all? The best options for saving gas",
+      "summary": "The national average for a gallon of gasoline is $4.55, as America heads into one of the busiest travel weekends of the year. What can you do to cut your costs?",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5831223/memorial-day-gas-prices-save-money-iran",
+      "image": null,
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779444006.0,
+      "pub_ts": 1779460021.0,
+      "hot": false
+    },
+    {
+      "id": "3355809eff",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Rise, Oil Prices Wobble on Impasse Over Reopening Strait of Hormuz",
+      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
+      "link": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779457362.0,
+      "hot": false
+    },
+    {
+      "id": "4f33f4ea07",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Asian Currencies Hit by Iran War, Adding to Economic Strain",
+      "summary": "Soaring oil prices and a surging dollar are testing Asia’s foreign-exchange reserves, which were built up after the 1997 crisis.",
+      "link": "https://www.nytimes.com/2026/05/22/business/asia-currency-iran-dollar.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/00Biz-Asia-Currencies-01-vgwk/00Biz-Asia-Currencies-01-vgwk-mediumSquareAt3X.jpg",
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779457104.0,
       "hot": false
     },
     {
@@ -36,63 +110,26 @@
         "移民"
       ],
       "score": 70,
-      "ago": "16小时前",
+      "ago": "20小时前",
       "pub_ts": 1779389374.0,
       "hot": false
     },
     {
-      "id": "8b938bc8b3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "GOP races to fund immigration enforcement. And, U.S. indicts former Cuban president",
-      "summary": "Republicans are racing to pass a $72 billion immigration enforcement package. And, the U.S. has indicted former Cuban President Raúl Castro for his alleged role in the 1996 downing of two planes.",
-      "link": "https://www.npr.org/2026/05/21/g-s1-123307/up-first-newsletter-congress-ice-border-patrol-funding-iran-war-raul-castro",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 70,
-      "ago": "23小时前",
-      "pub_ts": 1779364824.0,
-      "hot": false
-    },
-    {
-      "id": "970751390c",
+      "id": "fa743c7547",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Oil Prices Jump on Impasse Over Reopening the Strait of Hormuz",
-      "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
-      "link": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
-      "image": null,
+      "title": "Trump Faces Rare G.O.P. Revolt, and Democrats Mock Their Own Party’s Report",
+      "summary": "Plus, the Friday news quiz.",
+      "link": "https://www.nytimes.com/2026/05/22/podcasts/the-headlines/trump-republicans-democrats-report.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22theheadlines-republicans-wgkc/22theheadlines-republicans-wgkc-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779441117.0,
-      "hot": false
-    },
-    {
-      "id": "cd521186bd",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Warsh to Take Charge of Fed Facing Rising Inflation Threat",
-      "summary": "The economic backdrop that Kevin M. Warsh inherits as chair of the Federal Reserve does not call for the interest rate cuts that President Trump wants.",
-      "link": "https://www.nytimes.com/2026/05/22/us/politics/kevin-warsh-federal-reserve-swearing-in.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21dc-warsh-fwvp/21dc-warsh-fwvp-mediumSquareAt3X.jpg",
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779440511.0,
+      "ago": "3小时前",
+      "pub_ts": 1779449938.0,
       "hot": false
     },
     {
@@ -108,9 +145,45 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779440460.0,
+      "hot": false
+    },
+    {
+      "id": "4047f4a0cd",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "With Deals Booming and Regulations Lightened, Bankers Are Back on Top",
+      "summary": "They played second fiddle to private equity and hedge funds for years, but 2026 is shaping up to be “the year of the bank,” one consultant said.",
+      "link": "https://www.nytimes.com/2026/05/22/business/banks-deals-profits.html",
+      "image": "https://static01.nyt.com/images/2026/05/20/business/00banksontop-sub/00banksontop-sub-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779440440.0,
+      "hot": false
+    },
+    {
+      "id": "a9efd87f9d",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "A stranger's compliment helped her feel confident after chemo",
+      "summary": "When Pat Gentile began to grow out her hair after chemotherapy, she was nervous to go to work for the first time without a wig. An unexpected encounter with a convenience store stranger changed that.",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5825045/stranger-compliment-helped-feel-confident-chemo-my-unsung-hero",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779440400.0,
       "hot": false
     },
     {
@@ -126,8 +199,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779440400.0,
       "hot": false
     },
@@ -145,26 +218,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779440400.0,
-      "hot": false
-    },
-    {
-      "id": "a9efd87f9d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A stranger's compliment helped her feel confident after chemo",
-      "summary": "When Pat Gentile began to grow out her hair after chemotherapy, she was nervous to go to work for the first time without a wig. An unexpected encounter with a convenience store stranger changed that.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5825045/stranger-compliment-helped-feel-confident-chemo-my-unsung-hero",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779440400.0,
       "hot": false
     },
@@ -181,27 +236,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779439854.0,
-      "hot": false
-    },
-    {
-      "id": "5438861d05",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Morning news brief",
-      "summary": "Senate breaks for recess, delaying vote on ICE funding, DNC releases 'autopsy' of 2024 presidential election, a look at Trump's political -- and personal -- interest in Cuba.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5820720/morning-news-brief",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779439486.0,
       "hot": false
     },
     {
@@ -217,34 +254,16 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779439381.0,
-      "hot": false
-    },
-    {
-      "id": "1a5cdb64e3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'That's Aaron's redbud': Father remembers son with tree planted in his honor",
-      "summary": "A father talks about the tree in his front yard that honors the memory of his son who was killed in Afghanistan.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5829842/thats-aarons-redbud-father-remembers-son-with-tree-planted-in-his-honor",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779439377.0,
       "hot": false
     },
     {
       "id": "ef5c533fb3",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "UN gravely concerned by an Afghan Taliban law that has provisions on child marriage",
       "summary": "The United Nations expressed \"grave concern\" on Thursday about a new law issued by Afghanistan's Taliban government on separation in marriage which includes provisions on child marriage.",
@@ -253,8 +272,8 @@
       "categories": [
         "政治"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779428907.0,
       "hot": false
     },
@@ -271,8 +290,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779428905.0,
       "hot": false
     },
@@ -289,8 +308,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779427382.0,
       "hot": false
     },
@@ -310,26 +329,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "13小时前",
       "pub_ts": 1779414776.0,
-      "hot": false
-    },
-    {
-      "id": "7f72b55c09",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Audit Immunity for Trump Family Puts I.R.S. in a Bind",
-      "summary": "Federal law prohibits the Internal Revenue Service from halting an audit at the direction of the president or his aides.",
-      "link": "https://www.nytimes.com/2026/05/21/business/trump-irs-audit-immunity.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21dc-irs-jqhz/21dc-irs-jqhz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779411293.0,
       "hot": false
     },
     {
@@ -346,7 +347,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1779407206.0,
       "hot": false
     },
@@ -364,7 +365,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "11小时前",
+      "ago": "16小时前",
       "pub_ts": 1779405758.0,
       "hot": false
     },
@@ -383,7 +384,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "17小时前",
       "pub_ts": 1779401615.0,
       "hot": false
     },
@@ -401,7 +402,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "18小时前",
       "pub_ts": 1779398545.0,
       "hot": false
     },
@@ -419,7 +420,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1779380006.0,
       "hot": false
     },
