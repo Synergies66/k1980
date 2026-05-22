@@ -1,9 +1,28 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-22T18:11:43.968937+00:00",
+  "updated_at": "2026-05-22T21:39:46.206001+00:00",
   "total": 24,
   "articles": [
+    {
+      "id": "6844b65a7e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Green Card Seekers Must Leave U.S. to Apply, Trump Administration Says",
+      "summary": "The change is likely to affect hundreds of thousands of people. It could also lead to more family separations as spouses or relatives wait for application decisions, immigration lawyers said.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-green-cards-vwmf/22dc-green-cards-vwmf-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1779481715.0,
+      "hot": false
+    },
     {
       "id": "12f190b8ab",
       "type": "news",
@@ -18,35 +37,107 @@
         "华人"
       ],
       "score": 72,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779449977.0,
       "hot": false
     },
     {
-      "id": "69b249e918",
+      "id": "6606d75a4b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Regional Mediators Rush to Save U.S.-Iran Cease-Fire",
-      "summary": "Pakistan and Qatar have dispatched teams to Tehran under the looming threat of resumed war, after weeks of diplomacy failed to produce an agreement.",
-      "link": "https://www.nytimes.com/2026/05/22/world/middleeast/iran-ceasefire-us-qatar-pakistan.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22int-iran-talks-photo-pczv/22int-iran-talks-photo-pczv-mediumSquareAt3X.jpg",
+      "title": "Mahmoud Khalil to Appeal to Supreme Court in Effort to Halt Deportation",
+      "summary": "The move was expected to come after a federal appeals court on Friday ruled against Mr. Khalil, who became the face of President Trump’s crackdown on pro-Palestinian protesters.",
+      "link": "https://www.nytimes.com/2026/05/22/nyregion/mahmoud-khalil-supreme-court.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22met-khalil-jgqz/22met-khalil-jgqz-mediumSquareAt3X.jpg",
       "categories": [
         "科技"
       ],
       "score": 70,
-      "ago": "36分前",
-      "pub_ts": 1779471279.0,
+      "ago": "5分前",
+      "pub_ts": 1779485634.0,
       "hot": false
     },
     {
-      "id": "b4f273df66",
+      "id": "44791f5a0b",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Stocks and Oil Prices Tick Up Amid Impasse Over Reopening Strait of Hormuz",
+      "title": "White House Approves $9 Billion for Spy Agencies to Catch Up on A.I.",
+      "summary": "The C.I.A. and N.S.A. cannot fully deploy the latest models on their classified systems because of a shortage of cutting-edge chips.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/spy-agencies-ai-chips-shortage.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21dc-intel-ai-fbkc/21dc-intel-ai-fbkc-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "12分前",
+      "pub_ts": 1779485249.0,
+      "hot": false
+    },
+    {
+      "id": "24c4b829af",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Federal judge dismisses criminal charges against Kilmar Abrego Garcia",
+      "summary": "U.S. District Judge Waverly Crenshaw accused the Justice Department of conducting a vindictive prosecution against the Salvadoran man.",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5831958/federal-judge-dismisses-criminal-charges-against-kilmar-abrego-garcia",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "26分前",
+      "pub_ts": 1779484409.0,
+      "hot": false
+    },
+    {
+      "id": "100227b175",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "DHS says ICE has 'no relationship' with spyware maker Paragon Solutions",
+      "summary": "The Department of Homeland Security says ICE has no current contract or relationship with the company, but questions remain about ICE's use of commercial spyware.",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5831577/dhs-ice-spyware-paragon",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779481856.0,
+      "hot": false
+    },
+    {
+      "id": "f84c1df4a5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "G.O.P. Break With Trump Reflects Limits of Party’s Post-Jan. 6 Truce",
+      "summary": "Republicans, seeing President Trump’s personal agenda diverging from their political interests, vented their outrage about paying those who threatened their lives on Jan. 6, 2021.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/republicans-congress-senate-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-cong-memo-top-mtqk/22dc-cong-memo-top-mtqk-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779481747.0,
+      "hot": false
+    },
+    {
+      "id": "e540890238",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Stocks Gain for 8th Week Amid Impasse Over Reopening Strait of Hormuz",
       "summary": "Nearly three months since the fighting began, disagreements remain over the fate of Iran’s uranium stockpile and transit fees for the Strait of Hormuz.",
       "link": "https://www.nytimes.com/2026/05/22/business/oil-stocks-bonds-gas.html",
       "image": null,
@@ -54,26 +145,26 @@
         "科技"
       ],
       "score": 70,
-      "ago": "50分前",
-      "pub_ts": 1779470456.0,
+      "ago": "1小时前",
+      "pub_ts": 1779481681.0,
       "hot": false
     },
     {
-      "id": "f92bbc9baa",
+      "id": "598564060c",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Disconnect Widens Between Mamdani and Pro-Israel Jewish Leaders",
-      "summary": "In recent days, Mayor Zohran Mamdani has taken actions that have made the relationship between his office and some Jewish New York leaders more fraught.",
-      "link": "https://www.nytimes.com/2026/05/22/nyregion/mamdani-jews-relationship.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22met-mamdani-jews-01-qwcf/22met-mamdani-jews-01-qwcf-mediumSquareAt3X.jpg",
+      "title": "Judge Dismisses Criminal Case Against Kilmar Armando Abrego Garcia",
+      "summary": "The move deals an embarrassing blow to the Trump administration, which made the Maryland man, Kilmar Armando Abrego Garcia, the face of its deportation campaign.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/abrego-garcia-case-dismissed-trump-administration.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-Abrego-Garcia-qlft/22dc-Abrego-Garcia-qlft-mediumSquareAt3X.jpg",
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 70,
-      "ago": "54分前",
-      "pub_ts": 1779470240.0,
+      "ago": "1小时前",
+      "pub_ts": 1779478853.0,
       "hot": false
     },
     {
@@ -91,26 +182,62 @@
         "天气"
       ],
       "score": 70,
-      "ago": "6小时前",
+      "ago": "9小时前",
       "pub_ts": 1779450594.0,
       "hot": false
     },
     {
-      "id": "66eb7c750a",
+      "id": "69b249e918",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NYT 头条",
       "lang": "en",
-      "title": "Palestinians drop bid for a senior U.N. role after U.S. pressure",
-      "summary": "The Palestinian delegation to the United Nations has dropped its bid to secure a top U.N. job after the U.S. threatens to revoke their visas.",
-      "link": "https://www.npr.org/2026/05/21/g-s1-123450/us-palestinians-united-nations-general-assembly",
+      "title": "Regional Mediators Rush to Save U.S.-Iran Cease-Fire",
+      "summary": "Pakistan and Qatar have dispatched teams to Iran under the looming threat of resumed war, after weeks of diplomacy failed to produce an agreement.",
+      "link": "https://www.nytimes.com/2026/05/22/world/middleeast/iran-ceasefire-us-qatar-pakistan.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22int-iran-talks-photo-pczv/22int-iran-talks-photo-pczv-mediumSquareAt3X.jpg",
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779478402.0,
+      "hot": false
+    },
+    {
+      "id": "afba77154b",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Ask AI or just Google it? Google makes a big change to a little search box",
+      "summary": "The search giant is updating its famously minimalist homepage. But what looks like a tiny design change is a very big deal.",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5829915/google-search-box-ai",
       "image": null,
       "categories": [
-        "移民"
+        "科技"
       ],
-      "score": 70,
-      "ago": "23小时前",
-      "pub_ts": 1779389374.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779476725.0,
+      "hot": false
+    },
+    {
+      "id": "04e8140477",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Gabbard resigns as national intelligence director citing husband's cancer diagnosis",
+      "summary": "Gabbard is the latest in a series of Cabinet officials to leave the Trump administration.",
+      "link": "https://www.npr.org/2026/05/22/nx-s1-5440533/gabbard-resigns-as-national-intelligence-director-citing-husbands-cancer-diagnosis",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779474312.0,
       "hot": false
     },
     {
@@ -127,8 +254,26 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1779464520.0,
+      "hot": false
+    },
+    {
+      "id": "66eb7c750a",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Palestinians drop bid for a senior U.N. role after U.S. pressure",
+      "summary": "The Palestinian delegation to the United Nations has dropped its bid to secure a top U.N. job after the U.S. threatens to revoke their visas.",
+      "link": "https://www.npr.org/2026/05/21/g-s1-123450/us-palestinians-united-nations-general-assembly",
+      "image": null,
+      "categories": [
+        "移民"
+      ],
+      "score": 65,
+      "ago": "昨日",
+      "pub_ts": 1779389374.0,
       "hot": false
     },
     {
@@ -144,8 +289,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779464205.0,
       "hot": false
     },
@@ -162,82 +307,9 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779460021.0,
-      "hot": false
-    },
-    {
-      "id": "8c1d5c14fd",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "What is the 'tarps off' trend that men are engaging in? Find out in the quiz",
-      "summary": "Plus: The L.A. mayoral race, AI court battles, extinct animals and Eurovision!",
-      "link": "https://www.npr.org/2026/05/22/g-s1-123264/musk-altman-trump-science-animals-eurovision-news-quiz",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779440460.0,
-      "hot": false
-    },
-    {
-      "id": "a9efd87f9d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A stranger's compliment helped her feel confident after chemo",
-      "summary": "When Pat Gentile began to grow out her hair after chemotherapy, she was nervous to go to work for the first time without a wig. An unexpected encounter with a convenience store stranger changed that.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5825045/stranger-compliment-helped-feel-confident-chemo-my-unsung-hero",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779440400.0,
-      "hot": false
-    },
-    {
-      "id": "6398d53fcc",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'We'll never know if he could have been saved.' The gaps in Trump's rural health fund",
-      "summary": "Republicans promise that $50 billion in new health funding will help rural America. But it's not expected to aid the years-long effort in North Carolina's Martin County to reopen its only hospital.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5821038/rural-health-hospitals-50-billion-big-beautiful-bill-obbba",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779440400.0,
-      "hot": false
-    },
-    {
-      "id": "37b211c840",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "As voters prioritize cost of living, focus on abortion evolves in midterm elections",
-      "summary": "There's been a shift in attention in the party ahead of the midterms as voters rank affordability the top issue. That raises questions about what an evolving message on reproductive rights looks like.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5806338/abortion-democrats-midterm-elections-messaging-affordability-mifepristone",
-      "image": null,
-      "categories": [
-        "政治",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779440400.0,
       "hot": false
     },
     {
@@ -254,7 +326,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "12小时前",
       "pub_ts": 1779439381.0,
       "hot": false
     },
@@ -272,7 +344,7 @@
         "政治"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779428907.0,
       "hot": false
     },
@@ -290,7 +362,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779428905.0,
       "hot": false
     },
@@ -301,71 +373,15 @@
       "source": "NPR 世界",
       "lang": "en",
       "title": "Rubio doubtful of diplomacy with Cuba as Trump raises new threat of military action",
-      "summary": "President Donald Trump and America's top diplomat on Thursday again raised the specter of U.S. military intervention in Cuba, a day after the administration announced criminal charges against the isla",
+      "summary": "President Trump and America's top diplomat on Thursday again raised the specter of U.S. military intervention in Cuba, a day after the administration announced criminal charges against the island's fo",
       "link": "https://www.npr.org/2026/05/22/nx-s1-5830999/rubio-diplomacy-cuba-trump-military-action",
       "image": null,
       "categories": [
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779427382.0,
-      "hot": false
-    },
-    {
-      "id": "82d72572ed",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Iran and Oman in Talks Over Strait of Hormuz Ship Payment System",
-      "summary": "The discussions suggest that the United States and the Iranian government may not be close to reaching a deal to end a war that has badly damaged the global economy.",
-      "link": "https://www.nytimes.com/2026/05/21/world/middleeast/iran-strait-of-hormuz-tolls.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21int-rubio-tolls-gzmt/21int-rubio-tolls-gzmt-mediumSquareAt3X-v2.jpg",
-      "categories": [
-        "政治",
-        "经济",
-        "科技"
-      ],
-      "score": 60,
       "ago": "16小时前",
-      "pub_ts": 1779414776.0,
-      "hot": false
-    },
-    {
-      "id": "8ebb74dedc",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "In a Rarity, Republicans Stand Up to Trump",
-      "summary": "President Trump faced a wall of opposition from Senate G.O.P. lawmakers, in part over his plan to create a $1.8 billion fund to reward his allies.",
-      "link": "https://www.nytimes.com/2026/05/21/us/politics/senate-republicans-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21dc-trump-gop-jlbc/21dc-trump-gop-jlbc-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1779407206.0,
-      "hot": false
-    },
-    {
-      "id": "3d83efc765",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "GOP Pulls Measure on Trump’s War Powers in Iran, Lacking Votes to Defeat It",
-      "summary": "House Republican leaders abruptly scrapped a planned vote on a measure to direct President Trump to end the conflict or win authorization for it, amid party defections and absences.",
-      "link": "https://www.nytimes.com/2026/05/21/us/iran-war-powers-trump-measure.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/21dc-warpowers-htvf/21dc-warpowers-htvf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1779405758.0,
+      "pub_ts": 1779427382.0,
       "hot": false
     },
     {
@@ -381,8 +397,8 @@
       "categories": [
         "政治"
       ],
-      "score": 60,
-      "ago": "20小时前",
+      "score": 55,
+      "ago": "昨日",
       "pub_ts": 1779398545.0,
       "hot": false
     },
@@ -402,24 +418,6 @@
       "score": 55,
       "ago": "昨日",
       "pub_ts": 1779380006.0,
-      "hot": false
-    },
-    {
-      "id": "118d2739d6",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "‘Colbert’ Is Done. ‘SNL’ is Stale. Where Does Late-Night TV Go From Here? | Cannonball",
-      "summary": "Maybe “Saturday Night Live” should go instead.",
-      "link": "https://www.nytimes.com/2026/05/21/podcasts/colbert-snl-late-night-tv.html",
-      "image": "https://static01.nyt.com/images/2026/05/21/podcasts/21cannonball-late-night-tv/21cannonball-late-night-tv-mediumSquareAt3X-v3.png",
-      "categories": [
-        "本地"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779354222.0,
       "hot": false
     },
     {
