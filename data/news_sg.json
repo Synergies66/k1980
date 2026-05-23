@@ -1,9 +1,29 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-05-23T07:18:42.460163+00:00",
+  "updated_at": "2026-05-23T10:15:23.621285+00:00",
   "total": 16,
   "articles": [
+    {
+      "id": "87b00a513a",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Japan trade minister holds brief talks with Chinese counterpart amid diplomatic row",
+      "summary": "A meeting between Trade Minister Ryosei Akazawa and a senior Chinese official would have marked the highest-level engagement since Japanese Prime Minister Sanae Takaichi triggered the row by saying a",
+      "link": "https://www.channelnewsasia.com/east-asia/japan-china-diplomatic-row-apec-6137741",
+      "image": "https://dam.mediacorp.sg/image/upload/s--1a2b-aiQ--/c_crop,h_450,w_800,x_0,y_30/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2025-10-22T080211Z_1_LYNXMPEL9L0B0_RTROPTP_3_JAPAN-POLITICS-ENERGY.JPG?itok=n23J3BN3",
+      "categories": [
+        "政治",
+        "华人",
+        "科技"
+      ],
+      "score": 77,
+      "ago": "2小时前",
+      "pub_ts": 1779522870.0,
+      "hot": false
+    },
     {
       "id": "a9a356062b",
       "type": "news",
@@ -17,8 +37,8 @@
       "categories": [
         "华人"
       ],
-      "score": 82,
-      "ago": "1小时前",
+      "score": 77,
+      "ago": "4小时前",
       "pub_ts": 1779515628.0,
       "hot": false
     },
@@ -36,18 +56,91 @@
         "政治",
         "华人"
       ],
-      "score": 77,
-      "ago": "3小时前",
+      "score": 72,
+      "ago": "6小时前",
       "pub_ts": 1779508085.0,
       "hot": false
     },
     {
-      "id": "43baedf83c",
+      "id": "8c5227534f",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Hundreds rally in Taipei for defence spending after parliament cuts funds",
+      "summary": "The Taipei protest was organised by several human rights and pro-independence groups, who waved flags and shouted slogans in support of defence spending.",
+      "link": "https://www.channelnewsasia.com/east-asia/taiwan-defence-budget-cuts-rally-6137776",
+      "image": "https://dam.mediacorp.sg/image/upload/s--tuTuvY5O--/c_crop,h_450,w_800,x_0,y_65/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-23T081410Z_1_LYNXMPEM4M047_RTROPTP_3_USA-TAIWAN-DEFENCE.JPG?itok=6IGci-XN",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779526087.0,
+      "hot": false
+    },
+    {
+      "id": "be0c03adfd",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "Kohli refuses handshake with Head after heated verbal spat during IPL clash",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/kohli-refuses-handshake-head-after-heated-verbal-spat-during-ipl-clash-6137786",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779525957.0,
+      "hot": false
+    },
+    {
+      "id": "bbbdd832f5",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Cancer survivor, 12, among 194 student volunteers recognised for efforts supporting community",
+      "title": "3 drivers assisting with police investigations after multi-vehicle accident on AYE",
+      "summary": "SCDF said three people were assessed for minor injuries, but declined to be taken to hospital.",
+      "link": "https://www.straitstimes.com/singapore/3-drivers-assisting-with-police-investigations-after-multi-vehicle-accident-on-aye",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779523800.0,
+      "hot": false
+    },
+    {
+      "id": "409eba26da",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Life After... depression: Turning to theatre to spotlight mental health, tackle youth concerns",
+      "summary": "In this series, ST speaks to everyday heroes who have reinvented themselves and serve as an inspiration to all.",
+      "link": "https://www.straitstimes.com/singapore/life-after-depression-turning-to-theatre-to-spotlight-mental-health-tackle-gloom-in-youths",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779523200.0,
+      "hot": false
+    },
+    {
+      "id": "04b5b3a208",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Cancer survivor, 12, among 194 students recognised for efforts supporting community",
       "summary": "The annual awards was launched in 2023 by the Civilians Association Singapore.",
       "link": "https://www.straitstimes.com/singapore/cancer-survivor-12-among-194-student-volunteers-recognised-for-efforts-supporting-community",
       "image": null,
@@ -55,7 +148,7 @@
         "教育"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1779512048.0,
       "hot": false
     },
@@ -73,7 +166,7 @@
         "本地"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1779511959.0,
       "hot": false
     },
@@ -91,7 +184,7 @@
         "科技"
       ],
       "score": 65,
-      "ago": "2小时前",
+      "ago": "5小时前",
       "pub_ts": 1779511860.0,
       "hot": false
     },
@@ -109,8 +202,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779508800.0,
       "hot": false
     },
@@ -127,27 +220,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "6小时前",
       "pub_ts": 1779506400.0,
-      "hot": false
-    },
-    {
-      "id": "9b91fdb1f8",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Malaysia rolls out new rules for digital platforms to better protect minors from Jun 1",
-      "summary": "Online service providers will need to include safeguards that limit account registration and ownership by those under the age of 16. They will also need to implement stronger content governance on the",
-      "link": "https://www.channelnewsasia.com/asia/malaysia-minors-harmful-online-content-regulation-6136566",
-      "image": "https://dam.mediacorp.sg/image/upload/s--oo33Jbvj--/c_crop,h_704,w_1253,x_1,y_67/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2024/09/19/istock-1371763060.jpg?itok=ZZ5RRYiX",
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779506340.0,
       "hot": false
     },
     {
@@ -163,45 +238,9 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779505200.0,
-      "hot": false
-    },
-    {
-      "id": "b1df5d62b1",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Law firm Fenwick agrees to pay $54 million in settlement over FTX work",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/business/law-firm-fenwick-agrees-pay-54-million-in-settlement-over-ftx-work-6137101",
-      "image": "https://dam.mediacorp.sg/image/upload/s--plubotSd--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-23T012759Z_1_LYNXMPEM4M00W_RTROPTP_3_CRYPTO-COMPANIES-FTX.JPG?itok=1t-mRid_",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779499679.0,
-      "hot": false
-    },
-    {
-      "id": "db7a6702f2",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "FIFA orders partial stadium closure for Mexico's friendly against Ghana",
-      "summary": "",
-      "link": "https://www.channelnewsasia.com/sport/fifa-orders-partial-stadium-closure-mexicos-friendly-against-ghana-6137226",
-      "image": "https://dam.mediacorp.sg/image/upload/s--HcqNSWhw--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-23T010823Z_1_LYNXMPEM4M00Q_RTROPTP_3_SOCCER-MEXICO-CAZ-ACL.JPG?itok=mS6MToge",
-      "categories": [
-        "科技"
-      ],
       "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779498503.0,
+      "ago": "7小时前",
+      "pub_ts": 1779505200.0,
       "hot": false
     },
     {
@@ -218,26 +257,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "11小时前",
       "pub_ts": 1779490800.0,
-      "hot": false
-    },
-    {
-      "id": "cfb20d1836",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Why Singapore wants children to play with sand and swings again",
-      "summary": "Many playgrounds here may have become too focused on aesthetics at the expense of play value.",
-      "link": "https://www.straitstimes.com/singapore/why-singapore-wants-children-to-play-with-sand-and-swings-again",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779483600.0,
       "hot": false
     },
     {
@@ -255,7 +276,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1779483600.0,
       "hot": false
     },
@@ -273,26 +294,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "13小时前",
       "pub_ts": 1779483600.0,
-      "hot": false
-    },
-    {
-      "id": "0bb797baae",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Grab extends 90-cent fuel surcharge, higher GrabCab metered fares till July 31",
-      "summary": "Announced in March, they were supposed to run until May 31.",
-      "link": "https://www.straitstimes.com/singapore/transport/grab-extends-90-cent-fuel-surcharge-higher-grabcab-metered-fares-till-july-31",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1779465336.0,
       "hot": false
     }
   ]
