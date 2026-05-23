@@ -1,28 +1,9 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-23T10:09:24.445073+00:00",
+  "updated_at": "2026-05-23T14:06:34.644200+00:00",
   "total": 22,
   "articles": [
-    {
-      "id": "0ebaa5bab2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump’s Pursuit of a Partnership With China Raises Concerns in India",
-      "summary": "Secretary of State Marco Rubio has a “gargantuan task” during his visit to Delhi: defuse tensions over President Trump’s anti-India aggression and overtures to China.",
-      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-rubio-india-china.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-trump-asia-jtqm/23dc-trump-asia-jtqm-mediumSquareAt3X.jpg",
-      "categories": [
-        "华人",
-        "科技"
-      ],
-      "score": 82,
-      "ago": "1小时前",
-      "pub_ts": 1779526912.0,
-      "hot": false
-    },
     {
       "id": "3de9375a55",
       "type": "news",
@@ -37,9 +18,66 @@
         "华人",
         "科技"
       ],
-      "score": 77,
-      "ago": "4小时前",
+      "score": 72,
+      "ago": "7小时前",
       "pub_ts": 1779516459.0,
+      "hot": false
+    },
+    {
+      "id": "dd830b4782",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Iran Meets Mediators for Talks as Cease-Fire Hangs in Balance",
+      "summary": "People across the Middle East were bracing for the possibility of renewed fighting between the U.S. and Iran as mediation efforts continue in Tehran without a clear sign of a breakthrough.",
+      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-us-israel-ceasefire-talks.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23int-iran-lgcz/23int-iran-lgcz-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "54分前",
+      "pub_ts": 1779541941.0,
+      "hot": false
+    },
+    {
+      "id": "063838e555",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "U.S. passengers flying from Ebola-affected countries rerouted",
+      "summary": "The U.S. government is responding to the Ebola outbreak in with travel restrictions. American citizens and permanent residents departing affected countries must fly into one of three U.S. airports.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5831963/u-s-passengers-flying-from-ebola-affected-countries-rerouted",
+      "image": null,
+      "categories": [
+        "移民",
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779538190.0,
+      "hot": false
+    },
+    {
+      "id": "6844b65a7e",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Green Card Seekers Must Leave U.S. to Apply, Trump Administration Says",
+      "summary": "The change is likely to affect hundreds of thousands of people. It could also lead to more family separations as spouses or relatives wait for application decisions, immigration lawyers said.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-green-cards-vwmf/22dc-green-cards-vwmf-mediumSquareAt3X.jpg",
+      "categories": [
+        "移民",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "12小时前",
+      "pub_ts": 1779498870.0,
       "hot": false
     },
     {
@@ -55,27 +93,45 @@
       "categories": [
         "华人"
       ],
-      "score": 72,
-      "ago": "22小时前",
+      "score": 67,
+      "ago": "昨日",
       "pub_ts": 1779449977.0,
       "hot": false
     },
     {
-      "id": "2671cc3001",
+      "id": "e9a9018275",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Summer electric bills sizzle as the cost of cooling climbs",
-      "summary": "The temperature is climbing, and so are people's utility bills. Rising electricity prices and hotter-than-usual weather could make it especially costly to stay cool this summer.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5823767/summer-heat-electric-bills-cost",
+      "title": "Opinion: Remembering Barney Frank, trailblazing public servant",
+      "summary": "Mass. congressman Barney Frank was the first House member to come out as gay and was instrumental in Wall Street reforms after the Great Recession. He died this week at the age of 86.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5823640/opinion-remembering-barney-frank-trailblazing-public-servant",
       "image": null,
       "categories": [
-        "天气"
+        "科技"
       ],
-      "score": 70,
-      "ago": "9分前",
-      "pub_ts": 1779530400.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779537600.0,
+      "hot": false
+    },
+    {
+      "id": "3a641a95f1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "NATO allies confused by Trump's unexpected move to deploy 5,000 U.S. troops to Poland",
+      "summary": "Some NATO allies say they are confused by President Trump's different statements on U.S. troop deployments to Europe.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779536398.0,
       "hot": false
     },
     {
@@ -91,8 +147,26 @@
       "categories": [
         "移民"
       ],
-      "score": 70,
-      "ago": "9分前",
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779530400.0,
+      "hot": false
+    },
+    {
+      "id": "2671cc3001",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Summer electric bills sizzle as the cost of cooling climbs",
+      "summary": "The temperature is climbing, and so are people's utility bills. Rising electricity prices and hotter-than-usual weather could make it especially costly to stay cool this summer.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5823767/summer-heat-electric-bills-cost",
+      "image": null,
+      "categories": [
+        "天气"
+      ],
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779530400.0,
       "hot": false
     },
@@ -109,27 +183,27 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779526905.0,
       "hot": false
     },
     {
-      "id": "a8aba3fd09",
+      "id": "99b159f916",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Food, Flashlights and Fans: Floridians Step Up Aid to Cuban Relatives",
-      "summary": "Months into the oil blockade imposed by President Trump, many Cubans are relying more than ever on relatives in the U.S. for help meeting their daily needs.",
-      "link": "https://www.nytimes.com/2026/05/23/us/south-florida-cuba-family.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23nat-miami-cuba-ljth/23nat-miami-cuba-ljth-mediumSquareAt3X.jpg",
+      "title": "5 Takeaways From a Times Investigation on Autism Therapy Clinics",
+      "summary": "A rapidly growing industry often overprescribes treatment to young children with autism, who spend as many as 40 hours a week at the facilities.",
+      "link": "https://www.nytimes.com/2026/05/23/health/autisim-clinics-investigation.html",
+      "image": "https://static01.nyt.com/images/2026/05/12/multimedia/xxdc-abatakeaways-gmvl/xxdc-abatakeaways-gmvl-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779526893.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779526844.0,
       "hot": false
     },
     {
@@ -147,27 +221,9 @@
         "教育",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779526816.0,
-      "hot": false
-    },
-    {
-      "id": "a521647731",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "How $6 Gas Prices Are Affecting the Lives of Californians",
-      "summary": "California is the nation’s most expensive state for gasoline. The latest spike has forced more residents to change their habits.",
-      "link": "https://www.nytimes.com/2026/05/23/us/gas-prices-california.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23nat-calif-gas-prices-ptwj/23nat-calif-gas-prices-ptwj-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779526811.0,
       "hot": false
     },
     {
@@ -184,8 +240,8 @@
         "经济",
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779526800.0,
       "hot": false
     },
@@ -202,8 +258,8 @@
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "5小时前",
       "pub_ts": 1779526800.0,
       "hot": false
     },
@@ -220,27 +276,9 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779526800.0,
-      "hot": false
-    },
-    {
-      "id": "beaed7b17f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
-      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
-      "link": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23Biz-Strait-Control-01-bhfz/23Biz-Strait-Control-01-bhfz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
       "score": 65,
-      "ago": "2小时前",
-      "pub_ts": 1779522431.0,
+      "ago": "5小时前",
+      "pub_ts": 1779526800.0,
       "hot": false
     },
     {
@@ -257,34 +295,16 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779514989.0,
-      "hot": false
-    },
-    {
-      "id": "ab3ec20eec",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "SpaceX launches its biggest, most beefed-up Starship yet on a test flight",
-      "summary": "The mega rocket made its debut two days after SpaceX CEO Elon Musk announced he's taking the company public. NASA Administrator Jared Isaacman said Starship is now one step closer to the moon.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5832402/spacex-biggest-starship-flight",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779514107.0,
       "hot": false
     },
     {
       "id": "2af1d53519",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "Trump administration to force foreigners in the U.S. to apply for a green card abroad",
       "summary": "Foreigners in the U.S. who want a green card will need to leave and apply in their home country, the Trump administration announced Friday, in a surprise change to a longstanding policy.",
@@ -293,8 +313,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779513083.0,
       "hot": false
     },
@@ -312,8 +332,8 @@
         "天气",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779510662.0,
       "hot": false
     },
@@ -331,8 +351,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1779504255.0,
+      "hot": false
+    },
+    {
+      "id": "c296ac3953",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Tulsi Gabbard Resigns as Director of National Intelligence. Trump Names Aaron Lukas Acting Chief.",
+      "summary": "Ms. Gabbard had a difficult tenure in the Trump administration and was seldom seen in the room when the president made important national-security moves.",
+      "link": "https://www.nytimes.com/2026/05/22/us/politics/tulsi-gabbard-resigns.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-gabbard-vfbh/22dc-gabbard-vfbh-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "14小时前",
+      "pub_ts": 1779491684.0,
       "hot": false
     },
     {
@@ -349,44 +387,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "16小时前",
       "pub_ts": 1779486378.0,
-      "hot": false
-    },
-    {
-      "id": "08e93485a6",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Italy's prime minister wants Israel to apologize for treatment of flotilla activists",
-      "summary": "Italy's Prime Minister Giorgia Meloni wants an apology from Israel over the treatment of Italian citizens on a flotilla bound for Gaza.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5830108/italys-prime-minister-wants-israel-to-apologize-for-treatment-of-flotilla-activists",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779439381.0,
-      "hot": false
-    },
-    {
-      "id": "ef5c533fb3",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "UN gravely concerned by an Afghan Taliban law that has provisions on child marriage",
-      "summary": "The United Nations expressed \"grave concern\" on Thursday about a new law issued by Afghanistan's Taliban government on separation in marriage which includes provisions on child marriage.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5831001/un-concerned-afghan-taliban-law-child-marriage",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 55,
-      "ago": "昨日",
-      "pub_ts": 1779428907.0,
       "hot": false
     },
     {
