@@ -1,9 +1,27 @@
 {
   "region": "sg",
   "name": "新加坡",
-  "updated_at": "2026-05-23T04:28:42.834553+00:00",
+  "updated_at": "2026-05-23T07:18:42.460163+00:00",
   "total": 16,
   "articles": [
+    {
+      "id": "a9a356062b",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "China set for latest space launch, with Hong Kong astronaut aboard",
+      "summary": "The Shenzhou-23 mission will blast off on Sunday from the Jiuquan Satellite Launch Centre in northwestern China, carrying three astronauts to the space station.",
+      "link": "https://www.channelnewsasia.com/east-asia/china-space-mission-tiangong-hong-kong-6137666",
+      "image": "https://dam.mediacorp.sg/image/upload/s--qPzHLZN7--/c_crop,h_576,w_1024,x_0,y_90/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/23/000_b36j2zm.jpg?itok=8qsBqHWT",
+      "categories": [
+        "华人"
+      ],
+      "score": 82,
+      "ago": "1小时前",
+      "pub_ts": 1779515628.0,
+      "hot": false
+    },
     {
       "id": "fc21cfb551",
       "type": "news",
@@ -18,27 +36,63 @@
         "政治",
         "华人"
       ],
-      "score": 82,
-      "ago": "40分前",
+      "score": 77,
+      "ago": "3小时前",
       "pub_ts": 1779508085.0,
       "hot": false
     },
     {
-      "id": "7decba516c",
+      "id": "43baedf83c",
+      "type": "news",
+      "region": "sg",
+      "source": "Straits Times",
+      "lang": "en",
+      "title": "Cancer survivor, 12, among 194 student volunteers recognised for efforts supporting community",
+      "summary": "The annual awards was launched in 2023 by the Civilians Association Singapore.",
+      "link": "https://www.straitstimes.com/singapore/cancer-survivor-12-among-194-student-volunteers-recognised-for-efforts-supporting-community",
+      "image": null,
+      "categories": [
+        "教育"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779512048.0,
+      "hot": false
+    },
+    {
+      "id": "b9caf6ffc4",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "Eight dead, dozens trapped in China coal mine accident",
-      "summary": "More than 240 miners were underground at the Liushenyu coal mine in Shanxi Province when the accident occurred on Friday night.",
-      "link": "https://www.channelnewsasia.com/east-asia/china-coal-mine-accident-shanxi-6136551",
-      "image": "https://dam.mediacorp.sg/image/upload/s--iPNiE9fd--/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/23/000_9qw7u7.jpg?itok=xTEs4uGK",
+      "title": "Mexico ease past Ghana in World Cup warm-up in Puebla",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/mexico-ease-past-ghana-in-world-cup-warm-up-in-puebla-6137216",
+      "image": null,
       "categories": [
-        "华人"
+        "本地"
       ],
-      "score": 77,
-      "ago": "5小时前",
-      "pub_ts": 1779488940.0,
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779511959.0,
+      "hot": false
+    },
+    {
+      "id": "9791386fb9",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "'Captain's dream': Hyderabad's Cummins hails fellow quicks after Bengaluru win",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/captains-dream-hyderabads-cummins-hails-fellow-quicks-after-bengaluru-win-6137221",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "2小时前",
+      "pub_ts": 1779511860.0,
       "hot": false
     },
     {
@@ -55,8 +109,8 @@
         "天气",
         "科技"
       ],
-      "score": 70,
-      "ago": "28分前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779508800.0,
       "hot": false
     },
@@ -73,8 +127,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779506400.0,
       "hot": false
     },
@@ -91,8 +145,8 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "3小时前",
       "pub_ts": 1779506340.0,
       "hot": false
     },
@@ -109,63 +163,45 @@
       "categories": [
         "科技"
       ],
-      "score": 70,
-      "ago": "1小时前",
+      "score": 65,
+      "ago": "4小时前",
       "pub_ts": 1779505200.0,
       "hot": false
     },
     {
-      "id": "fdc871b1f2",
+      "id": "b1df5d62b1",
       "type": "news",
       "region": "sg",
       "source": "CNA Singapore",
       "lang": "en",
-      "title": "This mental trick may help you get more exercise during busy days",
-      "summary": "It’s not just about discipline.",
-      "link": "https://www.channelnewsasia.com/wellness/exercise-workout-routine-mindset-6122176",
-      "image": "https://dam.mediacorp.sg/image/upload/s--O7dkZurB--/c_crop,h_900,w_1600,x_0,y_379/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/18/istock-2245076786.jpg?itok=-WJP6RBS",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779494897.0,
-      "hot": false
-    },
-    {
-      "id": "defd79193c",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "'Find a moment for yourself': Why Singaporean artist Amanda Heng is inviting people to just rest in ",
-      "summary": "Singaporean artist Amanda Heng created A Pause inside the Singapore Pavilion at the ongoing Venice Biennale. The 74-year-old tells CNA Lifestyle how the idea of rest and her ageing body shaped the ins",
-      "link": "https://www.channelnewsasia.com/living/amanda-heng-singapore-venice-biennale-2026-6133646",
-      "image": "https://dam.mediacorp.sg/image/upload/s--OjnLFhmQ--/c_crop,h_900,w_1600,x_0,y_0/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/06/20251004_llt_p3-8-8.jpg?itok=WhoAviis",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779494820.0,
-      "hot": false
-    },
-    {
-      "id": "2c87e1d980",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Carney says Alberta 'essential' to Canada as separatist push advances",
+      "title": "Law firm Fenwick agrees to pay $54 million in settlement over FTX work",
       "summary": "",
-      "link": "https://www.channelnewsasia.com/world/canada-alberta-separatist-movement-6136556",
-      "image": "https://dam.mediacorp.sg/image/upload/s--wASCXiGn--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/05/oil.jpg?itok=HfgKiqsB",
+      "link": "https://www.channelnewsasia.com/business/law-firm-fenwick-agrees-pay-54-million-in-settlement-over-ftx-work-6137101",
+      "image": "https://dam.mediacorp.sg/image/upload/s--plubotSd--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-23T012759Z_1_LYNXMPEM4M00W_RTROPTP_3_CRYPTO-COMPANIES-FTX.JPG?itok=1t-mRid_",
       "categories": [
         "本地"
       ],
       "score": 65,
-      "ago": "4小时前",
-      "pub_ts": 1779493850.0,
+      "ago": "5小时前",
+      "pub_ts": 1779499679.0,
+      "hot": false
+    },
+    {
+      "id": "db7a6702f2",
+      "type": "news",
+      "region": "sg",
+      "source": "CNA Singapore",
+      "lang": "en",
+      "title": "FIFA orders partial stadium closure for Mexico's friendly against Ghana",
+      "summary": "",
+      "link": "https://www.channelnewsasia.com/sport/fifa-orders-partial-stadium-closure-mexicos-friendly-against-ghana-6137226",
+      "image": "https://dam.mediacorp.sg/image/upload/s--HcqNSWhw--/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/one-cms/core/2026-05-23T010823Z_1_LYNXMPEM4M00Q_RTROPTP_3_SOCCER-MEXICO-CAZ-ACL.JPG?itok=mS6MToge",
+      "categories": [
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779498503.0,
       "hot": false
     },
     {
@@ -181,45 +217,26 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "8小时前",
       "pub_ts": 1779490800.0,
       "hot": false
     },
     {
-      "id": "55c7678ff1",
-      "type": "news",
-      "region": "sg",
-      "source": "CNA Singapore",
-      "lang": "en",
-      "title": "Commentary: From Iran to Ukraine, lasting ceasefires remain elusive",
-      "summary": "The Russia-Ukraine war and the United States-Iran war have highlighted how the world struggles to achieve meaningful ceasefires, especially short-term agreements, says this researcher.",
-      "link": "https://www.channelnewsasia.com/commentary/ceasefire-ukraine-russia-iran-us-wars-trump-6136116",
-      "image": "https://dam.mediacorp.sg/image/upload/s--YF3zgj4U--/c_crop,h_576,w_1024,x_0,y_74/fl_relative,g_south_east,l_mediacorp:cna:watermark:2023-11:afp_watermark_14112023,w_0.1/f_auto,q_auto/c_fill,g_auto,h_468,w_830/v1/mediacorp/cna/image/2026/05/17/000_b32t4q9_1.jpg?itok=nJjOXwjs",
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "6小时前",
-      "pub_ts": 1779487200.0,
-      "hot": false
-    },
-    {
-      "id": "f3d666532c",
+      "id": "cfb20d1836",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Parents’ playground wish list: Shade, nature and room to roam",
-      "summary": "A list of five things parents want to see in Singapore playgrounds, apart from swings and sandpits.",
-      "link": "https://www.straitstimes.com/singapore/parents-playground-wishlist-shade-nature-and-room-to-roam",
+      "title": "Why Singapore wants children to play with sand and swings again",
+      "summary": "Many playgrounds here may have become too focused on aesthetics at the expense of play value.",
+      "link": "https://www.straitstimes.com/singapore/why-singapore-wants-children-to-play-with-sand-and-swings-again",
       "image": null,
       "categories": [
-        "本地"
+        "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1779483600.0,
       "hot": false
     },
@@ -238,25 +255,25 @@
         "科技"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1779483600.0,
       "hot": false
     },
     {
-      "id": "cfb20d1836",
+      "id": "f3d666532c",
       "type": "news",
       "region": "sg",
       "source": "Straits Times",
       "lang": "en",
-      "title": "Why Singapore wants children to play with sand and swings again",
-      "summary": "Many playgrounds here may have become too focused on aesthetics at the expense of play value.",
-      "link": "https://www.straitstimes.com/singapore/why-singapore-wants-children-to-play-with-sand-and-swings-again",
+      "title": "Parents’ playground wish list: Shade, nature and room to roam",
+      "summary": "A list of five things parents want to see in Singapore playgrounds, apart from swings and sandpits.",
+      "link": "https://www.straitstimes.com/singapore/parents-playground-wishlist-shade-nature-and-room-to-roam",
       "image": null,
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "10小时前",
       "pub_ts": 1779483600.0,
       "hot": false
     },
@@ -274,26 +291,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779465336.0,
-      "hot": false
-    },
-    {
-      "id": "34a9c2746d",
-      "type": "news",
-      "region": "sg",
-      "source": "Straits Times",
-      "lang": "en",
-      "title": "Surprise resignation by Koh Poh Koon reflects toll of political life: Observers",
-      "summary": "The Prime Minister’s Office announced on May 22 that Dr Koh had asked to step down due to family reasons.",
-      "link": "https://www.straitstimes.com/singapore/politics/surprise-resignation-by-koh-poh-koon-reflects-toll-of-political-life-observers",
-      "image": null,
-      "categories": [
-        "政治"
-      ],
-      "score": 60,
-      "ago": "13小时前",
-      "pub_ts": 1779463492.0,
       "hot": false
     }
   ]
