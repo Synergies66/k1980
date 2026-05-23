@@ -1,9 +1,46 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-23T17:31:39.701002+00:00",
-  "total": 23,
+  "updated_at": "2026-05-23T21:11:13.973689+00:00",
+  "total": 21,
   "articles": [
+    {
+      "id": "fefd38d0e7",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Is Setting His Sights on Restricting Legal Immigration",
+      "summary": "After a year focused on immigrants here illegally, the Trump administration is now making it harder for legal migrants to stay in the country. It is a risky pivot.",
+      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-legal-immigration.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-legal-immigration-trump-miller-qgtm/23dc-legal-immigration-trump-miller-qgtm-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "移民"
+      ],
+      "score": 80,
+      "ago": "1小时前",
+      "pub_ts": 1779565428.0,
+      "hot": false
+    },
+    {
+      "id": "0ebaa5bab2",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump’s Pursuit of a Partnership With China Raises Concerns in India",
+      "summary": "Secretary of State Marco Rubio has a “gargantuan task” during his visit to Delhi: defuse tensions over President Trump’s anti-India aggression and overtures to China.",
+      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-rubio-india-china.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-trump-asia-jtqm/23dc-trump-asia-jtqm-mediumSquareAt3X.jpg",
+      "categories": [
+        "华人",
+        "科技"
+      ],
+      "score": 72,
+      "ago": "7小时前",
+      "pub_ts": 1779544893.0,
+      "hot": false
+    },
     {
       "id": "a119a9d18d",
       "type": "news",
@@ -19,100 +56,98 @@
         "科技"
       ],
       "score": 72,
-      "ago": "11小时前",
+      "ago": "15小时前",
       "pub_ts": 1779516459.0,
       "hot": false
     },
     {
-      "id": "8ea19df43f",
+      "id": "477d64e162",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Israeli Strikes Pummel Lebanon, Killing Medics Amid Fragile Truce",
-      "summary": "Saturday’s strikes damaged a main hospital in the Lebanese city of Tyre, as funerals for paramedics killed a day earlier were held.",
-      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/israel-strikes-lebanon-medics.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23int-lebanon-israel-kzfm/23int-lebanon-israel-kzfm-mediumSquareAt3X.jpg",
+      "title": "Garden Grove Chemical Tank Could Be Inching Toward Explosion, Authorities Say",
+      "summary": "Firefighters still have few options to prevent a tank of toxic chemicals in Garden Grove, Calif., from leaking or exploding.",
+      "link": "https://www.nytimes.com/2026/05/23/us/garden-grove-chemical-tank-orange-county.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23nat-orange-chemical-tank-wvbk/23nat-orange-chemical-tank-wvbk-mediumSquareAt3X.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 70,
-      "ago": "43分前",
-      "pub_ts": 1779554900.0,
+      "ago": "1小时前",
+      "pub_ts": 1779567012.0,
       "hot": false
     },
     {
-      "id": "e9662a91a9",
+      "id": "09fc7ae5f3",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Iran and U.S. Officials Signal Progress as Cease-Fire Hangs in Balance",
-      "summary": "As people across the Middle East braced for the possibility of renewed fighting, officials from both sides said there were signs that they were moving closer to an agreement.",
-      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-us-israel-ceasefire-talks.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23int-iran-lgcz/23int-iran-lgcz-mediumSquareAt3X.jpg",
+      "title": "U.S. Ebola Travel Ban Faces Criticism From Congo Health Officials",
+      "summary": "Kinshasa residents continue to pack markets, bars and public transportation, despite growing international concern about the spread of the virus.",
+      "link": "https://www.nytimes.com/2026/05/23/world/africa/ebola-outbreak-congo-shrug.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23int-ebola-congo-shrug-jbtw/23int-ebola-congo-shrug-jbtw-mediumSquareAt3X-v2.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 70,
-      "ago": "58分前",
-      "pub_ts": 1779554014.0,
+      "ago": "1小时前",
+      "pub_ts": 1779565568.0,
       "hot": false
     },
     {
-      "id": "6844b65a7e",
+      "id": "585b59327d",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Green Card Seekers Must Leave U.S. to Apply, Trump Administration Says",
-      "summary": "The change is likely to affect hundreds of thousands of people. It could also lead to more family separations as spouses or relatives wait for application decisions, immigration lawyers said.",
-      "link": "https://www.nytimes.com/2026/05/22/us/politics/green-card-changes-trump.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-green-cards-vwmf/22dc-green-cards-vwmf-mediumSquareAt3X.jpg",
+      "title": "Trump Administration Chips Away at Last Traces of Broad Inquiry Into Jan. 6",
+      "summary": "Two recent moves aligned the department ever more closely with President Trump’s own efforts to whitewash the events of that day.",
+      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-prosecutors-jan-6.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-jan6-capitol-vcqb/23dc-jan6-capitol-vcqb-mediumSquareAt3X.jpg",
       "categories": [
-        "移民",
-        "科技"
-      ],
-      "score": 70,
-      "ago": "16小时前",
-      "pub_ts": 1779498870.0,
-      "hot": false
-    },
-    {
-      "id": "12f190b8ab",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "The aftermath of Trump-Xi summit: comparing U.S. and China announcements",
-      "summary": "Analysts say a comparison of the readouts issued by the U.S. and China reveals \"minor inconsistencies\" on issues such as agriculture, tariffs and rare earths. But, experts argue, those differences are",
-      "link": "https://www.npr.org/2026/05/22/g-s1-123647/comparing-u-s-and-china-announcements",
-      "image": null,
-      "categories": [
-        "华人"
-      ],
-      "score": 67,
-      "ago": "昨日",
-      "pub_ts": 1779449977.0,
-      "hot": false
-    },
-    {
-      "id": "b70e03885c",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Once Trump’s Co-Pilot Against Iran, Netanyahu Is Now a Mere Passenger",
-      "summary": "A partner in the war, Israel has been largely left out of the peace talks, a humbling setback for its prime minister with significant risks for the country.",
-      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/israel-trump-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23israel-sidelined-01-plbt/23israel-sidelined-01-plbt-mediumSquareAt3X.jpg",
-      "categories": [
-        "政治",
-        "科技"
+        "本地"
       ],
       "score": 65,
       "ago": "2小时前",
-      "pub_ts": 1779548717.0,
+      "pub_ts": 1779560808.0,
+      "hot": false
+    },
+    {
+      "id": "b7c46c6865",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "What will Trump do next with Iran?",
+      "summary": "Three months since the start of its conflict with Iran, the Trump administration is oscillating between strike threats and diplomatic overtures. Neither path has yielded a clear resolution.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5832542/trump-iran-decision",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779558568.0,
+      "hot": false
+    },
+    {
+      "id": "eecbee39b2",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Kyle Busch died after severe pneumonia progressed into sepsis, his family says",
+      "summary": "The two-time NASCAR champion died on Thursday, a day after passing out in a Chevrolet simulator.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5832553/kyle-busch-death-sepsis",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779557713.0,
       "hot": false
     },
     {
@@ -122,14 +157,14 @@
       "source": "NPR News",
       "lang": "en",
       "title": "A little bit country, a little bit Desi: A Pakistani-American's hybrid music",
-      "summary": "On May 31, Yo Sabri make a landmark appearance with the Nashville Symphony for an orchestral rendition of his new album, \"Tennessee Desi,\" which blends Appalachian styles with Muslim devotional music.",
+      "summary": "On May 31, Mo Sabri makes a landmark appearance with the Nashville Symphony for an orchestral rendition of his new album, \"Tennessee Desi,\" which blends Appalachian styles with Muslim devotional music",
       "link": "https://www.npr.org/2026/05/23/g-s1-122871/country-music-pakistan-mo-sabri-nashville",
       "image": null,
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "7小时前",
       "pub_ts": 1779545439.0,
       "hot": false
     },
@@ -148,8 +183,8 @@
         "政治",
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779538190.0,
       "hot": false
     },
@@ -166,8 +201,8 @@
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779537600.0,
       "hot": false
     },
@@ -184,8 +219,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779536398.0,
       "hot": false
     },
@@ -203,7 +238,7 @@
         "移民"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1779530400.0,
       "hot": false
     },
@@ -221,7 +256,7 @@
         "天气"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "11小时前",
       "pub_ts": 1779530400.0,
       "hot": false
     },
@@ -239,7 +274,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779526905.0,
       "hot": false
     },
@@ -259,26 +294,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779526816.0,
-      "hot": false
-    },
-    {
-      "id": "9aa11e4d0a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "'I'd wait forever, but 334 days is crazy.' USS Ford finally comes home",
-      "summary": "The USS Ford came home to a hero's welcome. Sailors had been away from home for nearly a year, through two conflicts, a fire and problems with the sewage system.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5830101/uss-ford-comes-home",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779526800.0,
       "hot": false
     },
     {
@@ -295,45 +312,8 @@
         "本地"
       ],
       "score": 60,
-      "ago": "8小时前",
+      "ago": "12小时前",
       "pub_ts": 1779526800.0,
-      "hot": false
-    },
-    {
-      "id": "ea390fe9c8",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "One solution for Maine's struggling fishing industry? Give fillets away for free",
-      "summary": "Surging food costs and fuel prices are pummeling Maine's struggling groundfishing industry. But a pandemic-era program is helping to keep it afloat as inflation worsens.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5756374/food-fish-maine-portland-donations",
-      "image": null,
-      "categories": [
-        "经济",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "8小时前",
-      "pub_ts": 1779526800.0,
-      "hot": false
-    },
-    {
-      "id": "beaed7b17f",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "The Risks of Iran’s Threat to Control the Strait of Hormuz",
-      "summary": "Iran is trying to assert its control over the strait by charging for passage. Experts say it is unlikely to happen, but the threat has unsettled the shipping industry.",
-      "link": "https://www.nytimes.com/2026/05/23/business/iran-toll-strait-hormuz.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23Biz-Strait-Control-01-bhfz/23Biz-Strait-Control-01-bhfz-mediumSquareAt3X.jpg",
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "9小时前",
-      "pub_ts": 1779522431.0,
       "hot": false
     },
     {
@@ -350,7 +330,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "15小时前",
       "pub_ts": 1779513083.0,
       "hot": false
     },
@@ -369,26 +349,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "13小时前",
+      "ago": "16小时前",
       "pub_ts": 1779510662.0,
-      "hot": false
-    },
-    {
-      "id": "c296ac3953",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Tulsi Gabbard Resigns as Director of National Intelligence. Trump Names Aaron Lukas Acting Chief.",
-      "summary": "Ms. Gabbard had a difficult tenure in the Trump administration and was seldom seen in the room when the president made important national-security moves.",
-      "link": "https://www.nytimes.com/2026/05/22/us/politics/tulsi-gabbard-resigns.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22dc-gabbard-vfbh/22dc-gabbard-vfbh-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "18小时前",
-      "pub_ts": 1779491684.0,
       "hot": false
     },
     {
@@ -405,7 +367,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "19小时前",
+      "ago": "23小时前",
       "pub_ts": 1779486378.0,
       "hot": false
     },
