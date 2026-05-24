@@ -1,25 +1,207 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-24T04:45:24.725865+00:00",
-  "total": 20,
+  "updated_at": "2026-05-24T10:15:05.781400+00:00",
+  "total": 22,
   "articles": [
     {
-      "id": "0cf9b59e40",
+      "id": "1744bb69c1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Nurse convicted in patient's death is now a national speaker on hospital safety",
+      "summary": "RaDonda Vaught was convicted of negligent homicide after dispensing the wrong drug to a patient. She now gives speeches about hospital safety in an era of automation and artificial intelligence.",
+      "link": "https://www.npr.org/2026/05/24/nx-s1-5822519/radonda-vaught-nurse-convicted-vanderbilt-medical-error",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "14分前",
+      "pub_ts": 1779616800.0,
+      "hot": false
+    },
+    {
+      "id": "fc11a5c016",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Russia uses hypersonic Oreshnik missile in mass attack on Kyiv",
+      "summary": "Ukrainian President Volodymyr Zelenskyy said Sunday Russia used the powerful hypersonic Oreshnik ballistic missile during a mass drone and missile attack on Kyiv on Sunday that killed at least two peo",
+      "link": "https://www.npr.org/2026/05/24/nx-s1-5833050/russia-uses-hypersonic-oreshnik-missile-in-mass-attack-on-kyiv",
+      "image": null,
+      "categories": [
+        "天气",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613948.0,
+      "hot": false
+    },
+    {
+      "id": "fedd8eba4e",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Gunman in Shooting Near White House Killed in Exchange of Fire With Secret Service",
-      "summary": "A gunman known to the U.S. Secret Service opened fire near the White House and was shot and killed by federal officers. President Trump was in the White House at the time.",
-      "link": "https://www.nytimes.com/2026/05/23/us/politics/white-house-shooting.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23xp-shooting-qjfk/23xp-shooting-qjfk-mediumSquareAt3X-v3.jpg",
+      "title": "With Big Decisions Ahead, the Supreme Court Collides With a Testy Trump",
+      "summary": "President Trump has alternated between bullying the justices and cozying up to them as the court prepares to announce major decisions that will determine the fate of the key aspects of his agenda.",
+      "link": "https://www.nytimes.com/2026/05/24/us/politics/supreme-court-trump-vance.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23DC-SCOTUS-TRUMP-hmvt/23DC-SCOTUS-TRUMP-hmvt-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 70,
       "ago": "1小时前",
-      "pub_ts": 1779592032.0,
+      "pub_ts": 1779613325.0,
+      "hot": false
+    },
+    {
+      "id": "7b85e28961",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Sanders and Ocasio-Cortez Try Boosting Progressives in Red Districts",
+      "summary": "In highly competitive House races that Democrats need to flip in November, the left is betting that calls for universal health care and taxing the wealthy will resonate — even among Republicans.",
+      "link": "https://www.nytimes.com/2026/05/24/us/politics/bernie-sanders-swing-district-liberals.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22pol-swing-district-liberals-top-alt-tbgv/22pol-swing-district-liberals-top-alt-tbgv-mediumSquareAt3X.jpg",
+      "categories": [
+        "经济"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613318.0,
+      "hot": false
+    },
+    {
+      "id": "47ad2252be",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "RFK Jr.’s Push to Curb Antidepressants Has Shaken Psychiatry",
+      "summary": "An annual psychiatric meeting was abuzz over Robert F. Kennedy Jr.’s call to rein in the use of depression medications. Some fear it will drive patients away from care.",
+      "link": "https://www.nytimes.com/2026/05/24/science/rfk-jr-antidepressants-ssri-psychiatry.html",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22sci-psychiatry-critics-stillpromo-wpck/22sci-psychiatry-critics-stillpromo-wpck-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613317.0,
+      "hot": false
+    },
+    {
+      "id": "689a655602",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Trump Endorsement Shakes John Cornyn in Texas Senate Runoff Against Ken Paxton",
+      "summary": "A tough re-election race grew more daunting after President Trump backed Mr. Cornyn’s opponent, Ken Paxton. The Texas senator has vowed to fight to the end.",
+      "link": "https://www.nytimes.com/2026/05/24/us/john-cornyn-ken-paxton-texas-runoff.html",
+      "image": "https://static01.nyt.com/images/2026/05/24/multimedia/24nat-cornyn-lastdays-1-02-hwlv/24nat-cornyn-lastdays-1-02-hwlv-mediumSquareAt3X.jpg",
+      "categories": [
+        "政治",
+        "科技"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613258.0,
+      "hot": false
+    },
+    {
+      "id": "afb71aead3",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "How Prediction Markets and Crypto Firms Steamrolled a Watchdog Agency",
+      "summary": "The Commodity Futures Trading Commission purged its ranks, dialed back its enforcement and boosted industries in which President Trump’s family is heavily invested.",
+      "link": "https://www.nytimes.com/2026/05/24/us/how-prediction-markets-and-crypto-firms-steamrolled-a-watchdog-agency.html",
+      "image": "https://static01.nyt.com/images/2026/05/21/multimedia/dc-cftc-30-pbkf/dc-cftc-30-pbkf-mediumSquareAt3X.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613232.0,
+      "hot": false
+    },
+    {
+      "id": "dbd95cafa5",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Do U.S. Automakers Have a Future in Canada?",
+      "summary": "Detroit-based automakers pioneered open trade between Canada and the United States, benefiting both countries. President Trump’s trade war now leaves their future in the country in question.",
+      "link": "https://www.nytimes.com/2026/05/24/world/canada/auto-industry-canada-detroit-ontario-car-tariffs.html",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613228.0,
+      "hot": false
+    },
+    {
+      "id": "e5a1d5fca6",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "'Homeland Security' has spawned political insecurity since DHS was born",
+      "summary": "DHS was originally conceived in the interest of unity and harmony — and the phrase \"homeland security\" was originally meant to be reassuring.",
+      "link": "https://www.npr.org/2026/05/24/nx-s1-5821574/homeland-security-dhs-history",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613200.0,
+      "hot": false
+    },
+    {
+      "id": "e9620149a0",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "The Enhanced Games are Sunday. Here's what to know about the controversial event",
+      "summary": "Dozens of athletes — including former Olympians — will participate in the Las Vegas event while using performance-enhancing drugs.",
+      "link": "https://www.npr.org/2026/05/24/nx-s1-5831252/enhanced-games-steroids-olympics-trump",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613200.0,
+      "hot": false
+    },
+    {
+      "id": "c4c5e77498",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Torn by war, Israelis and Palestinians tie their fortunes together",
+      "summary": "At a time when hopes are dim for resolving the Israeli-Palestinian conflict, some Arab and Jewish entrepreneurs are partnering across the divide, hoping to prove what's possible.",
+      "link": "https://www.npr.org/2026/05/24/nx-s1-5806030/palestinian-israeli-startups-50-50-northeastern",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779613200.0,
       "hot": false
     },
     {
@@ -36,43 +218,43 @@
         "移民"
       ],
       "score": 70,
-      "ago": "9小时前",
+      "ago": "14小时前",
       "pub_ts": 1779565428.0,
       "hot": false
     },
     {
-      "id": "9246e15400",
+      "id": "0cf9b59e40",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Iran Agreed to Give Up Enriched Uranium in Deal Announced by Trump, U.S. Officials Say",
-      "summary": "Precise details were unclear but the officials said the U.S. demanded a commitment from Iran on uranium as part of any initial agreement.",
-      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-deal-uranium-nuclear.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/00mideast-HEU-jklc/00mideast-HEU-jklc-mediumSquareAt3X.jpg",
+      "title": "Gunman in Shooting Near White House Killed in Exchange of Fire With Secret Service",
+      "summary": "A gunman known to the U.S. Secret Service opened fire near the White House and was shot and killed by federal officers. President Trump was in the White House at the time.",
+      "link": "https://www.nytimes.com/2026/05/23/us/politics/white-house-shooting.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23xp-shooting-qjfk/23xp-shooting-qjfk-mediumSquareAt3X-v3.jpg",
       "categories": [
-        "科技"
+        "本地"
       ],
       "score": 65,
-      "ago": "3小时前",
-      "pub_ts": 1779584791.0,
+      "ago": "5小时前",
+      "pub_ts": 1779599591.0,
       "hot": false
     },
     {
-      "id": "f80799c567",
+      "id": "0a74ab4618",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Secret Service fatally shoots suspect outside White House checkpoint, bystander wounded",
-      "summary": "The suspect began shooting at posted officers, who returned fire and hit the shooter, the Secret Service said. A bystander was also shot, a law enforcement official said, but it's unclear by whom.",
+      "title": "Suspect dead after opening fire near White House security checkpoint, Secret Service says",
+      "summary": "A man who opened fire Saturday near a White House security checkpoint is dead after being shot by officers who returned fire, the U.S. Secret Service said. It was the third incidence of gunfire in the",
       "link": "https://www.npr.org/2026/05/23/g-s1-124148/secret-service-shooting-white-house",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "9小时前",
       "pub_ts": 1779582223.0,
       "hot": false
     },
@@ -89,45 +271,27 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "4小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779581613.0,
       "hot": false
     },
     {
-      "id": "29b4d6b127",
+      "id": "1ae0bce97c",
       "type": "news",
       "region": "us",
       "source": "NPR News",
       "lang": "en",
-      "title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'",
-      "summary": "President Trump announced the unfinalized deal on social media after talks with Israel and other allies. It aims to end the war and includes two-month negotiations on Iran's nuclear program.",
+      "title": "Trump touts Iran breakthrough but details remain unclear",
+      "summary": "President Trump announced the unfinalized deal on social media after talks with Israel and other allies. Iran did not officially confirm the deal, and state media contradicted parts of it.",
       "link": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz",
       "image": null,
       "categories": [
         "科技"
       ],
-      "score": 65,
-      "ago": "5小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1779577202.0,
-      "hot": false
-    },
-    {
-      "id": "477d64e162",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Garden Grove Chemical Tank Could Be Inching Toward Explosion, Authorities Say",
-      "summary": "Firefighters still have few options to prevent a tank of toxic chemicals in Garden Grove, Calif., from leaking or exploding.",
-      "link": "https://www.nytimes.com/2026/05/23/us/garden-grove-chemical-tank-orange-county.html",
-      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22calif-chem-leak-header6p/22nat-calif-leak-mzqf-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 65,
-      "ago": "5小时前",
-      "pub_ts": 1779576871.0,
       "hot": false
     },
     {
@@ -145,7 +309,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "6小时前",
+      "ago": "12小时前",
       "pub_ts": 1779573220.0,
       "hot": false
     },
@@ -163,7 +327,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1779571811.0,
       "hot": false
     },
@@ -181,33 +345,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "12小时前",
       "pub_ts": 1779571441.0,
-      "hot": false
-    },
-    {
-      "id": "585b59327d",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Trump Administration Chips Away at Last Traces of Broad Inquiry Into Jan. 6",
-      "summary": "Two recent moves aligned the department ever more closely with President Trump’s own efforts to whitewash the events of that day.",
-      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-prosecutors-jan-6.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-jan6-capitol-vcqb/23dc-jan6-capitol-vcqb-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "10小时前",
-      "pub_ts": 1779560808.0,
       "hot": false
     },
     {
       "id": "b7c46c6865",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "What will Trump do next with Iran?",
       "summary": "Three months since the start of its conflict with Iran, the Trump administration is oscillating between strike threats and diplomatic overtures. Neither path has yielded a clear resolution.",
@@ -217,51 +363,15 @@
         "本地"
       ],
       "score": 60,
-      "ago": "10小时前",
+      "ago": "16小时前",
       "pub_ts": 1779558568.0,
-      "hot": false
-    },
-    {
-      "id": "eecbee39b2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Kyle Busch died after severe pneumonia progressed into sepsis, his family says",
-      "summary": "The two-time NASCAR champion died on Thursday, a day after passing out in a Chevrolet simulator.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5832553/kyle-busch-death-sepsis",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779557713.0,
-      "hot": false
-    },
-    {
-      "id": "127f9bfc8c",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "A little bit country, a little bit Desi: A Pakistani-American's hybrid music",
-      "summary": "On May 31, Mo Sabri makes a landmark appearance with the Nashville Symphony for an orchestral rendition of his new album, \"Tennessee Desi,\" which blends Appalachian styles with Muslim devotional music",
-      "link": "https://www.npr.org/2026/05/23/g-s1-122871/country-music-pakistan-mo-sabri-nashville",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "14小时前",
-      "pub_ts": 1779545439.0,
       "hot": false
     },
     {
       "id": "063838e555",
       "type": "news",
       "region": "us",
-      "source": "NPR News",
+      "source": "NPR 世界",
       "lang": "en",
       "title": "U.S. passengers flying from Ebola-affected countries rerouted",
       "summary": "The U.S. government is responding to the Ebola outbreak in with travel restrictions. American citizens and permanent residents departing affected countries must fly into one of three U.S. airports.",
@@ -273,82 +383,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "16小时前",
+      "ago": "22小时前",
       "pub_ts": 1779538190.0,
-      "hot": false
-    },
-    {
-      "id": "e9a9018275",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Opinion: Remembering Barney Frank, trailblazing public servant",
-      "summary": "Mass. congressman Barney Frank was the first House member to come out as gay and was instrumental in Wall Street reforms after the Great Recession. He died this week at the age of 86.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5823640/opinion-remembering-barney-frank-trailblazing-public-servant",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1779537600.0,
-      "hot": false
-    },
-    {
-      "id": "3a641a95f1",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "NATO allies confused by Trump's unexpected move to deploy 5,000 U.S. troops to Poland",
-      "summary": "Some NATO allies say they are confused by President Trump's different statements on U.S. troop deployments to Europe.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5831245/nato-allies-confused-by-trumps-unexpected-move-to-deploy-5-000-u-s-troops-to-poland",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "17小时前",
-      "pub_ts": 1779536398.0,
-      "hot": false
-    },
-    {
-      "id": "8aebfb50e2",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Nicolas Cage Made Himself a Legend. Then He Had to Live With It.",
-      "summary": "The iconic actor on becoming a meme, a myth and larger than life.",
-      "link": "https://www.nytimes.com/2026/05/23/magazine/nicolas-cage-interview.html",
-      "image": "https://static01.nyt.com/images/2026/05/31/magazine/31mag-interview-cage-02/31mag-interview-cage-02-mediumSquareAt3X.jpg",
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779527704.0,
-      "hot": false
-    },
-    {
-      "id": "b324892601",
-      "type": "news",
-      "region": "us",
-      "source": "NYT 头条",
-      "lang": "en",
-      "title": "Short Naps, Long Hours: How Autism Clinics Squeeze Medicaid Dollars Out of Preschoolers",
-      "summary": "The industry has grown rapidly, straining state budgets. A focus on finances has led to overbilling, fraud and even harm.",
-      "link": "https://www.nytimes.com/2026/05/23/health/autism-therapy-clinics.html",
-      "image": "https://static01.nyt.com/images/2026/04/27/multimedia/00aba-therapy-stillpromo/00aba-therapy-stillpromo-mediumSquareAt3X.jpg",
-      "categories": [
-        "天气",
-        "教育",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "19小时前",
-      "pub_ts": 1779526816.0,
       "hot": false
     },
     {
