@@ -1,9 +1,27 @@
 {
   "region": "us",
   "name": "美国",
-  "updated_at": "2026-05-23T21:11:13.973689+00:00",
-  "total": 21,
+  "updated_at": "2026-05-24T04:45:24.725865+00:00",
+  "total": 20,
   "articles": [
+    {
+      "id": "0cf9b59e40",
+      "type": "news",
+      "region": "us",
+      "source": "NYT 头条",
+      "lang": "en",
+      "title": "Gunman in Shooting Near White House Killed in Exchange of Fire With Secret Service",
+      "summary": "A gunman known to the U.S. Secret Service opened fire near the White House and was shot and killed by federal officers. President Trump was in the White House at the time.",
+      "link": "https://www.nytimes.com/2026/05/23/us/politics/white-house-shooting.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23xp-shooting-qjfk/23xp-shooting-qjfk-mediumSquareAt3X-v3.jpg",
+      "categories": [
+        "本地"
+      ],
+      "score": 70,
+      "ago": "1小时前",
+      "pub_ts": 1779592032.0,
+      "hot": false
+    },
     {
       "id": "fefd38d0e7",
       "type": "news",
@@ -17,47 +35,81 @@
       "categories": [
         "移民"
       ],
-      "score": 80,
-      "ago": "1小时前",
+      "score": 70,
+      "ago": "9小时前",
       "pub_ts": 1779565428.0,
       "hot": false
     },
     {
-      "id": "0ebaa5bab2",
+      "id": "9246e15400",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump’s Pursuit of a Partnership With China Raises Concerns in India",
-      "summary": "Secretary of State Marco Rubio has a “gargantuan task” during his visit to Delhi: defuse tensions over President Trump’s anti-India aggression and overtures to China.",
-      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-rubio-india-china.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-trump-asia-jtqm/23dc-trump-asia-jtqm-mediumSquareAt3X.jpg",
+      "title": "Iran Agreed to Give Up Enriched Uranium in Deal Announced by Trump, U.S. Officials Say",
+      "summary": "Precise details were unclear but the officials said the U.S. demanded a commitment from Iran on uranium as part of any initial agreement.",
+      "link": "https://www.nytimes.com/2026/05/23/world/middleeast/iran-deal-uranium-nuclear.html",
+      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/00mideast-HEU-jklc/00mideast-HEU-jklc-mediumSquareAt3X.jpg",
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "7小时前",
-      "pub_ts": 1779544893.0,
+      "score": 65,
+      "ago": "3小时前",
+      "pub_ts": 1779584791.0,
       "hot": false
     },
     {
-      "id": "a119a9d18d",
+      "id": "f80799c567",
       "type": "news",
       "region": "us",
-      "source": "NPR 世界",
+      "source": "NPR News",
       "lang": "en",
-      "title": "Deadliest coal mine explosion in China in years kills at least 82 people",
-      "summary": "A gas explosion at a coal mine in China's northern province of Shanxi killed at least 82 people. Official news agency Xinhua said the accident happened on Friday evening. Around 247 workers were on du",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5832405/coal-mine-gas-explosion-china",
+      "title": "Secret Service fatally shoots suspect outside White House checkpoint, bystander wounded",
+      "summary": "The suspect began shooting at posted officers, who returned fire and hit the shooter, the Secret Service said. A bystander was also shot, a law enforcement official said, but it's unclear by whom.",
+      "link": "https://www.npr.org/2026/05/23/g-s1-124148/secret-service-shooting-white-house",
       "image": null,
       "categories": [
-        "华人",
         "科技"
       ],
-      "score": 72,
-      "ago": "15小时前",
-      "pub_ts": 1779516459.0,
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779582223.0,
+      "hot": false
+    },
+    {
+      "id": "b5c60936c9",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Romanian director Cristian Mungiu's 'Fjord' wins top prize at Cannes",
+      "summary": "Mungiu took home the prestigious Palme D'Or for his film Fjord, a culture-war drama set in Norway.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5832564/palme-dor-cannes-film-festival",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 65,
+      "ago": "4小时前",
+      "pub_ts": 1779581613.0,
+      "hot": false
+    },
+    {
+      "id": "29b4d6b127",
+      "type": "news",
+      "region": "us",
+      "source": "NPR News",
+      "lang": "en",
+      "title": "Trump says a deal with Iran and opening of Strait of Hormuz are 'largely negotiated'",
+      "summary": "President Trump announced the unfinalized deal on social media after talks with Israel and other allies. It aims to end the war and includes two-month negotiations on Iran's nuclear program.",
+      "link": "https://www.npr.org/2026/05/23/g-s1-124145/trump-iran-deal-strait-of-hormuz",
+      "image": null,
+      "categories": [
+        "科技"
+      ],
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779577202.0,
       "hot": false
     },
     {
@@ -69,31 +121,68 @@
       "title": "Garden Grove Chemical Tank Could Be Inching Toward Explosion, Authorities Say",
       "summary": "Firefighters still have few options to prevent a tank of toxic chemicals in Garden Grove, Calif., from leaking or exploding.",
       "link": "https://www.nytimes.com/2026/05/23/us/garden-grove-chemical-tank-orange-county.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23nat-orange-chemical-tank-wvbk/23nat-orange-chemical-tank-wvbk-mediumSquareAt3X.jpg",
+      "image": "https://static01.nyt.com/images/2026/05/22/multimedia/22calif-chem-leak-header6p/22nat-calif-leak-mzqf-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779567012.0,
+      "score": 65,
+      "ago": "5小时前",
+      "pub_ts": 1779576871.0,
       "hot": false
     },
     {
-      "id": "09fc7ae5f3",
+      "id": "d59d6b1f7c",
       "type": "news",
       "region": "us",
-      "source": "NYT 头条",
+      "source": "NPR 世界",
       "lang": "en",
-      "title": "U.S. Ebola Travel Ban Faces Criticism From Congo Health Officials",
-      "summary": "Kinshasa residents continue to pack markets, bars and public transportation, despite growing international concern about the spread of the virus.",
-      "link": "https://www.nytimes.com/2026/05/23/world/africa/ebola-outbreak-congo-shrug.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23int-ebola-congo-shrug-jbtw/23int-ebola-congo-shrug-jbtw-mediumSquareAt3X-v2.jpg",
+      "title": "The squeeze on Cuba now includes compensation lawsuits",
+      "summary": "American University professor William LeoGrande explains how the Supreme Court's decision to allow lawsuits seeking compensation for assets seized in the Cuban revolution to move forward fits in conte",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5830447/the-squeeze-on-cuba-now-includes-compensation-lawsuits",
+      "image": null,
+      "categories": [
+        "教育",
+        "科技"
+      ],
+      "score": 60,
+      "ago": "6小时前",
+      "pub_ts": 1779573220.0,
+      "hot": false
+    },
+    {
+      "id": "cb92a4b631",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Severe global food crisis could come within the year, says UN agency",
+      "summary": "Maximo Torero, Chief Economist at The Food and Agriculture Organization of the United Nations, warns that the war in Iran is choking the global supply of fertilizer and a food crisis could follow with",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5829924/severe-global-food-crisis-could-come-within-the-year-says-un-agency",
+      "image": null,
       "categories": [
         "本地"
       ],
-      "score": 70,
-      "ago": "1小时前",
-      "pub_ts": 1779565568.0,
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779571811.0,
+      "hot": false
+    },
+    {
+      "id": "4efc02bee1",
+      "type": "news",
+      "region": "us",
+      "source": "NPR 世界",
+      "lang": "en",
+      "title": "Video shows Israeli 'double-tap strike' killed medics and a toddler in Lebanon",
+      "summary": "In Lebanon, an Israeli 'double tap' killed three medics and four others including a two-year-old girl. A neighbor's video shows what happened.",
+      "link": "https://www.npr.org/2026/05/23/nx-s1-5832504/video-shows-israeli-double-tap-strike-killed-medics-and-a-toddler-in-lebanon",
+      "image": null,
+      "categories": [
+        "本地"
+      ],
+      "score": 60,
+      "ago": "7小时前",
+      "pub_ts": 1779571441.0,
       "hot": false
     },
     {
@@ -109,8 +198,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "2小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779560808.0,
       "hot": false
     },
@@ -127,8 +216,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "10小时前",
       "pub_ts": 1779558568.0,
       "hot": false
     },
@@ -145,8 +234,8 @@
       "categories": [
         "本地"
       ],
-      "score": 65,
-      "ago": "3小时前",
+      "score": 60,
+      "ago": "11小时前",
       "pub_ts": 1779557713.0,
       "hot": false
     },
@@ -164,7 +253,7 @@
         "本地"
       ],
       "score": 60,
-      "ago": "7小时前",
+      "ago": "14小时前",
       "pub_ts": 1779545439.0,
       "hot": false
     },
@@ -184,7 +273,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1779538190.0,
       "hot": false
     },
@@ -202,7 +291,7 @@
         "科技"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "16小时前",
       "pub_ts": 1779537600.0,
       "hot": false
     },
@@ -220,62 +309,26 @@
         "本地"
       ],
       "score": 60,
-      "ago": "9小时前",
+      "ago": "17小时前",
       "pub_ts": 1779536398.0,
       "hot": false
     },
     {
-      "id": "d19d8d2849",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Chile's MAGA-inspired border control",
-      "summary": "Chile digs desert trenches along its northern border as President José Antonio Kast pushes a hardline migration crackdown critics say may have little effect.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5806607/chile-maga-inspired-border-control",
-      "image": null,
-      "categories": [
-        "移民"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779530400.0,
-      "hot": false
-    },
-    {
-      "id": "2671cc3001",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "Summer electric bills sizzle as the cost of cooling climbs",
-      "summary": "The temperature is climbing, and so are people's utility bills. Rising electricity prices and hotter-than-usual weather could make it especially costly to stay cool this summer.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5823767/summer-heat-electric-bills-cost",
-      "image": null,
-      "categories": [
-        "天气"
-      ],
-      "score": 60,
-      "ago": "11小时前",
-      "pub_ts": 1779530400.0,
-      "hot": false
-    },
-    {
-      "id": "bb7bd9018c",
+      "id": "8aebfb50e2",
       "type": "news",
       "region": "us",
       "source": "NYT 头条",
       "lang": "en",
-      "title": "Trump, Defiant After Bad Week, Pushes Ahead on Politically Unpopular Ideas",
-      "summary": "President Trump continues to act like he’s politically all-powerful, even in the face of indications that he is not.",
-      "link": "https://www.nytimes.com/2026/05/23/us/politics/trump-republicans-fund-ballroom-iran.html",
-      "image": "https://static01.nyt.com/images/2026/05/23/multimedia/23dc-trump-top-zjgf/23dc-trump-top-zjgf-mediumSquareAt3X.jpg",
+      "title": "Nicolas Cage Made Himself a Legend. Then He Had to Live With It.",
+      "summary": "The iconic actor on becoming a meme, a myth and larger than life.",
+      "link": "https://www.nytimes.com/2026/05/23/magazine/nicolas-cage-interview.html",
+      "image": "https://static01.nyt.com/images/2026/05/31/magazine/31mag-interview-cage-02/31mag-interview-cage-02-mediumSquareAt3X.jpg",
       "categories": [
         "本地"
       ],
       "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779526905.0,
+      "ago": "19小时前",
+      "pub_ts": 1779527704.0,
       "hot": false
     },
     {
@@ -294,81 +347,8 @@
         "科技"
       ],
       "score": 60,
-      "ago": "12小时前",
+      "ago": "19小时前",
       "pub_ts": 1779526816.0,
-      "hot": false
-    },
-    {
-      "id": "f2fdbe0ad2",
-      "type": "news",
-      "region": "us",
-      "source": "NPR News",
-      "lang": "en",
-      "title": "15 years since a deadly tornado brought Joplin, Mo. together, kindness carries on",
-      "summary": "Nearly 100,000 volunteers helped the town rebuild and a spirit of community service continues to this day. Researchers studying human behavior catastrophes can bring out compassion in surprising ways.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5831985/joplin-missouri-tornado-catastrophe-compassion",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "12小时前",
-      "pub_ts": 1779526800.0,
-      "hot": false
-    },
-    {
-      "id": "2af1d53519",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Trump administration to force foreigners in the U.S. to apply for a green card abroad",
-      "summary": "Foreigners in the U.S. who want a green card will need to leave and apply in their home country, the Trump administration announced Friday, in a surprise change to a longstanding policy.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5832399/trump-administration-green-card-abroad",
-      "image": null,
-      "categories": [
-        "本地"
-      ],
-      "score": 60,
-      "ago": "15小时前",
-      "pub_ts": 1779513083.0,
-      "hot": false
-    },
-    {
-      "id": "ce3870cf1d",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Rubio arrives in India ahead of Quad talks as U.S. tries to reset strained ties",
-      "summary": "U.S. Secretary of State Marco Rubio arrived in India on Saturday ahead of a meeting next week with his counterparts from India, Australia, and Japan, members of the Indo-Pacific strategic alliance.",
-      "link": "https://www.npr.org/2026/05/23/nx-s1-5832394/rubio-arrives-india",
-      "image": null,
-      "categories": [
-        "天气",
-        "科技"
-      ],
-      "score": 60,
-      "ago": "16小时前",
-      "pub_ts": 1779510662.0,
-      "hot": false
-    },
-    {
-      "id": "db1ab25e7a",
-      "type": "news",
-      "region": "us",
-      "source": "NPR 世界",
-      "lang": "en",
-      "title": "Hunger grows in Gaza as food aid is cut due to higher costs caused by war in Iran",
-      "summary": "The U.S.-Israeli war against Iran is driving up the cost of food, leading to funding shortfalls and higher expenses for critical food aid in Gaza.",
-      "link": "https://www.npr.org/2026/05/22/nx-s1-5827011/hunger-grows-in-gaza-as-food-aid-is-cut-due-to-higher-costs-caused-by-war-in-iran",
-      "image": null,
-      "categories": [
-        "科技"
-      ],
-      "score": 60,
-      "ago": "23小时前",
-      "pub_ts": 1779486378.0,
       "hot": false
     },
     {
